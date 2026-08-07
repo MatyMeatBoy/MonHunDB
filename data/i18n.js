@@ -71,6 +71,10 @@ const I18N = {
       decorationsMaterialNoMonster: "No es un material que dropeen los monstruos (recolección, minado, tienda, etc).",
       decorationsSeeMonsters: (n) => n === 1 ? "Ver el monstruo que lo da" : `Ver los ${n} monstruos que lo dan`,
       gsDecorationsSection: "Decorations",
+      brandHomeLabel: "Volver al inicio",
+      newsHeading: "Novedades",
+      newsV01Title: "Llegan los mapas de zonas de daño",
+      newsV01Text: "Empezamos a agregar siluetas interactivas con las zonas débiles y resistentes de cada monstruo, mostrando el daño por tipo de arma y elemento directamente sobre su cuerpo. Por ahora están disponibles para Rathalos y Barioth — el resto del bestiario se irá sumando de a poco.",
     },
     en: {
       appTitle: "Bestiary",
@@ -139,6 +143,10 @@ const I18N = {
       decorationsMaterialNoMonster: "Not a monster drop (gathering, mining, shop, etc).",
       decorationsSeeMonsters: (n) => n === 1 ? "See the monster that drops it" : `See the ${n} monsters that drop it`,
       gsDecorationsSection: "Decorations",
+      brandHomeLabel: "Back to home",
+      newsHeading: "News",
+      newsV01Title: "Hitzone maps have arrived",
+      newsV01Text: "We're starting to add interactive silhouettes showing each monster's weak and resistant zones, mapping damage by weapon type and element right onto its body. Available for Rathalos and Barioth for now — the rest of the bestiary will follow.",
     },
   },
 

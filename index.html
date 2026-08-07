@@ -9,7 +9,7 @@
 </head>
 <body>
   <header class="topbar">
-    <h1><span class="title-main" data-i18n="appTitle">Bestiario</span> <span class="title-sub" data-i18n="appSubtitle">MH Rise · Sunbreak</span></h1>
+    <h1 id="brand-home" class="brand-home" role="button" tabindex="0"><span class="title-main" data-i18n="appTitle">Bestiario</span> <span class="title-sub" data-i18n="appSubtitle">MH Rise · Sunbreak</span></h1>
     <div class="selector-wrap" id="monster-combobox">
       <button type="button" id="monster-trigger" class="monster-trigger" aria-haspopup="listbox" aria-expanded="false">
         <img class="trigger-icon" alt="" hidden />
@@ -39,7 +39,22 @@
     </button>
   </header>
 
-  <main id="detail" class="detail">
+  <main id="home-view" class="home-view">
+    <p class="empty-state" data-i18n="emptyState">Elegí un monstruo del listado para ver sus debilidades, resistencias, zonas y materiales.</p>
+    <section class="news-section" aria-labelledby="news-heading">
+      <h2 id="news-heading" class="news-heading" data-i18n="newsHeading">Novedades</h2>
+      <article class="news-item">
+        <div class="news-item-image" id="news-preview-v01"></div>
+        <div class="news-item-body">
+          <span class="news-item-tag">v0.1 Alpha</span>
+          <h3 class="news-item-title" data-i18n="newsV01Title">Llegan los mapas de zonas de daño</h3>
+          <p class="news-item-text" data-i18n="newsV01Text">Empezamos a agregar siluetas interactivas con las zonas débiles y resistentes de cada monstruo, mostrando el daño por tipo de arma y elemento directamente sobre su cuerpo. Por ahora están disponibles para Rathalos y Barioth — el resto del bestiario se irá sumando de a poco.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <main id="detail" class="detail" hidden>
     <p class="empty-state" data-i18n="emptyState">Elegí un monstruo del listado para ver sus debilidades, resistencias, zonas y materiales.</p>
   </main>
 

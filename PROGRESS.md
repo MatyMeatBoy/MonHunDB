@@ -126,6 +126,21 @@ Sección nueva y completamente separada de los monstruos: 243 decoraciones de Su
 - **Buscador global**: las decoraciones aparecen como sección propia, con el mismo formato "bloque expandido" que ya se usaba para materiales (ícono+nombre, habilidad, lista de materiales) — clickeable, navega directo al detalle de la decoración.
 - Bug encontrado de paso y corregido: el placeholder del buscador global (`#global-search-input`) nunca cambiaba de idioma pese a tener `data-i18n-ph` en el HTML — ese atributo nunca se procesó en JS. Se corrigió asignando el placeholder a mano en `applyUiStrings()` (mismo patrón que ya se usaba para `#monster-search`), y se aplicó el mismo fix al nuevo buscador de decoraciones.
 
+## Sueltos pendientes de documentar de la sesión anterior (2026-08-07)
+
+- **`.monster-render` más grande**: 96px → 152px → 190px en desktop/tablet (dos pedidos explícitos de "más grande"), sin tocar el breakpoint mobile (`@media (max-width: 560px)`, sigue en 68px).
+- **Favicon**: `favicon.webp`, ícono de Canyne pedido por el usuario desde una URL de Fandom. La URL traía `.png` pero el contenido real era WebP (mismo problema de content-negotiation ya visto antes con íconos de estado) — se guardó con extensión `.webp` y `<link rel="icon" type="image/webp">`.
+- **"(Ambas patas delanteras)" → "(Pata delantera)"** en `data/i18n.js` (y "Ambos cuernos" → "Cuerno"): el usuario pidió sacar la aclaración de "ambos/ambas" en la tabla compacta de materiales, ya que se sobreentiende y ocupa espacio de columna. Verificado en Zinogre.
+- **21 monstruos con materiales Afligidos incompletos, re-arreglados**: al borrar 23 filas corruptas de materiales "Afligido" (ver `DATA_NOTES.md`), esos 21 monstruos quedaron con la cadena de 3 niveles incompleta (le faltaba la fila base). Se volvió a correr `data/scrape_anomaly_materials.js` (sin cambios de código) contra los 78 monstruos y, al no chocar más con las filas corruptas, completó los 21 correctamente. Detalle completo en `DATA_NOTES.md`.
+
+## Home page: click en el título vuelve al inicio + sección de Novedades (2026-08-07)
+
+- El `<h1>` del header (`#brand-home`, `role="button" tabindex="0"`) ahora es clickeable (y responde a Enter/Espacio): llama a `showHome()` en `app.js`, que deselecciona el monstruo, limpia los parámetros `m`/`view`/`d` de la URL, cierra la vista de Decoraciones si estaba abierta, y muestra la home.
+- **Restructuración de vistas**: lo que antes era el contenido fijo de `#detail` (el párrafo de estado vacío) se movió a un `<main id="home-view">` propio, hermano de `#detail`, porque `renderMonster()` hace `detailEl.innerHTML = ""` + `appendChild` al elegir un monstruo — si la home hubiera quedado dentro de `#detail` se habría borrado en la primera selección y no se podía volver a mostrar sin reconstruirla a mano. `selectMonster()`, `showDecorationsView()` y `hideDecorationsView()` ahora togglean `homeViewEl.hidden` además de `detailEl.hidden`/`decorationsViewEl.hidden` para mantener exactamente una vista visible a la vez.
+- **Sección "Novedades/News"** dentro de `#home-view`: primera entrada, tag "v0.1 Alpha", explica que se están agregando mapas de zonas de daño (hitzones) por monstruo. La imagen de la tarjeta no usa las fotos de referencia originales (`vectores/*.png`, que tienen los colores de Frontier, no los nuestros) — `renderNewsSilhouettePreview()` en `app.js` arma sobre la marcha dos SVG chicos a partir de las formas reales trazadas en `HITZONE_SHAPES.Rathalos`/`.Barioth`, con un solo color plano (sin tooltips ni interacción, es puramente decorativo).
+- Textos bilingües nuevos en `data/i18n.js`: `brandHomeLabel`, `newsHeading`, `newsV01Title`, `newsV01Text`.
+- Verificado en navegador: click en el título desde la ficha de Rathalos vuelve a la home limpia; "← Volver a monstruos" desde Decoraciones también cae en la home (antes cualquiera de los dos casos hubiera mostrado `#detail` vacío sin la sección de novedades); toggle ES/EN traduce la tarjeta; layout responsive en mobile (375px) se ve bien apilado.
+
 ## Próximos pasos
 
 1. Esperar que termine el batch 5.

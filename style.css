@@ -50,6 +50,20 @@ body {
   letter-spacing: 0.02em;
 }
 
+.brand-home {
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.brand-home:hover .title-main {
+  color: var(--accent);
+}
+
+.brand-home:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
 .topbar h1 .title-sub {
   display: block;
   font-size: 0.72rem;
@@ -441,6 +455,82 @@ body {
   color: var(--text-dim);
   margin-top: 3rem;
   font-size: 1.05rem;
+}
+
+.home-view {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.news-section {
+  margin-top: 2.5rem;
+}
+
+.news-heading {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  margin: 0 0 0.9rem;
+}
+
+.news-item {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem;
+}
+
+.news-item-image {
+  flex: 0 0 auto;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.news-preview-svg {
+  width: 72px;
+  height: 76px;
+  background: var(--bg-panel-alt);
+  border-radius: 6px;
+}
+
+.news-item-body {
+  min-width: 0;
+}
+
+.news-item-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  background: rgba(217, 131, 42, 0.15);
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.news-item-title {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+}
+
+.news-item-text {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 560px) {
+  .news-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .monster-card {

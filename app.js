@@ -45,6 +45,8 @@ const panelEl = document.getElementById("monster-panel");
 const searchEl = document.getElementById("monster-search");
 const listEl = document.getElementById("monster-list");
 const detailEl = document.getElementById("detail");
+const homeViewEl = document.getElementById("home-view");
+const brandHomeEl = document.getElementById("brand-home");
 const tpl = document.getElementById("tpl-detail");
 const langToggleEl = document.getElementById("lang-toggle");
 const gsWrapEl = document.getElementById("global-search-wrap");
@@ -222,6 +224,7 @@ function applyUiStrings() {
   langToggleEl.querySelectorAll(".lang-opt").forEach(el => {
     el.classList.toggle("active", el.dataset.lang === lang);
   });
+  brandHomeEl.setAttribute("aria-label", ui("brandHomeLabel"));
 }
 
 async function loadMaterialTranslations() {
@@ -261,6 +264,12 @@ async function init() {
   buildMaterialIndex();
   initGlobalSearch();
   initDecorations();
+  renderNewsSilhouettePreview();
+
+  brandHomeEl.addEventListener("click", showHome);
+  brandHomeEl.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); showHome(); }
+  });
 
   const params = new URLSearchParams(location.search);
   const initial = params.get("m");
@@ -349,6 +358,9 @@ function selectMonster(name, opts = {}) {
   selectedMonster = name;
   const monster = monsters.find(m => m.name === name);
   if (monster) {
+    homeViewEl.hidden = true;
+    decorationsViewEl.hidden = true;
+    detailEl.hidden = false;
     triggerIconEl.src = iconPath(name);
     triggerIconEl.hidden = false;
     triggerIconEl.onerror = () => { triggerIconEl.hidden = true; };
@@ -364,6 +376,24 @@ function selectMonster(name, opts = {}) {
   listEl.querySelectorAll(".monster-option").forEach(el => {
     el.classList.toggle("selected", el.dataset.name === name);
   });
+}
+
+function showHome() {
+  selectedMonster = "";
+  decorationsViewEl.hidden = true;
+  detailEl.hidden = true;
+  detailEl.innerHTML = "";
+  homeViewEl.hidden = false;
+  comboboxEl.hidden = false;
+  triggerIconEl.hidden = true;
+  triggerLabelEl.textContent = ui("selectPlaceholder");
+  closePanel();
+  listEl.querySelectorAll(".monster-option").forEach(el => el.classList.remove("selected"));
+  const url = new URL(location.href);
+  url.searchParams.delete("m");
+  url.searchParams.delete("view");
+  url.searchParams.delete("d");
+  history.replaceState(null, "", url);
 }
 
 function openPanel() {
@@ -606,6 +636,7 @@ function decorationIconTag(dec) {
 
 function showDecorationsView() {
   detailEl.hidden = true;
+  homeViewEl.hidden = true;
   comboboxEl.hidden = true;
   decorationsViewEl.hidden = false;
   decorationDetailEl.hidden = true;
@@ -621,7 +652,11 @@ function showDecorationsView() {
 function hideDecorationsView() {
   decorationsViewEl.hidden = true;
   comboboxEl.hidden = false;
-  detailEl.hidden = false;
+  if (selectedMonster) {
+    detailEl.hidden = false;
+  } else {
+    homeViewEl.hidden = false;
+  }
   const url = new URL(location.href);
   url.searchParams.delete("view");
   history.replaceState(null, "", url);
@@ -1231,6 +1266,23 @@ function renderHitzoneSilhouette(container, monster) {
       renderHitzoneSilhouette(container, monster);
     });
   });
+}
+
+// Small decorative preview for the home-page news card: reuses the traced
+// silhouette shapes but with a single flat fill (no per-part stat coloring,
+// no tooltips/interactivity) since it's just illustrating "we added these".
+function renderNewsSilhouettePreview() {
+  const el = document.getElementById("news-preview-v01");
+  if (!el) return;
+  const names = ["Rathalos", "Barioth"];
+  el.innerHTML = names.map(name => {
+    const shape = HITZONE_SHAPES[name];
+    if (!shape) return "";
+    const polys = Object.values(shape.parts).flat().map(pts =>
+      `<polygon points="${pts}" fill="var(--news-preview-fill, #b8531f)" stroke="#14110f" stroke-width="2"></polygon>`
+    ).join("");
+    return `<svg class="news-preview-svg" viewBox="${shape.viewBox}" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">${polys}</svg>`;
+  }).join("");
 }
 
 function renderHitzones(container, hitzones) {
