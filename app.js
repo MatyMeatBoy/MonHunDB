@@ -63,6 +63,24 @@ const decorationDetailEl = document.getElementById("decoration-detail");
 let decorations = [];
 let materialObtainNotes = {};
 
+const weaponsNavToggleEl = document.getElementById("weapons-nav-toggle");
+const weaponsViewEl = document.getElementById("weapons-view");
+const weaponsBackEl = document.getElementById("weapons-back");
+const weaponsSearchEl = document.getElementById("weapons-search");
+const weaponsIndexEl = document.getElementById("weapons-index");
+const weaponDetailEl = document.getElementById("weapon-detail");
+const armorNavToggleEl = document.getElementById("armor-nav-toggle");
+const armorViewEl = document.getElementById("armor-view");
+const armorBackEl = document.getElementById("armor-back");
+const armorSearchEl = document.getElementById("armor-search");
+const armorIndexEl = document.getElementById("armor-index");
+const armorSetDetailEl = document.getElementById("armor-set-detail");
+let weapons = [];
+let armorPieces = [];
+let armorSets = [];
+let weaponsById = new Map();
+const ARMOR_PART_ORDER = ["head", "chest", "arms", "waist", "legs"];
+
 function normalizeSearch(s) {
   // strip accents, then "+" (ex. "Attack Jewel+ 4") so a query typed without
   // it ("attack jewel 4") still matches -- most people don't type the plus
@@ -240,10 +258,13 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, decorationsRes, obtainNotesRes] = await Promise.all([
+    const [monstersRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/decorations.json"),
       fetch("data/material_obtain_notes.json"),
+      fetch("data/weapons.json"),
+      fetch("data/armor_pieces.json"),
+      fetch("data/armor_sets.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
@@ -253,6 +274,10 @@ async function init() {
     monsters = await monstersRes.json();
     decorations = decorationsRes.ok ? await decorationsRes.json() : [];
     materialObtainNotes = obtainNotesRes.ok ? await obtainNotesRes.json() : {};
+    weapons = weaponsRes.ok ? await weaponsRes.json() : [];
+    armorPieces = armorPiecesRes.ok ? await armorPiecesRes.json() : [];
+    armorSets = armorSetsRes.ok ? await armorSetsRes.json() : [];
+    weaponsById = new Map(weapons.map(w => [w.id, w]));
   } catch (err) {
     triggerLabelEl.textContent = ui("selectError");
     detailEl.innerHTML = `<p class="empty-state">${I18N.ui[lang].loadError(err.message)}</p>`;
@@ -264,6 +289,8 @@ async function init() {
   buildMaterialIndex();
   initGlobalSearch();
   initDecorations();
+  initWeapons();
+  initArmor();
   renderNewsSilhouettePreview();
 
   brandHomeEl.addEventListener("click", showHome);
@@ -360,6 +387,8 @@ function selectMonster(name, opts = {}) {
   if (monster) {
     homeViewEl.hidden = true;
     decorationsViewEl.hidden = true;
+    weaponsViewEl.hidden = true;
+    armorViewEl.hidden = true;
     detailEl.hidden = false;
     triggerIconEl.src = iconPath(name);
     triggerIconEl.hidden = false;
@@ -381,6 +410,8 @@ function selectMonster(name, opts = {}) {
 function showHome() {
   selectedMonster = "";
   decorationsViewEl.hidden = true;
+  weaponsViewEl.hidden = true;
+  armorViewEl.hidden = true;
   detailEl.hidden = true;
   detailEl.innerHTML = "";
   homeViewEl.hidden = false;
@@ -527,6 +558,12 @@ function runGlobalSearch(query) {
       || normalizeSearch(skill.nameEs || "").includes(q);
   }).slice(0, 8);
 
+  const weaponMatches = (weapons || []).filter(w => w.isFinal && (
+    normalizeSearch(w.name).includes(q) || normalizeSearch(w.nameEs || "").includes(q)
+  )).slice(0, 6);
+
+  const armorSetMatches = (armorSets || []).filter(s => normalizeSearch(s.name).includes(q)).slice(0, 4);
+
   let html = "";
 
   if (monsterMatches.length) {
@@ -580,13 +617,47 @@ function runGlobalSearch(query) {
     }
   }
 
-  if (!monsterMatches.length && !materialMatches.length && !decorationMatches.length) {
+  if (weaponMatches.length) {
+    html += `<div class="gs-section"><div class="gs-section-title">${ui("gsWeaponsSection")}</div>`;
+    html += weaponMatches.map(w => `
+      <button type="button" class="gs-monster-row" data-weapon-id="${w.id}">
+        ${weaponIconTag(w)}
+        <span>${trWeaponName(w)}</span>
+      </button>
+    `).join("");
+    html += `</div>`;
+  }
+
+  if (armorSetMatches.length) {
+    html += `<div class="gs-section"><div class="gs-section-title">${ui("gsArmorSection")}</div>`;
+    html += armorSetMatches.map(s => {
+      const skillsSet = new Map();
+      for (const ref of s.pieces) {
+        const p = armorPieces.find(x => x.id === ref.id);
+        for (const sk of (p && p.skills) || []) skillsSet.set(sk.name, sk.level);
+      }
+      const skillsText = [...skillsSet.entries()].map(([n, lv]) => `${n} Lv${lv}`).join(", ");
+      return `<div class="gs-material-block">
+        <button type="button" class="gs-decoration-header" data-armor-set="${s.name}">
+          <img class="armor-set-thumb-sm" src="${s.localImage || s.image}" alt="" loading="lazy">
+          <span>${s.name}</span>
+        </button>
+        ${skillsText ? `<p class="gs-decoration-skill">${skillsText}</p>` : ""}
+        <ul class="gs-decoration-materials">
+          ${s.pieces.map(ref => `<li>${trArmorPart(ref.part)}: ${ref.name}</li>`).join("")}
+        </ul>
+      </div>`;
+    }).join("");
+    html += `</div>`;
+  }
+
+  if (!monsterMatches.length && !materialMatches.length && !decorationMatches.length && !weaponMatches.length && !armorSetMatches.length) {
     html = `<p class="gs-no-results">${ui("gsNoResults")}</p>`;
   }
 
   gsResultsEl.innerHTML = html;
 
-  gsResultsEl.querySelectorAll(".gs-monster-row").forEach(btn => {
+  gsResultsEl.querySelectorAll(".gs-monster-row[data-name]").forEach(btn => {
     btn.addEventListener("click", () => {
       selectMonster(btn.dataset.name);
       closeGlobalSearch();
@@ -603,6 +674,20 @@ function runGlobalSearch(query) {
     btn.addEventListener("click", () => {
       currentRank = btn.dataset.rank;
       selectMonster(btn.dataset.name);
+      closeGlobalSearch();
+    });
+  });
+  gsResultsEl.querySelectorAll("[data-weapon-id]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      showWeaponsView();
+      showWeaponDetail(btn.dataset.weaponId);
+      closeGlobalSearch();
+    });
+  });
+  gsResultsEl.querySelectorAll("[data-armor-set]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      showArmorView();
+      showArmorSetDetail(btn.dataset.armorSet);
       closeGlobalSearch();
     });
   });
@@ -791,6 +876,435 @@ function initDecorations() {
     showDecorationsView();
     const decId = params.get("d");
     if (decId && decorations.some(d => d.id === decId)) showDecorationDetail(decId);
+  }
+}
+
+// ---------- Weapons ----------
+
+function trWeaponName(w) {
+  return lang === "es" && w.nameEs ? w.nameEs : w.name;
+}
+function weaponIconTag(w) {
+  return `<img class="material-icon" src="data/images/weapons/${w.id}.webp" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`;
+}
+function weaponFirstWord(name) {
+  return name.replace(/\+/g, "").trim().split(" ")[0];
+}
+function decoSlotsTag(levels) {
+  if (!levels || !levels.length) return "";
+  return `<span class="deco-slots">${levels.map(l => `<img class="deco-slot-icon" src="data/images/icons/deco${l}.png" alt="Lv${l}" title="Lv${l}">`).join("")}</span>`;
+}
+function getWeaponChain(w) {
+  const chain = [w];
+  let cur = w;
+  while (cur.prevId && weaponsById.has(cur.prevId)) {
+    const prev = weaponsById.get(cur.prevId);
+    if (weaponFirstWord(prev.name) !== weaponFirstWord(w.name)) break;
+    chain.unshift(prev);
+    cur = prev;
+  }
+  return chain;
+}
+
+function showWeaponsView() {
+  detailEl.hidden = true;
+  homeViewEl.hidden = true;
+  comboboxEl.hidden = true;
+  decorationsViewEl.hidden = true;
+  armorViewEl.hidden = true;
+  weaponsViewEl.hidden = false;
+  weaponDetailEl.hidden = true;
+  weaponsIndexEl.hidden = false;
+  weaponsSearchEl.value = "";
+  renderWeaponsIndex("");
+  const url = new URL(location.href);
+  url.searchParams.set("view", "weapons");
+  url.searchParams.delete("m");
+  history.replaceState(null, "", url);
+}
+
+function hideWeaponsView() {
+  weaponsViewEl.hidden = true;
+  comboboxEl.hidden = false;
+  if (selectedMonster) detailEl.hidden = false;
+  else homeViewEl.hidden = false;
+  const url = new URL(location.href);
+  url.searchParams.delete("view");
+  history.replaceState(null, "", url);
+}
+
+function renderWeaponsIndex(query) {
+  const q = normalizeSearch((query || "").trim());
+  const pool = weapons.filter(w => w.isFinal);
+  const filtered = !q ? pool : weapons.filter(w =>
+    normalizeSearch(w.name).includes(q) || normalizeSearch(w.nameEs || "").includes(q)
+  );
+
+  if (!filtered.length) {
+    weaponsIndexEl.innerHTML = `<p class="no-data">${ui("weaponsNoResults")}</p>`;
+    return;
+  }
+
+  const byType = new Map();
+  for (const w of filtered) {
+    if (!byType.has(w.type)) byType.set(w.type, []);
+    byType.get(w.type).push(w);
+  }
+
+  weaponsIndexEl.innerHTML = [...byType.keys()].map(type => `
+    <div class="decorations-slot-group">
+      <h3 class="decorations-slot-heading">${type}</h3>
+      <div class="decorations-grid">
+        ${byType.get(type).map(w => `
+          <button type="button" class="decoration-card" data-id="${w.id}">
+            ${weaponIconTag(w)}
+            <span class="decoration-card-name">${trWeaponName(w)}</span>
+            <span class="decoration-card-skill">${ui("weaponsAttack")} ${w.attack ?? "—"}</span>
+          </button>
+        `).join("")}
+      </div>
+    </div>
+  `).join("");
+
+  weaponsIndexEl.querySelectorAll(".decoration-card").forEach(btn => {
+    btn.addEventListener("click", () => showWeaponDetail(btn.dataset.id));
+  });
+}
+
+function showWeaponDetail(id) {
+  const w = weaponsById.get(id);
+  if (!w) return;
+  weaponsIndexEl.hidden = true;
+  weaponDetailEl.hidden = false;
+
+  if (!materialIndex) buildMaterialIndex();
+  const materialsHtml = (w.materials || []).map(m => {
+    const sources = materialIndex.get(normalizeMaterialKey(m.material)) || [];
+    const monsterCount = new Set(sources.map(s => s.monster)).size;
+    return `<div class="gs-material-block decoration-material-block">
+      <div class="gs-material-header">
+        ${materialIconTag(m.material)}
+        <span>${trMaterial(m.material)}</span>
+        <span class="decoration-material-qty">x${m.qty}</span>
+      </div>
+      ${sources.length ? `
+        <details class="decoration-material-sources">
+          <summary>${ui("decorationsSeeMonsters")(monsterCount)}</summary>
+          ${sources.map(s => `
+          <button type="button" class="gs-source-row" data-name="${s.monster}" data-rank="${s.rank}">
+            <span class="gs-source-top">
+              <img src="${iconPath(s.monster)}" alt="" loading="lazy">
+              <span class="gs-source-name">${trMonsterName(s.monster)}</span>
+              <span class="gs-source-rank">${trRank(s.rank)}</span>
+            </span>
+            <span class="gs-source-summary">${summarizeRow(s.row) || "—"}</span>
+          </button>`).join("")}
+        </details>
+      ` : `<p class="gs-material-intro">${materialObtainNotes[m.material] ? escapeAttr(materialObtainNotes[m.material][lang]) : ui("decorationsMaterialNoMonster")}</p>`}
+    </div>`;
+  }).join("") || `<p class="no-data">${ui("noMaterialsYet")}</p>`;
+
+  const chain = getWeaponChain(w);
+  const chainHtml = chain.length > 1 ? `
+    <section class="block">
+      <h3>${ui("weaponsEarlierVersions")}</h3>
+      <div class="decorations-grid">
+        ${chain.map(cw => `
+          <button type="button" class="decoration-card${cw.id === w.id ? " selected" : ""}" data-id="${cw.id}">
+            ${weaponIconTag(cw)}
+            <span class="decoration-card-name">${trWeaponName(cw)}</span>
+            <span class="decoration-card-skill">${cw.isFinal ? ui("weaponsFinalVersion") : ("R" + cw.rarity)}</span>
+          </button>
+        `).join("")}
+      </div>
+    </section>
+  ` : "";
+
+  const elementsHtml = (w.elements || []).map(e => `<span class="mh-info-value">${elementIconTag(e.type)}${trElement(e.type)} ${e.value}</span>`).join(" ");
+
+  weaponDetailEl.innerHTML = `
+    <button type="button" class="decorations-back" id="weapon-detail-back">${ui("weaponsBack")}</button>
+    <div class="decoration-detail-header">
+      ${weaponIconTag(w)}
+      <h2>${trWeaponName(w)}</h2>
+      <span class="decoration-detail-slot">${w.type}</span>
+    </div>
+    <section class="block">
+      <ul class="stat-list">
+        <li class="stat-list-item"><span class="stat-name">${ui("weaponsAttack")}</span><span>${w.attack ?? "—"}</span></li>
+        <li class="stat-list-item"><span class="stat-name">${ui("weaponsRarity")}</span><span>${w.rarity ?? "—"}</span></li>
+        ${elementsHtml ? `<li class="stat-list-item"><span class="stat-name">${ui("weaponsElement")}</span><span>${elementsHtml}</span></li>` : ""}
+        ${w.decoSlots && w.decoSlots.length ? `<li class="stat-list-item"><span class="stat-name">${ui("weaponsDecoSlots")}</span>${decoSlotsTag(w.decoSlots)}</li>` : ""}
+      </ul>
+    </section>
+    ${chainHtml}
+    <section class="block">
+      <h3>${ui("weaponsMaterialsHeading")}</h3>
+      <div class="decoration-materials-blocks">${materialsHtml}</div>
+    </section>
+  `;
+  weaponDetailEl.querySelector("#weapon-detail-back").addEventListener("click", () => {
+    weaponDetailEl.hidden = true;
+    weaponsIndexEl.hidden = false;
+  });
+  weaponDetailEl.querySelectorAll(".decoration-card").forEach(btn => {
+    btn.addEventListener("click", () => showWeaponDetail(btn.dataset.id));
+  });
+  weaponDetailEl.querySelectorAll(".gs-source-row").forEach(btn => {
+    btn.addEventListener("click", () => {
+      currentRank = btn.dataset.rank;
+      hideWeaponsView();
+      selectMonster(btn.dataset.name);
+    });
+  });
+
+  const url = new URL(location.href);
+  url.searchParams.set("view", "weapons");
+  url.searchParams.set("w", id);
+  history.replaceState(null, "", url);
+}
+
+function initWeapons() {
+  weaponsNavToggleEl.addEventListener("click", showWeaponsView);
+  weaponsBackEl.addEventListener("click", hideWeaponsView);
+  weaponsSearchEl.addEventListener("input", () => renderWeaponsIndex(weaponsSearchEl.value));
+
+  const params = new URLSearchParams(location.search);
+  if (params.get("view") === "weapons") {
+    showWeaponsView();
+    const wId = params.get("w");
+    if (wId && weaponsById.has(wId)) showWeaponDetail(wId);
+  }
+}
+
+// ---------- Armor ----------
+
+function trArmorName(p) {
+  return lang === "es" && p.nameEs ? p.nameEs : p.name;
+}
+function trArmorPart(part) {
+  const key = "armorPart" + part.charAt(0).toUpperCase() + part.slice(1);
+  return I18N.ui[lang][key] || part;
+}
+function armorIconTag(p) {
+  const src = p.iconM ? `data/images/armor/${p.id}_m.webp` : (p.iconF ? `data/images/armor/${p.id}_f.webp` : null);
+  if (!src) return `<span class="material-icon material-icon--placeholder"></span>`;
+  return `<img class="material-icon" src="${src}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`;
+}
+let armorSetPieceIds = null;
+function getArmorSetPieceIds() {
+  if (!armorSetPieceIds) {
+    armorSetPieceIds = new Set();
+    for (const s of armorSets) for (const p of s.pieces) armorSetPieceIds.add(p.id);
+  }
+  return armorSetPieceIds;
+}
+function armorPieceMaterialsHtml(p) {
+  if (!materialIndex) buildMaterialIndex();
+  return (p.materials || []).map(m => {
+    const sources = materialIndex.get(normalizeMaterialKey(m.material)) || [];
+    const monsterCount = new Set(sources.map(s => s.monster)).size;
+    return `<div class="gs-material-block decoration-material-block">
+      <div class="gs-material-header">
+        ${materialIconTag(m.material)}
+        <span>${trMaterial(m.material)}</span>
+        <span class="decoration-material-qty">x${m.qty}</span>
+      </div>
+      ${sources.length ? `
+        <details class="decoration-material-sources">
+          <summary>${ui("decorationsSeeMonsters")(monsterCount)}</summary>
+          ${sources.map(s => `
+          <button type="button" class="gs-source-row" data-name="${s.monster}" data-rank="${s.rank}">
+            <span class="gs-source-top">
+              <img src="${iconPath(s.monster)}" alt="" loading="lazy">
+              <span class="gs-source-name">${trMonsterName(s.monster)}</span>
+              <span class="gs-source-rank">${trRank(s.rank)}</span>
+            </span>
+            <span class="gs-source-summary">${summarizeRow(s.row) || "—"}</span>
+          </button>`).join("")}
+        </details>
+      ` : `<p class="gs-material-intro">${materialObtainNotes[m.material] ? escapeAttr(materialObtainNotes[m.material][lang]) : ui("decorationsMaterialNoMonster")}</p>`}
+    </div>`;
+  }).join("") || `<p class="no-data">${ui("noMaterialsYet")}</p>`;
+}
+function armorPieceSkillsHtml(p) {
+  if (!p.skills || !p.skills.length) return "";
+  return `<ul class="chips">${p.skills.map(s => `<li class="chip">${s.name} Lv${s.level}</li>`).join("")}</ul>`;
+}
+
+function showArmorView() {
+  detailEl.hidden = true;
+  homeViewEl.hidden = true;
+  comboboxEl.hidden = true;
+  decorationsViewEl.hidden = true;
+  weaponsViewEl.hidden = true;
+  armorViewEl.hidden = false;
+  armorSetDetailEl.hidden = true;
+  armorIndexEl.hidden = false;
+  armorSearchEl.value = "";
+  renderArmorIndex("");
+  const url = new URL(location.href);
+  url.searchParams.set("view", "armor");
+  url.searchParams.delete("m");
+  history.replaceState(null, "", url);
+}
+
+function hideArmorView() {
+  armorViewEl.hidden = true;
+  comboboxEl.hidden = false;
+  if (selectedMonster) detailEl.hidden = false;
+  else homeViewEl.hidden = false;
+  const url = new URL(location.href);
+  url.searchParams.delete("view");
+  history.replaceState(null, "", url);
+}
+
+function renderArmorIndex(query) {
+  const q = normalizeSearch((query || "").trim());
+  const setMatches = !q ? armorSets : armorSets.filter(s => normalizeSearch(s.name).includes(q));
+  const usedIds = getArmorSetPieceIds();
+  const looseMatches = armorPieces.filter(p => !usedIds.has(p.id) && (!q ||
+    normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q)));
+
+  if (!setMatches.length && !looseMatches.length) {
+    armorIndexEl.innerHTML = `<p class="no-data">${ui("armorNoResults")}</p>`;
+    return;
+  }
+
+  let html = "";
+  if (setMatches.length) {
+    html += `<div class="decorations-slot-group">
+      <div class="decorations-grid">
+        ${setMatches.map((s, i) => `
+          <button type="button" class="decoration-card armor-set-card" data-set="${s.name}">
+            <img class="armor-set-thumb" src="${s.localImage || s.image}" alt="" loading="lazy">
+            <span class="decoration-card-name">${s.name}</span>
+          </button>
+        `).join("")}
+      </div>
+    </div>`;
+  }
+  if (looseMatches.length) {
+    html += `<div class="decorations-slot-group">
+      <h3 class="decorations-slot-heading">${ui("armorLoosePieces")}</h3>
+      <div class="decorations-grid">
+        ${looseMatches.map(p => `
+          <button type="button" class="decoration-card" data-piece="${p.id}">
+            ${armorIconTag(p)}
+            <span class="decoration-card-name">${trArmorName(p)}</span>
+            <span class="decoration-card-skill">${p.part ? trArmorPart(p.part) : ""}</span>
+          </button>
+        `).join("")}
+      </div>
+    </div>`;
+  }
+  armorIndexEl.innerHTML = html;
+
+  armorIndexEl.querySelectorAll("[data-set]").forEach(btn => {
+    btn.addEventListener("click", () => showArmorSetDetail(btn.dataset.set));
+  });
+  armorIndexEl.querySelectorAll("[data-piece]").forEach(btn => {
+    btn.addEventListener("click", () => showArmorPieceDetail(btn.dataset.piece));
+  });
+}
+
+function showArmorSetDetail(setName) {
+  const set = armorSets.find(s => s.name === setName);
+  if (!set) return;
+  armorIndexEl.hidden = true;
+  armorSetDetailEl.hidden = false;
+
+  const piecesHtml = ARMOR_PART_ORDER.map(part => {
+    const ref = set.pieces.find(p => p.part === part);
+    if (!ref) return "";
+    const p = armorPieces.find(x => x.id === ref.id);
+    if (!p) return "";
+    return `
+      <div class="decoration-detail-header armor-piece-header">
+        ${armorIconTag(p)}
+        <h3>${trArmorName(p)}</h3>
+        <span class="decoration-detail-slot">${trArmorPart(part)}</span>
+      </div>
+      ${p.defense ? `<p class="gs-material-intro">${ui("armorDefense")}: ${p.defense}</p>` : ""}
+      ${armorPieceSkillsHtml(p)}
+      <div class="decoration-materials-blocks">${armorPieceMaterialsHtml(p)}</div>
+    `;
+  }).join("<hr class='armor-piece-divider'>");
+
+  armorSetDetailEl.innerHTML = `
+    <button type="button" class="decorations-back" id="armor-detail-back">${ui("armorBack")}</button>
+    <div class="armor-set-detail-header">
+      <img class="armor-set-full-image" src="${set.localImage || set.image}" alt="">
+      <h2>${set.name}</h2>
+    </div>
+    <section class="block">
+      <h3>${ui("armorPiecesHeading")}</h3>
+      ${piecesHtml}
+    </section>
+  `;
+  armorSetDetailEl.querySelector("#armor-detail-back").addEventListener("click", () => {
+    armorSetDetailEl.hidden = true;
+    armorIndexEl.hidden = false;
+  });
+  armorSetDetailEl.querySelectorAll(".gs-source-row").forEach(btn => {
+    btn.addEventListener("click", () => {
+      currentRank = btn.dataset.rank;
+      hideArmorView();
+      selectMonster(btn.dataset.name);
+    });
+  });
+
+  const url = new URL(location.href);
+  url.searchParams.set("view", "armor");
+  url.searchParams.set("set", setName);
+  history.replaceState(null, "", url);
+}
+
+function showArmorPieceDetail(id) {
+  const p = armorPieces.find(x => x.id === id);
+  if (!p) return;
+  armorIndexEl.hidden = true;
+  armorSetDetailEl.hidden = false;
+  armorSetDetailEl.innerHTML = `
+    <button type="button" class="decorations-back" id="armor-detail-back">${ui("armorBack")}</button>
+    <div class="decoration-detail-header">
+      ${armorIconTag(p)}
+      <h2>${trArmorName(p)}</h2>
+      ${p.part ? `<span class="decoration-detail-slot">${trArmorPart(p.part)}</span>` : ""}
+    </div>
+    ${p.defense ? `<p class="gs-material-intro">${ui("armorDefense")}: ${p.defense}</p>` : ""}
+    <section class="block">
+      <h3>${ui("armorSkillsHeading")}</h3>
+      ${armorPieceSkillsHtml(p) || `<p class="no-data">${ui("noData")}</p>`}
+    </section>
+    <section class="block">
+      <h3>${ui("armorMaterialsHeading")}</h3>
+      <div class="decoration-materials-blocks">${armorPieceMaterialsHtml(p)}</div>
+    </section>
+  `;
+  armorSetDetailEl.querySelector("#armor-detail-back").addEventListener("click", () => {
+    armorSetDetailEl.hidden = true;
+    armorIndexEl.hidden = false;
+  });
+  armorSetDetailEl.querySelectorAll(".gs-source-row").forEach(btn => {
+    btn.addEventListener("click", () => {
+      currentRank = btn.dataset.rank;
+      hideArmorView();
+      selectMonster(btn.dataset.name);
+    });
+  });
+}
+
+function initArmor() {
+  armorNavToggleEl.addEventListener("click", showArmorView);
+  armorBackEl.addEventListener("click", hideArmorView);
+  armorSearchEl.addEventListener("input", () => renderArmorIndex(armorSearchEl.value));
+
+  const params = new URLSearchParams(location.search);
+  if (params.get("view") === "armor") {
+    showArmorView();
+    const setName = params.get("set");
+    if (setName && armorSets.some(s => s.name === setName)) showArmorSetDetail(setName);
   }
 }
 
