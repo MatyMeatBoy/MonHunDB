@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bestiario — Monster Hunter Rise: Sunbreak</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1><span class="title-main" data-i18n="appTitle">Bestiario</span> <span class="title-sub" data-i18n="appSubtitle">MH Rise · Sunbreak</span></h1>
+    <div class="selector-wrap" id="monster-combobox">
+      <button type="button" id="monster-trigger" class="monster-trigger" aria-haspopup="listbox" aria-expanded="false">
+        <img class="trigger-icon" alt="" hidden />
+        <span class="trigger-label" data-i18n="selectPlaceholder">— Elegí un monstruo o su versión —</span>
+        <span class="trigger-caret" aria-hidden="true">▾</span>
+      </button>
+      <div id="monster-panel" class="monster-panel" hidden>
+        <input type="text" id="monster-search" class="monster-search" data-i18n-ph="searchPlaceholder" placeholder="Buscar…" autocomplete="off" />
+        <div id="monster-list" class="monster-list" role="listbox"></div>
+      </div>
+    </div>
+    <div class="global-search-wrap" id="global-search-wrap">
+      <button type="button" id="global-search-toggle" class="header-icon-btn" title="Buscar" aria-expanded="false" aria-label="Buscar">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
+      </button>
+      <div id="global-search-panel" class="global-search-panel" hidden>
+        <input type="text" id="global-search-input" class="monster-search" data-i18n-ph="globalSearchPlaceholder" placeholder="Buscar monstruo o material…" autocomplete="off" />
+        <div id="global-search-results" class="global-search-results"></div>
+      </div>
+    </div>
+    <button type="button" id="decorations-nav-toggle" class="header-icon-btn header-icon-btn--label" title="Decorations" data-i18n="decorationsNav">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l3 5-9 13L3 8z"/><path d="M3 8h18M9 3l3 5-3 13M15 3l-3 5 3 13"/></svg>
+      <span data-i18n="decorationsNav">Decorations</span>
+    </button>
+    <button type="button" id="lang-toggle" class="lang-toggle" title="Idioma / Language">
+      <span class="lang-opt" data-lang="es">ES</span>/<span class="lang-opt" data-lang="en">EN</span>
+    </button>
+  </header>
+
+  <main id="detail" class="detail">
+    <p class="empty-state" data-i18n="emptyState">Elegí un monstruo del listado para ver sus debilidades, resistencias, zonas y materiales.</p>
+  </main>
+
+  <main id="decorations-view" class="decorations-view" hidden>
+    <div class="decorations-toolbar">
+      <button type="button" id="decorations-back" class="decorations-back" data-i18n="backToMonsters">← Volver a monstruos</button>
+      <input type="text" id="decorations-search" class="monster-search" data-i18n-ph="decorationsSearchPlaceholder" placeholder="Buscar decoración o habilidad…" autocomplete="off" />
+    </div>
+    <div id="decorations-index" class="decorations-index"></div>
+    <div id="decoration-detail" class="decoration-detail" hidden></div>
+  </main>
+
+  <template id="tpl-detail">
+    <article class="monster-card">
+      <div class="monster-header">
+        <img class="monster-render" alt="" hidden />
+        <div>
+          <h2 class="monster-name"></h2>
+          <p class="monster-species"></p>
+        </div>
+        <div class="monster-header-divider"></div>
+        <div class="monster-header-info">
+          <div class="mh-info-row" data-mh="element">
+            <span class="mh-info-label" data-i18n="mhInfoElement">Elemento principal</span>
+            <span class="mh-info-value"></span>
+          </div>
+        </div>
+      </div>
+
+      <section class="block" data-block="inflicts">
+        <h3 data-i18n="inflicts">Daño que inflige</h3>
+        <div class="inflicts-columns">
+          <div class="inflicts-col">
+            <h4 class="subhead" data-i18n="inflictsElements">Elementos</h4>
+            <ul class="chips attack-elements-list"></ul>
+          </div>
+          <div class="inflicts-col">
+            <h4 class="subhead" data-i18n="inflictsAilments">Estados</h4>
+            <ul class="chips inflicts-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" data-block="resistances">
+        <h3 data-i18n="resistances">Resistencias</h3>
+        <ul class="stat-list resistances-list"></ul>
+      </section>
+
+      <section class="block" data-block="elements">
+        <h3 data-i18n="weaknesses">Debilidades elementales</h3>
+        <ul class="stat-list weaknesses-list"></ul>
+      </section>
+
+      <section class="block" data-block="hitzones">
+        <h3 data-i18n="hitzones">Debilidades por parte del cuerpo</h3>
+        <p class="hz-legend">
+          <span class="hz-dot hz-best"></span> <span data-i18n="hzLegendBest">Mejor elemento</span>
+          <span class="hz-dot hz-ok"></span> <span data-i18n="hzLegendOk">Efectivo</span>
+          <span class="hz-dot hz-zero"></span> <span data-i18n="hzLegendZero">Sin efecto</span>
+        </p>
+        <div class="hitzones-table-wrap"></div>
+        <div class="hz-silhouette-wrap"></div>
+      </section>
+
+      <section class="block" data-block="ailments">
+        <h3 data-i18n="ailments">Susceptibilidad a estados</h3>
+        <ul class="stat-list ailments-list"></ul>
+      </section>
+
+      <section class="block" data-block="materials">
+        <h3 data-i18n="materials">Materiales por rareza</h3>
+        <div class="rank-tabs"></div>
+        <div class="materials-table-wrap">
+          <table class="materials-table">
+            <thead>
+              <tr>
+                <th data-i18n="colMaterial">Material</th>
+                <th data-i18n="colRarity">Rareza</th>
+                <th data-i18n="colTarget">Recompensa</th>
+                <th data-i18n="colCapture">Captura</th>
+                <th data-i18n="colBreak">Rotura</th>
+                <th data-i18n="colCarve">Carveo</th>
+                <th data-i18n="colDropped">Dropeo</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="block" data-block="locations">
+        <h3 data-i18n="locations">Zonas de aparición</h3>
+        <ul class="chips locations-list"></ul>
+      </section>
+    </article>
+  </template>
+
+  <script src="data/i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

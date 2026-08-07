@@ -1,0 +1,906 @@
+[
+  {
+    "name": "Aknosom",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight"
+    ]
+  },
+  {
+    "name": "Almudron",
+    "ok": true,
+    "element": [
+      "Water"
+    ],
+    "abnormalStatus": [
+      "Stun",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Amatsu",
+    "ok": true,
+    "element": [
+      "Thunder",
+      "Water"
+    ],
+    "abnormalStatus": [
+      "Stun",
+      "Thunderblight",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Anjanath",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Apex Arzuros",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Stun"
+    ]
+  },
+  {
+    "name": "Apex Diablos",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Stun"
+    ]
+  },
+  {
+    "name": "Apex Mizutsune",
+    "ok": true,
+    "element": [
+      "Water"
+    ],
+    "abnormalStatus": [
+      "Blastblight",
+      "Bubbleblight",
+      "Hellfireblight",
+      "Stun",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Apex Rathalos",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Apex Rathian",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Apex Zinogre",
+    "ok": true,
+    "element": [
+      "Thunder"
+    ],
+    "abnormalStatus": [
+      "Stun",
+      "Thunderblight"
+    ]
+  },
+  {
+    "name": "Arzuros",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Stun"
+    ]
+  },
+  {
+    "name": "Astalos",
+    "ok": true,
+    "element": [
+      "Thunder"
+    ],
+    "abnormalStatus": [
+      "Stun",
+      "Thunderblight"
+    ]
+  },
+  {
+    "name": "Aurora Somnacanth",
+    "ok": true,
+    "element": [
+      "Ice"
+    ],
+    "abnormalStatus": [
+      "Iceblight",
+      "Sleep",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Barioth",
+    "ok": true,
+    "element": [
+      "Ice"
+    ],
+    "abnormalStatus": [
+      "Iceblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Barroth",
+    "ok": true,
+    "element": [
+      "Water"
+    ],
+    "abnormalStatus": [
+      "Muck",
+      "<Stun",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Basarios",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Poison",
+      "Sleep",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Bazelgeuse",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Bishaten",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Paralysis",
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Blood Orange Bishaten",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Paralysis",
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Chameleos",
+    "ok": true,
+    "element": [
+      "Dragon"
+    ],
+    "abnormalStatus": [
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Chaotic Gore Magala",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Frenzy",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Crimson Glow Valstrax",
+    "ok": true,
+    "element": [
+      "Dragon"
+    ],
+    "abnormalStatus": [
+      "Dragon",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Daimyo Hermitaur",
+    "ok": true,
+    "element": [
+      "Water"
+    ],
+    "abnormalStatus": [
+      "Stun",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Diablos",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Stun"
+    ]
+  },
+  {
+    "name": "Espinas",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Paralysis",
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Flaming Espinas",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Paralysis",
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Furious Rajang",
+    "ok": true,
+    "element": [
+      "Thunder"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Iceblight",
+      "Stun",
+      "Thunderblight",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Gaismagorm",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Blastblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Garangolm",
+    "ok": true,
+    "element": [
+      "Fire",
+      "Water"
+    ],
+    "abnormalStatus": [
+      "Blastblight",
+      "Fireblight",
+      "Iceblight",
+      "Stun",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Gold Rathian",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Gore Magala",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Goss Harag",
+    "ok": true,
+    "element": [
+      "Ice"
+    ],
+    "abnormalStatus": [
+      "Iceblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Great Baggi",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Sleep",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Great Izuchi",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Stun"
+    ]
+  },
+  {
+    "name": "Great Wroggi",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Jyuratodus",
+    "ok": true,
+    "element": [
+      "Water"
+    ],
+    "abnormalStatus": [
+      "Stun",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Khezu",
+    "ok": true,
+    "element": [
+      "Thunder"
+    ],
+    "abnormalStatus": [
+      "Stun",
+      "Thunderblight"
+    ]
+  },
+  {
+    "name": "Kulu-Ya-Ku",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Stun"
+    ]
+  },
+  {
+    "name": "Kushala Daora",
+    "ok": true,
+    "element": [
+      "Dragon",
+      "Ice"
+    ],
+    "abnormalStatus": [
+      "Dragonblight",
+      "Iceblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Lagombi",
+    "ok": true,
+    "element": [
+      "Ice"
+    ],
+    "abnormalStatus": [
+      "Iceblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Lucent Nargacuga",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Lunagaron",
+    "ok": true,
+    "element": [
+      "Ice"
+    ],
+    "abnormalStatus": [
+      "Iceblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Magma Almudron",
+    "ok": true,
+    "element": [
+      "Fire",
+      "Water"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Stun",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Magnamalo",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Hellfireblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Malzeno",
+    "ok": true,
+    "element": [
+      "Dragon"
+    ],
+    "abnormalStatus": [
+      "Bloodblight",
+      "Dragonblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Mizutsune",
+    "ok": true,
+    "element": [
+      "Water"
+    ],
+    "abnormalStatus": [
+      "Bubbleblight",
+      "Stun",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Nargacuga",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Stun"
+    ]
+  },
+  {
+    "name": "Narwa the Allmother",
+    "ok": true,
+    "element": [
+      "Thunder"
+    ],
+    "abnormalStatus": [
+      "Stun",
+      "Thunderblight"
+    ]
+  },
+  {
+    "name": "Primordial Malzeno",
+    "ok": true,
+    "element": [
+      "Dragon"
+    ],
+    "abnormalStatus": [
+      "Bloodblight",
+      "Dragonblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Pukei-Pukei",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Pyre Rakna-Kadaki",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Rajang",
+    "ok": true,
+    "element": [
+      "Thunder"
+    ],
+    "abnormalStatus": [
+      "Stun",
+      "Thunderblight"
+    ]
+  },
+  {
+    "name": "Rakna-Kadaki",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Rathalos",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Rathian",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Risen Chameleos",
+    "ok": true,
+    "element": [
+      "Dragon"
+    ],
+    "abnormalStatus": [
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Risen Crimson Glow Valstrax",
+    "ok": true,
+    "element": [
+      "Dragon"
+    ],
+    "abnormalStatus": [
+      "Dragonblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Risen Kushala Daora",
+    "ok": true,
+    "element": [
+      "Dragon",
+      "Ice"
+    ],
+    "abnormalStatus": [
+      "Dragonblight",
+      "Iceblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Risen Shagaru Magala",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Frenzy",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Risen Teostra",
+    "ok": true,
+    "element": [
+      "Dragon",
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Blastblight",
+      "Fireblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Royal Ludroth",
+    "ok": true,
+    "element": [
+      "Water"
+    ],
+    "abnormalStatus": [
+      "Stun",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Scorned Magnamalo",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Hellfireblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Seething Bazelgeuse",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Seregios",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Bleeding",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Shagaru Magala",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Shogun Ceanataur",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Bleeding",
+      "Stun",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Silver Rathalos",
+    "ok": true,
+    "element": [
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Poison",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Somnacanth",
+    "ok": true,
+    "element": [
+      "Water"
+    ],
+    "abnormalStatus": [
+      "Blastblight",
+      "Sleep",
+      "Stun",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Teostra",
+    "ok": true,
+    "element": [
+      "Dragon",
+      "Fire"
+    ],
+    "abnormalStatus": [
+      "Blastblight",
+      "Fireblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Tetranadon",
+    "ok": true,
+    "element": [
+      "Water"
+    ],
+    "abnormalStatus": [
+      "Stun",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Thunder Serpent Narwa",
+    "ok": true,
+    "element": [
+      "Dragon",
+      "Thunder"
+    ],
+    "abnormalStatus": [
+      "Thunderblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Tigrex",
+    "ok": true,
+    "element": [
+      "Fire",
+      "Ice",
+      "Water"
+    ],
+    "abnormalStatus": [
+      "Fireblight",
+      "Iceblight",
+      "Stun",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Tobi-Kadachi",
+    "ok": true,
+    "element": [
+      "Thunder"
+    ],
+    "abnormalStatus": [
+      "Thunderblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Velkhana",
+    "ok": true,
+    "element": [
+      "Ice"
+    ],
+    "abnormalStatus": [
+      "Iceblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Violet Mizutsune",
+    "ok": true,
+    "element": [
+      "Fire",
+      "Water"
+    ],
+    "abnormalStatus": [
+      "Bubbleblight",
+      "Fireblight",
+      "Stun",
+      "Waterblight"
+    ]
+  },
+  {
+    "name": "Volvidon",
+    "ok": true,
+    "element": [
+      "None"
+    ],
+    "abnormalStatus": [
+      "Paralysis",
+      "Stench",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Wind Serpent Ibushi",
+    "ok": true,
+    "element": [
+      "Dragon"
+    ],
+    "abnormalStatus": [
+      "Dragonblight",
+      "Stun"
+    ]
+  },
+  {
+    "name": "Zinogre",
+    "ok": true,
+    "element": [
+      "Thunder"
+    ],
+    "abnormalStatus": [
+      "Stun",
+      "Thunderblight"
+    ]
+  }
+]

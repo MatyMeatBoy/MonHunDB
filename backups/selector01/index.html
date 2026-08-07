@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bestiario — Monster Hunter Rise: Sunbreak</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1><span class="title-main" data-i18n="appTitle">Bestiario</span> <span class="title-sub" data-i18n="appSubtitle">MH Rise · Sunbreak</span></h1>
+    <div class="selector-wrap">
+      <label for="monster-select" class="sr-only" data-i18n="selectPlaceholder">Elegí un monstruo o su versión</label>
+      <select id="monster-select" aria-label="Elegí un monstruo o su versión">
+        <option value="" data-i18n="selectLoading">Cargando monstruos…</option>
+      </select>
+    </div>
+    <button type="button" id="lang-toggle" class="lang-toggle" title="Idioma / Language">
+      <span class="lang-opt" data-lang="es">ES</span>/<span class="lang-opt" data-lang="en">EN</span>
+    </button>
+  </header>
+
+  <main id="detail" class="detail">
+    <p class="empty-state" data-i18n="emptyState">Elegí un monstruo del listado para ver sus debilidades, resistencias, zonas y materiales.</p>
+  </main>
+
+  <template id="tpl-detail">
+    <article class="monster-card">
+      <div class="monster-header">
+        <img class="monster-render" alt="" hidden />
+        <div>
+          <h2 class="monster-name"></h2>
+          <p class="monster-species"></p>
+        </div>
+      </div>
+
+      <section class="block" data-block="inflicts">
+        <h3 data-i18n="inflicts">Daño que inflige</h3>
+        <div class="inflicts-columns">
+          <div class="inflicts-col">
+            <h4 class="subhead" data-i18n="inflictsElements">Elementos</h4>
+            <ul class="chips attack-elements-list"></ul>
+          </div>
+          <div class="inflicts-col">
+            <h4 class="subhead" data-i18n="inflictsAilments">Estados</h4>
+            <ul class="chips inflicts-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" data-block="resistances">
+        <h3 data-i18n="resistances">Resistencias</h3>
+        <ul class="stat-list resistances-list"></ul>
+      </section>
+
+      <section class="block" data-block="elements">
+        <h3 data-i18n="weaknesses">Debilidades elementales</h3>
+        <ul class="stat-list weaknesses-list"></ul>
+      </section>
+
+      <section class="block" data-block="hitzones">
+        <h3 data-i18n="hitzones">Debilidades por parte del cuerpo</h3>
+        <p class="hz-legend">
+          <span class="hz-dot hz-best"></span> <span data-i18n="hzLegendBest">Mejor elemento</span>
+          <span class="hz-dot hz-ok"></span> <span data-i18n="hzLegendOk">Efectivo</span>
+          <span class="hz-dot hz-zero"></span> <span data-i18n="hzLegendZero">Sin efecto</span>
+        </p>
+        <div class="hitzones-table-wrap"></div>
+      </section>
+
+      <section class="block" data-block="ailments">
+        <h3 data-i18n="ailments">Susceptibilidad a estados</h3>
+        <ul class="stat-list ailments-list"></ul>
+      </section>
+
+      <section class="block" data-block="materials">
+        <h3 data-i18n="materials">Materiales por rareza</h3>
+        <div class="rank-tabs"></div>
+        <div class="materials-table-wrap">
+          <table class="materials-table">
+            <thead>
+              <tr>
+                <th data-i18n="colMaterial">Material</th>
+                <th data-i18n="colRarity">Rareza</th>
+                <th data-i18n="colTarget">Recompensa</th>
+                <th data-i18n="colCapture">Captura</th>
+                <th data-i18n="colBreak">Rotura</th>
+                <th data-i18n="colCarve">Carveo</th>
+                <th data-i18n="colDropped">Dropeo</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="block" data-block="locations">
+        <h3 data-i18n="locations">Zonas de aparición</h3>
+        <ul class="chips locations-list"></ul>
+      </section>
+    </article>
+  </template>
+
+  <script src="data/i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

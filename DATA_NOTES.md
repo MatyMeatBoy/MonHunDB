@@ -1,0 +1,104 @@
+## Decoraciones / Adornos (2026-08-06)
+
+Se agregó una sección completa nueva, separada de los monstruos: **Adornos** (botón en el header, junto al buscador). Cubre las 243 decoraciones de MH Rise: Sunbreak (accesorios de armadura que otorgan una habilidad al equiparlos).
+
+- **Datos**: `data/decorations.json`, scrapeado con `data/scrape_decorations.js` desde [mhrise.kiranico.com/data/decorations](https://mhrise.kiranico.com/data/decorations) (listado EN) + su versión `/es/` (nombres y habilidades en español, mismo ID numérico para cruzar) + una página de detalle por decoración (243 fetches) para los materiales de creación, que no están en el listado. Cada decoración: `id`, `name`/`nameEs`, `slotLevel` (1-4, se lee del número al final del nombre), `description`, `skills[]` (nombre/nivel/efecto en ambos idiomas), `materials[]` (nombre + cantidad).
+- **Íconos**: la decoración en sí no tiene arte único por ítem en Kiranico — son gemas genéricas por color+nivel de ranura. Se sacaron de grindosaur.com/en/games/monster-hunter-rise/decorations (51 archivos distintos reutilizados entre las 243). Dos decoraciones (`Paralyzer Jewel+ 4`, `Backstab Jewel+ 4`) no estaban en el listado de grindosaur (parece un faltante de ellos, no nuestro) — se les asignó a mano el ícono del mismo color/familia en nivel 4 que ya teníamos descargado.
+- **Materiales de creación**: 426 materiales distintos usados en total. Todas las traducciones ES ya existían en `kiranico_item_translations.json` (de un pull más amplio hecho antes). 50 íconos no existían (materiales de crafteo que nunca aparecen en tablas de monstruos, ej. joyas base, minerales, hierbas) — se identificaron las 46 decoraciones mínimas necesarias para cubrir esos 50 nombres y se les sacó el ícono de la propia página de detalle de Kiranico (mismo patrón `<img src=".../items/{id}.png">` que ya usábamos para material rows).
+- **Búsqueda global**: las decoraciones ahora aparecen como sección propia en el buscador del header (por nombre de decoración o de habilidad), clickeable, navega directo a su detalle.
+- Nota de calidad: la descripción scrapeada de algunas decoraciones "+4" viene rota desde el propio Kiranico (ej. "A decoration that enhances the  skill." con doble espacio, sin el nombre de la habilidad insertado en su plantilla) — es un bug de la fuente, no nuestro; no se muestra la descripción en la UI así que no es visible, pero queda anotado por si se usa a futuro.
+
+### Ampliación (2026-08-07): vínculo a monstruos + desplegable
+
+A pedido del usuario, el detalle de cada decoración ahora reutiliza `materialIndex` (el mismo índice que arma la búsqueda global reversa monstruo↔material) para mostrar, por cada material de creación, qué monstruo(s) lo dropean, en qué rango y con qué probabilidad — igual formato que el bloque de materiales del buscador global. Cada material lo muestra dentro de un `<details>` colapsado por defecto (mismo patrón que "Susceptibilidad a estados"), con un botón por monstruo que navega directo a su página (`hideDecorationsView()` + `selectMonster()`). Si el material no aparece en `materialIndex` (no es un drop de monstruo — recolección, minado, tienda), se muestra un aviso en vez de un desplegable vacío.
+
+# Notas de calidad de datos — casos a revisar
+
+Estos son los casos donde los agentes de recolección encontraron datos ambiguos, contradictorios, o no estándar en Fextralife. Se documentan acá para revisarlos a mano antes de confiar 100% en ellos. Ninguno fue inventado — donde hubo duda, se dejó `null` en vez de adivinar un número.
+
+## Confirmados y corregidos
+
+- **Scorned Magnamalo**: inmune a Fuego **y** Dragón (no solo Fuego). Verificado con WebFetch directo, corregido en `data/monsters.json`. Reportado por el usuario, quien tenía razón.
+- **"Rathalos Marrow" / "Rathalos Medulla" sin traducción ni ícono (2026-08-06)**: el usuario reportó que "Rathalos Marrow" no tenía ni traducción ni imagen. Causa: el nombre oficial del ítem en el juego es **"Rath Marrow"** / **"Rath Medulla"** (mismo patrón que "Rath Wingtalon", que sí funcionaba bien) — pero en `data/monsters.json` esos dos materiales específicos de Rathalos base quedaron guardados con el prefijo completo "Rathalos" en vez de "Rath", probablemente un error del scraping original de Fextralife. La traducción ES (`Tuétano de Rath` / `Médula de Rath`) y el ícono (`rath-marrow.png` / `rath-medulla.png`) **ya existían** en `kiranico_item_translations.json` y `material_icon_manifest.json` — el lookup fallaba porque las claves no calzaban con el nombre guardado en `monsters.json`. Se corrigió renombrando el `material` en `monsters.json` (4 filas de Marrow, 3 de Medulla) de "Rathalos X" a "Rath X". Confirmado con grindosaur.com/en/.../rathalos: sus íconos e IDs de item usan "Rath Marrow"/"Rath Medulla" también. Dato curioso al verificar: el ícono de Marrow y Medulla es **el mismo archivo** dentro de cada familia de monstruo (ej. Diablos Marrow == Diablos Medulla, Rath Marrow == Rath Medulla) — confirmado que es así en el arte original del juego, no un error de descarga. Traducción confirmada por el usuario contra Kiranico directamente: [mhworld.kiranico.com/es/items/lpy1e/tuetano-de-rath](https://mhworld.kiranico.com/es/items/lpy1e/tuetano-de-rath) ("Tuétano de Rath"). **Para futuros casos de material sin traducción/ícono: revisar primero si el nombre en `monsters.json` coincide exactamente con el nombre oficial del ítem en Kiranico — el patrón "Rath X" vs "Rathalos X" es la causa más probable de un lookup fallido, no que falte el dato en sí.**
+
+## Nivel de Anomalía en materiales "(Anomaly Quests)" (2026-08-06)
+
+El usuario notó que los materiales de anomalía ("Hueso afligido", "Cuerno sello afligido / Risen Dragonbone", etc.) no indicaban en qué nivel mínimo de investigación de anomalía caen — el dato original de Fextralife solo trae el token genérico "(Anomaly Quests)"/"(Anomaly)" sin número, para las 86 filas de materiales que lo usan. No es un bug de traducción/scraping, es un dato que la fuente original nunca tuvo.
+
+Se agregó `ANOMALY_LEVEL_RANGE` en `app.js` (cerca de `trPartTokens`) con el rango mínimo-máximo (Lv./Nvl.) para los 54 nombres de material de las 9 cadenas EX1–EX9 completas. Fuente: tabla EX1–EX9 que el usuario pasó como imagen (mapea grupo EX + nivel mínimo a cada cadena de materiales "Afflicted X → Afflicted X+ → Afflicted Hard-X"), cruzada contra [game8.co/games/Monster-Hunter-Rise/archives/381534](https://game8.co/games/Monster-Hunter-Rise/archives/381534) para confirmar los números base. `annotateAnomalyLevel()` inserta el rango dentro del paréntesis existente, ej. `40% (Misiones de Anomalía)` → `40% (Misiones de Anomalía, Nvl. 51-100)`, o `Nvl. 161+` para el tier final de cada cadena (sin tope superior documentado). Normaliza la clave con `normalizeMaterialKey()` (mismo fix del espacio-antes-del-"+") antes de buscar, así cubre ambas variantes del nombre. Si aparece un material de anomalía nuevo que no está en la tabla, la función no rompe nada — simplemente no le agrega nivel.
+
+### Materiales afligidos faltantes por completo (2026-08-06)
+
+El usuario notó que Rathalos (y otros monstruos) no mostraban NINGÚN material afligido, mientras que Kiranico ([mhrise.kiranico.com](https://mhrise.kiranico.com/es/data/monsters/395307913)) sí los tenía. Investigado: no fue una regresión mía — **27 de los 78 monstruos nunca tuvieron filas de materiales "Afflicted"/"Risen" en los datos**, porque el scraping original (de Fextralife) simplemente no las capturó para esos monstruos (aunque sí existen en el juego). Los otros 51 monstruos sí las tenían.
+
+Se corrigió con `data/scrape_anomaly_materials.js`: para cada uno de los 78 monstruos, scrapea la sección `id="materials-master-rank"` de su página de grindosaur.com (que sí lista filas "Afflicted X" / "Risen X" con método Target/Broken Part/Carve/Drop + %), y agrega como fila nueva solo los materiales que ese monstruo todavía no tenía por nombre exacto — nunca toca ni borra filas existentes. Resultado: **105 filas nuevas agregadas en total**, cubriendo 38 nombres de material distintos que antes no existían en ningún monstruo. Los íconos y traducciones ES de esos 38 nombres **ya existían** en `material_icon_manifest.json` y `kiranico_item_translations.json` (de scrapeos previos más amplios que nunca se habían usado) — no hizo falta descargar ni traducir nada nuevo, solo detectar que las claves ya calzaban (`data/download_anomaly_icons.js` lo confirmó: 0 descargas, 38 ya cubiertos).
+
+Monstruos que siguen en 0 después de esto (verificado que es correcto, no un fallo del script — sus páginas de grindosaur genuinamente no listan ningún material "Afflicted"): las variantes Apex/Risen ya cubiertas por el monstruo base, y varios Dragones Ancianos (Teostra, Kushala Daora, Chameleos, Narwa, Ibushi, Velkhana, Malzeno, Gaismagorm) — no son objetivo de Investigaciones de Anomalía en el juego.
+
+## Pendientes de verificación manual
+
+- **Apex Rathian (Master Rank)**: la tabla de materiales incluye dos filas atípicas, "Melding Pudding" y "Melding Honey" — no son materiales de monstruo típicos (suenan a items de crafteo/melding). Aparecieron igual en dos fetches independientes del agente del batch 3, así que se dejaron tal cual, pero conviene confirmar contra otra fuente (ej. Kiranico o el juego) si realmente pertenecen a la tabla de drops de Apex Rathian o si es un error de extracción de la página (tablas vecinas mezcladas).
+- **Astalos**: primera extracción mostró Dragón como debilidad Y como resistencia al mismo tiempo (contradictorio). El agente del batch 6 priorizó la tabla de debilidades y descartó la resistencia a Dragón, dejando solo Thunder como inmune. Revisar contra la wiki directamente si hace falta más precisión.
+- **Gore Magala**: la wiki no expone estrellas para su debilidad a Fuego/Thunder en el resumen (solo texto plano). Quedó con `stars: null`. Su "species" quedó como "Unknown" porque el juego lo clasifica como "???" oficialmente.
+- **Risen Chameleos**: sin niveles de estrella para debilidades (Fire/Dragon/Thunder) ni resistencias/ailments — la wiki no los expone con estrellas para esta variante endgame. Todo quedó `null`/vacío en vez de inventar.
+- **Narwa the Allmother**: resistencia a Thunder no está clara si es "immune" o solo "resistant" — quedó como `stars: null` sin `immune`.
+- **Shogun Ceanataur**: inflige "Bleed" (Sangrado) según el resumen de la wiki — es un dato inusual (no es un ailment típico de MH Rise base) pero está confirmado explícitamente en la página, se dejó tal cual.
+
+## Sistema de idioma ES/EN (2026-08-05)
+
+Se agregó un selector de idioma (botón "ES/EN" en el header, persiste en `localStorage`) que traduce: elementos, estados/plagas, partes del cuerpo, especies, ubicaciones, rangos, encabezados de tabla, y materiales.
+
+- **Materiales**: diccionario armado cruzando por ID numérico las páginas de Kiranico en español (`https://mhrise.kiranico.com/es/data/items?view=material`) e inglés — 1199 pares en la vista `material`, +230 más de las vistas `consume`/`scrap` (incluye peces, frutas, insectos — no se usan todavía en la app pero quedan guardados para features futuras). Cobertura: **796 de 816 materiales únicos (97.5%)**. Los ~20 restantes (`Wyvern Tear`, `Rathalos Marrow`/`Medulla`, `Volvi Carapace`/`Rickrack`, algunos `+`) no aparecieron en ninguna vista de Kiranico probada (`material`, `consume`, `scrap`, `mystery`, `hub`, `village`) — quedan sin traducir y la app cae de forma segura al nombre en inglés en vez de romperse. `Rathalos Marrow` y `Rathalos Medulla` aparecen como dos materiales distintos en los datos — posible duplicado/error de nombres del scraping original de Fextralife, a revisar. `Volvi Carapace`/`Volvi Rickrack` probablemente deberían decir "Volvidon" completo — sospecha de abreviación accidental del agente que scrapeó ese batch.
+- **Partes del cuerpo**: 61 valores únicos en `data/i18n.js` → `bodyParts`. Los 7 de Jyuratodus (Cabeza, Cuello, Torso, Espalda, Aleta, Pata, Cola) fueron **confirmados directamente por el usuario** contra una captura del juego. El resto son traducción de buena fe siguiendo la terminología estándar de la saga — no verificados 1:1 contra el juego todavía.
+- **Especies** (Bird Wyvern, Piscine Wyvern, Carapaceon, Temnoceran, etc.): corregidas y verificadas contra la taxonomía oficial en [monsterhunter.fandom.com/es/wiki/Bestiario](https://monsterhunter.fandom.com/es/wiki/Bestiario) (el usuario detectó que "Piscine Wyvern" estaba mal como "Wyvern píscido" — el término oficial es **Wyvern Nadador**). Confianza alta ahora en todas.
+- **Ubicaciones especiales** (Coral Palace, Forlorn Arena, Infernal Springs, Red Stronghold, Rampage): son mapas de misiones específicas de historia/Sunbreak, confianza más baja en el nombre oficial exacto — revisar si se nota algo raro.
+- **Blast → "Nitro"**: confirmado directamente por captura de pantalla del usuario (no es traducción libre, es el término oficial del juego).
+- **Nombres de monstruos** (`monsterNames` en `data/i18n.js`): muchas variantes (Apex, Risen, Gold, Silver, etc.) tienen nombre distinto en español, no es solo un prefijo/sufijo traducido literal. Verificados contra el mismo listado oficial de [monsterhunter.fandom.com/es/wiki/Bestiario](https://monsterhunter.fandom.com/es/wiki/Bestiario), cruzando categoría por categoría contra los 78 de nuestro roster. Ej: "Apex Rathalos" → "Rathalos Apex" (sufijo, no prefijo), "Risen Teostra" → "Teostra elevado", "Scorned Magnamalo" → **"Magnamalo Humillado"** (confirmado, coincide con como el usuario lo llamó desde el principio). Dos casos con confianza media, no listados explícitamente en esa página pero inferidos por patrón de nombres consistente en la misma categoría: "Seething Bazelgeuse" → "Bazelgeuse Magma", "Lucent Nargacuga" → "Nargacuga Lunar".
+- **Tokens sueltos en celdas de materiales** (rotura/carveo/dropeo, ej. "40% (Anomaly Quests)"): se detectó que quedaban sin traducir porque no son partes del cuerpo del hitzone sino calificadores de método de recompensa. Se hizo un barrido de las 816 filas de materiales para encontrar todos los tokens entre paréntesis (51 únicos) y se completó `bodyParts` en `i18n.js` con los que faltaban (Anomaly Quests, Wyvern Riding, Buddy Gathering, Beak, Carapace, etc.).
+- **Columna de Aturdimiento en hitzones**: el usuario preguntó si se podía sacar por ser redundante (siempre en Cabeza). Se revisaron los 78 monstruos: hay 6 excepciones, la mayoría en zonas de la cabeza (Hocico, Aleta de cabeza, Antena, Cuerno) pero **Great Wroggi tiene 100% en el Cuerpo** — no es redundante, se mantuvo la columna.
+
+## Elementos que inflige cada monstruo (2026-08-05)
+
+Se agregó el campo `attackElements` (qué elemento de ataque tiene el monstruo, no debilidad/resistencia) — se me había pasado en la recolección original. Se sacó del "Quick Facts" de grindosaur.com (campo "Element") para los 78, con `data/scrape_grindosaur_quickfacts.js`. Ahora se muestra junto a "Estados que inflige" en una sola tarjeta ("Daño que inflige"), separados por una línea.
+
+- **Caso dudoso: Tigrex** — grindosaur lista "Fire, Ice, Water" como sus 3 elementos simultáneos, algo atípico (Tigrex tradicionalmente no es un monstruo elemental en la mayoría de los juegos de la saga). Se verificó que no es un error de mi scraping — la página de grindosaur realmente tiene esos 3 valores en el Quick Facts. Podría ser un error de la wiki en sí. Se dejó tal cual viene de la fuente, marcado acá para que se revise si se nota raro en el juego.
+- El resto de los monstruos con múltiples elementos (Amatsu: Rayo+Agua; Garangolm: Fuego+Agua; Magma Almudron: Fuego+Agua; Kushala Daora: Dragón+Hielo; Teostra/Risen Teostra: Dragón+Fuego; Violet Mizutsune: Fuego+Agua; Thunder Serpent Narwa: Dragón+Rayo) tienen más sentido temático y no se marcaron como dudosos.
+
+## Inmunidades condicionales (barro/magma) (2026-08-05, corregido el mismo día)
+
+El usuario señaló que Barroth solo es inmune al Agua mientras conserva su coraza de barro. Primera versión tenía la dirección **al revés** (decía inmune CON barro) — el usuario lo corrigió: la pista de combate de Fextralife dice literalmente "usa armas de Agua para **disolver** el barro", o sea el Agua es efectiva contra el barro (débil), y recién al sacarlo la piel base resiste el Agua (inmune).
+
+Dirección correcta, ya aplicada: **"Agua (sin barro)" → Inmune** / **"Agua (con barro)" → Débil**. Se cambió el modelo de datos de una nota a pie de página a un campo `conditionalResistances` (array de `{labelEs, labelEn, immune|weak, confirmed}`) que se muestra como filas propias dentro de la tarjeta de Resistencias, con borde punteado y un ⚠ si no está confirmado.
+
+- **Barroth** (Agua): confirmado por el usuario.
+- **Jyuratodus** (Agua) y **Almudron** (Agua): mismo patrón encontrado — ambos son "inmunes al Agua" en la tabla general Y comparten textualmente la misma pista de combate en Fextralife. Muy probable que aplique el mismo mecanismo (misma dirección corregida), pero **no está confirmado explícitamente** por la wiki para estos dos — marcados con ⚠ en la app hasta confirmar.
+- **Magma Almudron** (Fuego): variante de Almudron cubierta en magma en vez de barro, mismo razonamiento aplicado a su inmunidad al Fuego. Tampoco confirmado explícitamente.
+- Se revisaron también Volvidon y Zinogre (por su mecánica de "estado cargado") pero no se encontró el mismo patrón textual de "usar tal elemento para quitar la coraza", así que no se les agregó nota.
+- De paso se encontró y corregió (de nuevo) el bug de `text-transform: capitalize` en `.stat-name` — rompía "sin barro"/"con barro" igual que rompió "Bestia de Colmillos" y "Plaga de fuego" antes. Esta vez se sacó el `text-transform` de raíz de la regla base en vez de parchar caso por caso, ya que todos los datos ya vienen bien capitalizados desde el JS.
+
+## Corrección de nombres de zonas de aparición (2026-08-06)
+
+El usuario señaló que varias traducciones de ubicaciones estaban mal y pasó la fuente oficial: [monsterhunter.fandom.com/es/wiki/MHRise:_Lugares](https://monsterhunter.fandom.com/es/wiki/MHRise:_Lugares). Se corrigieron contra esa página (nombres oficiales en español del juego, no traducción libre):
+
+| Inglés | Antes (mal) | Ahora (oficial) |
+|---|---|---|
+| Shrine Ruins | Ruinas Sagradas | **Templo Olvidado** |
+| Sandy Plains | Llanura Arenosa | **Llanos Arenosos** |
+| Flooded Forest | Bosque Anegado | **Bosque Inundado** |
+| Lava Caverns | Cavernas de Lava | **Grutas de Lava** |
+| Citadel | La Ciudadela | **Bastión** |
+| Jungle | La Selva | **La Jungla** |
+| Coral Palace | Palacio de Coral | **Palacio Coralino** |
+| Forlorn Arena | Arena Desolada | **Arena Olvidada** |
+| Infernal Springs | Manantiales Infernales | **Fuente Infernal** |
+| Red Stronghold | Fortaleza Roja | **Fortaleza** |
+
+Frost Islands (Islas Heladas) ya estaba bien. "The Allmother" sigue siendo un dato sospechoso — parece un error de scraping donde el propio nombre de Narwa the Allmother terminó listado como una de sus zonas de aparición; no es un lugar real del juego. Pendiente de limpiar cuando se revise ese monstruo puntualmente.
+
+## Bug de íconos de materiales corregido (2026-08-06)
+
+`slugify()` en el script de descarga de íconos borraba el "+" del nombre, así que pares como "Aknosom Scale"/"Aknosom Scale+" competían por el mismo archivo (**113 pares, 226 materiales afectados** — incluye "Afflicted Claw", detectado por el usuario). Corregido: `data/fix_material_icon_collisions.js` re-descargó los 226 con sufijo `-plus` en el nombre de archivo cuando corresponde. El scraper original (`scrape_material_icons.js`) también quedaría desactualizado para una corrida nueva — si se vuelve a correr desde cero, aplicar el mismo fix de slugify ahí también.
+
+## Limitación conocida (afecta a todos los monstruos)
+
+- **`rarity` de materiales**: Fextralife no expone ese dato en las tablas de recompensas de forma estructurada, así que quedó `null` en absolutamente todos los materiales de todos los monstruos. Si se quiere completar, hay que buscar otra fuente (ej. Kiranico, que sí lo muestra pero bloquea el fetch automático con 403).

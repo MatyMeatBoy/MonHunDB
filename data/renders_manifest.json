@@ -1,0 +1,547 @@
+[
+  {
+    "name": "Aknosom",
+    "ok": true,
+    "file": "data/images/aknosom.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/2/23/MHRise-Aknosom_Render_001.png/revision/latest?cb=20200917143656",
+    "bytes": 124680
+  },
+  {
+    "name": "Almudron",
+    "ok": true,
+    "file": "data/images/almudron.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/7/71/MHRise-Almudron_Render_001.png/revision/latest?cb=20210217222745",
+    "bytes": 660356
+  },
+  {
+    "name": "Amatsu",
+    "ok": true,
+    "file": "data/images/amatsu.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/e/ec/MHRS-Amatsu_Render_001.png/revision/latest?cb=20230419141937",
+    "bytes": 330260
+  },
+  {
+    "name": "Anjanath",
+    "ok": true,
+    "file": "data/images/anjanath.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/6/6b/MHRise-Anjanath_Render_001.png/revision/latest?cb=20210308144806",
+    "bytes": 1558562
+  },
+  {
+    "name": "Apex Arzuros",
+    "ok": true,
+    "file": "data/images/apex-arzuros.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/b/b0/MHRise-Apex_Arzuros_Render_001.png/revision/latest?cb=20210308144111",
+    "bytes": 1655986
+  },
+  {
+    "name": "Apex Diablos",
+    "ok": true,
+    "file": "data/images/apex-diablos.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/7/7e/MHRise-Apex_Diablos_Render_001.png/revision/latest?cb=20210427142753",
+    "bytes": 579822
+  },
+  {
+    "name": "Apex Mizutsune",
+    "ok": true,
+    "file": "data/images/apex-mizutsune.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/b/bf/MHRise-Apex_Mizutsune_Render_001.png/revision/latest?cb=20210409201334",
+    "bytes": 294536
+  },
+  {
+    "name": "Apex Rathalos",
+    "ok": true,
+    "file": "data/images/apex-rathalos.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/5/55/MHRise-Apex_Rathalos_Render_001.png/revision/latest?cb=20210427142855",
+    "bytes": 552098
+  },
+  {
+    "name": "Apex Rathian",
+    "ok": true,
+    "file": "data/images/apex-rathian.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/7/70/MHRise-Apex_Rathian_Render_001.png/revision/latest?cb=20210409201005",
+    "bytes": 340946
+  },
+  {
+    "name": "Apex Zinogre",
+    "ok": true,
+    "file": "data/images/apex-zinogre.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/b/bf/MHRise-Apex_Zinogre_Render_001.png/revision/latest?cb=20240731183127",
+    "bytes": 913926
+  },
+  {
+    "name": "Arzuros",
+    "ok": true,
+    "file": "data/images/arzuros.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/e/ed/MHRise-Arzuros_Render_001.png/revision/latest?cb=20210323140920",
+    "bytes": 696292
+  },
+  {
+    "name": "Astalos",
+    "ok": true,
+    "file": "data/images/astalos.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/b/be/MHRS-Astalos_Render_001.png/revision/latest?cb=20220315142856",
+    "bytes": 320404
+  },
+  {
+    "name": "Aurora Somnacanth",
+    "ok": true,
+    "file": "data/images/aurora-somnacanth.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/b/b6/MHRS-Aurora_Somnacanth_Render_001.png/revision/latest?cb=20220510143239",
+    "bytes": 306578
+  },
+  {
+    "name": "Barioth",
+    "ok": true,
+    "file": "data/images/barioth.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/2/2f/MHRise-Barioth_Render_001.png/revision/latest?cb=20210107151601",
+    "bytes": 549890
+  },
+  {
+    "name": "Barroth",
+    "ok": true,
+    "file": "data/images/barroth.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/3/3a/MHRise-Barroth_Render_001.png/revision/latest?cb=20210501170957",
+    "bytes": 640918
+  },
+  {
+    "name": "Basarios",
+    "ok": true,
+    "file": "data/images/basarios.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/3/36/MHRise-Basarios_Render_001.png/revision/latest?cb=20210217223050",
+    "bytes": 498996
+  },
+  {
+    "name": "Bazelgeuse",
+    "ok": true,
+    "file": "data/images/bazelgeuse.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/3/3c/MH20th-Bazelgeuse_Render_001.png/revision/latest?cb=20231121183629",
+    "bytes": 136946
+  },
+  {
+    "name": "Bishaten",
+    "ok": true,
+    "file": "data/images/bishaten.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/e/eb/MHRise-Bishaten_Render_001.png/revision/latest?cb=20201211021621",
+    "bytes": 593230
+  },
+  {
+    "name": "Blood Orange Bishaten",
+    "ok": true,
+    "file": "data/images/blood-orange-bishaten.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/5/57/MHRS-Blood_Orange_Bishaten_Render_001.png/revision/latest?cb=20220315143115",
+    "bytes": 294286
+  },
+  {
+    "name": "Chameleos",
+    "ok": true,
+    "file": "data/images/chameleos.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/0/0d/MHRise-Chameleos_Render_001.png/revision/latest?cb=20210427142621",
+    "bytes": 661956
+  },
+  {
+    "name": "Chaotic Gore Magala",
+    "ok": true,
+    "file": "data/images/chaotic-gore-magala.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/1/1e/MHRS-Chaotic_Gore_Magala_Render_001.png/revision/latest?cb=20221116142027",
+    "bytes": 453826
+  },
+  {
+    "name": "Crimson Glow Valstrax",
+    "ok": true,
+    "file": "data/images/crimson-glow-valstrax.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/7/78/MHRise-Crimson_Glow_Valstrax_Render_001.png/revision/latest?cb=20210526142732",
+    "bytes": 766218
+  },
+  {
+    "name": "Daimyo Hermitaur",
+    "ok": true,
+    "file": "data/images/daimyo-hermitaur.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/c/cd/MHRS-Daimyo_Hermitaur_Render_001.png/revision/latest?cb=20220613224421",
+    "bytes": 286532
+  },
+  {
+    "name": "Diablos",
+    "ok": true,
+    "file": "data/images/diablos.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/3/39/MHRise-Diablos_Render_001.png/revision/latest?cb=20210217223736",
+    "bytes": 529624
+  },
+  {
+    "name": "Espinas",
+    "ok": true,
+    "file": "data/images/espinas.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/8/8e/MHRS-Espinas_Render_001.png/revision/latest?cb=20220613223637",
+    "bytes": 296710
+  },
+  {
+    "name": "Flaming Espinas",
+    "ok": true,
+    "file": "data/images/flaming-espinas.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/3/3f/MHRS-Flaming_Espinas_Render_001.png/revision/latest?cb=20220826031550",
+    "bytes": 391292
+  },
+  {
+    "name": "Furious Rajang",
+    "ok": true,
+    "file": "data/images/furious-rajang.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/0/0e/MHRS-Furious_Rajang_Render_001.png/revision/latest?cb=20220628131645",
+    "bytes": 198524
+  },
+  {
+    "name": "Gaismagorm",
+    "ok": true,
+    "file": "data/images/gaismagorm.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/9/90/MHRS-Gaismagorm_Render_001.png/revision/latest?cb=20230608072025",
+    "bytes": 542464
+  },
+  {
+    "name": "Garangolm",
+    "ok": true,
+    "file": "data/images/garangolm.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/2/2d/MHRS-Garangolm_Render_001.png/revision/latest?cb=20220315142816",
+    "bytes": 296882
+  },
+  {
+    "name": "Gold Rathian",
+    "ok": true,
+    "file": "data/images/gold-rathian.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/c/c8/MHRS-Gold_Rathian_Render_001.png/revision/latest?cb=20220810033845",
+    "bytes": 274352
+  },
+  {
+    "name": "Gore Magala",
+    "ok": true,
+    "file": "data/images/gore-magala.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/1/19/MHWilds-Gore_Magala_Render_001.png/revision/latest?cb=20250204234508",
+    "bytes": 1390742
+  },
+  {
+    "name": "Goss Harag",
+    "ok": true,
+    "file": "data/images/goss-harag.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/7/77/MHRise-Goss_Harag_Render_001.png/revision/latest?cb=20210107143026",
+    "bytes": 880248
+  },
+  {
+    "name": "Great Baggi",
+    "ok": true,
+    "file": "data/images/great-baggi.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/a/a7/MHRise-Great_Baggi_Render_001.png/revision/latest?cb=20210107145723",
+    "bytes": 611054
+  },
+  {
+    "name": "Great Izuchi",
+    "ok": true,
+    "file": "data/images/great-izuchi.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/8/8e/MHRise-Great_Izuchi_Render_001.png/revision/latest?cb=20210111072217",
+    "bytes": 85586
+  },
+  {
+    "name": "Great Wroggi",
+    "ok": true,
+    "file": "data/images/great-wroggi.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/9/91/MHRise-Great_Wroggi_Render_001.png/revision/latest?cb=20201211023428",
+    "bytes": 540312
+  },
+  {
+    "name": "Jyuratodus",
+    "ok": true,
+    "file": "data/images/jyuratodus.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/7/70/MHRise-Jyuratodus_Render_001.png/revision/latest?cb=20210308135419",
+    "bytes": 1726596
+  },
+  {
+    "name": "Khezu",
+    "ok": true,
+    "file": "data/images/khezu.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/8/85/MHRise-Khezu_Render_001.png/revision/latest?cb=20210107145339",
+    "bytes": 515204
+  },
+  {
+    "name": "Kulu-Ya-Ku",
+    "ok": true,
+    "file": "data/images/kulu-ya-ku.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/0/0e/MHRise-Kulu-Ya-Ku_Render_001.png/revision/latest?cb=20210308150155",
+    "bytes": 1776238
+  },
+  {
+    "name": "Kushala Daora",
+    "ok": true,
+    "file": "data/images/kushala-daora.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/0/07/MHRise-Kushala_Daora_Render_001.png/revision/latest?cb=20210427142445",
+    "bytes": 429414
+  },
+  {
+    "name": "Lagombi",
+    "ok": true,
+    "file": "data/images/lagombi.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/d/db/MHRise-Lagombi_Render_001.png/revision/latest?cb=20210107153206",
+    "bytes": 871292
+  },
+  {
+    "name": "Lucent Nargacuga",
+    "ok": true,
+    "file": "data/images/lucent-nargacuga.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/4/4f/MHRS-Lucent_Nargacuga_Render_001.png/revision/latest?cb=20220614000141",
+    "bytes": 331038
+  },
+  {
+    "name": "Lunagaron",
+    "ok": true,
+    "file": "data/images/lunagaron.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/b/b0/MHRS-Lunagaron_Render_001.png/revision/latest?cb=20211210005633",
+    "bytes": 260288
+  },
+  {
+    "name": "Magma Almudron",
+    "ok": true,
+    "file": "data/images/magma-almudron.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/9/9d/MHRS-Magma_Almudron_Render_001.png/revision/latest?cb=20220510143425",
+    "bytes": 266958
+  },
+  {
+    "name": "Magnamalo",
+    "ok": true,
+    "file": "data/images/magnamalo.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/7/72/MHRise-Magnamalo_Render_001.png/revision/latest?cb=20200917143525",
+    "bytes": 176692
+  },
+  {
+    "name": "Malzeno",
+    "ok": true,
+    "file": "data/images/malzeno.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/2/20/MHRS-Malzeno_Render_001.png/revision/latest?cb=20210930140533",
+    "bytes": 127458
+  },
+  {
+    "name": "Mizutsune",
+    "ok": true,
+    "file": "data/images/mizutsune.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/6/61/MHWilds-Mizutsune_Render_001.png/revision/latest?cb=20250325144419",
+    "bytes": 162260
+  },
+  {
+    "name": "Nargacuga",
+    "ok": true,
+    "file": "data/images/nargacuga.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/2/23/MHRise-Nargacuga_Render_001.png/revision/latest?cb=20210308140819",
+    "bytes": 1243254
+  },
+  {
+    "name": "Narwa the Allmother",
+    "ok": true,
+    "file": "data/images/narwa-the-allmother.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/3/36/MH20th-Narwa_the_Allmother_Render_001.png/revision/latest?cb=20231121183257",
+    "bytes": 111954
+  },
+  {
+    "name": "Primordial Malzeno",
+    "ok": true,
+    "file": "data/images/primordial-malzeno.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/7/76/MH20th-Primordial_Malzeno_Render_001.png/revision/latest?cb=20240325035848",
+    "bytes": 100600
+  },
+  {
+    "name": "Pukei-Pukei",
+    "ok": true,
+    "file": "data/images/pukei-pukei.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/1/13/MHRise-Pukei-Pukei_Render_001.png/revision/latest?cb=20210308150521",
+    "bytes": 1521368
+  },
+  {
+    "name": "Pyre Rakna-Kadaki",
+    "ok": true,
+    "file": "data/images/pyre-rakna-kadaki.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/3/3b/MHRS-Pyre_Rakna-Kadaki_Render_001.png/revision/latest?cb=20220613224619",
+    "bytes": 390210
+  },
+  {
+    "name": "Rajang",
+    "ok": true,
+    "file": "data/images/rajang.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/6/6d/MHRise-Rajang_Render_001.png/revision/latest?cb=20210217224211",
+    "bytes": 805716
+  },
+  {
+    "name": "Rakna-Kadaki",
+    "ok": true,
+    "file": "data/images/rakna-kadaki.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/5/5e/MHRise-Rakna-Kadaki_Render_001.png/revision/latest?cb=20210217222509",
+    "bytes": 935828
+  },
+  {
+    "name": "Rathalos",
+    "ok": true,
+    "file": "data/images/rathalos.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/1/12/MHWilds-Rathalos_Render_001.png/revision/latest?cb=20251112050049",
+    "bytes": 451562
+  },
+  {
+    "name": "Rathian",
+    "ok": true,
+    "file": "data/images/rathian.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/5/52/RathianWilds.png/revision/latest?cb=20250207223610",
+    "bytes": 1194770
+  },
+  {
+    "name": "Risen Chameleos",
+    "ok": true,
+    "file": "data/images/risen-chameleos.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/5/5c/MHRS-Risen_Chameleos_Render_001.png/revision/latest?cb=20220915142029",
+    "bytes": 469944
+  },
+  {
+    "name": "Risen Crimson Glow Valstrax",
+    "ok": true,
+    "file": "data/images/risen-crimson-glow-valstrax.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/8/87/MHRS-Risen_Crimson_Glow_Valstrax_Render_001.png/revision/latest?cb=20230201231938",
+    "bytes": 359462
+  },
+  {
+    "name": "Risen Kushala Daora",
+    "ok": true,
+    "file": "data/images/risen-kushala-daora.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/8/8e/MHRS-Risen_Kushala_Daora_Render_001.png/revision/latest?cb=20221116142618",
+    "bytes": 382004
+  },
+  {
+    "name": "Risen Shagaru Magala",
+    "ok": true,
+    "file": "data/images/risen-shagaru-magala.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/5/58/MHRS-Risen_Shagaru_Magala_Render_001.png/revision/latest?cb=20230419142116",
+    "bytes": 444012
+  },
+  {
+    "name": "Risen Teostra",
+    "ok": true,
+    "file": "data/images/risen-teostra.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/9/95/MHRS-Risen_Teostra_Render_001.png/revision/latest?cb=20221116142311",
+    "bytes": 362524
+  },
+  {
+    "name": "Royal Ludroth",
+    "ok": true,
+    "file": "data/images/royal-ludroth.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/c/c9/MHRise-Royal_Ludroth_Render_001.png/revision/latest?cb=20201211023126",
+    "bytes": 798984
+  },
+  {
+    "name": "Scorned Magnamalo",
+    "ok": true,
+    "file": "data/images/scorned-magnamalo.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/7/75/MHRS-Scorned_Magnamalo_Render_001.png/revision/latest?cb=20220628131742",
+    "bytes": 539178
+  },
+  {
+    "name": "Seething Bazelgeuse",
+    "ok": true,
+    "file": "data/images/seething-bazelgeuse.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/5/58/MHRS-Seething_Bazelgeuse_Render_001.png/revision/latest?cb=20220629042340",
+    "bytes": 249144
+  },
+  {
+    "name": "Seregios",
+    "ok": true,
+    "file": "data/images/seregios.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/e/ed/MHWilds-Seregios_Render_001.png/revision/latest?cb=20250626233511",
+    "bytes": 455046
+  },
+  {
+    "name": "Shagaru Magala",
+    "ok": true,
+    "file": "data/images/shagaru-magala.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/c/c6/MHRS-Shagaru_Magala_Render_001.png/revision/latest?cb=20220628131552",
+    "bytes": 265058
+  },
+  {
+    "name": "Shogun Ceanataur",
+    "ok": true,
+    "file": "data/images/shogun-ceanataur.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/7/7b/MHRS-Shogun_Ceanataur_Render_001.png/revision/latest?cb=20210930140712",
+    "bytes": 107932
+  },
+  {
+    "name": "Silver Rathalos",
+    "ok": true,
+    "file": "data/images/silver-rathalos.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/7/75/MHRS-Silver_Rathalos_Render_001.png/revision/latest?cb=20220810033833",
+    "bytes": 234436
+  },
+  {
+    "name": "Somnacanth",
+    "ok": true,
+    "file": "data/images/somnacanth.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/e/e5/MHRise-Somnacanth_Render_001.png/revision/latest?cb=20201211021402",
+    "bytes": 717758
+  },
+  {
+    "name": "Teostra",
+    "ok": true,
+    "file": "data/images/teostra.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/2/29/MHRise-Teostra_Render_001.png/revision/latest?cb=20210427142335",
+    "bytes": 429558
+  },
+  {
+    "name": "Tetranadon",
+    "ok": false,
+    "reason": "no-infobox",
+    "pageUrl": "https://monsterhunter.fandom.com/wiki/Tetranadon"
+  },
+  {
+    "name": "Thunder Serpent Narwa",
+    "ok": true,
+    "file": "data/images/thunder-serpent-narwa.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/e/e9/MHRise-Thunder_Serpent_Narwa_Render_001.png/revision/latest?cb=20211022001824",
+    "bytes": 386810
+  },
+  {
+    "name": "Tigrex",
+    "ok": true,
+    "file": "data/images/tigrex.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/2/21/MHRise-Tigrex_Render_001.png/revision/latest?cb=20210107154255",
+    "bytes": 450054
+  },
+  {
+    "name": "Tobi-Kadachi",
+    "ok": true,
+    "file": "data/images/tobi-kadachi.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/2/22/MHRise-Tobi-Kadachi_Render_001.png/revision/latest?cb=20210308135404",
+    "bytes": 1265472
+  },
+  {
+    "name": "Velkhana",
+    "ok": true,
+    "file": "data/images/velkhana.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/1/1d/MHRS-Velkhana_Render_001.png/revision/latest?cb=20230201231825",
+    "bytes": 477802
+  },
+  {
+    "name": "Violet Mizutsune",
+    "ok": true,
+    "file": "data/images/violet-mizutsune.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/7/78/MHRS-Violet_Mizutsune_Render_001.png/revision/latest?cb=20220915142039",
+    "bytes": 480898
+  },
+  {
+    "name": "Volvidon",
+    "ok": true,
+    "file": "data/images/volvidon.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/d/d7/MHRise-Volvidon_Render_001.png/revision/latest?cb=20210217223350",
+    "bytes": 948350
+  },
+  {
+    "name": "Wind Serpent Ibushi",
+    "ok": true,
+    "file": "data/images/wind-serpent-ibushi.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/b/b0/MHRise-Wind_Serpent_Ibushi_Render_001.png/revision/latest?cb=20211022001605",
+    "bytes": 255798
+  },
+  {
+    "name": "Zinogre",
+    "ok": true,
+    "file": "data/images/zinogre.png",
+    "sourceUrl": "https://static.wikia.nocookie.net/monsterhunter/images/3/37/MHRise-Zinogre_Render_001.png/revision/latest?cb=20210308141128",
+    "bytes": 1619726
+  }
+]

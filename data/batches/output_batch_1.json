@@ -1,0 +1,653 @@
+[
+  {
+    "name": "Aknosom",
+    "species": "Bird Wyvern",
+    "locations": ["Shrine Ruins", "Frost Islands", "The Jungle"],
+    "weaknesses": [
+      {"element": "Thunder", "stars": 3},
+      {"element": "Water", "stars": 2},
+      {"element": "Ice", "stars": 1}
+    ],
+    "resistances": [
+      {"element": "Fire", "immune": true},
+      {"element": "Dragon", "immune": true}
+    ],
+    "ailmentSusceptibility": [
+      {"ailment": "Poison", "stars": 1},
+      {"ailment": "Sleep", "stars": 1},
+      {"ailment": "Paralysis", "stars": 1},
+      {"ailment": "Blast", "stars": 2},
+      {"ailment": "Stun", "stars": 1},
+      {"ailment": "Exhaust", "stars": 1},
+      {"ailment": "Fireblight", "stars": 1},
+      {"ailment": "Waterblight", "stars": 2},
+      {"ailment": "Thunderblight", "stars": 1},
+      {"ailment": "Iceblight", "stars": 1}
+    ],
+    "inflicts": ["Fireblight"],
+    "materials": {
+      "Low Rank": [
+        {"material": "Aknosom Scale", "rarity": null, "targetReward": "24%", "capture": "24%", "breakParts": "30% (Beak), 10% (Tail)", "carves": "43% (Body)", "dropped": "35%, 70%"},
+        {"material": "Aknosom Feather", "rarity": null, "targetReward": "32%", "capture": "39%", "breakParts": "100% (Wing)", "carves": "31% (Body)", "dropped": "15%, 30%"},
+        {"material": "Aknosom Beak", "rarity": null, "targetReward": "8%", "capture": "12%", "breakParts": "70% (Beak)", "carves": "5% (Body)", "dropped": ""},
+        {"material": "Flame Sac", "rarity": null, "targetReward": "24%", "capture": "20%", "breakParts": "", "carves": "21% (Body)", "dropped": ""},
+        {"material": "Monster Bone M", "rarity": null, "targetReward": "12%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Aknosom Crest", "rarity": null, "targetReward": "", "capture": "5%", "breakParts": "100% (Crest)", "carves": "", "dropped": ""},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "50%"}
+      ],
+      "High Rank": [
+        {"material": "Aknosom Scale+", "rarity": null, "targetReward": "21%", "capture": "21%", "breakParts": "25% (Beak), 100% (Tail)", "carves": "41% (Body)", "dropped": "34%, 70%"},
+        {"material": "Aknosom Feather+", "rarity": null, "targetReward": "30%", "capture": "36%", "breakParts": "100% (Wing)", "carves": "29% (Body)", "dropped": "15%, 30%"},
+        {"material": "Aknosom Beak", "rarity": null, "targetReward": "12%", "capture": "15%", "breakParts": "70% (Beak)", "carves": "8% (Body)", "dropped": ""},
+        {"material": "Inferno Sac", "rarity": null, "targetReward": "24%", "capture": "18%", "breakParts": "", "carves": "19% (Body)", "dropped": ""},
+        {"material": "Bird Wyvern Gem", "rarity": null, "targetReward": "3%", "capture": "5%", "breakParts": "5% (Beak)", "carves": "3% (Body)", "dropped": "1%"},
+        {"material": "Monster Keenbone", "rarity": null, "targetReward": "10%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Aknosom Crest+", "rarity": null, "targetReward": "", "capture": "5%", "breakParts": "100% (Crest)", "carves": "", "dropped": ""},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "30%"},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "20%"}
+      ],
+      "Master Rank": [
+        {"material": "Aknosom Shard", "rarity": null, "targetReward": "21%", "capture": "20%", "breakParts": "25% (Beak), 100% (Tail)", "carves": "39% (Body)", "dropped": "34%, 70%"},
+        {"material": "Aknosom Plume", "rarity": null, "targetReward": "30%", "capture": "33%", "breakParts": "100% (Wing)", "carves": "27% (Body)", "dropped": "15%, 30%"},
+        {"material": "Aknosom Burnbeak", "rarity": null, "targetReward": "12%", "capture": "15%", "breakParts": "70% (Beak)", "carves": "8% (Body)", "dropped": ""},
+        {"material": "Conflagrant Sac", "rarity": null, "targetReward": "24%", "capture": "17%", "breakParts": "", "carves": "18% (Body)", "dropped": ""},
+        {"material": "Fey Wyvern Gem", "rarity": null, "targetReward": "3%", "capture": "4%", "breakParts": "5% (Beak)", "carves": "3% (Body)", "dropped": "1%"},
+        {"material": "Monster Toughbone", "rarity": null, "targetReward": "10%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Aknosom Head-Crest", "rarity": null, "targetReward": "", "capture": "5%", "breakParts": "100% (Crest)", "carves": "", "dropped": ""},
+        {"material": "Bird Wyvern Gem", "rarity": null, "targetReward": "", "capture": "6%", "breakParts": "", "carves": "5% (Body)", "dropped": ""},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "20%"},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "30%"},
+        {"material": "Afflicted Monster Bone", "rarity": null, "targetReward": "", "capture": "", "breakParts": "20% (Anomaly Quests)", "carves": "20% (Anomaly Quests)", "dropped": ""}
+      ]
+    }
+  },
+  {
+    "name": "Apex Mizutsune",
+    "species": "Leviathan",
+    "locations": ["Shrine Ruins", "Frost Islands", "Flooded Forest", "Infernal Springs", "Red Stronghold"],
+    "weaknesses": [
+      {"element": "Thunder", "stars": 3},
+      {"element": "Dragon", "stars": 1}
+    ],
+    "resistances": [
+      {"element": "Water", "immune": true},
+      {"element": "Fire", "stars": null}
+    ],
+    "ailmentSusceptibility": [
+      {"ailment": "Poison", "stars": 1},
+      {"ailment": "Sleep", "stars": 0},
+      {"ailment": "Paralysis", "stars": 0},
+      {"ailment": "Blast", "stars": 2},
+      {"ailment": "Stun", "stars": 1},
+      {"ailment": "Exhaust", "stars": 0},
+      {"ailment": "Fireblight", "stars": 1},
+      {"ailment": "Waterblight", "stars": 1},
+      {"ailment": "Thunderblight", "stars": 2},
+      {"ailment": "Iceblight", "stars": 1}
+    ],
+    "inflicts": ["Waterblight", "Bubble"],
+    "materials": {
+      "High Rank": [
+        {"material": "Apex Bubblefoam", "rarity": null, "targetReward": "6%", "capture": "", "breakParts": "31% (Head), 28% (Tail)", "carves": "12% (Body)", "dropped": ""},
+        {"material": "Mizutsune Scale+", "rarity": null, "targetReward": "38%", "capture": "", "breakParts": "", "carves": "41% (Body)", "dropped": "58%, 60%"},
+        {"material": "Mizutsune Purplefur+", "rarity": null, "targetReward": "29%", "capture": "", "breakParts": "65% (Tail), 30% (Dorsal Fin), 20% (Right Claw), 20% (Left Claw)", "carves": "28% (Body), 13% (Tail)", "dropped": "40%"},
+        {"material": "Mizutsune Claw+", "rarity": null, "targetReward": "15%", "capture": "", "breakParts": "80% (Right Claw), 80% (Left Claw)", "carves": "15% (Body)", "dropped": ""},
+        {"material": "Mizutsune Tail", "rarity": null, "targetReward": "5%", "capture": "", "breakParts": "", "carves": "75% (Tail)", "dropped": ""},
+        {"material": "Mizutsune Plate", "rarity": null, "targetReward": "5%", "capture": "", "breakParts": "7% (Head), 5% (Tail)", "carves": "3% (Body), 7% (Tail)", "dropped": ""},
+        {"material": "Mizutsune Water Orb", "rarity": null, "targetReward": "2%", "capture": "", "breakParts": "5% (Head), 2% (Tail)", "carves": "1% (Body), 5% (Tail)", "dropped": "2%"},
+        {"material": "Mizutsune Fin+", "rarity": null, "targetReward": "", "capture": "", "breakParts": "60% (Head), 57% (Dorsal Fin), 10% x2 (Dorsal Fin)", "carves": "", "dropped": ""},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "40%"}
+      ],
+      "Master Rank": [
+        {"material": "Apex Bubblefoam", "rarity": null, "targetReward": "3%", "capture": "", "breakParts": "25% (Head), 28% (Tail)", "carves": "10% (Body)", "dropped": ""},
+        {"material": "Mizutsune Shard", "rarity": null, "targetReward": "20%", "capture": "", "breakParts": "", "carves": "41% (Body)", "dropped": "58%, 60%"},
+        {"material": "Mizutsune Purplefell", "rarity": null, "targetReward": "13%", "capture": "", "breakParts": "30% (Dorsal Fin), 20% (Right Claw), 20% (Left Claw), 69% (Tail)", "carves": "30% (Body), 15% (Tail)", "dropped": "40%"},
+        {"material": "Mizutsune Hardclaw", "rarity": null, "targetReward": "10%", "capture": "", "breakParts": "80% (Right Claw), 80% (Left Claw)", "carves": "17% (Body)", "dropped": ""},
+        {"material": "Mizutsune Mantle", "rarity": null, "targetReward": "4%", "capture": "", "breakParts": "5% (Head), 3% (Tail)", "carves": "2% (Body), 5% (Tail)", "dropped": "2%"},
+        {"material": "Melding Pudding", "rarity": null, "targetReward": "30%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Melding Honey", "rarity": null, "targetReward": "20%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Mizutsune Silkfin", "rarity": null, "targetReward": "", "capture": "", "breakParts": "70% (Head), 60% (Dorsal Fin), 10% x 2 (Dorsal Fin)", "carves": "", "dropped": ""},
+        {"material": "Purple Mizutsune Tail", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "80% (Tail)", "dropped": ""},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "40%"}
+      ]
+    }
+  },
+  {
+    "name": "Aurora Somnacanth",
+    "species": "Leviathan",
+    "locations": ["Frost Islands", "The Citadel"],
+    "weaknesses": [
+      {"element": "Fire", "stars": 1}
+    ],
+    "resistances": [
+      {"element": "Thunder", "stars": null},
+      {"element": "Water", "immune": true},
+      {"element": "Ice", "immune": true},
+      {"element": "Dragon", "immune": true}
+    ],
+    "ailmentSusceptibility": [
+      {"ailment": "Poison", "stars": 1},
+      {"ailment": "Sleep", "stars": 0},
+      {"ailment": "Paralysis", "stars": 1},
+      {"ailment": "Blast", "stars": 2},
+      {"ailment": "Stun", "stars": 1},
+      {"ailment": "Exhaust", "stars": 1},
+      {"ailment": "Fireblight", "stars": 2},
+      {"ailment": "Waterblight", "stars": 0},
+      {"ailment": "Thunderblight", "stars": 1},
+      {"ailment": "Iceblight", "stars": 1}
+    ],
+    "inflicts": ["Iceblight"],
+    "materials": {
+      "Master Rank": [
+        {"material": "Auroracanth Icescale", "rarity": null, "targetReward": "21%", "capture": "17%", "breakParts": "16% (Head Fin), 20% (Arm), 96% (Tail)", "carves": "42% (Body)", "dropped": "35%, 70%"},
+        {"material": "Auroracanth Icecortex", "rarity": null, "targetReward": "33%", "capture": "32%", "breakParts": "", "carves": "32% (Body)", "dropped": ""},
+        {"material": "Auroracanth Fin", "rarity": null, "targetReward": "14%", "capture": "", "breakParts": "80% (Head Fin)", "carves": "10% (Body)", "dropped": ""},
+        {"material": "Monster Slogbone", "rarity": null, "targetReward": "10%", "capture": "9% (x2)", "breakParts": "", "carves": "14% (Body)", "dropped": ""},
+        {"material": "Cryo Sac", "rarity": null, "targetReward": "19%", "capture": "14%", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Large Wyvern Gem", "rarity": null, "targetReward": "3%", "capture": "4%", "breakParts": "4% (Head Fin), 4% (Tail)", "carves": "2% (Body)", "dropped": "1%"},
+        {"material": "Auroracanth Iceclaw", "rarity": null, "targetReward": "", "capture": "24%", "breakParts": "80% (x2) (Arm)", "carves": "", "dropped": "14%, 30%"},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "10%"},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "40%"},
+        {"material": "Afflicted Claw", "rarity": null, "targetReward": "", "capture": "", "breakParts": "20% (Anomaly Quests)", "carves": "20% (Anomaly Quests)", "dropped": ""},
+        {"material": "Afflicted Claw +", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "20% (Body)", "dropped": ""}
+      ]
+    }
+  },
+  {
+    "name": "Blood Orange Bishaten",
+    "species": "Fanged Beast",
+    "locations": ["Shrine Ruins", "Sandy Plains", "The Citadel"],
+    "weaknesses": [
+      {"element": "Water", "stars": 2}
+    ],
+    "resistances": [
+      {"element": "Fire", "stars": null},
+      {"element": "Dragon", "stars": null}
+    ],
+    "ailmentSusceptibility": [
+      {"ailment": "Poison", "stars": 1},
+      {"ailment": "Sleep", "stars": 1},
+      {"ailment": "Paralysis", "stars": 1},
+      {"ailment": "Blast", "stars": 2},
+      {"ailment": "Stun", "stars": 1},
+      {"ailment": "Exhaust", "stars": 1},
+      {"ailment": "Fireblight", "stars": 1},
+      {"ailment": "Waterblight", "stars": 2},
+      {"ailment": "Thunderblight", "stars": 1},
+      {"ailment": "Iceblight", "stars": 1}
+    ],
+    "inflicts": ["Fireblight"],
+    "materials": {
+      "Master Rank": [
+        {"material": "Orangaten Fur+", "rarity": null, "targetReward": "19%", "capture": "21%", "breakParts": "15% (Head)", "carves": "49% (Body)", "dropped": "39%, 50%"},
+        {"material": "Orangaten Feather+", "rarity": null, "targetReward": "28%", "capture": "34%", "breakParts": "70% (Wing)", "carves": "32% (Body)", "dropped": "35%"},
+        {"material": "Orangaten Talon", "rarity": null, "targetReward": "20%", "capture": "16% (x2)", "breakParts": "30% (x2) (Wing)", "carves": "", "dropped": ""},
+        {"material": "Orangaten Horn+", "rarity": null, "targetReward": "9%", "capture": "", "breakParts": "80% (Head)", "carves": "6% (Body)", "dropped": ""},
+        {"material": "Massive Bone", "rarity": null, "targetReward": "12%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Beast Gem", "rarity": null, "targetReward": "7%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Large Beast Gem", "rarity": null, "targetReward": "5%", "capture": "6%", "breakParts": "5% (Head)", "carves": "3% (Body)", "dropped": "1%"},
+        {"material": "Orangaten Tailcase+", "rarity": null, "targetReward": "", "capture": "23%", "breakParts": "100% (Tail)", "carves": "", "dropped": "10%, 15%"},
+        {"material": "Solid Bone", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "10% (Body)", "dropped": ""},
+        {"material": "Beast Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "15%"},
+        {"material": "Large Beast Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "35%"},
+        {"material": "Afflicted Shell", "rarity": null, "targetReward": "", "capture": "", "breakParts": "20% (Anomaly Quests)", "carves": "20% (Anomaly Quests)", "dropped": ""}
+      ]
+    }
+  },
+  {
+    "name": "Espinas",
+    "species": "Flying Wyvern",
+    "locations": ["The Jungle", "The Citadel"],
+    "weaknesses": [
+      {"element": "Ice", "stars": 2}
+    ],
+    "resistances": [
+      {"element": "Fire", "immune": true},
+      {"element": "Thunder", "stars": null}
+    ],
+    "ailmentSusceptibility": [
+      {"ailment": "Poison", "stars": 1},
+      {"ailment": "Sleep", "stars": 1},
+      {"ailment": "Paralysis", "stars": 1},
+      {"ailment": "Blast", "stars": 2},
+      {"ailment": "Stun", "stars": 1},
+      {"ailment": "Exhaust", "stars": 1},
+      {"ailment": "Fireblight", "stars": 1},
+      {"ailment": "Waterblight", "stars": 1},
+      {"ailment": "Thunderblight", "stars": 1},
+      {"ailment": "Iceblight", "stars": 2}
+    ],
+    "inflicts": ["Fireblight", "Paralysis", "Poison"],
+    "materials": {
+      "Master Rank": [
+        {"material": "Espinas Shard", "rarity": null, "targetReward": "21%", "capture": "27%", "breakParts": "40% (Wing)", "carves": "41% (Body), 12% (Tail)", "dropped": "28%, 50%"},
+        {"material": "Espinas Cortex", "rarity": null, "targetReward": "35%", "capture": "37%", "breakParts": "12% (Horn), 70% (Back)", "carves": "31% (Body)", "dropped": "18%, 34%"},
+        {"material": "Espinas Toxic Blood", "rarity": null, "targetReward": "26%", "capture": "", "breakParts": "30% (x2) (Back)", "carves": "21% (Body)", "dropped": "15%"},
+        {"material": "Espinas Lash", "rarity": null, "targetReward": "8%", "capture": "12%", "breakParts": "", "carves": "80% (Tail)", "dropped": ""},
+        {"material": "Espinas Surspike", "rarity": null, "targetReward": "7%", "capture": "", "breakParts": "60% (Wing)", "carves": "5% (Body), 5% (Tail)", "dropped": "3%, 1%"},
+        {"material": "Espinas Mantle", "rarity": null, "targetReward": "3%", "capture": "3%", "breakParts": "3% (Horn)", "carves": "2% (Body), 3% (Tail)", "dropped": "1%"},
+        {"material": "Espinas Hardhorn", "rarity": null, "targetReward": "", "capture": "21%", "breakParts": "85% (Horn)", "carves": "", "dropped": ""},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "50%"},
+        {"material": "Afflicted Dire Shell", "rarity": null, "targetReward": "", "capture": "", "breakParts": "40%", "carves": "40%", "dropped": ""}
+      ]
+    }
+  },
+  {
+    "name": "Gore Magala",
+    "species": "Unknown",
+    "locations": ["Shrine Ruins", "Flooded Forest", "The Citadel", "The Jungle"],
+    "weaknesses": [
+      {"element": "Fire", "stars": null},
+      {"element": "Thunder", "stars": null}
+    ],
+    "resistances": [
+      {"element": "Water", "immune": true},
+      {"element": "Ice", "stars": null}
+    ],
+    "ailmentSusceptibility": [
+      {"ailment": "Poison", "stars": 1},
+      {"ailment": "Sleep", "stars": 1},
+      {"ailment": "Paralysis", "stars": 1},
+      {"ailment": "Blast", "stars": 2},
+      {"ailment": "Stun", "stars": 1},
+      {"ailment": "Exhaust", "stars": 1},
+      {"ailment": "Fireblight", "stars": 2},
+      {"ailment": "Waterblight", "stars": 1},
+      {"ailment": "Thunderblight", "stars": 1},
+      {"ailment": "Iceblight", "stars": 1}
+    ],
+    "inflicts": ["Frenzy Virus"],
+    "materials": {
+      "Master Rank": [
+        {"material": "Gore Magala Cortex", "rarity": null, "targetReward": "19%", "capture": "40%", "breakParts": "32% (Head)", "carves": "26% (Body)", "dropped": "15%, 35%"},
+        {"material": "Gore Magala Shard", "rarity": null, "targetReward": "33%", "capture": "", "breakParts": "65% (Head), 25% (Wing), 20% (Wingarm)", "carves": "38% (Body), 17% (Tail)", "dropped": "34%, 50%"},
+        {"material": "Gore Magala Shredder", "rarity": null, "targetReward": "26%", "capture": "", "breakParts": "60% x1 (Wingarm), 20% x2 (Wingarm)", "carves": "22% (Body)", "dropped": "15%"},
+        {"material": "Gore Magala Eclipse", "rarity": null, "targetReward": "12%", "capture": "26%", "breakParts": "75% (Wing)", "carves": "12% (Body)", "dropped": ""},
+        {"material": "Gore Magala Tail", "rarity": null, "targetReward": "7%", "capture": "9%", "breakParts": "", "carves": "80% (Tail)", "dropped": ""},
+        {"material": "Gore Magala Mantle", "rarity": null, "targetReward": "3%", "capture": "3%", "breakParts": "3% (Head)", "carves": "3% (Tail), 2% (Body)", "dropped": "1%"},
+        {"material": "Gore Magala Sensor", "rarity": null, "targetReward": "", "capture": "22%", "breakParts": "100% (Antenna)", "carves": "", "dropped": ""},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "50%"},
+        {"material": "Afflicted Dire Shell", "rarity": null, "targetReward": "", "capture": "", "breakParts": "40%", "carves": "40%", "dropped": ""}
+      ]
+    }
+  },
+  {
+    "name": "Khezu",
+    "species": "Flying Wyvern",
+    "locations": ["Frost Islands", "Lava Caverns"],
+    "weaknesses": [
+      {"element": "Fire", "stars": 3}
+    ],
+    "resistances": [
+      {"element": "Thunder", "immune": true},
+      {"element": "Water", "stars": null},
+      {"element": "Ice", "stars": null},
+      {"element": "Dragon", "stars": null}
+    ],
+    "ailmentSusceptibility": [
+      {"ailment": "Poison", "stars": 3},
+      {"ailment": "Sleep", "stars": 1},
+      {"ailment": "Paralysis", "stars": 0},
+      {"ailment": "Blast", "stars": 2},
+      {"ailment": "Stun", "stars": 1},
+      {"ailment": "Exhaust", "stars": 0},
+      {"ailment": "Fireblight", "stars": 2},
+      {"ailment": "Waterblight", "stars": 1},
+      {"ailment": "Thunderblight", "stars": 1},
+      {"ailment": "Iceblight", "stars": 1}
+    ],
+    "inflicts": ["Thunderblight", "Paralysis"],
+    "materials": {
+      "Low Rank": [
+        {"material": "Flabby Hide", "rarity": null, "targetReward": "15%", "capture": "16%", "breakParts": "100% (Leg)", "carves": "36% (Body)", "dropped": "40%"},
+        {"material": "Suspicious Fang", "rarity": null, "targetReward": "29% (x2)", "capture": "33%", "breakParts": "60% (x2) (Head)", "carves": "21% (Body)", "dropped": "20%, 20%"},
+        {"material": "Pale Extract", "rarity": null, "targetReward": "20%", "capture": "23% (x2)", "breakParts": "28% (Head)", "carves": "28% (Body)", "dropped": "30%, 80%, 40%"},
+        {"material": "Pale Bone", "rarity": null, "targetReward": "8%", "capture": "10%", "breakParts": "12% (Head)", "carves": "", "dropped": ""},
+        {"material": "Electro Sac", "rarity": null, "targetReward": "18%", "capture": "18% (x2)", "breakParts": "", "carves": "15% (Body)", "dropped": ""},
+        {"material": "Monster Bone M", "rarity": null, "targetReward": "10%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "50%, 20%"}
+      ],
+      "High Rank": [
+        {"material": "Pearl Hide", "rarity": null, "targetReward": "14%", "capture": "16%", "breakParts": "100% (Leg)", "carves": "37% (Body)", "dropped": "50%"},
+        {"material": "Suspicious Fang +", "rarity": null, "targetReward": "20% (x2)", "capture": "34%", "breakParts": "52% (x2) (Head)", "carves": "24% (Body)", "dropped": "27%, 20%"},
+        {"material": "Pale Extract", "rarity": null, "targetReward": "14% (x2)", "capture": "19% (x2)", "breakParts": "20% (x2) (Head)", "carves": "19% (x2) (Body)", "dropped": "70% (x2), 30% (x2)"},
+        {"material": "Pale Bone", "rarity": null, "targetReward": "10%", "capture": "", "breakParts": "16% (Head)", "carves": "", "dropped": ""},
+        {"material": "Pale Steak", "rarity": null, "targetReward": "8%", "capture": "10%", "breakParts": "12% (Head)", "carves": "", "dropped": ""},
+        {"material": "Thunder Sac", "rarity": null, "targetReward": "21%", "capture": "18% (x2)", "breakParts": "", "carves": "20% (Body)", "dropped": ""},
+        {"material": "Monster Keenbone", "rarity": null, "targetReward": "12%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Wyvern Gem", "rarity": null, "targetReward": "1%", "capture": "3%", "breakParts": "", "carves": "", "dropped": "1%"},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "30%, 10%"},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "20%, 20%"}
+      ],
+      "Master Rank": [
+        {"material": "Pearl Glosshide", "rarity": null, "targetReward": "16%", "capture": "15%", "breakParts": "100% (Leg)", "carves": "37% (Body)", "dropped": "50%"},
+        {"material": "Mystic Hardfang", "rarity": null, "targetReward": "29% (x2)", "capture": "33%", "breakParts": "52% (x2) (Head)", "carves": "24% (Body)", "dropped": "27%, 20%"},
+        {"material": "Pale Extract", "rarity": null, "targetReward": "14% (x2)", "capture": "16% (x3)", "breakParts": "20% (x3) (Head)", "carves": "19% (x2) (Body)", "dropped": "22% (x2), 70% (x3), 30% (x2)"},
+        {"material": "Khezu Special Cut", "rarity": null, "targetReward": "8%", "capture": "10%", "breakParts": "12% (Head)", "carves": "", "dropped": ""},
+        {"material": "Lightning Sac", "rarity": null, "targetReward": "21%", "capture": "18% (x2)", "breakParts": "", "carves": "20% (Body)", "dropped": ""},
+        {"material": "Monster Toughbone", "rarity": null, "targetReward": "10%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Large Wyvern Gem", "rarity": null, "targetReward": "2%", "capture": "3%", "breakParts": "", "carves": "", "dropped": "1%"},
+        {"material": "Wyvern Gem", "rarity": null, "targetReward": "", "capture": "5%", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Pale Steak", "rarity": null, "targetReward": "", "capture": "", "breakParts": "16% (Head)", "carves": "", "dropped": ""},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "20%"},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "30%, 30%"},
+        {"material": "Afflicted Blood", "rarity": null, "targetReward": "", "capture": "", "breakParts": "20% (Anomaly Quests)", "carves": "20% (Anomaly Quests)", "dropped": ""}
+      ]
+    }
+  },
+  {
+    "name": "Magma Almudron",
+    "species": "Leviathan",
+    "locations": ["Lava Caverns"],
+    "weaknesses": [
+      {"element": "Water", "stars": 2},
+      {"element": "Ice", "stars": 1}
+    ],
+    "resistances": [
+      {"element": "Fire", "immune": true},
+      {"element": "Thunder", "stars": null}
+    ],
+    "ailmentSusceptibility": [
+      {"ailment": "Poison", "stars": 1},
+      {"ailment": "Sleep", "stars": 1},
+      {"ailment": "Paralysis", "stars": 1},
+      {"ailment": "Blast", "stars": 0},
+      {"ailment": "Stun", "stars": 1},
+      {"ailment": "Exhaust", "stars": 1},
+      {"ailment": "Fireblight", "stars": 1},
+      {"ailment": "Waterblight", "stars": 2},
+      {"ailment": "Thunderblight", "stars": 1},
+      {"ailment": "Iceblight", "stars": 1}
+    ],
+    "inflicts": [],
+    "materials": {
+      "Master Rank": [
+        {"material": "Magmadron Shard", "rarity": null, "targetReward": "18%", "capture": "16%", "breakParts": "70% (Torso), 10% (Body)", "carves": "38% (Body)", "dropped": "19%, 37%"},
+        {"material": "Magmadron Cortex", "rarity": null, "targetReward": "26%", "capture": "23%", "breakParts": "30% (Torso), 20% (Tail)", "carves": "27% (Body)", "dropped": "28%"},
+        {"material": "Large Magmadron Fin", "rarity": null, "targetReward": "17%", "capture": "", "breakParts": "17% (Head), 80% (Tail)", "carves": "22% (Body), 17% (Tail)", "dropped": ""},
+        {"material": "Magmadron Hardwhisker", "rarity": null, "targetReward": "10%", "capture": "", "breakParts": "80% (Head)", "carves": "12% (Body)", "dropped": ""},
+        {"material": "Magmadron Tail", "rarity": null, "targetReward": "6%", "capture": "12%", "breakParts": "", "carves": "80% (Tail)", "dropped": ""},
+        {"material": "Inferno Lava Mud", "rarity": null, "targetReward": "21%", "capture": "14% (x2)", "breakParts": "", "carves": "", "dropped": "30% (x1), 25% (x2)"},
+        {"material": "Magmadron Mantle", "rarity": null, "targetReward": "2%", "capture": "3%", "breakParts": "3% (Head)", "carves": "1% (Body), 3% (Tail)", "dropped": "1%"},
+        {"material": "Magmadron Hardclaw", "rarity": null, "targetReward": "", "capture": "32%", "breakParts": "90% (x2) (Foreleg)", "carves": "", "dropped": "10%"},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "50%"},
+        {"material": "Afflicted Dire Bone", "rarity": null, "targetReward": "", "capture": "", "breakParts": "40%", "carves": "40%", "dropped": ""}
+      ]
+    }
+  },
+  {
+    "name": "Primordial Malzeno",
+    "species": "Elder Dragon",
+    "locations": ["The Citadel", "Forlorn Arena"],
+    "weaknesses": [
+      {"element": "Dragon", "stars": 3},
+      {"element": "Fire", "stars": 2},
+      {"element": "Ice", "stars": 1}
+    ],
+    "resistances": [
+      {"element": "Water", "immune": true},
+      {"element": "Thunder", "immune": true}
+    ],
+    "ailmentSusceptibility": [
+      {"ailment": "Poison", "stars": 3},
+      {"ailment": "Sleep", "stars": 3},
+      {"ailment": "Paralysis", "stars": 3},
+      {"ailment": "Blast", "stars": 3},
+      {"ailment": "Stun", "stars": 3},
+      {"ailment": "Exhaust", "stars": 3},
+      {"ailment": "Fireblight", "stars": 3},
+      {"ailment": "Waterblight", "stars": 3},
+      {"ailment": "Thunderblight", "stars": 3},
+      {"ailment": "Iceblight", "stars": 3}
+    ],
+    "inflicts": ["Bloodblight"],
+    "materials": {
+      "Master Rank": [
+        {"material": "Malzeno Pureplate", "rarity": null, "targetReward": "22%", "capture": "", "breakParts": "15% (Wing), 70% (Foreleg)", "carves": "37% (Body), 17% (Tail)", "dropped": "27%, 50% (Wyvern Riding)"},
+        {"material": "Primordial Scale", "rarity": null, "targetReward": "29%", "capture": "", "breakParts": "", "carves": "28% (Body)", "dropped": "30%"},
+        {"material": "Malzeno Beautifang", "rarity": null, "targetReward": "20%", "capture": "", "breakParts": "17% x2 (Horn)", "carves": "21% (Body)", "dropped": ""},
+        {"material": "Madness Parasite", "rarity": null, "targetReward": "16%", "capture": "", "breakParts": "30% x2 (Foreleg)", "carves": "", "dropped": "20%"},
+        {"material": "Primordial Tail", "rarity": null, "targetReward": "10%", "capture": "", "breakParts": "", "carves": "80% (Tail)", "dropped": ""},
+        {"material": "Primordial Bloodstone", "rarity": null, "targetReward": "3%", "capture": "", "breakParts": "3% (Horn)", "carves": "1% (Body), 3% (Tail)", "dropped": "3%"},
+        {"material": "Malzeno Silverhorn", "rarity": null, "targetReward": "", "capture": "", "breakParts": "80% (Horn)", "carves": "", "dropped": ""},
+        {"material": "Shining Shieldwing", "rarity": null, "targetReward": "", "capture": "", "breakParts": "85% (Wing)", "carves": "13% (Body)", "dropped": ""},
+        {"material": "Old Dragon Treasure", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "50%"}
+      ]
+    }
+  },
+  {
+    "name": "Rathian",
+    "species": "Flying Wyvern",
+    "locations": ["Shrine Ruins", "Sandy Plains", "Flooded Forest", "Lava Caverns", "The Jungle"],
+    "weaknesses": [
+      {"element": "Dragon", "stars": 3},
+      {"element": "Thunder", "stars": 2}
+    ],
+    "resistances": [
+      {"element": "Fire", "immune": true}
+    ],
+    "ailmentSusceptibility": [
+      {"ailment": "Poison", "stars": 0},
+      {"ailment": "Sleep", "stars": 1},
+      {"ailment": "Paralysis", "stars": 1},
+      {"ailment": "Blast", "stars": 0},
+      {"ailment": "Stun", "stars": 1},
+      {"ailment": "Exhaust", "stars": 1},
+      {"ailment": "Fireblight", "stars": 1},
+      {"ailment": "Waterblight", "stars": 1},
+      {"ailment": "Thunderblight", "stars": 2},
+      {"ailment": "Iceblight", "stars": 1}
+    ],
+    "inflicts": ["Fireblight", "Poison"],
+    "materials": {
+      "Low Rank": [
+        {"material": "Rathian Scale", "rarity": null, "targetReward": "14%", "capture": "16% (x2)", "breakParts": "60% (Head)", "carves": "38% (Body), 50% (Tail)", "dropped": "45% (x1), 45% (x1)"},
+        {"material": "Rathian Shell", "rarity": null, "targetReward": "28%", "capture": "34%", "breakParts": "36% (Head), 29% (Back)", "carves": "26% (Body)", "dropped": "39%"},
+        {"material": "Rathian Webbing", "rarity": null, "targetReward": "19%", "capture": "", "breakParts": "20% (Wing)", "carves": "17% (Body)", "dropped": ""},
+        {"material": "Rathian Spike", "rarity": null, "targetReward": "7%", "capture": "", "breakParts": "70% (Back)", "carves": "5% (Body), 40% (Tail)", "dropped": "4% (x1), 1% (x1)"},
+        {"material": "Flame Sac", "rarity": null, "targetReward": "17%", "capture": "21%", "breakParts": "", "carves": "13% (Body)", "dropped": ""},
+        {"material": "Monster Bone L", "rarity": null, "targetReward": "13%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Rathian Plate", "rarity": null, "targetReward": "2%", "capture": "3%", "breakParts": "4% (Head), 1% (Back)", "carves": "1% (Body), 3% (Tail)", "dropped": "1%"},
+        {"material": "Rath Wingtalon", "rarity": null, "targetReward": "", "capture": "14%", "breakParts": "80% (x2) (Wing)", "carves": "", "dropped": "15%"},
+        {"material": "Rathalos Marrow", "rarity": null, "targetReward": "", "capture": "12%", "breakParts": "", "carves": "7% (Tail)", "dropped": ""},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "50%"}
+      ],
+      "High Rank": [
+        {"material": "Rathian Scale +", "rarity": null, "targetReward": "14%", "capture": "12% (x2)", "breakParts": "60% (Head)", "carves": "43% (Body), 35% (Tail)", "dropped": "42% (x1), 44% (x1)"},
+        {"material": "Rathian Carapace", "rarity": null, "targetReward": "31%", "capture": "25%", "breakParts": "30% (Head), 26% (Back)", "carves": "31% (Body)", "dropped": "39%"},
+        {"material": "Rathian Webbing", "rarity": null, "targetReward": "12% (x2)", "capture": "", "breakParts": "20% (x2) (Wing)", "carves": "", "dropped": ""},
+        {"material": "Rathian Spike +", "rarity": null, "targetReward": "7%", "capture": "", "breakParts": "70% (Back)", "carves": "5% (Body), 40% (Tail)", "dropped": "4% (x1), 1% (x1)"},
+        {"material": "Inferno Sac", "rarity": null, "targetReward": "18%", "capture": "20%", "breakParts": "", "carves": "17% (Body)", "dropped": ""},
+        {"material": "Monster Keenbone", "rarity": null, "targetReward": "12%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Rathian Plate", "rarity": null, "targetReward": "5%", "capture": "5%", "breakParts": "7% (Head), 3% (Back)", "carves": "3% (Body), 5% (Tail)", "dropped": "3% (x1), 1% (x1)"},
+        {"material": "Rathian Ruby", "rarity": null, "targetReward": "1%", "capture": "3%", "breakParts": "3% (Head), 1% (Back)", "carves": "1% (Body), 3% (Tail)", "dropped": "1%"},
+        {"material": "Rath Wingtalon +", "rarity": null, "targetReward": "", "capture": "13%", "breakParts": "80% (Wing)", "carves": "", "dropped": "15%"},
+        {"material": "Rathalos Marrow", "rarity": null, "targetReward": "", "capture": "12%", "breakParts": "", "carves": "10% (Tail)", "dropped": ""},
+        {"material": "Rathalos Medulla", "rarity": null, "targetReward": "", "capture": "10%", "breakParts": "", "carves": "7% (Tail)", "dropped": ""},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "20%"},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "30%"}
+      ],
+      "Master Rank": [
+        {"material": "Rathian Shard", "rarity": null, "targetReward": "14%", "capture": "14% (x2)", "breakParts": "60% (Head)", "carves": "41% (Body), 33% (Tail)", "dropped": "42%, 44%"},
+        {"material": "Rathian Cortex", "rarity": null, "targetReward": "27%", "capture": "28%", "breakParts": "30% (Head), 24% (Back)", "carves": "30% (Body)", "dropped": "39%"},
+        {"material": "Rathian Weave", "rarity": null, "targetReward": "15%", "capture": "", "breakParts": "20% (x2) (Wing)", "carves": "", "dropped": ""},
+        {"material": "Rathian Surspike", "rarity": null, "targetReward": "7%", "capture": "", "breakParts": "70% (Back)", "carves": "5% (Body), 42% (Tail)", "dropped": "4%, 1%"},
+        {"material": "Conflagrant Sac", "rarity": null, "targetReward": "18%", "capture": "21%", "breakParts": "", "carves": "17% (Body)", "dropped": ""},
+        {"material": "Monster Toughbone", "rarity": null, "targetReward": "12%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Rathian Ruby", "rarity": null, "targetReward": "5%", "capture": "7%", "breakParts": "7% (Head), 4% (Back)", "carves": "5% (Body), 7% (Tail)", "dropped": "3%, 1%"},
+        {"material": "Rathian Mantle", "rarity": null, "targetReward": "2%", "capture": "3%", "breakParts": "3% (Head), 2% (Back)", "carves": "2% (Body), 3% (Tail)", "dropped": "1%"},
+        {"material": "Rath Wingripper", "rarity": null, "targetReward": "", "capture": "17%", "breakParts": "80% (Wing)", "carves": "", "dropped": "15%"},
+        {"material": "Rath Medulla", "rarity": null, "targetReward": "", "capture": "10%", "breakParts": "", "carves": "15% (Tail)", "dropped": ""},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "15%"},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "35%"},
+        {"material": "Afflicted Scale", "rarity": null, "targetReward": "", "capture": "", "breakParts": "20% (Anomaly Quests)", "carves": "20% (Anomaly Quests)", "dropped": ""},
+        {"material": "Afflicted Scale +", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "20% (Body)", "dropped": ""}
+      ]
+    }
+  },
+  {
+    "name": "Royal Ludroth",
+    "species": "Leviathan",
+    "locations": ["Flooded Forest", "Lava Caverns", "The Jungle"],
+    "weaknesses": [
+      {"element": "Fire", "stars": 3}
+    ],
+    "resistances": [
+      {"element": "Water", "immune": true},
+      {"element": "Dragon", "stars": null}
+    ],
+    "ailmentSusceptibility": [
+      {"ailment": "Poison", "stars": 1},
+      {"ailment": "Sleep", "stars": 1},
+      {"ailment": "Paralysis", "stars": 1},
+      {"ailment": "Blast", "stars": 2},
+      {"ailment": "Stun", "stars": 1},
+      {"ailment": "Exhaust", "stars": 1},
+      {"ailment": "Fireblight", "stars": 2},
+      {"ailment": "Waterblight", "stars": 1},
+      {"ailment": "Thunderblight", "stars": 1},
+      {"ailment": "Iceblight", "stars": 1}
+    ],
+    "inflicts": ["Waterblight"],
+    "materials": {
+      "Low Rank": [
+        {"material": "Royal Ludroth Scale", "rarity": null, "targetReward": "11%", "capture": "16% (x2)", "breakParts": "20% (x1) (Head), 20% (x2) (Mane)", "carves": "32% (x1) (Body), 30% (x1) (Tail)", "dropped": ""},
+        {"material": "Royal Ludroth Claw", "rarity": null, "targetReward": "21%", "capture": "", "breakParts": "", "carves": "23% (Body)", "dropped": "15% (x1), 10% (x1)"},
+        {"material": "Spongy Hide", "rarity": null, "targetReward": "26%", "capture": "24%", "breakParts": "60% (Mane)", "carves": "30% (Body)", "dropped": "35%"},
+        {"material": "Royal Ludroth Crest", "rarity": null, "targetReward": "10%", "capture": "", "breakParts": "80% (Head)", "carves": "", "dropped": ""},
+        {"material": "Royal Ludroth Tail", "rarity": null, "targetReward": "6%", "capture": "16%", "breakParts": "", "carves": "70% (Tail)", "dropped": ""},
+        {"material": "Aqua Sac", "rarity": null, "targetReward": "14%", "capture": "14% (x2)", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Dash Extract", "rarity": null, "targetReward": "12%", "capture": "30%", "breakParts": "20% (Mane)", "carves": "", "dropped": "40% (x1), 50% (x1)"},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "50%"}
+      ],
+      "High Rank": [
+        {"material": "Royal Ludroth Scale +", "rarity": null, "targetReward": "12%", "capture": "18% (x2)", "breakParts": "20% (x1) (Head), 20% (x2) (Mane)", "carves": "33% (Body), 28% (Tail)", "dropped": ""},
+        {"material": "Royal Ludroth Claw +", "rarity": null, "targetReward": "22%", "capture": "", "breakParts": "", "carves": "24% (Body)", "dropped": "15% (x1), 15% (x1)"},
+        {"material": "Spongy Hide +", "rarity": null, "targetReward": "27%", "capture": "27%", "breakParts": "60% (Mane)", "carves": "31% (Body)", "dropped": "50%"},
+        {"material": "Royal Ludroth Crest +", "rarity": null, "targetReward": "10%", "capture": "", "breakParts": "80% (Head)", "carves": "", "dropped": ""},
+        {"material": "Royal Ludroth Tail", "rarity": null, "targetReward": "5%", "capture": "12%", "breakParts": "", "carves": "70% (Tail)", "dropped": ""},
+        {"material": "Torrent Sac", "rarity": null, "targetReward": "14%", "capture": "16% (x2)", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Dash Extract", "rarity": null, "targetReward": "9% (x2)", "capture": "24% (x2)", "breakParts": "20% (x2) (Mane)", "carves": "12% (x2) (Body)", "dropped": "34% (x2), 35% (x2)"},
+        {"material": "Wyvern Gem", "rarity": null, "targetReward": "1%", "capture": "3%", "breakParts": "", "carves": "2% (Tail)", "dropped": "1%"},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "25%"},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "25%"}
+      ],
+      "Master Rank": [
+        {"material": "Royal Ludroth Shard", "rarity": null, "targetReward": "12%", "capture": "18% (x2)", "breakParts": "20% (Head), 20% (x2) (Mane)", "carves": "33% (Body), 28% (Tail)", "dropped": ""},
+        {"material": "Royal Ludroth Talon", "rarity": null, "targetReward": "22%", "capture": "", "breakParts": "", "carves": "24% (Body)", "dropped": "15%, 15%"},
+        {"material": "Spongy Piel", "rarity": null, "targetReward": "27%", "capture": "27%", "breakParts": "60% (Mane)", "carves": "31% (Body)", "dropped": "50%"},
+        {"material": "Chic Crest", "rarity": null, "targetReward": "10%", "capture": "", "breakParts": "80% (Head)", "carves": "", "dropped": ""},
+        {"material": "Royal Ludroth Lash", "rarity": null, "targetReward": "5%", "capture": "12%", "breakParts": "", "carves": "70% (Tail)", "dropped": ""},
+        {"material": "Flood Sac", "rarity": null, "targetReward": "14%", "capture": "16% (x2)", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Dash Extract", "rarity": null, "targetReward": "9% (x2)", "capture": "24% (x3)", "breakParts": "20% (x3) (Mane)", "carves": "12% (x2) (Body)", "dropped": "34% (x2), 35% (x2)"},
+        {"material": "Large Wyvern Gem", "rarity": null, "targetReward": "1%", "capture": "3%", "breakParts": "", "carves": "2% (Tail)", "dropped": "1%"},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "20%"},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "30%"},
+        {"material": "Afflicted Monster Bone", "rarity": null, "targetReward": "", "capture": "", "breakParts": "20% (Anomaly Quests)", "carves": "20% (Anomaly Quests)", "dropped": ""}
+      ]
+    }
+  },
+  {
+    "name": "Silver Rathalos",
+    "species": "Flying Wyvern",
+    "locations": ["Shrine Ruins", "Lava Caverns", "The Citadel"],
+    "weaknesses": [
+      {"element": "Water", "stars": 3},
+      {"element": "Thunder", "stars": 2},
+      {"element": "Ice", "stars": 1}
+    ],
+    "resistances": [
+      {"element": "Fire", "immune": true},
+      {"element": "Dragon", "immune": true}
+    ],
+    "ailmentSusceptibility": [
+      {"ailment": "Poison", "stars": 0},
+      {"ailment": "Sleep", "stars": 1},
+      {"ailment": "Paralysis", "stars": 1},
+      {"ailment": "Blast", "stars": 0},
+      {"ailment": "Stun", "stars": 0},
+      {"ailment": "Exhaust", "stars": 1},
+      {"ailment": "Fireblight", "stars": 1},
+      {"ailment": "Waterblight", "stars": 2},
+      {"ailment": "Thunderblight", "stars": 1},
+      {"ailment": "Iceblight", "stars": 1}
+    ],
+    "inflicts": [],
+    "materials": {
+      "Master Rank": [
+        {"material": "Silver Rathalos Shard", "rarity": null, "targetReward": "18%", "capture": "", "breakParts": "62% (Head)", "carves": "37% (Body), 19% (Tail)", "dropped": "59%, 55%"},
+        {"material": "Silver Rathalos Cortex", "rarity": null, "targetReward": "34%", "capture": "32%", "breakParts": "26% (Head), 74% (Back)", "carves": "27% (Body)", "dropped": "40%"},
+        {"material": "Silver Rathalos Fellwing", "rarity": null, "targetReward": "17%", "capture": "31%", "breakParts": "100% (Wing)", "carves": "21% (Body)", "dropped": ""},
+        {"material": "Silver Rathalos Lash", "rarity": null, "targetReward": "9%", "capture": "12%", "breakParts": "", "carves": "70% (Tail)", "dropped": ""},
+        {"material": "Rath Gleam", "rarity": null, "targetReward": "12%", "capture": "14%", "breakParts": "15% (Back)", "carves": "8% (Body)", "dropped": ""},
+        {"material": "Rathalos Ruby", "rarity": null, "targetReward": "7%", "capture": "7%", "breakParts": "8% (Head), 7% (Back)", "carves": "5% (Body), 7% (Tail)", "dropped": "4%, 1%"},
+        {"material": "Rathalos Mantle", "rarity": null, "targetReward": "3%", "capture": "4%", "breakParts": "4% (Head), 4% (Back)", "carves": "2% (Body), 4% (Tail)", "dropped": "1%"},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "40%"},
+        {"material": "Afflicted Dire Fellwing", "rarity": null, "targetReward": "", "capture": "", "breakParts": "40% (Anomaly Quests)", "carves": "40% (Anomaly Quests)", "dropped": ""}
+      ]
+    }
+  },
+  {
+    "name": "Tobi-Kadachi",
+    "species": "Fanged Wyvern",
+    "locations": ["Shrine Ruins", "Flooded Forest", "The Jungle"],
+    "weaknesses": [
+      {"element": "Water", "stars": 3},
+      {"element": "Fire", "stars": 2},
+      {"element": "Ice", "stars": 1}
+    ],
+    "resistances": [
+      {"element": "Thunder", "immune": true},
+      {"element": "Dragon", "stars": null}
+    ],
+    "ailmentSusceptibility": [
+      {"ailment": "Poison", "stars": 3},
+      {"ailment": "Sleep", "stars": 1},
+      {"ailment": "Paralysis", "stars": 1},
+      {"ailment": "Blast", "stars": 2},
+      {"ailment": "Stun", "stars": 1},
+      {"ailment": "Exhaust", "stars": 1},
+      {"ailment": "Fireblight", "stars": 1},
+      {"ailment": "Waterblight", "stars": 2},
+      {"ailment": "Thunderblight", "stars": 1},
+      {"ailment": "Iceblight", "stars": 1}
+    ],
+    "inflicts": ["Thunderblight"],
+    "materials": {
+      "Low Rank": [
+        {"material": "Tobi-Kadachi Pelt", "rarity": null, "targetReward": "13%", "capture": "12%", "breakParts": "70% (Back), 20% (Tail)", "carves": "27% (Body)", "dropped": "35%"},
+        {"material": "Tobi-Kadachi Scale", "rarity": null, "targetReward": "29%", "capture": "19%", "breakParts": "30% (x2) (Head), 30% (x1) (Back), 20% (x1) (Tail)", "carves": "38% (Body)", "dropped": "40% (x1), 50% (x1)"},
+        {"material": "Tobi-Kadachi Membrane", "rarity": null, "targetReward": "23%", "capture": "22%", "breakParts": "", "carves": "23% (Body)", "dropped": ""},
+        {"material": "Tobi-Kadachi Claw", "rarity": null, "targetReward": "15%", "capture": "33%", "breakParts": "80% (Foreleg)", "carves": "12% (Body)", "dropped": "10% (x1), 15% (x1)"},
+        {"material": "Tobi-Kadachi Electrode", "rarity": null, "targetReward": "8%", "capture": "14%", "breakParts": "80% (Head), 80% (Tail)", "carves": "", "dropped": ""},
+        {"material": "Electro Sac", "rarity": null, "targetReward": "12%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "50%"}
+      ],
+      "High Rank": [
+        {"material": "Tobi-Kadachi Pelt +", "rarity": null, "targetReward": "17%", "capture": "14%", "breakParts": "70% (Back), 20% (Tail)", "carves": "31% (Body)", "dropped": "35%"},
+        {"material": "Tobi-Kadachi Scale +", "rarity": null, "targetReward": "34%", "capture": "22% (x2)", "breakParts": "17% (x2) (Head), 30% (x1) (Back), 20% (x1) (Foreleg)", "carves": "43% (Body)", "dropped": "39% (x1), 50% (x1)"},
+        {"material": "Tobi-Kadachi Claw +", "rarity": null, "targetReward": "24%", "capture": "34%", "breakParts": "80% (Foreleg)", "carves": "13% (Body)", "dropped": "10% (x1), 15% (x1)"},
+        {"material": "Tobi-Kadachi Electrode +", "rarity": null, "targetReward": "9%", "capture": "14%", "breakParts": "80% (Head), 80% (Tail)", "carves": "", "dropped": ""},
+        {"material": "Thunder Sac", "rarity": null, "targetReward": "14%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Wyvern Gem", "rarity": null, "targetReward": "2%", "capture": "3%", "breakParts": "3% (Head)", "carves": "1% (Body)", "dropped": "1%"},
+        {"material": "Tobi-Kadachi Membrane", "rarity": null, "targetReward": "", "capture": "13% (x2)", "breakParts": "", "carves": "12% (x2) (Body)", "dropped": ""},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "20%"},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "30%"}
+      ],
+      "Master Rank": [
+        {"material": "Tobi-Kadachi Thickfur", "rarity": null, "targetReward": "17%", "capture": "14%", "breakParts": "70% (Back), 20% (Tail)", "carves": "27% (Body)", "dropped": "35%"},
+        {"material": "Tobi-Kadachi Shard", "rarity": null, "targetReward": "34%", "capture": "18%", "breakParts": "17% (x2) (Head), 30% (Back), 20% (Foreleg)", "carves": "36% (Body)", "dropped": "39%, 50%"},
+        {"material": "Tobi-Kadachi Hardclaw", "rarity": null, "targetReward": "24%", "capture": "29%", "breakParts": "80% (Foreleg)", "carves": "13% (Body)", "dropped": "10%, 15%"},
+        {"material": "Tobi-Kadachi Cathode", "rarity": null, "targetReward": "9%", "capture": "14%", "breakParts": "80% (Head), 80% (Tail)", "carves": "", "dropped": ""},
+        {"material": "Lightning Sac", "rarity": null, "targetReward": "14%", "capture": "", "breakParts": "", "carves": "", "dropped": ""},
+        {"material": "Large Wyvern Gem", "rarity": null, "targetReward": "2%", "capture": "3%", "breakParts": "3% (Head)", "carves": "1% (Body)", "dropped": "1%"},
+        {"material": "Tobi-Kadachi Membrane+", "rarity": null, "targetReward": "", "capture": "22%", "breakParts": "", "carves": "23% (Body)", "dropped": ""},
+        {"material": "Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "15%"},
+        {"material": "Large Wyvern Tear", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "", "dropped": "35%"},
+        {"material": "Afflicted Scale", "rarity": null, "targetReward": "", "capture": "", "breakParts": "20% (Anomaly Quests)", "carves": "20% (Anomaly Quests)", "dropped": ""},
+        {"material": "Afflicted Scale +", "rarity": null, "targetReward": "", "capture": "", "breakParts": "", "carves": "20% (Body)", "dropped": ""}
+      ]
+    }
+  }
+]
