@@ -33,6 +33,17 @@ El trazado (paso técnico) nunca falló. Todos los errores reales fueron **asumi
 5. No asumir que una región "rara" (llama, marcas, detalles) es decorativa — preguntar o confirmar antes de excluirla del sistema de tooltips/colores.
 6. Para huecos de tooltip en una costura puntual: no subir la dilatación global. Aumentar el radio solo de la región grande involucrada (`DILATE_RADIUS_LARGE`), y si con eso no alcanza, mejor preguntar antes de seguir escalando el radio — puede que el "hueco" en realidad sea una región mal asignada (como pasó acá), no un problema de trazado.
 
+## FusionZonal: fusionar 2+ shapes de una misma parte en un solo contorno
+
+Cuando una parte termina con más de un polígono (por reasignación, split, o carve) y quedan pegados unos a otros, el resultado visual tiene una costura/línea interna donde cada `<polygon>` dibuja su propio `stroke`. El usuario le puso nombre a la operación de "borrar esa costura y que se vea como una sola forma": **FusionZonal**. Hay dos técnicas según de dónde vienen los pedazos -- **elegir la técnica correcta antes de tocar nada, son incompatibles**:
+
+1. **Pedazos que vienen de UN split mío** (yo corté un polígono original en 2+ partes a mano, ej. Tail/Tail Tip, o dos mitades que terminaron siendo la misma parte real como el ala de Diablos): la fusión es gratis, **no hace falta geometría nueva** -- simplemente volver a usar el polígono original sin cortar (los puntos ya están en el historial/comentarios). Cero riesgo, cero cálculo.
+2. **Pedazos que vienen de regiones trazadas por separado** en el PNG original (ej. Chameleos: "Abdomen" real + un lóbulo carveado de otra región vecina) -- sus bordes NO coinciden pixel a pixel entre sí (típicamente ~2-8px de diferencia, por el radio de dilatación de cada trazado independiente). Concatenar los puntos a mano casi seguro produce un polígono inválido (self-intersection) porque el borde compartido no es literalmente el mismo. Acá hace falta una unión geométrica real:
+   - Usar `shapely` (`pip install shapely` si no está): `chest.buffer(2.5, join_style=2)`, `lobe.buffer(2.5, join_style=2)` → `unary_union([...])` → `.buffer(-2.5, join_style=2)` → `.simplify(0.75, preserve_topology=True)`.
+   - El buffer chico (2.5px) sirve para que los bordes casi-coincidentes se fusionen en la unión; el `simplify` final solo saca ruido de punto flotante, no relineal la silueta real.
+   - Extraer `list(polygon.exterior.coords)[:-1]` y formatear como `"x,y x,y ..."` redondeando a enteros.
+   - **No intentar hacerlo a mano** (buscar vértices "casi iguales" y empalmar) -- ya se probó, las formas reales tienen zonas cóncavas que hacen que un cierre a mano cruce su propio borde (self-intersection) aunque a simple vista parezca simple.
+
 ## Estado actual: Rathalos (referencia completa, confirmada por el usuario)
 
 | Parte      | Shape(s) en el arte                                  | Color en pantalla (Corte) |
