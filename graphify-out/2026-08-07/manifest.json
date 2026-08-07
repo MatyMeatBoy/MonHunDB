@@ -1,0 +1,957 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1786020084.0889683,
+    "ast_hash": "8d0b8cd2cddeeba6ace4d2fd1e77577b",
+    "semantic_hash": ""
+  },
+  "app.js": {
+    "mtime": 1786018865.554016,
+    "ast_hash": "8337452322f86fe56af87ce248e842f5",
+    "semantic_hash": ""
+  },
+  "data/batches/input_batch_1.json": {
+    "mtime": 1785956742.9671154,
+    "ast_hash": "32599ad9c81e2abc3f2f0142c508d6e7",
+    "semantic_hash": ""
+  },
+  "data/batches/input_batch_2.json": {
+    "mtime": 1785956742.9671154,
+    "ast_hash": "e4cbf08dff1d3bca618e1431bf4df7b4",
+    "semantic_hash": ""
+  },
+  "data/batches/input_batch_3.json": {
+    "mtime": 1785956742.9686224,
+    "ast_hash": "e949f5af986b255e2147f4d5e0605c9b",
+    "semantic_hash": ""
+  },
+  "data/batches/input_batch_4.json": {
+    "mtime": 1785956742.9686224,
+    "ast_hash": "38212035ce7a57ee3b1da64a2f8460db",
+    "semantic_hash": ""
+  },
+  "data/batches/input_batch_5.json": {
+    "mtime": 1785956742.9701889,
+    "ast_hash": "6503ef532ff298ba89633b62d92240d1",
+    "semantic_hash": ""
+  },
+  "data/batches/input_batch_6.json": {
+    "mtime": 1785956742.9701889,
+    "ast_hash": "dede8e2cc8b3aaa25e201509ee4ce994",
+    "semantic_hash": ""
+  },
+  "data/batches/output_batch_1.json": {
+    "mtime": 1785957218.6147788,
+    "ast_hash": "9c094741baa49dc6ba8f386eff314c80",
+    "semantic_hash": ""
+  },
+  "data/batches/output_batch_2.json": {
+    "mtime": 1785957209.0613325,
+    "ast_hash": "b3117e3ba2153cc820e0ef8c2faff57e",
+    "semantic_hash": ""
+  },
+  "data/batches/output_batch_3.json": {
+    "mtime": 1785957241.992339,
+    "ast_hash": "7ac3d89f5aca6deb62b5e1eb6a8aaac2",
+    "semantic_hash": ""
+  },
+  "data/batches/output_batch_4.json": {
+    "mtime": 1785957330.8067834,
+    "ast_hash": "9b656b357657cece42dafd620e791258",
+    "semantic_hash": ""
+  },
+  "data/batches/output_batch_5.json": {
+    "mtime": 1785977420.683359,
+    "ast_hash": "087aa617b2dd9dcb3ad0e78e916b08d7",
+    "semantic_hash": ""
+  },
+  "data/batches/output_batch_6.json": {
+    "mtime": 1785957301.2814279,
+    "ast_hash": "b171c82ff89d751ef3a01778bad8a89e",
+    "semantic_hash": ""
+  },
+  "data/download_icons.js": {
+    "mtime": 1786018633.0440514,
+    "ast_hash": "dd3677e87f068b189701e534499ead5b",
+    "semantic_hash": ""
+  },
+  "data/grindosaur_errors.json": {
+    "mtime": 1785979158.110321,
+    "ast_hash": "d751713988987e9331980363e24189ce",
+    "semantic_hash": ""
+  },
+  "data/grindosaur_links_raw.json": {
+    "mtime": 1785979092.0116081,
+    "ast_hash": "1fd921def2f9e8ce06a722469d0361a9",
+    "semantic_hash": ""
+  },
+  "data/grindosaur_quickfacts.json": {
+    "mtime": 1785983150.1899695,
+    "ast_hash": "74b03243baf7a2e87b84ed9c736e67c2",
+    "semantic_hash": ""
+  },
+  "data/grindosaur_raw.json": {
+    "mtime": 1785979158.1083238,
+    "ast_hash": "1a91f33d4e109192699a7a85d3ee7e0d",
+    "semantic_hash": ""
+  },
+  "data/i18n.js": {
+    "mtime": 1786018884.597888,
+    "ast_hash": "cc5cabf1b4772d2b7dc7b3bd330cf8a7",
+    "semantic_hash": ""
+  },
+  "data/icon_manifest.json": {
+    "mtime": 1786018679.5779388,
+    "ast_hash": "adafd3fdaf55004a336326b7b786c3cb",
+    "semantic_hash": ""
+  },
+  "data/kiranico_item_translations.json": {
+    "mtime": 1785980129.7728975,
+    "ast_hash": "4bc6add924fa9cc6acfb11e456c1cfec",
+    "semantic_hash": ""
+  },
+  "data/missing_materials.json": {
+    "mtime": 1785980075.4201405,
+    "ast_hash": "b74ab1f44dd4e0990d7cf1f9a8462374",
+    "semantic_hash": ""
+  },
+  "data/monster_list.json": {
+    "mtime": 1785956726.8712046,
+    "ast_hash": "cf3390a593a33c767c9b09c9eb72eeff",
+    "semantic_hash": ""
+  },
+  "data/monsters.json": {
+    "mtime": 1785984196.899677,
+    "ast_hash": "7a3cd222bfc3873b3c6c0fbc2fef9b47",
+    "semantic_hash": ""
+  },
+  "data/renders_manifest.json": {
+    "mtime": 1785982428.623173,
+    "ast_hash": "292697b86cbfd3da81d348a5831a13b1",
+    "semantic_hash": ""
+  },
+  "data/scrape_grindosaur.js": {
+    "mtime": 1785979096.0930195,
+    "ast_hash": "b31e78a605ca7fb3a9e64479d52697e4",
+    "semantic_hash": ""
+  },
+  "data/scrape_grindosaur_quickfacts.js": {
+    "mtime": 1785983057.374061,
+    "ast_hash": "b6921acd23cd23dc02180169094f1339",
+    "semantic_hash": ""
+  },
+  "data/scrape_renders.js": {
+    "mtime": 1785982376.5177326,
+    "ast_hash": "bb9541c705a946e48e025b41412b9b57",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1786020084.0814178,
+    "ast_hash": "8a6643a420fdad6bfb583523bc6cef16",
+    "semantic_hash": ""
+  },
+  "DATA_NOTES.md": {
+    "mtime": 1785984326.995751,
+    "ast_hash": "04df4ced12c35ed278b1132a6fe422ff",
+    "semantic_hash": ""
+  },
+  "PROGRESS.md": {
+    "mtime": 1786008448.160828,
+    "ast_hash": "15e4606dd9a1425ac137c40f3c19304d",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1785977050.0694144,
+    "ast_hash": "347cd09eabdc05b262879562b0bdd69e",
+    "semantic_hash": ""
+  },
+  "SOURCES.md": {
+    "mtime": 1785982706.0069313,
+    "ast_hash": "7c644873f30730d5af20aaab000d1245",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1786018704.0989406,
+    "ast_hash": "a1c30187a7f261d5e5467dfec9085bec",
+    "semantic_hash": ""
+  },
+  "data/images/aknosom.png": {
+    "mtime": 1785982384.8113413,
+    "ast_hash": "fa9d14486a874890fdcaf56316a35aad",
+    "semantic_hash": ""
+  },
+  "data/images/almudron.png": {
+    "mtime": 1785982385.6505108,
+    "ast_hash": "38caf68031302bd8d5484ad72217ae11",
+    "semantic_hash": ""
+  },
+  "data/images/amatsu.png": {
+    "mtime": 1785982386.1167037,
+    "ast_hash": "810e2d817b0a443f150007785711382a",
+    "semantic_hash": ""
+  },
+  "data/images/anjanath.png": {
+    "mtime": 1785982386.7942636,
+    "ast_hash": "70c9284335aebc74d24e4d53f18336c8",
+    "semantic_hash": ""
+  },
+  "data/images/apex-arzuros.png": {
+    "mtime": 1785982387.4358482,
+    "ast_hash": "344ec73111d293c9f600a7aa71d9c9f2",
+    "semantic_hash": ""
+  },
+  "data/images/apex-diablos.png": {
+    "mtime": 1785982387.8660903,
+    "ast_hash": "4561ce3445bb639591e558e84da864bd",
+    "semantic_hash": ""
+  },
+  "data/images/apex-mizutsune.png": {
+    "mtime": 1785982388.541485,
+    "ast_hash": "0d3e8bd808a5302262453869118d4feb",
+    "semantic_hash": ""
+  },
+  "data/images/apex-rathalos.png": {
+    "mtime": 1785982388.9794815,
+    "ast_hash": "2994cd75579e3000ebc2c3ddce8c705f",
+    "semantic_hash": ""
+  },
+  "data/images/apex-rathian.png": {
+    "mtime": 1785982389.5849688,
+    "ast_hash": "2deb8046f01df66dd1cc43db9b403e04",
+    "semantic_hash": ""
+  },
+  "data/images/apex-zinogre.png": {
+    "mtime": 1785982390.7685428,
+    "ast_hash": "b71850b6a7ddfe90b98f8f0ca8ed7e50",
+    "semantic_hash": ""
+  },
+  "data/images/arzuros.png": {
+    "mtime": 1785982391.1993935,
+    "ast_hash": "547fb46d3cb799fc6a9f392fb86a13ec",
+    "semantic_hash": ""
+  },
+  "data/images/astalos.png": {
+    "mtime": 1785982391.621042,
+    "ast_hash": "cd4c1029047098d0d0bab0c5d98715ab",
+    "semantic_hash": ""
+  },
+  "data/images/aurora-somnacanth.png": {
+    "mtime": 1785982392.1588156,
+    "ast_hash": "f14181f44affbd754a5d9b16886a0fc6",
+    "semantic_hash": ""
+  },
+  "data/images/barioth.png": {
+    "mtime": 1785982392.6138065,
+    "ast_hash": "6e7bf6a506807f88a6c320f813965f22",
+    "semantic_hash": ""
+  },
+  "data/images/barroth.png": {
+    "mtime": 1785982393.061398,
+    "ast_hash": "d51a893ecb61b91f7c1c242815b3a80a",
+    "semantic_hash": ""
+  },
+  "data/images/basarios.png": {
+    "mtime": 1785982393.5557501,
+    "ast_hash": "32e58c71c2f7a231d4d143e0b1c8ce3f",
+    "semantic_hash": ""
+  },
+  "data/images/bazelgeuse.png": {
+    "mtime": 1785982394.5183992,
+    "ast_hash": "1ec54b48cd8fcac33359e4649fd45b86",
+    "semantic_hash": ""
+  },
+  "data/images/bishaten.png": {
+    "mtime": 1785982395.203804,
+    "ast_hash": "9e057172de877d73ca8cf42c6dedf5c5",
+    "semantic_hash": ""
+  },
+  "data/images/blood-orange-bishaten.png": {
+    "mtime": 1785982395.6291792,
+    "ast_hash": "2e40ed3e171b7e9d72ce8723a7e6b262",
+    "semantic_hash": ""
+  },
+  "data/images/chameleos.png": {
+    "mtime": 1785982396.069848,
+    "ast_hash": "496c4327e9a7219c14edb619a9446f7a",
+    "semantic_hash": ""
+  },
+  "data/images/chaotic-gore-magala.png": {
+    "mtime": 1785982396.70199,
+    "ast_hash": "9c12500f13867063594c9bf3b0e37cdc",
+    "semantic_hash": ""
+  },
+  "data/images/crimson-glow-valstrax.png": {
+    "mtime": 1785982397.3089278,
+    "ast_hash": "f82d88b2abfb93df67c2c8857614a480",
+    "semantic_hash": ""
+  },
+  "data/images/daimyo-hermitaur.png": {
+    "mtime": 1785982397.76203,
+    "ast_hash": "5c72144f3be498662d83dca0f324ef60",
+    "semantic_hash": ""
+  },
+  "data/images/diablos.png": {
+    "mtime": 1785982398.2298572,
+    "ast_hash": "5d321f05d7e92b072a88f9687a66a307",
+    "semantic_hash": ""
+  },
+  "data/images/espinas.png": {
+    "mtime": 1785982398.919105,
+    "ast_hash": "1038f330471e157b16980105536f6227",
+    "semantic_hash": ""
+  },
+  "data/images/flaming-espinas.png": {
+    "mtime": 1785982399.5717368,
+    "ast_hash": "f40ad57dc9a34d5f0b8b586938f4245a",
+    "semantic_hash": ""
+  },
+  "data/images/furious-rajang.png": {
+    "mtime": 1785982400.2478123,
+    "ast_hash": "df0e8fd8c5f55dab76d010b58d5075d5",
+    "semantic_hash": ""
+  },
+  "data/images/gaismagorm.png": {
+    "mtime": 1785982401.049511,
+    "ast_hash": "01ebbe7c08a1673f474d1f82ac3fd3f4",
+    "semantic_hash": ""
+  },
+  "data/images/garangolm.png": {
+    "mtime": 1785982401.6901073,
+    "ast_hash": "53c779881fc73a15fd5fecf523c69074",
+    "semantic_hash": ""
+  },
+  "data/images/gold-rathian.png": {
+    "mtime": 1785982402.1397848,
+    "ast_hash": "b12bd13ba4740be6af289971215b12d9",
+    "semantic_hash": ""
+  },
+  "data/images/gore-magala.png": {
+    "mtime": 1785982402.6310837,
+    "ast_hash": "edb00fc39b0589a8223aded4a04b9ca4",
+    "semantic_hash": ""
+  },
+  "data/images/goss-harag.png": {
+    "mtime": 1785982403.235004,
+    "ast_hash": "74b10c1e0fd0346a385453d44ea7a2e2",
+    "semantic_hash": ""
+  },
+  "data/images/great-baggi.png": {
+    "mtime": 1785982403.7262175,
+    "ast_hash": "ee63caef83ecf7b64e4a2f17ad6ebb53",
+    "semantic_hash": ""
+  },
+  "data/images/great-izuchi.png": {
+    "mtime": 1785982404.4972053,
+    "ast_hash": "dc89956489307fc91a5791b8209e3e54",
+    "semantic_hash": ""
+  },
+  "data/images/great-wroggi.png": {
+    "mtime": 1785982405.135983,
+    "ast_hash": "d31cb5952770555570e01c9de9639c03",
+    "semantic_hash": ""
+  },
+  "data/images/icons/aknosom.png": {
+    "mtime": 1786018641.167365,
+    "ast_hash": "b273fd75828bdb1a208b748396fb8b6c",
+    "semantic_hash": ""
+  },
+  "data/images/icons/almudron.png": {
+    "mtime": 1786018641.8187842,
+    "ast_hash": "c5843ada8031f01258f5290ec13b81a2",
+    "semantic_hash": ""
+  },
+  "data/images/icons/amatsu.webp": {
+    "mtime": 1786018642.2264829,
+    "ast_hash": "5dd6613deedf1f8af759200464ade231",
+    "semantic_hash": ""
+  },
+  "data/images/icons/anjanath.png": {
+    "mtime": 1786018642.9450636,
+    "ast_hash": "404cd1683279401013886a093906139a",
+    "semantic_hash": ""
+  },
+  "data/images/icons/apex-arzuros.png": {
+    "mtime": 1786018643.6324737,
+    "ast_hash": "5a1cf982ad284dbc6459d57a58fadba5",
+    "semantic_hash": ""
+  },
+  "data/images/icons/apex-diablos.png": {
+    "mtime": 1786018644.236876,
+    "ast_hash": "4ef6d9464ca2a07d55d30fc38fe9922c",
+    "semantic_hash": ""
+  },
+  "data/images/icons/apex-mizutsune.png": {
+    "mtime": 1786018644.9672906,
+    "ast_hash": "54ee40b8391b7cf5d4fb5fff0e4d7a16",
+    "semantic_hash": ""
+  },
+  "data/images/icons/apex-rathalos.png": {
+    "mtime": 1786018645.6038806,
+    "ast_hash": "7485fa124412c40878d336d4b5284914",
+    "semantic_hash": ""
+  },
+  "data/images/icons/apex-rathian.png": {
+    "mtime": 1786018646.2611392,
+    "ast_hash": "d259d8b946fbedf55e61a02ea84a211b",
+    "semantic_hash": ""
+  },
+  "data/images/icons/apex-zinogre.png": {
+    "mtime": 1786018646.998728,
+    "ast_hash": "56b2045c89e70560861a6584f5d5f432",
+    "semantic_hash": ""
+  },
+  "data/images/icons/arzuros.png": {
+    "mtime": 1786018647.7022994,
+    "ast_hash": "8390f4a1c617afc93aa3286fef584bea",
+    "semantic_hash": ""
+  },
+  "data/images/icons/astalos.webp": {
+    "mtime": 1786018647.9151044,
+    "ast_hash": "951b82b4bea9520c824cd6c19cfa89cb",
+    "semantic_hash": ""
+  },
+  "data/images/icons/aurora-somnacanth.webp": {
+    "mtime": 1786018648.0685325,
+    "ast_hash": "1fcd448653dc78b23cd1d0d1a0f04046",
+    "semantic_hash": ""
+  },
+  "data/images/icons/barioth.png": {
+    "mtime": 1786018648.7811375,
+    "ast_hash": "5d8b10148dbe3708c9a6aa0833dfb07a",
+    "semantic_hash": ""
+  },
+  "data/images/icons/barroth.png": {
+    "mtime": 1786018649.5375867,
+    "ast_hash": "449fcfe45a30a7f62783526296504042",
+    "semantic_hash": ""
+  },
+  "data/images/icons/basarios.png": {
+    "mtime": 1786018650.3171408,
+    "ast_hash": "0d28a8377be49ea1aa882f823720ac36",
+    "semantic_hash": ""
+  },
+  "data/images/icons/bazelgeuse.png": {
+    "mtime": 1786018650.9165328,
+    "ast_hash": "7679a94e4a967b5e8f9cb4714a7ed54f",
+    "semantic_hash": ""
+  },
+  "data/images/icons/bishaten.png": {
+    "mtime": 1786018651.5884762,
+    "ast_hash": "0211174f5963b004c253f456df8b7e02",
+    "semantic_hash": ""
+  },
+  "data/images/icons/blood-orange-bishaten.webp": {
+    "mtime": 1786018651.741719,
+    "ast_hash": "d59ca2a13dfc9beac1d68f1603346660",
+    "semantic_hash": ""
+  },
+  "data/images/icons/chameleos.png": {
+    "mtime": 1786018652.4980881,
+    "ast_hash": "8a3111a899295820aeedd0538572358f",
+    "semantic_hash": ""
+  },
+  "data/images/icons/chaotic-gore-magala.webp": {
+    "mtime": 1786018652.6482055,
+    "ast_hash": "92b352cff6d1323adf39a64476398e27",
+    "semantic_hash": ""
+  },
+  "data/images/icons/crimson-glow-valstrax.png": {
+    "mtime": 1786018653.3326442,
+    "ast_hash": "e4f6cb2f2a5e4bbd113c94a23abce310",
+    "semantic_hash": ""
+  },
+  "data/images/icons/daimyo-hermitaur.webp": {
+    "mtime": 1786018653.48606,
+    "ast_hash": "50015c8f0102fd9c7c97fcadeb1e1654",
+    "semantic_hash": ""
+  },
+  "data/images/icons/diablos.png": {
+    "mtime": 1786018654.2166371,
+    "ast_hash": "8862c679c2b1162f2841a77568951d51",
+    "semantic_hash": ""
+  },
+  "data/images/icons/espinas.webp": {
+    "mtime": 1786018654.3690164,
+    "ast_hash": "437be747be1b9a8e384d350e4b3d6681",
+    "semantic_hash": ""
+  },
+  "data/images/icons/flaming-espinas.webp": {
+    "mtime": 1786018654.520885,
+    "ast_hash": "efabe0a885a359ed0f53bdb3c8f32e1c",
+    "semantic_hash": ""
+  },
+  "data/images/icons/furious-rajang.webp": {
+    "mtime": 1786018654.680245,
+    "ast_hash": "613ded6de2d5caa1f2e3924ec5551b9a",
+    "semantic_hash": ""
+  },
+  "data/images/icons/gaismagorm.webp": {
+    "mtime": 1786018654.8349876,
+    "ast_hash": "75338096acb7221e5555111bb32e7594",
+    "semantic_hash": ""
+  },
+  "data/images/icons/garangolm.webp": {
+    "mtime": 1786018654.9885666,
+    "ast_hash": "c55105160ed4ed60e8480ee438f92034",
+    "semantic_hash": ""
+  },
+  "data/images/icons/gold-rathian.webp": {
+    "mtime": 1786018655.1538987,
+    "ast_hash": "932341f2b6b9c8557d42b95295227675",
+    "semantic_hash": ""
+  },
+  "data/images/icons/gore-magala.webp": {
+    "mtime": 1786018655.3048432,
+    "ast_hash": "3fcc7e5d1ad385a9f05045864db70605",
+    "semantic_hash": ""
+  },
+  "data/images/icons/goss-harag.png": {
+    "mtime": 1786018655.9939868,
+    "ast_hash": "7c18130fc17b99cfe59cc5ed057a0e35",
+    "semantic_hash": ""
+  },
+  "data/images/icons/great-baggi.png": {
+    "mtime": 1786018656.6113071,
+    "ast_hash": "3cbc792d32df5b98dcb3854a3212bd7c",
+    "semantic_hash": ""
+  },
+  "data/images/icons/great-izuchi.png": {
+    "mtime": 1786018657.8520174,
+    "ast_hash": "e36d3ffac61e662ecef2ff300778ce7d",
+    "semantic_hash": ""
+  },
+  "data/images/icons/great-wroggi.png": {
+    "mtime": 1786018658.5441022,
+    "ast_hash": "0b3a21b455d5e2f428214d6bea1416d9",
+    "semantic_hash": ""
+  },
+  "data/images/icons/jyuratodus.png": {
+    "mtime": 1786018659.2841096,
+    "ast_hash": "6ffeb59df6829eb288b8cf30aaddd6c1",
+    "semantic_hash": ""
+  },
+  "data/images/icons/khezu.png": {
+    "mtime": 1786018659.9517682,
+    "ast_hash": "8507101cc7d3975cc4e86d60ddcaa5f3",
+    "semantic_hash": ""
+  },
+  "data/images/icons/kulu-ya-ku.png": {
+    "mtime": 1786018660.6952817,
+    "ast_hash": "c0a045a314858ab88e2f5ee2421b8725",
+    "semantic_hash": ""
+  },
+  "data/images/icons/kushala-daora.png": {
+    "mtime": 1786018661.328785,
+    "ast_hash": "e774f2d07d9cde62ed94d6193b5060a8",
+    "semantic_hash": ""
+  },
+  "data/images/icons/lagombi.png": {
+    "mtime": 1786018661.949006,
+    "ast_hash": "d72ec6c77277207681c7826e900955e1",
+    "semantic_hash": ""
+  },
+  "data/images/icons/lucent-nargacuga.webp": {
+    "mtime": 1786018662.1673536,
+    "ast_hash": "344665fb8b8ce74befed1a87e3e2d717",
+    "semantic_hash": ""
+  },
+  "data/images/icons/lunagaron.webp": {
+    "mtime": 1786018662.3208103,
+    "ast_hash": "f357c3cc9ce78d6794eb553ee1d88218",
+    "semantic_hash": ""
+  },
+  "data/images/icons/magma-almudron.webp": {
+    "mtime": 1786018662.4744313,
+    "ast_hash": "1388921d1a3e02773a6fd92f0e86ef43",
+    "semantic_hash": ""
+  },
+  "data/images/icons/magnamalo.png": {
+    "mtime": 1786018663.4316647,
+    "ast_hash": "df7ff79e92f9ad4b7b3ac9fd74ad1097",
+    "semantic_hash": ""
+  },
+  "data/images/icons/malzeno.webp": {
+    "mtime": 1786018663.5836535,
+    "ast_hash": "09721cfb59ff4f4cbc41931079c78cfa",
+    "semantic_hash": ""
+  },
+  "data/images/icons/mizutsune.png": {
+    "mtime": 1786018664.409718,
+    "ast_hash": "e41fa8ccf7df630aa78cebf3b97cece7",
+    "semantic_hash": ""
+  },
+  "data/images/icons/nargacuga.png": {
+    "mtime": 1786018665.032442,
+    "ast_hash": "d01802dd7839a38eccf1111faa3953ee",
+    "semantic_hash": ""
+  },
+  "data/images/icons/narwa-the-allmother.png": {
+    "mtime": 1786018665.3466184,
+    "ast_hash": "b2bea507160f5339bf4a5dae1d6b6b71",
+    "semantic_hash": ""
+  },
+  "data/images/icons/primordial-malzeno.webp": {
+    "mtime": 1786018665.49927,
+    "ast_hash": "4b14ba1aa1c4fa56b560791d15cf3472",
+    "semantic_hash": ""
+  },
+  "data/images/icons/pukei-pukei.png": {
+    "mtime": 1786018666.2135837,
+    "ast_hash": "059df8ebd4c8272d84c6e059a16e4114",
+    "semantic_hash": ""
+  },
+  "data/images/icons/pyre-rakna-kadaki.webp": {
+    "mtime": 1786018666.36767,
+    "ast_hash": "cc0b9300cb26582f78f1622eee39497d",
+    "semantic_hash": ""
+  },
+  "data/images/icons/rajang.png": {
+    "mtime": 1786018667.0481107,
+    "ast_hash": "b249ea618352b1e77c98af977709b902",
+    "semantic_hash": ""
+  },
+  "data/images/icons/rakna-kadaki.png": {
+    "mtime": 1786018667.8368926,
+    "ast_hash": "8eec9f8aefdee0849584e933aa6b3c52",
+    "semantic_hash": ""
+  },
+  "data/images/icons/rathalos.png": {
+    "mtime": 1786018668.630642,
+    "ast_hash": "906b5ccbf90f851d7f6ee77bc98a66c2",
+    "semantic_hash": ""
+  },
+  "data/images/icons/rathian.png": {
+    "mtime": 1786018669.697526,
+    "ast_hash": "cf4304803578de27bb7bddc80f9dc581",
+    "semantic_hash": ""
+  },
+  "data/images/icons/risen-chameleos.webp": {
+    "mtime": 1786018669.8509479,
+    "ast_hash": "c4ba5c1b5bbe7c3aae397f332128752d",
+    "semantic_hash": ""
+  },
+  "data/images/icons/risen-crimson-glow-valstrax.webp": {
+    "mtime": 1786018670.0029058,
+    "ast_hash": "a1868e6c47f5d5646c72f7a994fb5054",
+    "semantic_hash": ""
+  },
+  "data/images/icons/risen-kushala-daora.webp": {
+    "mtime": 1786018670.1531012,
+    "ast_hash": "046103b04eb6fcd31020f79c672b5c6a",
+    "semantic_hash": ""
+  },
+  "data/images/icons/risen-shagaru-magala.webp": {
+    "mtime": 1786018670.3086631,
+    "ast_hash": "f2237ed66cb9077ef11140e189948ba2",
+    "semantic_hash": ""
+  },
+  "data/images/icons/risen-teostra.webp": {
+    "mtime": 1786018670.4580586,
+    "ast_hash": "b1f53b332e857e520cc0e8d04cf49ed6",
+    "semantic_hash": ""
+  },
+  "data/images/icons/royal-ludroth.png": {
+    "mtime": 1786018671.204022,
+    "ast_hash": "155dbbbdfdb2f81e1bee75df6b85c481",
+    "semantic_hash": ""
+  },
+  "data/images/icons/scorned-magnamalo.webp": {
+    "mtime": 1786018671.3544385,
+    "ast_hash": "ad084e13779c49be574f9e73bc156227",
+    "semantic_hash": ""
+  },
+  "data/images/icons/seething-bazelgeuse.webp": {
+    "mtime": 1786018671.5062432,
+    "ast_hash": "280f2000f70f95a15ab654a80e10911f",
+    "semantic_hash": ""
+  },
+  "data/images/icons/seregios.webp": {
+    "mtime": 1786018671.6606133,
+    "ast_hash": "a274b74a39b203e85bc87411218dc542",
+    "semantic_hash": ""
+  },
+  "data/images/icons/shagaru-magala.webp": {
+    "mtime": 1786018671.8123882,
+    "ast_hash": "4874ab902ed7e5fc8d44644ab9bdffb9",
+    "semantic_hash": ""
+  },
+  "data/images/icons/shogun-ceanataur.webp": {
+    "mtime": 1786018671.9650595,
+    "ast_hash": "582f39a5e58cad5ac637ffb2c79e71c3",
+    "semantic_hash": ""
+  },
+  "data/images/icons/silver-rathalos.webp": {
+    "mtime": 1786018672.115918,
+    "ast_hash": "843e9dd1c92b44b96eca194124aabe3f",
+    "semantic_hash": ""
+  },
+  "data/images/icons/somnacanth.png": {
+    "mtime": 1786018672.8367627,
+    "ast_hash": "2a614964714e3424df47d71dfc96acb4",
+    "semantic_hash": ""
+  },
+  "data/images/icons/teostra.png": {
+    "mtime": 1786018673.6657715,
+    "ast_hash": "7968649aae0c87d872b77b97a2a6567f",
+    "semantic_hash": ""
+  },
+  "data/images/icons/tetranadon.png": {
+    "mtime": 1786018674.326865,
+    "ast_hash": "d734e65029ba489a8b1e976e201ddbd3",
+    "semantic_hash": ""
+  },
+  "data/images/icons/thunder-serpent-narwa.png": {
+    "mtime": 1786018675.371654,
+    "ast_hash": "00ea3ca215241a8d08bb2f79232b3916",
+    "semantic_hash": ""
+  },
+  "data/images/icons/tigrex.png": {
+    "mtime": 1786018676.118722,
+    "ast_hash": "c4481faed98439ecd1a093e808eb2666",
+    "semantic_hash": ""
+  },
+  "data/images/icons/tobi-kadachi.png": {
+    "mtime": 1786018676.882467,
+    "ast_hash": "bc67352a82a3090ca2e4248e8e83b2b1",
+    "semantic_hash": ""
+  },
+  "data/images/icons/velkhana.webp": {
+    "mtime": 1786018677.1044886,
+    "ast_hash": "46942668b2d032f8b5c913100b56af15",
+    "semantic_hash": ""
+  },
+  "data/images/icons/violet-mizutsune.webp": {
+    "mtime": 1786018677.2571435,
+    "ast_hash": "470e5321049108de6bd29e772a0418a0",
+    "semantic_hash": ""
+  },
+  "data/images/icons/volvidon.png": {
+    "mtime": 1786018678.0978985,
+    "ast_hash": "e082e0cc734cdca5f8f740bdc3f665a6",
+    "semantic_hash": ""
+  },
+  "data/images/icons/wind-serpent-ibushi.png": {
+    "mtime": 1786018678.8126004,
+    "ast_hash": "883c4920f55cf139d1de06855e89a994",
+    "semantic_hash": ""
+  },
+  "data/images/icons/zinogre.png": {
+    "mtime": 1786018679.4579487,
+    "ast_hash": "08045c854bfcee5826dc4b12aa691026",
+    "semantic_hash": ""
+  },
+  "data/images/jyuratodus.png": {
+    "mtime": 1785982405.827792,
+    "ast_hash": "8832e7929ae4ef3e57f443b593d5d258",
+    "semantic_hash": ""
+  },
+  "data/images/khezu.png": {
+    "mtime": 1785982406.612845,
+    "ast_hash": "8c422686dc5513633492db82368cb532",
+    "semantic_hash": ""
+  },
+  "data/images/kulu-ya-ku.png": {
+    "mtime": 1785982407.0835507,
+    "ast_hash": "a638a9c6768306ab3c7a3332a21e9c21",
+    "semantic_hash": ""
+  },
+  "data/images/kushala-daora.png": {
+    "mtime": 1785982407.7067368,
+    "ast_hash": "c59f5a002b06d224bdbd355d49929f5e",
+    "semantic_hash": ""
+  },
+  "data/images/lagombi.png": {
+    "mtime": 1785982408.1610146,
+    "ast_hash": "19710fd59ca25b0e0e87e42887fdcd61",
+    "semantic_hash": ""
+  },
+  "data/images/lucent-nargacuga.png": {
+    "mtime": 1785982408.605317,
+    "ast_hash": "f4bc0a520c99eacee355e7b46c92d9a7",
+    "semantic_hash": ""
+  },
+  "data/images/lunagaron.png": {
+    "mtime": 1785982409.2952974,
+    "ast_hash": "f28a34f663c28bca70c9b79b9b2917fb",
+    "semantic_hash": ""
+  },
+  "data/images/magma-almudron.png": {
+    "mtime": 1785982409.905909,
+    "ast_hash": "571403b4abbf72913191304df5f20d3b",
+    "semantic_hash": ""
+  },
+  "data/images/magnamalo.png": {
+    "mtime": 1785982410.3145604,
+    "ast_hash": "1021ab924f665f2454cba7ab41c0ca04",
+    "semantic_hash": ""
+  },
+  "data/images/malzeno.png": {
+    "mtime": 1785982410.71981,
+    "ast_hash": "da4e56e6d4127311a999a675a9b80dc3",
+    "semantic_hash": ""
+  },
+  "data/images/mizutsune.png": {
+    "mtime": 1785982411.152342,
+    "ast_hash": "6dde32040ddc25b9299739fdaf89e8aa",
+    "semantic_hash": ""
+  },
+  "data/images/nargacuga.png": {
+    "mtime": 1785982411.8451648,
+    "ast_hash": "59bf6cd157817ab61e89b99fe90b93d5",
+    "semantic_hash": ""
+  },
+  "data/images/narwa-the-allmother.png": {
+    "mtime": 1785982412.2577596,
+    "ast_hash": "66bc74e8888bbe397fdef89344f5c156",
+    "semantic_hash": ""
+  },
+  "data/images/primordial-malzeno.png": {
+    "mtime": 1785982412.845977,
+    "ast_hash": "eb90efd3a730d7e216eca729c2e1999c",
+    "semantic_hash": ""
+  },
+  "data/images/pukei-pukei.png": {
+    "mtime": 1785982413.4272118,
+    "ast_hash": "f053f89a0f245030d0cf9aa5085882ce",
+    "semantic_hash": ""
+  },
+  "data/images/pyre-rakna-kadaki.png": {
+    "mtime": 1785982413.8747318,
+    "ast_hash": "fb0ffa5122c7f64dabf9581dde6113cd",
+    "semantic_hash": ""
+  },
+  "data/images/rajang.png": {
+    "mtime": 1785982414.561988,
+    "ast_hash": "075f1a12a31dc3280b546763ead26ac8",
+    "semantic_hash": ""
+  },
+  "data/images/rakna-kadaki.png": {
+    "mtime": 1785982415.0629613,
+    "ast_hash": "95aaa344ca3cfdf1b86acc0a84aa0685",
+    "semantic_hash": ""
+  },
+  "data/images/rathalos.png": {
+    "mtime": 1785982415.740772,
+    "ast_hash": "f27d9e6c5aade31b592436b85594c741",
+    "semantic_hash": ""
+  },
+  "data/images/rathian.png": {
+    "mtime": 1785982416.2313077,
+    "ast_hash": "884f09355d59acad2073612419478034",
+    "semantic_hash": ""
+  },
+  "data/images/risen-chameleos.png": {
+    "mtime": 1785982416.853264,
+    "ast_hash": "ae4fd2e23ec2d148a790231767a40514",
+    "semantic_hash": ""
+  },
+  "data/images/risen-crimson-glow-valstrax.png": {
+    "mtime": 1785982417.3041399,
+    "ast_hash": "7a3041b2388989bd33a515815b9464a8",
+    "semantic_hash": ""
+  },
+  "data/images/risen-kushala-daora.png": {
+    "mtime": 1785982418.1851637,
+    "ast_hash": "fe107075a9a173858b54966081a0ab77",
+    "semantic_hash": ""
+  },
+  "data/images/risen-shagaru-magala.png": {
+    "mtime": 1785982418.5955782,
+    "ast_hash": "2419a17ab24a1bc63a260432c215c934",
+    "semantic_hash": ""
+  },
+  "data/images/risen-teostra.png": {
+    "mtime": 1785982419.1931899,
+    "ast_hash": "729ca3ca864348bc0a8ae1fd920e3305",
+    "semantic_hash": ""
+  },
+  "data/images/royal-ludroth.png": {
+    "mtime": 1785982419.6268134,
+    "ast_hash": "dd07cd8bcbec95c39fe63028ed2c2988",
+    "semantic_hash": ""
+  },
+  "data/images/scorned-magnamalo.png": {
+    "mtime": 1785982420.0687065,
+    "ast_hash": "f770e7f91785ae68d7ae726bb04bf4fd",
+    "semantic_hash": ""
+  },
+  "data/images/seething-bazelgeuse.png": {
+    "mtime": 1785982421.0375519,
+    "ast_hash": "3621c20540de80b88b7e2329fa300c7b",
+    "semantic_hash": ""
+  },
+  "data/images/seregios.png": {
+    "mtime": 1785982421.4982815,
+    "ast_hash": "0bde4cc34e331435b8677ca2c3b26576",
+    "semantic_hash": ""
+  },
+  "data/images/shagaru-magala.png": {
+    "mtime": 1785982421.9198022,
+    "ast_hash": "74503cc45fd83a139cb99b4276d7a725",
+    "semantic_hash": ""
+  },
+  "data/images/shogun-ceanataur.png": {
+    "mtime": 1785982422.5193505,
+    "ast_hash": "0a257a5abe9c4a8a72f68f0598e5965b",
+    "semantic_hash": ""
+  },
+  "data/images/silver-rathalos.png": {
+    "mtime": 1785982423.042204,
+    "ast_hash": "627fd376c5caaffdd6eaeaaf5052c3da",
+    "semantic_hash": ""
+  },
+  "data/images/somnacanth.png": {
+    "mtime": 1785982423.6410496,
+    "ast_hash": "86ecc25074e428d0b5258a44db42b2fc",
+    "semantic_hash": ""
+  },
+  "data/images/teostra.png": {
+    "mtime": 1785982424.135697,
+    "ast_hash": "2f5343cf56c9f48079ec326eee40638e",
+    "semantic_hash": ""
+  },
+  "data/images/tetranadon.png": {
+    "mtime": 1785982479.8244555,
+    "ast_hash": "67dd973f6dad2415bc01076af8e6f359",
+    "semantic_hash": ""
+  },
+  "data/images/thunder-serpent-narwa.png": {
+    "mtime": 1785982424.8470929,
+    "ast_hash": "8fd5d5ae46b5b4caf51c7f086155f90b",
+    "semantic_hash": ""
+  },
+  "data/images/tigrex.png": {
+    "mtime": 1785982425.2974818,
+    "ast_hash": "a88f3fcb4d9be199c7a081983a1b5c3c",
+    "semantic_hash": ""
+  },
+  "data/images/tobi-kadachi.png": {
+    "mtime": 1785982425.7752626,
+    "ast_hash": "3a3c93ec28800dad43d36c07cba78454",
+    "semantic_hash": ""
+  },
+  "data/images/velkhana.png": {
+    "mtime": 1785982426.493896,
+    "ast_hash": "5dca8d1f4c839fde1fea514db55748fa",
+    "semantic_hash": ""
+  },
+  "data/images/violet-mizutsune.png": {
+    "mtime": 1785982426.907015,
+    "ast_hash": "c57a09c481b776876e9be83ffcda7d55",
+    "semantic_hash": ""
+  },
+  "data/images/volvidon.png": {
+    "mtime": 1785982427.3498578,
+    "ast_hash": "6241940b20ab9609168239ec144c201d",
+    "semantic_hash": ""
+  },
+  "data/images/wind-serpent-ibushi.png": {
+    "mtime": 1785982427.94619,
+    "ast_hash": "c3191f722505270cf74326e94984c1ad",
+    "semantic_hash": ""
+  },
+  "data/images/zinogre.png": {
+    "mtime": 1785982428.422455,
+    "ast_hash": "cd0c64650e8f1dea97f3b8477f692379",
+    "semantic_hash": ""
+  }
+}

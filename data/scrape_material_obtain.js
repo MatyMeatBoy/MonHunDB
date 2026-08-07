@@ -14,29 +14,56 @@ function wikiUrlFor(name) {
 }
 
 function stripHtml(s) {
-  return s.replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/\s+/g, " ").trim();
+  return s.replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&#39;/g, "'")
+    // the wiki's own template leaves literal placeholder tokens on some
+    // pages when a field is unset (ex. "__monster__", "??") -- strip those
+    // rather than showing them to the user
+    .replace(/__\w+__/g, " ").replace(/\?\?/g, " ")
+    .replace(/\s+/g, " ").trim();
+}
+// long extractions are a sign the column grabbed an unrelated block (some
+// pages nest an extra weapon-crafting-tree table before the real content) --
+// cap length so contamination doesn't dominate the shown text
+function capLen(s, max = 160) {
+  return s.length > max ? s.slice(0, max).replace(/\s\S*$/, "") + "…" : s;
 }
 
+// each of the 3 sub-sections ("Quests & Rewards for X", "Monsters that drop
+// X", "Locations with X") sometimes uses <p> for its content, sometimes
+// <ul>, sometimes both -- so counting/grabbing <ul> tags globally misaligns
+// as soon as one section skips the list (ex. Boggi Shard's "Quests" section
+// is <p>-only). Slicing by the 3 fixed <div class="col-sm-4"> boundaries
+// instead is robust regardless of what's inside each one.
+function extractCol(html, start, end) {
+  const chunk = html.slice(start, end);
+  const hIdx = chunk.indexOf("</h3>");
+  const body = hIdx === -1 ? chunk : chunk.slice(hIdx + 5);
+  return stripHtml(body);
+}
 function parseObtainInfo(html, name) {
   const marker = `How to get ${name}`;
   const idx = html.indexOf(marker);
   if (idx === -1) return null;
-  const section = html.slice(idx, idx + 3000);
+  const rowIdx = html.indexOf(`<div class="row">`, idx);
+  if (rowIdx === -1) return null;
+  const col1 = html.indexOf(`<div class="col-sm-4">`, rowIdx);
+  const col2 = html.indexOf(`<div class="col-sm-4">`, col1 + 1);
+  const col3 = html.indexOf(`<div class="col-sm-4">`, col2 + 1);
+  if (col1 === -1 || col2 === -1 || col3 === -1) return null;
+  let rowEnd = html.indexOf(`<h3 class="bonfire"`, col3);
+  if (rowEnd === -1) rowEnd = col3 + 2000;
 
-  const questsMatch = section.match(/Quests & Rewards for [^<]*<\/[^>]+>(.*?)Monsters that drop/s);
-  const monstersMatch = section.match(/Monsters that drop [^<]*<\/[^>]+>(.*?)Locations with/s);
-  const locationsMatch = section.match(/Locations with [^<]*<\/[^>]+>(.*?)(?:<h3|<div class="col-)/s);
+  const quests = capLen(extractCol(html, col1, col2));
+  const monsters = capLen(extractCol(html, col2, col3));
+  const locations = capLen(extractCol(html, col3, rowEnd));
 
-  const quests = questsMatch ? stripHtml(questsMatch[1]) : "";
-  const monsters = monstersMatch ? stripHtml(monstersMatch[1]) : "";
-  const locations = locationsMatch ? stripHtml(locationsMatch[1]) : "";
-
+  const isEmpty = (s) => !s || /^(N\/A|None)$/i.test(s);
   const parts = [];
-  if (quests && !/^N\/A$/i.test(quests)) parts.push(quests);
-  if (monsters && !/^N\/A$/i.test(monsters)) parts.push(`Dropped by: ${monsters}`);
-  if (locations && !/^N\/A$/i.test(locations)) parts.push(locations);
+  if (!isEmpty(quests)) parts.push(quests);
+  if (!isEmpty(monsters)) parts.push(`Dropped by: ${monsters}`);
+  if (!isEmpty(locations)) parts.push(locations);
 
-  return parts.length ? parts.join(" ") : null;
+  return parts.length ? parts.join(" | ") : null;
 }
 
 async function main() {

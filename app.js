@@ -59,6 +59,7 @@ const decorationsSearchEl = document.getElementById("decorations-search");
 const decorationsIndexEl = document.getElementById("decorations-index");
 const decorationDetailEl = document.getElementById("decoration-detail");
 let decorations = [];
+let materialObtainNotes = {};
 
 function normalizeSearch(s) {
   // strip accents, then "+" (ex. "Attack Jewel+ 4") so a query typed without
@@ -236,9 +237,10 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, decorationsRes] = await Promise.all([
+    const [monstersRes, decorationsRes, obtainNotesRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/decorations.json"),
+      fetch("data/material_obtain_notes.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
@@ -247,6 +249,7 @@ async function init() {
     if (!monstersRes.ok) throw new Error("HTTP " + monstersRes.status);
     monsters = await monstersRes.json();
     decorations = decorationsRes.ok ? await decorationsRes.json() : [];
+    materialObtainNotes = obtainNotesRes.ok ? await obtainNotesRes.json() : {};
   } catch (err) {
     triggerLabelEl.textContent = ui("selectError");
     detailEl.innerHTML = `<p class="empty-state">${I18N.ui[lang].loadError(err.message)}</p>`;
@@ -703,7 +706,9 @@ function showDecorationDetail(id) {
             <span class="gs-source-summary">${summarizeRow(s.row) || "—"}</span>
           </button>`).join("")}
         </details>
-      ` : `<p class="gs-material-intro">${ui("decorationsMaterialNoMonster")}</p>`}
+      ` : `<p class="gs-material-intro">${materialObtainNotes[m.material]
+          ? escapeAttr(materialObtainNotes[m.material][lang])
+          : ui("decorationsMaterialNoMonster")}</p>`}
     </div>`;
   }).join("");
 
@@ -1045,6 +1050,64 @@ const HITZONE_SHAPES = {
       Leg: ["272,467 272,470 276,478 278,488 281,490 294,491 318,496 322,496 325,494 328,496 331,496 331,490 328,486 322,487 303,471 302,460 308,448 315,454 317,464 320,464 323,462 326,465 327,470 340,489 350,498 396,499 399,496 406,494 411,499 414,499 416,492 419,498 421,498 425,492 425,486 423,482 420,481 406,480 403,482 394,481 393,482 382,482 380,483 373,480 365,471 357,465 352,453 353,443 338,443 337,442 311,440 299,432 292,429 287,429 281,444 279,459"],
     },
   },
+  // Traced from the user's reference silhouette (vectores/barioth.png,
+  // itself recolored from a Monster Hunter Frontier hitzone chart — colors
+  // in the source image are Frontier's own tiering, NOT ours; only the
+  // outline/regions were used). Head confirmed on the right side per the
+  // user. Our real hitzone part names (Head/Neck-Back/Foreleg/Thorns/
+  // Abdomen/Wing/Hind Leg/Tail/Tail Tip) don't map 1:1 to the art's 7 flat-
+  // color regions, so two pairs double up on one shape (documented per key
+  // below) — same "reuse the closest region" pattern as Rathalos's Back.
+  Barioth: {
+    viewBox: "0 0 943 500",
+    parts: {
+      // key order follows Kiranico's hitzone table order for this monster:
+      // Head, Neck/Back, Abdomen, Thorns, Wing, Hind Leg, Foreleg, Tail, Tail Tip
+      Head: ["556,20 556,52 550,70 546,112 549,153 556,171 562,171 564,167 565,129 568,109 573,95 579,100 581,106 585,110 592,112 599,111 613,116 620,128 628,137 625,146 626,149 630,151 652,150 674,156 705,157 732,150 752,142 760,145 764,143 765,138 757,114 756,101 767,100 769,96 768,93 751,73 753,68 751,63 733,48 721,41 718,35 712,33 708,28 689,17 689,4 687,0 588,0 575,5"],
+      "Neck/Back": ["749,143 734,149 704,157 671,155 656,150 628,151 628,153 618,163 618,167 614,171 614,174 608,178 609,190 606,211 586,253 587,290 575,308 560,326 560,329 572,345 574,345 591,329 602,314 610,286 624,263 647,248 663,228 680,238 688,241 694,241 722,233 734,224 747,242 750,243 751,223 742,184 745,170 753,168 753,152"],
+      // Abdomen has a small second sliver (region9) that's fully inside the
+      // left Foreleg's bounding box -- it looked like a stray foot detail
+      // at first, but the user confirmed it's actually a bit of exposed
+      // belly peeking out, not part of the leg.
+      Abdomen: [
+        "735,229 732,229 726,234 712,240 691,245 677,240 666,233 663,233 657,242 649,250 626,265 614,285 605,314 595,328 574,348 550,403 552,421 555,421 568,413 576,403 588,397 603,383 608,383 620,370 640,364 657,364 679,353 681,354 692,353 712,348 719,342 727,332 729,321 750,262 748,248",
+        "561,334 558,334 558,337 557,338 557,345 556,346 556,352 555,353 555,355 551,359 551,360 542,370 542,371 540,374 540,376 539,377 539,379 537,382 537,384 536,385 536,387 535,388 535,390 533,393 533,395 532,396 532,398 531,399 531,402 530,403 530,404 529,405 529,407 528,408 528,411 527,412 527,415 526,416 526,419 525,420 525,423 524,424 524,428 523,429 523,434 527,438 529,438 529,437 531,435 534,434 536,432 539,431 541,429 542,429 543,428 544,428 546,426 549,425 549,420 548,419 548,413 547,412 547,407 546,406 546,405 547,404 547,402 548,401 548,399 550,396 550,394 551,393 551,391 552,390 552,389 553,388 553,387 554,386 554,385 558,378 558,376 559,375 559,374 563,367 563,365 564,364 564,363 568,356 568,354 570,351 570,347 569,346 569,345 563,338 563,337 561,335",
+      ],
+      // the two ice-blade spikes on the forearms -- this art has no
+      // separate wing membrane shape, and anatomically the wing's leading
+      // edge IS these blades on a flying wyvern, so Wing reuses the same
+      // two shapes rather than borrowing something visually unrelated
+      Thorns: [
+        "431,54 421,65 392,141 387,142 385,166 376,168 374,172 378,195 370,197 368,201 372,225 370,228 363,228 361,232 370,255 369,258 355,250 350,252 349,257 364,310 359,318 381,364 380,371 388,392 411,434 413,448 421,453 439,486 443,488 447,486 453,471 459,444 460,426 479,369 480,338 486,298 506,260 498,252 477,217 462,212 452,212 428,202 423,198 423,190 414,184 415,175 427,168 429,164 427,159 419,156 427,107 437,69 436,56",
+        "781,115 783,131 813,218 812,221 808,222 808,230 818,236 812,254 808,257 802,256 797,273 796,291 803,317 819,358 825,397 833,427 845,442 863,443 889,450 892,432 940,383 940,381 936,381 902,396 899,395 900,391 939,349 942,342 907,357 901,357 903,338 921,304 889,320 886,318 884,311 899,285 878,292 873,280 880,258 867,264 858,249 865,231 854,236 850,233 842,221 844,204 835,206 790,122",
+      ],
+      Wing: [
+        "431,54 421,65 392,141 387,142 385,166 376,168 374,172 378,195 370,197 368,201 372,225 370,228 363,228 361,232 370,255 369,258 355,250 350,252 349,257 364,310 359,318 381,364 380,371 388,392 411,434 413,448 421,453 439,486 443,488 447,486 453,471 459,444 460,426 479,369 480,338 486,298 506,260 498,252 477,217 462,212 452,212 428,202 423,198 423,190 414,184 415,175 427,168 429,164 427,159 419,156 427,107 437,69 436,56",
+        "781,115 783,131 813,218 812,221 808,222 808,230 818,236 812,254 808,257 802,256 797,273 796,291 803,317 819,358 825,397 833,427 845,442 863,443 889,450 892,432 940,383 940,381 936,381 902,396 899,395 900,391 939,349 942,342 907,357 901,357 903,338 921,304 889,320 886,318 884,311 899,285 878,292 873,280 880,258 867,264 858,249 865,231 854,236 850,233 842,221 844,204 835,206 790,122",
+      ],
+      // the real Hind Leg -- smaller/partly hidden, sitting in the gap
+      // between the two front legs (only one of the two "extra" shapes
+      // found there was a Foreleg duplicate; this one is the genuine thing)
+      "Hind Leg": ["612,382 612,385 616,386 614,389 611,400 613,409 615,413 625,421 633,436 634,444 642,455 642,457 644,460 644,464 650,469 653,469 659,462 658,459 659,457 663,457 667,464 672,465 676,468 682,468 683,469 697,469 698,466 699,467 712,467 714,469 716,469 719,466 725,466 726,465 726,462 719,452 713,449 710,449 709,452 705,450 702,451 692,443 682,439 678,434 668,429 666,426 665,421 660,415 659,401 661,398 665,399 670,403 672,403 675,400 678,405 678,408 681,408 685,404 686,391 687,390 687,376 686,375 684,360 682,357 677,357 656,368 642,367 621,373"],
+      // both of these are Forelegs (Barioth is drawn facing the viewer, 3/4
+      // front-on, not in profile -- the user confirmed the bigger one isn't
+      // further back, it's the OTHER front leg spread apart/foreshortened
+      // by the pose)
+      Foreleg: [
+        "607,176 599,175 579,178 566,173 562,175 558,188 543,195 536,196 531,205 533,210 531,225 522,247 515,255 509,254 502,259 482,297 476,336 474,373 456,426 455,443 449,470 441,489 443,494 452,499 470,499 481,493 492,499 520,499 523,495 544,498 551,496 553,489 548,479 555,476 555,469 547,455 538,450 533,451 529,447 523,431 528,409 540,375 555,356 559,329 576,308 588,288 587,252 607,209 610,186",
+        "746,183 754,220 754,261 733,319 727,345 739,367 758,390 782,438 791,467 806,487 804,493 830,496 840,492 844,498 847,498 850,494 866,495 870,499 877,497 886,498 896,493 939,497 935,489 915,476 903,472 891,454 865,447 845,446 830,428 822,399 816,359 799,315 793,292 793,275 803,238 808,230 808,223 785,203 780,188 776,189 774,183 769,186 768,184 757,186",
+      ],
+      // the traced Tail was one single region -- the user asked for a real
+      // split, not just a duplicate label, so this cuts the polygon at
+      // x=100 (a vertex already exists there on the bottom/serrated edge;
+      // the matching point on the smooth top edge is interpolated between
+      // its two nearest vertices) into a small tip piece and the rest of
+      // the tail. Provisional cut point -- nudge it if the boundary looks
+      // off once rendered.
+      Tail: ["100,347 106,348 113,365 119,365 125,343 132,344 134,350 138,352 145,348 159,350 161,356 165,358 173,352 180,356 192,354 199,359 205,356 211,362 218,357 243,359 247,367 252,370 261,362 280,369 285,383 291,383 298,377 305,382 306,388 317,389 320,392 323,407 344,406 357,414 363,421 366,432 372,432 378,426 406,436 411,435 413,431 385,373 385,363 370,332 359,328 343,316 307,302 273,293 190,285 159,285 150,288 127,289 100,299"],
+      "Tail Tip": ["0,348 0,362 17,360 27,369 31,367 33,359 47,374 52,372 54,354 66,373 72,373 77,351 86,368 94,369 96,349 100,347 100,299 54,315"],
+    },
+  },
 };
 
 // Maps a 0-100 hitzone value to a heat-map color: blue (cold/low damage) up
@@ -1058,18 +1121,28 @@ const HITZONE_SHAPES = {
 const HZ_SILHOUETTE_TIER_COLORS = ["#c93a2e", "#d9832a", "#d9c94a"];
 const HZ_SILHOUETTE_NEUTRAL = "#4a4038";
 
+// how close (relative to the max) a value has to be to count as "tied for
+// red" -- ex. Barioth Head=65/Tail Tip=60 is a 7.7% gap, close enough that
+// the user wants both shown as the top tier instead of just the exact max.
+// Confirmed as a general rule (checked it doesn't change Rathalos: its 2nd
+// value, 50, is 23% below max 65, well outside this threshold).
+const HZ_RED_TIER_RELATIVE_THRESHOLD = 0.10;
+
 function tierColorsByPart(hitzones, statKey) {
-  // red = highest distinct value, orange = 2nd highest, yellow = everything
-  // else EXCEPT the single lowest distinct value, gray = that lowest value
-  // only (the "doesn't take extra damage" baseline). Confirmed with the user
+  // red = highest distinct value AND any other value within ~10% relative
+  // of it, orange = highest of what's left, yellow = everything else
+  // EXCEPT the single lowest distinct value, gray = that lowest value only
+  // (the "doesn't take extra damage" baseline). Confirmed with the user
   // using Rathalos: 65=red, 50=orange, 45 & 35=yellow, 25(the minimum)=gray.
   const distinctValues = [...new Set(hitzones.map(h => h[statKey] || 0))]
     .filter(v => v > 0)
     .sort((a, b) => b - a);
   const colorByValue = {};
+  const max = distinctValues[0];
+  const redCount = distinctValues.filter(v => v >= max * (1 - HZ_RED_TIER_RELATIVE_THRESHOLD)).length;
   distinctValues.forEach((v, i) => {
-    if (i === 0) colorByValue[v] = HZ_SILHOUETTE_TIER_COLORS[0];
-    else if (i === 1) colorByValue[v] = HZ_SILHOUETTE_TIER_COLORS[1];
+    if (i < redCount) colorByValue[v] = HZ_SILHOUETTE_TIER_COLORS[0];
+    else if (i === redCount) colorByValue[v] = HZ_SILHOUETTE_TIER_COLORS[1];
     else if (i === distinctValues.length - 1) colorByValue[v] = HZ_SILHOUETTE_NEUTRAL;
     else colorByValue[v] = HZ_SILHOUETTE_TIER_COLORS[2];
   });

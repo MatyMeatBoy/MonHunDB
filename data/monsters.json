@@ -1129,15 +1129,6 @@
           "dropped": ""
         },
         {
-          "material": "Afflicted Claw+",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "",
-          "carves": "20% (Body)",
-          "dropped": ""
-        },
-        {
           "material": "Afflicted Hardclaw",
           "rarity": null,
           "targetReward": "",
@@ -2450,15 +2441,6 @@
           "capture": "",
           "breakParts": "20% (Anomaly Quests)",
           "carves": "20% (Anomaly Quests)",
-          "dropped": ""
-        },
-        {
-          "material": "Afflicted Scale+",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "",
-          "carves": "20% (Body)",
           "dropped": ""
         },
         {
@@ -7476,15 +7458,6 @@
           "dropped": "50%"
         },
         {
-          "material": "Afflicted Dire Scale",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "40%",
-          "carves": "40%",
-          "dropped": ""
-        },
-        {
           "material": "Afflicted Dire Scale+",
           "rarity": null,
           "targetReward": "",
@@ -8095,15 +8068,6 @@
           "capture": "",
           "breakParts": "20% (Anomaly Quests)",
           "carves": "20% (Anomaly Quests)",
-          "dropped": ""
-        },
-        {
-          "material": "Afflicted Claw +",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "",
-          "carves": "20% (Body)",
           "dropped": ""
         },
         {
@@ -8892,15 +8856,6 @@
           "capture": "",
           "breakParts": "20% (Anomaly)",
           "carves": "20% (Anomaly)",
-          "dropped": ""
-        },
-        {
-          "material": "Afflicted Fang+",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "",
-          "carves": "20% (Body)",
           "dropped": ""
         },
         {
@@ -11095,15 +11050,6 @@
           "breakParts": "",
           "carves": "",
           "dropped": "50%"
-        },
-        {
-          "material": "Afflicted Dire Shell",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "40%",
-          "carves": "40%",
-          "dropped": ""
         },
         {
           "material": "Afflicted Dire Carapace",
@@ -15750,15 +15696,6 @@
           "dropped": "50%"
         },
         {
-          "material": "Afflicted Dire Horn",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "40%",
-          "carves": "40%",
-          "dropped": ""
-        },
-        {
           "material": "Afflicted Dire Horn+",
           "rarity": null,
           "targetReward": "",
@@ -16356,15 +16293,6 @@
           "breakParts": "",
           "carves": "",
           "dropped": "50%"
-        },
-        {
-          "material": "Afflicted Dire Shell",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "40%",
-          "carves": "40%",
-          "dropped": ""
         },
         {
           "material": "Afflicted Dire Carapace",
@@ -18614,15 +18542,6 @@
           "dropped": ""
         },
         {
-          "material": "Afflicted Fang +",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "",
-          "carves": "20% (Body)",
-          "dropped": ""
-        },
-        {
           "material": "Afflicted Fang+",
           "rarity": null,
           "targetReward": "",
@@ -19793,15 +19712,6 @@
           "dropped": "50%"
         },
         {
-          "material": "Afflicted Dire Shell",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "40%",
-          "carves": "40%",
-          "dropped": ""
-        },
-        {
           "material": "Afflicted Dire Carapace",
           "rarity": null,
           "targetReward": "",
@@ -20616,15 +20526,6 @@
           "capture": "",
           "breakParts": "20% (Anomaly Quests)",
           "carves": "20% (Anomaly Quests)",
-          "dropped": ""
-        },
-        {
-          "material": "Afflicted Claw+",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "",
-          "carves": "20% (Body)",
           "dropped": ""
         },
         {
@@ -27210,15 +27111,6 @@
           "dropped": "50%"
         },
         {
-          "material": "Afflicted Dire Bone",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "40%",
-          "carves": "40%",
-          "dropped": ""
-        },
-        {
           "material": "Afflicted Dire Hardbone",
           "rarity": null,
           "targetReward": "",
@@ -27798,15 +27690,6 @@
           "breakParts": "",
           "carves": "",
           "dropped": "50%"
-        },
-        {
-          "material": "Afflicted Dire Bone",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "40%",
-          "carves": "40%",
-          "dropped": ""
         },
         {
           "material": "Afflicted Dire Hardbone",
@@ -28621,15 +28504,6 @@
           "capture": "",
           "breakParts": "20% (Anomaly Quests)",
           "carves": "20% (Anomaly Quests)",
-          "dropped": ""
-        },
-        {
-          "material": "Afflicted Fang+",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "",
-          "carves": "20% (Body)",
           "dropped": ""
         },
         {
@@ -30757,15 +30631,6 @@
           "dropped": ""
         },
         {
-          "material": "Afflicted Fang +",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "",
-          "carves": "20% (Body)",
-          "dropped": ""
-        },
-        {
           "material": "Afflicted Fang+",
           "rarity": null,
           "targetReward": "",
@@ -32881,15 +32746,6 @@
           "dropped": ""
         },
         {
-          "material": "Afflicted Scale+",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "",
-          "carves": "20% (Body)",
-          "dropped": ""
-        },
-        {
           "material": "Afflicted Shard",
           "rarity": null,
           "targetReward": "",
@@ -33424,15 +33280,6 @@
           "breakParts": "",
           "carves": "",
           "dropped": "50%"
-        },
-        {
-          "material": "Afflicted Dire Claw",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "40%",
-          "carves": "40%",
-          "dropped": ""
         },
         {
           "material": "Afflicted Dire Claw+",
@@ -34069,15 +33916,6 @@
           "dropped": "50%"
         },
         {
-          "material": "Afflicted Dire Claw",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "40%",
-          "carves": "40%",
-          "dropped": ""
-        },
-        {
           "material": "Afflicted Dire Claw+",
           "rarity": null,
           "targetReward": "",
@@ -34689,15 +34527,6 @@
           "capture": "",
           "breakParts": "20% (Anomaly Quests)",
           "carves": "20% (Anomaly Quests)",
-          "dropped": ""
-        },
-        {
-          "material": "Afflicted Claw +",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "",
-          "carves": "20% (Body)",
           "dropped": ""
         },
         {
@@ -36322,15 +36151,6 @@
           "capture": "",
           "breakParts": "20% (Anomaly Quests)",
           "carves": "20% (Anomaly Quests)",
-          "dropped": ""
-        },
-        {
-          "material": "Afflicted Scale +",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "",
-          "carves": "20% (Body)",
           "dropped": ""
         },
         {
@@ -44248,15 +44068,6 @@
           "dropped": "35%"
         },
         {
-          "material": "Afflicted Shell",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "20%",
-          "carves": "20%",
-          "dropped": ""
-        },
-        {
           "material": "Afflicted Carapace",
           "rarity": null,
           "targetReward": "",
@@ -47785,15 +47596,6 @@
           "dropped": ""
         },
         {
-          "material": "Afflicted Scale +",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "",
-          "carves": "20% (Body)",
-          "dropped": ""
-        },
-        {
           "material": "Afflicted Scale+",
           "rarity": null,
           "targetReward": "",
@@ -51103,15 +50905,6 @@
           "breakParts": "",
           "carves": "",
           "dropped": "40%"
-        },
-        {
-          "material": "Afflicted Dire Horn",
-          "rarity": null,
-          "targetReward": "",
-          "capture": "",
-          "breakParts": "35%",
-          "carves": "35%",
-          "dropped": ""
         },
         {
           "material": "Afflicted Dire Horn+",
