@@ -498,6 +498,14 @@ body {
   border-radius: 6px;
 }
 
+.news-item-image--split img {
+  width: 72px;
+  height: 76px;
+  object-fit: contain;
+  background: var(--bg-panel-alt);
+  border-radius: 6px;
+}
+
 .news-item-body {
   min-width: 0;
 }
