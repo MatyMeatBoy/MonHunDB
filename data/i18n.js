@@ -301,8 +301,11 @@ const I18N = {
     "Glowgut": "Vientre luminoso",
     "Wingclaw": "Garra alar",
     "One Horn": "Un cuerno",
-    "Both Horns": "Ambos cuernos",
-    "Both Forelegs": "Ambas patas delanteras",
+    // dropped the "Ambos/Ambas" qualifier on purpose -- this is the compact
+    // materials-table view, "Pata delantera"/"Cuerno" already reads as
+    // "both, whichever" without needing to spell it out and burn column width
+    "Both Horns": "Cuerno",
+    "Both Forelegs": "Pata delantera",
     "Each Foreleg": "Cada pata delantera",
     "L Wingarm": "Ala-brazo izq.",
     "R Wingarm": "Ala-brazo der.",

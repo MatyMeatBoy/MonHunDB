@@ -1136,6 +1136,15 @@
           "breakParts": "40% (Anomaly Quests)",
           "carves": "40% (Anomaly Quests)",
           "dropped": ""
+        },
+        {
+          "material": "Afflicted Claw+",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
         }
       ]
     },
@@ -2445,6 +2454,15 @@
         },
         {
           "material": "Afflicted Shard",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
+        },
+        {
+          "material": "Afflicted Scale+",
           "rarity": null,
           "targetReward": "",
           "capture": "",
@@ -7474,6 +7492,15 @@
           "breakParts": "40% (Anomaly Quests)",
           "carves": "40% (Anomaly Quests)",
           "dropped": ""
+        },
+        {
+          "material": "Afflicted Dire Scale",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
         }
       ]
     },
@@ -8860,6 +8887,15 @@
         },
         {
           "material": "Afflicted Hardfang",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
+        },
+        {
+          "material": "Afflicted Fang+",
           "rarity": null,
           "targetReward": "",
           "capture": "",
@@ -11062,6 +11098,15 @@
         },
         {
           "material": "Afflicted Dire Cortex",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
+        },
+        {
+          "material": "Afflicted Dire Shell",
           "rarity": null,
           "targetReward": "",
           "capture": "",
@@ -15712,6 +15757,15 @@
           "breakParts": "40% (Anomaly Quests)",
           "carves": "40% (Anomaly Quests)",
           "dropped": ""
+        },
+        {
+          "material": "Afflicted Dire Horn",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
         }
       ]
     },
@@ -16305,6 +16359,15 @@
         },
         {
           "material": "Afflicted Dire Cortex",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
+        },
+        {
+          "material": "Afflicted Dire Shell",
           "rarity": null,
           "targetReward": "",
           "capture": "",
@@ -19728,6 +19791,15 @@
           "breakParts": "40% (Anomaly Quests)",
           "carves": "40% (Anomaly Quests)",
           "dropped": ""
+        },
+        {
+          "material": "Afflicted Dire Shell",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
         }
       ]
     },
@@ -20530,6 +20602,15 @@
         },
         {
           "material": "Afflicted Hardclaw",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
+        },
+        {
+          "material": "Afflicted Claw+",
           "rarity": null,
           "targetReward": "",
           "capture": "",
@@ -27127,6 +27208,15 @@
           "breakParts": "40% (Anomaly Quests)",
           "carves": "40% (Anomaly Quests)",
           "dropped": ""
+        },
+        {
+          "material": "Afflicted Dire Bone",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
         }
       ]
     },
@@ -27702,6 +27792,15 @@
         },
         {
           "material": "Afflicted Dire Slogbone",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
+        },
+        {
+          "material": "Afflicted Dire Bone",
           "rarity": null,
           "targetReward": "",
           "capture": "",
@@ -28508,6 +28607,15 @@
         },
         {
           "material": "Afflicted Hardfang",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
+        },
+        {
+          "material": "Afflicted Fang+",
           "rarity": null,
           "targetReward": "",
           "capture": "",
@@ -32753,6 +32861,15 @@
           "breakParts": "40% (Anomaly Quests)",
           "carves": "40% (Anomaly Quests)",
           "dropped": ""
+        },
+        {
+          "material": "Afflicted Scale+",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
         }
       ]
     },
@@ -33292,6 +33409,15 @@
         },
         {
           "material": "Afflicted Dire Hardclaw",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
+        },
+        {
+          "material": "Afflicted Dire Claw",
           "rarity": null,
           "targetReward": "",
           "capture": "",
@@ -33926,6 +34052,15 @@
         },
         {
           "material": "Afflicted Dire Hardclaw",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
+        },
+        {
+          "material": "Afflicted Dire Claw",
           "rarity": null,
           "targetReward": "",
           "capture": "",
@@ -44084,6 +44219,15 @@
           "breakParts": "40% (Anomaly Quests)",
           "carves": "40% (Anomaly Quests)",
           "dropped": ""
+        },
+        {
+          "material": "Afflicted Shell",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "40% (Anomaly Quests)",
+          "carves": "40% (Anomaly Quests)",
+          "dropped": ""
         }
       ]
     },
@@ -50922,6 +51066,15 @@
           "capture": "",
           "breakParts": "40% (Anomaly Quests)",
           "carves": "40% (Anomaly Quests)",
+          "dropped": ""
+        },
+        {
+          "material": "Afflicted Dire Horn",
+          "rarity": null,
+          "targetReward": "",
+          "capture": "",
+          "breakParts": "35% (Anomaly Quests)",
+          "carves": "35% (Anomaly Quests)",
           "dropped": ""
         }
       ]
