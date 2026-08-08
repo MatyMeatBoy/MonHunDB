@@ -1944,18 +1944,24 @@ function renderNewsSilhouettePreview() {
   }).join("");
 }
 
-// Per-row (not per-column) highlight for the 3 physical damage types: unlike
-// elements -- where "best" is judged once across the whole monster -- a
-// hunter picks a weapon type per body part, so the useful comparison is
-// "which of sever/blunt/projectile is highest for THIS part", row by row.
-function rankPhysicalCellsForRow(row) {
-  const vals = HITZONE_PHYSICAL_COLS.map(k => row[k] || 0);
-  const max = Math.max(...vals);
-  const classByKey = {};
-  if (max > 0) {
-    for (const k of HITZONE_PHYSICAL_COLS) if ((row[k] || 0) === max) classByKey[k] = "hz-best";
+// Per physical column (sever/blunt/projectile), highlight only the body
+// part(s) tied for the single highest value in THAT column -- ex. if Wing is
+// the only 50% under Sever, only Wing's Sever cell lights up, not every part
+// that happens to be a row-local max. Mirrors rankElementColumns's "best"
+// tier but scoped per column instead of picking one column overall, since
+// each physical type is its own independent comparison across body parts.
+function rankPhysicalCellsByColumn(hitzones) {
+  const maxByKey = {};
+  for (const key of HITZONE_PHYSICAL_COLS) {
+    maxByKey[key] = Math.max(0, ...hitzones.map(r => r[key] || 0));
   }
-  return classByKey;
+  return hitzones.map(row => {
+    const classByKey = {};
+    for (const key of HITZONE_PHYSICAL_COLS) {
+      if (maxByKey[key] > 0 && (row[key] || 0) === maxByKey[key]) classByKey[key] = "hz-best";
+    }
+    return classByKey;
+  });
 }
 
 function renderHitzones(container, hitzones) {
@@ -1971,8 +1977,9 @@ function renderHitzones(container, hitzones) {
   ];
 
   const theadCells = cols.map(c => `<th class="${colClass[c.key] || ""}">${hzStatIconTag(c.key)}${c.label}</th>`).join("");
-  const bodyRows = hitzones.map(row => {
-    const physClass = rankPhysicalCellsForRow(row);
+  const physClassByRow = rankPhysicalCellsByColumn(hitzones);
+  const bodyRows = hitzones.map((row, i) => {
+    const physClass = physClassByRow[i];
     const cells = cols.map(c => {
       const cls = HITZONE_PHYSICAL_COLS.includes(c.key) ? (physClass[c.key] || "") : (colClass[c.key] || "");
       return `<td class="${cls}">${row[c.key] ?? "—"}%</td>`;
