@@ -1864,7 +1864,6 @@ function renderSkillsIndex(query) {
         ${filtered.map(s => `
           <button type="button" class="decoration-card skill-card" data-skill-id="${s.id}">
             <span class="skill-card-top">${skillIconTag(s)}<span class="decoration-card-name">${trSkillName(s)}</span></span>
-            <span class="decoration-card-skill">${lang === "es" ? (s.descEs || "") : (s.descEn || "")}</span>
           </button>
         `).join("")}
       </div>
