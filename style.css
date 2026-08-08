@@ -436,12 +436,14 @@ body {
 }
 
 .lang-toggle {
+  position: relative;
+  overflow: hidden;
   flex: 0 0 auto;
   background: var(--bg-panel);
   color: var(--text);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 0.55rem 0.85rem;
+  padding: 0.55rem 0.55rem;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.03em;
@@ -450,7 +452,22 @@ body {
 
 .lang-toggle:hover { border-color: var(--accent); }
 
-.lang-opt { color: var(--text-dim); }
+.lang-toggle::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='3' height='2' fill='%23AA151B'/%3E%3Crect y='0.5' width='3' height='1' fill='%23F1BF00'/%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 0;
+}
+.lang-toggle[data-lang="en"]::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 30'%3E%3Crect width='60' height='30' fill='%23012169'/%3E%3Cpath d='M0,0 L60,30 M60,0 L0,30' stroke='%23FFFFFF' stroke-width='6'/%3E%3Cpath d='M0,0 L60,30 M60,0 L0,30' stroke='%23C8102E' stroke-width='2'/%3E%3Cpath d='M30,0 V30 M0,15 H60' stroke='%23FFFFFF' stroke-width='10'/%3E%3Cpath d='M30,0 V30 M0,15 H60' stroke='%23C8102E' stroke-width='6'/%3E%3C/svg%3E");
+}
+
+.lang-opt { color: var(--text-dim); position: relative; z-index: 1; }
 .lang-opt.active { color: var(--accent); }
 
 .detail {
@@ -492,6 +509,7 @@ body {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 1.1rem;
+  margin-bottom: 1rem;
 }
 
 .news-item-image {
@@ -862,6 +880,102 @@ body {
   padding-right: 1.2rem;
 }
 
+.material-name-link {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-weight: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+.material-name-link:hover { color: var(--accent); text-decoration: underline; }
+
+.skill-name-link {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.skill-name-link:hover { color: var(--accent); text-decoration: underline; }
+
+.skill-card {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+.skill-card .decoration-card-skill {
+  white-space: normal;
+  line-height: 1.4;
+}
+.skill-card-top { display: flex; align-items: center; gap: 0.5rem; }
+
+/* replicates MHRice's own 2-layer masked-icon technique: a colored "r"
+   (ring/base) mask on top of a solid black "a" (detail) mask underneath --
+   see scrape_skills.js for why skills only vary by color, not by shape */
+.skill-icon {
+  display: inline-grid;
+  grid-template: 1fr / 1fr;
+  place-items: center;
+  width: 1.4rem;
+  height: 1.4rem;
+  flex: 0 0 auto;
+  vertical-align: middle;
+}
+.skill-icon > * {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+  width: 100%;
+  height: 100%;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+.skill-icon-r {
+  z-index: 2;
+  -webkit-mask-image: url("data/images/icons/skill.r.png");
+  mask-image: url("data/images/icons/skill.r.png");
+}
+.skill-icon-a {
+  z-index: 1;
+  background-color: #000;
+  -webkit-mask-image: url("data/images/icons/skill.a.png");
+  mask-image: url("data/images/icons/skill.a.png");
+}
+.decoration-detail-header .skill-icon { width: 34px; height: 34px; }
+
+/* same 2-layer mask technique as .skill-icon, but for materials/decorations
+   which DO have real per-item icon art (see itemMaskIconTag() in app.js) --
+   kept as a separate class since the base size differs (.material-icon's
+   existing 22px etc.) and gets combined with that class for sizing */
+.item-mask-icon {
+  display: inline-grid;
+  grid-template: 1fr / 1fr;
+  place-items: center;
+}
+.item-mask-icon > * {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+  width: 100%;
+  height: 100%;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+.item-mask-icon-r { z-index: 2; }
+.item-mask-icon-a { z-index: 1; background-color: #000; }
+
 .no-data {
   color: var(--text-dim);
   font-size: 0.88rem;
@@ -1187,7 +1301,8 @@ body {
   color: var(--text);
 }
 .decoration-card:hover { border-color: var(--accent); }
-.decoration-card img.material-icon { width: 28px; height: 28px; flex: 0 0 auto; }
+.decoration-card img.material-icon,
+.decoration-card .material-icon.item-mask-icon { width: 28px; height: 28px; flex: 0 0 auto; }
 
 .decoration-card-name,
 .decoration-card-skill {
@@ -1203,7 +1318,8 @@ body {
   gap: 0.75rem;
   margin: 1rem 0 1.5rem;
 }
-.decoration-detail-header img.material-icon { width: 42px; height: 42px; }
+.decoration-detail-header img.material-icon,
+.decoration-detail-header .material-icon.item-mask-icon { width: 42px; height: 42px; }
 .decoration-detail-header h2 { margin: 0; flex: 1 1 auto; }
 .decoration-detail-slot {
   color: var(--text-dim);

@@ -1,0 +1,3767 @@
+[
+  {
+    "id": "PlayerSkill_208",
+    "name": "Adrenaline Rush",
+    "nameEs": "Subida de adrenalina",
+    "descEn": "Perform a perfectly-timed evade just as a monster attacks for a temporary attack boost.",
+    "descEs": "Esquiva en el momento justo en el que ataca un monstruo para conseguir un aumento temporal de ataque.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "While active, temporary attack power +10.",
+        "effectEs": "Mientras está activo, aumenta el poder de ataque +10 temporalmente."
+      },
+      {
+        "level": 2,
+        "effectEn": "While active, temporary attack power +15.",
+        "effectEs": "Mientras está activo, aumenta el poder de ataque +15 temporalmente."
+      },
+      {
+        "level": 3,
+        "effectEn": "While active, temporary attack power +30.",
+        "effectEs": "Mientras está activo, aumenta el poder de ataque +30 temporalmente."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_042",
+    "name": "Affinity Sliding",
+    "nameEs": "Afinidad deslizante",
+    "descEn": "Sliding increases your affinity for a short time.",
+    "descEs": "Deslizarse aumenta la afinidad un tiempo.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Enables skill use.",
+        "effectEs": "Permite el uso de la habilidad."
+      }
+    ],
+    "colorIndex": 3
+  },
+  {
+    "id": "PlayerSkill_001",
+    "name": "Agitator",
+    "nameEs": "Instigador",
+    "descEn": "Increases attack power and affinity when large monsters become enraged.",
+    "descEs": "Aumenta el ataque y la afinidad cuando ciertos monstruos se enfurecen.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Attack +4 and affinity +3% while active.",
+        "effectEs": "Ataque +4 y afinidad +3 % mientras esté activo."
+      },
+      {
+        "level": 2,
+        "effectEn": "Attack +8 and affinity +5% while active.",
+        "effectEs": "Ataque +8 y afinidad +5 % mientras esté activo."
+      },
+      {
+        "level": 3,
+        "effectEn": "Attack +12 and affinity +7% while active.",
+        "effectEs": "Ataque +12 y afinidad +7 % mientras esté activo."
+      },
+      {
+        "level": 4,
+        "effectEn": "Attack +16 and affinity +10% while active.",
+        "effectEs": "Ataque +16 y afinidad +10 % mientras esté activo."
+      },
+      {
+        "level": 5,
+        "effectEn": "Attack +20 and affinity +15% while active.",
+        "effectEs": "Ataque +20 y afinidad +15 % mientras esté activo."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_050",
+    "name": "Ammo Up",
+    "nameEs": "Munición+",
+    "descEn": "Increases bowgun loading capacity. (There is a cap to loading capacity.)",
+    "descEs": "Mejora la capacidad de carga de la ballesta. (Hasta un cierto límite).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Expands clip size for some ammo types.",
+        "effectEs": "Aumenta la capacidad de carga para unos pocos tipos de munición."
+      },
+      {
+        "level": 2,
+        "effectEn": "Expands clip size for many ammo types.",
+        "effectEs": "Aumenta la capacidad de carga para varios tipos de munición."
+      },
+      {
+        "level": 3,
+        "effectEn": "Expands clip size for most ammo types.",
+        "effectEs": "Aumenta la capacidad de carga para casi todos los tipos de munición."
+      }
+    ],
+    "colorIndex": 8
+  },
+  {
+    "id": "PlayerSkill_044",
+    "name": "Artillery",
+    "nameEs": "Artillería",
+    "descEn": "Strengthens explosive attacks like shells, Wyvern's Fire, charge blade phial attacks, and Sticky Ammo.",
+    "descEs": "Potencia ataques explosivos, como proyectiles, fuego de wyvern, viales del hacha cargada y disparos explosivos.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Increases power of each attack by 10% and reduces Wyvern's Fire cooldown by 15%.",
+        "effectEs": "Potencia el poder de cada ataque un 10 % y acelera el enfriamiento del fuego de wyvern un 15 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Increases power of each attack by 20% and reduces Wyvern's Fire cooldown by 30%.",
+        "effectEs": "Potencia el poder de cada ataque un 20 % y acelera el enfriamiento del fuego de wyvern un 30 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Increases power of each attack by 30% and reduces Wyvern's Fire cooldown by 50%.",
+        "effectEs": "Potencia el poder de cada ataque un 30 % y acelera el enfriamiento del fuego de wyvern un 50 %."
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_000",
+    "name": "Attack Boost",
+    "nameEs": "Ataque",
+    "descEn": "Attack Boost",
+    "descEs": "Ataque",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Attack +3",
+        "effectEs": "Ataque +3."
+      },
+      {
+        "level": 2,
+        "effectEn": "Attack +6",
+        "effectEs": "Ataque +6"
+      },
+      {
+        "level": 3,
+        "effectEn": "Attack +9",
+        "effectEs": "Ataque +9."
+      },
+      {
+        "level": 4,
+        "effectEn": "Attack +5% Bonus: +7",
+        "effectEs": "Ataque +5 % Bonus adicional +7"
+      },
+      {
+        "level": 5,
+        "effectEn": "Attack +6% Bonus: +8",
+        "effectEs": "Ataque +6 % Bonus adicional +8"
+      },
+      {
+        "level": 6,
+        "effectEn": "Attack +8% Bonus: +9",
+        "effectEs": "Ataque +8 % Bonus adicional +9"
+      },
+      {
+        "level": 7,
+        "effectEn": "Attack +10% Bonus: +10",
+        "effectEs": "Ataque +10 % Bonus adicional +10"
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_026",
+    "name": "Ballistics",
+    "nameEs": "Balística",
+    "descEn": "Extends the range in which ammo and arrows have maximum power.",
+    "descEs": "Aumenta el alcance en el que la munición y las flechas tienen la máxima potencia.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Slightly extends range.",
+        "effectEs": "Aumenta un poco el alcance."
+      },
+      {
+        "level": 2,
+        "effectEn": "Extends range.",
+        "effectEs": "Aumenta el alcance."
+      },
+      {
+        "level": 3,
+        "effectEn": "Greatly extends range.",
+        "effectEs": "Aumenta mucho el alcance."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_225",
+    "name": "Berserk",
+    "nameEs": "Frenético",
+    "descEn": null,
+    "descEs": "Con el kakejiku azul de cambio de habilidades, la barra de vitalidad se volverá roja y se irá vaciando. Si no se agota, no te desmayarás.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activate Effect",
+        "effectEs": "Activar efecto"
+      },
+      {
+        "level": 2,
+        "effectEn": "Slows the speed at which your red gauge depletes when using the Blue Swap Scroll.",
+        "effectEs": "Ralentiza el agotamiento de tu barra roja cuando uses el kakejiku azul."
+      }
+    ],
+    "colorIndex": 6
+  },
+  {
+    "id": "PlayerSkill_216",
+    "name": "Bladescale Hone",
+    "nameEs": "Filoescama afilada",
+    "descEn": null,
+    "descEs": "Esquiva un ataque en el momento justo (blandiendo el arma) para recuperar afilado, rellenar la munición de la ballesta o ganar un bonus temporal por vial quemarropa.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activates 50% of the time.",
+        "effectEs": "Activo el 50 % de las veces."
+      },
+      {
+        "level": 2,
+        "effectEn": "Activates 75% of the time.",
+        "effectEs": "Activo el 75 % de las veces."
+      },
+      {
+        "level": 3,
+        "effectEn": "Activates 100% of the time.",
+        "effectEs": "Activo el 100 % de las veces."
+      }
+    ],
+    "colorIndex": 4
+  },
+  {
+    "id": "PlayerSkill_020",
+    "name": "Blast Attack",
+    "nameEs": "Ataque nitro",
+    "descEn": "Increases the rate of blast buildup. (Blast buildup has a maximum limit.)",
+    "descEs": "Acelera la acumulación de nitro. (Tiene un límite máximo).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Blast buildup +5% Bonus: +1",
+        "effectEs": "Acumulación de nitro +5 %. Bonus adicional +1."
+      },
+      {
+        "level": 2,
+        "effectEn": "Blast buildup +10% Bonus: +2",
+        "effectEs": "Acumulación de nitro +10 %. Bonus adicional +2."
+      },
+      {
+        "level": 3,
+        "effectEn": "Blast buildup +20% Bonus: +5",
+        "effectEs": "Acumulación de nitro +20 %. Bonus adicional +5."
+      }
+    ],
+    "colorIndex": 6
+  },
+  {
+    "id": "PlayerSkill_077",
+    "name": "Blast Resistance",
+    "nameEs": "Antinitro",
+    "descEn": "Grants protection against blastblight.",
+    "descEs": "Antinitro",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Delays blastblight and reduces blast damage.",
+        "effectEs": "Ralentiza la plaga de nitro y reduce el daño por explosión."
+      },
+      {
+        "level": 2,
+        "effectEn": "Greatly delays blastblight and greatly reduces blast damage.",
+        "effectEs": "Ralentiza mucho la plaga de nitro y reduce mucho el daño por explosión."
+      },
+      {
+        "level": 3,
+        "effectEn": "Prevents blastblight.",
+        "effectEs": "Previene la plaga de nitro."
+      }
+    ],
+    "colorIndex": 6
+  },
+  {
+    "id": "PlayerSkill_071",
+    "name": "Blight Resistance",
+    "nameEs": "Antiplagas",
+    "descEn": "Grants protection against all elemental blights.",
+    "descEs": "Antiplagas",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Reduces the duration of all elemental blights by 50%.",
+        "effectEs": "Reduce la duración de todas las plagas elementales un 50 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Reduces the duration of all elemental blights by 75%.",
+        "effectEs": "Reduce la duración de todas las plagas elementales un 75 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Nullifies all elemental blights.",
+        "effectEs": "Anula todas las plagas elementales."
+      }
+    ],
+    "colorIndex": 10
+  },
+  {
+    "id": "PlayerSkill_232",
+    "name": "Blood Awakening",
+    "nameEs": "Despertar sangriento",
+    "descEn": "Gradually bolsters your attacks for a certain period of time, depending on how much health you regain when landing attacks.",
+    "descEs": "Durante cierto tiempo potencia los ataques progresivamente según la salud que recobres al acertar con tus ataques.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activate effect",
+        "effectEs": "Activar efecto"
+      },
+      {
+        "level": 2,
+        "effectEn": "Adds a bonus increase to effects that bolster your attacks.",
+        "effectEs": "Añade un aumento de bonus a los efectos que potencian los ataques."
+      },
+      {
+        "level": 3,
+        "effectEn": "Adds a bigger bonus increase to effects that bolster your attacks.",
+        "effectEs": "Añade un aumento de bonus mayor a los efectos que potencian los ataques."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_200",
+    "name": "Blood Rite",
+    "nameEs": "Rito sangriento",
+    "descEn": "A proportion of damage dealt is converted to health when striking a broken monster part.",
+    "descEs": "Una fracción del daño causado se transforma en salud al golpear una parte de un monstruo ya rota.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activate effect",
+        "effectEs": "Activar efecto"
+      },
+      {
+        "level": 2,
+        "effectEn": "Increases the amount of health you recover.",
+        "effectEs": "Aumenta la cantidad de salud recuperada."
+      },
+      {
+        "level": 3,
+        "effectEn": "Further Increases the amount of health you recover.",
+        "effectEs": "Aumenta aún más la cantidad de salud recuperada."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_205",
+    "name": "Bloodlust",
+    "nameEs": "Afán de sangre",
+    "descEn": null,
+    "descEs": "Cambia los efectos del virus del Furor. Reduce la salud progresivamente pero otorga una serie de efectos. El Furor se manifiesta en combate a menudo.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "While infected, attack & evasion increase & stamina use reduced. On recovery, red vitality gauge is restored, and affinity increases.",
+        "effectEs": "Con infección: ATQ+, esquiva+ y reduce consumo resistencia. Tras recuperación: restaura barra vitalidad roja y afinidad+."
+      },
+      {
+        "level": 2,
+        "effectEn": "While infected, further boost to effects received. Upon recovery, further increase to affinity.",
+        "effectEs": "Con infección: mejora de los efectos recibidos. Tras recuperación: mayor aumento de afinidad."
+      },
+      {
+        "level": 3,
+        "effectEn": "While infected, further boost to effects received. Upon recovery, further increases duration of increased affinity.",
+        "effectEs": "Con infección: mejora de efectos recibidos. Tras recuperación: mayor duración del aumento de afinidad mejorado."
+      }
+    ],
+    "colorIndex": 9
+  },
+  {
+    "id": "PlayerSkill_027",
+    "name": "Bludgeoner",
+    "nameEs": "Impacto mejorado",
+    "descEn": "Increases attack power when your weapon sharpness is low.",
+    "descEs": "Aumenta la fuerza de ataque cuando el afilado de tu arma es bajo.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "+5% attack power when your weapon sharpness gauge is yellow or lower.",
+        "effectEs": "Poder de ataque +5 % cuando la barra de afilado del arma es amarilla o menos."
+      },
+      {
+        "level": 2,
+        "effectEn": "+10% attack power when your sharpness gauge is yellow or lower.",
+        "effectEs": "Poder de ataque +10 % cuando la barra de afilado del arma es amarilla o menos."
+      },
+      {
+        "level": 3,
+        "effectEn": "+10% attack power when your sharpness gauge is green or lower.",
+        "effectEs": "Poder de ataque +10 % cuando la barra de afilado es verde o menos."
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_085",
+    "name": "Bombardier",
+    "nameEs": "Bombardero",
+    "descEn": "Increases the damage of explosive items.",
+    "descEs": "Bombardero",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Explosive power +10%",
+        "effectEs": "Potencia de fuego +10 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Explosive power +20%",
+        "effectEs": "Potencia de fuego + 20%."
+      },
+      {
+        "level": 3,
+        "effectEn": "Explosive power +30%",
+        "effectEs": "Potencia de fuego +30 %."
+      }
+    ],
+    "colorIndex": 6
+  },
+  {
+    "id": "PlayerSkill_078",
+    "name": "Botanist",
+    "nameEs": "Botánico",
+    "descEn": "Increases the quantity of herbs and other consumable items you gather.",
+    "descEs": "Aumenta la cantidad de hierbas y otros objetos consumibles que se obtienen al extraer recursos.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "One extra consumable herb item per gather.",
+        "effectEs": "Cada vez que extraes hierbas consigues una adicional."
+      },
+      {
+        "level": 2,
+        "effectEn": "One extra consumable herb, fruit, nut, or seed item per gather.",
+        "effectEs": "Cada vez que extraes hierbas, frutas, nueces o semillas consigues una adicional."
+      },
+      {
+        "level": 3,
+        "effectEn": "One extra consumable herb, fruit, nut, seed, or insect item per gather.",
+        "effectEs": "Cada vez que extraes hierbas, frutas, nueces, semillas o insectos consigues uno adicional."
+      },
+      {
+        "level": 4,
+        "effectEn": "One extra consumable herb, fruit, nut, seed, insect, or mushroom item per gather.",
+        "effectEs": "Cada vez que extraes hierbas, frutas, nueces, semillas, insectos o setas consigues una adicional."
+      }
+    ],
+    "colorIndex": 8
+  },
+  {
+    "id": "PlayerSkill_028",
+    "name": "Bow Charge Plus",
+    "nameEs": "Arquero maestro",
+    "descEn": "Increases max bow charge level by one.",
+    "descEs": "Arquero maestro",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activates skill effect.",
+        "effectEs": "Activa el efecto de la habilidad."
+      }
+    ],
+    "colorIndex": 8
+  },
+  {
+    "id": "PlayerSkill_063",
+    "name": "Bubbly Dance",
+    "nameEs": "Danza burbujeante",
+    "descEn": "Reduces bubbleblight and grants increased evasion when afflicted.",
+    "descEs": "Reduce la plaga de burbujas y otorga una mayor evasión al verse afectado.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Reduces the effects of major bubbleblight.",
+        "effectEs": "Reduce el efecto de la plaga de burbujas fuerte."
+      },
+      {
+        "level": 2,
+        "effectEn": "Reduces major bubbleblight to minor bubbleblight and increases evasiveness while afflicted.",
+        "effectEs": "Reduce la plaga de burbujas fuerte a débil e incrementa la evasión estando afectado."
+      },
+      {
+        "level": 3,
+        "effectEn": "Also inflicts bubbleblight when performing consecutive evasive movement.",
+        "effectEs": "Además, provoca plaga de burbujas cuando se realizan maniobras evasivas de forma consecutiva."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_224",
+    "name": "Buildup Boost",
+    "nameEs": "Bonus de acumulación",
+    "descEn": null,
+    "descEs": "Aumenta la fuerza de ataques inflijan veneno, parálisis, sueño, nitro o fatiga. (Solo para viales o munición de fatiga).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "While active, increases attack power by 10%.",
+        "effectEs": "Mientras está activo, aumenta el poder de ataque un 10 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "While active, increases attack power by 15%.",
+        "effectEs": "Mientras está activo, aumenta el poder de ataque un 15 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "While active, increases attack power by 20%.",
+        "effectEs": "Mientras está activo, aumenta el poder de ataque un 20 %."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_219",
+    "name": "Burst",
+    "nameEs": "Ráfaga",
+    "descEn": "Continuously landing hits gradually increases attack and elemental attack. (The amount of increase depends on the weapon.)",
+    "descEs": "Golpear de forma continuada aumenta gradualmente el ataque y el daño elemental. (El nivel del aumento depende del arma).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Upon attack hit, temp attack +5, element +5; hit 5 successive times for an extra stat boost.",
+        "effectEs": "Si un ataque acierta, ATQ +5 y elem. +5 temporalmente. Golpea 5 veces seguidas para bonus adicionales."
+      },
+      {
+        "level": 2,
+        "effectEn": "Upon attack hit, temp attack +5, element +5; hit 5 successive times for an even bigger stat boost.",
+        "effectEs": "Si un ataque acierta, ATQ +5 y elem. +5 temporalmente. Golpea 5 veces seguidas para bonus aún mayores."
+      },
+      {
+        "level": 3,
+        "effectEn": "Upon attack hit, temp attack +5, element +5; hit 5 successive times for a huge stat boost.",
+        "effectEs": "Si un ataque acierta, ATQ +5 y elem. +5 temporalmente. Golpea 5 veces seguidas para bonus muy elevados."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_081",
+    "name": "Capture Master",
+    "nameEs": "Maestro capturas",
+    "descEn": "High chance of increased capture rewards. (No effect when joining mid-quest.)",
+    "descEs": "Mejora la probabilidad de recibir objetos extra en recompensas de captura. (No aplicable si la misión ya ha empezado).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activates skill effect.",
+        "effectEs": "Activa el efecto de la habilidad."
+      }
+    ],
+    "colorIndex": 3
+  },
+  {
+    "id": "PlayerSkill_082",
+    "name": "Carving Master",
+    "nameEs": "Despiece extra",
+    "descEn": "Lets you carve one additional time. (No effect when joining mid-quest.)",
+    "descEs": "Permite cortar el cuerpo de monstruos una vez más de lo normal. (No aplicable si la misión ya ha empezado).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activates skill effect.",
+        "effectEs": "Activa el efecto de la habilidad."
+      }
+    ],
+    "colorIndex": 8
+  },
+  {
+    "id": "PlayerSkill_094",
+    "name": "Carving Pro",
+    "nameEs": "Experto cortador",
+    "descEn": "Prevents knockback from attacks while carving.",
+    "descEs": "Evita que te derriben mientras cortas partes de monstruos.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activates skill effect.",
+        "effectEs": "Activa el efecto de la habilidad."
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_099",
+    "name": "Chameleos Blessing",
+    "nameEs": "Bendición de Chameleos",
+    "descEn": "Gain the power of the elder dragon Chameleos.",
+    "descEs": "Bendición de Chameleos",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Sometimes increases the effects of Spiribirds.",
+        "effectEs": "A veces aumenta los efectos de las animaves"
+      },
+      {
+        "level": 2,
+        "effectEn": "Also negates minor and major wind pressure.",
+        "effectEs": "Además, anula las ráfagas de viento, tanto mayores como menores."
+      },
+      {
+        "level": 3,
+        "effectEn": "Also extends the duration of your poison's effect on monsters.",
+        "effectEs": "Además, prolonga la duración de los efectos del veneno en monstruos."
+      },
+      {
+        "level": 4,
+        "effectEn": "Also negates all wind pressure.",
+        "effectEs": "También anula todas las ráfagas de viento."
+      }
+    ],
+    "colorIndex": 9
+  },
+  {
+    "id": "PlayerSkill_212",
+    "name": "Charge Master",
+    "nameEs": "Maestro de cargas",
+    "descEn": "When a charged attack hits a monster, the element and status buildup of the charged attack increases.",
+    "descEs": "Si un ataque cargado golpea a un monstruo, aumenta el daño elemental y los efectos de estado de dicho ataque.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "When active, grants a slight increase to elemental damage and status buildup.",
+        "effectEs": "Mientras está activo, aumenta un poco el daño elemental y los efectos de estado."
+      },
+      {
+        "level": 2,
+        "effectEn": "When active, grants an increase to elemental damage and status buildup.",
+        "effectEs": "Mientras está activo, aumenta el daño elemental y los efectos de estado."
+      },
+      {
+        "level": 3,
+        "effectEn": "When active, grants a large increase to elemental damage and status buildup.",
+        "effectEs": "Mientras está activo, aumenta mucho el daño elemental y los efectos de estado."
+      }
+    ],
+    "colorIndex": 10
+  },
+  {
+    "id": "PlayerSkill_204",
+    "name": "Coalescence",
+    "nameEs": "Coalescencia",
+    "descEn": "Temporarily enhances attacks after recovering from blights or abnormal status.",
+    "descEs": "Potencia los ataques de forma temporal inmediatamente después de recuperarte de plagas y estados alterados.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "While active, attack +12, element attack power +2, and status buildup +5%.",
+        "effectEs": "Mientras está activo, aumenta el ataque +12, los ataques elementales +2 y los efectos de estado un +5 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "While active, attack +15, element attack power +3, and status buildup +10%.",
+        "effectEs": "Mientras está activo, aumenta el ataque +15, los ataques elementales +3 y los efectos de estado un +10 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "While active, attack +18, element attack power +4, and status buildup +15%.",
+        "effectEs": "Mientras está activo, aumenta el ataque +18, los ataques elementales +4 y los efectos de estado un +15 %."
+      }
+    ],
+    "colorIndex": 9
+  },
+  {
+    "id": "PlayerSkill_032",
+    "name": "Constitution",
+    "nameEs": "Constitución",
+    "descEn": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+    "descEs": "Disminuye el gasto de resistencia al esquivar, bloquear o hacer otras ciertas acciones.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Reduces fixed stamina depletion by 10%.",
+        "effectEs": "Reduce el consumo puntual de resistencia un 10 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Reduces fixed stamina depletion by 20%.",
+        "effectEs": "Reduce el consumo puntual de resistencia un 20 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Reduces fixed stamina depletion by 30%.",
+        "effectEs": "Reduce el consumo puntual de resistencia un 30 %."
+      },
+      {
+        "level": 4,
+        "effectEn": "Reduces fixed stamina depletion by 40%.",
+        "effectEs": "Reduce el consumo puntual de resistencia un 40 %."
+      },
+      {
+        "level": 5,
+        "effectEn": "Reduces fixed stamina depletion by 50%.",
+        "effectEs": "Reduce el consumo puntual de resistencia un 50 %."
+      }
+    ],
+    "colorIndex": 5
+  },
+  {
+    "id": "PlayerSkill_105",
+    "name": "Counterstrike",
+    "nameEs": "Contraataque",
+    "descEn": "Temporarily increases attack power after being knocked back.",
+    "descEs": "Aumenta el poder de ataque de manera temporal tras ser derribado.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Attack +10 after activation.",
+        "effectEs": "Ataque +10 tras activarse."
+      },
+      {
+        "level": 2,
+        "effectEn": "Attack +15 after activation.",
+        "effectEs": "Ataque +15 tras activarse."
+      },
+      {
+        "level": 3,
+        "effectEn": "Attack +25 after activation.",
+        "effectEs": "Ataque +25 tras activarse."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_006",
+    "name": "Critical Boost",
+    "nameEs": "Potenciador crítico",
+    "descEn": "Increases the damage of critical hits.",
+    "descEs": "Potenciador crítico",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Increases damage dealt by critical hits to 30%.",
+        "effectEs": "Aumenta en un 30 % el daño de los ataques críticos."
+      },
+      {
+        "level": 2,
+        "effectEn": "Increases damage dealt by critical hits to 35%.",
+        "effectEs": "Aumenta en un 35 % el daño de los ataques críticos."
+      },
+      {
+        "level": 3,
+        "effectEn": "Increases damage dealt by critical hits to 40%.",
+        "effectEs": "Aumenta en un 40 % el daño de los ataques críticos."
+      }
+    ],
+    "colorIndex": 3
+  },
+  {
+    "id": "PlayerSkill_037",
+    "name": "Critical Draw",
+    "nameEs": "Desenfundar",
+    "descEn": "Increases affinity for a short time after performing a draw attack. (Does not include Silkbind attacks.)",
+    "descEs": "Aumenta la afinidad durante un tiempo tras un ataque al desenfundar. (Los ataques de cordoamarre no cuentan).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Affinity +15%",
+        "effectEs": "Afinidad +15 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Affinity +30%",
+        "effectEs": "Afinidad +30 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Affinity +60%",
+        "effectEs": "Afinidad +60 %."
+      }
+    ],
+    "colorIndex": 3
+  },
+  {
+    "id": "PlayerSkill_010",
+    "name": "Critical Element",
+    "nameEs": "Elemento crítico",
+    "descEn": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
+    "descEs": "Aumenta el daño elemental (fuego, agua, rayo, hielo, draco) cuando es resultado de un crítico.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Grants elemental damage +5% while active.",
+        "effectEs": "Daño elemental +5 % mientras esté activo."
+      },
+      {
+        "level": 2,
+        "effectEn": "Grants elemental damage +10% while active.",
+        "effectEs": "Daño elemental +10 % mientras esté activo."
+      },
+      {
+        "level": 3,
+        "effectEn": "Grants elemental damage +15% while active.",
+        "effectEs": "Daño elemental +15 % mientras esté activo."
+      }
+    ],
+    "colorIndex": 10
+  },
+  {
+    "id": "PlayerSkill_005",
+    "name": "Critical Eye",
+    "nameEs": "Ojo crítico",
+    "descEn": "Critical Eye",
+    "descEs": "Ojo crítico",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Affinity +5%",
+        "effectEs": "Afinidad +5 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Affinity +10%",
+        "effectEs": "Afinidad +10 %"
+      },
+      {
+        "level": 3,
+        "effectEn": "Affinity +15%",
+        "effectEs": "Afinidad +15 %."
+      },
+      {
+        "level": 4,
+        "effectEn": "Affinity +20%",
+        "effectEs": "Afinidad +20 %."
+      },
+      {
+        "level": 5,
+        "effectEn": "Affinity +25%",
+        "effectEs": "Afinidad +25 %."
+      },
+      {
+        "level": 6,
+        "effectEn": "Affinity +30%",
+        "effectEs": "Afinidad +30 %."
+      },
+      {
+        "level": 7,
+        "effectEn": "Affinity +40%",
+        "effectEs": "Afinidad +40 %."
+      }
+    ],
+    "colorIndex": 3
+  },
+  {
+    "id": "PlayerSkill_055",
+    "name": "Defense Boost",
+    "nameEs": "Aumento defensivo",
+    "descEn": "Increases defense. Resistances will also improve as the level increases.",
+    "descEs": "Aumenta la defensa. A niveles altos mejora también las resistencias elementales.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Defense +5",
+        "effectEs": "Defensa +5."
+      },
+      {
+        "level": 2,
+        "effectEn": "Defense +10",
+        "effectEs": "Defensa +10."
+      },
+      {
+        "level": 3,
+        "effectEn": "Defense +5% Bonus: +10",
+        "effectEs": "Defensa +5 %. Bonus: +10."
+      },
+      {
+        "level": 4,
+        "effectEn": "Defense +5% Bonus: +20 All elemental resistances +3",
+        "effectEs": "Defensa +5 %. Bonus: +20. Resistencias elementales +3."
+      },
+      {
+        "level": 5,
+        "effectEn": "Defense +8% Bonus: +20 All elemental resistances +3",
+        "effectEs": "Defensa +8 %. Bonus: +20. Resistencias elementales +3."
+      },
+      {
+        "level": 6,
+        "effectEn": "Defense +8% Bonus: +35 All elemental resistances +5",
+        "effectEs": "Defensa +8 %. Bonus: +35. Resistencias elementales +5."
+      },
+      {
+        "level": 7,
+        "effectEn": "Defense +10% Bonus: +35 All elemental resistances +5",
+        "effectEs": "Defensa +10 %. Bonus: +35. Resistencias elementales +5."
+      }
+    ],
+    "colorIndex": 5
+  },
+  {
+    "id": "PlayerSkill_206",
+    "name": "Defiance",
+    "nameEs": "Rebeldía",
+    "descEn": "Increases defense when large monsters become enraged.",
+    "descEs": "Aumenta la defensa cuando los monstruos grandes se enfurecen.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "While active, nullifies weak roars, wind pressure, and tremors.",
+        "effectEs": "Mientras está activo, anula el efecto de los rugidos, las ráfagas de viento y los temblores más débiles."
+      },
+      {
+        "level": 2,
+        "effectEn": "While active, nullifies weak roars, wind pressure, and tremors. Reduces all strong ones, def +5.",
+        "effectEs": "Mientras está activo, anula rugidos, ráfagas de viento y temblores débiles. También reduce los fuertes, DEF +5."
+      },
+      {
+        "level": 3,
+        "effectEn": "While active, nullifies weak and strong roars, wind pressure, and tremors, def +10.",
+        "effectEs": "Mientras está activo, anula rugidos, ráfagas de viento y temblores (tanto débiles como fuertes), DEF +10."
+      },
+      {
+        "level": 4,
+        "effectEn": "While active, nullifies weak and strong roars, wind, and tremors, reduces powerful roars & d. wind, def +20.",
+        "effectEs": "Si activo, anula rugidos, viento y temblores (débiles y fuertes), reduce rugidos y ráf. draco potentes, DEF +20."
+      },
+      {
+        "level": 5,
+        "effectEn": "While active, nullifies weak, strong, and powerful roars, wind & dragon wind, and tremors, def +30.",
+        "effectEs": "Si está activo, anula rugidos, viento, ráfagas de draco y temblores (débiles, fuertes y potentes), DEF +30."
+      }
+    ],
+    "colorIndex": 5
+  },
+  {
+    "id": "PlayerSkill_201",
+    "name": "Dereliction",
+    "nameEs": "Descuido",
+    "descEn": null,
+    "descEs": "Los Qurio reducen tu salud, pero también bonifican tus ataques. Cuantos más Qurio, mayor es el bonus. Para recuperar salud, intercambia habilidades.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Using Red Scroll: Increased elemental and status values Using Blue Scroll: Increased attack and stun potency",
+        "effectEs": "Si se usa el kakejiku rojo: eleva valor elem./estado alt. Si se usa el kakejiku azul: eleva poder de ataque/aturd."
+      },
+      {
+        "level": 2,
+        "effectEn": "Bolsters your attacks depending on which Swap Scroll is used.",
+        "effectEs": "Potencia tus ataques según el kakejiku de cambio que utilices."
+      },
+      {
+        "level": 3,
+        "effectEn": "Further bolsters your attacks depending on which Swap Scroll is used.",
+        "effectEs": "Potencia más tus ataques según el kakejiku de cambio que utilices."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_097",
+    "name": "Diversion",
+    "nameEs": "Distracción",
+    "descEn": "Increases the attention drawn when attacking a monster.",
+    "descEs": "Permite llamar más la atención al atacar a un monstruo.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activates skill effect.",
+        "effectEs": "Activa el efecto de la habilidad."
+      }
+    ],
+    "colorIndex": 9
+  },
+  {
+    "id": "PlayerSkill_056",
+    "name": "Divine Blessing",
+    "nameEs": "Bendición divina",
+    "descEn": "Has a predetermined chance of reducing the damage you take.",
+    "descEs": "Posibilidad predeterminada de reducir el daño recibido.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "While active, reduces damage taken by 15%.",
+        "effectEs": "Mientras esté activo, reduce el daño recibido un 15 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "While active, reduces damage taken by 30%.",
+        "effectEs": "Mientras esté activo, reduce el daño recibido un 30 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "While active, reduces damage taken by 50%.",
+        "effectEs": "Mientras esté activo, reduce el daño recibido un 50 %."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_016",
+    "name": "Dragon Attack",
+    "nameEs": "Ataque de draco",
+    "descEn": "Increases dragon element attack power. (Elemental attack power has a maximum limit.)",
+    "descEs": "Potencia los ataques de draco. (La potencia de ataque elemental tiene un límite máximo).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Dragon attack +2",
+        "effectEs": "Ataque de draco +2"
+      },
+      {
+        "level": 2,
+        "effectEn": "Dragon attack +3",
+        "effectEs": "Ataque de draco +3"
+      },
+      {
+        "level": 3,
+        "effectEn": "Dragon attack +5% Bonus: +4",
+        "effectEs": "Ataque de draco +5 % Bonus adicional +4"
+      },
+      {
+        "level": 4,
+        "effectEn": "Dragon attack +10% Bonus: +4",
+        "effectEs": "Ataque de draco + 10 % Bonus adicional +4"
+      },
+      {
+        "level": 5,
+        "effectEn": "Dragon attack +20% Bonus: +4",
+        "effectEs": "Ataque de draco +20 % Bonus adicional +4"
+      }
+    ],
+    "colorIndex": 6
+  },
+  {
+    "id": "PlayerSkill_229",
+    "name": "Dragon Conversion",
+    "nameEs": "Conversión de draco",
+    "descEn": null,
+    "descEs": "El kakejiku de cambio rojo anula toda resistencia elemental y la transforma en ataques elementales. El azul aumenta la resistencia elemental.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activate effect All elemental resistances +3",
+        "effectEs": "Activar efecto Resistencias elementales +3"
+      },
+      {
+        "level": 2,
+        "effectEn": "All elemental resistances +5. When using the Blue Swap Scroll, resistance buildup increases when continuously attacking.",
+        "effectEs": "Resistencias elementales +5 Con el kakejiku de cambio azul, la acumulación de resistencia aumentará cuando ataques sin cesar."
+      },
+      {
+        "level": 3,
+        "effectEn": "All elemental resistances +10. When using the Red Swap Scroll, the conversion rate for elemental attacks increases.",
+        "effectEs": "Resistencias elementales +10 Con el kakejiku de cambio rojo, aumentará el ritmo de conversión de ataques elementales."
+      }
+    ],
+    "colorIndex": 6
+  },
+  {
+    "id": "PlayerSkill_070",
+    "name": "Dragon Resistance",
+    "nameEs": "Antidraco",
+    "descEn": "Increases dragon resistance. Also improves defense at higher levels.",
+    "descEs": "Aumenta la resistencia al draco. En niveles más altos también mejora la defensa.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Dragon resistance +6",
+        "effectEs": "Resistencia a draco +6."
+      },
+      {
+        "level": 2,
+        "effectEn": "Dragon resistance +12",
+        "effectEs": "Resistencia a draco +12."
+      },
+      {
+        "level": 3,
+        "effectEn": "Dragon resistance +20 Defense +10",
+        "effectEs": "Resistencia a draco +20. Defensa +10."
+      }
+    ],
+    "colorIndex": 6
+  },
+  {
+    "id": "PlayerSkill_102",
+    "name": "Dragonheart",
+    "nameEs": "Corazón de dragón",
+    "descEn": null,
+    "descEs": "La energía dracónica llena tu cuerpo tras perder cierta cantidad de salud. Las armas pierden estados no dracónicos.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "When your health is at 50% or less, you contract dragonblight, and all elemental resistances are set to 30.",
+        "effectEs": "Contraes plaga draco y todas las resistencias elementales pasan a 30 cuando tengas 50 % de salud o menos."
+      },
+      {
+        "level": 2,
+        "effectEn": "When your health is at 50% or less, you contract dragonblight, and all elemental resistances are set to 50.",
+        "effectEs": "Contraes plaga draco y todas las resistencias elementales pasan a 50 cuando tengas 50 % de salud o menos."
+      },
+      {
+        "level": 3,
+        "effectEn": "When your health is at 70% or less, you contract dragonblight, and all elemental resistances are set to 50.",
+        "effectEs": "Contraes plaga draco y todas las resistencias elementales pasan a 50 cuando tengas 70 % de salud o menos."
+      },
+      {
+        "level": 4,
+        "effectEn": "Contract dragonblight when at 70% health or less. Sets Elemental resistances to 50 and gain +5% attack power.",
+        "effectEs": "Plaga draco con un 70 % de salud o menos. Resistencias elementales en 50 y aumento de poder de ataque un 5 %."
+      },
+      {
+        "level": 5,
+        "effectEn": "Contract dragonblight when at 80% health or less. Sets Elemental resistances to 50 and gain +10% attack power.",
+        "effectEs": "Plaga draco con un 80 % de salud o menos. Resistencias elementales en 50 y aumento de poder de ataque un +10 %."
+      }
+    ],
+    "colorIndex": 6
+  },
+  {
+    "id": "PlayerSkill_060",
+    "name": "Earplugs",
+    "nameEs": "Tapones",
+    "descEn": "Grants protection from large monsters' roars.",
+    "descEs": "Tapones",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Reduces the effects of weak monster roars.",
+        "effectEs": "Reduce el efecto de los rugidos más débiles."
+      },
+      {
+        "level": 2,
+        "effectEn": "Nullifies weak monster roars.",
+        "effectEs": "Anula el efecto de los rugidos más débiles."
+      },
+      {
+        "level": 3,
+        "effectEn": "Nullifies weak monster roars and reduces the effects of strong monster roars.",
+        "effectEs": "Anula el efecto de los rugidos más débiles y reduce el efecto de los rugidos fuertes."
+      },
+      {
+        "level": 4,
+        "effectEn": "Nullifies weak and strong monster roars.",
+        "effectEs": "Anula el efecto de los rugidos débiles y fuertes."
+      },
+      {
+        "level": 5,
+        "effectEn": "Nullifies weak and strong monster roars. Reduces the effects of powerful monster roars.",
+        "effectEs": "Anula el efecto de los rugidos débiles y fuertes. Reduce el efecto de los rugidos más potentes."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_218",
+    "name": "Element Exploit",
+    "nameEs": "Aprovechar elemento",
+    "descEn": "Increases elemental damage when attacking body parts upon which the element are highly effective.",
+    "descEs": "Aumenta el daño elemental al atacar partes del cuerpo en las que el elemento sea muy efectivo.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Attacks that hit weak spots do +10% elemental damage.",
+        "effectEs": "Los ataques a puntos débiles infligen un 10 % más de daño elemental."
+      },
+      {
+        "level": 2,
+        "effectEn": "Attacks that hit weak spots do +12.5% elemental damage.",
+        "effectEs": "Los ataques a puntos débiles infligen un 12,5 % más de daño elemental."
+      },
+      {
+        "level": 3,
+        "effectEn": "Attacks that hit weak spots do +15% elemental damage.",
+        "effectEs": "Los ataques a puntos débiles infligen un 15 % más de daño elemental."
+      }
+    ],
+    "colorIndex": 10
+  },
+  {
+    "id": "PlayerSkill_209",
+    "name": "Embolden",
+    "nameEs": "Enardecer",
+    "descEn": "When targeted by a monster, that monster becomes more likely to become enraged but your own defense is increased.",
+    "descEs": "Cuando te apunta un monstruo, este tiene más probabilidades de enfurecerse, pero al mismo tiempo aumenta tu defensa.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "While active, defense +10, slightly prolongs dodging invincibility and slightly lowers impact when guarding.",
+        "effectEs": "Mientras está activo, DEF +10, prolonga un poco inmunidad para esquivar y reduce un poco impactos al bloquear."
+      },
+      {
+        "level": 2,
+        "effectEn": "While active, defense +20, prolongs invincibility when dodging and lowers impact when guarding.",
+        "effectEs": "Mientras está activo, DEF +20, prolonga la inmunidad para esquivar y reduce los impactos al bloquear."
+      },
+      {
+        "level": 3,
+        "effectEn": "While active, defense +40, greatly prolongs dodging invincibility and greatly lowers impact when guarding.",
+        "effectEs": "Mientras está activo, DEF +40, prolonga mucho la inmunidad para esquivar y reduce mucho los impactos al bloquear."
+      }
+    ],
+    "colorIndex": 5
+  },
+  {
+    "id": "PlayerSkill_065",
+    "name": "Evade Extender",
+    "nameEs": "Distancia evasiva",
+    "descEn": "Increases evade distance.",
+    "descEs": "Distancia evasiva",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Slightly extends evasion distance.",
+        "effectEs": "Aumenta un poco la distancia a la que esquivas."
+      },
+      {
+        "level": 2,
+        "effectEn": "Extends evasion distance.",
+        "effectEs": "Aumenta la distancia a la que esquivas."
+      },
+      {
+        "level": 3,
+        "effectEn": "Greatly extends evasion distance.",
+        "effectEs": "Aumenta mucho la distancia a la que esquivas."
+      }
+    ],
+    "colorIndex": 12
+  },
+  {
+    "id": "PlayerSkill_064",
+    "name": "Evade Window",
+    "nameEs": "Intervalo evasivo",
+    "descEn": "Extends the invulnerability period when evading.",
+    "descEs": "Intervalo evasivo",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Very slightly increases invulnerability window.",
+        "effectEs": "Alarga muy poco el momento de invulnerabilidad al hacer un esquive."
+      },
+      {
+        "level": 2,
+        "effectEn": "Slightly increases invulnerability window.",
+        "effectEs": "Alarga un poco el momento de invulnerabilidad al hacer un esquive."
+      },
+      {
+        "level": 3,
+        "effectEn": "Increases invulnerability window.",
+        "effectEs": "Alarga el momento de invulnerabilidad al hacer un esquive."
+      },
+      {
+        "level": 4,
+        "effectEn": "Greatly increases invulnerability window.",
+        "effectEs": "Alarga mucho el momento de invulnerabilidad al hacer un esquive."
+      },
+      {
+        "level": 5,
+        "effectEn": "Massively increases invulnerability window.",
+        "effectEs": "Alarga muchísimo el momento de invulnerabilidad al hacer un esquive."
+      }
+    ],
+    "colorIndex": 12
+  },
+  {
+    "id": "PlayerSkill_012",
+    "name": "Fire Attack",
+    "nameEs": "Ataque de fuego",
+    "descEn": "Increases fire element attack power. (Elemental attack power has a maximum limit.)",
+    "descEs": "Potencia los ataques de fuego. (La potencia de ataque elemental tiene un límite máximo).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Fire attack +2",
+        "effectEs": "Ataque de fuego +2"
+      },
+      {
+        "level": 2,
+        "effectEn": "Fire attack +3",
+        "effectEs": "Ataque de fuego +3"
+      },
+      {
+        "level": 3,
+        "effectEn": "Fire attack +5% Bonus: +4",
+        "effectEs": "Ataque de fuego +5 % Bonus adicional +4"
+      },
+      {
+        "level": 4,
+        "effectEn": "Fire attack +10% Bonus: +4",
+        "effectEs": "Ataque de fuego +10 % Bonus adicional +4"
+      },
+      {
+        "level": 5,
+        "effectEn": "Fire attack +20% Bonus: +4",
+        "effectEs": "Ataque de fuego +20 % Bonus adicional +4"
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_066",
+    "name": "Fire Resistance",
+    "nameEs": "Antifuego",
+    "descEn": "Increases fire resistance. Also improves defense at higher levels.",
+    "descEs": "Aumenta la resistencia al fuego. En niveles más altos también mejora la defensa.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Fire resistance +6",
+        "effectEs": "Resistencia al fuego +6."
+      },
+      {
+        "level": 2,
+        "effectEn": "Fire resistance +12",
+        "effectEs": "Resistencia al fuego +12."
+      },
+      {
+        "level": 3,
+        "effectEn": "Fire resistance +20 Defense +10",
+        "effectEs": "Resistencia al fuego +20. Defensa +10."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_092",
+    "name": "Flinch Free",
+    "nameEs": "Mejora de balance",
+    "descEn": "Prevents knockbacks and other reactions to small damage.",
+    "descEs": "Previene reacciones a pequeños ataques como ser empujado hacia atrás.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Prevents knockbacks.",
+        "effectEs": "Previene los derribos."
+      },
+      {
+        "level": 2,
+        "effectEn": "Prevents knockbacks. Tripping is reduced to a knockback instead.",
+        "effectEs": "Previene los derribos. Los empujes hacia atrás se sustituyen por derribos."
+      },
+      {
+        "level": 3,
+        "effectEn": "Prevents knockbacks and tripping.",
+        "effectEs": "Previene ser derribado o empujado hacia atrás."
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_029",
+    "name": "Focus",
+    "nameEs": "Tiempo de carga",
+    "descEn": "Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.",
+    "descEs": "Carga los indicadores de armas rápidamente, así como los ataques cargados con armas que lo permitan.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "5% faster gauge fill rate and 5% faster charge times.",
+        "effectEs": "Las barras se rellenan un 5 % más rápido, y los ataques cargados un 5 % más rápido."
+      },
+      {
+        "level": 2,
+        "effectEn": "10% faster gauge fill rate and 10% faster charge times.",
+        "effectEs": "Las barras se rellenan un 10 % más rápido, y los ataques cargados un 10 % más rápido."
+      },
+      {
+        "level": 3,
+        "effectEn": "20% faster gauge fill rate and 15% faster charge times.",
+        "effectEs": "Las barras se rellenan un 20 % más rápido, y los ataques cargados un 15 % más rápido."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_213",
+    "name": "Foray",
+    "nameEs": "Irrupción",
+    "descEn": null,
+    "descEs": "Aumenta la fuerza de ataque y la afinidad cuando se ataca a un monstruo grande que sufre de veneno, parálisis o plaga elemental.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "While active, increases attack power +10.",
+        "effectEs": "Mientras está activo, aumenta el poder de ataque +10."
+      },
+      {
+        "level": 2,
+        "effectEn": "While active, increases attack power +10 and affinity +10%.",
+        "effectEs": "Mientras está activo, aumenta el poder de ataque +10 y la afinidad un 10 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "While active, increases attack power +15 and affinity +20%.",
+        "effectEs": "Mientras está activo, aumenta el poder de ataque +15 y la afinidad un 20 %."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_091",
+    "name": "Fortify",
+    "nameEs": "Fortalecer",
+    "descEn": "Increases your attack and defense when you fall in battle. (Disabled for some quests. Can be activated twice.)",
+    "descEs": "Aumenta el ataque y la defensa al caer en combate. (No aplicable en ciertas misiones. Se puede activar dos veces).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Increases attack by 10% and defense by 15% with each use.",
+        "effectEs": "Aumenta el ataque un 10 % y la defensa un 15 % con cada uso."
+      }
+    ],
+    "colorIndex": 6
+  },
+  {
+    "id": "PlayerSkill_089",
+    "name": "Free Meal",
+    "nameEs": "Comida gratis",
+    "descEn": "Gives you a predetermined chance of consuming a food or drink item for free.",
+    "descEs": "Ofrece una probabilidad determinada de consumir un objeto de comida o bebida gratis.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activates 10% of the time.",
+        "effectEs": "Activo el 10 % de las veces."
+      },
+      {
+        "level": 2,
+        "effectEn": "Activates 25% of the time.",
+        "effectEs": "Activo el 25 % de las veces."
+      },
+      {
+        "level": 3,
+        "effectEn": "Activates 45% of the time.",
+        "effectEs": "Activo el 45 % de las veces."
+      }
+    ],
+    "colorIndex": 13
+  },
+  {
+    "id": "PlayerSkill_231",
+    "name": "Frenzied Bloodlust",
+    "nameEs": "Sed sangre colérica",
+    "descEn": null,
+    "descEs": "Otorga un cordóptero adicional temporalmente al superar el furor. Su efecto dura muchísimo menos con el arma envainada.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Effect duration: 30 seconds",
+        "effectEs": "El efecto dura 30 segundos."
+      },
+      {
+        "level": 2,
+        "effectEn": "Effect duration: 60 seconds",
+        "effectEs": "El efecto dura 60 segundos."
+      },
+      {
+        "level": 3,
+        "effectEn": "Effect duration: 90 seconds",
+        "effectEs": "El efecto dura 90 segundos."
+      }
+    ],
+    "colorIndex": 8
+  },
+  {
+    "id": "PlayerSkill_228",
+    "name": "Frostcraft",
+    "nameEs": "Destreza helada",
+    "descEn": null,
+    "descEs": "Al envainar crea un aura de hielo que mejora el ataque, pero sus efectos disminuyen con cada golpe o tiro/flecha que se dispare.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activate effect",
+        "effectEs": "Activar efecto"
+      },
+      {
+        "level": 2,
+        "effectEn": "Extends the Frost Gauge.",
+        "effectEs": "Prolonga el indicador glacial."
+      },
+      {
+        "level": 3,
+        "effectEn": "Extends the Frost Gauge even further.",
+        "effectEs": "Prolonga aún más el indicador glacial."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_202",
+    "name": "Furious",
+    "nameEs": "Rabioso",
+    "descEn": null,
+    "descEs": "Con el kakejiku rojo, aumenta la furia al combatir monstruos. Cambia al azul con la furia al máximo para conseguir temporalmente resistencia infinita.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Using Red Scroll: Defense +10, all Res +5 Swap to Blue Scroll: Temporary infinite stamina",
+        "effectEs": "Si se usa el kakejiku rojo: DEF +10, todo tipo RES +5 Cambia al kakejiku azul: resistencia infinita temporal"
+      },
+      {
+        "level": 2,
+        "effectEn": "Using Red Scroll: Defense +20, all Res +10 Swap to Blue Scroll: Infinite stamina extended",
+        "effectEs": "Si se usa el kakejiku rojo: DEF +20, todo tipo RES +10 Cambia al kakejiku azul: resist. infinita prolongada"
+      },
+      {
+        "level": 3,
+        "effectEn": "Using Red Scroll: Defense +30, all Res +20 Swap to Blue Scroll: Infinite stamina extended",
+        "effectEs": "Si se usa el kakejiku rojo: DEF +30, todo tipo RES +20 Cambia al kakejiku azul: resist. infinita prolongada"
+      }
+    ],
+    "colorIndex": 4
+  },
+  {
+    "id": "PlayerSkill_079",
+    "name": "Geologist",
+    "nameEs": "Geólogo",
+    "descEn": "Increases the number of times you can use a gathering point.",
+    "descEs": "Aumenta la cantidad de veces que se puede usar un punto de recolección.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Allows you to gather one extra time from bonepiles.",
+        "effectEs": "Permite conseguir recursos de pilas de huesos una vez más de lo normal."
+      },
+      {
+        "level": 2,
+        "effectEn": "Allows you to gather one extra time from gathering points.",
+        "effectEs": "Permite conseguir recursos de puntos de recolección una vez más de lo normal."
+      },
+      {
+        "level": 3,
+        "effectEn": "Allows you to gather one extra time from mining outcrops.",
+        "effectEs": "Permite conseguir recursos de afloramientos mineros una vez más de lo normal."
+      }
+    ],
+    "colorIndex": 13
+  },
+  {
+    "id": "PlayerSkill_083",
+    "name": "Good Luck",
+    "nameEs": "Afortunado",
+    "descEn": "Good chance of increased quest rewards. (No effect when joining mid-quest.)",
+    "descEs": "Buena probabilidad de recibir objetos extra en recompensas de misión. (No aplicable si la misión ya ha empezado).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Slightly increases luck.",
+        "effectEs": "Aumenta un poco la suerte."
+      },
+      {
+        "level": 2,
+        "effectEn": "Increases luck.",
+        "effectEs": "Aumenta la suerte."
+      },
+      {
+        "level": 3,
+        "effectEn": "Greatly increases luck.",
+        "effectEs": "Aumenta mucho la suerte."
+      }
+    ],
+    "colorIndex": 4
+  },
+  {
+    "id": "PlayerSkill_215",
+    "name": "Grinder (S)",
+    "nameEs": "Amolador (S)",
+    "descEn": "When recovering sharpness, grants a boost to sharpness properties based on the number of levels recovered.",
+    "descEs": "Si se recupera afilado, otorga un aumento de las estadísticas de afilado en función del número de niveles recobrados.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Effect activates for 60 seconds when sharpness recovers 3 levels.",
+        "effectEs": "Se activa el efecto durante 60 segundos cuando el afilado recupere 3 niveles."
+      },
+      {
+        "level": 2,
+        "effectEn": "Effect activates for 60 seconds when sharpness recovers 2 levels.",
+        "effectEs": "Se activa el efecto durante 60 segundos cuando el afilado recupere 2 niveles."
+      },
+      {
+        "level": 3,
+        "effectEn": "Effect activates for 90 seconds when sharpness recovers 2 levels.",
+        "effectEs": "Se activa el efecto durante 90 segundos cuando el afilado recupere 2 niveles."
+      }
+    ],
+    "colorIndex": 4
+  },
+  {
+    "id": "PlayerSkill_034",
+    "name": "Guard",
+    "nameEs": "Guardia mejorada",
+    "descEn": "Reduces knockbacks and stamina depletion when guarding.",
+    "descEs": "Reduce la distancia que retrocedes y el gasto de resistencia al bloquear ataques.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Very slightly decreases the impact of attacks.",
+        "effectEs": "Reduce muy poco el impacto de los ataques."
+      },
+      {
+        "level": 2,
+        "effectEn": "Slightly decreases the impact of attacks and reduces stamina depletion by 30%.",
+        "effectEs": "Reduce levemente el impacto de los ataques y el gasto de resistencia un 30 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Decreases the impact of attacks and reduces stamina depletion by 30%.",
+        "effectEs": "Reduce el impacto de los ataques y el gasto de resistencia un 30 %."
+      },
+      {
+        "level": 4,
+        "effectEn": "Decreases the impact of attacks and reduces stamina depletion by 50%.",
+        "effectEs": "Reduce el impacto de los ataques y el gasto de resistencia un 50 %."
+      },
+      {
+        "level": 5,
+        "effectEn": "Greatly decreases the impact of attacks and reduces stamina depletion by 50%.",
+        "effectEs": "Reduce mucho el impacto de los ataques y el gasto de resistencia un 50 %."
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_035",
+    "name": "Guard Up",
+    "nameEs": "Escudo",
+    "descEn": "Allows you to guard against ordinarily unblockable attacks.",
+    "descEs": "Permite protegerse de ataques que normalmente no se pueden bloquear.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Reduces damage taken by 30%.",
+        "effectEs": "Reduce el daño recibido un 30 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Reduces damage taken by 50%.",
+        "effectEs": "Reduce el daño recibido un 50 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Reduces damage taken by 80%.",
+        "effectEs": "Reduce el daño recibido un 80 %."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_220",
+    "name": "Guts",
+    "nameEs": "Agallas",
+    "descEn": "Prevents fainting one time only when damage taken exceeds a certain amount of your remaining health.",
+    "descEs": "Evita perder el conocimiento una sola vez cuando el daño recibido exceda cierta cantidad de tu salud restante.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activate effect when vitality is 80 or higher.",
+        "effectEs": "Activar efecto cuando la vitalidad sea 80 o más."
+      },
+      {
+        "level": 2,
+        "effectEn": "Activate effect when vitality is 72 or higher.",
+        "effectEs": "Activar efecto cuando la vitalidad sea 72 o más."
+      },
+      {
+        "level": 3,
+        "effectEn": "Activate effect when vitality is 64 or higher.",
+        "effectEs": "Activar efecto cuando la vitalidad sea 64 o más."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_021",
+    "name": "Handicraft",
+    "nameEs": "Artesanía",
+    "descEn": "Extends the weapon sharpness gauge. However, it will not increase the gauge past its maximum.",
+    "descEs": "Extiende la barra de afilado del arma, pero no lo hará más allá de su máximo predeterminado.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Weapon sharpness +10",
+        "effectEs": "Afilado del arma +10."
+      },
+      {
+        "level": 2,
+        "effectEn": "Weapon sharpness +20",
+        "effectEs": "Afilado del arma +20."
+      },
+      {
+        "level": 3,
+        "effectEn": "Weapon sharpness +30",
+        "effectEs": "Afilado del arma +30."
+      },
+      {
+        "level": 4,
+        "effectEn": "Weapon sharpness +40",
+        "effectEs": "Afilado del arma +40."
+      },
+      {
+        "level": 5,
+        "effectEn": "Weapon sharpness +50",
+        "effectEs": "Afilado del arma +50."
+      }
+    ],
+    "colorIndex": 10
+  },
+  {
+    "id": "PlayerSkill_230",
+    "name": "Heaven-Sent",
+    "nameEs": "Enviado del cielo",
+    "descEn": null,
+    "descEs": "Se activa al no recibir daño durante un tiempo en combate con un monstruo grande. Se acaba cuando te derriban o te alejas demasiado del monstruo.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Decreases damage once and reduces stamina consumption while active. Performing a Switch Skill Swap will recover sharpness and reload ammo.",
+        "effectEs": "Reduce el daño una vez y el gasto de resistencia si está activo. Usa interc. habil. para recuperar afilado y recargar munición."
+      },
+      {
+        "level": 2,
+        "effectEn": "Reduces time until activation",
+        "effectEs": "Reduce el tiempo que debe transcurrir antes de que se active."
+      },
+      {
+        "level": 3,
+        "effectEn": "Also nullifies stamina and sharp- ness consumption. Performing a Switch Skill Swap removes or reduces status ailments.",
+        "effectEs": "También anula el gasto de resistencia y afilado. Usar un intercambio de habilidad elimina/reduce estados alterados."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_107",
+    "name": "Hellfire Cloak",
+    "nameEs": "Manto infernal",
+    "descEn": null,
+    "descEs": "Otorga resistencia al fuego infernal y poder explosivo de fuego infernal a los ataques tras cumplir ciertas condiciones.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Reduces damage from hellfire.",
+        "effectEs": "Reduce el daño recibido por el fuego infernal."
+      },
+      {
+        "level": 2,
+        "effectEn": "Increases damage from hellfire blasts.",
+        "effectEs": "Aumenta el daño recibido por el fuego infernal."
+      },
+      {
+        "level": 3,
+        "effectEn": "Inflicts hellfireblight when monsters are enraged.",
+        "effectEs": "Inflige plaga de fuego infernal a monstruos enfurecidos."
+      },
+      {
+        "level": 4,
+        "effectEn": "Effect persists for one minute after a monster's rage has subsided.",
+        "effectEs": "El efecto dura un minuto tras desaparecer la furia del monstruo."
+      }
+    ],
+    "colorIndex": 9
+  },
+  {
+    "id": "PlayerSkill_090",
+    "name": "Heroics",
+    "nameEs": "Heroicidad",
+    "descEn": "Increases attack power and defense when health drops to 35% or lower.",
+    "descEs": "Aumenta el poder de ataque y la defensa cuando la salud baja al 35 % o menos.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "While active, increases defense by 50 points.",
+        "effectEs": "Mientras esté activo, aumenta la defensa en 50."
+      },
+      {
+        "level": 2,
+        "effectEn": "Attack +5% and defense +50 while active.",
+        "effectEs": "Ataque +5 % y defensa +50 mientras esté activo."
+      },
+      {
+        "level": 3,
+        "effectEn": "Attack +5% and defense +100 while active.",
+        "effectEs": "Ataque +5 % y defensa +100 mientras esté activo."
+      },
+      {
+        "level": 4,
+        "effectEn": "Attack +10% and defense +100 while active.",
+        "effectEs": "Ataque +10 % y defensa +100 mientras esté activo."
+      },
+      {
+        "level": 5,
+        "effectEn": "While active, attack power +30% and defense-increasing effects are negated.",
+        "effectEs": "Poder de ataque +30 % mientras esté activo. Se pierden los efectos de aumento de defensa."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_043",
+    "name": "Horn Maestro",
+    "nameEs": "Músico",
+    "descEn": "Increases overall performance speed and shockwave damage.",
+    "descEs": "Aumenta la rapidez al tocar en general y el daño de la onda de choque.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activates skill effect.",
+        "effectEs": "Activa el efecto de la habilidad."
+      }
+    ],
+    "colorIndex": 8
+  },
+  {
+    "id": "PlayerSkill_095",
+    "name": "Hunger Resistance",
+    "nameEs": "Gasto resistencia",
+    "descEn": "Reduces maximum stamina depletion over time.",
+    "descEs": "Reduce el gasto de resistencia máximo a lo largo del tiempo.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Extends the time until your stamina cap reduces by 50%.",
+        "effectEs": "Prolonga un 50 % el tiempo que tarda la barra de resistencia en reducirse."
+      },
+      {
+        "level": 2,
+        "effectEn": "Extends the time until your stamina cap reduces by 100%.",
+        "effectEs": "Prolonga un 100 % el tiempo que tarda la barra de resistencia en reducirse."
+      },
+      {
+        "level": 3,
+        "effectEn": "Prevents your stamina cap from decreasing.",
+        "effectEs": "Previene que tu barra de resistencia se reduzca."
+      }
+    ],
+    "colorIndex": 5
+  },
+  {
+    "id": "PlayerSkill_014",
+    "name": "Ice Attack",
+    "nameEs": "Ataque de hielo",
+    "descEn": "Increases ice element attack power. (Elemental attack power has a maximum limit.)",
+    "descEs": "Potencia los ataques de hielo. (La potencia de ataque elemental tiene un límite máximo).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Ice attack +2",
+        "effectEs": "Ataque de hielo +2"
+      },
+      {
+        "level": 2,
+        "effectEn": "Ice attack +3",
+        "effectEs": "Ataque de hielo +3"
+      },
+      {
+        "level": 3,
+        "effectEn": "Ice attack +5% Bonus: +4",
+        "effectEs": "Ataque de hielo +5 % Bonus adicional +4"
+      },
+      {
+        "level": 4,
+        "effectEn": "Ice attack +10% Bonus: +4",
+        "effectEs": "Ataque de hielo +10 % Bonus adicional +4"
+      },
+      {
+        "level": 5,
+        "effectEn": "Ice attack +20% Bonus: +4",
+        "effectEs": "Ataque de hielo +20 % Bonus adicional +4"
+      }
+    ],
+    "colorIndex": 12
+  },
+  {
+    "id": "PlayerSkill_068",
+    "name": "Ice Resistance",
+    "nameEs": "Antihielo",
+    "descEn": "Increases ice resistance. Also improves defense at higher levels.",
+    "descEs": "Aumenta la resistencia al hielo. En niveles más altos también mejora la defensa.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Ice resistance +6",
+        "effectEs": "Resistencia al hielo +6."
+      },
+      {
+        "level": 2,
+        "effectEn": "Ice resistance +12",
+        "effectEs": "Resistencia al hielo +12."
+      },
+      {
+        "level": 3,
+        "effectEn": "Ice resistance +20 Defense +10",
+        "effectEs": "Resistencia al hielo +20. Defensa +10."
+      }
+    ],
+    "colorIndex": 12
+  },
+  {
+    "id": "PlayerSkill_235",
+    "name": "Inspiration",
+    "nameEs": "Inspiración",
+    "descEn": null,
+    "descEs": "Momentáneo bonus de aumento de ataque adicional al activar efectos para aliados en cierta zona objetivo (melodías, etc.).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activate effect",
+        "effectEs": "Activar efecto"
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_223",
+    "name": "Intrepid Heart",
+    "nameEs": "Corazón intrépido",
+    "descEn": null,
+    "descEs": "Tras llenar el indicador conectando ataques, anula las reacciones al daño y reduce el generado por un único ataque capaz de derribarte.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activate Effect",
+        "effectEs": "Activar efecto"
+      },
+      {
+        "level": 2,
+        "effectEn": "When activated, damage received is further reduced and will detonate an explosion.",
+        "effectEs": "Al activarse, el daño recibido se reduce aún más y detonará una explosión."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_087",
+    "name": "Item Prolonger",
+    "nameEs": "Duración de objetos",
+    "descEn": "Extends the duration of some item effects.",
+    "descEs": "Duración de objetos",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Item effect duration +10%",
+        "effectEs": "Duración del efecto de objetos +10 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Item effect duration +25%",
+        "effectEs": "Duración del efecto de objetos +25 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Item effect duration +50%",
+        "effectEs": "Duración del efecto de objetos +50 %."
+      }
+    ],
+    "colorIndex": 13
+  },
+  {
+    "id": "PlayerSkill_093",
+    "name": "Jump Master",
+    "nameEs": "Experto en salto",
+    "descEn": "Prevents attacks from knocking you back during a jump.",
+    "descEs": "Evita que los ataques te interrumpan mientras saltas.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Negates knockback during jumps.",
+        "effectEs": "Anula los derribos durante los saltos."
+      }
+    ],
+    "colorIndex": 11
+  },
+  {
+    "id": "PlayerSkill_100",
+    "name": "Kushala Blessing",
+    "nameEs": "Bendición de Kushala",
+    "descEn": "Gain the power of the elder dragon Kushala Daora.",
+    "descEs": "Bendición de Kushala",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Water and ice attack +5%",
+        "effectEs": "Ataques de agua y hielo +5 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Water and ice attack +10%",
+        "effectEs": "Ataques de agua y hielo +10 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Also allows recovery to exceed the red portion of the health gauge.",
+        "effectEs": "Además, permite que puedas recuperar salud más allá de la parte roja de la barra."
+      },
+      {
+        "level": 4,
+        "effectEn": "Also nullifies heat damage.",
+        "effectEs": "También anula el daño por calor."
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_008",
+    "name": "Latent Power",
+    "nameEs": "Poder latente",
+    "descEn": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
+    "descEs": "Aumenta temporalmente la afinidad y reduce el gasto de resistencia al cumplir con ciertas condiciones.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "While active, increases affinity by 10% and reduces stamina depletion by 30%.",
+        "effectEs": "Mientras está activo, aumenta la afinidad un 10 % y reduce el gasto de resistencia un 30 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "While active, increases affinity by 20% and reduces stamina depletion by 30%.",
+        "effectEs": "Mientras está activo, aumenta la afinidad un 20 % y reduce el gasto de resistencia un 30 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "While active, increases affinity by 30% and reduces stamina depletion by 50%.",
+        "effectEs": "Mientras está activo, aumenta la afinidad un 30 % y reduce el gasto de resistencia un 50 %."
+      },
+      {
+        "level": 4,
+        "effectEn": "While active, increases affinity by 40% and reduces stamina depletion by 50%.",
+        "effectEs": "Mientras está activo, aumenta la afinidad un 40 % y reduce el gasto de resistencia un 50 %."
+      },
+      {
+        "level": 5,
+        "effectEn": "While active, increases affinity by 50% and reduces stamina depletion by 50%.",
+        "effectEs": "Mientras está activo, aumenta la afinidad un 50 % y reduce el gasto de resistencia un 50 %."
+      }
+    ],
+    "colorIndex": 3
+  },
+  {
+    "id": "PlayerSkill_096",
+    "name": "Leap of Faith",
+    "nameEs": "Mejora de salto",
+    "descEn": "Allows you to do an emergency evade when facing towards large monsters, and extends the evasion distance.",
+    "descEs": "Permite realizar una evasión de emergencia al tener monstruos grandes de cara y aumenta la distancia a la que se esquiva.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Enables skill use.",
+        "effectEs": "Permite el uso de la habilidad."
+      }
+    ],
+    "colorIndex": 12
+  },
+  {
+    "id": "PlayerSkill_045",
+    "name": "Load Shells",
+    "nameEs": "Cargar arma",
+    "descEn": "Improves reloading, and increases the gunlance's shell capacity and charge blade's phial capacity.",
+    "descEs": "Mejora la recarga y capacidad de munición de la lanza pistola, y la capacidad de viales del hacha cargada.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Increases ammo and coating reloading speed.",
+        "effectEs": "Aumenta la velocidad de recarga de la munición y los viales."
+      },
+      {
+        "level": 2,
+        "effectEn": "Gunlance loading capacity +1 Increases charge blade phials",
+        "effectEs": "Capacidad de carga de la lanza pistola +1. Aumenta los viales del hacha cargada."
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_203",
+    "name": "Mail of Hellfire",
+    "nameEs": "Cota de fuego infernal",
+    "descEn": null,
+    "descEs": "Reduce la defensa pero aumenta el ataque. El cambio de estadísticas depende del kakejiku de intercambio de habilidades utilizado.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Using Red Scroll: Defense down, attack up Using Blue Scroll: Resistance down, element up",
+        "effectEs": "Si se usa el kakejiku rojo: defensa reducida, ataque+ Si se usa el kakejiku azul: resist. reducida, elem.+"
+      },
+      {
+        "level": 2,
+        "effectEn": "Further decreases defense and resistance, while further increasing attack and element.",
+        "effectEs": "Reduce aún más la defensa y la resistencia, pero aumenta aún más el ataque y poder de los elementos."
+      },
+      {
+        "level": 3,
+        "effectEn": "Greatly decreases defense and resistance, while greatly increasing attack and element.",
+        "effectEs": "Reduce mucho la defensa y la resistencia, pero aumenta mucho el ataque y poder de los elementos."
+      }
+    ],
+    "colorIndex": 9
+  },
+  {
+    "id": "PlayerSkill_031",
+    "name": "Marathon Runner",
+    "nameEs": "Esprint",
+    "descEn": "Slows down stamina depletion for actions which continuously drain stamina (such as dashing).",
+    "descEs": "Reduce el gasto de resistencia para acciones que la consumen gradualmente, como esprintar.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Reduces continuous stamina depletion by 15%.",
+        "effectEs": "Reduce el consumo gradual de resistencia un 15 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Reduces continuous stamina depletion by 30%.",
+        "effectEs": "Reduce el consumo gradual de resistencia un 30 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Reduces continuous stamina depletion by 50%.",
+        "effectEs": "Reduce el consumo gradual de resistencia un 50 %."
+      }
+    ],
+    "colorIndex": 5
+  },
+  {
+    "id": "PlayerSkill_098",
+    "name": "Master Mounter",
+    "nameEs": "As de la monta",
+    "descEn": "Improves your Wyvern Riding skills.",
+    "descEs": "As de la monta",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Makes filling the Riding Gauge easier and increases ease of parrying.",
+        "effectEs": "Hace más fácil llenar la barra de montura y aumenta la posibilidad de bloqueo."
+      }
+    ],
+    "colorIndex": 11
+  },
+  {
+    "id": "PlayerSkill_011",
+    "name": "Master's Touch",
+    "nameEs": "Toque del maestro",
+    "descEn": "Prevents your weapon from losing sharpness during critical hits.",
+    "descEs": "Evita que el arma pierda afilado con los ataques críticos.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Grants a 20% chance of no sharpness loss while active.",
+        "effectEs": "Probabilidad del 20 % de no perder afilado mientras esté activo."
+      },
+      {
+        "level": 2,
+        "effectEn": "Grants a 40% chance of no sharpness loss while active.",
+        "effectEs": "Probabilidad del 40 % de no perder afilado mientras esté activo."
+      },
+      {
+        "level": 3,
+        "effectEn": "Grants an 80% chance of no sharpness loss while active.",
+        "effectEs": "Probabilidad del 80 % de no perder afilado mientras esté activo."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_009",
+    "name": "Maximum Might",
+    "nameEs": "Afinidad",
+    "descEn": "Increases affinity if stamina is kept full for a period of time.",
+    "descEs": "Aumenta la afinidad mientras la resistencia esté llena durante cierto tiempo.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "While active, increases affinity by 10%.",
+        "effectEs": "Mientras está activo, aumenta la afinidad un 10 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "While active, increases affinity by 20%.",
+        "effectEs": "Mientras está activo, aumenta la afinidad un 20 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "While active, increases affinity by 30%.",
+        "effectEs": "Mientras está activo, aumenta la afinidad un 30 %."
+      }
+    ],
+    "colorIndex": 3
+  },
+  {
+    "id": "PlayerSkill_025",
+    "name": "Mind's Eye",
+    "nameEs": "Ojo mental",
+    "descEn": "Your attacks are deflected less and deal more damage to hard targets.",
+    "descEs": "Tus ataques se desvían menos y causan más daño a objetivos duros.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "50% chance of your attacks not being deflected. (+10% damage to hard targets when activated).",
+        "effectEs": "50 % de probabilidad de evitar el desvío de ataques. (+10 % de daño a objetivos duros al activarse)."
+      },
+      {
+        "level": 2,
+        "effectEn": "100% chance of your attacks not being deflected. (+15% damage to hard targets when activated).",
+        "effectEs": "100 % de probabilidad de evitar el desvío de ataques. (+15 % de daño a objetivos duros al activarse)."
+      },
+      {
+        "level": 3,
+        "effectEn": "100% chance of your attacks not being deflected. (+30% damage to hard targets when activated).",
+        "effectEs": "100 % de probabilidad de evitar el desvío de ataques. (30 % de daño a objetivos duros al activarse)."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_076",
+    "name": "Muck Resistance",
+    "nameEs": "Antifango",
+    "descEn": "Reduces impairments to mobility while stuck in monster muck or deep snow.",
+    "descEs": "Reduce la falta de movilidad al estar atrapado en fango de monstruo o nieve profunda.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Reduces limits on movement speed.",
+        "effectEs": "Reduce las limitaciones a la velocidad de movimiento."
+      },
+      {
+        "level": 2,
+        "effectEn": "Negates limits to movement speed.",
+        "effectEs": "Anula las limitaciones a la velocidad de movimiento."
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_086",
+    "name": "Mushroomancer",
+    "nameEs": "Experto en setas",
+    "descEn": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
+    "descEs": "Permite digerir setas no comestibles y beneficiarse de sus efectos.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Lets you digest blue mushrooms and toadstools.",
+        "effectEs": "Permite digerir setas azules y hongos."
+      },
+      {
+        "level": 2,
+        "effectEn": "Additionally lets you digest nitroshrooms and parashrooms.",
+        "effectEs": "Adicionalmente, permite digerir nitrosetas y paralisetas."
+      },
+      {
+        "level": 3,
+        "effectEn": "Additionally lets you digest mandragoras and exciteshrooms.",
+        "effectEs": "Adicionalmente, permite digerir mandrágoras y setas excitantes."
+      }
+    ],
+    "colorIndex": 9
+  },
+  {
+    "id": "PlayerSkill_047",
+    "name": "Normal/Rapid Up",
+    "nameEs": "Normal/salva+",
+    "descEn": "Increases the attack power of Normal Ammo and Rapid-type arrows.",
+    "descEs": "Aumenta la potencia de los disparos con munición normal y salva de flechas.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Slightly increases the power of Normal Ammo and Rapid-type arrows.",
+        "effectEs": "Aumenta un poco la potencia de los disparos con munición normal y salva de flechas."
+      },
+      {
+        "level": 2,
+        "effectEn": "Increases the power of Normal Ammo and Rapid-type arrows.",
+        "effectEs": "Aumenta la potencia de los disparos con munición normal y salva de flechas."
+      },
+      {
+        "level": 3,
+        "effectEn": "Greatly increases the power of Normal Ammo and Rapid-type arrows.",
+        "effectEs": "Aumenta mucho la potencia de los disparos con munición normal y salva de flechas."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_036",
+    "name": "Offensive Guard",
+    "nameEs": "Bloqueo agresivo",
+    "descEn": "Temporarily increases attack power after executing a perfectly-timed guard.",
+    "descEs": "Aumenta el poder de ataque de manera temporal tras realizar un bloqueo perfecto.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Attack +5% while active.",
+        "effectEs": "Ataque +5 % mientras esté activo."
+      },
+      {
+        "level": 2,
+        "effectEn": "Attack +10% while active.",
+        "effectEs": "Ataque +10 % mientras esté activo."
+      },
+      {
+        "level": 3,
+        "effectEn": "Attack +15% while active.",
+        "effectEs": "Ataque +15 % mientras esté activo."
+      }
+    ],
+    "colorIndex": 9
+  },
+  {
+    "id": "PlayerSkill_018",
+    "name": "Paralysis Attack",
+    "nameEs": "Ataque paralizante",
+    "descEn": "Increases the rate of paralysis buildup. (Paralysis buildup has a maximum limit.)",
+    "descEs": "Acelera la acumulación de parálisis. (Tiene un límite máximo).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Paralysis buildup +5% Bonus: +1",
+        "effectEs": "Acumulación parálisis +5 %. Bonus adicional +1."
+      },
+      {
+        "level": 2,
+        "effectEn": "Paralysis buildup +10% Bonus: +2",
+        "effectEs": "Acumulación parálisis +10 %. Bonus adicional +2."
+      },
+      {
+        "level": 3,
+        "effectEn": "Paralysis buildup +20% Bonus: +5",
+        "effectEs": "Acumulación parálisis +20 %. Bonus adicional +5."
+      }
+    ],
+    "colorIndex": 5
+  },
+  {
+    "id": "PlayerSkill_073",
+    "name": "Paralysis Resistance",
+    "nameEs": "Antiparálisis",
+    "descEn": "Reduces the duration of paralysis.",
+    "descEs": "Antiparálisis",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Reduces the duration of paralysis by 30%.",
+        "effectEs": "Reduce la duración de la parálisis un 30 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Reduces the duration of paralysis by 60%.",
+        "effectEs": "Reduce la duración de la parálisis un 60 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Prevents paralysis.",
+        "effectEs": "Previene la parálisis."
+      }
+    ],
+    "colorIndex": 5
+  },
+  {
+    "id": "PlayerSkill_080",
+    "name": "Partbreaker",
+    "nameEs": "Rompepartes",
+    "descEn": "Makes it easier to break or sever parts of monsters.",
+    "descEs": "Rompepartes",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Part damage +10%",
+        "effectEs": "Bonus de daño +10 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Part damage +20%",
+        "effectEs": "Bonus de daño +20 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Part damage +30%",
+        "effectEs": "Bonus de daño +30 %."
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_002",
+    "name": "Peak Performance",
+    "nameEs": "Plena forma",
+    "descEn": "Increases attack when your health is full.",
+    "descEs": "Plena forma",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Attack +5 while active.",
+        "effectEs": "Ataque +5 mientras esté activo."
+      },
+      {
+        "level": 2,
+        "effectEn": "Attack +10 while active.",
+        "effectEs": "Ataque +10 mientras esté activo."
+      },
+      {
+        "level": 3,
+        "effectEn": "Attack +20 while active.",
+        "effectEs": "Ataque +20 mientras esté activo."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_048",
+    "name": "Pierce Up",
+    "nameEs": "Perforante+",
+    "descEn": "Increases the attack power of Piercing Ammo and Piercing-type arrows.",
+    "descEs": "Aumenta el poder de la munición perforante y flechas perforantes.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Slightly increases the power of Piercing Ammo and Piercing-type arrows.",
+        "effectEs": "Aumenta ligeramente el poder de la munición perforante y flechas perforantes."
+      },
+      {
+        "level": 2,
+        "effectEn": "Increases the power of Piercing Ammo and Piercing-type arrows.",
+        "effectEs": "Aumenta el poder de D perforante y las flechas perforantes."
+      },
+      {
+        "level": 3,
+        "effectEn": "Greatly increases the power of Piercing Ammo and Piercing-type arrows.",
+        "effectEs": "Aumenta mucho el poder de la munición perforante y flechas perforantes."
+      }
+    ],
+    "colorIndex": 11
+  },
+  {
+    "id": "PlayerSkill_017",
+    "name": "Poison Attack",
+    "nameEs": "Ataque venenoso",
+    "descEn": "Increases the rate of poison buildup. (Poison buildup has a maximum limit.)",
+    "descEs": "Acelera la acumulación de veneno. (Tiene un límite máximo).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Poison buildup +5% Bonus: +1",
+        "effectEs": "Acumulación de veneno +5 %. Bonus adicional +1."
+      },
+      {
+        "level": 2,
+        "effectEn": "Poison buildup +10% Bonus: +2",
+        "effectEs": "Acumulación de veneno +10 %. Bonus adicional +2."
+      },
+      {
+        "level": 3,
+        "effectEn": "Poison buildup +20% Bonus: +5",
+        "effectEs": "Acumulación de veneno +20 %. Bonus adicional +5."
+      }
+    ],
+    "colorIndex": 9
+  },
+  {
+    "id": "PlayerSkill_072",
+    "name": "Poison Resistance",
+    "nameEs": "Antiveneno",
+    "descEn": "Reduces damage while poisoned.",
+    "descEs": "Antiveneno",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Reduces the number of times you take poison damage.",
+        "effectEs": "Reduce las veces que sufres daños por veneno."
+      },
+      {
+        "level": 2,
+        "effectEn": "Greatly reduces the number of times you take poison damage.",
+        "effectEs": "Reduce mucho las veces que sufres daños por veneno."
+      },
+      {
+        "level": 3,
+        "effectEn": "Prevents poison and reduces venom.",
+        "effectEs": "Previene el envenenamiento y reduce su efecto."
+      }
+    ],
+    "colorIndex": 9
+  },
+  {
+    "id": "PlayerSkill_227",
+    "name": "Powder Mantle",
+    "nameEs": "Manto de polvo",
+    "descEn": null,
+    "descEs": "Si atacas a un monstruo grande sin cesar, te rodeará una nube de polvo. Su color y sus efectos cambiarán a medida que pase el tiempo.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Get sent flying when wreathed in red powder and you'll receive explosive damage. Attack when in blue for an explosive finish.",
+        "effectEs": "Si sales volando con una nube roja, recibirás daño explosivo. Pero si atacas cuando es azul, rematarás con una explosión."
+      },
+      {
+        "level": 2,
+        "effectEn": "Reduces required hit count.",
+        "effectEs": "Reduce el número de impactos necesarios."
+      },
+      {
+        "level": 3,
+        "effectEn": "Further reduces required hit count.",
+        "effectEs": "Reduce más el número de impactos necesarios."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_030",
+    "name": "Power Prolonger",
+    "nameEs": "Carga prolongada",
+    "descEn": "Long swords, dual blades, insect glaives, switch axes, and charge blades stay powered up longer.",
+    "descEs": "Espadas largas y dobles, glaives insecto, hachas espada y cargadas duran cargadas más tiempo.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Slightly boosts the duration weapons are powered up.",
+        "effectEs": "Aumenta un poco la duración de las bonificaciones de las armas."
+      },
+      {
+        "level": 2,
+        "effectEn": "Boosts the duration weapons are powered up.",
+        "effectEs": "Aumenta la duración de las bonificaciones de las armas."
+      },
+      {
+        "level": 3,
+        "effectEn": "Greatly boosts the duration weapons are powered up.",
+        "effectEs": "Aumenta mucho la duración de las bonificaciones de las armas."
+      }
+    ],
+    "colorIndex": 13
+  },
+  {
+    "id": "PlayerSkill_024",
+    "name": "Protective Polish",
+    "nameEs": "Acabado protector",
+    "descEn": "Weapon sharpness does not decrease for a set time after sharpening.",
+    "descEs": "El filo del arma no disminuye durante un tiempo tras afilarla.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Effect lasts 30 seconds.",
+        "effectEs": "El efecto dura 30 segundos."
+      },
+      {
+        "level": 2,
+        "effectEn": "Effect lasts 60 seconds.",
+        "effectEs": "El efecto dura 60 segundos."
+      },
+      {
+        "level": 3,
+        "effectEn": "Effect lasts 90 seconds.",
+        "effectEs": "El efecto dura 90 segundos."
+      }
+    ],
+    "colorIndex": 4
+  },
+  {
+    "id": "PlayerSkill_038",
+    "name": "Punishing Draw",
+    "nameEs": "Pena inmediata",
+    "descEn": "Adds a stun effect to draw attacks and slightly increases attack power. (Does not include Silkbind attacks.)",
+    "descEs": "Añade efecto aturdidor a los ataques al desenfundar y aumenta un poco el ataque. (Los ataques de cordoamarre no cuentan).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Draw attacks deal a small amount of stun damage and get attack +3.",
+        "effectEs": "Los ataques al desenfundar causan una pequeña cantidad de daño por aturdimiento y obtienen +3 de ataque."
+      },
+      {
+        "level": 2,
+        "effectEn": "Draw attacks deal a small amount of stun damage and get attack +5.",
+        "effectEs": "Los ataques al desenfundar causan una pequeña cantidad de daño por aturdimiento y obtienen +5 de ataque."
+      },
+      {
+        "level": 3,
+        "effectEn": "Draw attacks deal a small amount of stun damage and get attack +7.",
+        "effectEs": "Los ataques al desenfundar causan una pequeña cantidad de daño por aturdimiento y obtienen +7 de ataque."
+      }
+    ],
+    "colorIndex": 4
+  },
+  {
+    "id": "PlayerSkill_221",
+    "name": "Quick Breath",
+    "nameEs": "Respiración rápida",
+    "descEn": null,
+    "descEs": "Al intercambiar habilidades puedes eliminar ciertos estados alterados o ralentizar sus efectos. Cura un estado y recuperarás salud.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activate effect",
+        "effectEs": "Activar efecto"
+      }
+    ],
+    "colorIndex": 8
+  },
+  {
+    "id": "PlayerSkill_039",
+    "name": "Quick Sheathe",
+    "nameEs": "Desenfunde veloz",
+    "descEn": "Speeds up weapon sheathing.",
+    "descEs": "Desenfunde veloz",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Slightly increases sheathing speed.",
+        "effectEs": "Aumenta levemente la velocidad al desenfundar."
+      },
+      {
+        "level": 2,
+        "effectEn": "Moderately increases sheathing speed.",
+        "effectEs": "Aumenta moderadamente la velocidad al desenfundar."
+      },
+      {
+        "level": 3,
+        "effectEn": "Greatly increases sheathing speed.",
+        "effectEs": "Aumenta enormemente la velocidad al desenfundar."
+      }
+    ],
+    "colorIndex": 13
+  },
+  {
+    "id": "PlayerSkill_054",
+    "name": "Rapid Fire Up",
+    "nameEs": "Disparo múltiple",
+    "descEn": "Improves light bowgun rapid fire.",
+    "descEs": "Disparo múltiple",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Rapid fire damage +5%",
+        "effectEs": "Daño de fuego rápido +5 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Rapid fire damage +10%",
+        "effectEs": "Daño de fuego rápido +10 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Rapid fire damage +20%",
+        "effectEs": "Daño de fuego rápido +20 %."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_106",
+    "name": "Rapid Morph",
+    "nameEs": "Mutación rápida",
+    "descEn": "Increases switch speed and power for switch axes and charge blades.",
+    "descEs": "Aumenta la velocidad de cambio y la fuerza de ataque de las hachas espada y las hachas cargadas.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Speed +10%",
+        "effectEs": "Velocidad +10 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Speed +20% Morph attack damage +10%",
+        "effectEs": "Velocidad +20 %. Daño por mutación +10 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Speed +30% Morph attack damage +20%",
+        "effectEs": "Velocidad +30 %. Daño por mutación +20 %."
+      }
+    ],
+    "colorIndex": 11
+  },
+  {
+    "id": "PlayerSkill_022",
+    "name": "Razor Sharp",
+    "nameEs": "Filo de cuchilla",
+    "descEn": "Prevents your weapon from losing sharpness.",
+    "descEs": "Filo de cuchilla",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activates 10% of the time.",
+        "effectEs": "Activo el 10 % de las veces."
+      },
+      {
+        "level": 2,
+        "effectEn": "Activates 25% of the time.",
+        "effectEs": "Activo el 25 % de las veces."
+      },
+      {
+        "level": 3,
+        "effectEn": "Activates 50% of the time.",
+        "effectEs": "Activo el 50 % de las veces."
+      }
+    ],
+    "colorIndex": 4
+  },
+  {
+    "id": "PlayerSkill_052",
+    "name": "Recoil Down",
+    "nameEs": "Cadencia",
+    "descEn": "Reduces recoil when firing bowgun ammo.",
+    "descEs": "Cadencia",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Recoil -1",
+        "effectEs": "Cadencia -1."
+      },
+      {
+        "level": 2,
+        "effectEn": "Recoil -2",
+        "effectEs": "Cadencia -2."
+      },
+      {
+        "level": 3,
+        "effectEn": "Recoil -3",
+        "effectEs": "Cadencia -3."
+      }
+    ],
+    "colorIndex": 13
+  },
+  {
+    "id": "PlayerSkill_058",
+    "name": "Recovery Speed",
+    "nameEs": "Recuperación rápida",
+    "descEn": "Speeds healing of recoverable damage (the red portion of the health gauge).",
+    "descEs": "Acelera la recuperación de daño temporal (la parte roja de la barra de salud).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Doubles the speed at which you heal recoverable damage.",
+        "effectEs": "Duplica la velocidad a la que se cura la parte de daño recuperable."
+      },
+      {
+        "level": 2,
+        "effectEn": "Triples the speed at which you heal recoverable damage.",
+        "effectEs": "Triplica la velocidad a la que se cura la parte de daño recuperable."
+      },
+      {
+        "level": 3,
+        "effectEn": "Quadruples the speed at which you heal recoverable damage.",
+        "effectEs": "Cuadruplica la velocidad a la que se cura la parte de daño recuperable."
+      }
+    ],
+    "colorIndex": 8
+  },
+  {
+    "id": "PlayerSkill_057",
+    "name": "Recovery Up",
+    "nameEs": "Recuperación",
+    "descEn": "Increases the amount recovered when restoring health.",
+    "descEs": "Aumenta la cantidad de salud recuperada al usar un objeto curativo.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Slightly increases recovery.",
+        "effectEs": "Aumenta un poco la recuperación."
+      },
+      {
+        "level": 2,
+        "effectEn": "Increases recovery.",
+        "effectEs": "Aumenta la recuperación."
+      },
+      {
+        "level": 3,
+        "effectEn": "Greatly increases recovery.",
+        "effectEs": "Aumenta mucho la recuperación."
+      }
+    ],
+    "colorIndex": 8
+  },
+  {
+    "id": "PlayerSkill_210",
+    "name": "Redirection",
+    "nameEs": "Redirección",
+    "descEn": null,
+    "descEs": "Cambia de habilidad en el momento justo en el que ataca un monstruo para reducir el daño recibido y negar la reacción al daño.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activate effect",
+        "effectEs": "Activar efecto"
+      },
+      {
+        "level": 2,
+        "effectEn": "Nullifies incoming damage, and automatically performs a Swap Evade backwards which recovers Wirebug Gauge.",
+        "effectEs": "Anula el daño recibido y realiza una evasión con intercambio que recuperará indicador cordóptero."
+      }
+    ],
+    "colorIndex": 8
+  },
+  {
+    "id": "PlayerSkill_051",
+    "name": "Reload Speed",
+    "nameEs": "Recarga",
+    "descEn": "Increases bowgun reloading and bow coating loading speed.",
+    "descEs": "Mejora la recarga de la ballesta y la velocidad de carga de viales del arco.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Bowgun speed +1. Improves bow handling.",
+        "effectEs": "Velocidad de ballesta +1. Mejora el manejo del arco."
+      },
+      {
+        "level": 2,
+        "effectEn": "Bowgun speed +2. Loads bow coating automatically.",
+        "effectEs": "Velocidad de ballesta +2. Carga los viales del arco automáticamente."
+      },
+      {
+        "level": 3,
+        "effectEn": "Bowgun speed +3.",
+        "effectEs": "Velocidad de ballesta +3."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_003",
+    "name": "Resentment",
+    "nameEs": "Resentimiento",
+    "descEn": "Increases attack when you have recoverable damage (the red portion of your health gauge).",
+    "descEs": "Aumenta el ataque cuando se activa el daño temporal (la parte roja de la barra de salud).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Attack +5 while active.",
+        "effectEs": "Ataque +5 mientras esté activo."
+      },
+      {
+        "level": 2,
+        "effectEn": "Attack +10 while active.",
+        "effectEs": "Ataque +10 mientras esté activo."
+      },
+      {
+        "level": 3,
+        "effectEn": "Attack +15 while active.",
+        "effectEs": "Ataque +15 mientras esté activo."
+      },
+      {
+        "level": 4,
+        "effectEn": "Attack +20 while active.",
+        "effectEs": "Ataque +20 mientras esté activo."
+      },
+      {
+        "level": 5,
+        "effectEn": "Attack +25 while active.",
+        "effectEs": "Ataque +25 mientras esté activo."
+      }
+    ],
+    "colorIndex": 6
+  },
+  {
+    "id": "PlayerSkill_004",
+    "name": "Resuscitate",
+    "nameEs": "Resistencia",
+    "descEn": "Increases attack power when you are suffering from an abnormal status.",
+    "descEs": "Aumenta la fuerza de ataque cuando sufres un estado alterado.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Attack +5 while active.",
+        "effectEs": "Ataque +5 mientras esté activo."
+      },
+      {
+        "level": 2,
+        "effectEn": "Attack +10 while active.",
+        "effectEs": "Ataque +10 mientras esté activo."
+      },
+      {
+        "level": 3,
+        "effectEn": "Attack +20 while active.",
+        "effectEs": "Ataque +20 mientras esté activo."
+      }
+    ],
+    "colorIndex": 6
+  },
+  {
+    "id": "PlayerSkill_234",
+    "name": "Shock Absorber",
+    "nameEs": "Absorbedescargas",
+    "descEn": null,
+    "descEs": "Desactiva la reacción al daño cuando golpeas a un aliado o viceversa. (No se aplica con ciertos estados alterados).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activate effect",
+        "effectEs": "Activar efecto"
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_019",
+    "name": "Sleep Attack",
+    "nameEs": "Ataque de sueño",
+    "descEn": "Increases the rate of sleep buildup. (Sleep buildup has a maximum limit.)",
+    "descEs": "Acelera la acumulación de sueño. (Tiene un límite máximo).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Sleep buildup +5% Bonus: +1",
+        "effectEs": "Acumulación de sueño +5 %. Bonus adicional +1."
+      },
+      {
+        "level": 2,
+        "effectEn": "Sleep buildup +10% Bonus: +2",
+        "effectEs": "Acumulación de sueño +10 %. Bonus adicional +2."
+      },
+      {
+        "level": 3,
+        "effectEn": "Sleep buildup +20% Bonus: +5",
+        "effectEs": "Acumulación de sueño +20 %. Bonus adicional +5."
+      }
+    ],
+    "colorIndex": 12
+  },
+  {
+    "id": "PlayerSkill_074",
+    "name": "Sleep Resistance",
+    "nameEs": "Antisueño",
+    "descEn": "Sleep Resistance",
+    "descEs": "Antisueño",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Reduces the duration of sleep by 30%.",
+        "effectEs": "Reduce la duración del sueño un 30 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Reduces the duration of sleep by 60%.",
+        "effectEs": "Reduce la duración del sueño un 60 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Prevents sleep.",
+        "effectEs": "Previene el sueño."
+      }
+    ],
+    "colorIndex": 12
+  },
+  {
+    "id": "PlayerSkill_040",
+    "name": "Slugger",
+    "nameEs": "Aturdir",
+    "descEn": "Slugger",
+    "descEs": "Aturdir",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Stun power +20%",
+        "effectEs": "Posibilidad de aturdir +20 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Stun power +30%",
+        "effectEs": "Posibilidad de aturdir +30 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Stun power +40%",
+        "effectEs": "Posibilidad de aturdir +40 %."
+      }
+    ],
+    "colorIndex": 4
+  },
+  {
+    "id": "PlayerSkill_207",
+    "name": "Sneak Attack",
+    "nameEs": "Ataque sigiloso",
+    "descEn": "Increases damage to large monsters when attacks hit them from behind.",
+    "descEs": "Aumenta el daño provocado a monstruos grandes cuando se les golpea por detrás.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "While active, increases attack power by 5%.",
+        "effectEs": "Mientras está activo, aumenta el poder de ataque un 5 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "While active, increases attack power by 10%.",
+        "effectEs": "Mientras está activo, aumenta el poder de ataque un 10 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "While active, increases attack power by 20%.",
+        "effectEs": "Mientras está activo, aumenta el poder de ataque un 20 %."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_023",
+    "name": "Spare Shot",
+    "nameEs": "Tiro extra",
+    "descEn": "Bow and bowgun shots have a chance not to expend coatings or ammo.",
+    "descEs": "Para arcos y ballestas, a veces disparas sin gastar viales ni munición.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activates 3% of the time.",
+        "effectEs": "Activo el 3 % de las veces."
+      },
+      {
+        "level": 2,
+        "effectEn": "Activates 10% of the time.",
+        "effectEs": "Activo el 10 % de las veces."
+      },
+      {
+        "level": 3,
+        "effectEn": "Activates 25% of the time.",
+        "effectEs": "Activo el 25 % de las veces."
+      }
+    ],
+    "colorIndex": 4
+  },
+  {
+    "id": "PlayerSkill_046",
+    "name": "Special Ammo Boost",
+    "nameEs": "Tiro especial",
+    "descEn": "Increases the power of bowgun special ammo and Dragon Piercer.",
+    "descEs": "Aumenta el poder del tiro especial de la ballesta y perforadragones.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Increases power of bowgun special ammo and Dragon Piercer by 10%.",
+        "effectEs": "Aumenta el poder del tiro especial de la ballesta y perforadragones un 10 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Increases power of bowgun special ammo and Dragon Piercer by 20%.",
+        "effectEs": "Aumenta el poder del tiro especial de la ballesta y perforadragones un 20 %."
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_059",
+    "name": "Speed Eating",
+    "nameEs": "Consumir",
+    "descEn": "Increases meat-eating and item-consumption speed.",
+    "descEs": "Aumenta la velocidad al comer carne y consumir objetos.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Slightly increases eating speed.",
+        "effectEs": "Aumenta un poco la velocidad al comer."
+      },
+      {
+        "level": 2,
+        "effectEn": "Increases eating speed.",
+        "effectEs": "Aumenta la velocidad al comer."
+      },
+      {
+        "level": 3,
+        "effectEn": "Greatly increases eating speed.",
+        "effectEs": "Aumenta mucho la velocidad al comer."
+      }
+    ],
+    "colorIndex": 5
+  },
+  {
+    "id": "PlayerSkill_084",
+    "name": "Speed Sharpening",
+    "nameEs": "Afilado rápido",
+    "descEn": "Speeds up weapon sharpening when using a whetstone.",
+    "descEs": "Aumenta la velocidad de afilado del arma al usar una piedra de afilar.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Removes one cycle from the sharpening process.",
+        "effectEs": "Hace el proceso de afilado un ciclo más corto."
+      },
+      {
+        "level": 2,
+        "effectEn": "Removes two cycles from the sharpening process.",
+        "effectEs": "Hace el proceso de afilado dos ciclos más corto."
+      },
+      {
+        "level": 3,
+        "effectEn": "Removes three cycles from the sharpening process.",
+        "effectEs": "Hace el proceso de afilado tres ciclos más corto."
+      }
+    ],
+    "colorIndex": 4
+  },
+  {
+    "id": "PlayerSkill_211",
+    "name": "Spiribird's Call",
+    "nameEs": "Llamada del animave",
+    "descEn": "Receive the effects of a random Spiribird at fixed intervals. (Certain quests only)",
+    "descEs": "Recibe los efectos de un animave al azar, a intervalos fijos de tiempo. (Solo en ciertas misiones).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activate effect",
+        "effectEs": "Activar efecto"
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_049",
+    "name": "Spread Up",
+    "nameEs": "Abanico+",
+    "descEn": "Increases the attack power of Spread Ammo and Spread- type arrows",
+    "descEs": "Aumenta el poder de D abanico y de las flechas en abanico.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Slightly increases the power of Spread Ammo, Shrapnel Ammo, and Spread-type arrows.",
+        "effectEs": "Aumenta ligeramente el poder de D abanico, D metralla y flechas en abanico."
+      },
+      {
+        "level": 2,
+        "effectEn": "Increases the power of Spread Ammo, Shrapnel Ammo, and Spread-type arrows.",
+        "effectEs": "Aumenta el poder de D abanico, D metralla y flechas en abanico."
+      },
+      {
+        "level": 3,
+        "effectEn": "Greatly increases the power of Spread Ammo, Shrapnel Ammo, and Spread-type arrows.",
+        "effectEs": "Aumenta mucho el poder de D abanico, D metralla y flechas en abanico."
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_033",
+    "name": "Stamina Surge",
+    "nameEs": "Adrenalina",
+    "descEn": "Speeds up stamina recovery.",
+    "descEs": "Adrenalina",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Stamina recovery speed +10%",
+        "effectEs": "Velocidad de recuperación de resistencia +10 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Stamina recovery speed +20%",
+        "effectEs": "Velocidad de recuperación de resistencia +20 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Stamina recovery speed +40%",
+        "effectEs": "Velocidad de recuperación de resistencia +40 %."
+      }
+    ],
+    "colorIndex": 5
+  },
+  {
+    "id": "PlayerSkill_041",
+    "name": "Stamina Thief",
+    "nameEs": "Agotador",
+    "descEn": "Increases certain attacks' ability to exhaust monsters.",
+    "descEs": "Aumenta la posibilidad de que ciertos ataques agoten a los monstruos.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Exhaust power +20%",
+        "effectEs": "Posibilidad de agotar +20 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Exhaust power +30%",
+        "effectEs": "Posibilidad de agotar +30 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Exhaust power +40%",
+        "effectEs": "Posibilidad de agotar +40 %."
+      }
+    ],
+    "colorIndex": 10
+  },
+  {
+    "id": "PlayerSkill_222",
+    "name": "Status Trigger",
+    "nameEs": "Activa estados",
+    "descEn": "Perform a perfectly-timed evade just as a monster attacks to trigger abnormal status buildup on hit.",
+    "descEs": "Esquiva en el momento justo en el que ataca un monstruo para empezar a sumar efectos alterados al golpear.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "While active, effect duration is 5 seconds.",
+        "effectEs": "Sus efectos duran 5 segundos cuando está activo."
+      },
+      {
+        "level": 2,
+        "effectEn": "While active, effect duration is 8 seconds.",
+        "effectEs": "Sus efectos duran 8 segundos cuando está activo."
+      },
+      {
+        "level": 3,
+        "effectEn": "While active, effect duration is 12 seconds",
+        "effectEs": "Sus efectos duran 12 segundos cuando está activo."
+      }
+    ],
+    "colorIndex": 9
+  },
+  {
+    "id": "PlayerSkill_053",
+    "name": "Steadiness",
+    "nameEs": "Estabilidad",
+    "descEn": "Suppresses the deviation of bowgun shots.",
+    "descEs": "Estabilidad",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Deviation -1",
+        "effectEs": "Desvío -1."
+      },
+      {
+        "level": 2,
+        "effectEn": "Deviation -2",
+        "effectEs": "Desvío -2."
+      },
+      {
+        "level": 3,
+        "effectEn": "Reduces deviation by 2 and slightly extends range.",
+        "effectEs": "Disminuye el desvío en 2 y aumenta un poco el alcance."
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_110",
+    "name": "Stormsoul",
+    "nameEs": "Viento y trueno",
+    "descEn": "Strengthens thunder and dragon power and improves skills of the same elements.",
+    "descEs": "Fortalece los ataques de rayo y draco, y mejora las habilidades de dichos elementos.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Thunder and dragon attack +5%",
+        "effectEs": "Ataques draco y rayo +5 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Thunder and dragon attack +10%",
+        "effectEs": "Ataques draco y rayo +10 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Thunder and dragon attack +15%",
+        "effectEs": "Ataques draco y rayo +15 %."
+      },
+      {
+        "level": 4,
+        "effectEn": "Also increases level of other skills by +1.",
+        "effectEs": "También aumenta el nivel de otras habilidades en 1."
+      },
+      {
+        "level": 5,
+        "effectEn": "Also increases level of other skills by +1 (stacks with previous bonus).",
+        "effectEs": "También aumenta el nivel de otras habilidades en 1. (Acumulable con bonus anterior)."
+      }
+    ],
+    "colorIndex": 6
+  },
+  {
+    "id": "PlayerSkill_233",
+    "name": "Strife",
+    "nameEs": "Pugna",
+    "descEn": "Increases elemental attack and affinity in proportion to the length of your red health gauge.",
+    "descEs": "Aumenta el ataque elemental y la afinidad según la longitud de tu barra de salud roja.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Increases attack power in accordance to gauge length.",
+        "effectEs": "Aumenta el poder de ataque según la longitud de la barra."
+      },
+      {
+        "level": 2,
+        "effectEn": "Further increases attack power in accordance to gauge length.",
+        "effectEs": "Aumenta más el poder de ataque según la longitud de la barra."
+      },
+      {
+        "level": 3,
+        "effectEn": "Further increases attack power in accordance with gauge length. Max out attack for an infinite stamina effect.",
+        "effectEs": "Aumenta más el poder de ataque según la longitud de la barra. Si sube al máximo, tendrás resistencia infinita."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_075",
+    "name": "Stun Resistance",
+    "nameEs": "Antiaturdimiento",
+    "descEn": "Reduces stun duration.",
+    "descEs": "Antiaturdimiento",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Reduces the duration of stun by 60%.",
+        "effectEs": "Reduce la duración del aturdimiento un 60 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Reduces the duration of stun by 90%.",
+        "effectEs": "Reduce la duración del aturdimiento un 90 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Prevents stun.",
+        "effectEs": "Previene el aturdimiento."
+      }
+    ],
+    "colorIndex": 4
+  },
+  {
+    "id": "PlayerSkill_101",
+    "name": "Teostra Blessing",
+    "nameEs": "Bendición de Teostra",
+    "descEn": "Gain the power of the elder dragon Teostra.",
+    "descEs": "Bendición de Teostra",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Fire attack and blast buildup +5%",
+        "effectEs": "Acumulación de ataque de fuego y de nitro +5 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Fire attack and blast buildup +10%",
+        "effectEs": "Acumulación de ataque de fuego y de nitro +10 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Also prevents poison and venom.",
+        "effectEs": "También previene el veneno y el veneno letal."
+      },
+      {
+        "level": 4,
+        "effectEn": "Also negates theft.",
+        "effectEs": "También previene el robo de objetos."
+      }
+    ],
+    "colorIndex": 7
+  },
+  {
+    "id": "PlayerSkill_109",
+    "name": "Thunder Alignment",
+    "nameEs": "Rayo unificado",
+    "descEn": "Gain the power of the elder dragon Thunder Serpent Narwa.",
+    "descEs": "Rayo unificado",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Thunder resistance +1",
+        "effectEs": "Resistencia al rayo +1"
+      },
+      {
+        "level": 2,
+        "effectEn": "Thunder resistance +2",
+        "effectEs": "Resistencia al rayo +2"
+      },
+      {
+        "level": 3,
+        "effectEn": "Thunder resistance +3",
+        "effectEs": "Resistencia al rayo +3"
+      },
+      {
+        "level": 4,
+        "effectEn": "Thunder resistance +4",
+        "effectEs": "Resistencia al rayo +4"
+      },
+      {
+        "level": 5,
+        "effectEn": "Also grants Good Luck.",
+        "effectEs": "También otorga Recompensas extra."
+      }
+    ],
+    "colorIndex": 4
+  },
+  {
+    "id": "PlayerSkill_015",
+    "name": "Thunder Attack",
+    "nameEs": "Ataque de rayo",
+    "descEn": "Increases thunder element attack power. (Elemental attack power has a maximum limit.)",
+    "descEs": "Potencia los ataques de rayo. (La potencia de ataque elemental tiene un límite máximo).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Thunder attack +2",
+        "effectEs": "Ataque de rayo +2"
+      },
+      {
+        "level": 2,
+        "effectEn": "Thunder attack +3",
+        "effectEs": "Ataque de rayo +3"
+      },
+      {
+        "level": 3,
+        "effectEn": "Thunder attack +5% Bonus: +4",
+        "effectEs": "Ataque de rayo +5 % Bonus adicional +4"
+      },
+      {
+        "level": 4,
+        "effectEn": "Thunder attack +10% Bonus: +4",
+        "effectEs": "Ataque de rayo +10 % Bonus adicional +4"
+      },
+      {
+        "level": 5,
+        "effectEn": "Thunder attack +20% Bonus: +4",
+        "effectEs": "Ataque de rayo +20 % Bonus adicional +4"
+      }
+    ],
+    "colorIndex": 4
+  },
+  {
+    "id": "PlayerSkill_069",
+    "name": "Thunder Resistance",
+    "nameEs": "Antirrayo",
+    "descEn": "Increases thunder resistance. Also improves defense at higher levels.",
+    "descEs": "Aumenta la resistencia al rayo. En niveles más altos también mejora la defensa.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Thunder resistance +6",
+        "effectEs": "Resistencia al rayo +6."
+      },
+      {
+        "level": 2,
+        "effectEn": "Thunder resistance +12",
+        "effectEs": "Resistencia al rayo +12."
+      },
+      {
+        "level": 3,
+        "effectEn": "Thunder resistance +20 Defense +10",
+        "effectEs": "Resistencia al rayo +20. Defensa +10."
+      }
+    ],
+    "colorIndex": 4
+  },
+  {
+    "id": "PlayerSkill_062",
+    "name": "Tremor Resistance",
+    "nameEs": "Antitemblores",
+    "descEn": "Grants protection against ground tremors.",
+    "descEs": "Antitemblores",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Nullifies minor ground tremors.",
+        "effectEs": "Anula los temblores de tierra menores."
+      },
+      {
+        "level": 2,
+        "effectEn": "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
+        "effectEs": "Anula los temblores de tierra menores y reduce el efecto de los temblores mayores."
+      },
+      {
+        "level": 3,
+        "effectEn": "Nullifies minor and major ground tremors.",
+        "effectEs": "Anula los temblores de tierra menores y mayores."
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_214",
+    "name": "Tune-Up",
+    "nameEs": "Puesta a punto",
+    "descEn": "Increases the stats of custom mods attached to bowguns.",
+    "descEs": "Aumenta los atributos de las modificaciones personalizadas para ballestas.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Increases stats of Silencer and Shield. If neither are equipped, Reload Speed +1.",
+        "effectEs": "Aumenta los atributos del silenciador y del escudo. Si no estás usando ninguno, velocidad de recarga +1."
+      },
+      {
+        "level": 2,
+        "effectEn": "Also increases stats of Long Barrel and Power Barrel. If neither are equipped, Reload Speed +1 and Steadiness +1.",
+        "effectEs": "También aumenta los atributos de los cañones largo y potente. Si no tienes equipados, veloc. de recarga +1 y estabilidad +1."
+      }
+    ],
+    "colorIndex": 2
+  },
+  {
+    "id": "PlayerSkill_104",
+    "name": "Wall Runner",
+    "nameEs": "Correparedes",
+    "descEn": "Reduces stamina consumption when running on walls.",
+    "descEs": "Reduce el consumo de resistencia al correr por las paredes.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Reduces stamina consumption by 25% while wall running.",
+        "effectEs": "Reduce en un 25 % el gasto de resistencia mientras se corre por la pared."
+      },
+      {
+        "level": 2,
+        "effectEn": "Reduces stamina consumption by 50% while wall running.",
+        "effectEs": "Reduce en un 50 % el gasto de resistencia mientras se corre por la pared."
+      },
+      {
+        "level": 3,
+        "effectEn": "Also temporarily increases attack power by wall running.",
+        "effectEs": "Además, correr por una pared aumenta temporalmente el poder de ataque."
+      }
+    ],
+    "colorIndex": 8
+  },
+  {
+    "id": "PlayerSkill_217",
+    "name": "Wall Runner (Boost)",
+    "nameEs": "Correparedes (impulso)",
+    "descEn": "Wirebug Gauge recovers faster while wall running.",
+    "descEs": "El indicador cordóptero se rellena más rápido si corres por las paredes.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activate effect",
+        "effectEs": "Activar efecto"
+      }
+    ],
+    "colorIndex": 8
+  },
+  {
+    "id": "PlayerSkill_013",
+    "name": "Water Attack",
+    "nameEs": "Ataque de agua",
+    "descEn": "Increases water element attack power. (Elemental attack power has a maximum limit.)",
+    "descEs": "Potencia los ataques de agua. (La potencia de ataque elemental tiene un límite máximo).",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Water attack +2",
+        "effectEs": "Ataque de agua +2"
+      },
+      {
+        "level": 2,
+        "effectEn": "Water attack +3",
+        "effectEs": "Ataque de agua +3"
+      },
+      {
+        "level": 3,
+        "effectEn": "Water attack +5% Bonus: +4",
+        "effectEs": "Ataque de agua +5 % Bonus adicional +4"
+      },
+      {
+        "level": 4,
+        "effectEn": "Water attack +10% Bonus: +4",
+        "effectEs": "Ataque de agua +10 % Bonus adicional +4"
+      },
+      {
+        "level": 5,
+        "effectEn": "Water attack +20% Bonus: +4",
+        "effectEs": "Ataque de agua +20 % Bonus adicional +4"
+      }
+    ],
+    "colorIndex": 11
+  },
+  {
+    "id": "PlayerSkill_067",
+    "name": "Water Resistance",
+    "nameEs": "Antiagua",
+    "descEn": "Increases water resistance. Also improves defense at higher levels.",
+    "descEs": "Aumenta la resistencia al agua. En niveles más altos también mejora la defensa.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Water resistance +6",
+        "effectEs": "Resistencia al agua +6."
+      },
+      {
+        "level": 2,
+        "effectEn": "Water resistance +12",
+        "effectEs": "Resistencia al agua +12."
+      },
+      {
+        "level": 3,
+        "effectEn": "Water resistance +20 Defense +10",
+        "effectEs": "Resistencia al agua +20. Defensa +10."
+      }
+    ],
+    "colorIndex": 11
+  },
+  {
+    "id": "PlayerSkill_007",
+    "name": "Weakness Exploit",
+    "nameEs": "Punto débil",
+    "descEn": "Increases the affinity of attacks that exploit a monster weak spot.",
+    "descEs": "Aumenta la afinidad de los ataques que aprovechan el punto débil de un monstruo.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Attacks that hit weak spots have 15% increased affinity.",
+        "effectEs": "Los ataques a puntos débiles tienen afinidad +15 %."
+      },
+      {
+        "level": 2,
+        "effectEn": "Attacks that hit weak spots have 30% increased affinity.",
+        "effectEs": "Los ataques a puntos débiles tienen afinidad +30 %."
+      },
+      {
+        "level": 3,
+        "effectEn": "Attacks that hit weak spots have 50% increased affinity.",
+        "effectEs": "Los ataques a puntos débiles tienen afinidad +50 %."
+      }
+    ],
+    "colorIndex": 3
+  },
+  {
+    "id": "PlayerSkill_088",
+    "name": "Wide-Range",
+    "nameEs": "Efecto área",
+    "descEn": "Allows the effects of certain items to also affect nearby allies.",
+    "descEs": "Permite que el efecto de ciertos objetos también afecte a aliados cercanos.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Items affect nearby allies with 33% of their efficacy.",
+        "effectEs": "Los objetos afectan a los aliados cercanos con un 33 % de eficacia."
+      },
+      {
+        "level": 2,
+        "effectEn": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+        "effectEs": "Los objetos afectan a los aliados en un mayor radio con un 33 % de eficacia."
+      },
+      {
+        "level": 3,
+        "effectEn": "Items affect nearby allies in a wider radius with 66% of their efficacy.",
+        "effectEs": "Los objetos afectan a los aliados en un mayor radio con un 66 % de eficacia."
+      },
+      {
+        "level": 4,
+        "effectEn": "Items affect nearby allies in a much wider radius with 66% of their efficacy.",
+        "effectEs": "Los objetos afectan a los aliados en un radio mucho mayor con un 66 % de eficacia."
+      },
+      {
+        "level": 5,
+        "effectEn": "Items affect nearby allies in a much wider radius with full efficacy.",
+        "effectEs": "Los objetos afectan a los aliados en un radio mucho mayor con total eficacia."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_108",
+    "name": "Wind Alignment",
+    "nameEs": "Viento unificado",
+    "descEn": "Gain the power of the elder dragon Wind Serpent Ibushi.",
+    "descEs": "Otorga el poder del dragón anciano Ibushi de viento.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Dragon resistance +1",
+        "effectEs": "Resistencia a draco +1"
+      },
+      {
+        "level": 2,
+        "effectEn": "Dragon resistance +2",
+        "effectEs": "Resistencia a draco +2"
+      },
+      {
+        "level": 3,
+        "effectEn": "Dragon resistance +3",
+        "effectEs": "Resistencia a draco +3"
+      },
+      {
+        "level": 4,
+        "effectEn": "Dragon resistance +4",
+        "effectEs": "Resistencia a draco +4"
+      },
+      {
+        "level": 5,
+        "effectEn": "Also grants Good Luck.",
+        "effectEs": "También otorga Recompensas extra."
+      }
+    ],
+    "colorIndex": 12
+  },
+  {
+    "id": "PlayerSkill_226",
+    "name": "Wind Mantle",
+    "nameEs": "Manto de viento",
+    "descEn": null,
+    "descEs": "Los ataq. de cordoamarre aceleran la recuperación del ind. cordóptero. Aumentan con ataques continuos y desaparecen al envainar el arma.",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Activate Effect",
+        "effectEs": "Activar efecto"
+      },
+      {
+        "level": 2,
+        "effectEn": "Boosts recovery speed.",
+        "effectEs": "Potencia la velocidad de recuperación."
+      },
+      {
+        "level": 3,
+        "effectEn": "Further boosts recovery speed.",
+        "effectEs": "Potencia más la velocidad de recuperación."
+      }
+    ],
+    "colorIndex": 8
+  },
+  {
+    "id": "PlayerSkill_061",
+    "name": "Windproof",
+    "nameEs": "Antiviento",
+    "descEn": "Grants protection against wind pressure.",
+    "descEs": "Antiviento",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Negates minor wind pressure.",
+        "effectEs": "Anula ráfagas de vientos menores."
+      },
+      {
+        "level": 2,
+        "effectEn": "Negates minor and major wind pressure.",
+        "effectEs": "Anula las ráfagas de viento, tanto mayores como menores."
+      },
+      {
+        "level": 3,
+        "effectEn": "Negates minor and major wind pressure and reduces the effects of dragon wind pressure.",
+        "effectEs": "Anula las ráfagas de viento menores y mayores, y reduce los efectos de las ráfagas de viento draco."
+      }
+    ],
+    "colorIndex": 1
+  },
+  {
+    "id": "PlayerSkill_103",
+    "name": "Wirebug Whisperer",
+    "nameEs": "Domacordópteros",
+    "descEn": "Improves your handling of Wirebugs.",
+    "descEs": "Domacordópteros",
+    "levels": [
+      {
+        "level": 1,
+        "effectEn": "Extends the duration you can keep a Wirebug by 30%.",
+        "effectEs": "Aumenta un 30 % el tiempo que puedes mantener un cordóptero."
+      },
+      {
+        "level": 2,
+        "effectEn": "Also increases Wirefall recovery rate.",
+        "effectEs": "Además, aumenta la tasa de recuperación de la cordocaída."
+      },
+      {
+        "level": 3,
+        "effectEn": "Also increases passive recovery rate while on the ground.",
+        "effectEs": "Además, aumenta la tasa de recuperación pasiva en tierra."
+      }
+    ],
+    "colorIndex": 12
+  }
+]

@@ -1,0 +1,5 @@
+# Reference-only downloads used for research (data-mining tool source /
+# zone-chart assets) -- not served by the app, kept locally for future work.
+# See PROGRESS.md/DATA_NOTES.md for what they're for.
+vectores/mhrice/
+vectores/MHRise-Database-main/

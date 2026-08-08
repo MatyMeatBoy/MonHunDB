@@ -46,6 +46,10 @@
       <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 6 6 1-4.5 4 1 6-5.5-3-5.5 3 1-6L3 9l6-1z"/></svg>
       <span data-i18n="materialsNav">Materials</span>
     </button>
+    <button type="button" id="skills-nav-toggle" class="header-icon-btn header-icon-btn--label" title="Skills" data-i18n="skillsNav">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/></svg>
+      <span data-i18n="skillsNav">Skills</span>
+    </button>
     <button type="button" id="lang-toggle" class="lang-toggle" title="Idioma / Language">
       <span class="lang-opt" data-lang="es">ES</span>/<span class="lang-opt" data-lang="en">EN</span>
     </button>
@@ -115,6 +119,15 @@
     </div>
     <div id="materials-index" class="decorations-index"></div>
     <div id="material-detail" class="decoration-detail" hidden></div>
+  </main>
+
+  <main id="skills-view" class="decorations-view" hidden>
+    <div class="decorations-toolbar">
+      <button type="button" id="skills-back" class="decorations-back" data-i18n="backToMonsters">← Volver a monstruos</button>
+      <input type="text" id="skills-search" class="monster-search" data-i18n-ph="skillsSearchPlaceholder" placeholder="Buscar habilidad…" autocomplete="off" />
+    </div>
+    <div id="skills-index" class="decorations-index"></div>
+    <div id="skill-detail" class="decoration-detail" hidden></div>
   </main>
 
   <template id="tpl-detail">
@@ -198,6 +211,11 @@
       <section class="block" data-block="locations">
         <h3 data-i18n="locations">Zonas de aparición</h3>
         <ul class="chips locations-list"></ul>
+      </section>
+
+      <section class="block" data-block="related-equipment" hidden>
+        <h3 data-i18n="relatedEquipment">Equipo relacionado</h3>
+        <div class="related-equipment-wrap"></div>
       </section>
     </article>
   </template>

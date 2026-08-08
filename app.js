@@ -81,6 +81,14 @@ const materialsBackEl = document.getElementById("materials-back");
 const materialsSearchEl = document.getElementById("materials-search");
 const materialsIndexEl = document.getElementById("materials-index");
 const materialDetailEl = document.getElementById("material-detail");
+const skillsNavToggleEl = document.getElementById("skills-nav-toggle");
+const skillsViewEl = document.getElementById("skills-view");
+const skillsBackEl = document.getElementById("skills-back");
+const skillsSearchEl = document.getElementById("skills-search");
+const skillsIndexEl = document.getElementById("skills-index");
+const skillDetailEl = document.getElementById("skill-detail");
+let skills = [];
+let skillsByName = new Map();
 let weapons = [];
 let armorPieces = [];
 let armorSets = [];
@@ -248,6 +256,7 @@ function applyUiStrings() {
   langToggleEl.querySelectorAll(".lang-opt").forEach(el => {
     el.classList.toggle("active", el.dataset.lang === lang);
   });
+  langToggleEl.dataset.lang = lang;
   brandHomeEl.setAttribute("aria-label", ui("brandHomeLabel"));
 }
 
@@ -264,17 +273,19 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes] = await Promise.all([
+    const [monstersRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/decorations.json"),
       fetch("data/material_obtain_notes.json"),
       fetch("data/weapons.json"),
       fetch("data/armor_pieces.json"),
       fetch("data/armor_sets.json"),
+      fetch("data/skills.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
       loadMaterialIconManifest(),
+      loadMhriceIconMaps(),
     ]);
     if (!monstersRes.ok) throw new Error("HTTP " + monstersRes.status);
     monsters = await monstersRes.json();
@@ -283,7 +294,9 @@ async function init() {
     weapons = weaponsRes.ok ? await weaponsRes.json() : [];
     armorPieces = armorPiecesRes.ok ? await armorPiecesRes.json() : [];
     armorSets = armorSetsRes.ok ? await armorSetsRes.json() : [];
+    skills = skillsRes.ok ? await skillsRes.json() : [];
     weaponsById = new Map(weapons.map(w => [w.id, w]));
+    skillsByName = new Map(skills.filter(s => s.name).map(s => [s.name, s]));
   } catch (err) {
     triggerLabelEl.textContent = ui("selectError");
     detailEl.innerHTML = `<p class="empty-state">${I18N.ui[lang].loadError(err.message)}</p>`;
@@ -298,6 +311,7 @@ async function init() {
   initWeapons();
   initArmor();
   initMaterials();
+  initSkills();
   renderNewsSilhouettePreview();
 
   brandHomeEl.addEventListener("click", showHome);
@@ -353,6 +367,15 @@ async function init() {
         renderMaterialsIndex(materialsSearchEl.value);
       }
     }
+    if (!skillsViewEl.hidden) {
+      if (!skillDetailEl.hidden) {
+        const params = new URLSearchParams(location.search);
+        const skillId = params.get("skill");
+        if (skillId) showSkillDetail(skillId);
+      } else {
+        renderSkillsIndex(skillsSearchEl.value);
+      }
+    }
   });
 }
 
@@ -404,7 +427,36 @@ async function loadMaterialIconManifest() {
     console.warn("No se pudo cargar el manifiesto de íconos de materiales", e);
   }
 }
+
+let materialMhriceIcons = {};
+let decorationMhriceIcons = {};
+async function loadMhriceIconMaps() {
+  try {
+    const [mRes, dRes] = await Promise.all([
+      fetch("data/material_mhrice_icons.json"),
+      fetch("data/decoration_mhrice_icons.json"),
+    ]);
+    if (mRes.ok) materialMhriceIcons = await mRes.json();
+    if (dRes.ok) decorationMhriceIcons = await dRes.json();
+  } catch (e) {
+    console.warn("No se pudieron cargar los mapeos de íconos MHRice", e);
+  }
+}
+
+// same 2-layer mask+color technique as skillIconTag() -- MHRice materials
+// and decorations DO have real per-item icon art (unlike skills), but a
+// small set of icon shapes gets reused across many items (ex. 27 unique
+// shapes cover all 831+243 matched materials/decorations), differentiated
+// by the mh-item-color-N tint, same as the game's own UI does it
+function itemMaskIconTag(iconId, colorIndex, sizeClass) {
+  const hex = MH_ITEM_COLOR[colorIndex] ?? "#AEAEAE";
+  const cls = sizeClass ? `item-mask-icon ${sizeClass}` : "item-mask-icon";
+  return `<span class="${cls}"><span class="item-mask-icon-r" style="background-color:${hex};-webkit-mask-image:url('data/images/item_masks/${iconId}.r.png');mask-image:url('data/images/item_masks/${iconId}.r.png')"></span><span class="item-mask-icon-a" style="-webkit-mask-image:url('data/images/item_masks/${iconId}.a.png');mask-image:url('data/images/item_masks/${iconId}.a.png')"></span></span>`;
+}
+
 function materialIconTag(name) {
+  const mh = materialMhriceIcons[name] || materialMhriceIcons[normalizeMaterialKey(name)];
+  if (mh) return itemMaskIconTag(mh.iconId, mh.color, "material-icon");
   // manifest keys were built without a space before "+" (ex. "Narwa Claw+"),
   // but some monsters.json rows have the same material with a space before
   // it ("Narwa Claw +") from an inconsistent original scrape -- normalize
@@ -424,6 +476,7 @@ function selectMonster(name, opts = {}) {
     weaponsViewEl.hidden = true;
     armorViewEl.hidden = true;
     materialsViewEl.hidden = true;
+    skillsViewEl.hidden = true;
     detailEl.hidden = false;
     triggerIconEl.src = iconPath(name);
     triggerIconEl.hidden = false;
@@ -448,6 +501,7 @@ function showHome() {
   weaponsViewEl.hidden = true;
   armorViewEl.hidden = true;
   materialsViewEl.hidden = true;
+  skillsViewEl.hidden = true;
   detailEl.hidden = true;
   detailEl.innerHTML = "";
   homeViewEl.hidden = false;
@@ -534,6 +588,163 @@ function buildMaterialIndex() {
       }
     }
   }
+}
+
+// ---------- Monster <-> Weapon/Armor associations ----------
+// Neither weapons.json nor armor_pieces.json name the monster they're crafted
+// from directly (set names are often flavor text, ex. "Tempest Set" for
+// Amatsu, not "Amatsu Set") -- so the association is inferred from which
+// monster supplies most of the crafting materials, using materialIndex
+// (already built from monsters.json) as the source of truth.
+
+// same rank-suffix stripping as scrape_armor.js's slot classifier, needed
+// here to re-group armor_pieces.json into 5-piece sets: armor_sets.json only
+// has the 62 sets matched to a Fextralife image, but plenty of real sets
+// (like Tempest) never matched due to inconsistent Fextralife naming -- this
+// reconstructs ALL sets straight from the pieces themselves, image or not
+function coreArmorNameForGrouping(name) {
+  let n = name;
+  let changed = true;
+  while (changed) {
+    changed = false;
+    const stripped = n
+      .replace(/\s*-\s*[A-Za-z]+$/, "")
+      .replace(/\s*\([^)]*\)\s*$/, "")
+      .replace(/\s+(S|X|SP)$/i, "");
+    if (stripped !== n) { n = stripped; changed = true; }
+  }
+  return n.trim();
+}
+
+let impliedArmorGroupsCache = null;
+function buildImpliedArmorGroups() {
+  if (impliedArmorGroupsCache) return impliedArmorGroupsCache;
+  const groups = [];
+  let i = 0;
+  while (i < armorPieces.length) {
+    const prefix = coreArmorNameForGrouping(armorPieces[i].name).split(" ").slice(0, -1).join(" ");
+    let j = i;
+    const bucket = [];
+    while (j < armorPieces.length && bucket.length < 5) {
+      const p = armorPieces[j];
+      const pPrefix = coreArmorNameForGrouping(p.name).split(" ").slice(0, -1).join(" ");
+      if (pPrefix !== prefix) break;
+      bucket.push(p);
+      j++;
+    }
+    if (bucket.length === 5 && new Set(bucket.map(x => x.part)).size === 5 && prefix) {
+      groups.push({ prefix, pieces: bucket });
+    }
+    i = j > i ? j : i + 1;
+  }
+  impliedArmorGroupsCache = groups;
+  return groups;
+}
+
+// tallies, across a list of {material, qty} rows, how many reference each
+// monster as a source (via materialIndex) -- returns [[monsterName, count]]
+// sorted descending
+function tallyMonstersForMaterials(materials) {
+  if (!materialIndex) buildMaterialIndex();
+  const counts = new Map();
+  for (const m of materials || []) {
+    const sources = materialIndex.get(normalizeMaterialKey(m.material)) || [];
+    const seenForThisMat = new Set();
+    for (const s of sources) {
+      if (seenForThisMat.has(s.monster)) continue;
+      seenForThisMat.add(s.monster);
+      counts.set(s.monster, (counts.get(s.monster) || 0) + 1);
+    }
+  }
+  return [...counts.entries()].sort((a, b) => b[1] - a[1]);
+}
+
+let monsterEquipmentIndexCache = null;
+function buildMonsterEquipmentIndex() {
+  if (monsterEquipmentIndexCache) return monsterEquipmentIndexCache;
+  const index = new Map();
+  const add = (monsterName, kind, item) => {
+    if (!index.has(monsterName)) index.set(monsterName, { weapons: [], armorGroups: [] });
+    index.get(monsterName)[kind].push(item);
+  };
+
+  for (const w of weapons) {
+    if (!w.isFinal || !w.materials || !w.materials.length) continue;
+    const tally = tallyMonstersForMaterials(w.materials);
+    if (!tally.length) continue;
+    const [topMonster, topCount] = tally[0];
+    // require the top monster to clearly dominate this weapon's material
+    // list, not just be one of several incidental sources
+    if (topCount >= 2 && topCount >= w.materials.length * 0.4) add(topMonster, "weapons", w);
+  }
+
+  for (const group of buildImpliedArmorGroups()) {
+    const allMats = group.pieces.flatMap(p => p.materials || []);
+    if (!allMats.length) continue;
+    const tally = tallyMonstersForMaterials(allMats);
+    if (!tally.length) continue;
+    const [topMonster, topCount] = tally[0];
+    if (topCount >= 3) {
+      // prefer a matching real armor_sets.json entry (has a Fextralife
+      // image) if its pieces overlap this group, else fall back to the
+      // group's own piece list with no set image
+      const pieceIds = new Set(group.pieces.map(p => p.id));
+      const matchedSet = armorSets.find(s => s.pieces.filter(ref => pieceIds.has(ref.id)).length >= 3);
+      add(topMonster, "armorGroups", matchedSet ? { name: matchedSet.name, image: matchedSet.localImage || matchedSet.image, isRealSet: true } : { name: group.prefix, image: null, pieces: group.pieces, isRealSet: false });
+    }
+  }
+
+  monsterEquipmentIndexCache = index;
+  return index;
+}
+
+function renderRelatedEquipment(monsterName, container, sectionEl) {
+  const index = buildMonsterEquipmentIndex();
+  const entry = index.get(monsterName);
+  if (!entry || (!entry.weapons.length && !entry.armorGroups.length)) {
+    sectionEl.hidden = true;
+    return;
+  }
+  sectionEl.hidden = false;
+
+  let html = "";
+  if (entry.weapons.length) {
+    html += `<h4 class="subhead">${ui("relatedEquipmentWeapons")}</h4><div class="decorations-grid">`;
+    html += entry.weapons.map(w => `
+      <button type="button" class="decoration-card" data-related-weapon="${w.id}">
+        ${weaponIconTag(w)}
+        <span class="decoration-card-name">${trWeaponName(w)}</span>
+        <span class="decoration-card-skill">${w.type}</span>
+      </button>
+    `).join("");
+    html += `</div>`;
+  }
+  if (entry.armorGroups.length) {
+    html += `<h4 class="subhead">${ui("relatedEquipmentArmor")}</h4><div class="decorations-grid">`;
+    html += entry.armorGroups.map((g, i) => `
+      <button type="button" class="decoration-card armor-set-card" data-related-armor="${i}">
+        ${g.image ? `<img class="armor-set-thumb" src="${g.image}" alt="" loading="lazy">` : armorIconTag(g.pieces[0])}
+        <span class="decoration-card-name">${g.name}</span>
+      </button>
+    `).join("");
+    html += `</div>`;
+  }
+  container.innerHTML = html;
+
+  container.querySelectorAll("[data-related-weapon]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      showWeaponsView();
+      showWeaponDetail(btn.dataset.relatedWeapon);
+    });
+  });
+  container.querySelectorAll("[data-related-armor]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const g = entry.armorGroups[btn.dataset.relatedArmor];
+      showArmorView();
+      if (g.isRealSet) showArmorSetDetail(g.name);
+      else showArmorPieceDetail(g.pieces[0].id);
+    });
+  });
 }
 
 function escapeAttr(str) {
@@ -762,6 +973,8 @@ function trDecorationName(dec) {
   return lang === "es" && dec.nameEs ? dec.nameEs : dec.name;
 }
 function decorationIconTag(dec) {
+  const mh = decorationMhriceIcons[dec.name];
+  if (mh) return itemMaskIconTag(mh.iconId, mh.color, "material-icon");
   return dec.icon
     ? `<img class="material-icon" src="${dec.icon}" alt="" loading="lazy">`
     : `<span class="material-icon material-icon--placeholder"></span>`;
@@ -774,6 +987,7 @@ function showDecorationsView() {
   weaponsViewEl.hidden = true;
   armorViewEl.hidden = true;
   materialsViewEl.hidden = true;
+  skillsViewEl.hidden = true;
   decorationsViewEl.hidden = false;
   decorationDetailEl.hidden = true;
   decorationsIndexEl.hidden = false;
@@ -849,7 +1063,7 @@ function showDecorationDetail(id) {
 
   const skillsHtml = dec.skills.map(s => `
     <li class="stat-list-item">
-      <span class="stat-name">${lang === "es" ? s.nameEs : s.name} Lv${s.level}</span>
+      <button type="button" class="stat-name skill-name-link" data-skill-name="${escapeAttr(s.name)}">${skillIconTagByName(s.name)}${lang === "es" ? s.nameEs : s.name} Lv${s.level}</button>
       <span class="decoration-skill-effect">${lang === "es" ? s.effectEs : s.effect}</span>
     </li>
   `).join("");
@@ -917,6 +1131,13 @@ function showDecorationDetail(id) {
       showMaterialDetail(btn.dataset.matKey);
     });
   });
+  decorationDetailEl.querySelectorAll("[data-skill-name]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      hideDecorationsView();
+      showSkillsView();
+      showSkillDetail(btn.dataset.skillName);
+    });
+  });
 
   const url = new URL(location.href);
   url.searchParams.set("view", "decorations");
@@ -971,6 +1192,7 @@ function showWeaponsView() {
   decorationsViewEl.hidden = true;
   armorViewEl.hidden = true;
   materialsViewEl.hidden = true;
+  skillsViewEl.hidden = true;
   weaponsViewEl.hidden = false;
   weaponDetailEl.hidden = true;
   weaponsIndexEl.hidden = false;
@@ -1195,7 +1417,7 @@ function armorPieceMaterialsHtml(p) {
 }
 function armorPieceSkillsHtml(p) {
   if (!p.skills || !p.skills.length) return "";
-  return `<ul class="chips">${p.skills.map(s => `<li class="chip">${s.name} Lv${s.level}</li>`).join("")}</ul>`;
+  return `<ul class="chips">${p.skills.map(s => `<li class="chip"><button type="button" class="skill-name-link" data-skill-name="${escapeAttr(s.name)}">${skillIconTagByName(s.name)}${s.name} Lv${s.level}</button></li>`).join("")}</ul>`;
 }
 
 function showArmorView() {
@@ -1205,6 +1427,7 @@ function showArmorView() {
   decorationsViewEl.hidden = true;
   weaponsViewEl.hidden = true;
   materialsViewEl.hidden = true;
+  skillsViewEl.hidden = true;
   armorViewEl.hidden = false;
   armorSetDetailEl.hidden = true;
   armorIndexEl.hidden = false;
@@ -1327,6 +1550,13 @@ function showArmorSetDetail(setName) {
       showMaterialDetail(btn.dataset.matKey);
     });
   });
+  armorSetDetailEl.querySelectorAll("[data-skill-name]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      hideArmorView();
+      showSkillsView();
+      showSkillDetail(btn.dataset.skillName);
+    });
+  });
 
   const url = new URL(location.href);
   url.searchParams.set("view", "armor");
@@ -1374,6 +1604,13 @@ function showArmorPieceDetail(id) {
       showMaterialDetail(btn.dataset.matKey);
     });
   });
+  armorSetDetailEl.querySelectorAll("[data-skill-name]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      hideArmorView();
+      showSkillsView();
+      showSkillDetail(btn.dataset.skillName);
+    });
+  });
 }
 
 function initArmor() {
@@ -1398,6 +1635,7 @@ function showMaterialsView() {
   decorationsViewEl.hidden = true;
   weaponsViewEl.hidden = true;
   armorViewEl.hidden = true;
+  skillsViewEl.hidden = true;
   materialsViewEl.hidden = false;
   materialDetailEl.hidden = true;
   materialsIndexEl.hidden = false;
@@ -1508,6 +1746,140 @@ function initMaterials() {
     showMaterialsView();
     const matKey = params.get("mat");
     if (matKey && materialIndex && materialIndex.has(normalizeMaterialKey(matKey))) showMaterialDetail(matKey);
+  }
+}
+
+// ---------- Skills ----------
+
+function trSkillName(s) {
+  return lang === "es" && s.nameEs ? s.nameEs : s.name;
+}
+
+// MHRice's rarity-tier palette (resources/item_color.css) -- skills have no
+// unique icon per skill (see scrape_skills.js's comment), just this color
+// class applied to the same shared skill.r.png/skill.a.png mask pair
+const MH_ITEM_COLOR = {
+  0: "#FFFFFF", 1: "#FFFFFF", 2: "#AEAEAE", 3: "#F072B8", 4: "#FFFF70",
+  5: "#FFB356", 6: "#FF721F", 7: "#FF4C17", 8: "#2CE095", 9: "#A443E0",
+  10: "#486EFF", 11: "#5AA9FF", 12: "#9FCCFF", 13: "#9A7751", 14: "#9AC183",
+  15: "#CA0000", 16: "#007BCA", 17: "#A800A8", 50: "#F3EED1", 51: "#FF5687",
+};
+function skillIconTag(s) {
+  const hex = MH_ITEM_COLOR[s.colorIndex] || "#AEAEAE";
+  return `<span class="skill-icon"><span class="skill-icon-r" style="background-color:${hex}"></span><span class="skill-icon-a"></span></span>`;
+}
+// decorations.json/armor_pieces.json skills only carry name+level (no
+// colorIndex), so cross-referencing to a full skills.json record is needed
+// to draw the icon on those pill/list rows
+function skillIconTagByName(name) {
+  const s = skillsByName.get(name);
+  return s ? skillIconTag(s) : "";
+}
+
+function showSkillsView() {
+  detailEl.hidden = true;
+  homeViewEl.hidden = true;
+  comboboxEl.hidden = true;
+  decorationsViewEl.hidden = true;
+  weaponsViewEl.hidden = true;
+  armorViewEl.hidden = true;
+  materialsViewEl.hidden = true;
+  skillsViewEl.hidden = false;
+  skillDetailEl.hidden = true;
+  skillsIndexEl.hidden = false;
+  skillsSearchEl.value = "";
+  renderSkillsIndex("");
+  const url = new URL(location.href);
+  url.searchParams.set("view", "skills");
+  url.searchParams.delete("m");
+  history.replaceState(null, "", url);
+}
+
+function hideSkillsView() {
+  skillsViewEl.hidden = true;
+  comboboxEl.hidden = false;
+  if (selectedMonster) detailEl.hidden = false;
+  else homeViewEl.hidden = false;
+  const url = new URL(location.href);
+  url.searchParams.delete("view");
+  history.replaceState(null, "", url);
+}
+
+function renderSkillsIndex(query) {
+  const q = normalizeSearch((query || "").trim());
+  const sorted = [...skills].sort((a, b) => trSkillName(a).localeCompare(trSkillName(b)));
+  const filtered = !q ? sorted : sorted.filter(s =>
+    normalizeSearch(s.name || "").includes(q) || normalizeSearch(s.nameEs || "").includes(q)
+  );
+
+  if (!filtered.length) {
+    skillsIndexEl.innerHTML = `<p class="no-data">${ui("skillsNoResults")}</p>`;
+    return;
+  }
+
+  skillsIndexEl.innerHTML = `
+    <div class="decorations-slot-group">
+      <div class="decorations-grid">
+        ${filtered.map(s => `
+          <button type="button" class="decoration-card skill-card" data-skill-id="${s.id}">
+            <span class="skill-card-top">${skillIconTag(s)}<span class="decoration-card-name">${trSkillName(s)}</span></span>
+            <span class="decoration-card-skill">${lang === "es" ? (s.descEs || "") : (s.descEn || "")}</span>
+          </button>
+        `).join("")}
+      </div>
+    </div>
+  `;
+  skillsIndexEl.querySelectorAll("[data-skill-id]").forEach(btn => {
+    btn.addEventListener("click", () => showSkillDetail(btn.dataset.skillId));
+  });
+}
+
+function showSkillDetail(idOrName) {
+  const s = skills.find(x => x.id === idOrName || x.name === idOrName);
+  if (!s) return;
+  skillsIndexEl.hidden = true;
+  skillDetailEl.hidden = false;
+
+  const levelsHtml = s.levels.map(lv => `
+    <li class="stat-list-item">
+      <span class="stat-name">${lang === "es" ? "Nv." : "Lv."} ${lv.level}</span>
+      <span class="decoration-skill-effect">${lang === "es" ? (lv.effectEs || lv.effectEn) : lv.effectEn}</span>
+    </li>
+  `).join("");
+
+  skillDetailEl.innerHTML = `
+    <button type="button" class="decorations-back" id="skill-detail-back">${ui("skillsBack")}</button>
+    <div class="decoration-detail-header">
+      ${skillIconTag(s)}
+      <h2>${trSkillName(s)}</h2>
+    </div>
+    <p class="gs-material-intro">${lang === "es" ? (s.descEs || s.descEn) : s.descEn}</p>
+    <section class="block">
+      <h3>${ui("skillsLevelsHeading")}</h3>
+      <ul class="stat-list decoration-skills-list">${levelsHtml}</ul>
+    </section>
+  `;
+  skillDetailEl.querySelector("#skill-detail-back").addEventListener("click", () => {
+    skillDetailEl.hidden = true;
+    skillsIndexEl.hidden = false;
+  });
+
+  const url = new URL(location.href);
+  url.searchParams.set("view", "skills");
+  url.searchParams.set("skill", s.id);
+  history.replaceState(null, "", url);
+}
+
+function initSkills() {
+  skillsNavToggleEl.addEventListener("click", showSkillsView);
+  skillsBackEl.addEventListener("click", hideSkillsView);
+  skillsSearchEl.addEventListener("input", () => renderSkillsIndex(skillsSearchEl.value));
+
+  const params = new URLSearchParams(location.search);
+  if (params.get("view") === "skills") {
+    showSkillsView();
+    const skillId = params.get("skill");
+    if (skillId && skills.some(s => s.id === skillId)) showSkillDetail(skillId);
   }
 }
 
@@ -1698,6 +2070,9 @@ function renderMonster(name) {
       });
     });
   }
+
+  const relatedEquipmentSection = node.querySelector('[data-block="related-equipment"]');
+  renderRelatedEquipment(monster.name, node.querySelector(".related-equipment-wrap"), relatedEquipmentSection);
 
   detailEl.innerHTML = "";
   detailEl.appendChild(node);
@@ -2191,7 +2566,11 @@ function renderMaterialsTable(tbody, rows) {
   }
   tbody.innerHTML = rows.map(r => `
     <tr>
-      <td class="material-name">${materialIconTag(r.material)}${trMaterial(r.material) || ""}</td>
+      <td class="material-name">
+        <button type="button" class="material-name-link" data-mat-key="${escapeAttr(r.material)}">
+          ${materialIconTag(r.material)}${trMaterial(r.material) || ""}
+        </button>
+      </td>
       <td>${r.rarity ?? "—"}</td>
       <td>${annotateAnomalyLevel(trPartTokens(r.targetReward), r.material) || "—"}</td>
       <td>${annotateAnomalyLevel(trPartTokens(r.capture), r.material) || "—"}</td>
@@ -2200,6 +2579,12 @@ function renderMaterialsTable(tbody, rows) {
       <td>${annotateAnomalyLevel(trPartTokens(r.dropped), r.material) || "—"}</td>
     </tr>
   `).join("");
+  tbody.querySelectorAll("[data-mat-key]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      showMaterialsView();
+      showMaterialDetail(btn.dataset.matKey);
+    });
+  });
 }
 
 init();
