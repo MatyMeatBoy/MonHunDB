@@ -1976,7 +1976,9 @@ function renderHitzones(container, hitzones) {
     { key: "stun", label: ui("hzStun") },
   ];
 
-  const theadCells = cols.map(c => `<th class="${colClass[c.key] || ""}">${hzStatIconTag(c.key)}${c.label}</th>`).join("");
+  // headers stay unstyled -- only the value cells glow, same as the
+  // physical damage columns, per the user's request to keep it consistent
+  const theadCells = cols.map(c => `<th>${hzStatIconTag(c.key)}${c.label}</th>`).join("");
   const physClassByRow = rankPhysicalCellsByColumn(hitzones);
   const bodyRows = hitzones.map((row, i) => {
     const physClass = physClassByRow[i];
