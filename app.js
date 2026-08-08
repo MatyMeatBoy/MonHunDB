@@ -827,6 +827,32 @@ function runGlobalSearch(query) {
       </button>
     `).join("");
     html += `</div>`;
+
+    // sets first, then weapons, per the user's ask -- same equipment
+    // association already computed for each monster's own detail page
+    const equipIndex = buildMonsterEquipmentIndex();
+    for (const m of monsterMatches.slice(0, 3)) {
+      const entry = equipIndex.get(m.name);
+      if (!entry || (!entry.armorGroups.length && !entry.weapons.length)) continue;
+      html += `<div class="gs-section"><div class="gs-section-title">${ui("relatedEquipment")} — ${trMonsterName(m.name)}</div>`;
+      if (entry.armorGroups.length) {
+        html += entry.armorGroups.map(g => `
+          <button type="button" class="gs-monster-row" data-gs-related-armor="${escapeAttr(g.isRealSet ? g.name : "")}" data-gs-related-armor-piece="${g.isRealSet ? "" : g.pieces[0].id}">
+            ${g.image ? `<img src="${g.image}" alt="" loading="lazy">` : armorIconTag(g.pieces[0])}
+            <span>${g.name}</span>
+          </button>
+        `).join("");
+      }
+      if (entry.weapons.length) {
+        html += entry.weapons.map(w => `
+          <button type="button" class="gs-monster-row" data-gs-related-weapon="${w.id}">
+            ${weaponIconTag(w)}
+            <span>${trWeaponName(w)} <span class="gs-source-rank">${w.type}</span></span>
+          </button>
+        `).join("");
+      }
+      html += `</div>`;
+    }
   }
 
   if (decorationMatches.length) {
@@ -947,6 +973,21 @@ function runGlobalSearch(query) {
     btn.addEventListener("click", () => {
       showArmorView();
       showArmorSetDetail(btn.dataset.armorSet);
+      closeGlobalSearch();
+    });
+  });
+  gsResultsEl.querySelectorAll("[data-gs-related-armor]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      showArmorView();
+      if (btn.dataset.gsRelatedArmor) showArmorSetDetail(btn.dataset.gsRelatedArmor);
+      else showArmorPieceDetail(btn.dataset.gsRelatedArmorPiece);
+      closeGlobalSearch();
+    });
+  });
+  gsResultsEl.querySelectorAll("[data-gs-related-weapon]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      showWeaponsView();
+      showWeaponDetail(btn.dataset.gsRelatedWeapon);
       closeGlobalSearch();
     });
   });
