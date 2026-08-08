@@ -75,6 +75,12 @@ const armorBackEl = document.getElementById("armor-back");
 const armorSearchEl = document.getElementById("armor-search");
 const armorIndexEl = document.getElementById("armor-index");
 const armorSetDetailEl = document.getElementById("armor-set-detail");
+const materialsNavToggleEl = document.getElementById("materials-nav-toggle");
+const materialsViewEl = document.getElementById("materials-view");
+const materialsBackEl = document.getElementById("materials-back");
+const materialsSearchEl = document.getElementById("materials-search");
+const materialsIndexEl = document.getElementById("materials-index");
+const materialDetailEl = document.getElementById("material-detail");
 let weapons = [];
 let armorPieces = [];
 let armorSets = [];
@@ -291,6 +297,7 @@ async function init() {
   initDecorations();
   initWeapons();
   initArmor();
+  initMaterials();
   renderNewsSilhouettePreview();
 
   brandHomeEl.addEventListener("click", showHome);
@@ -335,6 +342,15 @@ async function init() {
         if (setName) showArmorSetDetail(setName);
       } else {
         renderArmorIndex(armorSearchEl.value);
+      }
+    }
+    if (!materialsViewEl.hidden) {
+      if (!materialDetailEl.hidden) {
+        const params = new URLSearchParams(location.search);
+        const matKey = params.get("mat");
+        if (matKey) showMaterialDetail(matKey);
+      } else {
+        renderMaterialsIndex(materialsSearchEl.value);
       }
     }
   });
@@ -407,6 +423,7 @@ function selectMonster(name, opts = {}) {
     decorationsViewEl.hidden = true;
     weaponsViewEl.hidden = true;
     armorViewEl.hidden = true;
+    materialsViewEl.hidden = true;
     detailEl.hidden = false;
     triggerIconEl.src = iconPath(name);
     triggerIconEl.hidden = false;
@@ -430,6 +447,7 @@ function showHome() {
   decorationsViewEl.hidden = true;
   weaponsViewEl.hidden = true;
   armorViewEl.hidden = true;
+  materialsViewEl.hidden = true;
   detailEl.hidden = true;
   detailEl.innerHTML = "";
   homeViewEl.hidden = false;
@@ -529,13 +547,18 @@ function wrapXn(str) {
   });
 }
 
-function summarizeRow(row) {
+function summarizeRow(row, material) {
+  // annotate with the Anomaly level range (ex. "Nvl. 51-100") the same way
+  // the monster's own materials table does, so searching straight to an
+  // Afflicted material shows which level it drops at without having to
+  // click through to that monster's page first
+  const ann = (text) => material ? annotateAnomalyLevel(trPartTokens(text), material) : trPartTokens(text);
   const parts = [];
-  if (row.targetReward) parts.push(`${ui("colTarget")} ${wrapXn(trPartTokens(row.targetReward))}`);
-  if (row.capture) parts.push(`${ui("colCapture")} ${wrapXn(trPartTokens(row.capture))}`);
-  if (row.breakParts) parts.push(`${ui("colBreak")} ${wrapXn(trPartTokens(row.breakParts))}`);
-  if (row.carves) parts.push(`${ui("colCarve")} ${wrapXn(trPartTokens(row.carves))}`);
-  if (row.dropped) parts.push(`${ui("colDropped")} ${wrapXn(trPartTokens(row.dropped))}`);
+  if (row.targetReward) parts.push(`${ui("colTarget")} ${wrapXn(ann(row.targetReward))}`);
+  if (row.capture) parts.push(`${ui("colCapture")} ${wrapXn(ann(row.capture))}`);
+  if (row.breakParts) parts.push(`${ui("colBreak")} ${wrapXn(ann(row.breakParts))}`);
+  if (row.carves) parts.push(`${ui("colCarve")} ${wrapXn(ann(row.carves))}`);
+  if (row.dropped) parts.push(`${ui("colDropped")} ${wrapXn(ann(row.dropped))}`);
   return parts.join(" • ");
 }
 
@@ -619,7 +642,7 @@ function runGlobalSearch(query) {
   if (materialMatches.length) {
     for (const mm of materialMatches.slice(0, 6)) {
       html += `<div class="gs-material-block">
-        <div class="gs-material-header">${materialIconTag(mm.matName)}<span>${mm.esName}</span></div>
+        <button type="button" class="gs-material-header" data-mat-key="${escapeAttr(mm.matName)}">${materialIconTag(mm.matName)}<span>${mm.esName}</span></button>
         <p class="gs-material-intro">${ui("gsMaterialIntro")}</p>
         ${mm.sources.map(s => `
           <button type="button" class="gs-source-row" data-name="${s.monster}" data-rank="${s.rank}">
@@ -628,7 +651,7 @@ function runGlobalSearch(query) {
               <span class="gs-source-name">${trMonsterName(s.monster)}</span>
               <span class="gs-source-rank">${trRank(s.rank)}</span>
             </span>
-            <span class="gs-source-summary">${summarizeRow(s.row) || "—"}</span>
+            <span class="gs-source-summary">${summarizeRow(s.row, mm.matName) || "—"}</span>
           </button>
         `).join("")}
       </div>`;
@@ -695,6 +718,13 @@ function runGlobalSearch(query) {
       closeGlobalSearch();
     });
   });
+  gsResultsEl.querySelectorAll("[data-mat-key]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      showMaterialsView();
+      showMaterialDetail(btn.dataset.matKey);
+      closeGlobalSearch();
+    });
+  });
   gsResultsEl.querySelectorAll("[data-weapon-id]").forEach(btn => {
     btn.addEventListener("click", () => {
       showWeaponsView();
@@ -741,6 +771,9 @@ function showDecorationsView() {
   detailEl.hidden = true;
   homeViewEl.hidden = true;
   comboboxEl.hidden = true;
+  weaponsViewEl.hidden = true;
+  armorViewEl.hidden = true;
+  materialsViewEl.hidden = true;
   decorationsViewEl.hidden = false;
   decorationDetailEl.hidden = true;
   decorationsIndexEl.hidden = false;
@@ -826,11 +859,11 @@ function showDecorationDetail(id) {
     const sources = materialIndex.get(normalizeMaterialKey(m.material)) || [];
     const monsterCount = new Set(sources.map(s => s.monster)).size;
     return `<div class="gs-material-block decoration-material-block">
-      <div class="gs-material-header">
+      <button type="button" class="gs-material-header" data-mat-key="${escapeAttr(m.material)}">
         ${materialIconTag(m.material)}
         <span>${trMaterial(m.material)}</span>
         <span class="decoration-material-qty">x${m.qty}</span>
-      </div>
+      </button>
       ${sources.length ? `
         <details class="decoration-material-sources">
           <summary>${ui("decorationsSeeMonsters")(monsterCount)}</summary>
@@ -841,7 +874,7 @@ function showDecorationDetail(id) {
               <span class="gs-source-name">${trMonsterName(s.monster)}</span>
               <span class="gs-source-rank">${trRank(s.rank)}</span>
             </span>
-            <span class="gs-source-summary">${summarizeRow(s.row) || "—"}</span>
+            <span class="gs-source-summary">${summarizeRow(s.row, m.material) || "—"}</span>
           </button>`).join("")}
         </details>
       ` : `<p class="gs-material-intro">${materialObtainNotes[m.material]
@@ -875,6 +908,13 @@ function showDecorationDetail(id) {
       currentRank = btn.dataset.rank;
       hideDecorationsView();
       selectMonster(btn.dataset.name);
+    });
+  });
+  decorationDetailEl.querySelectorAll("[data-mat-key]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      hideDecorationsView();
+      showMaterialsView();
+      showMaterialDetail(btn.dataset.matKey);
     });
   });
 
@@ -930,6 +970,7 @@ function showWeaponsView() {
   comboboxEl.hidden = true;
   decorationsViewEl.hidden = true;
   armorViewEl.hidden = true;
+  materialsViewEl.hidden = true;
   weaponsViewEl.hidden = false;
   weaponDetailEl.hidden = true;
   weaponsIndexEl.hidden = false;
@@ -1000,11 +1041,11 @@ function showWeaponDetail(id) {
     const sources = materialIndex.get(normalizeMaterialKey(m.material)) || [];
     const monsterCount = new Set(sources.map(s => s.monster)).size;
     return `<div class="gs-material-block decoration-material-block">
-      <div class="gs-material-header">
+      <button type="button" class="gs-material-header" data-mat-key="${escapeAttr(m.material)}">
         ${materialIconTag(m.material)}
         <span>${trMaterial(m.material)}</span>
         <span class="decoration-material-qty">x${m.qty}</span>
-      </div>
+      </button>
       ${sources.length ? `
         <details class="decoration-material-sources">
           <summary>${ui("decorationsSeeMonsters")(monsterCount)}</summary>
@@ -1015,7 +1056,7 @@ function showWeaponDetail(id) {
               <span class="gs-source-name">${trMonsterName(s.monster)}</span>
               <span class="gs-source-rank">${trRank(s.rank)}</span>
             </span>
-            <span class="gs-source-summary">${summarizeRow(s.row) || "—"}</span>
+            <span class="gs-source-summary">${summarizeRow(s.row, m.material) || "—"}</span>
           </button>`).join("")}
         </details>
       ` : `<p class="gs-material-intro">${materialObtainNotes[m.material] ? escapeAttr(materialObtainNotes[m.material][lang]) : ui("decorationsMaterialNoMonster")}</p>`}
@@ -1075,6 +1116,13 @@ function showWeaponDetail(id) {
       selectMonster(btn.dataset.name);
     });
   });
+  weaponDetailEl.querySelectorAll("[data-mat-key]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      hideWeaponsView();
+      showMaterialsView();
+      showMaterialDetail(btn.dataset.matKey);
+    });
+  });
 
   const url = new URL(location.href);
   url.searchParams.set("view", "weapons");
@@ -1123,11 +1171,11 @@ function armorPieceMaterialsHtml(p) {
     const sources = materialIndex.get(normalizeMaterialKey(m.material)) || [];
     const monsterCount = new Set(sources.map(s => s.monster)).size;
     return `<div class="gs-material-block decoration-material-block">
-      <div class="gs-material-header">
+      <button type="button" class="gs-material-header" data-mat-key="${escapeAttr(m.material)}">
         ${materialIconTag(m.material)}
         <span>${trMaterial(m.material)}</span>
         <span class="decoration-material-qty">x${m.qty}</span>
-      </div>
+      </button>
       ${sources.length ? `
         <details class="decoration-material-sources">
           <summary>${ui("decorationsSeeMonsters")(monsterCount)}</summary>
@@ -1138,7 +1186,7 @@ function armorPieceMaterialsHtml(p) {
               <span class="gs-source-name">${trMonsterName(s.monster)}</span>
               <span class="gs-source-rank">${trRank(s.rank)}</span>
             </span>
-            <span class="gs-source-summary">${summarizeRow(s.row) || "—"}</span>
+            <span class="gs-source-summary">${summarizeRow(s.row, m.material) || "—"}</span>
           </button>`).join("")}
         </details>
       ` : `<p class="gs-material-intro">${materialObtainNotes[m.material] ? escapeAttr(materialObtainNotes[m.material][lang]) : ui("decorationsMaterialNoMonster")}</p>`}
@@ -1156,6 +1204,7 @@ function showArmorView() {
   comboboxEl.hidden = true;
   decorationsViewEl.hidden = true;
   weaponsViewEl.hidden = true;
+  materialsViewEl.hidden = true;
   armorViewEl.hidden = false;
   armorSetDetailEl.hidden = true;
   armorIndexEl.hidden = false;
@@ -1271,6 +1320,13 @@ function showArmorSetDetail(setName) {
       selectMonster(btn.dataset.name);
     });
   });
+  armorSetDetailEl.querySelectorAll("[data-mat-key]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      hideArmorView();
+      showMaterialsView();
+      showMaterialDetail(btn.dataset.matKey);
+    });
+  });
 
   const url = new URL(location.href);
   url.searchParams.set("view", "armor");
@@ -1311,6 +1367,13 @@ function showArmorPieceDetail(id) {
       selectMonster(btn.dataset.name);
     });
   });
+  armorSetDetailEl.querySelectorAll("[data-mat-key]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      hideArmorView();
+      showMaterialsView();
+      showMaterialDetail(btn.dataset.matKey);
+    });
+  });
 }
 
 function initArmor() {
@@ -1323,6 +1386,128 @@ function initArmor() {
     showArmorView();
     const setName = params.get("set");
     if (setName && armorSets.some(s => s.name === setName)) showArmorSetDetail(setName);
+  }
+}
+
+// ---------- Materials ----------
+
+function showMaterialsView() {
+  detailEl.hidden = true;
+  homeViewEl.hidden = true;
+  comboboxEl.hidden = true;
+  decorationsViewEl.hidden = true;
+  weaponsViewEl.hidden = true;
+  armorViewEl.hidden = true;
+  materialsViewEl.hidden = false;
+  materialDetailEl.hidden = true;
+  materialsIndexEl.hidden = false;
+  materialsSearchEl.value = "";
+  renderMaterialsIndex("");
+  const url = new URL(location.href);
+  url.searchParams.set("view", "materials");
+  url.searchParams.delete("m");
+  history.replaceState(null, "", url);
+}
+
+function hideMaterialsView() {
+  materialsViewEl.hidden = true;
+  comboboxEl.hidden = false;
+  if (selectedMonster) detailEl.hidden = false;
+  else homeViewEl.hidden = false;
+  const url = new URL(location.href);
+  url.searchParams.delete("view");
+  history.replaceState(null, "", url);
+}
+
+function renderMaterialsIndex(query) {
+  if (!materialIndex) buildMaterialIndex();
+  const q = normalizeSearch((query || "").trim());
+  const keys = [...materialIndex.keys()].sort((a, b) => trMaterial(a).localeCompare(trMaterial(b)));
+  const filtered = !q ? keys : keys.filter(k => normalizeSearch(k).includes(q) || normalizeSearch(trMaterial(k)).includes(q));
+
+  if (!filtered.length) {
+    materialsIndexEl.innerHTML = `<p class="no-data">${ui("materialsNoResults")}</p>`;
+    return;
+  }
+
+  materialsIndexEl.innerHTML = `
+    <div class="decorations-slot-group">
+      <div class="decorations-grid">
+        ${filtered.map(k => `
+          <button type="button" class="decoration-card" data-key="${escapeAttr(k)}">
+            ${materialIconTag(k)}
+            <span class="decoration-card-name">${trMaterial(k)}</span>
+          </button>
+        `).join("")}
+      </div>
+    </div>
+  `;
+  materialsIndexEl.querySelectorAll(".decoration-card").forEach(btn => {
+    btn.addEventListener("click", () => showMaterialDetail(btn.dataset.key));
+  });
+}
+
+function showMaterialDetail(matKey) {
+  if (!materialIndex) buildMaterialIndex();
+  const key = normalizeMaterialKey(matKey);
+  const sources = materialIndex.get(key) || [];
+  materialsIndexEl.hidden = true;
+  materialDetailEl.hidden = false;
+
+  const range = ANOMALY_LEVEL_RANGE[key];
+  const rangeStr = range ? (range.max ? `${range.min}-${range.max}` : `${range.min}+`) : null;
+
+  const sourcesHtml = sources.length ? sources.map(s => `
+    <button type="button" class="gs-source-row" data-name="${s.monster}" data-rank="${s.rank}">
+      <span class="gs-source-top">
+        <img src="${iconPath(s.monster)}" alt="" loading="lazy">
+        <span class="gs-source-name">${trMonsterName(s.monster)}</span>
+        <span class="gs-source-rank">${trRank(s.rank)}</span>
+      </span>
+      <span class="gs-source-summary">${summarizeRow(s.row, matKey) || "—"}</span>
+    </button>
+  `).join("") : `<p class="gs-material-intro">${materialObtainNotes[matKey] ? escapeAttr(materialObtainNotes[matKey][lang]) : ui("decorationsMaterialNoMonster")}</p>`;
+
+  materialDetailEl.innerHTML = `
+    <button type="button" class="decorations-back" id="material-detail-back">${ui("materialsBack")}</button>
+    <div class="decoration-detail-header">
+      ${materialIconTag(matKey)}
+      <h2>${trMaterial(matKey)}</h2>
+      ${rangeStr ? `<span class="decoration-detail-slot">${ui("materialsAnomalyLevel")(rangeStr)}</span>` : ""}
+    </div>
+    <section class="block">
+      <h3>${ui("materialsSourcesHeading")}</h3>
+      <div class="decoration-materials-blocks">${sourcesHtml}</div>
+    </section>
+  `;
+  materialDetailEl.querySelector("#material-detail-back").addEventListener("click", () => {
+    materialDetailEl.hidden = true;
+    materialsIndexEl.hidden = false;
+  });
+  materialDetailEl.querySelectorAll(".gs-source-row").forEach(btn => {
+    btn.addEventListener("click", () => {
+      currentRank = btn.dataset.rank;
+      hideMaterialsView();
+      selectMonster(btn.dataset.name);
+    });
+  });
+
+  const url = new URL(location.href);
+  url.searchParams.set("view", "materials");
+  url.searchParams.set("mat", matKey);
+  history.replaceState(null, "", url);
+}
+
+function initMaterials() {
+  materialsNavToggleEl.addEventListener("click", showMaterialsView);
+  materialsBackEl.addEventListener("click", hideMaterialsView);
+  materialsSearchEl.addEventListener("input", () => renderMaterialsIndex(materialsSearchEl.value));
+
+  const params = new URLSearchParams(location.search);
+  if (params.get("view") === "materials") {
+    showMaterialsView();
+    const matKey = params.get("mat");
+    if (matKey && materialIndex && materialIndex.has(normalizeMaterialKey(matKey))) showMaterialDetail(matKey);
   }
 }
 

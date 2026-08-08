@@ -1,6 +1,14 @@
 # Progreso del proyecto
 
-Última actualización: 2026-08-07
+Última actualización: 2026-08-08
+
+## Feature: Materiales — página individual por material + tabla física resaltada + fix de idioma (2026-08-08)
+
+- **Sección "Materiales" nueva** (mismo patrón que Adornos): índice buscable de los 838 materiales del juego (derivados de `materialIndex`, sin scrape nuevo) + página de detalle por material mostrando qué monstruo(s) lo dan, en qué rango, y — si es un material "Afligido"/Anomalía — el rango de nivel (`ANOMALY_LEVEL_RANGE`) destacado arriba de todo, no solo mezclado en el texto de cada fila como antes.
+- Los nombres de material en Adornos, Armas, Armaduras y el buscador global (`gs-material-header`) pasaron de `<div>` a `<button>` clickeable → navegan directo a la página del material. `summarizeRow()` ahora acepta el nombre del material y aplica `annotateAnomalyLevel()`, algo que antes solo pasaba en la tabla de materiales de la página de cada monstruo — así que buscar un material afligido directo en el buscador global ya muestra el nivel sin tener que entrar a la página del monstruo primero.
+- **Fix de idioma**: el toggle ES/EN solo volvía a dibujar Adornos al cambiar de idioma; Armas/Armaduras/Materiales se quedaban en el idioma viejo hasta navegar afuera y volver a entrar. Ahora los 4 se refrescan igual.
+- **Tabla de hitzones — resaltado de Corte/Contundente/Disparo**: primero se agregó comparando por FILA (cuál de los 3 tipos físicos pega más en esa parte), pero el usuario aclaró que quería comparar por COLUMNA (para cada tipo de daño, qué parte del cuerpo es la mejor) — mismo criterio que ya se usaba para elementos, solo que aplicado por separado a cada columna física en vez de a una sola columna "ganadora" del monstruo entero. Además se sacó el resaltado de los `<th>` (encabezados) de las columnas de elemento, dejándolo solo en las celdas de valor, a pedido explícito para que ambos sistemas (físico y elemental) se vean consistentes.
+- **Hallazgo de una fuente nueva para el futuro** (no se usó todavía): el usuario encontró `MHRise-Database` (`robomeche.github.io/MHRise-Database`), cuyos gráficos de zonas (`vectores/MHRise-Database-main/monster/assets/zone_charts/*.png`) vienen originalmente de **MHRice** (`wwylele/mhrice`, confirmado en el README del repo) — un proyecto de data-mining que extrae la info directo de los archivos del juego, no un dibujo hecho a mano. Cuando se retome el trabajo de siluetas, esta es la fuente a investigar primero — probablemente tenga el mapeo color↔parte del cuerpo como dato estructurado real, no una convención inventada.
 
 ## Resumen rápido para retomar (si se corta el contexto)
 

@@ -42,6 +42,10 @@
       <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6z"/></svg>
       <span data-i18n="armorNav">Armor</span>
     </button>
+    <button type="button" id="materials-nav-toggle" class="header-icon-btn header-icon-btn--label" title="Materials" data-i18n="materialsNav">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 6 6 1-4.5 4 1 6-5.5-3-5.5 3 1-6L3 9l6-1z"/></svg>
+      <span data-i18n="materialsNav">Materials</span>
+    </button>
     <button type="button" id="lang-toggle" class="lang-toggle" title="Idioma / Language">
       <span class="lang-opt" data-lang="es">ES</span>/<span class="lang-opt" data-lang="en">EN</span>
     </button>
@@ -102,6 +106,15 @@
     </div>
     <div id="armor-index" class="decorations-index"></div>
     <div id="armor-set-detail" class="decoration-detail" hidden></div>
+  </main>
+
+  <main id="materials-view" class="decorations-view" hidden>
+    <div class="decorations-toolbar">
+      <button type="button" id="materials-back" class="decorations-back" data-i18n="backToMonsters">← Volver a monstruos</button>
+      <input type="text" id="materials-search" class="monster-search" data-i18n-ph="materialsSearchPlaceholder" placeholder="Buscar material…" autocomplete="off" />
+    </div>
+    <div id="materials-index" class="decorations-index"></div>
+    <div id="material-detail" class="decoration-detail" hidden></div>
   </main>
 
   <template id="tpl-detail">
