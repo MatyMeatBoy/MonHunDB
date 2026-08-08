@@ -258,6 +258,7 @@ function applyUiStrings() {
   });
   langToggleEl.dataset.lang = lang;
   brandHomeEl.setAttribute("aria-label", ui("brandHomeLabel"));
+  renderNews();
 }
 
 async function loadMaterialTranslations() {
@@ -312,7 +313,6 @@ async function init() {
   initArmor();
   initMaterials();
   initSkills();
-  renderNewsSilhouettePreview();
 
   brandHomeEl.addEventListener("click", showHome);
   brandHomeEl.addEventListener("keydown", (e) => {
@@ -590,6 +590,50 @@ function buildMaterialIndex() {
   }
 }
 
+// Equipment (decorations/weapons/armor) sometimes crafts with the "+" tier
+// of a material (ex. "Great Wroggi Brace +") that never appears as its own
+// row in monsters.json -- our scrape only has drop tables for base-rank
+// materials, not the Anomaly-Investigation-only "+" upgrades. Those "+"
+// materials still come from the exact same monster as their base version
+// (just via Anomaly Investigations instead of a normal hunt), so falling
+// back to the base material's sources is more accurate than showing "no
+// monster gives this" for a material we can clearly attribute.
+function getMaterialSources(materialName) {
+  if (!materialIndex) buildMaterialIndex();
+  const key = normalizeMaterialKey(materialName);
+  let sources = materialIndex.get(key) || [];
+  let isPlusTierFallback = false;
+  if (!sources.length && key.endsWith("+")) {
+    const baseSources = materialIndex.get(key.slice(0, -1));
+    if (baseSources && baseSources.length) {
+      sources = baseSources;
+      isPlusTierFallback = true;
+    }
+  }
+  return { sources, isPlusTierFallback };
+}
+
+let skillGrantIndex = null;
+function buildSkillGrantIndex() {
+  skillGrantIndex = new Map();
+  const add = (skillName, entry) => {
+    if (!skillGrantIndex.has(skillName)) skillGrantIndex.set(skillName, { decorations: [], armorPieces: [] });
+    skillGrantIndex.get(skillName)[entry.kind === "decoration" ? "decorations" : "armorPieces"].push(entry);
+  };
+  for (const dec of decorations) {
+    for (const s of dec.skills || []) {
+      if (!s.name) continue;
+      add(s.name, { kind: "decoration", id: dec.id, level: s.level });
+    }
+  }
+  for (const p of armorPieces) {
+    for (const s of p.skills || []) {
+      if (!s.name) continue;
+      add(s.name, { kind: "armorPiece", id: p.id, level: s.level });
+    }
+  }
+}
+
 // ---------- Monster <-> Weapon/Armor associations ----------
 // Neither weapons.json nor armor_pieces.json name the monster they're crafted
 // from directly (set names are often flavor text, ex. "Tempest Set" for
@@ -648,7 +692,7 @@ function tallyMonstersForMaterials(materials) {
   if (!materialIndex) buildMaterialIndex();
   const counts = new Map();
   for (const m of materials || []) {
-    const sources = materialIndex.get(normalizeMaterialKey(m.material)) || [];
+    const { sources } = getMaterialSources(m.material);
     const seenForThisMat = new Set();
     for (const s of sources) {
       if (seenForThisMat.has(s.monster)) continue;
@@ -1111,7 +1155,7 @@ function showDecorationDetail(id) {
 
   if (!materialIndex) buildMaterialIndex();
   const materialsHtml = dec.materials.map(m => {
-    const sources = materialIndex.get(normalizeMaterialKey(m.material)) || [];
+    const { sources, isPlusTierFallback } = getMaterialSources(m.material);
     const monsterCount = new Set(sources.map(s => s.monster)).size;
     return `<div class="gs-material-block decoration-material-block">
       <button type="button" class="gs-material-header" data-mat-key="${escapeAttr(m.material)}">
@@ -1120,6 +1164,7 @@ function showDecorationDetail(id) {
         <span class="decoration-material-qty">x${m.qty}</span>
       </button>
       ${sources.length ? `
+        ${isPlusTierFallback ? `<p class="material-plus-tier-note">${ui("materialsPlusTierNote")}</p>` : ""}
         <details class="decoration-material-sources">
           <summary>${ui("decorationsSeeMonsters")(monsterCount)}</summary>
           ${sources.map(s => `
@@ -1129,7 +1174,7 @@ function showDecorationDetail(id) {
               <span class="gs-source-name">${trMonsterName(s.monster)}</span>
               <span class="gs-source-rank">${trRank(s.rank)}</span>
             </span>
-            <span class="gs-source-summary">${summarizeRow(s.row, m.material) || "—"}</span>
+            <span class="gs-source-summary">${isPlusTierFallback ? "—" : (summarizeRow(s.row, m.material) || "—")}</span>
           </button>`).join("")}
         </details>
       ` : `<p class="gs-material-intro">${materialObtainNotes[m.material]
@@ -1301,7 +1346,7 @@ function showWeaponDetail(id) {
 
   if (!materialIndex) buildMaterialIndex();
   const materialsHtml = (w.materials || []).map(m => {
-    const sources = materialIndex.get(normalizeMaterialKey(m.material)) || [];
+    const { sources, isPlusTierFallback } = getMaterialSources(m.material);
     const monsterCount = new Set(sources.map(s => s.monster)).size;
     return `<div class="gs-material-block decoration-material-block">
       <button type="button" class="gs-material-header" data-mat-key="${escapeAttr(m.material)}">
@@ -1310,6 +1355,7 @@ function showWeaponDetail(id) {
         <span class="decoration-material-qty">x${m.qty}</span>
       </button>
       ${sources.length ? `
+        ${isPlusTierFallback ? `<p class="material-plus-tier-note">${ui("materialsPlusTierNote")}</p>` : ""}
         <details class="decoration-material-sources">
           <summary>${ui("decorationsSeeMonsters")(monsterCount)}</summary>
           ${sources.map(s => `
@@ -1319,7 +1365,7 @@ function showWeaponDetail(id) {
               <span class="gs-source-name">${trMonsterName(s.monster)}</span>
               <span class="gs-source-rank">${trRank(s.rank)}</span>
             </span>
-            <span class="gs-source-summary">${summarizeRow(s.row, m.material) || "—"}</span>
+            <span class="gs-source-summary">${isPlusTierFallback ? "—" : (summarizeRow(s.row, m.material) || "—")}</span>
           </button>`).join("")}
         </details>
       ` : `<p class="gs-material-intro">${materialObtainNotes[m.material] ? escapeAttr(materialObtainNotes[m.material][lang]) : ui("decorationsMaterialNoMonster")}</p>`}
@@ -1431,7 +1477,7 @@ function getArmorSetPieceIds() {
 function armorPieceMaterialsHtml(p) {
   if (!materialIndex) buildMaterialIndex();
   return (p.materials || []).map(m => {
-    const sources = materialIndex.get(normalizeMaterialKey(m.material)) || [];
+    const { sources, isPlusTierFallback } = getMaterialSources(m.material);
     const monsterCount = new Set(sources.map(s => s.monster)).size;
     return `<div class="gs-material-block decoration-material-block">
       <button type="button" class="gs-material-header" data-mat-key="${escapeAttr(m.material)}">
@@ -1440,6 +1486,7 @@ function armorPieceMaterialsHtml(p) {
         <span class="decoration-material-qty">x${m.qty}</span>
       </button>
       ${sources.length ? `
+        ${isPlusTierFallback ? `<p class="material-plus-tier-note">${ui("materialsPlusTierNote")}</p>` : ""}
         <details class="decoration-material-sources">
           <summary>${ui("decorationsSeeMonsters")(monsterCount)}</summary>
           ${sources.map(s => `
@@ -1449,7 +1496,7 @@ function armorPieceMaterialsHtml(p) {
               <span class="gs-source-name">${trMonsterName(s.monster)}</span>
               <span class="gs-source-rank">${trRank(s.rank)}</span>
             </span>
-            <span class="gs-source-summary">${summarizeRow(s.row, m.material) || "—"}</span>
+            <span class="gs-source-summary">${isPlusTierFallback ? "—" : (summarizeRow(s.row, m.material) || "—")}</span>
           </button>`).join("")}
         </details>
       ` : `<p class="gs-material-intro">${materialObtainNotes[m.material] ? escapeAttr(materialObtainNotes[m.material][lang]) : ui("decorationsMaterialNoMonster")}</p>`}
@@ -1729,23 +1776,25 @@ function renderMaterialsIndex(query) {
 function showMaterialDetail(matKey) {
   if (!materialIndex) buildMaterialIndex();
   const key = normalizeMaterialKey(matKey);
-  const sources = materialIndex.get(key) || [];
+  const { sources, isPlusTierFallback } = getMaterialSources(matKey);
   materialsIndexEl.hidden = true;
   materialDetailEl.hidden = false;
 
   const range = ANOMALY_LEVEL_RANGE[key];
   const rangeStr = range ? (range.max ? `${range.min}-${range.max}` : `${range.min}+`) : null;
 
-  const sourcesHtml = sources.length ? sources.map(s => `
+  const sourcesHtml = sources.length ? `
+    ${isPlusTierFallback ? `<p class="material-plus-tier-note">${ui("materialsPlusTierNote")}</p>` : ""}
+    ${sources.map(s => `
     <button type="button" class="gs-source-row" data-name="${s.monster}" data-rank="${s.rank}">
       <span class="gs-source-top">
         <img src="${iconPath(s.monster)}" alt="" loading="lazy">
         <span class="gs-source-name">${trMonsterName(s.monster)}</span>
         <span class="gs-source-rank">${trRank(s.rank)}</span>
       </span>
-      <span class="gs-source-summary">${summarizeRow(s.row, matKey) || "—"}</span>
+      <span class="gs-source-summary">${isPlusTierFallback ? "—" : (summarizeRow(s.row, matKey) || "—")}</span>
     </button>
-  `).join("") : `<p class="gs-material-intro">${materialObtainNotes[matKey] ? escapeAttr(materialObtainNotes[matKey][lang]) : ui("decorationsMaterialNoMonster")}</p>`;
+  `).join("")}` : `<p class="gs-material-intro">${materialObtainNotes[matKey] ? escapeAttr(materialObtainNotes[matKey][lang]) : ui("decorationsMaterialNoMonster")}</p>`;
 
   materialDetailEl.innerHTML = `
     <button type="button" class="decorations-back" id="material-detail-back">${ui("materialsBack")}</button>
@@ -1887,6 +1936,40 @@ function showSkillDetail(idOrName) {
     </li>
   `).join("");
 
+  if (!skillGrantIndex) buildSkillGrantIndex();
+  const grantedBy = skillGrantIndex.get(s.name) || { decorations: [], armorPieces: [] };
+  const grantedDecorations = grantedBy.decorations
+    .map(g => ({ ...g, dec: decorations.find(d => d.id === g.id) }))
+    .filter(g => g.dec);
+  const grantedArmorPieces = grantedBy.armorPieces
+    .map(g => ({ ...g, piece: armorPieces.find(p => p.id === g.id) }))
+    .filter(g => g.piece);
+
+  const grantedByHtml = (grantedDecorations.length || grantedArmorPieces.length) ? `
+    ${grantedDecorations.length ? `
+      <h4 class="skills-granted-subheading">${ui("skillsGrantedByDecorations")}</h4>
+      <div class="decorations-grid">
+        ${grantedDecorations.map(g => `
+          <button type="button" class="decoration-card" data-granted-decoration="${g.dec.id}">
+            ${decorationIconTag(g.dec)}
+            <span class="decoration-card-name">${trDecorationName(g.dec)} Lv${g.level}</span>
+          </button>
+        `).join("")}
+      </div>
+    ` : ""}
+    ${grantedArmorPieces.length ? `
+      <h4 class="skills-granted-subheading">${ui("skillsGrantedByArmor")}</h4>
+      <div class="decorations-grid">
+        ${grantedArmorPieces.map(g => `
+          <button type="button" class="decoration-card" data-granted-armor-piece="${g.piece.id}">
+            ${armorIconTag(g.piece)}
+            <span class="decoration-card-name">${trArmorName(g.piece)} Lv${g.level}</span>
+          </button>
+        `).join("")}
+      </div>
+    ` : ""}
+  ` : `<p class="no-data">${ui("skillsGrantedByNone")}</p>`;
+
   skillDetailEl.innerHTML = `
     <button type="button" class="decorations-back" id="skill-detail-back">${ui("skillsBack")}</button>
     <div class="decoration-detail-header">
@@ -1898,10 +1981,28 @@ function showSkillDetail(idOrName) {
       <h3>${ui("skillsLevelsHeading")}</h3>
       <ul class="stat-list decoration-skills-list">${levelsHtml}</ul>
     </section>
+    <section class="block">
+      <h3>${ui("skillsGrantedByHeading")}</h3>
+      ${grantedByHtml}
+    </section>
   `;
   skillDetailEl.querySelector("#skill-detail-back").addEventListener("click", () => {
     skillDetailEl.hidden = true;
     skillsIndexEl.hidden = false;
+  });
+  skillDetailEl.querySelectorAll("[data-granted-decoration]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      hideSkillsView();
+      showDecorationsView();
+      showDecorationDetail(btn.dataset.grantedDecoration);
+    });
+  });
+  skillDetailEl.querySelectorAll("[data-granted-armor-piece]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      hideSkillsView();
+      showArmorView();
+      showArmorPieceDetail(btn.dataset.grantedArmorPiece);
+    });
   });
 
   const url = new URL(location.href);
@@ -2527,14 +2628,12 @@ function renderHitzoneSilhouette(container, monster) {
   });
 }
 
-// Small decorative preview for the home-page news card: reuses the traced
+// Small decorative preview for a home-page news card: reuses the traced
 // silhouette shapes but with a single flat fill (no per-part stat coloring,
 // no tooltips/interactivity) since it's just illustrating "we added these".
-function renderNewsSilhouettePreview() {
-  const el = document.getElementById("news-preview-v01");
-  if (!el) return;
+function newsSilhouettePreviewHtml() {
   const names = ["Rathalos", "Barioth"];
-  el.innerHTML = names.map(name => {
+  return names.map(name => {
     const shape = HITZONE_SHAPES[name];
     if (!shape) return "";
     const polys = Object.values(shape.parts).flat().map(pts =>
@@ -2542,6 +2641,83 @@ function renderNewsSilhouettePreview() {
     ).join("");
     return `<svg class="news-preview-svg" viewBox="${shape.viewBox}" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">${polys}</svg>`;
   }).join("");
+}
+
+// Patch-notes-style news feed on the Home page. Each entry has a short intro
+// (title + text, shown collapsed) and a longer bullet list (shown on click).
+// Kept as a plain array instead of a JSON file since it's small, hand-written,
+// and tied 1:1 to the i18n keys that hold its translated text.
+const NEWS = [
+  {
+    id: "v03",
+    tagKey: "newsV03Tag",
+    titleKey: "newsV03Title",
+    textKey: "newsV03Text",
+    bulletsKey: "newsV03Bullets",
+    imageHtml: () => `
+      ${itemMaskIconTag("065", 4, "news-item-icon")}
+      ${itemMaskIconTag("031", 11, "news-item-icon")}
+    `,
+  },
+  {
+    id: "v02",
+    tagKey: null,
+    tag: "v0.2 Alpha",
+    titleKey: "newsV02Title",
+    textKey: "newsV02Text",
+    bulletsKey: "newsV02Bullets",
+    imageHtml: () => `
+      <img src="data/images/weapons/1953968039.webp" alt="" loading="lazy">
+      <img src="data/images/armor_sets/rathalos-x-set.png" alt="" loading="lazy">
+    `,
+  },
+  {
+    id: "v01",
+    tagKey: null,
+    tag: "v0.1 Alpha",
+    titleKey: "newsV01Title",
+    textKey: "newsV01Text",
+    bulletsKey: "newsV01Bullets",
+    imageHtml: () => newsSilhouettePreviewHtml(),
+  },
+];
+
+let newsExpanded = new Set();
+function renderNews() {
+  const el = document.getElementById("news-list");
+  if (!el) return;
+  el.innerHTML = NEWS.map(n => {
+    const tag = n.tagKey ? ui(n.tagKey) : n.tag;
+    const bullets = ui(n.bulletsKey) || [];
+    const expanded = newsExpanded.has(n.id);
+    return `
+      <article class="news-item${expanded ? " expanded" : ""}">
+        <button type="button" class="news-item-toggle" data-news-id="${n.id}" aria-expanded="${expanded}">
+          <div class="news-item-image${n.id === "v02" ? " news-item-image--split" : ""}">${n.imageHtml()}</div>
+          <div class="news-item-body">
+            <span class="news-item-tag">${escapeAttr(tag)}</span>
+            <h3 class="news-item-title">${escapeAttr(ui(n.titleKey))}</h3>
+            <p class="news-item-text">${escapeAttr(ui(n.textKey))}</p>
+            <span class="news-item-toggle-label">${expanded ? ui("newsHideDetails") : ui("newsSeeDetails")}</span>
+          </div>
+        </button>
+        ${bullets.length ? `
+          <div class="news-item-detail" ${expanded ? "" : "hidden"}>
+            <ul>${bullets.map(b => `<li>${escapeAttr(b)}</li>`).join("")}</ul>
+          </div>
+        ` : ""}
+      </article>
+    `;
+  }).join("");
+
+  el.querySelectorAll("[data-news-id]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.newsId;
+      if (newsExpanded.has(id)) newsExpanded.delete(id);
+      else newsExpanded.add(id);
+      renderNews();
+    });
+  });
 }
 
 // Per physical column (sever/blunt/projectile), highlight only the body

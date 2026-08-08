@@ -63,7 +63,7 @@ const I18N = {
       decorationsNav: "Adornos",
       backToMonsters: "← Volver a monstruos",
       decorationsSearchPlaceholder: "Buscar decoración o habilidad…",
-      decorationsSlot: (n) => `Ranura ${n}`,
+      decorationsSlot: (n) => `Ranura Nivel ${n}`,
       decorationsSkillsHeading: "Habilidad",
       decorationsMaterialsHeading: "Materiales para crear",
       decorationsNoResults: "Sin decoraciones que coincidan",
@@ -73,10 +73,36 @@ const I18N = {
       gsDecorationsSection: "Decorations",
       brandHomeLabel: "Volver al inicio",
       newsHeading: "Novedades",
+      newsSeeDetails: "Ver detalles",
+      newsHideDetails: "Ocultar detalles",
       newsV01Title: "Llegan los mapas de zonas de daño",
       newsV01Text: "Empezamos a agregar siluetas interactivas con las zonas débiles y resistentes de cada monstruo, mostrando el daño por tipo de arma y elemento directamente sobre su cuerpo. Por ahora están disponibles para Rathalos y Barioth — el resto del bestiario se irá sumando de a poco.",
+      newsV01Bullets: [
+        "Siluetas interactivas de hitzones, trazadas a mano a partir de arte de referencia, para Rathalos y Barioth.",
+        "Coloreado parte por parte según el daño real de cada tipo de ataque físico (Corte/Contundente/Disparo) y cada elemento.",
+        "Pestañas para cambiar qué tipo de daño se muestra directamente sobre el dibujo del monstruo.",
+        "Tabla de hitzones con resaltado por columna: mejor tipo de daño físico y mejor elemento por cada parte del cuerpo.",
+      ],
       newsV02Title: "Llegan Armas y Armaduras",
       newsV02Text: "Sumamos las secciones de Armas y Armaduras: las 3.953 armas del juego (mostrando la versión final de cada árbol de mejora por default, con selector para ver las anteriores) y los sets de armadura completos con sus piezas, habilidades y materiales — todo integrado al buscador, igual que Adornos.",
+      newsV02Bullets: [
+        "3.953 armas de los 14 tipos del juego, mostrando la versión final de cada árbol de mejora con selector para ver las versiones anteriores.",
+        "Sets de armadura completos: piezas, defensa, ranuras de decoración, habilidades y materiales de crafteo.",
+        "Cada material de crafteo enlaza directo a qué monstruo(s) lo dan y en qué rango.",
+        "Todo integrado al buscador global, igual que ya pasaba con Adornos.",
+      ],
+      newsV03Tag: "v0.3 Alpha",
+      newsV03Title: "Llegan Materiales, Habilidades e íconos reales",
+      newsV03Text: "Nueva sección de Materiales con página propia por ítem, nueva sección de Habilidades con los efectos de cada nivel, íconos reales del juego reemplazando los planos de antes, y equipo relacionado directo en la ficha de cada monstruo.",
+      newsV03Bullets: [
+        "Nueva sección Materiales: catálogo buscable de los 838 materiales del juego, cada uno con página propia mostrando qué monstruo(s) lo dan y en qué rango.",
+        "Nueva sección Habilidades: las 147 habilidades de armadura del juego, con descripción, efecto de cada nivel, y qué adornos/piezas de armadura las otorgan.",
+        "Íconos reales del juego: reemplazamos los íconos planos de materiales y adornos por el sistema de máscaras de 2 capas que usa el juego (831/838 materiales, 243/243 adornos).",
+        "Equipo relacionado: la ficha de cada monstruo ahora muestra qué armas y sets de armadura salen principalmente de sus materiales.",
+        "Nombres de materiales y habilidades clickeables en Adornos, Armas, Armaduras y el buscador global — un click te lleva directo a su página.",
+        "Selector ES/EN con bandera de fondo (España/Reino Unido).",
+        "Corregido: algunos materiales de equipo aparecían como \"ningún monstruo lo da\" por inconsistencias de nombre entre fuentes (ej. Volvidon/Volvi, Magnamalo/Magna, o la versión \"+\" de un material) — ahora quedan vinculados al monstruo correcto.",
+      ],
       weaponsNav: "Armas",
       armorNav: "Armaduras",
       weaponsSearchPlaceholder: "Buscar arma…",
@@ -110,11 +136,16 @@ const I18N = {
       materialsNoResults: "Sin materiales que coincidan",
       materialsSourcesHeading: "¿Dónde conseguirlo?",
       materialsAnomalyLevel: (range) => `Nivel de Anomalía: ${range}`,
+      materialsPlusTierNote: "Versión mejorada (+): sale del mismo monstruo que el material base, normalmente vía Investigaciones de Anomalía.",
       skillsNav: "Habilidades",
       skillsSearchPlaceholder: "Buscar habilidad…",
       skillsBack: "← Volver a habilidades",
       skillsNoResults: "Sin habilidades que coincidan",
       skillsLevelsHeading: "Niveles",
+      skillsGrantedByHeading: "¿Qué la otorga?",
+      skillsGrantedByDecorations: "Adornos",
+      skillsGrantedByArmor: "Piezas de armadura",
+      skillsGrantedByNone: "Ningún adorno o pieza de armadura conocido otorga esta habilidad.",
       relatedEquipment: "Equipo relacionado",
       relatedEquipmentWeapons: "Armas",
       relatedEquipmentArmor: "Sets de armadura",
@@ -178,7 +209,7 @@ const I18N = {
       decorationsNav: "Decorations",
       backToMonsters: "← Back to monsters",
       decorationsSearchPlaceholder: "Search decoration or skill…",
-      decorationsSlot: (n) => `Slot ${n}`,
+      decorationsSlot: (n) => `Slot Level ${n}`,
       decorationsSkillsHeading: "Skill",
       decorationsMaterialsHeading: "Crafting Materials",
       decorationsNoResults: "No matching decorations",
@@ -188,10 +219,36 @@ const I18N = {
       gsDecorationsSection: "Decorations",
       brandHomeLabel: "Back to home",
       newsHeading: "News",
+      newsSeeDetails: "See details",
+      newsHideDetails: "Hide details",
       newsV01Title: "Hitzone maps have arrived",
       newsV01Text: "We're starting to add interactive silhouettes showing each monster's weak and resistant zones, mapping damage by weapon type and element right onto its body. Available for Rathalos and Barioth for now — the rest of the bestiary will follow.",
+      newsV01Bullets: [
+        "Interactive hitzone silhouettes, hand-traced from reference art, for Rathalos and Barioth.",
+        "Colored part by part based on the actual damage of each physical attack type (Sever/Blunt/Shot) and each element.",
+        "Tabs to switch which damage type is shown directly on the monster's drawing.",
+        "Hitzone table with per-column highlighting: best physical damage type and best element for each body part.",
+      ],
       newsV02Title: "Weapons and Armor have arrived",
       newsV02Text: "Added Weapons and Armor sections: all 3,953 weapons in the game (showing the final tier of each upgrade tree by default, with a selector for earlier versions) and full armor sets with their pieces, skills, and materials — all wired into search, just like Decorations.",
+      newsV02Bullets: [
+        "3,953 weapons across all 14 weapon types, showing the final tier of each upgrade tree with a selector for earlier versions.",
+        "Full armor sets: pieces, defense, decoration slots, skills, and crafting materials.",
+        "Every crafting material links straight to which monster(s) drop it and at what rank.",
+        "All wired into global search, just like Decorations already was.",
+      ],
+      newsV03Tag: "v0.3 Alpha",
+      newsV03Title: "Materials, Skills, and real game icons have arrived",
+      newsV03Text: "New Materials section with a page per item, new Skills section with every level's effect, real in-game icons replacing the old flat ones, and related equipment right on each monster's page.",
+      newsV03Bullets: [
+        "New Materials section: a searchable catalog of the game's 838 materials, each with its own page showing which monster(s) drop it and at what rank.",
+        "New Skills section: all 147 armor skills in the game, with descriptions, every level's effect, and which decorations/armor pieces grant them.",
+        "Real in-game icons: replaced the old flat material/decoration icons with the game's own 2-layer mask system (831/838 materials, 243/243 decorations).",
+        "Related Equipment: each monster's page now shows which weapons and armor sets are mostly crafted from its materials.",
+        "Material and skill names are now clickable everywhere — Decorations, Weapons, Armor, and global search all link straight to their page.",
+        "ES/EN toggle now shows a flag background (Spain/UK).",
+        "Fixed: some equipment materials showed as \"no monster gives this\" due to naming mismatches between sources (ex. Volvidon/Volvi, Magnamalo/Magna, or a material's \"+\" tier) — now correctly linked to the right monster.",
+      ],
       weaponsNav: "Weapons",
       armorNav: "Armor",
       weaponsSearchPlaceholder: "Search weapon…",
@@ -225,11 +282,16 @@ const I18N = {
       materialsNoResults: "No matching materials",
       materialsSourcesHeading: "Where to get it",
       materialsAnomalyLevel: (range) => `Anomaly Level: ${range}`,
+      materialsPlusTierNote: "Upgraded (+) version: comes from the same monster as the base material, usually via Anomaly Investigations.",
       skillsNav: "Skills",
       skillsSearchPlaceholder: "Search skill…",
       skillsBack: "← Back to skills",
       skillsNoResults: "No matching skills",
       skillsLevelsHeading: "Levels",
+      skillsGrantedByHeading: "Granted By",
+      skillsGrantedByDecorations: "Decorations",
+      skillsGrantedByArmor: "Armor Pieces",
+      skillsGrantedByNone: "No known decoration or armor piece grants this skill.",
       relatedEquipment: "Related Equipment",
       relatedEquipmentWeapons: "Weapons",
       relatedEquipmentArmor: "Armor Sets",
@@ -462,8 +524,22 @@ function t(dict, key) {
   return dict[key] || key;
 }
 
+// Decorations/weapons/armor sometimes name a material with the monster's
+// full name (ex. "Volvidon Rickrack") while monsters.json has it under the
+// same monster's shorthand nickname from the original Fextralife scrape
+// (ex. "Volvi Rickrack") -- same real item, inconsistent source naming.
+// Found by cross-checking every equipment material against monsters.json's
+// material list for same-suffix / substring-prefix collisions (2026-08-08).
+const MATERIAL_NAME_ALIASES = {
+  "Volvidon Rickrack": "Volvi Rickrack",
+  "Volvidon Carapace": "Volvi Carapace",
+  "Magnamalo Soulprism": "Magna Soulprism",
+  "Magnamalo Soulprism+": "Magna Soulprism+",
+};
+
 function normalizeMaterialKey(s) {
-  return s.replace(/\s+\+/g, "+").trim();
+  const key = s.replace(/\s+\+/g, "+").trim();
+  return MATERIAL_NAME_ALIASES[key] || key;
 }
 
 function translateMaterial(name) {
