@@ -287,6 +287,7 @@ async function init() {
       loadStatusIconManifest(),
       loadMaterialIconManifest(),
       loadMhriceIconMaps(),
+      loadArmorFextraIcons(),
     ]);
     if (!monstersRes.ok) throw new Error("HTTP " + monstersRes.status);
     monsters = await monstersRes.json();
@@ -440,6 +441,26 @@ async function loadMhriceIconMaps() {
     if (dRes.ok) decorationMhriceIcons = await dRes.json();
   } catch (e) {
     console.warn("No se pudieron cargar los mapeos de íconos MHRice", e);
+  }
+}
+
+// Fallback icon source for armor pieces whose Kiranico icon 404s (Kiranico
+// never rendered ~233 pieces, mostly Buddy/layered/collab gear). Maps
+// armor piece id -> local filename in data/images/armor_fextra/, sourced
+// from Fextralife (see data/download_armor_fextra_icons.js). Kiranico
+// stays the primary/first choice always -- armorIconTag() only falls back
+// to this on the Kiranico <img> onerror.
+let armorFextraIcons = {};
+async function loadArmorFextraIcons() {
+  try {
+    const res = await fetch("data/armor_fextra_icons.json");
+    if (res.ok) {
+      const manifest = await res.json();
+      armorFextraIcons = {};
+      for (const id of Object.keys(manifest)) armorFextraIcons[id] = true;
+    }
+  } catch (e) {
+    console.warn("No se pudo cargar el manifiesto de íconos de armadura (Fextralife fallback)", e);
   }
 }
 
@@ -1463,8 +1484,15 @@ function trArmorPart(part) {
 }
 function armorIconTag(p) {
   const src = p.iconM ? `data/images/armor/${p.id}_m.webp` : (p.iconF ? `data/images/armor/${p.id}_f.webp` : null);
-  if (!src) return `<span class="material-icon material-icon--placeholder"></span>`;
-  return `<img class="material-icon" src="${src}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`;
+  const fallbackSrc = armorFextraIcons[p.id] ? `data/images/armor_fextra/${p.id}.png` : null;
+  if (!src) {
+    if (fallbackSrc) return `<img class="material-icon" src="${fallbackSrc}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`;
+    return `<span class="material-icon material-icon--placeholder"></span>`;
+  }
+  const onerror = fallbackSrc
+    ? `if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${fallbackSrc}';}else{this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}));}`
+    : `this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))`;
+  return `<img class="material-icon" src="${src}" alt="" loading="lazy" onerror="${onerror}">`;
 }
 let armorSetPieceIds = null;
 function getArmorSetPieceIds() {

@@ -120,6 +120,40 @@ Solo **Rathalos** tiene silueta completa y confirmada por el usuario (tabla de r
 
 Fuente prometedora para el futuro, **aún no usada**: `MHRise-Database` (`robomeche.github.io/MHRise-Database`, clon local en `vectores/MHRise-Database-main/`, gitignored) tiene gráficos de zona por monstruo que, según su propio README, salen originalmente de MHRice (`wwylele/mhrice`) — un extractor de datos del juego, no un dibujo hecho a mano. Si se retoma el trabajo de siluetas, investigar esto primero: probablemente traiga el mapeo color↔parte del cuerpo como dato estructurado real en vez de tener que inferirlo a mano.
 
+## 3.5 Íconos de armadura rotos y verificación de traducciones ES (patrón reutilizable)
+
+Aparecieron dos problemas relacionados con `data/armor_pieces.json` (1574 piezas) que valen la pena documentar como patrón, porque van a repetirse con otros datasets de equipo:
+
+**Íconos rotos (no son un problema de descarga, son un 404 real en la fuente):** `armorIconTag(p)` en `app.js` arma `<img src="data/images/armor/${p.id}_m.webp">` a partir de un mirror local descargado por `data/download_equip_icons.js` desde `iconM`/`iconF` (URLs del CDN de Kiranico). El script es resumible (`fs.existsSync` salta lo que ya está), así que si un ícono falta **no siempre es porque nunca se corrió el script** — hay que probar primero si la URL de origen responde:
+
+```bash
+curl -sIL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36" "<iconM o iconF>" | grep -i "^HTTP"
+```
+
+Se confirmó así que **233 de 1574 piezas dan 404 real en Kiranico** (no es que falte descargarlas, Kiranico nunca las renderizó — casos como equipo de Palamute/Buddy, piezas raras o layered). Para esos casos no hay más remedio que buscar una fuente alternativa (Fextralife, mismo patrón que ya se usa para renders de monstruos) y agregarla como **fallback de una segunda capa**, no como reemplazo — seguir el patrón ya establecido de `loadMaterialIconManifest()`/`loadMhriceIconMaps()` (manifiesto JSON chico, cargado en `init()`, chequeado antes de caer al placeholder en blanco). Nunca reemplazar la fuente primaria (Kiranico) solo porque una fuente secundaria también sirve — mantener el orden de prioridad explícito en el código.
+
+**Verificar traducciones ES de Kiranico (bypass del bloqueo a WebFetch):** `mhrise.kiranico.com` devuelve 403 a la tool `WebFetch` (ver `SOURCES.md`), pero responde 200 a un `curl` con User-Agent de navegador normal — mismo truco ya usado para `grindosaur.com`:
+
+```bash
+curl -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36" "https://mhrise.kiranico.com/es/data/armors/<id>" | grep -o '<title>[^<]*</title>'
+```
+
+Con esto se confirmó un caso concreto: `"Lambent Sash"` (EN) tiene `nameEs: "Fajín Lambent"` (id `1620705253`) — "Lambent" quedó sin traducir. **No es un bug de este proyecto**: la propia web de Kiranico en español muestra exactamente el mismo "Fajín Lambent", así que lo más probable es que sea el nombre oficial de la línea de set (Capcom a veces deja adjetivos de nombre de set como sustantivo propio, igual que nunca traduce "Rathalos"). Antes de "corregir" una traducción parcial que parezca rara, verificar contra Kiranico ES con este método — si Kiranico también la deja igual, no tocarla.
+
+## 3.6 Cómo se manejan los dos idiomas en los datos (dos patrones distintos, no uno solo)
+
+No hay un único mecanismo de traducción — conviven **dos patrones**, y hay que saber cuál aplica a qué dataset antes de tocar nombres/textos. Mezclarlos (ej. buscar `nameEs` en `monsters.json`, o esperar que `I18N.monsterNames` tenga una decoración) es un error fácil de cometer.
+
+**Patrón A — campos gemelos inline (`decorations.json`, `weapons.json`, `armor_pieces.json`, `skills.json`):** cada registro trae el texto en los dos idiomas directamente, como `name`/`nameEs`, `descEn`/`descEs`, `effect`/`effectEs`. No hay diccionario intermedio — el registro ES fue tipeado/scrapeado junto con el registro EN en el mismo paso de recolección (por eso viven en el mismo JSON). Para leer el nombre según el idioma activo se hace inline: `lang === "es" && x.nameEs ? x.nameEs : x.name` (ver `trDecorationName()`, `trArmorName()`, `trSkillName()` en `app.js`). Si falta la traducción de un registro nuevo, se edita el JSON directamente.
+
+**Patrón B — diccionario separado por categoría (`monsters.json`, y los campos sueltos que arman la ficha de monstruo):** el dataset principal (`monsters.json`) es **solo inglés** — no tiene `nameEs` ni ningún campo `*Es`. La traducción vive aparte, en `data/i18n.js`, como diccionarios `{"Nombre EN": "Nombre ES"}` independientes por categoría: `I18N.monsterNames`, `I18N.species`, `I18N.locations`, `I18N.ailments`, `I18N.elements`, `I18N.ranks`, `I18N.bodyParts`, `I18N.buildupLabels`. Cada uno tiene su propia función `trX()` en `app.js` (`trMonsterName()`, `trSpecies()`, `trLocation()`, etc.) que hace `lang === "es" ? t(I18N.X, name) : name` — con `t()` siendo un lookup simple que devuelve la clave sin traducir si no la encuentra (fallback silencioso a inglés, nunca rompe). Este patrón se usa cuando el mismo string en inglés aparece repetido en muchos monstruos (ej. "Fire", "Poison", "Shrine Ruins") — tiene más sentido un diccionario compartido que repetir la traducción en cada registro.
+
+**Caso especial — materiales, un tercer diccionario aparte de los dos anteriores:** los nombres de material (usados dentro de `monsters.json`, `decorations.json`, `weapons.json`, `armor_pieces.json` como strings sueltos dentro de listas de `materials`) se traducen con `translateMaterial()`/`trMaterial()`, que buscan en `I18N.materials` — un diccionario de **816 entradas cargado en runtime** desde `data/kiranico_item_translations.json` (no vive en `data/i18n.js` como los demás, es un archivo aparte por su tamaño). Antes de cualquier lookup de material pasa por `normalizeMaterialKey()` (`data/i18n.js`), que además de limpiar el formato ("Name +" → "Name+") aplica una pequeña tabla de alias (`MATERIAL_NAME_ALIASES`) para nombres que difieren entre fuentes (ej. "Volvidon Carapace" vs "Volvi Carapace" — ver sección 3.5 arriba para cómo se detectan estos casos). Cobertura ~97.5%, los materiales sin traducción muestran el nombre en inglés como fallback (mismo comportamiento silencioso que el patrón B).
+
+**Strings fijos de la interfaz** (botones, headers, placeholders, mensajes) son un cuarto caso, el más simple: `I18N.ui.es`/`I18N.ui.en` en `data/i18n.js`, accedidos vía `ui("clave")` en `app.js`. Antes de hardcodear un string nuevo en el código, agregarlo acá primero en los dos idiomas.
+
+**Regla práctica al agregar una sección nueva de datos:** si el registro se recolectó/scrapeó de a uno (con su propio texto largo por idioma, como una descripción), usar Patrón A (campos gemelos en el mismo JSON). Si es un término corto que se repite en cientos de registros (un elemento, un rango, una parte del cuerpo), usar Patrón B (diccionario aparte en `i18n.js` + función `trX()`).
+
 ## 4. Convenciones e instrucciones permanentes del usuario
 
 - **Nunca hacer `git push` sin confirmación explícita cada vez** ("quiero que subas push a github cuando te lo diga"). Commits sí se pueden hacer libremente con mensaje descriptivo.
