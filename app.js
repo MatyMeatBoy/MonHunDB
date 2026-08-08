@@ -319,6 +319,24 @@ async function init() {
         renderDecorationsIndex(decorationsSearchEl.value);
       }
     }
+    if (!weaponsViewEl.hidden) {
+      if (!weaponDetailEl.hidden) {
+        const params = new URLSearchParams(location.search);
+        const wId = params.get("w");
+        if (wId) showWeaponDetail(wId);
+      } else {
+        renderWeaponsIndex(weaponsSearchEl.value);
+      }
+    }
+    if (!armorViewEl.hidden) {
+      if (!armorSetDetailEl.hidden) {
+        const params = new URLSearchParams(location.search);
+        const setName = params.get("set");
+        if (setName) showArmorSetDetail(setName);
+      } else {
+        renderArmorIndex(armorSearchEl.value);
+      }
+    }
   });
 }
 
