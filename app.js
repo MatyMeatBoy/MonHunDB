@@ -1944,6 +1944,20 @@ function renderNewsSilhouettePreview() {
   }).join("");
 }
 
+// Per-row (not per-column) highlight for the 3 physical damage types: unlike
+// elements -- where "best" is judged once across the whole monster -- a
+// hunter picks a weapon type per body part, so the useful comparison is
+// "which of sever/blunt/projectile is highest for THIS part", row by row.
+function rankPhysicalCellsForRow(row) {
+  const vals = HITZONE_PHYSICAL_COLS.map(k => row[k] || 0);
+  const max = Math.max(...vals);
+  const classByKey = {};
+  if (max > 0) {
+    for (const k of HITZONE_PHYSICAL_COLS) if ((row[k] || 0) === max) classByKey[k] = "hz-best";
+  }
+  return classByKey;
+}
+
 function renderHitzones(container, hitzones) {
   if (!hitzones || !hitzones.length) {
     container.innerHTML = `<p class="no-data">${ui("noDataYet")}</p>`;
@@ -1958,7 +1972,11 @@ function renderHitzones(container, hitzones) {
 
   const theadCells = cols.map(c => `<th class="${colClass[c.key] || ""}">${hzStatIconTag(c.key)}${c.label}</th>`).join("");
   const bodyRows = hitzones.map(row => {
-    const cells = cols.map(c => `<td class="${colClass[c.key] || ""}">${row[c.key] ?? "—"}%</td>`).join("");
+    const physClass = rankPhysicalCellsForRow(row);
+    const cells = cols.map(c => {
+      const cls = HITZONE_PHYSICAL_COLS.includes(c.key) ? (physClass[c.key] || "") : (colClass[c.key] || "");
+      return `<td class="${cls}">${row[c.key] ?? "—"}%</td>`;
+    }).join("");
     return `<tr><td class="material-name">${trBodyPart(row.part)}</td>${cells}</tr>`;
   }).join("");
 
