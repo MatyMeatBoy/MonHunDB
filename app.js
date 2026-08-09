@@ -693,7 +693,7 @@ function coreArmorNameForGrouping(name) {
 // "Head Scarf") and normalizes Pukei-Pukei->Pukei (base/S). Result is the set
 // name alone (no part word), ready for display/grouping.
 const ARMOR_PART_WORDS = /^(Head|Mail|Vambraces|Braces|Armguards|Coil|Greaves|Garb|Obi|Leggings|Scarf|Crown|Robe|Sleeves|Hakama|Mask|Hat|Hood|Suit|Gloves|Skirt|Socks|Boots|Earrings|Cuirass|Belt|Faulds|Sash|Sandals|Vest|Helm|Cap|Shawl|Arms|Chest|Legs|Waist|Haori|Kote|Jersey|Shoes|Shirt|Pants|Cover|Tassets|Lobos|Patch|Headdress|Choker|Headgear|Hair-tie|Hair|Tie|Hope|Prayer)$/i;
-const ARMOR_SET_HIDDEN = new Set(["Swallow", "Sonic", "Floral", "Buff", "Buff Body", "Elgado"]);
+const ARMOR_SET_HIDDEN = new Set(["Swallow", "Sonic", "Floral", "Buff", "Buff Body", "Elgado", "Akuma's", "Arlow", "Azure", "Azure Age", "Blossom", "Dragonsbane", "Fall", "Fiorayne", "Formal Dragon", "Guild Cross", "Hinoa", "Kamura Cloak", "Lance Gunn", "Minoto", "Orion", "Ran Page", "Summer", "Wild"]);
 function armorSetPrefix(name) {
   // keep female variants (Spring)/(Light) as their own set — capture before
   // core() strips trailing "(text)"
