@@ -1,0 +1,80 @@
+Arzuros Apex
+
+Bestia de Colmillos
+
+ELEMENTO PRINCIPAL
+Ninguno
+DAÑO QUE INFLIGE
+ELEMENTOS
+Ninguno
+ESTADOS
+Ninguno
+RESISTENCIAS
+Agua
+INMUNE
+Dragón
+INMUNE
+DEBILIDADES ELEMENTALES
+Fuego
+★★★
+Hielo
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	50%	45%	35%	5%	0%	5%	5%	0%	100%
+Mitad superior	38%	38%	35%	15%	0%	10%	5%	0%	0%
+Pata delantera	45%	45%	30%	20%	0%	15%	10%	0%	0%
+Abdomen	38%	24%	26%	5%	0%	5%	16%	0%	0%
+Pata trasera	38%	24%	26%	5%	0%	5%	16%	0%	0%
+Trasero	30%	40%	30%	12%	0%	5%	20%	0%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Garra Apex	—	7%	—	80% (Pata delantera)	8% (Cuerpo)	—
+
+Coraza de Arzuros	—	36%	—	—	28% (Cuerpo)	60%
+
+Piel de Arzuros+	—	27%	—	20% (Pata delantera)	47% (Cuerpo)	40%
+
+Hueso robusto	—	14%	—	—	47% (Cuerpo)	40%
+
+Miel	—	10% [x6]	—	—	—	100% [x3]
+
+Gema bestial	—	6%	—	—	4% (Cuerpo)	—
+
+Pez sushi	—	—	—	—	—	80%
+
+Pez dorado	—	—	—	—	—	20%
+ZONAS DE APARICIÓN
+Templo Olvidado
+Bosque Inundado
+Fuente Infernal
+Fortaleza (Asalto)

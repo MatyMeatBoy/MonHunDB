@@ -1,0 +1,91 @@
+Seregios
+
+Wyvern Volador
+
+ELEMENTO PRINCIPAL
+Ninguno
+DAÑO QUE INFLIGE
+ELEMENTOS
+Ninguno
+ESTADOS
+Sangrado
+RESISTENCIAS
+Fuego
+INMUNE
+Dragón
+RESISTENTE
+Agua
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Rayo
+★★★
+Hielo
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	55%	60%	45%	0%	10%	20%	15%	5%	100%
+Cuello	35%	40%	30%	0%	5%	15%	10%	5%	0%
+Abdomen	35%	35%	25%	0%	5%	10%	5%	5%	0%
+Espalda	30%	30%	20%	0%	5%	10%	5%	5%	0%
+Ala-brazo	30%	30%	20%	0%	5%	25%	5%	5%	0%
+Ala	35%	35%	25%	0%	5%	20%	10%	5%	0%
+Pata	50%	45%	45%	0%	10%	20%	15%	5%	0%
+Cola	40%	35%	35%	0%	5%	15%	10%	5%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Esclascama Seregios+	—	21%	23%	17% (Cabeza)	32% (Cuerpo), 12% (Cola)	16%, 30%
+
+Filo de Seregios+	—	35%	33%	10% (Ala)	24% (Cuerpo), 10% (Cola)	33%, 55%
+
+Cortador Seregios+	—	18%	10%	70% (Pata), 30% (x2) (Pata)	21% (Cuerpo)	15%
+
+Arañadora Seregios+	—	15%	21%	70% (Ala), 20% (x2) (Ala)	10% (Cuerpo)	—
+
+Empaladora Seregios+	—	8%	10%	—	75% (Cola)	—
+
+Lente de Seregios	—	3%	3%	3% (Cabeza)	3% (Cola)	1%
+
+Fisurador Seregios+	—	—	—	80% (Cabeza)	12% (Cuerpo)	—
+
+Lágrima de wyvern grande	—	—	—	—	—	50%
+
+Cuerno aciago afligido	—	—	—	40% (Misiones de Anomalía, Nvl. 51-100)	40% (Misiones de Anomalía, Nvl. 51-100)	—
+
+Cuerno aciago afligido+	—	—	—	40% (Misiones de Anomalía, Nvl. 101-160)	40% (Misiones de Anomalía, Nvl. 101-160)	—
+
+Asta aciaga afligida	—	—	—	40% (Misiones de Anomalía, Nvl. 161+)	40% (Misiones de Anomalía, Nvl. 161+)	—
+ZONAS DE APARICIÓN
+Templo Olvidado
+Llanos Arenosos
+Bastión
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Regios Set

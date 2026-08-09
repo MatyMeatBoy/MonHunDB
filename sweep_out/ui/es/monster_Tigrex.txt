@@ -1,0 +1,89 @@
+Tigrex
+
+Wyvern Volador
+
+ELEMENTO PRINCIPAL
+Fuego
+Hielo
+Agua
+DAÑO QUE INFLIGE
+ELEMENTOS
+Fuego
+Hielo
+Agua
+ESTADOS
+Plaga de hielo
+RESISTENCIAS
+Fuego
+RESISTENTE
+Hielo
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Rayo
+★★★
+Dragón
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	65%	70%	55%	0%	10%	25%	5%	15%	100%
+Pata delantera	50%	45%	35%	0%	15%	20%	10%	5%	0%
+Abdomen	30%	30%	20%	10%	10%	15%	5%	15%	0%
+Espalda	25%	25%	20%	0%	5%	15%	5%	15%	0%
+Pata trasera	30%	30%	25%	0%	5%	15%	0%	10%	0%
+Base de la cola	40%	35%	30%	0%	5%	10%	0%	5%	0%
+Cola	45%	35%	30%	0%	5%	10%	0%	15%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Bajo
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Caparazón de Tigrex	—	15%	37%	28% (Cabeza)	20% (Cuerpo)	30%
+
+Escama de Tigrex	—	33%	18%	20% (Garra)	45% (Cuerpo), 20% (Cola)	40% (x1), 50% (x1)
+
+Garra de Tigrex	—	21%	—	80% (x2) (Garra)	32% (Cuerpo)	10% (x1), 20% (x1)
+
+Colmillo de Tigrex	—	17%	28%	60% (x2) (Cabeza)	—	—
+
+Cola de Tigrex	—	9%	12%	—	80% (Cola)	—
+
+Pellejo de Tigrex	—	5%	5%	12% (Cabeza)	3% (Cuerpo)	—
+
+Lágrima de wyvern	—	—	—	—	—	50%
+ZONAS DE APARICIÓN
+Islas Heladas
+Llanos Arenosos
+Grutas de Lava
+Bastión
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Tigrex Set
+Tigrex S Set
+Tigrex X Set

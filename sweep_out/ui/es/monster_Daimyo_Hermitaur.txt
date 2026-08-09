@@ -1,0 +1,86 @@
+Daimyo Hermitaur
+
+Carapaceon
+
+ELEMENTO PRINCIPAL
+Agua
+DAÑO QUE INFLIGE
+ELEMENTOS
+Agua
+ESTADOS
+Plaga de agua
+RESISTENCIAS
+Dragón
+INMUNE
+Agua
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Rayo
+DÉBIL
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	50%	60%	45%	30%	10%	35%	20%	0%	100%
+Torso	40%	50%	30%	15%	5%	20%	10%	0%	0%
+Caparazón	22%	40%	25%	20%	5%	25%	10%	0%	0%
+Garra derecha	25%	30%	15%	35%	5%	20%	10%	0%	0%
+Pata derecha	35%	40%	30%	15%	5%	15%	10%	0%	0%
+Garra izquierda	25%	30%	15%	35%	5%	20%	10%	0%	0%
+Pata izquierda	35%	40%	30%	15%	5%	15%	10%	0%	0%
+Brazo	40%	45%	30%	15%	5%	15%	10%	0%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Córtex de Hermitaur	—	32%	45%	—	45% (Cuerpo)	80%[x1], 20%[x2]
+
+Garfa de Hermitaur	—	43%	22%	70%[x2] (Garra), 30%[x1] (Garra)	33% (Cuerpo)	—
+
+Hueso escudo	—	15%[x2]	8%[x2]	10%[x2] (Caparazón)	12% (Cuerpo)	—
+
+Perla negra gigante	—	10%	15%	—	10% (Cuerpo)	20%
+
+Cuerno carm. gastado	—	—	10%	90% (Caparazón)	—	—
+
+Perla de cangrejo+	—	—	—	—	—	80%
+
+Sangre afligida	—	—	—	20% (Misiones de Anomalía, Nvl. 11-30)	20% (Misiones de Anomalía, Nvl. 11-30)	—
+
+Sangre dragón afligido	—	—	—	40% (Misiones de Anomalía, Nvl. 31-100)	40% (Misiones de Anomalía, Nvl. 31-100)	—
+
+Sangre afligida pura	—	—	—	40% (Misiones de Anomalía, Nvl. 101+)	40% (Misiones de Anomalía, Nvl. 101+)	—
+ZONAS DE APARICIÓN
+Bosque Inundado
+Templo Olvidado
+Llanos Arenosos
+La Jungla
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Channeler's S Set
+Brigade S Set
+Hermitaur Set

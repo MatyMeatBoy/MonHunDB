@@ -1,0 +1,99 @@
+Barioth
+
+Wyvern Volador
+
+ELEMENTO PRINCIPAL
+Hielo
+DAÑO QUE INFLIGE
+ELEMENTOS
+Hielo
+ESTADOS
+Plaga de hielo
+RESISTENCIAS
+Hielo
+INMUNE
+Agua
+RESISTENTE
+Dragón
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Fuego
+★★★
+Rayo
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	65%	70%	55%	20%	10%	15%	0%	15%	100%
+Cuello/Espalda	30%	30%	25%	5%	5%	5%	0%	5%	0%
+Pata delantera	40%	45%	35%	15%	0%	10%	0%	5%	0%
+Espinas	25%	35%	25%	30%	5%	25%	0%	10%	0%
+Abdomen	38%	38%	25%	10%	0%	5%	0%	5%	0%
+Ala	30%	45%	20%	10%	0%	5%	0%	5%	0%
+Pata trasera	30%	30%	25%	5%	5%	5%	0%	5%	0%
+Cola	45%	23%	45%	10%	0%	5%	0%	5%	0%
+Punta de la cola	60%	40%	40%	15%	0%	10%	0%	5%	0%
+Tipo de daño:
+Corte
+Contundente
+Disparo
+Fuego
+Agua
+Rayo
+Hielo
+Dragón
+Aturdimiento
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Bajo
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Caparazón de Barioth	—	21%	—	25% (Cabeza)	40% (Cuerpo), 10% (Cola)	30%, 50%
+
+Piel de Barioth	—	33%	31%	—	25% (Cuerpo)	35%
+
+Garra de Barioth	—	9%	17%	75% (Espinas)	—	10%
+
+Púa de Barioth	—	13%	9%	25% (Espinas)	20% (Cola)	10%, 15%
+
+Cola de Barioth	—	8%	16%	—	70% (Cola)	—
+
+Vesícula de nieve	—	16%	14% [x2]	—	20% (Cuerpo)	—
+
+Colmillo ámbar	—	—	13%	75% (Cabeza)	15% (Cuerpo)	—
+
+Lágrima de wyvern	—	—	—	—	—	50%
+ZONAS DE APARICIÓN
+Islas Heladas
+Bastión
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Barioth Set
+Barioth S Set
+Barioth X Set

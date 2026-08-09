@@ -1,0 +1,306 @@
+{
+  "Breath Jewel 3": {
+    "skill": "Quick Breath",
+    "fill": {
+      "nameEs": "Respiración rápida",
+      "effectEs": "Activar efecto",
+      "fromSkill": "PlayerSkill_221"
+    }
+  },
+  "Bladescale Jewel 2": {
+    "skill": "Bladescale Hone",
+    "fill": {
+      "nameEs": "Filoescama afilada",
+      "effectEs": "Activo el 50 % de las veces.",
+      "fromSkill": "PlayerSkill_216"
+    }
+  },
+  "Redirection Jewel 3": {
+    "skill": "Redirection",
+    "fill": {
+      "nameEs": "Redirección",
+      "effectEs": "Activar efecto",
+      "fromSkill": "PlayerSkill_210"
+    }
+  },
+  "Flywall Jewel 1": {
+    "skill": "Wall Runner (Boost)",
+    "fill": {
+      "nameEs": "Correparedes (impulso)",
+      "effectEs": "Activar efecto",
+      "fromSkill": "PlayerSkill_217"
+    }
+  },
+  "Hard Sniper Jewel 4": {
+    "skill": "Steadiness",
+    "fill": {
+      "nameEs": "Estabilidad",
+      "effectEs": "Desvío -1.",
+      "fromSkill": "PlayerSkill_053"
+    }
+  },
+  "Charge Jewel 2": {
+    "skill": "Charge Master",
+    "fill": {
+      "nameEs": "Maestro de cargas",
+      "effectEs": "Mientras está activo, aumenta un poco el daño elemental y los efectos de estado.",
+      "fromSkill": "PlayerSkill_212"
+    }
+  },
+  "Foil Jewel 3": {
+    "skill": "Tune-Up",
+    "fill": {
+      "nameEs": "Puesta a punto",
+      "effectEs": "Aumenta los atributos del silenciador y del escudo. Si no estás usando ninguno, velocidad de recarga +1.",
+      "fromSkill": "PlayerSkill_214"
+    }
+  },
+  "Spiribird's Call Jewel 1": {
+    "skill": "Spiribird's Call",
+    "fill": {
+      "nameEs": "Llamada del animave",
+      "effectEs": "Activar efecto",
+      "fromSkill": "PlayerSkill_211"
+    }
+  },
+  "Polisher Pro Jewel 3": {
+    "skill": "Grinder (S)",
+    "fill": {
+      "nameEs": "Amolador (S)",
+      "effectEs": "Se activa el efecto durante 60 segundos cuando el afilado recupere 3 niveles.",
+      "fromSkill": "PlayerSkill_215"
+    }
+  },
+  "Phoenix Jewel 2": {
+    "skill": "Coalescence",
+    "fill": {
+      "nameEs": "Coalescencia",
+      "effectEs": "Mientras está activo, aumenta el ataque +12, los ataques elementales +2 y los efectos de estado un +5 %.",
+      "fromSkill": "PlayerSkill_204"
+    }
+  },
+  "Foray Jewel 2": {
+    "skill": "Foray",
+    "fill": {
+      "nameEs": "Irrupción",
+      "effectEs": "Mientras está activo, aumenta el poder de ataque +10.",
+      "fromSkill": "PlayerSkill_213"
+    }
+  },
+  "Chain Jewel 2": {
+    "skill": "Burst",
+    "fill": {
+      "nameEs": "Ráfaga",
+      "effectEs": "Si un ataque acierta, ATQ +5 y elem. +5 temporalmente. Golpea 5 veces seguidas para bonus adicionales.",
+      "fromSkill": "PlayerSkill_219"
+    }
+  },
+  "Phoenix Jewel+ 4": {
+    "skill": "Coalescence",
+    "fill": {
+      "nameEs": "Coalescencia",
+      "effectEs": "Mientras está activo, aumenta el ataque +12, los ataques elementales +2 y los efectos de estado un +5 %.",
+      "fromSkill": "PlayerSkill_204"
+    }
+  },
+  "Redirection Jewel+ 4": {
+    "skill": "Redirection",
+    "fill": {
+      "nameEs": "Redirección",
+      "effectEs": "Activar efecto",
+      "fromSkill": "PlayerSkill_210"
+    }
+  },
+  "Polisher Pro Jewel+ 4": {
+    "skill": "Grinder (S)",
+    "fill": {
+      "nameEs": "Amolador (S)",
+      "effectEs": "Se activa el efecto durante 60 segundos cuando el afilado recupere 3 niveles.",
+      "fromSkill": "PlayerSkill_215"
+    }
+  },
+  "Charge Jewel+ 4": {
+    "skill": "Charge Master",
+    "fill": {
+      "nameEs": "Maestro de cargas",
+      "effectEs": "Mientras está activo, aumenta un poco el daño elemental y los efectos de estado.",
+      "fromSkill": "PlayerSkill_212"
+    }
+  },
+  "Element Exploit Jewel 2": {
+    "skill": "Element Exploit",
+    "fill": {
+      "nameEs": "Aprovechar elemento",
+      "effectEs": "Los ataques a puntos débiles infligen un 10 % más de daño elemental.",
+      "fromSkill": "PlayerSkill_218"
+    }
+  },
+  "Backstab Jewel 2": {
+    "skill": "Sneak Attack",
+    "fill": {
+      "nameEs": "Ataque sigiloso",
+      "effectEs": "Mientras está activo, aumenta el poder de ataque un 5 %.",
+      "fromSkill": "PlayerSkill_207"
+    }
+  },
+  "Counterattack Jewel 2": {
+    "skill": "Adrenaline Rush",
+    "fill": {
+      "nameEs": "Subida de adrenalina",
+      "effectEs": "Mientras está activo, aumenta el poder de ataque +10 temporalmente.",
+      "fromSkill": "PlayerSkill_208"
+    }
+  },
+  "Foil Jewel+ 4": {
+    "skill": "Tune-Up",
+    "fill": {
+      "nameEs": "Puesta a punto",
+      "effectEs": "Aumenta los atributos del silenciador y del escudo. Si no estás usando ninguno, velocidad de recarga +1.",
+      "fromSkill": "PlayerSkill_214"
+    }
+  },
+  "Bloodening Jewel 3": {
+    "skill": "Blood Rite",
+    "fill": {
+      "nameEs": "Rito sangriento",
+      "effectEs": "Activar efecto",
+      "fromSkill": "PlayerSkill_200"
+    }
+  },
+  "Embolden Jewel 2": {
+    "skill": "Embolden",
+    "fill": {
+      "nameEs": "Enardecer",
+      "effectEs": "Mientras está activo, DEF +10, prolonga un poco inmunidad para esquivar y reduce un poco impactos al bloquear.",
+      "fromSkill": "PlayerSkill_209"
+    }
+  },
+  "Element Exploit Jewel+ 4": {
+    "skill": "Element Exploit",
+    "fill": {
+      "nameEs": "Aprovechar elemento",
+      "effectEs": "Los ataques a puntos débiles infligen un 10 % más de daño elemental.",
+      "fromSkill": "PlayerSkill_218"
+    }
+  },
+  "Intrepid Jewel 1": {
+    "skill": "Intrepid Heart",
+    "fill": {
+      "nameEs": "Corazón intrépido",
+      "effectEs": "Activar efecto",
+      "fromSkill": "PlayerSkill_223"
+    }
+  },
+  "Hard Cornerstone Jewel 4": {
+    "skill": "Defiance",
+    "fill": {
+      "nameEs": "Rebeldía",
+      "effectEs": "Mientras está activo, anula el efecto de los rugidos, las ráfagas de viento y los temblores más débiles.",
+      "fromSkill": "PlayerSkill_206"
+    }
+  },
+  "Backstab Jewel+ 4": {
+    "skill": "Sneak Attack",
+    "fill": {
+      "nameEs": "Ataque sigiloso",
+      "effectEs": "Mientras está activo, aumenta el poder de ataque un 5 %.",
+      "fromSkill": "PlayerSkill_207"
+    }
+  },
+  "Foray Jewel+ 4": {
+    "skill": "Foray",
+    "fill": {
+      "nameEs": "Irrupción",
+      "effectEs": "Mientras está activo, aumenta el poder de ataque +10.",
+      "fromSkill": "PlayerSkill_213"
+    }
+  },
+  "Counterattack Jewel+ 4": {
+    "skill": "Adrenaline Rush",
+    "fill": {
+      "nameEs": "Subida de adrenalina",
+      "effectEs": "Mientras está activo, aumenta el poder de ataque +10 temporalmente.",
+      "fromSkill": "PlayerSkill_208"
+    }
+  },
+  "Trigger Jewel 3": {
+    "skill": "Status Trigger",
+    "fill": {
+      "nameEs": "Activa estados",
+      "effectEs": "Sus efectos duran 5 segundos cuando está activo.",
+      "fromSkill": "PlayerSkill_222"
+    }
+  },
+  "Chain Jewel+ 4": {
+    "skill": "Burst",
+    "fill": {
+      "nameEs": "Ráfaga",
+      "effectEs": "Si un ataque acierta, ATQ +5 y elem. +5 temporalmente. Golpea 5 veces seguidas para bonus adicionales.",
+      "fromSkill": "PlayerSkill_219"
+    }
+  },
+  "Shockproof Jewel 1": {
+    "skill": "Shock Absorber",
+    "fill": {
+      "nameEs": "Absorbedescargas",
+      "effectEs": "Activar efecto",
+      "fromSkill": "PlayerSkill_234"
+    }
+  },
+  "Bladescale Jewel+ 4": {
+    "skill": "Bladescale Hone",
+    "fill": {
+      "nameEs": "Filoescama afilada",
+      "effectEs": "Activo el 50 % de las veces.",
+      "fromSkill": "PlayerSkill_216"
+    }
+  },
+  "Bloodlust Jewel 4": {
+    "skill": "Bloodlust",
+    "fill": {
+      "nameEs": "Afán de sangre",
+      "effectEs": "Con infección: ATQ+, esquiva+ y reduce consumo resistencia. Tras recuperación: restaura barra vitalidad roja y afinidad+.",
+      "fromSkill": "PlayerSkill_205"
+    }
+  },
+  "Embolden Jewel+ 4": {
+    "skill": "Embolden",
+    "fill": {
+      "nameEs": "Enardecer",
+      "effectEs": "Mientras está activo, DEF +10, prolonga un poco inmunidad para esquivar y reduce un poco impactos al bloquear.",
+      "fromSkill": "PlayerSkill_209"
+    }
+  },
+  "Intrepid Jewel+ 3": {
+    "skill": "Intrepid Heart",
+    "fill": {
+      "nameEs": "Corazón intrépido",
+      "effectEs": "Activar efecto",
+      "fromSkill": "PlayerSkill_223"
+    }
+  },
+  "Trigger Jewel+ 4": {
+    "skill": "Status Trigger",
+    "fill": {
+      "nameEs": "Activa estados",
+      "effectEs": "Sus efectos duran 5 segundos cuando está activo.",
+      "fromSkill": "PlayerSkill_222"
+    }
+  },
+  "Inspiration Jewel 1": {
+    "skill": "Inspiration",
+    "fill": {
+      "nameEs": "Inspiración",
+      "effectEs": "Activar efecto",
+      "fromSkill": "PlayerSkill_235"
+    }
+  },
+  "Bloodening Jewel+ 4": {
+    "skill": "Blood Rite",
+    "fill": {
+      "nameEs": "Rito sangriento",
+      "effectEs": "Activar efecto",
+      "fromSkill": "PlayerSkill_200"
+    }
+  }
+}

@@ -1,0 +1,1473 @@
+{
+  "issues": [
+    {
+      "cat": "monsterNames",
+      "entry": "Aknosom",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Almudron",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Amatsu",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Anjanath",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Arzuros",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Astalos",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Barioth",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Barroth",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Basarios",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Bazelgeuse",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Bishaten",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Chameleos",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Daimyo Hermitaur",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Diablos",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Espinas",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Gaismagorm",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Garangolm",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Gore Magala",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Goss Harag",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Jyuratodus",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Khezu",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Kulu-Ya-Ku",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Kushala Daora",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Lagombi",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Lunagaron",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Magnamalo",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Malzeno",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Mizutsune",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Nargacuga",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Pukei-Pukei",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Rajang",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Rakna-Kadaki",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Rathalos",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Rathian",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Seregios",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Shagaru Magala",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Shogun Ceanataur",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Somnacanth",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Teostra",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Tetranadon",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Tigrex",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Tobi-Kadachi",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Velkhana",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Volvidon",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Zinogre",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Altaroth",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Anteka",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Baggi",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Bnahabra",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Boggi",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Bombadgy",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Bullfango",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Ceanataur",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Delex",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Felyne",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Gajau",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Gargwa",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Hermitaur",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Hornetaur",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Izuchi",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Jaggi",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Jaggia",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Jagras",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Kelbi",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Kestodon",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Ludroth",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Melynx",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Popo",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Pyrantula",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Rachnoid",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Remobra",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Rhenoplos",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Slagtoth",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Uroktor",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Velociprey",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Vespoid",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Wroggi",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "monsterNames",
+      "entry": "Zamite",
+      "note": "usado y sin entrada en I18N.monsterNames (cae a inglés en modo ES)"
+    },
+    {
+      "cat": "ailments",
+      "entry": "poison",
+      "note": "sin entrada en I18N.ailments"
+    },
+    {
+      "cat": "ailments",
+      "entry": "stun",
+      "note": "sin entrada en I18N.ailments"
+    },
+    {
+      "cat": "ailments",
+      "entry": "paralysis",
+      "note": "sin entrada en I18N.ailments"
+    },
+    {
+      "cat": "ailments",
+      "entry": "sleep",
+      "note": "sin entrada en I18N.ailments"
+    },
+    {
+      "cat": "ailments",
+      "entry": "blast",
+      "note": "sin entrada en I18N.ailments"
+    },
+    {
+      "cat": "ailments",
+      "entry": "exhaust",
+      "note": "sin entrada en I18N.ailments"
+    },
+    {
+      "cat": "ailments",
+      "entry": "fireblight",
+      "note": "sin entrada en I18N.ailments"
+    },
+    {
+      "cat": "ailments",
+      "entry": "waterblight",
+      "note": "sin entrada en I18N.ailments"
+    },
+    {
+      "cat": "ailments",
+      "entry": "thunderblight",
+      "note": "sin entrada en I18N.ailments"
+    },
+    {
+      "cat": "ailments",
+      "entry": "iceblight",
+      "note": "sin entrada en I18N.ailments"
+    },
+    {
+      "cat": "bodyParts",
+      "entry": "Cuerpo",
+      "note": "parte de hitzone sin entrada"
+    },
+    {
+      "cat": "bodyParts",
+      "entry": "Cabeza",
+      "note": "parte de hitzone sin entrada"
+    },
+    {
+      "cat": "bodyParts",
+      "entry": "A:肉質_頭",
+      "note": "parte de hitzone sin entrada"
+    },
+    {
+      "cat": "bodyParts",
+      "entry": "B:肉質_胴",
+      "note": "parte de hitzone sin entrada"
+    },
+    {
+      "cat": "bodyParts",
+      "entry": "Cuerno",
+      "note": "parte de hitzone sin entrada"
+    },
+    {
+      "cat": "bodyParts",
+      "entry": "Cola",
+      "note": "parte de hitzone sin entrada"
+    },
+    {
+      "cat": "bodyParts",
+      "entry": "B : 糸",
+      "note": "parte de hitzone sin entrada"
+    },
+    {
+      "cat": "bodyParts",
+      "entry": "Ala",
+      "note": "parte de hitzone sin entrada"
+    },
+    {
+      "cat": "bodyParts",
+      "entry": "x2",
+      "note": "token de materiales sin entrada"
+    },
+    {
+      "cat": "bodyParts",
+      "entry": "x3",
+      "note": "token de materiales sin entrada"
+    },
+    {
+      "cat": "bodyParts",
+      "entry": "x1",
+      "note": "token de materiales sin entrada"
+    },
+    {
+      "cat": "materials",
+      "entry": "Volvi Carapace",
+      "note": "material sin traducción ES en kiranico_item_translations.json"
+    },
+    {
+      "cat": "materials",
+      "entry": "Magna Soulprism+",
+      "note": "material sin traducción ES en kiranico_item_translations.json"
+    },
+    {
+      "cat": "materials",
+      "entry": "Volvi Rickrack",
+      "note": "material sin traducción ES en kiranico_item_translations.json"
+    },
+    {
+      "cat": "materials",
+      "entry": "Somnacanth Talon",
+      "note": "material sin traducción ES en kiranico_item_translations.json"
+    },
+    {
+      "cat": "materials",
+      "entry": "Somnacanth Talon+",
+      "note": "material sin traducción ES en kiranico_item_translations.json"
+    },
+    {
+      "cat": "materialsDict",
+      "entry": "ver materialsSelfMatch",
+      "note": "4 entradas con ES idéntico a EN"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Breath Jewel 3",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Bladescale Jewel 2",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Redirection Jewel 3",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Flywall Jewel 1",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Hard Sniper Jewel 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Charge Jewel 2",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Foil Jewel 3",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Spiribird's Call Jewel 1",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Polisher Pro Jewel 3",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Phoenix Jewel 2",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Foray Jewel 2",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Chain Jewel 2",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Phoenix Jewel+ 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Redirection Jewel+ 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Polisher Pro Jewel+ 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Charge Jewel+ 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Element Exploit Jewel 2",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Backstab Jewel 2",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Counterattack Jewel 2",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Foil Jewel+ 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Bloodening Jewel 3",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Embolden Jewel 2",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Element Exploit Jewel+ 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Intrepid Jewel 1",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Hard Cornerstone Jewel 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Backstab Jewel+ 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Foray Jewel+ 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Counterattack Jewel+ 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Trigger Jewel 3",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Chain Jewel+ 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Shockproof Jewel 1",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Bladescale Jewel+ 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Bloodlust Jewel 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Embolden Jewel+ 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Intrepid Jewel+ 3",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Trigger Jewel+ 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Inspiration Jewel 1",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "decorations_inline",
+      "entry": "Bloodening Jewel+ 4",
+      "note": "campos faltantes: skills.nameEs/effectEs"
+    },
+    {
+      "cat": "ui",
+      "entry": "susceptible",
+      "note": "valor ES en inglés: \"Susceptible\""
+    },
+    {
+      "cat": "ui",
+      "entry": "colMaterial",
+      "note": "valor ES en inglés: \"Material\""
+    },
+    {
+      "cat": "ui",
+      "entry": "gsDecorationsSection",
+      "note": "valor ES en inglés: \"Decorations\""
+    },
+    {
+      "cat": "ui",
+      "entry": "newsV03Tag",
+      "note": "valor ES en inglés: \"v0.3 Alpha\""
+    },
+    {
+      "cat": "ui",
+      "entry": "armorRankMaster",
+      "note": "valor ES en inglés: \"Master Rank\""
+    },
+    {
+      "cat": "ui",
+      "entry": "armorRankHigh",
+      "note": "valor ES en inglés: \"High Rank\""
+    },
+    {
+      "cat": "ui",
+      "entry": "armorRankLow",
+      "note": "valor ES en inglés: \"Low Rank\""
+    }
+  ],
+  "reports": {
+    "monsterNames": {
+      "used": [
+        "Aknosom",
+        "Almudron",
+        "Amatsu",
+        "Anjanath",
+        "Apex Arzuros",
+        "Apex Diablos",
+        "Apex Mizutsune",
+        "Apex Rathalos",
+        "Apex Rathian",
+        "Apex Zinogre",
+        "Arzuros",
+        "Astalos",
+        "Aurora Somnacanth",
+        "Barioth",
+        "Barroth",
+        "Basarios",
+        "Bazelgeuse",
+        "Bishaten",
+        "Blood Orange Bishaten",
+        "Chameleos",
+        "Chaotic Gore Magala",
+        "Crimson Glow Valstrax",
+        "Daimyo Hermitaur",
+        "Diablos",
+        "Espinas",
+        "Flaming Espinas",
+        "Furious Rajang",
+        "Gaismagorm",
+        "Garangolm",
+        "Gold Rathian",
+        "Gore Magala",
+        "Goss Harag",
+        "Great Baggi",
+        "Great Izuchi",
+        "Great Wroggi",
+        "Jyuratodus",
+        "Khezu",
+        "Kulu-Ya-Ku",
+        "Kushala Daora",
+        "Lagombi",
+        "Lucent Nargacuga",
+        "Lunagaron",
+        "Magma Almudron",
+        "Magnamalo",
+        "Malzeno",
+        "Mizutsune",
+        "Nargacuga",
+        "Narwa the Allmother",
+        "Primordial Malzeno",
+        "Pukei-Pukei",
+        "Pyre Rakna-Kadaki",
+        "Rajang",
+        "Rakna-Kadaki",
+        "Rathalos",
+        "Rathian",
+        "Risen Chameleos",
+        "Risen Crimson Glow Valstrax",
+        "Risen Kushala Daora",
+        "Risen Shagaru Magala",
+        "Risen Teostra",
+        "Royal Ludroth",
+        "Scorned Magnamalo",
+        "Seething Bazelgeuse",
+        "Seregios",
+        "Shagaru Magala",
+        "Shogun Ceanataur",
+        "Silver Rathalos",
+        "Somnacanth",
+        "Teostra",
+        "Tetranadon",
+        "Thunder Serpent Narwa",
+        "Tigrex",
+        "Tobi-Kadachi",
+        "Velkhana",
+        "Violet Mizutsune",
+        "Volvidon",
+        "Wind Serpent Ibushi",
+        "Zinogre",
+        "Altaroth",
+        "Anteka",
+        "Baggi",
+        "Bnahabra",
+        "Boggi",
+        "Bombadgy",
+        "Bullfango",
+        "Gowngoat",
+        "Ceanataur",
+        "Delex",
+        "Felyne",
+        "Gajau",
+        "Gargwa",
+        "Hermitaur",
+        "Hornetaur",
+        "Izuchi",
+        "Jaggi",
+        "Jaggia",
+        "Jagras",
+        "Kelbi",
+        "Kestodon",
+        "Ludroth",
+        "Melynx",
+        "Popo",
+        "Pyrantula",
+        "Rachnoid",
+        "Remobra",
+        "Rhenoplos",
+        "Slagtoth",
+        "Uroktor",
+        "Velociprey",
+        "Vespoid",
+        "Wroggi",
+        "Zamite"
+      ],
+      "missingFromDict": [
+        "Aknosom",
+        "Almudron",
+        "Amatsu",
+        "Anjanath",
+        "Arzuros",
+        "Astalos",
+        "Barioth",
+        "Barroth",
+        "Basarios",
+        "Bazelgeuse",
+        "Bishaten",
+        "Chameleos",
+        "Daimyo Hermitaur",
+        "Diablos",
+        "Espinas",
+        "Gaismagorm",
+        "Garangolm",
+        "Gore Magala",
+        "Goss Harag",
+        "Jyuratodus",
+        "Khezu",
+        "Kulu-Ya-Ku",
+        "Kushala Daora",
+        "Lagombi",
+        "Lunagaron",
+        "Magnamalo",
+        "Malzeno",
+        "Mizutsune",
+        "Nargacuga",
+        "Pukei-Pukei",
+        "Rajang",
+        "Rakna-Kadaki",
+        "Rathalos",
+        "Rathian",
+        "Seregios",
+        "Shagaru Magala",
+        "Shogun Ceanataur",
+        "Somnacanth",
+        "Teostra",
+        "Tetranadon",
+        "Tigrex",
+        "Tobi-Kadachi",
+        "Velkhana",
+        "Volvidon",
+        "Zinogre",
+        "Altaroth",
+        "Anteka",
+        "Baggi",
+        "Bnahabra",
+        "Boggi",
+        "Bombadgy",
+        "Bullfango",
+        "Ceanataur",
+        "Delex",
+        "Felyne",
+        "Gajau",
+        "Gargwa",
+        "Hermitaur",
+        "Hornetaur",
+        "Izuchi",
+        "Jaggi",
+        "Jaggia",
+        "Jagras",
+        "Kelbi",
+        "Kestodon",
+        "Ludroth",
+        "Melynx",
+        "Popo",
+        "Pyrantula",
+        "Rachnoid",
+        "Remobra",
+        "Rhenoplos",
+        "Slagtoth",
+        "Uroktor",
+        "Velociprey",
+        "Vespoid",
+        "Wroggi",
+        "Zamite"
+      ],
+      "identicalES": [],
+      "totalEntries": 34
+    },
+    "species": {
+      "used": [
+        "Bird Wyvern",
+        "Leviathan",
+        "Elder Dragon",
+        "Brute Wyvern",
+        "Fanged Beast",
+        "Flying Wyvern",
+        "Fanged Wyvern",
+        "Unknown",
+        "Carapaceon",
+        "Piscine Wyvern",
+        "Temnoceran",
+        "Amphibian",
+        "Neopteron",
+        "Herbivore",
+        "Lynian",
+        "Fish",
+        "Snake Wyvern"
+      ],
+      "missingFromDict": [],
+      "identicalES": [
+        "Carapaceon",
+        "Temnoceran"
+      ],
+      "totalEntries": 17
+    },
+    "locations": {
+      "used": [
+        "Shrine Ruins",
+        "Frost Islands",
+        "The Jungle",
+        "Sandy Plains",
+        "Flooded Forest",
+        "Infernal Springs",
+        "Lava Caverns",
+        "The Citadel",
+        "Red Stronghold (Rampage)",
+        "Red Stronghold",
+        "Jungle",
+        "Citadel",
+        "Forlorn Arena",
+        "Coral Palace",
+        "Rampage",
+        "The Allmother"
+      ],
+      "missingFromDict": [],
+      "identicalES": [],
+      "totalEntries": 16
+    },
+    "ailmentsUsed": [
+      "Poison",
+      "Sleep",
+      "Paralysis",
+      "Blast",
+      "Stun",
+      "Exhaust",
+      "Fireblight",
+      "Waterblight",
+      "Thunderblight",
+      "Iceblight",
+      "poison",
+      "stun",
+      "paralysis",
+      "sleep",
+      "blast",
+      "exhaust",
+      "fireblight",
+      "waterblight",
+      "thunderblight",
+      "iceblight",
+      "Bubble",
+      "Venom",
+      "Frenzy Virus",
+      "Dragonblight",
+      "Defense Down",
+      "Blastblight",
+      "Bloodblight",
+      "Hellfireblight",
+      "Webbed",
+      "Bleeding",
+      "Bleed",
+      "Stench"
+    ],
+    "hitzonePartsUsed": [
+      "Head",
+      "Crest",
+      "Neck",
+      "Torso",
+      "Wing",
+      "Leg",
+      "Tail",
+      "Tail Tip",
+      "Foreleg",
+      "Abdomen",
+      "Back",
+      "Hind Leg",
+      "Snout",
+      "Upper Half",
+      "Rear",
+      "Horn",
+      "Left Claw",
+      "Right Claw",
+      "Dorsol Fin",
+      "Hip",
+      "Abdomen/Hind Leg",
+      "Head Fin",
+      "Neck/Back",
+      "Thorns",
+      "Lower Neck",
+      "Lower Tail",
+      "Forleg",
+      "Left Wingarm",
+      "Right Wingarm",
+      "Antenna",
+      "Chest",
+      "Wingarm",
+      "Shell",
+      "Right Leg",
+      "Left Leg",
+      "Arm",
+      "Left Arm",
+      "Right Arm",
+      "Ice Clump",
+      "Body",
+      "Fin",
+      "Cutwing",
+      "Armblade",
+      "Tailblade",
+      "Dorsal Fin",
+      "Chest (Charged)",
+      "Wingarm (Charged)",
+      "Abdomen (Thundersac)",
+      "Back (Charged)",
+      "Leg Fin",
+      "Tail Tip (Charged)",
+      "Tongue",
+      "Claw",
+      "Leg (Thread)",
+      "Mane",
+      "Botoom Half",
+      "Tail Base",
+      "Chest (Windsac)",
+      "Wingarm (Windsac)",
+      "Back (Windsac)",
+      "Tail Tip (Windsac)",
+      "Cuerpo",
+      "Cabeza",
+      "A:肉質_頭",
+      "B:肉質_胴",
+      "Cuerno",
+      "Cola",
+      "B : 糸",
+      "Ala"
+    ],
+    "materialParenTokens": [
+      "Beak",
+      "Tail",
+      "Body",
+      "Wing",
+      "Crest",
+      "Anomaly Quests",
+      "Torso",
+      "Foreleg",
+      "Head",
+      "Wyvern Riding",
+      "Back",
+      "Each Foreleg",
+      "Leg",
+      "x2",
+      "Both Horns",
+      "Dorsal Fin",
+      "Right Claw",
+      "Left Claw",
+      "x3",
+      "Anomaly",
+      "x1",
+      "Head Fin",
+      "Arm",
+      "Thorns",
+      "Hind Leg",
+      "Scalp",
+      "Chest",
+      "Horn",
+      "Left Wingarm",
+      "Antenna",
+      "Right Wingarm",
+      "Claw",
+      "Shell",
+      "One Horn",
+      "Right Arm",
+      "Left Arm",
+      "R Wingarm",
+      "L Wingarm",
+      "Wingarm",
+      "Cutwing",
+      "Armblade",
+      "Part",
+      "Abdomen",
+      "Legs",
+      "Glowgut",
+      "Wingclaw",
+      "Mane",
+      "Carapace",
+      "Plate",
+      "Claws",
+      "Both Forelegs"
+    ],
+    "materials": {
+      "totalUsed": 1132,
+      "missingES": [
+        "Volvi Carapace",
+        "Magna Soulprism+",
+        "Volvi Rickrack",
+        "Somnacanth Talon",
+        "Somnacanth Talon+"
+      ]
+    },
+    "materialsSelfMatch": [
+      "Satsui no Hado",
+      "Laffresia",
+      "Alaffresia",
+      "Ring"
+    ],
+    "decorations_inline": [
+      {
+        "id": "1788752151",
+        "name": "Breath Jewel 3",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "1669747165",
+        "name": "Bladescale Jewel 2",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "1846157744",
+        "name": "Redirection Jewel 3",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "1818198514",
+        "name": "Flywall Jewel 1",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "603773077",
+        "name": "Hard Sniper Jewel 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "1640739359",
+        "name": "Charge Jewel 2",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "1699193528",
+        "name": "Foil Jewel 3",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "1626489470",
+        "name": "Spiribird's Call Jewel 1",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "1712919129",
+        "name": "Polisher Pro Jewel 3",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "1655497276",
+        "name": "Phoenix Jewel 2",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "1759744337",
+        "name": "Foray Jewel 2",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "1831924115",
+        "name": "Chain Jewel 2",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "84698884",
+        "name": "Phoenix Jewel+ 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "265741852",
+        "name": "Redirection Jewel+ 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "54728377",
+        "name": "Polisher Pro Jewel+ 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "12519130",
+        "name": "Charge Jewel+ 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "282894472",
+        "name": "Element Exploit Jewel 2",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "311377998",
+        "name": "Backstab Jewel 2",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "297144489",
+        "name": "Counterattack Jewel 2",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "26244859",
+        "name": "Foil Jewel+ 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "40478360",
+        "name": "Bloodening Jewel 3",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "487804973",
+        "name": "Embolden Jewel 2",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "159483346",
+        "name": "Element Exploit Jewel+ 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "536119234",
+        "name": "Intrepid Jewel 1",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "173733363",
+        "name": "Hard Cornerstone Jewel 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "873829809",
+        "name": "Backstab Jewel+ 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "921617750",
+        "name": "Foray Jewel+ 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "188491152",
+        "name": "Counterattack Jewel+ 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "473554956",
+        "name": "Trigger Jewel 3",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "935343479",
+        "name": "Chain Jewel+ 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "1054348425",
+        "name": "Shockproof Jewel 1",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "948614223",
+        "name": "Bladescale Jewel+ 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "815359252",
+        "name": "Bloodlust Jewel 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "829609269",
+        "name": "Embolden Jewel+ 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "844367146",
+        "name": "Intrepid Jewel+ 3",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "858617035",
+        "name": "Trigger Jewel+ 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "1068582062",
+        "name": "Inspiration Jewel 1",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      },
+      {
+        "id": "1007068392",
+        "name": "Bloodening Jewel+ 4",
+        "problems": [
+          "skills.nameEs/effectEs"
+        ]
+      }
+    ],
+    "weapons_inline": [],
+    "armor_inline": [],
+    "skills_inline": [],
+    "armorSets": {
+      "total": 62,
+      "hasNameEsField": false,
+      "note": "el set no trae nameEs: el nombre del set se muestra tal cual viene del JSON en ambos idiomas"
+    },
+    "obtainNotes": {
+      "total": 42,
+      "missingLang": []
+    },
+    "ui": {
+      "missingInEn": [],
+      "missingInEs": [],
+      "totalEs": 135,
+      "totalEn": 135
+    },
+    "uiEsEnglishValues": [
+      "susceptible: \"Susceptible\"",
+      "colMaterial: \"Material\"",
+      "gsDecorationsSection: \"Decorations\"",
+      "newsV03Tag: \"v0.3 Alpha\"",
+      "armorRankMaster: \"Master Rank\"",
+      "armorRankHigh: \"High Rank\"",
+      "armorRankLow: \"Low Rank\""
+    ]
+  }
+}

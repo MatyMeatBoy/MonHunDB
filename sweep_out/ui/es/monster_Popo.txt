@@ -1,0 +1,67 @@
+Popo
+
+Herbívoro
+
+ELEMENTO PRINCIPAL
+Ninguno
+DAÑO QUE INFLIGE
+ELEMENTOS
+Ninguno
+ESTADOS
+Ninguno
+RESISTENCIAS
+Dragón
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Fuego
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	80%	80%	100%	40%	20%	30%	20%	15%	100%
+Cuerpo	70%	70%	100%	40%	20%	30%	20%	15%	0%
+Cola	70%	70%	100%	40%	20%	30%	20%	15%	0%
+Partes rompibles
+ダメージアタリ_頭_部位 HP 5 — Orange
+ダメージアタリ_胴_部位 HP 5 — Orange
+ダメージアタリ_尻尾_部位 HP 5 — Orange
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Aturdimiento
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de hielo
+★★★
+Plaga de rayo
+★★★
+MATERIALES POR RAREZA
+Rango Bajo
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Carne cruda	—	42%x1, 23%x2	—	—	41%x1	Palico 41%x1
+
+Hueso descomunal	—	11%x1	—	—	6%x1	Palico 6%x1
+
+Curibaya	—	24%x2	—	—	—	—
+
+Lengua de Popo	—	—	—	—	53%x1	Palico 53%x1
+ZONAS DE APARICIÓN
+Sin datos

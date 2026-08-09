@@ -1,0 +1,88 @@
+Garangolm
+
+Bestia de Colmillos
+
+ELEMENTO PRINCIPAL
+Fuego
+Agua
+DAÑO QUE INFLIGE
+ELEMENTOS
+Fuego
+Agua
+ESTADOS
+Plaga de nitro
+RESISTENCIAS
+Agua
+INMUNE
+Dragón
+INMUNE
+DEBILIDADES ELEMENTALES
+Rayo
+DÉBIL
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	50%	45%	35%	8%	0%	10%	5%	0%	100%
+Torso	35%	35%	15%	8%	0%	10%	5%	0%	0%
+Brazo izquierdo	45%	50%	45%	8%	0%	10%	5%	0%	0%
+Brazo derecho	45%	50%	45%	8%	0%	10%	5%	0%	0%
+Pata trasera	25%	25%	20%	8%	0%	10%	5%	0%	0%
+Cola	40%	40%	30%	8%	0%	10%	5%	0%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Córtex de Garangolm	—	19%	27%	15% (Cola)	37% (Cuerpo)	17%, 50%
+
+Esquirla de Garangolm	—	34%	38%	25% (Cabeza)	26% (Cuerpo)	—
+
+Fluido de Garangolm	—	21%	—	10%[x1] (Cabeza), 20%[x2] (Brazo)	20%[x2] (Brazo)	30%, 15%[x2]
+
+Colmillo de Garangolm	—	14%	—	60%[x2] (Cabeza)	20% (Cuerpo)	35%
+
+Colazada de Garangolm	—	7%	9%	80% (Cola)	—	—
+
+Gran gema bestial	—	5%	5%	5% (Cabeza), 5% (Cola)	3% (Cuerpo)	3%
+
+Puño Garangolm	—	—	21%	80% (Brazo)	—	—
+
+Lágrima de bestia	—	—	—	—	—	10%
+
+Lágrima de bestia grande	—	—	—	—	—	40%
+
+Colmillo afligido	—	—	—	20% (Misiones de Anomalía, Nvl. 31-100)	20% (Misiones de Anomalía, Nvl. 31-100)	—
+
+Colmillo afligido+	—	—	—	40% (Misiones de Anomalía, Nvl. 31-100)	40% (Misiones de Anomalía, Nvl. 31-100)	—
+
+Colmillo duro afligido	—	—	—	40% (Misiones de Anomalía, Nvl. 101+)	40% (Misiones de Anomalía, Nvl. 101+)	—
+ZONAS DE APARICIÓN
+Bosque Inundado
+Bastión
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Golm Set

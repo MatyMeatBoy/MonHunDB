@@ -1,0 +1,85 @@
+Zinogre Apex
+
+Wyvern de Colmillos
+
+ELEMENTO PRINCIPAL
+Rayo
+DAÑO QUE INFLIGE
+ELEMENTOS
+Rayo
+ESTADOS
+Plaga de rayo
+RESISTENCIAS
+Rayo
+INMUNE
+Fuego
+RESISTENTE
+Dragón
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Hielo
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	65%	65%	45%	10%	10%	0%	15%	5%	100%
+Torso	25%	25%	25%	5%	5%	0%	5%	5%	0%
+Cadera	44%	44%	20%	5%	5%	0%	10%	5%	0%
+Pata delantera	25%	30%	15%	5%	5%	0%	10%	5%	0%
+Espalda	45%	40%	35%	10%	20%	0%	25%	5%	0%
+Pata trasera	45%	45%	15%	5%	5%	0%	10%	5%	0%
+Cola	30%	25%	20%	5%	5%	0%	5%	5%	0%
+Punta de la cola	21%	19%	10%	10%	15%	0%	20%	5%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Alto
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Caparazón eléctrico Apex	—	5%	—	70% (Espalda), 10% (Pata delantera)	9% (Cuerpo)	—
+
+Coraza de Zinogre	—	39%	—	—	36% (Cuerpo), 8% (Cola)	43%, 50%
+
+Electropelo de Zinogre	—	32%	—	30% (Espalda)	29% (Cuerpo)	38%
+
+Cola de Zinogre	—	4%	—	—	80% (Cola)	—
+
+Lumiarañas	—	12% (x3)	—	—	—	15% (x2)
+
+Placa de Zinogre	—	5%	—	7% (Cuerno)	7% (Cola), 3% (Cuerpo)	—
+
+Jaspe de Zinogre	—	3%	—	3% (Cuerno)	5% (Cola), 1% (Cuerpo)	2%
+
+Cuerno de Zinogre+	—	—	—	90% (Cuerno)	—	—
+
+Garra de Zinogre+	—	—	—	70% (Pata delantera), 20% (x2) (Pata delantera)	22% (Cuerpo)	12%
+
+Lágrima de wyvern grande	—	—	—	—	—	40%
+ZONAS DE APARICIÓN
+Templo Olvidado
+Bosque Inundado
+Fuente Infernal
+Fortaleza

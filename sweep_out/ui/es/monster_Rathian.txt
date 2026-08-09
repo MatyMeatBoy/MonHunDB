@@ -1,0 +1,95 @@
+Rathian
+
+Wyvern Volador
+
+ELEMENTO PRINCIPAL
+Fuego
+DAÑO QUE INFLIGE
+ELEMENTOS
+Fuego
+ESTADOS
+Plaga de fuego
+Veneno
+RESISTENCIAS
+Fuego
+INMUNE
+DEBILIDADES ELEMENTALES
+Rayo
+★★★
+Dragón
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	70%	75%	65%	0%	15%	20%	15%	30%	100%
+Cuello	40%	45%	35%	0%	0%	5%	0%	15%	0%
+Torso	35%	30%	25%	0%	5%	10%	5%	20%	0%
+Espalda	35%	30%	25%	0%	5%	10%	5%	20%	0%
+Ala	45%	45%	35%	0%	10%	15%	10%	25%	0%
+Pata	40%	40%	35%	0%	0%	5%	0%	15%	0%
+Cola	45%	40%	35%	0%	5%	10%	5%	20%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Bajo
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Escama de Rathian	—	14%	16% (x2)	60% (Cabeza)	38% (Cuerpo), 50% (Cola)	45% (x1), 45% (x1)
+
+Caparazón de Rathian	—	28%	34%	36% (Cabeza), 29% (Espalda)	26% (Cuerpo)	39%
+
+Membrana de Rathian	—	19%	—	20% (Ala)	17% (Cuerpo)	—
+
+Púa de Rathian	—	7%	—	70% (Espalda)	5% (Cuerpo), 40% (Cola)	4% (x1), 1% (x1)
+
+Vesícula flamígera	—	17%	21%	—	13% (Cuerpo)	—
+
+Hueso monstruo grande	—	13%	—	—	—	—
+
+Placa de Rathian	—	2%	3%	4% (Cabeza), 1% (Espalda)	1% (Cuerpo), 3% (Cola)	1%
+
+Garra de Rath	—	—	14%	80% (x2) (Ala)	—	15%
+
+Tuétano de Rath	—	—	12%	—	7% (Cola)	—
+
+Lágrima de wyvern	—	—	—	—	—	50%
+ZONAS DE APARICIÓN
+Templo Olvidado
+Llanos Arenosos
+Bosque Inundado
+Grutas de Lava
+La Jungla
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Rathian Set
+Aelucanth Set
+Rhopessa Set
+Rathian S Set
+Rathian X Set
+Aelucanth X Set
+Rhopessa X Set

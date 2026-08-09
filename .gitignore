@@ -17,3 +17,7 @@ data/weapon_icon_fallback_cache/
 
 # scratch screenshots
 weapon_tree_kamura.png
+
+# nemo workspace extras
+node_modules/
+*.log
