@@ -320,6 +320,7 @@ const I18N = {
   elements: {
     Fire: "Fuego", Water: "Agua", Thunder: "Rayo", Ice: "Hielo", Dragon: "Dragón",
     fire: "Fuego", water: "Agua", thunder: "Rayo", ice: "Hielo", dragon: "Dragón",
+    poison: "Veneno", sleep: "Sueño", blast: "Nitro", paralysis: "Parálisis",
   },
 
   ailments: {
