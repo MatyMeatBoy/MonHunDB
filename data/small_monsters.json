@@ -421,7 +421,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/altaroth.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -732,7 +732,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/anteka.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -1050,7 +1050,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/baggi.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -1404,7 +1404,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/bnahabra.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -1659,7 +1659,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/boggi.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -1916,7 +1916,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/bombadgy.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -2227,7 +2227,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/bullfango.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -2462,7 +2462,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/gowngoat.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -2709,7 +2709,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/ceanataur.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -3024,7 +3024,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/delex.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -3342,7 +3342,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/felyne.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -3626,7 +3626,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/gajau.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -4018,7 +4018,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/gargwa.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -4265,7 +4265,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/hermitaur.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -4525,7 +4525,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/hornetaur.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -4843,7 +4843,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/izuchi.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -5188,7 +5188,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/jaggi.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -5533,7 +5533,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/jaggia.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -5817,7 +5817,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/jagras.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -6137,7 +6137,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/kelbi.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -6394,7 +6394,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/kestodon.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -6696,7 +6696,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/ludroth.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -7014,7 +7014,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/melynx.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -7329,7 +7329,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/popo.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -7579,7 +7579,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/pyrantula.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -7892,7 +7892,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/rachnoid.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -8176,7 +8176,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/remobra.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -8487,7 +8487,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/rhenoplos.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -8807,7 +8807,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/slagtoth.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -9091,7 +9091,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/uroktor.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -9346,7 +9346,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/velociprey.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -9601,7 +9601,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/vespoid.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -9885,7 +9885,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/wroggi.png",
   "attackElements": [],
   "isSmall": true
  },
@@ -10224,7 +10224,7 @@
     ]
    }
   ],
-  "image": "",
+  "image": "data/images/zamite.png",
   "attackElements": [],
   "isSmall": true
  }
