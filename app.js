@@ -828,7 +828,7 @@ function buildMonsterEquipmentIndex() {
       // group's own piece list with no set image
       const pieceIds = new Set(group.pieces.map(p => p.id));
       const matchedSet = armorSets.find(s => s.pieces.filter(ref => pieceIds.has(ref.id)).length >= 3);
-      add(topMonster, "armorGroups", matchedSet ? { name: matchedSet.name, image: matchedSet.localImage || matchedSet.image, isRealSet: true } : { name: group.prefix + " Set", image: null, pieces: group.pieces, isRealSet: false });
+      add(topMonster, "armorGroups", matchedSet ? { name: matchedSet.name, image: matchedSet.localImage || matchedSet.image, isRealSet: true } : { name: group.prefix + " Set", image: armorSetImg(group.prefix + " Set"), pieces: group.pieces, isRealSet: false });
     }
   }
 
@@ -861,7 +861,7 @@ function renderRelatedEquipment(monsterName, container, sectionEl) {
     html += `<h4 class="subhead">${ui("relatedEquipmentArmor")}</h4><div class="decorations-grid">`;
     html += entry.armorGroups.map((g, i) => `
       <button type="button" class="decoration-card armor-set-card" data-related-armor="${i}">
-        ${g.image ? `<img class="armor-set-thumb" src="${g.image}" alt="" loading="lazy">` : armorIconTag(g.pieces[0])}
+        ${g.image ? `<img class="armor-set-thumb" src="${g.image}" alt="" loading="lazy" onerror="this.style.display='none'">` : armorIconTag(g.pieces[0])}
         <span class="decoration-card-name">${g.name}</span>
       </button>
     `).join("");
@@ -1008,7 +1008,7 @@ function runGlobalSearch(query) {
       if (entry.armorGroups.length) {
         html += entry.armorGroups.map(g => `
           <button type="button" class="gs-monster-row" data-gs-related-armor="${escapeAttr(g.name)}">
-            ${g.image ? `<img src="${g.image}" alt="" loading="lazy">` : armorIconTag(g.pieces[0])}
+            ${g.image ? `<img src="${g.image}" alt="" loading="lazy" onerror="this.style.display='none'">` : armorIconTag(g.pieces[0])}
             <span>${g.name}</span>
           </button>
         `).join("");
