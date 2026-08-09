@@ -1485,6 +1485,7 @@ body {
 
 .armor-piece-header { margin: 1.5rem 0 0.5rem; }
 .armor-piece-divider { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
+.armor-piece-link { cursor: pointer; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; width: 100%; background: none; border: none; color: inherit; font: inherit; text-align: left; }
 
 .deco-slots { display: inline-flex; gap: 0.2rem; vertical-align: middle; }
 .deco-slot-icon { width: 18px; height: 18px; }
