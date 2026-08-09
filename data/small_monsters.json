@@ -227,7 +227,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 75,
     "blunt": 75,
     "projectile": 80,
@@ -423,14 +423,43 @@
   ],
   "image": "data/images/altaroth.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "20",
+    "breakInfo": "Red"
+   }
+  ]
  },
  {
   "name": "Anteka",
   "species": "Herbivore",
   "locations": [],
-  "weaknesses": [],
-  "resistances": [],
+  "weaknesses": [
+   {
+    "element": "Fire",
+    "stars": 3
+   },
+   {
+    "element": "Water",
+    "stars": 3
+   },
+   {
+    "element": "Thunder",
+    "stars": 3
+   },
+   {
+    "element": "Ice",
+    "stars": 3
+   }
+  ],
+  "resistances": [
+   {
+    "element": "Dragon",
+    "immune": true
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -549,7 +578,32 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "Cabeza",
+    "sever": 85,
+    "blunt": 85,
+    "projectile": 80,
+    "fire": 80,
+    "water": 80,
+    "ice": 80,
+    "thunder": 80,
+    "dragon": 0,
+    "stun": 100
+   },
+   {
+    "part": "Torso",
+    "sever": 85,
+    "blunt": 85,
+    "projectile": 80,
+    "fire": 80,
+    "water": 80,
+    "ice": 80,
+    "thunder": 80,
+    "dragon": 0,
+    "stun": 100
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -734,7 +788,19 @@
   ],
   "image": "data/images/anteka.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cabeza",
+    "hp": "20",
+    "breakInfo": "Orange"
+   },
+   {
+    "part": "Cuerpo",
+    "hp": "20",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Baggi",
@@ -856,7 +922,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 70,
     "blunt": 70,
     "projectile": 75,
@@ -1052,7 +1118,14 @@
   ],
   "image": "data/images/baggi.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "10",
+    "breakInfo": "White"
+   }
+  ]
  },
  {
   "name": "Bnahabra",
@@ -1210,7 +1283,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 83,
     "blunt": 87,
     "projectile": 85,
@@ -1406,7 +1479,14 @@
   ],
   "image": "data/images/bnahabra.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "20",
+    "breakInfo": "White"
+   }
+  ]
  },
  {
   "name": "Boggi",
@@ -1470,7 +1550,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 65,
     "blunt": 65,
     "projectile": 65,
@@ -1661,14 +1741,42 @@
   ],
   "image": "data/images/boggi.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Group1_全身",
+    "hp": "50",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Bombadgy",
   "species": "Amphibian",
   "locations": [],
-  "weaknesses": [],
-  "resistances": [],
+  "weaknesses": [
+   {
+    "element": "Fire",
+    "stars": 3
+   },
+   {
+    "element": "Water",
+    "stars": 3
+   },
+   {
+    "element": "Thunder",
+    "stars": 3
+   },
+   {
+    "element": "Ice",
+    "stars": 3
+   }
+  ],
+  "resistances": [
+   {
+    "element": "Dragon"
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -1733,7 +1841,32 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "Cabeza",
+    "sever": 60,
+    "blunt": 75,
+    "projectile": 65,
+    "fire": 100,
+    "water": 100,
+    "ice": 100,
+    "thunder": 100,
+    "dragon": 10,
+    "stun": 100
+   },
+   {
+    "part": "Torso",
+    "sever": 70,
+    "blunt": 70,
+    "projectile": 70,
+    "fire": 100,
+    "water": 100,
+    "ice": 100,
+    "thunder": 100,
+    "dragon": 10,
+    "stun": 0
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -1918,14 +2051,35 @@
   ],
   "image": "data/images/bombadgy.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "20",
+    "breakInfo": "Orange"
+   },
+   {
+    "part": "Cuerpo",
+    "hp": "10",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Bullfango",
   "species": "Fanged Beast",
   "locations": [],
-  "weaknesses": [],
-  "resistances": [],
+  "weaknesses": [
+   {
+    "element": "Thunder",
+    "stars": 2
+   }
+  ],
+  "resistances": [
+   {
+    "element": "Dragon"
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -2044,7 +2198,32 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "Cabeza",
+    "sever": 70,
+    "blunt": 85,
+    "projectile": 75,
+    "fire": 20,
+    "water": 20,
+    "ice": 20,
+    "thunder": 60,
+    "dragon": 5,
+    "stun": 100
+   },
+   {
+    "part": "Torso",
+    "sever": 60,
+    "blunt": 75,
+    "projectile": 65,
+    "fire": 10,
+    "water": 10,
+    "ice": 10,
+    "thunder": 30,
+    "dragon": 5,
+    "stun": 0
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -2229,14 +2408,34 @@
   ],
   "image": "data/images/bullfango.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "40",
+    "breakInfo": "Red"
+   }
+  ]
  },
  {
   "name": "Gowngoat",
   "species": "Fanged Beast",
   "locations": [],
-  "weaknesses": [],
-  "resistances": [],
+  "weaknesses": [
+   {
+    "element": "Thunder",
+    "stars": 2
+   },
+   {
+    "element": "Ice",
+    "stars": 1
+   }
+  ],
+  "resistances": [
+   {
+    "element": "Dragon"
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -2279,7 +2478,32 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "Cabeza",
+    "sever": 75,
+    "blunt": 75,
+    "projectile": 75,
+    "fire": 35,
+    "water": 35,
+    "ice": 45,
+    "thunder": 55,
+    "dragon": 5,
+    "stun": 100
+   },
+   {
+    "part": "Torso",
+    "sever": 66,
+    "blunt": 59,
+    "projectile": 70,
+    "fire": 30,
+    "water": 30,
+    "ice": 40,
+    "thunder": 50,
+    "dragon": 5,
+    "stun": 0
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -2464,7 +2688,19 @@
   ],
   "image": "data/images/gowngoat.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Group0‗頭",
+    "hp": "5",
+    "breakInfo": "Orange"
+   },
+   {
+    "part": "Cuerpo",
+    "hp": "5",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Ceanataur",
@@ -2520,7 +2756,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 80,
     "blunt": 110,
     "projectile": 50,
@@ -2711,7 +2947,14 @@
   ],
   "image": "data/images/ceanataur.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Espalda",
+    "hp": "100",
+    "breakInfo": "Red"
+   }
+  ]
  },
  {
   "name": "Delex",
@@ -2830,7 +3073,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 90,
     "blunt": 90,
     "projectile": 90,
@@ -3026,7 +3269,14 @@
   ],
   "image": "data/images/delex.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "50",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Felyne",
@@ -3148,7 +3398,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 80,
     "blunt": 75,
     "projectile": 80,
@@ -3344,14 +3594,45 @@
   ],
   "image": "data/images/felyne.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "20",
+    "breakInfo": "White"
+   },
+   {
+    "part": "タル",
+    "hp": "1",
+    "breakInfo": "Red"
+   }
+  ]
  },
  {
   "name": "Gajau",
   "species": "Fish",
   "locations": [],
-  "weaknesses": [],
-  "resistances": [],
+  "weaknesses": [
+   {
+    "element": "Fire",
+    "stars": 1
+   },
+   {
+    "element": "Thunder",
+    "stars": 1
+   }
+  ],
+  "resistances": [
+   {
+    "element": "Water"
+   },
+   {
+    "element": "Ice"
+   },
+   {
+    "element": "Dragon"
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -3443,7 +3724,32 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "A:肉質_頭",
+    "sever": 80,
+    "blunt": 80,
+    "projectile": 80,
+    "fire": 40,
+    "water": 10,
+    "ice": 10,
+    "thunder": 40,
+    "dragon": 10,
+    "stun": 100
+   },
+   {
+    "part": "B:肉質_胴",
+    "sever": 70,
+    "blunt": 70,
+    "projectile": 70,
+    "fire": 40,
+    "water": 10,
+    "ice": 10,
+    "thunder": 40,
+    "dragon": 10,
+    "stun": 0
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -3628,14 +3934,47 @@
   ],
   "image": "data/images/gajau.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cabeza",
+    "hp": "15",
+    "breakInfo": "Red"
+   },
+   {
+    "part": "Cuerpo",
+    "hp": "20",
+    "breakInfo": "Red"
+   }
+  ]
  },
  {
   "name": "Gargwa",
   "species": "Bird Wyvern",
   "locations": [],
-  "weaknesses": [],
-  "resistances": [],
+  "weaknesses": [
+   {
+    "element": "Fire",
+    "stars": 3
+   },
+   {
+    "element": "Water",
+    "stars": 3
+   },
+   {
+    "element": "Thunder",
+    "stars": 3
+   },
+   {
+    "element": "Ice",
+    "stars": 3
+   }
+  ],
+  "resistances": [
+   {
+    "element": "Dragon"
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -3835,7 +4174,32 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "Cabeza",
+    "sever": 80,
+    "blunt": 80,
+    "projectile": 80,
+    "fire": 100,
+    "water": 90,
+    "ice": 90,
+    "thunder": 90,
+    "dragon": 5,
+    "stun": 100
+   },
+   {
+    "part": "Torso",
+    "sever": 75,
+    "blunt": 75,
+    "projectile": 75,
+    "fire": 90,
+    "water": 80,
+    "ice": 80,
+    "thunder": 80,
+    "dragon": 0,
+    "stun": 0
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -4020,7 +4384,14 @@
   ],
   "image": "data/images/gargwa.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "50",
+    "breakInfo": "White"
+   }
+  ]
  },
  {
   "name": "Hermitaur",
@@ -4076,7 +4447,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 80,
     "blunt": 110,
     "projectile": 50,
@@ -4267,7 +4638,14 @@
   ],
   "image": "data/images/hermitaur.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Espalda",
+    "hp": "100",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Hornetaur",
@@ -4336,7 +4714,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 100,
     "blunt": 120,
     "projectile": 100,
@@ -4527,7 +4905,14 @@
   ],
   "image": "data/images/hornetaur.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "1",
+    "breakInfo": "Red"
+   }
+  ]
  },
  {
   "name": "Izuchi",
@@ -4649,7 +5034,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 70,
     "blunt": 70,
     "projectile": 75,
@@ -4845,7 +5230,14 @@
   ],
   "image": "data/images/izuchi.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "40",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Jaggi",
@@ -4994,7 +5386,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 80,
     "blunt": 80,
     "projectile": 85,
@@ -5190,7 +5582,14 @@
   ],
   "image": "data/images/jaggi.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "40",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Jaggia",
@@ -5339,7 +5738,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 75,
     "blunt": 75,
     "projectile": 85,
@@ -5535,14 +5934,33 @@
   ],
   "image": "data/images/jaggia.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "40",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Jagras",
   "species": "Fanged Wyvern",
   "locations": [],
-  "weaknesses": [],
-  "resistances": [],
+  "weaknesses": [
+   {
+    "element": "Fire",
+    "stars": 1
+   }
+  ],
+  "resistances": [
+   {
+    "element": "Water"
+   },
+   {
+    "element": "Dragon"
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -5634,7 +6052,32 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "Cabeza",
+    "sever": 90,
+    "blunt": 90,
+    "projectile": 90,
+    "fire": 50,
+    "water": 5,
+    "ice": 20,
+    "thunder": 30,
+    "dragon": 10,
+    "stun": 100
+   },
+   {
+    "part": "Cabeza",
+    "sever": 80,
+    "blunt": 80,
+    "projectile": 80,
+    "fire": 40,
+    "water": 0,
+    "ice": 10,
+    "thunder": 20,
+    "dragon": 5,
+    "stun": 0
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -5819,14 +6262,48 @@
   ],
   "image": "data/images/jagras.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cabeza",
+    "hp": "20",
+    "breakInfo": "Red"
+   },
+   {
+    "part": "Torso",
+    "hp": "20",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Kelbi",
   "species": "Herbivore",
   "locations": [],
-  "weaknesses": [],
-  "resistances": [],
+  "weaknesses": [
+   {
+    "element": "Fire",
+    "stars": 3
+   },
+   {
+    "element": "Water",
+    "stars": 3
+   },
+   {
+    "element": "Thunder",
+    "stars": 3
+   },
+   {
+    "element": "Ice",
+    "stars": 3
+   }
+  ],
+  "resistances": [
+   {
+    "element": "Dragon",
+    "immune": true
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -5954,7 +6431,32 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "Cuerno",
+    "sever": 85,
+    "blunt": 85,
+    "projectile": 80,
+    "fire": 80,
+    "water": 80,
+    "ice": 80,
+    "thunder": 80,
+    "dragon": 0,
+    "stun": 100
+   },
+   {
+    "part": "Torso",
+    "sever": 85,
+    "blunt": 85,
+    "projectile": 80,
+    "fire": 80,
+    "water": 80,
+    "ice": 80,
+    "thunder": 80,
+    "dragon": 0,
+    "stun": 100
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -6139,14 +6641,39 @@
   ],
   "image": "data/images/kelbi.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerno",
+    "hp": "5",
+    "breakInfo": "20 (BreakLevel: 1, IgnoreCondition: None, IgnoreCheckCount: 0)"
+   },
+   {
+    "part": "Torso",
+    "hp": "5",
+    "breakInfo": "White"
+   }
+  ]
  },
  {
   "name": "Kestodon",
   "species": "Fanged Beast",
   "locations": [],
-  "weaknesses": [],
-  "resistances": [],
+  "weaknesses": [
+   {
+    "element": "Water",
+    "stars": 1
+   },
+   {
+    "element": "Ice",
+    "stars": 1
+   }
+  ],
+  "resistances": [
+   {
+    "element": "Dragon"
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -6211,7 +6738,32 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "Cabeza",
+    "sever": 35,
+    "blunt": 35,
+    "projectile": 35,
+    "fire": 25,
+    "water": 40,
+    "ice": 40,
+    "thunder": 25,
+    "dragon": 10,
+    "stun": 100
+   },
+   {
+    "part": "Torso",
+    "sever": 80,
+    "blunt": 80,
+    "projectile": 80,
+    "fire": 25,
+    "water": 40,
+    "ice": 40,
+    "thunder": 25,
+    "dragon": 10,
+    "stun": 0
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -6396,14 +6948,43 @@
   ],
   "image": "data/images/kestodon.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Torso",
+    "hp": "20",
+    "breakInfo": "Red"
+   },
+   {
+    "part": "Cabeza",
+    "hp": "30",
+    "breakInfo": "Red"
+   }
+  ]
  },
  {
   "name": "Ludroth",
   "species": "Leviathan",
   "locations": [],
-  "weaknesses": [],
-  "resistances": [],
+  "weaknesses": [
+   {
+    "element": "Fire",
+    "stars": 1
+   }
+  ],
+  "resistances": [
+   {
+    "element": "Water",
+    "immune": true
+   },
+   {
+    "element": "Dragon",
+    "immune": true
+   },
+   {
+    "element": "Ice"
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -6513,7 +7094,32 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "Cabeza",
+    "sever": 90,
+    "blunt": 95,
+    "projectile": 90,
+    "fire": 40,
+    "water": 0,
+    "ice": 10,
+    "thunder": 30,
+    "dragon": 0,
+    "stun": 100
+   },
+   {
+    "part": "Torso",
+    "sever": 85,
+    "blunt": 85,
+    "projectile": 80,
+    "fire": 60,
+    "water": 0,
+    "ice": 10,
+    "thunder": 25,
+    "dragon": 0,
+    "stun": 0
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -6698,7 +7304,19 @@
   ],
   "image": "data/images/ludroth.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cabeza",
+    "hp": "30",
+    "breakInfo": "White"
+   },
+   {
+    "part": "Torso",
+    "hp": "40",
+    "breakInfo": "White"
+   }
+  ]
  },
  {
   "name": "Melynx",
@@ -6820,7 +7438,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 80,
     "blunt": 75,
     "projectile": 80,
@@ -7016,7 +7634,14 @@
   ],
   "image": "data/images/melynx.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "20",
+    "breakInfo": "White"
+   }
+  ]
  },
  {
   "name": "Popo",
@@ -7135,7 +7760,31 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cabeza",
+    "sever": 80,
+    "blunt": 80,
+    "projectile": 100,
+    "fire": 40,
+    "water": 20,
+    "ice": 20,
+    "thunder": 30,
+    "dragon": 15,
+    "stun": 100
+   },
+   {
+    "part": "Cuerpo",
+    "sever": 70,
+    "blunt": 70,
+    "projectile": 100,
+    "fire": 40,
+    "water": 20,
+    "ice": 20,
+    "thunder": 30,
+    "dragon": 15,
+    "stun": 0
+   },
+   {
+    "part": "Cola",
     "sever": 70,
     "blunt": 70,
     "projectile": 100,
@@ -7331,7 +7980,24 @@
   ],
   "image": "data/images/popo.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "ダメージアタリ_頭_部位",
+    "hp": "5",
+    "breakInfo": "Orange"
+   },
+   {
+    "part": "ダメージアタリ_胴_部位",
+    "hp": "5",
+    "breakInfo": "Orange"
+   },
+   {
+    "part": "ダメージアタリ_尻尾_部位",
+    "hp": "5",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Pyrantula",
@@ -7385,7 +8051,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 45,
     "blunt": 55,
     "projectile": 45,
@@ -7394,6 +8060,18 @@
     "ice": 20,
     "thunder": 10,
     "dragon": 10,
+    "stun": 0
+   },
+   {
+    "part": "B : 糸",
+    "sever": 80,
+    "blunt": 80,
+    "projectile": 45,
+    "fire": 0,
+    "water": 0,
+    "ice": 0,
+    "thunder": 0,
+    "dragon": 0,
     "stun": 0
    }
   ],
@@ -7581,7 +8259,19 @@
   ],
   "image": "data/images/pyrantula.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "30",
+    "breakInfo": "White"
+   },
+   {
+    "part": "Group1_糸",
+    "hp": "100",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Rachnoid",
@@ -7698,7 +8388,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 45,
     "blunt": 45,
     "projectile": 35,
@@ -7894,14 +8584,32 @@
   ],
   "image": "data/images/rachnoid.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "10",
+    "breakInfo": "White"
+   }
+  ]
  },
  {
   "name": "Remobra",
   "species": "Snake Wyvern",
   "locations": [],
   "weaknesses": [],
-  "resistances": [],
+  "resistances": [
+   {
+    "element": "Thunder",
+    "immune": true
+   },
+   {
+    "element": "Fire"
+   },
+   {
+    "element": "Ice"
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -7993,7 +8701,44 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "Cabeza",
+    "sever": 80,
+    "blunt": 75,
+    "projectile": 80,
+    "fire": 10,
+    "water": 30,
+    "ice": 10,
+    "thunder": 0,
+    "dragon": 35,
+    "stun": 100
+   },
+   {
+    "part": "Cola",
+    "sever": 45,
+    "blunt": 45,
+    "projectile": 30,
+    "fire": 15,
+    "water": 30,
+    "ice": 10,
+    "thunder": 5,
+    "dragon": 35,
+    "stun": 0
+   },
+   {
+    "part": "Ala",
+    "sever": 71,
+    "blunt": 65,
+    "projectile": 60,
+    "fire": 10,
+    "water": 25,
+    "ice": 15,
+    "thunder": 5,
+    "dragon": 20,
+    "stun": 0
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -8178,14 +8923,52 @@
   ],
   "image": "data/images/remobra.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "40",
+    "breakInfo": "Red"
+   },
+   {
+    "part": "Cola",
+    "hp": "60",
+    "breakInfo": "Red"
+   },
+   {
+    "part": "Ala",
+    "hp": "50",
+    "breakInfo": "White"
+   }
+  ]
  },
  {
   "name": "Rhenoplos",
   "species": "Herbivore",
   "locations": [],
-  "weaknesses": [],
-  "resistances": [],
+  "weaknesses": [
+   {
+    "element": "Water",
+    "stars": 1
+   },
+   {
+    "element": "Thunder",
+    "stars": 1
+   },
+   {
+    "element": "Ice",
+    "stars": 1
+   }
+  ],
+  "resistances": [
+   {
+    "element": "Fire",
+    "immune": true
+   },
+   {
+    "element": "Dragon"
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -8304,7 +9087,32 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "Cabeza",
+    "sever": 30,
+    "blunt": 40,
+    "projectile": 45,
+    "fire": 0,
+    "water": 45,
+    "ice": 45,
+    "thunder": 45,
+    "dragon": 5,
+    "stun": 100
+   },
+   {
+    "part": "Torso",
+    "sever": 75,
+    "blunt": 80,
+    "projectile": 85,
+    "fire": 10,
+    "water": 50,
+    "ice": 50,
+    "thunder": 50,
+    "dragon": 10,
+    "stun": 0
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -8489,14 +9297,34 @@
   ],
   "image": "data/images/rhenoplos.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "30",
+    "breakInfo": "Red"
+   }
+  ]
  },
  {
   "name": "Slagtoth",
   "species": "Herbivore",
   "locations": [],
-  "weaknesses": [],
-  "resistances": [],
+  "weaknesses": [
+   {
+    "element": "Thunder",
+    "stars": 2
+   },
+   {
+    "element": "Ice",
+    "stars": 1
+   }
+  ],
+  "resistances": [
+   {
+    "element": "Dragon"
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -8624,7 +9452,32 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "Cabeza",
+    "sever": 75,
+    "blunt": 75,
+    "projectile": 75,
+    "fire": 35,
+    "water": 35,
+    "ice": 45,
+    "thunder": 55,
+    "dragon": 5,
+    "stun": 100
+   },
+   {
+    "part": "Torso",
+    "sever": 66,
+    "blunt": 59,
+    "projectile": 70,
+    "fire": 30,
+    "water": 30,
+    "ice": 40,
+    "thunder": 50,
+    "dragon": 5,
+    "stun": 0
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -8809,14 +9662,38 @@
   ],
   "image": "data/images/slagtoth.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "60",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Uroktor",
   "species": "Amphibian",
   "locations": [],
-  "weaknesses": [],
-  "resistances": [],
+  "weaknesses": [
+   {
+    "element": "Water",
+    "stars": 1
+   }
+  ],
+  "resistances": [
+   {
+    "element": "Fire",
+    "immune": true
+   },
+   {
+    "element": "Dragon",
+    "immune": true
+   },
+   {
+    "element": "Ice"
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -8908,7 +9785,32 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "Cabeza",
+    "sever": 85,
+    "blunt": 85,
+    "projectile": 80,
+    "fire": 0,
+    "water": 40,
+    "ice": 10,
+    "thunder": 30,
+    "dragon": 0,
+    "stun": 100
+   },
+   {
+    "part": "Torso",
+    "sever": 80,
+    "blunt": 80,
+    "projectile": 70,
+    "fire": 0,
+    "water": 60,
+    "ice": 10,
+    "thunder": 25,
+    "dragon": 0,
+    "stun": 0
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -9093,7 +9995,19 @@
   ],
   "image": "data/images/uroktor.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cabeza",
+    "hp": "50",
+    "breakInfo": "Red"
+   },
+   {
+    "part": "Torso",
+    "hp": "60",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Velociprey",
@@ -9157,7 +10071,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 75,
     "blunt": 75,
     "projectile": 80,
@@ -9348,7 +10262,14 @@
   ],
   "image": "data/images/velociprey.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Group1_全身",
+    "hp": "30",
+    "breakInfo": "Orange"
+   }
+  ]
  },
  {
   "name": "Vespoid",
@@ -9412,7 +10333,7 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cuerpo",
     "sever": 83,
     "blunt": 87,
     "projectile": 85,
@@ -9603,14 +10524,37 @@
   ],
   "image": "data/images/vespoid.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "全身アタリ",
+    "hp": "1",
+    "breakInfo": "White"
+   }
+  ]
  },
  {
   "name": "Wroggi",
   "species": "Bird Wyvern",
   "locations": [],
-  "weaknesses": [],
-  "resistances": [],
+  "weaknesses": [
+   {
+    "element": "Ice",
+    "stars": 2
+   }
+  ],
+  "resistances": [
+   {
+    "element": "Fire",
+    "immune": true
+   },
+   {
+    "element": "Thunder"
+   },
+   {
+    "element": "Dragon"
+   }
+  ],
   "ailmentSusceptibility": [],
   "inflicts": [],
   "materials": {
@@ -9702,7 +10646,20 @@
     }
    ]
   },
-  "hitzones": [],
+  "hitzones": [
+   {
+    "part": "Torso",
+    "sever": 65,
+    "blunt": 65,
+    "projectile": 65,
+    "fire": 0,
+    "water": 30,
+    "ice": 70,
+    "thunder": 10,
+    "dragon": 10,
+    "stun": 100
+   }
+  ],
   "ailmentBuildup": [
    {
     "key": "poison",
@@ -9887,7 +10844,14 @@
   ],
   "image": "data/images/wroggi.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cuerpo",
+    "hp": "30",
+    "breakInfo": "Red"
+   }
+  ]
  },
  {
   "name": "Zamite",
@@ -9896,13 +10860,14 @@
   "weaknesses": [
    {
     "element": "Thunder",
-    "stars": 2
+    "stars": 3
+   },
+   {
+    "element": "Fire",
+    "stars": 1
    }
   ],
   "resistances": [
-   {
-    "element": "Water"
-   },
    {
     "element": "Ice"
    },
@@ -10030,7 +10995,19 @@
   },
   "hitzones": [
    {
-    "part": "Body",
+    "part": "Cabeza",
+    "sever": 75,
+    "blunt": 75,
+    "projectile": 80,
+    "fire": 40,
+    "water": 20,
+    "ice": 10,
+    "thunder": 90,
+    "dragon": 10,
+    "stun": 100
+   },
+   {
+    "part": "Cuerpo",
     "sever": 45,
     "blunt": 45,
     "projectile": 50,
@@ -10226,6 +11203,18 @@
   ],
   "image": "data/images/zamite.png",
   "attackElements": [],
-  "isSmall": true
+  "isSmall": true,
+  "partBreaks": [
+   {
+    "part": "Cabeza",
+    "hp": "30",
+    "breakInfo": "White"
+   },
+   {
+    "part": "Cuerpo",
+    "hp": "50",
+    "breakInfo": "White"
+   }
+  ]
  }
 ]
