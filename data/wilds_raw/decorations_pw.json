@@ -1,0 +1,3063 @@
+[
+  {
+    "slug": "attack-jewel-1",
+    "name": "Attack Jewel [1]",
+    "description": "A decoration that grants the Attack Boost skill.",
+    "stats": {
+      "Attack Boost": "Lv1"
+    }
+  },
+  {
+    "slug": "attack-jewel-ii-2",
+    "name": "Attack Jewel II [2]",
+    "description": "A decoration that grants the Attack Boost skill.",
+    "stats": {
+      "Attack Boost": "Lv2"
+    }
+  },
+  {
+    "slug": "attack-jewel-iii-3",
+    "name": "Attack Jewel III [3]",
+    "description": "A decoration that grants the Attack Boost skill.",
+    "stats": {
+      "Attack Boost": "Lv3"
+    }
+  },
+  {
+    "slug": "furor-jewel-2",
+    "name": "Furor Jewel [2]",
+    "description": "A decoration that grants the Resentment skill.",
+    "stats": {
+      "Resentment": "Lv1"
+    }
+  },
+  {
+    "slug": "counterattack-jewel-3",
+    "name": "Counterattack Jewel [3]",
+    "description": "A decoration that grants the Adrenaline Rush skill.",
+    "stats": {
+      "Adrenaline Rush": "Lv1"
+    }
+  },
+  {
+    "slug": "guardian-jewel-1",
+    "name": "Guardian Jewel [1]",
+    "description": "A decoration that grants the Offensive Guard skill.",
+    "stats": {
+      "Offensive Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "guardian-jewel-ii-2",
+    "name": "Guardian Jewel II [2]",
+    "description": "A decoration that grants the Offensive Guard skill.",
+    "stats": {
+      "Offensive Guard": "Lv2"
+    }
+  },
+  {
+    "slug": "guardian-jewel-iii-3",
+    "name": "Guardian Jewel III [3]",
+    "description": "A decoration that grants the Offensive Guard skill.",
+    "stats": {
+      "Offensive Guard": "Lv3"
+    }
+  },
+  {
+    "slug": "guardianblaze-jwl-3",
+    "name": "Guardian/Blaze Jwl [3]",
+    "description": "A decoration that grants the Offensive Guard and Fire Attack skills.",
+    "stats": {
+      "Offensive Guard": "Lv3",
+      "Fire Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "guardianstream-jwl-3",
+    "name": "Guardian/Stream Jwl [3]",
+    "description": "A decoration that grants the Offensive Guard and Water Attack skills.",
+    "stats": {
+      "Offensive Guard": "Lv3",
+      "Water Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "guardianfrost-jwl-3",
+    "name": "Guardian/Frost Jwl [3]",
+    "description": "A decoration that grants the Offensive Guard and Ice Attack skills.",
+    "stats": {
+      "Offensive Guard": "Lv3",
+      "Ice Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "guardianbolt-jwl-3",
+    "name": "Guardian/Bolt Jwl [3]",
+    "description": "A decoration that grants the Offensive Guard and Thunder Attack skills.",
+    "stats": {
+      "Offensive Guard": "Lv3",
+      "Thunder Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "guardiandragon-jwl-3",
+    "name": "Guardian/Dragon Jwl [3]",
+    "description": "A decoration that grants the Offensive Guard and Dragon Attack skills.",
+    "stats": {
+      "Offensive Guard": "Lv3",
+      "Dragon Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "guardianhandicraft-jwl-3",
+    "name": "Guardian/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Offensive Guard and Handicraft skills.",
+    "stats": {
+      "Offensive Guard": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "guardianironwall-jwl-3",
+    "name": "Guardian/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Offensive Guard and Guard skills.",
+    "stats": {
+      "Offensive Guard": "Lv3",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "flawless-jewel-2",
+    "name": "Flawless Jewel [2]",
+    "description": "A decoration that grants the Peak Performance skill.",
+    "stats": {
+      "Peak Performance": "Lv1"
+    }
+  },
+  {
+    "slug": "counter-jewel-2",
+    "name": "Counter Jewel [2]",
+    "description": "A decoration that grants the Counterstrike skill.",
+    "stats": {
+      "Counterstrike": "Lv1"
+    }
+  },
+  {
+    "slug": "expert-jewel-1",
+    "name": "Expert Jewel [1]",
+    "description": "A decoration that grants the Critical Eye skill.",
+    "stats": {
+      "Critical Eye": "Lv1"
+    }
+  },
+  {
+    "slug": "expert-jewel-ii-2",
+    "name": "Expert Jewel II [2]",
+    "description": "A decoration that grants the Critical Eye skill.",
+    "stats": {
+      "Critical Eye": "Lv2"
+    }
+  },
+  {
+    "slug": "expert-jewel-iii-3",
+    "name": "Expert Jewel III [3]",
+    "description": "A decoration that grants the Critical Eye skill.",
+    "stats": {
+      "Critical Eye": "Lv3"
+    }
+  },
+  {
+    "slug": "critical-jewel-1",
+    "name": "Critical Jewel [1]",
+    "description": "A decoration that grants the Critical Boost skill.",
+    "stats": {
+      "Critical Boost": "Lv1"
+    }
+  },
+  {
+    "slug": "critical-jewel-ii-2",
+    "name": "Critical Jewel II [2]",
+    "description": "A decoration that grants the Critical Boost skill.",
+    "stats": {
+      "Critical Boost": "Lv2"
+    }
+  },
+  {
+    "slug": "critical-jewel-iii-3",
+    "name": "Critical Jewel III [3]",
+    "description": "A decoration that grants the Critical Boost skill.",
+    "stats": {
+      "Critical Boost": "Lv3"
+    }
+  },
+  {
+    "slug": "tenderizer-jewel-3",
+    "name": "Tenderizer Jewel [3]",
+    "description": "A decoration that grants the Weakness Exploit skill.",
+    "stats": {
+      "Weakness Exploit": "Lv1"
+    }
+  },
+  {
+    "slug": "draw-jewel-1",
+    "name": "Draw Jewel [1]",
+    "description": "A decoration that grants the Critical Draw skill.",
+    "stats": {
+      "Critical Draw": "Lv1"
+    }
+  },
+  {
+    "slug": "draw-jewel-ii-2",
+    "name": "Draw Jewel II [2]",
+    "description": "A decoration that grants the Critical Draw skill.",
+    "stats": {
+      "Critical Draw": "Lv2"
+    }
+  },
+  {
+    "slug": "draw-jewel-iii-3",
+    "name": "Draw Jewel III [3]",
+    "description": "A decoration that grants the Critical Draw skill.",
+    "stats": {
+      "Critical Draw": "Lv3"
+    }
+  },
+  {
+    "slug": "mighty-jewel-2",
+    "name": "Mighty Jewel [2]",
+    "description": "A decoration that grants the Maximum Might skill.",
+    "stats": {
+      "Maximum Might": "Lv1"
+    }
+  },
+  {
+    "slug": "blaze-jewel-1",
+    "name": "Blaze Jewel [1]",
+    "description": "A decoration that grants the Fire Attack skill.",
+    "stats": {
+      "Fire Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "blaze-jewel-ii-2",
+    "name": "Blaze Jewel II [2]",
+    "description": "A decoration that grants the Fire Attack skill.",
+    "stats": {
+      "Fire Attack": "Lv2"
+    }
+  },
+  {
+    "slug": "blaze-jewel-iii-3",
+    "name": "Blaze Jewel III [3]",
+    "description": "A decoration that grants the Fire Attack skill.",
+    "stats": {
+      "Fire Attack": "Lv3"
+    }
+  },
+  {
+    "slug": "blazeguardian-jewel-3",
+    "name": "Blaze/Guardian Jewel [3]",
+    "description": "A decoration that grants the Fire Attack and Offensive Guard skills.",
+    "stats": {
+      "Fire Attack": "Lv3",
+      "Offensive Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "blazecrit-elem-jwl-3",
+    "name": "Blaze/Crit Elem Jwl [3]",
+    "description": "A decoration that grants the Fire Attack and Critical Element skills.",
+    "stats": {
+      "Fire Attack": "Lv3",
+      "Critical Element": "Lv1"
+    }
+  },
+  {
+    "slug": "blazehandicraft-jwl-3",
+    "name": "Blaze/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Fire Attack and Handicraft skills.",
+    "stats": {
+      "Fire Attack": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "blazerzr-sharp-jwl-3",
+    "name": "Blaze/Rzr Sharp Jwl [3]",
+    "description": "A decoration that grants the Fire Attack and Razor Sharp skills.",
+    "stats": {
+      "Fire Attack": "Lv3",
+      "Razor Sharp": "Lv1"
+    }
+  },
+  {
+    "slug": "blazeprecise-jewel-3",
+    "name": "Blaze/Precise Jewel [3]",
+    "description": "A decoration that grants the Fire Attack and Ballistics skills.",
+    "stats": {
+      "Fire Attack": "Lv3",
+      "Ballistics": "Lv1"
+    }
+  },
+  {
+    "slug": "blazeopener-jewel-3",
+    "name": "Blaze/Opener Jewel [3]",
+    "description": "A decoration that grants the Fire Attack and Opening Shot skills.",
+    "stats": {
+      "Fire Attack": "Lv3",
+      "Opening Shot": "Lv1"
+    }
+  },
+  {
+    "slug": "blazebandolier-jwl-3",
+    "name": "Blaze/Bandolier Jwl [3]",
+    "description": "A decoration that grants the Fire Attack and Tetrad Shot skills.",
+    "stats": {
+      "Fire Attack": "Lv3",
+      "Tetrad Shot": "Lv1"
+    }
+  },
+  {
+    "slug": "blazefocus-jewel-3",
+    "name": "Blaze/Focus Jewel [3]",
+    "description": "A decoration that grants the Fire Attack and Focus skills.",
+    "stats": {
+      "Fire Attack": "Lv3",
+      "Focus": "Lv1"
+    }
+  },
+  {
+    "slug": "blazeenhancer-jwl-3",
+    "name": "Blaze/Enhancer Jwl [3]",
+    "description": "A decoration that grants the Fire Attack and Power Prolonger skills.",
+    "stats": {
+      "Fire Attack": "Lv3",
+      "Power Prolonger": "Lv1"
+    }
+  },
+  {
+    "slug": "blazeko-jewel-3",
+    "name": "Blaze/KO Jewel [3]",
+    "description": "A decoration that grants the Fire Attack and Slugger skills.",
+    "stats": {
+      "Fire Attack": "Lv3",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "blazequickswitch-jwl-3",
+    "name": "Blaze/Quickswitch Jwl [3]",
+    "description": "A decoration that grants the Fire Attack and Rapid Morph skills.",
+    "stats": {
+      "Fire Attack": "Lv3",
+      "Rapid Morph": "Lv1"
+    }
+  },
+  {
+    "slug": "blazeironwall-jwl-3",
+    "name": "Blaze/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Fire Attack and Guard skills.",
+    "stats": {
+      "Fire Attack": "Lv3",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "blazeshield-jewel-3",
+    "name": "Blaze/Shield Jewel [3]",
+    "description": "A decoration that grants the Fire Attack and Guard Up skills.",
+    "stats": {
+      "Fire Attack": "Lv3",
+      "Guard Up": "Lv1"
+    }
+  },
+  {
+    "slug": "stream-jewel-1",
+    "name": "Stream Jewel [1]",
+    "description": "A decoration that grants the Water Attack skill.",
+    "stats": {
+      "Water Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "stream-jewel-ii-2",
+    "name": "Stream Jewel II [2]",
+    "description": "A decoration that grants the Water Attack skill.",
+    "stats": {
+      "Water Attack": "Lv2"
+    }
+  },
+  {
+    "slug": "stream-jewel-iii-3",
+    "name": "Stream Jewel III [3]",
+    "description": "A decoration that grants the Water Attack skill.",
+    "stats": {
+      "Water Attack": "Lv3"
+    }
+  },
+  {
+    "slug": "streamguardian-jwl-3",
+    "name": "Stream/Guardian Jwl [3]",
+    "description": "A decoration that grants the Water Attack and Offensive Guard skills.",
+    "stats": {
+      "Water Attack": "Lv3",
+      "Offensive Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "streamcrit-elem-jwl-3",
+    "name": "Stream/Crit Elem Jwl [3]",
+    "description": "A decoration that grants the Water Attack and Critical Element skills.",
+    "stats": {
+      "Water Attack": "Lv3",
+      "Critical Element": "Lv1"
+    }
+  },
+  {
+    "slug": "streamhandicraft-jwl-3",
+    "name": "Stream/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Water Attack and Handicraft skills.",
+    "stats": {
+      "Water Attack": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "streamrzr-sharp-jwl-3",
+    "name": "Stream/Rzr Sharp Jwl [3]",
+    "description": "A decoration that grants the Water Attack and Razor Sharp skills.",
+    "stats": {
+      "Water Attack": "Lv3",
+      "Razor Sharp": "Lv1"
+    }
+  },
+  {
+    "slug": "streamprecise-jewel-3",
+    "name": "Stream/Precise Jewel [3]",
+    "description": "A decoration that grants the Water Attack and Ballistics skills.",
+    "stats": {
+      "Water Attack": "Lv3",
+      "Ballistics": "Lv1"
+    }
+  },
+  {
+    "slug": "streamopener-jwl-3",
+    "name": "Stream/Opener Jwl [3]",
+    "description": "A decoration that grants the Water Attack and Opening Shot skills.",
+    "stats": {
+      "Water Attack": "Lv3",
+      "Opening Shot": "Lv1"
+    }
+  },
+  {
+    "slug": "streambandolier-jwl-3",
+    "name": "Stream/Bandolier Jwl [3]",
+    "description": "A decoration that grants the Water Attack and Tetrad Shot skills.",
+    "stats": {
+      "Water Attack": "Lv3",
+      "Tetrad Shot": "Lv1"
+    }
+  },
+  {
+    "slug": "streamfocus-jewel-3",
+    "name": "Stream/Focus Jewel [3]",
+    "description": "A decoration that grants the Water Attack and Focus skills.",
+    "stats": {
+      "Water Attack": "Lv3",
+      "Focus": "Lv1"
+    }
+  },
+  {
+    "slug": "streamenhancer-jwl-3",
+    "name": "Stream/Enhancer Jwl [3]",
+    "description": "A decoration that grants the Water Attack and Power Prolonger skills.",
+    "stats": {
+      "Water Attack": "Lv3",
+      "Power Prolonger": "Lv1"
+    }
+  },
+  {
+    "slug": "streamko-jewel-3",
+    "name": "Stream/KO Jewel [3]",
+    "description": "A decoration that grants the Water Attack and Slugger skills.",
+    "stats": {
+      "Water Attack": "Lv3",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "streamquickswitch-jwl-3",
+    "name": "Stream/Quickswitch Jwl [3]",
+    "description": "A decoration that grants the Water Attack and Rapid Morph skills.",
+    "stats": {
+      "Water Attack": "Lv3",
+      "Rapid Morph": "Lv1"
+    }
+  },
+  {
+    "slug": "streamironwall-jwl-3",
+    "name": "Stream/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Water Attack and Guard skills.",
+    "stats": {
+      "Water Attack": "Lv3",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "streamshield-jewel-3",
+    "name": "Stream/Shield Jewel [3]",
+    "description": "A decoration that grants the Water Attack and Guard Up skills.",
+    "stats": {
+      "Water Attack": "Lv3",
+      "Guard Up": "Lv1"
+    }
+  },
+  {
+    "slug": "frost-jewel-1",
+    "name": "Frost Jewel [1]",
+    "description": "A decoration that grants the Ice Attack skill.",
+    "stats": {
+      "Ice Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "frost-jewel-ii-2",
+    "name": "Frost Jewel II [2]",
+    "description": "A decoration that grants the Ice Attack skill.",
+    "stats": {
+      "Ice Attack": "Lv2"
+    }
+  },
+  {
+    "slug": "frost-jewel-iii-3",
+    "name": "Frost Jewel III [3]",
+    "description": "A decoration that grants the Ice Attack skill.",
+    "stats": {
+      "Ice Attack": "Lv3"
+    }
+  },
+  {
+    "slug": "frostguardian-jwl-3",
+    "name": "Frost/Guardian Jwl [3]",
+    "description": "A decoration that grants the Ice Attack and Offensive Guard skills.",
+    "stats": {
+      "Ice Attack": "Lv3",
+      "Offensive Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "frostcrit-elem-jwl-3",
+    "name": "Frost/Crit Elem Jwl [3]",
+    "description": "A decoration that grants the Ice Attack and Critical Element skills.",
+    "stats": {
+      "Ice Attack": "Lv3",
+      "Critical Element": "Lv1"
+    }
+  },
+  {
+    "slug": "frosthandicraft-jwl-3",
+    "name": "Frost/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Ice Attack and Handicraft skills.",
+    "stats": {
+      "Ice Attack": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "frostrzr-sharp-jwl-3",
+    "name": "Frost/Rzr Sharp Jwl [3]",
+    "description": "A decoration that grants the Ice Attack and Razor Sharp skills.",
+    "stats": {
+      "Ice Attack": "Lv3",
+      "Razor Sharp": "Lv1"
+    }
+  },
+  {
+    "slug": "frostprecise-jewel-3",
+    "name": "Frost/Precise Jewel [3]",
+    "description": "A decoration that grants the Ice Attack and Ballistics skills.",
+    "stats": {
+      "Ice Attack": "Lv3",
+      "Ballistics": "Lv1"
+    }
+  },
+  {
+    "slug": "frostopener-jewel-3",
+    "name": "Frost/Opener Jewel [3]",
+    "description": "A decoration that grants the Ice Attack and Opening Shot skills.",
+    "stats": {
+      "Ice Attack": "Lv3",
+      "Opening Shot": "Lv1"
+    }
+  },
+  {
+    "slug": "frostbandolier-jwl-3",
+    "name": "Frost/Bandolier Jwl [3]",
+    "description": "A decoration that grants the Ice Attack and Tetrad Shot skills.",
+    "stats": {
+      "Ice Attack": "Lv3",
+      "Tetrad Shot": "Lv1"
+    }
+  },
+  {
+    "slug": "frostfocus-jewel-3",
+    "name": "Frost/Focus Jewel [3]",
+    "description": "A decoration that grants the Ice Attack and Focus skills.",
+    "stats": {
+      "Ice Attack": "Lv3",
+      "Focus": "Lv1"
+    }
+  },
+  {
+    "slug": "frostenhancer-jwl-3",
+    "name": "Frost/Enhancer Jwl [3]",
+    "description": "A decoration that grants the Ice Attack and Power Prolonger skills.",
+    "stats": {
+      "Ice Attack": "Lv3",
+      "Power Prolonger": "Lv1"
+    }
+  },
+  {
+    "slug": "frostko-jewel-3",
+    "name": "Frost/KO Jewel [3]",
+    "description": "A decoration that grants the Ice Attack and Slugger skills.",
+    "stats": {
+      "Ice Attack": "Lv3",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "frostquickswitch-jwl-3",
+    "name": "Frost/Quickswitch Jwl [3]",
+    "description": "A decoration that grants the Ice Attack and Rapid Morph skills.",
+    "stats": {
+      "Ice Attack": "Lv3",
+      "Rapid Morph": "Lv1"
+    }
+  },
+  {
+    "slug": "frostironwall-jwl-3",
+    "name": "Frost/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Ice Attack and Guard skills.",
+    "stats": {
+      "Ice Attack": "Lv3",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "frostshield-jewel-3",
+    "name": "Frost/Shield Jewel [3]",
+    "description": "A decoration that grants the Ice Attack and Guard Up skills.",
+    "stats": {
+      "Ice Attack": "Lv3",
+      "Guard Up": "Lv1"
+    }
+  },
+  {
+    "slug": "bolt-jewel-1",
+    "name": "Bolt Jewel [1]",
+    "description": "A decoration that grants the Thunder Attack skill.",
+    "stats": {
+      "Thunder Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "bolt-jewel-ii-2",
+    "name": "Bolt Jewel II [2]",
+    "description": "A decoration that grants the Thunder Attack skill.",
+    "stats": {
+      "Thunder Attack": "Lv2"
+    }
+  },
+  {
+    "slug": "bolt-jewel-iii-3",
+    "name": "Bolt Jewel III [3]",
+    "description": "A decoration that grants the Thunder Attack skill.",
+    "stats": {
+      "Thunder Attack": "Lv3"
+    }
+  },
+  {
+    "slug": "boltguardian-jwl-3",
+    "name": "Bolt/Guardian Jwl [3]",
+    "description": "A decoration that grants the Thunder Attack and Offensive Guard skills.",
+    "stats": {
+      "Thunder Attack": "Lv3",
+      "Offensive Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "boltcrit-elem-jwl-3",
+    "name": "Bolt/Crit Elem Jwl [3]",
+    "description": "A decoration that grants the Thunder Attack and Critical Element skills.",
+    "stats": {
+      "Thunder Attack": "Lv3",
+      "Critical Element": "Lv1"
+    }
+  },
+  {
+    "slug": "bolthandicraft-jwl-3",
+    "name": "Bolt/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Thunder Attack and Handicraft skills.",
+    "stats": {
+      "Thunder Attack": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "boltrzr-sharp-jwl-3",
+    "name": "Bolt/Rzr Sharp Jwl [3]",
+    "description": "A decoration that grants the Thunder Attack and Razor Sharp skills.",
+    "stats": {
+      "Thunder Attack": "Lv3",
+      "Razor Sharp": "Lv1"
+    }
+  },
+  {
+    "slug": "boltprecise-jewel-3",
+    "name": "Bolt/Precise Jewel [3]",
+    "description": "A decoration that grants the Thunder Attack and Ballistics skills.",
+    "stats": {
+      "Thunder Attack": "Lv3",
+      "Ballistics": "Lv1"
+    }
+  },
+  {
+    "slug": "boltopener-jewel-3",
+    "name": "Bolt/Opener Jewel [3]",
+    "description": "A decoration that grants the Thunder Attack and Opening Shot skills.",
+    "stats": {
+      "Thunder Attack": "Lv3",
+      "Opening Shot": "Lv1"
+    }
+  },
+  {
+    "slug": "boltbandolier-jwl-3",
+    "name": "Bolt/Bandolier Jwl [3]",
+    "description": "A decoration that grants the Thunder Attack and Tetrad Shot skills.",
+    "stats": {
+      "Thunder Attack": "Lv3",
+      "Tetrad Shot": "Lv1"
+    }
+  },
+  {
+    "slug": "boltfocus-jewel-3",
+    "name": "Bolt/Focus Jewel [3]",
+    "description": "A decoration that grants the Thunder Attack and Focus skills.",
+    "stats": {
+      "Thunder Attack": "Lv3",
+      "Focus": "Lv1"
+    }
+  },
+  {
+    "slug": "boltenhancer-jwl-3",
+    "name": "Bolt/Enhancer Jwl [3]",
+    "description": "A decoration that grants the Thunder Attack and Power Prolonger skills.",
+    "stats": {
+      "Thunder Attack": "Lv3",
+      "Power Prolonger": "Lv1"
+    }
+  },
+  {
+    "slug": "boltko-jewel-3",
+    "name": "Bolt/KO Jewel [3]",
+    "description": "A decoration that grants the Thunder Attack and Slugger skills.",
+    "stats": {
+      "Thunder Attack": "Lv3",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "boltquickswitch-jwl-3",
+    "name": "Bolt/Quickswitch Jwl [3]",
+    "description": "A decoration that grants the Thunder Attack and Rapid Morph skills.",
+    "stats": {
+      "Thunder Attack": "Lv3",
+      "Rapid Morph": "Lv1"
+    }
+  },
+  {
+    "slug": "boltironwall-jewel-3",
+    "name": "Bolt/Ironwall Jewel [3]",
+    "description": "A decoration that grants the Thunder Attack and Guard skills.",
+    "stats": {
+      "Thunder Attack": "Lv3",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "boltshield-jewel-3",
+    "name": "Bolt/Shield Jewel [3]",
+    "description": "A decoration that grants the Thunder Attack and Guard Up skills.",
+    "stats": {
+      "Thunder Attack": "Lv3",
+      "Guard Up": "Lv1"
+    }
+  },
+  {
+    "slug": "dragon-jewel-1",
+    "name": "Dragon Jewel [1]",
+    "description": "A decoration that grants the Dragon Attack skill.",
+    "stats": {
+      "Dragon Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "dragon-jewel-ii-2",
+    "name": "Dragon Jewel II [2]",
+    "description": "A decoration that grants the Dragon Attack skill.",
+    "stats": {
+      "Dragon Attack": "Lv2"
+    }
+  },
+  {
+    "slug": "dragon-jewel-iii-3",
+    "name": "Dragon Jewel III [3]",
+    "description": "A decoration that grants the Dragon Attack skill.",
+    "stats": {
+      "Dragon Attack": "Lv3"
+    }
+  },
+  {
+    "slug": "dragonguardian-jwl-3",
+    "name": "Dragon/Guardian Jwl [3]",
+    "description": "A decoration that grants the Dragon Attack and Offensive Guard skills.",
+    "stats": {
+      "Dragon Attack": "Lv3",
+      "Offensive Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "dragoncrit-elem-jwl-3",
+    "name": "Dragon/Crit Elem Jwl [3]",
+    "description": "A decoration that grants the Dragon Attack and Critical Element skills.",
+    "stats": {
+      "Dragon Attack": "Lv3",
+      "Critical Element": "Lv1"
+    }
+  },
+  {
+    "slug": "dragonhandicraft-jwl-3",
+    "name": "Dragon/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Dragon Attack and Handicraft skills.",
+    "stats": {
+      "Dragon Attack": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "dragonrzr-sharp-jwl-3",
+    "name": "Dragon/Rzr Sharp Jwl [3]",
+    "description": "A decoration that grants the Dragon Attack and Razor Sharp skills.",
+    "stats": {
+      "Dragon Attack": "Lv3",
+      "Razor Sharp": "Lv1"
+    }
+  },
+  {
+    "slug": "dragonprecise-jewel-3",
+    "name": "Dragon/Precise Jewel [3]",
+    "description": "A decoration that grants the Dragon Attack and Ballistics skills.",
+    "stats": {
+      "Dragon Attack": "Lv3",
+      "Ballistics": "Lv1"
+    }
+  },
+  {
+    "slug": "dragonopener-jewel-3",
+    "name": "Dragon/Opener Jewel [3]",
+    "description": "A decoration that grants the Dragon Attack and Opening Shot skills.",
+    "stats": {
+      "Dragon Attack": "Lv3",
+      "Opening Shot": "Lv1"
+    }
+  },
+  {
+    "slug": "dragonbandolier-jwl-3",
+    "name": "Dragon/Bandolier Jwl [3]",
+    "description": "A decoration that grants the Dragon Attack and Tetrad Shot skills.",
+    "stats": {
+      "Dragon Attack": "Lv3",
+      "Tetrad Shot": "Lv1"
+    }
+  },
+  {
+    "slug": "dragonfocus-jewel-3",
+    "name": "Dragon/Focus Jewel [3]",
+    "description": "A decoration that grants the Dragon Attack and Focus skills.",
+    "stats": {
+      "Dragon Attack": "Lv3",
+      "Focus": "Lv1"
+    }
+  },
+  {
+    "slug": "dragonenhancer-jwl-3",
+    "name": "Dragon/Enhancer Jwl [3]",
+    "description": "A decoration that grants the Dragon Attack and Power Prolonger skills.",
+    "stats": {
+      "Dragon Attack": "Lv3",
+      "Power Prolonger": "Lv1"
+    }
+  },
+  {
+    "slug": "dragonko-jewel-3",
+    "name": "Dragon/KO Jewel [3]",
+    "description": "A decoration that grants the Dragon Attack and Slugger skills.",
+    "stats": {
+      "Dragon Attack": "Lv3",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "dragonquickswitch-jwl-3",
+    "name": "Dragon/Quickswitch Jwl [3]",
+    "description": "A decoration that grants the Dragon Attack and Rapid Morph skills.",
+    "stats": {
+      "Dragon Attack": "Lv3",
+      "Rapid Morph": "Lv1"
+    }
+  },
+  {
+    "slug": "dragonironwall-jwl-3",
+    "name": "Dragon/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Dragon Attack and Guard skills.",
+    "stats": {
+      "Dragon Attack": "Lv3",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "dragonshield-jewel-3",
+    "name": "Dragon/Shield Jewel [3]",
+    "description": "A decoration that grants the Dragon Attack and Guard Up skills.",
+    "stats": {
+      "Dragon Attack": "Lv3",
+      "Guard Up": "Lv1"
+    }
+  },
+  {
+    "slug": "venom-jewel-1",
+    "name": "Venom Jewel [1]",
+    "description": "A decoration that grants the Poison Attack skill.",
+    "stats": {
+      "Poison Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "venom-jewel-ii-2",
+    "name": "Venom Jewel II [2]",
+    "description": "A decoration that grants the Poison Attack skill.",
+    "stats": {
+      "Poison Attack": "Lv2"
+    }
+  },
+  {
+    "slug": "venom-jewel-iii-3",
+    "name": "Venom Jewel III [3]",
+    "description": "A decoration that grants the Poison Attack skill.",
+    "stats": {
+      "Poison Attack": "Lv3"
+    }
+  },
+  {
+    "slug": "paralyzer-jewel-1",
+    "name": "Paralyzer Jewel [1]",
+    "description": "A decoration that grants the Paralysis Attack skill.",
+    "stats": {
+      "Paralysis Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "paralyzer-jewel-ii-2",
+    "name": "Paralyzer Jewel II [2]",
+    "description": "A decoration that grants the Paralysis Attack skill.",
+    "stats": {
+      "Paralysis Attack": "Lv2"
+    }
+  },
+  {
+    "slug": "paralyzer-jwl-iii-3",
+    "name": "Paralyzer Jwl III [3]",
+    "description": "A decoration that grants the Paralysis Attack skill.",
+    "stats": {
+      "Paralysis Attack": "Lv3"
+    }
+  },
+  {
+    "slug": "sleep-jewel-1",
+    "name": "Sleep Jewel [1]",
+    "description": "A decoration that grants the Sleep Attack skill.",
+    "stats": {
+      "Sleep Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "sleep-jewel-ii-2",
+    "name": "Sleep Jewel II [2]",
+    "description": "A decoration that grants the Sleep Attack skill.",
+    "stats": {
+      "Sleep Attack": "Lv2"
+    }
+  },
+  {
+    "slug": "sleep-jewel-iii-3",
+    "name": "Sleep Jewel III [3]",
+    "description": "A decoration that grants the Sleep Attack skill.",
+    "stats": {
+      "Sleep Attack": "Lv3"
+    }
+  },
+  {
+    "slug": "blast-jewel-1",
+    "name": "Blast Jewel [1]",
+    "description": "A decoration that grants the Blast Attack skill.",
+    "stats": {
+      "Blast Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "blast-jewel-ii-2",
+    "name": "Blast Jewel II [2]",
+    "description": "A decoration that grants the Blast Attack skill.",
+    "stats": {
+      "Blast Attack": "Lv2"
+    }
+  },
+  {
+    "slug": "blast-jewel-iii-3",
+    "name": "Blast Jewel III [3]",
+    "description": "A decoration that grants the Blast Attack skill.",
+    "stats": {
+      "Blast Attack": "Lv3"
+    }
+  },
+  {
+    "slug": "crit-element-jewel-1",
+    "name": "Crit Element Jewel [1]",
+    "description": "A decoration that grants the Critical Element skill.",
+    "stats": {
+      "Critical Element": "Lv1"
+    }
+  },
+  {
+    "slug": "crit-element-jewel-ii-2",
+    "name": "Crit Element Jewel II [2]",
+    "description": "A decoration that grants the Critical Element skill.",
+    "stats": {
+      "Critical Element": "Lv2"
+    }
+  },
+  {
+    "slug": "crit-elem-jwl-iii-3",
+    "name": "Crit Elem Jwl III [3]",
+    "description": "A decoration that grants the Critical Element skill.",
+    "stats": {
+      "Critical Element": "Lv3"
+    }
+  },
+  {
+    "slug": "crit-elemblaze-jwl-3",
+    "name": "Crit Elem/Blaze Jwl [3]",
+    "description": "A decoration that grants the Critical Element and Fire Attack skills.",
+    "stats": {
+      "Critical Element": "Lv3",
+      "Fire Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "crit-elemstream-jwl-3",
+    "name": "Crit Elem/Stream Jwl [3]",
+    "description": "A decoration that grants the Critical Element and Water Attack skills.",
+    "stats": {
+      "Critical Element": "Lv3",
+      "Water Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "crit-elemfrost-jwl-3",
+    "name": "Crit Elem/Frost Jwl [3]",
+    "description": "A decoration that grants the Critical Element and Ice Attack skills.",
+    "stats": {
+      "Critical Element": "Lv3",
+      "Ice Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "crit-elembolt-jwl-3",
+    "name": "Crit Elem/Bolt Jwl [3]",
+    "description": "A decoration that grants the Critical Element and Thunder Attack skills.",
+    "stats": {
+      "Critical Element": "Lv3",
+      "Thunder Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "crit-elemdragon-jwl-3",
+    "name": "Crit Elem/Dragon Jwl [3]",
+    "description": "A decoration that grants the Critical Element and Dragon Attack skills.",
+    "stats": {
+      "Critical Element": "Lv3",
+      "Dragon Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "crit-elemhandicraft-jwl-3",
+    "name": "Crit Elem/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Critical Element and Handicraft skills.",
+    "stats": {
+      "Critical Element": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "crit-elementprecise-jwl-3",
+    "name": "Crit Element/Precise Jwl [3]",
+    "description": "A decoration that grants the Critical Element and Ballistics skills.",
+    "stats": {
+      "Critical Element": "Lv3",
+      "Ballistics": "Lv1"
+    }
+  },
+  {
+    "slug": "crit-elemko-jewel-3",
+    "name": "Crit Elem/KO Jewel [3]",
+    "description": "A decoration that grants the Critical Element and Slugger skills.",
+    "stats": {
+      "Critical Element": "Lv3",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "crit-elemironwall-jwl-3",
+    "name": "Crit Elem/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Critical Element and Guard skills.",
+    "stats": {
+      "Critical Element": "Lv3",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "crit-status-jewel-1",
+    "name": "Crit Status Jewel [1]",
+    "description": "A decoration that grants the Critical Status skill.",
+    "stats": {
+      "Critical Status": "Lv1"
+    }
+  },
+  {
+    "slug": "crit-status-jewel-ii-2",
+    "name": "Crit Status Jewel II [2]",
+    "description": "A decoration that grants the Critical Status skill.",
+    "stats": {
+      "Critical Status": "Lv2"
+    }
+  },
+  {
+    "slug": "crit-stat-jwl-iii-3",
+    "name": "Crit Stat Jwl III [3]",
+    "description": "A decoration that grants the Critical Status skill.",
+    "stats": {
+      "Critical Status": "Lv3"
+    }
+  },
+  {
+    "slug": "crit-stathandicraft-jwl-3",
+    "name": "Crit Stat/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Critical Status and Handicraft skills.",
+    "stats": {
+      "Critical Status": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "crit-statprecise-jwl-3",
+    "name": "Crit Stat/Precise Jwl [3]",
+    "description": "A decoration that grants the Critical Status and Ballistics skills.",
+    "stats": {
+      "Critical Status": "Lv3",
+      "Ballistics": "Lv1"
+    }
+  },
+  {
+    "slug": "crit-statusko-jwl-3",
+    "name": "Crit Status/KO Jwl [3]",
+    "description": "A decoration that grants the Critical Status and Slugger skills.",
+    "stats": {
+      "Critical Status": "Lv3",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "crit-statironwall-jwl-3",
+    "name": "Crit Stat/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Critical Status and Guard skills.",
+    "stats": {
+      "Critical Status": "Lv3",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "charge-jewel-1",
+    "name": "Charge Jewel [1]",
+    "description": "A decoration that grants the Charge Master skill.",
+    "stats": {
+      "Charge Master": "Lv1"
+    }
+  },
+  {
+    "slug": "charge-jewel-ii-2",
+    "name": "Charge Jewel II [2]",
+    "description": "A decoration that grants the Charge Master skill.",
+    "stats": {
+      "Charge Master": "Lv2"
+    }
+  },
+  {
+    "slug": "charge-jewel-iii-3",
+    "name": "Charge Jewel III [3]",
+    "description": "A decoration that grants the Charge Master skill.",
+    "stats": {
+      "Charge Master": "Lv3"
+    }
+  },
+  {
+    "slug": "chargehandicraft-jwl-3",
+    "name": "Charge/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Charge Master and Handicraft skills.",
+    "stats": {
+      "Charge Master": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "chargeko-jewel-3",
+    "name": "Charge/KO Jewel [3]",
+    "description": "A decoration that grants the Charge Master and Slugger skills.",
+    "stats": {
+      "Charge Master": "Lv3",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "handicraft-jewel-1",
+    "name": "Handicraft Jewel [1]",
+    "description": "A decoration that grants the Handicraft skill.",
+    "stats": {
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "handicraft-jewel-ii-2",
+    "name": "Handicraft Jewel II [2]",
+    "description": "A decoration that grants the Handicraft skill.",
+    "stats": {
+      "Handicraft": "Lv2"
+    }
+  },
+  {
+    "slug": "handicraft-jwl-iii-3",
+    "name": "Handicraft Jwl III [3]",
+    "description": "A decoration that grants the Handicraft skill.",
+    "stats": {
+      "Handicraft": "Lv3"
+    }
+  },
+  {
+    "slug": "razor-sharp-jewel-1",
+    "name": "Razor Sharp Jewel [1]",
+    "description": "A decoration that grants the Razor Sharp skill.",
+    "stats": {
+      "Razor Sharp": "Lv1"
+    }
+  },
+  {
+    "slug": "razor-sharp-jewel-ii-2",
+    "name": "Razor Sharp Jewel II [2]",
+    "description": "A decoration that grants the Razor Sharp skill.",
+    "stats": {
+      "Razor Sharp": "Lv2"
+    }
+  },
+  {
+    "slug": "rzr-sharp-jwl-iii-3",
+    "name": "Rzr Sharp Jwl III [3]",
+    "description": "A decoration that grants the Razor Sharp skill.",
+    "stats": {
+      "Razor Sharp": "Lv3"
+    }
+  },
+  {
+    "slug": "rzr-sharpblaze-jwl-3",
+    "name": "Rzr Sharp/Blaze Jwl [3]",
+    "description": "A decoration that grants the Razor Sharp and Fire Attack skills.",
+    "stats": {
+      "Razor Sharp": "Lv3",
+      "Fire Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "rzr-sharpstream-jwl-3",
+    "name": "Rzr Sharp/Stream Jwl [3]",
+    "description": "A decoration that grants the Razor Sharp and Water Attack skills.",
+    "stats": {
+      "Razor Sharp": "Lv3",
+      "Water Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "rzr-sharpfrost-jwl-3",
+    "name": "Rzr Sharp/Frost Jwl [3]",
+    "description": "A decoration that grants the Razor Sharp and Ice Attack skills.",
+    "stats": {
+      "Razor Sharp": "Lv3",
+      "Ice Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "rzr-sharpbolt-jwl-3",
+    "name": "Rzr Sharp/Bolt Jwl [3]",
+    "description": "A decoration that grants the Razor Sharp and Thunder Attack skills.",
+    "stats": {
+      "Razor Sharp": "Lv3",
+      "Thunder Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "rzr-sharpdragon-jwl-3",
+    "name": "Rzr Sharp/Dragon Jwl [3]",
+    "description": "A decoration that grants the Razor Sharp and Dragon Attack skills.",
+    "stats": {
+      "Razor Sharp": "Lv3",
+      "Dragon Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "rzr-sharphandicraft-jwl-3",
+    "name": "Rzr Sharp/Handicraft Jwl [3]",
+    "description": "A decoration that grants the  Razor Sharp and Handicraft  skills.",
+    "stats": {
+      "Razor Sharp": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "razor-sharpko-jwl-3",
+    "name": "Razor Sharp/KO Jwl [3]",
+    "description": "A decoration that grants the Razor Sharp and Slugger skills.",
+    "stats": {
+      "Razor Sharp": "Lv3",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "rzr-sharpironwall-jwl-3",
+    "name": "Rzr Sharp/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Razor Sharp and Guard skills.",
+    "stats": {
+      "Razor Sharp": "Lv3",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "sharp-jewel-1",
+    "name": "Sharp Jewel [1]",
+    "description": "A decoration that grants the Protective Polish skill.",
+    "stats": {
+      "Protective Polish": "Lv1"
+    }
+  },
+  {
+    "slug": "sharp-jewel-ii-2",
+    "name": "Sharp Jewel II [2]",
+    "description": "A decoration that grants the Protective Polish skill.",
+    "stats": {
+      "Protective Polish": "Lv2"
+    }
+  },
+  {
+    "slug": "sharp-jewel-iii-3",
+    "name": "Sharp Jewel III [3]",
+    "description": "A decoration that grants the Protective Polish skill.",
+    "stats": {
+      "Protective Polish": "Lv3"
+    }
+  },
+  {
+    "slug": "minds-eye-jewel-1",
+    "name": "Mind's Eye Jewel [1]",
+    "description": "A decoration that grants the Mind's Eye skill.",
+    "stats": {
+      "Mind's Eye": "Lv1"
+    }
+  },
+  {
+    "slug": "minds-eye-jewel-ii-2",
+    "name": "Mind's Eye Jewel II [2]",
+    "description": "A decoration that grants the Mind's Eye skill.",
+    "stats": {
+      "Mind's Eye": "Lv2"
+    }
+  },
+  {
+    "slug": "minds-eye-jwl-iii-3",
+    "name": "Mind's Eye Jwl III [3]",
+    "description": "A decoration that grants the Mind's Eye skill.",
+    "stats": {
+      "Mind's Eye": "Lv3"
+    }
+  },
+  {
+    "slug": "blunt-jewel-1",
+    "name": "Blunt Jewel [1]",
+    "description": "A decoration that grants the Bludgeoner skill.",
+    "stats": {
+      "Bludgeoner": "Lv1"
+    }
+  },
+  {
+    "slug": "blunt-jewel-ii-2",
+    "name": "Blunt Jewel II [2]",
+    "description": "A decoration that grants the Bludgeoner skill.",
+    "stats": {
+      "Bludgeoner": "Lv2"
+    }
+  },
+  {
+    "slug": "blunt-jewel-iii-3",
+    "name": "Blunt Jewel III [3]",
+    "description": "A decoration that grants the Bludgeoner skill.",
+    "stats": {
+      "Bludgeoner": "Lv3"
+    }
+  },
+  {
+    "slug": "mastery-jewel-3",
+    "name": "Mastery Jewel [3]",
+    "description": "A decoration that grants the Master's Touch skill.",
+    "stats": {
+      "Master's Touch": "Lv1"
+    }
+  },
+  {
+    "slug": "forceshot-jewel-3",
+    "name": "Forceshot Jewel [3]",
+    "description": "A decoration that grants the Normal Shots skill.",
+    "stats": {
+      "Normal Shots": "Lv1"
+    }
+  },
+  {
+    "slug": "pierce-jewel-3",
+    "name": "Pierce Jewel [3]",
+    "description": "A decoration that enhances the Piercing Shots skill.",
+    "stats": {
+      "Piercing Shots": "Lv1"
+    }
+  },
+  {
+    "slug": "spread-jewel-3",
+    "name": "Spread Jewel [3]",
+    "description": "A decoration that grants the Spread/Power Shots skill.",
+    "stats": {
+      "Spread/Power Shots": "Lv1"
+    }
+  },
+  {
+    "slug": "precise-jewel-1",
+    "name": "Precise Jewel [1]",
+    "description": "A decoration that grants the Ballistics skill.",
+    "stats": {
+      "Ballistics": "Lv1"
+    }
+  },
+  {
+    "slug": "precise-jewel-ii-2",
+    "name": "Precise Jewel II [2]",
+    "description": "A decoration that grants the Ballistics skill.",
+    "stats": {
+      "Ballistics": "Lv2"
+    }
+  },
+  {
+    "slug": "precise-jewel-iii-3",
+    "name": "Precise Jewel III [3]",
+    "description": "A decoration that grants the Ballistics skill.",
+    "stats": {
+      "Ballistics": "Lv3"
+    }
+  },
+  {
+    "slug": "salvo-jewel-3",
+    "name": "Salvo Jewel [3]",
+    "description": "A decoration that grants the Rapid Fire Up skill.",
+    "stats": {
+      "Rapid Fire Up": "Lv1"
+    }
+  },
+  {
+    "slug": "opener-jewel-1",
+    "name": "Opener Jewel [1]",
+    "description": "A decoration that grants the Opening Shot skill.",
+    "stats": {
+      "Opening Shot": "Lv1"
+    }
+  },
+  {
+    "slug": "opener-jewel-ii-2",
+    "name": "Opener Jewel II [2]",
+    "description": "A decoration that grants the Opening Shot skill.",
+    "stats": {
+      "Opening Shot": "Lv2"
+    }
+  },
+  {
+    "slug": "opener-jewel-iii-3",
+    "name": "Opener Jewel III [3]",
+    "description": "A decoration that grants the Opening Shot skill.",
+    "stats": {
+      "Opening Shot": "Lv3"
+    }
+  },
+  {
+    "slug": "openerblaze-jewel-3",
+    "name": "Opener/Blaze Jewel [3]",
+    "description": "A decoration that grants the Opening Shot and Fire Attack skills.",
+    "stats": {
+      "Opening Shot": "Lv3",
+      "Fire Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "openerstream-jwl-3",
+    "name": "Opener/Stream Jwl [3]",
+    "description": "A decoration that grants the Opening Shot and Water Attack skills.",
+    "stats": {
+      "Opening Shot": "Lv3",
+      "Water Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "openerfrost-jewel-3",
+    "name": "Opener/Frost Jewel [3]",
+    "description": "A decoration that grants the Opening Shot and Ice Attack skills.",
+    "stats": {
+      "Opening Shot": "Lv3",
+      "Ice Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "openerbolt-jewel-3",
+    "name": "Opener/Bolt Jewel [3]",
+    "description": "A decoration that grants the Opening Shot and Thunder Attack skills.",
+    "stats": {
+      "Opening Shot": "Lv3",
+      "Thunder Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "openerdragon-jewel-3",
+    "name": "Opener/Dragon Jewel [3]",
+    "description": "A decoration that grants the Opening Shot and Dragon Attack skills.",
+    "stats": {
+      "Opening Shot": "Lv3",
+      "Dragon Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "openerprecise-jewel-3",
+    "name": "Opener/Precise Jewel [3]",
+    "description": "A decoration that grants the Opening Shot and Ballistics skills.",
+    "stats": {
+      "Opening Shot": "Lv3",
+      "Ballistics": "Lv1"
+    }
+  },
+  {
+    "slug": "openerironwall-jwl-3",
+    "name": "Opener/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Opening Shot and Guard skills.",
+    "stats": {
+      "Opening Shot": "Lv3",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "bandolier-jewel-1",
+    "name": "Bandolier Jewel [1]",
+    "description": "A decoration that grants the Tetrad Shot skill.",
+    "stats": {
+      "Tetrad Shot": "Lv1"
+    }
+  },
+  {
+    "slug": "bandolier-jewel-ii-2",
+    "name": "Bandolier Jewel II [2]",
+    "description": "A decoration that grants the Tetrad Shot skill.",
+    "stats": {
+      "Tetrad Shot": "Lv2"
+    }
+  },
+  {
+    "slug": "bandolier-jewel-iii-3",
+    "name": "Bandolier Jewel III [3]",
+    "description": "A decoration that grants the Tetrad Shot skill.",
+    "stats": {
+      "Tetrad Shot": "Lv3"
+    }
+  },
+  {
+    "slug": "bandolierblaze-jwl-3",
+    "name": "Bandolier/Blaze Jwl [3]",
+    "description": "A decoration that grants the Tetrad Shot and Fire Attack skills.",
+    "stats": {
+      "Tetrad Shot": "Lv3",
+      "Fire Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "bandolierstream-jwl-3",
+    "name": "Bandolier/Stream Jwl [3]",
+    "description": "A decoration that grants the Tetrad Shot and Water Attack skills.",
+    "stats": {
+      "Tetrad Shot": "Lv3",
+      "Water Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "bandolierfrost-jwl-3",
+    "name": "Bandolier/Frost Jwl [3]",
+    "description": "A decoration that grants the Tetrad Shot and Ice Attack skills.",
+    "stats": {
+      "Tetrad Shot": "Lv3",
+      "Ice Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "bandolierbolt-jwl-3",
+    "name": "Bandolier/Bolt Jwl [3]",
+    "description": "A decoration that grants the Tetrad Shot and Thunder Attack skills.",
+    "stats": {
+      "Tetrad Shot": "Lv3",
+      "Thunder Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "bandolierdragon-jwl-3",
+    "name": "Bandolier/Dragon Jwl [3]",
+    "description": "A decoration that grants the Tetrad Shot and Dragon Attack skills.",
+    "stats": {
+      "Tetrad Shot": "Lv3",
+      "Dragon Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "bandolierprecise-jwl-3",
+    "name": "Bandolier/Precise Jwl [3]",
+    "description": "A decoration that grants the Tetrad Shot and Ballistics skills.",
+    "stats": {
+      "Tetrad Shot": "Lv3",
+      "Ballistics": "Lv1"
+    }
+  },
+  {
+    "slug": "bandolierironwall-jwl-3",
+    "name": "Bandolier/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Tetrad Shot and Guard skills.",
+    "stats": {
+      "Tetrad Shot": "Lv3",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "trueshot-jewel-1",
+    "name": "Trueshot Jewel [1]",
+    "description": "A decoration that grants the Special Ammo Boost skill.",
+    "stats": {
+      "Special Ammo Boost": "Lv1"
+    }
+  },
+  {
+    "slug": "trueshot-jewel-ii-2",
+    "name": "Trueshot Jewel II [2]",
+    "description": "A decoration that grants the Special Ammo Boost skill.",
+    "stats": {
+      "Special Ammo Boost": "Lv2"
+    }
+  },
+  {
+    "slug": "poisoncoat-jewel-2",
+    "name": "Poisoncoat Jewel [2]",
+    "description": "A decoration that grants the Poison Functionality skill.",
+    "stats": {
+      "Poison Functionality": "Lv1"
+    }
+  },
+  {
+    "slug": "paracoat-jewel-3",
+    "name": "Paracoat Jewel [3]",
+    "description": "A decoration that grants the Para Functionality skill.",
+    "stats": {
+      "Para Functionality": "Lv1"
+    }
+  },
+  {
+    "slug": "sleepcoat-jewel-3",
+    "name": "Sleepcoat Jewel [3]",
+    "description": "A decoration that grants the Sleep Functionality skill.",
+    "stats": {
+      "Sleep Functionality": "Lv1"
+    }
+  },
+  {
+    "slug": "blastcoat-jewel-2",
+    "name": "Blastcoat Jewel [2]",
+    "description": "A decoration that grants the Blast Functionality skill.",
+    "stats": {
+      "Blast Functionality": "Lv1"
+    }
+  },
+  {
+    "slug": "draincoat-jewel-2",
+    "name": "Draincoat Jewel [2]",
+    "description": "A decoration that grants the Exhaust Functionality skill.",
+    "stats": {
+      "Exhaust Functionality": "Lv1"
+    }
+  },
+  {
+    "slug": "defense-jewel-1",
+    "name": "Defense Jewel [1]",
+    "description": "A decoration that grants the Defense Boost skill.",
+    "stats": {
+      "Defense Boost": "Lv1"
+    }
+  },
+  {
+    "slug": "protection-jewel-1",
+    "name": "Protection Jewel [1]",
+    "description": "A decoration that grants the Divine Blessing skill.",
+    "stats": {
+      "Divine Blessing": "Lv1"
+    }
+  },
+  {
+    "slug": "fire-res-jewel-1",
+    "name": "Fire Res Jewel [1]",
+    "description": "A decoration that grants the Fire Resistance skill.",
+    "stats": {
+      "Fire Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "water-res-jewel-1",
+    "name": "Water Res Jewel [1]",
+    "description": "A decoration that grants the Water Resistance skill.",
+    "stats": {
+      "Water Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "thunder-res-jewel-1",
+    "name": "Thunder Res Jewel [1]",
+    "description": "A decoration that grants the Thunder Resistance skill.",
+    "stats": {
+      "Thunder Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "ice-res-jewel-1",
+    "name": "Ice Res Jewel [1]",
+    "description": "A decoration that grants the Ice Resistance skill.",
+    "stats": {
+      "Ice Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "dragon-res-jewel-1",
+    "name": "Dragon Res Jewel [1]",
+    "description": "A decoration that grants the Dragon Resistance skill.",
+    "stats": {
+      "Dragon Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "antidote-jewel-1",
+    "name": "Antidote Jewel [1]",
+    "description": "A decoration that grants the Poison Resistance skill.",
+    "stats": {
+      "Poison Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "antipara-jewel-1",
+    "name": "Antipara Jewel [1]",
+    "description": "A decoration that grants the Paralysis Resistance skill.",
+    "stats": {
+      "Paralysis Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "pep-jewel-1",
+    "name": "Pep Jewel [1]",
+    "description": "A decoration that grants the Sleep Resistance skill.",
+    "stats": {
+      "Sleep Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "def-lock-jewel-1",
+    "name": "Def Lock Jewel [1]",
+    "description": "A decoration that grants the Iron Skin skill.",
+    "stats": {
+      "Iron Skin": "Lv1"
+    }
+  },
+  {
+    "slug": "steadfast-jewel-1",
+    "name": "Steadfast Jewel [1]",
+    "description": "A decoration that grants the Stun Resistance skill.",
+    "stats": {
+      "Stun Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "suture-jewel-1",
+    "name": "Suture Jewel [1]",
+    "description": "A decoration that grants the Bleeding Resistance skill.",
+    "stats": {
+      "Bleeding Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "escape-jewel-1",
+    "name": "Escape Jewel [1]",
+    "description": "A decoration that grants the Bind Resistance skill.",
+    "stats": {
+      "Bind Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "antiblast-jewel-1",
+    "name": "Antiblast Jewel [1]",
+    "description": "A decoration that grants the Blast Resistance skill.",
+    "stats": {
+      "Blast Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "perfume-jewel-1",
+    "name": "Perfume Jewel [1]",
+    "description": "A decoration that grants the Stench Resistance skill.",
+    "stats": {
+      "Stench Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "adapt-jewel-1",
+    "name": "Adapt Jewel [1]",
+    "description": "A decoration that grants the Adaptability skill.",
+    "stats": {
+      "Adaptability": "Lv1"
+    }
+  },
+  {
+    "slug": "medicine-jewel-1",
+    "name": "Medicine Jewel [1]",
+    "description": "A decoration that grants the Recovery Up skill.",
+    "stats": {
+      "Recovery Up": "Lv1"
+    }
+  },
+  {
+    "slug": "recovery-jewel-1",
+    "name": "Recovery Jewel [1]",
+    "description": "A decoration that grants the Recovery Speed skill.",
+    "stats": {
+      "Recovery Speed": "Lv1"
+    }
+  },
+  {
+    "slug": "survival-jewel-1",
+    "name": "Survival Jewel [1]",
+    "description": "A decoration that grants the Survival Expert skill.",
+    "stats": {
+      "Survival Expert": "Lv1"
+    }
+  },
+  {
+    "slug": "physique-jewel-1",
+    "name": "Physique Jewel [1]",
+    "description": "A decoration that grants the Constitution skill.",
+    "stats": {
+      "Constitution": "Lv1"
+    }
+  },
+  {
+    "slug": "refresh-jewel-2",
+    "name": "Refresh Jewel [2]",
+    "description": "A decoration that grants the Stamina Surge skill.",
+    "stats": {
+      "Stamina Surge": "Lv1"
+    }
+  },
+  {
+    "slug": "sprinter-jewel-1",
+    "name": "Sprinter Jewel [1]",
+    "description": "A decoration that grants the Marathon Runner skill.",
+    "stats": {
+      "Marathon Runner": "Lv1"
+    }
+  },
+  {
+    "slug": "hungerless-jewel-1",
+    "name": "Hungerless Jewel [1]",
+    "description": "A decoration that grants the Hunger Resistance skill.",
+    "stats": {
+      "Hunger Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "challenger-jewel-3",
+    "name": "Challenger Jewel [3]",
+    "description": "A decoration that grants the Agitator skill.",
+    "stats": {
+      "Agitator": "Lv1"
+    }
+  },
+  {
+    "slug": "throttle-jewel-3",
+    "name": "Throttle Jewel [3]",
+    "description": "A decoration that grants the Latent Power skill.",
+    "stats": {
+      "Latent Power": "Lv1"
+    }
+  },
+  {
+    "slug": "potential-jewel-2",
+    "name": "Potential Jewel [2]",
+    "description": "A decoration that grants the Heroics skill.",
+    "stats": {
+      "Heroics": "Lv1"
+    }
+  },
+  {
+    "slug": "chain-jewel-3",
+    "name": "Chain Jewel [3]",
+    "description": "A decoration that grants the Burst skill.",
+    "stats": {
+      "Burst": "Lv1"
+    }
+  },
+  {
+    "slug": "foray-jewel-3",
+    "name": "Foray Jewel [3]",
+    "description": "A decoration that grants the Foray skill.",
+    "stats": {
+      "Foray": "Lv1"
+    }
+  },
+  {
+    "slug": "flayer-jewel-3",
+    "name": "Flayer Jewel [3]",
+    "description": "A decoration that grants the Flayer skill.",
+    "stats": {
+      "Flayer": "Lv1"
+    }
+  },
+  {
+    "slug": "focus-jewel-1",
+    "name": "Focus Jewel [1]",
+    "description": "A decoration that grants the Focus skill.",
+    "stats": {
+      "Focus": "Lv1"
+    }
+  },
+  {
+    "slug": "focus-jewel-ii-2",
+    "name": "Focus Jewel II [2]",
+    "description": "A decoration that grants the Focus skill.",
+    "stats": {
+      "Focus": "Lv2"
+    }
+  },
+  {
+    "slug": "focus-jewel-iii-3",
+    "name": "Focus Jewel III [3]",
+    "description": "A decoration that grants the Focus skill.",
+    "stats": {
+      "Focus": "Lv3"
+    }
+  },
+  {
+    "slug": "focusblaze-jewel-3",
+    "name": "Focus/Blaze Jewel [3]",
+    "description": "A decoration that grants the Focus and Fire Attack skills.",
+    "stats": {
+      "Focus": "Lv3",
+      "Fire Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "focusstream-jewel-3",
+    "name": "Focus/Stream Jewel [3]",
+    "description": "A decoration that grants the Focus and Water Attack skills.",
+    "stats": {
+      "Focus": "Lv3",
+      "Water Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "focusfrost-jewel-3",
+    "name": "Focus/Frost Jewel [3]",
+    "description": "A decoration that grants the Focus and Ice Attack skills.",
+    "stats": {
+      "Focus": "Lv3",
+      "Ice Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "focusbolt-jwl-3",
+    "name": "Focus/Bolt Jwl [3]",
+    "description": "A decoration that grants the Focus and Thunder Attack skills.",
+    "stats": {
+      "Focus": "Lv3",
+      "Thunder Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "focusdragon-jewel-3",
+    "name": "Focus/Dragon Jewel [3]",
+    "description": "A decoration that grants the Focus and Dragon Attack skills.",
+    "stats": {
+      "Focus": "Lv3",
+      "Dragon Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "focushandicraft-jewel-3",
+    "name": "Focus/Handicraft Jewel [3]",
+    "description": "A decoration that grants the Focus and Handicraft skills.",
+    "stats": {
+      "Focus": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "focusprecise-jewel-3",
+    "name": "Focus/Precise Jewel [3]",
+    "description": "A decoration that grants the Focus and Ballistics skills.",
+    "stats": {
+      "Focus": "Lv3",
+      "Ballistics": "Lv1"
+    }
+  },
+  {
+    "slug": "focusko-jewel-3",
+    "name": "Focus/KO Jewel [3]",
+    "description": "A decoration that grants the Focus and Slugger skills.",
+    "stats": {
+      "Focus": "Lv3",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "enhancer-jewel-1",
+    "name": "Enhancer Jewel [1]",
+    "description": "A decoration that grants the Power Prolonger skill.",
+    "stats": {
+      "Power Prolonger": "Lv1"
+    }
+  },
+  {
+    "slug": "enhancer-jewel-ii-2",
+    "name": "Enhancer Jewel II [2]",
+    "description": "A decoration that grants the Power Prolonger skill.",
+    "stats": {
+      "Power Prolonger": "Lv2"
+    }
+  },
+  {
+    "slug": "enhancer-jewel-iii-3",
+    "name": "Enhancer Jewel III [3]",
+    "description": "A decoration that grants the Power Prolonger skill.",
+    "stats": {
+      "Power Prolonger": "Lv3"
+    }
+  },
+  {
+    "slug": "enhancerblaze-jewel-3",
+    "name": "Enhancer/Blaze Jewel [3]",
+    "description": "A decoration that grants the Power Prolonger and Fire Attack skills.",
+    "stats": {
+      "Power Prolonger": "Lv3",
+      "Fire Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "enhancerstream-jwl-3",
+    "name": "Enhancer/Stream Jwl [3]",
+    "description": "A decoration that grants the Power Prolonger and Water Attack skills.",
+    "stats": {
+      "Power Prolonger": "Lv3",
+      "Water Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "enhancerfrost-jwl-3",
+    "name": "Enhancer/Frost Jwl [3]",
+    "description": "A decoration that grants the Power Prolonger and Ice Attack skills.",
+    "stats": {
+      "Power Prolonger": "Lv3",
+      "Ice Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "enhancerbolt-jewel-3",
+    "name": "Enhancer/Bolt Jewel [3]",
+    "description": "A decoration that grants the Power Prolonger and Thunder Attack skills.",
+    "stats": {
+      "Power Prolonger": "Lv3",
+      "Thunder Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "enhancerdragon-jwl-3",
+    "name": "Enhancer/Dragon Jwl [3]",
+    "description": "A decoration that grants the Power Prolonger and Dragon Attack skills.",
+    "stats": {
+      "Power Prolonger": "Lv3",
+      "Dragon Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "enhancerhandicraft-jwl-3",
+    "name": "Enhancer/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Power Prolonger and Handicraft skills.",
+    "stats": {
+      "Power Prolonger": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "gambit-jewel-1",
+    "name": "Gambit Jewel [1]",
+    "description": "A decoration that grants the Punishing Draw skill.",
+    "stats": {
+      "Punishing Draw": "Lv1"
+    }
+  },
+  {
+    "slug": "gambit-jewel-ii-2",
+    "name": "Gambit Jewel II [2]",
+    "description": "A decoration that grants the Punishing Draw skill.",
+    "stats": {
+      "Punishing Draw": "Lv2"
+    }
+  },
+  {
+    "slug": "gambit-jewel-iii-3",
+    "name": "Gambit Jewel III [3]",
+    "description": "A decoration that grants the Punishing Draw skill.",
+    "stats": {
+      "Punishing Draw": "Lv3"
+    }
+  },
+  {
+    "slug": "gambithandicraft-jwl-3",
+    "name": "Gambit/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Punishing Draw and Handicraft skills.",
+    "stats": {
+      "Punishing Draw": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "gambitko-jewel-3",
+    "name": "Gambit/KO Jewel [3]",
+    "description": "A decoration that grants the Punishing Draw and Slugger skills.",
+    "stats": {
+      "Punishing Draw": "Lv3",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "gambitironwall-jwl-3",
+    "name": "Gambit/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Punishing Draw and Guard skills.",
+    "stats": {
+      "Punishing Draw": "Lv3",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "ko-jewel-1",
+    "name": "KO Jewel [1]",
+    "description": "A decoration that grants the Slugger skill.",
+    "stats": {
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "ko-jewel-ii-2",
+    "name": "KO Jewel II [2]",
+    "description": "A decoration that grants the Slugger skill.",
+    "stats": {
+      "Slugger": "Lv2"
+    }
+  },
+  {
+    "slug": "ko-jewel-iii-3",
+    "name": "KO Jewel III [3]",
+    "description": "A decoration that grants the Slugger skill.",
+    "stats": {
+      "Slugger": "Lv3"
+    }
+  },
+  {
+    "slug": "drain-jewel-1",
+    "name": "Drain Jewel [1]",
+    "description": "A decoration that grants the Stamina Thief skill.",
+    "stats": {
+      "Stamina Thief": "Lv1"
+    }
+  },
+  {
+    "slug": "drain-jewel-ii-2",
+    "name": "Drain Jewel II [2]",
+    "description": "A decoration that grants the Stamina Thief skill.",
+    "stats": {
+      "Stamina Thief": "Lv2"
+    }
+  },
+  {
+    "slug": "drain-jewel-iii-3",
+    "name": "Drain Jewel III [3]",
+    "description": "A decoration that grants the Stamina Thief skill.",
+    "stats": {
+      "Stamina Thief": "Lv3"
+    }
+  },
+  {
+    "slug": "artillery-jewel-1",
+    "name": "Artillery Jewel [1]",
+    "description": "A decoration that grants the Artillery skill.",
+    "stats": {
+      "Artillery": "Lv1"
+    }
+  },
+  {
+    "slug": "artillery-jewel-ii-2",
+    "name": "Artillery Jewel II [2]",
+    "description": "A decoration that grants the Artillery skill.",
+    "stats": {
+      "Artillery": "Lv2"
+    }
+  },
+  {
+    "slug": "artillery-jewel-iii-3",
+    "name": "Artillery Jewel III [3]",
+    "description": "A decoration that grants the Artillery skill.",
+    "stats": {
+      "Artillery": "Lv3"
+    }
+  },
+  {
+    "slug": "quickswitch-jewel-1",
+    "name": "Quickswitch Jewel [1]",
+    "description": "A decoration that grants the Rapid Morph skill.",
+    "stats": {
+      "Rapid Morph": "Lv1"
+    }
+  },
+  {
+    "slug": "quickswitch-jewel-ii-2",
+    "name": "Quickswitch Jewel II [2]",
+    "description": "A decoration that grants the Rapid Morph skill.",
+    "stats": {
+      "Rapid Morph": "Lv2"
+    }
+  },
+  {
+    "slug": "quickswitch-jewel-iii-3",
+    "name": "Quickswitch Jewel III [3]",
+    "description": "A decoration that grants the Rapid Morph skill.",
+    "stats": {
+      "Rapid Morph": "Lv3"
+    }
+  },
+  {
+    "slug": "quickswitchblaze-jwl-3",
+    "name": "Quickswitch/Blaze Jwl [3]",
+    "description": "A decoration that grants the Rapid Morph and Fire Attack skills.",
+    "stats": {
+      "Rapid Morph": "Lv3",
+      "Fire Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "quickswitchstream-jwl-3",
+    "name": "Quickswitch/Stream Jwl [3]",
+    "description": "A decoration that grants the Rapid Morph and Water Attack skills.",
+    "stats": {
+      "Rapid Morph": "Lv3",
+      "Water Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "quickswitchfrost-jwl-3",
+    "name": "Quickswitch/Frost Jwl [3]",
+    "description": "A decoration that grants the Rapid Morph and Ice Attack skills.",
+    "stats": {
+      "Rapid Morph": "Lv3",
+      "Ice Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "quickswitchbolt-jwl-3",
+    "name": "Quickswitch/Bolt Jwl [3]",
+    "description": "A decoration that grants the Rapid Morph and Thunder Attack skills.",
+    "stats": {
+      "Rapid Morph": "Lv3",
+      "Thunder Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "quickswitchdragon-jwl-3",
+    "name": "Quickswitch/Dragon Jwl [3]",
+    "description": "A decoration that grants the Rapid Morph and Dragon Attack skills.",
+    "stats": {
+      "Rapid Morph": "Lv3",
+      "Dragon Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "quickswitchhandicraft-jwl-3",
+    "name": "Quickswitch/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Rapid Morph and Handicraft skills.",
+    "stats": {
+      "Rapid Morph": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "quickswitchko-jwl-3",
+    "name": "Quickswitch/KO Jwl [3]",
+    "description": "A decoration that grants the Rapid Morph and Slugger skills.",
+    "stats": {
+      "Rapid Morph": "Lv3",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "quickswitchironwall-jwl-3",
+    "name": "Quickswitch/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Rapid Morph and Guard skills.",
+    "stats": {
+      "Rapid Morph": "Lv3",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "destroyer-jewel-2",
+    "name": "Destroyer Jewel [2]",
+    "description": "A decoration that grants the Partbreaker skill.",
+    "stats": {
+      "Partbreaker": "Lv1"
+    }
+  },
+  {
+    "slug": "phoenix-jewel-2",
+    "name": "Phoenix Jewel [2]",
+    "description": "A decoration that grants the Coalescence skill.",
+    "stats": {
+      "Coalescence": "Lv1"
+    }
+  },
+  {
+    "slug": "ambush-jewel-2",
+    "name": "Ambush Jewel [2]",
+    "description": "A decoration that grants the Ambush skill.",
+    "stats": {
+      "Ambush": "Lv1"
+    }
+  },
+  {
+    "slug": "sane-jewel-1",
+    "name": "Sane Jewel [1]",
+    "description": "A decoration that grants the Antivirus skill.",
+    "stats": {
+      "Antivirus": "Lv1"
+    }
+  },
+  {
+    "slug": "sonorous-jewel-2",
+    "name": "Sonorous Jewel [2]",
+    "description": "A decoration that grants the Horn Maestro skill.",
+    "stats": {
+      "Horn Maestro": "Lv1"
+    }
+  },
+  {
+    "slug": "sonorousattack-jwl-3",
+    "name": "Sonorous/Attack Jwl [3]",
+    "description": "A decoration that grants the Horn Maestro and Attack Boost skills.",
+    "stats": {
+      "Horn Maestro": "Lv2",
+      "Attack Boost": "Lv1"
+    }
+  },
+  {
+    "slug": "sonorousexpert-jwl-3",
+    "name": "Sonorous/Expert Jwl [3]",
+    "description": "A decoration that grants the Horn Maestro and Critical Eye skills.",
+    "stats": {
+      "Horn Maestro": "Lv2",
+      "Critical Eye": "Lv1"
+    }
+  },
+  {
+    "slug": "sonorousdraw-jwl-3",
+    "name": "Sonorous/Draw Jwl [3]",
+    "description": "A decoration that grants the Horn Maestro and Critical Draw skills.",
+    "stats": {
+      "Horn Maestro": "Lv2",
+      "Critical Draw": "Lv1"
+    }
+  },
+  {
+    "slug": "sonoroushandicraft-jwl-3",
+    "name": "Sonorous/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Horn Maestro and Handicraft skills.",
+    "stats": {
+      "Horn Maestro": "Lv2",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "sonorousko-jewel-3",
+    "name": "Sonorous/KO Jewel [3]",
+    "description": "A decoration that grants the Horn Maestro and Slugger skills.",
+    "stats": {
+      "Horn Maestro": "Lv2",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "charge-up-jewel-2",
+    "name": "Charge Up Jewel [2]",
+    "description": "A decoration that grants the Charge Up skill.",
+    "stats": {
+      "Charge Up": "Lv1"
+    }
+  },
+  {
+    "slug": "charge-upattack-jwl-3",
+    "name": "Charge Up/Attack Jwl [3]",
+    "description": "A decoration that grants the Charge Up and Attack Boost skills.",
+    "stats": {
+      "Charge Up": "Lv1",
+      "Attack Boost": "Lv1"
+    }
+  },
+  {
+    "slug": "charge-upexpert-jwl-3",
+    "name": "Charge Up/Expert Jwl [3]",
+    "description": "A decoration that grants the Charge Up and Critical Eye skills.",
+    "stats": {
+      "Charge Up": "Lv1",
+      "Critical Eye": "Lv1"
+    }
+  },
+  {
+    "slug": "charge-updraw-jwl-3",
+    "name": "Charge Up/Draw Jwl [3]",
+    "description": "A decoration that grants the Charge Up and Critical Draw skills.",
+    "stats": {
+      "Charge Up": "Lv1",
+      "Critical Draw": "Lv1"
+    }
+  },
+  {
+    "slug": "charge-uphandicraft-jwl-3",
+    "name": "Charge Up/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Charge Up and Handicraft skills.",
+    "stats": {
+      "Charge Up": "Lv1",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "charge-upko-jewel-3",
+    "name": "Charge Up/KO Jewel [3]",
+    "description": "A decoration that grants the Charge Up and Slugger skills.",
+    "stats": {
+      "Charge Up": "Lv1",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "flight-jewel-2",
+    "name": "Flight Jewel [2]",
+    "description": "A decoration that grants the Airborne skill.",
+    "stats": {
+      "Airborne": "Lv1"
+    }
+  },
+  {
+    "slug": "flightattack-jwl-3",
+    "name": "Flight/Attack Jwl [3]",
+    "description": "A decoration that grants the Airborne and Attack Boost skills.",
+    "stats": {
+      "Airborne": "Lv1",
+      "Attack Boost": "Lv1"
+    }
+  },
+  {
+    "slug": "flightexpert-jewel-3",
+    "name": "Flight/Expert Jewel [3]",
+    "description": "A decoration that grants the Airborne and Critical Eye skills.",
+    "stats": {
+      "Airborne": "Lv1",
+      "Critical Eye": "Lv1"
+    }
+  },
+  {
+    "slug": "flightdraw-jewel-3",
+    "name": "Flight/Draw Jewel [3]",
+    "description": "A decoration that grants the Airborne and Critical Draw skills.",
+    "stats": {
+      "Airborne": "Lv1",
+      "Critical Draw": "Lv1"
+    }
+  },
+  {
+    "slug": "flighthandicraft-jwl-3",
+    "name": "Flight/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Airborne and Handicraft skills.",
+    "stats": {
+      "Airborne": "Lv1",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "growth-jewel-1",
+    "name": "Growth Jewel [1]",
+    "description": "A decoration that grants the Self-Improvement skill.",
+    "stats": {
+      "Self-Improvement": "Lv1"
+    }
+  },
+  {
+    "slug": "poison-jewel-2",
+    "name": "Poison Jewel [2]",
+    "description": "A decoration that grants the Poison Duration Up skill.",
+    "stats": {
+      "Poison Duration Up": "Lv1"
+    }
+  },
+  {
+    "slug": "poisonattack-jewel-3",
+    "name": "Poison/Attack Jewel [3]",
+    "description": "A decoration that grants the Poison Duration Up and Attack Boost skills.",
+    "stats": {
+      "Poison Duration Up": "Lv1",
+      "Attack Boost": "Lv1"
+    }
+  },
+  {
+    "slug": "poisonexpert-jwl-3",
+    "name": "Poison/Expert Jwl [3]",
+    "description": "A decoration that grants the Poison Duration Up and Critical Eye skills.",
+    "stats": {
+      "Poison Duration Up": "Lv1",
+      "Critical Eye": "Lv1"
+    }
+  },
+  {
+    "slug": "poisondraw-jewel-3",
+    "name": "Poison/Draw Jewel [3]",
+    "description": "A decoration that grants the Poison Duration Up and Critical Draw skills.",
+    "stats": {
+      "Poison Duration Up": "Lv1",
+      "Critical Draw": "Lv1"
+    }
+  },
+  {
+    "slug": "poisonhandicraft-jwl-3",
+    "name": "Poison/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Poison Duration Up and Handicraft skills.",
+    "stats": {
+      "Poison Duration Up": "Lv1",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "poisonprecise-jwl-3",
+    "name": "Poison/Precise Jwl [3]",
+    "description": "A decoration that grants the Poison Duration Up and Ballistics skills.",
+    "stats": {
+      "Poison Duration Up": "Lv1",
+      "Ballistics": "Lv1"
+    }
+  },
+  {
+    "slug": "poisonko-jewel-3",
+    "name": "Poison/KO Jewel [3]",
+    "description": "A decoration that grants the Poison Duration Up and Slugger skills.",
+    "stats": {
+      "Poison Duration Up": "Lv1",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "poisonironwall-jwl-3",
+    "name": "Poison/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Poison Duration Up and Guard skills.",
+    "stats": {
+      "Poison Duration Up": "Lv1",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "ironwall-jewel-1",
+    "name": "Ironwall Jewel [1]",
+    "description": "A decoration that grants the Guard skill.",
+    "stats": {
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "ironwall-jewel-ii-2",
+    "name": "Ironwall Jewel II [2]",
+    "description": "A decoration that grants the Guard skill.",
+    "stats": {
+      "Guard": "Lv2"
+    }
+  },
+  {
+    "slug": "ironwall-jewel-iii-3",
+    "name": "Ironwall Jewel III [3]",
+    "description": "A decoration that grants the Guard skill.",
+    "stats": {
+      "Guard": "Lv3"
+    }
+  },
+  {
+    "slug": "evasion-jewel-2",
+    "name": "Evasion Jewel [2]",
+    "description": "A decoration that grants the Evade Window skill.",
+    "stats": {
+      "Evade Window": "Lv1"
+    }
+  },
+  {
+    "slug": "jumping-jewel-2",
+    "name": "Jumping Jewel [2]",
+    "description": "A decoration that grants the Evade Extender skill.",
+    "stats": {
+      "Evade Extender": "Lv1"
+    }
+  },
+  {
+    "slug": "earplugs-jewel-2",
+    "name": "Earplugs Jewel [2]",
+    "description": "A decoration that grants the Earplugs skill.",
+    "stats": {
+      "Earplugs": "Lv1"
+    }
+  },
+  {
+    "slug": "shield-jewel-1",
+    "name": "Shield Jewel [1]",
+    "description": "A decoration that grants the Guard Up skill.",
+    "stats": {
+      "Guard Up": "Lv1"
+    }
+  },
+  {
+    "slug": "shield-jewel-ii-2",
+    "name": "Shield Jewel II [2]",
+    "description": "A decoration that grants the Guard Up skill.",
+    "stats": {
+      "Guard Up": "Lv2"
+    }
+  },
+  {
+    "slug": "shield-jewel-iii-3",
+    "name": "Shield Jewel III [3]",
+    "description": "A decoration that grants the Guard Up skill.",
+    "stats": {
+      "Guard Up": "Lv3"
+    }
+  },
+  {
+    "slug": "shieldblaze-jewel-3",
+    "name": "Shield/Blaze Jewel [3]",
+    "description": "A decoration that grants the Guard Up and Fire Attack skills.",
+    "stats": {
+      "Guard Up": "Lv3",
+      "Fire Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "shieldstream-jewel-3",
+    "name": "Shield/Stream Jewel [3]",
+    "description": "A decoration that grants the Guard Up and Water Attack skills.",
+    "stats": {
+      "Guard Up": "Lv3",
+      "Water Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "shieldfrost-jewel-3",
+    "name": "Shield/Frost Jewel [3]",
+    "description": "A decoration that grants the Guard Up and Ice Attack skills.",
+    "stats": {
+      "Guard Up": "Lv3",
+      "Ice Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "shieldbolt-jewel-3",
+    "name": "Shield/Bolt Jewel [3]",
+    "description": "A decoration that grants the Guard Up and Thunder Attack skills.",
+    "stats": {
+      "Guard Up": "Lv3",
+      "Thunder Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "shielddragon-jwl-3",
+    "name": "Shield/Dragon Jwl [3]",
+    "description": "A decoration that grants the Guard Up and Dragon Attack skills.",
+    "stats": {
+      "Guard Up": "Lv3",
+      "Dragon Attack": "Lv1"
+    }
+  },
+  {
+    "slug": "shieldhandicraft-jwl-3",
+    "name": "Shield/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Guard Up and Handicraft skills.",
+    "stats": {
+      "Guard Up": "Lv3",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "shieldironwall-jwl-3",
+    "name": "Shield/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Guard Up and Guard skills.",
+    "stats": {
+      "Guard Up": "Lv3",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "sheath-jewel-1",
+    "name": "Sheath Jewel [1]",
+    "description": "A decoration that grants the Quick Sheathe skill.",
+    "stats": {
+      "Quick Sheathe": "Lv1"
+    }
+  },
+  {
+    "slug": "wind-resist-jewel-1",
+    "name": "Wind Resist Jewel [1]",
+    "description": "A decoration that grants the Windproof skill.",
+    "stats": {
+      "Windproof": "Lv1"
+    }
+  },
+  {
+    "slug": "footing-jewel-1",
+    "name": "Footing Jewel [1]",
+    "description": "A decoration that grants the Tremor Resistance skill.",
+    "stats": {
+      "Tremor Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "brace-jewel-1",
+    "name": "Brace Jewel [1]",
+    "description": "A decoration that grants the Flinch Free skill.",
+    "stats": {
+      "Flinch Free": "Lv1"
+    }
+  },
+  {
+    "slug": "intimidator-jewel-1",
+    "name": "Intimidator Jewel [1]",
+    "description": "A decoration that grants the Intimidator skill.",
+    "stats": {
+      "Intimidator": "Lv1"
+    }
+  },
+  {
+    "slug": "gobbler-jewel-1",
+    "name": "Gobbler Jewel [1]",
+    "description": "A decoration that grants the Speed Eating skill.",
+    "stats": {
+      "Speed Eating": "Lv1"
+    }
+  },
+  {
+    "slug": "magazine-jewel-1",
+    "name": "Magazine Jewel [1]",
+    "description": "A decoration that grants the Load Shells skill.",
+    "stats": {
+      "Load Shells": "Lv1"
+    }
+  },
+  {
+    "slug": "magazine-jewel-ii-2",
+    "name": "Magazine Jewel II [2]",
+    "description": "A decoration that grants the Load Shells skill.",
+    "stats": {
+      "Load Shells": "Lv2"
+    }
+  },
+  {
+    "slug": "magazineattack-jwl-3",
+    "name": "Magazine/Attack Jwl [3]",
+    "description": "A decoration that grants the Load Shells and Attack Boost skills.",
+    "stats": {
+      "Load Shells": "Lv2",
+      "Attack Boost": "Lv1"
+    }
+  },
+  {
+    "slug": "magazineexpert-jwl-3",
+    "name": "Magazine/Expert Jwl [3]",
+    "description": "A decoration that grants the Load Shells and Critical Eye skills.",
+    "stats": {
+      "Load Shells": "Lv2",
+      "Critical Eye": "Lv1"
+    }
+  },
+  {
+    "slug": "magazinedraw-jwl-3",
+    "name": "Magazine/Draw Jwl [3]",
+    "description": "A decoration that grants the Load Shells and Critical Draw skills.",
+    "stats": {
+      "Load Shells": "Lv2",
+      "Critical Draw": "Lv1"
+    }
+  },
+  {
+    "slug": "magazinehandicraft-jwl-3",
+    "name": "Magazine/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Load Shells and Handicraft skills.",
+    "stats": {
+      "Load Shells": "Lv2",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "magazineironwall-jwl-3",
+    "name": "Magazine/Ironwall Jwl [3]",
+    "description": "A decoration that grants the Load Shells and Guard skills.",
+    "stats": {
+      "Load Shells": "Lv2",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "mirewalker-jewel-1",
+    "name": "Mirewalker Jewel [1]",
+    "description": "A decoration that grants the Aquatic/Oilsilt Mobility skill.",
+    "stats": {
+      "Aquatic/Oilsilt Mobility": "Lv1"
+    }
+  },
+  {
+    "slug": "shockproof-jewel-1",
+    "name": "Shockproof Jewel [1]",
+    "description": "A decoration that grants the Shock Absorber skill.",
+    "stats": {
+      "Shock Absorber": "Lv1"
+    }
+  },
+  {
+    "slug": "dive-jewel-1",
+    "name": "Dive Jewel [1]",
+    "description": "A decoration that grants the Leap of Faith skill.",
+    "stats": {
+      "Leap of Faith": "Lv1"
+    }
+  },
+  {
+    "slug": "leap-jewel-1",
+    "name": "Leap Jewel [1]",
+    "description": "A decoration that grants the Jump Master skill.",
+    "stats": {
+      "Jump Master": "Lv1"
+    }
+  },
+  {
+    "slug": "climber-jewel-1",
+    "name": "Climber Jewel [1]",
+    "description": "A decoration that grants the Cliffhanger skill.",
+    "stats": {
+      "Cliffhanger": "Lv1"
+    }
+  },
+  {
+    "slug": "friendship-jewel-1",
+    "name": "Friendship Jewel [1]",
+    "description": "A decoration that grants the Wide-Range skill.",
+    "stats": {
+      "Wide-Range": "Lv1"
+    }
+  },
+  {
+    "slug": "maintenance-jewel-2",
+    "name": "Maintenance Jewel [2]",
+    "description": "A decoration that grants the Tool Specialist skill.",
+    "stats": {
+      "Tool Specialist": "Lv1"
+    }
+  },
+  {
+    "slug": "bomber-jewel-1",
+    "name": "Bomber Jewel [1]",
+    "description": "A decoration that grants the Bombardier skill.",
+    "stats": {
+      "Bombardier": "Lv1"
+    }
+  },
+  {
+    "slug": "fungiform-jewel-2",
+    "name": "Fungiform Jewel [2]",
+    "description": "A decoration that grants the Mushroomancer skill.",
+    "stats": {
+      "Mushroomancer": "Lv1"
+    }
+  },
+  {
+    "slug": "enduring-jewel-1",
+    "name": "Enduring Jewel [1]",
+    "description": "A decoration that grants the Item Prolonger skill.",
+    "stats": {
+      "Item Prolonger": "Lv1"
+    }
+  },
+  {
+    "slug": "satiated-jewel-1",
+    "name": "Satiated Jewel [1]",
+    "description": "A decoration that grants the Free Meal skill.",
+    "stats": {
+      "Free Meal": "Lv1"
+    }
+  },
+  {
+    "slug": "grinder-jewel-1",
+    "name": "Grinder Jewel [1]",
+    "description": "A decoration that grants the Speed Sharpening skill.",
+    "stats": {
+      "Speed Sharpening": "Lv1"
+    }
+  },
+  {
+    "slug": "grinder-jewel-ii-2",
+    "name": "Grinder Jewel II [2]",
+    "description": "A decoration that grants the Speed Sharpening skill.",
+    "stats": {
+      "Speed Sharpening": "Lv2"
+    }
+  },
+  {
+    "slug": "grinderattack-jewel-3",
+    "name": "Grinder/Attack Jewel [3]",
+    "description": "A decoration that grants the Speed Sharpening and Attack Boost skills.",
+    "stats": {
+      "Speed Sharpening": "Lv2",
+      "Attack Boost": "Lv1"
+    }
+  },
+  {
+    "slug": "grinderexpert-jewel-3",
+    "name": "Grinder/Expert Jewel [3]",
+    "description": "A decoration that grants the Speed Sharpening and Critical Eye skills.",
+    "stats": {
+      "Speed Sharpening": "Lv2",
+      "Critical Eye": "Lv1"
+    }
+  },
+  {
+    "slug": "grinderdraw-jewel-3",
+    "name": "Grinder/Draw Jewel [3]",
+    "description": "A decoration that grants the Speed Sharpening and Critical Draw skills.",
+    "stats": {
+      "Speed Sharpening": "Lv2",
+      "Critical Draw": "Lv1"
+    }
+  },
+  {
+    "slug": "grinderhandicraft-jwl-3",
+    "name": "Grinder/Handicraft Jwl [3]",
+    "description": "A decoration that grants the Speed Sharpening and Handicraft skills.",
+    "stats": {
+      "Speed Sharpening": "Lv2",
+      "Handicraft": "Lv1"
+    }
+  },
+  {
+    "slug": "grinderko-jewel-3",
+    "name": "Grinder/KO Jewel [3]",
+    "description": "A decoration that grants the Speed Sharpening and Slugger skills.",
+    "stats": {
+      "Speed Sharpening": "Lv2",
+      "Slugger": "Lv1"
+    }
+  },
+  {
+    "slug": "grinderironwall-jewel-3",
+    "name": "Grinder/Ironwall Jewel [3]",
+    "description": "A decoration that grants the Speed Sharpening and Guard skills.",
+    "stats": {
+      "Speed Sharpening": "Lv2",
+      "Guard": "Lv1"
+    }
+  },
+  {
+    "slug": "flash-jewel-1",
+    "name": "Flash Jewel [1]",
+    "description": "A decoration that grants the Blindsider skill.",
+    "stats": {
+      "Blindsider": "Lv1"
+    }
+  },
+  {
+    "slug": "botany-jewel-1",
+    "name": "Botany Jewel [1]",
+    "description": "A decoration that grants the Botanist skill.",
+    "stats": {
+      "Botanist": "Lv1"
+    }
+  },
+  {
+    "slug": "geology-jewel-1",
+    "name": "Geology Jewel [1]",
+    "description": "A decoration that grants the Geologist skill.",
+    "stats": {
+      "Geologist": "Lv1"
+    }
+  },
+  {
+    "slug": "specimen-jewel-1",
+    "name": "Specimen Jewel [1]",
+    "description": "A decoration that grants the Entomologist skill.",
+    "stats": {
+      "Entomologist": "Lv1"
+    }
+  },
+  {
+    "slug": "ranger-jewel-1",
+    "name": "Ranger Jewel [1]",
+    "description": "A decoration that grants the Outdoorsman skill.",
+    "stats": {
+      "Outdoorsman": "Lv1"
+    }
+  }
+]

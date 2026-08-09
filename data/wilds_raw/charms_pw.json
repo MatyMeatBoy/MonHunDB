@@ -1,0 +1,1475 @@
+[
+  {
+    "slug": "marathon-charm-i",
+    "name": "Marathon Charm I",
+    "description": "A charm that grants the Marathon Runner skill.",
+    "stats": {
+      "Marathon Runner": "Lv1"
+    }
+  },
+  {
+    "slug": "marathon-charm-ii",
+    "name": "Marathon Charm II",
+    "description": "A charm that grants the Marathon Runner skill.",
+    "stats": {
+      "Marathon Runner": "Lv2"
+    }
+  },
+  {
+    "slug": "marathon-charm-iii",
+    "name": "Marathon Charm III",
+    "description": "A charm that grants the Marathon Runner skill.",
+    "stats": {
+      "Marathon Runner": "Lv3"
+    }
+  },
+  {
+    "slug": "fitness-charm-i",
+    "name": "Fitness Charm I",
+    "description": "A charm that grants the Constitution skill.",
+    "stats": {
+      "Constitution": "Lv1"
+    }
+  },
+  {
+    "slug": "fitness-charm-ii",
+    "name": "Fitness Charm II",
+    "description": "A charm that grants the Constitution skill.",
+    "stats": {
+      "Constitution": "Lv2"
+    }
+  },
+  {
+    "slug": "fitness-charm-iii",
+    "name": "Fitness Charm III",
+    "description": "A charm that grants the Constitution skill.",
+    "stats": {
+      "Constitution": "Lv3"
+    }
+  },
+  {
+    "slug": "fitness-charm-iv",
+    "name": "Fitness Charm IV",
+    "description": "A charm that grants the Constitution skill.",
+    "stats": {
+      "Constitution": "Lv4"
+    }
+  },
+  {
+    "slug": "fitness-charm-v",
+    "name": "Fitness Charm V",
+    "description": "A charm that grants the Constitution skill.",
+    "stats": {
+      "Constitution": "Lv5"
+    }
+  },
+  {
+    "slug": "sheathe-charm-i",
+    "name": "Sheathe Charm I",
+    "description": "A charm that grants the Quick Sheathe skill.",
+    "stats": {
+      "Quick Sheathe": "Lv1"
+    }
+  },
+  {
+    "slug": "sheathe-charm-ii",
+    "name": "Sheathe Charm II",
+    "description": "A charm that grants the Quick Sheathe skill.",
+    "stats": {
+      "Quick Sheathe": "Lv2"
+    }
+  },
+  {
+    "slug": "sheathe-charm-iii",
+    "name": "Sheathe Charm III",
+    "description": "A charm that grants the Quick Sheathe skill.",
+    "stats": {
+      "Quick Sheathe": "Lv3"
+    }
+  },
+  {
+    "slug": "challenger-charm-i",
+    "name": "Challenger Charm I",
+    "description": "A charm that grants the Agitator skill.",
+    "stats": {
+      "Agitator": "Lv1"
+    }
+  },
+  {
+    "slug": "challenger-charm-ii",
+    "name": "Challenger Charm II",
+    "description": "A charm that grants the Agitator skill.",
+    "stats": {
+      "Agitator": "Lv2"
+    }
+  },
+  {
+    "slug": "challenger-charm-iii",
+    "name": "Challenger Charm III",
+    "description": "A charm that grants the Agitator skill.",
+    "stats": {
+      "Agitator": "Lv3"
+    }
+  },
+  {
+    "slug": "unscathed-charm-i",
+    "name": "Unscathed Charm I",
+    "description": "A charm that grants the Peak Performance skill.",
+    "stats": {
+      "Peak Performance": "Lv1"
+    }
+  },
+  {
+    "slug": "unscathed-charm-ii",
+    "name": "Unscathed Charm II",
+    "description": "A charm that grants the Peak Performance skill.",
+    "stats": {
+      "Peak Performance": "Lv2"
+    }
+  },
+  {
+    "slug": "unscathed-charm-iii",
+    "name": "Unscathed Charm III",
+    "description": "A charm that grants the Peak Performance skill.",
+    "stats": {
+      "Peak Performance": "Lv3"
+    }
+  },
+  {
+    "slug": "fury-charm-i",
+    "name": "Fury Charm I",
+    "description": "A charm that grants the Resentment skill.",
+    "stats": {
+      "Resentment": "Lv1"
+    }
+  },
+  {
+    "slug": "fury-charm-ii",
+    "name": "Fury Charm II",
+    "description": "A charm that grants the Resentment skill.",
+    "stats": {
+      "Resentment": "Lv2"
+    }
+  },
+  {
+    "slug": "fury-charm-iii",
+    "name": "Fury Charm III",
+    "description": "A charm that grants the Resentment skill.",
+    "stats": {
+      "Resentment": "Lv3"
+    }
+  },
+  {
+    "slug": "exploiter-charm-i",
+    "name": "Exploiter Charm I",
+    "description": "A charm that grants the Weakness Exploit skill.",
+    "stats": {
+      "Weakness Exploit": "Lv1"
+    }
+  },
+  {
+    "slug": "exploiter-charm-ii",
+    "name": "Exploiter Charm II",
+    "description": "A charm that grants the Weakness Exploit skill.",
+    "stats": {
+      "Weakness Exploit": "Lv2"
+    }
+  },
+  {
+    "slug": "power-charm-i",
+    "name": "Power Charm I",
+    "description": "A charm that grants the Latent Power skill.",
+    "stats": {
+      "Latent Power": "Lv1"
+    }
+  },
+  {
+    "slug": "power-charm-ii",
+    "name": "Power Charm II",
+    "description": "A charm that grants the Latent Power skill.",
+    "stats": {
+      "Latent Power": "Lv2"
+    }
+  },
+  {
+    "slug": "power-charm-iii",
+    "name": "Power Charm III",
+    "description": "A charm that grants the Latent Power skill.",
+    "stats": {
+      "Latent Power": "Lv3"
+    }
+  },
+  {
+    "slug": "mighty-charm-i",
+    "name": "Mighty Charm I",
+    "description": "A charm that grants the Maximum Might skill.",
+    "stats": {
+      "Maximum Might": "Lv1"
+    }
+  },
+  {
+    "slug": "mighty-charm-ii",
+    "name": "Mighty Charm II",
+    "description": "A charm that grants the Maximum Might skill.",
+    "stats": {
+      "Maximum Might": "Lv2"
+    }
+  },
+  {
+    "slug": "mighty-charm-iii",
+    "name": "Mighty Charm III",
+    "description": "A charm that grants the Maximum Might skill.",
+    "stats": {
+      "Maximum Might": "Lv3"
+    }
+  },
+  {
+    "slug": "surge-charm-i",
+    "name": "Surge Charm I",
+    "description": "A charm that grants the Stamina Surge skill.",
+    "stats": {
+      "Stamina Surge": "Lv1"
+    }
+  },
+  {
+    "slug": "surge-charm-ii",
+    "name": "Surge Charm II",
+    "description": "A charm that grants the Stamina Surge skill.",
+    "stats": {
+      "Stamina Surge": "Lv2"
+    }
+  },
+  {
+    "slug": "surge-charm-iii",
+    "name": "Surge Charm III",
+    "description": "A charm that grants the Stamina Surge skill.",
+    "stats": {
+      "Stamina Surge": "Lv3"
+    }
+  },
+  {
+    "slug": "defense-charm-i",
+    "name": "Defense Charm I",
+    "description": "A charm that grants the Defense Boost skill.",
+    "stats": {
+      "Defense Boost": "Lv1"
+    }
+  },
+  {
+    "slug": "defense-charm-ii",
+    "name": "Defense Charm II",
+    "description": "A charm that grants the Defense Boost skill.",
+    "stats": {
+      "Defense Boost": "Lv2"
+    }
+  },
+  {
+    "slug": "defense-charm-iii",
+    "name": "Defense Charm III",
+    "description": "A charm that grants the Defense Boost skill.",
+    "stats": {
+      "Defense Boost": "Lv3"
+    }
+  },
+  {
+    "slug": "defense-charm-iv",
+    "name": "Defense Charm IV",
+    "description": "A charm that grants the Defense Boost skill.",
+    "stats": {
+      "Defense Boost": "Lv4"
+    }
+  },
+  {
+    "slug": "defense-charm-v",
+    "name": "Defense Charm V",
+    "description": "A charm that grants the Defense Boost skill.",
+    "stats": {
+      "Defense Boost": "Lv5"
+    }
+  },
+  {
+    "slug": "blessing-charm-i",
+    "name": "Blessing Charm I",
+    "description": "A charm that grants the Divine Blessing skill.",
+    "stats": {
+      "Divine Blessing": "Lv1"
+    }
+  },
+  {
+    "slug": "blessing-charm-ii",
+    "name": "Blessing Charm II",
+    "description": "A charm that grants the Divine Blessing skill.",
+    "stats": {
+      "Divine Blessing": "Lv2"
+    }
+  },
+  {
+    "slug": "blessing-charm-iii",
+    "name": "Blessing Charm III",
+    "description": "A charm that grants the Divine Blessing skill.",
+    "stats": {
+      "Divine Blessing": "Lv3"
+    }
+  },
+  {
+    "slug": "recovery-charm-i",
+    "name": "Recovery Charm I",
+    "description": "A charm that grants the Recovery Up skill.",
+    "stats": {
+      "Recovery Up": "Lv1"
+    }
+  },
+  {
+    "slug": "recovery-charm-ii",
+    "name": "Recovery Charm II",
+    "description": "A charm that grants the Recovery Up skill.",
+    "stats": {
+      "Recovery Up": "Lv2"
+    }
+  },
+  {
+    "slug": "recovery-charm-iii",
+    "name": "Recovery Charm III",
+    "description": "A charm that grants the Recovery Up skill.",
+    "stats": {
+      "Recovery Up": "Lv3"
+    }
+  },
+  {
+    "slug": "speed-heal-charm-i",
+    "name": "Speed Heal Charm I",
+    "description": "A charm that grants the Recovery Speed skill.",
+    "stats": {
+      "Recovery Speed": "Lv1"
+    }
+  },
+  {
+    "slug": "speed-heal-charm-ii",
+    "name": "Speed Heal Charm II",
+    "description": "A charm that grants the Recovery Speed skill.",
+    "stats": {
+      "Recovery Speed": "Lv2"
+    }
+  },
+  {
+    "slug": "speed-heal-charm-iii",
+    "name": "Speed Heal Charm III",
+    "description": "A charm that grants the Recovery Speed skill.",
+    "stats": {
+      "Recovery Speed": "Lv3"
+    }
+  },
+  {
+    "slug": "gluttons-charm-i",
+    "name": "Glutton's Charm I",
+    "description": "A charm that grants the Speed Eating skill.",
+    "stats": {
+      "Speed Eating": "Lv1"
+    }
+  },
+  {
+    "slug": "gluttons-charm-ii",
+    "name": "Glutton's Charm II",
+    "description": "A charm that grants the Speed Eating skill.",
+    "stats": {
+      "Speed Eating": "Lv2"
+    }
+  },
+  {
+    "slug": "gluttons-charm-iii",
+    "name": "Glutton's Charm III",
+    "description": "A charm that grants the Speed Eating skill.",
+    "stats": {
+      "Speed Eating": "Lv3"
+    }
+  },
+  {
+    "slug": "earplugs-charm-i",
+    "name": "Earplugs Charm I",
+    "description": "A charm that grants the Earplugs skill.",
+    "stats": {
+      "Earplugs": "Lv1"
+    }
+  },
+  {
+    "slug": "earplugs-charm-ii",
+    "name": "Earplugs Charm II",
+    "description": "A charm that grants the Earplugs skill.",
+    "stats": {
+      "Earplugs": "Lv2"
+    }
+  },
+  {
+    "slug": "windproof-charm-i",
+    "name": "Windproof Charm I",
+    "description": "A charm that grants the Windproof skill.",
+    "stats": {
+      "Windproof": "Lv1"
+    }
+  },
+  {
+    "slug": "windproof-charm-ii",
+    "name": "Windproof Charm II",
+    "description": "A charm that grants the Windproof skill.",
+    "stats": {
+      "Windproof": "Lv2"
+    }
+  },
+  {
+    "slug": "windproof-charm-iii",
+    "name": "Windproof Charm III",
+    "description": "A charm that grants the Windproof skill.",
+    "stats": {
+      "Windproof": "Lv3"
+    }
+  },
+  {
+    "slug": "tremor-charm-i",
+    "name": "Tremor Charm I",
+    "description": "A charm that grants the Tremor Resistance skill.",
+    "stats": {
+      "Tremor Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "tremor-charm-ii",
+    "name": "Tremor Charm II",
+    "description": "A charm that grants the Tremor Resistance skill.",
+    "stats": {
+      "Tremor Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "tremor-charm-iii",
+    "name": "Tremor Charm III",
+    "description": "A charm that grants the Tremor Resistance skill.",
+    "stats": {
+      "Tremor Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "evasion-charm-i",
+    "name": "Evasion Charm I",
+    "description": "A charm that grants the Evade Window skill.",
+    "stats": {
+      "Evade Window": "Lv1"
+    }
+  },
+  {
+    "slug": "evasion-charm-ii",
+    "name": "Evasion Charm II",
+    "description": "A charm that grants the Evade Window skill.",
+    "stats": {
+      "Evade Window": "Lv2"
+    }
+  },
+  {
+    "slug": "evasion-charm-iii",
+    "name": "Evasion Charm III",
+    "description": "A charm that grants the Evade Window skill.",
+    "stats": {
+      "Evade Window": "Lv3"
+    }
+  },
+  {
+    "slug": "evasion-charm-iv",
+    "name": "Evasion Charm IV",
+    "description": "A charm that grants the Evade Window skill.",
+    "stats": {
+      "Evade Window": "Lv4"
+    }
+  },
+  {
+    "slug": "leaping-charm-i",
+    "name": "Leaping Charm I",
+    "description": "A charm that grants the Evade Extender skill.",
+    "stats": {
+      "Evade Extender": "Lv1"
+    }
+  },
+  {
+    "slug": "leaping-charm-ii",
+    "name": "Leaping Charm II",
+    "description": "A charm that grants the Evade Extender skill.",
+    "stats": {
+      "Evade Extender": "Lv2"
+    }
+  },
+  {
+    "slug": "leaping-charm-iii",
+    "name": "Leaping Charm III",
+    "description": "A charm that grants the Evade Extender skill.",
+    "stats": {
+      "Evade Extender": "Lv3"
+    }
+  },
+  {
+    "slug": "fire-charm-i",
+    "name": "Fire Charm I",
+    "description": "A charm that grants the Fire Resistance skill.",
+    "stats": {
+      "Fire Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "fire-charm-ii",
+    "name": "Fire Charm II",
+    "description": "A charm that grants the Fire Resistance skill.",
+    "stats": {
+      "Fire Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "fire-charm-iii",
+    "name": "Fire Charm III",
+    "description": "A charm that grants the Fire Resistance skill.",
+    "stats": {
+      "Fire Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "water-charm-i",
+    "name": "Water Charm I",
+    "description": "A charm that grants the Water Resistance skill.",
+    "stats": {
+      "Water Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "water-charm-ii",
+    "name": "Water Charm II",
+    "description": "A charm that grants the Water Resistance skill.",
+    "stats": {
+      "Water Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "water-charm-iii",
+    "name": "Water Charm III",
+    "description": "A charm that grants the Water Resistance skill.",
+    "stats": {
+      "Water Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "thunder-charm-i",
+    "name": "Thunder Charm I",
+    "description": "A charm that grants the Thunder Resistance skill.",
+    "stats": {
+      "Thunder Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "thunder-charm-ii",
+    "name": "Thunder Charm II",
+    "description": "A charm that grants the Thunder Resistance skill.",
+    "stats": {
+      "Thunder Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "thunder-charm-iii",
+    "name": "Thunder Charm III",
+    "description": "A charm that grants the Thunder Resistance skill.",
+    "stats": {
+      "Thunder Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "ice-charm-i",
+    "name": "Ice Charm I",
+    "description": "A charm that grants the Ice Resistance skill.",
+    "stats": {
+      "Ice Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "ice-charm-ii",
+    "name": "Ice Charm II",
+    "description": "A charm that grants the Ice Resistance skill.",
+    "stats": {
+      "Ice Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "ice-charm-iii",
+    "name": "Ice Charm III",
+    "description": "A charm that grants the Ice Resistance skill.",
+    "stats": {
+      "Ice Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "dragon-charm-i",
+    "name": "Dragon Charm I",
+    "description": "A charm that grants the Dragon Resistance skill.",
+    "stats": {
+      "Dragon Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "dragon-charm-ii",
+    "name": "Dragon Charm II",
+    "description": "A charm that grants the Dragon Resistance skill.",
+    "stats": {
+      "Dragon Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "dragon-charm-iii",
+    "name": "Dragon Charm III",
+    "description": "A charm that grants the Dragon Resistance skill.",
+    "stats": {
+      "Dragon Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "blight-charm-i",
+    "name": "Blight Charm I",
+    "description": "A charm that grants the Blight Resistance skill.",
+    "stats": {
+      "Blight Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "blight-charm-ii",
+    "name": "Blight Charm II",
+    "description": "A charm that grants the Blight Resistance skill.",
+    "stats": {
+      "Blight Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "blight-charm-iii",
+    "name": "Blight Charm III",
+    "description": "A charm that grants the Blight Resistance skill.",
+    "stats": {
+      "Blight Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "poison-charm-i",
+    "name": "Poison Charm I",
+    "description": "A charm that grants the Poison Resistance skill.",
+    "stats": {
+      "Poison Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "poison-charm-ii",
+    "name": "Poison Charm II",
+    "description": "A charm that grants the Poison Resistance skill.",
+    "stats": {
+      "Poison Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "poison-charm-iii",
+    "name": "Poison Charm III",
+    "description": "A charm that grants the Poison Resistance skill.",
+    "stats": {
+      "Poison Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "paralysis-charm-i",
+    "name": "Paralysis Charm I",
+    "description": "A charm that grants the Paralysis Resistance skill.",
+    "stats": {
+      "Paralysis Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "paralysis-charm-ii",
+    "name": "Paralysis Charm II",
+    "description": "A charm that grants the Paralysis Resistance skill.",
+    "stats": {
+      "Paralysis Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "paralysis-charm-iii",
+    "name": "Paralysis Charm III",
+    "description": "A charm that grants the Paralysis Resistance skill.",
+    "stats": {
+      "Paralysis Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "sleep-charm-i",
+    "name": "Sleep Charm I",
+    "description": "A charm that grants the Sleep Resistance skill.",
+    "stats": {
+      "Sleep Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "sleep-charm-ii",
+    "name": "Sleep Charm II",
+    "description": "A charm that grants the Sleep Resistance skill.",
+    "stats": {
+      "Sleep Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "sleep-charm-iii",
+    "name": "Sleep Charm III",
+    "description": "A charm that grants the Sleep Resistance skill.",
+    "stats": {
+      "Sleep Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "stun-charm-i",
+    "name": "Stun Charm I",
+    "description": "A charm that grants the Stun Resistance skill.",
+    "stats": {
+      "Stun Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "stun-charm-ii",
+    "name": "Stun Charm II",
+    "description": "A charm that grants the Stun Resistance skill.",
+    "stats": {
+      "Stun Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "stun-charm-iii",
+    "name": "Stun Charm III",
+    "description": "A charm that grants the Stun Resistance skill.",
+    "stats": {
+      "Stun Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "blast-charm-i",
+    "name": "Blast Charm I",
+    "description": "A charm that grants the Blast Resistance skill.",
+    "stats": {
+      "Blast Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "blast-charm-ii",
+    "name": "Blast Charm II",
+    "description": "A charm that grants the Blast Resistance skill.",
+    "stats": {
+      "Blast Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "blast-charm-iii",
+    "name": "Blast Charm III",
+    "description": "A charm that grants the Blast Resistance skill.",
+    "stats": {
+      "Blast Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "botany-charm-i",
+    "name": "Botany Charm I",
+    "description": "A charm that grants the Botanist skill.",
+    "stats": {
+      "Botanist": "Lv1"
+    }
+  },
+  {
+    "slug": "botany-charm-ii",
+    "name": "Botany Charm II",
+    "description": "A charm that grants the Botanist skill.",
+    "stats": {
+      "Botanist": "Lv2"
+    }
+  },
+  {
+    "slug": "botany-charm-iii",
+    "name": "Botany Charm III",
+    "description": "A charm that grants the Botanist skill.",
+    "stats": {
+      "Botanist": "Lv3"
+    }
+  },
+  {
+    "slug": "botany-charm-iv",
+    "name": "Botany Charm IV",
+    "description": "A charm that grants the Botanist skill.",
+    "stats": {
+      "Botanist": "Lv4"
+    }
+  },
+  {
+    "slug": "geology-charm-i",
+    "name": "Geology Charm I",
+    "description": "A charm that grants the Geologist skill.",
+    "stats": {
+      "Geologist": "Lv1"
+    }
+  },
+  {
+    "slug": "geology-charm-ii",
+    "name": "Geology Charm II",
+    "description": "A charm that grants the Geologist skill.",
+    "stats": {
+      "Geologist": "Lv2"
+    }
+  },
+  {
+    "slug": "geology-charm-iii",
+    "name": "Geology Charm III",
+    "description": "A charm that grants the Geologist skill.",
+    "stats": {
+      "Geologist": "Lv3"
+    }
+  },
+  {
+    "slug": "breaker-charm-i",
+    "name": "Breaker Charm I",
+    "description": "A charm that grants the Partbreaker skill.",
+    "stats": {
+      "Partbreaker": "Lv1"
+    }
+  },
+  {
+    "slug": "breaker-charm-ii",
+    "name": "Breaker Charm II",
+    "description": "A charm that grants the Partbreaker skill.",
+    "stats": {
+      "Partbreaker": "Lv2"
+    }
+  },
+  {
+    "slug": "breaker-charm-iii",
+    "name": "Breaker Charm III",
+    "description": "A charm that grants the Partbreaker skill.",
+    "stats": {
+      "Partbreaker": "Lv3"
+    }
+  },
+  {
+    "slug": "bombardier-charm-i",
+    "name": "Bombardier Charm I",
+    "description": "A charm that grants the Bombardier skill.",
+    "stats": {
+      "Bombardier": "Lv1"
+    }
+  },
+  {
+    "slug": "bombardier-charm-ii",
+    "name": "Bombardier Charm II",
+    "description": "A charm that grants the Bombardier skill.",
+    "stats": {
+      "Bombardier": "Lv2"
+    }
+  },
+  {
+    "slug": "bombardier-charm-iii",
+    "name": "Bombardier Charm III",
+    "description": "A charm that grants the Bombardier skill.",
+    "stats": {
+      "Bombardier": "Lv3"
+    }
+  },
+  {
+    "slug": "mushroom-charm-i",
+    "name": "Mushroom Charm I",
+    "description": "A charm that grants the Mushroomancer skill.",
+    "stats": {
+      "Mushroomancer": "Lv1"
+    }
+  },
+  {
+    "slug": "mushroom-charm-ii",
+    "name": "Mushroom Charm II",
+    "description": "A charm that grants the Mushroomancer skill.",
+    "stats": {
+      "Mushroomancer": "Lv2"
+    }
+  },
+  {
+    "slug": "mushroom-charm-iii",
+    "name": "Mushroom Charm III",
+    "description": "A charm that grants the Mushroomancer skill.",
+    "stats": {
+      "Mushroomancer": "Lv3"
+    }
+  },
+  {
+    "slug": "extension-charm-i",
+    "name": "Extension Charm I",
+    "description": "A charm that grants the Item Prolonger skill.",
+    "stats": {
+      "Item Prolonger": "Lv1"
+    }
+  },
+  {
+    "slug": "extension-charm-ii",
+    "name": "Extension Charm II",
+    "description": "A charm that grants the Item Prolonger skill.",
+    "stats": {
+      "Item Prolonger": "Lv2"
+    }
+  },
+  {
+    "slug": "extension-charm-iii",
+    "name": "Extension Charm III",
+    "description": "A charm that grants the Item Prolonger skill.",
+    "stats": {
+      "Item Prolonger": "Lv3"
+    }
+  },
+  {
+    "slug": "friendship-charm-i",
+    "name": "Friendship Charm I",
+    "description": "A charm that grants the Wide- Range skill.",
+    "stats": {
+      "Wide-Range": "Lv1"
+    }
+  },
+  {
+    "slug": "friendship-charm-ii",
+    "name": "Friendship Charm II",
+    "description": "A charm that grants the Wide- Range skill.",
+    "stats": {
+      "Wide-Range": "Lv2"
+    }
+  },
+  {
+    "slug": "friendship-charm-iii",
+    "name": "Friendship Charm III",
+    "description": "A charm that grants the Wide- Range skill.",
+    "stats": {
+      "Wide-Range": "Lv3"
+    }
+  },
+  {
+    "slug": "friendship-charm-iv",
+    "name": "Friendship Charm IV",
+    "description": "A charm that grants the Wide- Range skill.",
+    "stats": {
+      "Wide-Range": "Lv4"
+    }
+  },
+  {
+    "slug": "friendship-charm-v",
+    "name": "Friendship Charm V",
+    "description": "A charm that grants the Wide- Range skill.",
+    "stats": {
+      "Wide-Range": "Lv5"
+    }
+  },
+  {
+    "slug": "light-eaters-charm-i",
+    "name": "Light Eater's Charm I",
+    "description": "A charm that grants the Free Meal skill.",
+    "stats": {
+      "Free Meal": "Lv1"
+    }
+  },
+  {
+    "slug": "light-eaters-charm-ii",
+    "name": "Light Eater's Charm II",
+    "description": "A charm that grants the Free Meal skill.",
+    "stats": {
+      "Free Meal": "Lv2"
+    }
+  },
+  {
+    "slug": "light-eaters-charm-iii",
+    "name": "Light Eater's Charm III",
+    "description": "A charm that grants the Free Meal skill.",
+    "stats": {
+      "Free Meal": "Lv3"
+    }
+  },
+  {
+    "slug": "grit-charm-i",
+    "name": "Grit Charm I",
+    "description": "A charm that grants the Heroics skill.",
+    "stats": {
+      "Heroics": "Lv1"
+    }
+  },
+  {
+    "slug": "grit-charm-ii",
+    "name": "Grit Charm II",
+    "description": "A charm that grants the Heroics skill.",
+    "stats": {
+      "Heroics": "Lv2"
+    }
+  },
+  {
+    "slug": "grit-charm-iii",
+    "name": "Grit Charm III",
+    "description": "A charm that grants the Heroics skill.",
+    "stats": {
+      "Heroics": "Lv3"
+    }
+  },
+  {
+    "slug": "grit-charm-iv",
+    "name": "Grit Charm IV",
+    "description": "A charm that grants the Heroics skill.",
+    "stats": {
+      "Heroics": "Lv4"
+    }
+  },
+  {
+    "slug": "impact-charm-i",
+    "name": "Impact Charm I",
+    "description": "A charm that grants the Flinch Free skill.",
+    "stats": {
+      "Flinch Free": "Lv1"
+    }
+  },
+  {
+    "slug": "impact-charm-ii",
+    "name": "Impact Charm II",
+    "description": "A charm that grants the Flinch Free skill.",
+    "stats": {
+      "Flinch Free": "Lv2"
+    }
+  },
+  {
+    "slug": "impact-charm-iii",
+    "name": "Impact Charm III",
+    "description": "A charm that grants the Flinch Free skill.",
+    "stats": {
+      "Flinch Free": "Lv3"
+    }
+  },
+  {
+    "slug": "hungerless-charm-i",
+    "name": "Hungerless Charm I",
+    "description": "A charm that grants the Hunger Resistance skill.",
+    "stats": {
+      "Hunger Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "hungerless-charm-ii",
+    "name": "Hungerless Charm II",
+    "description": "A charm that grants the Hunger Resistance skill.",
+    "stats": {
+      "Hunger Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "hungerless-charm-iii",
+    "name": "Hungerless Charm III",
+    "description": "A charm that grants the Hunger Resistance skill.",
+    "stats": {
+      "Hunger Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "counter-charm-i",
+    "name": "Counter Charm I",
+    "description": "A charm that grants the Counterstrike skill.",
+    "stats": {
+      "Counterstrike": "Lv1"
+    }
+  },
+  {
+    "slug": "counter-charm-ii",
+    "name": "Counter Charm II",
+    "description": "A charm that grants the Counterstrike skill.",
+    "stats": {
+      "Counterstrike": "Lv2"
+    }
+  },
+  {
+    "slug": "counter-charm-iii",
+    "name": "Counter Charm III",
+    "description": "A charm that grants the Counterstrike skill.",
+    "stats": {
+      "Counterstrike": "Lv3"
+    }
+  },
+  {
+    "slug": "foray-charm-i",
+    "name": "Foray Charm I",
+    "description": "A charm that grants the Foray skill.",
+    "stats": {
+      "Foray": "Lv1"
+    }
+  },
+  {
+    "slug": "foray-charm-ii",
+    "name": "Foray Charm II",
+    "description": "A charm that grants the Foray skill.",
+    "stats": {
+      "Foray": "Lv2"
+    }
+  },
+  {
+    "slug": "foray-charm-iii",
+    "name": "Foray Charm III",
+    "description": "A charm that grants the Foray skill.",
+    "stats": {
+      "Foray": "Lv3"
+    }
+  },
+  {
+    "slug": "phoenix-charm-i",
+    "name": "Phoenix Charm I",
+    "description": "A charm that grants the Coalescence skill.",
+    "stats": {
+      "Coalescence": "Lv1"
+    }
+  },
+  {
+    "slug": "phoenix-charm-ii",
+    "name": "Phoenix Charm II",
+    "description": "A charm that grants the Coalescence skill.",
+    "stats": {
+      "Coalescence": "Lv2"
+    }
+  },
+  {
+    "slug": "phoenix-charm-iii",
+    "name": "Phoenix Charm III",
+    "description": "A charm that grants the Coalescence skill.",
+    "stats": {
+      "Coalescence": "Lv3"
+    }
+  },
+  {
+    "slug": "chain-charm-i",
+    "name": "Chain Charm I",
+    "description": "A charm that grants the Burst skill.",
+    "stats": {
+      "Burst": "Lv1"
+    }
+  },
+  {
+    "slug": "chain-charm-ii",
+    "name": "Chain Charm II",
+    "description": "A charm that grants the Burst skill.",
+    "stats": {
+      "Burst": "Lv2"
+    }
+  },
+  {
+    "slug": "chain-charm-iii",
+    "name": "Chain Charm III",
+    "description": "A charm that grants the Burst skill.",
+    "stats": {
+      "Burst": "Lv3"
+    }
+  },
+  {
+    "slug": "counterattack-charm-i",
+    "name": "Counterattack Charm I",
+    "description": "A charm that grants the Adrenaline Rush skill.",
+    "stats": {
+      "Adrenaline Rush": "Lv1"
+    }
+  },
+  {
+    "slug": "counterattack-charm-ii",
+    "name": "Counterattack Charm II",
+    "description": "A charm that grants the Adrenaline Rush skill.",
+    "stats": {
+      "Adrenaline Rush": "Lv2"
+    }
+  },
+  {
+    "slug": "counterattack-charm-iii",
+    "name": "Counterattack Charm III",
+    "description": "A charm that grants the Adrenaline Rush skill.",
+    "stats": {
+      "Adrenaline Rush": "Lv3"
+    }
+  },
+  {
+    "slug": "descent-charm-i",
+    "name": "Descent Charm I",
+    "description": "A charm that grants the Ambush skill.",
+    "stats": {
+      "Ambush": "Lv1"
+    }
+  },
+  {
+    "slug": "descent-charm-ii",
+    "name": "Descent Charm II",
+    "description": "A charm that grants the Ambush skill.",
+    "stats": {
+      "Ambush": "Lv2"
+    }
+  },
+  {
+    "slug": "descent-charm-iii",
+    "name": "Descent Charm III",
+    "description": "A charm that grants the Ambush skill.",
+    "stats": {
+      "Ambush": "Lv3"
+    }
+  },
+  {
+    "slug": "bleed-charm-i",
+    "name": "Bleed Charm I",
+    "description": "A charm that grants the Bleeding Resistance skill.",
+    "stats": {
+      "Bleeding Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "bleed-charm-ii",
+    "name": "Bleed Charm II",
+    "description": "A charm that grants the Bleeding Resistance skill.",
+    "stats": {
+      "Bleeding Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "bleed-charm-iii",
+    "name": "Bleed Charm III",
+    "description": "A charm that grants the Bleeding Resistance skill.",
+    "stats": {
+      "Bleeding Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "guard-charm-i",
+    "name": "Guard Charm I",
+    "description": "A charm that grants the Iron Skin skill.",
+    "stats": {
+      "Iron Skin": "Lv1"
+    }
+  },
+  {
+    "slug": "guard-charm-ii",
+    "name": "Guard Charm II",
+    "description": "A charm that grants the Iron Skin skill.",
+    "stats": {
+      "Iron Skin": "Lv2"
+    }
+  },
+  {
+    "slug": "guard-charm-iii",
+    "name": "Guard Charm III",
+    "description": "A charm that grants the Iron Skin skill.",
+    "stats": {
+      "Iron Skin": "Lv3"
+    }
+  },
+  {
+    "slug": "survival-charm-i",
+    "name": "Survival Charm I",
+    "description": "A charm that grants the Survival Expert skill.",
+    "stats": {
+      "Survival Expert": "Lv1"
+    }
+  },
+  {
+    "slug": "survival-charm-ii",
+    "name": "Survival Charm II",
+    "description": "A charm that grants the Survival Expert skill.",
+    "stats": {
+      "Survival Expert": "Lv2"
+    }
+  },
+  {
+    "slug": "survival-charm-iii",
+    "name": "Survival Charm III",
+    "description": "A charm that grants the Survival Expert skill.",
+    "stats": {
+      "Survival Expert": "Lv3"
+    }
+  },
+  {
+    "slug": "maintenance-charm-i",
+    "name": "Maintenance Charm I",
+    "description": "A charm that grants the Tool Specialist skill.",
+    "stats": {
+      "Tool Specialist": "Lv1"
+    }
+  },
+  {
+    "slug": "maintenance-charm-ii",
+    "name": "Maintenance Charm II",
+    "description": "A charm that grants the Tool Specialist skill.",
+    "stats": {
+      "Tool Specialist": "Lv2"
+    }
+  },
+  {
+    "slug": "maintenance-charm-iii",
+    "name": "Maintenance Charm III",
+    "description": "A charm that grants the Tool Specialist skill.",
+    "stats": {
+      "Tool Specialist": "Lv3"
+    }
+  },
+  {
+    "slug": "intimidator-charm-i",
+    "name": "Intimidator Charm I",
+    "description": "A charm that grants the Intimidator skill.",
+    "stats": {
+      "Intimidator": "Lv1"
+    }
+  },
+  {
+    "slug": "intimidator-charm-ii",
+    "name": "Intimidator Charm II",
+    "description": "A charm that grants the Intimidator skill.",
+    "stats": {
+      "Intimidator": "Lv2"
+    }
+  },
+  {
+    "slug": "intimidator-charm-iii",
+    "name": "Intimidator Charm III",
+    "description": "A charm that grants the Intimidator skill.",
+    "stats": {
+      "Intimidator": "Lv3"
+    }
+  },
+  {
+    "slug": "escape-charm-i",
+    "name": "Escape Charm I",
+    "description": "A charm that grants the Bind Resistance skill.",
+    "stats": {
+      "Bind Resistance": "Lv1"
+    }
+  },
+  {
+    "slug": "escape-charm-ii",
+    "name": "Escape Charm II",
+    "description": "A charm that grants the Bind Resistance skill.",
+    "stats": {
+      "Bind Resistance": "Lv2"
+    }
+  },
+  {
+    "slug": "escape-charm-iii",
+    "name": "Escape Charm III",
+    "description": "A charm that grants the Bind Resistance skill.",
+    "stats": {
+      "Bind Resistance": "Lv3"
+    }
+  },
+  {
+    "slug": "chainblade-charm-i",
+    "name": "Chainblade Charm I",
+    "description": "A charm that grants the Flayer skill.",
+    "stats": {
+      "Flayer": "Lv1"
+    }
+  },
+  {
+    "slug": "chainblade-charm-ii",
+    "name": "Chainblade Charm II",
+    "description": "A charm that grants the Flayer skill.",
+    "stats": {
+      "Flayer": "Lv2"
+    }
+  },
+  {
+    "slug": "imbibe-charm-i",
+    "name": "Imbibe Charm I",
+    "description": "A charm that grants the Elemental Absorption skill.",
+    "stats": {
+      "Elemental Absorption": "Lv1"
+    }
+  },
+  {
+    "slug": "imbibe-charm-ii",
+    "name": "Imbibe Charm II",
+    "description": "A charm that grants the Elemental Absorption skill.",
+    "stats": {
+      "Elemental Absorption": "Lv2"
+    }
+  },
+  {
+    "slug": "convert-charm-i",
+    "name": "Convert Charm I",
+    "description": "A charm that grants the Convert Element skill.",
+    "stats": {
+      "Convert Element": "Lv1"
+    }
+  },
+  {
+    "slug": "convert-charm-ii",
+    "name": "Convert Charm II",
+    "description": "A charm that grants the Convert Element skill.",
+    "stats": {
+      "Convert Element": "Lv2"
+    }
+  },
+  {
+    "slug": "sanity-charm-i",
+    "name": "Sanity Charm I",
+    "description": "A charm that grants the Antivirus skill.",
+    "stats": {
+      "Antivirus": "Lv1"
+    }
+  },
+  {
+    "slug": "sanity-charm-ii",
+    "name": "Sanity Charm II",
+    "description": "A charm that grants the Antivirus skill.",
+    "stats": {
+      "Antivirus": "Lv2"
+    }
+  },
+  {
+    "slug": "sanity-charm-iii",
+    "name": "Sanity Charm III",
+    "description": "A charm that grants the Antivirus skill.",
+    "stats": {
+      "Antivirus": "Lv3"
+    }
+  },
+  {
+    "slug": "hope-charm",
+    "name": "Hope Charm",
+    "description": "A charm that grants the Self- Improvement and Recovery Up skills.",
+    "stats": {
+      "Recovery Up": "Lv1",
+      "Self-Improvement": "Lv1"
+    }
+  },
+  {
+    "slug": "maintenance-charm-iv",
+    "name": "Maintenance Charm IV",
+    "description": "A charm that grants the Tool Specialist skill.",
+    "stats": {
+      "Tool Specialist": "Lv4"
+    }
+  },
+  {
+    "slug": "rice-ball-charm",
+    "name": "Rice Ball Charm",
+    "description": "A charm that grants the Rice Ball skill. (Arena Quests only.)",
+    "stats": {
+      "Rice Ball": "Lv1"
+    }
+  },
+  {
+    "slug": "unknown-charm",
+    "name": "Unknown Charm",
+    "description": "A talisman of indeterminable age. Said to draw out the holder's hidden strengths.",
+    "stats": {}
+  },
+  {
+    "slug": "historical-charm",
+    "name": "Historical Charm",
+    "description": "An odd talisman that was written about in historical texts. Its glow contains the depths of the past.",
+    "stats": {}
+  },
+  {
+    "slug": "secret-charm",
+    "name": "Secret Charm",
+    "description": "A talisman containing untold secrets of history. The holder will one day see the world's abyss.",
+    "stats": {}
+  },
+  {
+    "slug": "golden-age-charm",
+    "name": "Golden Age Charm",
+    "description": "A talisman inscribed with the wisdom of an advanced culture. Offers a glimpse into an era of legends.",
+    "stats": {}
+  }
+]
