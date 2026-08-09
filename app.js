@@ -1608,6 +1608,7 @@ function renderWeaponsIndex(query) {
 }
 
 function showWeaponDetail(id) {
+  window.scrollTo(0, 0);
   const w = weaponsById.get(id);
   if (!w) return;
   weaponsIndexEl.hidden = true;
@@ -1896,6 +1897,7 @@ function renderArmorIndex(query) {
 }
 
 function showArmorSetDetail(setName) {
+  window.scrollTo(0, 0);
   let set = armorSets.find(s => s.name === setName);
   let impliedGroup = null;
   if (!set) {
@@ -1976,6 +1978,7 @@ function showArmorSetDetail(setName) {
 }
 
 function showArmorPieceDetail(id) {
+  window.scrollTo(0, 0);
   const p = armorPieces.find(x => x.id === id);
   if (!p) return;
   armorIndexEl.hidden = true;
