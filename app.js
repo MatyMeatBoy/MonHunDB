@@ -881,10 +881,22 @@ function runGlobalSearch(query) {
   ).slice(0, 8);
 
   const materialMatches = [];
+  const matchedMonsterSet = new Set(monsterMatches.map(m => m.name));
   for (const [matName, sources] of materialIndex.entries()) {
     const esName = trMaterial(matName);
     if (normalizeSearch(matName).includes(q) || normalizeSearch(esName).includes(q)) {
       materialMatches.push({ matName, esName, sources });
+    }
+  }
+  // also include materials dropped by the matched monsters (e.g. searching
+  // "magnamalo" surfaces "Sinister Scale" from Scorned Magnamalo even though
+  // the material name doesn't contain the query)
+  if (monsterMatches.length) {
+    for (const [matName, sources] of materialIndex.entries()) {
+      if (materialMatches.some(x => x.matName === matName)) continue;
+      if (sources.some(s => matchedMonsterSet.has(s.monster))) {
+        materialMatches.push({ matName, esName: trMaterial(matName), sources });
+      }
     }
   }
 
