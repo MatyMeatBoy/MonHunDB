@@ -679,9 +679,6 @@ function buildSkillGrantIndex() {
 // reconstructs ALL sets straight from the pieces themselves, image or not
 function coreArmorNameForGrouping(name) {
   let n = name;
-  // "Rathalos Helm S" / "Rathalos Helm X" -> "Rathalos S Helm" / "Rathalos X Helm"
-  // so S/X become part of the set prefix (separate sets per rank)
-  n = n.replace(/^(.+)\s+(\S+)\s+(S|X|SP)$/, "$1 $3 $2");
   let changed = true;
   while (changed) {
     changed = false;
@@ -691,6 +688,25 @@ function coreArmorNameForGrouping(name) {
     if (stripped !== n) { n = stripped; changed = true; }
   }
   return n.trim();
+}
+// armor-set prefix: strips trailing armor-part words (some multi-word like
+// "Head Scarf") and normalizes Pukei-Pukei->Pukei (base/S). Result is the set
+// name alone (no part word), ready for display/grouping.
+const ARMOR_PART_WORDS = /^(Head|Mail|Vambraces|Braces|Armguards|Coil|Greaves|Garb|Obi|Leggings|Scarf|Crown|Robe|Sleeves|Hakama|Mask|Hat|Hood|Suit|Gloves|Skirt|Socks|Boots|Earrings|Cuirass|Belt|Faulds|Sash|Sandals|Vest|Helm|Cap|Shawl)$/i;
+function armorSetPrefix(name) {
+  let n = coreArmorNameForGrouping(name);
+  const m = n.match(/\s+(S|X|SP)$/);
+  const suffix = m ? " " + m[1] : "";
+  if (m) n = n.slice(0, m.index);
+  let prev = "";
+  while (prev !== n) {
+    prev = n;
+    const words = n.split(" ");
+    if (words.length > 1 && ARMOR_PART_WORDS.test(words[words.length - 1])) n = words.slice(0, -1).join(" ");
+  }
+  n = n.replace(/^Pukei-Pukei(?! X)/, "Pukei");
+  if (suffix === " X") n = n.replace(/^Pukei$/, "Pukei-Pukei");
+  return (n.trim() + suffix).trim();
 }
 
 // Map implicit-set prefix (the `prefix` before "Set") to the actual image file
@@ -762,12 +778,12 @@ function buildImpliedArmorGroups() {
   const groups = [];
   let i = 0;
   while (i < armorPieces.length) {
-    const prefix = coreArmorNameForGrouping(armorPieces[i].name).split(" ").slice(0, -1).join(" ");
+    const prefix = armorSetPrefix(armorPieces[i].name);
     let j = i;
     const bucket = [];
     while (j < armorPieces.length && bucket.length < 5) {
       const p = armorPieces[j];
-      const pPrefix = coreArmorNameForGrouping(p.name).split(" ").slice(0, -1).join(" ");
+      const pPrefix = armorSetPrefix(p.name);
       if (pPrefix !== prefix) break;
       bucket.push(p);
       j++;
@@ -795,7 +811,7 @@ function buildPartialArmorGroups() {
   // sets that have some pieces but not the full 5 (e.g. Jaggi Set)
   const buckets = new Map();
   for (const p of armorPieces) {
-    const prefix = coreArmorNameForGrouping(p.name).split(" ").slice(0, -1).join(" ");
+    const prefix = armorSetPrefix(p.name);
     if (!prefix) continue;
     if (!buckets.has(prefix)) buckets.set(prefix, []);
     if (!buckets.get(prefix).some(x => x.id === p.id)) buckets.get(prefix).push(p);
