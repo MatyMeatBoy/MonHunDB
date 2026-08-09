@@ -765,7 +765,7 @@ function buildMonsterEquipmentIndex() {
       // group's own piece list with no set image
       const pieceIds = new Set(group.pieces.map(p => p.id));
       const matchedSet = armorSets.find(s => s.pieces.filter(ref => pieceIds.has(ref.id)).length >= 3);
-      add(topMonster, "armorGroups", matchedSet ? { name: matchedSet.name, image: matchedSet.localImage || matchedSet.image, isRealSet: true } : { name: group.prefix, image: null, pieces: group.pieces, isRealSet: false });
+      add(topMonster, "armorGroups", matchedSet ? { name: matchedSet.name, image: matchedSet.localImage || matchedSet.image, isRealSet: true } : { name: group.prefix + " Set", image: null, pieces: group.pieces, isRealSet: false });
     }
   }
 
@@ -816,8 +816,7 @@ function renderRelatedEquipment(monsterName, container, sectionEl) {
     btn.addEventListener("click", () => {
       const g = entry.armorGroups[btn.dataset.relatedArmor];
       showArmorView();
-      if (g.isRealSet) showArmorSetDetail(g.name);
-      else showArmorPieceDetail(g.pieces[0].id);
+      showArmorSetDetail(g.name);
     });
   });
 }
@@ -933,7 +932,7 @@ function runGlobalSearch(query) {
       html += `<div class="gs-section"><div class="gs-section-title">${ui("relatedEquipment")} — ${trMonsterName(m.name)}</div>`;
       if (entry.armorGroups.length) {
         html += entry.armorGroups.map(g => `
-          <button type="button" class="gs-monster-row" data-gs-related-armor="${escapeAttr(g.isRealSet ? g.name : "")}" data-gs-related-armor-piece="${g.isRealSet ? "" : g.pieces[0].id}">
+          <button type="button" class="gs-monster-row" data-gs-related-armor="${escapeAttr(g.name)}">
             ${g.image ? `<img src="${g.image}" alt="" loading="lazy">` : armorIconTag(g.pieces[0])}
             <span>${g.name}</span>
           </button>
@@ -1056,8 +1055,7 @@ function runGlobalSearch(query) {
   gsResultsEl.querySelectorAll("[data-gs-related-armor]").forEach(btn => {
     btn.addEventListener("click", () => {
       showArmorView();
-      if (btn.dataset.gsRelatedArmor) showArmorSetDetail(btn.dataset.gsRelatedArmor);
-      else showArmorPieceDetail(btn.dataset.gsRelatedArmorPiece);
+      showArmorSetDetail(btn.dataset.gsRelatedArmor);
       closeGlobalSearch();
     });
   });
@@ -1827,8 +1825,9 @@ function showArmorSetDetail(setName) {
   let set = armorSets.find(s => s.name === setName);
   let impliedGroup = null;
   if (!set) {
-    impliedGroup = buildImpliedArmorGroups().find(g => g.prefix === setName);
-    if (!impliedGroup) return;
+    // implied groups are stored by prefix (e.g. "Tempest") but called with name "Tempest Set"
+    const prefix = setName.replace(/\s+Set$/, "");
+    impliedGroup = buildImpliedArmorGroups().find(g => g.prefix === prefix);
   }
 
   armorIndexEl.hidden = true;
