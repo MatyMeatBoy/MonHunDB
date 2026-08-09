@@ -3,3 +3,14 @@
 # See PROGRESS.md/DATA_NOTES.md for what they're for.
 vectores/mhrice/
 vectores/MHRise-Database-main/
+
+# Raw scraped HTML cache for data/scrape_weapon_trees.js -- resumable, not served.
+data/weapon_tree_raw/
+# Fandom tree raw cache (used by data/build_weapon_tree.js to rebuild the tree)
+data/weapon_tree_raw_fandom/
+
+# Playwright MCP browser session output (snapshots/console logs)
+.playwright-mcp/
+
+# scratch screenshots
+weapon_tree_kamura.png

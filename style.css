@@ -1488,3 +1488,13 @@ body {
   .decorations-view { padding: 1rem 0.85rem; }
   .decorations-grid { grid-template-columns: 1fr; }
 }
+
+/* --- Weapon upgrade tree (SVG) --- */
+.weapon-tree-svg { margin: 1.25rem 0 0.25rem; overflow-x: auto; }
+.weapon-tree-node { cursor: pointer; }
+.weapon-tree-node rect { transition: opacity 0.15s; }
+.weapon-tree-node:hover rect { opacity: 0.82; }
+
+/* --- Weapon cross-tree upgrade links --- */
+.weapon-cross-line { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin: 0.4rem 0; }
+.weapon-cross-link { display: inline-flex; align-items: center; gap: 0.35rem; cursor: pointer; }

@@ -1,6 +1,39 @@
 # Progreso del proyecto
 
-Última actualización: 2026-08-08
+Última actualización: 2026-08-09
+
+## Feature: Cadena de armas limpia (solo la rama normal) + traducción de tipos (2026-08-09)
+
+- **Cadena de mejoras**: antes mostraba TODO el subárbol (raíz + todos los descendientes), lo que incluía ramas hermanas a las que no se puede convertir (cross-links/desbloqueos de otra familia). `getWeaponChain()` ahora devuelve solo la **rama normal** del arma (ancestros + descendientes que comparten familia por tokens), descartando las ramas hermanas. Verificado: "Great Pincer" muestra solo Red Pincer→Great Pincer (antes mostraba toda la línea de hueso); "Wyvern Gnasher+" muestra su rama Wyvern limpia.
+  - **Limitación conocida**: el heurístico de tokens trunca rutas normales cuyo nombre cambia de tema (ej. Bone→Jawblade→Wyvern no comparten token), por lo que algunos ancestros pueden quedar fuera. El dato de MH Rise entremezcla líneas y no hay señal (ni tokens ni materiales) que separe fiablemente transición normal de cross-link.
+- **Cross-links descartados por ahora**: se probó una sección "Evoluciona de/a X" pero daba falsos positivos (trataba transiciones normales de cambio de nombre como cross-links), así que se quitó para no mostrar info engañosa.
+- **Traducción de tipos de arma**: nuevo diccionario `I18N.weaponTypes` (ES) y `trWeaponType()`. El catálogo y el detalle ahora muestran "Gran Espada", "Espada y Escudo", "Cornamusa", etc. en modo ES.
+- **Búsqueda global reordenada**: los resultados ahora van **monstruos → materiales → equipo relacionado → decoraciones → armas → armaduras**. Antes el equipo relacionado aparecía antes que los materiales (pedido del usuario).
+
+
+## Feature: Árbol de armas real + visual (2026-08-08)
+
+Continuación del catálogo de "solo finals": ahora las armas tienen el **árbol de mejora real** (con vínculos cruzados/desbloqueos) y un **gráfico visual de árbol** como el del juego.
+
+- **Fuente de datos**: el árbol real sale de **Fandom** (páginas `MHRise:_<Tipo>_Weapon_Tree`; cada arma es una fila de tabla cuya cantidad de imágenes "Indent" = profundidad, en orden DFS → se reconstruye el padre exacto). Fandom modela fielmente las **ramas cruzadas de desbloqueo** (ej. Red Wing I ← Jyura Mudblade I ← Golem Blade I ← Giant Jawblade — el mismo ejemplo que dio el usuario). `data/scrape_weapon_trees_fandom.js` (usa la API de Fandom para saltarse el challenge de Cloudflare).
+- **Master Rank**: Fandom solo cubre el juego base; las armas MR (y sus finals) se completan con **Fextralife** (`data/weapon_tree_raw/`). `data/build_weapon_tree.js` fusiona: base de Fandom (limpio, con cross-links) + MR de Fextralife (conectadas por misma familia). Salida: `data/weapon_tree.json` (parents + order + finals).
+- **App**: `init()` carga `weapon_tree.json`. `getWeaponChain()` devuelve toda la familia desde el árbol real (ancestros + descendientes). El catálogo se ordena por la posición en el árbol. Nuevo **árbol visual** `renderWeaponTreeSVG()`: SVG con nodos clickeables y líneas conectoras (estilo juego), el arma actual resaltada y las finals con ★. CSS en `style.css` (`.weapon-tree-*`).
+- **Hallazgo de scraping**: Fandom sirve un challenge de Cloudflare a curl; se resuelve con la **API** (`api.php?action=parse`) o navegando con Playwright. Fextralife no sirve (HTML malformado). monsterhunterwiki tiene todo pero su widget colapsa en headless (no extraíble con confianza).
+- **Verificado en navegador**: catálogo GS ordenado por árbol (Guardián → Espadón excelso → Sable decapitador → ...), árbol de Gran Espada ramificado correctamente (Kamura I → II → III que ramifica a Carapace/Khezu/etc.), cadena Kamura completa, Red Wing bajo Jyura Mudblade.
+- **Nota**: las armas tier-1 que Fandom omite (ej. "Kamura Cleaver I") se reconectan a su familia vía Fextralife si comparten tokens de familia.
+
+
+## Feature: Catálogo de armas con SOLO la versión final (re-datos de árbol real) (2026-08-08)
+
+Pedido del usuario: que el catálogo de armas, la búsqueda global y el equipo relacionado por monstruo muestren **solo la versión final** de cada árbol, y poder navegar la cadena en ambos sentidos (arriba/abajo).
+
+- **Descubrimiento clave**: el dato existente no permite derivar "final" con confianza. `nextId`/`prevId` no es un árbol de crafteo, es la **paginación global de Kiranico** (cruza tipos: Iron Hammer I → Gran Espada; y familias: Defender→Champion→Guardian). El campo `isFinal` del scraper usa un heurístico de primera palabra que marca intermedias como final (ej. "Kamura Warrior Cleaver+" y "Fine Kamura Cleaver" AMBAS marcadas final).
+- **Fix del "final"**: se scrapea el árbol real de armas de **Fextralife** (páginas "X Weapon Tree", una por cada una de las 14 categorías). `data/scrape_weapon_trees.js` descarga las páginas (cache en `data/weapon_tree_raw/`, gitignored) y extrae las hojas de cada árbol usando el **DOM de Chromium vía Playwright** (el HTML de Fextralife está malformado — faltan `</li>`/`</ul>` — y un parser por stack los anida mal; el parser de HTML del navegador los corrige). Salida: `data/weapon_finals.json` con 903 nombres de armas finales reales.
+- **App**: `init()` carga `weapon_finals.json`; `isWeaponTrueFinal(w)` mira si el nombre normalizado está en ese set (con fallback al heurístico prev/next si no se cargó). Se aplica en: catálogo (`renderWeaponsIndex`), búsqueda global (`weaponMatches`) y equipo relacionado (`buildMonsterEquipmentIndex`). La etiqueta "Versión final" en la cadena ahora usa el mismo check, así que solo la final real la lleva.
+- **Cadena bidireccional** (continuación del fix de antes): `getWeaponChain` camina `prevId` y `nextId` con `weaponSameFamily` (mismo tipo + token significativo compartido) — podés ir de la versión baja a la alta y viceversa. Encabezado renombrado a "Cadena de mejoras" (ES) / "Upgrade chain" (EN).
+- **Verificado en navegador (Playwright)**: catálogo muestra exactamente 866 armas finales (sin intermedias, sin etiquetas R#), búsqueda global "Kamura" solo finales ("Espadón excelso Kamura", no "guerrero Kamura+"), Amatsu muestra 14 armas relacionadas (todas finales) + set Tempest, Rathalos 0 armas (correcto: sus finales son de Silver Rathalos/Afligido, no del Rathalos base).
+- **Nota / limitación**: Fextralife no lista los tier-1 base (ej. "Kamura Cleaver I" no aparece, el árbol empieza en II) — no afecta los finals (que son las hojas), solo que esas raíces no entran en la cadena desde datos Fextralife; por eso la cadena sigue usando prev/next+familia.
+
 
 ## Feature: Habilidades (con página individual), equipo relacionado por monstruo, e íconos reales de MHRice (2026-08-08)
 

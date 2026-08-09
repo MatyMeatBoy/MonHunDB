@@ -274,7 +274,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes] = await Promise.all([
+    const [monstersRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/decorations.json"),
       fetch("data/material_obtain_notes.json"),
@@ -282,6 +282,7 @@ async function init() {
       fetch("data/armor_pieces.json"),
       fetch("data/armor_sets.json"),
       fetch("data/skills.json"),
+      fetch("data/weapon_tree.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
@@ -299,6 +300,7 @@ async function init() {
     skills = skillsRes.ok ? await skillsRes.json() : [];
     weaponsById = new Map(weapons.map(w => [w.id, w]));
     skillsByName = new Map(skills.filter(s => s.name).map(s => [s.name, s]));
+    if (weaponTreeRes.ok) initWeaponTree(await weaponTreeRes.json());
   } catch (err) {
     triggerLabelEl.textContent = ui("selectError");
     detailEl.innerHTML = `<p class="empty-state">${I18N.ui[lang].loadError(err.message)}</p>`;
@@ -734,7 +736,7 @@ function buildMonsterEquipmentIndex() {
   };
 
   for (const w of weapons) {
-    if (!w.isFinal || !w.materials || !w.materials.length) continue;
+    if (!isWeaponTrueFinal(w) || !w.materials || !w.materials.length) continue;
     const tally = tallyMonstersForMaterials(w.materials);
     if (!tally.length) continue;
     const [topMonster, topCount] = tally[0];
@@ -875,7 +877,7 @@ function runGlobalSearch(query) {
       || normalizeSearch(skill.nameEs || "").includes(q);
   }).slice(0, 8);
 
-  const weaponMatches = (weapons || []).filter(w => w.isFinal && (
+  const weaponMatches = (weapons || []).filter(w => isWeaponTrueFinal(w) && (
     normalizeSearch(w.name).includes(q) || normalizeSearch(w.nameEs || "").includes(q)
   )).slice(0, 6);
 
@@ -892,9 +894,30 @@ function runGlobalSearch(query) {
       </button>
     `).join("");
     html += `</div>`;
+  }
 
-    // sets first, then weapons, per the user's ask -- same equipment
-    // association already computed for each monster's own detail page
+  if (materialMatches.length) {
+    for (const mm of materialMatches.slice(0, 6)) {
+      html += `<div class="gs-material-block">
+        <button type="button" class="gs-material-header" data-mat-key="${escapeAttr(mm.matName)}">${materialIconTag(mm.matName)}<span>${mm.esName}</span></button>
+        <p class="gs-material-intro">${ui("gsMaterialIntro")}</p>
+        ${mm.sources.map(s => `
+          <button type="button" class="gs-source-row" data-name="${s.monster}" data-rank="${s.rank}">
+            <span class="gs-source-top">
+              <img src="${iconPath(s.monster)}" alt="" loading="lazy">
+              <span class="gs-source-name">${trMonsterName(s.monster)}</span>
+              <span class="gs-source-rank">${trRank(s.rank)}</span>
+            </span>
+            <span class="gs-source-summary">${summarizeRow(s.row, mm.matName) || "—"}</span>
+          </button>
+        `).join("")}
+      </div>`;
+    }
+  }
+
+  if (monsterMatches.length) {
+    // related armor sets + weapons for the matched monsters -- shown after the
+    // monster's own materials (sets first, then weapons, per earlier ask)
     const equipIndex = buildMonsterEquipmentIndex();
     for (const m of monsterMatches.slice(0, 3)) {
       const entry = equipIndex.get(m.name);
@@ -939,25 +962,6 @@ function runGlobalSearch(query) {
       </div>`;
     }).join("");
     html += `</div>`;
-  }
-
-  if (materialMatches.length) {
-    for (const mm of materialMatches.slice(0, 6)) {
-      html += `<div class="gs-material-block">
-        <button type="button" class="gs-material-header" data-mat-key="${escapeAttr(mm.matName)}">${materialIconTag(mm.matName)}<span>${mm.esName}</span></button>
-        <p class="gs-material-intro">${ui("gsMaterialIntro")}</p>
-        ${mm.sources.map(s => `
-          <button type="button" class="gs-source-row" data-name="${s.monster}" data-rank="${s.rank}">
-            <span class="gs-source-top">
-              <img src="${iconPath(s.monster)}" alt="" loading="lazy">
-              <span class="gs-source-name">${trMonsterName(s.monster)}</span>
-              <span class="gs-source-rank">${trRank(s.rank)}</span>
-            </span>
-            <span class="gs-source-summary">${summarizeRow(s.row, mm.matName) || "—"}</span>
-          </button>
-        `).join("")}
-      </div>`;
-    }
   }
 
   if (weaponMatches.length) {
@@ -1270,30 +1274,198 @@ function initDecorations() {
 function trWeaponName(w) {
   return lang === "es" && w.nameEs ? w.nameEs : w.name;
 }
+function trWeaponType(type) {
+  return lang === "es" && I18N.weaponTypes ? (I18N.weaponTypes[type] || type) : type;
+}
 function weaponIconTag(w) {
   return `<img class="material-icon" src="data/images/weapons/${w.id}.webp" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`;
 }
-function weaponFirstWord(name) {
-  return name.replace(/\+/g, "").trim().split(" ")[0];
+// Words that don't identify a weapon family (they appear in almost every
+// name of a type) — ignored when deciding whether two consecutive weapons
+// belong to the same upgrade tree. The Kiranico prev/next links are a global
+// table order, not a real craft tree, so same-type + shared meaningful token
+// is the best signal available to bound each family run.
+const WEAPON_STOP_WORDS = new Set([
+  "Sword", "Blade", "Great", "Small", "Long", "Dual", "Bow", "Lance",
+  "Gunlance", "Axe", "Charge", "Hammer", "Hunting", "Horn", "Switch",
+  "Insect", "Glaive", "Light", "Heavy", "Bowgun", "Kamura", "Royal", "Order", "S",
+]);
+function weaponTokens(name) {
+  return (name || "").replace(/\+/g, "").trim().split(/\s+/)
+    .filter(t => t && !WEAPON_STOP_WORDS.has(t));
+}
+function weaponSameFamily(a, b) {
+  if (a.type !== b.type) return false;
+  const ta = new Set(weaponTokens(a.name));
+  for (const t of weaponTokens(b.name)) if (ta.has(t)) return true;
+  return false;
+}
+// A weapon is the true final of its tree when it's a leaf in the real
+// upgrade graph. The scraped `isFinal` field used a fragile first-word
+// heuristic and Kiranico's prev/next links are just a table pager (not a
+// tree), so the UI computes this from the real Fextralife weapon trees
+// (data/weapon_tree.json, see data/scrape_weapon_trees.js) once loaded.
+function normalizeWeaponName(name) {
+  return (name || "").toLowerCase().replace(/\s*\+\s*/g, "+").replace(/\s+/g, " ").trim();
+}
+let weaponFinalNames = null;   // Set<normalized name> of true final weapons
+let weaponParentOf = null;     // Map<normalized child, normalized parent>
+let weaponChildrenOf = null;   // Map<normalized parent, [normalized children]> (ordered)
+let weaponOrder = [];          // weapon names in tree order
+let weaponOrderIdx = null;     // Map<normalized name, order index>
+let weaponsByNameNorm = null;  // Map<normalized name, weapon>
+function initWeaponTree(tree) {
+  weaponFinalNames = new Set((tree.finals || []).map(normalizeWeaponName));
+  weaponParentOf = new Map();
+  weaponChildrenOf = new Map();
+  for (const child of Object.keys(tree.parents || {})) {
+    const c = normalizeWeaponName(child), p = normalizeWeaponName(tree.parents[child]);
+    weaponParentOf.set(c, p);
+    if (!weaponChildrenOf.has(p)) weaponChildrenOf.set(p, []);
+    weaponChildrenOf.get(p).push(c);
+  }
+  weaponOrder = tree.order || [];
+  weaponOrderIdx = new Map();
+  weaponOrder.forEach((n, i) => { if (!weaponOrderIdx.has(normalizeWeaponName(n))) weaponOrderIdx.set(normalizeWeaponName(n), i); });
+  weaponsByNameNorm = new Map();
+  for (const w of weapons) if (!weaponsByNameNorm.has(normalizeWeaponName(w.name))) weaponsByNameNorm.set(normalizeWeaponName(w.name), w);
+}
+function isWeaponTrueFinal(w) {
+  if (weaponFinalNames) return weaponFinalNames.has(normalizeWeaponName(w.name));
+  if (!w.nextId || !weaponsById.has(w.nextId)) return true;
+  return !weaponSameFamily(w, weaponsById.get(w.nextId));
 }
 function decoSlotsTag(levels) {
   if (!levels || !levels.length) return "";
   return `<span class="deco-slots">${levels.map(l => `<img class="deco-slot-icon" src="data/images/icons/deco${l}.png" alt="Lv${l}" title="Lv${l}">`).join("")}</span>`;
 }
 function getWeaponChain(w) {
-  const chain = [w];
+  if (weaponParentOf && weaponsByNameNorm) {
+    // normal upgrade branch: ancestors + descendants that share the weapon's
+    // family. Cross-tree unlock links (a different-family parent/child) are NOT
+    // part of this branch -- they're reported separately via getWeaponCrossLinks().
+    const key = normalizeWeaponName(w.name);
+    const sameFam = (a, b) => {
+      const wa = weaponsByNameNorm.get(a), wb = weaponsByNameNorm.get(b);
+      return wa && wb ? weaponSameFamily(wa, wb) : false;
+    };
+    const anc = [];
+    let cur = key, guard = 0;
+    while (weaponParentOf.has(cur) && guard++ < 60) {
+      const p = weaponParentOf.get(cur);
+      if (!sameFam(p, cur)) break;
+      anc.unshift(p);
+      cur = p;
+    }
+    const desc = [];
+    const dfs = (n) => { for (const c of (weaponChildrenOf.get(n) || [])) { if (sameFam(c, n)) { desc.push(c); dfs(c); } } };
+    dfs(key);
+    const names = anc.concat([key], desc);
+    return names.map(n => weaponsByNameNorm.get(n)).filter(Boolean);
+  }
+  const chain = [];
+  const seen = new Set([w.id]);
   let cur = w;
   while (cur.prevId && weaponsById.has(cur.prevId)) {
     const prev = weaponsById.get(cur.prevId);
-    if (weaponFirstWord(prev.name) !== weaponFirstWord(w.name)) break;
+    if (seen.has(prev.id) || !weaponSameFamily(cur, prev)) break;
+    seen.add(prev.id);
     chain.unshift(prev);
     cur = prev;
   }
+  chain.push(w);
+  cur = w;
+  while (cur.nextId && weaponsById.has(cur.nextId)) {
+    const next = weaponsById.get(cur.nextId);
+    if (seen.has(next.id) || !weaponSameFamily(cur, next)) break;
+    seen.add(next.id);
+    chain.push(next);
+    cur = next;
+  }
   return chain;
 }
+// Cross-tree upgrade links for a weapon: which weapon line it branches FROM
+// (from) and which branch off it (to) -- these are NOT the normal upgrade path.
+function getWeaponCrossLinks(w) {
+  if (!weaponParentOf || !weaponChildrenOf || !weaponsByNameNorm) return { from: null, to: [] };
+  const key = normalizeWeaponName(w.name);
+  const sameFam = (a, b) => {
+    const wa = weaponsByNameNorm.get(a), wb = weaponsByNameNorm.get(b);
+    return wa && wb ? weaponSameFamily(wa, wb) : false;
+  };
+  let from = null;
+  let cur = key, guard = 0;
+  while (weaponParentOf.has(cur) && guard++ < 60) {
+    const p = weaponParentOf.get(cur);
+    if (!sameFam(p, cur)) { from = p; break; }
+    cur = p;
+  }
+  const to = (weaponChildrenOf.get(key) || []).filter(c => !sameFam(c, key));
+  return { from, to };
+}
 
-function showWeaponsView() {
-  detailEl.hidden = true;
+// Renders the weapon's family upgrade tree as an SVG diagram (nodes + lines),
+// like the in-game weapon tree. Only active when the real tree is loaded.
+function renderWeaponTreeSVG(w) {
+  if (!weaponChildrenOf || !weaponParentOf) return "";
+  const key = normalizeWeaponName(w.name);
+  let root = key, guard = 0;
+  while (weaponParentOf.has(root) && guard++ < 80) root = weaponParentOf.get(root);
+  const children = (n) => weaponChildrenOf.get(n) || [];
+  const leafCount = {};
+  (function sz(n) {
+    const c = children(n);
+    if (!c.length) { leafCount[n] = 1; return 1; }
+    leafCount[n] = c.reduce((a, k) => a + sz(k), 0);
+    return leafCount[n];
+  })(root);
+  const xPos = {}, yPos = {};
+  let cursor = 0;
+  (function assign(n, depth) {
+    yPos[n] = depth;
+    const c = children(n);
+    if (!c.length) { xPos[n] = cursor + 0.5; cursor += 1; }
+    else { c.forEach(k => assign(k, depth + 1)); xPos[n] = (xPos[c[0]] + xPos[c[c.length - 1]]) / 2; }
+  })(root, 0);
+  const total = leafCount[root];
+  const ROW = 62, COL = 210, NW = 195, NH = 40, M = 14, TOH = 18;
+  const W = total * COL + M * 2;
+  const H = (yPos[root] + depthOfTree(root) + 1) * ROW + M * 2;
+  function depthOfTree(n) { const c = children(n); return c.length ? 1 + Math.max(...c.map(depthOfTree)) : 0; }
+  const cx = (n) => M + xPos[n] * COL - NW / 2;
+  const cy = (n) => M + yPos[n] * ROW;
+  let svg = `<div class="weapon-tree-svg"><svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin meet" style="max-width:100%;height:auto;">`;
+  // connecting lines (elbow from parent bottom to child top)
+  const lines = [];
+  for (const p of Object.keys(xPos)) {
+    for (const c of children(p)) {
+      const x1 = M + xPos[p] * COL, y1 = cy(p) + NH;
+      const x2 = M + xPos[c] * COL, y2 = cy(c);
+      const mid = (y1 + y2) / 2;
+      lines.push(`<path d="M${x1},${y1} L${x1},${mid} L${x2},${mid} L${x2},${y2}" fill="none" stroke="var(--mh-line,#8a7f6e)" stroke-width="2"/>`);
+    }
+  }
+  svg += lines.join("");
+  // nodes
+  for (const n of Object.keys(xPos)) {
+    const wep = weaponsByNameNorm.get(n);
+    const label = wep ? trWeaponName(wep) : n;
+    const isCur = n === key;
+    const isFinal = weaponFinalNames ? weaponFinalNames.has(n) : false;
+    const tx = M + xPos[n] * COL;
+    const wid = wep ? ` data-wid="${wep.id}"` : "";
+    svg += `<g class="weapon-tree-node${isCur ? " current" : ""}"${wid}>`;
+    svg += `<rect x="${cx(n)}" y="${cy(n)}" width="${NW}" height="${NH}" rx="8" fill="${isCur ? "var(--mh-node-cur,#6b5d43)" : "var(--mh-node,#3a352c)"}" stroke="${isFinal ? "var(--mh-node-final,#c8a24a)" : "var(--mh-line,#8a7f6e)"}" stroke-width="${isCur ? 2.5 : 1.5}"/>`;
+    svg += `<text x="${tx}" y="${cy(n) + NH / 2 + 4}" text-anchor="middle" font-size="12" fill="var(--mh-text,#e8e2d6)">${escapeXml(label)}${isFinal ? " ★" : ""}</text>`;
+    svg += `</g>`;
+  }
+  svg += `</svg></div>`;
+  return svg;
+}
+function escapeXml(s) { return String(s).replace(/[<>&'"]/g, c => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;", "'": "&apos;", '"': "&quot;" }[c])); }
+
+
+function showWeaponsView() {  detailEl.hidden = true;
   homeViewEl.hidden = true;
   comboboxEl.hidden = true;
   decorationsViewEl.hidden = true;
@@ -1323,10 +1495,17 @@ function hideWeaponsView() {
 
 function renderWeaponsIndex(query) {
   const q = normalizeSearch((query || "").trim());
-  const pool = weapons.filter(w => w.isFinal);
-  const filtered = !q ? pool : weapons.filter(w =>
-    normalizeSearch(w.name).includes(q) || normalizeSearch(w.nameEs || "").includes(q)
-  );
+  let filtered = weapons.filter(w => isWeaponTrueFinal(w) && (
+    !q || normalizeSearch(w.name).includes(q) || normalizeSearch(w.nameEs || "").includes(q)
+  ));
+  // order finals by their position in the real upgrade tree (per type)
+  if (weaponOrderIdx) {
+    filtered = filtered.slice().sort((a, b) => {
+      const ia = weaponOrderIdx.get(normalizeWeaponName(a.name)) ?? Number.MAX_SAFE_INTEGER;
+      const ib = weaponOrderIdx.get(normalizeWeaponName(b.name)) ?? Number.MAX_SAFE_INTEGER;
+      return ia - ib;
+    });
+  }
 
   if (!filtered.length) {
     weaponsIndexEl.innerHTML = `<p class="no-data">${ui("weaponsNoResults")}</p>`;
@@ -1341,7 +1520,7 @@ function renderWeaponsIndex(query) {
 
   weaponsIndexEl.innerHTML = [...byType.keys()].map(type => `
     <div class="decorations-slot-group">
-      <h3 class="decorations-slot-heading">${type}</h3>
+      <h3 class="decorations-slot-heading">${trWeaponType(type)}</h3>
       <div class="decorations-grid">
         ${byType.get(type).map(w => `
           <button type="button" class="decoration-card" data-id="${w.id}">
@@ -1402,7 +1581,7 @@ function showWeaponDetail(id) {
           <button type="button" class="decoration-card${cw.id === w.id ? " selected" : ""}" data-id="${cw.id}">
             ${weaponIconTag(cw)}
             <span class="decoration-card-name">${trWeaponName(cw)}</span>
-            <span class="decoration-card-skill">${cw.isFinal ? ui("weaponsFinalVersion") : ("R" + cw.rarity)}</span>
+            <span class="decoration-card-skill">${isWeaponTrueFinal(cw) ? ui("weaponsFinalVersion") : ("R" + cw.rarity)}</span>
           </button>
         `).join("")}
       </div>
@@ -1416,7 +1595,7 @@ function showWeaponDetail(id) {
     <div class="decoration-detail-header">
       ${weaponIconTag(w)}
       <h2>${trWeaponName(w)}</h2>
-      <span class="decoration-detail-slot">${w.type}</span>
+      <span class="decoration-detail-slot">${trWeaponType(w.type)}</span>
     </div>
     <section class="block">
       <ul class="stat-list">
@@ -1438,6 +1617,9 @@ function showWeaponDetail(id) {
   });
   weaponDetailEl.querySelectorAll(".decoration-card").forEach(btn => {
     btn.addEventListener("click", () => showWeaponDetail(btn.dataset.id));
+  });
+  weaponDetailEl.querySelectorAll(".weapon-tree-node[data-wid]").forEach(g => {
+    g.addEventListener("click", () => showWeaponDetail(g.dataset.wid));
   });
   weaponDetailEl.querySelectorAll(".gs-source-row").forEach(btn => {
     btn.addEventListener("click", () => {
