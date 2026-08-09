@@ -1790,7 +1790,7 @@ function renderArmorIndex(query) {
         ${implied.map(g => `
           <button type="button" class="decoration-card armor-set-card" data-implied="${g.prefix}">
             ${armorIconTag(g.pieces[0])}
-            <span class="decoration-card-name">${g.prefix}</span>
+            <span class="decoration-card-name">${g.prefix} Set</span>
           </button>
         `).join("")}
       </div>
@@ -1843,9 +1843,11 @@ function showArmorSetDetail(setName) {
     if (!p) return "";
     return `
       <div class="decoration-detail-header armor-piece-header">
-        ${armorIconTag(p)}
-        <h3>${trArmorName(p)}</h3>
-        <span class="decoration-detail-slot">${trArmorPart(part)}</span>
+        <button type="button" class="armor-piece-link" data-piece="${p.id}">
+          ${armorIconTag(p)}
+          <h3>${trArmorName(p)}</h3>
+          <span class="decoration-detail-slot">${trArmorPart(part)}</span>
+        </button>
       </div>
       ${p.defense ? `<p class="gs-material-intro">${ui("armorDefense")}: ${p.defense}</p>` : ""}
       ${armorPieceSkillsHtml(p)}
@@ -1889,6 +1891,9 @@ function showArmorSetDetail(setName) {
       showSkillsView();
       showSkillDetail(btn.dataset.skillName);
     });
+  });
+  armorSetDetailEl.querySelectorAll(".armor-piece-link[data-piece]").forEach(btn => {
+    btn.addEventListener("click", () => showArmorPieceDetail(btn.dataset.piece));
   });
 
   const url = new URL(location.href);
