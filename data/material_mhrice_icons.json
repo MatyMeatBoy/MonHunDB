@@ -1,1 +1,5122 @@
-{"Aknosom Scale":{"iconId":"031","color":1},"Aknosom Feather":{"iconId":"029","color":1},"Aknosom Beak":{"iconId":"062","color":6},"Flame Sac":{"iconId":"043","color":7},"Monster Bone M":{"iconId":"030","color":4},"Aknosom Crest":{"iconId":"032","color":6},"Wyvern Tear":{"iconId":"029","color":11},"Aknosom Scale+":{"iconId":"031","color":1},"Aknosom Feather+":{"iconId":"029","color":1},"Inferno Sac":{"iconId":"043","color":7},"Bird Wyvern Gem":{"iconId":"009","color":11},"Monster Keenbone":{"iconId":"030","color":3},"Aknosom Crest+":{"iconId":"032","color":6},"Large Wyvern Tear":{"iconId":"029","color":11},"Aknosom Shard":{"iconId":"031","color":1},"Aknosom Plume":{"iconId":"029","color":1},"Aknosom Burnbeak":{"iconId":"062","color":6},"Conflagrant Sac":{"iconId":"043","color":7},"Fey Wyvern Gem":{"iconId":"009","color":11},"Monster Toughbone":{"iconId":"030","color":6},"Aknosom Head-Crest":{"iconId":"032","color":6},"Afflicted Monster Bone":{"iconId":"030","color":51},"Afflicted Monster Hardbone":{"iconId":"030","color":6},"Afflicted Monster Slogbone":{"iconId":"030","color":7},"Almudron Scale":{"iconId":"031","color":13},"Almudron Shell":{"iconId":"055","color":13},"Almudron Fin":{"iconId":"029","color":7},"Almudron Whisker":{"iconId":"029","color":7},"Almudron Tail":{"iconId":"040","color":13},"Golden Muck":{"iconId":"056","color":4},"Almudron Plate":{"iconId":"063","color":13},"Almudron Claw":{"iconId":"033","color":13},"Almudron Scale+":{"iconId":"031","color":13},"Almudron Shell+":{"iconId":"055","color":13},"Almudron Fin+":{"iconId":"029","color":7},"Almudron Whisker+":{"iconId":"029","color":7},"Golden Sludge":{"iconId":"056","color":4},"Golden Almudron Orb":{"iconId":"009","color":4},"Almudron Claw+":{"iconId":"033","color":13},"Almudron Shard":{"iconId":"031","color":13},"Almudron Cortex":{"iconId":"055","color":13},"Large Almudron Fin":{"iconId":"029","color":7},"Almud Ascetic Whisker":{"iconId":"029","color":7},"Almudron Lashtail":{"iconId":"040","color":13},"Pure Golden Sludge":{"iconId":"056","color":4},"Almudron Mantle":{"iconId":"204","color":4},"Almudron Hardclaw":{"iconId":"033","color":13},"Afflicted Claw":{"iconId":"033","color":51},"Afflicted Hardclaw":{"iconId":"033","color":7},"Afflicted Claw+":{"iconId":"033","color":6},"Amatsu Cortex":{"iconId":"055","color":1},"Amatsu Heavypleura":{"iconId":"029","color":1},"Amatsu Membrane":{"iconId":"061","color":1},"Storm Vesicle Clump":{"iconId":"043","color":1},"Amatsu Hardclaw":{"iconId":"033","color":1},"Amatsu Stormtail":{"iconId":"040","color":1},"Heavenly Dragonsphire":{"iconId":"204","color":12},"Amatsu Hardhorn":{"iconId":"033","color":1},"Old Dragon Treasure":{"iconId":"029","color":9},"Anjanath Pelt":{"iconId":"032","color":3},"Anjanath Scale":{"iconId":"031","color":3},"Anjanath Nosebone":{"iconId":"030","color":3},"Anjanath Tail":{"iconId":"040","color":3},"Anjanath Plate":{"iconId":"063","color":3},"Anjanath Fang":{"iconId":"033","color":3},"Anjanath Pelt+":{"iconId":"032","color":3},"Anjanath Scale+":{"iconId":"031","color":3},"Anjanath Nosebone+":{"iconId":"030","color":3},"Anjanath Gem":{"iconId":"009","color":3},"Anjanath Fang+":{"iconId":"033","color":3},"Anjanath Fur":{"iconId":"032","color":3},"Anjanath Shard":{"iconId":"031","color":3},"Heavy Anjanath Nosebone":{"iconId":"030","color":3},"Anjanath Lash":{"iconId":"040","color":3},"Anjanath Mantle":{"iconId":"204","color":3},"Anjanath Hardfang":{"iconId":"033","color":3},"Afflicted Scale":{"iconId":"031","color":51},"Afflicted Shard":{"iconId":"031","color":7},"Afflicted Scale+":{"iconId":"031","color":6},"Apex Beastclaw":{"iconId":"029","color":11},"Arzuros Carapace":{"iconId":"055","color":11},"Arzuros Pelt+":{"iconId":"032","color":11},"Stoutbone":{"iconId":"030","color":2},"Honey":{"iconId":"003","color":5},"Beast Gem":{"iconId":"009","color":6},"Sushifish":{"iconId":"046","color":5},"Goldenfish":{"iconId":"046","color":4},"Arzuros Cortex":{"iconId":"055","color":11},"Arzuros Fur":{"iconId":"032","color":11},"Melding Pudding":{"iconId":"044","color":4},"Melding Honey":{"iconId":"044","color":2},"Large Beast Gem":{"iconId":"009","color":6},"Massive Bone":{"iconId":"030","color":1},"Apex Curlhorn":{"iconId":"033","color":13},"Diablos Carapace":{"iconId":"055","color":13},"Diablos Ridge+":{"iconId":"029","color":13},"Diablos Fang":{"iconId":"033","color":13},"Diablos Tailcase":{"iconId":"029","color":13},"Dash Extract":{"iconId":"044","color":4},"Diablos Medulla":{"iconId":"029","color":13},"Wyvern Gem":{"iconId":"009","color":12},"Diablos Marrow":{"iconId":"029","color":13},"Apex Bubblefoam":{"iconId":"044","color":9},"Mizutsune Scale+":{"iconId":"031","color":1},"Mizutsune Purplefur+":{"iconId":"032","color":9},"Mizutsune Claw+":{"iconId":"033","color":9},"Mizutsune Tail":{"iconId":"040","color":9},"Mizutsune Plate":{"iconId":"063","color":3},"Mizutsune Water Orb":{"iconId":"009","color":9},"Mizutsune Fin+":{"iconId":"029","color":7},"Mizutsune Shard":{"iconId":"031","color":1},"Mizutsune Purplefell":{"iconId":"032","color":9},"Mizutsune Hardclaw":{"iconId":"033","color":9},"Mizutsune Mantle":{"iconId":"204","color":3},"Mizutsune Silkfin":{"iconId":"029","color":7},"Purple Mizutsune Tail":{"iconId":"040","color":9},"Apex Blaze Sac":{"iconId":"043","color":7},"Rathalos Scale+":{"iconId":"031","color":7},"Rathalos Carapace":{"iconId":"055","color":7},"Rathalos Wing":{"iconId":"061","color":7},"Rath Medulla":{"iconId":"029","color":7},"Rathalos Plate":{"iconId":"063","color":7},"Rathalos Ruby":{"iconId":"009","color":7},"Rath Wingtalon+":{"iconId":"033","color":7},"Rathalos Tail":{"iconId":"040","color":7},"Apex Venom Spike":{"iconId":"029","color":8},"Rathian Scale+":{"iconId":"031","color":8},"Rathian Carapace":{"iconId":"055","color":8},"Rathian Webbing":{"iconId":"061","color":8},"Rathian Plate":{"iconId":"063","color":8},"Rathian Ruby":{"iconId":"009","color":8},"Rathian Shard":{"iconId":"031","color":8},"Rathian Cortex":{"iconId":"055","color":8},"Rathian Weave":{"iconId":"061","color":8},"Rathian Mantle":{"iconId":"204","color":8},"Rath Wingripper":{"iconId":"033","color":7},"Apex Shockshell":{"iconId":"055","color":8},"Zinogre Carapace":{"iconId":"055","color":8},"Zinogre Electrofur":{"iconId":"029","color":1},"Zinogre Tail":{"iconId":"040","color":8},"Fulgurbug":{"iconId":"008","color":8},"Zinogre Plate":{"iconId":"063","color":8},"Zinogre Jasper":{"iconId":"009","color":8},"Zinogre Horn+":{"iconId":"033","color":8},"Zinogre Claw+":{"iconId":"033","color":8},"Arzuros Shell":{"iconId":"055","color":11},"Arzuros Pelt":{"iconId":"032","color":11},"Arzuros Brace":{"iconId":"029","color":11},"Jumbo Bone":{"iconId":"030","color":1},"Beast Tear":{"iconId":"029","color":12},"Arzuros Brace+":{"iconId":"029","color":11},"Large Beast Tear":{"iconId":"029","color":12},"Arzuros Allbrace":{"iconId":"029","color":11},"Afflicted Bone":{"iconId":"030","color":51},"Afflicted Hardbone":{"iconId":"030","color":6},"Afflicted Slogbone":{"iconId":"030","color":7},"Astalos Shard":{"iconId":"031","color":8},"Heavy Astalos Shell":{"iconId":"055","color":8},"Astalos Wingmembrane":{"iconId":"061","color":8},"Boltscale":{"iconId":"055","color":8},"Heavy Astalos Crest+":{"iconId":"062","color":8},"Astalos Scissortailblade":{"iconId":"040","color":8},"Astalos Mantle":{"iconId":"204","color":8},"Astalos Wingripper":{"iconId":"033","color":8},"Afflicted Dire Scale+":{"iconId":"031","color":10},"Afflicted Dire Shard":{"iconId":"031","color":9},"Afflicted Dire Scale":{"iconId":"031","color":12},"Auroracanth Icescale":{"iconId":"031","color":1},"Auroracanth Icecortex":{"iconId":"055","color":1},"Auroracanth Fin":{"iconId":"029","color":10},"Monster Slogbone":{"iconId":"030","color":2},"Cryo Sac":{"iconId":"043","color":12},"Large Wyvern Gem":{"iconId":"009","color":12},"Auroracanth Iceclaw":{"iconId":"033","color":1},"Barioth Shell":{"iconId":"055","color":1},"Barioth Pelt":{"iconId":"032","color":1},"Barioth Claw":{"iconId":"033","color":1},"Barioth Spike":{"iconId":"029","color":1},"Barioth Tail":{"iconId":"040","color":1},"Frost Sac":{"iconId":"043","color":12},"Amber Fang":{"iconId":"033","color":5},"Barioth Carapace":{"iconId":"055","color":1},"Barioth Pelt+":{"iconId":"032","color":1},"Barioth Claw+":{"iconId":"033","color":1},"Freezer Sac":{"iconId":"043","color":12},"Amber Fang+":{"iconId":"033","color":5},"Barioth Cortex":{"iconId":"055","color":1},"Barioth Thickfur":{"iconId":"032","color":1},"Barioth Hardclaw":{"iconId":"033","color":1},"Barioth Greatspike":{"iconId":"029","color":1},"Barioth Lash":{"iconId":"040","color":1},"Amber Hardfang":{"iconId":"033","color":5},"Afflicted Fang":{"iconId":"033","color":51},"Afflicted Hardfang":{"iconId":"033","color":7},"Afflicted Fang+":{"iconId":"033","color":6},"Barroth Shell":{"iconId":"055","color":5},"Barroth Ridge":{"iconId":"029","color":5},"Barroth Claw":{"iconId":"033","color":5},"Barroth Scalp":{"iconId":"062","color":5},"Barroth Tail":{"iconId":"040","color":5},"Fertile Mud":{"iconId":"056","color":5},"Barroth Carapace":{"iconId":"055","color":5},"Barroth Ridge+":{"iconId":"029","color":5},"Barroth Claw+":{"iconId":"033","color":5},"Rich Mud":{"iconId":"056","color":5},"Barroth Cortex":{"iconId":"055","color":5},"Barroth Chine":{"iconId":"029","color":5},"Barroth Hardclaw":{"iconId":"033","color":5},"Barroth Crown":{"iconId":"062","color":5},"Barroth Lash":{"iconId":"040","color":5},"Basarios Shell":{"iconId":"055","color":2},"Basarios Pleura":{"iconId":"029","color":2},"Basarios Wing":{"iconId":"061","color":2},"Basarios Tail":{"iconId":"040","color":2},"Poison Sac":{"iconId":"043","color":9},"Machalite Ore":{"iconId":"045","color":11},"Basarios Carapace":{"iconId":"055","color":2},"Basarios Pleura+":{"iconId":"029","color":2},"Basarios Tears":{"iconId":"045","color":3},"Toxin Sac":{"iconId":"043","color":9},"Carbalite Ore":{"iconId":"045","color":9},"Basarios Cortex":{"iconId":"055","color":2},"Basarios Pectus+":{"iconId":"029","color":2},"Basarios Fellwing":{"iconId":"061","color":2},"Basarios Lash":{"iconId":"040","color":2},"Deadly Poison Sac":{"iconId":"043","color":9},"Eltalite Ore":{"iconId":"045","color":7},"Basarios Pallium":{"iconId":"204","color":2},"Bazelgeuse Scale+":{"iconId":"031","color":1},"Bazelgeuse Carapace":{"iconId":"055","color":1},"Bazelgeuse Talon":{"iconId":"033","color":1},"Bazelgeuse Fuse":{"iconId":"029","color":7},"Bazelgeuse Wing":{"iconId":"061","color":1},"Bazelgeuse Gem":{"iconId":"009","color":1},"Bazelgeuse Tail":{"iconId":"040","color":1},"Bazelgeuse Shard":{"iconId":"031","color":1},"Bazelgeuse Cortex":{"iconId":"055","color":1},"Bazelgeuse Hardclaw":{"iconId":"033","color":1},"Bazelgeuse Glandflux":{"iconId":"029","color":7},"Bazelgeuse Fellwing":{"iconId":"061","color":1},"Bazelgeuse Mantle":{"iconId":"204","color":1},"Bazelgeuse Flail":{"iconId":"040","color":1},"Afflicted Dire Carapace":{"iconId":"055","color":10},"Afflicted Dire Cortex":{"iconId":"055","color":9},"Afflicted Dire Shell":{"iconId":"055","color":12},"Bishaten Fur":{"iconId":"032","color":10},"Bishaten Feather":{"iconId":"029","color":10},"Bishaten Talon":{"iconId":"033","color":10},"Bishaten Horn":{"iconId":"033","color":10},"Bisha Tailcase":{"iconId":"055","color":10},"Jumbofruit":{"iconId":"014","color":1},"Poisonfruit":{"iconId":"028","color":9},"Flashfruit":{"iconId":"028","color":4},"Bishaten Fur+":{"iconId":"032","color":10},"Bishaten Feather+":{"iconId":"029","color":10},"Bishaten Talon+":{"iconId":"033","color":10},"Bishaten Horn+":{"iconId":"033","color":10},"Bishaten Tailcase+":{"iconId":"055","color":10},"Parafruit":{"iconId":"028","color":6},"Bishaten Finefur":{"iconId":"032","color":10},"Bishaten Glidefeather":{"iconId":"029","color":10},"Bishaten Hardclaw":{"iconId":"033","color":10},"Bishaten Heavyhorn":{"iconId":"033","color":10},"Bishaten Hardtail":{"iconId":"055","color":10},"Afflicted Blood":{"iconId":"044","color":51},"Afflicted Dragon Blood":{"iconId":"044","color":6},"Afflicted Pure Blood":{"iconId":"044","color":7},"Orangaten Fur+":{"iconId":"032","color":6},"Orangaten Feather+":{"iconId":"029","color":6},"Orangaten Talon":{"iconId":"033","color":6},"Orangaten Horn+":{"iconId":"033","color":6},"Orangaten Tailcase+":{"iconId":"055","color":6},"Solid Bone":{"iconId":"030","color":1},"Afflicted Shell":{"iconId":"055","color":51},"Afflicted Carapace":{"iconId":"055","color":6},"Afflicted Cortex":{"iconId":"055","color":7},"Chameleos Hide+":{"iconId":"032","color":9},"Chameleos Claw+":{"iconId":"033","color":9},"Chameleos Wing":{"iconId":"061","color":9},"Chameleos Tail":{"iconId":"040","color":9},"Chameleos Gem":{"iconId":"009","color":9},"Fucium Ore":{"iconId":"045","color":3},"Chameleos Spike":{"iconId":"033","color":9},"Elder Dragon Blood":{"iconId":"044","color":7},"Dragon Treasure":{"iconId":"029","color":9},"Chameleos Finehide":{"iconId":"032","color":9},"Chameleos Hardclaw":{"iconId":"033","color":9},"Chameleos Fellwing":{"iconId":"061","color":9},"Chameleos Lash":{"iconId":"040","color":9},"Large Elder Dragon Gem":{"iconId":"009","color":7},"Chameleos Hardhorn":{"iconId":"033","color":9},"Pure Dragon Blood":{"iconId":"044","color":7},"Ultimas Crystal":{"iconId":"045","color":3},"Chaos Scale":{"iconId":"031","color":2},"Gore Magala Cortex":{"iconId":"055","color":2},"Gore Magala Shredder":{"iconId":"033","color":2},"Antinomic Wing":{"iconId":"061","color":2},"Contrary Scale":{"iconId":"063","color":2},"Diametrical Horn":{"iconId":"033","color":2},"S. Magala Hardhorn":{"iconId":"033","color":1},"S. Magala Mantle":{"iconId":"204","color":1},"S. Magala Purifier":{"iconId":"033","color":1},"S. Magala Cortex":{"iconId":"055","color":1},"Gore Magala Tail":{"iconId":"040","color":2},"Afflicted Dire Darkblood":{"iconId":"044","color":9},"Afflicted Dire Blood":{"iconId":"044","color":12},"Afflicted Dire Dragon Blood":{"iconId":"044","color":10},"Glittering Shell":{"iconId":"055","color":7},"Shimmering Shard":{"iconId":"031","color":7},"Valstrax Talon":{"iconId":"033","color":2},"Valstrax Spineshell+":{"iconId":"055","color":2},"Valstrax Helixtail":{"iconId":"040","color":1},"Seething Crimson Liquid":{"iconId":"044","color":7},"Red Dragon Orb":{"iconId":"009","color":7},"Red Dragonsphire":{"iconId":"204","color":7},"Rouge Lancewing+":{"iconId":"061","color":7},"Hermitaur Cortex":{"iconId":"203","color":7},"Hermitaur Hardclaw":{"iconId":"033","color":7},"Monster Hardbone":{"iconId":"030","color":7},"Fine Black Pearl":{"iconId":"031","color":2},"Timeworn Crimson Horn":{"iconId":"033","color":7},"Crab Pearl+":{"iconId":"031","color":2},"Diablos Shell":{"iconId":"055","color":13},"Diablos Ridge":{"iconId":"029","color":13},"Twisted Horn":{"iconId":"033","color":13},"Majestic Horn":{"iconId":"033","color":13},"Diablos Cortex":{"iconId":"055","color":13},"Diablos Chine":{"iconId":"029","color":13},"Diablos Tailcase+":{"iconId":"029","color":13},"Twisted Stouthorn":{"iconId":"033","color":13},"Afflicted Dire Horn+":{"iconId":"033","color":10},"Afflicted Dire Hardhorn":{"iconId":"033","color":9},"Afflicted Dire Horn":{"iconId":"033","color":12},"Espinas Shard":{"iconId":"031","color":8},"Espinas Cortex":{"iconId":"055","color":8},"Espinas Toxic Blood":{"iconId":"044","color":7},"Espinas Lash":{"iconId":"040","color":8},"Espinas Surspike":{"iconId":"029","color":7},"Espinas Mantle":{"iconId":"204","color":8},"Espinas Hardhorn":{"iconId":"033","color":7},"Flaming Espinas Shard":{"iconId":"031","color":5},"Flaming Espinas Cortex":{"iconId":"055","color":5},"Flaming Espinas Sulfur":{"iconId":"044","color":4},"Flaming Espinas Lash":{"iconId":"040","color":5},"Flaming Espinas Surspike":{"iconId":"029","color":7},"Flaming Espinas Mantle":{"iconId":"204","color":5},"Flaming Espinas Hardhorn":{"iconId":"033","color":7},"Rajang Apoplexy":{"iconId":"032","color":4},"Rajang Hardclaw":{"iconId":"033","color":2},"Rajang Hardfang":{"iconId":"033","color":4},"Gold Rajang Pelt+":{"iconId":"029","color":4},"Rajang Heart":{"iconId":"029","color":7},"Ghoulish Gold Gorer":{"iconId":"033","color":4},"Afflicted Dire Hardfang":{"iconId":"033","color":9},"Afflicted Dire Fang":{"iconId":"033","color":12},"Afflicted Dire Fang+":{"iconId":"033","color":10},"Abyssal Dragonscale":{"iconId":"031","color":10},"Archdemon Backshell":{"iconId":"055","color":10},"Archdemon Piercetalon":{"iconId":"033","color":10},"Archdemon Wingtalon":{"iconId":"033","color":13},"Consumption Parasite":{"iconId":"008","color":7},"Archdemon Tailhook":{"iconId":"040","color":10},"Abyssal Dragonsphire":{"iconId":"204","color":2},"Archdemon Doomhorn":{"iconId":"033","color":10},"Garangolm Cortex":{"iconId":"055","color":13},"Garangolm Shard":{"iconId":"031","color":13},"Golm Thick Juice":{"iconId":"044","color":4},"Garangolm Hardfang":{"iconId":"033","color":13},"Golm Ploughtail":{"iconId":"040","color":13},"Garangolm Fist":{"iconId":"029","color":13},"Gold Rathian Shard":{"iconId":"031","color":4},"Gold Rathian Cortex":{"iconId":"055","color":4},"Gold Rathian Weave":{"iconId":"061","color":4},"Gold Rathian Surspike":{"iconId":"029","color":4},"Rath Gleam":{"iconId":"044","color":4},"Afflicted Dire Fellwing":{"iconId":"061","color":9},"Afflicted Dire Wing":{"iconId":"061","color":12},"Afflicted Dire Wing+":{"iconId":"061","color":10},"Gore Magala Shard":{"iconId":"031","color":2},"Gore Magala Eclipse":{"iconId":"061","color":2},"Gore Magala Mantle":{"iconId":"204","color":2},"Gore Magala Sensor":{"iconId":"033","color":2},"Goss Harag Fur":{"iconId":"029","color":1},"Goss Harag Hide":{"iconId":"032","color":12},"Goss Harag Brace":{"iconId":"055","color":12},"Block of Ice":{"iconId":"045","color":12},"Goss Harag Claw":{"iconId":"033","color":12},"Goss Harag Horn":{"iconId":"033","color":12},"Goss Harag Fur+":{"iconId":"029","color":1},"Goss Harag Hide+":{"iconId":"032","color":12},"Goss Harag Brace+":{"iconId":"055","color":12},"Block of Ice+":{"iconId":"045","color":12},"Goss Harag Bile":{"iconId":"043","color":7},"Goss Harag Claw+":{"iconId":"033","color":12},"Goss Harag Horn+":{"iconId":"033","color":12},"Goss Harag Frozen Fur":{"iconId":"029","color":1},"Goss Finehide":{"iconId":"032","color":12},"Goss Harag Allbrace":{"iconId":"055","color":12},"Dense Block of Ice":{"iconId":"045","color":12},"Goss Harag Bile+":{"iconId":"043","color":7},"Goss Harag Hardclaw":{"iconId":"033","color":12},"Goss Harag Hardhorn":{"iconId":"033","color":12},"Great Baggi Hide":{"iconId":"032","color":12},"Great Baggi Claw":{"iconId":"033","color":12},"Sleep Sac":{"iconId":"043","color":12},"Great Baggi Hide+":{"iconId":"032","color":12},"Great Baggi Claw+":{"iconId":"033","color":12},"Coma Sac":{"iconId":"043","color":12},"Monster Bone+":{"iconId":"030","color":5},"Great Baggi Thickhide":{"iconId":"032","color":12},"Torpor Sac":{"iconId":"043","color":12},"Glorious Crest":{"iconId":"062","color":12},"Afflicted Pelt":{"iconId":"032","color":51},"Afflicted Hide+":{"iconId":"032","color":6},"Afflicted Thickhide":{"iconId":"032","color":7},"Great Izuchi Hide":{"iconId":"032","color":6},"Great Izuchi Pelt":{"iconId":"032","color":6},"Great Izuchi Tail":{"iconId":"029","color":11},"Screamer Sac":{"iconId":"043","color":2},"Monster Bone S":{"iconId":"030","color":4},"Great Izuchi Hide+":{"iconId":"032","color":6},"Great Izuchi Pelt+":{"iconId":"032","color":6},"Great Izuchi Tail+":{"iconId":"029","color":11},"Great Izuchi Thickhide":{"iconId":"032","color":6},"Great Izuchi Thickfur":{"iconId":"032","color":6},"Great Izuchi Grindtail":{"iconId":"029","color":11},"Great Wroggi Hide":{"iconId":"032","color":5},"Great Wroggi Brace":{"iconId":"029","color":5},"Great Wroggi Hide+":{"iconId":"032","color":5},"Great Wroggi Brace+":{"iconId":"029","color":5},"Great Wroggi Thickhide":{"iconId":"032","color":5},"Imperial Beak":{"iconId":"062","color":5},"Jyuratodus Carapace":{"iconId":"055","color":5},"Jyuratodus Scale+":{"iconId":"031","color":5},"Jyuratodus Fang+":{"iconId":"033","color":5},"Jyuratodus Fin+":{"iconId":"029","color":5},"Torrent Sac":{"iconId":"043","color":11},"Jyuratodus Cortex":{"iconId":"055","color":5},"Jyuratodus Shard":{"iconId":"031","color":5},"Jyuratodus Hardfang":{"iconId":"033","color":5},"Jyuratodus Grandfin":{"iconId":"029","color":5},"Flood Sac":{"iconId":"043","color":11},"Flabby Hide":{"iconId":"032","color":1},"Suspicious Fang":{"iconId":"033","color":1},"Pale Extract":{"iconId":"044","color":1},"Pale Bone":{"iconId":"029","color":1},"Electro Sac":{"iconId":"043","color":4},"Pearl Hide":{"iconId":"032","color":1},"Suspicious Fang+":{"iconId":"033","color":1},"Pale Steak":{"iconId":"029","color":1},"Thunder Sac":{"iconId":"043","color":4},"Pearl Glosshide":{"iconId":"032","color":1},"Mystic Hardfang":{"iconId":"033","color":1},"Khezu Special Cut":{"iconId":"029","color":1},"Lightning Sac":{"iconId":"043","color":4},"Kulu-Ya-Ku Scale":{"iconId":"031","color":5},"Kulu-Ya-Ku Hide":{"iconId":"032","color":5},"Kulu-Ya-Ku Plume":{"iconId":"029","color":6},"Kulu-Ya-Ku Beak":{"iconId":"062","color":5},"Kulu-Ya-Ku Scale+":{"iconId":"031","color":5},"Kulu-Ya-Ku Hide+":{"iconId":"032","color":5},"Kulu-Ya-Ku Plume+":{"iconId":"029","color":6},"Kulu-Ya-Ku Beak+":{"iconId":"062","color":5},"Kulu-Ya-Ku Shard":{"iconId":"031","color":5},"Kulu-Ya-Ku Thickhide":{"iconId":"032","color":5},"Large Kulu-Ya-Ku Plume":{"iconId":"029","color":6},"Colossal Drill Beak":{"iconId":"062","color":5},"Daora Carapace":{"iconId":"055","color":2},"Daora Dragon Scale+":{"iconId":"031","color":2},"Daora Claw+":{"iconId":"033","color":2},"Daora Webbing":{"iconId":"061","color":2},"Daora Tail":{"iconId":"040","color":2},"Daora Gem":{"iconId":"009","color":2},"Daora Horn+":{"iconId":"033","color":2},"Daora Cortex":{"iconId":"055","color":2},"Daora Shard":{"iconId":"031","color":2},"Daora Hardclaw":{"iconId":"033","color":2},"Daora Fellwing":{"iconId":"061","color":2},"Daora Lash":{"iconId":"040","color":2},"Daora Hardhorn":{"iconId":"033","color":2},"Lagombi Pelt":{"iconId":"032","color":1},"Lagombi Plastron":{"iconId":"029","color":1},"Lagombi Iceclaw":{"iconId":"033","color":1},"Lagombi Ear":{"iconId":"062","color":1},"Lagombi Pelt+":{"iconId":"032","color":1},"Lagombi Frozenclaw":{"iconId":"033","color":1},"Lagombi Ear+":{"iconId":"062","color":1},"Lagombi Fur":{"iconId":"032","color":1},"Lagombi Cuirass":{"iconId":"029","color":1},"Lagombi Frigidclaw":{"iconId":"033","color":1},"Lagombi Auricle":{"iconId":"062","color":1},"Lucent Narga Dapple":{"iconId":"032","color":1},"Lucent Narga Shard":{"iconId":"031","color":1},"Lucent Narga Hardfang":{"iconId":"033","color":1},"Lucent Narga Razor":{"iconId":"029","color":1},"Lucent Narga Tailspear":{"iconId":"029","color":1},"Nargacuga Lash":{"iconId":"040","color":2},"Cloudy Moonshard":{"iconId":"204","color":1},"Lunagaron Cortex":{"iconId":"055","color":10},"Lunagaron Shard":{"iconId":"031","color":10},"Luna Vermilion Hardclaw":{"iconId":"033","color":6},"Frostborn Hardfang":{"iconId":"033","color":10},"Lunagaron Bluecore":{"iconId":"029","color":12},"Lunagaron Frost Jewel":{"iconId":"204","color":10},"Lunagaron Lash Shell":{"iconId":"029","color":10},"Afflicted Dire Hardbone":{"iconId":"030","color":10},"Afflicted Dire Slogbone":{"iconId":"030","color":9},"Afflicted Dire Bone":{"iconId":"030","color":12},"Magmadron Shard":{"iconId":"031","color":10},"Magmadron Cortex":{"iconId":"055","color":10},"Large Magmadron Fin":{"iconId":"029","color":7},"Magmadron Hardwhisker":{"iconId":"029","color":7},"Magmadron Tail":{"iconId":"040","color":10},"Inferno Lava Mud":{"iconId":"056","color":6},"Magmadron Mantle":{"iconId":"204","color":10},"Magmadron Hardclaw":{"iconId":"033","color":10},"Magnamalo Scale":{"iconId":"031","color":9},"Magnamalo Shell":{"iconId":"055","color":9},"Magnamalo Blade":{"iconId":"029","color":9},"Magnamalo Scute":{"iconId":"033","color":9},"Magnamalo Tail":{"iconId":"040","color":9},"Magna Ghostprism":{"iconId":"045","color":9},"Magnamalo Plate":{"iconId":"063","color":9},"Magnamalo Horn":{"iconId":"033","color":4},"Magnamalo Scale+":{"iconId":"031","color":9},"Magnamalo Shell+":{"iconId":"055","color":9},"Magnamalo Blade+":{"iconId":"029","color":9},"Magnamalo Scute+":{"iconId":"033","color":9},"Magna Soulprism":{"iconId":"045","color":9},"Purple Magna Orb":{"iconId":"009","color":9},"Magnamalo Horn+":{"iconId":"033","color":4},"Magnamalo Shard":{"iconId":"031","color":9},"Magnamalo Cortex":{"iconId":"055","color":9},"Magna Ascended Blade":{"iconId":"029","color":9},"Magnamalo Bladeshell":{"iconId":"033","color":9},"Magnamalo Speartail":{"iconId":"040","color":9},"Magnamalo Orb":{"iconId":"204","color":9},"Magnamalo Hellhorn":{"iconId":"033","color":4},"Malzeno Cortex":{"iconId":"055","color":1},"Malzeno Shard":{"iconId":"031","color":1},"Malzeno Hardfang":{"iconId":"033","color":1},"Bloody Parasite":{"iconId":"008","color":7},"Malzeno Tail":{"iconId":"040","color":1},"Malzeno Bloodstone":{"iconId":"204","color":7},"Malzeno Hardhorn":{"iconId":"033","color":1},"Malzeno Fellwing":{"iconId":"061","color":1},"Mizutsune Scale":{"iconId":"031","color":1},"Mizutsune Purplefur":{"iconId":"032","color":9},"Mizutsune Claw":{"iconId":"033","color":9},"Bubblefoam":{"iconId":"044","color":9},"Mizutsune Fin":{"iconId":"029","color":7},"Bubblefoam+":{"iconId":"044","color":9},"Distilled Bubblefoam":{"iconId":"044","color":9},"Nargacuga Blackfur":{"iconId":"032","color":2},"Nargacuga Scale":{"iconId":"031","color":2},"Nargacuga Fang":{"iconId":"033","color":2},"Nargacuga Cutwing":{"iconId":"061","color":2},"Narga Tailspike":{"iconId":"029","color":2},"Nargacuga Tail":{"iconId":"040","color":2},"Nargacuga Marrow":{"iconId":"029","color":2},"Nargacuga Pelt+":{"iconId":"032","color":2},"Nargacuga Scale+":{"iconId":"031","color":2},"Nargacuga Fang+":{"iconId":"033","color":2},"Narga Razor":{"iconId":"061","color":2},"Narga Medulla":{"iconId":"029","color":2},"Nargacuga Blackfur+":{"iconId":"032","color":2},"Nargacuga Shard":{"iconId":"031","color":2},"Nargacuga Hardfang":{"iconId":"033","color":2},"Nargacuga Cutwing+":{"iconId":"061","color":2},"Nargacuga Tailspear":{"iconId":"029","color":2},"Nargacuga Mantle":{"iconId":"204","color":2},"Scale of Origin":{"iconId":"031","color":5},"Narwa Hide+":{"iconId":"032","color":4},"Horn of Origin":{"iconId":"033","color":5},"Narwa Sparksac":{"iconId":"043","color":4},"Narwa Tentacle":{"iconId":"029","color":4},"Orb of Origin":{"iconId":"009","color":5},"Thunder Serpent Orb":{"iconId":"009","color":4},"Wind Serpent Orb":{"iconId":"009","color":11},"Narwa Claw+":{"iconId":"033","color":4},"Scale of Origin+":{"iconId":"031","color":5},"Narwa Thickhide":{"iconId":"032","color":4},"Horn of Origin+":{"iconId":"033","color":5},"Narwa Lighting Sac":{"iconId":"043","color":4},"Narwa Tentacle+":{"iconId":"029","color":4},"Mantle of Origin":{"iconId":"204","color":5},"Narwa Hardclaw":{"iconId":"033","color":4},"Malzeno Pureplate":{"iconId":"055","color":1},"Primordial Scale":{"iconId":"031","color":1},"Malzeno Beautifang":{"iconId":"033","color":1},"Madness Parasite":{"iconId":"008","color":7},"Primordial Tail":{"iconId":"040","color":1},"Primordial Bloodstone":{"iconId":"204","color":7},"Malzeno Silverhorn":{"iconId":"033","color":1},"Shining Shieldwing":{"iconId":"061","color":1},"Pukei-Pukei Scale":{"iconId":"031","color":8},"Pukei-Pukei Shell":{"iconId":"055","color":8},"Pukei-Pukei Quill":{"iconId":"061","color":8},"Pukei-Pukei Tail":{"iconId":"040","color":8},"Pukei-Pukei Sac":{"iconId":"043","color":8},"Monster Bone L":{"iconId":"030","color":4},"Pukei-Pukei Scale+":{"iconId":"031","color":8},"Pukei-Pukei Carapace":{"iconId":"055","color":8},"Pukei-Pukei Wing":{"iconId":"061","color":8},"Pukei-Pukei Sac+":{"iconId":"043","color":8},"Pukei-Pukei Shard":{"iconId":"031","color":8},"Pukei-Pukei Cortex":{"iconId":"055","color":8},"Pukei-Pukei Fellwing":{"iconId":"061","color":8},"Large Pukei-Pukei Sac":{"iconId":"043","color":8},"Pukei-Pukei Lash":{"iconId":"040","color":8},"Pyre-Kadaki Cortex":{"iconId":"055","color":1},"Pyre-Kadaki Silk+":{"iconId":"048","color":2},"Pyre-Kadaki Dull Glowgut":{"iconId":"029","color":6},"Pyre-Kadaki Hardclaw":{"iconId":"033","color":7},"Pyre-Kadaki Spike+":{"iconId":"029","color":7},"Monster Essence":{"iconId":"044","color":11},"Queen Substance":{"iconId":"044","color":4},"Afflicted Dire Claw+":{"iconId":"033","color":10},"Afflicted Dire Hardclaw":{"iconId":"033","color":9},"Afflicted Dire Claw":{"iconId":"033","color":12},"Rajang Blackfur":{"iconId":"029","color":2},"Rajang Claw+":{"iconId":"033","color":2},"Rajang Fang+":{"iconId":"033","color":4},"Rajang Tail":{"iconId":"040","color":4},"Gold Rajang Pelt":{"iconId":"029","color":4},"Great Stoutbone":{"iconId":"030","color":2},"Rajang Horn+":{"iconId":"033","color":4},"Rajang Wildpelt":{"iconId":"029","color":2},"Rajang Hardhorn":{"iconId":"033","color":4},"Rakna-Kadaki Carapace":{"iconId":"055","color":9},"Rakna-Kadaki Silk":{"iconId":"048","color":1},"Rakna-Kadaki Glowgut":{"iconId":"029","color":5},"Rakna-Kadaki Sharpclaw":{"iconId":"033","color":9},"Rakna-Kadaki Spike":{"iconId":"029","color":9},"Monster Broth":{"iconId":"044","color":11},"Drone Substance":{"iconId":"044","color":4},"Rakna-Kadaki Cortex":{"iconId":"055","color":9},"Rakna-Kadaki Silk+":{"iconId":"048","color":1},"Rakna-Kadaki Glowgut+":{"iconId":"029","color":5},"Rakna-Kadaki Hardclaw":{"iconId":"033","color":9},"Rakna-Kadaki Spike+":{"iconId":"029","color":9},"Rathalos Scale":{"iconId":"031","color":7},"Rathalos Shell":{"iconId":"055","color":7},"Rathalos Webbing":{"iconId":"061","color":7},"Rath Marrow":{"iconId":"029","color":7},"Rath Wingtalon":{"iconId":"033","color":7},"Rathalos Shard":{"iconId":"031","color":7},"Rathalos Cortex":{"iconId":"055","color":7},"Rathalos Fellwing":{"iconId":"061","color":7},"Rathalos Lash":{"iconId":"040","color":7},"Rathalos Mantle":{"iconId":"204","color":7},"Rathian Scale":{"iconId":"031","color":8},"Rathian Shell":{"iconId":"055","color":8},"Rathian Spike":{"iconId":"029","color":8},"Rathian Spike+":{"iconId":"029","color":8},"Rathian Surspike":{"iconId":"029","color":8},"Risen Dragonbone":{"iconId":"030","color":12},"Risen Dragonbone+":{"iconId":"030","color":10},"S. Magala Shard":{"iconId":"031","color":1},"S. Magala Lash":{"iconId":"040","color":1},"S. Magala Lightwing":{"iconId":"061","color":1},"Risen Dragon Blood":{"iconId":"044","color":12},"Risen Dragon Pureblood":{"iconId":"044","color":10},"Risen Dragon Thickblood":{"iconId":"044","color":9},"Teostra Cortex":{"iconId":"055","color":7},"Hellfire Shard":{"iconId":"031","color":7},"Fire Dragon Hardclaw":{"iconId":"033","color":7},"Teostra Lash":{"iconId":"040","color":7},"Teostra Gem":{"iconId":"009","color":7},"Teostra Hardhorn":{"iconId":"033","color":7},"Teostra Fellwing":{"iconId":"061","color":7},"Royal Ludroth Scale":{"iconId":"031","color":4},"Royal Ludroth Claw":{"iconId":"033","color":4},"Spongy Hide":{"iconId":"032","color":4},"Royal Ludroth Crest":{"iconId":"062","color":4},"Royal Ludroth Tail":{"iconId":"040","color":4},"Aqua Sac":{"iconId":"043","color":11},"Royal Ludroth Scale+":{"iconId":"031","color":4},"Royal Ludroth Claw+":{"iconId":"033","color":4},"Spongy Hide+":{"iconId":"032","color":4},"Royal Ludroth Crest+":{"iconId":"062","color":4},"Royal Ludroth Shard":{"iconId":"031","color":4},"Royal Ludroth Talon":{"iconId":"033","color":4},"Spongy Piel":{"iconId":"032","color":4},"Chic Crest":{"iconId":"062","color":4},"Royal Ludroth Lash":{"iconId":"040","color":4},"Begrudged Rancorscale":{"iconId":"031","color":7},"Magna Armored Cortex":{"iconId":"055","color":4},"Surging Armblade":{"iconId":"029","color":4},"Moaning Bladeshell":{"iconId":"033","color":4},"Magnamalo Tail+":{"iconId":"040","color":9},"Magna Barrierprism":{"iconId":"045","color":9},"Magna Glare Eye":{"iconId":"204","color":9},"Horn of Malice":{"iconId":"033","color":4},"Flickering Silvershell":{"iconId":"055","color":1},"Distilled Blast Fluid":{"iconId":"044","color":7},"Scorching Silverwing":{"iconId":"061","color":1},"Seregios Slavescale+":{"iconId":"031","color":4},"Seregios Airblade+":{"iconId":"031","color":4},"Seregios Carver+":{"iconId":"033","color":4},"Seregios Scraper+":{"iconId":"033","color":4},"Seregios Impaler+":{"iconId":"040","color":4},"Seregios Lens":{"iconId":"204","color":4},"Seregios Breacher+":{"iconId":"033","color":4},"Ceanataur Cortex":{"iconId":"203","color":12},"Heavy Ceanataur Leg":{"iconId":"203","color":12},"Ceanataur Hardclaw":{"iconId":"033","color":12},"Heavy Wyvern Scalp":{"iconId":"062","color":2},"Silver Rathalos Shard":{"iconId":"031","color":1},"Silver Rathalos Cortex":{"iconId":"055","color":1},"Silver Rathalos Fellwing":{"iconId":"061","color":1},"Silver Rathalos Lash":{"iconId":"040","color":1},"Somnacanth Scale":{"iconId":"031","color":4},"Somnacanth Shell":{"iconId":"055","color":4},"Somnacanth Fin":{"iconId":"029","color":9},"Somnacanth Dust":{"iconId":"043","color":12},"Somnacanth Scale+":{"iconId":"031","color":4},"Somnacanth Shell+":{"iconId":"055","color":4},"Somnacanth Fin+":{"iconId":"029","color":9},"Somnacanth Sedative":{"iconId":"043","color":12},"Somnacanth Shard":{"iconId":"031","color":4},"Somnacanth Cortex":{"iconId":"055","color":4},"Somnacanth Wild Fin":{"iconId":"029","color":9},"Somna Dream Powder":{"iconId":"043","color":12},"Somnacanth Dreamtalon":{"iconId":"033","color":4},"Teostra Carapace":{"iconId":"055","color":7},"Fire Dragon Scale+":{"iconId":"031","color":7},"Teostra Mane":{"iconId":"029","color":7},"Teostra Claw+":{"iconId":"033","color":7},"Teostra Powder":{"iconId":"043","color":7},"Teostra Tail":{"iconId":"040","color":7},"Teostra Horn+":{"iconId":"033","color":7},"Teostra Webbing":{"iconId":"061","color":7},"Tetranadon Hide":{"iconId":"032","color":8},"Tetra Carapace":{"iconId":"055","color":8},"Tetranadon Beak":{"iconId":"062","color":8},"Tetranadon Disc":{"iconId":"031","color":8},"Shiny Nacre":{"iconId":"009","color":8},"Tetranadon Hide+":{"iconId":"032","color":8},"Tetra Carapace+":{"iconId":"055","color":8},"Tetranadon Beak+":{"iconId":"062","color":8},"Tetranadon Disc+":{"iconId":"031","color":8},"Tetranadon Thickhide":{"iconId":"032","color":8},"Heavy Tetra Carapace":{"iconId":"055","color":8},"Tetranadon Greatbeak":{"iconId":"062","color":8},"Tetranadon Finedisc":{"iconId":"031","color":8},"Glittering Nacre":{"iconId":"009","color":8},"Shimmering Nacre":{"iconId":"009","color":8},"Narwa Carapace":{"iconId":"055","color":4},"Narwa Horn+":{"iconId":"033","color":4},"Tigrex Shell":{"iconId":"055","color":4},"Tigrex Scale":{"iconId":"031","color":4},"Tigrex Claw":{"iconId":"033","color":4},"Tigrex Fang":{"iconId":"033","color":4},"Tigrex Tail":{"iconId":"040","color":4},"Tigrex Scalp":{"iconId":"062","color":4},"Tigrex Carapace":{"iconId":"055","color":4},"Tigrex Scale+":{"iconId":"031","color":4},"Tigrex Claw+":{"iconId":"033","color":4},"Tigrex Fang+":{"iconId":"033","color":4},"Tigrex Maw":{"iconId":"062","color":4},"Tigrex Cortex":{"iconId":"055","color":4},"Tigrex Shard":{"iconId":"031","color":4},"Tigrex Hardclaw":{"iconId":"033","color":4},"Tigrex Hardfang":{"iconId":"033","color":4},"Tigrex Lash":{"iconId":"040","color":4},"Tigrex Mantle":{"iconId":"204","color":4},"Tobi-Kadachi Pelt":{"iconId":"032","color":12},"Tobi-Kadachi Scale":{"iconId":"031","color":12},"Tobi-Kadachi Membrane":{"iconId":"061","color":12},"Tobi-Kadachi Claw":{"iconId":"033","color":12},"Tobi-Kadachi Electrode":{"iconId":"029","color":12},"Tobi-Kadachi Pelt+":{"iconId":"032","color":12},"Tobi-Kadachi Scale+":{"iconId":"031","color":12},"Tobi-Kadachi Claw+":{"iconId":"033","color":12},"Tobi-Kadachi Electrode+":{"iconId":"029","color":12},"Tobi-Kadachi Thickfur":{"iconId":"032","color":12},"Tobi-Kadachi Shard":{"iconId":"031","color":12},"Tobi-Kadachi Hardclaw":{"iconId":"033","color":12},"Tobi-Kadachi Cathode":{"iconId":"029","color":12},"Tobi-Kadachi Membrane+":{"iconId":"061","color":12},"Crystal Shard":{"iconId":"031","color":12},"Velkhana Cortex":{"iconId":"055","color":12},"Velkhana Hardclaw":{"iconId":"033","color":12},"Velkhana Fellwing":{"iconId":"061","color":12},"Velkhana Lash":{"iconId":"040","color":12},"Velkhana Crystal":{"iconId":"204","color":12},"Velkhana Crownhorn":{"iconId":"033","color":12},"Violet Mizu Shard":{"iconId":"031","color":10},"Violet Mizu Whitefell":{"iconId":"032","color":1},"Violet Mizu Hardclaw":{"iconId":"033","color":10},"White Synovial Fluid":{"iconId":"044","color":1},"Violet Mizu Tail":{"iconId":"040","color":1},"Violet Mizu Mantle":{"iconId":"204","color":10},"Violet Mizu Fin":{"iconId":"029","color":10},"Volvidon Shell":{"iconId":"055","color":7},"Volvidon Claw":{"iconId":"033","color":7},"Paralysis Sac":{"iconId":"043","color":4},"Monster Fluid":{"iconId":"044","color":12},"Volvidon Claw+":{"iconId":"033","color":7},"Omniplegia Sac":{"iconId":"043","color":4},"Volvidon Cortex":{"iconId":"055","color":7},"Volvidon Talon":{"iconId":"033","color":7},"Large Volvi Rickrack":{"iconId":"029","color":7},"Ultraplegia Sac":{"iconId":"043","color":4},"Ibushi Carapace":{"iconId":"055","color":11},"Ibushi Hide+":{"iconId":"032","color":11},"Ibushi Horn+":{"iconId":"033","color":11},"Ibushi Windsac":{"iconId":"043","color":11},"Ibushi Bluespike":{"iconId":"029","color":11},"Ibushi Claw+":{"iconId":"033","color":11},"Ibushi Cortex":{"iconId":"055","color":11},"Ibushi Finehide":{"iconId":"032","color":11},"Ibushi Hardhorn":{"iconId":"033","color":11},"Ibushi Windsac+":{"iconId":"043","color":11},"Ibushi Bluespike+":{"iconId":"029","color":11},"Wind Dragonsphire":{"iconId":"204","color":11},"Ibushi Hardclaw":{"iconId":"033","color":11},"Zinogre Shell":{"iconId":"055","color":8},"Zinogre Shockfur":{"iconId":"029","color":1},"Zinogre Shocker":{"iconId":"055","color":8},"Zinogre Horn":{"iconId":"033","color":8},"Zinogre Claw":{"iconId":"033","color":8},"Zinogre Shocker+":{"iconId":"055","color":8},"Zinogre Cortex":{"iconId":"055","color":8},"Zinogre Electrofur+":{"iconId":"029","color":1},"Zinogre Deathly Shocker":{"iconId":"055","color":8},"Zinogre Lash":{"iconId":"040","color":8},"Zinogre Skymerald":{"iconId":"204","color":8},"Zinogre Hardhorn":{"iconId":"033","color":8},"Zinogre Hardclaw":{"iconId":"033","color":8},"Altaroth Stomach":{"iconId":"008","color":8},"Altaroth Jaw":{"iconId":"008","color":8},"Ripened Mushroom":{"iconId":"001","color":8},"Nulberry":{"iconId":"028","color":11},"Fine Stomach":{"iconId":"043","color":4},"Quality Stomach":{"iconId":"008","color":8},"Prized Stomach":{"iconId":"043","color":8},"Raw Meat":{"iconId":"038","color":7},"Warm Pelt":{"iconId":"032","color":8},"Anteka Antler":{"iconId":"033","color":5},"White Liver":{"iconId":"007","color":1},"High-quality Pelt":{"iconId":"032","color":5},"Prized Pelt":{"iconId":"032","color":5},"Anteka Proud Antler":{"iconId":"033","color":5},"Baggi Scale":{"iconId":"031","color":12},"Baggi Hide":{"iconId":"032","color":12},"Sharp Fang":{"iconId":"033","color":5},"Baggi Scale+":{"iconId":"031","color":12},"Acute Fang":{"iconId":"033","color":5},"Crushing Fang":{"iconId":"033","color":5},"Bnahabra Shell":{"iconId":"008","color":4},"Bnahabra Wing":{"iconId":"003","color":4},"Bnahabra Stinger":{"iconId":"033","color":4},"Flashbug":{"iconId":"008","color":4},"Bnahabra Carapace":{"iconId":"008","color":4},"Bnahabra Razorwing":{"iconId":"003","color":4},"Boggi Thickhide":{"iconId":"032","color":13},"Boggi Shard":{"iconId":"031","color":13},"Bombadgy Igniter":{"iconId":"044","color":5},"Bombadgy Activator":{"iconId":"044","color":5},"Bullfango Pelt":{"iconId":"032","color":5},"Bullfango Head":{"iconId":"062","color":5},"Bullfango Pelt+":{"iconId":"032","color":5},"Blue Mushroom":{"iconId":"001","color":11},"Bullfango Thickfur":{"iconId":"032","color":5},"Gowngoat Thickfur":{"iconId":"029","color":2},"Large Herbivore Bone":{"iconId":"030","color":8},"Gowngoat Fleeceball":{"iconId":"009","color":1},"Ceanataur Shell":{"iconId":"203","color":12},"Tough Claw":{"iconId":"033","color":2},"Carapaceon Brains+":{"iconId":"029","color":5},"Big Fin":{"iconId":"029","color":5},"Monster Guts":{"iconId":"029","color":4},"Quality Fin":{"iconId":"029","color":5},"Round Acorn":{"iconId":"028","color":8},"Pawprint Stamp":{"iconId":"050","color":1},"First-aid Med":{"iconId":"005","color":8},"Pawprint Ticket":{"iconId":"050","color":1},"Gajau Skin":{"iconId":"032","color":13},"Gajau Whisker":{"iconId":"029","color":13},"Gajau Scale":{"iconId":"032","color":13},"Gajau Whisker+":{"iconId":"029","color":13},"Gajau Thickhide":{"iconId":"032","color":13},"Steel Gajau Whisker":{"iconId":"029","color":13},"Gargwa Feather":{"iconId":"003","color":12},"Gargwa Guano":{"iconId":"056","color":4},"Herb":{"iconId":"004","color":8},"Gargwa Egg":{"iconId":"002","color":12},"Gold Gargwa Egg":{"iconId":"002","color":4},"Gargwa Finefeather":{"iconId":"003","color":12},"Tiny Hermitaur Shell":{"iconId":"203","color":7},"Hornetaur Cortex":{"iconId":"008","color":2},"Hornetaur Razorwing":{"iconId":"003","color":2},"Hornetaur Head":{"iconId":"008","color":2},"Izuchi Tail":{"iconId":"029","color":6},"Izuchi Pelt":{"iconId":"032","color":6},"Sharp Claw":{"iconId":"033","color":2},"Izuchi Pelt+":{"iconId":"032","color":6},"Piercing Claw":{"iconId":"033","color":2},"Heavy Izuchi Pelt":{"iconId":"032","color":6},"Jaggi Hide":{"iconId":"032","color":9},"Jaggi Scale":{"iconId":"031","color":9},"Jaggi Hide+":{"iconId":"032","color":9},"Jaggi Scale+":{"iconId":"031","color":9},"Jaggi Piel":{"iconId":"032","color":9},"Jaggi Shard":{"iconId":"031","color":9},"Jagras Hide":{"iconId":"032","color":4},"Jagras Scale":{"iconId":"031","color":4},"Jagras Hide+":{"iconId":"032","color":4},"Jagras Scale+":{"iconId":"031","color":4},"Jagras Shard":{"iconId":"031","color":4},"Kelbi Horn":{"iconId":"033","color":8},"Kestodon Shell":{"iconId":"055","color":5},"Kestodon Scalp":{"iconId":"062","color":5},"Kestodon Carapace":{"iconId":"055","color":5},"Kestodon Husk":{"iconId":"055","color":5},"Hydro Hide":{"iconId":"032","color":8},"Immature Sponge":{"iconId":"029","color":8},"Hydro Hide+":{"iconId":"032","color":8},"Hydro Piel":{"iconId":"032","color":8},"Secret Stash":{"iconId":"028","color":8},"Ration":{"iconId":"007","color":13},"Popo Tongue":{"iconId":"007","color":7},"Pyrantula Maroon Thread":{"iconId":"048","color":2},"Rachnoid Silk":{"iconId":"048","color":1},"Rachnoid Silk+":{"iconId":"048","color":1},"Rachnoid Mesmersilk":{"iconId":"048","color":1},"Remobra Hide":{"iconId":"032","color":2},"Striped Hide":{"iconId":"032","color":2},"Remobra Head":{"iconId":"062","color":2},"Remobra Hide+":{"iconId":"032","color":2},"Remobra Finehide":{"iconId":"032","color":2},"Striped Finehide":{"iconId":"032","color":2},"Mighty Remobra Head":{"iconId":"062","color":2},"Rhenoplos Shell":{"iconId":"055","color":2},"Rhenoplos Scalp":{"iconId":"062","color":2},"Rhenoplos Carapace":{"iconId":"055","color":2},"Slagtoth Oil":{"iconId":"044","color":8},"Slagtoth Hide":{"iconId":"032","color":8},"Slagtoth Hide+":{"iconId":"032","color":8},"Uroktor Scale":{"iconId":"031","color":7},"Dragonfell Berry":{"iconId":"047","color":6},"Uroktor Scale+":{"iconId":"031","color":7},"Uroktor Shard":{"iconId":"031","color":7},"Velociprey Shard":{"iconId":"031","color":11},"Velociprey Thickhide":{"iconId":"032","color":11},"Vespoid Cortex":{"iconId":"008","color":4},"Vespoid Razorwing":{"iconId":"003","color":4},"Wroggi Scale":{"iconId":"031","color":5},"Wroggi Hide":{"iconId":"032","color":5},"Wroggi Scale+":{"iconId":"031","color":5},"Meaty Hide":{"iconId":"032","color":12},"Sharqskin Scale":{"iconId":"031","color":12},"Meaty Hide+":{"iconId":"032","color":12},"Supple Piel":{"iconId":"032","color":12},"Iron Ore":{"iconId":"045","color":2},"Firestone":{"iconId":"045","color":7},"Lightcrystal":{"iconId":"045","color":2},"Guild Ticket":{"iconId":"050","color":13},"Ore Scrap+":{"iconId":"054","color":2},"Firecell Stone":{"iconId":"045","color":5},"Awegite":{"iconId":"045","color":9},"Heavy Ore Scrap":{"iconId":"054","color":2},"Centuria Ore":{"iconId":"045","color":2},"Heavy Primordial Scrap":{"iconId":"054","color":1},"Colossal Bone":{"iconId":"030","color":1},"Goss Harag Scrap":{"iconId":"054","color":12},"Dragonite Ore":{"iconId":"045","color":8},"Mizutsune Scrap":{"iconId":"054","color":9},"Dragonbone Artifact":{"iconId":"030","color":13},"Heavy Mizutsune Scrap":{"iconId":"054","color":9},"Gracium":{"iconId":"045","color":12},"Elder Dragon Bone":{"iconId":"030","color":9},"Large Elder Dragon Bone":{"iconId":"030","color":9},"Frozen Stiffbone":{"iconId":"030","color":12},"Bone Scrap":{"iconId":"054","color":13},"Twisted Rockbone":{"iconId":"030","color":8},"Twisted Stiffbone":{"iconId":"030","color":8},"Sturdy Bone":{"iconId":"030","color":1},"Blackened Stiffbone":{"iconId":"030","color":2},"Nargacuga Scrap":{"iconId":"054","color":2},"Somnacanth Scrap":{"iconId":"054","color":4},"Ore Scrap":{"iconId":"054","color":2},"Icium":{"iconId":"045","color":1},"Earth Crystal":{"iconId":"045","color":1},"Meldspar Ore":{"iconId":"045","color":1},"Sapphiron Ore":{"iconId":"045","color":11},"Volvidon Carapace":{"iconId":"055","color":7},"Quality Bone":{"iconId":"030","color":1},"Giant Monster Bone":{"iconId":"030","color":7},"Allfire Stone":{"iconId":"045","color":7},"Novacrystal":{"iconId":"045","color":1},"Heavy Barioth Scrap":{"iconId":"054","color":1},"Aknosom Scrap":{"iconId":"054","color":1},"Tetranadon Scrap":{"iconId":"054","color":8},"Dragonhusk Shard":{"iconId":"030","color":1},"Eroded Skeleton":{"iconId":"030","color":13},"Dragonbone Relic":{"iconId":"030","color":1},"Massive Monster Bone":{"iconId":"030","color":1},"Chipped Oldbone":{"iconId":"030","color":5},"Overgrown Stiffbone":{"iconId":"030","color":8},"Heavy Hermitaur Scrap":{"iconId":"054","color":7},"Bone Scrap+":{"iconId":"054","color":13},"Caked Stiffbone":{"iconId":"030","color":13},"Heavy Bone Scrap":{"iconId":"054","color":13},"Heavy Rathian Scrap":{"iconId":"054","color":8},"Rathalos Scrap+":{"iconId":"054","color":7},"Heavy Rathalos Scrap":{"iconId":"054","color":7},"Diablos Scrap":{"iconId":"054","color":13},"Eroded Elder Skeleton":{"iconId":"030","color":13},"Zinogre Scrap":{"iconId":"054","color":8},"Heavy Zinogre Scrap":{"iconId":"054","color":8},"Somnacanth Claw":{"iconId":"033","color":4},"Heavy R. Ludroth Scrap":{"iconId":"054","color":4},"Lagombi Plastron+":{"iconId":"029","color":1},"Magnamalo Scrap":{"iconId":"054","color":9},"Commendation":{"iconId":"050","color":5},"Magnamalo Soulprism+":{"iconId":"045","color":9},"Heavy G. Magala Scrap":{"iconId":"054","color":2},"Heavy Chaotic Scrap":{"iconId":"054","color":2},"Rajang Scrap+":{"iconId":"054","color":4},"High Commendation":{"iconId":"050","color":5},"Heavy Rajang Scrap":{"iconId":"054","color":4},"Ibushi Scrap+":{"iconId":"054","color":11},"Narwa Scrap+":{"iconId":"054","color":4},"Kushala Daora Scrap+":{"iconId":"054","color":2},"Valstrax Claw+":{"iconId":"033","color":2},"Teostra Scrap+":{"iconId":"054","color":7},"Gleaming Shell":{"iconId":"055","color":7},"Chameleos Scrap+":{"iconId":"054","color":9},"Crimson Liquid":{"iconId":"044","color":7},"Rouge Spikewing":{"iconId":"061","color":7},"Valstrax Spineshell":{"iconId":"055","color":2},"Valstrax Scrap+":{"iconId":"054","color":7},"Valstrax Tail":{"iconId":"040","color":1},"Heavy Archdemon Scrap":{"iconId":"054","color":10},"Heavy Velkhana Scrap":{"iconId":"054","color":12},"Heavy Amatsu Scrap":{"iconId":"054","color":1},"Mountshrooms":{"iconId":"014","color":1},"Toadstool":{"iconId":"001","color":9},"Ivy":{"iconId":"004","color":8},"Shadeshrooms":{"iconId":"001","color":9},"Rainbowshrooms":{"iconId":"001","color":9},"Anomaly Ticket":{"iconId":"050","color":51},"Dreamshell":{"iconId":"031","color":10},"Deepshell":{"iconId":"031","color":10},"Speartuna":{"iconId":"046","color":11},"Great Whetfish":{"iconId":"046","color":4},"Kamura Ticket":{"iconId":"050","color":10},"Felyne Fur Ruby":{"iconId":"009","color":2},"Buddy Ticket":{"iconId":"050","color":11},"Felyne Great Fur Ruby":{"iconId":"009","color":2},"Royal Order Certificate III":{"iconId":"050","color":10},"Arzuros Scrap+":{"iconId":"054","color":11},"Defender Ticket 5":{"iconId":"050","color":6},"Defender Ticket 6":{"iconId":"050","color":6},"Defender Ticket 7":{"iconId":"050","color":6},"Defender Ticket 8":{"iconId":"050","color":7},"Defender Ticket 9":{"iconId":"050","color":7},"Bishaten Scrap":{"iconId":"054","color":10},"Wroggi Scrap":{"iconId":"054","color":5},"Purecrystal":{"iconId":"045","color":12},"Frocium":{"iconId":"045","color":10},"Heavy Astalos Scrap":{"iconId":"054","color":8},"Rathalos Scrap":{"iconId":"054","color":7},"Barioth Scrap":{"iconId":"054","color":1},"Twisted Remains":{"iconId":"030","color":8},"Eroded Husk":{"iconId":"030","color":13},"Rathian Scrap+":{"iconId":"054","color":8},"Might Seed":{"iconId":"028","color":7},"Demondrug":{"iconId":"042","color":7},"Mega Demondrug":{"iconId":"042","color":7},"Anjanath Scrap+":{"iconId":"054","color":3},"Heavy Anjanath Scrap":{"iconId":"054","color":3},"Heavy Goss Scrap":{"iconId":"054","color":12},"Bnahabra Scrap":{"iconId":"054","color":4},"Bnahabra Scrap+":{"iconId":"054","color":4},"Fire Herb":{"iconId":"004","color":7},"Shimmering Scale":{"iconId":"031","color":7},"Sleep Herb":{"iconId":"004","color":12},"Barrel Lid":{"iconId":"013","color":2},"Parashroom":{"iconId":"001","color":4},"Royal Order Certificate I":{"iconId":"050","color":7},"Almudron Scrap":{"iconId":"054","color":13},"Heavy Almudron Scrap":{"iconId":"054","color":13},"Tigrex Scrap":{"iconId":"054","color":4},"Heavy Espinas Scrap":{"iconId":"054","color":8},"Somnacanth Claw+":{"iconId":"033","color":4},"Bazel Scrap+":{"iconId":"054","color":1},"Thunderbug":{"iconId":"008","color":4},"Cutejelly":{"iconId":"029","color":7},"Gothjelly":{"iconId":"029","color":7},"Flouncejelly":{"iconId":"029","color":7},"Butterfly Beetle":{"iconId":"008","color":2},"Insect Scrap":{"iconId":"054","color":4},"Split-Jaw Buttlefly":{"iconId":"008","color":2},"Exciteshroom":{"iconId":"001","color":8},"Royal Order Certificate II":{"iconId":"050","color":8},"Barroth Scrap":{"iconId":"054","color":5},"Goldlite Ore":{"iconId":"045","color":4},"Rathian Scrap":{"iconId":"054","color":8},"Heavy Insect Scrap":{"iconId":"054","color":4},"Jyura Scrap+":{"iconId":"054","color":5},"Izuchi Scrap":{"iconId":"054","color":6},"Sinister Cloth":{"iconId":"035","color":2},"Sinister Darkcloth":{"iconId":"035","color":2},"Sinister Gloomcloth":{"iconId":"035","color":2},"Azure Era Gem":{"iconId":"009","color":12},"Volvidon Rickrack":{"iconId":"029","color":7},"Gunpowder":{"iconId":"043","color":7},"Anjanath Scrap":{"iconId":"054","color":3},"Khezu Scrap":{"iconId":"054","color":1},"Steel Egg":{"iconId":"002","color":2},"Silver Egg":{"iconId":"002","color":1},"Bumblepumpkin":{"iconId":"028","color":5},"Omegapumpkin":{"iconId":"028","color":5},"Maximumpkin":{"iconId":"028","color":5},"Rakna-Kadaki Scrap+":{"iconId":"054","color":9},"Heavy Rakna Scrap":{"iconId":"054","color":9},"Nargacuga Scrap+":{"iconId":"054","color":2},"Nitroshroom":{"iconId":"001","color":7},"Mandragora":{"iconId":"001","color":5},"Heavy Shogun Scrap":{"iconId":"054","color":12},"Heavy Seregios Scrap":{"iconId":"054","color":4},"Diablos Scrap+":{"iconId":"054","color":13},"Fur Scrap+":{"iconId":"054","color":8},"Snow Herb":{"iconId":"004","color":1},"Blossom Cricket":{"iconId":"008","color":3},"Prairie Cricket":{"iconId":"008","color":3},"Toxic Kumori":{"iconId":"008","color":4},"Large Toxic Kumori":{"iconId":"008","color":4},"Goldenfry":{"iconId":"046","color":4},"Flamefin":{"iconId":"046","color":2},"Tigrex Scrap+":{"iconId":"054","color":4},"Dosbiscus":{"iconId":"004","color":7},"Valiabiscus":{"iconId":"004","color":7},"Heavy Pukei-Pukei Scrap":{"iconId":"054","color":8},"Combustuna":{"iconId":"046","color":2},"Scatterfish":{"iconId":"046","color":2},"Royal Ludroth Scrap":{"iconId":"054","color":4},"Popfish":{"iconId":"046","color":2},"Arzuros Scrap":{"iconId":"054","color":11},"Heavy Volvidon Scrap":{"iconId":"054","color":7},"Heavy Jyura Scrap":{"iconId":"054","color":5},"Heavy Barroth Scrap":{"iconId":"054","color":5},"Large Barrel":{"iconId":"013","color":6},"Large Barrel Bomb":{"iconId":"010","color":6},"Mega Barrel Bomb":{"iconId":"010","color":6},"Armored Bream":{"iconId":"046","color":1},"Whetfish":{"iconId":"046","color":4},"Large Armored Bream":{"iconId":"046","color":1},"Khezu Scrap+":{"iconId":"054","color":1},"Lagombi Scrap":{"iconId":"054","color":1},"Lagombi Scrap+":{"iconId":"054","color":1},"Big Combustuna":{"iconId":"046","color":2},"Great Flamefin":{"iconId":"046","color":2},"Small Barrel":{"iconId":"013","color":4},"Stargazer Flower":{"iconId":"004","color":7},"Stargazer Bloom":{"iconId":"004","color":7},"Jewel of the Fallen Star":{"iconId":"004","color":7},"Barioth Scrap+":{"iconId":"054","color":1},"Heavy Rhenoplos Scrap":{"iconId":"054","color":2},"Springnight Carp":{"iconId":"046","color":3},"Sun Springnight Carp":{"iconId":"046","color":3},"Fur Scrap":{"iconId":"054","color":8},"Baggi Scrap":{"iconId":"054","color":12},"Antidote Herb":{"iconId":"004","color":11},"Sunscorned Grass":{"iconId":"004","color":9},"Adamant Seed":{"iconId":"028","color":5},"Flowfern":{"iconId":"004","color":10},"Slagtoth Scrap":{"iconId":"054","color":8},"Rhenoplos Scrap":{"iconId":"054","color":2},"Jaggi Scrap":{"iconId":"054","color":9},"Volvidon Scrap":{"iconId":"054","color":7},"Basarios Scrap":{"iconId":"054","color":2},"Kulu-Ya-Ku Scrap":{"iconId":"054","color":5},"Pukei Scrap":{"iconId":"054","color":8},"Kadachi Scrap":{"iconId":"054","color":12},"Pinnacle Coin":{"iconId":"049","color":7},"Barroth Coin":{"iconId":"049","color":5},"Nargacuga Coin":{"iconId":"049","color":2},"Hunter King Coin":{"iconId":"049","color":1},"Kulu Coin":{"iconId":"049","color":5},"Insect Scrap+":{"iconId":"054","color":4},"Aknosom Scrap+":{"iconId":"054","color":1},"Tetranadon Scrap+":{"iconId":"054","color":8},"Izuchi Scrap+":{"iconId":"054","color":6},"Slagtoth Scrap+":{"iconId":"054","color":8},"Rhenoplos Scrap+":{"iconId":"054","color":2},"Jaggi Scrap+":{"iconId":"054","color":9},"Wroggi Scrap+":{"iconId":"054","color":5},"Baggi Scrap+":{"iconId":"054","color":12},"Volvidon Scrap+":{"iconId":"054","color":7},"Royal Ludroth Scrap+":{"iconId":"054","color":4},"Barroth Scrap+":{"iconId":"054","color":5},"Kulu-Ya-Ku Scrap+":{"iconId":"054","color":5},"Bishaten Scrap+":{"iconId":"054","color":10},"Somnacanth Scrap+":{"iconId":"054","color":4},"Basarios Scrap+":{"iconId":"054","color":2},"Pukei Scrap+":{"iconId":"054","color":8},"Kadachi Scrap+":{"iconId":"054","color":12},"Goss Harag Scrap+":{"iconId":"054","color":12},"Almudron Scrap+":{"iconId":"054","color":13},"Zinogre Scrap+":{"iconId":"054","color":8},"Wild Dark Leather":{"iconId":"032","color":2},"Wisdom Crystal":{"iconId":"045","color":12},"Ace Hunter Coin":{"iconId":"049","color":4},"Rajang Coin":{"iconId":"049","color":4},"Barioth Coin":{"iconId":"049","color":1},"Magnamalo Scrap+":{"iconId":"054","color":9},"Mizutsune Scrap+":{"iconId":"054","color":9},"Bazelgeuse Coin":{"iconId":"049","color":1},"Shady Crystal":{"iconId":"045","color":2},"Heavy Fur Scrap":{"iconId":"054","color":8},"Heavy Bnahabra Scrap":{"iconId":"054","color":4},"Heavy G. Jaggi Scrap":{"iconId":"054","color":9},"Heavy Izuchi Scrap":{"iconId":"054","color":6},"Heavy G. Baggi Scrap":{"iconId":"054","color":12},"Heavy Kulu Scrap":{"iconId":"054","color":5},"Heavy G. Wroggi Scrap":{"iconId":"054","color":5},"Heavy Arzuros Scrap":{"iconId":"054","color":11},"Heavy Lagombi Scrap":{"iconId":"054","color":1},"Heavy Aknosom Scrap":{"iconId":"054","color":1},"Heavy Tetra Scrap":{"iconId":"054","color":8},"Heavy Humble Scrap":{"iconId":"054","color":1},"Nohsic Snuffcap":{"iconId":"001","color":5},"Heavy Khezu Scrap":{"iconId":"054","color":1},"Heavy Bishaten Scrap":{"iconId":"054","color":10},"Heavy Basarios Scrap":{"iconId":"054","color":2},"Heavy Somna Scrap":{"iconId":"054","color":4},"Heavy Kadachi Scrap":{"iconId":"054","color":12},"Elgado Ticket":{"iconId":"050","color":12},"Rager Coin":{"iconId":"049","color":2},"Garangolm Coin":{"iconId":"049","color":13},"Hermitaur Coin":{"iconId":"049","color":7},"Bishaten Coin":{"iconId":"049","color":5},"Heavy Magna Scrap":{"iconId":"054","color":9},"Heavy Nargacuga Scrap":{"iconId":"054","color":2},"Garangolm Scrap":{"iconId":"054","color":13},"Heavy Tigrex Scrap":{"iconId":"054","color":4},"Heavy Diablos Scrap":{"iconId":"054","color":13},"Heavy Lunagaron Scrap":{"iconId":"054","color":10},"Locked Treasure Chest":{"iconId":"000","color":13},"Grooved Bones":{"iconId":"030","color":1},"Heavy Bazel Scrap":{"iconId":"054","color":1},"Heavy K. Daora Scrap":{"iconId":"054","color":2},"Heavy Chameleos Scrap":{"iconId":"054","color":9},"Heavy Teostra Scrap":{"iconId":"054","color":7},"Heavy S. Magala Scrap":{"iconId":"054","color":1},"Malzeno Scrap":{"iconId":"054","color":1},"Hero King Coin":{"iconId":"049","color":4},"Furious Rajang Coin":{"iconId":"049","color":4},"Lunagaron Coin":{"iconId":"049","color":11},"Espinas Coin":{"iconId":"049","color":8},"Buff Badge":{"iconId":"050","color":5},"Heavy Ibushi Scrap":{"iconId":"054","color":11},"Heavy Narwa Scrap":{"iconId":"054","color":4},"Heavy Valstrax Scrap":{"iconId":"054","color":7},"Heavy Resentment Scrap":{"iconId":"054","color":9},"Heavy Seething Scrap":{"iconId":"054","color":7},"Chameleos Risegem":{"iconId":"009","color":9},"Daora Risegem":{"iconId":"009","color":2},"Teostra Risegem":{"iconId":"009","color":7},"Valstrax Risegem":{"iconId":"009","color":7},"Shagaru Risegem":{"iconId":"009","color":1},"Lazurite Jewel":{"iconId":"053","color":4},"Bloodrun Jewel":{"iconId":"053","color":9},"Lifepowder":{"iconId":"043","color":1},"Aquaglow Jewel":{"iconId":"053","color":12},"Ancient Potion":{"iconId":"039","color":4},"Sovereign Jewel":{"iconId":"053","color":7},"Adamant Jewel":{"iconId":"053","color":5},"Anomaly Jewel":{"iconId":"053","color":10},"Risen Slogbone":{"iconId":"030","color":9}}
+{
+  "Aknosom Scale": {
+    "iconId": "031",
+    "color": 1
+  },
+  "Aknosom Feather": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Aknosom Beak": {
+    "iconId": "062",
+    "color": 6
+  },
+  "Flame Sac": {
+    "iconId": "043",
+    "color": 7
+  },
+  "Monster Bone M": {
+    "iconId": "030",
+    "color": 4
+  },
+  "Aknosom Crest": {
+    "iconId": "032",
+    "color": 6
+  },
+  "Wyvern Tear": {
+    "iconId": "029",
+    "color": 11
+  },
+  "Aknosom Scale+": {
+    "iconId": "031",
+    "color": 1
+  },
+  "Aknosom Feather+": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Inferno Sac": {
+    "iconId": "043",
+    "color": 7
+  },
+  "Bird Wyvern Gem": {
+    "iconId": "009",
+    "color": 11
+  },
+  "Monster Keenbone": {
+    "iconId": "030",
+    "color": 3
+  },
+  "Aknosom Crest+": {
+    "iconId": "032",
+    "color": 6
+  },
+  "Large Wyvern Tear": {
+    "iconId": "029",
+    "color": 11
+  },
+  "Aknosom Shard": {
+    "iconId": "031",
+    "color": 1
+  },
+  "Aknosom Plume": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Aknosom Burnbeak": {
+    "iconId": "062",
+    "color": 6
+  },
+  "Conflagrant Sac": {
+    "iconId": "043",
+    "color": 7
+  },
+  "Fey Wyvern Gem": {
+    "iconId": "009",
+    "color": 11
+  },
+  "Monster Toughbone": {
+    "iconId": "030",
+    "color": 6
+  },
+  "Aknosom Head-Crest": {
+    "iconId": "032",
+    "color": 6
+  },
+  "Afflicted Monster Bone": {
+    "iconId": "030",
+    "color": 51
+  },
+  "Afflicted Monster Hardbone": {
+    "iconId": "030",
+    "color": 6
+  },
+  "Afflicted Monster Slogbone": {
+    "iconId": "030",
+    "color": 7
+  },
+  "Almudron Scale": {
+    "iconId": "031",
+    "color": 13
+  },
+  "Almudron Shell": {
+    "iconId": "055",
+    "color": 13
+  },
+  "Almudron Fin": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Almudron Whisker": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Almudron Tail": {
+    "iconId": "040",
+    "color": 13
+  },
+  "Golden Muck": {
+    "iconId": "056",
+    "color": 4
+  },
+  "Almudron Plate": {
+    "iconId": "063",
+    "color": 13
+  },
+  "Almudron Claw": {
+    "iconId": "033",
+    "color": 13
+  },
+  "Almudron Scale+": {
+    "iconId": "031",
+    "color": 13
+  },
+  "Almudron Shell+": {
+    "iconId": "055",
+    "color": 13
+  },
+  "Almudron Fin+": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Almudron Whisker+": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Golden Sludge": {
+    "iconId": "056",
+    "color": 4
+  },
+  "Golden Almudron Orb": {
+    "iconId": "009",
+    "color": 4
+  },
+  "Almudron Claw+": {
+    "iconId": "033",
+    "color": 13
+  },
+  "Almudron Shard": {
+    "iconId": "031",
+    "color": 13
+  },
+  "Almudron Cortex": {
+    "iconId": "055",
+    "color": 13
+  },
+  "Large Almudron Fin": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Almud Ascetic Whisker": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Almudron Lashtail": {
+    "iconId": "040",
+    "color": 13
+  },
+  "Pure Golden Sludge": {
+    "iconId": "056",
+    "color": 4
+  },
+  "Almudron Mantle": {
+    "iconId": "204",
+    "color": 4
+  },
+  "Almudron Hardclaw": {
+    "iconId": "033",
+    "color": 13
+  },
+  "Afflicted Claw": {
+    "iconId": "033",
+    "color": 51
+  },
+  "Afflicted Hardclaw": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Afflicted Claw+": {
+    "iconId": "033",
+    "color": 6
+  },
+  "Amatsu Cortex": {
+    "iconId": "055",
+    "color": 1
+  },
+  "Amatsu Heavypleura": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Amatsu Membrane": {
+    "iconId": "061",
+    "color": 1
+  },
+  "Storm Vesicle Clump": {
+    "iconId": "043",
+    "color": 1
+  },
+  "Amatsu Hardclaw": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Amatsu Stormtail": {
+    "iconId": "040",
+    "color": 1
+  },
+  "Heavenly Dragonsphire": {
+    "iconId": "204",
+    "color": 12
+  },
+  "Amatsu Hardhorn": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Old Dragon Treasure": {
+    "iconId": "029",
+    "color": 9
+  },
+  "Anjanath Pelt": {
+    "iconId": "032",
+    "color": 3
+  },
+  "Anjanath Scale": {
+    "iconId": "031",
+    "color": 3
+  },
+  "Anjanath Nosebone": {
+    "iconId": "030",
+    "color": 3
+  },
+  "Anjanath Tail": {
+    "iconId": "040",
+    "color": 3
+  },
+  "Anjanath Plate": {
+    "iconId": "063",
+    "color": 3
+  },
+  "Anjanath Fang": {
+    "iconId": "033",
+    "color": 3
+  },
+  "Anjanath Pelt+": {
+    "iconId": "032",
+    "color": 3
+  },
+  "Anjanath Scale+": {
+    "iconId": "031",
+    "color": 3
+  },
+  "Anjanath Nosebone+": {
+    "iconId": "030",
+    "color": 3
+  },
+  "Anjanath Gem": {
+    "iconId": "009",
+    "color": 3
+  },
+  "Anjanath Fang+": {
+    "iconId": "033",
+    "color": 3
+  },
+  "Anjanath Fur": {
+    "iconId": "032",
+    "color": 3
+  },
+  "Anjanath Shard": {
+    "iconId": "031",
+    "color": 3
+  },
+  "Heavy Anjanath Nosebone": {
+    "iconId": "030",
+    "color": 3
+  },
+  "Anjanath Lash": {
+    "iconId": "040",
+    "color": 3
+  },
+  "Anjanath Mantle": {
+    "iconId": "204",
+    "color": 3
+  },
+  "Anjanath Hardfang": {
+    "iconId": "033",
+    "color": 3
+  },
+  "Afflicted Scale": {
+    "iconId": "031",
+    "color": 51
+  },
+  "Afflicted Shard": {
+    "iconId": "031",
+    "color": 7
+  },
+  "Afflicted Scale+": {
+    "iconId": "031",
+    "color": 6
+  },
+  "Apex Beastclaw": {
+    "iconId": "029",
+    "color": 11
+  },
+  "Arzuros Carapace": {
+    "iconId": "055",
+    "color": 11
+  },
+  "Arzuros Pelt+": {
+    "iconId": "032",
+    "color": 11
+  },
+  "Stoutbone": {
+    "iconId": "030",
+    "color": 2
+  },
+  "Honey": {
+    "iconId": "003",
+    "color": 5
+  },
+  "Beast Gem": {
+    "iconId": "009",
+    "color": 6
+  },
+  "Sushifish": {
+    "iconId": "046",
+    "color": 5
+  },
+  "Goldenfish": {
+    "iconId": "046",
+    "color": 4
+  },
+  "Arzuros Cortex": {
+    "iconId": "055",
+    "color": 11
+  },
+  "Arzuros Fur": {
+    "iconId": "032",
+    "color": 11
+  },
+  "Melding Pudding": {
+    "iconId": "044",
+    "color": 4
+  },
+  "Melding Honey": {
+    "iconId": "044",
+    "color": 2
+  },
+  "Large Beast Gem": {
+    "iconId": "009",
+    "color": 6
+  },
+  "Massive Bone": {
+    "iconId": "030",
+    "color": 1
+  },
+  "Apex Curlhorn": {
+    "iconId": "033",
+    "color": 13
+  },
+  "Diablos Carapace": {
+    "iconId": "055",
+    "color": 13
+  },
+  "Diablos Ridge+": {
+    "iconId": "029",
+    "color": 13
+  },
+  "Diablos Fang": {
+    "iconId": "033",
+    "color": 13
+  },
+  "Diablos Tailcase": {
+    "iconId": "029",
+    "color": 13
+  },
+  "Dash Extract": {
+    "iconId": "044",
+    "color": 4
+  },
+  "Diablos Medulla": {
+    "iconId": "029",
+    "color": 13
+  },
+  "Wyvern Gem": {
+    "iconId": "009",
+    "color": 12
+  },
+  "Diablos Marrow": {
+    "iconId": "029",
+    "color": 13
+  },
+  "Apex Bubblefoam": {
+    "iconId": "044",
+    "color": 9
+  },
+  "Mizutsune Scale+": {
+    "iconId": "031",
+    "color": 1
+  },
+  "Mizutsune Purplefur+": {
+    "iconId": "032",
+    "color": 9
+  },
+  "Mizutsune Claw+": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Mizutsune Tail": {
+    "iconId": "040",
+    "color": 9
+  },
+  "Mizutsune Plate": {
+    "iconId": "063",
+    "color": 3
+  },
+  "Mizutsune Water Orb": {
+    "iconId": "009",
+    "color": 9
+  },
+  "Mizutsune Fin+": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Mizutsune Shard": {
+    "iconId": "031",
+    "color": 1
+  },
+  "Mizutsune Purplefell": {
+    "iconId": "032",
+    "color": 9
+  },
+  "Mizutsune Hardclaw": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Mizutsune Mantle": {
+    "iconId": "204",
+    "color": 3
+  },
+  "Mizutsune Silkfin": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Purple Mizutsune Tail": {
+    "iconId": "040",
+    "color": 9
+  },
+  "Apex Blaze Sac": {
+    "iconId": "043",
+    "color": 7
+  },
+  "Rathalos Scale+": {
+    "iconId": "031",
+    "color": 7
+  },
+  "Rathalos Carapace": {
+    "iconId": "055",
+    "color": 7
+  },
+  "Rathalos Wing": {
+    "iconId": "061",
+    "color": 7
+  },
+  "Rath Medulla": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Rathalos Plate": {
+    "iconId": "063",
+    "color": 7
+  },
+  "Rathalos Ruby": {
+    "iconId": "009",
+    "color": 7
+  },
+  "Rath Wingtalon+": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Rathalos Tail": {
+    "iconId": "040",
+    "color": 7
+  },
+  "Apex Venom Spike": {
+    "iconId": "029",
+    "color": 8
+  },
+  "Rathian Scale+": {
+    "iconId": "031",
+    "color": 8
+  },
+  "Rathian Carapace": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Rathian Webbing": {
+    "iconId": "061",
+    "color": 8
+  },
+  "Rathian Plate": {
+    "iconId": "063",
+    "color": 8
+  },
+  "Rathian Ruby": {
+    "iconId": "009",
+    "color": 8
+  },
+  "Rathian Shard": {
+    "iconId": "031",
+    "color": 8
+  },
+  "Rathian Cortex": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Rathian Weave": {
+    "iconId": "061",
+    "color": 8
+  },
+  "Rathian Mantle": {
+    "iconId": "204",
+    "color": 8
+  },
+  "Rath Wingripper": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Apex Shockshell": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Zinogre Carapace": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Zinogre Electrofur": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Zinogre Tail": {
+    "iconId": "040",
+    "color": 8
+  },
+  "Fulgurbug": {
+    "iconId": "008",
+    "color": 8
+  },
+  "Zinogre Plate": {
+    "iconId": "063",
+    "color": 8
+  },
+  "Zinogre Jasper": {
+    "iconId": "009",
+    "color": 8
+  },
+  "Zinogre Horn+": {
+    "iconId": "033",
+    "color": 8
+  },
+  "Zinogre Claw+": {
+    "iconId": "033",
+    "color": 8
+  },
+  "Arzuros Shell": {
+    "iconId": "055",
+    "color": 11
+  },
+  "Arzuros Pelt": {
+    "iconId": "032",
+    "color": 11
+  },
+  "Arzuros Brace": {
+    "iconId": "029",
+    "color": 11
+  },
+  "Jumbo Bone": {
+    "iconId": "030",
+    "color": 1
+  },
+  "Beast Tear": {
+    "iconId": "029",
+    "color": 12
+  },
+  "Arzuros Brace+": {
+    "iconId": "029",
+    "color": 11
+  },
+  "Large Beast Tear": {
+    "iconId": "029",
+    "color": 12
+  },
+  "Arzuros Allbrace": {
+    "iconId": "029",
+    "color": 11
+  },
+  "Afflicted Bone": {
+    "iconId": "030",
+    "color": 51
+  },
+  "Afflicted Hardbone": {
+    "iconId": "030",
+    "color": 6
+  },
+  "Afflicted Slogbone": {
+    "iconId": "030",
+    "color": 7
+  },
+  "Astalos Shard": {
+    "iconId": "031",
+    "color": 8
+  },
+  "Heavy Astalos Shell": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Astalos Wingmembrane": {
+    "iconId": "061",
+    "color": 8
+  },
+  "Boltscale": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Heavy Astalos Crest+": {
+    "iconId": "062",
+    "color": 8
+  },
+  "Astalos Scissortailblade": {
+    "iconId": "040",
+    "color": 8
+  },
+  "Astalos Mantle": {
+    "iconId": "204",
+    "color": 8
+  },
+  "Astalos Wingripper": {
+    "iconId": "033",
+    "color": 8
+  },
+  "Afflicted Dire Scale+": {
+    "iconId": "031",
+    "color": 10
+  },
+  "Afflicted Dire Shard": {
+    "iconId": "031",
+    "color": 9
+  },
+  "Afflicted Dire Scale": {
+    "iconId": "031",
+    "color": 12
+  },
+  "Auroracanth Icescale": {
+    "iconId": "031",
+    "color": 1
+  },
+  "Auroracanth Icecortex": {
+    "iconId": "055",
+    "color": 1
+  },
+  "Auroracanth Fin": {
+    "iconId": "029",
+    "color": 10
+  },
+  "Monster Slogbone": {
+    "iconId": "030",
+    "color": 2
+  },
+  "Cryo Sac": {
+    "iconId": "043",
+    "color": 12
+  },
+  "Large Wyvern Gem": {
+    "iconId": "009",
+    "color": 12
+  },
+  "Auroracanth Iceclaw": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Barioth Shell": {
+    "iconId": "055",
+    "color": 1
+  },
+  "Barioth Pelt": {
+    "iconId": "032",
+    "color": 1
+  },
+  "Barioth Claw": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Barioth Spike": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Barioth Tail": {
+    "iconId": "040",
+    "color": 1
+  },
+  "Frost Sac": {
+    "iconId": "043",
+    "color": 12
+  },
+  "Amber Fang": {
+    "iconId": "033",
+    "color": 5
+  },
+  "Barioth Carapace": {
+    "iconId": "055",
+    "color": 1
+  },
+  "Barioth Pelt+": {
+    "iconId": "032",
+    "color": 1
+  },
+  "Barioth Claw+": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Freezer Sac": {
+    "iconId": "043",
+    "color": 12
+  },
+  "Amber Fang+": {
+    "iconId": "033",
+    "color": 5
+  },
+  "Barioth Cortex": {
+    "iconId": "055",
+    "color": 1
+  },
+  "Barioth Thickfur": {
+    "iconId": "032",
+    "color": 1
+  },
+  "Barioth Hardclaw": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Barioth Greatspike": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Barioth Lash": {
+    "iconId": "040",
+    "color": 1
+  },
+  "Amber Hardfang": {
+    "iconId": "033",
+    "color": 5
+  },
+  "Afflicted Fang": {
+    "iconId": "033",
+    "color": 51
+  },
+  "Afflicted Hardfang": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Afflicted Fang+": {
+    "iconId": "033",
+    "color": 6
+  },
+  "Barroth Shell": {
+    "iconId": "055",
+    "color": 5
+  },
+  "Barroth Ridge": {
+    "iconId": "029",
+    "color": 5
+  },
+  "Barroth Claw": {
+    "iconId": "033",
+    "color": 5
+  },
+  "Barroth Scalp": {
+    "iconId": "062",
+    "color": 5
+  },
+  "Barroth Tail": {
+    "iconId": "040",
+    "color": 5
+  },
+  "Fertile Mud": {
+    "iconId": "056",
+    "color": 5
+  },
+  "Barroth Carapace": {
+    "iconId": "055",
+    "color": 5
+  },
+  "Barroth Ridge+": {
+    "iconId": "029",
+    "color": 5
+  },
+  "Barroth Claw+": {
+    "iconId": "033",
+    "color": 5
+  },
+  "Rich Mud": {
+    "iconId": "056",
+    "color": 5
+  },
+  "Barroth Cortex": {
+    "iconId": "055",
+    "color": 5
+  },
+  "Barroth Chine": {
+    "iconId": "029",
+    "color": 5
+  },
+  "Barroth Hardclaw": {
+    "iconId": "033",
+    "color": 5
+  },
+  "Barroth Crown": {
+    "iconId": "062",
+    "color": 5
+  },
+  "Barroth Lash": {
+    "iconId": "040",
+    "color": 5
+  },
+  "Basarios Shell": {
+    "iconId": "055",
+    "color": 2
+  },
+  "Basarios Pleura": {
+    "iconId": "029",
+    "color": 2
+  },
+  "Basarios Wing": {
+    "iconId": "061",
+    "color": 2
+  },
+  "Basarios Tail": {
+    "iconId": "040",
+    "color": 2
+  },
+  "Poison Sac": {
+    "iconId": "043",
+    "color": 9
+  },
+  "Machalite Ore": {
+    "iconId": "045",
+    "color": 11
+  },
+  "Basarios Carapace": {
+    "iconId": "055",
+    "color": 2
+  },
+  "Basarios Pleura+": {
+    "iconId": "029",
+    "color": 2
+  },
+  "Basarios Tears": {
+    "iconId": "045",
+    "color": 3
+  },
+  "Toxin Sac": {
+    "iconId": "043",
+    "color": 9
+  },
+  "Carbalite Ore": {
+    "iconId": "045",
+    "color": 9
+  },
+  "Basarios Cortex": {
+    "iconId": "055",
+    "color": 2
+  },
+  "Basarios Pectus+": {
+    "iconId": "029",
+    "color": 2
+  },
+  "Basarios Fellwing": {
+    "iconId": "061",
+    "color": 2
+  },
+  "Basarios Lash": {
+    "iconId": "040",
+    "color": 2
+  },
+  "Deadly Poison Sac": {
+    "iconId": "043",
+    "color": 9
+  },
+  "Eltalite Ore": {
+    "iconId": "045",
+    "color": 7
+  },
+  "Basarios Pallium": {
+    "iconId": "204",
+    "color": 2
+  },
+  "Bazelgeuse Scale+": {
+    "iconId": "031",
+    "color": 1
+  },
+  "Bazelgeuse Carapace": {
+    "iconId": "055",
+    "color": 1
+  },
+  "Bazelgeuse Talon": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Bazelgeuse Fuse": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Bazelgeuse Wing": {
+    "iconId": "061",
+    "color": 1
+  },
+  "Bazelgeuse Gem": {
+    "iconId": "009",
+    "color": 1
+  },
+  "Bazelgeuse Tail": {
+    "iconId": "040",
+    "color": 1
+  },
+  "Bazelgeuse Shard": {
+    "iconId": "031",
+    "color": 1
+  },
+  "Bazelgeuse Cortex": {
+    "iconId": "055",
+    "color": 1
+  },
+  "Bazelgeuse Hardclaw": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Bazelgeuse Glandflux": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Bazelgeuse Fellwing": {
+    "iconId": "061",
+    "color": 1
+  },
+  "Bazelgeuse Mantle": {
+    "iconId": "204",
+    "color": 1
+  },
+  "Bazelgeuse Flail": {
+    "iconId": "040",
+    "color": 1
+  },
+  "Afflicted Dire Carapace": {
+    "iconId": "055",
+    "color": 10
+  },
+  "Afflicted Dire Cortex": {
+    "iconId": "055",
+    "color": 9
+  },
+  "Afflicted Dire Shell": {
+    "iconId": "055",
+    "color": 12
+  },
+  "Bishaten Fur": {
+    "iconId": "032",
+    "color": 10
+  },
+  "Bishaten Feather": {
+    "iconId": "029",
+    "color": 10
+  },
+  "Bishaten Talon": {
+    "iconId": "033",
+    "color": 10
+  },
+  "Bishaten Horn": {
+    "iconId": "033",
+    "color": 10
+  },
+  "Bisha Tailcase": {
+    "iconId": "055",
+    "color": 10
+  },
+  "Jumbofruit": {
+    "iconId": "014",
+    "color": 1
+  },
+  "Poisonfruit": {
+    "iconId": "028",
+    "color": 9
+  },
+  "Flashfruit": {
+    "iconId": "028",
+    "color": 4
+  },
+  "Bishaten Fur+": {
+    "iconId": "032",
+    "color": 10
+  },
+  "Bishaten Feather+": {
+    "iconId": "029",
+    "color": 10
+  },
+  "Bishaten Talon+": {
+    "iconId": "033",
+    "color": 10
+  },
+  "Bishaten Horn+": {
+    "iconId": "033",
+    "color": 10
+  },
+  "Bishaten Tailcase+": {
+    "iconId": "055",
+    "color": 10
+  },
+  "Parafruit": {
+    "iconId": "028",
+    "color": 6
+  },
+  "Bishaten Finefur": {
+    "iconId": "032",
+    "color": 10
+  },
+  "Bishaten Glidefeather": {
+    "iconId": "029",
+    "color": 10
+  },
+  "Bishaten Hardclaw": {
+    "iconId": "033",
+    "color": 10
+  },
+  "Bishaten Heavyhorn": {
+    "iconId": "033",
+    "color": 10
+  },
+  "Bishaten Hardtail": {
+    "iconId": "055",
+    "color": 10
+  },
+  "Afflicted Blood": {
+    "iconId": "044",
+    "color": 51
+  },
+  "Afflicted Dragon Blood": {
+    "iconId": "044",
+    "color": 6
+  },
+  "Afflicted Pure Blood": {
+    "iconId": "044",
+    "color": 7
+  },
+  "Orangaten Fur+": {
+    "iconId": "032",
+    "color": 6
+  },
+  "Orangaten Feather+": {
+    "iconId": "029",
+    "color": 6
+  },
+  "Orangaten Talon": {
+    "iconId": "033",
+    "color": 6
+  },
+  "Orangaten Horn+": {
+    "iconId": "033",
+    "color": 6
+  },
+  "Orangaten Tailcase+": {
+    "iconId": "055",
+    "color": 6
+  },
+  "Solid Bone": {
+    "iconId": "030",
+    "color": 1
+  },
+  "Afflicted Shell": {
+    "iconId": "055",
+    "color": 51
+  },
+  "Afflicted Carapace": {
+    "iconId": "055",
+    "color": 6
+  },
+  "Afflicted Cortex": {
+    "iconId": "055",
+    "color": 7
+  },
+  "Chameleos Hide+": {
+    "iconId": "032",
+    "color": 9
+  },
+  "Chameleos Claw+": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Chameleos Wing": {
+    "iconId": "061",
+    "color": 9
+  },
+  "Chameleos Tail": {
+    "iconId": "040",
+    "color": 9
+  },
+  "Chameleos Gem": {
+    "iconId": "009",
+    "color": 9
+  },
+  "Fucium Ore": {
+    "iconId": "045",
+    "color": 3
+  },
+  "Chameleos Spike": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Elder Dragon Blood": {
+    "iconId": "044",
+    "color": 7
+  },
+  "Dragon Treasure": {
+    "iconId": "029",
+    "color": 9
+  },
+  "Chameleos Finehide": {
+    "iconId": "032",
+    "color": 9
+  },
+  "Chameleos Hardclaw": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Chameleos Fellwing": {
+    "iconId": "061",
+    "color": 9
+  },
+  "Chameleos Lash": {
+    "iconId": "040",
+    "color": 9
+  },
+  "Large Elder Dragon Gem": {
+    "iconId": "009",
+    "color": 7
+  },
+  "Chameleos Hardhorn": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Pure Dragon Blood": {
+    "iconId": "044",
+    "color": 7
+  },
+  "Ultimas Crystal": {
+    "iconId": "045",
+    "color": 3
+  },
+  "Chaos Scale": {
+    "iconId": "031",
+    "color": 2
+  },
+  "Gore Magala Cortex": {
+    "iconId": "055",
+    "color": 2
+  },
+  "Gore Magala Shredder": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Antinomic Wing": {
+    "iconId": "061",
+    "color": 2
+  },
+  "Contrary Scale": {
+    "iconId": "063",
+    "color": 2
+  },
+  "Diametrical Horn": {
+    "iconId": "033",
+    "color": 2
+  },
+  "S. Magala Hardhorn": {
+    "iconId": "033",
+    "color": 1
+  },
+  "S. Magala Mantle": {
+    "iconId": "204",
+    "color": 1
+  },
+  "S. Magala Purifier": {
+    "iconId": "033",
+    "color": 1
+  },
+  "S. Magala Cortex": {
+    "iconId": "055",
+    "color": 1
+  },
+  "Gore Magala Tail": {
+    "iconId": "040",
+    "color": 2
+  },
+  "Afflicted Dire Darkblood": {
+    "iconId": "044",
+    "color": 9
+  },
+  "Afflicted Dire Blood": {
+    "iconId": "044",
+    "color": 12
+  },
+  "Afflicted Dire Dragon Blood": {
+    "iconId": "044",
+    "color": 10
+  },
+  "Glittering Shell": {
+    "iconId": "055",
+    "color": 7
+  },
+  "Shimmering Shard": {
+    "iconId": "031",
+    "color": 7
+  },
+  "Valstrax Talon": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Valstrax Spineshell+": {
+    "iconId": "055",
+    "color": 2
+  },
+  "Valstrax Helixtail": {
+    "iconId": "040",
+    "color": 1
+  },
+  "Seething Crimson Liquid": {
+    "iconId": "044",
+    "color": 7
+  },
+  "Red Dragon Orb": {
+    "iconId": "009",
+    "color": 7
+  },
+  "Red Dragonsphire": {
+    "iconId": "204",
+    "color": 7
+  },
+  "Rouge Lancewing+": {
+    "iconId": "061",
+    "color": 7
+  },
+  "Hermitaur Cortex": {
+    "iconId": "203",
+    "color": 7
+  },
+  "Hermitaur Hardclaw": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Monster Hardbone": {
+    "iconId": "030",
+    "color": 7
+  },
+  "Fine Black Pearl": {
+    "iconId": "031",
+    "color": 2
+  },
+  "Timeworn Crimson Horn": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Crab Pearl+": {
+    "iconId": "031",
+    "color": 2
+  },
+  "Diablos Shell": {
+    "iconId": "055",
+    "color": 13
+  },
+  "Diablos Ridge": {
+    "iconId": "029",
+    "color": 13
+  },
+  "Twisted Horn": {
+    "iconId": "033",
+    "color": 13
+  },
+  "Majestic Horn": {
+    "iconId": "033",
+    "color": 13
+  },
+  "Diablos Cortex": {
+    "iconId": "055",
+    "color": 13
+  },
+  "Diablos Chine": {
+    "iconId": "029",
+    "color": 13
+  },
+  "Diablos Tailcase+": {
+    "iconId": "029",
+    "color": 13
+  },
+  "Twisted Stouthorn": {
+    "iconId": "033",
+    "color": 13
+  },
+  "Afflicted Dire Horn+": {
+    "iconId": "033",
+    "color": 10
+  },
+  "Afflicted Dire Hardhorn": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Afflicted Dire Horn": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Espinas Shard": {
+    "iconId": "031",
+    "color": 8
+  },
+  "Espinas Cortex": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Espinas Toxic Blood": {
+    "iconId": "044",
+    "color": 7
+  },
+  "Espinas Lash": {
+    "iconId": "040",
+    "color": 8
+  },
+  "Espinas Surspike": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Espinas Mantle": {
+    "iconId": "204",
+    "color": 8
+  },
+  "Espinas Hardhorn": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Flaming Espinas Shard": {
+    "iconId": "031",
+    "color": 5
+  },
+  "Flaming Espinas Cortex": {
+    "iconId": "055",
+    "color": 5
+  },
+  "Flaming Espinas Sulfur": {
+    "iconId": "044",
+    "color": 4
+  },
+  "Flaming Espinas Lash": {
+    "iconId": "040",
+    "color": 5
+  },
+  "Flaming Espinas Surspike": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Flaming Espinas Mantle": {
+    "iconId": "204",
+    "color": 5
+  },
+  "Flaming Espinas Hardhorn": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Rajang Apoplexy": {
+    "iconId": "032",
+    "color": 4
+  },
+  "Rajang Hardclaw": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Rajang Hardfang": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Gold Rajang Pelt+": {
+    "iconId": "029",
+    "color": 4
+  },
+  "Rajang Heart": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Ghoulish Gold Gorer": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Afflicted Dire Hardfang": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Afflicted Dire Fang": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Afflicted Dire Fang+": {
+    "iconId": "033",
+    "color": 10
+  },
+  "Abyssal Dragonscale": {
+    "iconId": "031",
+    "color": 10
+  },
+  "Archdemon Backshell": {
+    "iconId": "055",
+    "color": 10
+  },
+  "Archdemon Piercetalon": {
+    "iconId": "033",
+    "color": 10
+  },
+  "Archdemon Wingtalon": {
+    "iconId": "033",
+    "color": 13
+  },
+  "Consumption Parasite": {
+    "iconId": "008",
+    "color": 7
+  },
+  "Archdemon Tailhook": {
+    "iconId": "040",
+    "color": 10
+  },
+  "Abyssal Dragonsphire": {
+    "iconId": "204",
+    "color": 2
+  },
+  "Archdemon Doomhorn": {
+    "iconId": "033",
+    "color": 10
+  },
+  "Garangolm Cortex": {
+    "iconId": "055",
+    "color": 13
+  },
+  "Garangolm Shard": {
+    "iconId": "031",
+    "color": 13
+  },
+  "Golm Thick Juice": {
+    "iconId": "044",
+    "color": 4
+  },
+  "Garangolm Hardfang": {
+    "iconId": "033",
+    "color": 13
+  },
+  "Golm Ploughtail": {
+    "iconId": "040",
+    "color": 13
+  },
+  "Garangolm Fist": {
+    "iconId": "029",
+    "color": 13
+  },
+  "Gold Rathian Shard": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Gold Rathian Cortex": {
+    "iconId": "055",
+    "color": 4
+  },
+  "Gold Rathian Weave": {
+    "iconId": "061",
+    "color": 4
+  },
+  "Gold Rathian Surspike": {
+    "iconId": "029",
+    "color": 4
+  },
+  "Rath Gleam": {
+    "iconId": "044",
+    "color": 4
+  },
+  "Afflicted Dire Fellwing": {
+    "iconId": "061",
+    "color": 9
+  },
+  "Afflicted Dire Wing": {
+    "iconId": "061",
+    "color": 12
+  },
+  "Afflicted Dire Wing+": {
+    "iconId": "061",
+    "color": 10
+  },
+  "Gore Magala Shard": {
+    "iconId": "031",
+    "color": 2
+  },
+  "Gore Magala Eclipse": {
+    "iconId": "061",
+    "color": 2
+  },
+  "Gore Magala Mantle": {
+    "iconId": "204",
+    "color": 2
+  },
+  "Gore Magala Sensor": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Goss Harag Fur": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Goss Harag Hide": {
+    "iconId": "032",
+    "color": 12
+  },
+  "Goss Harag Brace": {
+    "iconId": "055",
+    "color": 12
+  },
+  "Block of Ice": {
+    "iconId": "045",
+    "color": 12
+  },
+  "Goss Harag Claw": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Goss Harag Horn": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Goss Harag Fur+": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Goss Harag Hide+": {
+    "iconId": "032",
+    "color": 12
+  },
+  "Goss Harag Brace+": {
+    "iconId": "055",
+    "color": 12
+  },
+  "Block of Ice+": {
+    "iconId": "045",
+    "color": 12
+  },
+  "Goss Harag Bile": {
+    "iconId": "043",
+    "color": 7
+  },
+  "Goss Harag Claw+": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Goss Harag Horn+": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Goss Harag Frozen Fur": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Goss Finehide": {
+    "iconId": "032",
+    "color": 12
+  },
+  "Goss Harag Allbrace": {
+    "iconId": "055",
+    "color": 12
+  },
+  "Dense Block of Ice": {
+    "iconId": "045",
+    "color": 12
+  },
+  "Goss Harag Bile+": {
+    "iconId": "043",
+    "color": 7
+  },
+  "Goss Harag Hardclaw": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Goss Harag Hardhorn": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Great Baggi Hide": {
+    "iconId": "032",
+    "color": 12
+  },
+  "Great Baggi Claw": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Sleep Sac": {
+    "iconId": "043",
+    "color": 12
+  },
+  "Great Baggi Hide+": {
+    "iconId": "032",
+    "color": 12
+  },
+  "Great Baggi Claw+": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Coma Sac": {
+    "iconId": "043",
+    "color": 12
+  },
+  "Monster Bone+": {
+    "iconId": "030",
+    "color": 5
+  },
+  "Great Baggi Thickhide": {
+    "iconId": "032",
+    "color": 12
+  },
+  "Torpor Sac": {
+    "iconId": "043",
+    "color": 12
+  },
+  "Glorious Crest": {
+    "iconId": "062",
+    "color": 12
+  },
+  "Afflicted Pelt": {
+    "iconId": "032",
+    "color": 51
+  },
+  "Afflicted Hide+": {
+    "iconId": "032",
+    "color": 6
+  },
+  "Afflicted Thickhide": {
+    "iconId": "032",
+    "color": 7
+  },
+  "Great Izuchi Hide": {
+    "iconId": "032",
+    "color": 6
+  },
+  "Great Izuchi Pelt": {
+    "iconId": "032",
+    "color": 6
+  },
+  "Great Izuchi Tail": {
+    "iconId": "029",
+    "color": 11
+  },
+  "Screamer Sac": {
+    "iconId": "043",
+    "color": 2
+  },
+  "Monster Bone S": {
+    "iconId": "030",
+    "color": 4
+  },
+  "Great Izuchi Hide+": {
+    "iconId": "032",
+    "color": 6
+  },
+  "Great Izuchi Pelt+": {
+    "iconId": "032",
+    "color": 6
+  },
+  "Great Izuchi Tail+": {
+    "iconId": "029",
+    "color": 11
+  },
+  "Great Izuchi Thickhide": {
+    "iconId": "032",
+    "color": 6
+  },
+  "Great Izuchi Thickfur": {
+    "iconId": "032",
+    "color": 6
+  },
+  "Great Izuchi Grindtail": {
+    "iconId": "029",
+    "color": 11
+  },
+  "Great Wroggi Hide": {
+    "iconId": "032",
+    "color": 5
+  },
+  "Great Wroggi Brace": {
+    "iconId": "029",
+    "color": 5
+  },
+  "Great Wroggi Hide+": {
+    "iconId": "032",
+    "color": 5
+  },
+  "Great Wroggi Brace+": {
+    "iconId": "029",
+    "color": 5
+  },
+  "Great Wroggi Thickhide": {
+    "iconId": "032",
+    "color": 5
+  },
+  "Imperial Beak": {
+    "iconId": "062",
+    "color": 5
+  },
+  "Jyuratodus Carapace": {
+    "iconId": "055",
+    "color": 5
+  },
+  "Jyuratodus Scale+": {
+    "iconId": "031",
+    "color": 5
+  },
+  "Jyuratodus Fang+": {
+    "iconId": "033",
+    "color": 5
+  },
+  "Jyuratodus Fin+": {
+    "iconId": "029",
+    "color": 5
+  },
+  "Torrent Sac": {
+    "iconId": "043",
+    "color": 11
+  },
+  "Jyuratodus Cortex": {
+    "iconId": "055",
+    "color": 5
+  },
+  "Jyuratodus Shard": {
+    "iconId": "031",
+    "color": 5
+  },
+  "Jyuratodus Hardfang": {
+    "iconId": "033",
+    "color": 5
+  },
+  "Jyuratodus Grandfin": {
+    "iconId": "029",
+    "color": 5
+  },
+  "Flood Sac": {
+    "iconId": "043",
+    "color": 11
+  },
+  "Flabby Hide": {
+    "iconId": "032",
+    "color": 1
+  },
+  "Suspicious Fang": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Pale Extract": {
+    "iconId": "044",
+    "color": 1
+  },
+  "Pale Bone": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Electro Sac": {
+    "iconId": "043",
+    "color": 4
+  },
+  "Pearl Hide": {
+    "iconId": "032",
+    "color": 1
+  },
+  "Suspicious Fang+": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Pale Steak": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Thunder Sac": {
+    "iconId": "043",
+    "color": 4
+  },
+  "Pearl Glosshide": {
+    "iconId": "032",
+    "color": 1
+  },
+  "Mystic Hardfang": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Khezu Special Cut": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Lightning Sac": {
+    "iconId": "043",
+    "color": 4
+  },
+  "Kulu-Ya-Ku Scale": {
+    "iconId": "031",
+    "color": 5
+  },
+  "Kulu-Ya-Ku Hide": {
+    "iconId": "032",
+    "color": 5
+  },
+  "Kulu-Ya-Ku Plume": {
+    "iconId": "029",
+    "color": 6
+  },
+  "Kulu-Ya-Ku Beak": {
+    "iconId": "062",
+    "color": 5
+  },
+  "Kulu-Ya-Ku Scale+": {
+    "iconId": "031",
+    "color": 5
+  },
+  "Kulu-Ya-Ku Hide+": {
+    "iconId": "032",
+    "color": 5
+  },
+  "Kulu-Ya-Ku Plume+": {
+    "iconId": "029",
+    "color": 6
+  },
+  "Kulu-Ya-Ku Beak+": {
+    "iconId": "062",
+    "color": 5
+  },
+  "Kulu-Ya-Ku Shard": {
+    "iconId": "031",
+    "color": 5
+  },
+  "Kulu-Ya-Ku Thickhide": {
+    "iconId": "032",
+    "color": 5
+  },
+  "Large Kulu-Ya-Ku Plume": {
+    "iconId": "029",
+    "color": 6
+  },
+  "Colossal Drill Beak": {
+    "iconId": "062",
+    "color": 5
+  },
+  "Daora Carapace": {
+    "iconId": "055",
+    "color": 2
+  },
+  "Daora Dragon Scale+": {
+    "iconId": "031",
+    "color": 2
+  },
+  "Daora Claw+": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Daora Webbing": {
+    "iconId": "061",
+    "color": 2
+  },
+  "Daora Tail": {
+    "iconId": "040",
+    "color": 2
+  },
+  "Daora Gem": {
+    "iconId": "009",
+    "color": 2
+  },
+  "Daora Horn+": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Daora Cortex": {
+    "iconId": "055",
+    "color": 2
+  },
+  "Daora Shard": {
+    "iconId": "031",
+    "color": 2
+  },
+  "Daora Hardclaw": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Daora Fellwing": {
+    "iconId": "061",
+    "color": 2
+  },
+  "Daora Lash": {
+    "iconId": "040",
+    "color": 2
+  },
+  "Daora Hardhorn": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Lagombi Pelt": {
+    "iconId": "032",
+    "color": 1
+  },
+  "Lagombi Plastron": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Lagombi Iceclaw": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Lagombi Ear": {
+    "iconId": "062",
+    "color": 1
+  },
+  "Lagombi Pelt+": {
+    "iconId": "032",
+    "color": 1
+  },
+  "Lagombi Frozenclaw": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Lagombi Ear+": {
+    "iconId": "062",
+    "color": 1
+  },
+  "Lagombi Fur": {
+    "iconId": "032",
+    "color": 1
+  },
+  "Lagombi Cuirass": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Lagombi Frigidclaw": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Lagombi Auricle": {
+    "iconId": "062",
+    "color": 1
+  },
+  "Lucent Narga Dapple": {
+    "iconId": "032",
+    "color": 1
+  },
+  "Lucent Narga Shard": {
+    "iconId": "031",
+    "color": 1
+  },
+  "Lucent Narga Hardfang": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Lucent Narga Razor": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Lucent Narga Tailspear": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Nargacuga Lash": {
+    "iconId": "040",
+    "color": 2
+  },
+  "Cloudy Moonshard": {
+    "iconId": "204",
+    "color": 1
+  },
+  "Lunagaron Cortex": {
+    "iconId": "055",
+    "color": 10
+  },
+  "Lunagaron Shard": {
+    "iconId": "031",
+    "color": 10
+  },
+  "Luna Vermilion Hardclaw": {
+    "iconId": "033",
+    "color": 6
+  },
+  "Frostborn Hardfang": {
+    "iconId": "033",
+    "color": 10
+  },
+  "Lunagaron Bluecore": {
+    "iconId": "029",
+    "color": 12
+  },
+  "Lunagaron Frost Jewel": {
+    "iconId": "204",
+    "color": 10
+  },
+  "Lunagaron Lash Shell": {
+    "iconId": "029",
+    "color": 10
+  },
+  "Afflicted Dire Hardbone": {
+    "iconId": "030",
+    "color": 10
+  },
+  "Afflicted Dire Slogbone": {
+    "iconId": "030",
+    "color": 9
+  },
+  "Afflicted Dire Bone": {
+    "iconId": "030",
+    "color": 12
+  },
+  "Magmadron Shard": {
+    "iconId": "031",
+    "color": 10
+  },
+  "Magmadron Cortex": {
+    "iconId": "055",
+    "color": 10
+  },
+  "Large Magmadron Fin": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Magmadron Hardwhisker": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Magmadron Tail": {
+    "iconId": "040",
+    "color": 10
+  },
+  "Inferno Lava Mud": {
+    "iconId": "056",
+    "color": 6
+  },
+  "Magmadron Mantle": {
+    "iconId": "204",
+    "color": 10
+  },
+  "Magmadron Hardclaw": {
+    "iconId": "033",
+    "color": 10
+  },
+  "Magnamalo Scale": {
+    "iconId": "031",
+    "color": 9
+  },
+  "Magnamalo Shell": {
+    "iconId": "055",
+    "color": 9
+  },
+  "Magnamalo Blade": {
+    "iconId": "029",
+    "color": 9
+  },
+  "Magnamalo Scute": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Magnamalo Tail": {
+    "iconId": "040",
+    "color": 9
+  },
+  "Magna Ghostprism": {
+    "iconId": "045",
+    "color": 9
+  },
+  "Magnamalo Plate": {
+    "iconId": "063",
+    "color": 9
+  },
+  "Magnamalo Horn": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Magnamalo Scale+": {
+    "iconId": "031",
+    "color": 9
+  },
+  "Magnamalo Shell+": {
+    "iconId": "055",
+    "color": 9
+  },
+  "Magnamalo Blade+": {
+    "iconId": "029",
+    "color": 9
+  },
+  "Magnamalo Scute+": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Magna Soulprism": {
+    "iconId": "045",
+    "color": 9
+  },
+  "Purple Magna Orb": {
+    "iconId": "009",
+    "color": 9
+  },
+  "Magnamalo Horn+": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Magnamalo Shard": {
+    "iconId": "031",
+    "color": 9
+  },
+  "Magnamalo Cortex": {
+    "iconId": "055",
+    "color": 9
+  },
+  "Magna Ascended Blade": {
+    "iconId": "029",
+    "color": 9
+  },
+  "Magnamalo Bladeshell": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Magnamalo Speartail": {
+    "iconId": "040",
+    "color": 9
+  },
+  "Magnamalo Orb": {
+    "iconId": "204",
+    "color": 9
+  },
+  "Magnamalo Hellhorn": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Malzeno Cortex": {
+    "iconId": "055",
+    "color": 1
+  },
+  "Malzeno Shard": {
+    "iconId": "031",
+    "color": 1
+  },
+  "Malzeno Hardfang": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Bloody Parasite": {
+    "iconId": "008",
+    "color": 7
+  },
+  "Malzeno Tail": {
+    "iconId": "040",
+    "color": 1
+  },
+  "Malzeno Bloodstone": {
+    "iconId": "204",
+    "color": 7
+  },
+  "Malzeno Hardhorn": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Malzeno Fellwing": {
+    "iconId": "061",
+    "color": 1
+  },
+  "Mizutsune Scale": {
+    "iconId": "031",
+    "color": 1
+  },
+  "Mizutsune Purplefur": {
+    "iconId": "032",
+    "color": 9
+  },
+  "Mizutsune Claw": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Bubblefoam": {
+    "iconId": "044",
+    "color": 9
+  },
+  "Mizutsune Fin": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Bubblefoam+": {
+    "iconId": "044",
+    "color": 9
+  },
+  "Distilled Bubblefoam": {
+    "iconId": "044",
+    "color": 9
+  },
+  "Nargacuga Blackfur": {
+    "iconId": "032",
+    "color": 2
+  },
+  "Nargacuga Scale": {
+    "iconId": "031",
+    "color": 2
+  },
+  "Nargacuga Fang": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Nargacuga Cutwing": {
+    "iconId": "061",
+    "color": 2
+  },
+  "Narga Tailspike": {
+    "iconId": "029",
+    "color": 2
+  },
+  "Nargacuga Tail": {
+    "iconId": "040",
+    "color": 2
+  },
+  "Nargacuga Marrow": {
+    "iconId": "029",
+    "color": 2
+  },
+  "Nargacuga Pelt+": {
+    "iconId": "032",
+    "color": 2
+  },
+  "Nargacuga Scale+": {
+    "iconId": "031",
+    "color": 2
+  },
+  "Nargacuga Fang+": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Narga Razor": {
+    "iconId": "061",
+    "color": 2
+  },
+  "Narga Medulla": {
+    "iconId": "029",
+    "color": 2
+  },
+  "Nargacuga Blackfur+": {
+    "iconId": "032",
+    "color": 2
+  },
+  "Nargacuga Shard": {
+    "iconId": "031",
+    "color": 2
+  },
+  "Nargacuga Hardfang": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Nargacuga Cutwing+": {
+    "iconId": "061",
+    "color": 2
+  },
+  "Nargacuga Tailspear": {
+    "iconId": "029",
+    "color": 2
+  },
+  "Nargacuga Mantle": {
+    "iconId": "204",
+    "color": 2
+  },
+  "Scale of Origin": {
+    "iconId": "031",
+    "color": 5
+  },
+  "Narwa Hide+": {
+    "iconId": "032",
+    "color": 4
+  },
+  "Horn of Origin": {
+    "iconId": "033",
+    "color": 5
+  },
+  "Narwa Sparksac": {
+    "iconId": "043",
+    "color": 4
+  },
+  "Narwa Tentacle": {
+    "iconId": "029",
+    "color": 4
+  },
+  "Orb of Origin": {
+    "iconId": "009",
+    "color": 5
+  },
+  "Thunder Serpent Orb": {
+    "iconId": "009",
+    "color": 4
+  },
+  "Wind Serpent Orb": {
+    "iconId": "009",
+    "color": 11
+  },
+  "Narwa Claw+": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Scale of Origin+": {
+    "iconId": "031",
+    "color": 5
+  },
+  "Narwa Thickhide": {
+    "iconId": "032",
+    "color": 4
+  },
+  "Horn of Origin+": {
+    "iconId": "033",
+    "color": 5
+  },
+  "Narwa Lighting Sac": {
+    "iconId": "043",
+    "color": 4
+  },
+  "Narwa Tentacle+": {
+    "iconId": "029",
+    "color": 4
+  },
+  "Mantle of Origin": {
+    "iconId": "204",
+    "color": 5
+  },
+  "Narwa Hardclaw": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Malzeno Pureplate": {
+    "iconId": "055",
+    "color": 1
+  },
+  "Primordial Scale": {
+    "iconId": "031",
+    "color": 1
+  },
+  "Malzeno Beautifang": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Madness Parasite": {
+    "iconId": "008",
+    "color": 7
+  },
+  "Primordial Tail": {
+    "iconId": "040",
+    "color": 1
+  },
+  "Primordial Bloodstone": {
+    "iconId": "204",
+    "color": 7
+  },
+  "Malzeno Silverhorn": {
+    "iconId": "033",
+    "color": 1
+  },
+  "Shining Shieldwing": {
+    "iconId": "061",
+    "color": 1
+  },
+  "Pukei-Pukei Scale": {
+    "iconId": "031",
+    "color": 8
+  },
+  "Pukei-Pukei Shell": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Pukei-Pukei Quill": {
+    "iconId": "061",
+    "color": 8
+  },
+  "Pukei-Pukei Tail": {
+    "iconId": "040",
+    "color": 8
+  },
+  "Pukei-Pukei Sac": {
+    "iconId": "043",
+    "color": 8
+  },
+  "Monster Bone L": {
+    "iconId": "030",
+    "color": 4
+  },
+  "Pukei-Pukei Scale+": {
+    "iconId": "031",
+    "color": 8
+  },
+  "Pukei-Pukei Carapace": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Pukei-Pukei Wing": {
+    "iconId": "061",
+    "color": 8
+  },
+  "Pukei-Pukei Sac+": {
+    "iconId": "043",
+    "color": 8
+  },
+  "Pukei-Pukei Shard": {
+    "iconId": "031",
+    "color": 8
+  },
+  "Pukei-Pukei Cortex": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Pukei-Pukei Fellwing": {
+    "iconId": "061",
+    "color": 8
+  },
+  "Large Pukei-Pukei Sac": {
+    "iconId": "043",
+    "color": 8
+  },
+  "Pukei-Pukei Lash": {
+    "iconId": "040",
+    "color": 8
+  },
+  "Pyre-Kadaki Cortex": {
+    "iconId": "055",
+    "color": 1
+  },
+  "Pyre-Kadaki Silk+": {
+    "iconId": "048",
+    "color": 2
+  },
+  "Pyre-Kadaki Dull Glowgut": {
+    "iconId": "029",
+    "color": 6
+  },
+  "Pyre-Kadaki Hardclaw": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Pyre-Kadaki Spike+": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Monster Essence": {
+    "iconId": "044",
+    "color": 11
+  },
+  "Queen Substance": {
+    "iconId": "044",
+    "color": 4
+  },
+  "Afflicted Dire Claw+": {
+    "iconId": "033",
+    "color": 10
+  },
+  "Afflicted Dire Hardclaw": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Afflicted Dire Claw": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Rajang Blackfur": {
+    "iconId": "029",
+    "color": 2
+  },
+  "Rajang Claw+": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Rajang Fang+": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Rajang Tail": {
+    "iconId": "040",
+    "color": 4
+  },
+  "Gold Rajang Pelt": {
+    "iconId": "029",
+    "color": 4
+  },
+  "Great Stoutbone": {
+    "iconId": "030",
+    "color": 2
+  },
+  "Rajang Horn+": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Rajang Wildpelt": {
+    "iconId": "029",
+    "color": 2
+  },
+  "Rajang Hardhorn": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Rakna-Kadaki Carapace": {
+    "iconId": "055",
+    "color": 9
+  },
+  "Rakna-Kadaki Silk": {
+    "iconId": "048",
+    "color": 1
+  },
+  "Rakna-Kadaki Glowgut": {
+    "iconId": "029",
+    "color": 5
+  },
+  "Rakna-Kadaki Sharpclaw": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Rakna-Kadaki Spike": {
+    "iconId": "029",
+    "color": 9
+  },
+  "Monster Broth": {
+    "iconId": "044",
+    "color": 11
+  },
+  "Drone Substance": {
+    "iconId": "044",
+    "color": 4
+  },
+  "Rakna-Kadaki Cortex": {
+    "iconId": "055",
+    "color": 9
+  },
+  "Rakna-Kadaki Silk+": {
+    "iconId": "048",
+    "color": 1
+  },
+  "Rakna-Kadaki Glowgut+": {
+    "iconId": "029",
+    "color": 5
+  },
+  "Rakna-Kadaki Hardclaw": {
+    "iconId": "033",
+    "color": 9
+  },
+  "Rakna-Kadaki Spike+": {
+    "iconId": "029",
+    "color": 9
+  },
+  "Rathalos Scale": {
+    "iconId": "031",
+    "color": 7
+  },
+  "Rathalos Shell": {
+    "iconId": "055",
+    "color": 7
+  },
+  "Rathalos Webbing": {
+    "iconId": "061",
+    "color": 7
+  },
+  "Rath Marrow": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Rath Wingtalon": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Rathalos Shard": {
+    "iconId": "031",
+    "color": 7
+  },
+  "Rathalos Cortex": {
+    "iconId": "055",
+    "color": 7
+  },
+  "Rathalos Fellwing": {
+    "iconId": "061",
+    "color": 7
+  },
+  "Rathalos Lash": {
+    "iconId": "040",
+    "color": 7
+  },
+  "Rathalos Mantle": {
+    "iconId": "204",
+    "color": 7
+  },
+  "Rathian Scale": {
+    "iconId": "031",
+    "color": 8
+  },
+  "Rathian Shell": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Rathian Spike": {
+    "iconId": "029",
+    "color": 8
+  },
+  "Rathian Spike+": {
+    "iconId": "029",
+    "color": 8
+  },
+  "Rathian Surspike": {
+    "iconId": "029",
+    "color": 8
+  },
+  "Risen Dragonbone": {
+    "iconId": "030",
+    "color": 12
+  },
+  "Risen Dragonbone+": {
+    "iconId": "030",
+    "color": 10
+  },
+  "S. Magala Shard": {
+    "iconId": "031",
+    "color": 1
+  },
+  "S. Magala Lash": {
+    "iconId": "040",
+    "color": 1
+  },
+  "S. Magala Lightwing": {
+    "iconId": "061",
+    "color": 1
+  },
+  "Risen Dragon Blood": {
+    "iconId": "044",
+    "color": 12
+  },
+  "Risen Dragon Pureblood": {
+    "iconId": "044",
+    "color": 10
+  },
+  "Risen Dragon Thickblood": {
+    "iconId": "044",
+    "color": 9
+  },
+  "Teostra Cortex": {
+    "iconId": "055",
+    "color": 7
+  },
+  "Hellfire Shard": {
+    "iconId": "031",
+    "color": 7
+  },
+  "Fire Dragon Hardclaw": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Teostra Lash": {
+    "iconId": "040",
+    "color": 7
+  },
+  "Teostra Gem": {
+    "iconId": "009",
+    "color": 7
+  },
+  "Teostra Hardhorn": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Teostra Fellwing": {
+    "iconId": "061",
+    "color": 7
+  },
+  "Royal Ludroth Scale": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Royal Ludroth Claw": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Spongy Hide": {
+    "iconId": "032",
+    "color": 4
+  },
+  "Royal Ludroth Crest": {
+    "iconId": "062",
+    "color": 4
+  },
+  "Royal Ludroth Tail": {
+    "iconId": "040",
+    "color": 4
+  },
+  "Aqua Sac": {
+    "iconId": "043",
+    "color": 11
+  },
+  "Royal Ludroth Scale+": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Royal Ludroth Claw+": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Spongy Hide+": {
+    "iconId": "032",
+    "color": 4
+  },
+  "Royal Ludroth Crest+": {
+    "iconId": "062",
+    "color": 4
+  },
+  "Royal Ludroth Shard": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Royal Ludroth Talon": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Spongy Piel": {
+    "iconId": "032",
+    "color": 4
+  },
+  "Chic Crest": {
+    "iconId": "062",
+    "color": 4
+  },
+  "Royal Ludroth Lash": {
+    "iconId": "040",
+    "color": 4
+  },
+  "Begrudged Rancorscale": {
+    "iconId": "031",
+    "color": 7
+  },
+  "Magna Armored Cortex": {
+    "iconId": "055",
+    "color": 4
+  },
+  "Surging Armblade": {
+    "iconId": "029",
+    "color": 4
+  },
+  "Moaning Bladeshell": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Magnamalo Tail+": {
+    "iconId": "040",
+    "color": 9
+  },
+  "Magna Barrierprism": {
+    "iconId": "045",
+    "color": 9
+  },
+  "Magna Glare Eye": {
+    "iconId": "204",
+    "color": 9
+  },
+  "Horn of Malice": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Flickering Silvershell": {
+    "iconId": "055",
+    "color": 1
+  },
+  "Distilled Blast Fluid": {
+    "iconId": "044",
+    "color": 7
+  },
+  "Scorching Silverwing": {
+    "iconId": "061",
+    "color": 1
+  },
+  "Seregios Slavescale+": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Seregios Airblade+": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Seregios Carver+": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Seregios Scraper+": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Seregios Impaler+": {
+    "iconId": "040",
+    "color": 4
+  },
+  "Seregios Lens": {
+    "iconId": "204",
+    "color": 4
+  },
+  "Seregios Breacher+": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Ceanataur Cortex": {
+    "iconId": "203",
+    "color": 12
+  },
+  "Heavy Ceanataur Leg": {
+    "iconId": "203",
+    "color": 12
+  },
+  "Ceanataur Hardclaw": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Heavy Wyvern Scalp": {
+    "iconId": "062",
+    "color": 2
+  },
+  "Silver Rathalos Shard": {
+    "iconId": "031",
+    "color": 1
+  },
+  "Silver Rathalos Cortex": {
+    "iconId": "055",
+    "color": 1
+  },
+  "Silver Rathalos Fellwing": {
+    "iconId": "061",
+    "color": 1
+  },
+  "Silver Rathalos Lash": {
+    "iconId": "040",
+    "color": 1
+  },
+  "Somnacanth Scale": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Somnacanth Shell": {
+    "iconId": "055",
+    "color": 4
+  },
+  "Somnacanth Fin": {
+    "iconId": "029",
+    "color": 9
+  },
+  "Somnacanth Dust": {
+    "iconId": "043",
+    "color": 12
+  },
+  "Somnacanth Scale+": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Somnacanth Shell+": {
+    "iconId": "055",
+    "color": 4
+  },
+  "Somnacanth Fin+": {
+    "iconId": "029",
+    "color": 9
+  },
+  "Somnacanth Sedative": {
+    "iconId": "043",
+    "color": 12
+  },
+  "Somnacanth Shard": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Somnacanth Cortex": {
+    "iconId": "055",
+    "color": 4
+  },
+  "Somnacanth Wild Fin": {
+    "iconId": "029",
+    "color": 9
+  },
+  "Somna Dream Powder": {
+    "iconId": "043",
+    "color": 12
+  },
+  "Somnacanth Dreamtalon": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Teostra Carapace": {
+    "iconId": "055",
+    "color": 7
+  },
+  "Fire Dragon Scale+": {
+    "iconId": "031",
+    "color": 7
+  },
+  "Teostra Mane": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Teostra Claw+": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Teostra Powder": {
+    "iconId": "043",
+    "color": 7
+  },
+  "Teostra Tail": {
+    "iconId": "040",
+    "color": 7
+  },
+  "Teostra Horn+": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Teostra Webbing": {
+    "iconId": "061",
+    "color": 7
+  },
+  "Tetranadon Hide": {
+    "iconId": "032",
+    "color": 8
+  },
+  "Tetra Carapace": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Tetranadon Beak": {
+    "iconId": "062",
+    "color": 8
+  },
+  "Tetranadon Disc": {
+    "iconId": "031",
+    "color": 8
+  },
+  "Shiny Nacre": {
+    "iconId": "009",
+    "color": 8
+  },
+  "Tetranadon Hide+": {
+    "iconId": "032",
+    "color": 8
+  },
+  "Tetra Carapace+": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Tetranadon Beak+": {
+    "iconId": "062",
+    "color": 8
+  },
+  "Tetranadon Disc+": {
+    "iconId": "031",
+    "color": 8
+  },
+  "Tetranadon Thickhide": {
+    "iconId": "032",
+    "color": 8
+  },
+  "Heavy Tetra Carapace": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Tetranadon Greatbeak": {
+    "iconId": "062",
+    "color": 8
+  },
+  "Tetranadon Finedisc": {
+    "iconId": "031",
+    "color": 8
+  },
+  "Glittering Nacre": {
+    "iconId": "009",
+    "color": 8
+  },
+  "Shimmering Nacre": {
+    "iconId": "009",
+    "color": 8
+  },
+  "Narwa Carapace": {
+    "iconId": "055",
+    "color": 4
+  },
+  "Narwa Horn+": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Tigrex Shell": {
+    "iconId": "055",
+    "color": 4
+  },
+  "Tigrex Scale": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Tigrex Claw": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Tigrex Fang": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Tigrex Tail": {
+    "iconId": "040",
+    "color": 4
+  },
+  "Tigrex Scalp": {
+    "iconId": "062",
+    "color": 4
+  },
+  "Tigrex Carapace": {
+    "iconId": "055",
+    "color": 4
+  },
+  "Tigrex Scale+": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Tigrex Claw+": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Tigrex Fang+": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Tigrex Maw": {
+    "iconId": "062",
+    "color": 4
+  },
+  "Tigrex Cortex": {
+    "iconId": "055",
+    "color": 4
+  },
+  "Tigrex Shard": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Tigrex Hardclaw": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Tigrex Hardfang": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Tigrex Lash": {
+    "iconId": "040",
+    "color": 4
+  },
+  "Tigrex Mantle": {
+    "iconId": "204",
+    "color": 4
+  },
+  "Tobi-Kadachi Pelt": {
+    "iconId": "032",
+    "color": 12
+  },
+  "Tobi-Kadachi Scale": {
+    "iconId": "031",
+    "color": 12
+  },
+  "Tobi-Kadachi Membrane": {
+    "iconId": "061",
+    "color": 12
+  },
+  "Tobi-Kadachi Claw": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Tobi-Kadachi Electrode": {
+    "iconId": "029",
+    "color": 12
+  },
+  "Tobi-Kadachi Pelt+": {
+    "iconId": "032",
+    "color": 12
+  },
+  "Tobi-Kadachi Scale+": {
+    "iconId": "031",
+    "color": 12
+  },
+  "Tobi-Kadachi Claw+": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Tobi-Kadachi Electrode+": {
+    "iconId": "029",
+    "color": 12
+  },
+  "Tobi-Kadachi Thickfur": {
+    "iconId": "032",
+    "color": 12
+  },
+  "Tobi-Kadachi Shard": {
+    "iconId": "031",
+    "color": 12
+  },
+  "Tobi-Kadachi Hardclaw": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Tobi-Kadachi Cathode": {
+    "iconId": "029",
+    "color": 12
+  },
+  "Tobi-Kadachi Membrane+": {
+    "iconId": "061",
+    "color": 12
+  },
+  "Crystal Shard": {
+    "iconId": "031",
+    "color": 12
+  },
+  "Velkhana Cortex": {
+    "iconId": "055",
+    "color": 12
+  },
+  "Velkhana Hardclaw": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Velkhana Fellwing": {
+    "iconId": "061",
+    "color": 12
+  },
+  "Velkhana Lash": {
+    "iconId": "040",
+    "color": 12
+  },
+  "Velkhana Crystal": {
+    "iconId": "204",
+    "color": 12
+  },
+  "Velkhana Crownhorn": {
+    "iconId": "033",
+    "color": 12
+  },
+  "Violet Mizu Shard": {
+    "iconId": "031",
+    "color": 10
+  },
+  "Violet Mizu Whitefell": {
+    "iconId": "032",
+    "color": 1
+  },
+  "Violet Mizu Hardclaw": {
+    "iconId": "033",
+    "color": 10
+  },
+  "White Synovial Fluid": {
+    "iconId": "044",
+    "color": 1
+  },
+  "Violet Mizu Tail": {
+    "iconId": "040",
+    "color": 1
+  },
+  "Violet Mizu Mantle": {
+    "iconId": "204",
+    "color": 10
+  },
+  "Violet Mizu Fin": {
+    "iconId": "029",
+    "color": 10
+  },
+  "Volvidon Shell": {
+    "iconId": "055",
+    "color": 7
+  },
+  "Volvidon Claw": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Paralysis Sac": {
+    "iconId": "043",
+    "color": 4
+  },
+  "Monster Fluid": {
+    "iconId": "044",
+    "color": 12
+  },
+  "Volvidon Claw+": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Omniplegia Sac": {
+    "iconId": "043",
+    "color": 4
+  },
+  "Volvidon Cortex": {
+    "iconId": "055",
+    "color": 7
+  },
+  "Volvidon Talon": {
+    "iconId": "033",
+    "color": 7
+  },
+  "Large Volvi Rickrack": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Ultraplegia Sac": {
+    "iconId": "043",
+    "color": 4
+  },
+  "Ibushi Carapace": {
+    "iconId": "055",
+    "color": 11
+  },
+  "Ibushi Hide+": {
+    "iconId": "032",
+    "color": 11
+  },
+  "Ibushi Horn+": {
+    "iconId": "033",
+    "color": 11
+  },
+  "Ibushi Windsac": {
+    "iconId": "043",
+    "color": 11
+  },
+  "Ibushi Bluespike": {
+    "iconId": "029",
+    "color": 11
+  },
+  "Ibushi Claw+": {
+    "iconId": "033",
+    "color": 11
+  },
+  "Ibushi Cortex": {
+    "iconId": "055",
+    "color": 11
+  },
+  "Ibushi Finehide": {
+    "iconId": "032",
+    "color": 11
+  },
+  "Ibushi Hardhorn": {
+    "iconId": "033",
+    "color": 11
+  },
+  "Ibushi Windsac+": {
+    "iconId": "043",
+    "color": 11
+  },
+  "Ibushi Bluespike+": {
+    "iconId": "029",
+    "color": 11
+  },
+  "Wind Dragonsphire": {
+    "iconId": "204",
+    "color": 11
+  },
+  "Ibushi Hardclaw": {
+    "iconId": "033",
+    "color": 11
+  },
+  "Zinogre Shell": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Zinogre Shockfur": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Zinogre Shocker": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Zinogre Horn": {
+    "iconId": "033",
+    "color": 8
+  },
+  "Zinogre Claw": {
+    "iconId": "033",
+    "color": 8
+  },
+  "Zinogre Shocker+": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Zinogre Cortex": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Zinogre Electrofur+": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Zinogre Deathly Shocker": {
+    "iconId": "055",
+    "color": 8
+  },
+  "Zinogre Lash": {
+    "iconId": "040",
+    "color": 8
+  },
+  "Zinogre Skymerald": {
+    "iconId": "204",
+    "color": 8
+  },
+  "Zinogre Hardhorn": {
+    "iconId": "033",
+    "color": 8
+  },
+  "Zinogre Hardclaw": {
+    "iconId": "033",
+    "color": 8
+  },
+  "Altaroth Stomach": {
+    "iconId": "008",
+    "color": 8
+  },
+  "Altaroth Jaw": {
+    "iconId": "008",
+    "color": 8
+  },
+  "Ripened Mushroom": {
+    "iconId": "001",
+    "color": 8
+  },
+  "Nulberry": {
+    "iconId": "028",
+    "color": 11
+  },
+  "Fine Stomach": {
+    "iconId": "043",
+    "color": 4
+  },
+  "Quality Stomach": {
+    "iconId": "008",
+    "color": 8
+  },
+  "Prized Stomach": {
+    "iconId": "043",
+    "color": 8
+  },
+  "Raw Meat": {
+    "iconId": "038",
+    "color": 7
+  },
+  "Warm Pelt": {
+    "iconId": "032",
+    "color": 8
+  },
+  "Anteka Antler": {
+    "iconId": "033",
+    "color": 5
+  },
+  "White Liver": {
+    "iconId": "007",
+    "color": 1
+  },
+  "High-quality Pelt": {
+    "iconId": "032",
+    "color": 5
+  },
+  "Prized Pelt": {
+    "iconId": "032",
+    "color": 5
+  },
+  "Anteka Proud Antler": {
+    "iconId": "033",
+    "color": 5
+  },
+  "Baggi Scale": {
+    "iconId": "031",
+    "color": 12
+  },
+  "Baggi Hide": {
+    "iconId": "032",
+    "color": 12
+  },
+  "Sharp Fang": {
+    "iconId": "033",
+    "color": 5
+  },
+  "Baggi Scale+": {
+    "iconId": "031",
+    "color": 12
+  },
+  "Acute Fang": {
+    "iconId": "033",
+    "color": 5
+  },
+  "Crushing Fang": {
+    "iconId": "033",
+    "color": 5
+  },
+  "Bnahabra Shell": {
+    "iconId": "008",
+    "color": 4
+  },
+  "Bnahabra Wing": {
+    "iconId": "003",
+    "color": 4
+  },
+  "Bnahabra Stinger": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Flashbug": {
+    "iconId": "008",
+    "color": 4
+  },
+  "Bnahabra Carapace": {
+    "iconId": "008",
+    "color": 4
+  },
+  "Bnahabra Razorwing": {
+    "iconId": "003",
+    "color": 4
+  },
+  "Boggi Thickhide": {
+    "iconId": "032",
+    "color": 13
+  },
+  "Boggi Shard": {
+    "iconId": "031",
+    "color": 13
+  },
+  "Bombadgy Igniter": {
+    "iconId": "044",
+    "color": 5
+  },
+  "Bombadgy Activator": {
+    "iconId": "044",
+    "color": 5
+  },
+  "Bullfango Pelt": {
+    "iconId": "032",
+    "color": 5
+  },
+  "Bullfango Head": {
+    "iconId": "062",
+    "color": 5
+  },
+  "Bullfango Pelt+": {
+    "iconId": "032",
+    "color": 5
+  },
+  "Blue Mushroom": {
+    "iconId": "001",
+    "color": 11
+  },
+  "Bullfango Thickfur": {
+    "iconId": "032",
+    "color": 5
+  },
+  "Gowngoat Thickfur": {
+    "iconId": "029",
+    "color": 2
+  },
+  "Large Herbivore Bone": {
+    "iconId": "030",
+    "color": 8
+  },
+  "Gowngoat Fleeceball": {
+    "iconId": "009",
+    "color": 1
+  },
+  "Ceanataur Shell": {
+    "iconId": "203",
+    "color": 12
+  },
+  "Tough Claw": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Carapaceon Brains+": {
+    "iconId": "029",
+    "color": 5
+  },
+  "Big Fin": {
+    "iconId": "029",
+    "color": 5
+  },
+  "Monster Guts": {
+    "iconId": "029",
+    "color": 4
+  },
+  "Quality Fin": {
+    "iconId": "029",
+    "color": 5
+  },
+  "Round Acorn": {
+    "iconId": "028",
+    "color": 8
+  },
+  "Pawprint Stamp": {
+    "iconId": "050",
+    "color": 1
+  },
+  "First-aid Med": {
+    "iconId": "005",
+    "color": 8
+  },
+  "Pawprint Ticket": {
+    "iconId": "050",
+    "color": 1
+  },
+  "Gajau Skin": {
+    "iconId": "032",
+    "color": 13
+  },
+  "Gajau Whisker": {
+    "iconId": "029",
+    "color": 13
+  },
+  "Gajau Scale": {
+    "iconId": "032",
+    "color": 13
+  },
+  "Gajau Whisker+": {
+    "iconId": "029",
+    "color": 13
+  },
+  "Gajau Thickhide": {
+    "iconId": "032",
+    "color": 13
+  },
+  "Steel Gajau Whisker": {
+    "iconId": "029",
+    "color": 13
+  },
+  "Gargwa Feather": {
+    "iconId": "003",
+    "color": 12
+  },
+  "Gargwa Guano": {
+    "iconId": "056",
+    "color": 4
+  },
+  "Herb": {
+    "iconId": "004",
+    "color": 8
+  },
+  "Gargwa Egg": {
+    "iconId": "002",
+    "color": 12
+  },
+  "Gold Gargwa Egg": {
+    "iconId": "002",
+    "color": 4
+  },
+  "Gargwa Finefeather": {
+    "iconId": "003",
+    "color": 12
+  },
+  "Tiny Hermitaur Shell": {
+    "iconId": "203",
+    "color": 7
+  },
+  "Hornetaur Cortex": {
+    "iconId": "008",
+    "color": 2
+  },
+  "Hornetaur Razorwing": {
+    "iconId": "003",
+    "color": 2
+  },
+  "Hornetaur Head": {
+    "iconId": "008",
+    "color": 2
+  },
+  "Izuchi Tail": {
+    "iconId": "029",
+    "color": 6
+  },
+  "Izuchi Pelt": {
+    "iconId": "032",
+    "color": 6
+  },
+  "Sharp Claw": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Izuchi Pelt+": {
+    "iconId": "032",
+    "color": 6
+  },
+  "Piercing Claw": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Heavy Izuchi Pelt": {
+    "iconId": "032",
+    "color": 6
+  },
+  "Jaggi Hide": {
+    "iconId": "032",
+    "color": 9
+  },
+  "Jaggi Scale": {
+    "iconId": "031",
+    "color": 9
+  },
+  "Jaggi Hide+": {
+    "iconId": "032",
+    "color": 9
+  },
+  "Jaggi Scale+": {
+    "iconId": "031",
+    "color": 9
+  },
+  "Jaggi Piel": {
+    "iconId": "032",
+    "color": 9
+  },
+  "Jaggi Shard": {
+    "iconId": "031",
+    "color": 9
+  },
+  "Jagras Hide": {
+    "iconId": "032",
+    "color": 4
+  },
+  "Jagras Scale": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Jagras Hide+": {
+    "iconId": "032",
+    "color": 4
+  },
+  "Jagras Scale+": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Jagras Shard": {
+    "iconId": "031",
+    "color": 4
+  },
+  "Kelbi Horn": {
+    "iconId": "033",
+    "color": 8
+  },
+  "Kestodon Shell": {
+    "iconId": "055",
+    "color": 5
+  },
+  "Kestodon Scalp": {
+    "iconId": "062",
+    "color": 5
+  },
+  "Kestodon Carapace": {
+    "iconId": "055",
+    "color": 5
+  },
+  "Kestodon Husk": {
+    "iconId": "055",
+    "color": 5
+  },
+  "Hydro Hide": {
+    "iconId": "032",
+    "color": 8
+  },
+  "Immature Sponge": {
+    "iconId": "029",
+    "color": 8
+  },
+  "Hydro Hide+": {
+    "iconId": "032",
+    "color": 8
+  },
+  "Hydro Piel": {
+    "iconId": "032",
+    "color": 8
+  },
+  "Secret Stash": {
+    "iconId": "028",
+    "color": 8
+  },
+  "Ration": {
+    "iconId": "007",
+    "color": 13
+  },
+  "Popo Tongue": {
+    "iconId": "007",
+    "color": 7
+  },
+  "Pyrantula Maroon Thread": {
+    "iconId": "048",
+    "color": 2
+  },
+  "Rachnoid Silk": {
+    "iconId": "048",
+    "color": 1
+  },
+  "Rachnoid Silk+": {
+    "iconId": "048",
+    "color": 1
+  },
+  "Rachnoid Mesmersilk": {
+    "iconId": "048",
+    "color": 1
+  },
+  "Remobra Hide": {
+    "iconId": "032",
+    "color": 2
+  },
+  "Striped Hide": {
+    "iconId": "032",
+    "color": 2
+  },
+  "Remobra Head": {
+    "iconId": "062",
+    "color": 2
+  },
+  "Remobra Hide+": {
+    "iconId": "032",
+    "color": 2
+  },
+  "Remobra Finehide": {
+    "iconId": "032",
+    "color": 2
+  },
+  "Striped Finehide": {
+    "iconId": "032",
+    "color": 2
+  },
+  "Mighty Remobra Head": {
+    "iconId": "062",
+    "color": 2
+  },
+  "Rhenoplos Shell": {
+    "iconId": "055",
+    "color": 2
+  },
+  "Rhenoplos Scalp": {
+    "iconId": "062",
+    "color": 2
+  },
+  "Rhenoplos Carapace": {
+    "iconId": "055",
+    "color": 2
+  },
+  "Slagtoth Oil": {
+    "iconId": "044",
+    "color": 8
+  },
+  "Slagtoth Hide": {
+    "iconId": "032",
+    "color": 8
+  },
+  "Slagtoth Hide+": {
+    "iconId": "032",
+    "color": 8
+  },
+  "Uroktor Scale": {
+    "iconId": "031",
+    "color": 7
+  },
+  "Dragonfell Berry": {
+    "iconId": "047",
+    "color": 6
+  },
+  "Uroktor Scale+": {
+    "iconId": "031",
+    "color": 7
+  },
+  "Uroktor Shard": {
+    "iconId": "031",
+    "color": 7
+  },
+  "Velociprey Shard": {
+    "iconId": "031",
+    "color": 11
+  },
+  "Velociprey Thickhide": {
+    "iconId": "032",
+    "color": 11
+  },
+  "Vespoid Cortex": {
+    "iconId": "008",
+    "color": 4
+  },
+  "Vespoid Razorwing": {
+    "iconId": "003",
+    "color": 4
+  },
+  "Wroggi Scale": {
+    "iconId": "031",
+    "color": 5
+  },
+  "Wroggi Hide": {
+    "iconId": "032",
+    "color": 5
+  },
+  "Wroggi Scale+": {
+    "iconId": "031",
+    "color": 5
+  },
+  "Meaty Hide": {
+    "iconId": "032",
+    "color": 12
+  },
+  "Sharqskin Scale": {
+    "iconId": "031",
+    "color": 12
+  },
+  "Meaty Hide+": {
+    "iconId": "032",
+    "color": 12
+  },
+  "Supple Piel": {
+    "iconId": "032",
+    "color": 12
+  },
+  "Iron Ore": {
+    "iconId": "045",
+    "color": 2
+  },
+  "Firestone": {
+    "iconId": "045",
+    "color": 7
+  },
+  "Lightcrystal": {
+    "iconId": "045",
+    "color": 2
+  },
+  "Guild Ticket": {
+    "iconId": "050",
+    "color": 13
+  },
+  "Ore Scrap+": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Firecell Stone": {
+    "iconId": "045",
+    "color": 5
+  },
+  "Awegite": {
+    "iconId": "045",
+    "color": 9
+  },
+  "Heavy Ore Scrap": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Centuria Ore": {
+    "iconId": "045",
+    "color": 2
+  },
+  "Heavy Primordial Scrap": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Colossal Bone": {
+    "iconId": "030",
+    "color": 1
+  },
+  "Goss Harag Scrap": {
+    "iconId": "054",
+    "color": 12
+  },
+  "Dragonite Ore": {
+    "iconId": "045",
+    "color": 8
+  },
+  "Mizutsune Scrap": {
+    "iconId": "054",
+    "color": 9
+  },
+  "Dragonbone Artifact": {
+    "iconId": "030",
+    "color": 13
+  },
+  "Heavy Mizutsune Scrap": {
+    "iconId": "054",
+    "color": 9
+  },
+  "Gracium": {
+    "iconId": "045",
+    "color": 12
+  },
+  "Elder Dragon Bone": {
+    "iconId": "030",
+    "color": 9
+  },
+  "Large Elder Dragon Bone": {
+    "iconId": "030",
+    "color": 9
+  },
+  "Frozen Stiffbone": {
+    "iconId": "030",
+    "color": 12
+  },
+  "Bone Scrap": {
+    "iconId": "054",
+    "color": 13
+  },
+  "Twisted Rockbone": {
+    "iconId": "030",
+    "color": 8
+  },
+  "Twisted Stiffbone": {
+    "iconId": "030",
+    "color": 8
+  },
+  "Sturdy Bone": {
+    "iconId": "030",
+    "color": 1
+  },
+  "Blackened Stiffbone": {
+    "iconId": "030",
+    "color": 2
+  },
+  "Nargacuga Scrap": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Somnacanth Scrap": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Ore Scrap": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Icium": {
+    "iconId": "045",
+    "color": 1
+  },
+  "Earth Crystal": {
+    "iconId": "045",
+    "color": 1
+  },
+  "Meldspar Ore": {
+    "iconId": "045",
+    "color": 1
+  },
+  "Sapphiron Ore": {
+    "iconId": "045",
+    "color": 11
+  },
+  "Volvidon Carapace": {
+    "iconId": "055",
+    "color": 7
+  },
+  "Quality Bone": {
+    "iconId": "030",
+    "color": 1
+  },
+  "Giant Monster Bone": {
+    "iconId": "030",
+    "color": 7
+  },
+  "Allfire Stone": {
+    "iconId": "045",
+    "color": 7
+  },
+  "Novacrystal": {
+    "iconId": "045",
+    "color": 1
+  },
+  "Heavy Barioth Scrap": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Aknosom Scrap": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Tetranadon Scrap": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Dragonhusk Shard": {
+    "iconId": "030",
+    "color": 1
+  },
+  "Eroded Skeleton": {
+    "iconId": "030",
+    "color": 13
+  },
+  "Dragonbone Relic": {
+    "iconId": "030",
+    "color": 1
+  },
+  "Massive Monster Bone": {
+    "iconId": "030",
+    "color": 1
+  },
+  "Chipped Oldbone": {
+    "iconId": "030",
+    "color": 5
+  },
+  "Overgrown Stiffbone": {
+    "iconId": "030",
+    "color": 8
+  },
+  "Heavy Hermitaur Scrap": {
+    "iconId": "054",
+    "color": 7
+  },
+  "Bone Scrap+": {
+    "iconId": "054",
+    "color": 13
+  },
+  "Caked Stiffbone": {
+    "iconId": "030",
+    "color": 13
+  },
+  "Heavy Bone Scrap": {
+    "iconId": "054",
+    "color": 13
+  },
+  "Heavy Rathian Scrap": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Rathalos Scrap+": {
+    "iconId": "054",
+    "color": 7
+  },
+  "Heavy Rathalos Scrap": {
+    "iconId": "054",
+    "color": 7
+  },
+  "Diablos Scrap": {
+    "iconId": "054",
+    "color": 13
+  },
+  "Eroded Elder Skeleton": {
+    "iconId": "030",
+    "color": 13
+  },
+  "Zinogre Scrap": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Heavy Zinogre Scrap": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Somnacanth Claw": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Heavy R. Ludroth Scrap": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Lagombi Plastron+": {
+    "iconId": "029",
+    "color": 1
+  },
+  "Magnamalo Scrap": {
+    "iconId": "054",
+    "color": 9
+  },
+  "Commendation": {
+    "iconId": "050",
+    "color": 5
+  },
+  "Magnamalo Soulprism+": {
+    "iconId": "045",
+    "color": 9
+  },
+  "Heavy G. Magala Scrap": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Heavy Chaotic Scrap": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Rajang Scrap+": {
+    "iconId": "054",
+    "color": 4
+  },
+  "High Commendation": {
+    "iconId": "050",
+    "color": 5
+  },
+  "Heavy Rajang Scrap": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Ibushi Scrap+": {
+    "iconId": "054",
+    "color": 11
+  },
+  "Narwa Scrap+": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Kushala Daora Scrap+": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Valstrax Claw+": {
+    "iconId": "033",
+    "color": 2
+  },
+  "Teostra Scrap+": {
+    "iconId": "054",
+    "color": 7
+  },
+  "Gleaming Shell": {
+    "iconId": "055",
+    "color": 7
+  },
+  "Chameleos Scrap+": {
+    "iconId": "054",
+    "color": 9
+  },
+  "Crimson Liquid": {
+    "iconId": "044",
+    "color": 7
+  },
+  "Rouge Spikewing": {
+    "iconId": "061",
+    "color": 7
+  },
+  "Valstrax Spineshell": {
+    "iconId": "055",
+    "color": 2
+  },
+  "Valstrax Scrap+": {
+    "iconId": "054",
+    "color": 7
+  },
+  "Valstrax Tail": {
+    "iconId": "040",
+    "color": 1
+  },
+  "Heavy Archdemon Scrap": {
+    "iconId": "054",
+    "color": 10
+  },
+  "Heavy Velkhana Scrap": {
+    "iconId": "054",
+    "color": 12
+  },
+  "Heavy Amatsu Scrap": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Mountshrooms": {
+    "iconId": "014",
+    "color": 1
+  },
+  "Toadstool": {
+    "iconId": "001",
+    "color": 9
+  },
+  "Ivy": {
+    "iconId": "004",
+    "color": 8
+  },
+  "Shadeshrooms": {
+    "iconId": "001",
+    "color": 9
+  },
+  "Rainbowshrooms": {
+    "iconId": "001",
+    "color": 9
+  },
+  "Anomaly Ticket": {
+    "iconId": "050",
+    "color": 51
+  },
+  "Dreamshell": {
+    "iconId": "031",
+    "color": 10
+  },
+  "Deepshell": {
+    "iconId": "031",
+    "color": 10
+  },
+  "Speartuna": {
+    "iconId": "046",
+    "color": 11
+  },
+  "Great Whetfish": {
+    "iconId": "046",
+    "color": 4
+  },
+  "Kamura Ticket": {
+    "iconId": "050",
+    "color": 10
+  },
+  "Felyne Fur Ruby": {
+    "iconId": "009",
+    "color": 2
+  },
+  "Buddy Ticket": {
+    "iconId": "050",
+    "color": 11
+  },
+  "Felyne Great Fur Ruby": {
+    "iconId": "009",
+    "color": 2
+  },
+  "Royal Order Certificate III": {
+    "iconId": "050",
+    "color": 10
+  },
+  "Arzuros Scrap+": {
+    "iconId": "054",
+    "color": 11
+  },
+  "Defender Ticket 5": {
+    "iconId": "050",
+    "color": 6
+  },
+  "Defender Ticket 6": {
+    "iconId": "050",
+    "color": 6
+  },
+  "Defender Ticket 7": {
+    "iconId": "050",
+    "color": 6
+  },
+  "Defender Ticket 8": {
+    "iconId": "050",
+    "color": 7
+  },
+  "Defender Ticket 9": {
+    "iconId": "050",
+    "color": 7
+  },
+  "Bishaten Scrap": {
+    "iconId": "054",
+    "color": 10
+  },
+  "Wroggi Scrap": {
+    "iconId": "054",
+    "color": 5
+  },
+  "Purecrystal": {
+    "iconId": "045",
+    "color": 12
+  },
+  "Frocium": {
+    "iconId": "045",
+    "color": 10
+  },
+  "Heavy Astalos Scrap": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Rathalos Scrap": {
+    "iconId": "054",
+    "color": 7
+  },
+  "Barioth Scrap": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Twisted Remains": {
+    "iconId": "030",
+    "color": 8
+  },
+  "Eroded Husk": {
+    "iconId": "030",
+    "color": 13
+  },
+  "Rathian Scrap+": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Might Seed": {
+    "iconId": "028",
+    "color": 7
+  },
+  "Demondrug": {
+    "iconId": "042",
+    "color": 7
+  },
+  "Mega Demondrug": {
+    "iconId": "042",
+    "color": 7
+  },
+  "Anjanath Scrap+": {
+    "iconId": "054",
+    "color": 3
+  },
+  "Heavy Anjanath Scrap": {
+    "iconId": "054",
+    "color": 3
+  },
+  "Heavy Goss Scrap": {
+    "iconId": "054",
+    "color": 12
+  },
+  "Bnahabra Scrap": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Bnahabra Scrap+": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Fire Herb": {
+    "iconId": "004",
+    "color": 7
+  },
+  "Shimmering Scale": {
+    "iconId": "031",
+    "color": 7
+  },
+  "Sleep Herb": {
+    "iconId": "004",
+    "color": 12
+  },
+  "Barrel Lid": {
+    "iconId": "013",
+    "color": 2
+  },
+  "Parashroom": {
+    "iconId": "001",
+    "color": 4
+  },
+  "Royal Order Certificate I": {
+    "iconId": "050",
+    "color": 7
+  },
+  "Almudron Scrap": {
+    "iconId": "054",
+    "color": 13
+  },
+  "Heavy Almudron Scrap": {
+    "iconId": "054",
+    "color": 13
+  },
+  "Tigrex Scrap": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Heavy Espinas Scrap": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Somnacanth Claw+": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Bazel Scrap+": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Thunderbug": {
+    "iconId": "008",
+    "color": 4
+  },
+  "Cutejelly": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Gothjelly": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Flouncejelly": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Butterfly Beetle": {
+    "iconId": "008",
+    "color": 2
+  },
+  "Insect Scrap": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Split-Jaw Buttlefly": {
+    "iconId": "008",
+    "color": 2
+  },
+  "Exciteshroom": {
+    "iconId": "001",
+    "color": 8
+  },
+  "Royal Order Certificate II": {
+    "iconId": "050",
+    "color": 8
+  },
+  "Barroth Scrap": {
+    "iconId": "054",
+    "color": 5
+  },
+  "Goldlite Ore": {
+    "iconId": "045",
+    "color": 4
+  },
+  "Rathian Scrap": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Heavy Insect Scrap": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Jyura Scrap+": {
+    "iconId": "054",
+    "color": 5
+  },
+  "Izuchi Scrap": {
+    "iconId": "054",
+    "color": 6
+  },
+  "Sinister Cloth": {
+    "iconId": "035",
+    "color": 2
+  },
+  "Sinister Darkcloth": {
+    "iconId": "035",
+    "color": 2
+  },
+  "Sinister Gloomcloth": {
+    "iconId": "035",
+    "color": 2
+  },
+  "Azure Era Gem": {
+    "iconId": "009",
+    "color": 12
+  },
+  "Volvidon Rickrack": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Gunpowder": {
+    "iconId": "043",
+    "color": 7
+  },
+  "Anjanath Scrap": {
+    "iconId": "054",
+    "color": 3
+  },
+  "Khezu Scrap": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Steel Egg": {
+    "iconId": "002",
+    "color": 2
+  },
+  "Silver Egg": {
+    "iconId": "002",
+    "color": 1
+  },
+  "Bumblepumpkin": {
+    "iconId": "028",
+    "color": 5
+  },
+  "Omegapumpkin": {
+    "iconId": "028",
+    "color": 5
+  },
+  "Maximumpkin": {
+    "iconId": "028",
+    "color": 5
+  },
+  "Rakna-Kadaki Scrap+": {
+    "iconId": "054",
+    "color": 9
+  },
+  "Heavy Rakna Scrap": {
+    "iconId": "054",
+    "color": 9
+  },
+  "Nargacuga Scrap+": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Nitroshroom": {
+    "iconId": "001",
+    "color": 7
+  },
+  "Mandragora": {
+    "iconId": "001",
+    "color": 5
+  },
+  "Heavy Shogun Scrap": {
+    "iconId": "054",
+    "color": 12
+  },
+  "Heavy Seregios Scrap": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Diablos Scrap+": {
+    "iconId": "054",
+    "color": 13
+  },
+  "Fur Scrap+": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Snow Herb": {
+    "iconId": "004",
+    "color": 1
+  },
+  "Blossom Cricket": {
+    "iconId": "008",
+    "color": 3
+  },
+  "Prairie Cricket": {
+    "iconId": "008",
+    "color": 3
+  },
+  "Toxic Kumori": {
+    "iconId": "008",
+    "color": 4
+  },
+  "Large Toxic Kumori": {
+    "iconId": "008",
+    "color": 4
+  },
+  "Goldenfry": {
+    "iconId": "046",
+    "color": 4
+  },
+  "Flamefin": {
+    "iconId": "046",
+    "color": 2
+  },
+  "Tigrex Scrap+": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Dosbiscus": {
+    "iconId": "004",
+    "color": 7
+  },
+  "Valiabiscus": {
+    "iconId": "004",
+    "color": 7
+  },
+  "Heavy Pukei-Pukei Scrap": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Combustuna": {
+    "iconId": "046",
+    "color": 2
+  },
+  "Scatterfish": {
+    "iconId": "046",
+    "color": 2
+  },
+  "Royal Ludroth Scrap": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Popfish": {
+    "iconId": "046",
+    "color": 2
+  },
+  "Arzuros Scrap": {
+    "iconId": "054",
+    "color": 11
+  },
+  "Heavy Volvidon Scrap": {
+    "iconId": "054",
+    "color": 7
+  },
+  "Heavy Jyura Scrap": {
+    "iconId": "054",
+    "color": 5
+  },
+  "Heavy Barroth Scrap": {
+    "iconId": "054",
+    "color": 5
+  },
+  "Large Barrel": {
+    "iconId": "013",
+    "color": 6
+  },
+  "Large Barrel Bomb": {
+    "iconId": "010",
+    "color": 6
+  },
+  "Mega Barrel Bomb": {
+    "iconId": "010",
+    "color": 6
+  },
+  "Armored Bream": {
+    "iconId": "046",
+    "color": 1
+  },
+  "Whetfish": {
+    "iconId": "046",
+    "color": 4
+  },
+  "Large Armored Bream": {
+    "iconId": "046",
+    "color": 1
+  },
+  "Khezu Scrap+": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Lagombi Scrap": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Lagombi Scrap+": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Big Combustuna": {
+    "iconId": "046",
+    "color": 2
+  },
+  "Great Flamefin": {
+    "iconId": "046",
+    "color": 2
+  },
+  "Small Barrel": {
+    "iconId": "013",
+    "color": 4
+  },
+  "Stargazer Flower": {
+    "iconId": "004",
+    "color": 7
+  },
+  "Stargazer Bloom": {
+    "iconId": "004",
+    "color": 7
+  },
+  "Jewel of the Fallen Star": {
+    "iconId": "004",
+    "color": 7
+  },
+  "Barioth Scrap+": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Heavy Rhenoplos Scrap": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Springnight Carp": {
+    "iconId": "046",
+    "color": 3
+  },
+  "Sun Springnight Carp": {
+    "iconId": "046",
+    "color": 3
+  },
+  "Fur Scrap": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Baggi Scrap": {
+    "iconId": "054",
+    "color": 12
+  },
+  "Antidote Herb": {
+    "iconId": "004",
+    "color": 11
+  },
+  "Sunscorned Grass": {
+    "iconId": "004",
+    "color": 9
+  },
+  "Adamant Seed": {
+    "iconId": "028",
+    "color": 5
+  },
+  "Flowfern": {
+    "iconId": "004",
+    "color": 10
+  },
+  "Slagtoth Scrap": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Rhenoplos Scrap": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Jaggi Scrap": {
+    "iconId": "054",
+    "color": 9
+  },
+  "Volvidon Scrap": {
+    "iconId": "054",
+    "color": 7
+  },
+  "Basarios Scrap": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Kulu-Ya-Ku Scrap": {
+    "iconId": "054",
+    "color": 5
+  },
+  "Pukei Scrap": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Kadachi Scrap": {
+    "iconId": "054",
+    "color": 12
+  },
+  "Pinnacle Coin": {
+    "iconId": "049",
+    "color": 7
+  },
+  "Barroth Coin": {
+    "iconId": "049",
+    "color": 5
+  },
+  "Nargacuga Coin": {
+    "iconId": "049",
+    "color": 2
+  },
+  "Hunter King Coin": {
+    "iconId": "049",
+    "color": 1
+  },
+  "Kulu Coin": {
+    "iconId": "049",
+    "color": 5
+  },
+  "Insect Scrap+": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Aknosom Scrap+": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Tetranadon Scrap+": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Izuchi Scrap+": {
+    "iconId": "054",
+    "color": 6
+  },
+  "Slagtoth Scrap+": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Rhenoplos Scrap+": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Jaggi Scrap+": {
+    "iconId": "054",
+    "color": 9
+  },
+  "Wroggi Scrap+": {
+    "iconId": "054",
+    "color": 5
+  },
+  "Baggi Scrap+": {
+    "iconId": "054",
+    "color": 12
+  },
+  "Volvidon Scrap+": {
+    "iconId": "054",
+    "color": 7
+  },
+  "Royal Ludroth Scrap+": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Barroth Scrap+": {
+    "iconId": "054",
+    "color": 5
+  },
+  "Kulu-Ya-Ku Scrap+": {
+    "iconId": "054",
+    "color": 5
+  },
+  "Bishaten Scrap+": {
+    "iconId": "054",
+    "color": 10
+  },
+  "Somnacanth Scrap+": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Basarios Scrap+": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Pukei Scrap+": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Kadachi Scrap+": {
+    "iconId": "054",
+    "color": 12
+  },
+  "Goss Harag Scrap+": {
+    "iconId": "054",
+    "color": 12
+  },
+  "Almudron Scrap+": {
+    "iconId": "054",
+    "color": 13
+  },
+  "Zinogre Scrap+": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Wild Dark Leather": {
+    "iconId": "032",
+    "color": 2
+  },
+  "Wisdom Crystal": {
+    "iconId": "045",
+    "color": 12
+  },
+  "Ace Hunter Coin": {
+    "iconId": "049",
+    "color": 4
+  },
+  "Rajang Coin": {
+    "iconId": "049",
+    "color": 4
+  },
+  "Barioth Coin": {
+    "iconId": "049",
+    "color": 1
+  },
+  "Magnamalo Scrap+": {
+    "iconId": "054",
+    "color": 9
+  },
+  "Mizutsune Scrap+": {
+    "iconId": "054",
+    "color": 9
+  },
+  "Bazelgeuse Coin": {
+    "iconId": "049",
+    "color": 1
+  },
+  "Shady Crystal": {
+    "iconId": "045",
+    "color": 2
+  },
+  "Heavy Fur Scrap": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Heavy Bnahabra Scrap": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Heavy G. Jaggi Scrap": {
+    "iconId": "054",
+    "color": 9
+  },
+  "Heavy Izuchi Scrap": {
+    "iconId": "054",
+    "color": 6
+  },
+  "Heavy G. Baggi Scrap": {
+    "iconId": "054",
+    "color": 12
+  },
+  "Heavy Kulu Scrap": {
+    "iconId": "054",
+    "color": 5
+  },
+  "Heavy G. Wroggi Scrap": {
+    "iconId": "054",
+    "color": 5
+  },
+  "Heavy Arzuros Scrap": {
+    "iconId": "054",
+    "color": 11
+  },
+  "Heavy Lagombi Scrap": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Heavy Aknosom Scrap": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Heavy Tetra Scrap": {
+    "iconId": "054",
+    "color": 8
+  },
+  "Heavy Humble Scrap": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Nohsic Snuffcap": {
+    "iconId": "001",
+    "color": 5
+  },
+  "Heavy Khezu Scrap": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Heavy Bishaten Scrap": {
+    "iconId": "054",
+    "color": 10
+  },
+  "Heavy Basarios Scrap": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Heavy Somna Scrap": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Heavy Kadachi Scrap": {
+    "iconId": "054",
+    "color": 12
+  },
+  "Elgado Ticket": {
+    "iconId": "050",
+    "color": 12
+  },
+  "Rager Coin": {
+    "iconId": "049",
+    "color": 2
+  },
+  "Garangolm Coin": {
+    "iconId": "049",
+    "color": 13
+  },
+  "Hermitaur Coin": {
+    "iconId": "049",
+    "color": 7
+  },
+  "Bishaten Coin": {
+    "iconId": "049",
+    "color": 5
+  },
+  "Heavy Magna Scrap": {
+    "iconId": "054",
+    "color": 9
+  },
+  "Heavy Nargacuga Scrap": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Garangolm Scrap": {
+    "iconId": "054",
+    "color": 13
+  },
+  "Heavy Tigrex Scrap": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Heavy Diablos Scrap": {
+    "iconId": "054",
+    "color": 13
+  },
+  "Heavy Lunagaron Scrap": {
+    "iconId": "054",
+    "color": 10
+  },
+  "Locked Treasure Chest": {
+    "iconId": "000",
+    "color": 13
+  },
+  "Grooved Bones": {
+    "iconId": "030",
+    "color": 1
+  },
+  "Heavy Bazel Scrap": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Heavy K. Daora Scrap": {
+    "iconId": "054",
+    "color": 2
+  },
+  "Heavy Chameleos Scrap": {
+    "iconId": "054",
+    "color": 9
+  },
+  "Heavy Teostra Scrap": {
+    "iconId": "054",
+    "color": 7
+  },
+  "Heavy S. Magala Scrap": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Malzeno Scrap": {
+    "iconId": "054",
+    "color": 1
+  },
+  "Hero King Coin": {
+    "iconId": "049",
+    "color": 4
+  },
+  "Furious Rajang Coin": {
+    "iconId": "049",
+    "color": 4
+  },
+  "Lunagaron Coin": {
+    "iconId": "049",
+    "color": 11
+  },
+  "Espinas Coin": {
+    "iconId": "049",
+    "color": 8
+  },
+  "Buff Badge": {
+    "iconId": "050",
+    "color": 5
+  },
+  "Heavy Ibushi Scrap": {
+    "iconId": "054",
+    "color": 11
+  },
+  "Heavy Narwa Scrap": {
+    "iconId": "054",
+    "color": 4
+  },
+  "Heavy Valstrax Scrap": {
+    "iconId": "054",
+    "color": 7
+  },
+  "Heavy Resentment Scrap": {
+    "iconId": "054",
+    "color": 9
+  },
+  "Heavy Seething Scrap": {
+    "iconId": "054",
+    "color": 7
+  },
+  "Chameleos Risegem": {
+    "iconId": "009",
+    "color": 9
+  },
+  "Daora Risegem": {
+    "iconId": "009",
+    "color": 2
+  },
+  "Teostra Risegem": {
+    "iconId": "009",
+    "color": 7
+  },
+  "Valstrax Risegem": {
+    "iconId": "009",
+    "color": 7
+  },
+  "Shagaru Risegem": {
+    "iconId": "009",
+    "color": 1
+  },
+  "Lazurite Jewel": {
+    "iconId": "053",
+    "color": 4
+  },
+  "Bloodrun Jewel": {
+    "iconId": "053",
+    "color": 9
+  },
+  "Lifepowder": {
+    "iconId": "043",
+    "color": 1
+  },
+  "Aquaglow Jewel": {
+    "iconId": "053",
+    "color": 12
+  },
+  "Ancient Potion": {
+    "iconId": "039",
+    "color": 4
+  },
+  "Sovereign Jewel": {
+    "iconId": "053",
+    "color": 7
+  },
+  "Adamant Jewel": {
+    "iconId": "053",
+    "color": 5
+  },
+  "Anomaly Jewel": {
+    "iconId": "053",
+    "color": 10
+  },
+  "Risen Slogbone": {
+    "iconId": "030",
+    "color": 9
+  },
+  "Volvi Carapace": {
+    "iconId": "055",
+    "color": 7
+  },
+  "Volvi Rickrack": {
+    "iconId": "029",
+    "color": 7
+  },
+  "Magna Soulprism+": {
+    "iconId": "045",
+    "color": 9
+  },
+  "Somnacanth Talon": {
+    "iconId": "033",
+    "color": 4
+  },
+  "Somnacanth Talon+": {
+    "iconId": "033",
+    "color": 4
+  }
+}
