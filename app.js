@@ -679,10 +679,9 @@ function buildSkillGrantIndex() {
 // reconstructs ALL sets straight from the pieces themselves, image or not
 function coreArmorNameForGrouping(name) {
   let n = name;
-  // rank suffixes after the piece name: strip S (High Rank), keep X/SP as set modifier
-  n = n.replace(/\s+S$/i, "");
-  // "Rathalos Helm X" -> "Rathalos X Helm" so X becomes part of the set prefix
-  n = n.replace(/^(.+)\s+(\S+)\s+(X|SP)$/, "$1 $3 $2");
+  // "Rathalos Helm S" / "Rathalos Helm X" -> "Rathalos S Helm" / "Rathalos X Helm"
+  // so S/X become part of the set prefix (separate sets per rank)
+  n = n.replace(/^(.+)\s+(\S+)\s+(S|X|SP)$/, "$1 $3 $2");
   let changed = true;
   while (changed) {
     changed = false;
@@ -692,6 +691,16 @@ function coreArmorNameForGrouping(name) {
     if (stripped !== n) { n = stripped; changed = true; }
   }
   return n.trim();
+}
+
+function armorSetImg(name) {
+  const s = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+  // For non-X sets, try the X variant image first (same armor visually)
+  if (!/s-x-set|-x-set$/.test(s)) {
+    const xVariant = s.replace(/(-s-set|-set)$/, "-x-set");
+    if (xVariant !== s) return `data/images/armor_sets/${xVariant}.png`;
+  }
+  return `data/images/armor_sets/${s}.png`;
 }
 
 let impliedArmorGroupsCache = null;
@@ -1793,7 +1802,7 @@ function renderArmorIndex(query) {
       <div class="decorations-grid">
         ${implied.map(g => `
           <button type="button" class="decoration-card armor-set-card" data-implied="${g.prefix}">
-            ${armorIconTag(g.pieces[0])}
+            <img class="armor-set-thumb" src="${armorSetImg(g.prefix + ' Set')}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">
             <span class="decoration-card-name">${g.prefix} Set</span>
           </button>
         `).join("")}
@@ -1864,7 +1873,7 @@ function showArmorSetDetail(setName) {
   armorSetDetailEl.innerHTML = `
     <button type="button" class="decorations-back" id="armor-detail-back">${ui("armorBack")}</button>
     <div class="armor-set-detail-header">
-      ${set ? `<img class="armor-set-full-image" src="${set.localImage || set.image}" alt="">` : armorIconTag(impliedGroup.pieces[0])}
+      ${set ? `<img class="armor-set-full-image" src="${set.localImage || set.image}" alt="">` : `<img class="armor-set-full-image" src="${armorSetImg(displayName)}" alt="" onerror="this.style.display='none'">`}
       <h2>${displayName}</h2>
     </div>
     <section class="block">
@@ -2105,32 +2114,39 @@ window.addEventListener("popstate", () => {
   const decId = url.searchParams.get("d");
   const skillId = url.searchParams.get("skill");
   const matKey = url.searchParams.get("mat");
+  const armorSet = url.searchParams.get("set");
   const armorId = url.searchParams.get("a");
-
-  if (monster) { selectMonster(monster, { skipUrl: true }); return; }
 
   if (view === "weapons") {
     showWeaponsView();
     if (wId && weaponsById.has(wId)) showWeaponDetail(wId);
-  } else if (view === "armor") {
+    return;
+  }
+  if (view === "armor") {
     showArmorView();
-    if (armorId) {
-      const p = armorPieces.find(x => x.id === armorId);
-      if (p) showArmorPieceDetail(armorId);
-    }
-  } else if (view === "decorations") {
+    if (armorSet) showArmorSetDetail(armorSet);
+    else if (armorId) showArmorPieceDetail(armorId);
+    return;
+  }
+  if (view === "decorations") {
     showDecorationsView();
     if (decId) showDecorationDetail(decId);
-  } else if (view === "materials") {
+    return;
+  }
+  if (view === "materials") {
     showMaterialsView();
     if (matKey) showMaterialDetail(matKey);
-  } else if (view === "skills") {
+    return;
+  }
+  if (view === "skills") {
     showSkillsView();
     if (skillId && skills.some(s => s.id === skillId)) showSkillDetail(skillId);
-  } else {
-    if (selectedMonster) { selectedMonster = null; detailEl.hidden = true; homeViewEl.hidden = false; }
-    else { showHome(); }
+    return;
   }
+  if (monster) { selectMonster(monster, { skipUrl: true }); return; }
+
+  if (selectedMonster) { selectedMonster = null; detailEl.hidden = true; homeViewEl.hidden = false; }
+  else { showHome(); }
 });
 
 function trSkillName(s) {
