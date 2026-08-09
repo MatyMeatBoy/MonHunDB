@@ -692,7 +692,8 @@ function coreArmorNameForGrouping(name) {
 // armor-set prefix: strips trailing armor-part words (some multi-word like
 // "Head Scarf") and normalizes Pukei-Pukei->Pukei (base/S). Result is the set
 // name alone (no part word), ready for display/grouping.
-const ARMOR_PART_WORDS = /^(Head|Mail|Vambraces|Braces|Armguards|Coil|Greaves|Garb|Obi|Leggings|Scarf|Crown|Robe|Sleeves|Hakama|Mask|Hat|Hood|Suit|Gloves|Skirt|Socks|Boots|Earrings|Cuirass|Belt|Faulds|Sash|Sandals|Vest|Helm|Cap|Shawl)$/i;
+const ARMOR_PART_WORDS = /^(Head|Mail|Vambraces|Braces|Armguards|Coil|Greaves|Garb|Obi|Leggings|Scarf|Crown|Robe|Sleeves|Hakama|Mask|Hat|Hood|Suit|Gloves|Skirt|Socks|Boots|Earrings|Cuirass|Belt|Faulds|Sash|Sandals|Vest|Helm|Cap|Shawl|Arms|Chest|Legs|Waist|Haori|Kote|Jersey|Shoes|Shirt|Pants)$/i;
+const ARMOR_SET_HIDDEN = new Set(["Swallow", "Sonic", "Floral", "Buff", "Buff Body", "Elgado"]);
 function armorSetPrefix(name) {
   let n = coreArmorNameForGrouping(name);
   const m = n.match(/\s+(S|X|SP)$/);
@@ -706,6 +707,7 @@ function armorSetPrefix(name) {
   }
   n = n.replace(/^Pukei-Pukei(?! X)/, "Pukei");
   if (suffix === " X") n = n.replace(/^Pukei$/, "Pukei-Pukei");
+  n = n.replace(/^Kadachi/, "Tobi-Kadachi").replace(/^Lecturer's$/, "Lecturer");
   return (n.trim() + suffix).trim();
 }
 
@@ -750,7 +752,7 @@ const ARMOR_SET_IMG_OVERRIDES = {
   "Utsushi Set": "utsushi-visible", "Utsushi True Set": "utsushi-true-visible", "Utsushi True (Hidden) Set": "utsushi-true-hidden", "Utsushi True (Visible) Set": "utsushi-true-visible", "Utsushi (Hidden) Set": "utsushi-hidden", "Utsushi (Visible) Set": "utsushi-visible",
   "S. Studded Set": "", "S. Studded S Set": "", "S. Studded X Set": "",
 };
-const ARMOR_SET_DISPLAY_MAP = { "S. Studded": "Shell Studded", "Squire's": "Knight Squire", "Scholar's": "Scholar", "Golm": "Garangolm", "Rakna": "Rakna-Kadaki", "Artillery Corps": "Royal Artillery Corps", "Chaotic": "Chaotic Gore Magala", "Gore": "Gore Magala", "Hoplite's": "Heavy Knight", "Professor's": "Professor", "Regios": "Seregios", "Outpost HQ": "Base Commander", "Ibushi's": "Ibushi", "Ibushi's Pure": "Ibushi - Pure", "Narwa's": "Narwa", "Narwa's Pure": "Narwa - Pure" };
+const ARMOR_SET_DISPLAY_MAP = { "S. Studded": "Shell Studded", "Squire's": "Knight Squire", "Scholar's": "Scholar", "Golm": "Garangolm", "Rakna": "Rakna-Kadaki", "Artillery Corps": "Royal Artillery Corps", "Chaotic": "Chaotic Gore Magala", "Gore": "Gore Magala", "Hoplite's": "Heavy Knight", "Professor's": "Professor", "Regios": "Seregios", "Outpost HQ": "Base Commander", "Ibushi's": "Ibushi", "Ibushi's Pure": "Ibushi - Pure", "Narwa's": "Narwa", "Narwa's Pure": "Narwa - Pure", "Lecturer": "Lecture", "Lecturer's": "Lecture", "Divine Ire": "Grand Divine Ire" };
 function armorSetDisplayName(prefix) {
   // split optional rank suffix (S/X) so it maps + reapplies for ALL variants
   const m = prefix.match(/^(.*?)\s+(S|X)$/);
@@ -794,9 +796,11 @@ function buildImpliedArmorGroups() {
     i = j > i ? j : i + 1;
   }
   // dedupe by prefix+pieces: armor_pieces.json lists some sets twice (Rakna,
-  // Utsushi, Valstrax, Mosgharl, Ibushi's, Narwa's, Golden, etc.)
+  // Utsushi, Valstrax, Mosgharl, Ibushi's, Narwa's, Golden, etc.) and hide
+  // layered-armor-only sets (Swallow, Sonic, Floral, Buff, Elgado, ...)
   const seen = new Set();
   impliedArmorGroupsCache = groups.filter(g => {
+    if (ARMOR_SET_HIDDEN.has(g.prefix)) return false;
     const k = g.prefix + "|" + g.pieces.map(x => x.id).sort().join(",");
     if (seen.has(k)) return false;
     seen.add(k);
@@ -823,8 +827,9 @@ function buildPartialArmorGroups() {
     }
   }
   // exclude sets already fully represented (implied groups use the same pieces)
+  // and hide layered-armor-only sets
   const fullKeys = new Set(buildImpliedArmorGroups().map(g => g.prefix));
-  partialArmorGroupsCache = partial.filter(g => !fullKeys.has(g.prefix));
+  partialArmorGroupsCache = partial.filter(g => !fullKeys.has(g.prefix) && !ARMOR_SET_HIDDEN.has(g.prefix));
   return partialArmorGroupsCache;
 }
 
@@ -1985,7 +1990,7 @@ function showArmorSetDetail(setName) {
     const m = prefix.match(/^(.*?)\s+(S|X)$/);
     const base = m ? m[1] : prefix;
     const rank = m ? " " + m[2] : "";
-    const reverse = { "Shell Studded": "S. Studded", "Knight Squire": "Squire's", "Scholar": "Scholar's", "Garangolm": "Golm", "Rakna-Kadaki": "Rakna", "Royal Artillery Corps": "Artillery Corps", "Chaotic Gore Magala": "Chaotic", "Gore Magala": "Gore", "Heavy Knight": "Hoplite's", "Professor": "Professor's", "Seregios": "Regios", "Base Commander": "Outpost HQ", "Ibushi": "Ibushi's", "Ibushi - Pure": "Ibushi's Pure", "Narwa": "Narwa's", "Narwa - Pure": "Narwa's Pure" };
+    const reverse = { "Shell Studded": "S. Studded", "Knight Squire": "Squire's", "Scholar": "Scholar's", "Garangolm": "Golm", "Rakna-Kadaki": "Rakna", "Royal Artillery Corps": "Artillery Corps", "Chaotic Gore Magala": "Chaotic", "Gore Magala": "Gore", "Heavy Knight": "Hoplite's", "Professor": "Professor's", "Seregios": "Regios", "Base Commander": "Outpost HQ", "Ibushi": "Ibushi's", "Ibushi - Pure": "Ibushi's Pure", "Narwa": "Narwa's", "Narwa - Pure": "Narwa's Pure", "Lecture": "Lecturer", "Grand Divine Ire": "Divine Ire" };
     if (reverse[base]) prefix = reverse[base] + rank;
     impliedGroup = buildImpliedArmorGroups().find(g => g.prefix === prefix);
     if (!impliedGroup) partialGroup = buildPartialArmorGroups().find(g => g.prefix === prefix);
