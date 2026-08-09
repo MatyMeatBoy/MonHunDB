@@ -1,0 +1,1595 @@
+[
+  {
+    "id": "resentment",
+    "name": "Resentment",
+    "nameEs": "Resentment",
+    "descEn": "Increases attack when you have recoverable damage (the red portion of your Health Gauge).",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 0
+  },
+  {
+    "id": "adrenaline-rush",
+    "name": "Adrenaline Rush",
+    "nameEs": "Adrenaline Rush",
+    "descEn": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 1
+  },
+  {
+    "id": "peak-performance",
+    "name": "Peak Performance",
+    "nameEs": "Peak Performance",
+    "descEn": "Increases attack when your health is full.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 2
+  },
+  {
+    "id": "counterstrike",
+    "name": "Counterstrike",
+    "nameEs": "Counterstrike",
+    "descEn": "Temporarily increases attack power after being knocked back.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 3
+  },
+  {
+    "id": "weakness-exploit",
+    "name": "Weakness Exploit",
+    "nameEs": "Weakness Exploit",
+    "descEn": "Increases the affinity of attacks that exploit a monster's weak  points and wounds.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 4
+  },
+  {
+    "id": "maximum-might",
+    "name": "Maximum Might",
+    "nameEs": "Maximum Might",
+    "descEn": "Increases affinity if stamina is kept full for a period of time.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 5
+  },
+  {
+    "id": "convert-element",
+    "name": "Convert Element",
+    "nameEs": "Convert Element",
+    "descEn": "After taking elemental damage, temporarily grants you dragon element effects. (Cooldown after effect ends.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 6
+  },
+  {
+    "id": "defense-boost",
+    "name": "Defense Boost",
+    "nameEs": "Defense Boost",
+    "descEn": "Increases defense. Also improves resistances at higher levels.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 7
+  },
+  {
+    "id": "divine-blessing",
+    "name": "Divine Blessing",
+    "nameEs": "Divine Blessing",
+    "descEn": "Has a predetermined chance of reducing the damage you take.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 8
+  },
+  {
+    "id": "fire-resistance",
+    "name": "Fire Resistance",
+    "nameEs": "Fire Resistance",
+    "descEn": "Increases fire resistance. Also improves defense at higher levels.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 9
+  },
+  {
+    "id": "water-resistance",
+    "name": "Water Resistance",
+    "nameEs": "Water Resistance",
+    "descEn": "Increases water resistance. Also improves defense at higher levels.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 10
+  },
+  {
+    "id": "thunder-resistance",
+    "name": "Thunder Resistance",
+    "nameEs": "Thunder Resistance",
+    "descEn": "Increases thunder resistance. Also improves defense at higher levels.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 11
+  },
+  {
+    "id": "ice-resistance",
+    "name": "Ice Resistance",
+    "nameEs": "Ice Resistance",
+    "descEn": "Increases ice resistance. Also improves defense at higher levels.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 12
+  },
+  {
+    "id": "dragon-resistance",
+    "name": "Dragon Resistance",
+    "nameEs": "Dragon Resistance",
+    "descEn": "Increases dragon resistance. Also improves defense at higher levels.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 13
+  },
+  {
+    "id": "poison-resistance",
+    "name": "Poison Resistance",
+    "nameEs": "Poison Resistance",
+    "descEn": "Reduces damage while poisoned.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 14
+  },
+  {
+    "id": "paralysis-resistance",
+    "name": "Paralysis Resistance",
+    "nameEs": "Paralysis Resistance",
+    "descEn": "Reduces the duration of paralysis.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 15
+  },
+  {
+    "id": "sleep-resistance",
+    "name": "Sleep Resistance",
+    "nameEs": "Sleep Resistance",
+    "descEn": "Reduces the duration of sleep.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 16
+  },
+  {
+    "id": "iron-skin",
+    "name": "Iron Skin",
+    "nameEs": "Iron Skin",
+    "descEn": "Grants protection against defense down.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 17
+  },
+  {
+    "id": "blight-resistance",
+    "name": "Blight Resistance",
+    "nameEs": "Blight Resistance",
+    "descEn": "Grants protection against all elemental blights.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 18
+  },
+  {
+    "id": "stun-resistance",
+    "name": "Stun Resistance",
+    "nameEs": "Stun Resistance",
+    "descEn": "Reduces the duration of stun.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 19
+  },
+  {
+    "id": "bleeding-resistance",
+    "name": "Bleeding Resistance",
+    "nameEs": "Bleeding Resistance",
+    "descEn": "Grants protection against bleeding.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 0
+  },
+  {
+    "id": "bind-resistance",
+    "name": "Bind Resistance",
+    "nameEs": "Bind Resistance",
+    "descEn": "Grants protection against webbed status and frostblight.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 1
+  },
+  {
+    "id": "blast-resistance",
+    "name": "Blast Resistance",
+    "nameEs": "Blast Resistance",
+    "descEn": "Grants protection against blastblight.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 2
+  },
+  {
+    "id": "stench-resistance",
+    "name": "Stench Resistance",
+    "nameEs": "Stench Resistance",
+    "descEn": "Grants protection against stench.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 3
+  },
+  {
+    "id": "adaptability",
+    "name": "Adaptability",
+    "nameEs": "Adaptability",
+    "descEn": "Grants protection against environmental damage, such as from heat or cold.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 4
+  },
+  {
+    "id": "recovery-up",
+    "name": "Recovery Up",
+    "nameEs": "Recovery Up",
+    "descEn": "Increases the amount recovered when restoring health.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 5
+  },
+  {
+    "id": "recovery-speed",
+    "name": "Recovery Speed",
+    "nameEs": "Recovery Speed",
+    "descEn": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 6
+  },
+  {
+    "id": "survival-expert",
+    "name": "Survival Expert",
+    "nameEs": "Survival Expert",
+    "descEn": "Extra health is recovered from environmental interactables.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 7
+  },
+  {
+    "id": "constitution",
+    "name": "Constitution",
+    "nameEs": "Constitution",
+    "descEn": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 8
+  },
+  {
+    "id": "stamina-surge",
+    "name": "Stamina Surge",
+    "nameEs": "Stamina Surge",
+    "descEn": "Speeds up stamina recovery.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 9
+  },
+  {
+    "id": "marathon-runner",
+    "name": "Marathon Runner",
+    "nameEs": "Marathon Runner",
+    "descEn": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 10
+  },
+  {
+    "id": "hunger-resistance",
+    "name": "Hunger Resistance",
+    "nameEs": "Hunger Resistance",
+    "descEn": "Reduces maximum stamina depletion over time.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 11
+  },
+  {
+    "id": "agitator",
+    "name": "Agitator",
+    "nameEs": "Agitator",
+    "descEn": "Increases attack power and affinity when large monsters become enraged.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 12
+  },
+  {
+    "id": "latent-power",
+    "name": "Latent Power",
+    "nameEs": "Latent Power",
+    "descEn": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 13
+  },
+  {
+    "id": "heroics",
+    "name": "Heroics",
+    "nameEs": "Heroics",
+    "descEn": "Increases attack power and defense when health drops to 35% or lower.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 14
+  },
+  {
+    "id": "burst",
+    "name": "Burst",
+    "nameEs": "Burst",
+    "descEn": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 15
+  },
+  {
+    "id": "foray",
+    "name": "Foray",
+    "nameEs": "Foray",
+    "descEn": "Increases attack power and affinity against large monsters affected by poison or paralysis.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 16
+  },
+  {
+    "id": "flayer",
+    "name": "Flayer",
+    "nameEs": "Flayer",
+    "descEn": "Makes it easier to inflict wounds. Can also deal extra non-elemental damage upon buildup. (Excludes some attacks.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 17
+  },
+  {
+    "id": "palico-rally",
+    "name": "Palico Rally",
+    "nameEs": "Palico Rally",
+    "descEn": "Powers up Palicoes.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 18
+  },
+  {
+    "id": "partbreaker",
+    "name": "Partbreaker",
+    "nameEs": "Partbreaker",
+    "descEn": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 19
+  },
+  {
+    "id": "coalescence",
+    "name": "Coalescence",
+    "nameEs": "Coalescence",
+    "descEn": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 0
+  },
+  {
+    "id": "ambush",
+    "name": "Ambush",
+    "nameEs": "Ambush",
+    "descEn": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 1
+  },
+  {
+    "id": "antivirus",
+    "name": "Antivirus",
+    "nameEs": "Antivirus",
+    "descEn": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 2
+  },
+  {
+    "id": "elemental-absorption",
+    "name": "Elemental Absorption",
+    "nameEs": "Elemental Absorption",
+    "descEn": "After taking elemental damage, temporarily grants you element effects. (Cooldown after effect ends)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 3
+  },
+  {
+    "id": "self-improvement",
+    "name": "Self-Improvement",
+    "nameEs": "Self-Improvement",
+    "descEn": "Attack and defense increase as time passes while on a quest. (The maximum is reached after 30 minutes.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 4
+  },
+  {
+    "id": "evade-window",
+    "name": "Evade Window",
+    "nameEs": "Evade Window",
+    "descEn": "Extends the invulnerability period when evading.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 5
+  },
+  {
+    "id": "evade-extender",
+    "name": "Evade Extender",
+    "nameEs": "Evade Extender",
+    "descEn": "Increases evade distance.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 6
+  },
+  {
+    "id": "earplugs",
+    "name": "Earplugs",
+    "nameEs": "Earplugs",
+    "descEn": "Grants protection from large monsters' roars.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 7
+  },
+  {
+    "id": "quick-sheathe",
+    "name": "Quick Sheathe",
+    "nameEs": "Quick Sheathe",
+    "descEn": "Speeds up weapon sheathing.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 8
+  },
+  {
+    "id": "windproof",
+    "name": "Windproof",
+    "nameEs": "Windproof",
+    "descEn": "Grants protection against wind pressure.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 9
+  },
+  {
+    "id": "tremor-resistance",
+    "name": "Tremor Resistance",
+    "nameEs": "Tremor Resistance",
+    "descEn": "Grants protection against ground tremors.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 10
+  },
+  {
+    "id": "flinch-free",
+    "name": "Flinch Free",
+    "nameEs": "Flinch Free",
+    "descEn": "Prevents knockbacks and other reactions to small damage.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 11
+  },
+  {
+    "id": "intimidator",
+    "name": "Intimidator",
+    "nameEs": "Intimidator",
+    "descEn": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 12
+  },
+  {
+    "id": "speed-eating",
+    "name": "Speed Eating",
+    "nameEs": "Speed Eating",
+    "descEn": "Increases meat-eating and item-consumption speed.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 13
+  },
+  {
+    "id": "aquaticoilsilt-mobility",
+    "name": "Aquatic/Oilsilt Mobility",
+    "nameEs": "Aquatic/Oilsilt Mobility",
+    "descEn": "Grants resistance against impairments to mobility while in water, oilsilt, or streams.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 14
+  },
+  {
+    "id": "shock-absorber",
+    "name": "Shock Absorber",
+    "nameEs": "Shock Absorber",
+    "descEn": "Disables damage reactions when you hit a friend or when a friend hits you.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 15
+  },
+  {
+    "id": "leap-of-faith",
+    "name": "Leap of Faith",
+    "nameEs": "Leap of Faith",
+    "descEn": "Allows you to do a dive-evade when facing towards large monsters and extends the dive-evade distance.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 16
+  },
+  {
+    "id": "jump-master",
+    "name": "Jump Master",
+    "nameEs": "Jump Master",
+    "descEn": "Prevents attacks from knocking you back during a jump.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 17
+  },
+  {
+    "id": "cliffhanger",
+    "name": "Cliffhanger",
+    "nameEs": "Cliffhanger",
+    "descEn": "Decreases stamina depletion when climbing on vines.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 18
+  },
+  {
+    "id": "wide-range",
+    "name": "Wide-Range",
+    "nameEs": "Wide-Range",
+    "descEn": "Allows the effects of certain items to also affect nearby allies.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 19
+  },
+  {
+    "id": "tool-specialist",
+    "name": "Tool Specialist",
+    "nameEs": "Tool Specialist",
+    "descEn": "Reduces the recharge time for specialized tools.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 0
+  },
+  {
+    "id": "bombardier",
+    "name": "Bombardier",
+    "nameEs": "Bombardier",
+    "descEn": "Increases the damage of explosive items.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 1
+  },
+  {
+    "id": "mushroomancer",
+    "name": "Mushroomancer",
+    "nameEs": "Mushroomancer",
+    "descEn": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 2
+  },
+  {
+    "id": "item-prolonger",
+    "name": "Item Prolonger",
+    "nameEs": "Item Prolonger",
+    "descEn": "Extends the duration of some item effects.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 3
+  },
+  {
+    "id": "free-meal",
+    "name": "Free Meal",
+    "nameEs": "Free Meal",
+    "descEn": "Gives you a predetermined chance of consuming a food or drink item for free.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 4
+  },
+  {
+    "id": "blindsider",
+    "name": "Blindsider",
+    "nameEs": "Blindsider",
+    "descEn": "Improves the effectiveness of flash attacks and items.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 5
+  },
+  {
+    "id": "botanist",
+    "name": "Botanist",
+    "nameEs": "Botanist",
+    "descEn": "Increases the quantity of herbs and other consumable items you gather.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 6
+  },
+  {
+    "id": "geologist",
+    "name": "Geologist",
+    "nameEs": "Geologist",
+    "descEn": "Increases the number of items you gain at gathering points.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 7
+  },
+  {
+    "id": "entomologist",
+    "name": "Entomologist",
+    "nameEs": "Entomologist",
+    "descEn": "The bodies of small insect monsters won't be destroyed, allowing them to be carved. (Excludes some.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 8
+  },
+  {
+    "id": "outdoorsman",
+    "name": "Outdoorsman",
+    "nameEs": "Outdoorsman",
+    "descEn": "Improves fishing, grilling, and transporting abilities.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 9
+  },
+  {
+    "id": "rice-ball",
+    "name": "Rice Ball",
+    "nameEs": "Rice Ball",
+    "descEn": "Increases the attack power of Akuma actions and stun damage.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 10
+  },
+  {
+    "id": "neopteron-alert",
+    "name": "Neopteron Alert",
+    "nameEs": "Neopteron Alert",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 11
+  },
+  {
+    "id": "neopteron-camouflage",
+    "name": "Neopteron Camouflage",
+    "nameEs": "Neopteron Camouflage",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 12
+  },
+  {
+    "id": "scaling-prowess",
+    "name": "Scaling Prowess",
+    "nameEs": "Scaling Prowess",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 13
+  },
+  {
+    "id": "scale-layering",
+    "name": "Scale Layering",
+    "nameEs": "Scale Layering",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 14
+  },
+  {
+    "id": "flexible-leathercraft",
+    "name": "Flexible Leathercraft",
+    "nameEs": "Flexible Leathercraft",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 15
+  },
+  {
+    "id": "buttery-leathercraft",
+    "name": "Buttery Leathercraft",
+    "nameEs": "Buttery Leathercraft",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 16
+  },
+  {
+    "id": "fortifying-pelt",
+    "name": "Fortifying Pelt",
+    "nameEs": "Fortifying Pelt",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 17
+  },
+  {
+    "id": "alluring-pelt",
+    "name": "Alluring Pelt",
+    "nameEs": "Alluring Pelt",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 18
+  },
+  {
+    "id": "lords-favor",
+    "name": "Lord's Favor",
+    "nameEs": "Lord's Favor",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 19
+  },
+  {
+    "id": "lords-fury",
+    "name": "Lord's Fury",
+    "nameEs": "Lord's Fury",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 0
+  },
+  {
+    "id": "guardians-pulse",
+    "name": "Guardian's Pulse",
+    "nameEs": "Guardian's Pulse",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 1
+  },
+  {
+    "id": "guardians-protection",
+    "name": "Guardian's Protection",
+    "nameEs": "Guardian's Protection",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 2
+  },
+  {
+    "id": "imparted-wisdom",
+    "name": "Imparted Wisdom",
+    "nameEs": "Imparted Wisdom",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 3
+  },
+  {
+    "id": "lords-soul",
+    "name": "Lord's Soul",
+    "nameEs": "Lord's Soul",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 4
+  },
+  {
+    "id": "master-of-the-fist",
+    "name": "Master of the Fist",
+    "nameEs": "Master of the Fist",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 5
+  },
+  {
+    "id": "festival-spirit",
+    "name": "Festival Spirit",
+    "nameEs": "Festival Spirit",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 6
+  },
+  {
+    "id": "glorys-favor",
+    "name": "Glory's Favor",
+    "nameEs": "Glory's Favor",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 7
+  },
+  {
+    "id": "doshagumas-might",
+    "name": "Doshaguma's Might",
+    "nameEs": "Doshaguma's Might",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 8
+  },
+  {
+    "id": "rathaloss-flare",
+    "name": "Rathalos's Flare",
+    "nameEs": "Rathalos's Flare",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 9
+  },
+  {
+    "id": "xu-wus-vigor",
+    "name": "Xu Wu's Vigor",
+    "nameEs": "Xu Wu's Vigor",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 10
+  },
+  {
+    "id": "gravioss-protection",
+    "name": "Gravios's Protection",
+    "nameEs": "Gravios's Protection",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 11
+  },
+  {
+    "id": "blangongas-spirit",
+    "name": "Blangonga's Spirit",
+    "nameEs": "Blangonga's Spirit",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 12
+  },
+  {
+    "id": "ebony-odogarons-power",
+    "name": "Ebony Odogaron's Power",
+    "nameEs": "Ebony Odogaron's Power",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 13
+  },
+  {
+    "id": "fulgur-anjanaths-will",
+    "name": "Fulgur Anjanath's Will",
+    "nameEs": "Fulgur Anjanath's Will",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 14
+  },
+  {
+    "id": "uth-dunas-cover",
+    "name": "Uth Duna's Cover",
+    "nameEs": "Uth Duna's Cover",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 15
+  },
+  {
+    "id": "rey-daus-voltage",
+    "name": "Rey Dau's Voltage",
+    "nameEs": "Rey Dau's Voltage",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 16
+  },
+  {
+    "id": "nu-udras-mutiny",
+    "name": "Nu Udra's Mutiny",
+    "nameEs": "Nu Udra's Mutiny",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 17
+  },
+  {
+    "id": "jin-dahaads-revolt",
+    "name": "Jin Dahaad's Revolt",
+    "nameEs": "Jin Dahaad's Revolt",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 18
+  },
+  {
+    "id": "gore-magalas-tyranny",
+    "name": "Gore Magala's Tyranny",
+    "nameEs": "Gore Magala's Tyranny",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 19
+  },
+  {
+    "id": "arkvelds-hunger",
+    "name": "Arkveld's Hunger",
+    "nameEs": "Arkveld's Hunger",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 0
+  },
+  {
+    "id": "guardian-arkvelds-vitality",
+    "name": "Guardian Arkveld's Vitality",
+    "nameEs": "Guardian Arkveld's Vitality",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 1
+  },
+  {
+    "id": "mizutsunes-prowess",
+    "name": "Mizutsune's Prowess",
+    "nameEs": "Mizutsune's Prowess",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 2
+  },
+  {
+    "id": "zoh-shias-pulse",
+    "name": "Zoh Shia's Pulse",
+    "nameEs": "Zoh Shia's Pulse",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 3
+  },
+  {
+    "id": "blossomdance-prayer",
+    "name": "Blossomdance Prayer",
+    "nameEs": "Blossomdance Prayer",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 4
+  },
+  {
+    "id": "leviathans-fury",
+    "name": "Leviathan's Fury",
+    "nameEs": "Leviathan's Fury",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 5
+  },
+  {
+    "id": "seregioss-tenacity",
+    "name": "Seregios's Tenacity",
+    "nameEs": "Seregios's Tenacity",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 6
+  },
+  {
+    "id": "flamefete-prayer",
+    "name": "Flamefete Prayer",
+    "nameEs": "Flamefete Prayer",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 7
+  },
+  {
+    "id": "dreamspell-prayer",
+    "name": "Dreamspell Prayer",
+    "nameEs": "Dreamspell Prayer",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 8
+  },
+  {
+    "id": "lumenhymn-prayer",
+    "name": "",
+    "nameEs": "",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 9
+  },
+  {
+    "id": "soul-of-the-dark-knight",
+    "name": "Soul of the Dark Knight",
+    "nameEs": "Soul of the Dark Knight",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 10
+  },
+  {
+    "id": "omega-resonance",
+    "name": "Omega Resonance",
+    "nameEs": "Omega Resonance",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 11
+  },
+  {
+    "id": "gogmapocalypse",
+    "name": "",
+    "nameEs": "",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 12
+  },
+  {
+    "id": "attack-boost",
+    "name": "Attack Boost",
+    "nameEs": "Attack Boost",
+    "descEn": "Increases attack power.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 13
+  },
+  {
+    "id": "offensive-guard",
+    "name": "Offensive Guard",
+    "nameEs": "Offensive Guard",
+    "descEn": "Temporarily increases attack power after executing a perfectly-timed guard.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 14
+  },
+  {
+    "id": "critical-eye",
+    "name": "Critical Eye",
+    "nameEs": "Critical Eye",
+    "descEn": "Increases affinity.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 15
+  },
+  {
+    "id": "critical-boost",
+    "name": "Critical Boost",
+    "nameEs": "Critical Boost",
+    "descEn": "Increases the damage of critical hits.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 16
+  },
+  {
+    "id": "critical-draw",
+    "name": "Critical Draw",
+    "nameEs": "Critical Draw",
+    "descEn": "Increases affinity when performing draw attacks. (Not effective while riding.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 17
+  },
+  {
+    "id": "fire-attack",
+    "name": "Fire Attack",
+    "nameEs": "Fire Attack",
+    "descEn": "Increases fire element attack power. (Elemental attack power has a maximum limit.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 18
+  },
+  {
+    "id": "water-attack",
+    "name": "Water Attack",
+    "nameEs": "Water Attack",
+    "descEn": "Increases water element attack power. (Elemental attack power has a maximum limit.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 19
+  },
+  {
+    "id": "ice-attack",
+    "name": "Ice Attack",
+    "nameEs": "Ice Attack",
+    "descEn": "Increases ice element attack power. (Elemental attack power has a maximum limit.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 0
+  },
+  {
+    "id": "thunder-attack",
+    "name": "Thunder Attack",
+    "nameEs": "Thunder Attack",
+    "descEn": "Increases thunder element attack power. (Elemental attack power has a maximum limit.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 1
+  },
+  {
+    "id": "dragon-attack",
+    "name": "Dragon Attack",
+    "nameEs": "Dragon Attack",
+    "descEn": "Increases dragon element attack power. (Elemental attack power has a maximum limit.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 2
+  },
+  {
+    "id": "poison-attack",
+    "name": "Poison Attack",
+    "nameEs": "Poison Attack",
+    "descEn": "Increases the rate of poison buildup. (Poison buildup has a maximum limit.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 3
+  },
+  {
+    "id": "paralysis-attack",
+    "name": "Paralysis Attack",
+    "nameEs": "Paralysis Attack",
+    "descEn": "Increases the rate of paralysis buildup. (Paralysis buildup has a maximum limit.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 4
+  },
+  {
+    "id": "sleep-attack",
+    "name": "Sleep Attack",
+    "nameEs": "Sleep Attack",
+    "descEn": "Increases the rate of sleep buildup. (Sleep buildup has a maximum limit.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 5
+  },
+  {
+    "id": "blast-attack",
+    "name": "Blast Attack",
+    "nameEs": "Blast Attack",
+    "descEn": "Increases the rate of blast buildup. (Blast buildup has a maximum limit.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 6
+  },
+  {
+    "id": "critical-element",
+    "name": "Critical Element",
+    "nameEs": "Critical Element",
+    "descEn": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 7
+  },
+  {
+    "id": "critical-status",
+    "name": "Critical Status",
+    "nameEs": "Critical Status",
+    "descEn": "Increases abnormal status effects (paralysis, poison, sleep, blast) when landing critical hits.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 8
+  },
+  {
+    "id": "charge-master",
+    "name": "Charge Master",
+    "nameEs": "Charge Master",
+    "descEn": "Increases element power and status buildup for charged attacks.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 9
+  },
+  {
+    "id": "handicraft",
+    "name": "Handicraft",
+    "nameEs": "Handicraft",
+    "descEn": "Extends the weapon sharpness gauge. However, it will not increase the gauge past its maximum.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 10
+  },
+  {
+    "id": "razor-sharp",
+    "name": "Razor Sharp",
+    "nameEs": "Razor Sharp",
+    "descEn": "Prevents your weapon from losing sharpness.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 11
+  },
+  {
+    "id": "protective-polish",
+    "name": "Protective Polish",
+    "nameEs": "Protective Polish",
+    "descEn": "Weapon sharpness does not decrease for a set time after sharpening.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 12
+  },
+  {
+    "id": "minds-eye",
+    "name": "Mind's Eye",
+    "nameEs": "Mind's Eye",
+    "descEn": "Your attacks are deflected less and are more powerful against hard monster parts.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 13
+  },
+  {
+    "id": "bludgeoner",
+    "name": "Bludgeoner",
+    "nameEs": "Bludgeoner",
+    "descEn": "Increases damage dealt when your weapon sharpness is low.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 14
+  },
+  {
+    "id": "masters-touch",
+    "name": "Master's Touch",
+    "nameEs": "Master's Touch",
+    "descEn": "Prevents your weapon from losing sharpness during critical hits.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 15
+  },
+  {
+    "id": "normal-shots",
+    "name": "Normal Shots",
+    "nameEs": "Normal Shots",
+    "descEn": "Increases the attack power of Normal Ammo, normal arrows, and Flying Swallow Shot.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 16
+  },
+  {
+    "id": "piercing-shots",
+    "name": "Piercing Shots",
+    "nameEs": "Piercing Shots",
+    "descEn": "Increases the attack of the bowgun's Pierce Ammo, and the bow's Dragon Piercer and Thousand Dragons.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 17
+  },
+  {
+    "id": "spreadpower-shots",
+    "name": "Spread/Power Shots",
+    "nameEs": "Spread/Power Shots",
+    "descEn": "Increases the attack of the bowgun's Spread Ammo and the bow's Power Shots and Quick Shots.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 18
+  },
+  {
+    "id": "ballistics",
+    "name": "Ballistics",
+    "nameEs": "Ballistics",
+    "descEn": "Extends the range in which ammo and arrows have maximum power. Also boosts power at higher levels.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 19
+  },
+  {
+    "id": "rapid-fire-up",
+    "name": "Rapid Fire Up",
+    "nameEs": "Rapid Fire Up",
+    "descEn": "Improves light bowgun rapid fire.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 0
+  },
+  {
+    "id": "opening-shot",
+    "name": "Opening Shot",
+    "nameEs": "Opening Shot",
+    "descEn": "Increases the bowgun's reload speed and increases the power of bullets when fully loaded.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 1
+  },
+  {
+    "id": "tetrad-shot",
+    "name": "Tetrad Shot",
+    "nameEs": "Tetrad Shot",
+    "descEn": "Increases affinity of bowgun ammo/ coatings from the fourth shot and attack of the fourth and sixth shots.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 2
+  },
+  {
+    "id": "special-ammo-boost",
+    "name": "Special Ammo Boost",
+    "nameEs": "Special Ammo Boost",
+    "descEn": "Increases the power of the bowgun's special ammo, and the bow's Dragon Piercer, Thousand Dragons, and Tracer.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 3
+  },
+  {
+    "id": "poison-functionality",
+    "name": "Poison Functionality",
+    "nameEs": "Poison Functionality",
+    "descEn": "Allows you to apply poison coatings.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 4
+  },
+  {
+    "id": "para-functionality",
+    "name": "Para Functionality",
+    "nameEs": "Para Functionality",
+    "descEn": "Allows you to apply paralysis coatings.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 5
+  },
+  {
+    "id": "sleep-functionality",
+    "name": "Sleep Functionality",
+    "nameEs": "Sleep Functionality",
+    "descEn": "Allows you to apply sleep coatings.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 6
+  },
+  {
+    "id": "blast-functionality",
+    "name": "Blast Functionality",
+    "nameEs": "Blast Functionality",
+    "descEn": "Allows you to apply blast coatings.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 7
+  },
+  {
+    "id": "exhaust-functionality",
+    "name": "Exhaust Functionality",
+    "nameEs": "Exhaust Functionality",
+    "descEn": "Allows you to apply exhaust coatings.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 8
+  },
+  {
+    "id": "focus",
+    "name": "Focus",
+    "nameEs": "Focus",
+    "descEn": "Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 9
+  },
+  {
+    "id": "power-prolonger",
+    "name": "Power Prolonger",
+    "nameEs": "Power Prolonger",
+    "descEn": "Allows long swords, dual blades, insect glaives, switch axes, and charge blades to stay powered up longer.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 10
+  },
+  {
+    "id": "punishing-draw",
+    "name": "Punishing Draw",
+    "nameEs": "Punishing Draw",
+    "descEn": "Adds a stun effect to draw attacks and slightly increases attack power. (Not effective while riding.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 11
+  },
+  {
+    "id": "slugger",
+    "name": "Slugger",
+    "nameEs": "Slugger",
+    "descEn": "Makes it easier to stun monsters.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 12
+  },
+  {
+    "id": "stamina-thief",
+    "name": "Stamina Thief",
+    "nameEs": "Stamina Thief",
+    "descEn": "Increases certain attacks' ability to exhaust monsters.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 13
+  },
+  {
+    "id": "artillery",
+    "name": "Artillery",
+    "nameEs": "Artillery",
+    "descEn": "Strengthens explosive attacks like shells, Wyvern's Fire, charge blade phial attacks, and Sticky Ammo.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 14
+  },
+  {
+    "id": "rapid-morph",
+    "name": "Rapid Morph",
+    "nameEs": "Rapid Morph",
+    "descEn": "Increases switch speed and power for switch axes and charge blades.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 15
+  },
+  {
+    "id": "horn-maestro",
+    "name": "Horn Maestro",
+    "nameEs": "Horn Maestro",
+    "descEn": "Increases the effect duration of hunting horn melodies. (Effect lost when you change weapons.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 16
+  },
+  {
+    "id": "charge-up",
+    "name": "Charge Up",
+    "nameEs": "Charge Up",
+    "descEn": "Increases the damage and stun power of charged hammer attacks.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 17
+  },
+  {
+    "id": "airborne",
+    "name": "Airborne",
+    "nameEs": "Airborne",
+    "descEn": "Increases the damage caused by jumping attacks.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 18
+  },
+  {
+    "id": "poison-duration-up",
+    "name": "Poison Duration Up",
+    "nameEs": "Poison Duration Up",
+    "descEn": "Extends the duration of your poison's effect on monsters.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 19
+  },
+  {
+    "id": "guard",
+    "name": "Guard",
+    "nameEs": "Guard",
+    "descEn": "Reduces knockbacks and stamina depletion when guarding.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 0
+  },
+  {
+    "id": "guard-up",
+    "name": "Guard Up",
+    "nameEs": "Guard Up",
+    "descEn": "Reduces damage taken when guarding and allows you to guard against ordinarily unblockable attacks.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 1
+  },
+  {
+    "id": "load-shells",
+    "name": "Load Shells",
+    "nameEs": "Load Shells",
+    "descEn": "Improves reloading, and increases the gunlance's shell capacity and charge blade's phial capacity.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 2
+  },
+  {
+    "id": "speed-sharpening",
+    "name": "Speed Sharpening",
+    "nameEs": "Speed Sharpening",
+    "descEn": "Speeds up weapon sharpening when using a whetstone.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 3
+  },
+  {
+    "id": "slicked-blade",
+    "name": "Slicked Blade",
+    "nameEs": "Slicked Blade",
+    "descEn": "Temporarily increases affinity when wet or when inflicted with bubbleblight. (Wet and bubbleblight effects stack.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 4
+  },
+  {
+    "id": "whiteflame-torrent",
+    "name": "Whiteflame Torrent",
+    "nameEs": "Whiteflame Torrent",
+    "descEn": "Chance to deal additional damage after landing an attack.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 5
+  },
+  {
+    "id": "convert-thunder-resistance",
+    "name": "Convert Thunder Resistance",
+    "nameEs": "Convert Thunder Resistance",
+    "descEn": "Increase to your weapon's elemental attack proportional to your thunder resistance.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 6
+  },
+  {
+    "id": "bladescale-honing",
+    "name": "Bladescale Honing",
+    "nameEs": "Bladescale Honing",
+    "descEn": "Narrowly evading a monster's attack while your weapon is drawn grants special sharpness.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 7
+  },
+  {
+    "id": "bladescale-loading",
+    "name": "Bladescale Loading",
+    "nameEs": "Bladescale Loading",
+    "descEn": "Narrowly evading a monster's attack while your weapon is drawn grants special loaded ammo or applied coatings.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 8
+  },
+  {
+    "id": "power-stone",
+    "name": "Power Stone",
+    "nameEs": "Power Stone",
+    "descEn": "Temporarily increases attack upon mining materials.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 9
+  },
+  {
+    "id": "crackling-cornpopper",
+    "name": "Crackling Cornpopper",
+    "nameEs": "Crackling Cornpopper",
+    "descEn": "Increases shelling power and fire attack while the Wyvern's Fire Gauge is blinking red.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 10
+  },
+  {
+    "id": "grillmaster",
+    "name": "Grillmaster",
+    "nameEs": "Grillmaster",
+    "descEn": "Grill meat to sharpen your weapon and temporarily increase your attack. (Duration and effect vary based on results.)",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 11
+  },
+  {
+    "id": "evading-reload",
+    "name": "Evading Reload",
+    "nameEs": "Evading Reload",
+    "descEn": "Evading loads the currently selected ammo automatically.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 12
+  },
+  {
+    "id": "darkside",
+    "name": "Darkside",
+    "nameEs": "Darkside",
+    "descEn": "Performing certain Lvl 2 or higher charged slashes deals self-damage. Attack is also temporarily boosted.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 13
+  },
+  {
+    "id": "synthetic-shield",
+    "name": "Synthetic Shield",
+    "nameEs": "Synthetic Shield",
+    "descEn": "Temporarily increases your defense and the defense of those around you after a successful Perfect Guard.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 14
+  },
+  {
+    "id": "synergy",
+    "name": "Synergy",
+    "nameEs": "Synergy",
+    "descEn": "Temporarily increases your affinity and the affinity of those around you after using a Rising Spiral Slash.",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 15
+  },
+  {
+    "id": "catburglar",
+    "name": "",
+    "nameEs": "",
+    "descEn": "",
+    "descEs": "",
+    "levels": [],
+    "colorIndex": 16
+  }
+]

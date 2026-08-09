@@ -1,0 +1,1667 @@
+[
+  {
+    "id": "marathon-charm-i",
+    "name": "Marathon Charm I",
+    "nameEs": "Marathon Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "marathon-charm-ii",
+    "name": "Marathon Charm II",
+    "nameEs": "Marathon Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "marathon-charm-iii",
+    "name": "Marathon Charm III",
+    "nameEs": "Marathon Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fitness-charm-i",
+    "name": "Fitness Charm I",
+    "nameEs": "Fitness Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fitness-charm-ii",
+    "name": "Fitness Charm II",
+    "nameEs": "Fitness Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fitness-charm-iii",
+    "name": "Fitness Charm III",
+    "nameEs": "Fitness Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fitness-charm-iv",
+    "name": "Fitness Charm IV",
+    "nameEs": "Fitness Charm IV",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fitness-charm-v",
+    "name": "Fitness Charm V",
+    "nameEs": "Fitness Charm V",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sheathe-charm-i",
+    "name": "Sheathe Charm I",
+    "nameEs": "Sheathe Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sheathe-charm-ii",
+    "name": "Sheathe Charm II",
+    "nameEs": "Sheathe Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sheathe-charm-iii",
+    "name": "Sheathe Charm III",
+    "nameEs": "Sheathe Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "challenger-charm-i",
+    "name": "Challenger Charm I",
+    "nameEs": "Challenger Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "challenger-charm-ii",
+    "name": "Challenger Charm II",
+    "nameEs": "Challenger Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "challenger-charm-iii",
+    "name": "Challenger Charm III",
+    "nameEs": "Challenger Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "unscathed-charm-i",
+    "name": "Unscathed Charm I",
+    "nameEs": "Unscathed Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "unscathed-charm-ii",
+    "name": "Unscathed Charm II",
+    "nameEs": "Unscathed Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "unscathed-charm-iii",
+    "name": "Unscathed Charm III",
+    "nameEs": "Unscathed Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fury-charm-i",
+    "name": "Fury Charm I",
+    "nameEs": "Fury Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fury-charm-ii",
+    "name": "Fury Charm II",
+    "nameEs": "Fury Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fury-charm-iii",
+    "name": "Fury Charm III",
+    "nameEs": "Fury Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "exploiter-charm-i",
+    "name": "Exploiter Charm I",
+    "nameEs": "Exploiter Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "exploiter-charm-ii",
+    "name": "Exploiter Charm II",
+    "nameEs": "Exploiter Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "power-charm-i",
+    "name": "Power Charm I",
+    "nameEs": "Power Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "power-charm-ii",
+    "name": "Power Charm II",
+    "nameEs": "Power Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "power-charm-iii",
+    "name": "Power Charm III",
+    "nameEs": "Power Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "mighty-charm-i",
+    "name": "Mighty Charm I",
+    "nameEs": "Mighty Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "mighty-charm-ii",
+    "name": "Mighty Charm II",
+    "nameEs": "Mighty Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "mighty-charm-iii",
+    "name": "Mighty Charm III",
+    "nameEs": "Mighty Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "surge-charm-i",
+    "name": "Surge Charm I",
+    "nameEs": "Surge Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "surge-charm-ii",
+    "name": "Surge Charm II",
+    "nameEs": "Surge Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "surge-charm-iii",
+    "name": "Surge Charm III",
+    "nameEs": "Surge Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "defense-charm-i",
+    "name": "Defense Charm I",
+    "nameEs": "Defense Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "defense-charm-ii",
+    "name": "Defense Charm II",
+    "nameEs": "Defense Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "defense-charm-iii",
+    "name": "Defense Charm III",
+    "nameEs": "Defense Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "defense-charm-iv",
+    "name": "Defense Charm IV",
+    "nameEs": "Defense Charm IV",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "defense-charm-v",
+    "name": "Defense Charm V",
+    "nameEs": "Defense Charm V",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blessing-charm-i",
+    "name": "Blessing Charm I",
+    "nameEs": "Blessing Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blessing-charm-ii",
+    "name": "Blessing Charm II",
+    "nameEs": "Blessing Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blessing-charm-iii",
+    "name": "Blessing Charm III",
+    "nameEs": "Blessing Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "recovery-charm-i",
+    "name": "Recovery Charm I",
+    "nameEs": "Recovery Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "recovery-charm-ii",
+    "name": "Recovery Charm II",
+    "nameEs": "Recovery Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "recovery-charm-iii",
+    "name": "Recovery Charm III",
+    "nameEs": "Recovery Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "speed-heal-charm-i",
+    "name": "Speed Heal Charm I",
+    "nameEs": "Speed Heal Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "speed-heal-charm-ii",
+    "name": "Speed Heal Charm II",
+    "nameEs": "Speed Heal Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "speed-heal-charm-iii",
+    "name": "Speed Heal Charm III",
+    "nameEs": "Speed Heal Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "gluttons-charm-i",
+    "name": "Glutton's Charm I",
+    "nameEs": "Glutton's Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "gluttons-charm-ii",
+    "name": "Glutton's Charm II",
+    "nameEs": "Glutton's Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "gluttons-charm-iii",
+    "name": "Glutton's Charm III",
+    "nameEs": "Glutton's Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "earplugs-charm-i",
+    "name": "Earplugs Charm I",
+    "nameEs": "Earplugs Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "earplugs-charm-ii",
+    "name": "Earplugs Charm II",
+    "nameEs": "Earplugs Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "windproof-charm-i",
+    "name": "Windproof Charm I",
+    "nameEs": "Windproof Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "windproof-charm-ii",
+    "name": "Windproof Charm II",
+    "nameEs": "Windproof Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "windproof-charm-iii",
+    "name": "Windproof Charm III",
+    "nameEs": "Windproof Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "tremor-charm-i",
+    "name": "Tremor Charm I",
+    "nameEs": "Tremor Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "tremor-charm-ii",
+    "name": "Tremor Charm II",
+    "nameEs": "Tremor Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "tremor-charm-iii",
+    "name": "Tremor Charm III",
+    "nameEs": "Tremor Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "evasion-charm-i",
+    "name": "Evasion Charm I",
+    "nameEs": "Evasion Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "evasion-charm-ii",
+    "name": "Evasion Charm II",
+    "nameEs": "Evasion Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "evasion-charm-iii",
+    "name": "Evasion Charm III",
+    "nameEs": "Evasion Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "evasion-charm-iv",
+    "name": "Evasion Charm IV",
+    "nameEs": "Evasion Charm IV",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "leaping-charm-i",
+    "name": "Leaping Charm I",
+    "nameEs": "Leaping Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "leaping-charm-ii",
+    "name": "Leaping Charm II",
+    "nameEs": "Leaping Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "leaping-charm-iii",
+    "name": "Leaping Charm III",
+    "nameEs": "Leaping Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fire-charm-i",
+    "name": "Fire Charm I",
+    "nameEs": "Fire Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fire-charm-ii",
+    "name": "Fire Charm II",
+    "nameEs": "Fire Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fire-charm-iii",
+    "name": "Fire Charm III",
+    "nameEs": "Fire Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "water-charm-i",
+    "name": "Water Charm I",
+    "nameEs": "Water Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "water-charm-ii",
+    "name": "Water Charm II",
+    "nameEs": "Water Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "water-charm-iii",
+    "name": "Water Charm III",
+    "nameEs": "Water Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "thunder-charm-i",
+    "name": "Thunder Charm I",
+    "nameEs": "Thunder Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "thunder-charm-ii",
+    "name": "Thunder Charm II",
+    "nameEs": "Thunder Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "thunder-charm-iii",
+    "name": "Thunder Charm III",
+    "nameEs": "Thunder Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "ice-charm-i",
+    "name": "Ice Charm I",
+    "nameEs": "Ice Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "ice-charm-ii",
+    "name": "Ice Charm II",
+    "nameEs": "Ice Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "ice-charm-iii",
+    "name": "Ice Charm III",
+    "nameEs": "Ice Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "dragon-charm-i",
+    "name": "Dragon Charm I",
+    "nameEs": "Dragon Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "dragon-charm-ii",
+    "name": "Dragon Charm II",
+    "nameEs": "Dragon Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "dragon-charm-iii",
+    "name": "Dragon Charm III",
+    "nameEs": "Dragon Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blight-charm-i",
+    "name": "Blight Charm I",
+    "nameEs": "Blight Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blight-charm-ii",
+    "name": "Blight Charm II",
+    "nameEs": "Blight Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blight-charm-iii",
+    "name": "Blight Charm III",
+    "nameEs": "Blight Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "poison-charm-i",
+    "name": "Poison Charm I",
+    "nameEs": "Poison Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "poison-charm-ii",
+    "name": "Poison Charm II",
+    "nameEs": "Poison Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "poison-charm-iii",
+    "name": "Poison Charm III",
+    "nameEs": "Poison Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "paralysis-charm-i",
+    "name": "Paralysis Charm I",
+    "nameEs": "Paralysis Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "paralysis-charm-ii",
+    "name": "Paralysis Charm II",
+    "nameEs": "Paralysis Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "paralysis-charm-iii",
+    "name": "Paralysis Charm III",
+    "nameEs": "Paralysis Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sleep-charm-i",
+    "name": "Sleep Charm I",
+    "nameEs": "Sleep Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sleep-charm-ii",
+    "name": "Sleep Charm II",
+    "nameEs": "Sleep Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sleep-charm-iii",
+    "name": "Sleep Charm III",
+    "nameEs": "Sleep Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "stun-charm-i",
+    "name": "Stun Charm I",
+    "nameEs": "Stun Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "stun-charm-ii",
+    "name": "Stun Charm II",
+    "nameEs": "Stun Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "stun-charm-iii",
+    "name": "Stun Charm III",
+    "nameEs": "Stun Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blast-charm-i",
+    "name": "Blast Charm I",
+    "nameEs": "Blast Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blast-charm-ii",
+    "name": "Blast Charm II",
+    "nameEs": "Blast Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blast-charm-iii",
+    "name": "Blast Charm III",
+    "nameEs": "Blast Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "botany-charm-i",
+    "name": "Botany Charm I",
+    "nameEs": "Botany Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "botany-charm-ii",
+    "name": "Botany Charm II",
+    "nameEs": "Botany Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "botany-charm-iii",
+    "name": "Botany Charm III",
+    "nameEs": "Botany Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "botany-charm-iv",
+    "name": "Botany Charm IV",
+    "nameEs": "Botany Charm IV",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "geology-charm-i",
+    "name": "Geology Charm I",
+    "nameEs": "Geology Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "geology-charm-ii",
+    "name": "Geology Charm II",
+    "nameEs": "Geology Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "geology-charm-iii",
+    "name": "Geology Charm III",
+    "nameEs": "Geology Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "breaker-charm-i",
+    "name": "Breaker Charm I",
+    "nameEs": "Breaker Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "breaker-charm-ii",
+    "name": "Breaker Charm II",
+    "nameEs": "Breaker Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "breaker-charm-iii",
+    "name": "Breaker Charm III",
+    "nameEs": "Breaker Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "bombardier-charm-i",
+    "name": "Bombardier Charm I",
+    "nameEs": "Bombardier Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "bombardier-charm-ii",
+    "name": "Bombardier Charm II",
+    "nameEs": "Bombardier Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "bombardier-charm-iii",
+    "name": "Bombardier Charm III",
+    "nameEs": "Bombardier Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "mushroom-charm-i",
+    "name": "Mushroom Charm I",
+    "nameEs": "Mushroom Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "mushroom-charm-ii",
+    "name": "Mushroom Charm II",
+    "nameEs": "Mushroom Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "mushroom-charm-iii",
+    "name": "Mushroom Charm III",
+    "nameEs": "Mushroom Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "extension-charm-i",
+    "name": "Extension Charm I",
+    "nameEs": "Extension Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "extension-charm-ii",
+    "name": "Extension Charm II",
+    "nameEs": "Extension Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "extension-charm-iii",
+    "name": "Extension Charm III",
+    "nameEs": "Extension Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "friendship-charm-i",
+    "name": "Friendship Charm I",
+    "nameEs": "Friendship Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "friendship-charm-ii",
+    "name": "Friendship Charm II",
+    "nameEs": "Friendship Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "friendship-charm-iii",
+    "name": "Friendship Charm III",
+    "nameEs": "Friendship Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "friendship-charm-iv",
+    "name": "Friendship Charm IV",
+    "nameEs": "Friendship Charm IV",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "friendship-charm-v",
+    "name": "Friendship Charm V",
+    "nameEs": "Friendship Charm V",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "light-eaters-charm-i",
+    "name": "Light Eater's Charm I",
+    "nameEs": "Light Eater's Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "light-eaters-charm-ii",
+    "name": "Light Eater's Charm II",
+    "nameEs": "Light Eater's Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "light-eaters-charm-iii",
+    "name": "Light Eater's Charm III",
+    "nameEs": "Light Eater's Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "grit-charm-i",
+    "name": "Grit Charm I",
+    "nameEs": "Grit Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "grit-charm-ii",
+    "name": "Grit Charm II",
+    "nameEs": "Grit Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "grit-charm-iii",
+    "name": "Grit Charm III",
+    "nameEs": "Grit Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "grit-charm-iv",
+    "name": "Grit Charm IV",
+    "nameEs": "Grit Charm IV",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "impact-charm-i",
+    "name": "Impact Charm I",
+    "nameEs": "Impact Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "impact-charm-ii",
+    "name": "Impact Charm II",
+    "nameEs": "Impact Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "impact-charm-iii",
+    "name": "Impact Charm III",
+    "nameEs": "Impact Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "hungerless-charm-i",
+    "name": "Hungerless Charm I",
+    "nameEs": "Hungerless Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "hungerless-charm-ii",
+    "name": "Hungerless Charm II",
+    "nameEs": "Hungerless Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "hungerless-charm-iii",
+    "name": "Hungerless Charm III",
+    "nameEs": "Hungerless Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "counter-charm-i",
+    "name": "Counter Charm I",
+    "nameEs": "Counter Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "counter-charm-ii",
+    "name": "Counter Charm II",
+    "nameEs": "Counter Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "counter-charm-iii",
+    "name": "Counter Charm III",
+    "nameEs": "Counter Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "foray-charm-i",
+    "name": "Foray Charm I",
+    "nameEs": "Foray Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "foray-charm-ii",
+    "name": "Foray Charm II",
+    "nameEs": "Foray Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "foray-charm-iii",
+    "name": "Foray Charm III",
+    "nameEs": "Foray Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "phoenix-charm-i",
+    "name": "Phoenix Charm I",
+    "nameEs": "Phoenix Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "phoenix-charm-ii",
+    "name": "Phoenix Charm II",
+    "nameEs": "Phoenix Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "phoenix-charm-iii",
+    "name": "Phoenix Charm III",
+    "nameEs": "Phoenix Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "chain-charm-i",
+    "name": "Chain Charm I",
+    "nameEs": "Chain Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "chain-charm-ii",
+    "name": "Chain Charm II",
+    "nameEs": "Chain Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "chain-charm-iii",
+    "name": "Chain Charm III",
+    "nameEs": "Chain Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "counterattack-charm-i",
+    "name": "Counterattack Charm I",
+    "nameEs": "Counterattack Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "counterattack-charm-ii",
+    "name": "Counterattack Charm II",
+    "nameEs": "Counterattack Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "counterattack-charm-iii",
+    "name": "Counterattack Charm III",
+    "nameEs": "Counterattack Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "descent-charm-i",
+    "name": "Descent Charm I",
+    "nameEs": "Descent Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "descent-charm-ii",
+    "name": "Descent Charm II",
+    "nameEs": "Descent Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "descent-charm-iii",
+    "name": "Descent Charm III",
+    "nameEs": "Descent Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "bleed-charm-i",
+    "name": "Bleed Charm I",
+    "nameEs": "Bleed Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "bleed-charm-ii",
+    "name": "Bleed Charm II",
+    "nameEs": "Bleed Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "bleed-charm-iii",
+    "name": "Bleed Charm III",
+    "nameEs": "Bleed Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "guard-charm-i",
+    "name": "Guard Charm I",
+    "nameEs": "Guard Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "guard-charm-ii",
+    "name": "Guard Charm II",
+    "nameEs": "Guard Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "guard-charm-iii",
+    "name": "Guard Charm III",
+    "nameEs": "Guard Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "survival-charm-i",
+    "name": "Survival Charm I",
+    "nameEs": "Survival Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "survival-charm-ii",
+    "name": "Survival Charm II",
+    "nameEs": "Survival Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "survival-charm-iii",
+    "name": "Survival Charm III",
+    "nameEs": "Survival Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "maintenance-charm-i",
+    "name": "Maintenance Charm I",
+    "nameEs": "Maintenance Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "maintenance-charm-ii",
+    "name": "Maintenance Charm II",
+    "nameEs": "Maintenance Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "maintenance-charm-iii",
+    "name": "Maintenance Charm III",
+    "nameEs": "Maintenance Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "intimidator-charm-i",
+    "name": "Intimidator Charm I",
+    "nameEs": "Intimidator Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "intimidator-charm-ii",
+    "name": "Intimidator Charm II",
+    "nameEs": "Intimidator Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "intimidator-charm-iii",
+    "name": "Intimidator Charm III",
+    "nameEs": "Intimidator Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "escape-charm-i",
+    "name": "Escape Charm I",
+    "nameEs": "Escape Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "escape-charm-ii",
+    "name": "Escape Charm II",
+    "nameEs": "Escape Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "escape-charm-iii",
+    "name": "Escape Charm III",
+    "nameEs": "Escape Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "chainblade-charm-i",
+    "name": "Chainblade Charm I",
+    "nameEs": "Chainblade Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "chainblade-charm-ii",
+    "name": "Chainblade Charm II",
+    "nameEs": "Chainblade Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "imbibe-charm-i",
+    "name": "Imbibe Charm I",
+    "nameEs": "Imbibe Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "imbibe-charm-ii",
+    "name": "Imbibe Charm II",
+    "nameEs": "Imbibe Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "convert-charm-i",
+    "name": "Convert Charm I",
+    "nameEs": "Convert Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "convert-charm-ii",
+    "name": "Convert Charm II",
+    "nameEs": "Convert Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sanity-charm-i",
+    "name": "Sanity Charm I",
+    "nameEs": "Sanity Charm I",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sanity-charm-ii",
+    "name": "Sanity Charm II",
+    "nameEs": "Sanity Charm II",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sanity-charm-iii",
+    "name": "Sanity Charm III",
+    "nameEs": "Sanity Charm III",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "hope-charm",
+    "name": "Hope Charm",
+    "nameEs": "Hope Charm",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "maintenance-charm-iv",
+    "name": "Maintenance Charm IV",
+    "nameEs": "Maintenance Charm IV",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "rice-ball-charm",
+    "name": "Rice Ball Charm",
+    "nameEs": "Rice Ball Charm",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "unknown-charm",
+    "name": "Unknown Charm",
+    "nameEs": "Unknown Charm",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "historical-charm",
+    "name": "Historical Charm",
+    "nameEs": "Historical Charm",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "secret-charm",
+    "name": "Secret Charm",
+    "nameEs": "Secret Charm",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "golden-age-charm",
+    "name": "Golden Age Charm",
+    "nameEs": "Golden Age Charm",
+    "rarity": 1,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  }
+]

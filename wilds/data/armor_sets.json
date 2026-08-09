@@ -1,0 +1,5557 @@
+[
+ {
+  "name": "Sororal Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b3/Nadia-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Burst",
+    "level": 5
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Partbreaker",
+    "level": 3
+   },
+   {
+    "name": "Evade Extender",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Burst",
+    "threshold": 5
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 3
+   },
+   {
+    "name": "Partbreaker",
+    "threshold": 3
+   },
+   {
+    "name": "Evade Extender",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Sororal_Alpha_Set"
+ },
+ {
+  "name": "Azure Age Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b0/Azure_age_alpha_armor_set-mhwilds-wiki-guide.png/Azure_age_alpha_armor_set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Latent Power",
+    "level": 5
+   },
+   {
+    "name": "Constitution",
+    "level": 5
+   },
+   {
+    "name": "Adrenaline Rush",
+    "level": 5
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Latent Power",
+    "threshold": 5
+   },
+   {
+    "name": "Constitution",
+    "threshold": 5
+   },
+   {
+    "name": "Adrenaline Rush",
+    "threshold": 5
+   },
+   {
+    "name": "Quick Sheathe",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Azure_Age_Alpha_Set"
+ },
+ {
+  "name": "Gala Suit Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/f/ff/Gala_suit_alpha-set-mhwilds-wiki-guide.png/Gala_suit_alpha-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 5
+   },
+   {
+    "name": "Maximum Might",
+    "level": 3
+   },
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Coalescence",
+    "level": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Peak Performance",
+    "threshold": 5
+   },
+   {
+    "name": "Maximum Might",
+    "threshold": 3
+   },
+   {
+    "name": "Divine Blessing",
+    "threshold": 3
+   },
+   {
+    "name": "Coalescence",
+    "threshold": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Gala_Suit_Alpha_Set"
+ },
+ {
+  "name": "Arkveld Gamma Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/c/c2/Arkveld_gamma_armor-set-mhwilds-wiki-guide.png/Arkveld_gamma_armor-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Arkveld_Gamma_Set"
+ },
+ {
+  "name": "Dahaad Gamma Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/c/cb/Dahaad_armor_gamma_set-mhwilds-wiki-guide.png/Dahaad_armor_gamma_set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Foray",
+    "level": 3
+   },
+   {
+    "name": "Agitator",
+    "level": 5
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 3
+   },
+   {
+    "name": "Coalescence",
+    "level": 3
+   },
+   {
+    "name": "Bind Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Foray",
+    "threshold": 3
+   },
+   {
+    "name": "Agitator",
+    "threshold": 5
+   },
+   {
+    "name": "Weakness Exploit",
+    "threshold": 3
+   },
+   {
+    "name": "Coalescence",
+    "threshold": 3
+   },
+   {
+    "name": "Bind Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Dahaad_Gamma_Set"
+ },
+ {
+  "name": "Gogmazios Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/34/Gogmazios_armor_set-mhwilds-wiki-guide.png/Gogmazios_armor_set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 5
+   },
+   {
+    "name": "Adrenaline Rush",
+    "level": 2
+   },
+   {
+    "name": "Agitator",
+    "level": 2
+   },
+   {
+    "name": "Maximum Might",
+    "level": 2
+   },
+   {
+    "name": "Elemental Absorption",
+    "level": 2
+   },
+   {
+    "name": "Speed Eating",
+    "level": 2
+   },
+   {
+    "name": "Oilsilt Mobility",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Peak Performance",
+    "threshold": 5
+   },
+   {
+    "name": "Adrenaline Rush",
+    "threshold": 2
+   },
+   {
+    "name": "Agitator",
+    "threshold": 2
+   },
+   {
+    "name": "Maximum Might",
+    "threshold": 2
+   },
+   {
+    "name": "Elemental Absorption",
+    "threshold": 2
+   },
+   {
+    "name": "Speed Eating",
+    "threshold": 2
+   },
+   {
+    "name": "Oilsilt Mobility",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Gogmazios_Alpha_Set"
+ },
+ {
+  "name": "Gogmazios Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/6/63/Gogmazios_beta_set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 5
+   },
+   {
+    "name": "Agitator",
+    "level": 2
+   },
+   {
+    "name": "Adrenaline Rush",
+    "level": 2
+   },
+   {
+    "name": "Speed Eating",
+    "level": 2
+   },
+   {
+    "name": "Elemental Absorption",
+    "level": 2
+   },
+   {
+    "name": "Maximum Might",
+    "level": 2
+   },
+   {
+    "name": "Oilsilt Mobility",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Peak Performance",
+    "threshold": 5
+   },
+   {
+    "name": "Agitator",
+    "threshold": 2
+   },
+   {
+    "name": "Adrenaline Rush",
+    "threshold": 2
+   },
+   {
+    "name": "Speed Eating",
+    "threshold": 2
+   },
+   {
+    "name": "Elemental Absorption",
+    "threshold": 2
+   },
+   {
+    "name": "Maximum Might",
+    "threshold": 2
+   },
+   {
+    "name": "Oilsilt Mobility",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Gogmazios_Beta_Set"
+ },
+ {
+  "name": "Harvest Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b3/Harvest-alpha-armor-set-mhwilds-wiki-guide.png",
+  "weakestElement": "None",
+  "equipmentSkills": [
+   {
+    "name": "Botanist",
+    "level": 4
+   },
+   {
+    "name": "Mushroomancer",
+    "level": 3
+   },
+   {
+    "name": "Free Meal",
+    "level": 3
+   },
+   {
+    "name": "Resentment",
+    "level": 2
+   }
+  ],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Harvest_Alpha_Set"
+ },
+ {
+  "name": "Dreamwalker Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/0/06/Dreamwalker-alpha-armor-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Festival Spirit",
+    "level": 5
+   },
+   {
+    "name": "Flayer",
+    "level": 5
+   },
+   {
+    "name": "Wide-Range",
+    "level": 5
+   },
+   {
+    "name": "Ambush",
+    "level": 3
+   },
+   {
+    "name": "Sleep Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Festival Spirit",
+    "threshold": 5
+   },
+   {
+    "name": "Flayer",
+    "threshold": 5
+   },
+   {
+    "name": "Wide-Range",
+    "threshold": 5
+   },
+   {
+    "name": "Ambush",
+    "threshold": 3
+   },
+   {
+    "name": "Sleep Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Dreamwalker_Alpha_Set"
+ },
+ {
+  "name": "Gelidron Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/a/a2/Gelidron_alpha_armor-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Gelidron_Alpha_Set"
+ },
+ {
+  "name": "Bale Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b1/Tu3-bale-armor-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Bale_Alpha_Set"
+ },
+ {
+  "name": "Nu Udra Gamma Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/4/4b/Tu3_nu_udra_gamma_armor-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Burst",
+    "level": 5
+   },
+   {
+    "name": "Counterstrike",
+    "level": 3
+   },
+   {
+    "name": "Resentment",
+    "level": 5
+   },
+   {
+    "name": "Ambush",
+    "level": 1
+   },
+   {
+    "name": "Speed Eating",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Burst",
+    "threshold": 5
+   },
+   {
+    "name": "Counterstrike",
+    "threshold": 3
+   },
+   {
+    "name": "Resentment",
+    "threshold": 5
+   },
+   {
+    "name": "Ambush",
+    "threshold": 1
+   },
+   {
+    "name": "Speed Eating",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Nu_Udra_Gamma_Set"
+ },
+ {
+  "name": "Akuma Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/34/Akuma_alpha-armor-set-mhwilds-wiki-guide.png/Akuma_alpha-armor-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Akuma_Alpha_Set"
+ },
+ {
+  "name": "Omega Attire Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/51/Tu3-omega-armor-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 1
+   },
+   {
+    "name": "Partbreaker",
+    "level": 2
+   },
+   {
+    "name": "Agitator",
+    "level": 1
+   },
+   {
+    "name": "Burst",
+    "level": 1
+   },
+   {
+    "name": "Evade Window",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Divine Blessing",
+    "threshold": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "threshold": 1
+   },
+   {
+    "name": "Partbreaker",
+    "threshold": 2
+   },
+   {
+    "name": "Agitator",
+    "threshold": 1
+   },
+   {
+    "name": "Burst",
+    "threshold": 1
+   },
+   {
+    "name": "Evade Window",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Omega_Attire_Alpha_Set"
+ },
+ {
+  "name": "Diver Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b1/Diver-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png/Diver-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Diver_Alpha_Set"
+ },
+ {
+  "name": "Afi Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/7/76/Afi-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png/Afi-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Afi_Alpha_Set"
+ },
+ {
+  "name": "Lagiacrus Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/2/28/Lagiacrus-armor-set-mhwilds-wiki-guide.png/Lagiacrus-armor-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 5
+   },
+   {
+    "name": "Maximum Might",
+    "level": 3
+   },
+   {
+    "name": "Thunder Resistance",
+    "level": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Latent Power",
+    "level": 2
+   },
+   {
+    "name": "Oilsilt Mobility",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Weakness Exploit",
+    "threshold": 5
+   },
+   {
+    "name": "Maximum Might",
+    "threshold": 3
+   },
+   {
+    "name": "Thunder Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 3
+   },
+   {
+    "name": "Latent Power",
+    "threshold": 2
+   },
+   {
+    "name": "Oilsilt Mobility",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Lagiacrus_Alpha_Set"
+ },
+ {
+  "name": "Lagiacrus Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/2/28/Lagiacrus-armor-set-mhwilds-wiki-guide.png/Lagiacrus-armor-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 5
+   },
+   {
+    "name": "Maximum Might",
+    "level": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Latent Power",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Weakness Exploit",
+    "threshold": 5
+   },
+   {
+    "name": "Maximum Might",
+    "threshold": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 3
+   },
+   {
+    "name": "Latent Power",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Lagiacrus_Beta_Set"
+ },
+ {
+  "name": "Seregios Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/1/1f/Seregios-armor-set-mhwilds-wiki-guide.png/Seregios-armor-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Adrenaline Rush",
+    "level": 5
+   },
+   {
+    "name": "Evade Window",
+    "level": 4
+   },
+   {
+    "name": "Agitator",
+    "level": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "level": 3
+   },
+   {
+    "name": "Counterstrike",
+    "level": 2
+   },
+   {
+    "name": "Evade Extender",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Adrenaline Rush",
+    "threshold": 5
+   },
+   {
+    "name": "Evade Window",
+    "threshold": 4
+   },
+   {
+    "name": "Agitator",
+    "threshold": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Counterstrike",
+    "threshold": 2
+   },
+   {
+    "name": "Evade Extender",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Seregios_Alpha_Set"
+ },
+ {
+  "name": "Seregios Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/1/1f/Seregios-armor-set-mhwilds-wiki-guide.png/Seregios-armor-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Adrenaline Rush",
+    "level": 5
+   },
+   {
+    "name": "Agitator",
+    "level": 3
+   },
+   {
+    "name": "Evade Window",
+    "level": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Adrenaline Rush",
+    "threshold": 5
+   },
+   {
+    "name": "Agitator",
+    "threshold": 3
+   },
+   {
+    "name": "Evade Window",
+    "threshold": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Seregios_Beta_Set"
+ },
+ {
+  "name": "Blossom Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/3b/Blossom-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png/Blossom-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Paralysis Resistance",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Paralysis Resistance",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Blossom_Alpha_Set"
+ },
+ {
+  "name": "Ceremonial Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/6/63/Ceremonial_alpha_set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Ceremonial_Alpha_Set"
+ },
+ {
+  "name": "Ajarakan Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/d/d2/Ajarakana-set-mhwilds-wiki-guide.png/Ajarakana-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 5
+   },
+   {
+    "name": "Blast Resistance",
+    "level": 3
+   },
+   {
+    "name": "Partbreaker",
+    "level": 3
+   },
+   {
+    "name": "Bombardier",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Resentment",
+    "threshold": 5
+   },
+   {
+    "name": "Blast Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Partbreaker",
+    "threshold": 3
+   },
+   {
+    "name": "Bombardier",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Ajarakan_Alpha_Set"
+ },
+ {
+  "name": "Ajarakan Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/a/a4/Ajarakan_b-set-mhwilds-wiki-guide.png/Ajarakan_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 3
+   },
+   {
+    "name": "Partbreaker",
+    "level": 3
+   },
+   {
+    "name": "Bombardier",
+    "level": 2
+   },
+   {
+    "name": "Blast Resistance",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Resentment",
+    "threshold": 3
+   },
+   {
+    "name": "Partbreaker",
+    "threshold": 3
+   },
+   {
+    "name": "Bombardier",
+    "threshold": 2
+   },
+   {
+    "name": "Blast Resistance",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Ajarakan_Beta_Set"
+ },
+ {
+  "name": "Alloy Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/f/fc/Alloy_a-set-mhwilds-wiki-guide.png/Alloy_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Quick Sheathe",
+    "level": 3
+   },
+   {
+    "name": "Flinch Free",
+    "level": 3
+   },
+   {
+    "name": "Tremor Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Quick Sheathe",
+    "threshold": 3
+   },
+   {
+    "name": "Flinch Free",
+    "threshold": 3
+   },
+   {
+    "name": "Tremor Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Alloy_Alpha_Set"
+ },
+ {
+  "name": "Arkveld Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/5a/Arkveld_a-set-mhwilds-wiki-guide.png/Arkveld_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 3
+   },
+   {
+    "name": "Convert Element",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 3
+   },
+   {
+    "name": "Elemental Absorption",
+    "level": 3
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Weakness Exploit",
+    "threshold": 3
+   },
+   {
+    "name": "Convert Element",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "threshold": 3
+   },
+   {
+    "name": "Elemental Absorption",
+    "threshold": 3
+   },
+   {
+    "name": "Quick Sheathe",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Arkveld_Alpha_Set"
+ },
+ {
+  "name": "Arkveld Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/c/cd/Arkveld_6-set-mhwilds-wiki-guide.png/Arkveld_6-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 3
+   },
+   {
+    "name": "Convert Element",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 1
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Weakness Exploit",
+    "threshold": 3
+   },
+   {
+    "name": "Convert Element",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "threshold": 1
+   },
+   {
+    "name": "Quick Sheathe",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Arkveld_Beta_Set"
+ },
+ {
+  "name": "Artian Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/6/6f/Artiana-set-mhwilds-wiki-guide.png/Artiana-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Flayer",
+    "level": 5
+   },
+   {
+    "name": "Blight Resistance",
+    "level": 2
+   },
+   {
+    "name": "Windproof",
+    "level": 2
+   },
+   {
+    "name": "Tremor Resistance",
+    "level": 2
+   },
+   {
+    "name": "Earplugs",
+    "level": 1
+   },
+   {
+    "name": "Adaptability",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Flayer",
+    "threshold": 5
+   },
+   {
+    "name": "Blight Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Windproof",
+    "threshold": 2
+   },
+   {
+    "name": "Tremor Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Earplugs",
+    "threshold": 1
+   },
+   {
+    "name": "Adaptability",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Artian_Alpha_Set"
+ },
+ {
+  "name": "Azuz Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/92/Azuz-a-set-mhwilds-wiki-guide.png/Azuz-a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Heroics",
+    "level": 3
+   },
+   {
+    "name": "Geologist",
+    "level": 3
+   },
+   {
+    "name": "Maximum Might",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Heroics",
+    "threshold": 3
+   },
+   {
+    "name": "Geologist",
+    "threshold": 3
+   },
+   {
+    "name": "Maximum Might",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Azuz_Alpha_Set"
+ },
+ {
+  "name": "Balahara Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/5f/Balahara_a-set-mhwilds-wiki-guide.png/Balahara_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Evade Extender",
+    "level": 3
+   },
+   {
+    "name": "Geologist",
+    "level": 3
+   },
+   {
+    "name": "Evade Window",
+    "level": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Evade Extender",
+    "threshold": 3
+   },
+   {
+    "name": "Geologist",
+    "threshold": 3
+   },
+   {
+    "name": "Evade Window",
+    "threshold": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Balahara_Alpha_Set"
+ },
+ {
+  "name": "Balahara Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b0/Balahara_b-set-mhwilds-wiki-guide.png/Balahara_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Evade Window",
+    "level": 2
+   },
+   {
+    "name": "Evade Extender",
+    "level": 2
+   },
+   {
+    "name": "Geologist",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Evade Window",
+    "threshold": 2
+   },
+   {
+    "name": "Evade Extender",
+    "threshold": 2
+   },
+   {
+    "name": "Geologist",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Balahara_Beta_Set"
+ },
+ {
+  "name": "Battle Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/33/Battle_a-set-mhwilds-wiki-guide.png/Battle_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Marathon Runner",
+    "level": 3
+   },
+   {
+    "name": "Hunger Resistance",
+    "level": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 3
+   },
+   {
+    "name": "Free Meal",
+    "level": 3
+   },
+   {
+    "name": "Constitution",
+    "level": 2
+   },
+   {
+    "name": "Sleep Resistance",
+    "level": 2
+   },
+   {
+    "name": "Bind Resistance",
+    "level": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Marathon Runner",
+    "threshold": 3
+   },
+   {
+    "name": "Hunger Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "threshold": 3
+   },
+   {
+    "name": "Free Meal",
+    "threshold": 3
+   },
+   {
+    "name": "Constitution",
+    "threshold": 2
+   },
+   {
+    "name": "Sleep Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Bind Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Battle_Alpha_Set"
+ },
+ {
+  "name": "Blango Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/f/fd/Blango_a-set-mhwilds-wiki-guide.png/Blango_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 5
+   },
+   {
+    "name": "Wide-Range",
+    "level": 3
+   },
+   {
+    "name": "Counterstrike",
+    "level": 3
+   },
+   {
+    "name": "Palico Rally",
+    "level": 2
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Agitator",
+    "threshold": 5
+   },
+   {
+    "name": "Wide-Range",
+    "threshold": 3
+   },
+   {
+    "name": "Counterstrike",
+    "threshold": 3
+   },
+   {
+    "name": "Palico Rally",
+    "threshold": 2
+   },
+   {
+    "name": "Item Prolonger",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Blango_Alpha_Set"
+ },
+ {
+  "name": "Blango Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/56/Blango_b-set-mhwilds-wiki-guide.png/Blango_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 5
+   },
+   {
+    "name": "Wide-Range",
+    "level": 2
+   },
+   {
+    "name": "Counterstrike",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Agitator",
+    "threshold": 5
+   },
+   {
+    "name": "Wide-Range",
+    "threshold": 2
+   },
+   {
+    "name": "Counterstrike",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Blango_Beta_Set"
+ },
+ {
+  "name": "Bone Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/95/Bone_a-set-mhwilds-wiki-guide.png/Bone_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Stun Resistance",
+    "level": 3
+   },
+   {
+    "name": "Marathon Runner",
+    "level": 3
+   },
+   {
+    "name": "Speed Eating",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Stun Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Marathon Runner",
+    "threshold": 3
+   },
+   {
+    "name": "Speed Eating",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Bone_Alpha_Set"
+ },
+ {
+  "name": "Bulaqchi Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/94/Bulaqchi_a-set-1_mhwilds-wiki-guide.png/Bulaqchi_a-set-1_mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 1
+   },
+   {
+    "name": "Entomologist",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Weakness Exploit",
+    "threshold": 1
+   },
+   {
+    "name": "Entomologist",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Bulaqchi_Alpha_Set"
+ },
+ {
+  "name": "Bulaqchi Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/59/Bulaqchi_a-set-2_mhwilds-wiki-guide.png/Bulaqchi_a-set-2_mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Entomologist",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Entomologist",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Bulaqchi_Beta_Set"
+ },
+ {
+  "name": "Butterfly Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/5d/Butterfly_a-set-mhwilds-wiki-guide.png/Butterfly_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Constitution",
+    "level": 5
+   },
+   {
+    "name": "Evade Window",
+    "level": 5
+   },
+   {
+    "name": "Evade Extender",
+    "level": 3
+   },
+   {
+    "name": "Recovery Up",
+    "level": 2
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Constitution",
+    "threshold": 5
+   },
+   {
+    "name": "Evade Window",
+    "threshold": 5
+   },
+   {
+    "name": "Evade Extender",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Up",
+    "threshold": 2
+   },
+   {
+    "name": "Recovery Speed",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Butterfly_Alpha_Set"
+ },
+ {
+  "name": "Chainmail Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/1/12/Chainmail_a-set-mhwilds-wiki-guide.png/Chainmail_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Recovery Speed",
+    "level": 3
+   },
+   {
+    "name": "Geologist",
+    "level": 3
+   },
+   {
+    "name": "Ice Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Recovery Speed",
+    "threshold": 3
+   },
+   {
+    "name": "Geologist",
+    "threshold": 3
+   },
+   {
+    "name": "Ice Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Chainmail_Alpha_Set"
+ },
+ {
+  "name": "Chatacabra Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/d/d6/Chatacabra_a-set-mhwilds-wiki-guide.png/Chatacabra_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Speed Eating",
+    "level": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 2
+   },
+   {
+    "name": "Wide-Range",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Speed Eating",
+    "threshold": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "threshold": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "threshold": 2
+   },
+   {
+    "name": "Wide-Range",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Chatacabra_Alpha_Set"
+ },
+ {
+  "name": "Chatacabra Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/a/ae/Chatacabra_b-set-mhwilds-wiki-guide.png/Chatacabra_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Defense Boost",
+    "level": 4
+   },
+   {
+    "name": "Speed Eating",
+    "level": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 1
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Defense Boost",
+    "threshold": 4
+   },
+   {
+    "name": "Speed Eating",
+    "threshold": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "threshold": 1
+   },
+   {
+    "name": "Item Prolonger",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Chatacabra_Beta_Set"
+ },
+ {
+  "name": "Clerk Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/59/Clerk_alpha_armor_set-mhwilds-wiki-guide.png/Clerk_alpha_armor_set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Recovery Up",
+    "level": 3
+   },
+   {
+    "name": "Palico Rally",
+    "level": 5
+   },
+   {
+    "name": "Survival Expert",
+    "level": 3
+   },
+   {
+    "name": "Tool Specialist",
+    "level": 5
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Divine Blessing",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Up",
+    "threshold": 3
+   },
+   {
+    "name": "Palico Rally",
+    "threshold": 5
+   },
+   {
+    "name": "Survival Expert",
+    "threshold": 3
+   },
+   {
+    "name": "Tool Specialist",
+    "threshold": 5
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Clerk_Alpha_Set"
+ },
+ {
+  "name": "Comaqchi Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/6/69/Comaqchi_a-set_1-mhwilds-wiki-guide.png/Comaqchi_a-set_1-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Sleep Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Sleep Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Comaqchi_Alpha_Set"
+ },
+ {
+  "name": "Comaqchi Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/2/20/Comaqchi_b-set_1-mhwilds-wiki-guide.png/Comaqchi_b-set_1-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Sleep Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Sleep Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Comaqchi_Beta_Set"
+ },
+ {
+  "name": "Commission Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/a/a3/Commision-a1-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Maximum Might",
+    "level": 1
+   },
+   {
+    "name": "Divine Blessing",
+    "level": 2
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 2
+   },
+   {
+    "name": "Tool Specialist",
+    "level": 1
+   },
+   {
+    "name": "Earplugs",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Maximum Might",
+    "threshold": 1
+   },
+   {
+    "name": "Divine Blessing",
+    "threshold": 2
+   },
+   {
+    "name": "Quick Sheathe",
+    "threshold": 2
+   },
+   {
+    "name": "Tool Specialist",
+    "threshold": 1
+   },
+   {
+    "name": "Earplugs",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Commission_Alpha_Set"
+ },
+ {
+  "name": "Conga Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/2/24/Conga_a-set-mhwilds-wiki-guide.png/Conga_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Intimidator",
+    "level": 3
+   },
+   {
+    "name": "Mushroomancer",
+    "level": 3
+   },
+   {
+    "name": "Burst",
+    "level": 2
+   },
+   {
+    "name": "Free Meal",
+    "level": 2
+   },
+   {
+    "name": "Speed Eating",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Intimidator",
+    "threshold": 3
+   },
+   {
+    "name": "Mushroomancer",
+    "threshold": 3
+   },
+   {
+    "name": "Burst",
+    "threshold": 2
+   },
+   {
+    "name": "Free Meal",
+    "threshold": 2
+   },
+   {
+    "name": "Speed Eating",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Conga_Alpha_Set"
+ },
+ {
+  "name": "Conga Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/f/f7/Conga_b-set-mhwilds-wiki-guide.png/Conga_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Intimidator",
+    "level": 3
+   },
+   {
+    "name": "Mushroomancer",
+    "level": 2
+   },
+   {
+    "name": "Burst",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Intimidator",
+    "threshold": 3
+   },
+   {
+    "name": "Mushroomancer",
+    "threshold": 2
+   },
+   {
+    "name": "Burst",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Conga_Beta_Set"
+ },
+ {
+  "name": "Dahaad Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/a/a5/Dahaad_a-set-mhwilds-wiki-guide.png/Dahaad_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 5
+   },
+   {
+    "name": "Tremor Resistance",
+    "level": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 2
+   },
+   {
+    "name": "Bind Resistance",
+    "level": 2
+   },
+   {
+    "name": "Adaptability",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Agitator",
+    "threshold": 5
+   },
+   {
+    "name": "Tremor Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "threshold": 2
+   },
+   {
+    "name": "Bind Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Adaptability",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Dahaad_Alpha_Set"
+ },
+ {
+  "name": "Dahaad Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/0/07/Dahaad_b-set-mhwilds-wiki-guide.png/Dahaad_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 4
+   },
+   {
+    "name": "Adaptability",
+    "level": 2
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 1
+   },
+   {
+    "name": "Bind Resistance",
+    "level": 1
+   },
+   {
+    "name": "Tremor Resistance",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Agitator",
+    "threshold": 4
+   },
+   {
+    "name": "Adaptability",
+    "threshold": 2
+   },
+   {
+    "name": "Weakness Exploit",
+    "threshold": 1
+   },
+   {
+    "name": "Bind Resistance",
+    "threshold": 1
+   },
+   {
+    "name": "Tremor Resistance",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Dahaad_Beta_Set"
+ },
+ {
+  "name": "Damascus Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/e/e4/Damascus_a-set-mhwilds-wiki-guide.png/Damascus_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Wide-Range",
+    "level": 5
+   },
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Wide-Range",
+    "threshold": 5
+   },
+   {
+    "name": "Divine Blessing",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "threshold": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Damascus_Alpha_Set"
+ },
+ {
+  "name": "Death Stench Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/7/74/Death_stench_a-set-mhwilds-wiki-guide.png/Death_stench_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 5
+   },
+   {
+    "name": "Ambush",
+    "level": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 2
+   },
+   {
+    "name": "Intimidator",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "you will need",
+    "threshold": 10
+   },
+   {
+    "name": "Resentment",
+    "threshold": 5
+   },
+   {
+    "name": "Ambush",
+    "threshold": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Intimidator",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Death_Stench_Alpha_Set"
+ },
+ {
+  "name": "Dober Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/58/Dober_a-set-mhwilds-wiki-guide.png/Dober_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Constitution",
+    "level": 5
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Marathon Runner",
+    "level": 3
+   },
+   {
+    "name": "Mushroomancer",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Constitution",
+    "threshold": 5
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 3
+   },
+   {
+    "name": "Marathon Runner",
+    "threshold": 3
+   },
+   {
+    "name": "Mushroomancer",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Dober_Alpha_Set"
+ },
+ {
+  "name": "Doshaguma Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b1/Doshaguma_a-set-mhwilds-wiki-guide.png/Doshaguma_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Latent Power",
+    "level": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 3
+   },
+   {
+    "name": "Free Meal",
+    "level": 3
+   },
+   {
+    "name": "Recovery Up",
+    "level": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Latent Power",
+    "threshold": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Free Meal",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Up",
+    "threshold": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Doshaguma_Alpha_Set"
+ },
+ {
+  "name": "Doshaguma Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/1/1e/Doshaguma_b-set-mhwilds-wiki-guide.png/Doshaguma_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Latent Power",
+    "level": 2
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 2
+   },
+   {
+    "name": "Recovery Up",
+    "level": 1
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Latent Power",
+    "threshold": 2
+   },
+   {
+    "name": "Stun Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Recovery Up",
+    "threshold": 1
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Doshaguma_Beta_Set"
+ },
+ {
+  "name": "Dragonking Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/a/a6/Dragonking-a-set-mhwilds-wiki-guide.png/Dragonking-a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Counterstrike",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Counterstrike",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Dragonking_Alpha_Set"
+ },
+ {
+  "name": "Expedition Headgear Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/a/a8/Placeholder_armor_set-mhwilds-wiki-guide.png/Placeholder_armor_set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Expedition_Headgear_Alpha_Set"
+ },
+ {
+  "name": "Gajau Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/f/fe/Gajau_alpha_set-mhwilds-wiki-guide.png/Gajau_alpha_set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Gajau_Alpha_Set"
+ },
+ {
+  "name": "Gore Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/7/73/Gore_a-set-mhwilds-wiki-guide.png/Gore_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Evade Window",
+    "level": 5
+   },
+   {
+    "name": "Constitution",
+    "level": 4
+   },
+   {
+    "name": "Antivirus",
+    "level": 3
+   },
+   {
+    "name": "Flinch Free",
+    "level": 2
+   },
+   {
+    "name": "Coalescence",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Evade Window",
+    "threshold": 5
+   },
+   {
+    "name": "Constitution",
+    "threshold": 4
+   },
+   {
+    "name": "Antivirus",
+    "threshold": 3
+   },
+   {
+    "name": "Flinch Free",
+    "threshold": 2
+   },
+   {
+    "name": "Coalescence",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Gore_Alpha_Set"
+ },
+ {
+  "name": "Gore Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/4/44/Gore_b-set-mhwilds-wiki-guide.png/Gore_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Evade Window",
+    "level": 4
+   },
+   {
+    "name": "Constitution",
+    "level": 3
+   },
+   {
+    "name": "Coalescence",
+    "level": 1
+   },
+   {
+    "name": "Antivirus",
+    "level": 1
+   },
+   {
+    "name": "Flinch Free",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Evade Window",
+    "threshold": 4
+   },
+   {
+    "name": "Constitution",
+    "threshold": 3
+   },
+   {
+    "name": "Coalescence",
+    "threshold": 1
+   },
+   {
+    "name": "Antivirus",
+    "threshold": 1
+   },
+   {
+    "name": "Flinch Free",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Gore_Beta_Set"
+ },
+ {
+  "name": "Gravios Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/9b/Gravios_a-set-mhwilds-wiki-guide.png/Gravios_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 5
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 3
+   },
+   {
+    "name": "Tremor Resistance",
+    "level": 3
+   },
+   {
+    "name": "Flinch Free",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Peak Performance",
+    "threshold": 5
+   },
+   {
+    "name": "Recovery Speed",
+    "threshold": 3
+   },
+   {
+    "name": "Tremor Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Flinch Free",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Gravios_Alpha_Set"
+ },
+ {
+  "name": "Gravios Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/3a/Gravios_b-set-mhwilds-wiki-guide.png/Gravios_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 5
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 2
+   },
+   {
+    "name": "Tremor Resistance",
+    "level": 1
+   },
+   {
+    "name": "Flinch Free",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Peak Performance",
+    "threshold": 5
+   },
+   {
+    "name": "Recovery Speed",
+    "threshold": 2
+   },
+   {
+    "name": "Tremor Resistance",
+    "threshold": 1
+   },
+   {
+    "name": "Flinch Free",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Gravios_Beta_Set"
+ },
+ {
+  "name": "Guardian Arkveld Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/e/e0/Guardian_arkveld_a-set-mhwilds-wiki-guide.png/Guardian_arkveld_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Flayer",
+    "level": 5
+   },
+   {
+    "name": "Blight Resistance",
+    "level": 3
+   },
+   {
+    "name": "Elemental Absorption",
+    "level": 3
+   },
+   {
+    "name": "Partbreaker",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Flayer",
+    "threshold": 5
+   },
+   {
+    "name": "Blight Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Elemental Absorption",
+    "threshold": 3
+   },
+   {
+    "name": "Partbreaker",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Arkveld_Alpha_Set"
+ },
+ {
+  "name": "Guardian Arkveld Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/4/4c/Guardian_arkveld_b-set-mhwilds-wiki-guide.png/Guardian_arkveld_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Flayer",
+    "level": 4
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 3
+   },
+   {
+    "name": "Blight Resistance",
+    "level": 2
+   },
+   {
+    "name": "Partbreaker",
+    "level": 1
+   },
+   {
+    "name": "Elemental Absorption",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Flayer",
+    "threshold": 4
+   },
+   {
+    "name": "Weakness Exploit",
+    "threshold": 3
+   },
+   {
+    "name": "Blight Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Partbreaker",
+    "threshold": 1
+   },
+   {
+    "name": "Elemental Absorption",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Arkveld_Beta_Set"
+ },
+ {
+  "name": "Guardian Doshaguma Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/9c/Guardian_doshaguma_a-set-mhwilds-wiki-guide.png/Guardian_doshaguma_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Heroics",
+    "level": 5
+   },
+   {
+    "name": "Constitution",
+    "level": 4
+   },
+   {
+    "name": "Iron Skin",
+    "level": 3
+   },
+   {
+    "name": "Hunger Resistance",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Heroics",
+    "threshold": 5
+   },
+   {
+    "name": "Constitution",
+    "threshold": 4
+   },
+   {
+    "name": "Iron Skin",
+    "threshold": 3
+   },
+   {
+    "name": "Hunger Resistance",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Doshaguma_Alpha_Set"
+ },
+ {
+  "name": "Guardian Doshaguma Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/e/e8/Guardian_doshaguma_b-set-mhwilds-wiki-guide.png/Guardian_doshaguma_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Heroics",
+    "level": 5
+   },
+   {
+    "name": "Constitution",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Heroics",
+    "threshold": 5
+   },
+   {
+    "name": "Constitution",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Doshaguma_Beta_Set"
+ },
+ {
+  "name": "Guardian Ebony Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/2/2d/Guardian_ebony_a-set-mhwilds-wiki-guide.png/Guardian_ebony_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Burst",
+    "level": 5
+   },
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "level": 3
+   },
+   {
+    "name": "Earplugs",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Burst",
+    "threshold": 5
+   },
+   {
+    "name": "Divine Blessing",
+    "threshold": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Earplugs",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Ebony_Alpha_Set"
+ },
+ {
+  "name": "Guardian Ebony Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/c/ca/Guardian_ebony_b-set-mhwilds-wiki-guide.png/Guardian_ebony_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Burst",
+    "level": 4
+   },
+   {
+    "name": "Divine BLessing",
+    "level": 2
+   },
+   {
+    "name": "Earplugs",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Burst",
+    "threshold": 4
+   },
+   {
+    "name": "Divine Blessing",
+    "threshold": 2
+   },
+   {
+    "name": "Earplugs",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Ebony_Beta_Set"
+ },
+ {
+  "name": "Guardian Fulgur Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/0/09/Guardian_fulgur_a-set-mhwilds-wiki-guide.png/Guardian_fulgur_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 3
+   },
+   {
+    "name": "Maximum Might",
+    "level": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Coalescence",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Agitator",
+    "threshold": 3
+   },
+   {
+    "name": "Maximum Might",
+    "threshold": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 3
+   },
+   {
+    "name": "Coalescence",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Fulgur_Alpha_Set"
+ },
+ {
+  "name": "Guardian Fulgur Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/1/13/Guardian_fulgur_b-set-mhwilds-wiki-guide.png/Guardian_fulgur_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 2
+   },
+   {
+    "name": "Maximum Might",
+    "level": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 2
+   },
+   {
+    "name": "Coalescence",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Agitator",
+    "threshold": 2
+   },
+   {
+    "name": "Maximum Might",
+    "threshold": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 2
+   },
+   {
+    "name": "Coalescence",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Fulgur_Beta_Set"
+ },
+ {
+  "name": "Guardian Rathalos Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/d/d1/Guardian_rathalos_a-set-mhwilds-wiki-guide.png/Guardian_rathalos_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 5
+   },
+   {
+    "name": "Survival Expert",
+    "level": 3
+   },
+   {
+    "name": "Windproof",
+    "level": 3
+   },
+   {
+    "name": "Intimidator",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Weakness Exploit",
+    "threshold": 5
+   },
+   {
+    "name": "Survival Expert",
+    "threshold": 3
+   },
+   {
+    "name": "Windproof",
+    "threshold": 3
+   },
+   {
+    "name": "Intimidator",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Rathalos_Alpha_Set"
+ },
+ {
+  "name": "Guardian Rathalos Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/4/49/Guardian_rathalos_b-set-mhwilds-wiki-guide.png/Guardian_rathalos_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 4
+   },
+   {
+    "name": "Windproof",
+    "level": 2
+   },
+   {
+    "name": "Intimidator",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Weakness Exploit",
+    "threshold": 4
+   },
+   {
+    "name": "Windproof",
+    "threshold": 2
+   },
+   {
+    "name": "Intimidator",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Rathalos_Beta_Set"
+ },
+ {
+  "name": "Guardian Seikret Alpha Set",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Seikret_Alpha_Set"
+ },
+ {
+  "name": "Guardian Seikret Beta Set",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Seikret_Beta_Set"
+ },
+ {
+  "name": "Guild Ace Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/2/28/Guild_ace_a-set-mhwilds-wiki-guide.png/Guild_ace_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 5
+   },
+   {
+    "name": "Constitution",
+    "level": 5
+   },
+   {
+    "name": "Foray",
+    "level": 5
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Peak Performance",
+    "threshold": 5
+   },
+   {
+    "name": "Constitution",
+    "threshold": 5
+   },
+   {
+    "name": "Foray",
+    "threshold": 5
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guild_Ace_Alpha_Set"
+ },
+ {
+  "name": "Guild Cross Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/8/88/Guild_cross_alpha-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Flinch Free",
+    "level": 3
+   },
+   {
+    "name": "Bind Resistance",
+    "level": 3
+   },
+   {
+    "name": "Earplugs",
+    "level": 3
+   },
+   {
+    "name": "Tremor Resistance",
+    "level": 3
+   },
+   {
+    "name": "Windproof",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Flinch Free",
+    "threshold": 3
+   },
+   {
+    "name": "Bind Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Earplugs",
+    "threshold": 3
+   },
+   {
+    "name": "Tremor Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Windproof",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guild_Cross_Alpha_Set"
+ },
+ {
+  "name": "Gypceros Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/2/25/Gypceros_a-set-mhwilds-wiki-guide.png/Gypceros_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 4
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 2
+   },
+   {
+    "name": "Marathon Runner",
+    "level": 2
+   },
+   {
+    "name": "Blindsider",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Resentment",
+    "threshold": 4
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 3
+   },
+   {
+    "name": "Poison Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Marathon Runner",
+    "threshold": 2
+   },
+   {
+    "name": "Blindsider",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Gypceros_Alpha_Set"
+ },
+ {
+  "name": "Gypceros Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/1/1f/Gypceros_b-set-mhwilds-wiki-guide.png/Gypceros_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Marathon Runner",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Resentment",
+    "threshold": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 3
+   },
+   {
+    "name": "Marathon Runner",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Gypceros_Beta_Set"
+ },
+ {
+  "name": "High Metal Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/c/c4/High_metal_set-mhwilds-wiki-guide.png/High_metal_set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Stun Resistance",
+    "level": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "level": 3
+   },
+   {
+    "name": "Blast Resistance",
+    "level": 3
+   },
+   {
+    "name": "Partbreaker",
+    "level": 3
+   },
+   {
+    "name": "Flinch Free",
+    "level": 3
+   },
+   {
+    "name": "Bombardier",
+    "level": 3
+   },
+   {
+    "name": "Aquatic-Oilsilt Mobility",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Stun Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Blast Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Partbreaker",
+    "threshold": 3
+   },
+   {
+    "name": "Flinch Free",
+    "threshold": 3
+   },
+   {
+    "name": "Bombardier",
+    "threshold": 3
+   },
+   {
+    "name": "Aquatic-Oilsilt Mobility",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/High_Metal_Alpha_Set"
+ },
+ {
+  "name": "Hirabami Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/e/e1/Hirabami_a-set-mhwilds-wiki-guide.png/Hirabami_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Evade Window",
+    "level": 5
+   },
+   {
+    "name": "Ice Resistance",
+    "level": 3
+   },
+   {
+    "name": "Peak Performance",
+    "level": 2
+   },
+   {
+    "name": "Evade Extender",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Evade Window",
+    "threshold": 5
+   },
+   {
+    "name": "Ice Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Peak Performance",
+    "threshold": 2
+   },
+   {
+    "name": "Evade Extender",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Hirabami_Alpha_Set"
+ },
+ {
+  "name": "Hirabami Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/f/fb/Hirabami_b-set-mhwilds-wiki-guide.png/Hirabami_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Evade Window",
+    "level": 4
+   },
+   {
+    "name": "Peak Performance",
+    "level": 1
+   },
+   {
+    "name": "Ice Resistance",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Evade Window",
+    "threshold": 4
+   },
+   {
+    "name": "Peak Performance",
+    "threshold": 1
+   },
+   {
+    "name": "Ice Resistance",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Hirabami_Beta_Set"
+ },
+ {
+  "name": "Hope Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/f/fc/Hope_a-set-mhwilds-wiki-guide.png/Hope_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 3
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 1
+   },
+   {
+    "name": "Sleep Resistance",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Divine Blessing",
+    "threshold": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Poison Resistance",
+    "threshold": 1
+   },
+   {
+    "name": "Sleep Resistance",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Hope_Alpha_Set"
+ },
+ {
+  "name": "Ingot Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/1/1b/Ingot_a-set-mhwilds-wiki-guide.png/Ingot_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 5
+   },
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 2
+   },
+   {
+    "name": "Windproof",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Resentment",
+    "threshold": 5
+   },
+   {
+    "name": "Divine Blessing",
+    "threshold": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Windproof",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Ingot_Alpha_Set"
+ },
+ {
+  "name": "King Beetle Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/1/16/King_beetle_a-set-mhwilds-wiki-guide.png/King_beetle_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Heroics",
+    "level": 5
+   },
+   {
+    "name": "Foray",
+    "level": 3
+   },
+   {
+    "name": "Flayer",
+    "level": 2
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 2
+   },
+   {
+    "name": "Paralysis Resistance",
+    "level": 2
+   },
+   {
+    "name": "Sleep Resistance",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Heroics",
+    "threshold": 5
+   },
+   {
+    "name": "Foray",
+    "threshold": 3
+   },
+   {
+    "name": "Flayer",
+    "threshold": 2
+   },
+   {
+    "name": "Poison Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Paralysis Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Sleep Resistance",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/King_Beetle_Alpha_Set"
+ },
+ {
+  "name": "Kranodath Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/1/15/Kranodath-a-set_mhwilds-wiki-guide.png/Kranodath-a-set_mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Kranodath_Alpha_Set"
+ },
+ {
+  "name": "Kranodath Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/2/2c/Kranodath-b-set_mhwilds-wiki-guide.png/Kranodath-b-set_mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Kranodath_Beta_Set"
+ },
+ {
+  "name": "Kunafa Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/f/f6/Kunafa_a-set_1-mhwilds-wiki-guide.png/Kunafa_a-set_1-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Palico Rally",
+    "level": 4
+   },
+   {
+    "name": "Wide-Range",
+    "level": 4
+   },
+   {
+    "name": "Speed Eating",
+    "level": 2
+   },
+   {
+    "name": "Free Meal",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Palico Rally",
+    "threshold": 4
+   },
+   {
+    "name": "Wide-Range",
+    "threshold": 4
+   },
+   {
+    "name": "Speed Eating",
+    "threshold": 2
+   },
+   {
+    "name": "Free Meal",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Kunafa_Alpha_Set"
+ },
+ {
+  "name": "Kut-Ku Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/1/17/Kut-ku_a-set-mhwilds-wiki-guide.png/Kut-ku_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Constitution",
+    "level": 5
+   },
+   {
+    "name": "Agitator",
+    "level": 3
+   },
+   {
+    "name": "Fire Resistance",
+    "level": 3
+   },
+   {
+    "name": "Recovery Up",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Constitution",
+    "threshold": 5
+   },
+   {
+    "name": "Agitator",
+    "threshold": 3
+   },
+   {
+    "name": "Fire Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Up",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Kut-Ku_Alpha_Set"
+ },
+ {
+  "name": "Kut-Ku Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b1/Kut-ku_b-set-mhwilds-wiki-guide.png/Kut-ku_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Constitution",
+    "level": 4
+   },
+   {
+    "name": "Agitator",
+    "level": 2
+   },
+   {
+    "name": "Recovery Up",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Constitution",
+    "threshold": 4
+   },
+   {
+    "name": "Agitator",
+    "threshold": 2
+   },
+   {
+    "name": "Recovery Up",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Kut-Ku_Beta_Set"
+ },
+ {
+  "name": "Lala Barina Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/2/29/Lala_barina_a-set-mhwilds-wiki-guide.png/Lala_barina_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Foray",
+    "level": 3
+   },
+   {
+    "name": "Paralysis Resistance",
+    "level": 3
+   },
+   {
+    "name": "Recovery Up",
+    "level": 3
+   },
+   {
+    "name": "Evade Window",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Foray",
+    "threshold": 3
+   },
+   {
+    "name": "Paralysis Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Up",
+    "threshold": 3
+   },
+   {
+    "name": "Evade Window",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Lala_Barina_Alpha_Set"
+ },
+ {
+  "name": "Lala Barina Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/1/19/Lala_barina_b-set-mhwilds-wiki-guide.png/Lala_barina_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Evade Window",
+    "level": 2
+   },
+   {
+    "name": "Recovery Up",
+    "level": 2
+   },
+   {
+    "name": "Foray",
+    "level": 1
+   },
+   {
+    "name": "Paralysis Resistance",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Evade Window",
+    "threshold": 2
+   },
+   {
+    "name": "Recovery Up",
+    "threshold": 2
+   },
+   {
+    "name": "Foray",
+    "threshold": 1
+   },
+   {
+    "name": "Paralysis Resistance",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Lala_Barina_Beta_Set"
+ },
+ {
+  "name": "Leather Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/6/62/Leather_a-set-mhwilds-wiki-guide.png/Leather_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Botanist",
+    "level": 4
+   },
+   {
+    "name": "Hunger Resistance",
+    "level": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Botanist",
+    "threshold": 4
+   },
+   {
+    "name": "Hunger Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Leather_Alpha_Set"
+ },
+ {
+  "name": "Melahoa Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/0/08/Melahoa_a-set-mhwilds-wiki-guide.png/Melahoa_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Tool Specialist",
+    "level": 3
+   },
+   {
+    "name": "Recovery Up",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 3
+   },
+   {
+    "name": "Survival Expert",
+    "level": 3
+   },
+   {
+    "name": "Mushroomancer",
+    "level": 3
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 2
+   },
+   {
+    "name": "Paralysis Resistance",
+    "level": 2
+   },
+   {
+    "name": "Bleeding Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Tool Specialist",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Up",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "threshold": 3
+   },
+   {
+    "name": "Survival Expert",
+    "threshold": 3
+   },
+   {
+    "name": "Mushroomancer",
+    "threshold": 3
+   },
+   {
+    "name": "Poison Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Paralysis Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Bleeding Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Melahoa_Alpha_Set"
+ },
+ {
+  "name": "Mimiphyta Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/c/c4/Mimiphyta_alpha_set-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Entomologist",
+    "level": 1
+   },
+   {
+    "name": "Ambush",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Entomologist",
+    "threshold": 1
+   },
+   {
+    "name": "Ambush",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Mimiphyta_Alpha_Set"
+ },
+ {
+  "name": "Mizutsune Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/3d/Mizutsune_alpha-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Burst",
+    "level": 5
+   },
+   {
+    "name": "Constitution",
+    "level": 3
+   },
+   {
+    "name": "Evade Extender",
+    "level": 3
+   },
+   {
+    "name": "Evade Window",
+    "level": 2
+   },
+   {
+    "name": "Peak Performance",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Burst",
+    "threshold": 5
+   },
+   {
+    "name": "Constitution",
+    "threshold": 3
+   },
+   {
+    "name": "Evade Extender",
+    "threshold": 3
+   },
+   {
+    "name": "Evade Window",
+    "threshold": 2
+   },
+   {
+    "name": "Aquatic-Oilsilt Mobility",
+    "threshold": 2
+   },
+   {
+    "name": "Peak Performance",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Mizutsune_Alpha_Set"
+ },
+ {
+  "name": "Mizutsune Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/c/c1/Mizutsune_beta-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Aquatic-Oilsilt Mobility",
+    "level": 2
+   },
+   {
+    "name": "Constitution",
+    "level": 3
+   },
+   {
+    "name": "Burst",
+    "level": 3
+   },
+   {
+    "name": "Evade Extender",
+    "level": 1
+   },
+   {
+    "name": "Evade Window",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Aquatic-Oilsilt Mobility",
+    "threshold": 2
+   },
+   {
+    "name": "Constitution",
+    "threshold": 3
+   },
+   {
+    "name": "Burst",
+    "threshold": 3
+   },
+   {
+    "name": "Evade Extender",
+    "threshold": 1
+   },
+   {
+    "name": "Evade Window",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Mizutsune_Beta_Set"
+ },
+ {
+  "name": "Nerscylla Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/f/fb/Nerscylla_a-set-mhwilds-wiki-guide.png/Nerscylla_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Poison Resistance",
+    "level": 3
+   },
+   {
+    "name": "Sleep Resistance",
+    "level": 3
+   },
+   {
+    "name": "Ambush",
+    "level": 3
+   },
+   {
+    "name": "Bind Resistance",
+    "level": 2
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Poison Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Sleep Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Ambush",
+    "threshold": 3
+   },
+   {
+    "name": "Bind Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Weakness Exploit",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Nerscylla_Alpha_Set"
+ },
+ {
+  "name": "Nerscylla Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/0/0e/Nerscylla_b-set-mhwilds-wiki-guide.png/Nerscylla_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Bind Resistance",
+    "level": 2
+   },
+   {
+    "name": "Ambush",
+    "level": 2
+   },
+   {
+    "name": "Sleep Resistance",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Bind Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Ambush",
+    "threshold": 2
+   },
+   {
+    "name": "Sleep Resistance",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Nerscylla_Beta_Set"
+ },
+ {
+  "name": "Numinous Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/e/ef/Numinous_alpha-set-mhwilds-wiki-guide.png/Numinous_alpha-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 5
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 3
+   },
+   {
+    "name": "Counterstrike",
+    "level": 3
+   },
+   {
+    "name": "Coalescence",
+    "level": 3
+   },
+   {
+    "name": "Elemental Absorption",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Agitator",
+    "threshold": 5
+   },
+   {
+    "name": "Recovery Speed",
+    "threshold": 3
+   },
+   {
+    "name": "Counterstrike",
+    "threshold": 3
+   },
+   {
+    "name": "Coalescence",
+    "threshold": 3
+   },
+   {
+    "name": "Elemental Absorption",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Numinous_Alpha_Set"
+ },
+ {
+  "name": "Numinous Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/6/6a/Numinous_beta-set-mhwilds-wiki-guide.png/Numinous_beta-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 5
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 2
+   },
+   {
+    "name": "Elemental Absorption",
+    "level": 3
+   },
+   {
+    "name": "Coalescence",
+    "level": 1
+   },
+   {
+    "name": "Counterstrike",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Agitator",
+    "threshold": 5
+   },
+   {
+    "name": "Recovery Speed",
+    "threshold": 2
+   },
+   {
+    "name": "Elemental Absorption",
+    "threshold": 3
+   },
+   {
+    "name": "Coalescence",
+    "threshold": 1
+   },
+   {
+    "name": "Counterstrike",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Numinous_Beta_Set"
+ },
+ {
+  "name": "Nu Udra Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/54/Nu_udra_a-set-mhwilds-wiki-guide.png/Nu_udra_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 5
+   },
+   {
+    "name": "Counterstrike",
+    "level": 3
+   },
+   {
+    "name": "Speed Eating",
+    "level": 3
+   },
+   {
+    "name": "Burst",
+    "level": 2
+   },
+   {
+    "name": "Windproof",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Resentment",
+    "threshold": 5
+   },
+   {
+    "name": "Counterstrike",
+    "threshold": 3
+   },
+   {
+    "name": "Speed Eating",
+    "threshold": 3
+   },
+   {
+    "name": "Burst",
+    "threshold": 2
+   },
+   {
+    "name": "Windproof",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Nu_Udra_Alpha_Set"
+ },
+ {
+  "name": "Nu Udra Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/8/87/Nu_udra_b-set-mhwilds-wiki-guide.png/Nu_udra_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 4
+   },
+   {
+    "name": "Counterstrike",
+    "level": 2
+   },
+   {
+    "name": "Speed Eating",
+    "level": 2
+   },
+   {
+    "name": "Burst",
+    "level": 1
+   },
+   {
+    "name": "Windproof",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Resentment",
+    "threshold": 4
+   },
+   {
+    "name": "Counterstrike",
+    "threshold": 2
+   },
+   {
+    "name": "Speed Eating",
+    "threshold": 2
+   },
+   {
+    "name": "Burst",
+    "threshold": 1
+   },
+   {
+    "name": "Windproof",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Nu_Udra_Beta_Set"
+ },
+ {
+  "name": "Piragill Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/32/Piragill_a_set_mhwilds-wiki-guide.png/Piragill_a_set_mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Piragill_Alpha_Set"
+ },
+ {
+  "name": "Piragill Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/99/Piragill_b_set_mhwilds-wiki-guide.png/Piragill_b_set_mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Piragill_Beta_Set"
+ },
+ {
+  "name": "Quematrice Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/30/Quematrice_a-set-mhwilds-wiki-guide.png/Quematrice_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Latent Power",
+    "level": 3
+   },
+   {
+    "name": "Fire Resistance",
+    "level": 3
+   },
+   {
+    "name": "Flinch Free",
+    "level": 3
+   },
+   {
+    "name": "Evade Extender",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Latent Power",
+    "threshold": 3
+   },
+   {
+    "name": "Fire Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Flinch Free",
+    "threshold": 3
+   },
+   {
+    "name": "Evade Extender",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Quematrice_Alpha_Set"
+ },
+ {
+  "name": "Quematrice Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/d/db/Quematrice_b-set-mhwilds-wiki-guide.png/Quematrice_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Latent Power",
+    "level": 2
+   },
+   {
+    "name": "Fire Resistance",
+    "level": 2
+   },
+   {
+    "name": "Flinch Free",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Latent Power",
+    "threshold": 2
+   },
+   {
+    "name": "Fire Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Flinch Free",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Quematrice_Beta_Set"
+ },
+ {
+  "name": "Rathalos Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/0/0b/Rathalos_a-set-mhwilds-wiki-guide.png/Rathalos_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Adrenaline Rush",
+    "level": 5
+   },
+   {
+    "name": "Evade Window",
+    "level": 5
+   },
+   {
+    "name": "Constitution",
+    "level": 4
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Adrenaline Rush",
+    "threshold": 5
+   },
+   {
+    "name": "Evade Window",
+    "threshold": 5
+   },
+   {
+    "name": "Constitution",
+    "threshold": 4
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Rathalos_Alpha_Set"
+ },
+ {
+  "name": "Rathalos Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/c/cd/Rathalos_b-set-mhwilds-wiki-guide.png/Rathalos_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Adrenaline Rush",
+    "level": 4
+   },
+   {
+    "name": "Constitution",
+    "level": 3
+   },
+   {
+    "name": "Evade Window",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Adrenaline Rush",
+    "threshold": 4
+   },
+   {
+    "name": "Constitution",
+    "threshold": 3
+   },
+   {
+    "name": "Evade Window",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Rathalos_Beta_Set"
+ },
+ {
+  "name": "Rathian Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/5b/Rathian_a-set-mhwilds-wiki-guide.png/Rathian_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Foray",
+    "level": 5
+   },
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 3
+   },
+   {
+    "name": "Tool Specialist",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Foray",
+    "threshold": 5
+   },
+   {
+    "name": "Divine Blessing",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "threshold": 3
+   },
+   {
+    "name": "Tool Specialist",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Rathian_Alpha_Set"
+ },
+ {
+  "name": "Rathian Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/d/de/Rathian_b-set-mhwilds-wiki-guide.png/Rathian_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Foray",
+    "level": 4
+   },
+   {
+    "name": "Divine Blessing",
+    "level": 2
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Foray",
+    "threshold": 4
+   },
+   {
+    "name": "Divine Blessing",
+    "threshold": 2
+   },
+   {
+    "name": "Recovery Speed",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Rathian_Beta_Set"
+ },
+ {
+  "name": "Rey Dau Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/e/e8/Rey_dau_a-set-mhwilds-wiki-guide.png/Rey_dau_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Latent Power",
+    "level": 5
+   },
+   {
+    "name": "Maximum Might",
+    "level": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Evade Extender",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Latent Power",
+    "threshold": 5
+   },
+   {
+    "name": "Maximum Might",
+    "threshold": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 3
+   },
+   {
+    "name": "Evade Extender",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Rey_Dau_Alpha_Set"
+ },
+ {
+  "name": "Rey Dau Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/9f/Rey_dau_b-set-mhwilds-wiki-guide.png/Rey_dau_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Latent Power",
+    "level": 4
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 2
+   },
+   {
+    "name": "Maximum Might",
+    "level": 1
+   },
+   {
+    "name": "Evade Extender",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Latent Power",
+    "threshold": 4
+   },
+   {
+    "name": "Stun Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 2
+   },
+   {
+    "name": "Maximum Might",
+    "threshold": 1
+   },
+   {
+    "name": "Evade Extender",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Rey_Dau_Beta_Set"
+ },
+ {
+  "name": "Rey Dau Gamma Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/5a/Rey_dau_gamma_armor-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 1
+   },
+   {
+    "name": "Maximum Might",
+    "level": 3
+   },
+   {
+    "name": "Latent Power",
+    "level": 5
+   },
+   {
+    "name": "Evade Extender",
+    "level": 2
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Stamina Surge",
+    "threshold": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "threshold": 1
+   },
+   {
+    "name": "Maximum Might",
+    "threshold": 3
+   },
+   {
+    "name": "Latent Power",
+    "threshold": 5
+   },
+   {
+    "name": "Evade Extender",
+    "threshold": 2
+   },
+   {
+    "name": "Stun Resistance",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Rey_Dau_Gamma_Set"
+ },
+ {
+  "name": "Rompopolo Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/e/ec/Rompopolo_a-set-mhwilds-wiki-guide.png/Rompopolo_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Wide-Range",
+    "level": 5
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 3
+   },
+   {
+    "name": "Earplugs",
+    "level": 2
+   },
+   {
+    "name": "Foray",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Wide-Range",
+    "threshold": 5
+   },
+   {
+    "name": "Poison Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Earplugs",
+    "threshold": 2
+   },
+   {
+    "name": "Foray",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Rompopolo_Alpha_Set"
+ },
+ {
+  "name": "Rompopolo Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b4/Rompopolo_b-set-mhwilds-wiki-guide.png/Rompopolo_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Wide-Range",
+    "level": 3
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 2
+   },
+   {
+    "name": "Foray",
+    "level": 1
+   },
+   {
+    "name": "Earplugs",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Wide-Range",
+    "threshold": 3
+   },
+   {
+    "name": "Poison Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Foray",
+    "threshold": 1
+   },
+   {
+    "name": "Earplugs",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Rompopolo_Beta_Set"
+ },
+ {
+  "name": "Sild Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/d/d0/Sild-a-set-mhwilds-wiki-guide.png/Sild-a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Botanist",
+    "level": 3
+   },
+   {
+    "name": "Wide-Range",
+    "level": 4
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Botanist",
+    "threshold": 3
+   },
+   {
+    "name": "Wide-Range",
+    "threshold": 4
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Sild_Alpha_Set"
+ },
+ {
+  "name": "Suja Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/4/4b/Suja-a-set-mhwilds-wiki-guide.png/Suja-a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Divine Blessing",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Suja_Alpha_Set"
+ },
+ {
+  "name": "Talioth Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/97/Talioth_a_set_mhwilds-wiki-guide.png/Talioth_a_set_mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Talioth_Alpha_Set"
+ },
+ {
+  "name": "Talioth Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/7/71/Talioth_b_set_mhwilds-wiki-guide.png/Talioth_b_set_mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Talioth_Beta_Set"
+ },
+ {
+  "name": "Uth Duna Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/d/d8/Uth_duna_a-set-mhwilds-wiki-guide.png/Uth_duna_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 5
+   },
+   {
+    "name": "Tool Specialist",
+    "level": 5
+   },
+   {
+    "name": "Aquatic-Oilsilt Mobility",
+    "level": 2
+   },
+   {
+    "name": "Earplugs",
+    "level": 1
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Peak Performance",
+    "threshold": 5
+   },
+   {
+    "name": "Tool Specialist",
+    "threshold": 5
+   },
+   {
+    "name": "Aquatic-Oilsilt Mobility",
+    "threshold": 2
+   },
+   {
+    "name": "Earplugs",
+    "threshold": 1
+   },
+   {
+    "name": "Quick Sheathe",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Uth_Duna_Alpha_Set"
+ },
+ {
+  "name": "Uth Duna Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/0/0d/Uth_duna_b-set-mhwilds-wiki-guide.png/Uth_duna_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 4
+   },
+   {
+    "name": "Tool Specialist",
+    "level": 3
+   },
+   {
+    "name": "Earplugs",
+    "level": 1
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Peak Performance",
+    "threshold": 4
+   },
+   {
+    "name": "Tool Specialist",
+    "threshold": 3
+   },
+   {
+    "name": "Earplugs",
+    "threshold": 1
+   },
+   {
+    "name": "Quick Sheathe",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Uth_Duna_Beta_Set"
+ },
+ {
+  "name": "Vespoid Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/e/e2/Vespoid_a-set-mhwilds-wiki-guide.png/Vespoid_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Paralysis Resistance",
+    "level": 3
+   },
+   {
+    "name": "Survival Expert",
+    "level": 3
+   },
+   {
+    "name": "Evade Window",
+    "level": 2
+   },
+   {
+    "name": "Ambush",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Paralysis Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Survival Expert",
+    "threshold": 3
+   },
+   {
+    "name": "Evade Window",
+    "threshold": 2
+   },
+   {
+    "name": "Ambush",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Vespoid_Alpha_Set"
+ },
+ {
+  "name": "Vespoid Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/d/d0/Vespoid_b-set-mhwilds-wiki-guide.png/Vespoid_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Survival Expert",
+    "level": 3
+   },
+   {
+    "name": "Paralysis Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Survival Expert",
+    "threshold": 3
+   },
+   {
+    "name": "Paralysis Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Vespoid_Beta_Set"
+ },
+ {
+  "name": "Xu Wu Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/3a/Xu_wu_a-set-mhwilds-wiki-guide.png/Xu_wu_a-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Heroics",
+    "level": 5
+   },
+   {
+    "name": "Adrenaline Rush",
+    "level": 3
+   },
+   {
+    "name": "Ambush",
+    "level": 3
+   },
+   {
+    "name": "Earplugs",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Heroics",
+    "threshold": 5
+   },
+   {
+    "name": "Adrenaline Rush",
+    "threshold": 3
+   },
+   {
+    "name": "Ambush",
+    "threshold": 3
+   },
+   {
+    "name": "Earplugs",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Xu_Wu_Alpha_Set"
+ },
+ {
+  "name": "Xu Wu Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/c/c5/Xu_wu_b-set-mhwilds-wiki-guide.png/Xu_wu_b-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Heroics",
+    "level": 4
+   },
+   {
+    "name": "Adrenaline Rush",
+    "level": 3
+   },
+   {
+    "name": "Earplugs",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Heroics",
+    "threshold": 4
+   },
+   {
+    "name": "Adrenaline Rush",
+    "threshold": 3
+   },
+   {
+    "name": "Earplugs",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Xu_Wu_Beta_Set"
+ },
+ {
+  "name": "Ajarakan Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/d/d2/Ajarakana-set-mhwilds-wiki-guide.png/Ajarakana-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Partbreaker",
+    "level": 3
+   },
+   {
+    "name": "Bombardier",
+    "level": 3
+   },
+   {
+    "name": "Blast Resistance",
+    "level": 2
+   },
+   {
+    "name": "Cliffhanger",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Partbreaker",
+    "threshold": 3
+   },
+   {
+    "name": "Bombardier",
+    "threshold": 3
+   },
+   {
+    "name": "Blast Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Cliffhanger",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Ajarakan_Set"
+ },
+ {
+  "name": "Alloy Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/98/Alloy-set-mhwilds-wiki-guide.png/Alloy-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Tremor Resistance",
+    "level": 3
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Tremor Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Quick Sheathe",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Alloy_Set"
+ },
+ {
+  "name": "Balahara Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/9a/Balahara-set-mhwilds-wiki-guide.png/Balahara-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Evade Extender",
+    "level": 3
+   },
+   {
+    "name": "Hunger Resistance",
+    "level": 1
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Evade Extender",
+    "threshold": 3
+   },
+   {
+    "name": "Hunger Resistance",
+    "threshold": 1
+   },
+   {
+    "name": "Quick Sheathe",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Balahara_Set"
+ },
+ {
+  "name": "Bone Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/9b/Bone-set-mhwilds-wiki-guide.png/Bone-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Marathon Runner",
+    "level": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Marathon Runner",
+    "threshold": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Bone_Set"
+ },
+ {
+  "name": "Bulaqchi Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/a/ab/Bulaqchi-set-lr_mhwilds-wiki-guide.png/Bulaqchi-set-lr_mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Entomologist",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Entomologist",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Bulaqchi_Set"
+ },
+ {
+  "name": "Chainmail Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/d/d8/Chainmail-set-mhwilds-wiki-guide.png/Chainmail-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Geologist",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Geologist",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Chainmail_Set"
+ },
+ {
+  "name": "Chatacabra Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/3b/Chatacabra-set-mhwilds-wiki-guide.png/Chatacabra-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Speed Eating",
+    "level": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Speed Eating",
+    "threshold": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Chatacabra_Set"
+ },
+ {
+  "name": "Comaqchi Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/0/04/Comaqchi-set-lr_mhwilds-wiki-guide.png/Comaqchi-set-lr_mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Sleep Resistance",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Sleep Resistance",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Comaqchi_Set"
+ },
+ {
+  "name": "Conga Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/5e/Conga-set-mhwilds-wiki-guide.png/Conga-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Mushroomancer",
+    "level": 3
+   },
+   {
+    "name": "Stench Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Mushroomancer",
+    "threshold": 3
+   },
+   {
+    "name": "Stench Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Conga_Set"
+ },
+ {
+  "name": "Doshaguma Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/9a/Doshaguma-set-mhwilds-wiki-guide.png/Doshaguma-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Free Meal",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Free Meal",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Doshaguma_Set"
+ },
+ {
+  "name": "Gajau Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/f/fe/Gajau_alpha_set-mhwilds-wiki-guide.png/Gajau_alpha_set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Gajau_Set"
+ },
+ {
+  "name": "Guardian Arkveld Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/6/63/Guardian_arkveld-set-mhwilds-wiki-guide.png/Guardian_arkveld-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Flayer",
+    "level": 3
+   },
+   {
+    "name": "Blight Resistance",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Flayer",
+    "threshold": 3
+   },
+   {
+    "name": "Blight Resistance",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Arkveld_Set"
+ },
+ {
+  "name": "Guardian Doshaguma Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/5f/Guardian_doshaguma-set-mhwilds-wiki-guide.png/Guardian_doshaguma-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Heroics",
+    "level": 3
+   },
+   {
+    "name": "Marathon Runner",
+    "level": 3
+   },
+   {
+    "name": "Iron Skin",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Heroics",
+    "threshold": 3
+   },
+   {
+    "name": "Marathon Runner",
+    "threshold": 3
+   },
+   {
+    "name": "Iron Skin",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Doshaguma_Set"
+ },
+ {
+  "name": "Guardian Ebony Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/8/8c/Guardian_ebony-set-mhwilds-wiki-guide.png/Guardian_ebony-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Burst",
+    "level": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Burst",
+    "threshold": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Ebony_Set"
+ },
+ {
+  "name": "Guardian Rathalos Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/d/d6/Guardian_rathalos-set-mhwilds-wiki-guide.png/Guardian_rathalos-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 3
+   },
+   {
+    "name": "Intimidator",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Weakness Exploit",
+    "threshold": 3
+   },
+   {
+    "name": "Intimidator",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Rathalos_Set"
+ },
+ {
+  "name": "Guardian Seikret Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/2/2d/Guardian_seikret_set-lr_mhwilds-wiki-guide.png/Guardian_seikret_set-lr_mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Seikret_Set"
+ },
+ {
+  "name": "Hirabami Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/8/86/Hirabami-set-mhwilds-wiki-guide.png/Hirabami-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Evade Window",
+    "level": 5
+   },
+   {
+    "name": "Ice Resistance",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Evade Window",
+    "threshold": 5
+   },
+   {
+    "name": "Ice Resistance",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Hirabami_Set"
+ },
+ {
+  "name": "Hope Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/2/2d/Hope-set-mhwilds-wiki-guide.png/Hope-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Divine Blessing",
+    "threshold": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Hope_Set"
+ },
+ {
+  "name": "Ingot Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/a/a0/Ingot-set-mhwilds-wiki-guide.png/Ingot-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Divine Blessing",
+    "level": 2
+   },
+   {
+    "name": "Windproof",
+    "level": 2
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Divine Blessing",
+    "threshold": 2
+   },
+   {
+    "name": "Windproof",
+    "threshold": 2
+   },
+   {
+    "name": "Stun Resistance",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Ingot_Set"
+ },
+ {
+  "name": "Kranodath Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/55/Kranodath-set_mhwilds-wiki-guide.png/Kranodath-set_mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Kranodath_Set"
+ },
+ {
+  "name": "Lala Barina Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b2/Lala_barina-set-mhwilds-wiki-guide.png/Lala_barina-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Recovery Up",
+    "level": 3
+   },
+   {
+    "name": "Paralysis Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Recovery Up",
+    "threshold": 3
+   },
+   {
+    "name": "Paralysis Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Lala_Barina_Set"
+ },
+ {
+  "name": "Leather Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/35/Leather-set-mhwilds-wiki-guide.png/Leather-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Botanist",
+    "level": 4
+   },
+   {
+    "name": "Hunger Resistance",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Botanist",
+    "threshold": 4
+   },
+   {
+    "name": "Hunger Resistance",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Leather_Set"
+ },
+ {
+  "name": "Nerscylla Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/c/c3/Nerscylla-set-mhwilds-wiki-guide.png/Nerscylla-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Ambush",
+    "level": 3
+   },
+   {
+    "name": "Bind Resistance",
+    "level": 2
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 1
+   },
+   {
+    "name": "Sleep Resistance",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Ambush",
+    "threshold": 3
+   },
+   {
+    "name": "Bind Resistance",
+    "threshold": 2
+   },
+   {
+    "name": "Poison Resistance",
+    "threshold": 1
+   },
+   {
+    "name": "Sleep Resistance",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Nerscylla_Set"
+ },
+ {
+  "name": "Nu Udra Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b1/Nu_udra-set-mhwilds-wiki-guide.png/Nu_udra-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 3
+   },
+   {
+    "name": "Speed Eating",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Resentment",
+    "threshold": 3
+   },
+   {
+    "name": "Speed Eating",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Nu_Udra_Set"
+ },
+ {
+  "name": "Piragill Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/d/d6/Piragill_set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Piragill_Set"
+ },
+ {
+  "name": "Quematrice Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/50/Quematrice-set-mhwilds-wiki-guide.png/Quematrice-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Flinch Free",
+    "level": 3
+   },
+   {
+    "name": "Fire Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Flinch Free",
+    "threshold": 3
+   },
+   {
+    "name": "Fire Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Quematrice_Set"
+ },
+ {
+  "name": "Rey Dau Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/8/89/Rey_dau-set-mhwilds-wiki-guide.png/Rey_dau-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Constitution",
+    "level": 3
+   },
+   {
+    "name": "Latent Power",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Constitution",
+    "threshold": 3
+   },
+   {
+    "name": "Latent Power",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Rey_Dau_Set"
+ },
+ {
+  "name": "Rompopolo Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/6/63/Rompopolo-set-mhwilds-wiki-guide.png/Rompopolo-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Wide-Range",
+    "level": 5
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Wide-Range",
+    "threshold": 5
+   },
+   {
+    "name": "Poison Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Rompopolo_Set"
+ },
+ {
+  "name": "Talioth Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/5b/Talioth_set-mhwilds-wiki-guide.png/Talioth_set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Talioth_Set"
+ },
+ {
+  "name": "Uth Duna Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b5/Uth_duna-set-mhwilds-wiki-guide.png/Uth_duna-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 3
+   },
+   {
+    "name": "Tool Specialist",
+    "level": 3
+   },
+   {
+    "name": "Aquatic-Oilsilt Mobility",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Peak Performance",
+    "threshold": 3
+   },
+   {
+    "name": "Tool Specialist",
+    "threshold": 3
+   },
+   {
+    "name": "Aquatic-Oilsilt Mobility",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Uth_Duna_Set"
+ },
+ {
+  "name": "Vespoid Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/7/72/Vespoid-set-mhwilds-wiki-guide.png/Vespoid-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Survival Expert",
+    "level": 3
+   },
+   {
+    "name": "Paralysis Resistance",
+    "level": 2
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Survival Expert",
+    "threshold": 3
+   },
+   {
+    "name": "Paralysis Resistance",
+    "threshold": 2
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Vespoid_Set"
+ },
+ {
+  "name": "Xu Wu Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/5e/Xu_wu-set-mhwilds-wiki-guide.png/Xu_wu-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Maximum Might",
+    "level": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Maximum Might",
+    "threshold": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "threshold": 3
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Xu_Wu_Set"
+ },
+ {
+  "name": "Orion Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/e/e7/Orion_alpha_set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [
+   {
+    "name": "Flinch Free",
+    "level": 3
+   },
+   {
+    "name": "Recovery Up",
+    "level": 3
+   },
+   {
+    "name": "Windproof",
+    "level": 3
+   },
+   {
+    "name": "Earplugs",
+    "level": 3
+   },
+   {
+    "name": "Cliffhanger",
+    "level": 1
+   }
+  ],
+  "setBonus": [
+   {
+    "name": "Flinch Free",
+    "threshold": 3
+   },
+   {
+    "name": "Recovery Up",
+    "threshold": 3
+   },
+   {
+    "name": "Windproof",
+    "threshold": 3
+   },
+   {
+    "name": "Earplugs",
+    "threshold": 3
+   },
+   {
+    "name": "Cliffhanger",
+    "threshold": 1
+   }
+  ],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Orion_Alpha_Set"
+ },
+ {
+  "name": "Uth Duna Gamma Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/9f/Arch-tempered_uth_duna-armor-set-mhwilds-wiki-guide.png/Arch-tempered_uth_duna-armor-set-mhwilds-wiki-guide.png",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Uth_Duna_Gamma_Set"
+ },
+ {
+  "name": "Sakuratide Alpha Set",
+  "equipmentSkills": [],
+  "setBonus": [],
+  "pieces": [],
+  "url": "https://monsterhunterwilds.wiki.fextralife.com/Sakuratide_Alpha_Set"
+ }
+]
