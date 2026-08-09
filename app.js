@@ -1773,37 +1773,45 @@ function renderArmorIndex(query) {
   const setMatches = !q ? armorSets : armorSets.filter(s => normalizeSearch(s.name).includes(q));
   const implied = buildImpliedArmorGroups().filter(g => !q || normalizeSearch(g.prefix).includes(q));
   const usedIds = getArmorSetPieceIds();
-  // also exclude implied group pieces from loose
   for (const g of implied) for (const p of g.pieces) usedIds.add(p.id);
   const looseMatches = armorPieces.filter(p => !usedIds.has(p.id) && (!q ||
     normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q)));
 
-  if (!setMatches.length && !implied.length && !looseMatches.length) {
+  // merge explicit and implied sets into one list, tagged by rank
+  function setRank(items) {
+    const rarities = items.map(p => p.rarity).filter(r => r != null);
+    if (!rarities.length) return 99;
+    const avg = rarities.reduce((a, b) => a + b, 0) / rarities.length;
+    if (avg >= 8) return 2; // Master
+    if (avg >= 4) return 1; // High
+    return 0; // Low
+  }
+  const allSets = [
+    ...setMatches.map(s => ({ name: s.name, image: s.localImage || s.image, rank: setRank(s.pieces.map(r => armorPieces.find(x => x.id === r.id)).filter(Boolean)), isSet: true })),
+    ...implied.map(g => ({ name: g.prefix + " Set", image: armorSetImg(g.prefix + " Set"), rank: setRank(g.pieces), isImplied: true })),
+  ];
+
+  if (!allSets.length && !looseMatches.length) {
     armorIndexEl.innerHTML = `<p class="no-data">${ui("armorNoResults")}</p>`;
     return;
   }
 
+  const ranks = [
+    { key: 2, label: ui("armorRankMaster") },
+    { key: 1, label: ui("armorRankHigh") },
+    { key: 0, label: ui("armorRankLow") },
+  ];
   let html = "";
-  if (setMatches.length) {
+  for (const r of ranks) {
+    const items = allSets.filter(s => s.rank === r.key);
+    if (!items.length) continue;
     html += `<div class="decorations-slot-group">
+      <h3 class="decorations-slot-heading">${r.label}</h3>
       <div class="decorations-grid">
-        ${setMatches.map((s, i) => `
-          <button type="button" class="decoration-card armor-set-card" data-set="${s.name}">
-            <img class="armor-set-thumb" src="${s.localImage || s.image}" alt="" loading="lazy">
+        ${items.map(s => `
+          <button type="button" class="decoration-card armor-set-card" data-${s.isSet ? "set" : "implied"}="${s.isSet ? s.name : s.name.replace(/\s+Set$/, "")}">
+            <img class="armor-set-thumb" src="${s.image}" alt="" loading="lazy" onerror="this.style.display='none'">
             <span class="decoration-card-name">${s.name}</span>
-          </button>
-        `).join("")}
-      </div>
-    </div>`;
-  }
-  if (implied.length) {
-    html += `<div class="decorations-slot-group">
-      ${!setMatches.length ? '' : `<h3 class="decorations-slot-heading">${ui("armorImpliedGroups") || "Otros sets"}</h3>`}
-      <div class="decorations-grid">
-        ${implied.map(g => `
-          <button type="button" class="decoration-card armor-set-card" data-implied="${g.prefix}">
-            <img class="armor-set-thumb" src="${armorSetImg(g.prefix + ' Set')}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">
-            <span class="decoration-card-name">${g.prefix} Set</span>
           </button>
         `).join("")}
       </div>
