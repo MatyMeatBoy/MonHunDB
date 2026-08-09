@@ -1824,15 +1824,22 @@ function renderArmorIndex(query) {
 }
 
 function showArmorSetDetail(setName) {
-  const set = armorSets.find(s => s.name === setName);
-  if (!set) return;
+  let set = armorSets.find(s => s.name === setName);
+  let impliedGroup = null;
+  if (!set) {
+    impliedGroup = buildImpliedArmorGroups().find(g => g.prefix === setName);
+    if (!impliedGroup) return;
+  }
+
   armorIndexEl.hidden = true;
   armorSetDetailEl.hidden = false;
 
+  const pieces = set ? set.pieces : impliedGroup.pieces;
   const piecesHtml = ARMOR_PART_ORDER.map(part => {
-    const ref = set.pieces.find(p => p.part === part);
-    if (!ref) return "";
-    const p = armorPieces.find(x => x.id === ref.id);
+    const ref = set ? set.pieces.find(p => p.part === part) : null;
+    const p = ref
+      ? armorPieces.find(x => x.id === ref.id)
+      : (impliedGroup ? impliedGroup.pieces.find(x => x.part === part) : null);
     if (!p) return "";
     return `
       <div class="decoration-detail-header armor-piece-header">
@@ -1846,11 +1853,12 @@ function showArmorSetDetail(setName) {
     `;
   }).join("<hr class='armor-piece-divider'>");
 
+  const displayName = set ? set.name : (impliedGroup.prefix + " Set");
   armorSetDetailEl.innerHTML = `
     <button type="button" class="decorations-back" id="armor-detail-back">${ui("armorBack")}</button>
     <div class="armor-set-detail-header">
-      <img class="armor-set-full-image" src="${set.localImage || set.image}" alt="">
-      <h2>${set.name}</h2>
+      ${set ? `<img class="armor-set-full-image" src="${set.localImage || set.image}" alt="">` : armorIconTag(impliedGroup.pieces[0])}
+      <h2>${displayName}</h2>
     </div>
     <section class="block">
       <h3>${ui("armorPiecesHeading")}</h3>
