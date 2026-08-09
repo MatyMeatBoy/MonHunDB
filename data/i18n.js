@@ -379,6 +379,10 @@ const I18N = {
     "Piscine Wyvern": "Wyvern Nadador",
     "Snake Wyvern": "Wyvern Serpiente",
     "Temnoceran": "Temnoceran",
+    "Herbivore": "Herbívoro",
+    "Neopteron": "Neopterón",
+    "Lynian": "Lyniano",
+    "Fish": "Pez",
     "Unknown": "???",
   },
 
@@ -514,6 +518,7 @@ const I18N = {
     "Great Baggi": "Gran Baggi",
     "Great Izuchi": "Gran Izuchi",
     "Great Wroggi": "Gran Wroggi",
+    "Gowngoat": "Capabra",
     "Lucent Nargacuga": "Nargacuga Lunar",
     "Magma Almudron": "Almudron Magma",
     "Narwa the Allmother": "Narwa la Creadora",

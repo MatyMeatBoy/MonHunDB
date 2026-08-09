@@ -1,0 +1,10019 @@
+[
+ {
+  "id": 518617233,
+  "name": "Altaroth",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "75",
+   "75",
+   "80",
+   "100",
+   "100",
+   "100",
+   "100",
+   "100",
+   "100"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "10 +0 →100",
+    "decay": "5 / 10 sec",
+    "damage": "1050",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Altaroth Stomach",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "10%"
+   ],
+   [
+    "Altaroth Stomach",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Altaroth Jaw",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "9%"
+   ],
+   [
+    "Altaroth Jaw",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "17%"
+   ],
+   [
+    "Monster Fluid",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Altaroth Stomach",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "50%"
+   ],
+   [
+    "Altaroth Jaw",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Monster Fluid",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Ripened Mushroom",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "90%"
+   ],
+   [
+    "Monster Fluid",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Nulberry",
+    "Low Rank",
+    "Dropped Materials",
+    "Wyvern Riding",
+    "x1",
+    "90%"
+   ],
+   [
+    "Monster Fluid",
+    "Low Rank",
+    "Dropped Materials",
+    "Wyvern Riding",
+    "x1",
+    "10%"
+   ],
+   [
+    "Honey",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "90%"
+   ],
+   [
+    "Monster Fluid",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Fine Stomach",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "100%"
+   ],
+   [
+    "Altaroth Stomach",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "50%"
+   ],
+   [
+    "Altaroth Jaw",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Monster Fluid",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Altaroth Stomach",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "50%"
+   ],
+   [
+    "Altaroth Jaw",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Monster Fluid",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Quality Stomach",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "55%"
+   ],
+   [
+    "Altaroth Jaw",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Monster Broth",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Ripened Mushroom",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x2",
+    "90%"
+   ],
+   [
+    "Monster Broth",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Nulberry",
+    "High Rank",
+    "Dropped Materials",
+    "Wyvern Riding",
+    "x2",
+    "90%"
+   ],
+   [
+    "Monster Broth",
+    "High Rank",
+    "Dropped Materials",
+    "Wyvern Riding",
+    "x1",
+    "10%"
+   ],
+   [
+    "Honey",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x2",
+    "90%"
+   ],
+   [
+    "Monster Broth",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Fine Stomach",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "100%"
+   ],
+   [
+    "Quality Stomach",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "55%"
+   ],
+   [
+    "Altaroth Jaw",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Monster Broth",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Quality Stomach",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "55%"
+   ],
+   [
+    "Altaroth Jaw",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Monster Broth",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Prized Stomach",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "55%"
+   ],
+   [
+    "Altaroth Jaw",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Ripened Mushroom",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x3",
+    "90%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Nulberry",
+    "Master Rank",
+    "Dropped Materials",
+    "Wyvern Riding",
+    "x3",
+    "90%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Dropped Materials",
+    "Wyvern Riding",
+    "x1",
+    "10%"
+   ],
+   [
+    "Honey",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x3",
+    "90%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Fine Stomach",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "100%"
+   ],
+   [
+    "Prized Stomach",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "55%"
+   ],
+   [
+    "Altaroth Jaw",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Prized Stomach",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "55%"
+   ],
+   [
+    "Altaroth Jaw",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 1771235898,
+  "name": "Anteka",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Warm Pelt",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "18%"
+   ],
+   [
+    "Anteka Antler",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "40%"
+   ],
+   [
+    "White Liver",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Warm Pelt",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "18%"
+   ],
+   [
+    "Anteka Antler",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "40%"
+   ],
+   [
+    "White Liver",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "High-quality Pelt",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "18%"
+   ],
+   [
+    "Anteka Antler",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "40%"
+   ],
+   [
+    "White Liver",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "High-quality Pelt",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "18%"
+   ],
+   [
+    "Anteka Antler",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "40%"
+   ],
+   [
+    "White Liver",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Prized Pelt",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "18%"
+   ],
+   [
+    "Anteka Proud Antler",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "40%"
+   ],
+   [
+    "White Liver",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Prized Pelt",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "18%"
+   ],
+   [
+    "Anteka Proud Antler",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "40%"
+   ],
+   [
+    "White Liver",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 9777038,
+  "name": "Baggi",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "70",
+   "70",
+   "75",
+   "70",
+   "50",
+   "50",
+   "50",
+   "10",
+   "100"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Baggi Scale",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "17%"
+   ],
+   [
+    "Baggi Scale",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x4",
+    "13%"
+   ],
+   [
+    "Baggi Hide",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "29%"
+   ],
+   [
+    "Baggi Hide",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x4",
+    "10%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "23%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x4",
+    "8%"
+   ],
+   [
+    "Baggi Scale",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "48%"
+   ],
+   [
+    "Baggi Hide",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "37%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Baggi Scale",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "48%"
+   ],
+   [
+    "Baggi Hide",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "37%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Baggi Scale+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Baggi Scale+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "29%"
+   ],
+   [
+    "Baggi Hide",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "14%"
+   ],
+   [
+    "Baggi Hide",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "24%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "21%"
+   ],
+   [
+    "Baggi Scale+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "60%"
+   ],
+   [
+    "Baggi Hide",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Baggi Scale+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "60%"
+   ],
+   [
+    "Baggi Hide",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Baggi Scale+",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "50%"
+   ],
+   [
+    "Baggi Hide",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Baggi Scale+",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "50%"
+   ],
+   [
+    "Baggi Hide",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 470812912,
+  "name": "Bnahabra",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "83",
+   "87",
+   "85",
+   "100",
+   "50",
+   "50",
+   "10",
+   "0",
+   "100"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "10 +0 →100",
+    "decay": "5 / 10 sec",
+    "damage": "1050",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Bnahabra Shell",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "6%"
+   ],
+   [
+    "Bnahabra Shell",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "16%"
+   ],
+   [
+    "Bnahabra Wing",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Bnahabra Wing",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "23%"
+   ],
+   [
+    "Bnahabra Stinger",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Monster Fluid",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "13%"
+   ],
+   [
+    "Flashbug",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Bnahabra Shell",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "34%"
+   ],
+   [
+    "Bnahabra Wing",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "27%"
+   ],
+   [
+    "Bnahabra Stinger",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "22%"
+   ],
+   [
+    "Monster Fluid",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "17%"
+   ],
+   [
+    "Bnahabra Shell",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "34%"
+   ],
+   [
+    "Bnahabra Wing",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "27%"
+   ],
+   [
+    "Bnahabra Stinger",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "22%"
+   ],
+   [
+    "Monster Fluid",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "17%"
+   ],
+   [
+    "Bnahabra Carapace",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "39%"
+   ],
+   [
+    "Bnahabra Wing",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "19%"
+   ],
+   [
+    "Bnahabra Stinger",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "14%"
+   ],
+   [
+    "Monster Broth",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "28%"
+   ],
+   [
+    "Bnahabra Carapace",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "39%"
+   ],
+   [
+    "Bnahabra Wing",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "19%"
+   ],
+   [
+    "Bnahabra Stinger",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "14%"
+   ],
+   [
+    "Monster Broth",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "28%"
+   ],
+   [
+    "Bnahabra Carapace",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "33%"
+   ],
+   [
+    "Bnahabra Razorwing",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Bnahabra Stinger",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "14%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "28%"
+   ],
+   [
+    "Bnahabra Carapace",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "33%"
+   ],
+   [
+    "Bnahabra Razorwing",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Bnahabra Stinger",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "14%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "28%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 1137262772,
+  "name": "Boggi",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "65",
+   "65",
+   "65",
+   "60",
+   "50",
+   "40",
+   "50",
+   "10",
+   "100"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "50 +50 →150",
+    "decay": "5 / 10 sec",
+    "damage": "200",
+    "duration": "20 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 0"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "HitDamageRate: 1"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "MotionSpeedRate: 1.00"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "StunActivateLimit: 0\nStunActivateLimit: 0"
+   }
+  ],
+  "materialRows": [
+   [
+    "Boggi Thickhide",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "9%"
+   ],
+   [
+    "Boggi Thickhide",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Boggi Shard",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Boggi Shard",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "26%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "21%"
+   ],
+   [
+    "Boggi Thickhide",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "52%"
+   ],
+   [
+    "Boggi Shard",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "33%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Boggi Thickhide",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "52%"
+   ],
+   [
+    "Boggi Shard",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "33%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 1181483312,
+  "name": "Bombadgy",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "70%"
+   ],
+   [
+    "Bombadgy Igniter",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "70%"
+   ],
+   [
+    "Bombadgy Igniter",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "70%"
+   ],
+   [
+    "Bombadgy Igniter",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "70%"
+   ],
+   [
+    "Bombadgy Igniter",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "70%"
+   ],
+   [
+    "Bombadgy Activator",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "70%"
+   ],
+   [
+    "Bombadgy Activator",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 1829706311,
+  "name": "Bullfango",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Bullfango Pelt",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "60%"
+   ],
+   [
+    "Bullfango Head",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Bullfango Pelt",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "60%"
+   ],
+   [
+    "Bullfango Head",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Bullfango Pelt+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "33%"
+   ],
+   [
+    "Bullfango Pelt+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Bullfango Head",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Jumbo Bone",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "18%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "9%"
+   ],
+   [
+    "Blue Mushroom",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x4",
+    "13%"
+   ],
+   [
+    "Bullfango Pelt+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "50%"
+   ],
+   [
+    "Bullfango Head",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "17%"
+   ],
+   [
+    "Jumbo Bone",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "18%"
+   ],
+   [
+    "Bullfango Pelt+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "50%"
+   ],
+   [
+    "Bullfango Head",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "17%"
+   ],
+   [
+    "Jumbo Bone",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "18%"
+   ],
+   [
+    "Bullfango Thickfur",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "50%"
+   ],
+   [
+    "Bullfango Head",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "17%"
+   ],
+   [
+    "Massive Bone",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "18%"
+   ],
+   [
+    "Bullfango Thickfur",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "50%"
+   ],
+   [
+    "Bullfango Head",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "17%"
+   ],
+   [
+    "Massive Bone",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "18%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 1123029143,
+  "name": "Gowngoat",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Gowngoat Thickfur",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "10%"
+   ],
+   [
+    "Gowngoat Thickfur",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "34%"
+   ],
+   [
+    "Large Herbivore Bone",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "13%"
+   ],
+   [
+    "Large Herbivore Bone",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "28%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "15%"
+   ],
+   [
+    "Gowngoat Thickfur",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "42%"
+   ],
+   [
+    "Large Herbivore Bone",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "28%"
+   ],
+   [
+    "Gowngoat Fleeceball",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Gowngoat Thickfur",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "42%"
+   ],
+   [
+    "Large Herbivore Bone",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "28%"
+   ],
+   [
+    "Gowngoat Fleeceball",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 399612255,
+  "name": "Ceanataur",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "80",
+   "110",
+   "50",
+   "30",
+   "5",
+   "20",
+   "60",
+   "0",
+   "200"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 0"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "HitDamageRate: 1"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "MotionSpeedRate: 1.00"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "StunActivateLimit: 0\nStunActivateLimit: 0"
+   }
+  ],
+  "materialRows": [
+   [
+    "Ceanataur Shell",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "9%"
+   ],
+   [
+    "Ceanataur Shell",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "40%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "13%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "38%"
+   ],
+   [
+    "Ceanataur Shell",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "48%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Carapaceon Brains+",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Ceanataur Shell",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "48%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Carapaceon Brains+",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 38260556,
+  "name": "Delex",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "90",
+   "90",
+   "90",
+   "0",
+   "50",
+   "0",
+   "30",
+   "0",
+   "100"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Big Fin",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "16%"
+   ],
+   [
+    "Big Fin",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "39%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "13%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Monster Guts",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "45%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Big Fin",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "40%"
+   ],
+   [
+    "Monster Guts",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "45%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Big Fin",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "40%"
+   ],
+   [
+    "Monster Guts",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "40%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Quality Fin",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "40%"
+   ],
+   [
+    "Monster Guts",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "40%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Quality Fin",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "40%"
+   ],
+   [
+    "Monster Guts",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "40%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Quality Fin",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Monster Guts",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "40%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "Quality Fin",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 1744255757,
+  "name": "Felyne",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "80",
+   "75",
+   "80",
+   "100",
+   "100",
+   "100",
+   "100",
+   "10",
+   "100"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Round Acorn",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "79%"
+   ],
+   [
+    "Pawprint Stamp",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "21%"
+   ],
+   [
+    "First-aid Med",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "54%"
+   ],
+   [
+    "Round Acorn",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Pawprint Stamp",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "14%"
+   ],
+   [
+    "First-aid Med",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "54%"
+   ],
+   [
+    "Round Acorn",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Pawprint Stamp",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "14%"
+   ],
+   [
+    "First-aid Med",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "54%"
+   ],
+   [
+    "Round Acorn",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Pawprint Stamp",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "14%"
+   ],
+   [
+    "Round Acorn",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "79%"
+   ],
+   [
+    "Pawprint Stamp",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "21%"
+   ],
+   [
+    "Round Acorn",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "79%"
+   ],
+   [
+    "Pawprint Stamp",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "21%"
+   ],
+   [
+    "First-aid Med",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "54%"
+   ],
+   [
+    "Round Acorn",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Pawprint Stamp",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "14%"
+   ],
+   [
+    "First-aid Med",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "54%"
+   ],
+   [
+    "Round Acorn",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Pawprint Stamp",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "14%"
+   ],
+   [
+    "First-aid Med",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "54%"
+   ],
+   [
+    "Round Acorn",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Pawprint Stamp",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "14%"
+   ],
+   [
+    "Round Acorn",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "79%"
+   ],
+   [
+    "Pawprint Stamp",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "21%"
+   ],
+   [
+    "Round Acorn",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "79%"
+   ],
+   [
+    "Pawprint Ticket",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "21%"
+   ],
+   [
+    "First-aid Med",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "54%"
+   ],
+   [
+    "Round Acorn",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Pawprint Ticket",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "14%"
+   ],
+   [
+    "Round Acorn",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "79%"
+   ],
+   [
+    "Pawprint Ticket",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "21%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 413407319,
+  "name": "Gajau",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Gajau Skin",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "70%"
+   ],
+   [
+    "Gajau Whisker",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Gajau Skin",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "70%"
+   ],
+   [
+    "Gajau Whisker",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Gajau Scale",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "70%"
+   ],
+   [
+    "Gajau Whisker+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Gajau Scale",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "70%"
+   ],
+   [
+    "Gajau Whisker+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Gajau Thickhide",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "10%"
+   ],
+   [
+    "Gajau Thickhide",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "31%"
+   ],
+   [
+    "Steel Gajau Whisker",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "23%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "24%"
+   ],
+   [
+    "Gajau Thickhide",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "70%"
+   ],
+   [
+    "Steel Gajau Whisker",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Gajau Thickhide",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "70%"
+   ],
+   [
+    "Steel Gajau Whisker",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 262999744,
+  "name": "Gargwa",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Gargwa Feather",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "60%"
+   ],
+   [
+    "Monster Bone S",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Gargwa Guano",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "60%"
+   ],
+   [
+    "Herb",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "40%"
+   ],
+   [
+    "Gargwa Egg",
+    "Low Rank",
+    "Dropped Materials",
+    "Wyvern Riding",
+    "x1",
+    "100%"
+   ],
+   [
+    "Gold Gargwa Egg",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "100%"
+   ],
+   [
+    "Gargwa Feather",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "60%"
+   ],
+   [
+    "Monster Bone S",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Gargwa Feather",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "35%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "60%"
+   ],
+   [
+    "Monster Bone S",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "5%"
+   ],
+   [
+    "Gargwa Guano",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "60%"
+   ],
+   [
+    "Herb",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x2",
+    "40%"
+   ],
+   [
+    "Gargwa Egg",
+    "High Rank",
+    "Dropped Materials",
+    "Wyvern Riding",
+    "x1",
+    "100%"
+   ],
+   [
+    "Gold Gargwa Egg",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "100%"
+   ],
+   [
+    "Gargwa Feather",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "35%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "60%"
+   ],
+   [
+    "Monster Bone S",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "5%"
+   ],
+   [
+    "Gargwa Finefeather",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "65%"
+   ],
+   [
+    "Monster Bone S",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "5%"
+   ],
+   [
+    "Gargwa Guano",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "60%"
+   ],
+   [
+    "Herb",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x3",
+    "40%"
+   ],
+   [
+    "Gargwa Egg",
+    "Master Rank",
+    "Dropped Materials",
+    "Wyvern Riding",
+    "x1",
+    "100%"
+   ],
+   [
+    "Gold Gargwa Egg",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "100%"
+   ],
+   [
+    "Gargwa Finefeather",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "65%"
+   ],
+   [
+    "Monster Bone S",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "5%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 385362366,
+  "name": "Hermitaur",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "80",
+   "110",
+   "50",
+   "30",
+   "5",
+   "20",
+   "60",
+   "0",
+   "200"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 0"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "HitDamageRate: 1"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "MotionSpeedRate: 1.00"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "StunActivateLimit: 0\nStunActivateLimit: 0"
+   }
+  ],
+  "materialRows": [
+   [
+    "Tiny Hermitaur Shell",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "10%"
+   ],
+   [
+    "Tiny Hermitaur Shell",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "42%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "36%"
+   ],
+   [
+    "Tiny Hermitaur Shell",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "49%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "27%"
+   ],
+   [
+    "Carapaceon Brains+",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "24%"
+   ],
+   [
+    "Tiny Hermitaur Shell",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "49%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "31%"
+   ],
+   [
+    "Carapaceon Brains+",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 1682217807,
+  "name": "Hornetaur",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "100",
+   "120",
+   "100",
+   "100",
+   "20",
+   "100",
+   "60",
+   "10",
+   "100"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "10 +0 →100",
+    "decay": "5 / 10 sec",
+    "damage": "1050",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 0"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "HitDamageRate: 1"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "MotionSpeedRate: 1.00"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "StunActivateLimit: 0\nStunActivateLimit: 0"
+   }
+  ],
+  "materialRows": [
+   [
+    "Hornetaur Cortex",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "9%"
+   ],
+   [
+    "Hornetaur Cortex",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Hornetaur Razorwing",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Hornetaur Razorwing",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "37%"
+   ],
+   [
+    "Hornetaur Head",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Hornetaur Cortex",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "40%"
+   ],
+   [
+    "Hornetaur Razorwing",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Hornetaur Head",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "18%"
+   ],
+   [
+    "Hornetaur Cortex",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "40%"
+   ],
+   [
+    "Hornetaur Razorwing",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Hornetaur Head",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "18%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 1195733201,
+  "name": "Izuchi",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "70",
+   "70",
+   "75",
+   "70",
+   "50",
+   "50",
+   "50",
+   "10",
+   "100"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Izuchi Tail",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Izuchi Tail",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "34%"
+   ],
+   [
+    "Izuchi Pelt",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "11%"
+   ],
+   [
+    "Izuchi Pelt",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "19%"
+   ],
+   [
+    "Sharp Claw",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "24%"
+   ],
+   [
+    "Izuchi Tail",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "52%"
+   ],
+   [
+    "Izuchi Pelt",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "33%"
+   ],
+   [
+    "Sharp Claw",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Izuchi Tail",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "52%"
+   ],
+   [
+    "Izuchi Pelt",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "33%"
+   ],
+   [
+    "Sharp Claw",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Izuchi Pelt+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Izuchi Pelt+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "34%"
+   ],
+   [
+    "Izuchi Tail",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "11%"
+   ],
+   [
+    "Izuchi Tail",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "19%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "24%"
+   ],
+   [
+    "Izuchi Tail",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Izuchi Pelt+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "53%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Izuchi Tail",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Izuchi Pelt+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "53%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Izuchi Tail",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Heavy Izuchi Pelt",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "53%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Izuchi Tail",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Heavy Izuchi Pelt",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "53%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 114986952,
+  "name": "Jaggi",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "80",
+   "80",
+   "85",
+   "70",
+   "50",
+   "50",
+   "50",
+   "10",
+   "100"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Jaggi Hide",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "8%"
+   ],
+   [
+    "Jaggi Hide",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "22%"
+   ],
+   [
+    "Jaggi Scale",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "14%"
+   ],
+   [
+    "Jaggi Scale",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "24%"
+   ],
+   [
+    "Screamer Sac",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Jaggi Hide",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "35%"
+   ],
+   [
+    "Jaggi Scale",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Screamer Sac",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Jaggi Hide",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "35%"
+   ],
+   [
+    "Jaggi Scale",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Screamer Sac",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Jaggi Hide+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "35%"
+   ],
+   [
+    "Jaggi Scale+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Screamer Sac",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Jaggi Hide+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "35%"
+   ],
+   [
+    "Jaggi Scale+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Screamer Sac",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Jaggi Piel",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "35%"
+   ],
+   [
+    "Jaggi Shard",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Screamer Sac",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Jaggi Piel",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "35%"
+   ],
+   [
+    "Jaggi Shard",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Screamer Sac",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 129236969,
+  "name": "Jaggia",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "75",
+   "75",
+   "85",
+   "75",
+   "50",
+   "50",
+   "50",
+   "10",
+   "100"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Jaggi Scale",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "8%"
+   ],
+   [
+    "Jaggi Scale",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "22%"
+   ],
+   [
+    "Jaggi Hide",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "14%"
+   ],
+   [
+    "Jaggi Hide",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "24%"
+   ],
+   [
+    "Screamer Sac",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Jaggi Hide",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "38%"
+   ],
+   [
+    "Jaggi Scale",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Screamer Sac",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Jaggi Hide",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "38%"
+   ],
+   [
+    "Jaggi Scale",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Screamer Sac",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Jaggi Hide+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "38%"
+   ],
+   [
+    "Jaggi Scale+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Screamer Sac",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Jaggi Hide+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "38%"
+   ],
+   [
+    "Jaggi Scale+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Screamer Sac",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Jaggi Piel",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "38%"
+   ],
+   [
+    "Jaggi Shard",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "34%"
+   ],
+   [
+    "Screamer Sac",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "18%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Jaggi Piel",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "38%"
+   ],
+   [
+    "Jaggi Shard",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Screamer Sac",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 933125691,
+  "name": "Jagras",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Jagras Hide",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "9%"
+   ],
+   [
+    "Jagras Hide",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "33%"
+   ],
+   [
+    "Jagras Scale",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "11%"
+   ],
+   [
+    "Jagras Scale",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Sharp Claw",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "22%"
+   ],
+   [
+    "Jagras Hide",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "53%"
+   ],
+   [
+    "Jagras Scale",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Sharp Claw",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Jagras Hide",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "53%"
+   ],
+   [
+    "Jagras Scale",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Sharp Claw",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Jagras Hide+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "9%"
+   ],
+   [
+    "Jagras Hide+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "33%"
+   ],
+   [
+    "Jagras Scale+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "11%"
+   ],
+   [
+    "Jagras Scale+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "22%"
+   ],
+   [
+    "Jagras Hide+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "53%"
+   ],
+   [
+    "Jagras Scale+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Jagras Hide+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "53%"
+   ],
+   [
+    "Jagras Scale+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Jagras Shard",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "53%"
+   ],
+   [
+    "Jagras Hide+",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Jagras Shard",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "53%"
+   ],
+   [
+    "Jagras Hide+",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 2055863177,
+  "name": "Kelbi",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Kelbi Horn",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Warm Pelt",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "45%"
+   ],
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "White Liver",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Kelbi Horn",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "100%"
+   ],
+   [
+    "Kelbi Horn",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "Warm Pelt",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "45%"
+   ],
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "White Liver",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Kelbi Horn",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "High-quality Pelt",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "45%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "White Liver",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Kelbi Horn",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "100%"
+   ],
+   [
+    "Kelbi Horn",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "High-quality Pelt",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "45%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "White Liver",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Kelbi Horn",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "35%"
+   ],
+   [
+    "Prized Pelt",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "White Liver",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "High-quality Pelt",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Kelbi Horn",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "100%"
+   ],
+   [
+    "Kelbi Horn",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "35%"
+   ],
+   [
+    "Prized Pelt",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "White Liver",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "High-quality Pelt",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 826867193,
+  "name": "Kestodon",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Kestodon Shell",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "23%"
+   ],
+   [
+    "Kestodon Shell",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x3",
+    "27%"
+   ],
+   [
+    "Kestodon Scalp",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Kestodon Scalp",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "18%"
+   ],
+   [
+    "Kestodon Shell",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "80%"
+   ],
+   [
+    "Kestodon Scalp",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Kestodon Shell",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "80%"
+   ],
+   [
+    "Kestodon Scalp",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Kestodon Carapace",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "16%"
+   ],
+   [
+    "Kestodon Carapace",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "36%"
+   ],
+   [
+    "Kestodon Scalp",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "27%"
+   ],
+   [
+    "Kestodon Scalp",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "21%"
+   ],
+   [
+    "Kestodon Carapace",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "70%"
+   ],
+   [
+    "Kestodon Scalp",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Kestodon Carapace",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "70%"
+   ],
+   [
+    "Kestodon Scalp",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "Kestodon Husk",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "70%"
+   ],
+   [
+    "Kestodon Scalp",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Kestodon Husk",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "70%"
+   ],
+   [
+    "Kestodon Scalp",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 51986285,
+  "name": "Ludroth",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Hydro Hide",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "10%"
+   ],
+   [
+    "Hydro Hide",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "29%"
+   ],
+   [
+    "Immature Sponge",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Immature Sponge",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "16%"
+   ],
+   [
+    "Sharp Claw",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "21%"
+   ],
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Hydro Hide",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "52%"
+   ],
+   [
+    "Immature Sponge",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "36%"
+   ],
+   [
+    "Sharp Claw",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "12%"
+   ],
+   [
+    "Hydro Hide",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "52%"
+   ],
+   [
+    "Immature Sponge",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "36%"
+   ],
+   [
+    "Sharp Claw",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "12%"
+   ],
+   [
+    "Hydro Hide+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "11%"
+   ],
+   [
+    "Hydro Hide+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "31%"
+   ],
+   [
+    "Immature Sponge",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "21%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "27%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x3",
+    "10%"
+   ],
+   [
+    "Hydro Hide+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "56%"
+   ],
+   [
+    "Immature Sponge",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "28%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "16%"
+   ],
+   [
+    "Hydro Hide+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "56%"
+   ],
+   [
+    "Immature Sponge",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "28%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "16%"
+   ],
+   [
+    "Hydro Piel",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "16%"
+   ],
+   [
+    "Hydro Piel",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "39%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "11%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "21%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x3",
+    "13%"
+   ],
+   [
+    "Hydro Piel",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "68%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Hydro Piel",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "68%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 1623747362,
+  "name": "Melynx",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "80",
+   "75",
+   "80",
+   "100",
+   "100",
+   "100",
+   "100",
+   "10",
+   "100"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Secret Stash",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "75%"
+   ],
+   [
+    "Pawprint Stamp",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Secret Stash",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "52%"
+   ],
+   [
+    "Ration",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "28%"
+   ],
+   [
+    "Pawprint Stamp",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Secret Stash",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "52%"
+   ],
+   [
+    "Ration",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "28%"
+   ],
+   [
+    "Pawprint Stamp",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Secret Stash",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "52%"
+   ],
+   [
+    "Ration",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "28%"
+   ],
+   [
+    "Pawprint Stamp",
+    "Low Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Secret Stash",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "75%"
+   ],
+   [
+    "Pawprint Stamp",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Secret Stash",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "75%"
+   ],
+   [
+    "Pawprint Stamp",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Secret Stash",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "52%"
+   ],
+   [
+    "Ration",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "28%"
+   ],
+   [
+    "Pawprint Stamp",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Secret Stash",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "52%"
+   ],
+   [
+    "Ration",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "28%"
+   ],
+   [
+    "Pawprint Stamp",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Secret Stash",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "52%"
+   ],
+   [
+    "Ration",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "28%"
+   ],
+   [
+    "Pawprint Stamp",
+    "High Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Secret Stash",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "75%"
+   ],
+   [
+    "Pawprint Stamp",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Secret Stash",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "75%"
+   ],
+   [
+    "Pawprint Ticket",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Secret Stash",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "52%"
+   ],
+   [
+    "Ration",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "28%"
+   ],
+   [
+    "Pawprint Ticket",
+    "Master Rank",
+    "Dropped Materials",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Secret Stash",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "75%"
+   ],
+   [
+    "Pawprint Ticket",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 1876970084,
+  "name": "Popo",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "70",
+   "70",
+   "100",
+   "40",
+   "20",
+   "20",
+   "30",
+   "15",
+   "0"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "42%"
+   ],
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "23%"
+   ],
+   [
+    "Jumbo Bone",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "11%"
+   ],
+   [
+    "Nulberry",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "24%"
+   ],
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "41%"
+   ],
+   [
+    "Popo Tongue",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "53%"
+   ],
+   [
+    "Jumbo Bone",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "6%"
+   ],
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "41%"
+   ],
+   [
+    "Popo Tongue",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "53%"
+   ],
+   [
+    "Jumbo Bone",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "6%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "41%"
+   ],
+   [
+    "Popo Tongue",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "53%"
+   ],
+   [
+    "Stoutbone",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "6%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "41%"
+   ],
+   [
+    "Popo Tongue",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "53%"
+   ],
+   [
+    "Stoutbone",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "6%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "41%"
+   ],
+   [
+    "Popo Tongue",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "53%"
+   ],
+   [
+    "Massive Bone",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "6%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "41%"
+   ],
+   [
+    "Popo Tongue",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "53%"
+   ],
+   [
+    "Massive Bone",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "6%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 1869529590,
+  "name": "Pyrantula",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "45",
+   "55",
+   "45",
+   "0",
+   "30",
+   "20",
+   "10",
+   "10",
+   "0"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Pyrantula Maroon Thread",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Pyrantula Maroon Thread",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "37%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "23%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "8%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Pyrantula Maroon Thread",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "52%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "17%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "31%"
+   ],
+   [
+    "Pyrantula Maroon Thread",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "52%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "17%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "31%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 1075749110,
+  "name": "Rachnoid",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "45",
+   "45",
+   "35",
+   "0",
+   "40",
+   "30",
+   "10",
+   "10",
+   "100"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Rachnoid Silk",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "9%"
+   ],
+   [
+    "Rachnoid Silk",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "41%"
+   ],
+   [
+    "Sharp Claw",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "27%"
+   ],
+   [
+    "Monster Fluid",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "7%"
+   ],
+   [
+    "Monster Fluid",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "16%"
+   ],
+   [
+    "Rachnoid Silk",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "53%"
+   ],
+   [
+    "Sharp Claw",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Monster Fluid",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Rachnoid Silk",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "53%"
+   ],
+   [
+    "Sharp Claw",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Monster Fluid",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Rachnoid Silk+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "9%"
+   ],
+   [
+    "Rachnoid Silk+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "41%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "27%"
+   ],
+   [
+    "Monster Broth",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "7%"
+   ],
+   [
+    "Monster Broth",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "16%"
+   ],
+   [
+    "Rachnoid Silk+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "53%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Monster Broth",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Rachnoid Silk+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "53%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Monster Broth",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Rachnoid Mesmersilk",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Rachnoid Mesmersilk",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "38%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "8%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "19%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "23%"
+   ],
+   [
+    "Rachnoid Mesmersilk",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "53%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Rachnoid Mesmersilk",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "53%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 338098585,
+  "name": "Remobra",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Remobra Hide",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "49%"
+   ],
+   [
+    "Striped Hide",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "31%"
+   ],
+   [
+    "Remobra Head",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Remobra Hide",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "49%"
+   ],
+   [
+    "Striped Hide",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "31%"
+   ],
+   [
+    "Remobra Head",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Remobra Hide+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "54%"
+   ],
+   [
+    "Striped Hide",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Remobra Head",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "16%"
+   ],
+   [
+    "Remobra Hide+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "54%"
+   ],
+   [
+    "Striped Hide",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "Remobra Head",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "16%"
+   ],
+   [
+    "Remobra Finehide",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Remobra Finehide",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "38%"
+   ],
+   [
+    "Striped Finehide",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Mighty Remobra Head",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "18%"
+   ],
+   [
+    "Remobra Finehide",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "54%"
+   ],
+   [
+    "Striped Finehide",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Mighty Remobra Head",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "16%"
+   ],
+   [
+    "Remobra Finehide",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "54%"
+   ],
+   [
+    "Striped Finehide",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "Mighty Remobra Head",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "16%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 322885843,
+  "name": "Rhenoplos",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Rhenoplos Shell",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "35%"
+   ],
+   [
+    "Rhenoplos Scalp",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Monster Bone M",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Rhenoplos Shell",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "35%"
+   ],
+   [
+    "Rhenoplos Scalp",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Monster Bone M",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Rhenoplos Carapace",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "24%"
+   ],
+   [
+    "Rhenoplos Carapace",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x3",
+    "15%"
+   ],
+   [
+    "Rhenoplos Scalp",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "21%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x3",
+    "25%"
+   ],
+   [
+    "Monster Bone M",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "15%"
+   ],
+   [
+    "Rhenoplos Carapace",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "45%"
+   ],
+   [
+    "Rhenoplos Scalp",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Monster Bone M",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Rhenoplos Carapace",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "45%"
+   ],
+   [
+    "Rhenoplos Scalp",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Monster Bone M",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Rhenoplos Carapace",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "35%"
+   ],
+   [
+    "Rhenoplos Scalp",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Large Herbivore Bone",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Rhenoplos Carapace",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "35%"
+   ],
+   [
+    "Rhenoplos Scalp",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Large Herbivore Bone",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 248241955,
+  "name": "Slagtoth",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Slagtoth Oil",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "40%"
+   ],
+   [
+    "Slagtoth Hide",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "40%"
+   ],
+   [
+    "Monster Bone M",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "5%"
+   ],
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Slagtoth Oil",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "40%"
+   ],
+   [
+    "Slagtoth Hide",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "40%"
+   ],
+   [
+    "Monster Bone M",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "5%"
+   ],
+   [
+    "Raw Meat",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Slagtoth Oil",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "35%"
+   ],
+   [
+    "Slagtoth Hide+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "45%"
+   ],
+   [
+    "Monster Bone M",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "5%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Slagtoth Oil",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "35%"
+   ],
+   [
+    "Slagtoth Hide+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "45%"
+   ],
+   [
+    "Monster Bone+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "5%"
+   ],
+   [
+    "Raw Meat",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Slagtoth Oil",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "35%"
+   ],
+   [
+    "Slagtoth Hide+",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Large Herbivore Bone",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Slagtoth Oil",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "35%"
+   ],
+   [
+    "Slagtoth Hide+",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "Large Herbivore Bone",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Raw Meat",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 233991938,
+  "name": "Uroktor",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Uroktor Scale",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "72%"
+   ],
+   [
+    "Dragonfell Berry",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "10%"
+   ],
+   [
+    "Sharp Claw",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "18%"
+   ],
+   [
+    "Uroktor Scale",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "72%"
+   ],
+   [
+    "Dragonfell Berry",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "10%"
+   ],
+   [
+    "Sharp Claw",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "18%"
+   ],
+   [
+    "Uroktor Scale+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "10%"
+   ],
+   [
+    "Uroktor Scale+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "35%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "16%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "27%"
+   ],
+   [
+    "Dragonfell Berry",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x3",
+    "12%"
+   ],
+   [
+    "Uroktor Scale+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "72%"
+   ],
+   [
+    "Dragonfell Berry",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x2",
+    "10%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "18%"
+   ],
+   [
+    "Uroktor Scale+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "72%"
+   ],
+   [
+    "Dragonfell Berry",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x2",
+    "10%"
+   ],
+   [
+    "Piercing Claw",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "18%"
+   ],
+   [
+    "Uroktor Shard",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "66%"
+   ],
+   [
+    "Dragonfell Berry",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x2",
+    "10%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "24%"
+   ],
+   [
+    "Uroktor Shard",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "66%"
+   ],
+   [
+    "Dragonfell Berry",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x2",
+    "10%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "24%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 1637997251,
+  "name": "Velociprey",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "75",
+   "75",
+   "80",
+   "50",
+   "50",
+   "50",
+   "50",
+   "10",
+   "100"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 0"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "HitDamageRate: 1"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "MotionSpeedRate: 1.00"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "StunActivateLimit: 0\nStunActivateLimit: 0"
+   }
+  ],
+  "materialRows": [
+   [
+    "Velociprey Shard",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "9%"
+   ],
+   [
+    "Velociprey Shard",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "27%"
+   ],
+   [
+    "Velociprey Thickhide",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Velociprey Thickhide",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "31%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "21%"
+   ],
+   [
+    "Velociprey Shard",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "48%"
+   ],
+   [
+    "Velociprey Thickhide",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "20%"
+   ],
+   [
+    "Velociprey Shard",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "48%"
+   ],
+   [
+    "Velociprey Thickhide",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Tough Claw",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "20%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 1696451436,
+  "name": "Vespoid",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "83",
+   "87",
+   "85",
+   "100",
+   "50",
+   "50",
+   "10",
+   "0",
+   "100"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "10 +0 →100",
+    "decay": "5 / 10 sec",
+    "damage": "1050",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 0"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "HitDamageRate: 1"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "MotionSpeedRate: 1.00"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "0 +0 →0",
+    "decay": "0 / 0 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "StunActivateLimit: 0\nStunActivateLimit: 0"
+   }
+  ],
+  "materialRows": [
+   [
+    "Vespoid Cortex",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "10%"
+   ],
+   [
+    "Vespoid Cortex",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "26%"
+   ],
+   [
+    "Vespoid Razorwing",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Vespoid Razorwing",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "20%"
+   ],
+   [
+    "Vespoid Cortex",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "43%"
+   ],
+   [
+    "Vespoid Razorwing",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "32%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Vespoid Cortex",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "43%"
+   ],
+   [
+    "Vespoid Razorwing",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "32%"
+   ],
+   [
+    "Monster Essence",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 143032033,
+  "name": "Wroggi",
+  "species": null,
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Wroggi Scale",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "48%"
+   ],
+   [
+    "Wroggi Hide",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "37%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Wroggi Scale",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "48%"
+   ],
+   [
+    "Wroggi Hide",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "37%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Wroggi Scale+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "12%"
+   ],
+   [
+    "Wroggi Scale+",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "38%"
+   ],
+   [
+    "Wroggi Hide",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "16%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x4",
+    "12%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "22%"
+   ],
+   [
+    "Wroggi Scale+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "60%"
+   ],
+   [
+    "Wroggi Hide",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Wroggi Scale+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "60%"
+   ],
+   [
+    "Wroggi Hide",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ],
+   [
+    "Wroggi Scale+",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "50%"
+   ],
+   [
+    "Wroggi Hide",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Wroggi Scale+",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "50%"
+   ],
+   [
+    "Wroggi Hide",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ },
+ {
+  "id": 157265542,
+  "name": "Zamite",
+  "species": null,
+  "hitzoneRow": [
+   "Body",
+   "0",
+   "45",
+   "45",
+   "50",
+   "30",
+   "10",
+   "10",
+   "70",
+   "10",
+   "0"
+  ],
+  "ailments": [
+   {
+    "ailment": "Poison",
+    "buildup": "40 +30 →100",
+    "decay": "5 / 10 sec",
+    "damage": "350",
+    "duration": "35 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Paralysis",
+    "buildup": "20 +10 →40",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "15 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Sleep",
+    "buildup": "30 +20 →70",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "40 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Stun",
+    "buildup": "45 +25 →95",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "10 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Blast",
+    "buildup": "30 +10 →50",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "BlastDamage: 100"
+   },
+   {
+    "ailment": "Exhaust",
+    "buildup": "225 +75 →900",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "0 sec",
+    "other": "SubStamina: 150"
+   },
+   {
+    "ailment": "Fireblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "300",
+    "duration": "20 sec",
+    "other": "HitDamageRate: 1.5"
+   },
+   {
+    "ailment": "Waterblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": ""
+   },
+   {
+    "ailment": "Iceblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "MotionSpeedRate: 0.90"
+   },
+   {
+    "ailment": "Thunderblight",
+    "buildup": "180 +130 →570",
+    "decay": "5 / 10 sec",
+    "damage": "0",
+    "duration": "30 sec",
+    "other": "StunActivateLimit: 1\nStunActivateLimit: 1"
+   }
+  ],
+  "materialRows": [
+   [
+    "Meaty Hide",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "14%"
+   ],
+   [
+    "Meaty Hide",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "41%"
+   ],
+   [
+    "Sharqskin Scale",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x1",
+    "24%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Target Rewards",
+    "",
+    "x2",
+    "21%"
+   ],
+   [
+    "Meaty Hide",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "38%"
+   ],
+   [
+    "Sharqskin Scale",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "27%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "12%"
+   ],
+   [
+    "Monster Guts",
+    "Low Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "23%"
+   ],
+   [
+    "Meaty Hide",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "38%"
+   ],
+   [
+    "Sharqskin Scale",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "27%"
+   ],
+   [
+    "Sharp Fang",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "12%"
+   ],
+   [
+    "Monster Guts",
+    "Low Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "23%"
+   ],
+   [
+    "Meaty Hide+",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "40%"
+   ],
+   [
+    "Sharqskin Scale",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "30%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "17%"
+   ],
+   [
+    "Monster Guts",
+    "High Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "13%"
+   ],
+   [
+    "Meaty Hide+",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "40%"
+   ],
+   [
+    "Sharqskin Scale",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "30%"
+   ],
+   [
+    "Acute Fang",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "17%"
+   ],
+   [
+    "Monster Guts",
+    "High Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "13%"
+   ],
+   [
+    "Supple Piel",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "35%"
+   ],
+   [
+    "Sharqskin Scale",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "25%"
+   ],
+   [
+    "Monster Guts",
+    "Master Rank",
+    "Carves",
+    "Body",
+    "x1",
+    "15%"
+   ],
+   [
+    "Supple Piel",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "35%"
+   ],
+   [
+    "Sharqskin Scale",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Crushing Fang",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "25%"
+   ],
+   [
+    "Monster Guts",
+    "Master Rank",
+    "Items Obtained by Palico",
+    "",
+    "x1",
+    "15%"
+   ]
+  ],
+  "materialHeader": [
+   "Item",
+   "Quest Rank",
+   "Method",
+   "",
+   "Amount",
+   "Rate"
+  ]
+ }
+]

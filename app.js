@@ -274,8 +274,9 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes] = await Promise.all([
       fetch("data/monsters.json"),
+      fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
       fetch("data/material_obtain_notes.json"),
       fetch("data/weapons.json"),
@@ -292,6 +293,7 @@ async function init() {
     ]);
     if (!monstersRes.ok) throw new Error("HTTP " + monstersRes.status);
     monsters = await monstersRes.json();
+    if (smallRes.ok) monsters = monsters.concat(await smallRes.json());
     decorations = decorationsRes.ok ? await decorationsRes.json() : [];
     materialObtainNotes = obtainNotesRes.ok ? await obtainNotesRes.json() : {};
     weapons = weaponsRes.ok ? await weaponsRes.json() : [];
