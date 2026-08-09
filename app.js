@@ -725,6 +725,12 @@ const ARMOR_SET_IMG_OVERRIDES = {
   "Flaming Espinas Set": "flaming-espinas", "Lucent Narga Set": "lucent-narga",
   "Primordial Set": "primordial", "Risen Kaiser Set": "risen-kaiser", "Risen Kushala Set": "risen-kushala",
   "Risen Mizuha Set": "risen-mizuha",
+  "Squire's Set": "knight-squire", "Knight Squire Set": "knight-squire",
+  "Scholar's Set": "scholar", "Scholarly Set": "scholar",
+  "Golm Set": "garangolm", "Garangolm Set": "garangolm",
+  "Rakna Set": "rakna-kadaki", "Rakna X Set": "rakna-kadaki-x", "Rakna-Kadaki X Set": "rakna-kadaki-x",
+  "Utsushi Set": "utsushi-visible", "Utsushi True Set": "utsushi-true-visible", "Utsushi True (Hidden) Set": "utsushi-true-hidden", "Utsushi True (Visible) Set": "utsushi-true-visible", "Utsushi (Hidden) Set": "utsushi-hidden", "Utsushi (Visible) Set": "utsushi-visible",
+  "S. Studded Set": "", "S. Studded S Set": "", "S. Studded X Set": "",
 };
 function armorSetImg(name) {
   const override = ARMOR_SET_IMG_OVERRIDES[name];
@@ -761,8 +767,16 @@ function buildImpliedArmorGroups() {
     }
     i = j > i ? j : i + 1;
   }
-  impliedArmorGroupsCache = groups;
-  return groups;
+  // dedupe by prefix+pieces: armor_pieces.json lists some sets twice (Rakna,
+  // Utsushi, Valstrax, Mosgharl, Ibushi's, Narwa's, Golden, etc.)
+  const seen = new Set();
+  impliedArmorGroupsCache = groups.filter(g => {
+    const k = g.prefix + "|" + g.pieces.map(x => x.id).sort().join(",");
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+  return impliedArmorGroupsCache;
 }
 
 // tallies, across a list of {material, qty} rows, how many reference each
@@ -1838,9 +1852,10 @@ function renderArmorIndex(query) {
     if (avg >= 4) return 1; // High
     return 0; // Low
   }
+  const explicitNames = new Set(setMatches.map(s => s.name));
   const allSets = [
     ...setMatches.map(s => ({ name: s.name, image: s.localImage || s.image, rank: setRank(s.pieces.map(r => armorPieces.find(x => x.id === r.id)).filter(Boolean)), isSet: true })),
-    ...implied.map(g => ({ name: g.prefix + " Set", image: armorSetImg(g.prefix + " Set"), rank: setRank(g.pieces), isImplied: true })),
+    ...implied.filter(g => !explicitNames.has(g.prefix + " Set")).map(g => ({ name: g.prefix + " Set", image: armorSetImg(g.prefix + " Set"), rank: setRank(g.pieces), isImplied: true })),
   ];
 
   if (!allSets.length && !looseMatches.length) {
