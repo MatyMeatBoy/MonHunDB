@@ -2211,7 +2211,7 @@
   {
     "name": "Sinister Grudge Set",
     "image": "",
-    "localImage": null,
+    "localImage": "data/images/armor_sets/sinister-grudge.png",
     "pieces": [
       {
         "part": "head",
@@ -2333,6 +2333,4714 @@
         "part": "legs",
         "id": "840424069",
         "name": "Sinister Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Aknosom X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/aknosom-x-set.png",
+    "localImage": "data/images/armor_sets/aknosom-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "377572429",
+        "name": "Aknosom Helm X"
+      },
+      {
+        "part": "chest",
+        "id": "342969421",
+        "name": "Aknosom Mail X"
+      },
+      {
+        "part": "arms",
+        "id": "1784761421",
+        "name": "Aknosom Braces X"
+      },
+      {
+        "part": "waist",
+        "id": "1750158413",
+        "name": "Aknosom Coil X"
+      },
+      {
+        "part": "legs",
+        "id": "1849773133",
+        "name": "Aknosom Greaves X"
+      }
+    ]
+  },
+  {
+    "name": "Anjanath X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/anjanath-x-set.png",
+    "localImage": "data/images/armor_sets/anjanath-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "582776542",
+        "name": "Anjanath Helm X"
+      },
+      {
+        "part": "chest",
+        "id": "548173534",
+        "name": "Anjanath Mail X"
+      },
+      {
+        "part": "arms",
+        "id": "647788254",
+        "name": "Anjanath Vambraces X"
+      },
+      {
+        "part": "waist",
+        "id": "613185246",
+        "name": "Anjanath Coil X"
+      },
+      {
+        "part": "legs",
+        "id": "981235422",
+        "name": "Anjanath Greaves X"
+      }
+    ]
+  },
+  {
+    "name": "Auroracanth Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/auroracanth-set.png",
+    "localImage": "data/images/armor_sets/auroracanth.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1207262151",
+        "name": "Auroracanth Head"
+      },
+      {
+        "part": "chest",
+        "id": "1172659143",
+        "name": "Auroracanth Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1540709319",
+        "name": "Auroracanth Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1506106311",
+        "name": "Auroracanth Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1605721031",
+        "name": "Auroracanth Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Bnahabra X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/bnahabra-x-set.png",
+    "localImage": "data/images/armor_sets/bnahabra-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "211964464",
+        "name": "Bnahabra Hat X"
+      },
+      {
+        "part": "chest",
+        "id": "43143728",
+        "name": "Bnahabra Suit X"
+      },
+      {
+        "part": "arms",
+        "id": "8540720",
+        "name": "Bnahabra Gloves X"
+      },
+      {
+        "part": "waist",
+        "id": "108155440",
+        "name": "Bnahabra Coil X"
+      },
+      {
+        "part": "legs",
+        "id": "73552432",
+        "name": "Bnahabra Boots X"
+      }
+    ]
+  },
+  {
+    "name": "Death Stench X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/death-stench-x-set.png",
+    "localImage": "data/images/armor_sets/death-stench-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "2048073308",
+        "name": "Death Stench Brain X"
+      },
+      {
+        "part": "chest",
+        "id": "2013470300",
+        "name": "Death Stench Muscle X"
+      },
+      {
+        "part": "arms",
+        "id": "2146639452",
+        "name": "Death Stench Grip X"
+      },
+      {
+        "part": "waist",
+        "id": "2112036444",
+        "name": "Death Stench Bowels X"
+      },
+      {
+        "part": "legs",
+        "id": "1943215708",
+        "name": "Death Stench Heel X"
+      }
+    ]
+  },
+  {
+    "name": "Dober X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/dober-x-set.png",
+    "localImage": "data/images/armor_sets/dober-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "2096840474",
+        "name": "Dober Helm X"
+      },
+      {
+        "part": "chest",
+        "id": "1928019738",
+        "name": "Dober Mail X"
+      },
+      {
+        "part": "arms",
+        "id": "1893416730",
+        "name": "Dober Vambraces X"
+      },
+      {
+        "part": "waist",
+        "id": "1993031450",
+        "name": "Dober Coil X"
+      },
+      {
+        "part": "legs",
+        "id": "1958428442",
+        "name": "Dober Greaves X"
+      }
+    ]
+  },
+  {
+    "name": "Droth X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/droth-x-set.png",
+    "localImage": "data/images/armor_sets/droth-x.png",
+    "pieces": [
+      {
+        "part": "chest",
+        "id": "220602775",
+        "name": "Droth Mail X"
+      },
+      {
+        "part": "waist",
+        "id": "17179031",
+        "name": "Droth Coil X"
+      },
+      {
+        "part": "legs",
+        "id": "16130455",
+        "name": "Droth Greaves X"
+      }
+    ]
+  },
+  {
+    "name": "Edel X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/edel-x-set.png",
+    "localImage": "data/images/armor_sets/edel-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1644965303",
+        "name": "Edel Vizor X"
+      },
+      {
+        "part": "chest",
+        "id": "1643916727",
+        "name": "Edel Ribplate X"
+      },
+      {
+        "part": "arms",
+        "id": "1743531447",
+        "name": "Edel Creeper X"
+      },
+      {
+        "part": "waist",
+        "id": "1708928439",
+        "name": "Edel Folia X"
+      },
+      {
+        "part": "legs",
+        "id": "2076978615",
+        "name": "Edel Roots X"
+      }
+    ]
+  },
+  {
+    "name": "Flaming Espinas Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/flaming-espinas-set.png",
+    "localImage": "data/images/armor_sets/flaming-espinas.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1844481988",
+        "name": "Flaming Espinas Brain"
+      },
+      {
+        "part": "chest",
+        "id": "1675661252",
+        "name": "Flaming Espinas Muscle"
+      },
+      {
+        "part": "arms",
+        "id": "1641058244",
+        "name": "Flaming Espinas Grip"
+      },
+      {
+        "part": "waist",
+        "id": "1740672964",
+        "name": "Flaming Espinas Bowels"
+      },
+      {
+        "part": "legs",
+        "id": "1706069956",
+        "name": "Flaming Espinas Heel"
+      }
+    ]
+  },
+  {
+    "name": "Golden Lune Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/golden-lune-set.png",
+    "localImage": "data/images/armor_sets/golden-lune-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1662998567",
+        "name": "Golden Lunehelm"
+      },
+      {
+        "part": "chest",
+        "id": "1628395559",
+        "name": "Golden Lunemail"
+      },
+      {
+        "part": "arms",
+        "id": "1627346983",
+        "name": "Golden Lunebraces"
+      },
+      {
+        "part": "waist",
+        "id": "1726961703",
+        "name": "Golden Lunecoil"
+      },
+      {
+        "part": "legs",
+        "id": "1692358695",
+        "name": "Golden Lunegreaves"
+      }
+    ]
+  },
+  {
+    "name": "Goss Harag X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/goss-harag-x-set.png",
+    "localImage": "data/images/armor_sets/goss-harag-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "482866150",
+        "name": "Goss Harag Helm X"
+      },
+      {
+        "part": "chest",
+        "id": "314045414",
+        "name": "Goss Harag Mail X"
+      },
+      {
+        "part": "arms",
+        "id": "279442406",
+        "name": "Goss Harag Braces X"
+      },
+      {
+        "part": "waist",
+        "id": "379057126",
+        "name": "Goss Harag Coil X"
+      },
+      {
+        "part": "legs",
+        "id": "344454118",
+        "name": "Goss Harag Greaves X"
+      }
+    ]
+  },
+  {
+    "name": "Grand Mizuha Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/grand-mizuha-set.png",
+    "localImage": "data/images/armor_sets/grand-mizuha.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "92959486",
+        "name": "Grand Mizuha Mask"
+      },
+      {
+        "part": "arms",
+        "id": "461009662",
+        "name": "Grand Mizuha Guards"
+      },
+      {
+        "part": "waist",
+        "id": "526021374",
+        "name": "Grand Mizuha Sash"
+      },
+      {
+        "part": "legs",
+        "id": "491418366",
+        "name": "Grand Mizuha Leg Wrap"
+      }
+    ]
+  },
+  {
+    "name": "Guild Palace Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/guild-palace-set.png",
+    "localImage": "data/images/armor_sets/guild-palace.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1619740736",
+        "name": "Guild Palace Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1719355456",
+        "name": "Guild Palace Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1684752448",
+        "name": "Guild Palace Braces"
+      },
+      {
+        "part": "waist",
+        "id": "2052802624",
+        "name": "Guild Palace Coil"
+      },
+      {
+        "part": "legs",
+        "id": "2018199616",
+        "name": "Guild Palace Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Ingot X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/ingot-x-set.png",
+    "localImage": "data/images/armor_sets/ingot-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "2125848280",
+        "name": "Ingot Helm X"
+      },
+      {
+        "part": "chest",
+        "id": "2091245272",
+        "name": "Ingot Mail X"
+      },
+      {
+        "part": "arms",
+        "id": "1922424536",
+        "name": "Ingot Vambraces X"
+      },
+      {
+        "part": "waist",
+        "id": "1887821528",
+        "name": "Ingot Coil X"
+      },
+      {
+        "part": "legs",
+        "id": "1987436248",
+        "name": "Ingot Greaves X"
+      }
+    ]
+  },
+  {
+    "name": "Khezu X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/khezu-x-set.png",
+    "localImage": "data/images/armor_sets/khezu-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "838377711",
+        "name": "Khezu Helm X"
+      },
+      {
+        "part": "chest",
+        "id": "937992431",
+        "name": "Khezu Mail X"
+      },
+      {
+        "part": "arms",
+        "id": "903389423",
+        "name": "Khezu Vambraces X"
+      },
+      {
+        "part": "waist",
+        "id": "197697775",
+        "name": "Khezu Coil X"
+      },
+      {
+        "part": "legs",
+        "id": "163094767",
+        "name": "Khezu Greaves X"
+      }
+    ]
+  },
+  {
+    "name": "Kulu-Ya-Ku X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/kulu-ya-ku-x-set.png",
+    "localImage": "data/images/armor_sets/kulu-ya-ku-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "626472794",
+        "name": "Kulu-Ya-Ku Helm X"
+      },
+      {
+        "part": "chest",
+        "id": "994522970",
+        "name": "Kulu-Ya-Ku Mail X"
+      },
+      {
+        "part": "arms",
+        "id": "959919962",
+        "name": "Kulu-Ya-Ku Braces X"
+      },
+      {
+        "part": "waist",
+        "id": "1059534682",
+        "name": "Kulu-Ya-Ku Coil X"
+      },
+      {
+        "part": "legs",
+        "id": "1024931674",
+        "name": "Kulu-Ya-Ku Greaves X"
+      }
+    ]
+  },
+  {
+    "name": "Lecture Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/lecture-set.png",
+    "localImage": "data/images/armor_sets/lecture.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "2081827210",
+        "name": "Lecturer's Hood"
+      },
+      {
+        "part": "chest",
+        "id": "1913006474",
+        "name": "Lecturer's Suit"
+      },
+      {
+        "part": "arms",
+        "id": "1911957898",
+        "name": "Lecturer Gloves"
+      },
+      {
+        "part": "legs",
+        "id": "2011572618",
+        "name": "Lecturer's Skirt"
+      }
+    ]
+  },
+  {
+    "name": "Onmyo Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/onmyo-set.png",
+    "localImage": "data/images/armor_sets/onmyo.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1533105248",
+        "name": "Onmyo Toukan"
+      },
+      {
+        "part": "chest",
+        "id": "1498502240",
+        "name": "Onmyo Kariginu"
+      },
+      {
+        "part": "arms",
+        "id": "1598116960",
+        "name": "Onmyo Tekkou"
+      },
+      {
+        "part": "waist",
+        "id": "1563513952",
+        "name": "Onmyo Ateobi"
+      },
+      {
+        "part": "legs",
+        "id": "1394693216",
+        "name": "Onmyo Sashiko"
+      }
+    ]
+  },
+  {
+    "name": "Orangaten Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/orangaten-set.png",
+    "localImage": "data/images/armor_sets/orangaten.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1158935590",
+        "name": "Orangaten Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1526985766",
+        "name": "Orangaten Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1525937190",
+        "name": "Orangaten Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1491334182",
+        "name": "Orangaten Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1590948902",
+        "name": "Orangaten Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Pride Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/pride-set.png",
+    "localImage": "data/images/armor_sets/pride.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1129487195",
+        "name": "Pride Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1094884187",
+        "name": "Pride Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1194498907",
+        "name": "Pride Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "1159895899",
+        "name": "Pride Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1527946075",
+        "name": "Pride Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Primordial Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/primordial-set.png",
+    "localImage": "data/images/armor_sets/primordial.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1595344668",
+        "name": "Primordial Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1560741660",
+        "name": "Primordial Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1559693084",
+        "name": "Primordial Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "1390872348",
+        "name": "Primordial Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1356269340",
+        "name": "Primordial Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Professor Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/professor-set.png",
+    "localImage": "data/images/armor_sets/professor.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1996376688",
+        "name": "Professor's Goggles"
+      },
+      {
+        "part": "chest",
+        "id": "1961773680",
+        "name": "Professor's Jacket"
+      },
+      {
+        "part": "arms",
+        "id": "1256082032",
+        "name": "Professor's Mittens"
+      },
+      {
+        "part": "waist",
+        "id": "1221479024",
+        "name": "Professor's Bottoms"
+      },
+      {
+        "part": "legs",
+        "id": "1321093744",
+        "name": "Professor's Boots"
+      }
+    ]
+  },
+  {
+    "name": "Prudence Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/prudence-set.png",
+    "localImage": "data/images/armor_sets/prudence.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1148995216",
+        "name": "Prudence Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1517045392",
+        "name": "Prudence Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1482442384",
+        "name": "Prudence Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1582057104",
+        "name": "Prudence Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1547454096",
+        "name": "Prudence Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Pukei-Pukei X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/pukei-pukei-x-set.png",
+    "localImage": "data/images/armor_sets/pukei-pukei-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "640182139",
+        "name": "Pukei-Pukei Helm X"
+      },
+      {
+        "part": "chest",
+        "id": "605579131",
+        "name": "Pukei-Pukei Mail X"
+      },
+      {
+        "part": "arms",
+        "id": "973629307",
+        "name": "Pukei-Pukei Braces X"
+      },
+      {
+        "part": "waist",
+        "id": "972580731",
+        "name": "Pukei-Pukei Coil X"
+      }
+    ]
+  },
+  {
+    "name": "Rhopessa X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/rhopessa-x-set.png",
+    "localImage": "data/images/armor_sets/rhopessa-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1735941584",
+        "name": "Rhopessa Vertex X"
+      },
+      {
+        "part": "chest",
+        "id": "1701338576",
+        "name": "Rhopessa Thorax X"
+      },
+      {
+        "part": "arms",
+        "id": "2069388752",
+        "name": "Rhopessa Brachia X"
+      },
+      {
+        "part": "waist",
+        "id": "2034785744",
+        "name": "Rhopessa Elytra X"
+      },
+      {
+        "part": "legs",
+        "id": "2134400464",
+        "name": "Rhopessa Crura X"
+      }
+    ]
+  },
+  {
+    "name": "Rimeguard Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/rimeguard-set.png",
+    "localImage": "data/images/armor_sets/rimeguard.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1403635608",
+        "name": "Rimeguard Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1369032600",
+        "name": "Rimeguard Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1468647320",
+        "name": "Rimeguard Gloves"
+      },
+      {
+        "part": "waist",
+        "id": "1434044312",
+        "name": "Rimeguard Coil"
+      },
+      {
+        "part": "legs",
+        "id": "728352664",
+        "name": "Rimeguard Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Risen Kaiser Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/risen-kaiser-set.png",
+    "localImage": "data/images/armor_sets/risen-kaiser.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1433096295",
+        "name": "Risen Kaiser Horns"
+      },
+      {
+        "part": "chest",
+        "id": "727404647",
+        "name": "Risen Kaiser Mail"
+      },
+      {
+        "part": "arms",
+        "id": "692801639",
+        "name": "Risen Kaiser Braces"
+      },
+      {
+        "part": "waist",
+        "id": "792416359",
+        "name": "Risen Kaiser Coil"
+      },
+      {
+        "part": "legs",
+        "id": "757813351",
+        "name": "Risen Kaiser Cuisse"
+      }
+    ]
+  },
+  {
+    "name": "Risen Kushala Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/risen-kushala-set.png",
+    "localImage": "data/images/armor_sets/risen-kushala.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1418846278",
+        "name": "Risen Kushala Glare"
+      },
+      {
+        "part": "chest",
+        "id": "713154630",
+        "name": "Risen Kushala Iram"
+      },
+      {
+        "part": "arms",
+        "id": "678551622",
+        "name": "Risen Kushala Grande"
+      },
+      {
+        "part": "waist",
+        "id": "778166342",
+        "name": "Risen Kushala Cocoon"
+      },
+      {
+        "part": "legs",
+        "id": "743563334",
+        "name": "Risen Kushala Crus"
+      }
+    ]
+  },
+  {
+    "name": "Risen Mizuha Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/risen-mizuha-set.png",
+    "localImage": "data/images/armor_sets/risen-mizuha.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "733524129",
+        "name": "Risen Mizuha Headdress"
+      },
+      {
+        "part": "chest",
+        "id": "698921121",
+        "name": "Risen Mizuha Robes"
+      },
+      {
+        "part": "arms",
+        "id": "798535841",
+        "name": "Risen Mizuha Sleeves"
+      },
+      {
+        "part": "waist",
+        "id": "763932833",
+        "name": "Risen Mizuha Sash"
+      },
+      {
+        "part": "legs",
+        "id": "595112097",
+        "name": "Risen Mizuha Gaiters"
+      }
+    ]
+  },
+  {
+    "name": "Scholar Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/scholar-set.png",
+    "localImage": "data/images/armor_sets/scholar.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1904368087",
+        "name": "Scholar's Beret"
+      },
+      {
+        "part": "chest",
+        "id": "2003982807",
+        "name": "Scholar's Blouse"
+      },
+      {
+        "part": "arms",
+        "id": "1969379799",
+        "name": "Scholar's Gloves"
+      },
+      {
+        "part": "waist",
+        "id": "1263688151",
+        "name": "Scholar's Skirt"
+      },
+      {
+        "part": "legs",
+        "id": "1229085143",
+        "name": "Scholar's Socks"
+      }
+    ]
+  },
+  {
+    "name": "Silver Sol Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/silver-sol-set.png",
+    "localImage": "data/images/armor_sets/silver-sol.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1648748550",
+        "name": "Silver Solhelm"
+      },
+      {
+        "part": "chest",
+        "id": "1614145542",
+        "name": "Silver Solmail"
+      },
+      {
+        "part": "arms",
+        "id": "1713760262",
+        "name": "Silver Solbraces"
+      },
+      {
+        "part": "waist",
+        "id": "1679157254",
+        "name": "Silver Solcoil"
+      },
+      {
+        "part": "legs",
+        "id": "2047207430",
+        "name": "Silver Solgreaves"
+      }
+    ]
+  },
+  {
+    "name": "Storge Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/storge-set.png",
+    "localImage": "data/images/armor_sets/storge.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1490896013",
+        "name": "Storge Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1590510733",
+        "name": "Storge Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1555907725",
+        "name": "Storge Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "1387086989",
+        "name": "Storge Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1352483981",
+        "name": "Storge Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Tempest Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/tempest-set.png",
+    "localImage": "data/images/armor_sets/tempest.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1566861150",
+        "name": "Tempest Crown"
+      },
+      {
+        "part": "chest",
+        "id": "1398040414",
+        "name": "Tempest Robe"
+      },
+      {
+        "part": "arms",
+        "id": "1363437406",
+        "name": "Tempest Sleeves"
+      },
+      {
+        "part": "waist",
+        "id": "1463052126",
+        "name": "Tempest Obi"
+      },
+      {
+        "part": "legs",
+        "id": "1428449118",
+        "name": "Tempest Hakama"
+      }
+    ]
+  },
+  {
+    "name": "Tetranadon X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/tetranadon-x-set.png",
+    "localImage": "data/images/armor_sets/tetranadon-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "391822434",
+        "name": "Tetranadon Helm X"
+      },
+      {
+        "part": "chest",
+        "id": "357219426",
+        "name": "Tetranadon Mail X"
+      },
+      {
+        "part": "arms",
+        "id": "1799011426",
+        "name": "Tetranadon Braces X"
+      },
+      {
+        "part": "waist",
+        "id": "1764408418",
+        "name": "Tetranadon Coil X"
+      },
+      {
+        "part": "legs",
+        "id": "1864023138",
+        "name": "Tetranadon Greaves x"
+      }
+    ]
+  },
+  {
+    "name": "Velociprey Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/velociprey-set.png",
+    "localImage": "data/images/armor_sets/velociprey.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1248492189",
+        "name": "Velociprey Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1213889181",
+        "name": "Velociprey Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1313503901",
+        "name": "Velociprey Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1278900893",
+        "name": "Velociprey Tassets"
+      },
+      {
+        "part": "legs",
+        "id": "1110080157",
+        "name": "Velociprey Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Virtue Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/virtue-set.png",
+    "localImage": "data/images/armor_sets/virtue.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1581111167",
+        "name": "Virtue Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1546508159",
+        "name": "Virtue Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1377687423",
+        "name": "Virtue Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1343084415",
+        "name": "Virtue Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1476253567",
+        "name": "Virtue Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Volvidon X Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/volvidon-x-set.png",
+    "localImage": "data/images/armor_sets/volvidon-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "896848136",
+        "name": "Volvidon Helm X"
+      },
+      {
+        "part": "chest",
+        "id": "191156488",
+        "name": "Volvidon Mail X"
+      },
+      {
+        "part": "arms",
+        "id": "156553480",
+        "name": "Volvidon Vambraces X"
+      },
+      {
+        "part": "waist",
+        "id": "256168200",
+        "name": "Volvidon Coil X"
+      },
+      {
+        "part": "legs",
+        "id": "221565192",
+        "name": "Volvidon Greaves X"
+      }
+    ]
+  },
+  {
+    "name": "Aelucanth S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/aelucanth-s-set.png",
+    "localImage": "data/images/armor_sets/aelucanth-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "841795795",
+        "name": "Aelucanth Vertex S"
+      },
+      {
+        "part": "chest",
+        "id": "807192787",
+        "name": "Aelucanth Thorax S"
+      },
+      {
+        "part": "arms",
+        "id": "906807507",
+        "name": "Aelucanth Brachia S"
+      },
+      {
+        "part": "waist",
+        "id": "905758931",
+        "name": "Aelucanth Elytra S"
+      },
+      {
+        "part": "legs",
+        "id": "200067283",
+        "name": "Aelucanth Crura S"
+      }
+    ]
+  },
+  {
+    "name": "Aknosom S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/aknosom-s-set.png",
+    "localImage": "data/images/armor_sets/aknosom-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1407815103",
+        "name": "Aknosom Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1373212095",
+        "name": "Aknosom Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1472826815",
+        "name": "Aknosom Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "1438223807",
+        "name": "Aknosom Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "732532159",
+        "name": "Aknosom Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Alloy S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/alloy-s-set.png",
+    "localImage": "data/images/armor_sets/alloy-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "23673568",
+        "name": "Alloy Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "123288288",
+        "name": "Alloy Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "88685280",
+        "name": "Alloy Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "456735456",
+        "name": "Alloy Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "422132448",
+        "name": "Alloy Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Almudron S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/almudron-s-set.png",
+    "localImage": "data/images/armor_sets/almudron-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1181658229",
+        "name": "Almudron Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1147055221",
+        "name": "Almudron Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1515105397",
+        "name": "Almudron Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "1480502389",
+        "name": "Almudron Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1580117109",
+        "name": "Almudron Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Anja S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/anja-s-set.png",
+    "localImage": "data/images/armor_sets/anjanath-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "875029513",
+        "name": "Anjanath Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "169337865",
+        "name": "Anjanath Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "134734857",
+        "name": "Anjanath Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "267904009",
+        "name": "Anjanath Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "233301001",
+        "name": "Anjanath Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Arzuros S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/arzuros-s-set.png",
+    "localImage": "data/images/armor_sets/arzuros-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1818890314",
+        "name": "Arzuros Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1650069578",
+        "name": "Arzuros Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1615466570",
+        "name": "Arzuros Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "1715081290",
+        "name": "Arzuros Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1680478282",
+        "name": "Arzuros Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Baggi S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/baggi-s-set.png",
+    "localImage": "data/images/armor_sets/baggi-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1656713396",
+        "name": "Baggi Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1622110388",
+        "name": "Baggi Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1721725108",
+        "name": "Baggi Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "1687122100",
+        "name": "Baggi Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "2055172276",
+        "name": "Baggi Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Barioth S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/barioth-s-set.png",
+    "localImage": "data/images/armor_sets/barioth-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "312071878",
+        "name": "Barioth Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "277468870",
+        "name": "Barioth Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "377083590",
+        "name": "Barioth Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "342480582",
+        "name": "Barioth Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1784272582",
+        "name": "Barioth Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Barroth S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/barroth-s-set.png",
+    "localImage": "data/images/armor_sets/barroth-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1803679628",
+        "name": "Barroth Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1769076620",
+        "name": "Barroth Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1868691340",
+        "name": "Barroth Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "1834088332",
+        "name": "Barroth Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1665267596",
+        "name": "Barroth Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Basarios S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/basarios-s-set.png",
+    "localImage": "data/images/armor_sets/basarios-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "85915036",
+        "name": "Basarios Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "453965212",
+        "name": "Basarios Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "452916636",
+        "name": "Basarios Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "418313628",
+        "name": "Basarios Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "517928348",
+        "name": "Basarios Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Bazel Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/bazel-set.png",
+    "localImage": "data/images/armor_sets/bazelgeuse.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "922309678",
+        "name": "Bazelgeuse Helm"
+      },
+      {
+        "part": "chest",
+        "id": "887706670",
+        "name": "Bazelgeuse Mail"
+      },
+      {
+        "part": "arms",
+        "id": "182015022",
+        "name": "Bazelgeuse Braces"
+      },
+      {
+        "part": "waist",
+        "id": "147412014",
+        "name": "Bazelgeuse Coil"
+      },
+      {
+        "part": "legs",
+        "id": "247026734",
+        "name": "Bazelgeuse Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Bishaten S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/bishaten-s-set.png",
+    "localImage": "data/images/armor_sets/bishaten-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1346301433",
+        "name": "Bishaten Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1445916153",
+        "name": "Bishaten Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1411313145",
+        "name": "Bishaten Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "705621497",
+        "name": "Bishaten Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "704572921",
+        "name": "Bishaten Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Bnahabra S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/bnahabra-s-set.png",
+    "localImage": "data/images/armor_sets/bnahabra-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "2089792056",
+        "name": "Bnahabra Hat S"
+      },
+      {
+        "part": "chest",
+        "id": "1920971320",
+        "name": "Bnahabra Suit S"
+      },
+      {
+        "part": "arms",
+        "id": "1886368312",
+        "name": "Bnahabra Gloves S"
+      },
+      {
+        "part": "waist",
+        "id": "1985983032",
+        "name": "Bnahabra Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1951380024",
+        "name": "Bnahabra Boots S"
+      }
+    ]
+  },
+  {
+    "name": "Bone S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/bone-s-set.png",
+    "localImage": "data/images/armor_sets/bone-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "666704409",
+        "name": "Bone Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "632101401",
+        "name": "Bone Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1000151577",
+        "name": "Bone Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "965548569",
+        "name": "Bone Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1065163289",
+        "name": "Bone Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Brigade S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/brigade-s-set.png",
+    "localImage": "data/images/armor_sets/brigade-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "785709395",
+        "name": "Brigade Lobos S"
+      },
+      {
+        "part": "chest",
+        "id": "751106387",
+        "name": "Brigade Suit S"
+      },
+      {
+        "part": "arms",
+        "id": "582285651",
+        "name": "Brigade Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "547682643",
+        "name": "Brigade Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "647297363",
+        "name": "Brigade Boots S"
+      }
+    ]
+  },
+  {
+    "name": "Chainmail S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/chainmail-s-set.png",
+    "localImage": "data/images/armor_sets/chainmail-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "455773007",
+        "name": "Chainmail Headgear S"
+      },
+      {
+        "part": "chest",
+        "id": "421169999",
+        "name": "Chainmail Vest S"
+      },
+      {
+        "part": "arms",
+        "id": "520784719",
+        "name": "Chainmail Gloves S"
+      },
+      {
+        "part": "waist",
+        "id": "519736143",
+        "name": "Chainmail Belt S"
+      },
+      {
+        "part": "legs",
+        "id": "485133135",
+        "name": "Chainmail Pants S"
+      }
+    ]
+  },
+  {
+    "name": "Channeler S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/channeler-s-set.png",
+    "localImage": "data/images/armor_sets/channeler.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "767151907",
+        "name": "Channeler's Hair-tie S"
+      },
+      {
+        "part": "chest",
+        "id": "598331171",
+        "name": "Channeler's Robe S"
+      },
+      {
+        "part": "arms",
+        "id": "563728163",
+        "name": "Channeler's Hope S"
+      },
+      {
+        "part": "waist",
+        "id": "663342883",
+        "name": "Channeler's Obi S"
+      },
+      {
+        "part": "legs",
+        "id": "628739875",
+        "name": "Channeler's Hakama S"
+      }
+    ]
+  },
+  {
+    "name": "Damascus Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/damascus-set.png",
+    "localImage": "data/images/armor_sets/damascus.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "234687047",
+        "name": "Damascus Helm"
+      },
+      {
+        "part": "chest",
+        "id": "65866311",
+        "name": "Damascus Mail"
+      },
+      {
+        "part": "arms",
+        "id": "31263303",
+        "name": "Damascus Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "130878023",
+        "name": "Damascus Coil"
+      },
+      {
+        "part": "legs",
+        "id": "96275015",
+        "name": "Damascus Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Death Stench S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/death-stench-s-set.png",
+    "localImage": "data/images/armor_sets/death-stench-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "185919897",
+        "name": "Death Stench Brain S"
+      },
+      {
+        "part": "chest",
+        "id": "151316889",
+        "name": "Death Stench Muscle S"
+      },
+      {
+        "part": "arms",
+        "id": "150268313",
+        "name": "Death Stench Grip S"
+      },
+      {
+        "part": "waist",
+        "id": "249883033",
+        "name": "Death Stench Bowels S"
+      },
+      {
+        "part": "legs",
+        "id": "215280025",
+        "name": "Death Stench Heel S"
+      }
+    ]
+  },
+  {
+    "name": "Diablos S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/diablos-s-set.png",
+    "localImage": "data/images/armor_sets/diablos-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "460084702",
+        "name": "Diablos Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "425481694",
+        "name": "Diablos Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "525096414",
+        "name": "Diablos Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "490493406",
+        "name": "Diablos Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "321672670",
+        "name": "Diablos Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Dober Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/dober-set.png",
+    "localImage": "data/images/armor_sets/dober.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "129932066",
+        "name": "Dober Helm"
+      },
+      {
+        "part": "chest",
+        "id": "95329058",
+        "name": "Dober Mail"
+      },
+      {
+        "part": "arms",
+        "id": "463379234",
+        "name": "Dober Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "428776226",
+        "name": "Dober Coil"
+      },
+      {
+        "part": "legs",
+        "id": "528390946",
+        "name": "Dober Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Droth S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/droth-s-set.png",
+    "localImage": "data/images/armor_sets/droth-s.png",
+    "pieces": [
+      {
+        "part": "chest",
+        "id": "2039976306",
+        "name": "Droth Mail S"
+      },
+      {
+        "part": "waist",
+        "id": "2104988018",
+        "name": "Droth Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1936167282",
+        "name": "Droth Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Edel S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/edel-s-set.png",
+    "localImage": "data/images/armor_sets/edel-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "620185643",
+        "name": "Edel Vizor S"
+      },
+      {
+        "part": "chest",
+        "id": "988235819",
+        "name": "Edel Ribplate S"
+      },
+      {
+        "part": "arms",
+        "id": "953632811",
+        "name": "Edel Creeper S"
+      },
+      {
+        "part": "waist",
+        "id": "1053247531",
+        "name": "Edel Folia S"
+      },
+      {
+        "part": "legs",
+        "id": "1018644523",
+        "name": "Edel Roots S"
+      }
+    ]
+  },
+  {
+    "name": "Golden Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/golden-set.png",
+    "localImage": "data/images/armor_sets/golden.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "27444595",
+        "name": "Golden Headdress"
+      },
+      {
+        "part": "chest",
+        "id": "127059315",
+        "name": "Golden Haori"
+      },
+      {
+        "part": "arms",
+        "id": "92456307",
+        "name": "Golden Kote"
+      },
+      {
+        "part": "waist",
+        "id": "460506483",
+        "name": "Golden Obi"
+      },
+      {
+        "part": "legs",
+        "id": "425903475",
+        "name": "Golden Hakama"
+      }
+    ]
+  },
+  {
+    "name": "Goss Harag S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/goss-harag-s-set.png",
+    "localImage": "data/images/armor_sets/goss-harag-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1153174711",
+        "name": "Goss Harag Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1521224887",
+        "name": "Goss Harag Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1486621879",
+        "name": "Goss Harag Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "1586236599",
+        "name": "Goss Harag Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1551633591",
+        "name": "Goss Harag Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Hunter S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/hunter-s-set.png",
+    "localImage": "data/images/armor_sets/hunter-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "115682061",
+        "name": "Hunter's Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "81079053",
+        "name": "Hunter's Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "449129229",
+        "name": "Hunter's Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "414526221",
+        "name": "Hunter's Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "514140941",
+        "name": "Hunter's Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Ibushi Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/ibushi-set.png",
+    "localImage": "data/images/armor_sets/ibushi.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1195383914",
+        "name": "Ibushi's Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1160780906",
+        "name": "Ibushi's Breastplate"
+      },
+      {
+        "part": "arms",
+        "id": "1528831082",
+        "name": "Ibushi's Pauldrons"
+      },
+      {
+        "part": "waist",
+        "id": "1494228074",
+        "name": "Ibushi's Fauld"
+      },
+      {
+        "part": "legs",
+        "id": "1593842794",
+        "name": "Ibushi's Foot"
+      }
+    ]
+  },
+  {
+    "name": "Ingot S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/ingot-s-set.png",
+    "localImage": "data/images/armor_sets/ingot-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "52157094",
+        "name": "Ingot Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "17554086",
+        "name": "Ingot Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "16505510",
+        "name": "Ingot Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "116120230",
+        "name": "Ingot Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "81517222",
+        "name": "Ingot Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Izuchi S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/izuchi-s-set.png",
+    "localImage": "data/images/armor_sets/izuchi-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1300661135",
+        "name": "Izuchi Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1131840399",
+        "name": "Izuchi Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1097237391",
+        "name": "Izuchi Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "1196852111",
+        "name": "Izuchi Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1162249103",
+        "name": "Izuchi Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Jelly S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/jelly-s-set.png",
+    "localImage": "data/images/armor_sets/jelly-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1452035643",
+        "name": "Jelly Hat S"
+      },
+      {
+        "part": "chest",
+        "id": "1417432635",
+        "name": "Jelly Vest S"
+      },
+      {
+        "part": "arms",
+        "id": "711740987",
+        "name": "Jelly Gloves S"
+      },
+      {
+        "part": "waist",
+        "id": "677137979",
+        "name": "Jelly Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "776752699",
+        "name": "Jelly Boots S"
+      }
+    ]
+  },
+  {
+    "name": "Jyura Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/jyura-set.png",
+    "localImage": "data/images/armor_sets/jyuratodus.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "146449589",
+        "name": "Jyuratodus Helm"
+      },
+      {
+        "part": "chest",
+        "id": "246064309",
+        "name": "Jyuratodus Mail"
+      },
+      {
+        "part": "arms",
+        "id": "211461301",
+        "name": "Jyuratodus Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "42640565",
+        "name": "Jyuratodus Coil"
+      },
+      {
+        "part": "legs",
+        "id": "8037557",
+        "name": "Jyuratodus Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Kadachi S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/kadachi-s-set.png",
+    "localImage": "data/images/armor_sets/tobi-kadachi-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "175457355",
+        "name": "Kadachi Helm S"
+      },
+      {
+        "part": "arms",
+        "id": "240469067",
+        "name": "Kadachi Braces S"
+      },
+      {
+        "part": "legs",
+        "id": "37045323",
+        "name": "Kadachi Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Kamura S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/kamura-s-set.png",
+    "localImage": "data/images/armor_sets/kamura-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "533547979",
+        "name": "Kamura Head Scarf S"
+      },
+      {
+        "part": "chest",
+        "id": "498944971",
+        "name": "Kamura Garb S"
+      },
+      {
+        "part": "arms",
+        "id": "330124235",
+        "name": "Kamura Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "295521227",
+        "name": "Kamura Obi S"
+      },
+      {
+        "part": "legs",
+        "id": "395135947",
+        "name": "Kamura Leggings S"
+      }
+    ]
+  },
+  {
+    "name": "Kaiser Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/kaiser-set.png",
+    "localImage": "data/images/armor_sets/kaiser.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1208652642",
+        "name": "Kaiser Crown"
+      },
+      {
+        "part": "chest",
+        "id": "1341821794",
+        "name": "Kaiser Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1307218786",
+        "name": "Kaiser Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "1138398050",
+        "name": "Kaiser Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1103795042",
+        "name": "Kaiser Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Khezu S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/khezu-s-set.png",
+    "localImage": "data/images/armor_sets/khezu-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "356292418",
+        "name": "Khezu Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1798084418",
+        "name": "Khezu Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1763481410",
+        "name": "Khezu Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "1863096130",
+        "name": "Khezu Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1862047554",
+        "name": "Khezu Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Kulu S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/kulu-s-set.png",
+    "localImage": "data/images/armor_sets/kulu-ya-ku-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "204920022",
+        "name": "Kulu-Ya-Ku Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "36099286",
+        "name": "Kulu-Ya-Ku Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1496278",
+        "name": "Kulu-Ya-Ku Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "101110998",
+        "name": "Kulu-Ya-Ku Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "100062422",
+        "name": "Kulu-Ya-Ku Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Kushala Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/kushala-set.png",
+    "localImage": "data/images/armor_sets/kushala.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1314911148",
+        "name": "Kushala Glare"
+      },
+      {
+        "part": "chest",
+        "id": "1280308140",
+        "name": "Kushala Cista"
+      },
+      {
+        "part": "arms",
+        "id": "1111487404",
+        "name": "Kushala Grip"
+      },
+      {
+        "part": "waist",
+        "id": "1076884396",
+        "name": "Kushala Cocoon"
+      },
+      {
+        "part": "legs",
+        "id": "1176499116",
+        "name": "Kushala Crus"
+      }
+    ]
+  },
+  {
+    "name": "Lagombi S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/lagombi-s-set.png",
+    "localImage": "data/images/armor_sets/lagombi-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "604142171",
+        "name": "Lagombi Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1005746779",
+        "name": "Lagombi Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "971143771",
+        "name": "Lagombi Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "1070758491",
+        "name": "Lagombi Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1036155483",
+        "name": "Lagombi Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Leather S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/leather-s-set.png",
+    "localImage": "data/images/armor_sets/leather-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "427813769",
+        "name": "Leather Headgear S"
+      },
+      {
+        "part": "chest",
+        "id": "527428489",
+        "name": "Leather Vest S"
+      },
+      {
+        "part": "arms",
+        "id": "492825481",
+        "name": "Leather Gloves S"
+      },
+      {
+        "part": "waist",
+        "id": "324004745",
+        "name": "Leather Belt S"
+      },
+      {
+        "part": "legs",
+        "id": "289401737",
+        "name": "Leather Pants S"
+      }
+    ]
+  },
+  {
+    "name": "Ludroth S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/ludroth-s-set.png",
+    "localImage": "data/images/armor_sets/ludroth-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1775720398",
+        "name": "Ludroth Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1875335118",
+        "name": "Ludroth Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1840732110",
+        "name": "Ludroth Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "1671911374",
+        "name": "Ludroth Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1637308366",
+        "name": "Ludroth Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Makluva S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/makluva-s-set.png",
+    "localImage": "data/images/armor_sets/makluva-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "156912091",
+        "name": "Makluva Hood S"
+      },
+      {
+        "part": "chest",
+        "id": "256526811",
+        "name": "Makluva Cover S"
+      },
+      {
+        "part": "arms",
+        "id": "221923803",
+        "name": "Makluva Sleeves S"
+      },
+      {
+        "part": "waist",
+        "id": "53103067",
+        "name": "Makluva Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "18500059",
+        "name": "Makluva Pants S"
+      }
+    ]
+  },
+  {
+    "name": "Medium S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/medium-s-set.png",
+    "localImage": "data/images/armor_sets/medium-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "690425511",
+        "name": "Medium's Hair-tie S"
+      },
+      {
+        "part": "chest",
+        "id": "790040231",
+        "name": "Medium's Robe S"
+      },
+      {
+        "part": "arms",
+        "id": "755437223",
+        "name": "Medium's Prayer S"
+      },
+      {
+        "part": "waist",
+        "id": "754388647",
+        "name": "Medium's Obi S"
+      },
+      {
+        "part": "legs",
+        "id": "585567911",
+        "name": "Medium's Hakama S"
+      }
+    ]
+  },
+  {
+    "name": "Mizuha Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/mizuha-set.png",
+    "localImage": "data/images/armor_sets/mizuha.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1328620365",
+        "name": "Mizuha Cap"
+      },
+      {
+        "part": "arms",
+        "id": "1294017357",
+        "name": "Mizuha Guards"
+      },
+      {
+        "part": "waist",
+        "id": "1090593613",
+        "name": "Mizuha Sash"
+      },
+      {
+        "part": "legs",
+        "id": "1089545037",
+        "name": "Mizuha Gaiters"
+      }
+    ]
+  },
+  {
+    "name": "Mizutsune S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/mizutsune-s-set.png",
+    "localImage": "data/images/armor_sets/mizutsune-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "560970207",
+        "name": "Mizutsune Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "660584927",
+        "name": "Mizutsune Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "625981919",
+        "name": "Mizutsune Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "994032095",
+        "name": "Mizutsune Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "959429087",
+        "name": "Mizutsune Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Nargacuga S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/nargacuga-s-set.png",
+    "localImage": "data/images/armor_sets/nargacuga-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "284112640",
+        "name": "Nargacuga Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "383727360",
+        "name": "Nargacuga Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "349124352",
+        "name": "Nargacuga Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "1790916352",
+        "name": "Nargacuga Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1756313344",
+        "name": "Nargacuga Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Narwa Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/narwa-set.png",
+    "localImage": "data/images/armor_sets/narwa.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1123204136",
+        "name": "Narwa's Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1088601128",
+        "name": "Narwa's Breastplate"
+      },
+      {
+        "part": "arms",
+        "id": "1188215848",
+        "name": "Narwa's Pauldrons"
+      },
+      {
+        "part": "waist",
+        "id": "1153612840",
+        "name": "Narwa's Fauld"
+      },
+      {
+        "part": "legs",
+        "id": "1521663016",
+        "name": "Narwa's Foot"
+      }
+    ]
+  },
+  {
+    "name": "Pukei S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/pukei-s-set.png",
+    "localImage": "data/images/armor_sets/pukei-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "266433684",
+        "name": "Pukei-Pukei Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "231830676",
+        "name": "Pukei-Pukei Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "63009940",
+        "name": "Pukei-Pukei Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "28406932",
+        "name": "Pukei-Pukei Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "128021652",
+        "name": "Pukei Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Rathalos S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/rathalos-s-set.png",
+    "localImage": "data/images/armor_sets/rathalos-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "503780954",
+        "name": "Rathalos Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "502732378",
+        "name": "Rathalos Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "333911642",
+        "name": "Rathalos Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "299308634",
+        "name": "Rathalos Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "398923354",
+        "name": "Rathalos Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Rathian S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/rathian-s-set.png",
+    "localImage": "data/images/armor_sets/rathian-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "475297412",
+        "name": "Rathian Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "306476676",
+        "name": "Rathian Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "271873668",
+        "name": "Rathian Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "371488388",
+        "name": "Rathian Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "336885380",
+        "name": "Rathian Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Remobra S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/remobra-s-set.png",
+    "localImage": "data/images/armor_sets/remobra-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "2046095804",
+        "name": "Remobra Headgear S"
+      },
+      {
+        "part": "chest",
+        "id": "2145710524",
+        "name": "Remobra Suit S"
+      },
+      {
+        "part": "arms",
+        "id": "2111107516",
+        "name": "Remobra Gloves S"
+      },
+      {
+        "part": "waist",
+        "id": "1942286780",
+        "name": "Remobra Belt S"
+      },
+      {
+        "part": "legs",
+        "id": "1907683772",
+        "name": "Remobra Feet S"
+      }
+    ]
+  },
+  {
+    "name": "Rhenoplos S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/rhenoplos-s-set.png",
+    "localImage": "data/images/armor_sets/rhenoplos-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1998746276",
+        "name": "Rhenoplos Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1964143268",
+        "name": "Rhenoplos Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1258451620",
+        "name": "Rhenoplos Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "1257403044",
+        "name": "Rhenoplos Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1222800036",
+        "name": "Rhenoplos Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Rhopessa S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/rhopessa-s-set.png",
+    "localImage": "data/images/armor_sets/rhopessa-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1038051473",
+        "name": "Rhopessa Vertex S"
+      },
+      {
+        "part": "chest",
+        "id": "869230737",
+        "name": "Rhopessa Thorax S"
+      },
+      {
+        "part": "arms",
+        "id": "834627729",
+        "name": "Rhopessa Brachia S"
+      },
+      {
+        "part": "waist",
+        "id": "934242449",
+        "name": "Rhopessa Elytra S"
+      },
+      {
+        "part": "legs",
+        "id": "899639441",
+        "name": "Rhopessa Crura S"
+      }
+    ]
+  },
+  {
+    "name": "Somnacanth S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/somnacanth-s-set.png",
+    "localImage": "data/images/armor_sets/somnacanth-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1599524147",
+        "name": "Somnacanth Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1564921139",
+        "name": "Somnacanth Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1396100403",
+        "name": "Somnacanth Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "1361497395",
+        "name": "Somnacanth Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1461112115",
+        "name": "Somnacanth Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Spio S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/spio-s-set.png",
+    "localImage": "data/images/armor_sets/spio-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "542937007",
+        "name": "Spio Vertex S"
+      },
+      {
+        "part": "chest",
+        "id": "642551727",
+        "name": "Spio Thorax S"
+      },
+      {
+        "part": "arms",
+        "id": "607948719",
+        "name": "Spio Brachia S"
+      },
+      {
+        "part": "waist",
+        "id": "975998895",
+        "name": "Spio Elytra S"
+      },
+      {
+        "part": "legs",
+        "id": "941395887",
+        "name": "Spio Crura S"
+      }
+    ]
+  },
+  {
+    "name": "Skalda S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/skalda-s-set.png",
+    "localImage": "data/images/armor_sets/skalda-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "648146921",
+        "name": "Skalda Vertex S"
+      },
+      {
+        "part": "chest",
+        "id": "613543913",
+        "name": "Skalda Thorax S"
+      },
+      {
+        "part": "arms",
+        "id": "981594089",
+        "name": "Skalda Brachia S"
+      },
+      {
+        "part": "waist",
+        "id": "946991081",
+        "name": "Skalda Elytra S"
+      },
+      {
+        "part": "legs",
+        "id": "1046605801",
+        "name": "Skalda Crura S"
+      }
+    ]
+  },
+  {
+    "name": "Tetranadon S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/tetranadon-s-set.png",
+    "localImage": "data/images/armor_sets/tetranadon-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1571040637",
+        "name": "Tetranadon Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1402219901",
+        "name": "Tetranadon Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1367616893",
+        "name": "Tetranadon Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "1467231613",
+        "name": "Tetranadon Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1432628605",
+        "name": "Tetranadon Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Tigrex S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/tigrex-s-set.png",
+    "localImage": "data/images/armor_sets/tigrex-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "431076888",
+        "name": "Tigrex Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "530691608",
+        "name": "Tigrex Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "496088600",
+        "name": "Tigrex Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "327267864",
+        "name": "Tigrex Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "292664856",
+        "name": "Tigrex Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Vaik S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/vaik-s-set.png",
+    "localImage": "data/images/armor_sets/vaik-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1066010711",
+        "name": "Vaik Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1031407703",
+        "name": "Vaik Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "862586967",
+        "name": "Vaik Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "827983959",
+        "name": "Vaik Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "927598679",
+        "name": "Vaik Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Volvidon S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/volvidon-s-set.png",
+    "localImage": "data/images/armor_sets/volvidon-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1847898120",
+        "name": "Volvidon Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1813295112",
+        "name": "Volvidon Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1644474376",
+        "name": "Volvidon Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "1643425800",
+        "name": "Volvidon Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1743040520",
+        "name": "Volvidon Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Wroggi S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/wroggi-s-set.png",
+    "localImage": "data/images/armor_sets/wroggi-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1728893174",
+        "name": "Wroggi Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "1727844598",
+        "name": "Wroggi Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "1693241590",
+        "name": "Wroggi Vambraces S"
+      },
+      {
+        "part": "waist",
+        "id": "2061291766",
+        "name": "Wroggi Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "2026688758",
+        "name": "Wroggi Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Zinogre S Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/zinogre-s-set.png",
+    "localImage": "data/images/armor_sets/zinogre-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "13210962",
+        "name": "Zinogre Helm S"
+      },
+      {
+        "part": "chest",
+        "id": "112825682",
+        "name": "Zinogre Mail S"
+      },
+      {
+        "part": "arms",
+        "id": "78222674",
+        "name": "Zinogre Braces S"
+      },
+      {
+        "part": "waist",
+        "id": "446272850",
+        "name": "Zinogre Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "411669842",
+        "name": "Zinogre Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Aelucanth Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/aelucanth-set.png",
+    "localImage": "data/images/armor_sets/aelucanth.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "827038002",
+        "name": "Aelucanth Vertex"
+      },
+      {
+        "part": "chest",
+        "id": "926652722",
+        "name": "Aelucanth Thorax"
+      },
+      {
+        "part": "arms",
+        "id": "892049714",
+        "name": "Aelucanth Brachia"
+      },
+      {
+        "part": "waist",
+        "id": "186358066",
+        "name": "Aelucanth Elytra"
+      },
+      {
+        "part": "legs",
+        "id": "151755058",
+        "name": "Aelucanth Crura"
+      }
+    ]
+  },
+  {
+    "name": "Aknosom Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/aknosom-set.png",
+    "localImage": "data/images/armor_sets/aknosom.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1360027038",
+        "name": "Aknosom Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1459641758",
+        "name": "Aknosom Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1458593182",
+        "name": "Aknosom Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1423990174",
+        "name": "Aknosom Coil"
+      },
+      {
+        "part": "legs",
+        "id": "718298526",
+        "name": "Aknosom Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Alloy Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/alloy-set.png",
+    "localImage": "data/images/armor_sets/alloy.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "9947843",
+        "name": "Alloy Helm"
+      },
+      {
+        "part": "chest",
+        "id": "109562563",
+        "name": "Alloy Mail"
+      },
+      {
+        "part": "arms",
+        "id": "74959555",
+        "name": "Alloy Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "443009731",
+        "name": "Alloy Coil"
+      },
+      {
+        "part": "legs",
+        "id": "408406723",
+        "name": "Alloy Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Almudron Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/almudron-set.png",
+    "localImage": "data/images/armor_sets/almudron.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1167424596",
+        "name": "Almudron Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1535474772",
+        "name": "Almudron Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1500871764",
+        "name": "Almudron Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "1600486484",
+        "name": "Almudron Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1565883476",
+        "name": "Almudron Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Anja Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/anja-set.png",
+    "localImage": "data/images/armor_sets/anjanath.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "189707368",
+        "name": "Anjanath Helm"
+      },
+      {
+        "part": "chest",
+        "id": "155104360",
+        "name": "Anjanath Mail"
+      },
+      {
+        "part": "arms",
+        "id": "254719080",
+        "name": "Anjanath Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "220116072",
+        "name": "Anjanath Coil"
+      },
+      {
+        "part": "legs",
+        "id": "51295336",
+        "name": "Anjanath Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Arzuros Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/arzuros-set.png",
+    "localImage": "data/images/armor_sets/arzuros.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1670422613",
+        "name": "Arzuros Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1635819605",
+        "name": "Arzuros Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1735434325",
+        "name": "Arzuros Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "1700831317",
+        "name": "Arzuros Coil"
+      },
+      {
+        "part": "legs",
+        "id": "2068881493",
+        "name": "Arzuros Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Baggi Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/baggi-set.png",
+    "localImage": "data/images/armor_sets/baggi.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1642463383",
+        "name": "Baggi Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1742078103",
+        "name": "Baggi Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1707475095",
+        "name": "Baggi Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "2075525271",
+        "name": "Baggi Coil"
+      },
+      {
+        "part": "legs",
+        "id": "2040922263",
+        "name": "Baggi Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Barioth Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/barioth-set.png",
+    "localImage": "data/images/armor_sets/barioth.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "297821985",
+        "name": "Barioth Helm"
+      },
+      {
+        "part": "chest",
+        "id": "397436705",
+        "name": "Barioth Mail"
+      },
+      {
+        "part": "arms",
+        "id": "362833697",
+        "name": "Barioth Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "1804625697",
+        "name": "Barioth Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1770022689",
+        "name": "Barioth Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Barroth Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/barroth-set.png",
+    "localImage": "data/images/armor_sets/barroth.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1789429743",
+        "name": "Barroth Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1754826735",
+        "name": "Barroth Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1854441455",
+        "name": "Barroth Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "1819838447",
+        "name": "Barroth Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1651017711",
+        "name": "Barroth Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Basarios Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/basarios-set.png",
+    "localImage": "data/images/armor_sets/basarios.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "71665151",
+        "name": "Basarios Helm"
+      },
+      {
+        "part": "chest",
+        "id": "439715327",
+        "name": "Basarios Mail"
+      },
+      {
+        "part": "arms",
+        "id": "405112319",
+        "name": "Basarios Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "504727039",
+        "name": "Basarios Coil"
+      },
+      {
+        "part": "legs",
+        "id": "470124031",
+        "name": "Basarios Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Bishaten Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/bishaten-set.png",
+    "localImage": "data/images/armor_sets/bishaten.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1466285528",
+        "name": "Bishaten Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1431682520",
+        "name": "Bishaten Mail"
+      },
+      {
+        "part": "arms",
+        "id": "725990872",
+        "name": "Bishaten Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "691387864",
+        "name": "Bishaten Coil"
+      },
+      {
+        "part": "legs",
+        "id": "791002584",
+        "name": "Bishaten Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Bnahabra Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/bnahabra-set.png",
+    "localImage": "data/images/armor_sets/bnahabra.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1941324315",
+        "name": "Bnahabra Hat"
+      },
+      {
+        "part": "chest",
+        "id": "1906721307",
+        "name": "Bnahabra Suit"
+      },
+      {
+        "part": "arms",
+        "id": "2006336027",
+        "name": "Bnahabra Gloves"
+      },
+      {
+        "part": "waist",
+        "id": "1971733019",
+        "name": "Bnahabra Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1266041371",
+        "name": "Bnahabra Boots"
+      }
+    ]
+  },
+  {
+    "name": "Bone Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/bone-set.png",
+    "localImage": "data/images/armor_sets/bone.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "651930232",
+        "name": "Bone Helm"
+      },
+      {
+        "part": "chest",
+        "id": "617327224",
+        "name": "Bone Mail"
+      },
+      {
+        "part": "arms",
+        "id": "985377400",
+        "name": "Bone Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "950774392",
+        "name": "Bone Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1050389112",
+        "name": "Bone Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Brigade Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/brigade-set.png",
+    "localImage": "data/images/armor_sets/brigade.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "574679548",
+        "name": "Brigade Lobos"
+      },
+      {
+        "part": "chest",
+        "id": "540076540",
+        "name": "Brigade Suit"
+      },
+      {
+        "part": "arms",
+        "id": "639691260",
+        "name": "Brigade Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "605088252",
+        "name": "Brigade Coil"
+      },
+      {
+        "part": "legs",
+        "id": "973138428",
+        "name": "Brigade Boots"
+      }
+    ]
+  },
+  {
+    "name": "Chainmail Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/chainmail-set.png",
+    "localImage": "data/images/armor_sets/chainmail.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "441539502",
+        "name": "Chainmail Headgear"
+      },
+      {
+        "part": "chest",
+        "id": "406936494",
+        "name": "Chainmail Vest"
+      },
+      {
+        "part": "arms",
+        "id": "506551214",
+        "name": "Chainmail Gloves"
+      },
+      {
+        "part": "waist",
+        "id": "471948206",
+        "name": "Chainmail Belt"
+      },
+      {
+        "part": "legs",
+        "id": "303127470",
+        "name": "Chainmail Pants"
+      }
+    ]
+  },
+  {
+    "name": "Channeler Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/channeler-set.png",
+    "localImage": "data/images/armor_sets/channeler.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "752918274",
+        "name": "Channeler's Hair-tie"
+      },
+      {
+        "part": "chest",
+        "id": "584097538",
+        "name": "Channeler's Robe"
+      },
+      {
+        "part": "arms",
+        "id": "549494530",
+        "name": "Channeler's Hope"
+      },
+      {
+        "part": "waist",
+        "id": "649109250",
+        "name": "Channeler's Obi"
+      },
+      {
+        "part": "legs",
+        "id": "614506242",
+        "name": "Channeler's Hakama"
+      }
+    ]
+  },
+  {
+    "name": "Death Stench Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/death-stench-set.png",
+    "localImage": "data/images/armor_sets/death-stench.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "171162104",
+        "name": "Death Stench Brain"
+      },
+      {
+        "part": "chest",
+        "id": "136559096",
+        "name": "Death Stench Muscle"
+      },
+      {
+        "part": "arms",
+        "id": "236173816",
+        "name": "Death Stench Grip"
+      },
+      {
+        "part": "waist",
+        "id": "201570808",
+        "name": "Death Stench Bowels"
+      },
+      {
+        "part": "legs",
+        "id": "66304504",
+        "name": "Death Stench Heel"
+      }
+    ]
+  },
+  {
+    "name": "Diablos Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/diablos-set.png",
+    "localImage": "data/images/armor_sets/diablos.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "445310521",
+        "name": "Diablos Helm"
+      },
+      {
+        "part": "chest",
+        "id": "410707513",
+        "name": "Diablos Mail"
+      },
+      {
+        "part": "arms",
+        "id": "510322233",
+        "name": "Diablos Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "475719225",
+        "name": "Diablos Coil"
+      },
+      {
+        "part": "legs",
+        "id": "306898489",
+        "name": "Diablos Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Droth Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/droth-set.png",
+    "localImage": "data/images/armor_sets/droth.png",
+    "pieces": [
+      {
+        "part": "chest",
+        "id": "2025726301",
+        "name": "Droth Mail"
+      },
+      {
+        "part": "waist",
+        "id": "2090738013",
+        "name": "Droth Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1921917277",
+        "name": "Droth Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Edel Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/edel-set.png",
+    "localImage": "data/images/armor_sets/edel.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "975050762",
+        "name": "Edel Vizor"
+      },
+      {
+        "part": "chest",
+        "id": "940447754",
+        "name": "Edel Ribplate"
+      },
+      {
+        "part": "arms",
+        "id": "1073616906",
+        "name": "Edel Creeper"
+      },
+      {
+        "part": "waist",
+        "id": "1039013898",
+        "name": "Edel Folia"
+      },
+      {
+        "part": "legs",
+        "id": "870193162",
+        "name": "Edel Roots"
+      }
+    ]
+  },
+  {
+    "name": "Goss Harag Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/goss-harag-set.png",
+    "localImage": "data/images/armor_sets/goss-harag.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1541069974",
+        "name": "Goss Harag Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1506466966",
+        "name": "Goss Harag Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1606081686",
+        "name": "Goss Harag Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1571478678",
+        "name": "Goss Harag Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1402657942",
+        "name": "Goss Harag Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Hunter Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/hunter-set.png",
+    "localImage": "data/images/armor_sets/hunter.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "67369836",
+        "name": "Hunter's Helm"
+      },
+      {
+        "part": "chest",
+        "id": "468974444",
+        "name": "Hunter's Mail"
+      },
+      {
+        "part": "arms",
+        "id": "434371436",
+        "name": "Hunter's Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "533986156",
+        "name": "Hunter's Coil"
+      },
+      {
+        "part": "legs",
+        "id": "499383148",
+        "name": "Hunter's Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Ingot Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/ingot-set.png",
+    "localImage": "data/images/armor_sets/ingot.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "37907073",
+        "name": "Ingot Helm"
+      },
+      {
+        "part": "chest",
+        "id": "3304065",
+        "name": "Ingot Mail"
+      },
+      {
+        "part": "arms",
+        "id": "102918785",
+        "name": "Ingot Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "68315777",
+        "name": "Ingot Coil"
+      },
+      {
+        "part": "legs",
+        "id": "436365953",
+        "name": "Ingot Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Izuchi Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/izuchi-set.png",
+    "localImage": "data/images/armor_sets/izuchi.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1286427630",
+        "name": "Izuchi Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1117606894",
+        "name": "Izuchi Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1083003886",
+        "name": "Izuchi Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1182618606",
+        "name": "Izuchi Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1148015598",
+        "name": "Izuchi Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Jelly Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/jelly-set.png",
+    "localImage": "data/images/armor_sets/jelly.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1437277722",
+        "name": "Jelly Hat"
+      },
+      {
+        "part": "chest",
+        "id": "731586074",
+        "name": "Jelly Vest"
+      },
+      {
+        "part": "arms",
+        "id": "696983066",
+        "name": "Jelly Gloves"
+      },
+      {
+        "part": "waist",
+        "id": "796597786",
+        "name": "Jelly Coil"
+      },
+      {
+        "part": "legs",
+        "id": "761994778",
+        "name": "Jelly Boots"
+      }
+    ]
+  },
+  {
+    "name": "Kamura Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/kamura-set.png",
+    "localImage": "data/images/armor_sets/kamura.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "518775850",
+        "name": "Kamura Head Scarf"
+      },
+      {
+        "part": "chest",
+        "id": "484172842",
+        "name": "Kamura Garb"
+      },
+      {
+        "part": "arms",
+        "id": "315352106",
+        "name": "Kamura Braces"
+      },
+      {
+        "part": "waist",
+        "id": "280749098",
+        "name": "Kamura Obi"
+      },
+      {
+        "part": "legs",
+        "id": "380363818",
+        "name": "Kamura Leggings"
+      }
+    ]
+  },
+  {
+    "name": "Khezu Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/khezu-set.png",
+    "localImage": "data/images/armor_sets/khezu.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "341518253",
+        "name": "Khezu Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1783310253",
+        "name": "Khezu Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1748707245",
+        "name": "Khezu Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "1848321965",
+        "name": "Khezu Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1813718957",
+        "name": "Khezu Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Kulu Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/kulu-set.png",
+    "localImage": "data/images/armor_sets/kulu-ya-ku.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "56452401",
+        "name": "Kulu-Ya-Ku Helm"
+      },
+      {
+        "part": "chest",
+        "id": "21849393",
+        "name": "Kulu-Ya-Ku Mail"
+      },
+      {
+        "part": "arms",
+        "id": "121464113",
+        "name": "Kulu-Ya-Ku Braces"
+      },
+      {
+        "part": "waist",
+        "id": "86861105",
+        "name": "Kulu-Ya-Ku Coil"
+      },
+      {
+        "part": "legs",
+        "id": "454911281",
+        "name": "Kulu-Ya-Ku Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Lagombi Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/lagombi-set.png",
+    "localImage": "data/images/armor_sets/lagombi.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "992545466",
+        "name": "Lagombi Helm"
+      },
+      {
+        "part": "chest",
+        "id": "957942458",
+        "name": "Lagombi Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1057557178",
+        "name": "Lagombi Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "1056508602",
+        "name": "Lagombi Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1021905594",
+        "name": "Lagombi Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Leather Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/leather-set.png",
+    "localImage": "data/images/armor_sets/leather.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "413580264",
+        "name": "Leather Headgear"
+      },
+      {
+        "part": "chest",
+        "id": "513194984",
+        "name": "Leather Vest"
+      },
+      {
+        "part": "arms",
+        "id": "478591976",
+        "name": "Leather Gloves"
+      },
+      {
+        "part": "waist",
+        "id": "309771240",
+        "name": "Leather Belt"
+      },
+      {
+        "part": "legs",
+        "id": "275168232",
+        "name": "Leather Pants"
+      }
+    ]
+  },
+  {
+    "name": "Ludroth Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/ludroth-set.png",
+    "localImage": "data/images/armor_sets/ludroth.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1761468457",
+        "name": "Ludroth Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1861083177",
+        "name": "Ludroth Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1826480169",
+        "name": "Ludroth Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1657659433",
+        "name": "Ludroth Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1623056425",
+        "name": "Ludroth Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Makluva Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/makluva-set.png",
+    "localImage": "data/images/armor_sets/makluva.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "142678586",
+        "name": "Makluva Hood"
+      },
+      {
+        "part": "chest",
+        "id": "242293306",
+        "name": "Makluva Cover"
+      },
+      {
+        "part": "arms",
+        "id": "207690298",
+        "name": "Makluva Sleeves"
+      },
+      {
+        "part": "waist",
+        "id": "38869562",
+        "name": "Makluva Coil"
+      },
+      {
+        "part": "legs",
+        "id": "4266554",
+        "name": "Makluva Pants"
+      }
+    ]
+  },
+  {
+    "name": "Medium Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/medium-set.png",
+    "localImage": "data/images/armor_sets/medium.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "676191878",
+        "name": "Medium's Hair-tie"
+      },
+      {
+        "part": "chest",
+        "id": "775806598",
+        "name": "Medium's Robe"
+      },
+      {
+        "part": "arms",
+        "id": "741203590",
+        "name": "Medium's Prayer"
+      },
+      {
+        "part": "waist",
+        "id": "572382854",
+        "name": "Medium's Obi"
+      },
+      {
+        "part": "legs",
+        "id": "537779846",
+        "name": "Medium's Hakama"
+      }
+    ]
+  },
+  {
+    "name": "Mizutsune Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/mizutsune-set.png",
+    "localImage": "data/images/armor_sets/mizutsune.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "546720318",
+        "name": "Mizutsune Helm"
+      },
+      {
+        "part": "chest",
+        "id": "646335038",
+        "name": "Mizutsune Mail"
+      },
+      {
+        "part": "arms",
+        "id": "611732030",
+        "name": "Mizutsune Braces"
+      },
+      {
+        "part": "waist",
+        "id": "979782206",
+        "name": "Mizutsune Coil"
+      },
+      {
+        "part": "legs",
+        "id": "945179198",
+        "name": "Mizutsune Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Nargacuga Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/nargacuga-set.png",
+    "localImage": "data/images/armor_sets/nargacuga.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "370526051",
+        "name": "Nargacuga Helm"
+      },
+      {
+        "part": "chest",
+        "id": "335923043",
+        "name": "Nargacuga Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1811269475",
+        "name": "Nargacuga Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1776666467",
+        "name": "Nargacuga Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1876281187",
+        "name": "Nargacuga Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Pukei Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/pukei-set.png",
+    "localImage": "data/images/armor_sets/pukei.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "218629367",
+        "name": "Pukei-Pukei Helm"
+      },
+      {
+        "part": "chest",
+        "id": "217580791",
+        "name": "Pukei-Pukei Mail"
+      },
+      {
+        "part": "arms",
+        "id": "48760055",
+        "name": "Pukei-Pukei Braces"
+      },
+      {
+        "part": "waist",
+        "id": "14157047",
+        "name": "Pukei-Pukei Coil"
+      },
+      {
+        "part": "legs",
+        "id": "113771767",
+        "name": "Pukei Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Rathalos Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/rathalos-set.png",
+    "localImage": "data/images/armor_sets/rathalos.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "489531045",
+        "name": "Rathalos Helm"
+      },
+      {
+        "part": "chest",
+        "id": "320710309",
+        "name": "Rathalos Mail"
+      },
+      {
+        "part": "arms",
+        "id": "286107301",
+        "name": "Rathalos Braces"
+      },
+      {
+        "part": "waist",
+        "id": "285058725",
+        "name": "Rathalos Coil"
+      },
+      {
+        "part": "legs",
+        "id": "384673445",
+        "name": "Rathalos Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Rathian Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/rathian-set.png",
+    "localImage": "data/images/armor_sets/rathian.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "326305511",
+        "name": "Rathian Helm"
+      },
+      {
+        "part": "chest",
+        "id": "291702503",
+        "name": "Rathian Mail"
+      },
+      {
+        "part": "arms",
+        "id": "391317223",
+        "name": "Rathian Braces"
+      },
+      {
+        "part": "waist",
+        "id": "356714215",
+        "name": "Rathian Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1798506215",
+        "name": "Rathian Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Remobra Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/remobra-set.png",
+    "localImage": "data/images/armor_sets/remobra.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "2131984799",
+        "name": "Remobra Headgear"
+      },
+      {
+        "part": "chest",
+        "id": "2097381791",
+        "name": "Remobra Suit"
+      },
+      {
+        "part": "arms",
+        "id": "2096333215",
+        "name": "Remobra Gloves"
+      },
+      {
+        "part": "waist",
+        "id": "1927512479",
+        "name": "Remobra Belt"
+      },
+      {
+        "part": "legs",
+        "id": "1892909471",
+        "name": "Remobra Feet"
+      }
+    ]
+  },
+  {
+    "name": "Rhenoplos Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/rhenoplos-set.png",
+    "localImage": "data/images/armor_sets/rhenoplos.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1984496263",
+        "name": "Rhenoplos Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1949893255",
+        "name": "Rhenoplos Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1244201607",
+        "name": "Rhenoplos Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1209598599",
+        "name": "Rhenoplos Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1309213319",
+        "name": "Rhenoplos Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Rhopessa Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/rhopessa-set.png",
+    "localImage": "data/images/armor_sets/rhopessa.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "856045808",
+        "name": "Rhopessa Vertex"
+      },
+      {
+        "part": "chest",
+        "id": "854997232",
+        "name": "Rhopessa Thorax"
+      },
+      {
+        "part": "arms",
+        "id": "820394224",
+        "name": "Rhopessa Brachia"
+      },
+      {
+        "part": "waist",
+        "id": "920008944",
+        "name": "Rhopessa Elytra"
+      },
+      {
+        "part": "legs",
+        "id": "885405936",
+        "name": "Rhopessa Crura"
+      }
+    ]
+  },
+  {
+    "name": "Spio Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/spio-set.png",
+    "localImage": "data/images/armor_sets/spio.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "662396814",
+        "name": "Spio Vertex"
+      },
+      {
+        "part": "chest",
+        "id": "627793806",
+        "name": "Spio Thorax"
+      },
+      {
+        "part": "arms",
+        "id": "995843982",
+        "name": "Spio Brachia"
+      },
+      {
+        "part": "waist",
+        "id": "961240974",
+        "name": "Spio Elytra"
+      },
+      {
+        "part": "legs",
+        "id": "1060855694",
+        "name": "Spio Crura"
+      }
+    ]
+  },
+  {
+    "name": "Skalda Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/skalda-set.png",
+    "localImage": "data/images/armor_sets/skalda.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "633913288",
+        "name": "Skalda Vertex"
+      },
+      {
+        "part": "chest",
+        "id": "1001963464",
+        "name": "Skalda Thorax"
+      },
+      {
+        "part": "arms",
+        "id": "967360456",
+        "name": "Skalda Brachia"
+      },
+      {
+        "part": "waist",
+        "id": "1066975176",
+        "name": "Skalda Elytra"
+      },
+      {
+        "part": "legs",
+        "id": "1032372168",
+        "name": "Skalda Crura"
+      }
+    ]
+  },
+  {
+    "name": "Somnacanth Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/somnacanth-set.png",
+    "localImage": "data/images/armor_sets/somnacanth.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1585290514",
+        "name": "Somnacanth Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1550687506",
+        "name": "Somnacanth Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1381866770",
+        "name": "Somnacanth Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1347263762",
+        "name": "Somnacanth Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1446878482",
+        "name": "Somnacanth Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Tetranadon Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/tetranadon-set.png",
+    "localImage": "data/images/armor_sets/tetranadon.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1556282716",
+        "name": "Tetranadon Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1387461980",
+        "name": "Tetranadon Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1352858972",
+        "name": "Tetranadon Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1452473692",
+        "name": "Tetranadon Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1417870684",
+        "name": "Tetranadon Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Tigrex Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/tigrex-set.png",
+    "localImage": "data/images/armor_sets/tigrex.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "416827003",
+        "name": "Tigrex Helm"
+      },
+      {
+        "part": "chest",
+        "id": "516441723",
+        "name": "Tigrex Mail"
+      },
+      {
+        "part": "arms",
+        "id": "481838715",
+        "name": "Tigrex Braces"
+      },
+      {
+        "part": "waist",
+        "id": "313017979",
+        "name": "Tigrex Coil"
+      },
+      {
+        "part": "legs",
+        "id": "278414971",
+        "name": "Tigrex Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Vaik Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/vaik-set.png",
+    "localImage": "data/images/armor_sets/vaik.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1051777206",
+        "name": "Vaik Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1017174198",
+        "name": "Vaik Mail"
+      },
+      {
+        "part": "arms",
+        "id": "848353462",
+        "name": "Vaik Braces"
+      },
+      {
+        "part": "waist",
+        "id": "813750454",
+        "name": "Vaik Coil"
+      },
+      {
+        "part": "legs",
+        "id": "913365174",
+        "name": "Vaik Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Volvidon Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/volvidon-set.png",
+    "localImage": "data/images/armor_sets/volvidon.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1833123947",
+        "name": "Volvidon Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1664303211",
+        "name": "Volvidon Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1629700203",
+        "name": "Volvidon Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "1729314923",
+        "name": "Volvidon Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1694711915",
+        "name": "Volvidon Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Wroggi Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/wroggi-set.png",
+    "localImage": "data/images/armor_sets/wroggi.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1714118865",
+        "name": "Wroggi Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1679515857",
+        "name": "Wroggi Mail"
+      },
+      {
+        "part": "arms",
+        "id": "2047566033",
+        "name": "Wroggi Vambraces"
+      },
+      {
+        "part": "waist",
+        "id": "2046517457",
+        "name": "Wroggi Coil"
+      },
+      {
+        "part": "legs",
+        "id": "2146132177",
+        "name": "Wroggi Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Zinogre Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/zinogre-set.png",
+    "localImage": "data/images/armor_sets/zinogre.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "133178813",
+        "name": "Zinogre Helm"
+      },
+      {
+        "part": "chest",
+        "id": "98575805",
+        "name": "Zinogre Mail"
+      },
+      {
+        "part": "arms",
+        "id": "466625981",
+        "name": "Zinogre Braces"
+      },
+      {
+        "part": "waist",
+        "id": "432022973",
+        "name": "Zinogre Coil"
+      },
+      {
+        "part": "legs",
+        "id": "531637693",
+        "name": "Zinogre Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Valstrax Set",
+    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/valstrax-set.png",
+    "localImage": "data/images/armor_sets/valstrax.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "42218768",
+        "name": "Valstrax Helm"
+      },
+      {
+        "part": "chest",
+        "id": "7615760",
+        "name": "Valstrax Mail"
+      },
+      {
+        "part": "arms",
+        "id": "107230480",
+        "name": "Valstrax Braces"
+      },
+      {
+        "part": "waist",
+        "id": "72627472",
+        "name": "Valstrax Coil"
+      },
+      {
+        "part": "legs",
+        "id": "440677648",
+        "name": "Valstrax Greaves"
       }
     ]
   }
