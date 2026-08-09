@@ -1771,11 +1771,13 @@ function hideArmorView() {
 function renderArmorIndex(query) {
   const q = normalizeSearch((query || "").trim());
   const setMatches = !q ? armorSets : armorSets.filter(s => normalizeSearch(s.name).includes(q));
-  const implied = buildImpliedArmorGroups().filter(g => !q || normalizeSearch(g.prefix).includes(q));
+  const implied = buildImpliedArmorGroups().filter(g => !q || normalizeSearch(g.prefix).includes(q))
+    .filter(g => g.pieces.some(p => p.materials && p.materials.length && p.defense));
   const usedIds = getArmorSetPieceIds();
   for (const g of implied) for (const p of g.pieces) usedIds.add(p.id);
   const looseMatches = armorPieces.filter(p => !usedIds.has(p.id) && (!q ||
-    normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q)));
+    normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q)))
+    .filter(p => p.materials && p.materials.length && p.defense);
 
   // merge explicit and implied sets into one list, tagged by rank
   function setRank(items) {
