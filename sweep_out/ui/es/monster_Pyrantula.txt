@@ -1,0 +1,64 @@
+Pyrantula
+
+Temnoceran
+
+ELEMENTO PRINCIPAL
+Ninguno
+DAÑO QUE INFLIGE
+ELEMENTOS
+Ninguno
+ESTADOS
+Ninguno
+RESISTENCIAS
+Fuego
+INMUNE
+Rayo
+RESISTENTE
+Dragón
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Sin datos
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cuerpo	45%	55%	45%	0%	30%	10%	20%	10%	0%
+B : 糸	80%	80%	45%	0%	0%	0%	0%	0%	0%
+Partes rompibles
+Cuerpo HP 30 — White
+Group1_糸 HP 100 — Orange
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Aturdimiento
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de hielo
+★★★
+Plaga de rayo
+★★★
+MATERIALES POR RAREZA
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Hilo Pyrantula granate	—	12%x2, 37%x1	—	—	52%x1	Palico 52%x1
+
+Garra dura	—	23%x1	—	—	17%x1	Palico 17%x1
+
+Esencia de monstruo	—	8%x2, 20%x1	—	—	31%x1	Palico 31%x1
+ZONAS DE APARICIÓN
+Sin datos

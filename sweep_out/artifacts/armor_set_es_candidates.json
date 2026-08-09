@@ -1,0 +1,684 @@
+{
+  "Kamura Legacy Set": {
+    "candidate": "Bandana dote Kamura",
+    "headPieceEs": "Bandana dote Kamura X",
+    "esNames": [
+      "Bandana dote Kamura X",
+      "Vestimenta dote Kamura X",
+      "Brazales dote Kamura X",
+      "Obi dote Kamura X",
+      "Leotardos dote Kamura X"
+    ]
+  },
+  "Leather X Set": {
+    "candidate": "Lentes de cuero",
+    "headPieceEs": "Lentes de cuero X",
+    "esNames": [
+      "Lentes de cuero X",
+      "Chaleco de cuero X",
+      "Guantes de cuero X",
+      "Muslera de cuero X",
+      "Pantalones de cuero X"
+    ]
+  },
+  "Chainmail X Set": {
+    "candidate": "Yelmo de malla",
+    "headPieceEs": "Yelmo de malla X",
+    "esNames": [
+      "Yelmo de malla X",
+      "Cota de malla X",
+      "Guantes de malla X",
+      "Muslera de malla X",
+      "Pantalones de malla X"
+    ]
+  },
+  "Hunter X Set": {
+    "candidate": "Casco de cazador",
+    "headPieceEs": "Casco de cazador X",
+    "esNames": [
+      "Casco de cazador X",
+      "Cota de cazador X",
+      "Brazales de cazador X",
+      "Faja de cazador X",
+      "Grebas de cazador X"
+    ]
+  },
+  "Bone X Set": {
+    "candidate": "Yelmo de hueso",
+    "headPieceEs": "Yelmo de hueso X",
+    "esNames": [
+      "Yelmo de hueso X",
+      "Cota de hueso X",
+      "Brazales de hueso X",
+      "Faja de hueso X",
+      "Grebas de hueso X"
+    ]
+  },
+  "Hermitaur Set": {
+    "candidate": "Casco de",
+    "headPieceEs": "Casco de Hermitaur",
+    "esNames": [
+      "Casco de Hermitaur",
+      "Malla de Hermitaur",
+      "Brazales Hermitaur",
+      "Faja Hermitaur",
+      "Grebas Hermitaur"
+    ]
+  },
+  "Vaik X Set": {
+    "candidate": "Casco Vaik",
+    "headPieceEs": "Casco Vaik X",
+    "esNames": [
+      "Casco Vaik X",
+      "Cota Vaik X",
+      "Brazales Vaik X",
+      "Faja Vaik X",
+      "Grebas Vaik X"
+    ]
+  },
+  "Wroggi X Set": {
+    "candidate": "Casco Wroggi",
+    "headPieceEs": "Casco Wroggi X",
+    "esNames": [
+      "Casco Wroggi X",
+      "Cota Wroggi X",
+      "Brazales Wroggi X",
+      "Faja Wroggi X",
+      "Grebas Wroggi X"
+    ]
+  },
+  "Baggi X Set": {
+    "candidate": "Casco Baggi",
+    "headPieceEs": "Casco Baggi X",
+    "esNames": [
+      "Casco Baggi X",
+      "Cota Baggi X",
+      "Brazales Baggi X",
+      "Faja Baggi X",
+      "Grebas Baggi X"
+    ]
+  },
+  "Izuchi X Set": {
+    "candidate": "Casco Izuchi",
+    "headPieceEs": "Casco Izuchi X",
+    "esNames": [
+      "Casco Izuchi X",
+      "Cota Izuchi X",
+      "Brazales Izuchi X",
+      "Faja Izuchi X",
+      "Grebas Izuchi X"
+    ]
+  },
+  "Vespoid Set": {
+    "candidate": "Casco de",
+    "headPieceEs": "Casco de Vespoid",
+    "esNames": [
+      "Casco de Vespoid",
+      "Cota de Vespoid",
+      "Brazales Vespoid",
+      "Muslera de Vespoid",
+      "Grebas de Vespoid"
+    ]
+  },
+  "Hornetaur Set": {
+    "candidate": "Casco de",
+    "headPieceEs": "Casco de Hornetaur",
+    "esNames": [
+      "Casco de Hornetaur",
+      "Cota de Hornetaur",
+      "Brazales Hornetaur",
+      "Muslera de Hornetaur",
+      "Grebas Hornetaur"
+    ]
+  },
+  "Rhenoplos X Set": {
+    "candidate": "Casco Rhenoplos",
+    "headPieceEs": "Casco Rhenoplos X",
+    "esNames": [
+      "Casco Rhenoplos X",
+      "Cota Rhenoplos X",
+      "Brazales Rhenoplos X",
+      "Faja Rhenoplos X",
+      "Grebas Rhenoplos X"
+    ]
+  },
+  "Guardian Set": {
+    "candidate": "Casco de",
+    "headPieceEs": "Casco de guardián",
+    "esNames": [
+      "Casco de guardián",
+      "Traje de guardián",
+      "Brazales de guardián",
+      "Faldón de guardián",
+      "Botas de guardián"
+    ]
+  },
+  "Five Element Set": {
+    "candidate": "Máscara cinco",
+    "headPieceEs": "Máscara cinco elem.",
+    "esNames": [
+      "Máscara cinco elem.",
+      "Ropa cinco elementos",
+      "Brazos cinco elem.",
+      "Obi cinco elementos",
+      "Perneras cinco elem."
+    ]
+  },
+  "Barioth X Set": {
+    "candidate": "Casco Barioth",
+    "headPieceEs": "Casco Barioth X",
+    "esNames": [
+      "Casco Barioth X",
+      "Cota Barioth X",
+      "Brazales Barioth X",
+      "Faja Barioth X",
+      "Grebas Barioth X"
+    ]
+  },
+  "Almudron X Set": {
+    "candidate": "Casco Almudron",
+    "headPieceEs": "Casco Almudron X",
+    "esNames": [
+      "Casco Almudron X",
+      "Cota Almudron X",
+      "Brazales Almudron X",
+      "Faja Almudron X",
+      "Grebas Almudron X"
+    ]
+  },
+  "Sinister Demon Set": {
+    "candidate": "Yelmo sin.",
+    "headPieceEs": "Yelmo sin. demoníaco",
+    "esNames": [
+      "Yelmo sin. demoníaco",
+      "Ropa sin. demoníaca",
+      "Guant. sin. demoníacos",
+      "Muslera sin. demoníaca",
+      "Grebas sin. demoníacas"
+    ]
+  },
+  "Nargacuga X Set": {
+    "candidate": "Yelmo Nargacuga",
+    "headPieceEs": "Yelmo Nargacuga X",
+    "esNames": [
+      "Yelmo Nargacuga X",
+      "Cota Nargacuga X",
+      "Brazales Nargacuga X",
+      "Faja Nargacuga X",
+      "Grebas Nargacuga X"
+    ]
+  },
+  "Magmadron Set": {
+    "candidate": "Casco de",
+    "headPieceEs": "Casco de Magmadron",
+    "esNames": [
+      "Casco de Magmadron",
+      "Cota de Magmadron",
+      "Brazales Magmadron",
+      "Faja de Magmadron",
+      "Grebas de Magmadron"
+    ]
+  },
+  "Pyre-Kadaki Set": {
+    "candidate": "Casco Rakna",
+    "headPieceEs": "Casco Rakna Pira",
+    "esNames": [
+      "Casco Rakna Pira",
+      "Cota Rakna Pira",
+      "Brazales Rakna Pira",
+      "Faja Rakna Pira",
+      "Grebas Rakna Pira"
+    ]
+  },
+  "Remobra X Set": {
+    "candidate": "Cubrecabeza Remobra",
+    "headPieceEs": "Cubrecabeza Remobra X",
+    "esNames": [
+      "Cubrecabeza Remobra X",
+      "Traje Remobra X",
+      "Guantes Remobra X",
+      "Cinturón Remobra X",
+      "Pezuñas Remobra X"
+    ]
+  },
+  "Mizutsune X Set": {
+    "candidate": "Casco Mizutsune",
+    "headPieceEs": "Casco Mizutsune X",
+    "esNames": [
+      "Casco Mizutsune X",
+      "Cota Mizutsune X",
+      "Brazales Mizutsune X",
+      "Faja Mizutsune X",
+      "Grebas Mizutsune X"
+    ]
+  },
+  "Rathalos X Set": {
+    "candidate": "Yelmo Rathalos",
+    "headPieceEs": "Yelmo Rathalos X",
+    "esNames": [
+      "Yelmo Rathalos X",
+      "Cota Rathalos X",
+      "Brazales Rathalos X",
+      "Faja Rathalos X",
+      "Grebas Rathalos X"
+    ]
+  },
+  "Zinogre Set X": {
+    "candidate": "Yelmo Zinogre",
+    "headPieceEs": "Yelmo Zinogre X",
+    "esNames": [
+      "Yelmo Zinogre X",
+      "Cota Zinogre X",
+      "Brazales Zinogre X",
+      "Faja Zinogre X",
+      "Grebas Zinogre X"
+    ]
+  },
+  "Lunagaron Set": {
+    "candidate": null,
+    "headPieceEs": "Casco Lunagaron",
+    "esNames": [
+      "Casco Lunagaron",
+      "Cota Lunagaron",
+      "Brazales Lunagaron",
+      "Faja de Lunagaron",
+      "Grebas de Lunagaron"
+    ]
+  },
+  "Astalos Set": {
+    "candidate": "Casco de",
+    "headPieceEs": "Casco de Astalos",
+    "esNames": [
+      "Casco de Astalos",
+      "Malla de Astalos",
+      "Brazales Astalos",
+      "Faja Astalos",
+      "Grebas de Astalos"
+    ]
+  },
+  "Espinas Set": {
+    "candidate": "Cerebro de",
+    "headPieceEs": "Cerebro de Espinas",
+    "esNames": [
+      "Cerebro de Espinas",
+      "Músculo de Espinas",
+      "Brazales Espinas",
+      "Intestinos Espinas",
+      "Talón de Espinas"
+    ]
+  },
+  "Damascus X Set": {
+    "candidate": "Yelmo de Damasco",
+    "headPieceEs": "Yelmo de Damasco X",
+    "esNames": [
+      "Yelmo de Damasco X",
+      "Cota de Damasco X",
+      "Brazales de Damasco X",
+      "Faja de Damasco X",
+      "Grebas de Damasco X"
+    ]
+  },
+  "Malzeno Set": {
+    "candidate": "Casco de",
+    "headPieceEs": "Casco de Malzeno",
+    "esNames": [
+      "Casco de Malzeno",
+      "Cota de Malzeno",
+      "Brazales Malzeno",
+      "Faja de Malzeno",
+      "Grebas de Malzeno"
+    ]
+  },
+  "Barbania Set": {
+    "candidate": "Parche de",
+    "headPieceEs": "Parche de Barbania",
+    "esNames": [
+      "Parche de Barbania",
+      "Chaleco Barbania",
+      "Guantes Barbania",
+      "Cinturón Barbania",
+      "Botas de Barbania"
+    ]
+  },
+  "Rathian X Set": {
+    "candidate": "Yelmo Rathian",
+    "headPieceEs": "Yelmo Rathian X",
+    "esNames": [
+      "Yelmo Rathian X",
+      "Cota Rathian X",
+      "Brazales Rathian X",
+      "Faja Rathian X",
+      "Grebas Rathian X"
+    ]
+  },
+  "Bishaten X Set": {
+    "candidate": "Casco Bishaten",
+    "headPieceEs": "Casco Bishaten X",
+    "esNames": [
+      "Casco Bishaten X",
+      "Cota Bishaten X",
+      "Brazales Bishaten X",
+      "Faja Bishaten X",
+      "Grebas Bishaten X"
+    ]
+  },
+  "Yukumo Sky Set": {
+    "candidate": "Kasa cielo",
+    "headPieceEs": "Kasa cielo Yukumo",
+    "esNames": [
+      "Kasa cielo Yukumo",
+      "Dogi cielo Yukumo",
+      "Kote cielo Yukumo",
+      "Obi cielo Yukumo",
+      "Hakama cielo Yukumo"
+    ]
+  },
+  "Arzuros X Set": {
+    "candidate": "Casco Arzuros",
+    "headPieceEs": "Casco Arzuros X",
+    "esNames": [
+      "Casco Arzuros X",
+      "Cota Arzuros X",
+      "Brazales Arzuros X",
+      "Faja Arzuros X",
+      "Grebas Arzuros X"
+    ]
+  },
+  "Alloy X Set": {
+    "candidate": "Yelmo de aleación",
+    "headPieceEs": "Yelmo de aleación X",
+    "esNames": [
+      "Yelmo de aleación X",
+      "Cota de aleación X",
+      "Brazales de aleación X",
+      "Faja de aleación X",
+      "Grebas de aleación X"
+    ]
+  },
+  "Skalda X Set": {
+    "candidate": "Vértice Skalda",
+    "headPieceEs": "Vértice Skalda X",
+    "esNames": [
+      "Vértice Skalda X",
+      "Tórax Skalda X",
+      "Ristre Skalda X",
+      "Élitro Skalda X",
+      "Patas Skalda X"
+    ]
+  },
+  "Commission Set": {
+    "candidate": null,
+    "headPieceEs": "Gorjal comisión",
+    "esNames": [
+      "Gorjal comisión",
+      "Chaleco comisión",
+      "Brazales comisión",
+      "Cinturón comisión",
+      "Pantalón comisión"
+    ]
+  },
+  "Diablos X Set": {
+    "candidate": "Yelmo Diablos",
+    "headPieceEs": "Yelmo Diablos X",
+    "esNames": [
+      "Yelmo Diablos X",
+      "Cota Diablos X",
+      "Brazales Diablos X",
+      "Faja Diablos X",
+      "Grebas Diablos X"
+    ]
+  },
+  "Hawk Set": {
+    "candidate": "Sombrero de",
+    "headPieceEs": "Sombrero de halcón",
+    "esNames": [
+      "Sombrero de halcón",
+      "Traje de halcón",
+      "Guantes de halcón",
+      "Faja de halcón",
+      "Botas de halcón"
+    ]
+  },
+  "Ceanataur Set": {
+    "candidate": "Casco de",
+    "headPieceEs": "Casco de Ceanataur",
+    "esNames": [
+      "Casco de Ceanataur",
+      "Malla de Ceanataur",
+      "Brazales Ceanataur",
+      "Faja Ceanataur",
+      "Grebas Ceanataur"
+    ]
+  },
+  "Guild Bard Set": {
+    "candidate": "Pluma bardo",
+    "headPieceEs": "Pluma bardo gremio",
+    "esNames": [
+      "Pluma bardo gremio",
+      "Bolero bardo gremio",
+      "Braz. bardo gremio",
+      "Faja bardo gremio",
+      "Botas bardo gremio"
+    ]
+  },
+  "Makluva X Set": {
+    "candidate": "Capucha Makluva",
+    "headPieceEs": "Capucha Makluva X",
+    "esNames": [
+      "Capucha Makluva X",
+      "Poncho Makluva X",
+      "Mangas Makluva X",
+      "Cota Makluva X",
+      "Pantalones Makluva X"
+    ]
+  },
+  "Kushala X Set": {
+    "candidate": "Mirada Kushala",
+    "headPieceEs": "Mirada Kushala X",
+    "esNames": [
+      "Mirada Kushala X",
+      "Quiste Kushala X",
+      "Agarres Kushala X",
+      "Capullo Kushala X",
+      "Perneras Kushala X"
+    ]
+  },
+  "Sailor Set": {
+    "candidate": null,
+    "headPieceEs": "Sombrero marinero",
+    "esNames": [
+      "Sombrero marinero",
+      "Traje de marinero",
+      "Guantes de marinero",
+      "Falda de marinera",
+      "Calcet. marinero"
+    ]
+  },
+  "Scholarly Set": {
+    "candidate": "Capucha de",
+    "headPieceEs": "Capucha de erudito",
+    "esNames": [
+      "Capucha de erudito",
+      "Traje de erudito",
+      "Arma erudita",
+      "Fajín de erudito",
+      "Botas de erudito"
+    ]
+  },
+  "Jelly X Set": {
+    "candidate": "Sombrero gelatina",
+    "headPieceEs": "Sombrero gelatina X",
+    "esNames": [
+      "Sombrero gelatina X",
+      "Chaleco gelatina X",
+      "Guantes gelatina X",
+      "Cinto gelatina X",
+      "Botas gelatina X"
+    ]
+  },
+  "Tigrex X Set": {
+    "candidate": "Yelmo Tigrex",
+    "headPieceEs": "Yelmo Tigrex X",
+    "esNames": [
+      "Yelmo Tigrex X",
+      "Cota Tigrex X",
+      "Brazales de Tigrex X",
+      "Faja Tigrex X",
+      "Grebas Tigrex X"
+    ]
+  },
+  "Basarios X Set": {
+    "candidate": "Casco Basarios",
+    "headPieceEs": "Casco Basarios X",
+    "esNames": [
+      "Casco Basarios X",
+      "Cota Basarios X",
+      "Brazales Basarios X",
+      "Faja Basarios X",
+      "Grebas Basarios X"
+    ]
+  },
+  "Jyuratodus X Set": {
+    "candidate": "Casco Jyuratodus",
+    "headPieceEs": "Casco Jyuratodus X",
+    "esNames": [
+      "Casco Jyuratodus X",
+      "Cota Jyuratodus X",
+      "Brazales Jyuratodus X",
+      "Faja Jyuratodus X",
+      "Grebas Jyuratodus X"
+    ]
+  },
+  "Lagombi X Set": {
+    "candidate": "Casco Lagombi",
+    "headPieceEs": "Casco Lagombi X",
+    "esNames": [
+      "Casco Lagombi X",
+      "Cota Lagombi X",
+      "Brazales Lagombi X",
+      "Faja Lagombi X",
+      "Grebas Lagombi X"
+    ]
+  },
+  "Somnacanth X Set": {
+    "candidate": "Casco Somnacanth",
+    "headPieceEs": "Casco Somnacanth X",
+    "esNames": [
+      "Casco Somnacanth X",
+      "Cota Somnacanth X",
+      "Brazales Somnacanth X",
+      "Faja Somnacanth X",
+      "Grebas Somnacanth X"
+    ]
+  },
+  "Barroth X Set": {
+    "candidate": "Yelmo Barroth",
+    "headPieceEs": "Yelmo Barroth X",
+    "esNames": [
+      "Yelmo Barroth X",
+      "Cota Barroth X",
+      "Brazales Barroth X",
+      "Faja Barroth X",
+      "Grebas Barroth X"
+    ]
+  },
+  "Aelucanth X Set": {
+    "candidate": "Vértice Aelucanth",
+    "headPieceEs": "Vértice Aelucanth X",
+    "esNames": [
+      "Vértice Aelucanth X",
+      "Tórax Aelucanth X",
+      "Ristre Aelucanth X",
+      "Élitro Aelucanth X",
+      "Patas Aelucanth X"
+    ]
+  },
+  "Snowshear Set": {
+    "candidate": null,
+    "headPieceEs": "Cubrec. cortanieves",
+    "esNames": [
+      "Cubrec. cortanieves",
+      "Cota cortanieves",
+      "Brazales cortanieves",
+      "Faja cortanieves",
+      "Grebas cortanieves"
+    ]
+  },
+  "Kaiser X Set": {
+    "candidate": "Corona Káiser",
+    "headPieceEs": "Corona Káiser X",
+    "esNames": [
+      "Corona Káiser X",
+      "Cota Káiser X",
+      "Brazales Káiser X",
+      "Faja Káiser X",
+      "Grebas Káiser X"
+    ]
+  },
+  "Arc Set": {
+    "candidate": "Casco de",
+    "headPieceEs": "Casco de arco",
+    "esNames": [
+      "Casco de arco",
+      "Malla de arco",
+      "Brazales de arco",
+      "Faja de arco",
+      "Grebas de arco"
+    ]
+  },
+  "Grand God's Peer Set": {
+    "candidate": "Gran",
+    "headPieceEs": "Gran máscara divina",
+    "esNames": [
+      "Gran máscara divina",
+      "Gran toga divina",
+      "Gran. brazos divinos",
+      "Gran cinturón divino",
+      "Grandes pies divinos"
+    ]
+  },
+  "Bazelgeuse X Set": {
+    "candidate": "Casco Bazelgeuse",
+    "headPieceEs": "Casco Bazelgeuse X",
+    "esNames": [
+      "Casco Bazelgeuse X",
+      "Cota Bazelgeuse X",
+      "Brazales Bazelgeuse X",
+      "Faja Bazelgeuse X",
+      "Grebas Bazelgeuse X"
+    ]
+  },
+  "Archfiend Armor Set": {
+    "candidate": "Ar. archienemigo",
+    "headPieceEs": "Ar. archienemigo Cerato",
+    "esNames": [
+      "Ar. archienemigo Cerato",
+      "Ar. archienemigo Baulo",
+      "Ar. archienemigo Epine",
+      "Ar. archienemigo Ura",
+      "Ar. archienemigo Sceros"
+    ]
+  },
+  "Dignified Set": {
+    "candidate": null,
+    "headPieceEs": "Pend. solemnes",
+    "esNames": [
+      "Pend. solemnes",
+      "Chaqueta solemne",
+      "Guantes solemnes",
+      "Muslera solemne",
+      "Grebas solemnes"
+    ]
+  },
+  "Brigade X Set": {
+    "candidate": "Sombrero de brigada",
+    "headPieceEs": "Sombrero de brigada X",
+    "esNames": [
+      "Sombrero de brigada X",
+      "Traje de brigada X",
+      "Brazales de brigada X",
+      "Faja de brigada X",
+      "Botas de brigada X"
+    ]
+  }
+}

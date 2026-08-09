@@ -1,0 +1,92 @@
+Almudron Magma
+
+Leviatán
+
+ELEMENTO PRINCIPAL
+Fuego
+Agua
+DAÑO QUE INFLIGE
+ELEMENTOS
+Fuego
+Agua
+ESTADOS
+Ninguno
+RESISTENCIAS
+Rayo
+RESISTENTE
+Fuego (sin magma)
+INMUNE
+Fuego (con magma)
+DÉBIL
+DEBILIDADES ELEMENTALES
+Agua
+★★★
+Hielo
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	55%	60%	45%	0%	20%	10%	20%	5%	100%
+Pata delantera	40%	40%	40%	0%	15%	5%	10%	5%	0%
+Abdomen	40%	40%	25%	0%	20%	5%	15%	5%	0%
+Espalda	25%	30%	20%	0%	15%	5%	10%	5%	0%
+Pata trasera	21%	23%	20%	0%	10%	5%	10%	5%	0%
+Cola	24%	24%	15%	0%	25%	10%	20%	5%	0%
+Punta de la cola	50%	45%	25%	0%	25%	15%	20%	15%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Esquirla de Magmadron	—	18%	16%	70% (Torso), 10% (Cuerpo)	38% (Cuerpo)	19%, 37%
+
+Córtex de Magmadron	—	26%	23%	30% (Torso), 20% (Cola)	27% (Cuerpo)	28%
+
+Gran aleta Magmadron	—	17%	—	17% (Cabeza), 80% (Cola)	22% (Cuerpo), 17% (Cola)	—
+
+Bigote duro Magmadron	—	10%	—	80% (Cabeza)	12% (Cuerpo)	—
+
+Cola de Magmadron	—	6%	12%	—	80% (Cola)	—
+
+Lodo de lava infernal	—	21%	14% (x2)	—	—	30% (x1), 25% (x2)
+
+Manto de Magmadron	—	2%	3%	3% (Cabeza)	1% (Cuerpo), 3% (Cola)	1%
+
+Garfa de Magmadron	—	—	32%	90% (x2) (Pata delantera)	—	10%
+
+Lágrima de wyvern grande	—	—	—	—	—	50%
+
+Hueso duro aciago afligido	—	—	—	40% (Misiones de Anomalía, Nvl. 101-160)	40% (Misiones de Anomalía, Nvl. 101-160)	—
+
+Huesorrecio aciago aflig.	—	—	—	40% (Misiones de Anomalía, Nvl. 161+)	40% (Misiones de Anomalía, Nvl. 161+)	—
+
+Hueso aciago afligido	—	—	—	40% (Misiones de Anomalía, Nvl. 51-100)	40% (Misiones de Anomalía, Nvl. 51-100)	—
+ZONAS DE APARICIÓN
+Grutas de Lava
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Magmadron Set

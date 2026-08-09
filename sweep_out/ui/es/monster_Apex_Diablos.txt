@@ -1,0 +1,85 @@
+Diablos Apex
+
+Wyvern Volador
+
+ELEMENTO PRINCIPAL
+Ninguno
+DAÑO QUE INFLIGE
+ELEMENTOS
+Ninguno
+ESTADOS
+Ninguno
+RESISTENCIAS
+Fuego
+INMUNE
+DEBILIDADES ELEMENTALES
+Agua
+★★★
+Hielo
+★★★
+Dragón
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	45%	45%	45%	0%	15%	10%	25%	15%	100%
+Cuerno	35%	45%	10%	0%	15%	10%	25%	15%	0%
+Cuello	40%	45%	20%	0%	8%	5%	10%	5%	0%
+Abdomen	38%	38%	15%	0%	10%	5%	10%	10%	0%
+Espalda	25%	25%	10%	0%	5%	5%	10%	5%	0%
+Ala	30%	30%	20%	0%	5%	5%	10%	5%	0%
+Pata	28%	28%	25%	0%	10%	5%	15%	10%	0%
+Cola	50%	24%	20%	0%	10%	10%	15%	10%	0%
+Punta de la cola	45%	24%	10%	0%	25%	10%	30%	20%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Alto
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Cuerno curvo Apex	—	5%	—	100% (Cuerno)	7% (Cuerpo)	—
+
+Coraza de Diablos	—	32%	—	—	39% (Cuerpo), 12% (Cola)	38%, 70%
+
+Cresta de Diablos+	—	25%	—	50% (Espalda)	32% (Cuerpo)	20%, 30%
+
+Colmillo de Diablos	—	13%	—	—	14% (Cuerpo)	—
+
+Colamen de Diablos	—	5%	—	—	70% (Cola)	—
+
+Extracto de poder	—	8%	—	—	—	—
+
+Médula de Diablos	—	8%	—	20% (Espalda)	12% (Cola), 5% (Cuerpo)	—
+
+Gema de wyvern	—	4%	—	—	6% (Cola), 3% (Cuerpo)	2%
+
+Tuétano de Diablos	—	—	—	30% (Espalda)	—	—
+
+Lágrima de wyvern grande	—	—	—	—	—	40%
+ZONAS DE APARICIÓN
+Llanos Arenosos
+Fuente Infernal
+Fortaleza (Asalto)

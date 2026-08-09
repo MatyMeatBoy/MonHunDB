@@ -1,0 +1,100 @@
+Basarios
+
+Wyvern Volador
+
+ELEMENTO PRINCIPAL
+Fuego
+DAÑO QUE INFLIGE
+ELEMENTOS
+Fuego
+ESTADOS
+Plaga de fuego
+Veneno
+Sueño
+RESISTENCIAS
+Sin datos
+DEBILIDADES ELEMENTALES
+Dragón
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	20%	20%	20%	10%	15%	10%	10%	18%	100%
+Cuello inferior	15%	20%	20%	10%	15%	10%	10%	18%	0%
+Abdomen	24%	25%	30%	10%	10%	10%	10%	15%	0%
+Espalda	15%	20%	20%	10%	15%	10%	10%	18%	0%
+Ala	20%	20%	20%	10%	15%	10%	10%	18%	0%
+Pata	25%	26%	30%	10%	10%	10%	10%	10%	0%
+Cola inferior	15%	15%	15%	10%	15%	10%	10%	18%	0%
+Punta de la cola	28%	15%	15%	10%	10%	10%	10%	15%	0%
+Tipo de daño:
+Corte
+Contundente
+Disparo
+Fuego
+Agua
+Rayo
+Hielo
+Dragón
+Aturdimiento
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Bajo
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Caparazón de Basarios	—	16%	24% (x2)	80% (Cabeza), 25% (Espalda)	40% (Cuerpo), 13% (Cola)	15%, 40%
+
+Pleura de Basarios	—	27%	—	55% (Pecho)	27% (Cuerpo)	20%
+
+Ala de Basarios	—	20%	34%	40% (Espalda)	—	—
+
+Cola de Basarios	—	7%	12%	—	80% (Cola)	—
+
+Vesícula de veneno	—	12%	16%	20% (Pecho)	21% (Cuerpo)	—
+
+Vesícula flamígera	—	8%	14%	20% (Cabeza)	—	—
+
+Machalita	—	10% (x2)	—	35% (x2) (Espalda), 25% (Pecho)	12% (Cuerpo), 7% (x2) (Cola)	35%, 40%
+
+Lágrima de wyvern	—	—	—	—	—	—
+ZONAS DE APARICIÓN
+Llanos Arenosos
+Grutas de Lava
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Alloy Set
+Basarios Set
+Chainmail S Set
+Alloy S Set
+Basarios S Set
+Chainmail X Set
+Hunter X Set
+Alloy X Set
+Basarios X Set
+Makluva X Set

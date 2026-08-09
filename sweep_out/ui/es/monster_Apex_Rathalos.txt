@@ -1,0 +1,87 @@
+Rathalos Apex
+
+Wyvern Volador
+
+ELEMENTO PRINCIPAL
+Fuego
+DAÑO QUE INFLIGE
+ELEMENTOS
+Fuego
+ESTADOS
+Plaga de fuego
+Veneno
+RESISTENCIAS
+Fuego
+RESISTENTE
+Agua
+RESISTENTE
+Hielo
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Rayo
+★★★
+Dragón
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	55%	55%	30%	0%	5%	10%	5%	20%	100%
+Cuello	38%	38%	20%	5%	10%	15%	10%	15%	0%
+Abdomen	24%	24%	10%	0%	5%	8%	5%	10%	0%
+Espalda	21%	21%	45%	0%	5%	8%	5%	10%	0%
+Ala	30%	45%	10%	0%	10%	20%	10%	25%	0%
+Pata	30%	30%	20%	0%	5%	10%	5%	15%	0%
+Cola	45%	35%	20%	5%	5%	10%	5%	15%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Alto
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Vesícula Apex	—	8%	—	35% (Cabeza), 12% (Cuerpo)	—	—
+
+Escama de Rathalos+	—	35%	—	32% (Cabeza), 36% (Cuerpo), 18% (Cola)	39%, 50%	—
+
+Coraza de Rathalos	—	27%	—	21% (Cabeza), 65% (Espalda)	24% (Cuerpo)	30%
+
+Ala de Rathalos	—	15%	—	30% (Ala), 19% (Cuerpo)	—	—
+
+Médula de Rath	—	8%	—	30% (Espalda), 5% (Cuerpo), 7% (Cola)	—	—
+
+Placa de Rathalos	—	5%	—	7% (Cabeza), 4% (Espalda), 3% (Cuerpo), 5% (Cola)	—	—
+
+Rubí de Rathalos	—	2%	—	5% (Cabeza), 1% (Espalda), 1% (Cuerpo), 5% (Cola)	2%	—
+
+Garra de Rath+	—	—	—	70% (Ala)	19%, 20%	—
+
+Cola de Rathalos	—	—	—	—	65% (Cola)	—
+
+Lágrima de wyvern grande	—	—	—	—	—	40%
+ZONAS DE APARICIÓN
+Templo Olvidado
+Grutas de Lava
+Fuente Infernal
+Fortaleza

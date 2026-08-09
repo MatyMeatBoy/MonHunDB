@@ -1,0 +1,1211 @@
+{
+  "sameLines": {
+    "armor_set_Kamura_Legacy_Set.txt": [
+      "Kamura Legacy Set",
+      "Divine Blessing Lv2",
+      "Resuscitate Lv1",
+      "x2",
+      "x1",
+      "Wirebug Whisperer Lv2",
+      "Wall Runner Lv1",
+      "Critical Eye Lv1",
+      "Critical Eye Lv2",
+      "Heroics Lv1",
+      "Divine Blessing Lv1",
+      "Wirebug Whisperer Lv1",
+      "Wall Runner Lv2",
+      "Affinity Sliding Lv1"
+    ],
+    "deco_Mastery_Jewel_2.txt": [
+      "x8",
+      "x6",
+      "x4",
+      "x1"
+    ],
+    "gs_rath.txt": [
+      "Dignified Set",
+      "Golden Set",
+      "Luna Eostre CHARGE BLADE",
+      "DECORATIONS",
+      "x4",
+      "x3",
+      "x2",
+      "x7",
+      "Rathalos X Set",
+      "Attack Boost Lv1, Partbreaker Lv1, Critical Boost Lv1, Earplugs Lv2, Windproof Lv3",
+      "Rathian X Set",
+      "Blight Resistance Lv1, Poison Resistance Lv2, Agitator Lv1, Recovery Up Lv2, Free Meal Lv1, Wide-Range Lv1"
+    ],
+    "gs_soul.txt": [
+      "Magna Soulprism+"
+    ],
+    "home.txt": [
+      "v0.3 Alpha",
+      "v0.2 Alpha",
+      "v0.1 Alpha"
+    ],
+    "monster_Aknosom.txt": [
+      "Torso 38% 38% 20% 0% 15% 10% 5% 0% 0%",
+      "Aknosom Set",
+      "Aknosom S Set",
+      "Dober Set",
+      "Aknosom X Set",
+      "Five Element Set"
+    ],
+    "monster_Almudron.txt": [
+      "Abdomen 40% 55% 35% 20% 0% 5% 15% 5% 0%",
+      "Almudron Set",
+      "Almudron S Set",
+      "Almudron X Set"
+    ],
+    "monster_Altaroth.txt": [
+      "Cuerpo 75% 75% 80% 100% 100% 100% 100% 100% 100%",
+      "Cuerpo HP 20 — Red",
+      "Mosgharl Set",
+      "Skalda Set",
+      "Spio Set",
+      "Skalda S Set",
+      "Spio S Set",
+      "Skalda X Set",
+      "Spio X Set"
+    ],
+    "monster_Amatsu.txt": [
+      "Torso 40% 40% 5% 0% 0% 0% 0% 5% 0%",
+      "Great Sword",
+      "Sword & Shield",
+      "Dual Blades",
+      "Long Sword",
+      "Hammer",
+      "Hunting Horn",
+      "Lance",
+      "Gunlance",
+      "Switch Axe",
+      "Charge Blade",
+      "Insect Glaive",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Tempest Set"
+    ],
+    "monster_Anjanath.txt": [
+      "Torso 30% 30% 45% 0% 15% 5% 10% 0% 0%",
+      "Anjanath Set",
+      "Anjanath S Set",
+      "Anjanath X Set"
+    ],
+    "monster_Anteka.txt": [
+      "Cabeza 85% 85% 80% 80% 80% 80% 80% 0% 100%",
+      "Torso 85% 85% 80% 80% 80% 80% 80% 0% 100%",
+      "Cabeza HP 20 — Orange",
+      "Cuerpo HP 20 — Orange",
+      "Hunter's Set"
+    ],
+    "monster_Apex_Arzuros.txt": [
+      "Abdomen 38% 24% 26% 5% 0% 5% 16% 0% 0%"
+    ],
+    "monster_Apex_Diablos.txt": [
+      "Abdomen 38% 38% 15% 0% 10% 5% 10% 10% 0%"
+    ],
+    "monster_Apex_Mizutsune.txt": [
+      "Torso 25% 25% 15% 5% 0% 10% 5% 5% 0%"
+    ],
+    "monster_Apex_Rathalos.txt": [
+      "Abdomen 24% 24% 10% 0% 5% 8% 5% 10% 0%"
+    ],
+    "monster_Apex_Rathian.txt": [
+      "Torso 24% 24% 20% 0% 5% 15% 5% 15% 0%",
+      "Dignified Set"
+    ],
+    "monster_Apex_Zinogre.txt": [
+      "Torso 25% 25% 25% 5% 5% 0% 5% 5% 0%"
+    ],
+    "monster_Arzuros.txt": [
+      "Hammer",
+      "Arzuros Set",
+      "Arzuros S Set",
+      "Arzuros X Set"
+    ],
+    "monster_Astalos.txt": [
+      "Abdomen 24% 24% 15% 5% 5% 0% 10% 5% 0%",
+      "Astalos Set"
+    ],
+    "monster_Aurora_Somnacanth.txt": [
+      "Abdomen 30% 30% 15% 10% 0% 0% 0% 0% 0%",
+      "Auroracanth Set",
+      "Dober X Set",
+      "Brigade X Set",
+      "Utsushi True Set",
+      "Barbania Set",
+      "Professor's Set",
+      "Charité Set",
+      "Scholarly Set",
+      "Commission Set"
+    ],
+    "monster_Baggi.txt": [
+      "Cuerpo 70% 70% 75% 70% 50% 50% 50% 10% 100%",
+      "Cuerpo HP 10 — White"
+    ],
+    "monster_Barioth.txt": [
+      "Abdomen 38% 38% 25% 10% 0% 5% 0% 5% 0%",
+      "Barioth Set",
+      "Barioth S Set",
+      "Barioth X Set"
+    ],
+    "monster_Barroth.txt": [
+      "Torso 36% 45% 35% 25% 0% 0% 10% 5% 0%",
+      "Barroth Set",
+      "Barroth S Set",
+      "Barroth X Set",
+      "Guild Bard Set",
+      "Scholar's Set"
+    ],
+    "monster_Basarios.txt": [
+      "Abdomen 24% 25% 30% 10% 10% 10% 10% 15% 0%",
+      "Alloy Set",
+      "Basarios Set",
+      "Chainmail S Set",
+      "Alloy S Set",
+      "Basarios S Set",
+      "Chainmail X Set",
+      "Hunter X Set",
+      "Alloy X Set",
+      "Basarios X Set",
+      "Makluva X Set"
+    ],
+    "monster_Bazelgeuse.txt": [
+      "Abdomen 45% 45% 25% 0% 5% 10% 10% 10% 0%",
+      "Bazelgeuse Set",
+      "Bazelgeuse X Set"
+    ],
+    "monster_Bishaten.txt": [
+      "Torso 25% 25% 30% 10% 0% 5% 15% 0% 0%",
+      "Bishaten Set",
+      "Bishaten S Set",
+      "Yukumo Sky Set",
+      "Bishaten X Set"
+    ],
+    "monster_Blood_Orange_Bishaten.txt": [
+      "Torso 25% 25% 30% 0% 15% 10% 5% 0% 0%",
+      "Orangaten Set"
+    ],
+    "monster_Bnahabra.txt": [
+      "Cuerpo 83% 87% 85% 100% 50% 10% 50% 0% 100%",
+      "Cuerpo HP 20 — White",
+      "Bnahabra Set",
+      "Bnahabra S Set",
+      "Bnahabra X Set"
+    ],
+    "monster_Boggi.txt": [
+      "Cuerpo 65% 65% 65% 60% 50% 50% 40% 10% 100%",
+      "Group1_全身 HP 50 — Orange",
+      "Snowshear Set"
+    ],
+    "monster_Bombadgy.txt": [
+      "Cabeza 60% 75% 65% 100% 100% 100% 100% 10% 100%",
+      "Torso 70% 70% 70% 100% 100% 100% 100% 10% 0%",
+      "Cuerpo HP 20 — Orange",
+      "Cuerpo HP 10 — Orange"
+    ],
+    "monster_Bullfango.txt": [
+      "Cabeza 70% 85% 75% 20% 20% 60% 20% 5% 100%",
+      "Torso 60% 75% 65% 10% 10% 30% 10% 5% 0%",
+      "Cuerpo HP 40 — Red",
+      "Leather Set",
+      "Leather X Set",
+      "Bone X Set"
+    ],
+    "monster_Ceanataur.txt": [
+      "Carapaceon",
+      "Cuerpo 80% 110% 50% 30% 5% 60% 20% 0% 200%",
+      "Espalda HP 100 — Red"
+    ],
+    "monster_Chameleos.txt": [
+      "Abdomen 25% 30% 22% 20% 5% 10% 0% 15% 0%",
+      "Great Sword",
+      "Dual Blades",
+      "Long Sword",
+      "Hammer",
+      "Hunting Horn",
+      "Gunlance",
+      "Switch Axe",
+      "Charge Blade",
+      "Insect Glaive",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Ingot S Set",
+      "Damascus Set",
+      "Damascus X Set",
+      "Risen Mizuha Set"
+    ],
+    "monster_Chaotic_Gore_Magala.txt": [
+      "Torso 25% 25% 20% 10% 0% 5% 5% 5% 0%",
+      "Chaotic Set",
+      "Nephilim Set"
+    ],
+    "monster_Crimson_Glow_Valstrax.txt": [
+      "Torso 30% 25% 10% 20% 20% 20% 20% 0% 0%",
+      "Great Sword",
+      "Sword & Shield",
+      "Dual Blades",
+      "Long Sword",
+      "Hammer",
+      "Hunting Horn",
+      "Lance",
+      "Gunlance",
+      "Switch Axe",
+      "Charge Blade",
+      "Insect Glaive",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Valstrax Set"
+    ],
+    "monster_Daimyo_Hermitaur.txt": [
+      "Carapaceon",
+      "Torso 40% 50% 30% 15% 5% 20% 10% 0% 0%",
+      "Channeler's S Set",
+      "Brigade S Set",
+      "Hermitaur Set"
+    ],
+    "monster_Delex.txt": [
+      "Cuerpo 90% 90% 90% 0% 50% 30% 0% 0% 100%",
+      "Cuerpo HP 50 — Orange"
+    ],
+    "monster_Diablos.txt": [
+      "Abdomen 65% 70% 40% 0% 25% 10% 30% 25% 0%",
+      "Diablos Set",
+      "Diablos S Set",
+      "Diablos X Set"
+    ],
+    "monster_Espinas.txt": [
+      "Abdomen 30% 30% 25% 0% 10% 5% 15% 10% 0%",
+      "Espinas Set"
+    ],
+    "monster_Felyne.txt": [
+      "Cuerpo 80% 75% 80% 100% 100% 100% 100% 10% 100%",
+      "Cuerpo HP 20 — White",
+      "タル HP 1 — Red"
+    ],
+    "monster_Flaming_Espinas.txt": [
+      "Abdomen 30% 30% 25% 0% 15% 10% 5% 10% 0%",
+      "Sword & Shield",
+      "Kaktus Ehrgeiz",
+      "Dual Blades",
+      "Long Sword",
+      "Hammer",
+      "Hunting Horn",
+      "Lance",
+      "Gunlance",
+      "Kaktusprion",
+      "Switch Axe",
+      "Kaktusemolgia",
+      "Charge Blade",
+      "Kaktusspringen",
+      "Insect Glaive",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Flaming Espinas Set"
+    ],
+    "monster_Furious_Rajang.txt": [
+      "Torso 45% 45% 35% 0% 5% 0% 15% 0% 0%",
+      "Great Sword",
+      "Sword & Shield",
+      "Dual Blades",
+      "Long Sword",
+      "Hammer",
+      "Hunting Horn",
+      "Lance",
+      "Gunlance",
+      "Switch Axe",
+      "Charge Blade",
+      "Insect Glaive",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun"
+    ],
+    "monster_Gaismagorm.txt": [
+      "Abdomen 32% 34% 16% 5% 0% 15% 0% 25% 0%",
+      "Great Sword",
+      "Sword & Shield",
+      "Dual Blades",
+      "Long Sword",
+      "Hammer",
+      "Hunting Horn",
+      "Lance",
+      "Gunlance",
+      "Switch Axe",
+      "Charge Blade",
+      "Insect Glaive",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Archfiend Armor Set"
+    ],
+    "monster_Gajau.txt": [
+      "A:肉質_頭 80% 80% 80% 40% 10% 40% 10% 10% 100%",
+      "B:肉質_胴 70% 70% 70% 40% 10% 40% 10% 10% 0%",
+      "Cabeza HP 15 — Red",
+      "Cuerpo HP 20 — Red"
+    ],
+    "monster_Garangolm.txt": [
+      "Torso 35% 35% 15% 8% 0% 10% 5% 0% 0%",
+      "Golm Set"
+    ],
+    "monster_Gargwa.txt": [
+      "Cabeza 80% 80% 80% 100% 90% 90% 90% 5% 100%",
+      "Torso 75% 75% 75% 90% 80% 80% 80% 0% 0%",
+      "Cuerpo HP 50 — White"
+    ],
+    "monster_Gold_Rathian.txt": [
+      "Torso 25% 30% 30% 5% 10% 15% 10% 0% 0%",
+      "Sword & Shield",
+      "Long Sword",
+      "Hunting Horn",
+      "Gunlance",
+      "Switch Axe",
+      "Luna Eostre",
+      "Charge Blade",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Golden Set"
+    ],
+    "monster_Gore_Magala.txt": [
+      "Torso 25% 25% 20% 10% 0% 5% 5% 5% 0%",
+      "Gore Set"
+    ],
+    "monster_Goss_Harag.txt": [
+      "Torso 24% 24% 20% 15% 0% 5% 0% 0% 0%",
+      "Goss Harag Set",
+      "Goss Harag S Set",
+      "Goss Harag X Set"
+    ],
+    "monster_Gowngoat.txt": [
+      "Cabeza 75% 75% 75% 35% 35% 55% 45% 5% 100%",
+      "Torso 66% 59% 70% 30% 30% 50% 40% 5% 0%",
+      "Group0‗頭 HP 5 — Orange",
+      "Cuerpo HP 5 — Orange"
+    ],
+    "monster_Great_Baggi.txt": [
+      "Baggi Set",
+      "Brigade Set",
+      "Baggi S Set",
+      "Baggi X Set"
+    ],
+    "monster_Great_Izuchi.txt": [
+      "Torso 45% 45% 40% 10% 10% 15% 10% 5% 0%",
+      "Izuchi Set",
+      "Izuchi S Set",
+      "S. Studded S Set",
+      "Izuchi X Set"
+    ],
+    "monster_Great_Wroggi.txt": [
+      "Wroggi Set",
+      "Wroggi S Set",
+      "Wroggi X Set"
+    ],
+    "monster_Hermitaur.txt": [
+      "Carapaceon",
+      "Cuerpo 80% 110% 50% 30% 5% 60% 20% 0% 200%",
+      "Espalda HP 100 — Orange"
+    ],
+    "monster_Hornetaur.txt": [
+      "Cuerpo 100% 120% 100% 100% 20% 60% 100% 10% 100%",
+      "Cuerpo HP 1 — Red",
+      "Hornetaur Set"
+    ],
+    "monster_Izuchi.txt": [
+      "Cuerpo 70% 70% 75% 70% 50% 50% 50% 10% 100%",
+      "Cuerpo HP 40 — Orange",
+      "Bone Set",
+      "Bone S Set"
+    ],
+    "monster_Jaggi.txt": [
+      "Cuerpo 80% 80% 85% 70% 50% 50% 50% 10% 100%",
+      "Cuerpo HP 40 — Orange"
+    ],
+    "monster_Jaggia.txt": [
+      "Cuerpo 75% 75% 85% 75% 50% 50% 50% 10% 100%",
+      "Cuerpo HP 40 — Orange"
+    ],
+    "monster_Jagras.txt": [
+      "Cabeza 90% 90% 90% 50% 5% 30% 20% 10% 100%",
+      "Cabeza 80% 80% 80% 40% 0% 20% 10% 5% 0%",
+      "Cabeza HP 20 — Red",
+      "Torso HP 20 — Orange",
+      "Hunter's S Set"
+    ],
+    "monster_Jyuratodus.txt": [
+      "Torso 35% 35% 35% 10% 0% 25% 5% 5% 0%",
+      "Jyuratodus Set",
+      "Jyuratodus X Set"
+    ],
+    "monster_Kelbi.txt": [
+      "Cuerno 85% 85% 80% 80% 80% 80% 80% 0% 100%",
+      "Torso 85% 85% 80% 80% 80% 80% 80% 0% 100%",
+      "Cuerno HP 5 — 20 (BreakLevel: 1, IgnoreCondition: None, IgnoreCheckCount: 0)",
+      "Torso HP 5 — White"
+    ],
+    "monster_Kestodon.txt": [
+      "Cabeza 35% 35% 35% 25% 40% 25% 40% 10% 100%",
+      "Torso 80% 80% 80% 25% 40% 25% 40% 10% 0%",
+      "Torso HP 20 — Red",
+      "Cabeza HP 30 — Red"
+    ],
+    "monster_Khezu.txt": [
+      "Torso 45% 45% 25% 25% 5% 0% 5% 5% 0%",
+      "Khezu Set",
+      "Khezu S Set",
+      "Squire's Set",
+      "Khezu X Set"
+    ],
+    "monster_Kulu_Ya_Ku.txt": [
+      "Torso 45% 45% 40% 15% 20% 15% 15% 15% 0%",
+      "Kulu-Ya-Ku Set",
+      "Kulu-Ya-Ku S Set",
+      "Kulu-Ya-Ku X Set"
+    ],
+    "monster_Kushala_Daora.txt": [
+      "Abdomen 35% 50% 35% 10% 5% 15% 0% 10% 0%",
+      "Great Sword",
+      "Sword & Shield",
+      "Dual Blades",
+      "Long Sword",
+      "Hammer",
+      "Hunting Horn",
+      "Lance",
+      "Gunlance",
+      "Switch Axe",
+      "Charge Blade",
+      "Insect Glaive",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Kushala Set",
+      "Risen Kushala Set"
+    ],
+    "monster_Lagombi.txt": [
+      "Lagombi Set",
+      "Lagombi S Set",
+      "Lagombi X Set"
+    ],
+    "monster_Lucent_Nargacuga.txt": [
+      "Abdomen 25% 40% 30% 0% 10% 0% 20% 15% 0%",
+      "Great Sword",
+      "Sword & Shield",
+      "Dual Blades",
+      "Long Sword",
+      "Hammer",
+      "Hunting Horn",
+      "Lance",
+      "Gunlance",
+      "Switch Axe",
+      "Charge Blade",
+      "Insect Glaive",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Lambent Set"
+    ],
+    "monster_Ludroth.txt": [
+      "Cabeza 90% 95% 90% 40% 0% 30% 10% 0% 100%",
+      "Torso 85% 85% 80% 60% 0% 25% 10% 0% 0%",
+      "Cabeza HP 30 — White",
+      "Torso HP 40 — White",
+      "Vaik X Set"
+    ],
+    "monster_Lunagaron.txt": [
+      "Torso 30% 30% 10% 10% 0% 5% 0% 5% 0%",
+      "Abdomen 35% 35% 15% 20% 0% 10% 0% 5% 0%",
+      "Lunagaron Set"
+    ],
+    "monster_Magma_Almudron.txt": [
+      "Abdomen 40% 40% 25% 0% 20% 5% 15% 5% 0%",
+      "Magmadron Set"
+    ],
+    "monster_Magnamalo.txt": [
+      "Torso 25% 25% 5% 0% 20% 15% 10% 0% 0%",
+      "Lance",
+      "Charge Blade",
+      "Insect Glaive",
+      "Sinister Set",
+      "Sinister S Set",
+      "Sinister Demon Set"
+    ],
+    "monster_Malzeno.txt": [
+      "Torso 32% 30% 15% 10% 0% 0% 5% 15% 0%",
+      "Malzeno Set"
+    ],
+    "monster_Melynx.txt": [
+      "Cuerpo 80% 75% 80% 100% 100% 100% 100% 10% 100%",
+      "Cuerpo HP 20 — White"
+    ],
+    "monster_Mizutsune.txt": [
+      "Torso 25% 25% 20% 5% 0% 10% 5% 5% 0%",
+      "Mizutsune Set",
+      "Mizutsune S Set",
+      "Mizutsune X Set"
+    ],
+    "monster_Nargacuga.txt": [
+      "Abdomen 40% 40% 30% 10% 0% 20% 5% 5% 0%",
+      "Nargacuga Set",
+      "Nargacuga S Set",
+      "Nargacuga X Set"
+    ],
+    "monster_Narwa_the_Allmother.txt": [
+      "Torso 40% 42% 5% 0% 0% 0% 0% 5% 0%",
+      "Great Sword",
+      "Sword & Shield",
+      "Dual Blades",
+      "Long Sword",
+      "Hammer",
+      "Hunting Horn",
+      "Lance",
+      "Gunlance",
+      "Switch Axe",
+      "Charge Blade",
+      "Insect Glaive",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Narwa's Pure Set"
+    ],
+    "monster_Popo.txt": [
+      "Cabeza 80% 80% 100% 40% 20% 30% 20% 15% 100%",
+      "Cuerpo 70% 70% 100% 40% 20% 30% 20% 15% 0%",
+      "Cola 70% 70% 100% 40% 20% 30% 20% 15% 0%",
+      "ダメージアタリ_頭_部位 HP 5 — Orange",
+      "ダメージアタリ_胴_部位 HP 5 — Orange",
+      "ダメージアタリ_尻尾_部位 HP 5 — Orange"
+    ],
+    "monster_Primordial_Malzeno.txt": [
+      "Torso 32% 30% 15% 10% 0% 0% 5% 15% 0%",
+      "Great Sword",
+      "Sword & Shield",
+      "Dual Blades",
+      "Long Sword",
+      "Hammer",
+      "Hunting Horn",
+      "Lance",
+      "Gunlance",
+      "Switch Axe",
+      "Charge Blade",
+      "Insect Glaive",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Primordial Set"
+    ],
+    "monster_Pukei_Pukei.txt": [
+      "Torso 35% 35% 30% 0% 0% 15% 5% 5% 0%",
+      "Remobra Set",
+      "Channeler's Set",
+      "Utsushi Set",
+      "Remobra S Set",
+      "Guardian Set"
+    ],
+    "monster_Pyrantula.txt": [
+      "Temnoceran",
+      "Cuerpo 45% 55% 45% 0% 30% 10% 20% 10% 0%",
+      "B : 糸 80% 80% 45% 0% 0% 0% 0% 0% 0%",
+      "Cuerpo HP 30 — White",
+      "Group1_糸 HP 100 — Orange"
+    ],
+    "monster_Pyre_Rakna_Kadaki.txt": [
+      "Temnoceran",
+      "Abdomen 38% 43% 10% 0% 10% 0% 5% 0% 0%",
+      "Pyre-Kadaki Set"
+    ],
+    "monster_Rachnoid.txt": [
+      "Temnoceran",
+      "Cuerpo 45% 45% 35% 0% 40% 10% 30% 10% 100%",
+      "Cuerpo HP 10 — White",
+      "Melahoa Set"
+    ],
+    "monster_Rajang.txt": [
+      "Torso 45% 45% 35% 0% 5% 0% 15% 0% 0%",
+      "Sword & Shield",
+      "Hammer",
+      "Lance",
+      "Gunlance",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Golden Set",
+      "Grand God's Peer Set",
+      "Sailor Set"
+    ],
+    "monster_Rakna_Kadaki.txt": [
+      "Temnoceran",
+      "Abdomen 35% 35% 15% 0% 5% 0% 10% 0% 0%",
+      "Aelucanth S Set",
+      "Rhopessa S Set",
+      "Rakna Set",
+      "Rakna X Set"
+    ],
+    "monster_Rathalos.txt": [
+      "Abdomen 25% 25% 20% 0% 5% 10% 5% 20% 0%",
+      "Rathalos Set",
+      "Rathalos S Set",
+      "Rathalos X Set"
+    ],
+    "monster_Rathian.txt": [
+      "Torso 35% 30% 25% 0% 5% 10% 5% 20% 0%",
+      "Rathian Set",
+      "Aelucanth Set",
+      "Rhopessa Set",
+      "Rathian S Set",
+      "Rathian X Set",
+      "Aelucanth X Set",
+      "Rhopessa X Set"
+    ],
+    "monster_Remobra.txt": [
+      "Cabeza 80% 75% 80% 10% 30% 0% 10% 35% 100%",
+      "Cola 45% 45% 30% 15% 30% 5% 10% 35% 0%",
+      "Ala 71% 65% 60% 10% 25% 5% 15% 20% 0%",
+      "Cuerpo HP 40 — Red",
+      "Cola HP 60 — Red",
+      "Ala HP 50 — White",
+      "Death Stench Set",
+      "Remobra X Set"
+    ],
+    "monster_Rhenoplos.txt": [
+      "Cabeza 30% 40% 45% 0% 45% 45% 45% 5% 100%",
+      "Torso 75% 80% 85% 10% 50% 50% 50% 10% 0%",
+      "Cuerpo HP 30 — Red",
+      "Rhenoplos Set",
+      "Rhenoplos S Set",
+      "Rhenoplos X Set"
+    ],
+    "monster_Risen_Chameleos.txt": [
+      "Abdomen 25% 30% 22% 20% 5% 10% 0% 15% 0%"
+    ],
+    "monster_Risen_Crimson_Glow_Valstrax.txt": [
+      "Torso 30% 25% 10% 20% 20% 20% 20% 0% 0%"
+    ],
+    "monster_Risen_Kushala_Daora.txt": [
+      "Abdomen 35% 50% 35% 10% 5% 15% 0% 10% 0%",
+      "Kushala X Set"
+    ],
+    "monster_Risen_Shagaru_Magala.txt": [
+      "Torso 25% 25% 15% 10% 0% 5% 5% 10% 0%",
+      "Arc Set",
+      "Storge Set",
+      "Virtue Set",
+      "Prudence Set"
+    ],
+    "monster_Risen_Teostra.txt": [
+      "Abdomen 24% 24% 10% 0% 5% 0% 5% 0% 0%",
+      "Teostra del Sol",
+      "Great Sword",
+      "Sword & Shield",
+      "Long Sword",
+      "Teostra de la Torre",
+      "Hammer",
+      "Hunting Horn",
+      "Lance",
+      "Switch Axe",
+      "Charge Blade",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Risen Kaiser Set"
+    ],
+    "monster_Royal_Ludroth.txt": [
+      "Abdomen 50% 40% 35% 30% 0% 10% 10% 0% 0%",
+      "Ludroth Set",
+      "Ludroth S Set",
+      "Ludroth X Set"
+    ],
+    "monster_Scorned_Magnamalo.txt": [
+      "Great Sword",
+      "Sword & Shield",
+      "Dual Blades",
+      "Long Sword",
+      "Hammer",
+      "Hunting Horn",
+      "Gunlance",
+      "Switch Axe",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Sinister Grudge Set"
+    ],
+    "monster_Seething_Bazelgeuse.txt": [
+      "Abdomen 45% 45% 25% 0% 5% 10% 15% 5% 0%",
+      "Dual Blades",
+      "Long Sword",
+      "Hunting Horn",
+      "Lance",
+      "Gunlance",
+      "Switch Axe",
+      "Light Bowgun",
+      "Pride Set"
+    ],
+    "monster_Seregios.txt": [
+      "Abdomen 35% 35% 25% 0% 5% 10% 5% 5% 0%",
+      "Regios Set"
+    ],
+    "monster_Shagaru_Magala.txt": [
+      "Torso 25% 25% 15% 10% 0% 5% 5% 10% 0%"
+    ],
+    "monster_Shogun_Ceanataur.txt": [
+      "Carapaceon",
+      "Torso 35% 35% 25% 15% 5% 20% 10% 0% 0%",
+      "Ceanataur Set",
+      "Hoplite's Set"
+    ],
+    "monster_Silver_Rathalos.txt": [
+      "Abdomen 22% 22% 20% 0% 15% 10% 5% 0% 0%",
+      "Great Sword",
+      "Dual Blades",
+      "Long Sword",
+      "Hammer",
+      "Lance",
+      "Gunlance",
+      "Switch Axe",
+      "Charge Blade",
+      "Insect Glaive",
+      "Bow",
+      "Silver Set"
+    ],
+    "monster_Slagtoth.txt": [
+      "Cabeza 75% 75% 75% 35% 35% 55% 45% 5% 100%",
+      "Torso 66% 59% 70% 30% 30% 50% 40% 5% 0%",
+      "Cuerpo HP 60 — Orange"
+    ],
+    "monster_Somnacanth.txt": [
+      "Abdomen 30% 40% 20% 10% 0% 15% 0% 0% 0%",
+      "Somnacanth Set",
+      "Utsushi Set",
+      "Medium's Set",
+      "Medium's S Set",
+      "Somnacanth S Set",
+      "S. Studded X Set",
+      "Somnacanth X Set"
+    ],
+    "monster_Teostra.txt": [
+      "Abdomen 24% 24% 10% 0% 5% 0% 5% 0% 0%",
+      "Kaiser Set",
+      "Kaiser X Set"
+    ],
+    "monster_Tetranadon.txt": [
+      "Torso 40% 40% 30% 10% 0% 20% 5% 0% 0%",
+      "S. Studded Set",
+      "Tetranadon Set",
+      "Jelly Set",
+      "Tetranadon S Set",
+      "Jelly S Set",
+      "Artillery Corps Set",
+      "Jelly X Set"
+    ],
+    "monster_Thunder_Serpent_Narwa.txt": [
+      "Torso 20% 25% 5% 0% 0% 0% 0% 5% 0%",
+      "Narwa's Set"
+    ],
+    "monster_Tigrex.txt": [
+      "Abdomen 30% 30% 20% 10% 10% 15% 5% 15% 0%",
+      "Tigrex Set",
+      "Tigrex S Set",
+      "Tigrex X Set"
+    ],
+    "monster_Tobi_Kadachi.txt": [
+      "Torso 45% 45% 35% 5% 15% 0% 5% 0% 0%"
+    ],
+    "monster_Uroktor.txt": [
+      "Cabeza 85% 85% 80% 0% 40% 30% 10% 0% 100%",
+      "Torso 80% 80% 70% 0% 60% 25% 10% 0% 0%",
+      "Cabeza HP 50 — Red",
+      "Torso HP 60 — Orange"
+    ],
+    "monster_Velkhana.txt": [
+      "Torso 30% 30% 25% 30% 10% 5% 0% 10% 0%",
+      "Great Sword",
+      "Noble Ana Palas",
+      "Sword & Shield",
+      "Dual Blades",
+      "Long Sword",
+      "Hammer",
+      "Hunting Horn",
+      "Lance",
+      "Gunlance",
+      "Switch Axe",
+      "Charge Blade",
+      "Insect Glaive",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Rimeguard Set"
+    ],
+    "monster_Velociprey.txt": [
+      "Cuerpo 75% 75% 80% 50% 50% 50% 50% 10% 100%",
+      "Group1_全身 HP 30 — Orange",
+      "Velociprey Set"
+    ],
+    "monster_Vespoid.txt": [
+      "Cuerpo 83% 87% 85% 100% 50% 10% 50% 0% 100%",
+      "全身アタリ HP 1 — White",
+      "Vespoid Set"
+    ],
+    "monster_Violet_Mizutsune.txt": [
+      "Torso 25% 25% 15% 0% 5% 8% 10% 3% 0%",
+      "Great Sword",
+      "Dual Blades",
+      "Long Sword",
+      "Hammer",
+      "Hunting Horn",
+      "Lance",
+      "Gunlance",
+      "Switch Axe",
+      "Charge Blade",
+      "Insect Glaive",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Onmyo Set"
+    ],
+    "monster_Volvidon.txt": [
+      "Volvidon Set",
+      "Volvidon S Set",
+      "Volvidon X Set"
+    ],
+    "monster_Wind_Serpent_Ibushi.txt": [
+      "Torso 30% 30% 25% 10% 5% 5% 5% 10% 0%",
+      "Great Sword",
+      "Sword & Shield",
+      "Long Sword",
+      "Hammer",
+      "Hunting Horn",
+      "Lance",
+      "Gunlance",
+      "Switch Axe",
+      "Charge Blade",
+      "Insect Glaive",
+      "Bow",
+      "Heavy Bowgun",
+      "Light Bowgun",
+      "Ibushi's Set",
+      "Ibushi's Pure Set"
+    ],
+    "monster_Wroggi.txt": [
+      "Torso 65% 65% 65% 0% 30% 10% 70% 10% 100%",
+      "Cuerpo HP 30 — Red"
+    ],
+    "monster_Zamite.txt": [
+      "Cabeza 75% 75% 80% 40% 20% 90% 10% 10% 100%",
+      "Cuerpo 45% 45% 50% 30% 10% 70% 10% 10% 0%",
+      "Cabeza HP 30 — White",
+      "Cuerpo HP 50 — White",
+      "Edel Set",
+      "Makluva Set",
+      "Makluva S Set"
+    ],
+    "monster_Zinogre.txt": [
+      "Torso 25% 25% 30% 5% 5% 0% 5% 5% 0%",
+      "Zinogre Set",
+      "Zinogre S Set",
+      "Zinogre Set X"
+    ],
+    "skill_Adrenaline_Rush.txt": [
+      "Onmyo Toukan Lv1",
+      "Onmyo Ateobi Lv1"
+    ],
+    "view_armor.txt": [
+      "MASTER RANK",
+      "Kamura Legacy Set",
+      "Leather X Set",
+      "Chainmail X Set",
+      "Hunter X Set",
+      "Bone X Set",
+      "Hermitaur Set",
+      "Vaik X Set",
+      "Wroggi X Set",
+      "Baggi X Set",
+      "Izuchi X Set",
+      "Vespoid Set",
+      "Hornetaur Set",
+      "Rhenoplos X Set",
+      "Guardian Set",
+      "Five Element Set",
+      "Barioth X Set",
+      "Almudron X Set",
+      "Sinister Demon Set",
+      "Nargacuga X Set",
+      "Magmadron Set",
+      "Pyre-Kadaki Set",
+      "Remobra X Set",
+      "Mizutsune X Set",
+      "Rathalos X Set",
+      "Zinogre Set X",
+      "Lunagaron Set",
+      "Astalos Set",
+      "Espinas Set",
+      "Damascus X Set",
+      "Malzeno Set",
+      "Barbania Set",
+      "Rathian X Set",
+      "Bishaten X Set",
+      "Yukumo Sky Set",
+      "Arzuros X Set",
+      "Alloy X Set",
+      "Skalda X Set",
+      "Commission Set",
+      "Diablos X Set",
+      "Hawk Set",
+      "Ceanataur Set",
+      "Guild Bard Set",
+      "Makluva X Set",
+      "Kushala X Set",
+      "Sailor Set",
+      "Scholarly Set",
+      "Jelly X Set",
+      "Tigrex X Set",
+      "Basarios X Set",
+      "Jyuratodus X Set",
+      "Lagombi X Set",
+      "Somnacanth X Set",
+      "Barroth X Set",
+      "Aelucanth X Set",
+      "Snowshear Set",
+      "Kaiser X Set",
+      "Arc Set",
+      "Grand God's Peer Set",
+      "Bazelgeuse X Set",
+      "Archfiend Armor Set",
+      "Dignified Set",
+      "Brigade X Set",
+      "Hunter's X Set",
+      "Bnahabra X Set",
+      "Velociprey Set",
+      "Kulu-Ya-Ku X Set",
+      "Volvidon X Set",
+      "Aknosom X Set",
+      "Ludroth X Set",
+      "Ingot X Set",
+      "Spio X Set",
+      "S. Studded X Set",
+      "Squire's Set",
+      "Khezu X Set",
+      "Orangaten Set",
+      "Auroracanth Set",
+      "Anjanath X Set",
+      "Dober X Set",
+      "Rhopessa X Set",
+      "Artillery Corps Set",
+      "Scholar's Set",
+      "Goss Harag X Set",
+      "Golm Set",
+      "Rakna X Set",
+      "Utsushi True Set",
+      "Zinogre X Set",
+      "Gore Set",
+      "Regios Set",
+      "Hoplite's Set",
+      "Storge Set",
+      "Professor's Set",
+      "Charité Set",
+      "Guild Palace Set",
+      "Ibushi's Pure Set",
+      "Narwa's Pure Set",
+      "Valstrax Set",
+      "Sinister Grudge Set",
+      "Outpost HQ Set",
+      "Pride Set",
+      "Golden Set",
+      "Silver Set",
+      "Lambent Set",
+      "Onmyo Set",
+      "Flaming Espinas Set",
+      "Risen Mizuha Set",
+      "Chaotic Set",
+      "Nephilim Set",
+      "Risen Kushala Set",
+      "Risen Kaiser Set",
+      "Rimeguard Set",
+      "Tempest Set",
+      "Virtue Set",
+      "Prudence Set",
+      "Primordial Set",
+      "HIGH RANK",
+      "Leather S Set",
+      "Chainmail S Set",
+      "Hunter's S Set",
+      "Alloy S Set",
+      "Ingot S Set",
+      "Skalda S Set",
+      "Spio S Set",
+      "Aknosom S Set",
+      "Tetranadon S Set",
+      "Izuchi S Set",
+      "Rhenoplos S Set",
+      "Bnahabra S Set",
+      "Wroggi S Set",
+      "Baggi S Set",
+      "Arzuros S Set",
+      "Volvidon S Set",
+      "Ludroth S Set",
+      "Barroth S Set",
+      "Khezu S Set",
+      "Kulu-Ya-Ku S Set",
+      "Lagombi S Set",
+      "Bone S Set",
+      "Dober Set",
+      "Makluva S Set",
+      "Vaik S Set",
+      "Channeler's S Set",
+      "Medium's S Set",
+      "S. Studded S Set",
+      "Bishaten S Set",
+      "Somnacanth S Set",
+      "Remobra S Set",
+      "Barioth S Set",
+      "Rathian S Set",
+      "Basarios S Set",
+      "Jyuratodus Set",
+      "Aelucanth S Set",
+      "Rhopessa S Set",
+      "Jelly S Set",
+      "Rakna Set",
+      "Goss Harag S Set",
+      "Almudron S Set",
+      "Nargacuga S Set",
+      "Rathalos S Set",
+      "Tigrex S Set",
+      "Diablos S Set",
+      "Zinogre S Set",
+      "Anjanath S Set",
+      "Sinister S Set",
+      "Mizutsune S Set",
+      "Brigade S Set",
+      "Damascus Set",
+      "Ibushi's Set",
+      "Narwa's Set",
+      "Kushala Set",
+      "Kaiser Set",
+      "Bazelgeuse Set",
+      "LOW RANK",
+      "Leather Set",
+      "Chainmail Set",
+      "Hunter's Set",
+      "Izuchi Set",
+      "Baggi Set",
+      "Arzuros Set",
+      "Lagombi Set",
+      "Alloy Set",
+      "Ingot Set",
+      "Melahoa Set",
+      "Death Stench Set",
+      "Mosgharl Set",
+      "Vaik Set",
+      "Edel Set",
+      "Skalda Set",
+      "Spio Set",
+      "S. Studded Set",
+      "Bishaten Set",
+      "Aknosom Set",
+      "Tetranadon Set",
+      "Somnacanth Set",
+      "Rhenoplos Set",
+      "Bnahabra Set",
+      "Remobra Set",
+      "Wroggi Set",
+      "Volvidon Set",
+      "Ludroth Set",
+      "Barroth Set",
+      "Khezu Set",
+      "Barioth Set",
+      "Rathian Set",
+      "Basarios Set",
+      "Kulu-Ya-Ku Set",
+      "Bone Set",
+      "Makluva Set",
+      "Aelucanth Set",
+      "Rhopessa Set",
+      "Utsushi Set",
+      "Channeler's Set",
+      "Medium's Set",
+      "Jelly Set",
+      "Goss Harag Set",
+      "Almudron Set",
+      "Nargacuga Set",
+      "Rathalos Set",
+      "Tigrex Set",
+      "Diablos Set",
+      "Zinogre Set",
+      "Anjanath Set",
+      "Sinister Set",
+      "Mizutsune Set",
+      "Brigade Set"
+    ],
+    "view_materials.txt": [
+      "Magna Soulprism+",
+      "Somnacanth Talon",
+      "Somnacanth Talon+",
+      "Volvi Carapace",
+      "Volvi Rickrack"
+    ],
+    "view_weapons.txt": [
+      "Rosenkraft",
+      "Lohenzahn+",
+      "Teostra del Sol",
+      "Xiphias Gladius",
+      "Kurenawi Kunpuu+",
+      "Barong Kutot+",
+      "Rosengedien",
+      "Lohensieger+",
+      "Noble Ana Palas",
+      "Lohenschild+",
+      "Rosenehrgeiz",
+      "Kaktus Ehrgeiz",
+      "Suzuka Akurou",
+      "Gila Ro Waga",
+      "Tamonowo Zekkarei+",
+      "Frostveldt",
+      "Rosenhimmel",
+      "Rosenunwetter",
+      "Lorelei+",
+      "Gornir",
+      "Teostra de la Torre",
+      "Zurogong Tertio",
+      "Rinforzato+",
+      "Rosenseele",
+      "Amphibia Larghetto+",
+      "Rosenbegierde",
+      "Gorkotos",
+      "Cera Creos+",
+      "Harae no Toboshi+",
+      "Rosenherrlich",
+      "Lagombalanche",
+      "Rosenprion",
+      "Kaktusprion",
+      "Lohenbeil+",
+      "Splitear Weiss",
+      "Luna Eostre",
+      "Kaktusemolgia",
+      "Nadegiri",
+      "Vortax+",
+      "Armordraad",
+      "Rosenspringen",
+      "Kaktusspringen",
+      "Alteal",
+      "Lohenspire+",
+      "Perkunas",
+      "Rosenzichel",
+      "Lohenbogen+",
+      "Drothdymion+",
+      "Rosenprima",
+      "Egil",
+      "Gemetzel Abzug",
+      "Rosensiegen"
+    ]
+  },
+  "enOnlyAccented": [
+    {
+      "file": "view_weapons.txt",
+      "lines": [
+        "Grünlicht Flap",
+        "Le Grégorien"
+      ]
+    }
+  ]
+}

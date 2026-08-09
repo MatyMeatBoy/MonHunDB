@@ -1,0 +1,81 @@
+Tobi-Kadachi
+
+Wyvern de Colmillos
+
+ELEMENTO PRINCIPAL
+Rayo
+DAÑO QUE INFLIGE
+ELEMENTOS
+Rayo
+ESTADOS
+Plaga de rayo
+RESISTENCIAS
+Rayo
+INMUNE
+Dragón
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Fuego
+★★★
+Agua
+★★★
+Hielo
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	48%	48%	45%	20%	30%	0%	10%	5%	100%
+Cuello	48%	48%	45%	10%	20%	0%	10%	5%	0%
+Torso	45%	45%	35%	5%	15%	0%	5%	0%	0%
+Pata delantera	35%	35%	15%	5%	15%	0%	5%	0%	0%
+Espalda	45%	45%	48%	5%	15%	0%	5%	0%	0%
+Pata trasera	30%	30%	10%	20%	30%	0%	20%	15%	0%
+Cola	65%	65%	55%	15%	20%	0%	15%	10%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Bajo
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Piel de Tobi-Kadachi	—	13%	12%	70% (Espalda), 20% (Cola)	27% (Cuerpo)	35%
+
+Escama Tobi-Kadachi	—	29%	19%	30% (x2) (Cabeza), 30% (x1) (Espalda), 20% (x1) (Cola)	38% (Cuerpo)	40% (x1), 50% (x1)
+
+Membrana Tobi-Kadachi	—	23%	22%	—	23% (Cuerpo)	—
+
+Garra de Tobi-Kadachi	—	15%	33%	80% (Pata delantera)	12% (Cuerpo)	10% (x1), 15% (x1)
+
+Electrodo Tobi-Kadachi	—	8%	14%	80% (Cabeza), 80% (Cola)	—	—
+
+Vesícula eléctrica	—	12%	—	—	—	—
+
+Lágrima de wyvern	—	—	—	—	—	50%
+ZONAS DE APARICIÓN
+Templo Olvidado
+Bosque Inundado
+La Jungla

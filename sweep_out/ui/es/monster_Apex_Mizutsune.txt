@@ -1,0 +1,87 @@
+Mizutsune Apex
+
+Leviatán
+
+ELEMENTO PRINCIPAL
+Agua
+DAÑO QUE INFLIGE
+ELEMENTOS
+Agua
+ESTADOS
+Plaga de agua
+Plaga de burbujas
+RESISTENCIAS
+Agua
+INMUNE
+Fuego
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Rayo
+★★★
+Dragón
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	60%	60%	25%	5%	0%	10%	5%	8%	100%
+Cuello	43%	43%	15%	8%	0%	10%	5%	8%	0%
+Torso	25%	25%	15%	5%	0%	10%	5%	5%	0%
+Pata delantera	28%	28%	10%	5%	0%	25%	15%	30%	0%
+Garra izquierda	24%	24%	10%	5%	0%	30%	15%	30%	0%
+Garra derecha	24%	24%	10%	5%	0%	30%	15%	30%	0%
+Aleta dorsal	43%	43%	45%	8%	0%	15%	5%	10%	0%
+Pata trasera	38%	38%	20%	5%	0%	10%	5%	5%	0%
+Cola	43%	33%	10%	5%	0%	10%	5%	5%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Espuma Apex	—	6%	—	31% (Cabeza), 28% (Cola)	12% (Cuerpo)	—
+
+Escama de Mizutsune+	—	38%	—	—	41% (Cuerpo)	58%, 60%
+
+Pelo violeta Mizutsune+	—	29%	—	65% (Cola), 30% (Aleta dorsal), 20% (Garra derecha), 20% (Garra izquierda)	28% (Cuerpo), 13% (Cola)	40%
+
+Garra de Mizutsune+	—	15%	—	80% (Garra derecha), 80% (Garra izquierda)	15% (Cuerpo)	—
+
+Cola de Mizutsune	—	5%	—	—	75% (Cola)	—
+
+Placa de Mizutsune	—	5%	—	7% (Cabeza), 5% (Cola)	3% (Cuerpo), 7% (Cola)	—
+
+Orbe agua Mizutsune	—	2%	—	5% (Cabeza), 2% (Cola)	1% (Cuerpo), 5% (Cola)	2%
+
+Aleta de Mizutsune+	—	—	—	60% (Cabeza), 57% (Aleta dorsal), 10% x2 (Aleta dorsal)	—	—
+
+Lágrima de wyvern grande	—	—	—	—	—	40%
+ZONAS DE APARICIÓN
+Templo Olvidado
+Islas Heladas
+Bosque Inundado
+Fuente Infernal
+Fortaleza

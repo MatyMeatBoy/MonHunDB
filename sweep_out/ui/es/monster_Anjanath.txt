@@ -1,0 +1,89 @@
+Anjanath
+
+Wyvern Brutal
+
+ELEMENTO PRINCIPAL
+Fuego
+DAÑO QUE INFLIGE
+ELEMENTOS
+Fuego
+ESTADOS
+Plaga de fuego
+RESISTENCIAS
+Fuego
+INMUNE
+Dragón
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Agua
+★★★
+Hielo
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	70%	70%	60%	0%	25%	10%	15%	5%	100%
+Hocico	80%	75%	65%	0%	20%	10%	15%	10%	100%
+Cuello	30%	30%	15%	0%	20%	5%	15%	5%	0%
+Torso	30%	30%	45%	0%	15%	5%	10%	0%	0%
+Ala	50%	45%	55%	0%	25%	15%	20%	10%	0%
+Pata	30%	30%	15%	0%	15%	5%	10%	0%	0%
+Cola	60%	60%	55%	0%	20%	10%	15%	5%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Bajo
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Piel de Anjanath	—	20%	21%	—	27% (Cuerpo)	30%
+
+Escama de Anjanath	—	35%	31%	60% (Pata), 40% (Pata)	31% (Cuerpo), 27% (Cola)	39%, 50%
+
+Hueso nasal Anjanath	—	19%	—	35% (Cabeza)	18% (Cuerpo)	—
+
+Cola de Anjanath	—	9%	12%	—	70% (Cola)	—
+
+Placa de Anjanath	—	2%	3%	3% (Cabeza)	1% (Cuerpo), 3% (Cola)	1%
+
+Vesícula flamígera	—	15%	10% (x2)	—	—	—
+
+Colmillo de Anjanath	—	—	23% (x2)	62% (Cabeza)	23% (Cuerpo)	10%, 20%
+
+Lágrima de wyvern	—	—	—	—	—	50%
+ZONAS DE APARICIÓN
+Templo Olvidado
+Llanos Arenosos
+Bosque Inundado
+Grutas de Lava
+Bastión
+La Jungla
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Anjanath Set
+Anjanath S Set
+Anjanath X Set

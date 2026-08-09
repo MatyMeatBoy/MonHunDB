@@ -1,0 +1,91 @@
+Shogun Ceanataur
+
+Carapaceon
+
+ELEMENTO PRINCIPAL
+Ninguno
+DAÑO QUE INFLIGE
+ELEMENTOS
+Ninguno
+ESTADOS
+Sangrado
+RESISTENCIAS
+Dragón
+INMUNE
+Agua
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Fuego
+★★★
+Rayo
+★★★
+Hielo
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	50%	45%	45%	10%	10%	35%	20%	0%	100%
+Torso	35%	35%	25%	15%	5%	20%	10%	0%	0%
+Caparazón	25%	45%	25%	20%	5%	25%	10%	0%	0%
+Garra derecha	25%	30%	15%	35%	5%	20%	10%	0%	0%
+Pata derecha	35%	30%	30%	15%	5%	15%	10%	0%	0%
+Garra izquierda	25%	30%	15%	35%	5%	20%	10%	0%	0%
+Pata izquierda	35%	30%	30%	15%	5%	15%	10%	0%	0%
+Brazo	25%	35%	25%	15%	5%	15%	10%	0%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Córtex de Ceanataur	—	24%	27%	10% (Caparazón), 70% (Caparazón)	41% (Cuerpo)	80%, 20% (x2)
+
+Pata pesada Ceanataur	—	32%	36%	—	32% (Cuerpo)	—
+
+Garfa de Ceanataur	—	22%	12% (x2)	70% (x2) (Garra), 30% (Garra)	17% (Cuerpo)	—
+
+Huesorrecio	—	12%	10%	20% (Caparazón)	—	—
+
+Perla negra gigante	—	10%	15%	—	10% (Cuerpo)	25%
+
+Cráneo duro de Wyvern	—	—	—	70% (Caparazón), 100% (Caparazón)	—	—
+
+Hueso sólido	—	—	—	30% (Caparazón)	—	—
+
+Perla de cangrejo+	—	—	—	—	—	75%
+
+Caparazón afligido	—	—	—	20% (Misiones de Anomalía, Nvl. 21-30)	20% (Misiones de Anomalía, Nvl. 21-30)	—
+
+Coraza afligida	—	—	—	40% (Misiones de Anomalía, Nvl. 31-100)	40% (Misiones de Anomalía, Nvl. 31-100)	—
+
+Placa afligida	—	—	—	40% (Misiones de Anomalía, Nvl. 101+)	40% (Misiones de Anomalía, Nvl. 101+)	—
+ZONAS DE APARICIÓN
+Bosque Inundado
+Grutas de Lava
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Ceanataur Set
+Hoplite's Set

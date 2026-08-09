@@ -1,0 +1,65 @@
+Capabra
+
+Bestia de Colmillos
+
+ELEMENTO PRINCIPAL
+Ninguno
+DAÑO QUE INFLIGE
+ELEMENTOS
+Ninguno
+ESTADOS
+Ninguno
+RESISTENCIAS
+Dragón
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Rayo
+★★★
+Hielo
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	75%	75%	75%	35%	35%	55%	45%	5%	100%
+Torso	66%	59%	70%	30%	30%	50%	40%	5%	0%
+Partes rompibles
+Group0‗頭 HP 5 — Orange
+Cuerpo HP 5 — Orange
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Aturdimiento
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de hielo
+★★★
+Plaga de rayo
+★★★
+MATERIALES POR RAREZA
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Pelaje de Capabra	—	10%x2, 34%x1	—	—	42%x1	Palico 42%x1
+
+Hueso herbívoro grande	—	13%x2, 28%x1	—	—	28%x1	Palico 28%x1
+
+Carne cruda	—	15%x2	—	—	10%x1	Palico 10%x1
+
+Bola lana Capabra	—	—	—	—	20%x1	Palico 20%x1
+ZONAS DE APARICIÓN
+Sin datos

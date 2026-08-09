@@ -1,0 +1,25 @@
+{
+  "materials": [
+    "Volvi Carapace",
+    "Volvi Rickrack",
+    "Magna Soulprism+",
+    "Somnacanth Talon",
+    "Somnacanth Talon+"
+  ],
+  "ailmentsLowercase": [
+    "poison",
+    "sleep",
+    "paralysis",
+    "blast",
+    "stun",
+    "exhaust",
+    "fireblight",
+    "waterblight",
+    "thunderblight",
+    "iceblight"
+  ],
+  "bodyPartsLookupAfterDataFix": [
+    "(hitzones de small_monsters.json: partes en ES y JP → normalizar a claves EN)"
+  ],
+  "partBreaksSmallMonsters": "(small_monsters.json partBreaks: 'Cuerpo'/'Cabeza' y hasta japonés; requiere normalización de datos)"
+}

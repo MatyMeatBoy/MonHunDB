@@ -1,0 +1,85 @@
+Rakna-Kadaki
+
+Temnoceran
+
+ELEMENTO PRINCIPAL
+Fuego
+DAÑO QUE INFLIGE
+ELEMENTOS
+Fuego
+ESTADOS
+Plaga de fuego
+RESISTENCIAS
+Fuego
+INMUNE
+Rayo
+INMUNE
+Dragón
+INMUNE
+DEBILIDADES ELEMENTALES
+Hielo
+DÉBIL
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	60%	70%	45%	0%	10%	0%	20%	0%	100%
+Pecho	25%	25%	10%	0%	5%	0%	5%	0%	0%
+Garra	20%	20%	10%	0%	15%	0%	30%	0%	0%
+Abdomen	35%	35%	15%	0%	5%	0%	10%	0%	0%
+Pata (Hilo)	43%	43%	35%	0%	0%	0%	5%	0%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Coraza de Rakna-Kadaki	—	17%	25%	50% (Cabeza)	33% (Cuerpo)	60%
+
+Seda de Rakna-Kadaki	—	12%	17%	30%(x1) (Cabeza), 80%(x2) (Patas)	13% (Cuerpo)	40%(x1), 30%(x2)
+
+Bolsa lum. Rakna-Kadaki	—	17%	—	60% (Vientre luminoso)	16% (Cuerpo)	—
+
+Garras de Rakna-Kadaki	—	25%	33%	100% (Garra)	24% (Cuerpo)	—
+
+Púa de Rakna-Kadaki	—	10%	15%(x2)	40%(x1) (Vientre luminoso), 20%(x1) (Patas)	—	10%(x1), 10%(x1)
+
+Caldo de monstruo	—	19%	10%(x2)	20% (Cabeza)	14% (Cuerpo)	—
+
+Esencia de zángano	—	—	—	—	—	10%
+
+Esencia de reina	—	—	—	—	—	40%
+ZONAS DE APARICIÓN
+Llanos Arenosos
+Grutas de Lava
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Aelucanth S Set
+Rhopessa S Set
+Rakna Set
+Rakna Set
+Rakna X Set
+Rakna X Set

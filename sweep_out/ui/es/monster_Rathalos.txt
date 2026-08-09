@@ -1,0 +1,100 @@
+Rathalos
+
+Wyvern Volador
+
+ELEMENTO PRINCIPAL
+Fuego
+DAÑO QUE INFLIGE
+ELEMENTOS
+Fuego
+ESTADOS
+Plaga de fuego
+Veneno
+RESISTENCIAS
+Fuego
+INMUNE
+DEBILIDADES ELEMENTALES
+Agua
+★★★
+Rayo
+★★★
+Hielo
+★★★
+Dragón
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	65%	70%	60%	0%	15%	20%	15%	30%	100%
+Cuello	35%	40%	30%	0%	5%	10%	5%	20%	0%
+Abdomen	25%	25%	20%	0%	5%	10%	5%	20%	0%
+Espalda	25%	25%	20%	0%	5%	10%	5%	20%	0%
+Ala	50%	45%	40%	0%	10%	15%	10%	25%	0%
+Pata	35%	35%	30%	0%	0%	5%	0%	15%	0%
+Cola	45%	40%	35%	0%	5%	10%	5%	20%	0%
+Tipo de daño:
+Corte
+Contundente
+Disparo
+Fuego
+Agua
+Rayo
+Hielo
+Dragón
+Aturdimiento
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Bajo
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Escama de Rathalos	—	16%	—	66% (Cabeza)	38% (Cuerpo), 20% (Cola)	37% (x1), 50% (x1)
+
+Caparazón de Rathalos	—	31%	30%	30% (Cabeza), 68% (Espalda)	24% (Cuerpo)	30%
+
+Membrana de Rathalos	—	23%	27%	25% (Ala)	20% (Cuerpo)	—
+
+Cola de Rathalos	—	7%	19%	—	70% (Cola)	—
+
+Vesícula flamígera	—	14%	—	—	12% (Cuerpo)	—
+
+Tuétano de Rath	—	7%	7%	30% (Espalda)	5% (Cuerpo), 7% (Cola)	—
+
+Placa de Rathalos	—	2%	3%	4% (Cabeza), 2% (Espalda)	1% (Cuerpo), 3% (Cola)	1%
+
+Garra de Rath	—	—	14%	75% (x2) (Ala)	—	12% (x1), 20% (x1)
+
+Lágrima de wyvern	—	—	—	—	—	50%
+ZONAS DE APARICIÓN
+Templo Olvidado
+Grutas de Lava
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Rathalos Set
+Rathalos S Set
+Rathalos X Set

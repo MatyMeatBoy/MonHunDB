@@ -1,0 +1,69 @@
+Gajau
+
+Pez
+
+ELEMENTO PRINCIPAL
+Ninguno
+DAÑO QUE INFLIGE
+ELEMENTOS
+Ninguno
+ESTADOS
+Ninguno
+RESISTENCIAS
+Agua
+RESISTENTE
+Hielo
+RESISTENTE
+Dragón
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Fuego
+★★★
+Rayo
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+A:肉質_頭	80%	80%	80%	40%	10%	40%	10%	10%	100%
+B:肉質_胴	70%	70%	70%	40%	10%	40%	10%	10%	0%
+Partes rompibles
+Cabeza HP 15 — Red
+Cuerpo HP 20 — Red
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Aturdimiento
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de hielo
+★★★
+Plaga de rayo
+★★★
+MATERIALES POR RAREZA
+Rango Bajo
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Piel de Gajau	—	—	—	—	70%x1	Palico 70%x1
+
+Bigote de Gajau	—	—	—	—	20%x1	Palico 20%x1
+
+Colmillo afilado	—	—	—	—	10%x1	Palico 10%x1
+ZONAS DE APARICIÓN
+Sin datos

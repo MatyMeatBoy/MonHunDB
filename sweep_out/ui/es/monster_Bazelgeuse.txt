@@ -1,0 +1,87 @@
+Bazelgeuse
+
+Wyvern Volador
+
+ELEMENTO PRINCIPAL
+Fuego
+DAÑO QUE INFLIGE
+ELEMENTOS
+Fuego
+ESTADOS
+Plaga de fuego
+RESISTENCIAS
+Fuego
+INMUNE
+Agua
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Rayo
+★★★
+Hielo
+★★★
+Dragón
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	60%	65%	25%	0%	5%	15%	10%	10%	100%
+Abdomen	45%	45%	25%	0%	5%	10%	10%	10%	0%
+Espalda	30%	30%	10%	0%	0%	5%	5%	5%	0%
+Ala	25%	25%	45%	0%	5%	10%	10%	10%	0%
+Pata	30%	30%	20%	0%	5%	15%	10%	10%	0%
+Cola	60%	55%	35%	0%	5%	15%	10%	10%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Escama de Bazelgeuse+	—	18%	14% [x2]	27% [x2] (Cabeza)	39% (Cuerpo)	39%, 55%
+
+Coraza de Bazelgeuse	—	31%	18%	69% (Espalda)	26% (Cuerpo), 27% (Cola)	35%
+
+Garra de Bazelgeuse	—	23%	24%	35% (Ala)	19% (Cuerpo)	10%, 10%
+
+Espoleta de Bazelgeuse	—	14%	—	70% (Cabeza), 30% (Espalda)	15% (Cuerpo)	—
+
+Ala de Bazelgeuse	—	12%	29%	65% (Ala)	—	—
+
+Gema de Bazelgeuse	—	2%	3%	3% (Cabeza), 1% (Espalda)	1% (Cuerpo), 3% (Cola)	1%
+
+Cola de Bazelgeuse	—	—	12%	—	70% (Cola)	—
+
+Lágrima de wyvern grande	—	—	—	—	—	50%
+ZONAS DE APARICIÓN
+Templo Olvidado
+Islas Heladas
+Llanos Arenosos
+Bosque Inundado
+Grutas de Lava
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Bazelgeuse Set
+Bazelgeuse X Set

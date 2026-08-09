@@ -1,0 +1,89 @@
+Nargacuga
+
+Wyvern Volador
+
+ELEMENTO PRINCIPAL
+Ninguno
+DAÑO QUE INFLIGE
+ELEMENTOS
+Ninguno
+ESTADOS
+Ninguno
+RESISTENCIAS
+Agua
+RESISTENTE
+Hielo
+RESISTENTE
+Dragón
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Fuego
+★★★
+Rayo
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	65%	70%	40%	15%	0%	25%	10%	10%	100%
+Cuello/Espalda	30%	30%	35%	10%	0%	15%	5%	5%	0%
+Pata delantera	43%	43%	35%	10%	0%	20%	0%	5%	0%
+Ala cortante	21%	24%	21%	25%	5%	35%	10%	15%	0%
+Abdomen	40%	40%	30%	10%	0%	20%	5%	5%	0%
+Pata trasera	30%	30%	25%	10%	0%	15%	5%	5%	0%
+Cola	46%	40%	45%	10%	0%	25%	5%	5%	0%
+Punta de la cola	40%	35%	40%	10%	0%	20%	5%	5%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Bajo
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Pelaje de Nargacuga	—	14%	28%	—	22% (Cuerpo)	40%
+
+Escama de Nargacuga	—	30%	15%(x2)	30%(x2) (Cabeza)	43% (Cuerpo)	25%(x1), 50%(x1)
+
+Colmillo de Nargacuga	—	15%	24%	25%(x1) (Cabeza), 45%(x2) (Cabeza)	16% (Cuerpo)	10%
+
+Ala cuchilla Nargacuga	—	12%	—	65%(x1) (Ala cortante), 35%(x2) (Ala cortante)	12% (Cuerpo)	—
+
+Colaclavo de Nargacuga	—	14%	20%(x2)	—	8%(x2) (Cola)	15%
+
+Cola de Nargacuga	—	8%	10%	—	80% (Cola)	—
+
+Tuétano de Nargacuga	—	7%	3%	—	7% (Cuerpo), 12% (Cola)	—
+
+Lágrima de wyvern	—	—	—	—	—	50%
+ZONAS DE APARICIÓN
+Templo Olvidado
+Bosque Inundado
+La Jungla
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Nargacuga Set
+Nargacuga S Set
+Nargacuga X Set

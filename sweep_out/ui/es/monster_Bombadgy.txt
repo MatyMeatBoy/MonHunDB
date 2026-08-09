@@ -1,0 +1,67 @@
+Bombadgy
+
+Anfibio
+
+ELEMENTO PRINCIPAL
+Ninguno
+DAÑO QUE INFLIGE
+ELEMENTOS
+Ninguno
+ESTADOS
+Ninguno
+RESISTENCIAS
+Dragón
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Fuego
+★★★
+Agua
+★★★
+Rayo
+★★★
+Hielo
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	60%	75%	65%	100%	100%	100%	100%	10%	100%
+Torso	70%	70%	70%	100%	100%	100%	100%	10%	0%
+Partes rompibles
+Cuerpo HP 20 — Orange
+Cuerpo HP 10 — Orange
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Aturdimiento
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de hielo
+★★★
+Plaga de rayo
+★★★
+MATERIALES POR RAREZA
+Rango Bajo
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Carne cruda	—	—	—	—	70%x1	Palico 70%x1
+
+Mecha de Bombadgy	—	—	—	—	30%x1	Palico 30%x1
+ZONAS DE APARICIÓN
+Sin datos

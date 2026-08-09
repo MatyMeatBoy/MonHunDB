@@ -1,0 +1,88 @@
+Almudron
+
+Leviatán
+
+ELEMENTO PRINCIPAL
+Agua
+DAÑO QUE INFLIGE
+ELEMENTOS
+Agua
+ESTADOS
+Plaga de agua
+RESISTENCIAS
+Agua (sin barro)
+INMUNE
+Agua (con barro)
+DÉBIL
+DEBILIDADES ELEMENTALES
+Fuego
+★★★
+Hielo
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	55%	64%	55%	20%	0%	10%	20%	5%	100%
+Pata delantera	23%	24%	20%	30%	0%	5%	25%	5%	0%
+Abdomen	40%	55%	35%	20%	0%	5%	15%	5%	0%
+Espalda	25%	30%	20%	15%	0%	5%	10%	5%	0%
+Pata trasera	25%	25%	20%	10%	0%	5%	10%	5%	0%
+Cola	55%	30%	35%	25%	0%	10%	20%	5%	0%
+Punta de la cola	65%	55%	40%	25%	0%	15%	20%	15%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Bajo
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Escama de Almudron	—	16%	18%	70% (Torso), 10% (Pata delantera)	10% (Cuerpo)	19%, 37%
+
+Caparazón de Almudron	—	27%	23%	30% (Torso), 20% (Cola)	27% (Cuerpo)	28%
+
+Aleta de Almudron	—	15%	—	17% (Cabeza), 80% (Cola)	22% (Cuerpo), 17% (Cola)	—
+
+Bigote de Almudron	—	10%	—	80% (Cabeza)	12% (Cuerpo)	—
+
+Cola de Almudron	—	8%	12%	—	80% (Cola)	—
+
+Fango dorado	—	22%	13% [x2]	—	—	30%, 25% [x2]
+
+Placa de Almudron	—	2%	3%	3% (Cabeza)	1% (Cuerpo), 3% (Cola)	1%
+
+Garra de Almudron	—	—	31%	90% [x2] (Pata delantera)	—	10%
+
+Lágrima de wyvern	—	—	—	—	—	50%
+ZONAS DE APARICIÓN
+Templo Olvidado
+Llanos Arenosos
+Bosque Inundado
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Almudron Set
+Almudron S Set
+Almudron X Set

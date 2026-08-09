@@ -1,0 +1,87 @@
+Khezu
+
+Wyvern Volador
+
+ELEMENTO PRINCIPAL
+Rayo
+DAÑO QUE INFLIGE
+ELEMENTOS
+Rayo
+ESTADOS
+Plaga de rayo
+Parálisis
+RESISTENCIAS
+Rayo
+INMUNE
+Agua
+RESISTENTE
+Hielo
+RESISTENTE
+Dragón
+RESISTENTE
+DEBILIDADES ELEMENTALES
+Fuego
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	75%	70%	80%	30%	5%	0%	5%	5%	100%
+Cuello	75%	50%	50%	25%	5%	0%	5%	5%	0%
+Torso	45%	45%	25%	25%	5%	0%	5%	5%	0%
+Ala	25%	25%	25%	20%	5%	0%	5%	5%	0%
+Pata izquierda	36%	20%	35%	15%	5%	0%	5%	5%	0%
+Pata derecha	36%	20%	35%	15%	5%	0%	5%	5%	0%
+Cola	20%	20%	30%	20%	5%	0%	5%	5%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Bajo
+Rango Alto
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Cuero flácido	—	15%	16%	100% (Pata)	36% (Cuerpo)	40%
+
+Colmillo extraño	—	29% (x2)	33%	60% (x2) (Cabeza)	21% (Cuerpo)	20%, 20%
+
+Extracto pálido	—	20%	23% (x2)	28% (Cabeza)	28% (Cuerpo)	30%, 80%, 40%
+
+Hueso pálido	—	8%	10%	12% (Cabeza)	—	—
+
+Vesícula eléctrica	—	18%	18% (x2)	—	15% (Cuerpo)	—
+
+Hueso monstruo mediano	—	10%	—	—	—	—
+
+Lágrima de wyvern	—	—	—	—	—	50%, 20%
+ZONAS DE APARICIÓN
+Islas Heladas
+Grutas de Lava
+EQUIPO RELACIONADO
+SETS DE ARMADURA
+Khezu Set
+Khezu S Set
+Squire's Set
+Khezu X Set

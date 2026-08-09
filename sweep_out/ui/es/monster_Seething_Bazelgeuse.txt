@@ -1,0 +1,107 @@
+Bazelgeuse Magma
+
+Wyvern Volador
+
+ELEMENTO PRINCIPAL
+Fuego
+DAÑO QUE INFLIGE
+ELEMENTOS
+Fuego
+ESTADOS
+Plaga de nitro
+Plaga de fuego
+RESISTENCIAS
+Fuego
+INMUNE
+DEBILIDADES ELEMENTALES
+Rayo
+★★★
+Hielo
+★★★
+DEBILIDADES POR PARTE DEL CUERPO
+
+Mejor elemento
+Efectivo
+Sin efecto
+
+PARTE	CORTE	CONTUND.	DISPARO	FUEGO	AGUA	RAYO	HIELO	DRAGÓN	ATURDIMIENTO
+Cabeza	64%	80%	45%	0%	10%	20%	25%	15%	100%
+Abdomen	45%	45%	25%	0%	5%	10%	15%	5%	0%
+Espalda	30%	30%	15%	0%	0%	5%	10%	5%	0%
+Ala	44%	44%	35%	0%	5%	10%	15%	5%	0%
+Pata	36%	34%	25%	0%	5%	10%	15%	5%	0%
+Cola	70%	65%	55%	0%	5%	15%	25%	10%	0%
+SUSCEPTIBILIDAD A ESTADOS
+Veneno
+★★★
+Aturdimiento
+★★★
+Parálisis
+★★★
+Sueño
+★★★
+Nitro
+★★★
+Fatiga
+★★★
+Plaga de fuego
+★★★
+Plaga de agua
+★★★
+Plaga de rayo
+★★★
+Plaga de hielo
+★★★
+MATERIALES POR RAREZA
+Rango Maestro
+MATERIAL	RAREZA	RECOMPENSA	CAPTURA	ROTURA	CARVEO	DROPEO
+
+Caparazón de plata br.	—	21%	21%	68% (Espalda)	37% (Cuerpo), 26% (Cola)	49%, 60%
+
+Esquirla de Bazelgeuse	—	24%	15%	18% x2 (Cabeza)	12% x2 (Cuerpo)	30%
+
+Garfa de Bazelgeuse	—	16%	19%	30% (Ala)	9% x2 (Cuerpo)	10%, 10%
+
+Fluido nitro destilado	—	17%	—	70% (Cabeza), 30% (Espalda)	23% (Cuerpo)	—
+
+Alaplata abrasadora	—	15%	24%	70% (Ala)	14% (Cuerpo)	—
+
+Gema de Bazelgeuse	—	4%	7%	8% (Cabeza)	3% (Cuerpo)	—
+
+Manto de Bazelgeuse	—	3%	4%	4% (Cabeza), 2% (Espalda)	2% (Cuerpo), 1% (Cola)	1%
+
+Flagelo de Bazelgeuse	—	—	10%	—	70% (Cola)	—
+
+Lágrima de wyvern grande	—	—	—	—	—	40%
+
+Sangre negra aciaga afligida	—	—	—	40% (Misiones de Anomalía, Nvl. 201+)	40% (Misiones de Anomalía, Nvl. 201+)	—
+
+Sangre aciaga afligida	—	—	—	40% (Misiones de Anomalía, Nvl. 91-140)	40% (Misiones de Anomalía, Nvl. 91-140)	—
+
+Sangre drag. aciaga aflig.	—	—	—	40% (Misiones de Anomalía, Nvl. 141-200)	40% (Misiones de Anomalía, Nvl. 141-200)	—
+ZONAS DE APARICIÓN
+Templo Olvidado
+Islas Heladas
+Llanos Arenosos
+Bosque Inundado
+Grutas de Lava
+Bastión
+La Jungla
+EQUIPO RELACIONADO
+ARMAS
+Bombarderas Bazel
+Dual Blades
+Quemadora Prozio Bazel
+Long Sword
+Quemagrajos Valdi Bazel
+Hunting Horn
+Quemagrajos cohete Bazel
+Lance
+Orgullo Bazel
+Gunlance
+Corazón Bazel
+Switch Axe
+Núcleo Bazel
+Light Bowgun
+SETS DE ARMADURA
+Pride Set
