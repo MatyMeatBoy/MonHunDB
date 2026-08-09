@@ -719,7 +719,7 @@ const ARMOR_SET_IMG_OVERRIDES = {
   "Base Commander Set": "base-commander", "Garangolm Set": "garangolm",
   "Gore Magala Set": "gore-magala", "Seregios Set": "seregios",
   "Rakna-Kadaki Set": "rakna-kadaki", "Rakna-Kadaki X Set": "rakna-kadaki-x",
-  "Chaotic Gore Set": "chaotic-gore",
+  "Chaotic Gore Set": "chaotic-gore", "Chaotic Gore Magala Set": "chaotic-gore",
   "Silver Sol Set": "silver-sol", "Silver Sol S Set": "silver-sol-s", "Silver Sol X Set": "silver-sol-x",
   "Arc Set": "arc", "Auroracanth Set": "auroracanth", "Espinas Set": "espinas",
   "Flaming Espinas Set": "flaming-espinas", "Lucent Narga Set": "lucent-narga",
@@ -732,7 +732,7 @@ const ARMOR_SET_IMG_OVERRIDES = {
   "Utsushi Set": "utsushi-visible", "Utsushi True Set": "utsushi-true-visible", "Utsushi True (Hidden) Set": "utsushi-true-hidden", "Utsushi True (Visible) Set": "utsushi-true-visible", "Utsushi (Hidden) Set": "utsushi-hidden", "Utsushi (Visible) Set": "utsushi-visible",
   "S. Studded Set": "", "S. Studded S Set": "", "S. Studded X Set": "",
 };
-const ARMOR_SET_DISPLAY_MAP = { "S. Studded": "Shell Studded", "Squire's": "Knight Squire", "Scholar's": "Scholar", "Golm": "Garangolm", "Rakna": "Rakna-Kadaki" };
+const ARMOR_SET_DISPLAY_MAP = { "S. Studded": "Shell Studded", "Squire's": "Knight Squire", "Scholar's": "Scholar", "Golm": "Garangolm", "Rakna": "Rakna-Kadaki", "Artillery Corps": "Royal Artillery Corps", "Chaotic": "Chaotic Gore Magala", "Gore": "Gore Magala", "Hoplite's": "Heavy Knight", "Professor's": "Professor", "Regios": "Seregios", "Outpost HQ": "Base Commander", "Ibushi's": "Ibushi", "Ibushi's Pure": "Ibushi - Pure", "Narwa's": "Narwa", "Narwa's Pure": "Narwa - Pure" };
 function armorSetDisplayName(prefix) {
   // split optional rank suffix (S/X) so it maps + reapplies for ALL variants
   const m = prefix.match(/^(.*?)\s+(S|X)$/);
@@ -785,6 +785,29 @@ function buildImpliedArmorGroups() {
     return true;
   });
   return impliedArmorGroupsCache;
+}
+
+let partialArmorGroupsCache = null;
+function buildPartialArmorGroups() {
+  if (partialArmorGroupsCache) return partialArmorGroupsCache;
+  // sets that have some pieces but not the full 5 (e.g. Jaggi Set)
+  const buckets = new Map();
+  for (const p of armorPieces) {
+    const prefix = coreArmorNameForGrouping(p.name).split(" ").slice(0, -1).join(" ");
+    if (!prefix) continue;
+    if (!buckets.has(prefix)) buckets.set(prefix, []);
+    if (!buckets.get(prefix).some(x => x.id === p.id)) buckets.get(prefix).push(p);
+  }
+  const partial = [];
+  for (const [prefix, pieces] of buckets) {
+    if (pieces.length >= 2 && pieces.length < 5 && new Set(pieces.map(x => x.part)).size >= 2 && prefix) {
+      partial.push({ prefix, pieces });
+    }
+  }
+  // exclude sets already fully represented (implied groups use the same pieces)
+  const fullKeys = new Set(buildImpliedArmorGroups().map(g => g.prefix));
+  partialArmorGroupsCache = partial.filter(g => !fullKeys.has(g.prefix));
+  return partialArmorGroupsCache;
 }
 
 // tallies, across a list of {material, qty} rows, how many reference each
@@ -1892,6 +1915,21 @@ function renderArmorIndex(query) {
       </div>
     </div>`;
   }
+  const partialGroups = !q ? buildPartialArmorGroups() : buildPartialArmorGroups().filter(g => normalizeSearch(g.prefix).includes(q));
+  if (partialGroups.length) {
+    html += `<div class="decorations-slot-group">
+      <h3 class="decorations-slot-heading">${ui("armorPartialSets")}</h3>
+      <div class="decorations-grid">
+        ${partialGroups.map(g => `
+          <button type="button" class="decoration-card armor-set-card" data-implied="${g.prefix}">
+            <img class="armor-set-thumb" src="${armorSetImg(armorSetDisplayName(g.prefix))}" alt="" loading="lazy" onerror="this.style.display='none'">
+            <span class="decoration-card-name">${armorSetDisplayName(g.prefix)}</span>
+            <span class="decoration-card-skill">${g.pieces.length} ${ui("armorPiecesCount")}</span>
+          </button>
+        `).join("")}
+      </div>
+    </div>`;
+  }
   if (looseMatches.length) {
     html += `<div class="decorations-slot-group">
       <h3 class="decorations-slot-heading">${ui("armorLoosePieces")}</h3>
@@ -1923,26 +1961,28 @@ function showArmorSetDetail(setName) {
   window.scrollTo(0, 0);
   let set = armorSets.find(s => s.name === setName);
   let impliedGroup = null;
+  let partialGroup = null;
   if (!set) {
-    // implied groups are stored by prefix (e.g. "Tempest") but called with name "Tempest Set"
     let prefix = setName.replace(/\s+Set$/, "");
     const m = prefix.match(/^(.*?)\s+(S|X)$/);
     const base = m ? m[1] : prefix;
     const rank = m ? " " + m[2] : "";
-    const reverse = { "Shell Studded": "S. Studded", "Knight Squire": "Squire's", "Scholar": "Scholar's", "Garangolm": "Golm", "Rakna-Kadaki": "Rakna" };
+    const reverse = { "Shell Studded": "S. Studded", "Knight Squire": "Squire's", "Scholar": "Scholar's", "Garangolm": "Golm", "Rakna-Kadaki": "Rakna", "Royal Artillery Corps": "Artillery Corps", "Chaotic Gore Magala": "Chaotic", "Gore Magala": "Gore", "Heavy Knight": "Hoplite's", "Professor": "Professor's", "Seregios": "Regios", "Base Commander": "Outpost HQ", "Ibushi": "Ibushi's", "Ibushi - Pure": "Ibushi's Pure", "Narwa": "Narwa's", "Narwa - Pure": "Narwa's Pure" };
     if (reverse[base]) prefix = reverse[base] + rank;
     impliedGroup = buildImpliedArmorGroups().find(g => g.prefix === prefix);
+    if (!impliedGroup) partialGroup = buildPartialArmorGroups().find(g => g.prefix === prefix);
   }
+  if (!set && !impliedGroup && !partialGroup) return;
 
   armorIndexEl.hidden = true;
   armorSetDetailEl.hidden = false;
 
-  const pieces = set ? set.pieces : impliedGroup.pieces;
+  const pieces = set ? set.pieces : (impliedGroup || partialGroup).pieces;
   const piecesHtml = ARMOR_PART_ORDER.map(part => {
     const ref = set ? set.pieces.find(p => p.part === part) : null;
     const p = ref
       ? armorPieces.find(x => x.id === ref.id)
-      : (impliedGroup ? impliedGroup.pieces.find(x => x.part === part) : null);
+      : ((impliedGroup || partialGroup) ? (impliedGroup || partialGroup).pieces.find(x => x.part === part) : null);
     if (!p) return "";
     return `
       <div class="decoration-detail-header armor-piece-header">
@@ -1958,7 +1998,7 @@ function showArmorSetDetail(setName) {
     `;
   }).join("<hr class='armor-piece-divider'>");
 
-  const displayName = set ? set.name : armorSetDisplayName(impliedGroup.prefix);
+  const displayName = set ? set.name : armorSetDisplayName((impliedGroup || partialGroup).prefix);
   armorSetDetailEl.innerHTML = `
     <button type="button" class="decorations-back" id="armor-detail-back">${ui("armorBack")}</button>
     <div class="armor-set-detail-header">
