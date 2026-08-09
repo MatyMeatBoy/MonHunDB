@@ -572,6 +572,12 @@ function filterOptions(query) {
     group.hidden = !groupHasVisible;
     if (groupHasVisible) anyVisible = true;
   });
+  // Small monsters are direct .monster-option siblings (not inside a .monster-group)
+  listEl.querySelectorAll(":scope > .monster-option").forEach(opt => {
+    const match = !q || opt.dataset.search.includes(q);
+    opt.hidden = !match;
+    if (match) anyVisible = true;
+  });
   const noResults = listEl.querySelector(".no-results");
   if (noResults) noResults.hidden = anyVisible;
 }
@@ -2237,27 +2243,30 @@ function initSkills() {
 }
 
 function buildSelector() {
-  const groups = new Map();
-  for (const m of monsters) {
+  const big = monsters.filter(m => !m.isSmall);
+  const small = monsters.filter(m => m.isSmall);
+  const bigGroups = new Map();
+  for (const m of big) {
     const g = groupFor(m.name);
-    if (!groups.has(g)) groups.set(g, []);
-    groups.get(g).push(m);
+    if (!bigGroups.has(g)) bigGroups.set(g, []);
+    bigGroups.get(g).push(m);
   }
-
-  const sortedGroupNames = [...groups.keys()].sort((a, b) => a.localeCompare(b));
+  const sortedBig = [...bigGroups.keys()].sort((a, b) => a.localeCompare(b));
   listEl.innerHTML = "";
 
-  for (const groupName of sortedGroupNames) {
-    const items = groups.get(groupName).sort((a, b) => a.name.localeCompare(b.name));
-    // Put the base monster (the one whose own name equals the group name)
-    // first, so variants can be listed as indented sub-items under it.
+  if (big.length) {
+    const bigHeading = document.createElement("div");
+    bigHeading.className = "monster-section-heading";
+    bigHeading.textContent = ui("selectorBigMonsters");
+    listEl.appendChild(bigHeading);
+  }
+  for (const groupName of sortedBig) {
+    const items = bigGroups.get(groupName).sort((a, b) => a.name.localeCompare(b.name));
     const baseIdx = items.findIndex(it => it.name === groupName);
     if (baseIdx > 0) items.unshift(items.splice(baseIdx, 1)[0]);
     const hasBase = baseIdx !== -1;
-
     const groupEl = document.createElement("div");
     groupEl.className = "monster-group";
-
     items.forEach((it, i) => {
       const displayName = trMonsterName(it.name);
       const isVariant = hasBase && i > 0;
@@ -2271,8 +2280,26 @@ function buildSelector() {
       btn.addEventListener("click", () => selectMonster(it.name));
       groupEl.appendChild(btn);
     });
-
     listEl.appendChild(groupEl);
+  }
+
+  if (small.length) {
+    const smHeading = document.createElement("div");
+    smHeading.className = "monster-section-heading";
+    smHeading.textContent = ui("selectorSmallMonsters");
+    listEl.appendChild(smHeading);
+    const sortedSmall = small.slice().sort((a, b) => a.name.localeCompare(b.name));
+    for (const m of sortedSmall) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "monster-option";
+      btn.dataset.name = m.name;
+      btn.dataset.search = normalizeSearch(m.name + " " + trMonsterName(m.name));
+      btn.setAttribute("role", "option");
+      btn.innerHTML = `<img src="${iconPath(m.name)}" alt="" loading="lazy" onerror="this.classList.add('icon-missing')"><span>${trMonsterName(m.name)}</span>`;
+      btn.addEventListener("click", () => selectMonster(m.name));
+      listEl.appendChild(btn);
+    }
   }
 
   const noResults = document.createElement("div");
