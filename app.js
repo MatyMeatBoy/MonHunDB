@@ -2556,14 +2556,6 @@ function renderMonster(name) {
   renderHitzones(node.querySelector(".hitzones-table-wrap"), monster.hitzones);
   renderHitzoneSilhouette(node.querySelector(".hz-silhouette-wrap"), monster);
 
-  if (monster.partBreaks && monster.partBreaks.length) {
-    const pbList = node.querySelector(".part-breaks-list");
-    if (pbList) {
-      pbList.innerHTML = monster.partBreaks.map(b => `<li><span class="stat-name">${b.part}</span> HP ${b.hp}${b.breakInfo ? ' — '+b.breakInfo : ''}</li>`).join("");
-      pbList.closest("section").hidden = false;
-    }
-  }
-
   const ailList = node.querySelector(".ailments-list");
   const ailments = monster.ailmentBuildup && monster.ailmentBuildup.length
     ? monster.ailmentBuildup
