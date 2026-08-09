@@ -1111,6 +1111,7 @@ function showDecorationsView() {
   decorationDetailEl.hidden = true;
   decorationsIndexEl.hidden = false;
   decorationsSearchEl.value = "";
+  window.scrollTo(0,0);
   renderDecorationsIndex("");
   const url = new URL(location.href);
   url.searchParams.set("view", "decorations");
@@ -1983,6 +1984,7 @@ function showMaterialsView() {
   materialDetailEl.hidden = true;
   materialsIndexEl.hidden = false;
   materialsSearchEl.value = "";
+  window.scrollTo(0,0);
   renderMaterialsIndex("");
   const url = new URL(location.href);
   url.searchParams.set("view", "materials");
@@ -2168,6 +2170,7 @@ function showSkillsView() {
   skillDetailEl.hidden = true;
   skillsIndexEl.hidden = false;
   skillsSearchEl.value = "";
+  window.scrollTo(0,0);
   renderSkillsIndex("");
   const url = new URL(location.href);
   url.searchParams.set("view", "skills");
