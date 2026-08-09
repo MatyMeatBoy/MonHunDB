@@ -1,109 +1,135 @@
-# Guía de traspaso — Bestiario MH Rise/Sunbreak
+# GuÃ­a de traspaso â€” Bestiario MH Rise/Sunbreak
 
 Escrita para que otra IA (ej. DeepSeek, u otro asistente sin memoria de este proyecto) pueda
-entender la web y, sobre todo, el generador de vectores de siluetas (la parte más compleja)
+entender la web y, sobre todo, el generador de vectores de siluetas (la parte mÃ¡s compleja)
 sin tener que redescubrir nada por prueba y error. No reemplaza a `CLAUDE.md`, `PROGRESS.md`,
-`DATA_NOTES.md` ni `SOURCES.md` — es el punto de entrada que enlaza a todos ellos.
+`DATA_NOTES.md` ni `SOURCES.md` â€” es el punto de entrada que enlaza a todos ellos.
 
-## 0. Qué es este proyecto, en una frase
+## 0. QuÃ© es este proyecto, en una frase
 
-App web estática (HTML/CSS/JS plano, sin build, sin frameworks, sin backend) que muestra
+App web estÃ¡tica (HTML/CSS/JS plano, sin build, sin frameworks, sin backend) que muestra
 info de los 78 monstruos grandes de Monster Hunter Rise + Sunbreak: zonas, debilidades,
 resistencias, hitzones, materiales, y secciones enlazadas de Decoraciones, Armas, Armaduras,
-Materiales y Habilidades. Bilingüe ES/EN. Todo el dato vive en archivos JSON dentro de `data/`,
-cargados por `fetch()` en tiempo de ejecución — por eso **no se puede abrir `index.html` con
-doble-click**, hay que servirlo por HTTP:
+Materiales y Habilidades. BilingÃ¼e ES/EN. **Estructura multi-pÃ¡gina por juego** (desde
+2026-08-09): `index.html` en la raÃ­z es el hub de juegos, y cada juego vive en su propia
+carpeta autocontenida (`rise/` hoy; `wilds/` copiarÃ­a la estructura despuÃ©s). Todo el dato
+vive en archivos JSON dentro de `rise/data/`, cargados por `fetch()` en tiempo de ejecuciÃ³n
+â€” por eso **no se puede abrir los HTML con doble-click**, hay que servirlo por HTTP:
 
 ```bash
 npx serve .
 ```
 
-## 1. Mapa de archivos (qué tocar según lo que se pida)
+Ojo: `serve` con cleanUrls redirige `.html` â†’ sin extensiÃ³n y **pierde el query string**,
+por eso TODAS las URLs internas son sin extensiÃ³n (`rise/monster?m=X`, `rise/decorations?d=Y`,
+etc.) y cada pÃ¡gina es un HTML real con links normales (nada de pushState ni router por hash).
+
+## 1. Mapa de archivos (quÃ© tocar segÃºn lo que se pida)
 
 ```
 mhrise-bestiario/
-  index.html        shell + templates (una <template> por tipo de ficha: monstruo, decoración, arma, armadura, material, habilidad)
-  app.js             TODA la lógica (~2600 líneas, sin módulos, un solo archivo). Ver sección 2.
-  style.css          tema oscuro estilo MH (~1400 líneas)
-  data/
-    monsters.json           dataset final de 78 monstruos (el "core" del proyecto)
-    decorations.json        243 adornos
-    weapons.json            armas por tipo
-    armor_pieces.json        armor_sets.json    piezas/sets de armadura
-    skills.json               147 habilidades (ES/EN, niveles, colorIndex)
-    material_mhrice_icons.json / decoration_mhrice_icons.json   {nombre: {iconId, color}} para el sistema de íconos por máscara CSS
-    i18n.js                   TODOS los strings de la UI en ES/EN (buscar acá antes de hardcodear texto nuevo)
-    scrape_*.js                scrapers reutilizables (Node, uno por fuente/feature) — ver SOURCES.md
-    trace_silhouette.py        generador de vectores de siluetas — ver sección 3, es la pieza más compleja
-    MONSTER_ANATOMY.md          guía de anatomía de referencia (no verificada) para no adivinar mal al mapear siluetas
-    SILHOUETTE_GUIDE.md          checklist/lecciones aprendidas del pipeline de siluetas — LEER ANTES de tocar HITZONE_SHAPES
-    images/                     íconos y renders descargados, con carpetas *_bkp01/ de respaldo cuando se reemplazó un sistema de íconos
+  index.html        hub de juegos (selector por card, link a rise/) â€” CSS propio en hub.css
+  rise/             carpeta autocontenida de Monster Hunter Rise: Sunbreak
+    index.html      home del bestiario (novedades + combobox de monstruos)
+    monster         ficha de monstruo (template tpl-detail) â€” ?m=Nombre[&rank=Rank]
+    decorations     ?d=ID       weapons   ?w=ID       armor   ?set=Nombre | ?piece=ID
+    materials       ?mat=Key    skills    ?skill=ID
+    app.js          TODA la lÃ³gica del juego (~3000 lÃ­neas, sin mÃ³dulos). Boot por
+                    <body data-page="...">: cada pÃ¡gina corre solo su secciÃ³n (bootPage()).
+    style.css       tema oscuro estilo MH (~1500 lÃ­neas)
+    data/           datasets + scrapers + docs internos del juego (monsters.json,
+                    decorations.json, weapons.json, armor_pieces.json, armor_sets.json,
+                    skills.json, material_mhrice_icons.json / decoration_mhrice_icons.json,
+                    i18n.js, scrape_*.js, trace_silhouette.py, MONSTER_ANATOMY.md,
+                    SILHOUETTE_GUIDE.md, images/, batches/, weapon_tree_raw*/)
   vectores/
-    <monstruo>.png              imágenes de referencia (silueta de colores planos) que el usuario deja para trazar
+    <monstruo>.png              imÃ¡genes de referencia (silueta de colores planos) que el usuario deja para trazar
     mhrice/                     clon de github.com/wwylele/mhrice (data-miner del juego), gitignored, solo referencia local
-  .claude/skills/monster-vector-anatomy/   skill que se autoinvoca antes de trazar una silueta nueva (repite la regla de la sección 3)
-  PROGRESS.md        historial cronológico de features, con fecha, en orden de más reciente arriba
-  DATA_NOTES.md       casos ambiguos/dudosos encontrados en la recolección de datos, a revisar
-  SOURCES.md           qué sitio se usó para qué dato, y por qué (incluye fuentes descartadas y por qué)
-  CLAUDE.md             instrucciones cortas: usar graphify (ver sección 5) para preguntas de arquitectura del código
+  .claude/skills/monster-vector-anatomy/   skill que se autoinvoca antes de trazar una silueta nueva (repite la regla de la secciÃ³n 3)
+  PROGRESS.md        historial cronolÃ³gico de features, con fecha, en orden de mÃ¡s reciente arriba
+  DATA_NOTES.md       casos ambiguos/dudosos encontrados en la recolecciÃ³n de datos, a revisar
+  SOURCES.md           quÃ© sitio se usÃ³ para quÃ© dato, y por quÃ© (incluye fuentes descartadas y por quÃ©)
+  CLAUDE.md             instrucciones cortas: usar graphify (ver secciÃ³n 5) para preguntas de arquitectura del cÃ³digo
 ```
 
-## 2. Cómo está armado `app.js`
+## 2. CÃ³mo estÃ¡ armado `rise/app.js`
 
-No hay build step ni módulos — es un solo archivo cargado como `<script src="app.js" defer>`.
-Patrón repetido para cada sección navegable (Decoraciones, Armas, Armaduras, Materiales, Habilidades):
+No hay build step ni mÃ³dulos â€” es un solo archivo por juego cargado como `<script src="app.js" defer>`.
+Cada secciÃ³n navegable (Decoraciones, Armas, Armaduras, Materiales, Habilidades) es una **pÃ¡gina HTML
+real** con: toolbar (link volver + buscador) + `#X-index` (grid de tarjetas) + `#X-detail` (panel de
+detalle). El boot (`init()` â†’ `bootPage()` en `app.js`) lee `document.body.dataset.page` y el query
+string, y renderiza lista o detalle sin conmutar vistas.
 
-- Un `<main id="X-view" hidden>` en `index.html` con: toolbar (botón volver + buscador) + `#X-index` (grid de tarjetas) + `#X-detail` (panel de detalle).
-- En `app.js`: `showXView()`, `hideXView()`, `renderXIndex(query)`, `showXDetail(id)`, `initX()`.
-- **Regla de exclusión mutua**: cada `showXView()` tiene que ocultar (`hidden = true`) TODOS los demás contenedores de vista (home, detalle de monstruo, y las otras 5 secciones). Si se agrega una sección nueva, hay que volver a todas las `showXView()` existentes y agregarle la línea de ocultar la nueva — es fácil olvidarlo (pasó varias veces en este proyecto).
-- **Redibujado al cambiar de idioma**: el listener de `langToggleEl` tiene que saber re-renderizar la vista que esté visible en ese momento (chequeando `!xViewEl.hidden`). Si se agrega una sección nueva sin agregar su bloque acá, cambiar ES/EN no actualiza esa sección hasta navegar afuera y volver.
-- Los nombres de material/decoración/habilidad son `<button data-*>` clickeables en todos lados (tabla de materiales, buscador global, detalle de adorno/arma/armadura) que navegan a la página de detalle correspondiente — el patrón siempre es: guardar el nombre en un `data-*` attr (con `escapeAttr()` porque hay apóstrofes), y wiring con `querySelectorAll("[data-*]").forEach(...)` justo después de setear el `innerHTML`.
-- **Íconos por máscara CSS de 2 capas**: material/decoración/habilidad usan el mismo truco visual que el sitio fuente (MHRice): dos `<span>` superpuestos vía CSS grid, cada uno con `mask-image` apuntando a un PNG en blanco/negro (`.r.png` = capa coloreada por CSS `background-color`, `.a.png` = capa negra fija atrás). El color sale de una paleta fija por índice (`MH_ITEM_COLOR`, ~20 colores) según rareza. Ver `itemMaskIconTag()` / `skillIconTag()` en `app.js`.
-- **Inferencia monstruo↔equipo**: ni `weapons.json` ni `armor_pieces.json` dicen de qué monstruo sale un arma/set (el nombre es temático, ej. "Tempest Set" para Amatsu). Se infiere tallando qué monstruo aparece más en la lista de materiales de crafteo de esa arma/set (`materialIndex`), exigiendo dominancia clara antes de asociar (ver `buildMonsterEquipmentIndex()`).
+- **Links reales, no pushState**: todos los "navegar a otra secciÃ³n" son `location.href` vÃ­a helpers
+  `navMonster()/navMaterial()/navDecoration()/navWeapon()/navArmorSet()/navArmorPiece()/navSkill()`
+  (URLs sin extensiÃ³n). No existe la regla de exclusiÃ³n mutua de antes (cada pÃ¡gina tiene una sola vista).
+- **NavegaciÃ³n cruzada**: el combobox va a `monster?m=X`; los materiales/equipo/sources del buscador
+  global y de los detalles van a la URL de su secciÃ³n. El `?rank=` en monster setea la pestaÃ±a de rango.
+- **Idioma**: el toggle escribe `localStorage` y hace `location.reload()` â€” no hay re-render por vista.
+- **Botones "volver"**: toolbar â†’ `index.html` (home del juego); dentro de un detalle â†’ la lista de la
+  misma secciÃ³n (`decorations`, `weapons`, ...). El brand del topbar â†’ hub (`../index.html`).
+- Los nombres de material/decoraciÃ³n/habilidad son `<button data-*>` clickeables en todos lados (tabla
+  de materiales, buscador global, detalle de adorno/arma/armadura) que navegan a la pÃ¡gina de detalle
+  correspondiente â€” el patrÃ³n siempre es: guardar el nombre en un `data-*` attr (con `escapeAttr()`
+  porque hay apÃ³strofes), y wiring con `querySelectorAll("[data-*]").forEach(...)` justo despuÃ©s de
+  setear el `innerHTML`.
+- **Ãconos por mÃ¡scara CSS de 2 capas**: material/decoraciÃ³n/habilidad usan el mismo truco visual que
+  el sitio fuente (MHRice): dos `<span>` superpuestos vÃ­a CSS grid, cada uno con `mask-image`
+  apuntando a un PNG en blanco/negro (`.r.png` = capa coloreada por CSS `background-color`, `.a.png` =
+  capa negra fija atrÃ¡s). El color sale de una paleta fija por Ã­ndice (`MH_ITEM_COLOR`, ~20 colores)
+  segÃºn rareza. Ver `itemMaskIconTag()` / `skillIconTag()` en `app.js`.
+- **Inferencia monstruoâ†”equipo**: ni `weapons.json` ni `armor_pieces.json` dicen de quÃ© monstruo sale
+  un arma/set (el nombre es temÃ¡tico, ej. "Tempest Set" para Amatsu). Se infiere tallando quÃ© monstruo
+  aparece mÃ¡s en la lista de materiales de crafteo de esa arma/set (`materialIndex`), exigiendo
+  dominancia clara antes de asociar (ver `buildMonsterEquipmentIndex()`).
 
-Antes de hacer cambios de arquitectura o buscar "dónde está X", correr graphify (sección 5) en vez de leer `app.js` entero.
+**Para agregar un juego nuevo (ej. Wilds)**: copiar la carpeta `rise/` â†’ `wilds/`, reemplazar los
+JSON de `wilds/data/` por los del juego nuevo, ajustar `data-page`/tÃ­tulos/links si hace falta, y
+agregar una card en el hub (`index.html` raÃ­z). No comparten nada con Rise â€” no se ven entre ellos.
 
-## 3. El generador de vectores de siluetas (la parte más compleja)
+Antes de hacer cambios de arquitectura o buscar "dÃ³nde estÃ¡ X", correr graphify (secciÃ³n 5) en vez de leer `app.js` entero.
 
-Esto dibuja el hitzone interactivo (mapa de color por parte del cuerpo, con tooltip al pasar el mouse) que aparece en la ficha de cada monstruo, usando `HITZONE_SHAPES` en `app.js` (~línea 2192).
+## 3. El generador de vectores de siluetas (la parte mÃ¡s compleja)
 
-**Documentación completa y ya resuelta**: [`data/SILHOUETTE_GUIDE.md`](data/SILHOUETTE_GUIDE.md) — leer ese archivo entero antes de tocar esto, es una checklist corta a propósito. Resumen:
+Esto dibuja el hitzone interactivo (mapa de color por parte del cuerpo, con tooltip al pasar el mouse) que aparece en la ficha de cada monstruo, usando `HITZONE_SHAPES` en `app.js` (~lÃ­nea 2192).
 
-### 3.1 Pipeline técnico (mecánico, ya funciona, no hace falta rediseñarlo)
+**DocumentaciÃ³n completa y ya resuelta**: [`rise/data/SILHOUETTE_GUIDE.md`](rise/data/SILHOUETTE_GUIDE.md) â€” leer ese archivo entero antes de tocar esto, es una checklist corta a propÃ³sito. Resumen:
 
-1. El usuario deja una imagen en `vectores/<monstruo>.png`: silueta de colores planos (sin degradé), regiones separadas por líneas blancas o transparentes.
-2. `python data/trace_silhouette.py <imagen> <salida.json>`:
-   - Usa `cv2.connectedComponents` para separar regiones por color+contigüidad (blanco/transparente = fondo/separador).
-   - Dilata cada región (`cv2.distanceTransform`, radio fraccionario, default `1.86px`; regiones grandes como la cabeza/cresta usan `5.0px` vía `DILATE_RADIUS_LARGE` — **subir el radio grande solo para la región específica, nunca el global**, porque un radio global alto deforma regiones chicas como patas y las fusiona) para que regiones vecinas se toquen un poco y no quede una costura sin tooltip.
-   - `cv2.findContours` + `cv2.approxPolyDP` para vectorizar cada región dilatada.
-   - Salida: JSON con `{viewBox, regions: [{color, area, bbox, points}]}`, ordenado arriba→abajo, izquierda→derecha. El `color` es el promedio del PNG original — **solo sirve para ubicar la región a simple vista en el JSON, no se usa para pintar** (el pintado real en pantalla es por valor de stat, vía `tierColorsByPart()`).
-3. Un humano (o la IA con el usuario) pega cada región a mano en `HITZONE_SHAPES[<Monstruo>].parts.<Parte>` en `app.js`. Una parte puede tener más de un shape (array de strings de puntos) si el arte la dibuja en pedazos separados.
+### 3.1 Pipeline tÃ©cnico (mecÃ¡nico, ya funciona, no hace falta rediseÃ±arlo)
 
-### 3.2 La parte difícil: identificar qué región es qué parte del cuerpo
+1. El usuario deja una imagen en `vectores/<monstruo>.png`: silueta de colores planos (sin degradÃ©), regiones separadas por lÃ­neas blancas o transparentes.
+2. `python rise/data/trace_silhouette.py <imagen> <salida.json>`:
+   - Usa `cv2.connectedComponents` para separar regiones por color+contigÃ¼idad (blanco/transparente = fondo/separador).
+   - Dilata cada regiÃ³n (`cv2.distanceTransform`, radio fraccionario, default `1.86px`; regiones grandes como la cabeza/cresta usan `5.0px` vÃ­a `DILATE_RADIUS_LARGE` â€” **subir el radio grande solo para la regiÃ³n especÃ­fica, nunca el global**, porque un radio global alto deforma regiones chicas como patas y las fusiona) para que regiones vecinas se toquen un poco y no quede una costura sin tooltip.
+   - `cv2.findContours` + `cv2.approxPolyDP` para vectorizar cada regiÃ³n dilatada.
+   - Salida: JSON con `{viewBox, regions: [{color, area, bbox, points}]}`, ordenado arribaâ†’abajo, izquierdaâ†’derecha. El `color` es el promedio del PNG original â€” **solo sirve para ubicar la regiÃ³n a simple vista en el JSON, no se usa para pintar** (el pintado real en pantalla es por valor de stat, vÃ­a `tierColorsByPart()`).
+3. Un humano (o la IA con el usuario) pega cada regiÃ³n a mano en `HITZONE_SHAPES[<Monstruo>].parts.<Parte>` en `app.js`. Una parte puede tener mÃ¡s de un shape (array de strings de puntos) si el arte la dibuja en pedazos separados.
 
-**El trazado nunca falló. Todos los errores reales fueron asumir la identidad anatómica de una región por su posición/tamaño/forma en el bounding box.** Con Rathalos esto salió mal repetidamente: la región roja grande y llamativa arriba parecía "Cabeza" pero era el Ala; la franja angosta pegada parecía "Cuello" pero era la Espalda; una forma doblada abajo-izquierda parecía "Ala" por la forma de membrana pero era la Cola; una "llama" en la punta parecía decoración cosmética pero era parte de la Cabeza (aliento de fuego).
+### 3.2 La parte difÃ­cil: identificar quÃ© regiÃ³n es quÃ© parte del cuerpo
 
-**Regla dura**: nunca asignar región→parte por posición/forma sin confirmación. El método que sí funciona:
+**El trazado nunca fallÃ³. Todos los errores reales fueron asumir la identidad anatÃ³mica de una regiÃ³n por su posiciÃ³n/tamaÃ±o/forma en el bounding box.** Con Rathalos esto saliÃ³ mal repetidamente: la regiÃ³n roja grande y llamativa arriba parecÃ­a "Cabeza" pero era el Ala; la franja angosta pegada parecÃ­a "Cuello" pero era la Espalda; una forma doblada abajo-izquierda parecÃ­a "Ala" por la forma de membrana pero era la Cola; una "llama" en la punta parecÃ­a decoraciÃ³n cosmÃ©tica pero era parte de la Cabeza (aliento de fuego).
 
-1. Proponer una primera asignación de buena fe (posición está bien como punto de partida) pero avisar que es provisoria.
-2. Si el usuario corrige, aplicar el cambio directo, sin defender la asignación original.
-3. Si el usuario da un color hex (sacado con un color-picker sobre el `<svg>` ya renderizado) en vez de describir la zona en palabras, buscarlo directo en los `fill` de `document.querySelectorAll('svg polygon[data-part]')` — es exacto, no depende de interpretar una captura de pantalla.
-4. Ojo con partes que "duplican" el shape de otra por falta de región propia en el arte (ej. Espalda reusando el shape de Cuello) — si se reasigna la parte de la que dependen, la que duplica se mueve en cascada sin que nadie la haya tocado. Avisar esto proactivamente.
-5. No asumir que una región "rara" es decorativa sin confirmar primero.
+**Regla dura**: nunca asignar regiÃ³nâ†’parte por posiciÃ³n/forma sin confirmaciÃ³n. El mÃ©todo que sÃ­ funciona:
 
-Antes de mapear un monstruo nuevo, leer su entrada en [`data/MONSTER_ANATOMY.md`](data/MONSTER_ANATOMY.md) (guía de anatomía de los 78 monstruos, escrita de memoria de la saga, NO verificada/scrapeada — es solo para saber qué esperar: ¿tiene alas separadas del cuerpo?, ¿cola gruesa o látigo?, ¿brazos o son parte del ala?). Si la imagen de referencia real contradice la guía, la imagen real siempre gana, y conviene actualizar la guía después para el próximo monstruo.
+1. Proponer una primera asignaciÃ³n de buena fe (posiciÃ³n estÃ¡ bien como punto de partida) pero avisar que es provisoria.
+2. Si el usuario corrige, aplicar el cambio directo, sin defender la asignaciÃ³n original.
+3. Si el usuario da un color hex (sacado con un color-picker sobre el `<svg>` ya renderizado) en vez de describir la zona en palabras, buscarlo directo en los `fill` de `document.querySelectorAll('svg polygon[data-part]')` â€” es exacto, no depende de interpretar una captura de pantalla.
+4. Ojo con partes que "duplican" el shape de otra por falta de regiÃ³n propia en el arte (ej. Espalda reusando el shape de Cuello) â€” si se reasigna la parte de la que dependen, la que duplica se mueve en cascada sin que nadie la haya tocado. Avisar esto proactivamente.
+5. No asumir que una regiÃ³n "rara" es decorativa sin confirmar primero.
 
-Este flujo está automatizado como skill: `.claude/skills/monster-vector-anatomy/` se autoinvoca antes de trazar/mapear una silueta nueva y repite esta misma regla.
+Antes de mapear un monstruo nuevo, leer su entrada en [`rise/data/MONSTER_ANATOMY.md`](rise/data/MONSTER_ANATOMY.md) (guÃ­a de anatomÃ­a de los 78 monstruos, escrita de memoria de la saga, NO verificada/scrapeada â€” es solo para saber quÃ© esperar: Â¿tiene alas separadas del cuerpo?, Â¿cola gruesa o lÃ¡tigo?, Â¿brazos o son parte del ala?). Si la imagen de referencia real contradice la guÃ­a, la imagen real siempre gana, y conviene actualizar la guÃ­a despuÃ©s para el prÃ³ximo monstruo.
 
-### 3.3 FusionZonal — fusionar 2+ shapes de una misma parte en un solo contorno
+Este flujo estÃ¡ automatizado como skill: `.claude/skills/monster-vector-anatomy/` se autoinvoca antes de trazar/mapear una silueta nueva y repite esta misma regla.
 
-Cuando una parte queda con más de un polígono (por reasignación, split, o carve) y quedan pegados entre sí, se ve una costura interna (cada `<polygon>` dibuja su propio `stroke`). El usuario llama a esta operación "FusionZonal". Hay dos técnicas, **incompatibles entre sí — elegir la correcta según de dónde vienen los pedazos antes de tocar nada**:
+### 3.3 FusionZonal â€” fusionar 2+ shapes de una misma parte en un solo contorno
 
-1. **Pedazos que vienen de un split hecho a mano por la IA** (se cortó un polígono original en 2+ partes): la fusión es gratis — simplemente volver a usar el polígono original sin cortar. Cero riesgo.
-2. **Pedazos que vienen de regiones trazadas por separado** en el PNG (bordes no coinciden pixel a pixel, típicamente 2-8px de diferencia por la dilatación independiente de cada trazado): concatenar los puntos a mano casi seguro produce un polígono inválido (self-intersection). Hace falta unión geométrica real con `shapely`:
+Cuando una parte queda con mÃ¡s de un polÃ­gono (por reasignaciÃ³n, split, o carve) y quedan pegados entre sÃ­, se ve una costura interna (cada `<polygon>` dibuja su propio `stroke`). El usuario llama a esta operaciÃ³n "FusionZonal". Hay dos tÃ©cnicas, **incompatibles entre sÃ­ â€” elegir la correcta segÃºn de dÃ³nde vienen los pedazos antes de tocar nada**:
+
+1. **Pedazos que vienen de un split hecho a mano por la IA** (se cortÃ³ un polÃ­gono original en 2+ partes): la fusiÃ³n es gratis â€” simplemente volver a usar el polÃ­gono original sin cortar. Cero riesgo.
+2. **Pedazos que vienen de regiones trazadas por separado** en el PNG (bordes no coinciden pixel a pixel, tÃ­picamente 2-8px de diferencia por la dilataciÃ³n independiente de cada trazado): concatenar los puntos a mano casi seguro produce un polÃ­gono invÃ¡lido (self-intersection). Hace falta uniÃ³n geomÃ©trica real con `shapely`:
    ```python
    pip install shapely
-   # buffer chico (2.5px) fusiona bordes casi-coincidentes en la unión,
+   # buffer chico (2.5px) fusiona bordes casi-coincidentes en la uniÃ³n,
    # simplify final solo saca ruido de punto flotante
    from shapely.geometry import Polygon
    from shapely.ops import unary_union
@@ -112,71 +138,71 @@ Cuando una parte queda con más de un polígono (por reasignación, split, o car
    merged = unary_union([a, b]).buffer(-2.5, join_style=2).simplify(0.75, preserve_topology=True)
    points = list(merged.exterior.coords)[:-1]  # formatear como "x,y x,y ..." redondeando a enteros
    ```
-   No intentar hacerlo a mano (empalmar vértices "casi iguales") — las formas reales tienen zonas cóncavas que producen self-intersection aunque a simple vista parezca simple.
+   No intentar hacerlo a mano (empalmar vÃ©rtices "casi iguales") â€” las formas reales tienen zonas cÃ³ncavas que producen self-intersection aunque a simple vista parezca simple.
 
 ### 3.4 Estado actual
 
-Solo **Rathalos** tiene silueta completa y confirmada por el usuario (tabla de referencia completa en `SILHOUETTE_GUIDE.md`). El resto de los 78 monstruos no muestra esta sección — `renderHitzoneSilhouette()` se sale en silencio si `HITZONE_SHAPES[monster.name]` no existe. Hay un vector de Barioth también trabajado (`data/barioth_traced.json`) — ver notas de anatomía de Barioth en `MONSTER_ANATOMY.md` para detalles de esa sesión (patas delanteras muy separadas por el ángulo del dibujo, pata trasera chica escondida entre ellas, panza asomando).
+Solo **Rathalos** tiene silueta completa y confirmada por el usuario (tabla de referencia completa en `SILHOUETTE_GUIDE.md`). El resto de los 78 monstruos no muestra esta secciÃ³n â€” `renderHitzoneSilhouette()` se sale en silencio si `HITZONE_SHAPES[monster.name]` no existe. Hay un vector de Barioth tambiÃ©n trabajado (`rise/data/barioth_traced.json`) â€” ver notas de anatomÃ­a de Barioth en `MONSTER_ANATOMY.md` para detalles de esa sesiÃ³n (patas delanteras muy separadas por el Ã¡ngulo del dibujo, pata trasera chica escondida entre ellas, panza asomando).
 
-Fuente prometedora para el futuro, **aún no usada**: `MHRise-Database` (`robomeche.github.io/MHRise-Database`, clon local en `vectores/MHRise-Database-main/`, gitignored) tiene gráficos de zona por monstruo que, según su propio README, salen originalmente de MHRice (`wwylele/mhrice`) — un extractor de datos del juego, no un dibujo hecho a mano. Si se retoma el trabajo de siluetas, investigar esto primero: probablemente traiga el mapeo color↔parte del cuerpo como dato estructurado real en vez de tener que inferirlo a mano.
+Fuente prometedora para el futuro, **aÃºn no usada**: `MHRise-Database` (`robomeche.github.io/MHRise-Database`, clon local en `vectores/MHRise-Database-main/`, gitignored) tiene grÃ¡ficos de zona por monstruo que, segÃºn su propio README, salen originalmente de MHRice (`wwylele/mhrice`) â€” un extractor de datos del juego, no un dibujo hecho a mano. Si se retoma el trabajo de siluetas, investigar esto primero: probablemente traiga el mapeo colorâ†”parte del cuerpo como dato estructurado real en vez de tener que inferirlo a mano.
 
-## 3.5 Íconos de armadura rotos y verificación de traducciones ES (patrón reutilizable)
+## 3.5 Ãconos de armadura rotos y verificaciÃ³n de traducciones ES (patrÃ³n reutilizable)
 
-Aparecieron dos problemas relacionados con `data/armor_pieces.json` (1574 piezas) que valen la pena documentar como patrón, porque van a repetirse con otros datasets de equipo:
+Aparecieron dos problemas relacionados con `rise/data/armor_pieces.json` (1574 piezas) que valen la pena documentar como patrÃ³n, porque van a repetirse con otros datasets de equipo:
 
-**Íconos rotos (no son un problema de descarga, son un 404 real en la fuente):** `armorIconTag(p)` en `app.js` arma `<img src="data/images/armor/${p.id}_m.webp">` a partir de un mirror local descargado por `data/download_equip_icons.js` desde `iconM`/`iconF` (URLs del CDN de Kiranico). El script es resumible (`fs.existsSync` salta lo que ya está), así que si un ícono falta **no siempre es porque nunca se corrió el script** — hay que probar primero si la URL de origen responde:
+**Ãconos rotos (no son un problema de descarga, son un 404 real en la fuente):** `armorIconTag(p)` en `app.js` arma `<img src="data/images/armor/${p.id}_m.webp">` a partir de un mirror local descargado por `rise/data/download_equip_icons.js` desde `iconM`/`iconF` (URLs del CDN de Kiranico). El script es resumible (`fs.existsSync` salta lo que ya estÃ¡), asÃ­ que si un Ã­cono falta **no siempre es porque nunca se corriÃ³ el script** â€” hay que probar primero si la URL de origen responde:
 
 ```bash
 curl -sIL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36" "<iconM o iconF>" | grep -i "^HTTP"
 ```
 
-Se confirmó así que **233 de 1574 piezas dan 404 real en Kiranico** (no es que falte descargarlas, Kiranico nunca las renderizó — casos como equipo de Palamute/Buddy, piezas raras o layered). Para esos casos no hay más remedio que buscar una fuente alternativa (Fextralife, mismo patrón que ya se usa para renders de monstruos) y agregarla como **fallback de una segunda capa**, no como reemplazo — seguir el patrón ya establecido de `loadMaterialIconManifest()`/`loadMhriceIconMaps()` (manifiesto JSON chico, cargado en `init()`, chequeado antes de caer al placeholder en blanco). Nunca reemplazar la fuente primaria (Kiranico) solo porque una fuente secundaria también sirve — mantener el orden de prioridad explícito en el código.
+Se confirmÃ³ asÃ­ que **233 de 1574 piezas dan 404 real en Kiranico** (no es que falte descargarlas, Kiranico nunca las renderizÃ³ â€” casos como equipo de Palamute/Buddy, piezas raras o layered). Para esos casos no hay mÃ¡s remedio que buscar una fuente alternativa (Fextralife, mismo patrÃ³n que ya se usa para renders de monstruos) y agregarla como **fallback de una segunda capa**, no como reemplazo â€” seguir el patrÃ³n ya establecido de `loadMaterialIconManifest()`/`loadMhriceIconMaps()` (manifiesto JSON chico, cargado en `init()`, chequeado antes de caer al placeholder en blanco). Nunca reemplazar la fuente primaria (Kiranico) solo porque una fuente secundaria tambiÃ©n sirve â€” mantener el orden de prioridad explÃ­cito en el cÃ³digo.
 
-**Verificar traducciones ES de Kiranico (bypass del bloqueo a WebFetch):** `mhrise.kiranico.com` devuelve 403 a la tool `WebFetch` (ver `SOURCES.md`), pero responde 200 a un `curl` con User-Agent de navegador normal — mismo truco ya usado para `grindosaur.com`:
+**Verificar traducciones ES de Kiranico (bypass del bloqueo a WebFetch):** `mhrise.kiranico.com` devuelve 403 a la tool `WebFetch` (ver `SOURCES.md`), pero responde 200 a un `curl` con User-Agent de navegador normal â€” mismo truco ya usado para `grindosaur.com`:
 
 ```bash
 curl -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36" "https://mhrise.kiranico.com/es/data/armors/<id>" | grep -o '<title>[^<]*</title>'
 ```
 
-Con esto se confirmó un caso concreto: `"Lambent Sash"` (EN) tiene `nameEs: "Fajín Lambent"` (id `1620705253`) — "Lambent" quedó sin traducir. **No es un bug de este proyecto**: la propia web de Kiranico en español muestra exactamente el mismo "Fajín Lambent", así que lo más probable es que sea el nombre oficial de la línea de set (Capcom a veces deja adjetivos de nombre de set como sustantivo propio, igual que nunca traduce "Rathalos"). Antes de "corregir" una traducción parcial que parezca rara, verificar contra Kiranico ES con este método — si Kiranico también la deja igual, no tocarla.
+Con esto se confirmÃ³ un caso concreto: `"Lambent Sash"` (EN) tiene `nameEs: "FajÃ­n Lambent"` (id `1620705253`) â€” "Lambent" quedÃ³ sin traducir. **No es un bug de este proyecto**: la propia web de Kiranico en espaÃ±ol muestra exactamente el mismo "FajÃ­n Lambent", asÃ­ que lo mÃ¡s probable es que sea el nombre oficial de la lÃ­nea de set (Capcom a veces deja adjetivos de nombre de set como sustantivo propio, igual que nunca traduce "Rathalos"). Antes de "corregir" una traducciÃ³n parcial que parezca rara, verificar contra Kiranico ES con este mÃ©todo â€” si Kiranico tambiÃ©n la deja igual, no tocarla.
 
-## 3.6 Cómo se manejan los dos idiomas en los datos (dos patrones distintos, no uno solo)
+## 3.6 CÃ³mo se manejan los dos idiomas en los datos (dos patrones distintos, no uno solo)
 
-No hay un único mecanismo de traducción — conviven **dos patrones**, y hay que saber cuál aplica a qué dataset antes de tocar nombres/textos. Mezclarlos (ej. buscar `nameEs` en `monsters.json`, o esperar que `I18N.monsterNames` tenga una decoración) es un error fácil de cometer.
+No hay un Ãºnico mecanismo de traducciÃ³n â€” conviven **dos patrones**, y hay que saber cuÃ¡l aplica a quÃ© dataset antes de tocar nombres/textos. Mezclarlos (ej. buscar `nameEs` en `monsters.json`, o esperar que `I18N.monsterNames` tenga una decoraciÃ³n) es un error fÃ¡cil de cometer.
 
-**Patrón A — campos gemelos inline (`decorations.json`, `weapons.json`, `armor_pieces.json`, `skills.json`):** cada registro trae el texto en los dos idiomas directamente, como `name`/`nameEs`, `descEn`/`descEs`, `effect`/`effectEs`. No hay diccionario intermedio — el registro ES fue tipeado/scrapeado junto con el registro EN en el mismo paso de recolección (por eso viven en el mismo JSON). Para leer el nombre según el idioma activo se hace inline: `lang === "es" && x.nameEs ? x.nameEs : x.name` (ver `trDecorationName()`, `trArmorName()`, `trSkillName()` en `app.js`). Si falta la traducción de un registro nuevo, se edita el JSON directamente.
+**PatrÃ³n A â€” campos gemelos inline (`decorations.json`, `weapons.json`, `armor_pieces.json`, `skills.json`):** cada registro trae el texto en los dos idiomas directamente, como `name`/`nameEs`, `descEn`/`descEs`, `effect`/`effectEs`. No hay diccionario intermedio â€” el registro ES fue tipeado/scrapeado junto con el registro EN en el mismo paso de recolecciÃ³n (por eso viven en el mismo JSON). Para leer el nombre segÃºn el idioma activo se hace inline: `lang === "es" && x.nameEs ? x.nameEs : x.name` (ver `trDecorationName()`, `trArmorName()`, `trSkillName()` en `app.js`). Si falta la traducciÃ³n de un registro nuevo, se edita el JSON directamente.
 
-**Patrón B — diccionario separado por categoría (`monsters.json`, y los campos sueltos que arman la ficha de monstruo):** el dataset principal (`monsters.json`) es **solo inglés** — no tiene `nameEs` ni ningún campo `*Es`. La traducción vive aparte, en `data/i18n.js`, como diccionarios `{"Nombre EN": "Nombre ES"}` independientes por categoría: `I18N.monsterNames`, `I18N.species`, `I18N.locations`, `I18N.ailments`, `I18N.elements`, `I18N.ranks`, `I18N.bodyParts`, `I18N.buildupLabels`. Cada uno tiene su propia función `trX()` en `app.js` (`trMonsterName()`, `trSpecies()`, `trLocation()`, etc.) que hace `lang === "es" ? t(I18N.X, name) : name` — con `t()` siendo un lookup simple que devuelve la clave sin traducir si no la encuentra (fallback silencioso a inglés, nunca rompe). Este patrón se usa cuando el mismo string en inglés aparece repetido en muchos monstruos (ej. "Fire", "Poison", "Shrine Ruins") — tiene más sentido un diccionario compartido que repetir la traducción en cada registro.
+**PatrÃ³n B â€” diccionario separado por categorÃ­a (`monsters.json`, y los campos sueltos que arman la ficha de monstruo):** el dataset principal (`monsters.json`) es **solo inglÃ©s** â€” no tiene `nameEs` ni ningÃºn campo `*Es`. La traducciÃ³n vive aparte, en `rise/data/i18n.js`, como diccionarios `{"Nombre EN": "Nombre ES"}` independientes por categorÃ­a: `I18N.monsterNames`, `I18N.species`, `I18N.locations`, `I18N.ailments`, `I18N.elements`, `I18N.ranks`, `I18N.bodyParts`, `I18N.buildupLabels`. Cada uno tiene su propia funciÃ³n `trX()` en `app.js` (`trMonsterName()`, `trSpecies()`, `trLocation()`, etc.) que hace `lang === "es" ? t(I18N.X, name) : name` â€” con `t()` siendo un lookup simple que devuelve la clave sin traducir si no la encuentra (fallback silencioso a inglÃ©s, nunca rompe). Este patrÃ³n se usa cuando el mismo string en inglÃ©s aparece repetido en muchos monstruos (ej. "Fire", "Poison", "Shrine Ruins") â€” tiene mÃ¡s sentido un diccionario compartido que repetir la traducciÃ³n en cada registro.
 
-**Caso especial — materiales, un tercer diccionario aparte de los dos anteriores:** los nombres de material (usados dentro de `monsters.json`, `decorations.json`, `weapons.json`, `armor_pieces.json` como strings sueltos dentro de listas de `materials`) se traducen con `translateMaterial()`/`trMaterial()`, que buscan en `I18N.materials` — un diccionario de **816 entradas cargado en runtime** desde `data/kiranico_item_translations.json` (no vive en `data/i18n.js` como los demás, es un archivo aparte por su tamaño). Antes de cualquier lookup de material pasa por `normalizeMaterialKey()` (`data/i18n.js`), que además de limpiar el formato ("Name +" → "Name+") aplica una pequeña tabla de alias (`MATERIAL_NAME_ALIASES`) para nombres que difieren entre fuentes (ej. "Volvidon Carapace" vs "Volvi Carapace" — ver sección 3.5 arriba para cómo se detectan estos casos). Cobertura ~97.5%, los materiales sin traducción muestran el nombre en inglés como fallback (mismo comportamiento silencioso que el patrón B).
+**Caso especial â€” materiales, un tercer diccionario aparte de los dos anteriores:** los nombres de material (usados dentro de `monsters.json`, `decorations.json`, `weapons.json`, `armor_pieces.json` como strings sueltos dentro de listas de `materials`) se traducen con `translateMaterial()`/`trMaterial()`, que buscan en `I18N.materials` â€” un diccionario de **816 entradas cargado en runtime** desde `rise/data/kiranico_item_translations.json` (no vive en `rise/data/i18n.js` como los demÃ¡s, es un archivo aparte por su tamaÃ±o). Antes de cualquier lookup de material pasa por `normalizeMaterialKey()` (`rise/data/i18n.js`), que ademÃ¡s de limpiar el formato ("Name +" â†’ "Name+") aplica una pequeÃ±a tabla de alias (`MATERIAL_NAME_ALIASES`) para nombres que difieren entre fuentes (ej. "Volvidon Carapace" vs "Volvi Carapace" â€” ver secciÃ³n 3.5 arriba para cÃ³mo se detectan estos casos). Cobertura ~97.5%, los materiales sin traducciÃ³n muestran el nombre en inglÃ©s como fallback (mismo comportamiento silencioso que el patrÃ³n B).
 
-**Strings fijos de la interfaz** (botones, headers, placeholders, mensajes) son un cuarto caso, el más simple: `I18N.ui.es`/`I18N.ui.en` en `data/i18n.js`, accedidos vía `ui("clave")` en `app.js`. Antes de hardcodear un string nuevo en el código, agregarlo acá primero en los dos idiomas.
+**Strings fijos de la interfaz** (botones, headers, placeholders, mensajes) son un cuarto caso, el mÃ¡s simple: `I18N.ui.es`/`I18N.ui.en` en `rise/data/i18n.js`, accedidos vÃ­a `ui("clave")` en `app.js`. Antes de hardcodear un string nuevo en el cÃ³digo, agregarlo acÃ¡ primero en los dos idiomas.
 
-**Regla práctica al agregar una sección nueva de datos:** si el registro se recolectó/scrapeó de a uno (con su propio texto largo por idioma, como una descripción), usar Patrón A (campos gemelos en el mismo JSON). Si es un término corto que se repite en cientos de registros (un elemento, un rango, una parte del cuerpo), usar Patrón B (diccionario aparte en `i18n.js` + función `trX()`).
+**Regla prÃ¡ctica al agregar una secciÃ³n nueva de datos:** si el registro se recolectÃ³/scrapeÃ³ de a uno (con su propio texto largo por idioma, como una descripciÃ³n), usar PatrÃ³n A (campos gemelos en el mismo JSON). Si es un tÃ©rmino corto que se repite en cientos de registros (un elemento, un rango, una parte del cuerpo), usar PatrÃ³n B (diccionario aparte en `i18n.js` + funciÃ³n `trX()`).
 
 ## 4. Convenciones e instrucciones permanentes del usuario
 
-- **Nunca hacer `git push` sin confirmación explícita cada vez** ("quiero que subas push a github cuando te lo diga"). Commits sí se pueden hacer libremente con mensaje descriptivo.
-- Cuando se reemplaza un sistema de assets (íconos, etc.), **respaldar los archivos viejos en una carpeta `*_bkp01/` en vez de borrarlos**.
-- Mantener `PROGRESS.md` (checklist/historial cronológico) y `DATA_NOTES.md` (casos dudosos de datos) al día después de cada feature nueva — es el hábito establecido del proyecto, aunque a veces queda pendiente un archivo mientras el otro sí se actualiza.
-- El dato de cada sección nueva sigue el mismo patrón (índice + detalle, ver sección 2) — antes de inventar una estructura distinta, mirar cómo está hecho Decoraciones o Materiales como referencia.
+- **Nunca hacer `git push` sin confirmaciÃ³n explÃ­cita cada vez** ("quiero que subas push a github cuando te lo diga"). Commits sÃ­ se pueden hacer libremente con mensaje descriptivo.
+- Cuando se reemplaza un sistema de assets (Ã­conos, etc.), **respaldar los archivos viejos en una carpeta `*_bkp01/` en vez de borrarlos**.
+- Mantener `PROGRESS.md` (checklist/historial cronolÃ³gico) y `DATA_NOTES.md` (casos dudosos de datos) al dÃ­a despuÃ©s de cada feature nueva â€” es el hÃ¡bito establecido del proyecto, aunque a veces queda pendiente un archivo mientras el otro sÃ­ se actualiza.
+- El dato de cada secciÃ³n nueva sigue el mismo patrÃ³n (Ã­ndice + detalle, ver secciÃ³n 2) â€” antes de inventar una estructura distinta, mirar cÃ³mo estÃ¡ hecho Decoraciones o Materiales como referencia.
 
-## 5. Herramienta de análisis de arquitectura: graphify
+## 5. Herramienta de anÃ¡lisis de arquitectura: graphify
 
-Este proyecto tiene `graphify-out/` con un grafo de conocimiento del código (nodos, comunidades, relaciones entre archivos). Para preguntas de arquitectura o "dónde está X", **usar esto antes de grep/lectura manual**:
+Este proyecto tiene `graphify-out/` con un grafo de conocimiento del cÃ³digo (nodos, comunidades, relaciones entre archivos). Para preguntas de arquitectura o "dÃ³nde estÃ¡ X", **usar esto antes de grep/lectura manual**:
 
 ```bash
 graphify query "<pregunta>"
-graphify path "<A>" "<B>"      # relación entre dos símbolos/archivos
+graphify path "<A>" "<B>"      # relaciÃ³n entre dos sÃ­mbolos/archivos
 graphify explain "<concepto>"  # contexto enfocado de un concepto
 ```
 
-Si `graphify-out/wiki/index.md` existe, usarlo para navegación amplia en vez de recorrer el código fuente a mano. `graphify-out/GRAPH_REPORT.md` solo para revisión de arquitectura muy amplia, o cuando query/path/explain no alcanzan. Después de modificar código: `graphify update .` (solo AST, sin costo de API) para mantener el grafo al día.
+Si `graphify-out/wiki/index.md` existe, usarlo para navegaciÃ³n amplia en vez de recorrer el cÃ³digo fuente a mano. `graphify-out/GRAPH_REPORT.md` solo para revisiÃ³n de arquitectura muy amplia, o cuando query/path/explain no alcanzan. DespuÃ©s de modificar cÃ³digo: `graphify update .` (solo AST, sin costo de API) para mantener el grafo al dÃ­a.
 
 ## 6. Fuentes de datos usadas
 
-Ver [`SOURCES.md`](SOURCES.md) para la lista completa (Fextralife para datos base de monstruos, Grindosaur para hitzones/physiology, Kiranico para traducciones ES, MHRice para íconos reales + habilidades + su sistema de máscaras de color, fandom.com para renders y taxonomía). Incluye fuentes descartadas y por qué (Kiranico bloquea WebFetch con 403 en la vista de monstruos, etc.).
+Ver [`SOURCES.md`](SOURCES.md) para la lista completa (Fextralife para datos base de monstruos, Grindosaur para hitzones/physiology, Kiranico para traducciones ES, MHRice para Ã­conos reales + habilidades + su sistema de mÃ¡scaras de color, fandom.com para renders y taxonomÃ­a). Incluye fuentes descartadas y por quÃ© (Kiranico bloquea WebFetch con 403 en la vista de monstruos, etc.).
 
 ## 7. Otros archivos de contexto sugeridos para trabajar esto en otra herramienta (ej. DeepSeek)
 
-Ver sección siguiente / archivo separado `SESSION_SUMMARY_2026-08-08.md` para un resumen de la sesión más reciente de trabajo (útil como contexto reciente, no como fuente de verdad — la fuente de verdad siempre es el código y `PROGRESS.md`).
+Ver secciÃ³n siguiente / archivo separado `SESSION_SUMMARY_2026-08-08.md` para un resumen de la sesiÃ³n mÃ¡s reciente de trabajo (Ãºtil como contexto reciente, no como fuente de verdad â€” la fuente de verdad siempre es el cÃ³digo y `PROGRESS.md`).

@@ -1,0 +1,2430 @@
+[
+ {
+  "name": "Adamant Seed",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c8/Adamant_seed_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Adamant_seed_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ancient Potion",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/21/Ancient_potion_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Ancient_potion_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Antidote",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6b/Antidote_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Antidote_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Armorcharm",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c3/Armorcharm_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Armorcharm_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Armorskin",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6d/Armorskin_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Armorskin_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Blue Mushroom",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c8/Blue_mushroom_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Blue_mushroom_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Charred Lizard",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/69/Charred_lizard_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Charred_lizard_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Cleanser",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1b/Cleanser_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Cleanser_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Cool Drink",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/36/Cool_drink_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Cool_drink_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Dash Juice",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/73/Dash_juice_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Dash_juice_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Demon Powder",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5c/Demon_powder_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Demon_powder_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Deodorant",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/09/Deodorant_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Deodorant_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Dust of Life",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/91/Dust_of_life_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Dust_of_life_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Energy Drink",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/db/Energy_drink_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Energy_drink_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Devil&#39;s Blight",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f8/Devils_blight_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Devils_blight_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Great Sushifish Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8e/Great_sushifish_scale_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Great_sushifish_scale_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hardshell Powder",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0d/Hardshell_powder_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Hardshell_powder_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Herbal Medicine",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/68/Herbal_medicine_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Herbal_medicine_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Herbal Powder",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/42/Herbal_powder_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Herbal_powder_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hot Drink",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/15/Hot_drink_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Hot_drink_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lifepowder",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/22/Lifepowder_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Lifepowder_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Max Potion",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d0/Max_potion_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Max_potion_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Mega Armorskin",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f1/Mega_armorskin_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Mega_armorskin_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Mega Demondrug",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/38/Mega_demondrug_cropped_item_healing_support_mhwilds_wiki_guide_85px.png/20px-Mega_demondrug_cropped_item_healing_support_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Mega Potion",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ce/Mega_potion_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Mega_potion_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Might Pill",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8a/Might_pill_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Might_pill_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Might Seed",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8c/Might_seed_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Might_seed_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Exciteshroom",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fc/Exciteshroom_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Exciteshroom_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nulberry",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/08/Nulberry_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Nulberry_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Potion",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2f/Potion_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Potion_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Powercharm",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c9/Powercharm_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Powercharm_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ration",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/16/Ration_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Ration_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Sushifish Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a9/Sushifish_scale_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Sushifish_scale_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Well-done Steak",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/03/Well-done_steak_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Well-done_steak_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Whetfish Fin Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/af/Whetfish_fin_plus_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Whetfish_fin_plus_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Whetfish Fin",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ec/Whetfish_fin_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Whetfish_fin_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Mandragora",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7c/Mandragora_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Mandragora_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nitroshroom",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5f/Nitroshroom_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Nitroshroom_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Parashroom",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8a/Parashroom_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Parashroom_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Honey",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/57/Honey_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Honey_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Herb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/96/Herb_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Herb_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Antidote Herb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5d/Antidote_herb_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Antidote_herb_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Fire Herb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2c/Fire_herb_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Fire_herb_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Flowfern",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/42/Flowfern_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Flowfern_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Snow Herb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b6/Snow_herb_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Snow_herb_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Sleep Herb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a4/Sleep_herb_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Sleep_herb_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ivy",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/73/Ivy_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Ivy_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Smokenut",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b8/Smokenut_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Smokenut_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Dragonfell Berry",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a4/Dragonfell_berry_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Dragonfell_berry_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hot Pepper",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/91/Hot_pepper_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Hot_pepper_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gloamgrass Bud",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/ab/Gloamgrass_bud_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Gloamgrass_bud_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Chillshroom",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d1/Chillshroom_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Chillshroom_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Spider Web",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/03/Spider_web_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Spider_web_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Trap Tool",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f4/Trap_tool_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Trap_tool_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Dung",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5d/Dung_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Dung_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rolled-up Dung",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/5d/Dung_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Blastnut",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3e/Blastnut_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Blastnut_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Dragonstrike Nut",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b0/Dragonstrike_nut_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Dragonstrike_nut_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Slashberry",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/13/Slashberry_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Slashberry_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Bomberry",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2f/Bomberry_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Bomberry_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Bitterbug Broth",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/05/Bitterbug_broth_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Bitterbug_broth_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Flashbug Phosphor",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/58/Flashbug_phosphor_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Flashbug_phosphor_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Godbug Essence",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/85/Godbug_essence_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Godbug_essence_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Thunderbug Capacitor",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f2/Thunderbug_capacitor_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Thunderbug_capacitor_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gunpowderfish Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a1/Gunpowderfish_scale_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Gunpowderfish_scale_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Burst Arowana Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/36/Burst_arowana_scale_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Burst_arowana_scale_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Bomb Arowana Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/54/Bomb_arowana_scale_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Bomb_arowana_scale_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Dash Extract",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d8/Dash_extract_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Dash_extract_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nourishing Extract",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b8/Nourishing_extract_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Nourishing_extract_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Armor Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/45/Armor_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Armor_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Cluster Bomb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/82/Cluster_bomb_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Cluster_bomb_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Demon Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9a/Demon_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Demon_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Dragon Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9e/Dragon_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Dragon_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Exhaust Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/05/Exhaust_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Exhaust_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Flaming Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f2/Flaming_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Flaming_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Freeze Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fa/Freeze_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Freeze_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Paralysis Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7b/Paralysis_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Paralysis_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Poison Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/61/Poison_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Poison_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Recover Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/05/Recover_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Recover_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Sleep Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d5/Sleep_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Sleep_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Slicing Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8c/Slicing_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Slicing_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Sticky Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b1/Sticky_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Sticky_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Thunder Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5f/Thunder_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Thunder_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Tranq Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/ac/Trang_ammo_item_bowgun_ammo_mhwilds_wiki_guide_85px.png/20px-Trang_ammo_item_bowgun_ammo_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Tranq Blade",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/08/Tranq_blade_item_trap_offense_mhwilds_wiki_guide_85px.png/20px-Tranq_blade_item_trap_offense_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Water Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3d/Water_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Water_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wyvern Ammo",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/81/Wyvern_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png/20px-Wyvern_ammo_item_bowgun_ammo_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gunpowder",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c5/Gunpowder_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Gunpowder_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Net",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/36/Net_item_ingredient_mhwilds_wiki_guide_25px.png/20px-Net_item_ingredient_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Barrel Bomb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/25/Barrel_bomb_item_trap_offense_mhwilds_wiki_guide_25px.png/20px-Barrel_bomb_item_trap_offense_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Bomb Pod",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2a/Slinger-ammo-bombpod.png/20px-Slinger-ammo-bombpod.png"
+ },
+ {
+  "name": "Dragon Pod",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f1/Slinger-ammo-dragonpod.png/20px-Slinger-ammo-dragonpod.png"
+ },
+ {
+  "name": "Dung Pod",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8d/Dung_pod_item_trap_offense_mhwilds_wiki_guide_25px.png/20px-Dung_pod_item_trap_offense_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "EZ Flash Bomb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c1/Flash_pod_item_trap_offense_mhwilds_wiki_guide_85px.png/20px-Flash_pod_item_trap_offense_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "EZ Pitfall Trap",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a6/Pitfall_trap_item_trap_offense_mhwilds_wiki_guide_85px.png/20px-Pitfall_trap_item_trap_offense_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Flash Pod",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/77/Flash_pod_item_trap_offense_mhwilds_wiki_guide_25px.png/20px-Flash_pod_item_trap_offense_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Toadstool",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4e/Toadstool_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Toadstool_item_healing_support_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Large Barrel Bomb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/21/Large_barrel_bomb_item_trap_offense_mhwilds_wiki_guide_25px.png/20px-Large_barrel_bomb_item_trap_offense_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Large Dung Pod",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c6/Large_dung_pod_item_trap_offense_mhwilds_wiki_guide_25px.png/20px-Large_dung_pod_item_trap_offense_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Luring Pod",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/41/Luring_pod_item_trap_offense_mhwilds_wiki_guide_25px.png/20px-Luring_pod_item_trap_offense_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Mega Barrel Bomb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1e/Mega_barrel_bomb_item_trap_offense_mhwilds_wiki_guide_25px.png/20px-Mega_barrel_bomb_item_trap_offense_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Pitfall Trap",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b6/Pitfall_trap_item_trap_offense_mhwilds_wiki_guide_25px.png/20px-Pitfall_trap_item_trap_offense_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Poison Smoke Bomb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2a/Poison_smoke_bomb_item_trap_offense_mhwilds_wiki_guide_25px.png/20px-Poison_smoke_bomb_item_trap_offense_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Puddle Pod",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b6/Slinger-ammo-puddlepod.png/20px-Slinger-ammo-puddlepod.png"
+ },
+ {
+  "name": "Raw Meat",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/11/Raw_meat_item_trap_offense_mhwilds_wiki_guide_25px.png/20px-Raw_meat_item_trap_offense_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Screamer Pod",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f6/Screamer_pod_item_trap_offense_mhwilds_wiki_guide_25px.png/20px-Screamer_pod_item_trap_offense_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Shock Trap",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cd/Shock_trap_item_trap_offense_mhwilds_wiki_guide_25px.png/20px-Shock_trap_item_trap_offense_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Torch Pod",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/99/Slinger-ammo-torchpod.png/20px-Slinger-ammo-torchpod.png"
+ },
+ {
+  "name": "Tranq Bomb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a7/Tranq_bomb_item_trap_offense_mhwilds_wiki_guide_25px.png/20px-Tranq_bomb_item_trap_offense_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Airy Egg",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9b/Airy_egg_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Airy_egg_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ancient Fossil",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d3/Ancient_fossil_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Ancient_fossil_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ancient Orb - Armor",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f9/Ancient_orb-armor_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Ancient_orb-armor_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Ancient Weapon Fragment",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7b/Ancient_weapon_fragment_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Ancient_weapon_fragment_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Ancient Wyvern Coin",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/07/Ancient_wyvern_coin_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Ancient_wyvern_coin_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Antimite",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5e/Antimite_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Antimite_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Antimite Mass",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b4/Antimite_mass_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Antimite_mass_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Auric Oil",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/63/Auric_oil_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Auric_oil_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Bulky Treasure",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/56/Bulky_treasure_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Bulky_treasure_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Chaliceweed",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1d/Chaliceweed_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Chaliceweed_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Cloudy Crystal",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5e/Cloudy_crystal_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Cloudy_crystal_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Damaged Weapon Shard",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/60/Damaged_weapon_shard_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Damaged_weapon_shard_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Dreamspell Catalog",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1b/Dreamspell_catalog_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Dreamspell_catalog_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Delishroom",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/57/Delishroom_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Delishroom_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Dragonscale Vase",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/14/Dragonscale_vase_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Dragonscale_vase_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Drifting Sea Pot",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0f/Drifting_sea_pot_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Drifting_sea_pot_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Droolshroom",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/29/Droolshroom_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Droolshroom_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Eastern Honey",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1c/Eastern_honey_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Eastern_honey_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Fine Antimite",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e6/Fine_antimite_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Fine_antimite_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Fine Scarlet Amber",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/de/Fine_scarlet_amber_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Fine_scarlet_amber_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Fine Windward Aloe",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7b/Fine_windward_aloe_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Fine_windward_aloe_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Fluffy Egg",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4e/Fluffy_egg_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Fluffy_egg_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Fossilized Fire Opal",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d6/Fossilized_fire_opal_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Fossilized_fire_opal_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Fossilized Opal",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/62/Fossilized_opal_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Fossilized_opal_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Fulgurite Shard",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e4/Fulgurite_shard_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Fulgurite_shard_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gajau Hide",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/70/Gajau_hide_item_equipment_material_mhwilds_wiki_guide_85px.png/25px-Gajau_hide_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Genesis Opal",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/02/Genesis_opal_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Genesis_opal_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gilded Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/35/Gilded_scale_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Gilded_scale_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Glowing Orb - Armor",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/09/Glowing_orb-armor_equipment_material_mhwilds_wiki_guide_85px.png/20px-Glowing_orb-armor_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Glowing Stone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e4/Glowing_stone_mhwilds_wiki_guide_85px.png/20px-Glowing_stone_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Gobletweed",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fa/Gobletweed_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Gobletweed_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Golden Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/74/Golden_scale_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Golden_scale_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Great Windward Aloe",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/27/Great_windward_aloe_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Great_windward_aloe_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hirabami Molting",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/24/Hirabami_molting_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Hirabami_molting_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Jeweled Mullet Roe",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4b/Jeweled_mullet_roe_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Jeweled_mullet_roe_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Krano Copper",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0a/Krano_copper_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Krano_copper_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Krano Pyrite",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0e/Krano_pyrite_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Krano_pyrite_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Kunafa Cheese",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/07/Kunafa_cheese_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Kunafa_cheese_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Large Goldenscale Vase",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/77/Large_goldenscale_vase_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Large_goldenscale_vase_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Mature Wyveria Lantern",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b2/Mature_wyveria_lantern_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Mature_wyveria_lantern_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Milky Cocoon Web",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7e/Milky_cocoon_web_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Milky_cocoon_web_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Monster Chili",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/44/Monster_chili_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Monster_chili_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Mud Shrimp",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/01/Mud_shrimp_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Mud_shrimp_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Mystery Orb - Armor",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/75/Mystery_orb_armor_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Mystery_orb_armor_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Mystery Orb - Sword",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ea/Mystery_orb_sword_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Mystery_orb_sword_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Nightflower Pollen",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/94/Nightflower_pollen_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Nightflower_pollen_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Old Weapon Shard - Blade",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/21/Old_weapon_shard-blade_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Old_weapon_shard-blade_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Old Weapon Shard - Tube",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6a/Old_weapon_shard-tube_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Old_weapon_shard-tube_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Old Weapon Shard - Disc",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d9/Old_weapon_shard-disc_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Old_weapon_shard-disc_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Old Weapon Shard - Device",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/23/Old_weapon_shard-device_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Old_weapon_shard-device_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Origin Wylk Gem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ce/Origin_wylk_gem_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Origin_wylk_gem_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Platinum Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/79/Platinum_scale_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Platinum_scale_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Royal Sea Pot",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/80/Royal_sea_pot_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Royal_sea_pot_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rusted Weapon Shard",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/76/Rusted_weapon_shard_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Rusted_weapon_shard_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Sandpepper",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/31/Sandpepper_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Sandpepper_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Scarlet Amber Shard",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5e/Scarlet_amber_shard_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Scarlet_amber_shard_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Sharp Kunafa Cheese",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a7/Sharp_kunafa_cheese_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Sharp_kunafa_cheese_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Shiny Treasure",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fc/Shiny_treasure_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Shiny_treasure_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Sild Garlic",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/54/Sild_garlic_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Sild_garlic_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Sparkly Treasure",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ec/Sparkly_treasure_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Sparkly_treasure_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Specialty Sild Garlic",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/47/Specialty_sild_garlic_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Specialty_sild_garlic_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Thundering Fulgurite",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3b/Thundering_fulgurite_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Thundering_fulgurite_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Time-honed Wylk Gem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a9/Time-honed_wylk_gem_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Time-honed_wylk_gem_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Truffle Du Conga",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5d/Truffle_du_conga_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Truffle_du_conga_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Turbid Shrimp",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a4/Turbid_shrimp_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Turbid_shrimp_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wild Herb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7d/Wild_herb_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Wild_herb_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wild Seed Oil",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/85/Wild_seed_oil_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Wild_seed_oil_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Windward Aloe",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/ba/Windward_aloe_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Windward_aloe_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wylk Gem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/12/Wylk_gem_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Wylk_gem_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wylk Pebble",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4e/Wylk_pebble_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Wylk_pebble_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wyveria Lantern",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6d/Wyveria_lantern_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Wyveria_lantern_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wyvernscale Vase",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/35/Wyvernscale_vase_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Wyvernscale_vase_item_special_items_other_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ajarakan Jewel Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/45/Ajarakan_jewel_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_jewel_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Acute Fang",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fb/Acute_fang_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Acute_fang_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Advanced Armor Sphere",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8e/Advanced_armor_sphere_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Advanced_armor_sphere_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ajarakan Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b2/Ajarakan_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ajarakan Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/45/Ajarakan_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ajarakan Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6c/Ajarakan_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ajarakan Jewel",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/55/Ajarakan_jewel_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_jewel_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ajarakan Marrow",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e5/Ajarakan_marrow_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_marrow_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ajarakan Ridge Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1a/Ajarakan_ridge_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_ridge_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ajarakan Ridge",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/78/Ajarakan_ridge_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_ridge_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ajarakan Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2a/Ajarakan_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ajarakan Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7f/Ajarakan_scale_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_scale_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ajarakan Shell",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/84/Ajarakan_shell_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_shell_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ajarakan Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a4/Ajarakan_tail_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_tail_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Aqua Sac",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f9/Aqua_sac_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Aqua_sac_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Argecite",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/07/Argecite_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Argecite_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Arkveld Armorplate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/43/Arkveld_armorplate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Arkveld_armorplate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Arkveld Calloushell",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/09/Arkveld_calloushell_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Arkveld_calloushell_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Arkveld Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0f/Arkveld_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Arkveld_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Arkveld Gem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/de/Arkveld_gem_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Arkveld_gem_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Arkveld Horn Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b4/Arkveld_horn_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Arkveld_horn_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Arkveld Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/08/Arkveld_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Arkveld_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Arkveld Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/74/Arkveld_tail_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Arkveld_tail_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Armor Sphere Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b6/Armor_sphere_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Armor_sphere_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Armor Sphere",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3c/Armor_sphere_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Armor_sphere_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Azuz Tanned Leather",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/70/Azuz_tanned_leather_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Azuz_tanned_leather_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Balahara Black Pearl",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/15/Balahara_black_pearl_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Balahara_black_pearl_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Balahara Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7a/Balahara_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Balahara_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Balahara Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/47/Balahara_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Balahara_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Balahara Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b7/Balahara_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Balahara_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Balahara Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d1/Balahara_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Balahara_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Balahara Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e5/Balahara_scale_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Balahara_scale_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Balahara Shell",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a5/Balahara_shell_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Balahara_shell_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Balahara Skull Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/ae/Balahara_skull_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Balahara_skull_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Balahara Skull",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/27/Balahara_skull_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Balahara_skull_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Balahara Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e2/Balahara_tail_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Balahara_tail_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Beast Gem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cb/Beast_gem_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Beast_gem_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Bird Wyvern Gem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/97/Bird_wyvern_gem_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Bird_wyvern_gem_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Blangonga Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/06/Blangonga_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Blangonga_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Blangonga Fang Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/78/Blangonga_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Blangonga_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Blangonga Pelt Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/85/Blangonga_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Blangonga_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Blangonga Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9e/Blangonga_tail_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Blangonga_tail_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Blangonga Whisker",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3d/Blangonga_whisker_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Blangonga_whisker_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Blango Pelt Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cb/Blango_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Blango_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Bulaqchi Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e7/Bulaqchi_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Bulaqchi_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Bulaqchi Shell",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/75/Bulaqchi_shell_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Bulaqchi_shell_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Carbalite Ore",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/68/Carbalite_ore_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Carbalite_ore_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Charred Oilbone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9e/Charred_oilbone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Charred_oilbone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Chatacabra Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/db/Chatacabra_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Chatacabra_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Chatacabra Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/64/Chatacabra_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Chatacabra_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Chatacabra Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/17/Chatacabra_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Chatacabra_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Chatacabra Hide Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/62/Chatacabra_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Chatacabra_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Chatacabra Hide",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/79/Chatacabra_hide_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Chatacabra_hide_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Chatacabra Jaw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0d/Chatacabra_jaw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Chatacabra_jaw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Chatacabra Jaw",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f0/Chatacabra_jaw_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Chatacabra_jaw_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Chatacabra Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/04/Chatacabra_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Chatacabra_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Chatacabra Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/02/Chatacabra_scale_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Chatacabra_scale_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Chatacabra Shell",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f1/Chatacabra_shell_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Chatacabra_shell_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Colossal Bone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/01/Colossal_bone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Colossal_bone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Comaqchi Shell",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fb/Comaqchi_shell_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Comaqchi_shell_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Comaqchi Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/12/Comaqchi_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Comaqchi_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Coma Sac",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/bd/Coma_sac_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Coma_sac_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Commission Ticket",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/16/Commission_ticket_equipment_material_mhwilds_wiki_guide_85px.png/20px-Commission_ticket_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Congalala Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/25/Congalala_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Congalala_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Congalala Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/17/Congalala_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Congalala_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Congalala Claw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/75/Congalala_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Congalala_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Congalala Claw",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a4/Congalala_claw_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Congalala_claw_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Congalala Fang Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/14/Congalala_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Congalala_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Congalala Fang",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7d/Congalala_fang_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Congalala_fang_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Congalala Pelt Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cc/Congalala_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Congalala_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Congalala Pelt",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/46/Congalala_pelt_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Congalala_pelt_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Conga Pelt Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b9/Conga_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Conga_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Crushed Crystal",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e0/Crushed_crystal_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Crushed_crystal_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Dalthydon Wool",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3a/Dalthydon_wool_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Dalthydon_wool_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Doshaguma Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c2/Doshaguma_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Doshaguma Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/60/Doshaguma_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Doshaguma Sketch",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c2/Doshaguma_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Doshaguma Claw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cd/Doshaguma_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Doshaguma Claw",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/26/Doshaguma_claw_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_claw_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Doshaguma Fang Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/74/Doshaguma_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Doshaguma Fang",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d7/Doshaguma_fang_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_fang_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Doshaguma Fur Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c0/Doshaguma_fur_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_fur_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Doshaguma Fur",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/dc/Doshaguma_fur_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_fur_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Doshaguma Hide Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7e/Doshaguma_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Doshaguma Hide",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/49/Doshaguma_hide_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_hide_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Dragonbone Relic",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/66/Dragonbone_relic_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Dragonbone_relic_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Dragonite Ore",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/df/Dragonite_ore_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Dragonite_ore_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Drearisite",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a6/Drearisite_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Drearisite_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Drearisite Scraps",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/df/Drearisite_scraps_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Drearisite_scraps_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Dreamspell Ticket",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1b/Dreamspell_catalog_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Dreamspell_catalog_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Dreamspell Voucher",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/61/Dreamspell_voucher_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Dreamspell_voucher_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Earth Crystal",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/71/Earth_crystal_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Earth_crystal_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Firecell Stone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2a/Firecell_stone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Firecell_stone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Firestone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f2/Firestone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Firestone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Freezer Sac",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d2/Freezer_sac_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Freezer_sac_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Frenzy Crystal",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/71/Frenzy_crystal_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Frenzy_crystal_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Frenzy Shard",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/45/Frenzy_shard_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Frenzy_shard_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Frost Sac",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c3/Frost_sac_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Frost_sac_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Frozen Icebone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2f/Frozen_icebone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Frozen_icebone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Fucium Ore",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4e/Fucium_ore_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Fucium_ore_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Giant Beak",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/35/Giant_beak_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Giant_beak_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Golden Corneum Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/35/Golden_corneum_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Golden_corneum_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Golden Corneum",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/69/Golden_corneum_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Golden_corneum_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gold Relic Ticket",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ce/Gold_relic_ticket_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gold_relic_ticket_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gore Magala Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2a/Gore_magala_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gore_magala_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gore Magala Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/67/Gore_magala_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gore_magala_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gore Magala Nyctgem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/13/Gore_magala_nyctgem_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gore_magala_nyctgem_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gore Magala Ripclaw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e3/Gore_magala_ripclaw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gore_magala_ripclaw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gore Magala Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/96/Gore_magala_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gore_magala_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gore Magala Wing Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e7/Gore_magala_wing_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gore_magala_wing_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gracium",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/16/Gracium_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gracium_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gravios Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e9/Gravios_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gravios_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gravios Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/47/Gravios_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gravios_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gravios Medulla",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/69/Gravios_medulla_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gravios_medulla_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gravios Pleura Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ce/Gravios_pleura_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gravios_pleura_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gravios Skull",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/23/Gravios_skull_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gravios_skull_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gravios Wing",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/11/Gravios_wing_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gravios_wing_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Great Hibiscus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/89/Great_hibiscus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Great_hibiscus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Great Hornfly",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d9/Great_hornfly_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Great_hornfly_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Great Stoutbone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/76/Great_stoutbone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Great_stoutbone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Blood Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/de/Guardian_blood_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_blood_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Blood",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/82/Guardian_blood_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_blood_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Doshaguma Claw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c0/Guardian_doshaguma_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_doshaguma_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Doshaguma Claw",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/49/Guardian_doshaguma_claw_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_doshaguma_claw_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Doshaguma Fang",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/84/Guardian_doshaguma_fang_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_doshaguma_fang_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Doshaguma Fur Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3c/Guardian_doshaguma_fur_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_doshaguma_fur_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Doshaguma Fur",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e2/Guardian_doshaguma_fur_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_doshaguma_fur_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Doshaguma Hide Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fb/Guardian_doshaguma_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_doshaguma_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Doshaguma Hide",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3f/Guardian_doshaguma_hide_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_doshaguma_hide_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Ebony Claw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b9/Guardian_ebony_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Ebony Claw",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/95/Guardian_ebony_claw_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_claw_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Ebony Fang Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4c/Guardian_ebony_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Ebony Fang",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/70/Guardian_ebony_fang_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_fang_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Ebony Gem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c3/Guardian_ebony_gem_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_gem_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Ebony Plate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/74/Guardian_ebony_plate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_plate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Ebony Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ef/Guardian_ebony_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Ebony Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/69/Guardian_ebony_scale_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_scale_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Ebony Sinew Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d9/Guardian_ebony_sinew_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_sinew_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Ebony Sinew",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6f/Guardian_ebony_sinew_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_sinew_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Ebony Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/ad/Guardian_ebony_tail_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_tail_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Fulgur Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3d/Guardian_fulgur_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_fulgur_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Fulgur Fang Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0c/Guardian_fulgur_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_fulgur_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Fulgur Nosebone Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ea/Guardian_fulgur_nosebone_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_fulgur_nosebone_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Fulgur Pelt Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3b/Guardian_fulgur_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_fulgur_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Fulgur Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/22/Guardian_fulgur_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_fulgur_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Fulgur Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5f/Guardian_fulgur_tail_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_fulgur_tail_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Pelt Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/04/Guardian_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Pelt",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4e/Guardian_pelt_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_pelt_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Rathalos Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/06/Guardian_rathalos_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_rathalos_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Rathalos Plate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b2/Guardian_rathalos_plate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_rathalos_plate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Rathalos Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/65/Guardian_rathalos_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_rathalos_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Rathalos Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5e/Guardian_rathalos_scale_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_rathalos_scale_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Rathalos Shell",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ca/Guardian_rathalos_shell_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_rathalos_shell_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Rathalos Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/36/Guardian_rathalos_tail_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_rathalos_tail_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Rathalos Webbing",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/44/Guardian_rathalos_webbing_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_rathalos_webbing_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Rathalos Wing",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9d/Guardian_rathalos_wing_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_rathalos_wing_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/31/Guardian_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fb/Guardian_scale_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_scale_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Seikret Feather Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/87/Guardian_seikret_feather_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_seikret_feather_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Seikret Feather",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/09/Guardian_seikret_feather_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_seikret_feather_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gypceros Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a2/Gypceros_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gypceros_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gypceros Head",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e5/Gypceros_head_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gypceros_head_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gypceros Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ed/Gypceros_tail_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gypceros_tail_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gypceros Wing",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/98/Gypceros_wing_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gypceros_wing_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "G Doshaguma Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a2/G_doshaguma_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_doshaguma_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "G Doshaguma Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2d/G_doshaguma_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_doshaguma_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "G Ebony Odogaron Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ed/G_ebony_odogaron_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_ebony_odogaron_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "G Ebony Odogaron Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2c/G_ebony_odogaron_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_ebony_odogaron_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "G Rathalos Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/22/G_rathalos_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_rathalos_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "G Rathalos Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7e/G_rathalos_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_rathalos_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Harvest Ticket",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fd/Harvest_ticket_item_equipment_material_mhwilds_wiki_guide_85px.png/25px-Harvest_ticket_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Hard Armor Sphere",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/97/Hard_armor_sphere_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hard_armor_sphere_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Heavy Armor Sphere",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/65/Heavy_armor_sphere_mhwilds_wiki_guide.png/20px-Heavy_armor_sphere_mhwilds_wiki_guide.png"
+ },
+ {
+  "name": "Herbivore Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d7/Herbivore_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Herbivore_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Herbivore Shell",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/53/Herbivore_shell_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Herbivore_shell_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hirabami Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0d/Hirabami_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hirabami_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hirabami Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/47/Hirabami_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hirabami_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hirabami Hide Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c7/Hirabami_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hirabami_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hirabami Hide",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b5/Hirabami_hide_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hirabami_hide_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hirabami Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/12/Hirabami_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hirabami_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hirabami Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fd/Hirabami_scale_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hirabami_scale_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hirabami Tail Claw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8c/Hirabami_tail_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hirabami_tail_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hirabami Tail Claw",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d8/Hirabami_tail_claw_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hirabami_tail_claw_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hirabami Webbing Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/01/Hirabami_webbing_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hirabami_webbing_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hirabami Webbing",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cf/Hirabami_webbing_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hirabami_webbing_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hunter Symbol I",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ca/Hunter_symbol_i_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hunter_symbol_i_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hunter Symbol II",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b5/Hunter_symbol_ii_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hunter_symbol_ii_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Hunter Symbol III",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6b/Hunter_symbol_iii_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hunter_symbol_iii_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Icium",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f2/Icium_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Icium_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Inferno Sac",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5d/Inferno_sac_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Inferno_sac_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Iron Ore",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/96/Iron_ore_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Iron_ore_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Jin Dahaad Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d5/Jin_dahaad_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Jin_dahaad_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Jin Dahaad Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c3/Jin_dahaad_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Jin_dahaad_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Jin Dahaad Claw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4d/Jin_dahaad_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Jin_dahaad_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Jin Dahaad Horn",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0b/Jin_dahaad_horn_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Jin_dahaad_horn_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Jin Dahaad Icegem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/78/Jin_dahaad_icegem_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Jin_dahaad_icegem_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Jin Dahaad Certificate Gamma",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/82/Jin_dahaad_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Jin_dahaad_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Gogmazios Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/6/61/Gogmazios_certificate_smonster_hunter_wilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gogmazios Rampart",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/e/ec/Gogmazios_rampartmonster_hunter_wilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gogmazios Fiberwing",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/5b/Gogmazios_fiberwingmonster_hunter_wilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Heavy Drakesbone Oil",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/98/Heavy_drakestone_oilmonster_hunter_wilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gogmazios Fortalice",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/4/4d/Gogmazios_fortalicemonster_hunter_wilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gogmazios Shredders",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/8/8a/Gogmazios_shreddersmonster_hunter_wilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gogmazios Lacerator",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/8/8a/Gogmazios_shreddersmonster_hunter_wilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gogmazios Thorntail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/5a/Gogmazios_thorntailmonster_hunter_wilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wartorn Dragongem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/7/77/Wartorn_dragongemmonster_hunter_wilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Jin Dahaad Iceplate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4a/Jin_dahaad_iceplate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Jin_dahaad_iceplate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Jin Dahaad Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6f/Jin_dahaad_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Jin_dahaad_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Jin Dahaad Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e8/Jin_dahaad_tail_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Jin_dahaad_tail_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Kranodath Skull Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7a/Kranodath_skull_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Kranodath_skull_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Kranodath Skull",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/58/Kranodath_skull_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Kranodath_skull_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Kut-Ku Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/02/Kut-ku_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Kut-ku_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Kut-Ku Ear",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/ba/Kut-ku_ear_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Kut-ku_ear_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Kut-Ku Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/29/Kut-ku_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Kut-ku_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Kut-Ku Wing",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/10/Kut-ku_wing_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Kut-ku_wing_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lagiacrus Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/60/Legiacrus_certificate_s_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Legiacrus_certificate_s_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Lagiacrus Claw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/01/Lagiacrus_claw_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Lagiacrus_claw_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Lagiacrus Hide Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/52/Lagiacrus_hide_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Lagiacrus_hide_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Lagiacrus Horn Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1a/Lagiacrus_horn_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Lagiacrus_horn_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Lagiacrus Sapphire",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c3/Lagiacrus_sapphire_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Lagiacrus_sapphire_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Lagiacrus Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0f/Lagiacrus_scale_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Lagiacrus_scale_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Lagiacrus Shockspike",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/92/Lagiacrus_shockspike_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Lagiacrus_shockspike_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Lagiacrus Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5a/Lagiacrus_tail_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Lagiacrus_tail_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Lala Barina Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/58/Lala_barina_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lala Barina Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/ff/Lala_barina_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lala Barina Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d6/Lala_barina_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lala Barina Claw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/48/Lala_barina_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lala Barina Claw",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f5/Lala_barina_claw_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_claw_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lala Barina Floret Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/91/Lala_barina_floret_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_floret_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lala Barina Floret",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fe/Lala_barina_floret_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_floret_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lala Barina Mucus Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/84/Lala_barina_mucus_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_mucus_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lala Barina Mucus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/07/Lala_barina_mucus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_mucus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lala Barina Shell",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fc/Lala_barina_shell_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_shell_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lala Barina Stinger Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f9/Lala_barina_stinger_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_stinger_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lala Barina Stinger",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0b/Lala_barina_stinger_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_stinger_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lightcrystal",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/62/Lightcrystal_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lightcrystal_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Lumenhymn Catalog",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6d/Lumenhymn_catalog_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Lumenhymn_catalog_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Lumenhymn Ticket",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/08/Lumenhymn_ticket_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Lumenhymn_ticket_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Machalite Ore",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5a/Machalite_ore_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Machalite_ore_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Mimiphyta Ticket",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0f/Arkveld_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Arkveld_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Monster Broth",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a8/Monster_broth_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Monster_broth_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Monster Fluid",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cc/Monster_fluid_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Monster_fluid_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Monster Hardbone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/86/Monster_hardbone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Monster_hardbone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Monster Keenbone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d2/Monster_keenbone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Monster_keenbone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Mystery Bone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/96/Mystery_bone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Mystery_bone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nerscylla Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/94/Nerscylla_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nerscylla_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nerscylla Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/bd/Nerscylla_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nerscylla_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nerscylla Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/99/Nerscylla_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nerscylla_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nerscylla Chelicera",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/03/Nerscylla_chelicera_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nerscylla_chelicera_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nerscylla Claw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/17/Nerscylla_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nerscylla_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nerscylla Claw",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/18/Nerscylla_claw_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nerscylla_claw_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nerscylla Shear",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a7/Nerscylla_shear_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nerscylla_shear_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nerscylla Shell",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/25/Nerscylla_shell_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nerscylla_shell_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nerscylla Spike Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5a/Nerscylla_spike_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nerscylla_spike_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nerscylla Spike",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/80/Nerscylla_spike_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nerscylla_spike_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Novacrystal",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/de/Novacrystal_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Novacrystal_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nu Udra Cerebrospinal Fluid",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/63/Nu_udra_cerebrospinal_fluid_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_cerebrospinal_fluid_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nu Udra Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6a/Nu_udra_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nu Udra Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/88/Nu_udra_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nu Udra Certificate Gamma",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/99/Nu_udra_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Nu_udra_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Nu Udra Flamegem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5d/Nu_udra_flamegem_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_flamegem_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nu Udra Hide Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4e/Nu_udra_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nu Udra Hide",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cf/Nu_udra_hide_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_hide_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nu Udra Horn Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/57/Nu_udra_horn_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_horn_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nu Udra Horn",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/32/Nu_udra_horn_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_horn_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nu Udra Oilmucus Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f8/Nu_udra_oilmucus_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_oilmucus_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nu Udra Oilmucus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/33/Nu_udra_oilmucus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_oilmucus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nu Udra Spike Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5c/Nu_udra_spike_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_spike_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nu Udra Spike",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/40/Nu_udra_spike_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_spike_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nu Udra Tentacle Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3d/Nu_udra_tentacle_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_tentacle_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Nu Udra Tentacle",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/81/Nu_udra_tentacle_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_tentacle_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Oricalcite",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0c/Oricalcite_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Oricalcite_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Pinnacle Coin",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b7/Pinnacle_coin_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Pinnacle_coin_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Rathian Coin",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c6/Rathian_coin_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Rathian_coin_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Chata Coin",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/59/Chata_coin_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Chata_coin_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Piragill Fin Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/03/Piragill_fin_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Piragill_fin_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Piragill Fin",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6c/Piragill_fin_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Piragill_fin_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Poison Sac",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/49/Poison_sac_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Poison_sac_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Quality Bone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2e/Quality_bone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quality_bone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Quematrice Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/48/Quematrice_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Quematrice Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/71/Quematrice_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Quematrice Crest Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3d/Quematrice_crest_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_crest_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Quematrice Crest",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5d/Quematrice_crest_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_crest_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Quematrice Hide Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/05/Quematrice_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Quematrice Hide",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f9/Quematrice_hide_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_hide_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Quematrice Igniter Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c4/Quematrice_igniter_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_igniter_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Quematrice Igniter",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9b/Quematrice_igniter_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_igniter_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Quematrice Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/65/Quematrice_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Quematrice Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7e/Quematrice_scale_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_scale_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Quematrice Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/48/Quematrice_tail_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_tail_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rathalos Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a4/Rathalos_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathalos_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rathalos Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/60/Rathalos_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathalos_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rathalos Ruby",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/df/Rathalos_ruby_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathalos_ruby_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rathalos Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/94/Rathalos_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathalos_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rathalos Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8d/Rathalos_tail_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathalos_tail_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rathalos Wing",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/78/Rathalos_wing_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathalos_wing_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rathian Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cb/Rathian_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathian_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rathian Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/ba/Rathian_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathian_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rathian Ruby",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/be/Rathian_ruby_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathian_ruby_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rathian Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b6/Rathian_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathian_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rathian Spike Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1f/Rathian_spike_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathian_spike_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rathian Webbing",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f5/Rathian_webbing_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathian_webbing_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rath Medulla",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/86/Rath_medulla_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rath_medulla_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rey Dau Boltgem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/92/Rey_dau_boltgem_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_boltgem_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rey Dau Bolthorn",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/21/Rey_dau_bolthorn_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_bolthorn_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rey Dau Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9e/Rey_dau_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rey Dau Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/55/Rey_dau_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rey Dau Certificate Gamma",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b4/Rey_dau_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Rey_dau_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Rey Dau Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/bc/Rey_dau_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rey Dau Fulgurtalon",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a1/Rey_dau_fulgurtalon_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_fulgurtalon_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rey Dau Plate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/62/Rey_dau_plate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_plate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rey Dau Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5a/Rey_dau_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rey Dau Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/93/Rey_dau_scale_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_scale_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rey Dau Shell",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3f/Rey_dau_shell_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_shell_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rey Dau Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2a/Rey_dau_tail_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_tail_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rey Dau Thunderhorn",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/78/Rey_dau_thunderhorn_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_thunderhorn_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rompopolo Beak Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3c/Rompopolo_beak_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rompopolo_beak_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rompopolo Beak",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/be/Rompopolo_beak_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rompopolo_beak_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rompopolo Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/41/Rompopolo_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rompopolo_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rompopolo Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d8/Rompopolo_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rompopolo_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rompopolo Claw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ca/Rompopolo_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rompopolo_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rompopolo Claw",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/44/Rompopolo_claw_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rompopolo_claw_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rompopolo Hide Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/98/Rompopolo_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rompopolo_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rompopolo Hide",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/92/Rompopolo_hide_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rompopolo_hide_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rubbery Hide Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/20/Rubbery_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rubbery_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rubbery Hide",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a2/Rubbery_hide_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rubbery_hide_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Scarred Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3a/Scarred_scale_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Scarred_scale_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Seregios Airblade",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/93/Rey_dau_scale_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_scale_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Seregios Breacher",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/21/Rey_dau_bolthorn_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_bolthorn_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Seregios Carver",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/21/Rey_dau_bolthorn_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_bolthorn_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Seregios Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/55/Rey_dau_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Seregios Dissenter",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ee/Seregios_dissenter_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Seregios_dissenter_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Seregios Impaler",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2a/Rey_dau_tail_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_tail_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Seregios Scraper",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/21/Rey_dau_bolthorn_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_bolthorn_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Seregios Slavescale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/93/Rey_dau_scale_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_scale_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "SF6 Ticket",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6a/Sf6_ticket_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Sf6_ticket_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Sharp Fang",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/04/Sharp_fang_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Sharp_fang_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Sild Cotton",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/55/Sild_cotton_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Sild_cotton_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Sinister Cloth",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/14/Sinister_cloth_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Sinister_cloth_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Skull Ticket",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2f/Skull_ticket-icon-materials-mhwilds-wiki-guide-85px.png/20px-Skull_ticket-icon-materials-mhwilds-wiki-guide-85px.png"
+ },
+ {
+  "name": "Speartuna Fin",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/14/Sinister_cloth_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Sinister_cloth_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Specklite",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9e/Specklite_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Specklite_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Spotted Poison Hide Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/13/Spotted_poison_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Spotted_poison_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Spotted Poison Hide",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/31/Spotted_poison_hide_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Spotted_poison_hide_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Steel Melding Ticket",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/71/Steel_melding_ticket_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Steel_melding_ticket_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Stoutbone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/42/Stoutbone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Stoutbone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Sturdy Bone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d6/Sturdy_bone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Sturdy_bone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Suja Textiles",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4b/Suja_textiles_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Suja_textiles_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Songbird Sketch",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e5/Songbird_sketch-monster-hunter-wilds-wiki-guide-85px.png/20px-Songbird_sketch-monster-hunter-wilds-wiki-guide-85px.png"
+ },
+ {
+  "name": "Talioth Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ca/Talioth_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Talioth_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Talioth Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c5/Talioth_scale_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Talioth_scale_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Thunder Sac",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8c/Thunder_sac_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Thunder_sac_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Torrent Sac",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/32/Torrent_sac_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Torrent_sac_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Tough Guardian Bone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c6/Tough_guardian_bone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Tough_guardian_bone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Toxin Sac",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f1/Toxin_sac_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Toxin_sac_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Uth Duna Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/36/Uth_duna_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Uth Duna Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f2/Uth_duna_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Uth Duna Cilia Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c2/Uth_duna_cilia_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_cilia_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Uth Duna Cilia",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5f/Uth_duna_cilia_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_cilia_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Uth Duna Claw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e5/Uth_duna_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Uth Duna Claw",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2c/Uth_duna_claw_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_claw_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Uth Duna Hide Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/35/Uth_duna_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Uth Duna Hide",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/93/Uth_duna_hide_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_hide_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Uth Duna Plate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/14/Uth_duna_plate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_plate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Uth Duna Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ce/Uth_duna_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Uth Duna Scale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9a/Uth_duna_scale_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_scale_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Uth Duna Tentacle Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/13/Uth_duna_tentacle_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_tentacle_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Uth Duna Tentacle",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3a/Uth_duna_tentacle_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_tentacle_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Uth Duna Watergem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/32/Uth_duna_watergem_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_watergem_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Vespoid Carapace",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e7/Vespoid_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Vespoid_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Vespoid Innerwing",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4f/Vespoid_innerwing_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Vespoid_innerwing_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Vespoid Shell",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/26/Vespoid_shell_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Vespoid_shell_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Vespoid Wing",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0d/Vespoid_wing_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Vespoid_wing_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Vibrant Pelt Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1c/Vibrant_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Vibrant_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Vibrant Pelt",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/bd/Vibrant_pelt_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Vibrant_pelt_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Well-done Steak Recipe Book",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2c/Well-done_steak_recipe_book_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Well-done_steak_recipe_book_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "White Arkveld Pelt",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/78/White_arkveld_pelt_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-White_arkveld_pelt_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wingdrake Hide Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b0/Wingdrake_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Wingdrake_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wingdrake Hide",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9c/Wingdrake_hide_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Wingdrake_hide_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Worn Pickaxe",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/11/Worn_pickaxe_item_equipment_material_mhwilds_wiki_guide_85px.png/25px-Worn_pickaxe_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Wyverian Bloodstone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/47/Wyverian_bloodstone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Wyverian_bloodstone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wyverian Bloodstone Chunk",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f1/Wyverian_bloodstone_chunk_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Wyverian_bloodstone_chunk_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wyverian Bloodstone (L)",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/10/Wyverian_bloodstone_l_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Wyverian_bloodstone_l_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wyverian Bloodstone (S)",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/50/Wyverian_bloodstone_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Wyverian_bloodstone_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wyverian Bloodstone Shard",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/eb/Wyverian_bloodstone_shard_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Wyverian_bloodstone_shard_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Wyvern Gem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cf/Wyvern_gem_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Wyvern_gem_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Xu Wu Cerebrospinal Fluid",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/95/Xu_wu_cerebrospinal_fluid_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_cerebrospinal_fluid_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Xu Wu Certificate",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/10/Xu_wu_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Xu Wu Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/56/Xu_wu_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Xu Wu Claw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3f/Xu_wu_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Xu Wu Claw",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e6/Xu_wu_claw_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_claw_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Xu Wu Fang Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7a/Xu_wu_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Xu Wu Fang",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d3/Xu_wu_fang_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_fang_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Xu Wu Hide Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c1/Xu_wu_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Xu Wu Hide",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6f/Xu_wu_hide_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_hide_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Xu Wu Tentacle Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/26/Xu_wu_tentacle_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_tentacle_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Xu Wu Umbragem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2c/Xu_wu_umbragem_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_umbragem_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Yian Kut-Ku Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c9/Yian_kut-ku_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Yian_kut-ku_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Ajarakan Medulla",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e9/Ajarakan_medulla_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_medulla_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Brute Bone",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/67/Brute_bone_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Brute_bone_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Conga Pelt",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e2/Conga_pelt_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Conga_pelt_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Flame Sac",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b2/Flame_sac_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Flame_sac_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gore Magala Feeler Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b6/Gore_magala_feeler_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gore_magala_feeler_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Gore Magala Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d3/Gore_magala_tail_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gore_magala_tail_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Doshaguma Fang Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d0/Guardian_doshaguma_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_doshaguma_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Fulgur Gem",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9e/Guardian_fulgur_gem_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_fulgur_gem_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Guardian Rathalos Ruby",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/bc/Guardian_rathalos_ruby_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_rathalos_ruby_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Rey Dau Wingtalon",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b8/Rey_dau_wingtalon_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_wingtalon_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Sleep Sac",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b5/Sleep_sac_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Sleep_sac_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Xu Wu Tentacle",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4c/Xu_wu_tentacle_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_tentacle_item_equipment_material_mhwilds_wiki_guide_25px.png"
+ },
+ {
+  "name": "Mizutsune Fin Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/73/Piragill_fin_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Piragill_fin_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Mizutsune Claw Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/95/Mizutsune_claw_s_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Mizutsune_claw_s_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Mizutsune Purplefur Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1c/Mizutsune_purplefur_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Mizutsune_purplefur_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Mizutsune Tail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/95/Mizutsune_tail_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Mizutsune_tail_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Mizutsune Scale Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/47/Mizutsune_scale_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Mizutsune_scale_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Bubblefoam Plus",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/82/Bubblefoam_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Bubblefoam_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Mizutsune Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1f/Mizutsune_certificate_s_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Mizutsune_certificate_s_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Mizutsune Water Orb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/80/Mizutsune_water_orb_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Mizutsune_water_orb_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Zoh Shia Stakeclaw",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/82/Zoh_shia_stakeclaw_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Zoh_shia_stakeclaw_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Blackember Mass",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6e/Blackember_mass_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Blackember_mass_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Zoh Shia Crystalhorn",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9b/Zoh_shia_crystalhorn_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Zoh_shia_crystalhorn_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Zoh Shia Crystaltail",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a6/Zoh_shia_crystaltail_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Zoh_shia_crystaltail_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Zoh Shia Crystalscale",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a2/Zoh_shia_crystalscale_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Zoh_shia_crystalscale_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Zoh Shia Layershell",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a4/Zoh_shia_layershell_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Zoh_shia_layershell_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Zoh Shia Certificate S",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d0/Zoh_shia_certificate_s_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Zoh_shia_certificate_s_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ },
+ {
+  "name": "Faux Whitegleam Orb",
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/35/Faux_whitegleam_orb_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Faux_whitegleam_orb_item_equipment_material_mhwilds_wiki_guide_85px.png"
+ }
+]

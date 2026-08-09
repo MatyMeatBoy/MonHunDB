@@ -2,5 +2,6 @@
   "$schema": "https://opencode.ai/config.json",
   "permission": {
     "edit": "allow"
-  }
+  },
+  "plugin": ["@0xsero/open-queue"]
 }

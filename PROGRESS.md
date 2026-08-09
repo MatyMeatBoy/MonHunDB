@@ -2,6 +2,25 @@
 
 Última actualización: 2026-08-09
 
+## Feature: Estructura multi-página por juego (2026-08-09)
+
+A pedido del usuario (la app "funcionaba como demasiado app" y generaba bugs), se dejó el SPA con router por hash y se pasó a **páginas HTML reales, una por juego y una por sección**, con links normales (no pushState, no vistas ocultas conmutadas por JS).
+
+**Estructura nueva**:
+- `index.html` (raíz) = **hub** de juegos: brand + card por juego, link simple a `rise/`. CSS propio en `hub.css`. No carga datos del juego.
+- `rise/` = carpeta autocontenida por juego (referencia para copiar al crear Wilds):
+  - `index.html` — home del bestiario (novedades + combobox)
+  - `monster` — ficha de monstruo vía `?m=Nombre[&rank=Rank]` (sin extensión: `serve` con cleanUrls redirige `.html` y **pierde el query string**, por eso todas las URLs internas son sin extensión)
+  - `decorations` (`?d=`), `weapons` (`?w=`), `armor` (`?set=`/`?piece=`), `materials` (`?mat=`), `skills` (`?skill=`)
+  - `app.js` — boot por `data-page` del `<body>`: cada página inicializa solo su sección; `bootPage()` lee los query params y renderiza lista o detalle
+  - `style.css`, `data/` (todos los JSON + scripts de scraping de Rise), `favicon` compartido en raíz
+- **Navegación**: combobox → `monster?m=X`; buscador global y links cruzados (materiales, equipo relacionado, skills, sources) → URLs de la sección correspondiente. Botón "volver" en toolbar → `index.html`; en detalles → la lista de la sección.
+- **Idioma**: toggle hace `localStorage` + `location.reload()` (se eliminó todo el re-render manual por vista — la clase de bugs que documentaba HANDOFF_GUIDE).
+- **Eliminado**: router hash (`#/rise`), showHub/enterRise/showRiseChrome, popstate handler, pushState en todos los showX, los 5 `hideXView`, y la exclusión mutua entre vistas (cada página tiene una sola vista).
+- **Fix buscador de monstruos pequeños**: ya funcionaba por nombre (34/34 verificados), pero los encabezados "Grandes/Pequeños" quedaban visibles vacíos al filtrar, y **Enter no seleccionaba nada**. Ahora los encabezados se ocultan cuando su sección no tiene resultados (`data-section` en `filterOptions`) y Enter selecciona la primera opción visible (`selectFirstVisibleOption()`).
+- **Verificado en navegador**: hub → rise, ficha de monstruo (render, hitzones, materiales, equipo relacionado), deep links de las 5 secciones con detalle y vuelta, buscador global, ES/EN con reload conservando el deep link, brand → hub. Los datos de todos los JSON pasaron a `data/` relativo (manifiestos con rutas completas incluidas).
+- **Ojo para el futuro**: los scrapers siguen viviendo en `rise/data/` (usan `__dirname`, intactos). `python rise/data/trace_silhouette.py ...` para siluetas. Al agregar Wilds: copiar `rise/` → `wilds/`, reemplazar datos y `data-page`/links.
+
 ## Feature: Cadena de armas limpia (solo la rama normal) + traducción de tipos (2026-08-09)
 
 - **Cadena de mejoras**: antes mostraba TODO el subárbol (raíz + todos los descendientes), lo que incluía ramas hermanas a las que no se puede convertir (cross-links/desbloqueos de otra familia). `getWeaponChain()` ahora devuelve solo la **rama normal** del arma (ancestros + descendientes que comparten familia por tokens), descartando las ramas hermanas. Verificado: "Great Pincer" muestra solo Red Pincer→Great Pincer (antes mostraba toda la línea de hueso); "Wyvern Gnasher+" muestra su rama Wyvern limpia.
