@@ -1758,11 +1758,14 @@ function hideArmorView() {
 function renderArmorIndex(query) {
   const q = normalizeSearch((query || "").trim());
   const setMatches = !q ? armorSets : armorSets.filter(s => normalizeSearch(s.name).includes(q));
+  const implied = buildImpliedArmorGroups().filter(g => !q || normalizeSearch(g.prefix).includes(q));
   const usedIds = getArmorSetPieceIds();
+  // also exclude implied group pieces from loose
+  for (const g of implied) for (const p of g.pieces) usedIds.add(p.id);
   const looseMatches = armorPieces.filter(p => !usedIds.has(p.id) && (!q ||
     normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q)));
 
-  if (!setMatches.length && !looseMatches.length) {
+  if (!setMatches.length && !implied.length && !looseMatches.length) {
     armorIndexEl.innerHTML = `<p class="no-data">${ui("armorNoResults")}</p>`;
     return;
   }
@@ -1775,6 +1778,19 @@ function renderArmorIndex(query) {
           <button type="button" class="decoration-card armor-set-card" data-set="${s.name}">
             <img class="armor-set-thumb" src="${s.localImage || s.image}" alt="" loading="lazy">
             <span class="decoration-card-name">${s.name}</span>
+          </button>
+        `).join("")}
+      </div>
+    </div>`;
+  }
+  if (implied.length) {
+    html += `<div class="decorations-slot-group">
+      ${!setMatches.length ? '' : `<h3 class="decorations-slot-heading">${ui("armorImpliedGroups") || "Otros sets"}</h3>`}
+      <div class="decorations-grid">
+        ${implied.map(g => `
+          <button type="button" class="decoration-card armor-set-card" data-implied="${g.prefix}">
+            ${armorIconTag(g.pieces[0])}
+            <span class="decoration-card-name">${g.prefix}</span>
           </button>
         `).join("")}
       </div>
@@ -1798,6 +1814,9 @@ function renderArmorIndex(query) {
 
   armorIndexEl.querySelectorAll("[data-set]").forEach(btn => {
     btn.addEventListener("click", () => showArmorSetDetail(btn.dataset.set));
+  });
+  armorIndexEl.querySelectorAll("[data-implied]").forEach(btn => {
+    btn.addEventListener("click", () => showArmorSetDetail(btn.dataset.implied));
   });
   armorIndexEl.querySelectorAll("[data-piece]").forEach(btn => {
     btn.addEventListener("click", () => showArmorPieceDetail(btn.dataset.piece));
@@ -1883,6 +1902,7 @@ function showArmorPieceDetail(id) {
       ${p.part ? `<span class="decoration-detail-slot">${trArmorPart(p.part)}</span>` : ""}
     </div>
     ${p.defense ? `<p class="gs-material-intro">${ui("armorDefense")}: ${p.defense}</p>` : ""}
+    ${p.decoSlots && p.decoSlots.length ? `<p class="gs-material-intro">${ui("weaponsDecoSlots")} ${decoSlotsTag(p.decoSlots)}</p>` : ""}
     <section class="block">
       <h3>${ui("armorSkillsHeading")}</h3>
       ${armorPieceSkillsHtml(p) || `<p class="no-data">${ui("noData")}</p>`}
