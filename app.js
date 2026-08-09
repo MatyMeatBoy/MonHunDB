@@ -732,6 +732,10 @@ const ARMOR_SET_IMG_OVERRIDES = {
   "Utsushi Set": "utsushi-visible", "Utsushi True Set": "utsushi-true-visible", "Utsushi True (Hidden) Set": "utsushi-true-hidden", "Utsushi True (Visible) Set": "utsushi-true-visible", "Utsushi (Hidden) Set": "utsushi-hidden", "Utsushi (Visible) Set": "utsushi-visible",
   "S. Studded Set": "", "S. Studded S Set": "", "S. Studded X Set": "",
 };
+function armorSetDisplayName(prefix) {
+  const map = { "S. Studded": "Shell Studded", "Squire's": "Knight Squire", "Scholar's": "Scholar", "Golm": "Garangolm" };
+  return (map[prefix] || prefix) + " Set";
+}
 function armorSetImg(name) {
   const override = ARMOR_SET_IMG_OVERRIDES[name];
   if (override) return `data/images/armor_sets/${override}.png`;
@@ -828,7 +832,7 @@ function buildMonsterEquipmentIndex() {
       // group's own piece list with no set image
       const pieceIds = new Set(group.pieces.map(p => p.id));
       const matchedSet = armorSets.find(s => s.pieces.filter(ref => pieceIds.has(ref.id)).length >= 3);
-      add(topMonster, "armorGroups", matchedSet ? { name: matchedSet.name, image: matchedSet.localImage || matchedSet.image, isRealSet: true } : { name: group.prefix + " Set", image: armorSetImg(group.prefix + " Set"), pieces: group.pieces, isRealSet: false });
+      add(topMonster, "armorGroups", matchedSet ? { name: matchedSet.name, image: matchedSet.localImage || matchedSet.image, isRealSet: true } : { name: armorSetDisplayName(group.prefix), image: armorSetImg(armorSetDisplayName(group.prefix)), pieces: group.pieces, isRealSet: false });
     }
   }
 
@@ -1855,7 +1859,7 @@ function renderArmorIndex(query) {
   const explicitNames = new Set(setMatches.map(s => s.name));
   const allSets = [
     ...setMatches.map(s => ({ name: s.name, image: s.localImage || s.image, rank: setRank(s.pieces.map(r => armorPieces.find(x => x.id === r.id)).filter(Boolean)), isSet: true })),
-    ...implied.filter(g => !explicitNames.has(g.prefix + " Set")).map(g => ({ name: g.prefix + " Set", image: armorSetImg(g.prefix + " Set"), rank: setRank(g.pieces), isImplied: true })),
+    ...implied.filter(g => !explicitNames.has(armorSetDisplayName(g.prefix))).map(g => ({ name: armorSetDisplayName(g.prefix), image: armorSetImg(armorSetDisplayName(g.prefix)), rank: setRank(g.pieces), isImplied: true })),
   ];
 
   if (!allSets.length && !looseMatches.length) {
@@ -1917,7 +1921,9 @@ function showArmorSetDetail(setName) {
   let impliedGroup = null;
   if (!set) {
     // implied groups are stored by prefix (e.g. "Tempest") but called with name "Tempest Set"
-    const prefix = setName.replace(/\s+Set$/, "");
+    let prefix = setName.replace(/\s+Set$/, "");
+    const reverse = { "Shell Studded": "S. Studded", "Knight Squire": "Squire's", "Scholar": "Scholar's", "Garangolm": "Golm" };
+    if (reverse[prefix]) prefix = reverse[prefix];
     impliedGroup = buildImpliedArmorGroups().find(g => g.prefix === prefix);
   }
 
@@ -1945,7 +1951,7 @@ function showArmorSetDetail(setName) {
     `;
   }).join("<hr class='armor-piece-divider'>");
 
-  const displayName = set ? set.name : (impliedGroup.prefix + " Set");
+  const displayName = set ? set.name : armorSetDisplayName(impliedGroup.prefix);
   armorSetDetailEl.innerHTML = `
     <button type="button" class="decorations-back" id="armor-detail-back">${ui("armorBack")}</button>
     <div class="armor-set-detail-header">
