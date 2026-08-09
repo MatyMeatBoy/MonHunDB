@@ -679,13 +679,16 @@ function buildSkillGrantIndex() {
 // reconstructs ALL sets straight from the pieces themselves, image or not
 function coreArmorNameForGrouping(name) {
   let n = name;
+  // rank suffixes after the piece name: strip S (High Rank), keep X/SP as set modifier
+  n = n.replace(/\s+S$/i, "");
+  // "Rathalos Helm X" -> "Rathalos X Helm" so X becomes part of the set prefix
+  n = n.replace(/^(.+)\s+(\S+)\s+(X|SP)$/, "$1 $3 $2");
   let changed = true;
   while (changed) {
     changed = false;
     const stripped = n
       .replace(/\s*-\s*[A-Za-z]+$/, "")
-      .replace(/\s*\([^)]*\)\s*$/, "")
-      .replace(/\s+(S|X|SP)$/i, "");
+      .replace(/\s*\([^)]*\)\s*$/, "");
     if (stripped !== n) { n = stripped; changed = true; }
   }
   return n.trim();
@@ -1482,6 +1485,7 @@ function showWeaponsView() {  detailEl.hidden = true;
   weaponDetailEl.hidden = true;
   weaponsIndexEl.hidden = false;
   weaponsSearchEl.value = "";
+  window.scrollTo(0, 0);
   renderWeaponsIndex("");
   const url = new URL(location.href);
   url.searchParams.set("view", "weapons");
@@ -1736,6 +1740,7 @@ function showArmorView() {
   armorSetDetailEl.hidden = true;
   armorIndexEl.hidden = false;
   armorSearchEl.value = "";
+  window.scrollTo(0, 0);
   renderArmorIndex("");
   const url = new URL(location.href);
   url.searchParams.set("view", "armor");
