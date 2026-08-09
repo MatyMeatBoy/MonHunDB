@@ -707,7 +707,7 @@ function armorSetPrefix(name) {
   }
   n = n.replace(/^Pukei-Pukei(?! X)/, "Pukei");
   if (suffix === " X") n = n.replace(/^Pukei$/, "Pukei-Pukei");
-  n = n.replace(/^Kadachi/, "Tobi-Kadachi").replace(/^Lecturer's$/, "Lecturer");
+  n = n.replace(/^Kadachi/, "Tobi-Kadachi").replace(/^Lecturer's$/, "Lecturer").replace(/^Holy Ire/, "Divine Ire");
   return (n.trim() + suffix).trim();
 }
 
@@ -751,6 +751,7 @@ const ARMOR_SET_IMG_OVERRIDES = {
   "Rakna Set": "rakna-kadaki", "Rakna X Set": "rakna-kadaki-x", "Rakna-Kadaki X Set": "rakna-kadaki-x",
   "Utsushi Set": "utsushi-visible", "Utsushi True Set": "utsushi-true-visible", "Utsushi True (Hidden) Set": "utsushi-true-hidden", "Utsushi True (Visible) Set": "utsushi-true-visible", "Utsushi (Hidden) Set": "utsushi-hidden", "Utsushi (Visible) Set": "utsushi-visible",
   "S. Studded Set": "", "S. Studded S Set": "", "S. Studded X Set": "",
+  "Tobi-Kadachi Set": "tobi-kadachi-x", "Tobi-Kadachi S Set": "tobi-kadachi-x", "Tobi-Kadachi X Set": "tobi-kadachi-x",
 };
 const ARMOR_SET_DISPLAY_MAP = { "S. Studded": "Shell Studded", "Squire's": "Knight Squire", "Scholar's": "Scholar", "Golm": "Garangolm", "Rakna": "Rakna-Kadaki", "Artillery Corps": "Royal Artillery Corps", "Chaotic": "Chaotic Gore Magala", "Gore": "Gore Magala", "Hoplite's": "Heavy Knight", "Professor's": "Professor", "Regios": "Seregios", "Outpost HQ": "Base Commander", "Ibushi's": "Ibushi", "Ibushi's Pure": "Ibushi - Pure", "Narwa's": "Narwa", "Narwa's Pure": "Narwa - Pure", "Lecturer": "Lecture", "Lecturer's": "Lecture", "Divine Ire": "Grand Divine Ire" };
 function armorSetDisplayName(prefix) {
