@@ -12,5 +12,8 @@ data/weapon_tree_raw_fandom/
 # Playwright MCP browser session output (snapshots/console logs)
 .playwright-mcp/
 
+# Weapon icon fallback scraper cache (resumable, not served)
+data/weapon_icon_fallback_cache/
+
 # scratch screenshots
 weapon_tree_kamura.png
