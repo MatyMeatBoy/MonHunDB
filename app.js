@@ -732,9 +732,13 @@ const ARMOR_SET_IMG_OVERRIDES = {
   "Utsushi Set": "utsushi-visible", "Utsushi True Set": "utsushi-true-visible", "Utsushi True (Hidden) Set": "utsushi-true-hidden", "Utsushi True (Visible) Set": "utsushi-true-visible", "Utsushi (Hidden) Set": "utsushi-hidden", "Utsushi (Visible) Set": "utsushi-visible",
   "S. Studded Set": "", "S. Studded S Set": "", "S. Studded X Set": "",
 };
+const ARMOR_SET_DISPLAY_MAP = { "S. Studded": "Shell Studded", "Squire's": "Knight Squire", "Scholar's": "Scholar", "Golm": "Garangolm", "Rakna": "Rakna-Kadaki" };
 function armorSetDisplayName(prefix) {
-  const map = { "S. Studded": "Shell Studded", "Squire's": "Knight Squire", "Scholar's": "Scholar", "Golm": "Garangolm" };
-  return (map[prefix] || prefix) + " Set";
+  // split optional rank suffix (S/X) so it maps + reapplies for ALL variants
+  const m = prefix.match(/^(.*?)\s+(S|X)$/);
+  const base = m ? m[1] : prefix;
+  const rank = m ? " " + m[2] : "";
+  return (ARMOR_SET_DISPLAY_MAP[base] || base) + rank + " Set";
 }
 function armorSetImg(name) {
   const override = ARMOR_SET_IMG_OVERRIDES[name];
@@ -1922,8 +1926,11 @@ function showArmorSetDetail(setName) {
   if (!set) {
     // implied groups are stored by prefix (e.g. "Tempest") but called with name "Tempest Set"
     let prefix = setName.replace(/\s+Set$/, "");
-    const reverse = { "Shell Studded": "S. Studded", "Knight Squire": "Squire's", "Scholar": "Scholar's", "Garangolm": "Golm" };
-    if (reverse[prefix]) prefix = reverse[prefix];
+    const m = prefix.match(/^(.*?)\s+(S|X)$/);
+    const base = m ? m[1] : prefix;
+    const rank = m ? " " + m[2] : "";
+    const reverse = { "Shell Studded": "S. Studded", "Knight Squire": "Squire's", "Scholar": "Scholar's", "Garangolm": "Golm", "Rakna-Kadaki": "Rakna" };
+    if (reverse[base]) prefix = reverse[base] + rank;
     impliedGroup = buildImpliedArmorGroups().find(g => g.prefix === prefix);
   }
 
