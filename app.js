@@ -511,7 +511,7 @@ function selectMonster(name, opts = {}) {
     if (!opts.skipUrl) {
       const url = new URL(location.href);
       url.searchParams.set("m", name);
-      history.replaceState(null, "", url);
+      history.pushState(null, "", url);
     }
   }
   closePanel();
@@ -539,7 +539,7 @@ function showHome() {
   url.searchParams.delete("m");
   url.searchParams.delete("view");
   url.searchParams.delete("d");
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function openPanel() {
@@ -1101,7 +1101,7 @@ function decorationIconTag(dec) {
 function showDecorationsView() {
   detailEl.hidden = true;
   homeViewEl.hidden = true;
-  comboboxEl.hidden = true;
+  // combobox stays visible in all views
   weaponsViewEl.hidden = true;
   armorViewEl.hidden = true;
   materialsViewEl.hidden = true;
@@ -1114,7 +1114,7 @@ function showDecorationsView() {
   const url = new URL(location.href);
   url.searchParams.set("view", "decorations");
   url.searchParams.delete("m");
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function hideDecorationsView() {
@@ -1127,7 +1127,7 @@ function hideDecorationsView() {
   }
   const url = new URL(location.href);
   url.searchParams.delete("view");
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function renderDecorationsIndex(query) {
@@ -1261,7 +1261,7 @@ function showDecorationDetail(id) {
   const url = new URL(location.href);
   url.searchParams.set("view", "decorations");
   url.searchParams.set("d", id);
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function initDecorations() {
@@ -1475,7 +1475,7 @@ function escapeXml(s) { return String(s).replace(/[<>&'"]/g, c => ({ "<": "&lt;"
 
 function showWeaponsView() {  detailEl.hidden = true;
   homeViewEl.hidden = true;
-  comboboxEl.hidden = true;
+  // combobox stays visible in all views
   decorationsViewEl.hidden = true;
   armorViewEl.hidden = true;
   materialsViewEl.hidden = true;
@@ -1488,7 +1488,7 @@ function showWeaponsView() {  detailEl.hidden = true;
   const url = new URL(location.href);
   url.searchParams.set("view", "weapons");
   url.searchParams.delete("m");
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function hideWeaponsView() {
@@ -1498,7 +1498,7 @@ function hideWeaponsView() {
   else homeViewEl.hidden = false;
   const url = new URL(location.href);
   url.searchParams.delete("view");
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function renderWeaponsIndex(query) {
@@ -1647,7 +1647,7 @@ function showWeaponDetail(id) {
   const url = new URL(location.href);
   url.searchParams.set("view", "weapons");
   url.searchParams.set("w", id);
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function initWeapons() {
@@ -1729,7 +1729,7 @@ function armorPieceSkillsHtml(p) {
 function showArmorView() {
   detailEl.hidden = true;
   homeViewEl.hidden = true;
-  comboboxEl.hidden = true;
+  // combobox stays visible in all views
   decorationsViewEl.hidden = true;
   weaponsViewEl.hidden = true;
   materialsViewEl.hidden = true;
@@ -1742,7 +1742,7 @@ function showArmorView() {
   const url = new URL(location.href);
   url.searchParams.set("view", "armor");
   url.searchParams.delete("m");
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function hideArmorView() {
@@ -1752,7 +1752,7 @@ function hideArmorView() {
   else homeViewEl.hidden = false;
   const url = new URL(location.href);
   url.searchParams.delete("view");
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function renderArmorIndex(query) {
@@ -1867,7 +1867,7 @@ function showArmorSetDetail(setName) {
   const url = new URL(location.href);
   url.searchParams.set("view", "armor");
   url.searchParams.set("set", setName);
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function showArmorPieceDetail(id) {
@@ -1937,7 +1937,7 @@ function initArmor() {
 function showMaterialsView() {
   detailEl.hidden = true;
   homeViewEl.hidden = true;
-  comboboxEl.hidden = true;
+  // combobox stays visible in all views
   decorationsViewEl.hidden = true;
   weaponsViewEl.hidden = true;
   armorViewEl.hidden = true;
@@ -1950,7 +1950,7 @@ function showMaterialsView() {
   const url = new URL(location.href);
   url.searchParams.set("view", "materials");
   url.searchParams.delete("m");
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function hideMaterialsView() {
@@ -1960,7 +1960,7 @@ function hideMaterialsView() {
   else homeViewEl.hidden = false;
   const url = new URL(location.href);
   url.searchParams.delete("view");
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function renderMaterialsIndex(query) {
@@ -2041,7 +2041,7 @@ function showMaterialDetail(matKey) {
   const url = new URL(location.href);
   url.searchParams.set("view", "materials");
   url.searchParams.set("mat", matKey);
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function initMaterials() {
@@ -2057,7 +2057,42 @@ function initMaterials() {
   }
 }
 
-// ---------- Skills ----------
+// ---------- Navigation history (browser back/forward) ----------
+window.addEventListener("popstate", () => {
+  const url = new URL(location.href);
+  const view = url.searchParams.get("view");
+  const monster = url.searchParams.get("m");
+  const wId = url.searchParams.get("w");
+  const decId = url.searchParams.get("d");
+  const skillId = url.searchParams.get("skill");
+  const matKey = url.searchParams.get("mat");
+  const armorId = url.searchParams.get("a");
+
+  if (monster) { selectMonster(monster, { skipUrl: true }); return; }
+
+  if (view === "weapons") {
+    showWeaponsView();
+    if (wId && weaponsById.has(wId)) showWeaponDetail(wId);
+  } else if (view === "armor") {
+    showArmorView();
+    if (armorId) {
+      const p = armorPieces.find(x => x.id === armorId);
+      if (p) showArmorPieceDetail(armorId);
+    }
+  } else if (view === "decorations") {
+    showDecorationsView();
+    if (decId) showDecorationDetail(decId);
+  } else if (view === "materials") {
+    showMaterialsView();
+    if (matKey) showMaterialDetail(matKey);
+  } else if (view === "skills") {
+    showSkillsView();
+    if (skillId && skills.some(s => s.id === skillId)) showSkillDetail(skillId);
+  } else {
+    if (selectedMonster) { selectedMonster = null; detailEl.hidden = true; homeViewEl.hidden = false; }
+    else { showHome(); }
+  }
+});
 
 function trSkillName(s) {
   return lang === "es" && s.nameEs ? s.nameEs : s.name;
@@ -2087,7 +2122,7 @@ function skillIconTagByName(name) {
 function showSkillsView() {
   detailEl.hidden = true;
   homeViewEl.hidden = true;
-  comboboxEl.hidden = true;
+  // combobox stays visible in all views
   decorationsViewEl.hidden = true;
   weaponsViewEl.hidden = true;
   armorViewEl.hidden = true;
@@ -2100,7 +2135,7 @@ function showSkillsView() {
   const url = new URL(location.href);
   url.searchParams.set("view", "skills");
   url.searchParams.delete("m");
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function hideSkillsView() {
@@ -2110,7 +2145,7 @@ function hideSkillsView() {
   else homeViewEl.hidden = false;
   const url = new URL(location.href);
   url.searchParams.delete("view");
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function renderSkillsIndex(query) {
@@ -2226,7 +2261,7 @@ function showSkillDetail(idOrName) {
   const url = new URL(location.href);
   url.searchParams.set("view", "skills");
   url.searchParams.set("skill", s.id);
-  history.replaceState(null, "", url);
+  history.pushState(null, "", url);
 }
 
 function initSkills() {
