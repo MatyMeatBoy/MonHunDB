@@ -693,13 +693,44 @@ function coreArmorNameForGrouping(name) {
   return n.trim();
 }
 
+// Map implicit-set prefix (the `prefix` before "Set") to the actual image file
+// basename in data/images/armor_sets/. Covers special cases where the Fextralife
+// image name differs from the implicit prefix.
+const ARMOR_SET_IMG_OVERRIDES = {
+  "Silver Set": "silver-sol", "Silver S Set": "silver-sol", "Silver X Set": "silver-sol",
+  "Golden S Set": "golden", "Golden Set": "golden", "Golden Lune Set": "golden-lune-x", "Golden Lune X Set": "golden-lune-x",
+  "Ibushi S Set": "ibushi", "Ibushi X Set": "ibushi", "Ibushi Set": "ibushi", "Ibushi - Pure Set": "ibushi-pure",
+  "Narwa S Set": "narwa", "Narwa X Set": "narwa", "Narwa Set": "narwa", "Narwa - Pure Set": "narwa-pure",
+  "Skalda Set": "skalda-x", "Skalda S Set": "skalda-x", "Skalda X Set": "skalda-x",
+  "Spio X Set": "spio",
+  "Kamura Set": "kamura", "Kamura S Set": "kamura", "Kamura Legacy Set": "kamura-legacy",
+  "Uroktor Set": "uroktor", "Uroktor S Set": "uroktor", "Uroktor X Set": "uroktor",
+  "Edel Set": "edel", "Edel S Set": "edel", "Edel X Set": "edel",
+  "Royal Ludroth Set": "royal-ludroth", "Royal Ludroth S Set": "royal-ludroth", "Royal Ludroth X Set": "royal-ludroth",
+  "Brigade Set": "brigade", "Brigade S Set": "brigade", "Brigade X Set": "brigade",
+  "Medium Set": "medium", "Medium S Set": "medium", "Medium (Light) Set": "medium",
+  "Lambent Set": "lucent-narga", "Nephilim Set": "chaotic-gore",
+  "Bazelgeuse Set": "bazelgeuse", "Bazel Set": "bazelgeuse",
+  "Jyuratodus Set": "jyuratodus", "Jyura Set": "jyuratodus",
+  "Bullfango Mask Set": "bullfango-mask",
+  "Hunter's Set": "hunter", "Hunter's S Set": "hunter-s", "Hunter's X Set": "hunter-x",
+  "Channeler's Set": "channeler", "Channeler (Spring) Set": "channeler",
+  "Knight Squire Set": "knight-squire", "Heavy Knight Set": "heavy-knight",
+  "Base Commander Set": "base-commander", "Garangolm Set": "garangolm",
+  "Gore Magala Set": "gore-magala", "Seregios Set": "seregios",
+  "Rakna-Kadaki Set": "rakna-kadaki", "Rakna-Kadaki X Set": "rakna-kadaki-x",
+  "Chaotic Gore Set": "chaotic-gore",
+  "Silver Sol Set": "silver-sol", "Silver Sol S Set": "silver-sol-s", "Silver Sol X Set": "silver-sol-x",
+  "Arc Set": "arc", "Auroracanth Set": "auroracanth", "Espinas Set": "espinas",
+  "Flaming Espinas Set": "flaming-espinas", "Lucent Narga Set": "lucent-narga",
+  "Primordial Set": "primordial", "Risen Kaiser Set": "risen-kaiser", "Risen Kushala Set": "risen-kushala",
+  "Risen Mizuha Set": "risen-mizuha",
+};
 function armorSetImg(name) {
-  const s = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
-  // For non-X sets, try the X variant image first (same armor visually)
-  if (!/s-x-set|-x-set$/.test(s)) {
-    const xVariant = s.replace(/(-s-set|-set)$/, "-x-set");
-    if (xVariant !== s) return `data/images/armor_sets/${xVariant}.png`;
-  }
+  const override = ARMOR_SET_IMG_OVERRIDES[name];
+  if (override) return `data/images/armor_sets/${override}.png`;
+  // default: "Tempest Set" -> "tempest", "Rhenoplos X Set" -> "rhenoplos-x"
+  const s = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").replace(/-set$/, "");
   return `data/images/armor_sets/${s}.png`;
 }
 
