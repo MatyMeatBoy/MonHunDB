@@ -17,3 +17,15 @@ data/weapon_icon_fallback_cache/
 
 # scratch screenshots
 weapon_tree_kamura.png
+
+# stray files from a merged external project (bestiario-nemo) — not part of the app
+node_modules/
+package.json
+package-lock.json
+check_final.py
+check_missing*.py
+download_all_armor_sets.py
+download_missing_armor.js
+download_remaining.py
+final_download.py
+selenium_download_missing.py

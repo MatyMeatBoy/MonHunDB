@@ -714,7 +714,7 @@ const ARMOR_SET_IMG_OVERRIDES = {
   "Jyuratodus Set": "jyuratodus", "Jyura Set": "jyuratodus",
   "Bullfango Mask Set": "bullfango-mask",
   "Hunter's Set": "hunter", "Hunter's S Set": "hunter-s", "Hunter's X Set": "hunter-x",
-  "Channeler's Set": "channeler", "Channeler (Spring) Set": "channeler",
+  "Channeler's Set": "channeler", "Channeler's S Set": "channeler", "Channeler (Spring) Set": "channeler",
   "Knight Squire Set": "knight-squire", "Heavy Knight Set": "heavy-knight",
   "Base Commander Set": "base-commander", "Garangolm Set": "garangolm",
   "Gore Magala Set": "gore-magala", "Seregios Set": "seregios",
@@ -729,7 +729,13 @@ const ARMOR_SET_IMG_OVERRIDES = {
 function armorSetImg(name) {
   const override = ARMOR_SET_IMG_OVERRIDES[name];
   if (override) return `data/images/armor_sets/${override}.png`;
-  // default: "Tempest Set" -> "tempest", "Rhenoplos X Set" -> "rhenoplos-x"
+  // S and X variants reuse the base (vanilla) image: "X Set" -> try x file,
+  // else fall back to the base file
+  const m = name.match(/^(.+?)\s+([SX]) Set$/);
+  if (m) {
+    const base = m[1].toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+    return `data/images/armor_sets/${base}.png`;
+  }
   const s = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").replace(/-set$/, "");
   return `data/images/armor_sets/${s}.png`;
 }
