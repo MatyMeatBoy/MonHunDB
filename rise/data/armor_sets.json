@@ -6595,7 +6595,7 @@
   {
     "name": "Jaggi Set",
     "image": "",
-    "localImage": "data/images/armor_sets/jaggi-set.png",
+    "localImage": "data/images/armor_sets/jaggi.png",
     "pieces": [
       {
         "part": "arms",
@@ -6617,7 +6617,7 @@
   {
     "name": "Jaggi S Set",
     "image": "",
-    "localImage": "data/images/armor_sets/jaggi-s-set.png",
+    "localImage": "data/images/armor_sets/jaggi-s.png",
     "pieces": [
       {
         "part": "arms",
@@ -6639,7 +6639,7 @@
   {
     "name": "Jaggi X Set",
     "image": "",
-    "localImage": "data/images/armor_sets/jaggi-x-set.png",
+    "localImage": "data/images/armor_sets/jaggi-x.png",
     "pieces": [
       {
         "part": "arms",
