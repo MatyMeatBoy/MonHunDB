@@ -2887,7 +2887,10 @@ const NEWS = [
     titleKey: "newsV04Title",
     textKey: "newsV04Text",
     bulletsKey: "newsV04Bullets",
-    imageHtml: () => newsSilhouettePreviewHtml(),
+    imageHtml: () => `
+      <img src="data/images/armor_sets/kamura-legacy-set.png" alt="" loading="lazy">
+      <img src="data/images/armor_sets/bone-x-set.png" alt="" loading="lazy">
+    `,
   },
   {
     id: "v03",
