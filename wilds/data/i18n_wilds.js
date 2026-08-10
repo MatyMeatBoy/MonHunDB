@@ -589,3 +589,5 @@ function normalizeMaterialKey(s) {
 function translateMaterial(name) {
   return I18N_WILDS.materials[normalizeMaterialKey(name)] || name;
 }
+
+const I18N = I18N_WILDS;

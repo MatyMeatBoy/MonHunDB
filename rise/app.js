@@ -1281,8 +1281,7 @@ function showDecorationDetail(id) {
       </button>
       ${sources.length ? `
         ${isPlusTierFallback ? `<p class="material-plus-tier-note">${ui("materialsPlusTierNote")}</p>` : ""}
-        <details class="decoration-material-sources">
-          <summary>${ui("decorationsSeeMonsters")(monsterCount)}</summary>
+        <div class="decoration-material-sources">
           ${sources.map(s => `
           <button type="button" class="gs-source-row" data-name="${s.monster}" data-rank="${s.rank}">
             <span class="gs-source-top">
@@ -1292,7 +1291,7 @@ function showDecorationDetail(id) {
             </span>
             <span class="gs-source-summary">${isPlusTierFallback ? "—" : (summarizeRow(s.row, m.material) || "—")}</span>
           </button>`).join("")}
-        </details>
+        </div>
       ` : `<p class="gs-material-intro">${materialObtainNotes[m.material]
           ? escapeAttr(materialObtainNotes[m.material][lang])
           : ui("decorationsMaterialNoMonster")}</p>`}
@@ -1608,8 +1607,7 @@ function showWeaponDetail(id) {
       </button>
       ${sources.length ? `
         ${isPlusTierFallback ? `<p class="material-plus-tier-note">${ui("materialsPlusTierNote")}</p>` : ""}
-        <details class="decoration-material-sources">
-          <summary>${ui("decorationsSeeMonsters")(monsterCount)}</summary>
+        <div class="decoration-material-sources">
           ${sources.map(s => `
           <button type="button" class="gs-source-row" data-name="${s.monster}" data-rank="${s.rank}">
             <span class="gs-source-top">
@@ -1619,7 +1617,7 @@ function showWeaponDetail(id) {
             </span>
             <span class="gs-source-summary">${isPlusTierFallback ? "—" : (summarizeRow(s.row, m.material) || "—")}</span>
           </button>`).join("")}
-        </details>
+        </div>
       ` : `<p class="gs-material-intro">${materialObtainNotes[m.material] ? escapeAttr(materialObtainNotes[m.material][lang]) : ui("decorationsMaterialNoMonster")}</p>`}
     </div>`;
   }).join("") || `<p class="no-data">${ui("noMaterialsYet")}</p>`;
@@ -1731,8 +1729,7 @@ function armorPieceMaterialsHtml(p) {
       </button>
       ${sources.length ? `
         ${isPlusTierFallback ? `<p class="material-plus-tier-note">${ui("materialsPlusTierNote")}</p>` : ""}
-        <details class="decoration-material-sources">
-          <summary>${ui("decorationsSeeMonsters")(monsterCount)}</summary>
+        <div class="decoration-material-sources">
           ${sources.map(s => `
           <button type="button" class="gs-source-row" data-name="${s.monster}" data-rank="${s.rank}">
             <span class="gs-source-top">
@@ -1742,7 +1739,7 @@ function armorPieceMaterialsHtml(p) {
             </span>
             <span class="gs-source-summary">${isPlusTierFallback ? "—" : (summarizeRow(s.row, m.material) || "—")}</span>
           </button>`).join("")}
-        </details>
+        </div>
       ` : `<p class="gs-material-intro">${materialObtainNotes[m.material] ? escapeAttr(materialObtainNotes[m.material][lang]) : ui("decorationsMaterialNoMonster")}</p>`}
     </div>`;
   }).join("") || `<p class="no-data">${ui("noMaterialsYet")}</p>`;
