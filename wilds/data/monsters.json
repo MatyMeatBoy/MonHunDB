@@ -18527,7 +18527,55 @@
     "decay": "-0/0sec"
    }
   ],
-  "materials": {},
+  "materials": {
+   "High Rank": [
+    {
+     "material": "Guardian Scale",
+     "rarity": null,
+     "targetReward": "50%, 50%, 20%, 100%",
+     "capture": "",
+     "breakParts": "",
+     "carves": "",
+     "dropped": ""
+    },
+    {
+     "material": "Guardian Pelt",
+     "rarity": null,
+     "targetReward": "30%, 50%, 20%, 100%, 100%",
+     "capture": "",
+     "breakParts": "",
+     "carves": "",
+     "dropped": ""
+    },
+    {
+     "material": "Guardian Blood",
+     "rarity": null,
+     "targetReward": "20%, 100%, 10%",
+     "capture": "",
+     "breakParts": "",
+     "carves": "",
+     "dropped": ""
+    },
+    {
+     "material": "Nourishing Extract",
+     "rarity": null,
+     "targetReward": "30%",
+     "capture": "",
+     "breakParts": "",
+     "carves": "",
+     "dropped": ""
+    },
+    {
+     "material": "Tough Guardian Bone",
+     "rarity": null,
+     "targetReward": "20%",
+     "capture": "",
+     "breakParts": "",
+     "carves": "",
+     "dropped": ""
+    }
+   ]
+  },
   "inflicts": {
    "elements": [],
    "ailments": [

@@ -7282,5 +7282,49 @@
         "name": "Valstrax Greaves - Eclipse"
       }
     ]
+  },
+  {
+    "name": "Base Commander Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/base-commander.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "2023373161",
+        "name": "Outpost HQ Earrings"
+      },
+      {
+        "part": "chest",
+        "id": "2122987881",
+        "name": "Outpost HQ Armor"
+      },
+      {
+        "part": "arms",
+        "id": "2088384873",
+        "name": "Outpost HQ Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1919564137",
+        "name": "Outpost HQ Belt"
+      },
+      {
+        "part": "legs",
+        "id": "1884961129",
+        "name": "Outpost HQ Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Bullfango S Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/bullfango-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "244759617",
+        "name": "Bullfango Mask S"
+      }
+    ]
   }
 ]

@@ -57,7 +57,7 @@ function parseDropRates(w) {
       const name = rm[1].trim();
       // find the percent in the same line or next
       const line = chunk.slice(chunk.indexOf(rm[0]), chunk.indexOf('\n', chunk.indexOf(rm[0])));
-      const pctM = line.match(/\|\|\s*(\d+%?)/);
+      const pctM = line.match(/\|\s*(\d+%?)\s*$/m);
       if (!pctM) continue;
       const pct = pctM[1];
       // determine method from headers before this row
