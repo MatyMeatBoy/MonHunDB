@@ -1754,7 +1754,7 @@ function armorPieceMaterialsHtml(p) {
 }
 function armorPieceSkillsHtml(p) {
   if (!p.skills || !p.skills.length) return "";
-  return `<ul class="chips">${p.skills.map(s => `<li class="chip"><button type="button" class="skill-name-link" data-skill-name="${escapeAttr(s.name)}">${skillIconTagByName(s.name)}${trSkillName(s)} Lv${s.level}</button></li>`).join("")}</ul>`;
+  return `<ul class="chips">${p.skills.map(s => `<li class="chip"><button type="button" class="skill-name-link" data-skill-name="${escapeAttr(s.name)}">${skillIconTagByName(s.name)}${trSkillName(skillsByName.get(s.name) || s)} Lv${s.level}</button></li>`).join("")}</ul>`;
 }
 
 function showArmorView() {
