@@ -6603,7 +6603,7 @@
         "name": "Jaggi Gauntlets"
       },
       {
-        "part": "arms",
+        "part": "legs",
         "id": "1237033541",
         "name": "Jaggi Shinguards"
       },
@@ -6625,7 +6625,7 @@
         "name": "Jaggi Gauntlets S"
       },
       {
-        "part": "arms",
+        "part": "legs",
         "id": "1251807866",
         "name": "Jaggi Shinguards S"
       },
@@ -6647,7 +6647,7 @@
         "name": "Jaggi Gauntlets X"
       },
       {
-        "part": "arms",
+        "part": "legs",
         "id": "461955603",
         "name": "Jaggi Shinguards X"
       },
