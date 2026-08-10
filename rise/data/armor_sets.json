@@ -7250,5 +7250,37 @@
         "name": "Death Stench Heel"
       }
     ]
+  },
+  {
+    "name": "Crimson Valstrax - Eclipse Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/crimson-valstrax-eclipse.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "612222885",
+        "name": "Valstrax Helm - Eclipse"
+      },
+      {
+        "part": "chest",
+        "id": "980273061",
+        "name": "Valstrax Mail - Eclipse"
+      },
+      {
+        "part": "arms",
+        "id": "945670053",
+        "name": "Valstrax Braces - Eclipse"
+      },
+      {
+        "part": "waist",
+        "id": "1045284773",
+        "name": "Valstrax Coil - Eclipse"
+      },
+      {
+        "part": "legs",
+        "id": "1010681765",
+        "name": "Valstrax Greaves - Eclipse"
+      }
+    ]
   }
 ]
