@@ -37,10 +37,7 @@
   "Vespoid": "data/images/vespoid.webp",
   "Conga": "data/images/conga.webp",
   "Blango": "data/images/blango.webp",
-  "Ceratonoth (Male)": "data/images/ceratonoth-male.webp",
-  "Ceratonoth (Female)": "data/images/ceratonoth-female.webp",
   "Dalthydon": "data/images/dalthydon.webp",
-  "Dalthydon (Livestock)": "data/images/dalthydon-livestock.webp",
   "Bulaqchi": "data/images/bulaqchi.webp",
   "Talioth": "data/images/talioth.webp",
   "Baunos": "data/images/baunos.webp",
@@ -54,5 +51,6 @@
   "Porkeplume": "data/images/porkeplume.webp",
   "Nerscylla Hatchling": "data/images/nerscylla-hatchling.webp",
   "Guardian Seikret": "data/images/guardian-seikret.webp",
-  "Omega Micros": "data/images/omega-micros.webp"
+  "Omega Micros": "data/images/omega-micros.webp",
+  "Ceratonoth": "data/images/ceratonoth.webp"
 }

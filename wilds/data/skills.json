@@ -5,7 +5,28 @@
   "nameEs": "",
   "descEn": "Increases attack power.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "100/3 Attack +3",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "100/5 Attack +5",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "100/7 Attack +7",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "102/8 Attack +2% Bonus: +8",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -14,7 +35,18 @@
   "nameEs": "",
   "descEn": "Temporarily increases attack power after executing a perfectly-timed guard.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "105 Attack +5% while active.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110 Attack +10% while active.",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -23,7 +55,28 @@
   "nameEs": "",
   "descEn": "Increases affinity.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "4 Affinity +4%",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "8 Affinity +8%",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "12 Affinity +12%",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "16 Affinity +16%",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -32,7 +85,33 @@
   "nameEs": "",
   "descEn": "Increases the damage of critical hits.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "128 Increases damage dealt by critical hits to 28%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "131 Increases damage dealt by critical hits to 31%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "134 Increases damage dealt by critical hits to 34%.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "137 Increases damage dealt by critical hits to 37%.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "140 Increases damage dealt by critical hits to 40%. Red Wing I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -41,7 +120,18 @@
   "nameEs": "",
   "descEn": "Increases affinity when performing draw attacks. (Not effective while riding.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "50 Affinity +50%",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "75 Affinity +75%",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -50,7 +140,18 @@
   "nameEs": "",
   "descEn": "Increases fire element attack power. (Elemental attack power has a maximum limit.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "100/4 Fire attack +40",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110/5 Fire attack +10% Bonus: +50",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -59,7 +160,18 @@
   "nameEs": "",
   "descEn": "Increases water element attack power. (Elemental attack power has a maximum limit.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "100/4 Water attack +40",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110/5 Water attack +10% Bonus: +50",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -68,7 +180,18 @@
   "nameEs": "",
   "descEn": "Increases ice element attack power. (Elemental attack power has a maximum limit.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "100/4 Ice attack +40",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110/5 Ice attack +10% Bonus: +50",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -77,7 +200,18 @@
   "nameEs": "",
   "descEn": "Increases thunder element attack power. (Elemental attack power has a maximum limit.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "100/4 Thunder attack +40",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110/5 Thunder attack +10% Bonus: +50",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -86,7 +220,18 @@
   "nameEs": "",
   "descEn": "Increases dragon element attack power. (Elemental attack power has a maximum limit.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "100/4 Dragon attack +40",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110/5 Dragon attack +10% Bonus: +50",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -95,7 +240,18 @@
   "nameEs": "",
   "descEn": "Increases the rate of poison buildup. (Poison buildup has a maximum limit.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "105/1 Poison buildup +5% Bonus: +10",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110/2 Poison buildup +10% Bonus: +20",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -104,7 +260,18 @@
   "nameEs": "",
   "descEn": "Increases the rate of paralysis buildup. (Paralysis buildup has a maximum limit.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "105/1 Paralysis buildup +5% Bonus: +10",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110/2 Paralysis buildup +10% Bonus: +20",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -113,7 +280,18 @@
   "nameEs": "",
   "descEn": "Increases the rate of sleep buildup. (Sleep buildup has a maximum limit.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "105/1 Sleep buildup +5% Bonus: +10",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110/2 Sleep buildup +10% Bonus: +20",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -122,7 +300,18 @@
   "nameEs": "",
   "descEn": "Increases the rate of blast buildup. (Blast buildup has a maximum limit.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "105/1 Blast buildup +5% Bonus: +10",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110/2 Blast buildup +10% Bonus: +20",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -131,7 +320,23 @@
   "nameEs": "",
   "descEn": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Slightly increases elemental damage while active.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Increases elemental damage while active.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Greatly increases elemental damage while active. Albirath Wing I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -140,7 +345,18 @@
   "nameEs": "",
   "descEn": "Increases abnormal status effects (paralysis, poison, sleep, blast) when landing critical hits.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "110/105 Slightly increases abnormal status effects when landing critical hits.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "120/110 Increases abnormal status effects when landing critical hits.",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -149,7 +365,23 @@
   "nameEs": "",
   "descEn": "Increases element power and status buildup for charged attacks.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "115/105/105/105 Slightly increases elemental attack and status buildup for charged attacks.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "120/110/110/110 Increases elemental attack and status buildup for charged attacks.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "125/115/115/115 Greatly increases elemental attack and status buildup for charged attacks. Chicken Decapitator I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -158,7 +390,28 @@
   "nameEs": "",
   "descEn": "Extends the weapon sharpness gauge. However, it will not increase the gauge past its maximum.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "120 Weapon sharpness +10",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "140 Weapon sharpness +20",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "160 Weapon sharpness +30",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "180 Weapon sharpness +40",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -167,7 +420,18 @@
   "nameEs": "",
   "descEn": "Prevents your weapon from losing sharpness.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "10 Grants a 10% chance of no sharpness loss.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "25 Grants a 25% chance of no sharpness loss.",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -176,7 +440,23 @@
   "nameEs": "",
   "descEn": "Weapon sharpness does not decrease for a set time after sharpening.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "30 Grants no sharpness loss for 30 seconds after activation.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "60 Grants no sharpness loss for 60 seconds after activation.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "90 Grants no sharpness loss for 90 seconds after activation. Nu Krake I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -185,7 +465,18 @@
   "nameEs": "",
   "descEn": "Your attacks are deflected less and are more powerful against hard monster parts.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "50/110 50% chance of your attacks not being deflected, +10% attack power against hard targets.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "100/115 100% chance of your attacks not being deflected, +15% attack power against hard targets.",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -194,7 +485,18 @@
   "nameEs": "",
   "descEn": "Increases damage dealt when your weapon sharpness is low.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "105 +5% damage dealt when your sharpness gauge is yellow or lower.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110 +10% damage dealt when your sharpness gauge is yellow or lower.",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -203,7 +505,13 @@
   "nameEs": "",
   "descEn": "Prevents your weapon from losing sharpness during critical hits.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "80 Grants an 80% chance of no sharpness loss while active. Albirath Wing I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -239,7 +547,18 @@
   "nameEs": "",
   "descEn": "Extends the range in which ammo and arrows have maximum power. Also boosts power at higher levels.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Slightly extends range.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Extends range.",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -257,7 +576,193 @@
   "nameEs": "",
   "descEn": "Increases the bowgun&#x27;s reload speed and increases the power of bullets when fully loaded.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "5/5/110/110 Moderately increases bowgun reload speed and attack power of ammo when certain conditions are met.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "10/10/110/110 Increases bowgun reload speed and attack power of ammo when certain conditions are met.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "15/15/110/110 Greatly increases bowgun reload speed and attack power of ammo when certain conditions are met. Chata Sheller I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A Chatacabra heavy bowgun that features a large-caliber magazine that emphasizes firepower. Chata Sheller II",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "A Chatacabra heavy bowgun that features a large-caliber magazine that emphasizes firepower. Chata Sheller III",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "A Chatacabra heavy bowgun that features a large-caliber magazine that emphasizes firepower. Chata Sheller IV",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "A Chatacabra heavy bowgun that features a large-caliber magazine that emphasizes firepower. Power Stinger II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A Congalala heavy bowgun that places emphasis on handling, making it a reliable choice for a good hunt. Wild Stinger",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "An upgraded Power Stinger. Reliable in any situation, it takes the \"dire\" out of \"predicament.\" Nu Muneo I",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "A Nu Udra heavy bowgun as fearsome as its namesake. To even hold its grotesque barrel saps one's sanity. Nu Muneo II",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "A Nu Udra heavy bowgun as fearsome as its namesake. To even hold its grotesque barrel saps one's sanity. Abaddonian Muneo",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "An upgraded Nu Muneo that writhes revoltingly, its darkness so vast that misfortune bows to it. Shrouded Muktana",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "An upgraded Chata Sheller with a reexamined design, yielding firepower that can obliterate boulders. Rey Szelatya I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A light bowgun imbued with Rey Dau's thunder. Its morphing mechanism changes shape to optimize firing. Rey Szelatya II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A light bowgun imbued with Rey Dau's thunder. Its morphing mechanism changes shape to optimize firing. Rey Szelatya III",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "A light bowgun imbued with Rey Dau's thunder. Its morphing mechanism changes shape to optimize firing. Szelatya Clairgun",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "An upgraded Rey Szelatya. May its scintillating bolts scorch the sky and rip the very earth apart. Dosha Faithbreaker I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A Doshaguma light bowgun. Light on the trigger, it pumps projectiles into quarry with astonishing ease. Dosha Faithbreaker II",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "A Doshaguma light bowgun. Light on the trigger, it pumps projectiles into quarry with astonishing ease. Dosha Faithbreaker III",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "A Doshaguma light bowgun. Light on the trigger, it pumps projectiles into quarry with astonishing ease. Assault Conga II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A guerilla-grade light bowgun that uses Congalala spoils. Oh, the fur shock absorber? It's flame-retardant. Combat Conga",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "An upgraded Assault Conga, specially treated to stay in top condition in harsh environments. Tail String I",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "A light bowgun covered in white Blangonga fur. Its rounds rip through prey like a violent blizzard. Tail Catapult",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "An upgraded Tail String that uses superior materials, overwhelming prey with an avalanche of gunfire. Hunter's Rifle I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A light bowgun crafted from a medley of bones. Consistent performance and zero bulk make it great for novices. Hunter's Rifle II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A light bowgun crafted from a medley of bones. Consistent performance and zero bulk make it great for novices. Hunter's Rifle III",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "A light bowgun crafted from a medley of bones. Consistent performance and zero bulk make it great for novices. Hunter's Rifle IV",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "A light bowgun crafted from a medley of bones. Consistent performance and zero bulk make it great for novices. Power Rifle",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Only quality bones are used in this upgraded Hunter's Rifle, lending it superior response and handling. Nu Chobotnice I",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "A Nu Udra light bowgun. From the darkness it takes aim, its prey left unaware of the threat it faces. Nu Chobotnice II",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "A Nu Udra light bowgun. From the darkness it takes aim, its prey left unaware of the threat it faces. Abaddonian Chobotnice",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "An upgraded Nu Chobotnice. Each shot from the abyss screams forth like a nightmarish messenger. G. Veldian Impetum I",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "A light bowgun made from Guardian spoils. It galvanizes the body with unknown power, assuring accuracy. G. Veldian Impetum II",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "A light bowgun made from Guardian spoils. It galvanizes the body with unknown power, assuring accuracy. G. Expiating Caius",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "An upgraded G. Veldian Impetum. It echoes finality across the sky in an angelic song of salvation. Veldian Impetum I",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "An Arkveld light bowgun. In ancient days, a knight used such a weapon to gain renown as a wyvern hunter. Faithbreaker Leibolkule",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "An upgraded Dosha Faithbreaker. Its gunfire rips through quarry as mercilessly as a stampede. Expiating Caius",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -266,7 +771,23 @@
   "nameEs": "",
   "descEn": "Increases affinity of bowgun ammo/ coatings from the fourth shot and attack of the fourth and sixth shots.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "8/3/105/105 Slightly increases the attack power and affinity of ammo after certain conditions are met.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "10/6/105/105 Moderately increases attack power and affinity of ammo after certain conditions are met.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "12/10/105/105 Increases the attack power and affinity of ammo after certain conditions are met. Dragon Perforator I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -275,7 +796,18 @@
   "nameEs": "",
   "descEn": "Increases the power of the bowgun&#x27;s special ammo, and the bow&#x27;s Dragon Piercer, Thousand Dragons, and Tracer.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "110/110 Moderately increases the power of specified ammo and arrows.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "120/120 Increases the power of specified ammo and arrows. Rey Perkonis I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -329,7 +861,23 @@
   "nameEs": "",
   "descEn": "Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "105/95/1/105 Slightly increases gauge fill rate and reduces charge times by 5%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110/90/2/107 Moderately increases gauge fill rate and reduces charge times by 10%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "120/85/3/110 Increases gauge fill rate and reduces charge times by 15%. Chicken Decapitator I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -338,7 +886,23 @@
   "nameEs": "",
   "descEn": "Allows long swords, dual blades, insect glaives, switch axes, and charge blades to stay powered up longer.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Moderately boosts the duration weapons are powered up.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Boosts the duration weapons are powered up.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Ajara Twin Edges by their true name. Apoplectic, demonic, they punish all who stand in their path. Chthonian Kusarigamas I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -347,7 +911,23 @@
   "nameEs": "",
   "descEn": "Adds a stun effect to draw attacks and slightly increases attack power. (Not effective while riding.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Draw attacks deal a small amount of stun damage and gain attack +3.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Draw attacks deal a medium amount of stun damage and gain attack +5.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Draw attacks deal a large amount of stun damage and gain attack +7. Quematrice Espada I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -356,7 +936,23 @@
   "nameEs": "",
   "descEn": "Makes it easier to stun monsters.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "120 Stun power +20%",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "130 Stun power +30%",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "140 Stun power +40% Frozen Speartuna II",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -365,7 +961,23 @@
   "nameEs": "",
   "descEn": "Increases certain attacks&#x27; ability to exhaust monsters.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "120 Exhaust power +20%",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "130 Exhaust power +30%",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "140 Exhaust power +40% Bone Kukri I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -374,7 +986,23 @@
   "nameEs": "",
   "descEn": "Strengthens explosive attacks like shells, Wyvern&#x27;s Fire, charge blade phial attacks, and Sticky Ammo.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "5/120/3/110 Moderately increases each attack and Wyvern's Fire firing speed. Shelling fire attack +30.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "10/150/6/120 Increases each attack and Wyvern's Fire firing speed. Shelling fire attack +60.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "15/200/9/130 Greatly increases each attack and Wyvern's Fire firing speed. Shelling fire attack +90. Chata Strongarm II",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -383,7 +1011,23 @@
   "nameEs": "",
   "descEn": "Increases switch speed and power for switch axes and charge blades.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "110/100 Speed +10%",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "120/110 Speed +20% Morph attack power +10%",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "130/120 Speed +30% Morph attack power +20% Iron Accelerator I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -392,7 +1036,13 @@
   "nameEs": "",
   "descEn": "Increases the effect duration of hunting horn melodies. (Effect lost when you change weapons.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Extends Melody Effect duration and increases the chance of larger heals from healing melodies.",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -401,7 +1051,13 @@
   "nameEs": "",
   "descEn": "Increases the damage and stun power of charged hammer attacks.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "130/103 Activates skill effect. Chata Clobberer I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -410,7 +1066,13 @@
   "nameEs": "",
   "descEn": "Increases the damage caused by jumping attacks.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "A spear made from Hirabami membrane. It mesmerizes prey with its wind-like gleam, then pierces them through. Windpierce Tsukibami",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -419,7 +1081,173 @@
   "nameEs": "",
   "descEn": "Extends the duration of your poison&#x27;s effect on monsters.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "120 Extends the duration of your poison's effect by 20%. Valkyrie Blade I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A great sword made of bone and fortified with Rathian materials, giving it a regal, dignified air. Valkyrie Blade II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A great sword made of bone and fortified with Rathian materials, giving it a regal, dignified air. Sieglinde",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "An upgraded Valkyrie Blade. Named for a ravishing queen, its sweet poison ends the life of prey. Princess Rapier I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "Reassuringly efficient, this Rathian weapon is the latest in poison-based sword &amp; shield weaponry. Princess Rapier II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "Reassuringly efficient, this Rathian weapon is the latest in poison-based sword &amp; shield weaponry. Queen Rapier",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "The Princess Rapier's upgraded form. One strike from it is enough to bend the knees and wills of defiers. Wyvern Blade \"Verde\" I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A Rathian long sword with the same deep green hues, this masterwork achieves sharpness and power alike. Wyvern Blade \"Verde\" II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A Rathian long sword with the same deep green hues, this masterwork achieves sharpness and power alike. Wyvern Blade \"Holly\"",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "The upgraded form of the Wyvern Blade \"Verde.\" Its sharpness and power can only be called peerless. Valkyrie Chordmaker I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A Rathian hunting horn... or is it a bell...maybe a fife? The designer clearly had a lot in mind. Valkyrie Chordmaker II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A Rathian hunting horn... or is it a bell...maybe a fife? The designer clearly had a lot in mind. Queen Chordmaker",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "An upgraded Valkyrie Chordmaker. Its dulcet, regal song evokes the new life of spring. Princess Panoply I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "An elegant gunlance clad in green Rathian scales. Its venom takes lives as scarlet blossoms burst from its muzzle. Princess Panoply II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "An elegant gunlance clad in green Rathian scales. Its venom takes lives as scarlet blossoms burst from its muzzle. Ortlinde",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "The upgraded Princess Panoply, a verdant garden of death imbued with the Queen of the Land's soul. Dragonmaiden Axe I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A Rathian switch axe that was once given to a war maiden so brave and pure that no blood could sully her. Dragonmaiden Axe II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A Rathian switch axe that was once given to a war maiden so brave and pure that no blood could sully her. Gríðr's Landmaker",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "An upgraded Dragonmaiden Axe. Never did she cut so fine a figure, untouched among the scarlet blood. Dear Lutemis I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A Rathian charge blade as ominous as it is elegant. Her regal air lives on in the thorns lining the handle. Dear Lutemis II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A Rathian charge blade as ominous as it is elegant. Her regal air lives on in the thorns lining the handle. Dear Lutemia",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "An upgraded Dear Lutemis. Its beauty is somehow sublime and severe at the same time. Princess Regalia I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "An insect glaive lavishly crafted from the stunning and regal trappings of the Rathian. Princess Regalia II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "An insect glaive lavishly crafted from the stunning and regal trappings of the Rathian. Queen Regalia",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "The Princess Regalia's enhanced form. Every rose has its thorn... or in this case, its cruel poison. Queen Blaster I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A deep green hunting bow that uses Rathian plating for its equally regal and stunningly supple frame. Queen Blaster II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A deep green hunting bow that uses Rathian plating for its equally regal and stunningly supple frame. Queen's Melody",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "The Queen Blaster's upgraded form, a deadly picture of beauty that arrests the souls of all who tread her land. Queen's Longfire I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A Rathian heavy bowgun that delivers fire resistance and the consistent, hard-hitting firepower hunters love. Queen's Longfire II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A Rathian heavy bowgun that delivers fire resistance and the consistent, hard-hitting firepower hunters love. Queen's Farflier",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "The upgraded form of the Queen's Longfire, a sleek- barreled technical marvel that only veterans can wield. Valkyrie Fire I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A stunning light bowgun that savages targets with fire, like a Rathian alighting on her prey. Valkyrie Fire II",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A stunning light bowgun that savages targets with fire, like a Rathian alighting on her prey. Valkyrie Flame",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -428,7 +1256,23 @@
   "nameEs": "",
   "descEn": "Reduces knockbacks and stamina depletion when guarding.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "10/85 Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "20/70 Decreases the impact of attacks and reduces stamina depletion by 30%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "With a few flourishes at the forge, the crude Iron Beater has, like its maker, revealed stunning potential. Jin Dhaklab I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -437,7 +1281,23 @@
   "nameEs": "",
   "descEn": "Reduces damage taken when guarding and allows you to guard against ordinarily unblockable attacks.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "70/90 Reduces damage taken by 10%, plus an additional 20% when conditions are met.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "50/80 Reduces damage taken by 20%, plus an additional 30% when conditions are met.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "20/70 Reduces damage taken by 30%, plus an additional 50% when conditions are met. Gravios Syphos I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -446,7 +1306,18 @@
   "nameEs": "",
   "descEn": "Improves reloading, and increases the gunlance&#x27;s shell capacity and charge blade&#x27;s phial capacity.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "110 Increases shell and phial reloading speed.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Refitted with stronger materials, this advanced Bone Strongarm packs the extra power a hunter craves. Rey Astrapi I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -455,7 +1326,18 @@
   "nameEs": "",
   "descEn": "Speeds up weapon sharpening when using a whetstone.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "1 Removes one cycle from the sharpening process.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Fully field-tested Hope Daggers. To realize one's hopes, one must be prepared to sacrifice all defenses. Hope Edge II",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -464,7 +1346,23 @@
   "nameEs": "",
   "descEn": "Temporarily increases affinity when wet or when inflicted with bubbleblight. (Wet and bubbleblight effects stack.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "3/7 Affinity +3% when wet, and +7% while afflicted with bubbleblight.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "6/14 Affinity +6% when wet, and +14% while afflicted with bubbleblight.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "9/21/1 Affinity +9% when wet, and +21% while afflicted with bubbleblight. Hanayako Yohino I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -473,7 +1371,13 @@
   "nameEs": "",
   "descEn": "Chance to deal additional damage after landing an attack.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Activates skill effect. (When used with Scorcher, does not stack but adds extra fire damage.) Zoh Veiah I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -482,7 +1386,13 @@
   "nameEs": "",
   "descEn": "Increase to your weapon&#x27;s elemental attack proportional to your thunder resistance.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "A three-pronged Lagiacrus insect glaive. A single swing unleashes a bolt of lightning powerful enough to cleave a mountain in two. Fractal Glaive Boltlagia",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -491,7 +1401,13 @@
   "nameEs": "",
   "descEn": "Narrowly evading a monster&#x27;s attack while your weapon is drawn grants special sharpness.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "An enhanced form of the Aksa Switch. It's wielded by those with an unquenched spirit of rebellion. Aslat Charger I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -500,7 +1416,38 @@
   "nameEs": "",
   "descEn": "Narrowly evading a monster&#x27;s attack while your weapon is drawn grants special loaded ammo or applied coatings.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Activates skill effect. Shalya Bow I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A bow as limber as the Seregios. The arrows it looses cut through prey like a thousand blades. Insurgent Bow",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "An upgraded Shalya Bow, renowned for loosing the arrow that brought down a horrid tyrant. Sayyad Cannon I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A magnificently gilded Seregios heavy bowgun. With fury against injustice and bullets of gold, the rebellious soul strikes true. Insurrection Cannon",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "An upgraded Sayyad Cannon. It'll continue firing as long as the revolutionary spirit survives. Rasasa Bowgun I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A light bowgun resembling the tail of a Seregios. Its barrage of rounds rain down on oppressors like falling stars. Rebel Stopper",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -509,7 +1456,28 @@
   "nameEs": "",
   "descEn": "Temporarily increases attack upon mining materials.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Mining particularly rare materials greatly increases attack. (Attack increase has a maximum limit.) Mining Pickaxe",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A pickaxe as a sword and a hunk of ore as a shield. This miner's pick is a reflection of a soul devoted to excavation. Digmore War Pick",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "An upgraded Mining Pickaxe born from an abnormal obsession with ore veins. If you're not mining, are you even truly alive? Scavenger Pickaxe",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A pickaxe-looking long sword filled with the spirit of its ore-crazy master. Mine away! Mad Scavenger Pickaxe",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -518,7 +1486,13 @@
   "nameEs": "",
   "descEn": "Increases shelling power and fire attack while the Wyvern&#x27;s Fire Gauge is blinking red.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Activates skill effect. Cornpopper",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -527,7 +1501,18 @@
   "nameEs": "",
   "descEn": "Grill meat to sharpen your weapon and temporarily increase your attack. (Duration and effect vary based on results.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Activates skill effect. Tasty Blades",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A first-rate hunter is also a first- rate cook. There's nothing like a well-cooked piece of meat. Well-done Blades",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -536,7 +1521,28 @@
   "nameEs": "",
   "descEn": "Evading loads the currently selected ammo automatically.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Activates skill effect. Sayyad Cannon I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A magnificently gilded Seregios heavy bowgun. With fury against injustice and bullets of gold, the rebellious soul strikes true. Insurrection Cannon",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "An upgraded Sayyad Cannon. It'll continue firing as long as the revolutionary spirit survives. Rasasa Bowgun I",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A light bowgun resembling the tail of a Seregios. Its barrage of rounds rain down on oppressors like falling stars. Rebel Stopper",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -545,7 +1551,13 @@
   "nameEs": "",
   "descEn": "Performing certain Lvl 2 or higher charged slashes deals self-damage. Attack is also temporarily boosted.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Activates skill effect. (Requires activation cooldown, but self-damage still occurs.) Shadowbringer",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -554,7 +1566,18 @@
   "nameEs": "",
   "descEn": "Temporarily increases your defense and the defense of those around you after a successful Perfect Guard.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "30/45 Activates skill effect. Omega's Sword",
+    "descEs": ""
+   },
+   {
+    "level": 1,
+    "descEn": "A sword &amp; shield modeled after a certain autonomous weapon. Annihilates all threats. True Omega's Sword",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -563,7 +1586,13 @@
   "nameEs": "",
   "descEn": "Temporarily increases your affinity and the affinity of those around you after using a Rising Spiral Slash.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "30/40 Activates skill effect. Omega's Rod",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -581,7 +1610,33 @@
   "nameEs": "",
   "descEn": "Increases attack when you have recoverable damage (the red portion of your Health Gauge).",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "5 Attack +5 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "10 Attack +10 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "15 Attack +15 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "20 Attack +20 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "25 Attack +25 while active. Udra Mirehelm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -590,7 +1645,33 @@
   "nameEs": "",
   "descEn": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "10 Attack +10 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "15 Attack +15 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "20 Attack +20 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "25 Attack +25 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "30 Attack +30 while active. Rathalos Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -599,7 +1680,33 @@
   "nameEs": "",
   "descEn": "Increases attack when your health is full.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "3 Attack +3 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "6 Attack +6 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "10 Attack +10 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "15 Attack +15 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "20 Attack +20 while active. Duna Wildhelm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -608,7 +1715,23 @@
   "nameEs": "",
   "descEn": "Temporarily increases attack power after being knocked back.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "10 Attack +10 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "15 Attack +15 while active. Moderately extends effect time.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "25 Attack +25 while active. Extends effect time. Blango Helm α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -617,7 +1740,33 @@
   "nameEs": "",
   "descEn": "Increases the affinity of attacks that exploit a monster&#x27;s weak  points and wounds.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "5/3 Attacks that hit weak points gain affinity +5%, with an extra 3% on wounds.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "10/5 Attacks that hit weak points gain affinity +10%, with an extra 5% on wounds.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "15/10 Attacks that hit weak points gain affinity +15%, with an extra 10% on wounds.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "20/15 Attacks that hit weak points have 20% increased affinity, with an extra 15% on wounds.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "30/20 Attacks that hit weak points have 30% increased affinity, with an extra 20% on wounds. G. Rathalos Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -626,7 +1775,23 @@
   "nameEs": "",
   "descEn": "Increases affinity if stamina is kept full for a period of time.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "10 Affinity +10% while active",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "20 Affinity +20% while active",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "30 Affinity +30% while active Xu Wu Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -635,7 +1800,23 @@
   "nameEs": "",
   "descEn": "After taking elemental damage, temporarily grants you dragon element effects. (Cooldown after effect ends.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "8/110/150/60 While active, deals extra dragon damage after dealing enough elemental damage. Slightly increases dragon attack.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "12/115/200/80 Increases additional dragon damage and increases dragon attack.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "18/120/280/100 Further increases additional dragon damage and greatly increases dragon attack. Arkvulcan Helm α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -644,7 +1825,43 @@
   "nameEs": "",
   "descEn": "Increases defense. Also improves resistances at higher levels.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "100/5 Defense +5",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "100/10 Defense +10",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "105/10 Defense +5% Bonus: +10",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "105/20/3 Defense +5% Bonus: +20 All elemental resistances +3",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "108/20/3 Defense +8% Bonus: +20 All elemental resistances +3",
+    "descEs": ""
+   },
+   {
+    "level": 6,
+    "descEn": "108/35/5 Defense +8% Bonus: +35 All elemental resistances +5",
+    "descEs": ""
+   },
+   {
+    "level": 7,
+    "descEn": "110/35/5 Defense +10% Bonus: +35 All elemental resistances +5 Defense Charm I",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -653,7 +1870,23 @@
   "nameEs": "",
   "descEn": "Has a predetermined chance of reducing the damage you take.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "25/85 While active, reduces damage taken by 15%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "25/70 While active, reduces damage taken by 30%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "25/50 While active, reduces damage taken by 50%. Hope Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -662,7 +1895,23 @@
   "nameEs": "",
   "descEn": "Increases fire resistance. Also improves defense at higher levels.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "6 Fire resistance +6",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "12 Fire resistance +12",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "20/10 Fire resistance +20 Defense +10 Quematrice Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -671,7 +1920,23 @@
   "nameEs": "",
   "descEn": "Increases water resistance. Also improves defense at higher levels.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "6 Water resistance +6",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "12 Water resistance +12",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "20/10 Water resistance +20 Defense +10 Piragill Greaves",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -680,7 +1945,23 @@
   "nameEs": "",
   "descEn": "Increases thunder resistance. Also improves defense at higher levels.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "6 Thunder resistance +6",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "12 Thunder resistance +12",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "20/10 Thunder resistance +20 Defense +10 Lagiacrus Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -689,7 +1970,23 @@
   "nameEs": "",
   "descEn": "Increases ice resistance. Also improves defense at higher levels.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "6 Ice resistance +6",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "12 Ice resistance +12",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "20/10 Ice resistance +20 Defense +10 Hirabami Vambraces",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -698,7 +1995,23 @@
   "nameEs": "",
   "descEn": "Increases dragon resistance. Also improves defense at higher levels.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "6 Dragon resistance +6",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "12 Dragon resistance +12",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "20/10 Dragon resistance +20 Defense +10 Ceremonial Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -707,7 +2020,23 @@
   "nameEs": "",
   "descEn": "Reduces damage while poisoned.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "150 Reduces the number of times you take poison damage.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "300 Greatly reduces the number of times you take poison damage.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "300 Prevents poison. Rompopolo Vambraces",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -716,7 +2045,23 @@
   "nameEs": "",
   "descEn": "Reduces the duration of paralysis.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "70 Reduces the duration of paralysis by 30%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "40 Reduces the duration of paralysis by 60%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Prevents paralysis. Vespoid Vambraces",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -725,7 +2070,23 @@
   "nameEs": "",
   "descEn": "Reduces the duration of sleep.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "70 Reduces the duration of sleep by 30%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "40 Reduces the duration of sleep by 60%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Prevents sleep. Comaqchi Accessory",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -734,7 +2095,23 @@
   "nameEs": "",
   "descEn": "Grants protection against defense down.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "50 Reduces the duration of defense down by 50%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "25 Reduces the duration of defense down by 75%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Prevents defense down. G. Doshaguma Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -743,7 +2120,23 @@
   "nameEs": "",
   "descEn": "Grants protection against all elemental blights.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "50 Reduces the duration of all elemental blights by 50%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "25 Reduces the duration of all elemental blights by 75%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Nullifies all elemental blights. G. Arkveld Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -752,7 +2145,23 @@
   "nameEs": "",
   "descEn": "Reduces the duration of stun.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "70 Reduces the duration of stun by 30%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "40 Reduces the duration of stun by 60%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Prevents stun. Hope Mask",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -761,7 +2170,23 @@
   "nameEs": "",
   "descEn": "Grants protection against bleeding.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "50 Reduces damage while bleeding.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "25 Greatly reduces damage while bleeding.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Prevents bleeding. G. Ebony Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -770,7 +2195,23 @@
   "nameEs": "",
   "descEn": "Grants protection against webbed status and frostblight.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "70/70/100 Allows you to quickly recover from webbed status or frostblight.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "40/40/150 Allows you to very quickly recover from webbed status or frostblight.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "150 Prevents webbed status and frostblight. Nerscylla Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -779,7 +2220,23 @@
   "nameEs": "",
   "descEn": "Grants protection against blastblight.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "25/66 Delays blastblight and reduces blast damage.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "50/50 Greatly delays blastblight and greatly reduces blast damage.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Prevents blastblight. Ajarakan Coil",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -788,7 +2245,18 @@
   "nameEs": "",
   "descEn": "Grants protection against stench.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "50 Reduces stench duration by 50%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Prevents stench. Conga Vambraces",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -797,7 +2265,18 @@
   "nameEs": "",
   "descEn": "Grants protection against environmental damage, such as from heat or cold.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Negates the effects of heat and cold.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Negates environmental damage. Dahaad Shardmail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -806,7 +2285,23 @@
   "nameEs": "",
   "descEn": "Increases the amount recovered when restoring health.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "110 Slightly increases recovery.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "120 Moderately increases recovery.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "130 Greatly increases recovery. Barina Vambraces",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -815,7 +2310,23 @@
   "nameEs": "",
   "descEn": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "200 Doubles the speed at which you heal recoverable damage.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "300 Triples the speed at which you heal recoverable damage.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "400 Quadruples the speed at which you heal recoverable damage. Chainmail Belt",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -824,7 +2335,23 @@
   "nameEs": "",
   "descEn": "Extra health is recovered from environmental interactables.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "50 Restores 50 health.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "80 Restores 80 health.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "100 Restores 100 health. Vespoid Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -833,7 +2360,33 @@
   "nameEs": "",
   "descEn": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "10 Reduces fixed stamina depletion by 10%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "20 Reduces fixed stamina depletion by 20%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "30 Reduces fixed stamina depletion by 30%.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "40 Reduces fixed stamina depletion by 40%.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "50 Reduces fixed stamina depletion by 50%. Rey Sandmail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -842,7 +2395,23 @@
   "nameEs": "",
   "descEn": "Speeds up stamina recovery.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "110 Stamina recovery speed +10%",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "130 Stamina recovery speed +30%",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "150 Stamina recovery speed +50% Xu Wu Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -851,7 +2420,23 @@
   "nameEs": "",
   "descEn": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "85 Reduces continuous stamina depletion by 15%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "70 Reduces continuous stamina depletion by 30%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "50 Reduces continuous stamina depletion by 50%. Bone Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -860,7 +2445,23 @@
   "nameEs": "",
   "descEn": "Reduces maximum stamina depletion over time.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Extends the time until your stamina cap reduces by 50%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Extends the time until your stamina cap reduces by 100%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Prevents your stamina cap from decreasing. Leather Gloves",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -869,7 +2470,33 @@
   "nameEs": "",
   "descEn": "Increases attack power and affinity when large monsters become enraged.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "4/3 Attack +4 and affinity +3% while active.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "8/5 Attack +8 and affinity +5% while active.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "12/7 Attack +12 and affinity +7% while active.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "16/10 Attack +16 and affinity +10% while active.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "20/15 Attack +20 and affinity +15% while active. Kut-Ku Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -878,7 +2505,33 @@
   "nameEs": "",
   "descEn": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "10/70 While active, affinity +10% and reduces stamina depletion by 30%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "20/70 While active, affinity +20% and reduces stamina depletion by 30%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "30/50 While active, affinity +30% and reduces stamina depletion by 50%.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "40/50 While active, affinity +40% and reduces stamina depletion by 50%.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "50/50 While active, affinity +50% and reduces stamina depletion by 50%. Rey Sandhelm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -887,7 +2540,33 @@
   "nameEs": "",
   "descEn": "Increases attack power and defense when health drops to 35% or lower.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "100/50 Defense +50 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "105/50 Attack +5% and defense +50 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "105/100 Attack +5% and defense +100 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "110/100 Attack +10% and defense +100 while active.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "130 Attack +30% and defense-increasing effects are negated while active. G. Doshaguma Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -896,7 +2575,33 @@
   "nameEs": "",
   "descEn": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "On first hit, gain a small temporary attack and element boost, replaced by a larger boost after the fifth hit.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Hit 5 successive times for a moderate stat boost.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Hit 5 successive times for a bigger stat boost.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "Hit 5 successive times for an even bigger stat boost.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "Hit 5 successive times for a huge stat boost. G. Ebony Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -905,7 +2610,33 @@
   "nameEs": "",
   "descEn": "Increases attack power and affinity against large monsters affected by poison or paralysis.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "6 Attack +6 against large monsters affected by poison or paralysis.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "8/5 Attack +8 and affinity +5% against large monsters affected by poison or paralysis.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "10/10 Attack +10 and affinity +10% against large monsters affected by poison or paralysis.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "12/15 Attack +12 and affinity +15% against large monsters affected by poison or paralysis.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "15/20 Attack +15 and affinity +20% against large monsters affected by poison or paralysis. Comaqchi Accessory α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -914,7 +2645,33 @@
   "nameEs": "",
   "descEn": "Makes it easier to inflict wounds. Can also deal extra non-elemental damage upon buildup. (Excludes some attacks.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "105/100 Makes it ever so slightly easier to inflict wounds. Also deals additional non-elemental damage.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110/120 Makes it moderately easier to inflict wounds. Also deals slightly more additional non-elemental damage.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "115/160 Makes it easier to inflict wounds. Also deals moderately more additional non-elemental damage.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "120/200 Makes it much easier to inflict wounds. Also deals more additional non-elemental damage.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "130/250 Makes it significantly easier to inflict wounds. Also deals much more additional non-elemental damage. G. Arkveld Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -923,7 +2680,33 @@
   "nameEs": "",
   "descEn": "Powers up Palicoes.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "105/105 Increases Palico attack power and defense by 5%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110/110 Increases Palico attack power and defense by 10%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "115/115 Increases Palico attack power and defense by 15%.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "120/120 Increases Palico attack power and defense by 20%.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "125/125 Increases Palico attack power and defense by 25%. Blango Vambraces α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -932,7 +2715,23 @@
   "nameEs": "",
   "descEn": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "110/110 Increases part damage and damage dealt when conditions are met by 10%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "120/120 Increases part damage and damage dealt when conditions are met by 20%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "130/130 Increases part damage and damage dealt when conditions are met by 30%. Ajarakan Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -941,7 +2740,23 @@
   "nameEs": "",
   "descEn": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "110/105/105 When active, grants a slight increase to elemental attack and status buildup.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "120/110/110 When active, grants an increase to elemental attack and status buildup.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "130/115/115 When active, grants a large increase to elemental attack and status buildup. G. Fulgur Helm α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -950,7 +2765,23 @@
   "nameEs": "",
   "descEn": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "105/30 Attack +5% while active.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "110/30 Attack +10% while active.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "115/30 Attack +15% while active. Nerscylla Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -959,7 +2790,23 @@
   "nameEs": "",
   "descEn": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "10/3 Slightly increases recovery rate after contracting the Frenzy. Affinity +3% if cured.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "20/6 Increases recovery rate after contracting the Frenzy. Affinity +6% if cured.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "30/10 Greatly increases recovery rate after contracting the Frenzy. Affinity +10% if cured. Gore Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -968,7 +2815,23 @@
   "nameEs": "",
   "descEn": "After taking elemental damage, temporarily grants you element effects. (Cooldown after effect ends)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "5/5 While active, slightly increases elemental attack, and resistance to element taken at activation by 4.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "10/8 While active, moderately increases elemental attack, and resistance to element taken at activation by 6.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "15/12 While active, increases elemental attack, and resistance to element taken at activation by 8. Arkvulcan Helm α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -977,7 +2840,13 @@
   "nameEs": "",
   "descEn": "Attack and defense increase as time passes while on a quest. (The maximum is reached after 30 minutes.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Activates skill effect. Hope Charm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -986,7 +2855,33 @@
   "nameEs": "",
   "descEn": "Extends the invulnerability period when evading.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Very slightly increases invulnerability window.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Slightly increases invulnerability window.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Increases invulnerability window.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "Greatly increases invulnerability window.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "Massively increases invulnerability window. Hirabami Headdress",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -995,7 +2890,23 @@
   "nameEs": "",
   "descEn": "Increases evade distance.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Slightly extends evasion distance.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Extends evasion distance.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Greatly extends evasion distance. Balahara Vambraces",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1004,7 +2915,23 @@
   "nameEs": "",
   "descEn": "Grants protection from large monsters&#x27; roars.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "20/100 Reduces the effects of weak monster roars.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "10 Nullifies weak monster roars and reduces the effects of strong monster roars.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Nullifies weak and strong monster roars. Rompopolo Vambraces α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1013,7 +2940,23 @@
   "nameEs": "",
   "descEn": "Speeds up weapon sheathing.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "110 Slightly increases sheathing speed.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "120 Increases sheathing speed.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "140 Greatly increases sheathing speed. Alloy Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1022,7 +2965,23 @@
   "nameEs": "",
   "descEn": "Grants protection against wind pressure.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "50/100 Negates minor wind pressure and halves the effects of major wind pressure.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "50 Negates minor and major wind pressure and halves the effects of dragon wind pressure.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Negates all kinds of wind pressure. Ingot Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1031,7 +2990,23 @@
   "nameEs": "",
   "descEn": "Grants protection against ground tremors.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "50/100 Nullifies very minor ground tremors and halves effects of minor ground tremors.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "20 Nullifies up to minor ground tremors and greatly reduces the effects of major ground tremors.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Nullifies all ground tremors. Alloy Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1040,7 +3015,23 @@
   "nameEs": "",
   "descEn": "Prevents knockbacks and other reactions to small damage.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Prevents knockbacks.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Prevents knockbacks. Tripping is reduced to a knockback instead.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Prevents knockbacks and tripping. Quematrice Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1049,7 +3040,23 @@
   "nameEs": "",
   "descEn": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "50/100 Discourages monsters from engaging you even if you've been spotted.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "50 Highly discourages monsters from engaging you even if you've been spotted.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Prevents monsters from engaging you even if you've been spotted. G. Rathalos Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1058,7 +3065,23 @@
   "nameEs": "",
   "descEn": "Increases meat-eating and item-consumption speed.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Moderately increases eating speed.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Increases eating speed.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Greatly increases eating speed. Chatacabra Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1067,7 +3090,18 @@
   "nameEs": "",
   "descEn": "Grants resistance against impairments to mobility while in water, oilsilt, or streams.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Negates the effects of muddy streams, nullifies slowing from water and oilsilt, and reduces slowing from heavy oil.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Also negates the effects of waves. Duna Wildcoil",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1085,7 +3119,13 @@
   "nameEs": "",
   "descEn": "Allows you to do a dive-evade when facing towards large monsters and extends the dive-evade distance.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Enables skill use. Talioth Vambraces",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1094,7 +3134,13 @@
   "nameEs": "",
   "descEn": "Prevents attacks from knocking you back during a jump.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Negates knockback during jumps. G. Seikret Coil",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1103,7 +3149,13 @@
   "nameEs": "",
   "descEn": "Decreases stamina depletion when climbing on vines.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "50 Reduces stamina depletion while climbing by 50%. Ajarakan Vambraces",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1112,7 +3164,33 @@
   "nameEs": "",
   "descEn": "Allows the effects of certain items to also affect nearby allies.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Items affect nearby allies with 33% of their efficacy.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Items affect nearby allies in a wider radius with 66% of their efficacy.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "Items affect nearby allies in a much wider radius with 66% of their efficacy.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "Items affect nearby allies in a much wider radius with full efficacy. Rompopolo Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1121,7 +3199,33 @@
   "nameEs": "",
   "descEn": "Reduces the recharge time for specialized tools.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "90 Shortens recharge time by 10%.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "80 Shortens recharge time by 20%.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "70 Shortens recharge time by 30%.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "60 Shortens recharge time by 40%.",
+    "descEs": ""
+   },
+   {
+    "level": 5,
+    "descEn": "50 Shortens recharge time by 50%. Duna Wildhelm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1130,7 +3234,23 @@
   "nameEs": "",
   "descEn": "Increases the damage of explosive items.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Explosive power +10%",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Explosive power +20%",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Explosive power +30% Ajarakan Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1139,7 +3259,23 @@
   "nameEs": "",
   "descEn": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Lets you digest blue mushrooms and toadstools.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "Additionally lets you digest nitroshrooms and parashrooms.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "Additionally lets you digest mandragoras, devil's blight, and exciteshrooms. Conga Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1148,7 +3284,23 @@
   "nameEs": "",
   "descEn": "Extends the duration of some item effects.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "110 Item effect duration +10%",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "125 Item effect duration +25%",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "150 Item effect duration +50% Chatacabra Vambraces",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1157,7 +3309,23 @@
   "nameEs": "",
   "descEn": "Gives you a predetermined chance of consuming a food or drink item for free.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "10 Activates 10% of the time.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "25 Activates 25% of the time.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "45 Activates 45% of the time. Doshaguma Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1166,7 +3334,13 @@
   "nameEs": "",
   "descEn": "Improves the effectiveness of flash attacks and items.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "200 Improves the effectiveness of flash attacks and items. Gypceros Helm α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1175,7 +3349,28 @@
   "nameEs": "",
   "descEn": "Increases the quantity of herbs and other consumable items you gather.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "1 One extra consumable herb item per gather.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "1/1 Additionally adds one extra consumable fruit, nut, or seed item per gather.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "1/1/1 Additionally adds one extra consumable insect item per gather.",
+    "descEs": ""
+   },
+   {
+    "level": 4,
+    "descEn": "1/1/1/1 Additionally adds one extra consumable mushroom item per gather. Leather Headgear",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1184,7 +3379,23 @@
   "nameEs": "",
   "descEn": "Increases the number of items you gain at gathering points.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "1 One extra item when gathering from bonepiles.",
+    "descEs": ""
+   },
+   {
+    "level": 2,
+    "descEn": "1/1 Additionally adds one extra item when gathering special items.",
+    "descEs": ""
+   },
+   {
+    "level": 3,
+    "descEn": "1/1/1 Additionally adds one extra item when gathering from mining outcrops. Chainmail Headgear",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1193,7 +3404,13 @@
   "nameEs": "",
   "descEn": "The bodies of small insect monsters won&#x27;t be destroyed, allowing them to be carved. (Excludes some.)",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "100 Activates skill effect. Bulaqchi Specs",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1202,7 +3419,13 @@
   "nameEs": "",
   "descEn": "Improves fishing, grilling, and transporting abilities.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Improves fishing, grilling, and transporting abilities. Gajau Boots α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1211,7 +3434,13 @@
   "nameEs": "",
   "descEn": "Increases the attack power of Akuma actions and stun damage.",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Activates skill effect. Rice Ball Charm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1220,7 +3449,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Spectacles made from Bulaqchi parts. The hottest new design for the stylish hunter. Vespoid Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1229,7 +3464,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Spectacles made from Bulaqchi parts. The hottest new design for the stylish hunter. Vespoid Helm β",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1238,7 +3479,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Head armor made from Quematrice spoils. The shock of feathers ties the whole look together. Quematrice Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1247,7 +3494,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Kranodath chest armor. What armor enthusiast could resist such ornate plating? Kut-Ku Helm β",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1256,7 +3509,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Chatacabra head armor. The design is specially tailored for desert hunting. Chatacabra Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1265,7 +3524,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Piragill leg armor. A light, skintight fit made with the most exquisite, buttery-soft leather. Chatacabra Helm β",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1274,7 +3539,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Head armor made from Congalala materials. Remember: it's \"feral,\" not \"unkempt.\" Conga Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1283,7 +3554,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Head armor made from Congalala materials. Remember: it's \"feral,\" not \"unkempt.\" Conga Mail β",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1292,7 +3569,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Uth Duna chest armor. The tightly fitted scales make the wearer feel as if they are one with nature. Duna Wildbraces",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1301,7 +3584,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Jin Dahaad head armor modelled after the helm of a member of a lost kingdom's royalty. It evokes the royal's icy gaze. Dahaad Shardmail β",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1310,7 +3599,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Guardian Seikret waistgear. The long, white feathers produce a faint, exquisite glow. G. Doshaguma Helm",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1319,7 +3614,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Head armor made from Guardian Fulgur Anjanath spoils. To don it is to be seized by unspeakable cravings. G. Fulgur Mail β",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1328,7 +3629,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "A cloak worn for generations in the Windsong Village, notable for the Seikret feathers woven into it. Kunafa Sash α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1337,7 +3644,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Chest armor made from special Rey Dau materials. The azure armor evokes the valor of the Arch-tempered. Rey Sandbraces γ",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1346,7 +3659,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Prayer beads worn by a demon of combat who burns to become the ultimate master of the fist. (Full Armor Set) Demon Garb α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1355,7 +3674,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Blossomdance Ticket headgear. It embodies the vigor of resplendent warriors from spring sunrises past. Sakuratide Robe α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1364,7 +3689,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Golden armor for Arena champions. It shines with the wisdom of heroes. Guild Cross Suit α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1373,7 +3704,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Head armor made from Doshaguma parts. Pity any enemy who dares scoff at its imposing crest. Doshaguma Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1382,7 +3719,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Head armor made from Guardian Rathalos spoils. To don it is to be seized by unspeakable cravings. G. Rathalos Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1391,7 +3734,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Concealing Xu Wu head armor. Fitting attire for hunters who dwell in darkness. Xu Wu Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1400,7 +3749,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "A helm cast from Gravios materials. This rock-like armor deflects attacks. Gravios Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1409,7 +3764,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Head armor made from Blangonga materials. Overflowing with the honor of a foreign god. Blango Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1418,7 +3779,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Head armor made from Guardian Ebony Odogaron spoils. To don it is to be seized by unspeakable cravings. G. Ebony Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1427,7 +3794,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Head armor made from Guardian Fulgur Anjanath spoils. To don it is to be seized by unspeakable cravings. G. Fulgur Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1436,7 +3809,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Uth Duna chest armor. The tightly fitted scales make the wearer feel as if they are one with nature. Duna Wildbraces",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1445,7 +3824,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Rey Dau chest armor. Its carapace has been meticulously paneled into a bastion of defense. Rey Sandbraces",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1454,7 +3839,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Nu Udra head armor. The world through this mask is swathed in vengeance and ebony fire. Udra Miremail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1463,7 +3854,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Jin Dahaad head armor modelled after the helm of a member of a lost kingdom's royalty. It evokes the royal's icy gaze. Dahaad Shardmail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1472,7 +3869,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "A helmet made from Gore Magala spoils. The nether-black surface thrums with its late master's power. Gore Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1481,7 +3884,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "A helmet made from Arkveld spoils. The design was worn by a knight errant who reshaped the world. Arkvulcan Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1490,7 +3899,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Guardian Arkveld head armor. A host of heightened senses make up for the narrow view. G. Arkveld Mail",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1499,7 +3914,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Mizutsune head armor. A wedding headdress for only the most elegant and refined wedding ceremonies. Mizutsune Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1508,7 +3929,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Head armor imbued with Zoh Shia's soul. Fights the urge to eradicate all. Numinous Shroud α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1517,7 +3944,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Blossomdance Ticket headgear. It embodies the vigor of resplendent warriors from spring sunrises past. Sakuratide Robe α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1526,7 +3959,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "A helmet made from Lagiacrus parts. Its deep azure reflects the glory of besting the Lord of the Seas. Lagiacrus Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1535,7 +3974,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Seregios head armor. A shining army adorned with a thousand merits returns home, resplendent in the morning sun. Regios Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1544,7 +3989,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Flamefete Ticket headgear. Its flames dance in the midsummer heat, flames rising ever higher. Afi Top α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1553,7 +4004,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Dreamspell Ticket headgear. Its crown-like silhouette is illuminated by the autumn moon—and wreathed in fear. Dreamwalker Mail α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1571,7 +4028,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Head armor worn by a dark knight. Shadowy proof of those who have tamed the darkness within. Bale Cuirass α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {
@@ -1580,7 +4043,13 @@
   "nameEs": "",
   "descEn": "/div>",
   "descEs": "",
-  "levels": [],
+  "levels": [
+   {
+    "level": 1,
+    "descEn": "Head armor fashioned after the apex of autonomous weaponry. Observation begets evolution. Omega Suit α",
+    "descEs": ""
+   }
+  ],
   "colorIndex": 0
  },
  {

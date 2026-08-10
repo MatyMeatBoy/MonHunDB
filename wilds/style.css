@@ -568,6 +568,13 @@ body {
   display: flex;
   gap: 0.5rem;
 }
+.news-item-image img {
+  width: 72px;
+  height: 76px;
+  object-fit: contain;
+  background: var(--bg-panel-alt);
+  border-radius: 6px;
+}
 
 .news-preview-svg {
   width: 72px;
@@ -853,6 +860,23 @@ body {
   align-items: start;
 }
 
+/* Wilds decoration sources: always exactly 2 (the two orb types), give each
+   half the row instead of the cramped auto-fill minmax(190px) columns. */
+.decoration-sources-list {
+  grid-template-columns: 1fr 1fr;
+}
+.decoration-sources-list li {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  padding: 0.7rem 0.9rem;
+}
+.decoration-sources-list .material-icon.deco-mask-icon--sm { margin-right: 0; }
+
+@media (max-width: 560px) {
+  .decoration-sources-list { grid-template-columns: 1fr; }
+}
+
 @media (max-width: 560px) {
   .ailments-list { grid-template-columns: 1fr; }
 }
@@ -1082,6 +1106,40 @@ body {
 }
 .item-mask-icon-r { z-index: 2; }
 .item-mask-icon-a { z-index: 1; background-color: #000; }
+
+/* Wilds decoration icons: grayscale gem art (shading/facets baked in) tinted
+   via mix-blend-mode so the linework stays visible instead of flattening to
+   one solid color like a plain alpha mask would. */
+.material-icon.deco-mask-icon {
+  position: relative;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.deco-mask-icon-tint {
+  position: absolute;
+  inset: 0;
+  mix-blend-mode: multiply;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+.decoration-card .material-icon.deco-mask-icon { width: 28px; height: 28px; flex: 0 0 auto; }
+.decoration-detail-header .material-icon.deco-mask-icon { width: 42px; height: 42px; }
+.deco-mask-icon-badge {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  width: 40%;
+  height: 40%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.stat-list .material-icon.deco-mask-icon--sm { width: 20px; height: 20px; margin-right: 0.5rem; }
 
 .no-data {
   color: var(--text-dim);
@@ -1471,6 +1529,29 @@ body {
   border-radius: 6px;
 }
 .armor-set-thumb-sm { width: 32px; height: 32px; object-fit: contain; flex: 0 0 auto; border-radius: 6px; background: var(--bg-panel); }
+
+/* Wilds-only: a set that comes in both an alpha (a) and beta (ss) tier
+   renders as one card, split in half at the bottom into two buttons -- same
+   base gear, pick which skill loadout to open. */
+.armor-set-pair-buttons {
+  display: flex;
+  margin-top: 0.6rem;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+.armor-set-pair-buttons button {
+  flex: 1 1 50%;
+  padding: 0.45rem 0;
+  background: var(--bg-panel-alt);
+  color: var(--text);
+  border: none;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.armor-set-pair-buttons button:first-child { border-right: 1px solid var(--border); }
+.armor-set-pair-buttons button:hover { background: var(--accent); color: var(--bg); }
 
 .armor-set-detail-header {
   display: flex;

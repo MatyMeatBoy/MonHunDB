@@ -12,7 +12,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "attack-jewel-ii-2",
@@ -27,7 +29,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "attack-jewel-iii-3",
@@ -42,7 +46,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "furor-jewel-2",
@@ -57,7 +63,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Ancient Orb - Armor (1.3333%)"
  },
  {
   "id": "counterattack-jewel-3",
@@ -72,7 +80,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Armor (1.3333%)"
  },
  {
   "id": "guardian-jewel-1",
@@ -87,7 +97,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "guardian-jewel-ii-2",
@@ -102,7 +114,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "guardian-jewel-iii-3",
@@ -117,7 +131,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "guardianblaze-jwl-3",
@@ -136,7 +152,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "guardianstream-jwl-3",
@@ -155,7 +173,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "guardianfrost-jwl-3",
@@ -174,7 +194,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "guardianbolt-jwl-3",
@@ -193,7 +215,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "guardiandragon-jwl-3",
@@ -212,7 +236,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "guardianhandicraft-jwl-3",
@@ -231,7 +257,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "guardianironwall-jwl-3",
@@ -250,7 +278,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "flawless-jewel-2",
@@ -265,7 +295,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Ancient Orb - Armor (1.3333%)"
  },
  {
   "id": "counter-jewel-2",
@@ -280,7 +312,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "expert-jewel-1",
@@ -295,7 +329,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "expert-jewel-ii-2",
@@ -310,7 +346,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "expert-jewel-iii-3",
@@ -325,7 +363,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "critical-jewel-1",
@@ -340,7 +380,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "critical-jewel-ii-2",
@@ -355,7 +397,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "critical-jewel-iii-3",
@@ -370,7 +414,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "tenderizer-jewel-3",
@@ -385,7 +431,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Armor (1.0638%)"
  },
  {
   "id": "draw-jewel-1",
@@ -400,7 +448,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "draw-jewel-ii-2",
@@ -415,7 +465,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "draw-jewel-iii-3",
@@ -430,7 +482,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "mighty-jewel-2",
@@ -445,7 +499,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "blaze-jewel-1",
@@ -460,7 +516,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "blaze-jewel-ii-2",
@@ -475,7 +533,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "blaze-jewel-iii-3",
@@ -490,7 +550,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "blazeguardian-jewel-3",
@@ -509,7 +571,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "blazecrit-elem-jwl-3",
@@ -528,7 +592,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "blazehandicraft-jwl-3",
@@ -547,7 +613,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "blazerzr-sharp-jwl-3",
@@ -566,7 +634,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "blazeprecise-jewel-3",
@@ -585,7 +655,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "blazeopener-jewel-3",
@@ -604,7 +676,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "blazebandolier-jwl-3",
@@ -623,7 +697,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "blazefocus-jewel-3",
@@ -642,7 +718,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "blazeenhancer-jwl-3",
@@ -661,7 +739,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "blazeko-jewel-3",
@@ -680,7 +760,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "blazequickswitch-jwl-3",
@@ -699,7 +781,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "blazeironwall-jwl-3",
@@ -718,7 +802,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "blazeshield-jewel-3",
@@ -737,7 +823,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "stream-jewel-1",
@@ -752,7 +840,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "stream-jewel-ii-2",
@@ -767,7 +857,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "stream-jewel-iii-3",
@@ -782,7 +874,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "streamguardian-jwl-3",
@@ -801,7 +895,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "streamcrit-elem-jwl-3",
@@ -820,7 +916,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "streamhandicraft-jwl-3",
@@ -839,7 +937,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "streamrzr-sharp-jwl-3",
@@ -858,7 +958,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "streamprecise-jewel-3",
@@ -877,7 +979,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "streamopener-jwl-3",
@@ -896,7 +1000,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "streambandolier-jwl-3",
@@ -915,7 +1021,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "streamfocus-jewel-3",
@@ -934,7 +1042,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "streamenhancer-jwl-3",
@@ -953,7 +1063,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "streamko-jewel-3",
@@ -972,7 +1084,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "streamquickswitch-jwl-3",
@@ -991,7 +1105,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "streamironwall-jwl-3",
@@ -1010,7 +1126,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "streamshield-jewel-3",
@@ -1029,7 +1147,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "frost-jewel-1",
@@ -1044,7 +1164,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "frost-jewel-ii-2",
@@ -1059,7 +1181,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "frost-jewel-iii-3",
@@ -1074,7 +1198,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "frostguardian-jwl-3",
@@ -1093,7 +1219,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "frostcrit-elem-jwl-3",
@@ -1112,7 +1240,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "frosthandicraft-jwl-3",
@@ -1131,7 +1261,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "frostrzr-sharp-jwl-3",
@@ -1150,7 +1282,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "frostprecise-jewel-3",
@@ -1169,7 +1303,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "frostopener-jewel-3",
@@ -1188,7 +1324,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "frostbandolier-jwl-3",
@@ -1207,7 +1345,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "frostfocus-jewel-3",
@@ -1226,7 +1366,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "frostenhancer-jwl-3",
@@ -1245,7 +1387,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "frostko-jewel-3",
@@ -1264,7 +1408,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "frostquickswitch-jwl-3",
@@ -1283,7 +1429,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "frostironwall-jwl-3",
@@ -1302,7 +1450,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "frostshield-jewel-3",
@@ -1321,7 +1471,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "bolt-jewel-1",
@@ -1336,7 +1488,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "bolt-jewel-ii-2",
@@ -1351,7 +1505,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "bolt-jewel-iii-3",
@@ -1366,7 +1522,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "boltguardian-jwl-3",
@@ -1385,7 +1543,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "boltcrit-elem-jwl-3",
@@ -1404,7 +1564,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "bolthandicraft-jwl-3",
@@ -1423,7 +1585,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "boltrzr-sharp-jwl-3",
@@ -1442,7 +1606,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "boltprecise-jewel-3",
@@ -1461,7 +1627,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "boltopener-jewel-3",
@@ -1480,7 +1648,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "boltbandolier-jwl-3",
@@ -1499,7 +1669,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "boltfocus-jewel-3",
@@ -1518,7 +1690,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "boltenhancer-jwl-3",
@@ -1537,7 +1711,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "boltko-jewel-3",
@@ -1556,7 +1732,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "boltquickswitch-jwl-3",
@@ -1575,7 +1753,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "boltironwall-jewel-3",
@@ -1594,7 +1774,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "boltshield-jewel-3",
@@ -1613,7 +1795,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "dragon-jewel-1",
@@ -1628,7 +1812,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "dragon-jewel-ii-2",
@@ -1643,7 +1829,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "dragon-jewel-iii-3",
@@ -1658,7 +1846,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "dragonguardian-jwl-3",
@@ -1677,7 +1867,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "dragoncrit-elem-jwl-3",
@@ -1696,7 +1888,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "dragonhandicraft-jwl-3",
@@ -1715,7 +1909,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "dragonrzr-sharp-jwl-3",
@@ -1734,7 +1930,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "dragonprecise-jewel-3",
@@ -1753,7 +1951,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "dragonopener-jewel-3",
@@ -1772,7 +1972,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "dragonbandolier-jwl-3",
@@ -1791,7 +1993,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "dragonfocus-jewel-3",
@@ -1810,7 +2014,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "dragonenhancer-jwl-3",
@@ -1829,7 +2035,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "dragonko-jewel-3",
@@ -1848,7 +2056,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "dragonquickswitch-jwl-3",
@@ -1867,7 +2077,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "dragonironwall-jwl-3",
@@ -1886,7 +2098,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "dragonshield-jewel-3",
@@ -1905,7 +2119,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "venom-jewel-1",
@@ -1920,7 +2136,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "venom-jewel-ii-2",
@@ -1935,7 +2153,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "venom-jewel-iii-3",
@@ -1950,7 +2170,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "paralyzer-jewel-1",
@@ -1965,7 +2187,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "paralyzer-jewel-ii-2",
@@ -1980,7 +2204,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "paralyzer-jwl-iii-3",
@@ -1995,7 +2221,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "sleep-jewel-1",
@@ -2010,7 +2238,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "sleep-jewel-ii-2",
@@ -2025,7 +2255,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "sleep-jewel-iii-3",
@@ -2040,7 +2272,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "blast-jewel-1",
@@ -2055,7 +2289,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "blast-jewel-ii-2",
@@ -2070,7 +2306,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "blast-jewel-iii-3",
@@ -2085,7 +2323,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "crit-element-jewel-1",
@@ -2100,7 +2340,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "crit-element-jewel-ii-2",
@@ -2115,7 +2357,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "crit-elem-jwl-iii-3",
@@ -2130,7 +2374,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "crit-elemblaze-jwl-3",
@@ -2149,7 +2395,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "crit-elemstream-jwl-3",
@@ -2168,7 +2416,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "crit-elemfrost-jwl-3",
@@ -2187,7 +2437,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "crit-elembolt-jwl-3",
@@ -2206,7 +2458,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "crit-elemdragon-jwl-3",
@@ -2225,7 +2479,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "crit-elemhandicraft-jwl-3",
@@ -2244,7 +2500,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "crit-elementprecise-jwl-3",
@@ -2263,7 +2521,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "crit-elemko-jewel-3",
@@ -2282,7 +2542,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "crit-elemironwall-jwl-3",
@@ -2301,7 +2563,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "crit-status-jewel-1",
@@ -2316,7 +2580,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "crit-status-jewel-ii-2",
@@ -2331,7 +2597,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "crit-stat-jwl-iii-3",
@@ -2346,7 +2614,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "crit-stathandicraft-jwl-3",
@@ -2365,7 +2635,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "crit-statprecise-jwl-3",
@@ -2384,7 +2656,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "crit-statusko-jwl-3",
@@ -2403,7 +2677,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "crit-statironwall-jwl-3",
@@ -2422,7 +2698,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "charge-jewel-1",
@@ -2437,7 +2715,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "charge-jewel-ii-2",
@@ -2452,7 +2732,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "charge-jewel-iii-3",
@@ -2467,7 +2749,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "chargehandicraft-jwl-3",
@@ -2486,7 +2770,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "chargeko-jewel-3",
@@ -2505,7 +2791,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "handicraft-jewel-1",
@@ -2520,7 +2808,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "handicraft-jewel-ii-2",
@@ -2535,7 +2825,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "handicraft-jwl-iii-3",
@@ -2550,7 +2842,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "razor-sharp-jewel-1",
@@ -2565,7 +2859,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "razor-sharp-jewel-ii-2",
@@ -2580,7 +2876,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "rzr-sharp-jwl-iii-3",
@@ -2595,7 +2893,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "rzr-sharpblaze-jwl-3",
@@ -2614,7 +2914,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "rzr-sharpstream-jwl-3",
@@ -2633,7 +2935,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "rzr-sharpfrost-jwl-3",
@@ -2652,7 +2956,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "rzr-sharpbolt-jwl-3",
@@ -2671,7 +2977,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "rzr-sharpdragon-jwl-3",
@@ -2690,7 +2998,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "rzr-sharphandicraft-jwl-3",
@@ -2709,7 +3019,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "razor-sharpko-jwl-3",
@@ -2728,7 +3040,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "rzr-sharpironwall-jwl-3",
@@ -2747,7 +3061,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "sharp-jewel-1",
@@ -2762,7 +3078,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "sharp-jewel-ii-2",
@@ -2777,7 +3095,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "sharp-jewel-iii-3",
@@ -2792,7 +3112,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "minds-eye-jewel-1",
@@ -2807,7 +3129,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "minds-eye-jewel-ii-2",
@@ -2822,7 +3146,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "minds-eye-jwl-iii-3",
@@ -2837,7 +3163,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "blunt-jewel-1",
@@ -2852,7 +3180,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "blunt-jewel-ii-2",
@@ -2867,7 +3197,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "blunt-jewel-iii-3",
@@ -2882,7 +3214,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "mastery-jewel-3",
@@ -2897,7 +3231,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "forceshot-jewel-3",
@@ -2912,7 +3248,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "pierce-jewel-3",
@@ -2927,7 +3265,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "spread-jewel-3",
@@ -2942,7 +3282,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "precise-jewel-1",
@@ -2957,7 +3299,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "precise-jewel-ii-2",
@@ -2972,7 +3316,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "precise-jewel-iii-3",
@@ -2987,7 +3333,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "salvo-jewel-3",
@@ -3002,7 +3350,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "opener-jewel-1",
@@ -3017,7 +3367,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "opener-jewel-ii-2",
@@ -3032,7 +3384,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "opener-jewel-iii-3",
@@ -3047,7 +3401,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "openerblaze-jewel-3",
@@ -3066,7 +3422,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "openerstream-jwl-3",
@@ -3085,7 +3443,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "openerfrost-jewel-3",
@@ -3104,7 +3464,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "openerbolt-jewel-3",
@@ -3123,7 +3485,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "openerdragon-jewel-3",
@@ -3142,7 +3506,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "openerprecise-jewel-3",
@@ -3161,7 +3527,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "openerironwall-jwl-3",
@@ -3180,7 +3548,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "bandolier-jewel-1",
@@ -3195,7 +3565,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "bandolier-jewel-ii-2",
@@ -3210,7 +3582,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "bandolier-jewel-iii-3",
@@ -3225,7 +3599,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "bandolierblaze-jwl-3",
@@ -3244,7 +3620,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "bandolierstream-jwl-3",
@@ -3263,7 +3641,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "bandolierfrost-jwl-3",
@@ -3282,7 +3662,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "bandolierbolt-jwl-3",
@@ -3301,7 +3683,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "bandolierdragon-jwl-3",
@@ -3320,7 +3704,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "bandolierprecise-jwl-3",
@@ -3339,7 +3725,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "bandolierironwall-jwl-3",
@@ -3358,7 +3746,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "trueshot-jewel-1",
@@ -3373,7 +3763,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "trueshot-jewel-ii-2",
@@ -3388,7 +3780,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "poisoncoat-jewel-2",
@@ -3403,7 +3797,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "paracoat-jewel-3",
@@ -3418,7 +3814,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "sleepcoat-jewel-3",
@@ -3433,7 +3831,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "blastcoat-jewel-2",
@@ -3448,7 +3848,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "draincoat-jewel-2",
@@ -3463,7 +3865,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "defense-jewel-1",
@@ -3478,7 +3882,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "protection-jewel-1",
@@ -3493,7 +3899,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "fire-res-jewel-1",
@@ -3508,7 +3916,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "water-res-jewel-1",
@@ -3523,7 +3933,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "thunder-res-jewel-1",
@@ -3538,7 +3950,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "ice-res-jewel-1",
@@ -3553,7 +3967,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "dragon-res-jewel-1",
@@ -3568,7 +3984,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "antidote-jewel-1",
@@ -3583,7 +4001,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "antipara-jewel-1",
@@ -3598,7 +4018,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "pep-jewel-1",
@@ -3613,7 +4035,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "def-lock-jewel-1",
@@ -3628,7 +4052,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "steadfast-jewel-1",
@@ -3643,7 +4069,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "suture-jewel-1",
@@ -3658,7 +4086,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "escape-jewel-1",
@@ -3673,7 +4103,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "antiblast-jewel-1",
@@ -3688,7 +4120,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "perfume-jewel-1",
@@ -3703,7 +4137,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "adapt-jewel-1",
@@ -3718,7 +4154,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "medicine-jewel-1",
@@ -3733,7 +4171,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "recovery-jewel-1",
@@ -3748,7 +4188,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "survival-jewel-1",
@@ -3763,7 +4205,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "physique-jewel-1",
@@ -3778,7 +4222,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "refresh-jewel-2",
@@ -3793,7 +4239,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "sprinter-jewel-1",
@@ -3808,7 +4256,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "hungerless-jewel-1",
@@ -3823,7 +4273,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "challenger-jewel-3",
@@ -3838,7 +4290,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Armor (1.0638%)"
  },
  {
   "id": "throttle-jewel-3",
@@ -3853,7 +4307,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Armor (1.3333%)"
  },
  {
   "id": "potential-jewel-2",
@@ -3868,7 +4324,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "chain-jewel-3",
@@ -3883,7 +4341,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Armor (1.0638%)"
  },
  {
   "id": "foray-jewel-3",
@@ -3898,7 +4358,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Armor (1.3333%)"
  },
  {
   "id": "flayer-jewel-3",
@@ -3913,7 +4375,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Armor (1.0638%)"
  },
  {
   "id": "focus-jewel-1",
@@ -3928,7 +4392,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "focus-jewel-ii-2",
@@ -3943,7 +4409,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "focus-jewel-iii-3",
@@ -3958,7 +4426,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "focusblaze-jewel-3",
@@ -3977,7 +4447,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "focusstream-jewel-3",
@@ -3996,7 +4468,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "focusfrost-jewel-3",
@@ -4015,7 +4489,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "focusbolt-jwl-3",
@@ -4034,7 +4510,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "focusdragon-jewel-3",
@@ -4053,7 +4531,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "focushandicraft-jewel-3",
@@ -4072,7 +4552,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "focusprecise-jewel-3",
@@ -4091,7 +4573,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "focusko-jewel-3",
@@ -4110,7 +4594,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "enhancer-jewel-1",
@@ -4125,7 +4611,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "enhancer-jewel-ii-2",
@@ -4140,7 +4628,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "enhancer-jewel-iii-3",
@@ -4155,7 +4645,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "enhancerblaze-jewel-3",
@@ -4174,7 +4666,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "enhancerstream-jwl-3",
@@ -4193,7 +4687,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "enhancerfrost-jwl-3",
@@ -4212,7 +4708,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "enhancerbolt-jewel-3",
@@ -4231,7 +4729,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "enhancerdragon-jwl-3",
@@ -4250,7 +4750,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "enhancerhandicraft-jwl-3",
@@ -4269,7 +4771,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "gambit-jewel-1",
@@ -4284,7 +4788,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "gambit-jewel-ii-2",
@@ -4299,7 +4805,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "gambit-jewel-iii-3",
@@ -4314,7 +4822,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "gambithandicraft-jwl-3",
@@ -4333,7 +4843,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "gambitko-jewel-3",
@@ -4352,7 +4864,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "gambitironwall-jwl-3",
@@ -4371,7 +4885,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "ko-jewel-1",
@@ -4386,7 +4902,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "ko-jewel-ii-2",
@@ -4401,7 +4919,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "ko-jewel-iii-3",
@@ -4416,7 +4936,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "drain-jewel-1",
@@ -4431,7 +4953,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "drain-jewel-ii-2",
@@ -4446,7 +4970,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "drain-jewel-iii-3",
@@ -4461,7 +4987,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "artillery-jewel-1",
@@ -4476,7 +5004,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "artillery-jewel-ii-2",
@@ -4491,7 +5021,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "artillery-jewel-iii-3",
@@ -4506,7 +5038,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "quickswitch-jewel-1",
@@ -4521,7 +5055,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "quickswitch-jewel-ii-2",
@@ -4536,7 +5072,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "quickswitch-jewel-iii-3",
@@ -4551,7 +5089,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "quickswitchblaze-jwl-3",
@@ -4570,7 +5110,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "quickswitchstream-jwl-3",
@@ -4589,7 +5131,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "quickswitchfrost-jwl-3",
@@ -4608,7 +5152,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "quickswitchbolt-jwl-3",
@@ -4627,7 +5173,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "quickswitchdragon-jwl-3",
@@ -4646,7 +5194,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "quickswitchhandicraft-jwl-3",
@@ -4665,7 +5215,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "quickswitchko-jwl-3",
@@ -4684,7 +5236,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "quickswitchironwall-jwl-3",
@@ -4703,7 +5257,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Sword (1.7241%)"
  },
  {
   "id": "destroyer-jewel-2",
@@ -4718,7 +5274,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "phoenix-jewel-2",
@@ -4733,7 +5291,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 7,
+  "sources": "Ancient Orb - Armor (1.3333%)"
  },
  {
   "id": "ambush-jewel-2",
@@ -4748,7 +5308,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "sane-jewel-1",
@@ -4763,7 +5325,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Armor (1.3333%)"
  },
  {
   "id": "sonorous-jewel-2",
@@ -4778,7 +5342,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "sonorousattack-jwl-3",
@@ -4797,7 +5363,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "sonorousexpert-jwl-3",
@@ -4816,7 +5384,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "sonorousdraw-jwl-3",
@@ -4835,7 +5405,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "sonoroushandicraft-jwl-3",
@@ -4854,7 +5426,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "sonorousko-jewel-3",
@@ -4873,7 +5447,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "charge-up-jewel-2",
@@ -4888,7 +5464,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "charge-upattack-jwl-3",
@@ -4907,7 +5485,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "charge-upexpert-jwl-3",
@@ -4926,7 +5506,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "charge-updraw-jwl-3",
@@ -4945,7 +5527,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "charge-uphandicraft-jwl-3",
@@ -4964,7 +5548,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "charge-upko-jewel-3",
@@ -4983,7 +5569,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "flight-jewel-2",
@@ -4998,7 +5586,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "flightattack-jwl-3",
@@ -5017,7 +5607,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "flightexpert-jewel-3",
@@ -5036,7 +5628,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "flightdraw-jewel-3",
@@ -5055,7 +5649,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "flighthandicraft-jwl-3",
@@ -5074,7 +5670,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "growth-jewel-1",
@@ -5089,7 +5687,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "poison-jewel-2",
@@ -5104,7 +5704,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "poisonattack-jewel-3",
@@ -5123,7 +5725,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "poisonexpert-jwl-3",
@@ -5142,7 +5746,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "poisondraw-jewel-3",
@@ -5161,7 +5767,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "poisonhandicraft-jwl-3",
@@ -5180,7 +5788,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "poisonprecise-jwl-3",
@@ -5199,7 +5809,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "poisonko-jewel-3",
@@ -5218,7 +5830,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "poisonironwall-jwl-3",
@@ -5237,7 +5851,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "ironwall-jewel-1",
@@ -5252,7 +5868,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "ironwall-jewel-ii-2",
@@ -5267,7 +5885,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "ironwall-jewel-iii-3",
@@ -5282,7 +5902,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "evasion-jewel-2",
@@ -5297,7 +5919,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "jumping-jewel-2",
@@ -5312,7 +5936,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "earplugs-jewel-2",
@@ -5327,7 +5953,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Ancient Orb - Armor (1.3333%)"
  },
  {
   "id": "shield-jewel-1",
@@ -5342,7 +5970,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "shield-jewel-ii-2",
@@ -5357,7 +5987,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "shield-jewel-iii-3",
@@ -5372,7 +6004,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "shieldblaze-jewel-3",
@@ -5391,7 +6025,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "shieldstream-jewel-3",
@@ -5410,7 +6046,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "shieldfrost-jewel-3",
@@ -5429,7 +6067,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "shieldbolt-jewel-3",
@@ -5448,7 +6088,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "shielddragon-jwl-3",
@@ -5467,7 +6109,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "shieldhandicraft-jwl-3",
@@ -5486,7 +6130,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "shieldironwall-jwl-3",
@@ -5505,7 +6151,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 6,
+  "sources": "Ancient Orb - Sword (1.0638%)"
  },
  {
   "id": "sheath-jewel-1",
@@ -5520,7 +6168,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "wind-resist-jewel-1",
@@ -5535,7 +6185,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "footing-jewel-1",
@@ -5550,7 +6202,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "brace-jewel-1",
@@ -5565,7 +6219,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "intimidator-jewel-1",
@@ -5580,7 +6236,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "gobbler-jewel-1",
@@ -5595,7 +6253,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "magazine-jewel-1",
@@ -5610,7 +6270,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "magazine-jewel-ii-2",
@@ -5625,7 +6287,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "magazineattack-jwl-3",
@@ -5644,7 +6308,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "magazineexpert-jwl-3",
@@ -5663,7 +6329,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "magazinedraw-jwl-3",
@@ -5682,7 +6350,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "magazinehandicraft-jwl-3",
@@ -5701,7 +6371,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "magazineironwall-jwl-3",
@@ -5720,7 +6392,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "mirewalker-jewel-1",
@@ -5735,7 +6409,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "shockproof-jewel-1",
@@ -5750,7 +6426,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Can only be obtained via melding or from Gemma after unlocking decoration crafting."
  },
  {
   "id": "dive-jewel-1",
@@ -5765,7 +6443,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "leap-jewel-1",
@@ -5780,7 +6460,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "climber-jewel-1",
@@ -5795,7 +6477,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "friendship-jewel-1",
@@ -5810,7 +6494,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "maintenance-jewel-2",
@@ -5825,7 +6511,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "bomber-jewel-1",
@@ -5840,7 +6528,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "fungiform-jewel-2",
@@ -5855,7 +6545,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Armor (1.6949%), Ancient Orb - Armor (1.6949%)"
  },
  {
   "id": "enduring-jewel-1",
@@ -5870,7 +6562,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "satiated-jewel-1",
@@ -5885,7 +6579,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "grinder-jewel-1",
@@ -5900,7 +6596,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Sword (1.3514%), Glowing Orb - Sword (1.3514%)"
  },
  {
   "id": "grinder-jewel-ii-2",
@@ -5915,7 +6613,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 4,
+  "sources": "Glowing Orb - Sword (1.6949%), Ancient Orb - Sword (1.6949%)"
  },
  {
   "id": "grinderattack-jewel-3",
@@ -5934,7 +6634,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "grinderexpert-jewel-3",
@@ -5953,7 +6655,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "grinderdraw-jewel-3",
@@ -5972,7 +6676,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "grinderhandicraft-jwl-3",
@@ -5991,7 +6697,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "grinderko-jewel-3",
@@ -6010,7 +6718,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "grinderironwall-jewel-3",
@@ -6029,7 +6739,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 5,
+  "sources": "Ancient Orb - Sword (1.3333%)"
  },
  {
   "id": "flash-jewel-1",
@@ -6044,7 +6756,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "botany-jewel-1",
@@ -6059,7 +6773,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "geology-jewel-1",
@@ -6074,7 +6790,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "specimen-jewel-1",
@@ -6089,7 +6807,9 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  },
  {
   "id": "ranger-jewel-1",
@@ -6104,6 +6824,8 @@
     "level": 1
    }
   ],
-  "materials": []
+  "materials": [],
+  "rarity": 3,
+  "sources": "Mystery Orb - Armor (1.3514%), Glowing Orb - Armor (1.3514%)"
  }
 ]

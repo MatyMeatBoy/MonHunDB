@@ -1,3 +1,14 @@
+## Wilds — casos de datos de la sesión grande de scraping (2026-08-10)
+
+Ver `wilds/HANDOFF.md` para el detalle completo de fuentes/cobertura. Notas de calidad específicas:
+
+- **Ceratonoth (Male)/(Female) fusionados en uno solo** — confirmado por dato, no a ojo: `weaknesses`, `locations`, `hitzones` y `materials` eran 100% idénticos entre ambas entradas, solo cambiaba nombre e imagen. Se conservó la versión Male como base.
+- **"Dalthydon (Livestock)" eliminado** — duplicado exacto de "Dalthydon" (mismo caso que arriba), no una variante real.
+- **Nombres "Alpha"/"Beta" → α/β**: confirmado correcto contra `monsterhunterwiki.org`, que ya usa esta convención nativamente en sus URLs (`Ajarakan_%CE%B1_Set` = α). No es una decisión estética nuestra, es como aparece en el juego.
+- **Materiales de armadura son a nivel de SET, no por pieza**: `armor_sets.json[].materials` viene de la sección "Total Forging Materials" de `monsterhunterwiki.org` (agregado del set completo). `armor_pieces.json[].materials` quedó vacío a propósito — no se consiguió desglose por pieza individual, no inventar un reparto proporcional.
+- **`weapons.json` sin árbol de mejora**: `attack`/`rarity`/`materials` son reales (Fextralife, tabla por tipo), pero no hay `prevId`/`nextId` ni dato de cuál versión es "final" — el catálogo muestra las 1146 armas sin filtrar. Cualquier intento de inferir el árbol sin una fuente real sería inventar un dato, no hacerlo.
+- **Íconos de skills/decoraciones en Wilds NO son el sistema de máscara+color de Rise** — cada skill tiene un ícono único de verdad (confirmado por el usuario, que jugó el juego). Fuente: `monsterhunterwilds.wiki.fextralife.com` (Decorations/Skills/Group_Skills/Set_Bonus_Skills) para skills, `monsterhunterwiki.org/wiki/MHWilds/Decorations` para decoraciones (cobertura 361/361, mejor que la fuente de Fextralife que solo cubría 72/361).
+
 ## Decoraciones / Adornos (2026-08-06)
 
 Se agregó una sección completa nueva, separada de los monstruos: **Adornos** (botón en el header, junto al buscador). Cubre las 243 decoraciones de MH Rise: Sunbreak (accesorios de armadura que otorgan una habilidad al equiparlos).

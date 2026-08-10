@@ -1,0 +1,1807 @@
+{
+ "Adapt Jewel [1]": {
+  "level": 1,
+  "color": "#818182",
+  "badge": "armor"
+ },
+ "Antiblast Jewel [1]": {
+  "level": 1,
+  "color": "#E16D44",
+  "badge": "armor"
+ },
+ "Antidote Jewel [1]": {
+  "level": 1,
+  "color": "#9788D1",
+  "badge": "armor"
+ },
+ "Antipara Jewel [1]": {
+  "level": 1,
+  "color": "#D9C357",
+  "badge": "armor"
+ },
+ "Artillery Jewel [1]": {
+  "level": 1,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "Attack Jewel [1]": {
+  "level": 1,
+  "color": "#E68A94",
+  "badge": "sword"
+ },
+ "Bandolier Jewel [1]": {
+  "level": 1,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Blast Jewel [1]": {
+  "level": 1,
+  "color": "#E16D44",
+  "badge": "sword"
+ },
+ "Blaze Jewel [1]": {
+  "level": 1,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blunt Jewel [1]": {
+  "level": 1,
+  "color": "#E6E600",
+  "badge": "sword"
+ },
+ "Bolt Jewel [1]": {
+  "level": 1,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Bomber Jewel [1]": {
+  "level": 1,
+  "color": "#E16D44",
+  "badge": "armor"
+ },
+ "Botany Jewel [1]": {
+  "level": 1,
+  "color": "#83B239",
+  "badge": "armor"
+ },
+ "Brace Jewel [1]": {
+  "level": 1,
+  "color": "#818182",
+  "badge": "armor"
+ },
+ "Charge Jewel [1]": {
+  "level": 1,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Climber Jewel [1]": {
+  "level": 1,
+  "color": "#D9CAAD",
+  "badge": "armor"
+ },
+ "Crit Element Jewel [1]": {
+  "level": 1,
+  "color": "#4C4CD9",
+  "badge": "sword"
+ },
+ "Crit Status Jewel [1]": {
+  "level": 1,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Critical Jewel [1]": {
+  "level": 1,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Def Lock Jewel [1]": {
+  "level": 1,
+  "color": "#D9CAAD",
+  "badge": "armor"
+ },
+ "Defense Jewel [1]": {
+  "level": 1,
+  "color": "#B38F48",
+  "badge": "armor"
+ },
+ "Dive Jewel [1]": {
+  "level": 1,
+  "color": "#4EC3E5",
+  "badge": "armor"
+ },
+ "Dragon Jewel [1]": {
+  "level": 1,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Dragon Res Jewel [1]": {
+  "level": 1,
+  "color": "#BF3054",
+  "badge": "armor"
+ },
+ "Drain Jewel [1]": {
+  "level": 1,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Draw Jewel [1]": {
+  "level": 1,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Enduring Jewel [1]": {
+  "level": 1,
+  "color": "#D9CAAD",
+  "badge": "armor"
+ },
+ "Enhancer Jewel [1]": {
+  "level": 1,
+  "color": "#E6E600",
+  "badge": "sword"
+ },
+ "Escape Jewel [1]": {
+  "level": 1,
+  "color": "#E9EAEB",
+  "badge": "armor"
+ },
+ "Expert Jewel [1]": {
+  "level": 1,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Fire Res Jewel [1]": {
+  "level": 1,
+  "color": "#E15057",
+  "badge": "armor"
+ },
+ "Flash Jewel [1]": {
+  "level": 1,
+  "color": "#D9C357",
+  "badge": "armor"
+ },
+ "Focus Jewel [1]": {
+  "level": 1,
+  "color": "#B38F48",
+  "badge": "sword"
+ },
+ "Footing Jewel [1]": {
+  "level": 1,
+  "color": "#818182",
+  "badge": "armor"
+ },
+ "Friendship Jewel [1]": {
+  "level": 1,
+  "color": "#E9EAEB",
+  "badge": "armor"
+ },
+ "Frost Jewel [1]": {
+  "level": 1,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Gambit Jewel [1]": {
+  "level": 1,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Geology Jewel [1]": {
+  "level": 1,
+  "color": "#D9CAAD",
+  "badge": "armor"
+ },
+ "Gobbler Jewel [1]": {
+  "level": 1,
+  "color": "#B38F48",
+  "badge": "armor"
+ },
+ "Grinder Jewel [1]": {
+  "level": 1,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Growth Jewel [1]": {
+  "level": 1,
+  "color": "#9788D1",
+  "badge": "armor"
+ },
+ "Guardian Jewel [1]": {
+  "level": 1,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Handicraft Jewel [1]": {
+  "level": 1,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Hungerless Jewel [1]": {
+  "level": 1,
+  "color": "#B38F48",
+  "badge": "armor"
+ },
+ "Ice Res Jewel [1]": {
+  "level": 1,
+  "color": "#E9EAEB",
+  "badge": "armor"
+ },
+ "Intimidator Jewel [1]": {
+  "level": 1,
+  "color": "#E9EAEB",
+  "badge": "armor"
+ },
+ "Ironwall Jewel [1]": {
+  "level": 1,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "KO Jewel [1]": {
+  "level": 1,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Leap Jewel [1]": {
+  "level": 1,
+  "color": "#4C4CD9",
+  "badge": "armor"
+ },
+ "Magazine Jewel [1]": {
+  "level": 1,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "Medicine Jewel [1]": {
+  "level": 1,
+  "color": "#47B267",
+  "badge": "armor"
+ },
+ "Mind's Eye Jewel [1]": {
+  "level": 1,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Mirewalker Jewel [1]": {
+  "level": 1,
+  "color": "#818182",
+  "badge": "armor"
+ },
+ "Opener Jewel [1]": {
+  "level": 1,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Paralyzer Jewel [1]": {
+  "level": 1,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Pep Jewel [1]": {
+  "level": 1,
+  "color": "#4EC3E5",
+  "badge": "armor"
+ },
+ "Perfume Jewel [1]": {
+  "level": 1,
+  "color": "#B38F48",
+  "badge": "armor"
+ },
+ "Physique Jewel [1]": {
+  "level": 1,
+  "color": "#B38F48",
+  "badge": "armor"
+ },
+ "Precise Jewel [1]": {
+  "level": 1,
+  "color": "#E68A94",
+  "badge": "sword"
+ },
+ "Protection Jewel [1]": {
+  "level": 1,
+  "color": "#6687FF",
+  "badge": "armor"
+ },
+ "Quickswitch Jewel [1]": {
+  "level": 1,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Ranger Jewel [1]": {
+  "level": 1,
+  "color": "#D9CAAD",
+  "badge": "armor"
+ },
+ "Razor Sharp Jewel [1]": {
+  "level": 1,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Recovery Jewel [1]": {
+  "level": 1,
+  "color": "#47B267",
+  "badge": "armor"
+ },
+ "Sane Jewel [1]": {
+  "level": 1,
+  "color": "#9788D1",
+  "badge": "armor"
+ },
+ "Satiated Jewel [1]": {
+  "level": 1,
+  "color": "#D9CAAD",
+  "badge": "armor"
+ },
+ "Sharp Jewel [1]": {
+  "level": 1,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Sheath Jewel [1]": {
+  "level": 1,
+  "color": "#B38F48",
+  "badge": "armor"
+ },
+ "Shield Jewel [1]": {
+  "level": 1,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Shockproof Jewel [1]": {
+  "level": 1,
+  "color": "#818182",
+  "badge": "armor"
+ },
+ "Sleep Jewel [1]": {
+  "level": 1,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Specimen Jewel [1]": {
+  "level": 1,
+  "color": "#3D7F3A",
+  "badge": "armor"
+ },
+ "Sprinter Jewel [1]": {
+  "level": 1,
+  "color": "#B38F48",
+  "badge": "armor"
+ },
+ "Steadfast Jewel [1]": {
+  "level": 1,
+  "color": "#D9C357",
+  "badge": "armor"
+ },
+ "Stream Jewel [1]": {
+  "level": 1,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Survival Jewel [1]": {
+  "level": 1,
+  "color": "#E9EAEB",
+  "badge": "armor"
+ },
+ "Suture Jewel [1]": {
+  "level": 1,
+  "color": "#D9CAAD",
+  "badge": "armor"
+ },
+ "Thunder Res Jewel [1]": {
+  "level": 1,
+  "color": "#D9C357",
+  "badge": "armor"
+ },
+ "Trueshot Jewel [1]": {
+  "level": 1,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "Venom Jewel [1]": {
+  "level": 1,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Water Res Jewel [1]": {
+  "level": 1,
+  "color": "#6687FF",
+  "badge": "armor"
+ },
+ "Wind Resist Jewel [1]": {
+  "level": 1,
+  "color": "#E9EAEB",
+  "badge": "armor"
+ },
+ "Ambush Jewel [2]": {
+  "level": 2,
+  "color": "#9788D1",
+  "badge": "armor"
+ },
+ "Artillery Jewel II [2]": {
+  "level": 2,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "Attack Jewel II [2]": {
+  "level": 2,
+  "color": "#E68A94",
+  "badge": "sword"
+ },
+ "Bandolier Jewel II [2]": {
+  "level": 2,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Blast Jewel II [2]": {
+  "level": 2,
+  "color": "#E16D44",
+  "badge": "sword"
+ },
+ "Blastcoat Jewel [2]": {
+  "level": 2,
+  "color": "#E16D44",
+  "badge": "sword"
+ },
+ "Blaze Jewel II [2]": {
+  "level": 2,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blunt Jewel II [2]": {
+  "level": 2,
+  "color": "#E6E600",
+  "badge": "sword"
+ },
+ "Bolt Jewel II [2]": {
+  "level": 2,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Charge Jewel II [2]": {
+  "level": 2,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Charge Up Jewel [2]": {
+  "level": 2,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Counter Jewel [2]": {
+  "level": 2,
+  "color": "#E15057",
+  "badge": "armor"
+ },
+ "Crit Element Jewel II [2]": {
+  "level": 2,
+  "color": "#4C4CD9",
+  "badge": "sword"
+ },
+ "Crit Status Jewel II [2]": {
+  "level": 2,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Critical Jewel II [2]": {
+  "level": 2,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Destroyer Jewel [2]": {
+  "level": 2,
+  "color": "#818182",
+  "badge": "armor"
+ },
+ "Dragon Jewel II [2]": {
+  "level": 2,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Drain Jewel II [2]": {
+  "level": 2,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Draincoat Jewel [2]": {
+  "level": 2,
+  "color": "#D9CAAD",
+  "badge": "sword"
+ },
+ "Draw Jewel II [2]": {
+  "level": 2,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Earplugs Jewel [2]": {
+  "level": 2,
+  "color": "#E9EAEB",
+  "badge": "armor"
+ },
+ "Enhancer Jewel II [2]": {
+  "level": 2,
+  "color": "#E6E600",
+  "badge": "sword"
+ },
+ "Evasion Jewel [2]": {
+  "level": 2,
+  "color": "#4EC3E5",
+  "badge": "armor"
+ },
+ "Expert Jewel II [2]": {
+  "level": 2,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Flawless Jewel [2]": {
+  "level": 2,
+  "color": "#E15057",
+  "badge": "armor"
+ },
+ "Flight Jewel [2]": {
+  "level": 2,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Focus Jewel II [2]": {
+  "level": 2,
+  "color": "#B38F48",
+  "badge": "sword"
+ },
+ "Frost Jewel II [2]": {
+  "level": 2,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Fungiform Jewel [2]": {
+  "level": 2,
+  "color": "#9788D1",
+  "badge": "armor"
+ },
+ "Furor Jewel [2]": {
+  "level": 2,
+  "color": "#BF3054",
+  "badge": "armor"
+ },
+ "Gambit Jewel II [2]": {
+  "level": 2,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Grinder Jewel II [2]": {
+  "level": 2,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Guardian Jewel II [2]": {
+  "level": 2,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Handicraft Jewel II [2]": {
+  "level": 2,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Ironwall Jewel II [2]": {
+  "level": 2,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "Jumping Jewel [2]": {
+  "level": 2,
+  "color": "#4EC3E5",
+  "badge": "armor"
+ },
+ "KO Jewel II [2]": {
+  "level": 2,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Magazine Jewel II [2]": {
+  "level": 2,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "Maintenance Jewel [2]": {
+  "level": 2,
+  "color": "#D9CAAD",
+  "badge": "armor"
+ },
+ "Mighty Jewel [2]": {
+  "level": 2,
+  "color": "#E15057",
+  "badge": "armor"
+ },
+ "Mind's Eye Jewel II [2]": {
+  "level": 2,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Opener Jewel II [2]": {
+  "level": 2,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Paralyzer Jewel II [2]": {
+  "level": 2,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Phoenix Jewel [2]": {
+  "level": 2,
+  "color": "#9788D1",
+  "badge": "armor"
+ },
+ "Poison Jewel [2]": {
+  "level": 2,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Poisoncoat Jewel [2]": {
+  "level": 2,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Potential Jewel [2]": {
+  "level": 2,
+  "color": "#E15057",
+  "badge": "armor"
+ },
+ "Precise Jewel II [2]": {
+  "level": 2,
+  "color": "#E68A94",
+  "badge": "sword"
+ },
+ "Quickswitch Jewel II [2]": {
+  "level": 2,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Razor Sharp Jewel II [2]": {
+  "level": 2,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Refresh Jewel [2]": {
+  "level": 2,
+  "color": "#D9CAAD",
+  "badge": "armor"
+ },
+ "Sharp Jewel II [2]": {
+  "level": 2,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Shield Jewel II [2]": {
+  "level": 2,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Sleep Jewel II [2]": {
+  "level": 2,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Sonorous Jewel [2]": {
+  "level": 2,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Stream Jewel II [2]": {
+  "level": 2,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Trueshot Jewel II [2]": {
+  "level": 2,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "Venom Jewel II [2]": {
+  "level": 2,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Artillery Jewel III [3]": {
+  "level": 3,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "Attack Jewel III [3]": {
+  "level": 3,
+  "color": "#E68A94",
+  "badge": "sword"
+ },
+ "Bandolier Jewel III [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Bandolier/Blaze Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Bandolier/Bolt Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Bandolier/Dragon Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Bandolier/Frost Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Bandolier/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Bandolier/Precise Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Bandolier/Stream Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Blast Jewel III [3]": {
+  "level": 3,
+  "color": "#E16D44",
+  "badge": "sword"
+ },
+ "Blaze Jewel III [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blaze/Bandolier Jwl [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blaze/Crit Elem Jwl [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blaze/Enhancer Jwl [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blaze/Focus Jewel [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blaze/Guardian Jewel [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blaze/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blaze/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blaze/KO Jewel [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blaze/Opener Jewel [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blaze/Precise Jewel [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blaze/Quickswitch Jwl [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blaze/Rzr Sharp Jwl [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blaze/Shield Jewel [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "sword"
+ },
+ "Blunt Jewel III [3]": {
+  "level": 3,
+  "color": "#E6E600",
+  "badge": "sword"
+ },
+ "Bolt Jewel III [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Bolt/Bandolier Jwl [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Bolt/Crit Elem Jwl [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Bolt/Enhancer Jwl [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Bolt/Focus Jewel [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Bolt/Guardian Jwl [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Bolt/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Bolt/Ironwall Jewel [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Bolt/KO Jewel [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Bolt/Opener Jewel [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Bolt/Precise Jewel [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Bolt/Quickswitch Jwl [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Bolt/Rzr Sharp Jwl [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Bolt/Shield Jewel [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Chain Jewel [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "armor"
+ },
+ "Challenger Jewel [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "armor"
+ },
+ "Charge Jewel III [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Charge Up/Attack Jwl [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Charge Up/Draw Jwl [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Charge Up/Expert Jwl [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Charge Up/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Charge Up/KO Jewel [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Charge/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Charge/KO Jewel [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Counterattack Jewel [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "armor"
+ },
+ "Crit Elem Jwl III [3]": {
+  "level": 3,
+  "color": "#4C4CD9",
+  "badge": "sword"
+ },
+ "Crit Elem/Blaze Jwl [3]": {
+  "level": 3,
+  "color": "#4C4CD9",
+  "badge": "sword"
+ },
+ "Crit Elem/Bolt Jwl [3]": {
+  "level": 3,
+  "color": "#4C4CD9",
+  "badge": "sword"
+ },
+ "Crit Elem/Dragon Jwl [3]": {
+  "level": 3,
+  "color": "#4C4CD9",
+  "badge": "sword"
+ },
+ "Crit Elem/Frost Jwl [3]": {
+  "level": 3,
+  "color": "#4C4CD9",
+  "badge": "sword"
+ },
+ "Crit Elem/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#4C4CD9",
+  "badge": "sword"
+ },
+ "Crit Elem/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#4C4CD9",
+  "badge": "sword"
+ },
+ "Crit Elem/KO Jewel [3]": {
+  "level": 3,
+  "color": "#4C4CD9",
+  "badge": "sword"
+ },
+ "Crit Elem/Stream Jwl [3]": {
+  "level": 3,
+  "color": "#4C4CD9",
+  "badge": "sword"
+ },
+ "Crit Element/Precise Jwl [3]": {
+  "level": 3,
+  "color": "#4C4CD9",
+  "badge": "sword"
+ },
+ "Crit Stat Jwl III [3]": {
+  "level": 3,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Crit Stat/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Crit Stat/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Crit Stat/Precise Jwl [3]": {
+  "level": 3,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Crit Status/KO Jwl [3]": {
+  "level": 3,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Critical Jewel III [3]": {
+  "level": 3,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Dragon Jewel III [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Dragon/Bandolier Jwl [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Dragon/Crit Elem Jwl [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Dragon/Enhancer Jwl [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Dragon/Focus Jewel [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Dragon/Guardian Jwl [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Dragon/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Dragon/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Dragon/KO Jewel [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Dragon/Opener Jewel [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Dragon/Precise Jewel [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Dragon/Quickswitch Jwl [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Dragon/Rzr Sharp Jwl [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Dragon/Shield Jewel [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Drain Jewel III [3]": {
+  "level": 3,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Draw Jewel III [3]": {
+  "level": 3,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Enhancer Jewel III [3]": {
+  "level": 3,
+  "color": "#E6E600",
+  "badge": "sword"
+ },
+ "Enhancer/Blaze Jewel [3]": {
+  "level": 3,
+  "color": "#E6E600",
+  "badge": "sword"
+ },
+ "Enhancer/Bolt Jewel [3]": {
+  "level": 3,
+  "color": "#E6E600",
+  "badge": "sword"
+ },
+ "Enhancer/Dragon Jwl [3]": {
+  "level": 3,
+  "color": "#E6E600",
+  "badge": "sword"
+ },
+ "Enhancer/Frost Jwl [3]": {
+  "level": 3,
+  "color": "#E6E600",
+  "badge": "sword"
+ },
+ "Enhancer/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#E6E600",
+  "badge": "sword"
+ },
+ "Enhancer/Stream Jwl [3]": {
+  "level": 3,
+  "color": "#E6E600",
+  "badge": "sword"
+ },
+ "Expert Jewel III [3]": {
+  "level": 3,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Flayer Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "armor"
+ },
+ "Flight/Attack Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Flight/Draw Jewel [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Flight/Expert Jewel [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Flight/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Focus Jewel III [3]": {
+  "level": 3,
+  "color": "#B38F48",
+  "badge": "sword"
+ },
+ "Focus/Blaze Jewel [3]": {
+  "level": 3,
+  "color": "#B38F48",
+  "badge": "sword"
+ },
+ "Focus/Bolt Jwl [3]": {
+  "level": 3,
+  "color": "#B38F48",
+  "badge": "sword"
+ },
+ "Focus/Dragon Jewel [3]": {
+  "level": 3,
+  "color": "#B38F48",
+  "badge": "sword"
+ },
+ "Focus/Frost Jewel [3]": {
+  "level": 3,
+  "color": "#B38F48",
+  "badge": "sword"
+ },
+ "Focus/Handicraft Jewel [3]": {
+  "level": 3,
+  "color": "#B38F48",
+  "badge": "sword"
+ },
+ "Focus/KO Jewel [3]": {
+  "level": 3,
+  "color": "#B38F48",
+  "badge": "sword"
+ },
+ "Focus/Precise Jewel [3]": {
+  "level": 3,
+  "color": "#B38F48",
+  "badge": "sword"
+ },
+ "Focus/Stream Jewel [3]": {
+  "level": 3,
+  "color": "#B38F48",
+  "badge": "sword"
+ },
+ "Foray Jewel [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "armor"
+ },
+ "Forceshot Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Frost Jewel III [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Frost/Bandolier Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Frost/Crit Elem Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Frost/Enhancer Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Frost/Focus Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Frost/Guardian Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Frost/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Frost/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Frost/KO Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Frost/Opener Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Frost/Precise Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Frost/Quickswitch Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Frost/Rzr Sharp Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Frost/Shield Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Gambit Jewel III [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Gambit/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Gambit/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Gambit/KO Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Grinder/Attack Jewel [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Grinder/Draw Jewel [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Grinder/Expert Jewel [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Grinder/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Grinder/Ironwall Jewel [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Grinder/KO Jewel [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Guardian Jewel III [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Guardian/Blaze Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Guardian/Bolt Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Guardian/Dragon Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Guardian/Frost Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Guardian/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Guardian/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Guardian/Stream Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Handicraft Jwl III [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Ironwall Jewel III [3]": {
+  "level": 3,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "KO Jewel III [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Magazine/Attack Jwl [3]": {
+  "level": 3,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "Magazine/Draw Jwl [3]": {
+  "level": 3,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "Magazine/Expert Jwl [3]": {
+  "level": 3,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "Magazine/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "Magazine/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#818182",
+  "badge": "sword"
+ },
+ "Mastery Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Mind's Eye Jwl III [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Opener Jewel III [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Opener/Blaze Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Opener/Bolt Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Opener/Dragon Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Opener/Frost Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Opener/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Opener/Precise Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Opener/Stream Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Paracoat Jewel [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Paralyzer Jwl III [3]": {
+  "level": 3,
+  "color": "#D9C357",
+  "badge": "sword"
+ },
+ "Pierce Jewel [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Poison/Attack Jewel [3]": {
+  "level": 3,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Poison/Draw Jewel [3]": {
+  "level": 3,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Poison/Expert Jwl [3]": {
+  "level": 3,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Poison/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Poison/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Poison/KO Jewel [3]": {
+  "level": 3,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Poison/Precise Jwl [3]": {
+  "level": 3,
+  "color": "#9788D1",
+  "badge": "sword"
+ },
+ "Precise Jewel III [3]": {
+  "level": 3,
+  "color": "#E68A94",
+  "badge": "sword"
+ },
+ "Quickswitch Jewel III [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Quickswitch/Blaze Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Quickswitch/Bolt Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Quickswitch/Dragon Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Quickswitch/Frost Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Quickswitch/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Quickswitch/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Quickswitch/KO Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Quickswitch/Stream Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Razor Sharp/KO Jwl [3]": {
+  "level": 3,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Rzr Sharp Jwl III [3]": {
+  "level": 3,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Rzr Sharp/Blaze Jwl [3]": {
+  "level": 3,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Rzr Sharp/Bolt Jwl [3]": {
+  "level": 3,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Rzr Sharp/Dragon Jwl [3]": {
+  "level": 3,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Rzr Sharp/Frost Jwl [3]": {
+  "level": 3,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Rzr Sharp/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Rzr Sharp/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Rzr Sharp/Stream Jwl [3]": {
+  "level": 3,
+  "color": "#98D9C9",
+  "badge": "sword"
+ },
+ "Salvo Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Sharp Jewel III [3]": {
+  "level": 3,
+  "color": "#BF3054",
+  "badge": "sword"
+ },
+ "Shield Jewel III [3]": {
+  "level": 3,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Shield/Blaze Jewel [3]": {
+  "level": 3,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Shield/Bolt Jewel [3]": {
+  "level": 3,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Shield/Dragon Jwl [3]": {
+  "level": 3,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Shield/Frost Jewel [3]": {
+  "level": 3,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Shield/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Shield/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Shield/Stream Jewel [3]": {
+  "level": 3,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Sleep Jewel III [3]": {
+  "level": 3,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Sleepcoat Jewel [3]": {
+  "level": 3,
+  "color": "#4EC3E5",
+  "badge": "sword"
+ },
+ "Sonorous/Attack Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Sonorous/Draw Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Sonorous/Expert Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Sonorous/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Sonorous/KO Jewel [3]": {
+  "level": 3,
+  "color": "#E9EAEB",
+  "badge": "sword"
+ },
+ "Spread Jewel [3]": {
+  "level": 3,
+  "color": "#3D7F3A",
+  "badge": "sword"
+ },
+ "Stream Jewel III [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Stream/Bandolier Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Stream/Crit Elem Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Stream/Enhancer Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Stream/Focus Jewel [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Stream/Guardian Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Stream/Handicraft Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Stream/Ironwall Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Stream/KO Jewel [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Stream/Opener Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Stream/Precise Jewel [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Stream/Quickswitch Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Stream/Rzr Sharp Jwl [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Stream/Shield Jewel [3]": {
+  "level": 3,
+  "color": "#6687FF",
+  "badge": "sword"
+ },
+ "Tenderizer Jewel [3]": {
+  "level": 3,
+  "color": "#56379E",
+  "badge": "armor"
+ },
+ "Throttle Jewel [3]": {
+  "level": 3,
+  "color": "#E15057",
+  "badge": "armor"
+ },
+ "Venom Jewel III [3]": {
+  "level": 3,
+  "color": "#9788D1",
+  "badge": "sword"
+ }
+}

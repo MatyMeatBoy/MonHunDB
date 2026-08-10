@@ -1,6 +1,17 @@
 # Progreso del proyecto
 
-Última actualización: 2026-08-09
+Última actualización: 2026-08-10
+
+## Feature: Wilds pasa de ~40% a ~75% funcional (2026-08-10)
+
+Sesión grande de scraping para `wilds/` (Monster Hunter Wilds, carpeta separada de Rise, nunca se mezclan datos/buscadores). Detalle completo, fuentes exactas y bugs corregidos en **`wilds/HANDOFF.md`** (ese archivo es el que hay que leer para retomar Wilds específicamente). Resumen:
+
+- Armas: 87→1146 (con tipo real, antes todas venían sin clasificar). Sets de armadura: agregado stats reales, imagen de cuerpo completo, y desglose de piezas (685 piezas, antes 0). Decoraciones: 361/361 con ícono real (antes 0). Habilidades: 147/177 con ícono único por skill (Wilds no comparte el sistema de máscara+color de Rise). Materiales: 88% con ícono.
+- Nueva sección **Talismanes** (Charms), no existe en Rise — solo nombres por ahora, sin ícono/datos.
+- 2 monstruos duplicados fusionados (Ceratonoth M/F, Dalthydon Livestock) — confirmado con datos idénticos, no a ojo.
+- Convención **α/β** para nombres "Alpha"/"Beta" de armadura (así aparece en el juego) — búsqueda por texto sigue funcionando vía `normalizeSearch()`.
+- Corregido bug de encoding (mojibake) heredado en ~15 archivos de Rise y Wilds, y 2 bugs de lógica que dejaban vacíos el catálogo de armas y la galería de armaduras de Wilds.
+- Voseo → español neutro en ambos juegos ("Elegí"→"Elige", etc), pedido explícito del usuario.
 
 ## Feature: Estructura multi-página por juego (2026-08-09)
 

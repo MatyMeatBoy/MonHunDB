@@ -1,142 +1,74 @@
 # Wilds — Handoff para el otro bot
 
-**Proyecto:** `C:\Users\MP\Documents\00 Claude\mhrise-bestiario\wilds\`  
-**Servir:** `npx serve .` desde `mhrise-bestiario/`, abrir `http://localhost:3000/wilds/`  
-**Hub:** `C:\Users\MP\Documents\00 Claude\mhrise-bestiario\index.html` (falta agregar la card de Wilds)
+**Proyecto:** `C:\Users\MP\Documents\00 Claude\mhrise-bestiario\wilds\`
+**Servir:** `npx serve .` desde `mhrise-bestiario/`, abrir `http://localhost:3000/wilds/`
+**Última actualización:** 2026-08-10 (2da pasada) — arreglos post-verificación en navegador real.
 
 ---
 
-## 1. Lo que YA está completo (70%)
+## 0. Arreglos de esta pasada (bugs que el usuario encontró probando en vivo)
 
-### `data/monsters.json` — 55 monstruos, formato Rise ✅
-Todos los campos que tiene `rise/data/monsters.json`:
-- `name`, `species`, `image`, `locations[]`
-- `weaknesses[]` → `{element, stars}` (derivado de hitzones)
-- `resistances[]` → `{element, immune: true}`
-- `ailmentSusceptibility[]` → `{ailment, stars, buildup: [{label, value, max}]}`
-- `inflicts` → `{elements: [], ailments: []}`
-- `attackElements[]`, `hitzones[]` (con `wounds: 0/1` para tenderized)
-- `materials` → `{ "High Rank": [{material, rarity, targetReward, capture, breakParts, carves, dropped}] }`
-- `partBreaks[]`, `isSmall` (35 grandes, 20 pequeños)
-- **Fuentes:** Kiranico (hitzones+mats+parts+ailments) + monsterhunterwiki.org API wikitext (image+locations+ailmentSusceptibility+inflicts+elements)
-
-### `data/decorations.json` — 361 adornos ✅
-- `{id, name, slotLevel, description, skills: [{name, level}], materials: []}`
-- Skills parseados desde la descripción de Kiranico (173 multi-skill). Solo falta scrapear los materiales de crafteo (visitar cada página individual).
-- Fuente: `mhwilds.kiranico.com/data/decorations`
-
-### `data/skills.json` — 177 habilidades ✅
-- `{id, name, descEn, levels: []}` — levels vacíos (Kiranico no los muestra en la lista; requieren scrape individual).
-- Fuente: `mhwilds.kiranico.com/data/skills`
-
-### `data/charms.json` — 185 talismanes ✅
-- `{id, name, rarity: 0, skills: [], materials: [], decoSlots: []}` — arrays vacíos, scrape pendiente.
-- Fuente: `mhwilds.kiranico.com/data/charms`
-
-### `data/armor_sets.json` — 159 sets ✅
-- `{name, image, derivedFrom, strongerElement, weakestElement, materials[], equipmentSkills[], setBonus[]}`
-- **124/159 con las 5 piezas** (nombre, defensa, resistencias fire/water/thunder/ice/dragon)
-- 12 sets sin piezas (eventos/DLC sin tabla en Fextralife)
-- Fuente: `monsterhunterwilds.wiki.fextralife.com/Armor`
-
-### `data/items_wilds.json` + `item_icon_manifest.json` + `images/items/` — 607 items + iconos ✅
-- 607 iconos PNG descargados de Fextralife
-- Manifest: `name → images/items/slug.png`
-- Fuente: `monsterhunterwilds.wiki.fextralife.com/Items`
-
-### `data/i18n_wilds.js` ✅
-- Alias `const I18N = I18N_WILDS;` al final → las 21 referencias a `I18N.` en app.js resuelven sin cambios.
-- Claves de UI para ES/EN.
-
-### HTML + branding ✅
-- 7 páginas (`index.html`, `monster.html`, `decorations.html`, `weapons.html`, `armor.html`, `materials.html`, `skills.html`) con:
-  - `<title>Monster Hunter Wilds</title>`
-  - Logo: `data/images/logo_mhwilds.png` (814KB, oficial)
-  - Script: `data/i18n_wilds.js`
-- `style.css` copiado de rise (1583 líneas, dark MH theme)
-
-### `app.js` — copiado de rise, **pendiente de adaptar** ⚠️
-- 155KB, ~3000 líneas, todas las funciones de Rise.
-- Carga `data/i18n_wilds.js` y usa `I18N` (resuelve vía alias).
-- **NO se adaptaron las funciones para Wilds.** La referencia completa está en `bestiario-nemo/wilds/app.js` (sesión anterior) que tiene todas las funciones Wilds andando.
+- **Íconos de materiales/decoraciones/skills rotos**: los 3 manifiestos (`item_icon_manifest.json`, `decoration_icon_manifest.json`, `skill_icon_manifest.json`) guardaban la ruta sin el prefijo `data/` (ej. `"images/items/x.png"` en vez de `"data/images/items/x.png"`) — rompía TODOS los íconos. Corregido en los 3.
+- **Piezas de set no se vinculaban**: `set.pieces[]` (scrapeado de Fextralife) no tenía `id`, así que `armorPieces.find(p => p.id === ref.id)` nunca encontraba nada → detalle de set mostraba el separador `<hr>` pero cero contenido de pieza. Corregido: el `id` sintético ("wp1", "wp2"...) ahora se escribe en AMBOS lugares (`armor_pieces.json` Y `set.pieces[].id`) al generarlos juntos.
+- **"undefined Lv1" en decoraciones**: leía `skill.nameEs`/`skill.effectEs`, campos que no existen en el shape de Wilds (`{name, level}` nomás). Nueva función `decoSkillEffectText()` cruza contra `skills.json` (que sí tiene niveles reales) en vez de leer campos inexistentes.
+- **"Cómo conseguirlo" en vez de "Materiales para crear"** en decoraciones: Wilds no craftea decoraciones, se consiguen de baúles/orbes. Si `dec.sources` existe (scrapeado de monsterhunterwiki.org), se muestra esa sección en vez de la de materiales (que queda vacía a propósito).
+- **Íconos de decoración recoloreados correctamente**: el ícono base de monsterhunterwiki.org es un gema gris con sombreado/facetas ya dibujadas (no un par silueta+detalle como el sistema de Rise) — un `mask-image` simple aplana todo a un color sólido y pierde las facetas. Fix: `mix-blend-mode: color` sobre una capa superpuesta preserva la luminosidad (facetas visibles) y solo cambia el tono. Detalle en `data/decoration_color_manifest.json` + `data/images/deco_masks/level{1,2,3}.webp` (solo 3 shapes reales, uno por nivel de ranura).
+  - Ojo con el bug que salió de esto: `.material-icon { background: var(--bg-panel-alt) }` (shorthand) pisaba `background-size/position/repeat` de una regla `.deco-mask-icon` con la MISMA especificidad declarada antes en el archivo — el shorthand ganaba por orden de cascada. Fix: subir especificidad a `.material-icon.deco-mask-icon` en vez de solo `.deco-mask-icon`.
+- **Galería de armaduras: pares Alpha/Beta fusionados** (pedido explícito) — un set que tiene versión α y β (40 casos) ahora es UNA sola card con la imagen + dos botones abajo ("α" / "β") en vez de dos cards separadas. Lógica en `renderArmorIndex()`, agrupa por nombre base (sin el símbolo griego).
+- **2 monstruos duplicados fusionados** y **convención α/β** — ver sección 2 y `DATA_NOTES.md`, sin cambios desde la primera pasada.
 
 ---
 
-## 2. Lo que FALTA (30%)
+## 1. Qué hay completo ahora
 
-### 🔴 CRÍTICO — Adaptar `app.js`
-- Cambiar los `fetch()` para que apunten a los JSON correctos (ya lo hacen, mismo nombre).
-- Agregar las funciones Wilds: `initGlobalSearchWilds`, `initDecorationsWilds`, `initCharmsWilds`, `initWeaponsWilds`, `initArmorWilds`, `initSkillsWilds`, `render*Wilds`, `show*DetailWilds`, etc.
-- Agregar `loadIconManifestWilds()`, `loadMaterialIconManifestWilds()`, boot `initWilds()`.
-- **Referencia funcional:** `C:\Users\MP\Documents\00 Claude\bestiario-nemo\wilds\app.js` (ya tiene todo andando).
-- Cambiar `data-page` en cada HTML si el app.js usa nombres distintos.
+### Estructura multi-página — igual a Rise ✅
+8 páginas (Rise tiene 7): `index.html`, `monster.html`, `decorations.html`, `weapons.html`, `armor.html`, `materials.html`, `skills.html`, **`charms.html`** (nueva, Wilds no comparte esto con Rise). Nav de 6 íconos en las 8. Sin botón "Volver a monstruos" (se sacó de las 2 webs esta sesión, el combobox del topbar ya cubre eso).
 
-### 🔴 CRÍTICO — Iconos de monstruos (132 webp)
-- Están en `C:\Users\MP\Documents\00 Claude\bestiario-nemo\exportv1\wilds\images\`
-- Copiarlos a `wilds/images/` (o `wilds/data/images/` según cómo apunte `iconPathWilds`).
-- El manifest `data/icon_manifest.json` (3KB) ya existe con 132 entradas → `images/slug.webp`.
+### `data/monsters.json` — 53 monstruos ✅
+Fusionados 2 duplicados reales esta sesión: Ceratonoth (Male)/(Female) eran 100% idénticos en stats → un solo "Ceratonoth". "Dalthydon (Livestock)" era duplicado exacto de "Dalthydon" → eliminado. Ícono de barra: 132/136 monstruos con ícono (copiados de `bestiario-nemo/exportv1/wilds/images/`), faltan Ceratonoth (ya resuelto con ícono unificado), y una entrada rara "High Purrformance Barrel Puncher" en el manifest viejo que **no es un monstruo** (parece arma de Palico mal clasificada — sin investigar todavía).
 
-### 🔴 CRÍTICO — Agregar card de Wilds al hub
-- En `C:\Users\MP\Documents\00 Claude\mhrise-bestiario\index.html`, dentro de `<section class="hub-games">`, agregar:
-```html
-<a class="hub-card" href="wilds/">
-  <img class="hub-card-logo" src="wilds/data/images/logo_mhwilds.png" alt="" />
-  <div class="hub-card-body">
-    <h3 class="hub-card-title">Monster Hunter Wilds</h3>
-    <p class="hub-card-desc">Monstruos, debilidades, hitzones, materiales, decoraciones, armas, armaduras y habilidades.</p>
-    <span class="hub-card-enter">Entrar →</span>
-  </div>
-</a>
-```
+### `data/decorations.json` — 361/361 con ícono ✅ (100%)
+Fuente: `monsterhunterwiki.org/wiki/MHWilds/Decorations` — match perfecto 361/361 por nombre exacto. Trae también `rarity` y `sources` (texto de dónde se consigue: baúles, minijefes, %). Materiales de crafteo siguen vacíos **a propósito** — confirmado que en Wilds las decoraciones no se craftean con partes de monstruo.
 
-### 🟡 Armas (`weapons.json`) — solo 87 de ~1000
-- Se scrapearon 87 armas (árbol Great Sword) de `mhwilds.kiranico.com/data/weapons`.
-- Faltan las otras 13 categorías. Kiranico tiene una página por tipo de arma.
-- Cada arma tiene: `id, name, type, attack, rarity, element, slots, materials`.
-- También falta `armor_pieces.json` (0 piezas) y `weapon_tree.json`.
+### `data/skills.json` — 177 skills, 147 con ícono único ✅
+A diferencia de Rise (1 sola máscara+color para todas), **cada skill de Wilds tiene su propio ícono real**. Scrapeados de `monsterhunterwilds.wiki.fextralife.com/{Decorations,Skills,Group_Skills,Set_Bonus_Skills}`. 30 sin ícono (esas páginas no las cubren todavía).
 
-### 🟡 `small_monsters.json` — vacío
-- 20 monstruos pequeños están en `monsters.json` (con `isSmall: true`).
-- Rise tiene un `small_monsters.json` separado con partes (`{part, carveItems[]}`).
-- Se necesita scrapear las partes de monstruos pequeños.
+### `data/armor_sets.json` — 159 sets ✅ (mejora grande)
+Fuente principal: `Armor_Sets_Comparison_Table` de Fextralife (stats de set completo) + página individual de cada set (piezas) + `monsterhunterwiki.org` (materiales de forja). Por set: `name` (con **α/β** en vez de "Alpha"/"Beta", igual que en el juego — ver sección 2), `image`/`localImage` (cuerpo completo real, 157/159), `rarity`, `rank`, `defense`, `resistances`, `decoSlots`, `equipmentSkills`, `pieces[]` (158/159 con desglose, 130 con las 5 piezas completas), `materials[]` (148/159 con materiales de forja reales).
 
-### 🟡 Skills con niveles, decoraciones con materiales, charms con datos
-- `skills.json`: falta scrapear los niveles de cada habilidad (visitar 177 páginas individuales en Kiranico).
-- `decorations.json`: falta scrapear los materiales de crafteo (visitar 361 páginas individuales).
-- `charms.json`: falta scrapear skills, materiales, rareza (visitar 185 páginas).
+### `data/armor_pieces.json` — 685 piezas ✅ (antes: 0, vacío)
+Reconstruido desde `armor_sets.json[].pieces`. Cada pieza: `name`, `part` (head/chest/arms/waist/legs), `defense`, `resistances`, `decoSlots`, `icon`. **`skills` y `materials` por pieza siguen vacíos** — solo se consiguió el material agregado a nivel de SET (arriba), no desglosado por pieza individual. Si se necesita por pieza, hay que entrar a cada página de Fextralife de nuevo con otro parser (no investigado).
 
-### 🟢 JSONs vacíos (no rompen, app.js los maneja con `res.ok`)
-- `weapons.json` (87), `armor_pieces.json` (0), `weapon_tree.json` (0), `weapon_finals.json` (0)
-- `material_icon_manifest.json` (0), `status_icon_manifest.json` (0)
-- `kiranico_item_translations.json` (0), `material_obtain_notes.json` (0)
-- `armor_fextra_icons.json` (0), `material_mhrice_icons.json` (0), `decoration_mhrice_icons.json` (0)
-- `monster_list.json` (0), `renders_manifest.json` (0)
+### `data/weapons.json` — 1146 armas ✅ (antes: 87, todas sin `type`, inservibles)
+Scrapeadas las Comparison Table embebidas (tabs) de las 14 páginas de tipo de arma en Fextralife (`/Great_Sword`, `/Long_Sword`, etc. — el link es a la MISMA página, la tabla vive en un tab, no en una URL de "_Comparison_Table" separada). Cada arma: `name`, `type` (real, 14 categorías), `icon` (local, descargado), `rarity`, `attack`, `element`, `materials[]`, `cost` (zenny). **No hay árbol de mejora** (prevId/nextId/weapon_tree) — Fextralife da lista plana por tipo, no cadena de crafteo. El catálogo actual muestra las 1146 sin filtrar a "solo finales" porque no hay dato de árbol para decidir cuál es final.
+
+### `data/items_wilds.json` + `item_icon_manifest.json` — 629 items con ícono ✅
+Ampliado esta sesión con Materials/Ingredients/Bowgun_Ammo/Special_Item-Other de Fextralife (antes solo `/Items`). Cobertura de íconos de materiales que aparecen en `monsters.json`: **252/286 (88%)**, con fallback automático de tier "+" (ítem base y su versión "+" comparten ícono).
+
+### Charms — solo nombres, 185 entradas
+`data/charms.json` sigue siendo solo `{id, name, rarity:0, skills:[], materials:[], decoSlots:[]}`. La página `charms.html` ya funciona (patrón índice+detalle igual a Habilidades), pero sin datos reales todavía muestra "sin datos" en skills/materiales. **No se investigó fuente para esto todavía.**
 
 ---
 
-## 3. Scripts de scrape reutilizables (en `wilds/data/`)
+## 2. Convención α/β (pedido explícito del usuario esta sesión)
 
-| Script | Output |
-|---|---|
-| `scrape_wilds_monsters.js` | `monsters_raw/*.html` → parsea hitzones, materials, parts, ailments de Kiranico (reanudable) |
-| `scrape_wilds_monster_wiki.js` | `monster_wiki_raw/*.html` → elements, inflicts, weaknesses de la wiki |
-| `normalize_wilds_monsters.js` | Postprocesa isSmall, attackElements, weaknesses/resistances |
-| `complete_monsters_v2.js` | API wikitext → image, locations, ailmentSusceptibility |
-| `fix_materials.js` | Convierte materiales Kiranico → formato Rise |
-| `scrape_decos_skills_charms.js` | Listas de Kiranico → decorations, skills, charms |
-| `scrape_wilds_items.js` | Fextralife Items → items_wilds.json |
-| `download_wilds_item_icons.js` | Descarga 607 iconos + manifest |
-| `scrape_wilds_armor_sets.js` + `_detail.js` | Fextralife Armor → armor_sets.json (159 con imágenes + piezas) |
-| `scrape_wilds_weapons.js` | Kiranico weapons → weapons.json (87) |
+Los nombres de sets/piezas con "Alpha"/"Beta" ahora usan los símbolos griegos **α**/**β** (así aparecen en el juego real) — aplicado a `armor_sets.json` y `armor_pieces.json`. `monsterhunterwiki.org` ya usa esta convención nativamente, confirma que es correcta.
 
----
+**Búsqueda sigue funcionando con texto**: `normalizeSearch()` en `app.js` (Rise Y Wilds, se aplicó a ambos) mapea `α→"alpha"` y `β→"beta"` antes de comparar, así que buscar "alpha" encuentra "α" igual. Mismo patrón que ya existía para el símbolo "+".
 
-## 4. Orden recomendado para el otro bot
+## 3. Bugs reales encontrados y corregidos esta sesión (no repetir)
 
-1. **Copiar los 132 iconos de monstruos** de `bestiario-nemo/exportv1/wilds/images/` a `wilds/images/`
-2. **Adaptar `app.js`** usando `bestiario-nemo/wilds/app.js` como referencia (cambiar boot, funciones Wilds, data loading)
-3. **Agregar la card de Wilds al hub** (`index.html` raíz)
-4. **Probar:** `npx serve .` → abrir `http://localhost:3000/wilds/?m=Rathalos`
-5. **Scrapear armas** (14 tipos desde Kiranico) y `armor_pieces.json`
-6. **Scrapear small_monsters** con partes de carneo
-7. **Completar skills/decorations/charms** (scrape individual por página)
+- **Mojibake (UTF-8 mal decodificado) en ~15 archivos**: `i18n_wilds.js` y 10 HTML de Rise+Wilds tenían texto tipo "â€" ElegÃ­" en vez de "— Elige". Arreglado con reconstrucción byte-a-byte (encode cp1252 → decode utf-8). Si aparece de nuevo, ese es el mecanismo — no es un problema de este proyecto, es contenido pegado con la codificación equivocada en algún momento.
+- **`charmsNav`/`charmsSearchPlaceholder` en inglés pegados DENTRO del bloque `es:` de `i18n_wilds.js`** (clave duplicada, JS se queda con el último valor → mostraba "Charms" en español). Corregido, movidas al bloque `en:` real.
+- **Catálogo de armas vacío**: `weaponFinalNames` se inicializaba como `Set` vacío-pero-no-null cuando `weapon_tree.json` está vacío (caso Wilds) → `isWeaponTrueFinal()` confiaba en él como fuente autoritativa y marcaba TODO como no-final. Fix en `initWeaponTree()`: solo asignar `weaponFinalNames` si `tree.finals` tiene contenido real, si no dejarlo `null` para que caiga al heurístico de `nextId`.
+- **Galería de armaduras vacía**: `armorPieces.json` estaba vacío al momento de calcular el rango de cada set (`setRank()` cruzaba `s.pieces` contra `armorPieces` por `id`, no encontraba nada, devolvía rango 99 que no matchea ningún bucket). Fix: `setRankWilds()` nuevo, usa el `rank` que ya viene directo en el dato scrapeado de Wilds en vez de inferirlo.
+- **Voseo**: "Elegí"/"podés"/"carvees" → "Elige"/"puedes"/"carveas" en ambos juegos (pedido explícito, español neutro).
+
+## 4. Lo que falta (para retomar)
+
+- 🔴 **Materiales por pieza de armadura** (solo hay a nivel de set) — si se necesita desglose, re-scrapear página individual de cada pieza.
+- 🔴 **Árbol de mejora de armas** (prevId/nextId) — sin esto el catálogo no puede mostrar "solo finales". Buscar otra fuente (quizás `monsterhunterwiki.org` tenga cadena de crafteo, no probado).
+- 🟡 **Talismanes**: sin ícono/skills/materiales — fuente no investigada.
+- 🟡 **34/286 materiales** y **30/177 skills** sin ícono — las páginas ya scrapeadas no los cubren.
+- 🟡 **"High Purrformance Barrel Puncher"** en `icon_manifest.json` — probablemente no es un monstruo, revisar.
+- 🟢 Todo lo demás (monstruos, decoraciones, sets de armadura, catálogo de armas) es usable y verificado en navegador sin errores de consola.

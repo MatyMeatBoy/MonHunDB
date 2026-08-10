@@ -1,1 +1,20 @@
-﻿{}
+{
+  "Blast": "data/images/status/blast.webp",
+  "Blastblight": "data/images/status/blastblight.webp",
+  "Bubble": "data/images/status/bubble.webp",
+  "Defense Down": "data/images/status/defense-down.webp",
+  "Dragonblight": "data/images/status/dragonblight.webp",
+  "Fireblight": "data/images/status/fireblight.webp",
+  "Hellfireblight": "data/images/status/hellfireblight.webp",
+  "Iceblight": "data/images/status/iceblight.webp",
+  "Paralysis": "data/images/status/paralysis.webp",
+  "Poison": "data/images/status/poison.webp",
+  "Sleep": "data/images/status/sleep.webp",
+  "Stench": "data/images/status/stench.webp",
+  "Stun": "data/images/status/stun.webp",
+  "Thunderblight": "data/images/status/thunderblight.webp",
+  "Venom": "data/images/status/venom.webp",
+  "Waterblight": "data/images/status/waterblight.webp",
+  "Webbed": "data/images/status/webbed.webp",
+  "Exhaust": "data/images/status/exhaust.png"
+}

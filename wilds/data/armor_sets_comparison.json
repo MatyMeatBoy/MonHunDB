@@ -1,0 +1,5599 @@
+[
+ {
+  "name": "Ajarakan Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d2/Ajarakana-set-mhwilds-wiki-guide.png/100px-Ajarakana-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": 15,
+   "water": -15,
+   "thunder": 5,
+   "ice": -10,
+   "dragon": 0
+  },
+  "decoSlots": [
+   2,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 5
+   },
+   {
+    "name": "Blast Resistance",
+    "level": 3
+   },
+   {
+    "name": "Partbreaker",
+    "level": 3
+   },
+   {
+    "name": "Bombardier",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Ajarakan Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a4/Ajarakan_b-set-mhwilds-wiki-guide.png/100px-Ajarakan_b-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": 15,
+   "water": -15,
+   "thunder": 5,
+   "ice": -10,
+   "dragon": 0
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 3
+   },
+   {
+    "name": "Partbreaker",
+    "level": 3
+   },
+   {
+    "name": "Bombardier",
+    "level": 2
+   },
+   {
+    "name": "Blast Resistance",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Ajarakan Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d2/Ajarakana-set-mhwilds-wiki-guide.png/100px-Ajarakana-set-mhwilds-wiki-guide.png",
+  "rarity": "3",
+  "rank": "Low Rank",
+  "defense": 120,
+  "resistances": {
+   "fire": 15,
+   "water": -15,
+   "thunder": 5,
+   "ice": -10,
+   "dragon": 0
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Partbreaker",
+    "level": 3
+   },
+   {
+    "name": "Bombardier",
+    "level": 3
+   },
+   {
+    "name": "Blast Resistance",
+    "level": 2
+   },
+   {
+    "name": "Cliffhanger",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Alloy Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fc/Alloy_a-set-mhwilds-wiki-guide.png/100px-Alloy_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 160,
+  "resistances": {
+   "fire": -10,
+   "water": 5,
+   "thunder": -10,
+   "ice": -10,
+   "dragon": 5
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Quick Sheathe",
+    "level": 3
+   },
+   {
+    "name": "Flinch Free",
+    "level": 3
+   },
+   {
+    "name": "Tremor Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Alloy Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/98/Alloy-set-mhwilds-wiki-guide.png/100px-Alloy-set-mhwilds-wiki-guide.png",
+  "rarity": "1",
+  "rank": "Low Rank",
+  "defense": 30,
+  "resistances": {
+   "fire": -10,
+   "water": 5,
+   "thunder": -10,
+   "ice": -10,
+   "dragon": 5
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Tremor Resistance",
+    "level": 3
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Arkveld Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5a/Arkveld_a-set-mhwilds-wiki-guide.png/100px-Arkveld_a-set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 330,
+  "resistances": {
+   "fire": 10,
+   "water": 0,
+   "thunder": -5,
+   "ice": 0,
+   "dragon": -15
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 3
+   },
+   {
+    "name": "Convert Element",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 3
+   },
+   {
+    "name": "Elemental Absorption",
+    "level": 3
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Arkveld Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cd/Arkveld_6-set-mhwilds-wiki-guide.png/100px-Arkveld_6-set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 330,
+  "resistances": {
+   "fire": 10,
+   "water": 0,
+   "thunder": -5,
+   "ice": 0,
+   "dragon": -15
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 3
+   },
+   {
+    "name": "Convert Element",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 1
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Artian Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6f/Artiana-set-mhwilds-wiki-guide.png/100px-Artiana-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 220,
+  "resistances": {
+   "fire": 5,
+   "water": -10,
+   "thunder": -10,
+   "ice": 10,
+   "dragon": 15
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Flayer",
+    "level": 5
+   },
+   {
+    "name": "Blight Resistance",
+    "level": 2
+   },
+   {
+    "name": "Windproof",
+    "level": 2
+   },
+   {
+    "name": "Tremor Resistance",
+    "level": 2
+   },
+   {
+    "name": "Earplugs",
+    "level": 1
+   },
+   {
+    "name": "Adaptability",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Azure Age Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b0/Azure_age_alpha_armor_set-mhwilds-wiki-guide.png/100px-Azure_age_alpha_armor_set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 330,
+  "resistances": {
+   "fire": 10,
+   "water": 20,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 15
+  },
+  "decoSlots": [
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Latent Power",
+    "level": 5
+   },
+   {
+    "name": "Constitution",
+    "level": 5
+   },
+   {
+    "name": "Adrenaline Rush",
+    "level": 5
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Azuz Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/92/Azuz-a-set-mhwilds-wiki-guide.png/100px-Azuz-a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 132,
+  "resistances": {
+   "fire": 12,
+   "water": 3,
+   "thunder": 3,
+   "ice": 3,
+   "dragon": 3
+  },
+  "decoSlots": [
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Heroics",
+    "level": 3
+   },
+   {
+    "name": "Geologist",
+    "level": 3
+   },
+   {
+    "name": "Maximum Might",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Balahara Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5f/Balahara_a-set-mhwilds-wiki-guide.png/100px-Balahara_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 190,
+  "resistances": {
+   "fire": -5,
+   "water": 10,
+   "thunder": -15,
+   "ice": 5,
+   "dragon": 5
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Evade Extender",
+    "level": 3
+   },
+   {
+    "name": "Geologist",
+    "level": 3
+   },
+   {
+    "name": "Evade Window",
+    "level": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Balahara Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b0/Balahara_b-set-mhwilds-wiki-guide.png/100px-Balahara_b-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 190,
+  "resistances": {
+   "fire": -5,
+   "water": 10,
+   "thunder": -15,
+   "ice": 5,
+   "dragon": 5
+  },
+  "decoSlots": [
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Evade Window",
+    "level": 2
+   },
+   {
+    "name": "Evade Extender",
+    "level": 2
+   },
+   {
+    "name": "Geologist",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Balahara Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9a/Balahara-set-mhwilds-wiki-guide.png/100px-Balahara-set-mhwilds-wiki-guide.png",
+  "rarity": "2",
+  "rank": "Low Rank",
+  "defense": 60,
+  "resistances": {
+   "fire": -5,
+   "water": 10,
+   "thunder": -15,
+   "ice": 5,
+   "dragon": 5
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Evade Extender",
+    "level": 3
+   },
+   {
+    "name": "Hunger Resistance",
+    "level": 1
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Bale Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b1/Tu3-bale-armor-set-mhwilds-wiki-guide.png/100px-Tu3-bale-armor-set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 340,
+  "resistances": {
+   "fire": 10,
+   "water": 0,
+   "thunder": -10,
+   "ice": 0,
+   "dragon": 15
+  },
+  "decoSlots": [
+   3,
+   3,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Battle Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/33/Battle_a-set-mhwilds-wiki-guide.png/100px-Battle_a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 220,
+  "resistances": {
+   "fire": 10,
+   "water": -5,
+   "thunder": -5,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Marathon Runner",
+    "level": 3
+   },
+   {
+    "name": "Hunger Resistance",
+    "level": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 3
+   },
+   {
+    "name": "Free Meal",
+    "level": 3
+   },
+   {
+    "name": "Constitution",
+    "level": 2
+   },
+   {
+    "name": "Sleep Resistance",
+    "level": 2
+   },
+   {
+    "name": "Bind Resistance",
+    "level": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Blango Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/1/12/Comaqchi_carapace_item_equipment_material_mhwilds_wiki_guide_25px.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": -20,
+   "water": 5,
+   "thunder": 0,
+   "ice": 20,
+   "dragon": 0
+  },
+  "decoSlots": [
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 5
+   },
+   {
+    "name": "Wide-Range",
+    "level": 3
+   },
+   {
+    "name": "Counterstrike",
+    "level": 3
+   },
+   {
+    "name": "Palico Rally",
+    "level": 2
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Blango Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/56/Blango_b-set-mhwilds-wiki-guide.png/100px-Blango_b-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": -20,
+   "water": 5,
+   "thunder": 0,
+   "ice": 20,
+   "dragon": 0
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 5
+   },
+   {
+    "name": "Wide-Range",
+    "level": 2
+   },
+   {
+    "name": "Counterstrike",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Bone Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/95/Bone_a-set-mhwilds-wiki-guide.png/100px-Bone_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 160,
+  "resistances": {
+   "fire": 10,
+   "water": 0,
+   "thunder": 10,
+   "ice": 0,
+   "dragon": 10
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Stun Resistance",
+    "level": 3
+   },
+   {
+    "name": "Marathon Runner",
+    "level": 3
+   },
+   {
+    "name": "Speed Eating",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Bone Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9b/Bone-set-mhwilds-wiki-guide.png/100px-Bone-set-mhwilds-wiki-guide.png",
+  "rarity": "1",
+  "rank": "Low Rank",
+  "defense": 20,
+  "resistances": {
+   "fire": 10,
+   "water": 0,
+   "thunder": 10,
+   "ice": 0,
+   "dragon": 10
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Marathon Runner",
+    "level": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Bulaqchi Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/94/Bulaqchi_a-set-1_mhwilds-wiki-guide.png/100px-Bulaqchi_a-set-1_mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 32,
+  "resistances": {
+   "fire": -4,
+   "water": 1,
+   "thunder": 1,
+   "ice": -2,
+   "dragon": 4
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 1
+   },
+   {
+    "name": "Entomologist",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Bulaqchi Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/59/Bulaqchi_a-set-2_mhwilds-wiki-guide.png/100px-Bulaqchi_a-set-2_mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 32,
+  "resistances": {
+   "fire": -4,
+   "water": 1,
+   "thunder": 1,
+   "ice": -2,
+   "dragon": 4
+  },
+  "decoSlots": [
+   2,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Entomologist",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Bulaqchi Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/ab/Bulaqchi-set-lr_mhwilds-wiki-guide.png/100px-Bulaqchi-set-lr_mhwilds-wiki-guide.png",
+  "rarity": "1",
+  "rank": "Low Rank",
+  "defense": 4,
+  "resistances": {
+   "fire": -4,
+   "water": 1,
+   "thunder": 1,
+   "ice": -2,
+   "dragon": 4
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Entomologist",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Butterfly Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5d/Butterfly_a-set-mhwilds-wiki-guide.png/100px-Butterfly_a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 220,
+  "resistances": {
+   "fire": -5,
+   "water": -5,
+   "thunder": 10,
+   "ice": 0,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Constitution",
+    "level": 5
+   },
+   {
+    "name": "Evade Window",
+    "level": 5
+   },
+   {
+    "name": "Evade Extender",
+    "level": 3
+   },
+   {
+    "name": "Recovery Up",
+    "level": 2
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Ceremonial Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/63/Ceremonial_alpha_set-mhwilds-wiki-guide.png/100px-Ceremonial_alpha_set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": 10,
+   "water": 10,
+   "thunder": 10,
+   "ice": -15,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Chainmail Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/12/Chainmail_a-set-mhwilds-wiki-guide.png/100px-Chainmail_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 130,
+  "resistances": {
+   "fire": 0,
+   "water": 10,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Recovery Speed",
+    "level": 3
+   },
+   {
+    "name": "Geologist",
+    "level": 3
+   },
+   {
+    "name": "Ice Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Chainmail Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d8/Chainmail-set-mhwilds-wiki-guide.png/100px-Chainmail-set-mhwilds-wiki-guide.png",
+  "rarity": "1",
+  "rank": "Low Rank",
+  "defense": 10,
+  "resistances": {
+   "fire": 0,
+   "water": 10,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Geologist",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Chatacabra Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d6/Chatacabra_a-set-mhwilds-wiki-guide.png/100px-Chatacabra_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": 5,
+   "water": 10,
+   "thunder": -15,
+   "ice": -5,
+   "dragon": 5
+  },
+  "decoSlots": [
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Speed Eating",
+    "level": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 2
+   },
+   {
+    "name": "Wide-Range",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Chatacabra Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/ae/Chatacabra_b-set-mhwilds-wiki-guide.png/100px-Chatacabra_b-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": 5,
+   "water": 10,
+   "thunder": -15,
+   "ice": -5,
+   "dragon": 5
+  },
+  "decoSlots": [
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Defense Boost",
+    "level": 4
+   },
+   {
+    "name": "Speed Eating",
+    "level": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 1
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Chatacabra Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3b/Chatacabra-set-mhwilds-wiki-guide.png/100px-Chatacabra-set-mhwilds-wiki-guide.png",
+  "rarity": "1",
+  "rank": "Low Rank",
+  "defense": 30,
+  "resistances": {
+   "fire": 5,
+   "water": 10,
+   "thunder": -15,
+   "ice": -5,
+   "dragon": 5
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Speed Eating",
+    "level": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Clerk Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/59/Clerk_alpha_armor_set-mhwilds-wiki-guide.png/100px-Clerk_alpha_armor_set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": 10,
+   "water": 10,
+   "thunder": 10,
+   "ice": 10,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Recovery Up",
+    "level": 3
+   },
+   {
+    "name": "Palico Rally",
+    "level": 5
+   },
+   {
+    "name": "Survival Expert",
+    "level": 3
+   },
+   {
+    "name": "Tool Specialist",
+    "level": 5
+   }
+  ]
+ },
+ {
+  "name": "Comaqchi Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/69/Comaqchi_a-set_1-mhwilds-wiki-guide.png/100px-Comaqchi_a-set_1-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 32,
+  "resistances": {
+   "fire": -5,
+   "water": 0,
+   "thunder": 0,
+   "ice": 3,
+   "dragon": 3
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Sleep Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Comaqchi Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/20/Comaqchi_b-set_1-mhwilds-wiki-guide.png/100px-Comaqchi_b-set_1-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 32,
+  "resistances": {
+   "fire": -5,
+   "water": 0,
+   "thunder": 0,
+   "ice": 3,
+   "dragon": 3
+  },
+  "decoSlots": [
+   2,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Sleep Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Comaqchi Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/04/Comaqchi-set-lr_mhwilds-wiki-guide.png/100px-Comaqchi-set-lr_mhwilds-wiki-guide.png",
+  "rarity": "3",
+  "rank": "Low Rank",
+  "defense": 16,
+  "resistances": {
+   "fire": -5,
+   "water": 0,
+   "thunder": 0,
+   "ice": 3,
+   "dragon": 3
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Sleep Resistance",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Commission Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a8/Placeholder_armor_set-mhwilds-wiki-guide.png/100px-Placeholder_armor_set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 220,
+  "resistances": {
+   "fire": 10,
+   "water": 10,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Maximum Might",
+    "level": 1
+   },
+   {
+    "name": "Divine Blessing",
+    "level": 2
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 2
+   },
+   {
+    "name": "Tool Specialist",
+    "level": 1
+   },
+   {
+    "name": "Earplugs",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Conga Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/24/Conga_a-set-mhwilds-wiki-guide.png/100px-Conga_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": -15,
+   "water": 5,
+   "thunder": 5,
+   "ice": -5,
+   "dragon": 10
+  },
+  "decoSlots": [
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Intimidator",
+    "level": 3
+   },
+   {
+    "name": "Mushroomancer",
+    "level": 3
+   },
+   {
+    "name": "Burst",
+    "level": 2
+   },
+   {
+    "name": "Free Meal",
+    "level": 2
+   },
+   {
+    "name": "Speed Eating",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Conga Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f7/Conga_b-set-mhwilds-wiki-guide.png/100px-Conga_b-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": -15,
+   "water": 5,
+   "thunder": 5,
+   "ice": -5,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Intimidator",
+    "level": 3
+   },
+   {
+    "name": "Mushroomancer",
+    "level": 2
+   },
+   {
+    "name": "Burst",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Conga Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5e/Conga-set-mhwilds-wiki-guide.png/100px-Conga-set-mhwilds-wiki-guide.png",
+  "rarity": "2",
+  "rank": "Low Rank",
+  "defense": 40,
+  "resistances": {
+   "fire": -15,
+   "water": 5,
+   "thunder": 5,
+   "ice": -5,
+   "dragon": 10
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Mushroomancer",
+    "level": 3
+   },
+   {
+    "name": "Stench Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Dahaad Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a5/Dahaad_a-set-mhwilds-wiki-guide.png/100px-Dahaad_a-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 300,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": -5,
+   "ice": 10,
+   "dragon": -5
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   3
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 5
+   },
+   {
+    "name": "Tremor Resistance",
+    "level": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 2
+   },
+   {
+    "name": "Bind Resistance",
+    "level": 2
+   },
+   {
+    "name": "Adaptability",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Dahaad Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/07/Dahaad_b-set-mhwilds-wiki-guide.png/100px-Dahaad_b-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 300,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": -5,
+   "ice": 10,
+   "dragon": -5
+  },
+  "decoSlots": [
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 4
+   },
+   {
+    "name": "Adaptability",
+    "level": 2
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 1
+   },
+   {
+    "name": "Bind Resistance",
+    "level": 1
+   },
+   {
+    "name": "Tremor Resistance",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Dahaad Gamma Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cb/Dahaad_armor_gamma_set-mhwilds-wiki-guide.png/100px-Dahaad_armor_gamma_set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 340,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": -5,
+   "ice": 10,
+   "dragon": -5
+  },
+  "decoSlots": [
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Foray",
+    "level": 3
+   },
+   {
+    "name": "Agitator",
+    "level": 5
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 3
+   },
+   {
+    "name": "Coalescence",
+    "level": 3
+   },
+   {
+    "name": "Bind Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Damascus Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e4/Damascus_a-set-mhwilds-wiki-guide.png/100px-Damascus_a-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 280,
+  "resistances": {
+   "fire": 20,
+   "water": -10,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Wide-Range",
+    "level": 5
+   },
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Death Stench Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/74/Death_stench_a-set-mhwilds-wiki-guide.png/100px-Death_stench_a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 220,
+  "resistances": {
+   "fire": 15,
+   "water": 10,
+   "thunder": -10,
+   "ice": 15,
+   "dragon": 20
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 5
+   },
+   {
+    "name": "Ambush",
+    "level": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 2
+   },
+   {
+    "name": "Intimidator",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Dober Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/58/Dober_a-set-mhwilds-wiki-guide.png/100px-Dober_a-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 280,
+  "resistances": {
+   "fire": -10,
+   "water": 0,
+   "thunder": -5,
+   "ice": -5,
+   "dragon": 20
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Constitution",
+    "level": 5
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Marathon Runner",
+    "level": 3
+   },
+   {
+    "name": "Mushroomancer",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Doshaguma Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b1/Doshaguma_a-set-mhwilds-wiki-guide.png/100px-Doshaguma_a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": -5,
+   "ice": -5,
+   "dragon": 20
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Latent Power",
+    "level": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 3
+   },
+   {
+    "name": "Free Meal",
+    "level": 3
+   },
+   {
+    "name": "Recovery Up",
+    "level": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Doshaguma Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1e/Doshaguma_b-set-mhwilds-wiki-guide.png/100px-Doshaguma_b-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": -5,
+   "ice": -5,
+   "dragon": 20
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Latent Power",
+    "level": 2
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 2
+   },
+   {
+    "name": "Recovery Up",
+    "level": 1
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Doshaguma Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9a/Doshaguma-set-mhwilds-wiki-guide.png/100px-Doshaguma-set-mhwilds-wiki-guide.png",
+  "rarity": "2",
+  "rank": "Low Rank",
+  "defense": 80,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": -5,
+   "ice": -5,
+   "dragon": 20
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Free Meal",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Dragonking Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a6/Dragonking-a-set-mhwilds-wiki-guide.png/100px-Dragonking-a-set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 60,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Counterstrike",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Dreamwalker Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/06/Dreamwalker-alpha-armor-set-mhwilds-wiki-guide.png/100px-Dreamwalker-alpha-armor-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": 10,
+   "ice": 10,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Festival Spirit",
+    "level": 5
+   },
+   {
+    "name": "Flayer",
+    "level": 5
+   },
+   {
+    "name": "Wide-Range",
+    "level": 5
+   },
+   {
+    "name": "Ambush",
+    "level": 3
+   },
+   {
+    "name": "Sleep Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Expedition Headgear Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a8/Placeholder_armor_set-mhwilds-wiki-guide.png/100px-Placeholder_armor_set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 40,
+  "resistances": {
+   "fire": 1,
+   "water": 1,
+   "thunder": 1,
+   "ice": 1,
+   "dragon": 1
+  },
+  "decoSlots": [
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Gajau Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fe/Gajau_alpha_set-mhwilds-wiki-guide.png/100px-Gajau_alpha_set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 44,
+  "resistances": {
+   "fire": 0,
+   "water": 5,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Gajau Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fe/Gajau_alpha_set-mhwilds-wiki-guide.png/100px-Gajau_alpha_set-mhwilds-wiki-guide.png",
+  "rarity": "1",
+  "rank": "Low Rank",
+  "defense": 4,
+  "resistances": {
+   "fire": 0,
+   "water": 5,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Gelidron Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a2/Gelidron_alpha_armor-set-mhwilds-wiki-guide.png/100px-Gelidron_alpha_armor-set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 132,
+  "resistances": {
+   "fire": 8,
+   "water": 4,
+   "thunder": -8,
+   "ice": -4,
+   "dragon": 0
+  },
+  "decoSlots": [
+   3,
+   3,
+   1,
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Gogmazios Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/34/Gogmazios_armor_set-mhwilds-wiki-guide.png/100px-Gogmazios_armor_set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 340,
+  "resistances": {
+   "fire": -20,
+   "water": 15,
+   "thunder": 0,
+   "ice": 15,
+   "dragon": -25
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 5
+   },
+   {
+    "name": "Adrenaline Rush",
+    "level": 2
+   },
+   {
+    "name": "Agitator",
+    "level": 2
+   },
+   {
+    "name": "Maximum Might",
+    "level": 2
+   },
+   {
+    "name": "Elemental Absorption",
+    "level": 2
+   },
+   {
+    "name": "Speed Eating",
+    "level": 2
+   },
+   {
+    "name": "Aquatic/Oilsilt Mobility",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Gogmazios Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/63/Gogmazios_beta_set-mhwilds-wiki-guide.png/100px-Gogmazios_beta_set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 340,
+  "resistances": {
+   "fire": -20,
+   "water": 15,
+   "thunder": 0,
+   "ice": 15,
+   "dragon": -25
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 5
+   },
+   {
+    "name": "Agitator",
+    "level": 2
+   },
+   {
+    "name": "Adrenaline Rush",
+    "level": 2
+   },
+   {
+    "name": "Speed Eating",
+    "level": 2
+   },
+   {
+    "name": "Elemental Absorption",
+    "level": 2
+   },
+   {
+    "name": "Maximum Might",
+    "level": 2
+   },
+   {
+    "name": "Aquatic/Oilsilt Mobility",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Gore Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/73/Gore_a-set-mhwilds-wiki-guide.png/100px-Gore_a-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 300,
+  "resistances": {
+   "fire": -10,
+   "water": 15,
+   "thunder": -5,
+   "ice": 10,
+   "dragon": -5
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Evade Window",
+    "level": 5
+   },
+   {
+    "name": "Constitution",
+    "level": 4
+   },
+   {
+    "name": "Antivirus",
+    "level": 3
+   },
+   {
+    "name": "Flinch Free",
+    "level": 2
+   },
+   {
+    "name": "Coalescence",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Gore Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/44/Gore_b-set-mhwilds-wiki-guide.png/100px-Gore_b-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 300,
+  "resistances": {
+   "fire": -10,
+   "water": 15,
+   "thunder": -5,
+   "ice": 10,
+   "dragon": -5
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Evade Window",
+    "level": 4
+   },
+   {
+    "name": "Constitution",
+    "level": 3
+   },
+   {
+    "name": "Coalescence",
+    "level": 1
+   },
+   {
+    "name": "Antivirus",
+    "level": 1
+   },
+   {
+    "name": "Flinch Free",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Gravios Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9b/Gravios_a-set-mhwilds-wiki-guide.png/100px-Gravios_a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 260,
+  "resistances": {
+   "fire": 20,
+   "water": -15,
+   "thunder": 5,
+   "ice": 0,
+   "dragon": -10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 5
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 3
+   },
+   {
+    "name": "Tremor Resistance",
+    "level": 3
+   },
+   {
+    "name": "Flinch Free",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Gravios Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3a/Gravios_b-set-mhwilds-wiki-guide.png/100px-Gravios_b-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 260,
+  "resistances": {
+   "fire": 20,
+   "water": -15,
+   "thunder": 5,
+   "ice": 0,
+   "dragon": -10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 5
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 2
+   },
+   {
+    "name": "Tremor Resistance",
+    "level": 1
+   },
+   {
+    "name": "Flinch Free",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Guardian Arkveld Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e0/Guardian_arkveld_a-set-mhwilds-wiki-guide.png/100px-Guardian_arkveld_a-set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 330,
+  "resistances": {
+   "fire": 10,
+   "water": 0,
+   "thunder": -5,
+   "ice": 0,
+   "dragon": -20
+  },
+  "decoSlots": [
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Flayer",
+    "level": 5
+   },
+   {
+    "name": "Blight Resistance",
+    "level": 3
+   },
+   {
+    "name": "Elemental Absorption",
+    "level": 3
+   },
+   {
+    "name": "Partbreaker",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Guardian Arkveld Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4c/Guardian_arkveld_b-set-mhwilds-wiki-guide.png/100px-Guardian_arkveld_b-set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 330,
+  "resistances": {
+   "fire": 10,
+   "water": 0,
+   "thunder": -5,
+   "ice": 0,
+   "dragon": -20
+  },
+  "decoSlots": [
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Flayer",
+    "level": 4
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 3
+   },
+   {
+    "name": "Blight Resistance",
+    "level": 2
+   },
+   {
+    "name": "Partbreaker",
+    "level": 1
+   },
+   {
+    "name": "Elemental Absorption",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Guardian Arkveld Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/63/Guardian_arkveld-set-mhwilds-wiki-guide.png/100px-Guardian_arkveld-set-mhwilds-wiki-guide.png",
+  "rarity": "4",
+  "rank": "Low Rank",
+  "defense": 150,
+  "resistances": {
+   "fire": 10,
+   "water": 0,
+   "thunder": -5,
+   "ice": 0,
+   "dragon": -20
+  },
+  "decoSlots": [
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Flayer",
+    "level": 3
+   },
+   {
+    "name": "Blight Resistance",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Guardian Doshaguma Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9c/Guardian_doshaguma_a-set-mhwilds-wiki-guide.png/100px-Guardian_doshaguma_a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": -5,
+   "ice": -10,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Heroics",
+    "level": 5
+   },
+   {
+    "name": "Constitution",
+    "level": 4
+   },
+   {
+    "name": "Iron Skin",
+    "level": 3
+   },
+   {
+    "name": "Hunger Resistance",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Guardian Doshaguma Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e8/Guardian_doshaguma_b-set-mhwilds-wiki-guide.png/100px-Guardian_doshaguma_b-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": -5,
+   "ice": -10,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Heroics",
+    "level": 5
+   },
+   {
+    "name": "Constitution",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Guardian Doshaguma Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5f/Guardian_doshaguma-set-mhwilds-wiki-guide.png/100px-Guardian_doshaguma-set-mhwilds-wiki-guide.png",
+  "rarity": "4",
+  "rank": "Low Rank",
+  "defense": 130,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": -5,
+   "ice": -10,
+   "dragon": 10
+  },
+  "decoSlots": [
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Heroics",
+    "level": 3
+   },
+   {
+    "name": "Marathon Runner",
+    "level": 3
+   },
+   {
+    "name": "Iron Skin",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Guardian Ebony Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2d/Guardian_ebony_a-set-mhwilds-wiki-guide.png/100px-Guardian_ebony_a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": -10,
+   "water": -15,
+   "thunder": -10,
+   "ice": -10,
+   "dragon": 20
+  },
+  "decoSlots": [
+   2,
+   2,
+   2
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Burst",
+    "level": 5
+   },
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "level": 3
+   },
+   {
+    "name": "Earplugs",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Guardian Ebony Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ca/Guardian_ebony_b-set-mhwilds-wiki-guide.png/100px-Guardian_ebony_b-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": -10,
+   "water": -15,
+   "thunder": -10,
+   "ice": -10,
+   "dragon": 20
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Burst",
+    "level": 4
+   },
+   {
+    "name": "Divine BLessing",
+    "level": 2
+   },
+   {
+    "name": "Earplugs",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Guardian Ebony Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8c/Guardian_ebony-set-mhwilds-wiki-guide.png/100px-Guardian_ebony-set-mhwilds-wiki-guide.png",
+  "rarity": "4",
+  "rank": "Low Rank",
+  "defense": 130,
+  "resistances": {
+   "fire": -10,
+   "water": -15,
+   "thunder": -10,
+   "ice": -10,
+   "dragon": 20
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Burst",
+    "level": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Guardian Fulgur Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/09/Guardian_fulgur_a-set-mhwilds-wiki-guide.png/100px-Guardian_fulgur_a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": -5,
+   "water": -5,
+   "thunder": 10,
+   "ice": -15,
+   "dragon": -10
+  },
+  "decoSlots": [
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 3
+   },
+   {
+    "name": "Maximum Might",
+    "level": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Coalescence",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Guardian Fulgur Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/13/Guardian_fulgur_b-set-mhwilds-wiki-guide.png/100px-Guardian_fulgur_b-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": -5,
+   "water": -5,
+   "thunder": 10,
+   "ice": -15,
+   "dragon": -10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 2
+   },
+   {
+    "name": "Maximum Might",
+    "level": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 2
+   },
+   {
+    "name": "Coalescence",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Guardian Rathalos Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d1/Guardian_rathalos_a-set-mhwilds-wiki-guide.png/100px-Guardian_rathalos_a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": 15,
+   "water": 5,
+   "thunder": -10,
+   "ice": 5,
+   "dragon": -25
+  },
+  "decoSlots": [
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 5
+   },
+   {
+    "name": "Survival Expert",
+    "level": 3
+   },
+   {
+    "name": "Windproof",
+    "level": 3
+   },
+   {
+    "name": "Intimidator",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Guardian Rathalos Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/49/Guardian_rathalos_b-set-mhwilds-wiki-guide.png/100px-Guardian_rathalos_b-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": 15,
+   "water": 5,
+   "thunder": -10,
+   "ice": 5,
+   "dragon": -25
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 4
+   },
+   {
+    "name": "Windproof",
+    "level": 2
+   },
+   {
+    "name": "Intimidator",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Guardian Rathalos Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d6/Guardian_rathalos-set-mhwilds-wiki-guide.png/100px-Guardian_rathalos-set-mhwilds-wiki-guide.png",
+  "rarity": "4",
+  "rank": "Low Rank",
+  "defense": 130,
+  "resistances": {
+   "fire": 15,
+   "water": 5,
+   "thunder": -10,
+   "ice": 5,
+   "dragon": -25
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 3
+   },
+   {
+    "name": "Intimidator",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Guardian Seikret Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/44/Guardian_seikret_alpha-mhwilds-wiki-guide.png/100px-Guardian_seikret_alpha-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 44,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 4,
+   "ice": 0,
+   "dragon": -3
+  },
+  "decoSlots": [
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Guardian Seikret Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/99/Guardian_seikret_betha-mhwilds-wiki-guide.png/100px-Guardian_seikret_betha-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 44,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 4,
+   "ice": 0,
+   "dragon": -3
+  },
+  "decoSlots": [
+   2,
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Guardian Seikret Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2d/Guardian_seikret_set-lr_mhwilds-wiki-guide.png/100px-Guardian_seikret_set-lr_mhwilds-wiki-guide.png",
+  "rarity": "4",
+  "rank": "Low Rank",
+  "defense": 22,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 4,
+   "ice": 0,
+   "dragon": -3
+  },
+  "decoSlots": [
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Guild Ace Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/28/Guild_ace_a-set-mhwilds-wiki-guide.png/100px-Guild_ace_a-set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 300,
+  "resistances": {
+   "fire": 10,
+   "water": 10,
+   "thunder": 10,
+   "ice": 10,
+   "dragon": 10
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 5
+   },
+   {
+    "name": "Constitution",
+    "level": 5
+   },
+   {
+    "name": "Foray",
+    "level": 5
+   }
+  ]
+ },
+ {
+  "name": "Guild Cross Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/88/Guild_cross_alpha-set-mhwilds-wiki-guide.png/100px-Guild_cross_alpha-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Flinch Free",
+    "level": 3
+   },
+   {
+    "name": "Bind Resistance",
+    "level": 3
+   },
+   {
+    "name": "Earplugs",
+    "level": 3
+   },
+   {
+    "name": "Tremor Resistance",
+    "level": 3
+   },
+   {
+    "name": "Windproof",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Gypceros Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/25/Gypceros_a-set-mhwilds-wiki-guide.png/100px-Gypceros_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": -20,
+   "water": 15,
+   "thunder": 20,
+   "ice": -5,
+   "dragon": 5
+  },
+  "decoSlots": [
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 4
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 2
+   },
+   {
+    "name": "Marathon Runner",
+    "level": 2
+   },
+   {
+    "name": "Blindsider",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Gypceros Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1f/Gypceros_b-set-mhwilds-wiki-guide.png/100px-Gypceros_b-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": -20,
+   "water": 15,
+   "thunder": 20,
+   "ice": -5,
+   "dragon": 5
+  },
+  "decoSlots": [
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Marathon Runner",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Harvest Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b3/Harvest-alpha-armor-set-mhwilds-wiki-guide.png/100px-Harvest-alpha-armor-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": 20,
+   "water": 5,
+   "thunder": 5,
+   "ice": 5,
+   "dragon": 5
+  },
+  "decoSlots": [
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Botanist",
+    "level": 4
+   },
+   {
+    "name": "Mushroomancer",
+    "level": 3
+   },
+   {
+    "name": "Free Meal",
+    "level": 3
+   },
+   {
+    "name": "Resentment",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "High Metal Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c4/High_metal_set-mhwilds-wiki-guide.png/100px-High_metal_set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 220,
+  "resistances": {
+   "fire": 0,
+   "water": -5,
+   "thunder": -10,
+   "ice": 15,
+   "dragon": 0
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Stun Resistance",
+    "level": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "level": 3
+   },
+   {
+    "name": "Blast Resistance",
+    "level": 3
+   },
+   {
+    "name": "Partbreaker",
+    "level": 3
+   },
+   {
+    "name": "Flinch Free",
+    "level": 3
+   },
+   {
+    "name": "Bombardier",
+    "level": 3
+   },
+   {
+    "name": "Aquatic-Oilsilt Mobility",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Hirabami Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e1/Hirabami_a-set-mhwilds-wiki-guide.png/100px-Hirabami_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 190,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": -10,
+   "ice": 15,
+   "dragon": 0
+  },
+  "decoSlots": [
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Evade Window",
+    "level": 5
+   },
+   {
+    "name": "Ice Resistance",
+    "level": 3
+   },
+   {
+    "name": "Peak Performance",
+    "level": 2
+   },
+   {
+    "name": "Evade Extender",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Hirabami Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fb/Hirabami_b-set-mhwilds-wiki-guide.png/100px-Hirabami_b-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 190,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": -10,
+   "ice": 15,
+   "dragon": 0
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Evade Window",
+    "level": 4
+   },
+   {
+    "name": "Peak Performance",
+    "level": 1
+   },
+   {
+    "name": "Ice Resistance",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Hirabami Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/86/Hirabami-set-mhwilds-wiki-guide.png/100px-Hirabami-set-mhwilds-wiki-guide.png",
+  "rarity": "3",
+  "rank": "Low Rank",
+  "defense": 110,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": -10,
+   "ice": 15,
+   "dragon": 0
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Evade Window",
+    "level": 5
+   },
+   {
+    "name": "Ice Resistance",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Hope Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fc/Hope_a-set-mhwilds-wiki-guide.png/100px-Hope_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 130,
+  "resistances": {
+   "fire": 5,
+   "water": 0,
+   "thunder": 5,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 3
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 1
+   },
+   {
+    "name": "Sleep Resistance",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Hope Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2d/Hope-set-mhwilds-wiki-guide.png/100px-Hope-set-mhwilds-wiki-guide.png",
+  "rarity": "1",
+  "rank": "Low Rank",
+  "defense": 10,
+  "resistances": {
+   "fire": 5,
+   "water": 0,
+   "thunder": 5,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Ingot Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1b/Ingot_a-set-mhwilds-wiki-guide.png/100px-Ingot_a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 220,
+  "resistances": {
+   "fire": -10,
+   "water": 0,
+   "thunder": 15,
+   "ice": -5,
+   "dragon": 0
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 5
+   },
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 2
+   },
+   {
+    "name": "Windproof",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Ingot Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a0/Ingot-set-mhwilds-wiki-guide.png/100px-Ingot-set-mhwilds-wiki-guide.png",
+  "rarity": "3",
+  "rank": "Low Rank",
+  "defense": 80,
+  "resistances": {
+   "fire": -10,
+   "water": 0,
+   "thunder": 15,
+   "ice": -5,
+   "dragon": 0
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Divine Blessing",
+    "level": 2
+   },
+   {
+    "name": "Windproof",
+    "level": 2
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "King Beetle Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/16/King_beetle_a-set-mhwilds-wiki-guide.png/100px-King_beetle_a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 220,
+  "resistances": {
+   "fire": -5,
+   "water": -5,
+   "thunder": 10,
+   "ice": 0,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Heroics",
+    "level": 5
+   },
+   {
+    "name": "Foray",
+    "level": 3
+   },
+   {
+    "name": "Flayer",
+    "level": 2
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 2
+   },
+   {
+    "name": "Paralysis Resistance",
+    "level": 2
+   },
+   {
+    "name": "Sleep Resistance",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Kranodath Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/15/Kranodath-a-set_mhwilds-wiki-guide.png/100px-Kranodath-a-set_mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 32,
+  "resistances": {
+   "fire": 4,
+   "water": -2,
+   "thunder": 0,
+   "ice": -2,
+   "dragon": 0
+  },
+  "decoSlots": [],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Kranodath Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2c/Kranodath-b-set_mhwilds-wiki-guide.png/100px-Kranodath-b-set_mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 32,
+  "resistances": {
+   "fire": 4,
+   "water": -2,
+   "thunder": 0,
+   "ice": -2,
+   "dragon": 0
+  },
+  "decoSlots": [
+   2
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Kranodath Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/55/Kranodath-set_mhwilds-wiki-guide.png/100px-Kranodath-set_mhwilds-wiki-guide.png",
+  "rarity": "3",
+  "rank": "Low Rank",
+  "defense": 16,
+  "resistances": {
+   "fire": 4,
+   "water": -2,
+   "thunder": 0,
+   "ice": -2,
+   "dragon": 0
+  },
+  "decoSlots": [],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Kunafa Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f6/Kunafa_a-set_1-mhwilds-wiki-guide.png/100px-Kunafa_a-set_1-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 176,
+  "resistances": {
+   "fire": 4,
+   "water": 4,
+   "thunder": 16,
+   "ice": 4,
+   "dragon": 4
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Palico Rally",
+    "level": 4
+   },
+   {
+    "name": "Wide-Range",
+    "level": 4
+   },
+   {
+    "name": "Speed Eating",
+    "level": 2
+   },
+   {
+    "name": "Free Meal",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Kut-Ku Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/17/Kut-ku_a-set-mhwilds-wiki-guide.png/100px-Kut-ku_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": 15,
+   "water": 0,
+   "thunder": -10,
+   "ice": -20,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Constitution",
+    "level": 5
+   },
+   {
+    "name": "Agitator",
+    "level": 3
+   },
+   {
+    "name": "Fire Resistance",
+    "level": 3
+   },
+   {
+    "name": "Recovery Up",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Kut-Ku Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b1/Kut-ku_b-set-mhwilds-wiki-guide.png/100px-Kut-ku_b-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": 15,
+   "water": 0,
+   "thunder": -10,
+   "ice": -20,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Constitution",
+    "level": 4
+   },
+   {
+    "name": "Agitator",
+    "level": 2
+   },
+   {
+    "name": "Recovery Up",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Lagiacrus Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/28/Lagiacrus-armor-set-mhwilds-wiki-guide.png/100px-Lagiacrus-armor-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 320,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": 20,
+   "ice": -5,
+   "dragon": -10
+  },
+  "decoSlots": [
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 5
+   },
+   {
+    "name": "Maximum Might",
+    "level": 3
+   },
+   {
+    "name": "Thunder Resistance",
+    "level": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Latent Power",
+    "level": 2
+   },
+   {
+    "name": "Aquatic/Oilsilt Mobility",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Lagiacrus Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/28/Lagiacrus-armor-set-mhwilds-wiki-guide.png/100px-Lagiacrus-armor-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 320,
+  "resistances": {
+   "fire": -15,
+   "water": 10,
+   "thunder": 20,
+   "ice": -5,
+   "dragon": -10
+  },
+  "decoSlots": [
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Weakness Exploit",
+    "level": 5
+   },
+   {
+    "name": "Maximum Might",
+    "level": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Latent Power",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Lala Barina Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/29/Lala_barina_a-set-mhwilds-wiki-guide.png/100px-Lala_barina_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": -15,
+   "water": 15,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 15
+  },
+  "decoSlots": [
+   2
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Foray",
+    "level": 3
+   },
+   {
+    "name": "Paralysis Resistance",
+    "level": 3
+   },
+   {
+    "name": "Recovery Up",
+    "level": 3
+   },
+   {
+    "name": "Evade Window",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Lala Barina Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/19/Lala_barina_b-set-mhwilds-wiki-guide.png/100px-Lala_barina_b-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": -15,
+   "water": 15,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 15
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   2,
+   2
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Evade Window",
+    "level": 2
+   },
+   {
+    "name": "Recovery Up",
+    "level": 2
+   },
+   {
+    "name": "Foray",
+    "level": 1
+   },
+   {
+    "name": "Paralysis Resistance",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Lala Barina Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b2/Lala_barina-set-mhwilds-wiki-guide.png/100px-Lala_barina-set-mhwilds-wiki-guide.png",
+  "rarity": "1",
+  "rank": "Low Rank",
+  "defense": 40,
+  "resistances": {
+   "fire": -15,
+   "water": 15,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 15
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Recovery Up",
+    "level": 3
+   },
+   {
+    "name": "Paralysis Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Leather Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/62/Leather_a-set-mhwilds-wiki-guide.png/100px-Leather_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 130,
+  "resistances": {
+   "fire": 10,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Botanist",
+    "level": 4
+   },
+   {
+    "name": "Hunger Resistance",
+    "level": 3
+   },
+   {
+    "name": "Item Prolonger",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Leather Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/35/Leather-set-mhwilds-wiki-guide.png/100px-Leather-set-mhwilds-wiki-guide.png",
+  "rarity": "1",
+  "rank": "Low Rank",
+  "defense": 10,
+  "resistances": {
+   "fire": 10,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Botanist",
+    "level": 4
+   },
+   {
+    "name": "Hunger Resistance",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Melahoa Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/08/Melahoa_a-set-mhwilds-wiki-guide.png/100px-Melahoa_a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 220,
+  "resistances": {
+   "fire": 0,
+   "water": 5,
+   "thunder": 15,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Tool Specialist",
+    "level": 3
+   },
+   {
+    "name": "Recovery Up",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 3
+   },
+   {
+    "name": "Survival Expert",
+    "level": 3
+   },
+   {
+    "name": "Mushroomancer",
+    "level": 3
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 2
+   },
+   {
+    "name": "Paralysis Resistance",
+    "level": 2
+   },
+   {
+    "name": "Bleeding Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Mimiphyta Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a8/Placeholder_armor_set-mhwilds-wiki-guide.png/100px-Placeholder_armor_set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 36,
+  "resistances": {
+   "fire": -3,
+   "water": 2,
+   "thunder": -2,
+   "ice": 2,
+   "dragon": 2
+  },
+  "decoSlots": [
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Entomologist",
+    "level": 1
+   },
+   {
+    "name": "Ambush",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Mizutsune Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3d/Mizutsune_alpha-set-mhwilds-wiki-guide.png/100px-Mizutsune_alpha-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": 0,
+   "water": 10,
+   "thunder": -15,
+   "ice": 5,
+   "dragon": -5
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1,
+   2,
+   3
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Burst",
+    "level": 5
+   },
+   {
+    "name": "Constitution",
+    "level": 3
+   },
+   {
+    "name": "Evade Extender",
+    "level": 3
+   },
+   {
+    "name": "Evade Window",
+    "level": 2
+   },
+   {
+    "name": "Peak Performance",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Mizutsune Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c1/Mizutsune_beta-set-mhwilds-wiki-guide.png/100px-Mizutsune_beta-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": 0,
+   "water": 10,
+   "thunder": -15,
+   "ice": 5,
+   "dragon": -5
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Aquatic-Oilsilt Mobility",
+    "level": 2
+   },
+   {
+    "name": "Constitution",
+    "level": 3
+   },
+   {
+    "name": "Burst",
+    "level": 3
+   },
+   {
+    "name": "Evade Extender",
+    "level": 1
+   },
+   {
+    "name": "Evade Window",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Nerscylla Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fb/Nerscylla_a-set-mhwilds-wiki-guide.png/100px-Nerscylla_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 190,
+  "resistances": {
+   "fire": -10,
+   "water": 10,
+   "thunder": -10,
+   "ice": 5,
+   "dragon": 10
+  },
+  "decoSlots": [
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Poison Resistance",
+    "level": 3
+   },
+   {
+    "name": "Sleep Resistance",
+    "level": 3
+   },
+   {
+    "name": "Ambush",
+    "level": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Nerscylla Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0e/Nerscylla_b-set-mhwilds-wiki-guide.png/100px-Nerscylla_b-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 190,
+  "resistances": {
+   "fire": -10,
+   "water": 10,
+   "thunder": -10,
+   "ice": 5,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Bind Resistance",
+    "level": 2
+   },
+   {
+    "name": "Ambush",
+    "level": 2
+   },
+   {
+    "name": "Sleep Resistance",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Nerscylla Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c3/Nerscylla-set-mhwilds-wiki-guide.png/100px-Nerscylla-set-mhwilds-wiki-guide.png",
+  "rarity": "3",
+  "rank": "Low Rank",
+  "defense": 100,
+  "resistances": {
+   "fire": -10,
+   "water": 10,
+   "thunder": -10,
+   "ice": 5,
+   "dragon": 10
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Ambush",
+    "level": 3
+   },
+   {
+    "name": "Bind Resistance",
+    "level": 2
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 1
+   },
+   {
+    "name": "Sleep Resistance",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Nu Udra Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/54/Nu_udra_a-set-mhwilds-wiki-guide.png/100px-Nu_udra_a-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 300,
+  "resistances": {
+   "fire": 25,
+   "water": -20,
+   "thunder": 0,
+   "ice": 5,
+   "dragon": 0
+  },
+  "decoSlots": [
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 5
+   },
+   {
+    "name": "Counterstrike",
+    "level": 3
+   },
+   {
+    "name": "Speed Eating",
+    "level": 3
+   },
+   {
+    "name": "Burst",
+    "level": 2
+   },
+   {
+    "name": "Windproof",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Nu Udra Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/87/Nu_udra_b-set-mhwilds-wiki-guide.png/100px-Nu_udra_b-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 300,
+  "resistances": {
+   "fire": 25,
+   "water": -20,
+   "thunder": 0,
+   "ice": 5,
+   "dragon": 0
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 4
+   },
+   {
+    "name": "Counterstrike",
+    "level": 2
+   },
+   {
+    "name": "Speed Eating",
+    "level": 2
+   },
+   {
+    "name": "Burst",
+    "level": 1
+   },
+   {
+    "name": "Windproof",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Nu Udra Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b1/Nu_udra-set-mhwilds-wiki-guide.png/100px-Nu_udra-set-mhwilds-wiki-guide.png",
+  "rarity": "4",
+  "rank": "Low Rank",
+  "defense": 130,
+  "resistances": {
+   "fire": 25,
+   "water": -20,
+   "thunder": 0,
+   "ice": 5,
+   "dragon": 0
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Resentment",
+    "level": 3
+   },
+   {
+    "name": "Speed Eating",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Numinous Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ef/Numinous_alpha-set-mhwilds-wiki-guide.png/100px-Numinous_alpha-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 340,
+  "resistances": {
+   "fire": -10,
+   "water": 10,
+   "thunder": 10,
+   "ice": 0,
+   "dragon": -20
+  },
+  "decoSlots": [
+   3,
+   3,
+   2,
+   2,
+   2,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 5
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 3
+   },
+   {
+    "name": "Counterstrike",
+    "level": 3
+   },
+   {
+    "name": "Coalescence",
+    "level": 3
+   },
+   {
+    "name": "Elemental Absorption",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Numinous Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6a/Numinous_beta-set-mhwilds-wiki-guide.png/100px-Numinous_beta-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 340,
+  "resistances": {
+   "fire": -10,
+   "water": 10,
+   "thunder": 10,
+   "ice": 0,
+   "dragon": -20
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Agitator",
+    "level": 5
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 2
+   },
+   {
+    "name": "Elemental Absorption",
+    "level": 3
+   },
+   {
+    "name": "Coalescence",
+    "level": 1
+   },
+   {
+    "name": "Counterstrike",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Omega Attire Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/51/Tu3-omega-armor-set-mhwilds-wiki-guide.png/100px-Tu3-omega-armor-set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 340,
+  "resistances": {
+   "fire": 15,
+   "water": 0,
+   "thunder": -15,
+   "ice": 0,
+   "dragon": -10
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 1
+   },
+   {
+    "name": "Partbreaker",
+    "level": 2
+   },
+   {
+    "name": "Agitator",
+    "level": 1
+   },
+   {
+    "name": "Burst",
+    "level": 1
+   },
+   {
+    "name": "Evade Window",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Orion Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e7/Orion_alpha_set-mhwilds-wiki-guide.png/100px-Orion_alpha_set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 330,
+  "resistances": {
+   "fire": 5,
+   "water": 5,
+   "thunder": 5,
+   "ice": 20,
+   "dragon": 5
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Flinch Free",
+    "level": 3
+   },
+   {
+    "name": "Recovery Up",
+    "level": 3
+   },
+   {
+    "name": "Windproof",
+    "level": 3
+   },
+   {
+    "name": "Earplugs",
+    "level": 3
+   },
+   {
+    "name": "Cliffhanger",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Piragill Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/32/Piragill_a_set_mhwilds-wiki-guide.png/100px-Piragill_a_set_mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 32,
+  "resistances": {
+   "fire": -3,
+   "water": 4,
+   "thunder": -3,
+   "ice": 1,
+   "dragon": 1
+  },
+  "decoSlots": [],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Piragill Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/99/Piragill_b_set_mhwilds-wiki-guide.png/100px-Piragill_b_set_mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 32,
+  "resistances": {
+   "fire": -3,
+   "water": 4,
+   "thunder": -3,
+   "ice": 1,
+   "dragon": 1
+  },
+  "decoSlots": [
+   2
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Piragill Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d6/Piragill_set-mhwilds-wiki-guide.png/100px-Piragill_set-mhwilds-wiki-guide.png",
+  "rarity": "1",
+  "rank": "Low Rank",
+  "defense": 4,
+  "resistances": {
+   "fire": -3,
+   "water": 4,
+   "thunder": -3,
+   "ice": 1,
+   "dragon": 1
+  },
+  "decoSlots": [],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Quematrice Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/30/Quematrice_a-set-mhwilds-wiki-guide.png/100px-Quematrice_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": 10,
+   "water": -15,
+   "thunder": 0,
+   "ice": -5,
+   "dragon": 0
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Latent Power",
+    "level": 3
+   },
+   {
+    "name": "Fire Resistance",
+    "level": 3
+   },
+   {
+    "name": "Flinch Free",
+    "level": 3
+   },
+   {
+    "name": "Evade Extender",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Quematrice Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/db/Quematrice_b-set-mhwilds-wiki-guide.png/100px-Quematrice_b-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": 10,
+   "water": -15,
+   "thunder": 0,
+   "ice": -5,
+   "dragon": 0
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Latent Power",
+    "level": 2
+   },
+   {
+    "name": "Fire Resistance",
+    "level": 2
+   },
+   {
+    "name": "Flinch Free",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Quematrice Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/50/Quematrice-set-mhwilds-wiki-guide.png/100px-Quematrice-set-mhwilds-wiki-guide.png",
+  "rarity": "1",
+  "rank": "Low Rank",
+  "defense": 30,
+  "resistances": {
+   "fire": 10,
+   "water": -15,
+   "thunder": 0,
+   "ice": -5,
+   "dragon": 0
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Flinch Free",
+    "level": 3
+   },
+   {
+    "name": "Fire Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Rathalos Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0b/Rathalos_a-set-mhwilds-wiki-guide.png/100px-Rathalos_a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": 15,
+   "water": 5,
+   "thunder": -10,
+   "ice": 5,
+   "dragon": -15
+  },
+  "decoSlots": [
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Adrenaline Rush",
+    "level": 5
+   },
+   {
+    "name": "Evade Window",
+    "level": 5
+   },
+   {
+    "name": "Constitution",
+    "level": 4
+   }
+  ]
+ },
+ {
+  "name": "Rathalos Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cd/Rathalos_b-set-mhwilds-wiki-guide.png/100px-Rathalos_b-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": 15,
+   "water": 5,
+   "thunder": -10,
+   "ice": 5,
+   "dragon": -15
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Adrenaline Rush",
+    "level": 4
+   },
+   {
+    "name": "Constitution",
+    "level": 3
+   },
+   {
+    "name": "Evade Window",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Rathian Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5b/Rathian_a-set-mhwilds-wiki-guide.png/100px-Rathian_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 190,
+  "resistances": {
+   "fire": 10,
+   "water": 0,
+   "thunder": -10,
+   "ice": 0,
+   "dragon": -15
+  },
+  "decoSlots": [
+   2
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Foray",
+    "level": 5
+   },
+   {
+    "name": "Divine Blessing",
+    "level": 3
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 3
+   },
+   {
+    "name": "Tool Specialist",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Rathian Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/de/Rathian_b-set-mhwilds-wiki-guide.png/100px-Rathian_b-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 190,
+  "resistances": {
+   "fire": 10,
+   "water": 0,
+   "thunder": -10,
+   "ice": 0,
+   "dragon": -15
+  },
+  "decoSlots": [
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Foray",
+    "level": 4
+   },
+   {
+    "name": "Divine Blessing",
+    "level": 2
+   },
+   {
+    "name": "Recovery Speed",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Rey Dau Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e8/Rey_dau_a-set-mhwilds-wiki-guide.png/100px-Rey_dau_a-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 300,
+  "resistances": {
+   "fire": 0,
+   "water": -10,
+   "thunder": 20,
+   "ice": -15,
+   "dragon": 0
+  },
+  "decoSlots": [
+   3,
+   2,
+   2,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Latent Power",
+    "level": 5
+   },
+   {
+    "name": "Maximum Might",
+    "level": 3
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Evade Extender",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Rey Dau Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9f/Rey_dau_b-set-mhwilds-wiki-guide.png/100px-Rey_dau_b-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 300,
+  "resistances": {
+   "fire": 0,
+   "water": -10,
+   "thunder": 20,
+   "ice": -15,
+   "dragon": 0
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   3,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Latent Power",
+    "level": 4
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 2
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 2
+   },
+   {
+    "name": "Maximum Might",
+    "level": 1
+   },
+   {
+    "name": "Evade Extender",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Rey Dau Gamma Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5a/Rey_dau_gamma_armor-set-mhwilds-wiki-guide.png/100px-Rey_dau_gamma_armor-set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 340,
+  "resistances": {
+   "fire": 0,
+   "water": -10,
+   "thunder": 20,
+   "ice": -15,
+   "dragon": 0
+  },
+  "decoSlots": [
+   3,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Weakness Exploit",
+    "level": 1
+   },
+   {
+    "name": "Maximum Might",
+    "level": 3
+   },
+   {
+    "name": "Latent Power",
+    "level": 5
+   },
+   {
+    "name": "Evade Extender",
+    "level": 2
+   },
+   {
+    "name": "Stun Resistance",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Rey Dau Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/89/Rey_dau-set-mhwilds-wiki-guide.png/100px-Rey_dau-set-mhwilds-wiki-guide.png",
+  "rarity": "4",
+  "rank": "Low Rank",
+  "defense": 130,
+  "resistances": {
+   "fire": 0,
+   "water": -10,
+   "thunder": 20,
+   "ice": -15,
+   "dragon": 0
+  },
+  "decoSlots": [
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Constitution",
+    "level": 3
+   },
+   {
+    "name": "Latent Power",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Rompopolo Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ec/Rompopolo_a-set-mhwilds-wiki-guide.png/100px-Rompopolo_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": 0,
+   "water": -15,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 5
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Wide-Range",
+    "level": 5
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 3
+   },
+   {
+    "name": "Earplugs",
+    "level": 2
+   },
+   {
+    "name": "Foray",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Rompopolo Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b4/Rompopolo_b-set-mhwilds-wiki-guide.png/100px-Rompopolo_b-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": 0,
+   "water": -15,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 5
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Wide-Range",
+    "level": 3
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 2
+   },
+   {
+    "name": "Foray",
+    "level": 1
+   },
+   {
+    "name": "Earplugs",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Rompopolo Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/63/Rompopolo-set-mhwilds-wiki-guide.png/100px-Rompopolo-set-mhwilds-wiki-guide.png",
+  "rarity": "3",
+  "rank": "Low Rank",
+  "defense": 90,
+  "resistances": {
+   "fire": 0,
+   "water": -15,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 5
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Wide-Range",
+    "level": 5
+   },
+   {
+    "name": "Poison Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Seregios Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1f/Seregios-armor-set-mhwilds-wiki-guide.png/100px-Seregios-armor-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 320,
+  "resistances": {
+   "fire": 20,
+   "water": 0,
+   "thunder": -15,
+   "ice": -10,
+   "dragon": 0
+  },
+  "decoSlots": [
+   3,
+   2,
+   2,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Adrenaline Rush",
+    "level": 5
+   },
+   {
+    "name": "Evade Window",
+    "level": 4
+   },
+   {
+    "name": "Agitator",
+    "level": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "level": 3
+   },
+   {
+    "name": "Counterstrike",
+    "level": 2
+   },
+   {
+    "name": "Evade Extender",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Seregios Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1f/Seregios-armor-set-mhwilds-wiki-guide.png/100px-Seregios-armor-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 320,
+  "resistances": {
+   "fire": 20,
+   "water": 0,
+   "thunder": -15,
+   "ice": -10,
+   "dragon": 0
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Adrenaline Rush",
+    "level": 5
+   },
+   {
+    "name": "Agitator",
+    "level": 3
+   },
+   {
+    "name": "Evade Window",
+    "level": 3
+   },
+   {
+    "name": "Bleeding Resistance",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Sild Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d0/Sild-a-set-mhwilds-wiki-guide.png/100px-Sild-a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 88,
+  "resistances": {
+   "fire": 2,
+   "water": 2,
+   "thunder": 2,
+   "ice": 2,
+   "dragon": 8
+  },
+  "decoSlots": [
+   2,
+   2,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Wide-Range",
+    "level": 4
+   },
+   {
+    "name": "Botanist",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Suja Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4b/Suja-a-set-mhwilds-wiki-guide.png/100px-Suja-a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 44,
+  "resistances": {
+   "fire": 1,
+   "water": 1,
+   "thunder": 1,
+   "ice": 4,
+   "dragon": 1
+  },
+  "decoSlots": [
+   2,
+   1,
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Talioth Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/97/Talioth_a_set_mhwilds-wiki-guide.png/100px-Talioth_a_set_mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 32,
+  "resistances": {
+   "fire": 4,
+   "water": -2,
+   "thunder": -2,
+   "ice": -2,
+   "dragon": 2
+  },
+  "decoSlots": [],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Talioth Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/71/Talioth_b_set_mhwilds-wiki-guide.png/100px-Talioth_b_set_mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 32,
+  "resistances": {
+   "fire": 4,
+   "water": -2,
+   "thunder": -2,
+   "ice": -2,
+   "dragon": 2
+  },
+  "decoSlots": [
+   2,
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Talioth Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5b/Talioth_set-mhwilds-wiki-guide.png/100px-Talioth_set-mhwilds-wiki-guide.png",
+  "rarity": "1",
+  "rank": "Low Rank",
+  "defense": 4,
+  "resistances": {
+   "fire": 4,
+   "water": -2,
+   "thunder": -2,
+   "ice": -2,
+   "dragon": 2
+  },
+  "decoSlots": [],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Uth Duna Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d8/Uth_duna_a-set-mhwilds-wiki-guide.png/100px-Uth_duna_a-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 300,
+  "resistances": {
+   "fire": -5,
+   "water": 20,
+   "thunder": -15,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [
+   3,
+   3,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 5
+   },
+   {
+    "name": "Tool Specialist",
+    "level": 5
+   },
+   {
+    "name": "Aquatic-Oilsilt Mobility",
+    "level": 2
+   },
+   {
+    "name": "Earplugs",
+    "level": 1
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Uth Duna Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0d/Uth_duna_b-set-mhwilds-wiki-guide.png/100px-Uth_duna_b-set-mhwilds-wiki-guide.png",
+  "rarity": "7",
+  "rank": "High Rank",
+  "defense": 300,
+  "resistances": {
+   "fire": -5,
+   "water": 20,
+   "thunder": -15,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 4
+   },
+   {
+    "name": "Tool Specialist",
+    "level": 3
+   },
+   {
+    "name": "Earplugs",
+    "level": 1
+   },
+   {
+    "name": "Quick Sheathe",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Uth Duna Gamma Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9f/Arch-tempered_uth_duna-armor-set-mhwilds-wiki-guide.png/100px-Arch-tempered_uth_duna-armor-set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 340,
+  "resistances": {
+   "fire": -5,
+   "water": 20,
+   "thunder": -15,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   1,
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Uth Duna Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b5/Uth_duna-set-mhwilds-wiki-guide.png/100px-Uth_duna-set-mhwilds-wiki-guide.png",
+  "rarity": "4",
+  "rank": "Low Rank",
+  "defense": 130,
+  "resistances": {
+   "fire": -5,
+   "water": 20,
+   "thunder": -15,
+   "ice": 0,
+   "dragon": 0
+  },
+  "decoSlots": [
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Peak Performance",
+    "level": 3
+   },
+   {
+    "name": "Aquatic-Oilsilt Mobility",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "name": "Vespoid Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e2/Vespoid_a-set-mhwilds-wiki-guide.png/100px-Vespoid_a-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 160,
+  "resistances": {
+   "fire": -10,
+   "water": 5,
+   "thunder": 5,
+   "ice": 5,
+   "dragon": 10
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Paralysis Resistance",
+    "level": 3
+   },
+   {
+    "name": "Survival Expert",
+    "level": 3
+   },
+   {
+    "name": "Evade Window",
+    "level": 2
+   },
+   {
+    "name": "Ambush",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Vespoid Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d0/Vespoid_b-set-mhwilds-wiki-guide.png/100px-Vespoid_b-set-mhwilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 160,
+  "resistances": {
+   "fire": -10,
+   "water": 5,
+   "thunder": 5,
+   "ice": 5,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Survival Expert",
+    "level": 3
+   },
+   {
+    "name": "Paralysis Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Vespoid Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/72/Vespoid-set-mhwilds-wiki-guide.png/100px-Vespoid-set-mhwilds-wiki-guide.png",
+  "rarity": "1",
+  "rank": "Low Rank",
+  "defense": 20,
+  "resistances": {
+   "fire": -10,
+   "water": 5,
+   "thunder": 5,
+   "ice": 5,
+   "dragon": 10
+  },
+  "decoSlots": [],
+  "equipmentSkills": [
+   {
+    "name": "Survival Expert",
+    "level": 3
+   },
+   {
+    "name": "Paralysis Resistance",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Xu Wu Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3a/Xu_wu_a-set-mhwilds-wiki-guide.png/100px-Xu_wu_a-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": 5,
+   "water": 5,
+   "thunder": 5,
+   "ice": -15,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Heroics",
+    "level": 5
+   },
+   {
+    "name": "Adrenaline Rush",
+    "level": 3
+   },
+   {
+    "name": "Ambush",
+    "level": 3
+   },
+   {
+    "name": "Earplugs",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Xu Wu Beta Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c5/Xu_wu_b-set-mhwilds-wiki-guide.png/100px-Xu_wu_b-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": 5,
+   "water": 5,
+   "thunder": 5,
+   "ice": -15,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Heroics",
+    "level": 4
+   },
+   {
+    "name": "Adrenaline Rush",
+    "level": 3
+   },
+   {
+    "name": "Earplugs",
+    "level": 2
+   }
+  ]
+ },
+ {
+  "name": "Xu Wu Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5e/Xu_wu-set-mhwilds-wiki-guide.png/100px-Xu_wu-set-mhwilds-wiki-guide.png",
+  "rarity": "4",
+  "rank": "Low Rank",
+  "defense": 130,
+  "resistances": {
+   "fire": 5,
+   "water": 5,
+   "thunder": 5,
+   "ice": -15,
+   "dragon": 10
+  },
+  "decoSlots": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Maximum Might",
+    "level": 3
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Diver Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b1/Diver-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png/100px-Diver-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": 5,
+   "water": 20,
+   "thunder": 5,
+   "ice": 5,
+   "dragon": 5
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Afi Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/76/Afi-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png/100px-Afi-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": 10,
+   "water": -15,
+   "thunder": 10,
+   "ice": 10,
+   "dragon": 10
+  },
+  "decoSlots": [
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Akuma Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/34/Akuma_alpha-armor-set-mhwilds-wiki-guide.png/100px-Akuma_alpha-armor-set-mhwilds-wiki-guide.png",
+  "rarity": "6",
+  "rank": "High Rank",
+  "defense": 240,
+  "resistances": {
+   "fire": 15,
+   "water": -10,
+   "thunder": 0,
+   "ice": -10,
+   "dragon": 15
+  },
+  "decoSlots": [
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Blossom Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3b/Blossom-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png/100px-Blossom-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png",
+  "rarity": "5",
+  "rank": "High Rank",
+  "defense": 180,
+  "resistances": {
+   "fire": 5,
+   "water": 5,
+   "thunder": 20,
+   "ice": 5,
+   "dragon": 5
+  },
+  "decoSlots": [
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Paralysis Resistance",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Nu Udra Gamma Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4b/Tu3_nu_udra_gamma_armor-set-mhwilds-wiki-guide.png/100px-Tu3_nu_udra_gamma_armor-set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 340,
+  "resistances": {
+   "fire": 25,
+   "water": -20,
+   "thunder": 0,
+   "ice": 5,
+   "dragon": 0
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Burst",
+    "level": 5
+   },
+   {
+    "name": "Counterstrike",
+    "level": 3
+   },
+   {
+    "name": "Resentment",
+    "level": 5
+   },
+   {
+    "name": "Ambush",
+    "level": 1
+   },
+   {
+    "name": "Speed Eating",
+    "level": 3
+   }
+  ]
+ },
+ {
+  "name": "Arkveld Gamma Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c2/Arkveld_gamma_armor-set-mhwilds-wiki-guide.png/100px-Arkveld_gamma_armor-set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 340,
+  "resistances": {
+   "fire": 10,
+   "water": 0,
+   "thunder": -5,
+   "ice": 0,
+   "dragon": -15
+  },
+  "decoSlots": [
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "equipmentSkills": []
+ },
+ {
+  "name": "Sororal Alpha Set",
+  "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b3/Nadia-set-mhwilds-wiki-guide.png/100px-Nadia-set-mhwilds-wiki-guide.png",
+  "rarity": "8",
+  "rank": "High Rank",
+  "defense": 330,
+  "resistances": {
+   "fire": 20,
+   "water": 5,
+   "thunder": 5,
+   "ice": 5,
+   "dragon": 15
+  },
+  "decoSlots": [
+   3,
+   3,
+   2,
+   2,
+   1,
+   1
+  ],
+  "equipmentSkills": [
+   {
+    "name": "Burst",
+    "level": 5
+   },
+   {
+    "name": "Stamina Surge",
+    "level": 3
+   },
+   {
+    "name": "Partbreaker",
+    "level": 3
+   },
+   {
+    "name": "Evade Extender",
+    "level": 3
+   }
+  ]
+ }
+]

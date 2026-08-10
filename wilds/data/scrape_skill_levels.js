@@ -13,17 +13,20 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/
 
 function parseSkillLevels(html) {
   const levels = [];
-  const doc = html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
-  // Pattern: Lv1 ... description ... Lv2 ... description ...
-  // Levels look like: "Lv1 100/3 Attack +3 Lv2 100/5 Attack +5"
+  const doc = html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').replace(/&amp;/g, '&');
   const re = /Lv\s*(\d+)\s+(.*?)(?=Lv\s*\d+\s|$)/gi;
   let m;
   while ((m = re.exec(doc))) {
     const level = parseInt(m[1]);
-    const desc = m[2].trim();
-    if (desc && !/Monster Hunter|Database|Toggle|English|Mission List/i.test(desc)) {
-      levels.push({ level, descEn: desc, descEs: '' });
-    }
+    let desc = m[2].trim();
+    // skip weapon/armor name descriptions
+    if (/crafted from|sword|blade|hammer|bow|lance|axe|horn|staff|rifle|gun|shield|dual|cannon|slinger|upgraded|simple|cheaply|affordable|polishing|polished/i.test(desc)) continue;
+    if (desc.length > 200) continue;
+    if (!desc || /Monster Hunter|Database|Toggle|English|Mission List/i.test(desc)) continue;
+    // Only accept sequential levels starting from 1
+    if (levels.length === 0 && level !== 1) continue;
+    if (levels.length > 0 && level !== levels[levels.length - 1].level + 1) break;
+    levels.push({ level, descEn: desc, descEs: '' });
   }
   return levels;
 }

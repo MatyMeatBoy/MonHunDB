@@ -1,0 +1,2168 @@
+{
+ "Adapt Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Adaptability",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Antiblast Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Blast Resistance",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Antidote Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Poison Resistance",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Antipara Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Paralysis Resistance",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Artillery Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Artillery",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Attack Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Attack Boost",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Bandolier Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Tetrad Shot",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Blast Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Blast Attack",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Blaze Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Fire Attack",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Blunt Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Bludgeoner",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Bolt Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Thunder Attack",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Bomber Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Bombardier",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Botany Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Botanist",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Brace Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Flinch Free",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Charge Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Charge Master",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Climber Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Cliffhanger",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Crit Element Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Critical Element",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Crit Status Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Critical Status",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Critical Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Critical Boost",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Def Lock Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Iron Skin",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Defense Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Defense Boost",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Dive Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Leap of Faith",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Dragon Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Dragon Attack",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Dragon Res Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Dragon Resistance",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Drain Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Stamina Thief",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Draw Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Critical Draw",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Enduring Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Item Prolonger",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Enhancer Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Power Prolonger",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Escape Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Bind Resistance",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Expert Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Critical Eye",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Fire Res Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Fire Resistance",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Flash Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Blindsider",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Focus Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Focus",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Footing Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Tremor Resistance",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Friendship Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Wide-Range",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Frost Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Ice Attack",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Gambit Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Punishing Draw",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Geology Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Geologist",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Gobbler Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Speed Eating",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Grinder Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Speed Sharpening",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Growth Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Self-Improvement",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Guardian Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Offensive Guard",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Handicraft Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Handicraft",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Hungerless Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Hunger Resistance",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Ice Res Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Ice Resistance",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Intimidator Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Intimidator",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Ironwall Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Guard",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "KO Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Slugger",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Leap Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Jump Master",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Magazine Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Load Shells",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Medicine Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Recovery Up",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Mind's Eye Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Mind's Eye",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Mirewalker Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Aquatic-Oilsilt Mobility",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Opener Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Opening Shot",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Paralyzer Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Paralysis Attack",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Pep Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Sleep Resistance",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Perfume Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Stench Resistance",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Physique Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Constitution",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Precise Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Ballistics",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Protection Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Divine Blessing",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Quickswitch Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Rapid Morph",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Ranger Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Outdoorsman",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Razor Sharp Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Razor Sharp",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Recovery Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Recovery Speed",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Sane Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Antivirus",
+  "sources": "Ancient Orb - Armor (1.3333%)"
+ },
+ "Satiated Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Free Meal",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Sharp Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Protective Polish",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Sheath Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Quick Sheathe",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Shield Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Guard Up",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Shockproof Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Shock Absorber",
+  "sources": "Can only be obtained via melding or from Gemma after unlocking decoration crafting."
+ },
+ "Sleep Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Sleep Attack",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Specimen Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Entomologist",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Sprinter Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Marathon Runner",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Steadfast Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Stun Resistance",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Stream Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Water Attack",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Survival Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Survival Expert",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Suture Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Bleeding Resistance",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Thunder Res Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Thunder Resistance",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Trueshot Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Special Ammo Boost",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Venom Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Poison Attack",
+  "sources": "Mystery Orb - Sword (1.3514%)   Glowing Orb - Sword (1.3514%)"
+ },
+ "Water Res Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Water Resistance",
+  "sources": "Mystery Orb - Armor (1.3514%)   Glowing Orb - Armor (1.3514%)"
+ },
+ "Wind Resist Jewel [1]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/5/52/MHWilds-Decoration_Level_1_Icon_Base.webp/24px-MHWilds-Decoration_Level_1_Icon_Base.webp",
+  "rarity": 3,
+  "skill": "Windproof",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Ambush Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Ambush",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Artillery Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Artillery",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Attack Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Attack Boost",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Bandolier Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Tetrad Shot",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Blast Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Blast Attack",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Blastcoat Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Blast Functionality",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Blaze Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Fire Attack",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Blunt Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Bludgeoner",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Bolt Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Thunder Attack",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Charge Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Charge Master",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Charge Up Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Charge Up",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Counter Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Counterstrike",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Crit Element Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Critical Element",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Crit Status Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Critical Status",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Critical Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Critical Boost",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Destroyer Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Partbreaker",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Dragon Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Dragon Attack",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Drain Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Stamina Thief",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Draincoat Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Exhaust Functionality",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Draw Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Critical Draw",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Earplugs Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Earplugs",
+  "sources": "Ancient Orb - Armor (1.3333%)"
+ },
+ "Enhancer Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Power Prolonger",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Evasion Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Evade Window",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Expert Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Critical Eye",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Flawless Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Peak Performance",
+  "sources": "Ancient Orb - Armor (1.3333%)"
+ },
+ "Flight Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Airborne",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Focus Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Focus",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Frost Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Ice Attack",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Fungiform Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Mushroomancer",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Furor Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Resentment",
+  "sources": "Ancient Orb - Armor (1.3333%)"
+ },
+ "Gambit Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Punishing Draw",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Grinder Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Speed Sharpening",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Guardian Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Offensive Guard",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Handicraft Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Handicraft",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Ironwall Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Guard",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Jumping Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Evade Extender",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "KO Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Slugger",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Magazine Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Load Shells",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Maintenance Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Tool Specialist",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Mighty Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Maximum Might",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Mind's Eye Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Mind's Eye",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Opener Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Opening Shot",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Paralyzer Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Paralysis Attack",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Phoenix Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Coalescence",
+  "sources": "Ancient Orb - Armor (1.3333%)"
+ },
+ "Poison Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Poison Duration Up",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Poisoncoat Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Poison Functionality",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Potential Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Heroics",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Precise Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Ballistics",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Quickswitch Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Rapid Morph",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Razor Sharp Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Razor Sharp",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Refresh Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Stamina Surge",
+  "sources": "Glowing Orb - Armor (1.6949%)   Ancient Orb - Armor (1.6949%)"
+ },
+ "Sharp Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Protective Polish",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Shield Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Guard Up",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Sleep Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Sleep Attack",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Sonorous Jewel [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Horn Maestro",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Stream Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Water Attack",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Trueshot Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Special Ammo Boost",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Venom Jewel II [2]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/7/71/MHWilds-Decoration_Level_2_Icon_Base.webp/24px-MHWilds-Decoration_Level_2_Icon_Base.webp",
+  "rarity": 4,
+  "skill": "Poison Attack",
+  "sources": "Glowing Orb - Sword (1.6949%)   Ancient Orb - Sword (1.6949%)"
+ },
+ "Artillery Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Artillery",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Attack Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Attack Boost",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Bandolier Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Tetrad Shot",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Bandolier/Blaze Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Tetrad Shot",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Bandolier/Bolt Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Tetrad Shot",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Bandolier/Dragon Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Tetrad Shot",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Bandolier/Frost Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Tetrad Shot",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Bandolier/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Tetrad Shot",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Bandolier/Precise Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Tetrad Shot",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Bandolier/Stream Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Tetrad Shot",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Blast Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Blast Attack",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Blaze Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Fire Attack",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Blaze/Bandolier Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Fire Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Blaze/Crit Elem Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Fire Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Blaze/Enhancer Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Fire Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Blaze/Focus Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Fire Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Blaze/Guardian Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Fire Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Blaze/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Fire Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Blaze/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Fire Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Blaze/KO Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Fire Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Blaze/Opener Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Fire Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Blaze/Precise Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Fire Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Blaze/Quickswitch Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Fire Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Blaze/Rzr Sharp Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Fire Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Blaze/Shield Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Fire Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Blunt Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Bludgeoner",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Bolt Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Thunder Attack",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Bolt/Bandolier Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Thunder Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Bolt/Crit Elem Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Thunder Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Bolt/Enhancer Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Thunder Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Bolt/Focus Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Thunder Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Bolt/Guardian Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Thunder Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Bolt/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Thunder Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Bolt/Ironwall Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Thunder Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Bolt/KO Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Thunder Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Bolt/Opener Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Thunder Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Bolt/Precise Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Thunder Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Bolt/Quickswitch Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Thunder Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Bolt/Rzr Sharp Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Thunder Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Bolt/Shield Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Thunder Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Chain Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Burst",
+  "sources": "Ancient Orb - Armor (1.0638%)"
+ },
+ "Challenger Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Agitator",
+  "sources": "Ancient Orb - Armor (1.0638%)"
+ },
+ "Charge Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Charge Master",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Charge Up/Attack Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Charge Up",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Charge Up/Draw Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Charge Up",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Charge Up/Expert Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Charge Up",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Charge Up/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Charge Up",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Charge Up/KO Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Charge Up",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Charge/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Charge Master",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Charge/KO Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Charge Master",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Counterattack Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Adrenaline Rush",
+  "sources": "Ancient Orb - Armor (1.3333%)"
+ },
+ "Crit Elem Jwl III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Critical Element",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Crit Elem/Blaze Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Critical Element",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Crit Elem/Bolt Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Critical Element",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Crit Elem/Dragon Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Critical Element",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Crit Elem/Frost Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Critical Element",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Crit Elem/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Critical Element",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Crit Elem/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Critical Element",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Crit Elem/KO Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Critical Element",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Crit Elem/Stream Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Critical Element",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Crit Element/Precise Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Critical Element",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Crit Stat Jwl III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Critical Status",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Crit Stat/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Critical Status",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Crit Stat/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Critical Status",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Crit Stat/Precise Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Critical Status",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Crit Status/KO Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Critical Status",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Critical Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Critical Boost",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Dragon Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Dragon Attack",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Dragon/Bandolier Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Dragon Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Dragon/Crit Elem Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Dragon Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Dragon/Enhancer Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Dragon Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Dragon/Focus Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Dragon Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Dragon/Guardian Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Dragon Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Dragon/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Dragon Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Dragon/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Dragon Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Dragon/KO Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Dragon Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Dragon/Opener Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Dragon Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Dragon/Precise Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Dragon Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Dragon/Quickswitch Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Dragon Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Dragon/Rzr Sharp Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Dragon Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Dragon/Shield Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Dragon Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Drain Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Stamina Thief",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Draw Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Critical Draw",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Enhancer Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Power Prolonger",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Enhancer/Blaze Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Power Prolonger",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Enhancer/Bolt Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Power Prolonger",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Enhancer/Dragon Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Power Prolonger",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Enhancer/Frost Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Power Prolonger",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Enhancer/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Power Prolonger",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Enhancer/Stream Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Power Prolonger",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Expert Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Critical Eye",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Flayer Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Flayer",
+  "sources": "Ancient Orb - Armor (1.0638%)"
+ },
+ "Flight/Attack Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Airborne",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Flight/Draw Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Airborne",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Flight/Expert Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Airborne",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Flight/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Airborne",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Focus Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Focus",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Focus/Blaze Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Focus",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Focus/Bolt Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Focus",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Focus/Dragon Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Focus",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Focus/Frost Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Focus",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Focus/Handicraft Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Focus",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Focus/KO Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Focus",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Focus/Precise Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Focus",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Focus/Stream Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Focus",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Foray Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Foray",
+  "sources": "Ancient Orb - Armor (1.3333%)"
+ },
+ "Forceshot Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Normal Shots",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Frost Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Ice Attack",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Frost/Bandolier Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Ice Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Frost/Crit Elem Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Ice Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Frost/Enhancer Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Ice Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Frost/Focus Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Ice Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Frost/Guardian Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Ice Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Frost/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Ice Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Frost/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Ice Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Frost/KO Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Ice Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Frost/Opener Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Ice Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Frost/Precise Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Ice Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Frost/Quickswitch Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Ice Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Frost/Rzr Sharp Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Ice Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Frost/Shield Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Ice Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Gambit Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Punishing Draw",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Gambit/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Punishing Draw",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Gambit/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Punishing Draw",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Gambit/KO Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Punishing Draw",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Grinder/Attack Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Speed Sharpening",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Grinder/Draw Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Speed Sharpening",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Grinder/Expert Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Speed Sharpening",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Grinder/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Speed Sharpening",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Grinder/Ironwall Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Speed Sharpening",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Grinder/KO Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Speed Sharpening",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Guardian Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Offensive Guard",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Guardian/Blaze Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Offensive Guard",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Guardian/Bolt Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Offensive Guard",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Guardian/Dragon Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Offensive Guard",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Guardian/Frost Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Offensive Guard",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Guardian/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Offensive Guard",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Guardian/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Offensive Guard",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Guardian/Stream Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Offensive Guard",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Handicraft Jwl III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Handicraft",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Ironwall Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Guard",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "KO Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Slugger",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Magazine/Attack Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Load Shells",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Magazine/Draw Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Load Shells",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Magazine/Expert Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Load Shells",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Magazine/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Load Shells",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Magazine/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Load Shells",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Mastery Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Master's Touch",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Mind's Eye Jwl III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Mind's Eye",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Opener Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Opening Shot",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Opener/Blaze Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Opening Shot",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Opener/Bolt Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Opening Shot",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Opener/Dragon Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Opening Shot",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Opener/Frost Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Opening Shot",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Opener/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Opening Shot",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Opener/Precise Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Opening Shot",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Opener/Stream Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Opening Shot",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Paracoat Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Para Functionality",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Paralyzer Jwl III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Paralysis Attack",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Pierce Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Piercing Shots",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Poison/Attack Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Poison Duration Up",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Poison/Draw Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Poison Duration Up",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Poison/Expert Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Poison Duration Up",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Poison/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Poison Duration Up",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Poison/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Poison Duration Up",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Poison/KO Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Poison Duration Up",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Poison/Precise Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Poison Duration Up",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Precise Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Ballistics",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Quickswitch Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Rapid Morph",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Quickswitch/Blaze Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Rapid Morph",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Quickswitch/Bolt Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Rapid Morph",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Quickswitch/Dragon Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Rapid Morph",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Quickswitch/Frost Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Rapid Morph",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Quickswitch/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Rapid Morph",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Quickswitch/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Rapid Morph",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Quickswitch/KO Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Rapid Morph",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Quickswitch/Stream Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Rapid Morph",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Razor Sharp/KO Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Razor Sharp",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Rzr Sharp Jwl III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Razor Sharp",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Rzr Sharp/Blaze Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Razor Sharp",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Rzr Sharp/Bolt Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Razor Sharp",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Rzr Sharp/Dragon Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Razor Sharp",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Rzr Sharp/Frost Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Razor Sharp",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Rzr Sharp/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Razor Sharp",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Rzr Sharp/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Razor Sharp",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Rzr Sharp/Stream Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 7,
+  "skill": "Razor Sharp",
+  "sources": "Ancient Orb - Sword (1.7241%)"
+ },
+ "Salvo Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Rapid Fire Up",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Sharp Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Protective Polish",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Shield Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Guard Up",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Shield/Blaze Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Guard Up",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Shield/Bolt Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Guard Up",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Shield/Dragon Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Guard Up",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Shield/Frost Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Guard Up",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Shield/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Guard Up",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Shield/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Guard Up",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Shield/Stream Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Guard Up",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Sleep Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Sleep Attack",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Sleepcoat Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Sleep Functionality",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Sonorous/Attack Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Horn Maestro",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Sonorous/Draw Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Horn Maestro",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Sonorous/Expert Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Horn Maestro",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Sonorous/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Horn Maestro",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Sonorous/KO Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Horn Maestro",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Spread Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Spread-Power Shots",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Stream Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Water Attack",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ },
+ "Stream/Bandolier Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Water Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Stream/Crit Elem Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Water Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Stream/Enhancer Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Water Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Stream/Focus Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Water Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Stream/Guardian Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Water Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Stream/Handicraft Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Water Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Stream/Ironwall Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Water Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Stream/KO Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Water Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Stream/Opener Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Water Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Stream/Precise Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Water Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Stream/Quickswitch Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Water Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Stream/Rzr Sharp Jwl [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Water Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Stream/Shield Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 6,
+  "skill": "Water Attack",
+  "sources": "Ancient Orb - Sword (1.0638%)"
+ },
+ "Tenderizer Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Weakness Exploit",
+  "sources": "Ancient Orb - Armor (1.0638%)"
+ },
+ "Throttle Jewel [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Latent Power",
+  "sources": "Ancient Orb - Armor (1.3333%)"
+ },
+ "Venom Jewel III [3]": {
+  "icon": "https://monsterhunterwiki.org/images/thumb/d/d9/MHWilds-Decoration_Level_3_Icon_Base.webp/24px-MHWilds-Decoration_Level_3_Icon_Base.webp",
+  "rarity": 5,
+  "skill": "Poison Attack",
+  "sources": "Ancient Orb - Sword (1.3333%)"
+ }
+}

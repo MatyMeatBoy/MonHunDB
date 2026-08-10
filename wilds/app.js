@@ -95,6 +95,103 @@ let armorSets = [];
 let weaponsById = new Map();
 const ARMOR_PART_ORDER = ["head", "chest", "arms", "waist", "legs"];
 
+// --- Wilds-only: Charms (talismanes) -- Rise no tiene esta seccion, no
+// tocar rise/app.js con esto. Mismo patron indice+detalle que Habilidades.
+const charmsNavToggleEl = document.getElementById("charms-nav-toggle");
+const charmsViewEl = document.getElementById("charms-view");
+const charmsSearchEl = document.getElementById("charms-search");
+const charmsIndexEl = document.getElementById("charms-index");
+const charmDetailEl = document.getElementById("charm-detail");
+let charms = [];
+
+// --- Wilds-only: sistema de iconos "items" (Fextralife), reemplaza al
+// sistema de mascaras MHRice de Rise (material_mhrice_icons/decoration_mhrice_icons
+// quedan vacios en Wilds a proposito). items_wilds.json + item_icon_manifest.json
+// cubren materiales Y decoraciones por nombre exacto EN.
+let itemIconManifest = {};
+async function loadItemIconManifestWilds() {
+  try {
+    const res = await fetch("data/item_icon_manifest.json");
+    if (res.ok) itemIconManifest = await res.json();
+  } catch (e) {
+    console.warn("No se pudo cargar item_icon_manifest.json (Wilds)", e);
+  }
+}
+// Wilds-only: monsterhunterwiki.org renders each decoration as ONE of 3 flat
+// gem shapes (by slot level) tinted via CSS with a per-decoration hex color --
+// same masking trick as itemMaskIconTag(), just keyed by level instead of an
+// icon id. Downloading the raw shape gives a flat gray gem; this is what
+// actually reproduces the colored art seen on the source site.
+let decorationColorManifest = {};
+async function loadDecorationColorManifestWilds() {
+  try {
+    const res = await fetch("data/decoration_color_manifest.json");
+    if (res.ok) decorationColorManifest = await res.json();
+  } catch (e) {
+    console.warn("No se pudo cargar decoration_color_manifest.json (Wilds)", e);
+  }
+}
+function decorationMaskIconTag(name) {
+  const d = decorationColorManifest[name];
+  if (!d) return null;
+  const url = `data/images/deco_masks/level${d.level}.webp`;
+  // the source webp is a shaded grayscale gem (facet linework baked into the
+  // shading, no separate silhouette+detail layers like Rise's .r/.a masks) --
+  // mask-image alone only reads alpha and flattens that shading into one
+  // solid color. mix-blend-mode:color keeps the underlying luminance (so
+  // facets/linework stay visible) while only recoloring hue/saturation from
+  // the tint layer on top, masked to the same silhouette so it doesn't bleed
+  // outside the gem shape.
+  // small corner badge: armor-slot vs weapon("sword")-slot decoration --
+  // same fixed 2 icons reused across all 361, not colored.
+  const badge = d.badge ? `<span class="deco-mask-icon-badge" style="background-image:url('data/images/deco_masks/badge-${d.badge}.png')"></span>` : "";
+  return `<span class="deco-mask-icon material-icon" style="background-image:url('${url}')"><span class="deco-mask-icon-tint" style="background-color:${d.color};-webkit-mask-image:url('${url}');mask-image:url('${url}')"></span>${badge}</span>`;
+}
+let decorationSourceIconManifest = {};
+async function loadDecorationSourceIconManifestWilds() {
+  try {
+    const res = await fetch("data/decoration_source_icon_manifest.json");
+    if (res.ok) decorationSourceIconManifest = await res.json();
+  } catch (e) {
+    console.warn("No se pudo cargar decoration_source_icon_manifest.json (Wilds)", e);
+  }
+}
+// "Mystery Orb - Armor" etc, same base-shape+color-tint technique, one shared
+// shape ("source.webp") for all 6 orb variants
+function decorationSourceIconTag(sourceName) {
+  const color = decorationSourceIconManifest[sourceName];
+  if (!color) return "";
+  const url = `data/images/deco_masks/source.webp`;
+  return `<span class="deco-mask-icon material-icon deco-mask-icon--sm" style="background-image:url('${url}')"><span class="deco-mask-icon-tint" style="background-color:${color};-webkit-mask-image:url('${url}');mask-image:url('${url}')"></span></span>`;
+}
+function itemIconSrcWilds(name) {
+  if (!name) return null;
+  // "+" tier materials (ex. "Rathian Scale+") share the base item's icon --
+  // items_wilds.json only scraped the base tier from Fextralife's Items page
+  const stripped = name.replace(/\s*\+$/, "");
+  return itemIconManifest[name] || itemIconManifest[stripped] || null;
+}
+
+// Wilds-only: unlike Rise (all skills share one mask+color), each Wilds
+// skill/decoration has its own unique icon art -- scraped from Fextralife's
+// Decorations + Skills/Group_Skills/Set_Bonus_Skills pages (see
+// data/build_deco_skill_icons.js). 147/177 skills, 36/361 decorations
+// matched so far (Fextralife's own coverage is still partial for this game).
+let skillIconManifestWilds = {};
+let decorationIconManifestWilds = {};
+async function loadDecoSkillIconManifestsWilds() {
+  try {
+    const [sRes, dRes] = await Promise.all([
+      fetch("data/skill_icon_manifest.json"),
+      fetch("data/decoration_icon_manifest.json"),
+    ]);
+    if (sRes.ok) skillIconManifestWilds = await sRes.json();
+    if (dRes.ok) decorationIconManifestWilds = await dRes.json();
+  } catch (e) {
+    console.warn("No se pudieron cargar los manifiestos de iconos de skills/decoraciones (Wilds)", e);
+  }
+}
+
 function hideViews(...els) {
   for (const el of els) if (el) el.hidden = true;
 }
@@ -138,9 +235,12 @@ function navSkill(idOrName) {
 
 function normalizeSearch(s) {
   // strip accents, then "+" (ex. "Attack Jewel+ 4") so a query typed without
-  // it ("attack jewel 4") still matches -- most people don't type the plus
+  // it ("attack jewel 4") still matches -- most people don't type the plus.
+  // Greek α/β (used in armor tier names, ex. "Quematrice β Set") map to
+  // "alpha"/"beta" so typing the English word still finds them.
   return (s || "").normalize("NFD").replace(new RegExp("[\\u0300-\\u036f]", "g"), "")
-    .toLowerCase().replace(/\+/g, " ").replace(/\s+/g, " ").trim();
+    .toLowerCase().replace(/\+/g, " ").replace(/α/g, "alpha").replace(/β/g, "beta")
+    .replace(/\s+/g, " ").trim();
 }
 
 function groupFor(name) {
@@ -316,7 +416,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, charmsRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
@@ -326,12 +426,17 @@ async function init() {
       fetch("data/armor_sets.json"),
       fetch("data/skills.json"),
       fetch("data/weapon_tree.json"),
+      fetch("data/charms.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
       loadMaterialIconManifest(),
       loadMhriceIconMaps(),
       loadArmorFextraIcons(),
+      loadItemIconManifestWilds(),
+      loadDecoSkillIconManifestsWilds(),
+      loadDecorationColorManifestWilds(),
+      loadDecorationSourceIconManifestWilds(),
     ]);
     if (!monstersRes.ok) throw new Error("HTTP " + monstersRes.status);
     monsters = await monstersRes.json();
@@ -342,6 +447,7 @@ async function init() {
     armorPieces = armorPiecesRes.ok ? await armorPiecesRes.json() : [];
     armorSets = armorSetsRes.ok ? await armorSetsRes.json() : [];
     skills = skillsRes.ok ? await skillsRes.json() : [];
+    charms = charmsRes.ok ? await charmsRes.json() : [];
     weaponsById = new Map(weapons.map(w => [w.id, w]));
     skillsByName = new Map(skills.filter(s => s.name).map(s => [s.name, s]));
     if (weaponTreeRes.ok) initWeaponTree(await weaponTreeRes.json());
@@ -387,6 +493,8 @@ function bootPage() {
     bootMaterials();
   } else if (PAGE === "skills") {
     bootSkills();
+  } else if (PAGE === "charms") {
+    bootCharms();
   } else {
     renderNews();
   }
@@ -494,7 +602,8 @@ function materialIconTag(name) {
   // but some monsters.json rows have the same material with a space before
   // it ("Narwa Claw +") from an inconsistent original scrape -- normalize
   // the same way translateMaterial() already does so both forms hit the icon
-  const src = materialIconManifest[name] || materialIconManifest[normalizeMaterialKey(name)];
+  const src = materialIconManifest[name] || materialIconManifest[normalizeMaterialKey(name)]
+    || itemIconSrcWilds(name) || itemIconSrcWilds(normalizeMaterialKey(name));
   return src
     ? `<img class="material-icon" src="${src}" alt="" loading="lazy">`
     : `<span class="material-icon material-icon--placeholder"></span>`;
@@ -509,7 +618,7 @@ function selectMonster(name, opts = {}) {
   if (opts.render) {
     const monster = monsters.find(m => m.name === name);
     if (!monster) return;
-    hideViews(homeViewEl, decorationsViewEl, weaponsViewEl, armorViewEl, materialsViewEl, skillsViewEl);
+    hideViews(homeViewEl, decorationsViewEl, weaponsViewEl, armorViewEl, materialsViewEl, skillsViewEl, charmsViewEl);
     detailEl.hidden = false;
     triggerIconEl.src = iconPath(name);
     triggerIconEl.hidden = false;
@@ -1090,7 +1199,7 @@ function runGlobalSearch(query) {
           ${decorationIconTag(dec)}
           <span>${trDecorationName(dec)}</span>
         </button>
-        <p class="gs-decoration-skill">${lang === "es" ? skill.nameEs : skill.name} Lv${skill.level} — ${lang === "es" ? skill.effectEs : skill.effect}</p>
+        <p class="gs-decoration-skill">${trSkillName(skill)} Lv${skill.level} — ${decoSkillEffectText(skill)}</p>
         <p class="gs-material-intro">${ui("decorationsMaterialsHeading")}:</p>
         <ul class="gs-decoration-materials">
           ${dec.materials.map(m => `
@@ -1194,13 +1303,17 @@ function trDecorationName(dec) {
 function decorationIconTag(dec) {
   const mh = decorationMhriceIcons[dec.name];
   if (mh) return itemMaskIconTag(mh.iconId, mh.color, "material-icon");
+  const masked = decorationMaskIconTag(dec.name);
+  if (masked) return masked;
+  const wildsIcon = decorationIconManifestWilds[dec.name];
+  if (wildsIcon) return `<img class="material-icon" src="${wildsIcon}" alt="" loading="lazy">`;
   return dec.icon
     ? `<img class="material-icon" src="${dec.icon}" alt="" loading="lazy">`
     : `<span class="material-icon material-icon--placeholder"></span>`;
 }
 
 function showDecorationsView() {
-  hideViews(detailEl, homeViewEl, weaponsViewEl, armorViewEl, materialsViewEl, skillsViewEl);
+  hideViews(detailEl, homeViewEl, weaponsViewEl, armorViewEl, materialsViewEl, skillsViewEl, charmsViewEl);
   decorationsViewEl.hidden = false;
   decorationDetailEl.hidden = true;
   decorationsIndexEl.hidden = false;
@@ -1240,7 +1353,7 @@ function renderDecorationsIndex(query) {
           <button type="button" class="decoration-card" data-id="${dec.id}">
             ${decorationIconTag(dec)}
             <span class="decoration-card-name">${trDecorationName(dec)}</span>
-            <span class="decoration-card-skill">${lang === "es" ? dec.skills[0].nameEs : dec.skills[0].name} Lv${dec.skills[0].level}</span>
+            <span class="decoration-card-skill">${trSkillName(dec.skills[0])} Lv${dec.skills[0].level}</span>
           </button>
         `).join("")}
       </div>
@@ -1260,8 +1373,8 @@ function showDecorationDetail(id) {
 
   const skillsHtml = dec.skills.map(s => `
     <li class="stat-list-item">
-      <button type="button" class="stat-name skill-name-link" data-skill-name="${escapeAttr(s.name)}">${skillIconTagByName(s.name)}${lang === "es" ? s.nameEs : s.name} Lv${s.level}</button>
-      <span class="decoration-skill-effect">${lang === "es" ? s.effectEs : s.effect}</span>
+      <button type="button" class="stat-name skill-name-link" data-skill-name="${escapeAttr(s.name)}">${skillIconTagByName(s.name)}${trSkillName(s)} Lv${s.level}</button>
+      <span class="decoration-skill-effect">${decoSkillEffectText(s)}</span>
     </li>
   `).join("");
 
@@ -1307,8 +1420,14 @@ function showDecorationDetail(id) {
       <ul class="stat-list decoration-skills-list">${skillsHtml}</ul>
     </section>
     <section class="block">
-      <h3>${ui("decorationsMaterialsHeading")}</h3>
-      <div class="decoration-materials-blocks">${materialsHtml}</div>
+      ${dec.sources
+        ? `<h3>${ui("decorationsSourcesHeading")}</h3><ul class="stat-list decoration-sources-list">${dec.sources.split(", ").map(part => {
+            const m = part.match(/^(.*?)\s*(\([^)]+\))?$/);
+            const srcName = m ? m[1].trim() : part;
+            const pct = m && m[2] ? m[2] : "";
+            return `<li class="stat-list-item">${decorationSourceIconTag(srcName)}<span class="stat-name">${escapeAttr(srcName)}</span><span class="decoration-skill-effect">${escapeAttr(pct)}</span></li>`;
+          }).join("")}</ul>`
+        : `<h3>${ui("decorationsMaterialsHeading")}</h3><div class="decoration-materials-blocks">${materialsHtml}</div>`}
     </section>
   `;
   decorationDetailEl.querySelectorAll(".gs-source-row").forEach(btn => {
@@ -1343,7 +1462,9 @@ function trWeaponType(type) {
   return lang === "es" && I18N.weaponTypes ? (I18N.weaponTypes[type] || type) : type;
 }
 function weaponIconTag(w) {
-  return `<img class="material-icon" src="data/images/weapons/${w.id}.webp" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`;
+  return w.icon
+    ? `<img class="material-icon" src="${w.icon}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`
+    : `<span class="material-icon material-icon--placeholder"></span>`;
 }
 // Words that don't identify a weapon family (they appear in almost every
 // name of a type) — ignored when deciding whether two consecutive weapons
@@ -1380,7 +1501,13 @@ let weaponOrder = [];          // weapon names in tree order
 let weaponOrderIdx = null;     // Map<normalized name, order index>
 let weaponsByNameNorm = null;  // Map<normalized name, weapon>
 function initWeaponTree(tree) {
-  weaponFinalNames = new Set((tree.finals || []).map(normalizeWeaponName));
+  // Wilds has no real weapon_tree.json yet (empty file) -- an empty-but-truthy
+  // Set here would make isWeaponTrueFinal() trust it as authoritative and
+  // mark EVERY weapon non-final. Leave it null so the nextId/family fallback
+  // heuristic in isWeaponTrueFinal() runs instead.
+  if ((tree.finals || []).length) {
+    weaponFinalNames = new Set(tree.finals.map(normalizeWeaponName));
+  }
   weaponParentOf = new Map();
   weaponChildrenOf = new Map();
   for (const child of Object.keys(tree.parents || {})) {
@@ -1531,7 +1658,7 @@ function escapeXml(s) { return String(s).replace(/[<>&'"]/g, c => ({ "<": "&lt;"
 
 
 function showWeaponsView() {
-  hideViews(detailEl, homeViewEl, decorationsViewEl, armorViewEl, materialsViewEl, skillsViewEl);
+  hideViews(detailEl, homeViewEl, decorationsViewEl, armorViewEl, materialsViewEl, skillsViewEl, charmsViewEl);
   weaponsViewEl.hidden = false;
   weaponDetailEl.hidden = true;
   weaponsIndexEl.hidden = false;
@@ -1749,7 +1876,7 @@ function armorPieceSkillsHtml(p) {
 }
 
 function showArmorView() {
-  hideViews(detailEl, homeViewEl, decorationsViewEl, weaponsViewEl, materialsViewEl, skillsViewEl);
+  hideViews(detailEl, homeViewEl, decorationsViewEl, weaponsViewEl, materialsViewEl, skillsViewEl, charmsViewEl);
   armorViewEl.hidden = false;
   armorSetDetailEl.hidden = true;
   armorIndexEl.hidden = false;
@@ -1778,9 +1905,44 @@ function renderArmorIndex(query) {
     if (avg >= 4) return 1; // High
     return 0; // Low
   }
+  // Wilds sets carry their own rank text directly (scraped from the Armor
+  // Sets Comparison Table) -- armorPieces.json is empty here so the
+  // Rise-style piece cross-reference below always resolves to nothing.
+  function setRankWilds(s) {
+    if (s.rank === "Master Rank") return 2;
+    if (s.rank === "High Rank") return 1;
+    if (s.rank === "Low Rank") return 0;
+    return setRank(s.pieces.map(r => armorPieces.find(x => x.id === r.id)).filter(Boolean));
+  }
   const explicitNames = new Set(setMatches.map(s => s.name));
+  let mappedSets = setMatches.map(s => ({ name: s.name, image: s.localImage || s.image, rank: setRankWilds(s), isSet: true }));
+
+  // Wilds-only: a set that comes in both an alpha (a) and beta (ss) tier is
+  // the SAME base gear line with two different skill loadouts -- merge them
+  // into one card with two buttons instead of two separate cards, so the
+  // gallery reads as "one set, pick your tier" like the game's own UI does.
+  const byBaseName = new Map();
+  for (const s of mappedSets) {
+    const base = s.name.replace(/[αβ]\s*/g, "").trim();
+    if (!byBaseName.has(base)) byBaseName.set(base, []);
+    byBaseName.get(base).push(s);
+  }
+  const pairedNames = new Set();
+  const pairCards = [];
+  for (const [base, group] of byBaseName) {
+    const a = group.find(s => s.name.includes("α"));
+    const b = group.find(s => s.name.includes("β"));
+    if (a && b) {
+      pairedNames.add(a.name);
+      pairedNames.add(b.name);
+      pairCards.push({ isPair: true, base, a, b, rank: a.rank });
+    }
+  }
+  mappedSets = mappedSets.filter(s => !pairedNames.has(s.name));
+
   const allSets = [
-    ...setMatches.map(s => ({ name: s.name, image: s.localImage || s.image, rank: setRank(s.pieces.map(r => armorPieces.find(x => x.id === r.id)).filter(Boolean)), isSet: true })),
+    ...mappedSets,
+    ...pairCards,
     ...implied.filter(g => !explicitNames.has(armorSetDisplayName(g.prefix))).map(g => ({ name: armorSetDisplayName(g.prefix), image: armorSetImg(armorSetDisplayName(g.prefix)), rank: setRank(g.pieces), isImplied: true })),
   ];
 
@@ -1801,7 +1963,16 @@ function renderArmorIndex(query) {
     html += `<div class="decorations-slot-group">
       <h3 class="decorations-slot-heading">${r.label}</h3>
       <div class="decorations-grid">
-        ${items.map(s => `
+        ${items.map(s => s.isPair ? `
+          <div class="decoration-card armor-set-card armor-set-card--pair">
+            <img class="armor-set-thumb" src="${s.a.image}" alt="" loading="lazy" onerror="this.style.display='none'">
+            <span class="decoration-card-name">${s.base}</span>
+            <div class="armor-set-pair-buttons">
+              <button type="button" data-set="${escapeAttr(s.a.name)}">α</button>
+              <button type="button" data-set="${escapeAttr(s.b.name)}">β</button>
+            </div>
+          </div>
+        ` : `
           <button type="button" class="decoration-card armor-set-card" data-${s.isSet ? "set" : "implied"}="${s.isSet ? s.name : s.name.replace(/\s+Set$/, "")}">
             <img class="armor-set-thumb" src="${s.image}" alt="" loading="lazy" onerror="this.style.display='none'">
             <span class="decoration-card-name">${s.name}</span>
@@ -1973,7 +2144,7 @@ function bootArmor() {
 // ---------- Materials ----------
 
 function showMaterialsView() {
-  hideViews(detailEl, homeViewEl, decorationsViewEl, weaponsViewEl, armorViewEl, skillsViewEl);
+  hideViews(detailEl, homeViewEl, decorationsViewEl, weaponsViewEl, armorViewEl, skillsViewEl, charmsViewEl);
   materialsViewEl.hidden = false;
   materialDetailEl.hidden = true;
   materialsIndexEl.hidden = false;
@@ -2065,6 +2236,15 @@ function bootMaterials() {
 function trSkillName(s) {
   return lang === "es" && s.nameEs ? s.nameEs : s.name;
 }
+// decorations.json/armor_pieces.json skill refs only carry {name, level} (no
+// nameEs/effect) -- cross-reference the full skills.json record (has real
+// per-level descriptions) instead of reading fields that don't exist there
+function decoSkillEffectText(skillRef) {
+  const full = skillsByName.get(skillRef.name);
+  const lvl = full && full.levels && full.levels.find(l => l.level === skillRef.level);
+  if (!lvl) return "";
+  return lang === "es" && lvl.descEs ? lvl.descEs : lvl.descEn;
+}
 
 // MHRice's rarity-tier palette (resources/item_color.css) -- skills have no
 // unique icon per skill (see scrape_skills.js's comment), just this color
@@ -2076,6 +2256,8 @@ const MH_ITEM_COLOR = {
   15: "#CA0000", 16: "#007BCA", 17: "#A800A8", 50: "#F3EED1", 51: "#FF5687",
 };
 function skillIconTag(s) {
+  const src = s && s.name ? skillIconManifestWilds[s.name] : null;
+  if (src) return `<img class="material-icon" src="${src}" alt="" loading="lazy">`;
   const hex = MH_ITEM_COLOR[s.colorIndex] || "#AEAEAE";
   return `<span class="skill-icon"><span class="skill-icon-r" style="background-color:${hex}"></span><span class="skill-icon-a"></span></span>`;
 }
@@ -2206,6 +2388,114 @@ function bootSkills() {
   } else {
     showSkillsView();
   }
+}
+
+// --- Wilds-only: Charms (talismanes) -- sin equivalente en Rise, mismo
+// patron indice+detalle que Habilidades. Datos ahora son solo nombre
+// (skills/materials/rarity vacios, scrape pendiente) -- se muestra
+// "sin datos" en vez de inventar contenido.
+function navCharm(id) {
+  const u = new URL("charms", location.href);
+  u.searchParams.set("c", id);
+  location.href = u.href;
+}
+function trCharmName(charm) {
+  return lang === "es" && charm.nameEs ? charm.nameEs : charm.name;
+}
+function charmIconTag(charm) {
+  const src = charm && charm.name ? itemIconSrcWilds(charm.name) : null;
+  return src
+    ? `<img class="material-icon" src="${src}" alt="" loading="lazy">`
+    : `<span class="material-icon material-icon--placeholder"></span>`;
+}
+function showCharmsView() {
+  hideViews(detailEl, homeViewEl, decorationsViewEl, weaponsViewEl, armorViewEl, materialsViewEl, skillsViewEl);
+  charmsViewEl.hidden = false;
+  charmDetailEl.hidden = true;
+  charmsIndexEl.hidden = false;
+  charmsSearchEl.value = "";
+  window.scrollTo(0, 0);
+  renderCharmsIndex("");
+}
+function renderCharmsIndex(query) {
+  const q = normalizeSearch((query || "").trim());
+  const sorted = [...charms].sort((a, b) => trCharmName(a).localeCompare(trCharmName(b)));
+  const filtered = !q ? sorted : sorted.filter(c =>
+    normalizeSearch(c.name || "").includes(q) || normalizeSearch(c.nameEs || "").includes(q)
+  );
+  if (!filtered.length) {
+    charmsIndexEl.innerHTML = `<p class="no-data">${ui("skillsNoResults")}</p>`;
+    return;
+  }
+  charmsIndexEl.innerHTML = `
+    <div class="decorations-grid">
+      ${filtered.map(c => `
+        <button type="button" class="decoration-card" data-charm-id="${escapeAttr(c.id)}">
+          ${charmIconTag(c)}
+          <span class="decoration-card-name">${trCharmName(c)}</span>
+          ${c.rarity ? `<span class="decoration-card-skill">${ui("weaponsRarity")} ${c.rarity}</span>` : ""}
+        </button>
+      `).join("")}
+    </div>
+  `;
+  charmsIndexEl.querySelectorAll("[data-charm-id]").forEach(btn => {
+    btn.addEventListener("click", () => navCharm(btn.dataset.charmId));
+  });
+}
+function showCharmDetail(id) {
+  const charm = charms.find(c => c.id === id);
+  if (!charm) return;
+  charmsIndexEl.hidden = true;
+  charmDetailEl.hidden = false;
+
+  const skillsHtml = (charm.skills || []).length
+    ? charm.skills.map(s => `
+        <li class="stat-list-item">
+          <span class="stat-name">${lang === "es" ? (s.nameEs || s.name) : s.name} Lv${s.level}</span>
+          <span class="decoration-skill-effect">${lang === "es" ? (s.effectEs || s.effect || "") : (s.effect || "")}</span>
+        </li>
+      `).join("")
+    : `<li class="no-data">${ui("noDataYet")}</li>`;
+
+  const slotsHtml = (charm.decoSlots || []).length
+    ? `<div class="charm-deco-slots">${charm.decoSlots.map(s => `<span class="decoration-detail-slot">${ui("decorationsSlot")(s)}</span>`).join("")}</div>`
+    : "";
+
+  const materialsHtml = (charm.materials || []).length
+    ? charm.materials.map(m => `
+        <div class="gs-material-block decoration-material-block">
+          <span class="gs-material-header">
+            <span>${translateMaterial(m.material)}</span>
+            <span class="decoration-material-qty">x${m.qty || "?"}</span>
+          </span>
+        </div>
+      `).join("")
+    : `<p class="no-data">${ui("noDataYet")}</p>`;
+
+  charmDetailEl.innerHTML = `
+    <a class="decorations-back" href="charms">${ui("charmsBack")}</a>
+    <div class="decoration-detail-header">
+      ${charmIconTag(charm)}
+      <h2>${trCharmName(charm)}</h2>
+      ${charm.rarity ? `<span class="decoration-detail-slot">${ui("weaponsRarity")} ${charm.rarity}</span>` : ""}
+    </div>
+    ${slotsHtml}
+    <section class="block">
+      <h3>${ui("decorationsSkillsHeading")}</h3>
+      <ul class="stat-list decoration-skills-list">${skillsHtml}</ul>
+    </section>
+    <section class="block">
+      <h3>${ui("decorationsMaterialsHeading")}</h3>
+      <div class="decoration-materials-blocks">${materialsHtml}</div>
+    </section>
+  `;
+}
+function bootCharms() {
+  charmsSearchEl.addEventListener("input", () => renderCharmsIndex(charmsSearchEl.value));
+  const params = new URLSearchParams(location.search);
+  const charmId = params.get("c");
+  showCharmsView();
+  if (charmId && charms.some(c => c.id === charmId)) showCharmDetail(charmId);
 }
 
 function buildSelector() {
@@ -2854,30 +3144,10 @@ function newsSilhouettePreviewHtml() {
 // (title + text, shown collapsed) and a longer bullet list (shown on click).
 // Kept as a plain array instead of a JSON file since it's small, hand-written,
 // and tied 1:1 to the i18n keys that hold its translated text.
+// Wilds-only: historial propio (arranca en v0.1, numeracion interna --
+// no reusa el changelog de Rise, que hablaria de features/imagenes que
+// no existen aca).
 const NEWS = [
-  {
-    id: "v03",
-    tagKey: "newsV03Tag",
-    titleKey: "newsV03Title",
-    textKey: "newsV03Text",
-    bulletsKey: "newsV03Bullets",
-    imageHtml: () => `
-      ${itemMaskIconTag("065", 4, "news-item-icon")}
-      ${itemMaskIconTag("031", 11, "news-item-icon")}
-    `,
-  },
-  {
-    id: "v02",
-    tagKey: null,
-    tag: "v0.2 Alpha",
-    titleKey: "newsV02Title",
-    textKey: "newsV02Text",
-    bulletsKey: "newsV02Bullets",
-    imageHtml: () => `
-      <img src="data/images/weapons/1953968039.webp" alt="" loading="lazy">
-      <img src="data/images/armor_sets/rathalos-x-set.png" alt="" loading="lazy">
-    `,
-  },
   {
     id: "v01",
     tagKey: null,
@@ -2885,7 +3155,7 @@ const NEWS = [
     titleKey: "newsV01Title",
     textKey: "newsV01Text",
     bulletsKey: "newsV01Bullets",
-    imageHtml: () => newsSilhouettePreviewHtml(),
+    imageHtml: () => `<img src="data/images/arkveld.webp" alt="" loading="lazy">`,
   },
 ];
 
@@ -2893,6 +3163,13 @@ let newsExpanded = new Set();
 function renderNews() {
   const el = document.getElementById("news-list");
   if (!el) return;
+  const headingEl = document.getElementById("news-heading");
+  if (!NEWS.length) {
+    el.innerHTML = "";
+    if (headingEl) headingEl.hidden = true;
+    el.hidden = true;
+    return;
+  }
   el.innerHTML = NEWS.map(n => {
     const tag = n.tagKey ? ui(n.tagKey) : n.tag;
     const bullets = ui(n.bulletsKey) || [];

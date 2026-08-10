@@ -138,9 +138,12 @@ function navSkill(idOrName) {
 
 function normalizeSearch(s) {
   // strip accents, then "+" (ex. "Attack Jewel+ 4") so a query typed without
-  // it ("attack jewel 4") still matches -- most people don't type the plus
+  // it ("attack jewel 4") still matches -- most people don't type the plus.
+  // Greek α/β (used in armor tier names, ex. "Quematrice β Set") map to
+  // "alpha"/"beta" so typing the English word still finds them.
   return (s || "").normalize("NFD").replace(new RegExp("[\\u0300-\\u036f]", "g"), "")
-    .toLowerCase().replace(/\+/g, " ").replace(/\s+/g, " ").trim();
+    .toLowerCase().replace(/\+/g, " ").replace(/α/g, "alpha").replace(/β/g, "beta")
+    .replace(/\s+/g, " ").trim();
 }
 
 function groupFor(name) {
