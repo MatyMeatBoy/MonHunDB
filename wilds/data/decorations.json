@@ -2,10 +2,10 @@
  {
   "id": "attack-jewel-1",
   "name": "Attack Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya ataque 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Attack Boost skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bonus de ataque\".",
   "skills": [
    {
     "name": "Attack Boost",
@@ -19,10 +19,10 @@
  {
   "id": "attack-jewel-ii-2",
   "name": "Attack Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya ataque II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Attack Boost skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bonus de ataque\".",
   "skills": [
    {
     "name": "Attack Boost",
@@ -36,10 +36,10 @@
  {
   "id": "attack-jewel-iii-3",
   "name": "Attack Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya ataque III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Attack Boost skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bonus de ataque\".",
   "skills": [
    {
     "name": "Attack Boost",
@@ -53,10 +53,10 @@
  {
   "id": "furor-jewel-2",
   "name": "Furor Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya furor 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Resentment skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"resentimiento\".",
   "skills": [
    {
     "name": "Resentment",
@@ -70,10 +70,10 @@
  {
   "id": "counterattack-jewel-3",
   "name": "Counterattack Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya adrenalina 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Adrenaline Rush skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"subida de adrenalina\".",
   "skills": [
    {
     "name": "Adrenaline Rush",
@@ -87,10 +87,10 @@
  {
   "id": "guardian-jewel-1",
   "name": "Guardian Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya guardián 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Offensive Guard skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bloqueo agresivo\".",
   "skills": [
    {
     "name": "Offensive Guard",
@@ -104,10 +104,10 @@
  {
   "id": "guardian-jewel-ii-2",
   "name": "Guardian Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya guardián II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Offensive Guard skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bloqueo agresivo\".",
   "skills": [
    {
     "name": "Offensive Guard",
@@ -121,10 +121,10 @@
  {
   "id": "guardian-jewel-iii-3",
   "name": "Guardian Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya guardián III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Offensive Guard skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bloqueo agresivo\".",
   "skills": [
    {
     "name": "Offensive Guard",
@@ -138,10 +138,10 @@
  {
   "id": "guardianblaze-jwl-3",
   "name": "Guardian/Blaze Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya guardián/fuego 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Offensive Guard and Fire Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"bloqueo agresivo\" y \"ataque de fuego\".",
   "skills": [
    {
     "name": "Offensive Guard",
@@ -159,10 +159,10 @@
  {
   "id": "guardianstream-jwl-3",
   "name": "Guardian/Stream Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya guardián/agua 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Offensive Guard and Water Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"bloqueo agresivo\" y \"ataque de agua\".",
   "skills": [
    {
     "name": "Offensive Guard",
@@ -180,10 +180,10 @@
  {
   "id": "guardianfrost-jwl-3",
   "name": "Guardian/Frost Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya guardián/hielo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Offensive Guard and Ice Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"bloqueo agresivo\" y \"ataque de hielo\".",
   "skills": [
    {
     "name": "Offensive Guard",
@@ -201,10 +201,10 @@
  {
   "id": "guardianbolt-jwl-3",
   "name": "Guardian/Bolt Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya guardián/rayo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Offensive Guard and Thunder Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"bloqueo agresivo\" y \"ataque de rayo\".",
   "skills": [
    {
     "name": "Offensive Guard",
@@ -222,10 +222,10 @@
  {
   "id": "guardiandragon-jwl-3",
   "name": "Guardian/Dragon Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya guardián/draco 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Offensive Guard and Dragon Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"bloqueo agresivo\" y \"ataque de draco\".",
   "skills": [
    {
     "name": "Offensive Guard",
@@ -243,10 +243,10 @@
  {
   "id": "guardianhandicraft-jwl-3",
   "name": "Guardian/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya guardián/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Offensive Guard and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"bloqueo agresivo\" y \"artesanía\".",
   "skills": [
    {
     "name": "Offensive Guard",
@@ -264,10 +264,10 @@
  {
   "id": "guardianironwall-jwl-3",
   "name": "Guardian/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya guardián/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Offensive Guard and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"bloqueo agresivo\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Offensive Guard",
@@ -285,10 +285,10 @@
  {
   "id": "flawless-jewel-2",
   "name": "Flawless Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya ileso 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Peak Performance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"plena forma\".",
   "skills": [
    {
     "name": "Peak Performance",
@@ -302,10 +302,10 @@
  {
   "id": "counter-jewel-2",
   "name": "Counter Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya venganza 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Counterstrike skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"venganza\".",
   "skills": [
    {
     "name": "Counterstrike",
@@ -319,10 +319,10 @@
  {
   "id": "expert-jewel-1",
   "name": "Expert Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya experto 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Critical Eye skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ojo crítico\".",
   "skills": [
    {
     "name": "Critical Eye",
@@ -336,10 +336,10 @@
  {
   "id": "expert-jewel-ii-2",
   "name": "Expert Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya experto II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Critical Eye skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ojo crítico\".",
   "skills": [
    {
     "name": "Critical Eye",
@@ -353,10 +353,10 @@
  {
   "id": "expert-jewel-iii-3",
   "name": "Expert Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya experto III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Eye skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ojo crítico\".",
   "skills": [
    {
     "name": "Critical Eye",
@@ -370,10 +370,10 @@
  {
   "id": "critical-jewel-1",
   "name": "Critical Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya críticos 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Critical Boost skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bonus críticos\".",
   "skills": [
    {
     "name": "Critical Boost",
@@ -387,10 +387,10 @@
  {
   "id": "critical-jewel-ii-2",
   "name": "Critical Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya críticos II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Critical Boost skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bonus críticos\".",
   "skills": [
    {
     "name": "Critical Boost",
@@ -404,10 +404,10 @@
  {
   "id": "critical-jewel-iii-3",
   "name": "Critical Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya críticos III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Boost skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bonus críticos\".",
   "skills": [
    {
     "name": "Critical Boost",
@@ -421,10 +421,10 @@
  {
   "id": "tenderizer-jewel-3",
   "name": "Tenderizer Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya ablandadora 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Weakness Exploit skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"punto débil\".",
   "skills": [
    {
     "name": "Weakness Exploit",
@@ -438,10 +438,10 @@
  {
   "id": "draw-jewel-1",
   "name": "Draw Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya desenfunde 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Critical Draw skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"desenfunde crítico\".",
   "skills": [
    {
     "name": "Critical Draw",
@@ -455,10 +455,10 @@
  {
   "id": "draw-jewel-ii-2",
   "name": "Draw Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya desenfunde II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Critical Draw skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"desenfunde crítico\".",
   "skills": [
    {
     "name": "Critical Draw",
@@ -472,10 +472,10 @@
  {
   "id": "draw-jewel-iii-3",
   "name": "Draw Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya desenfunde III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Draw skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"desenfunde crítico\".",
   "skills": [
    {
     "name": "Critical Draw",
@@ -489,10 +489,10 @@
  {
   "id": "mighty-jewel-2",
   "name": "Mighty Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya poderosa 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Maximum Might skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"poder máximo\".",
   "skills": [
    {
     "name": "Maximum Might",
@@ -506,10 +506,10 @@
  {
   "id": "blaze-jewel-1",
   "name": "Blaze Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya fuego 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Fire Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de fuego\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -523,10 +523,10 @@
  {
   "id": "blaze-jewel-ii-2",
   "name": "Blaze Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya fuego II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Fire Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de fuego\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -540,10 +540,10 @@
  {
   "id": "blaze-jewel-iii-3",
   "name": "Blaze Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya fuego III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Fire Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de fuego\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -557,10 +557,10 @@
  {
   "id": "blazeguardian-jewel-3",
   "name": "Blaze/Guardian Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya fuego/guardián 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Fire Attack and Offensive Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de fuego\" y \"bloqueo agresivo\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -578,10 +578,10 @@
  {
   "id": "blazecrit-elem-jwl-3",
   "name": "Blaze/Crit Elem Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya fuego/crít. elem. 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Fire Attack and Critical Element skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de fuego\" y \"elemento crítico\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -599,10 +599,10 @@
  {
   "id": "blazehandicraft-jwl-3",
   "name": "Blaze/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya fuego/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Fire Attack and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de fuego\" y \"artesanía\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -620,10 +620,10 @@
  {
   "id": "blazerzr-sharp-jwl-3",
   "name": "Blaze/Rzr Sharp Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya fuego/cortante 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Fire Attack and Razor Sharp skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de fuego\" y \"filo de cuchilla\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -641,10 +641,10 @@
  {
   "id": "blazeprecise-jewel-3",
   "name": "Blaze/Precise Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya fuego/puntería 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Fire Attack and Ballistics skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de fuego\" y \"balística\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -662,10 +662,10 @@
  {
   "id": "blazeopener-jewel-3",
   "name": "Blaze/Opener Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya fuego/detonante 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Fire Attack and Opening Shot skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de fuego\" y \"primer disparo\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -683,10 +683,10 @@
  {
   "id": "blazebandolier-jwl-3",
   "name": "Blaze/Bandolier Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya fuego/bandolero 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Fire Attack and Tetrad Shot skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de fuego\" y \"disparo tétrada\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -704,10 +704,10 @@
  {
   "id": "blazefocus-jewel-3",
   "name": "Blaze/Focus Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya fuego/carga veloz 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Fire Attack and Focus skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de fuego\" y \"carga veloz\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -725,10 +725,10 @@
  {
   "id": "blazeenhancer-jwl-3",
   "name": "Blaze/Enhancer Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya fuego/aumento 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Fire Attack and Power Prolonger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de fuego\" y \"carga prolongada\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -746,10 +746,10 @@
  {
   "id": "blazeko-jewel-3",
   "name": "Blaze/KO Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya fuego/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Fire Attack and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de fuego\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -767,10 +767,10 @@
  {
   "id": "blazequickswitch-jwl-3",
   "name": "Blaze/Quickswitch Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya fuego/mutación 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Fire Attack and Rapid Morph skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de fuego\" y \"mutación rápida\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -788,10 +788,10 @@
  {
   "id": "blazeironwall-jwl-3",
   "name": "Blaze/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya fuego/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Fire Attack and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de fuego\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -809,10 +809,10 @@
  {
   "id": "blazeshield-jewel-3",
   "name": "Blaze/Shield Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya fuego/escudo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Fire Attack and Guard Up skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de fuego\" y \"escudo\".",
   "skills": [
    {
     "name": "Fire Attack",
@@ -830,10 +830,10 @@
  {
   "id": "stream-jewel-1",
   "name": "Stream Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya agua 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Water Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de agua\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -847,10 +847,10 @@
  {
   "id": "stream-jewel-ii-2",
   "name": "Stream Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya agua II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Water Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de agua\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -864,10 +864,10 @@
  {
   "id": "stream-jewel-iii-3",
   "name": "Stream Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya agua III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Water Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de agua\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -881,10 +881,10 @@
  {
   "id": "streamguardian-jwl-3",
   "name": "Stream/Guardian Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya agua/guardián 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Water Attack and Offensive Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de agua\" y \"bloqueo agresivo\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -902,10 +902,10 @@
  {
   "id": "streamcrit-elem-jwl-3",
   "name": "Stream/Crit Elem Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya agua/crít. elemental 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Water Attack and Critical Element skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de agua\" y \"elemento crítico\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -923,10 +923,10 @@
  {
   "id": "streamhandicraft-jwl-3",
   "name": "Stream/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya agua/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Water Attack and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de agua\" y \"artesanía\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -944,10 +944,10 @@
  {
   "id": "streamrzr-sharp-jwl-3",
   "name": "Stream/Rzr Sharp Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya agua/cortante 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Water Attack and Razor Sharp skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de agua\" y \"filo de cuchilla\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -965,10 +965,10 @@
  {
   "id": "streamprecise-jewel-3",
   "name": "Stream/Precise Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya agua/puntería 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Water Attack and Ballistics skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de agua\" y \"balística\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -986,10 +986,10 @@
  {
   "id": "streamopener-jwl-3",
   "name": "Stream/Opener Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya agua/detonante 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Water Attack and Opening Shot skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de agua\" y \"primer disparo\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -1007,10 +1007,10 @@
  {
   "id": "streambandolier-jwl-3",
   "name": "Stream/Bandolier Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya agua/bandolero 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Water Attack and Tetrad Shot skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de agua\" y \"disparo tétrada\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -1028,10 +1028,10 @@
  {
   "id": "streamfocus-jewel-3",
   "name": "Stream/Focus Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya agua/carga veloz 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Water Attack and Focus skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de agua\" y \"carga veloz\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -1049,10 +1049,10 @@
  {
   "id": "streamenhancer-jwl-3",
   "name": "Stream/Enhancer Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya agua/aumento 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Water Attack and Power Prolonger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de agua\" y \"carga prolongada\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -1070,10 +1070,10 @@
  {
   "id": "streamko-jewel-3",
   "name": "Stream/KO Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya agua/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Water Attack and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de agua\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -1091,10 +1091,10 @@
  {
   "id": "streamquickswitch-jwl-3",
   "name": "Stream/Quickswitch Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya agua/mutación 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Water Attack and Rapid Morph skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de agua\" y \"mutación rápida\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -1112,10 +1112,10 @@
  {
   "id": "streamironwall-jwl-3",
   "name": "Stream/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya agua/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Water Attack and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de agua\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -1133,10 +1133,10 @@
  {
   "id": "streamshield-jewel-3",
   "name": "Stream/Shield Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya agua/escudo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Water Attack and Guard Up skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de agua\" y \"escudo\".",
   "skills": [
    {
     "name": "Water Attack",
@@ -1154,10 +1154,10 @@
  {
   "id": "frost-jewel-1",
   "name": "Frost Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya hielo 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Ice Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de hielo\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1171,10 +1171,10 @@
  {
   "id": "frost-jewel-ii-2",
   "name": "Frost Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya hielo II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Ice Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de hielo\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1188,10 +1188,10 @@
  {
   "id": "frost-jewel-iii-3",
   "name": "Frost Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya hielo III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ice Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de hielo\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1205,10 +1205,10 @@
  {
   "id": "frostguardian-jwl-3",
   "name": "Frost/Guardian Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya hielo/guardián 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ice Attack and Offensive Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de hielo\" y \"bloqueo agresivo\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1226,10 +1226,10 @@
  {
   "id": "frostcrit-elem-jwl-3",
   "name": "Frost/Crit Elem Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya hielo/crít. elem. 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ice Attack and Critical Element skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de hielo\" y \"elemento crítico\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1247,10 +1247,10 @@
  {
   "id": "frosthandicraft-jwl-3",
   "name": "Frost/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya hielo/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ice Attack and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de hielo\" y \"artesanía\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1268,10 +1268,10 @@
  {
   "id": "frostrzr-sharp-jwl-3",
   "name": "Frost/Rzr Sharp Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya hielo/cortante 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ice Attack and Razor Sharp skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de hielo\" y \"filo de cuchilla\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1289,10 +1289,10 @@
  {
   "id": "frostprecise-jewel-3",
   "name": "Frost/Precise Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya hielo/puntería 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ice Attack and Ballistics skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de hielo\" y \"balística\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1310,10 +1310,10 @@
  {
   "id": "frostopener-jewel-3",
   "name": "Frost/Opener Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya hielo/detonante 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ice Attack and Opening Shot skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de hielo\" y \"primer disparo\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1331,10 +1331,10 @@
  {
   "id": "frostbandolier-jwl-3",
   "name": "Frost/Bandolier Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya hielo/bandolero 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ice Attack and Tetrad Shot skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de hielo\" y \"disparo tétrada\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1352,10 +1352,10 @@
  {
   "id": "frostfocus-jewel-3",
   "name": "Frost/Focus Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya hielo/carga veloz 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ice Attack and Focus skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de hielo\" y \"carga veloz\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1373,10 +1373,10 @@
  {
   "id": "frostenhancer-jwl-3",
   "name": "Frost/Enhancer Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya hielo/aumento 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ice Attack and Power Prolonger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de hielo\" y \"carga prolongada\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1394,10 +1394,10 @@
  {
   "id": "frostko-jewel-3",
   "name": "Frost/KO Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya hielo/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ice Attack and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de hielo\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1415,10 +1415,10 @@
  {
   "id": "frostquickswitch-jwl-3",
   "name": "Frost/Quickswitch Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya hielo/mutación 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ice Attack and Rapid Morph skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de hielo\" y \"mutación rápida\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1436,10 +1436,10 @@
  {
   "id": "frostironwall-jwl-3",
   "name": "Frost/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya hielo/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ice Attack and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de hielo\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1457,10 +1457,10 @@
  {
   "id": "frostshield-jewel-3",
   "name": "Frost/Shield Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya hielo/escudo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ice Attack and Guard Up skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de hielo\" y \"escudo\".",
   "skills": [
    {
     "name": "Ice Attack",
@@ -1478,10 +1478,10 @@
  {
   "id": "bolt-jewel-1",
   "name": "Bolt Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya rayo 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Thunder Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de rayo\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1495,10 +1495,10 @@
  {
   "id": "bolt-jewel-ii-2",
   "name": "Bolt Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya rayo II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Thunder Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de rayo\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1512,10 +1512,10 @@
  {
   "id": "bolt-jewel-iii-3",
   "name": "Bolt Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya rayo III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Thunder Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de rayo\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1529,10 +1529,10 @@
  {
   "id": "boltguardian-jwl-3",
   "name": "Bolt/Guardian Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya rayo/guardián 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Thunder Attack and Offensive Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de rayo\" y \"bloqueo agresivo\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1550,10 +1550,10 @@
  {
   "id": "boltcrit-elem-jwl-3",
   "name": "Bolt/Crit Elem Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya rayo/crít. elemental 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Thunder Attack and Critical Element skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de rayo\" y \"elemento crítico\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1571,10 +1571,10 @@
  {
   "id": "bolthandicraft-jwl-3",
   "name": "Bolt/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya rayo/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Thunder Attack and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de rayo\" y \"artesanía\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1592,10 +1592,10 @@
  {
   "id": "boltrzr-sharp-jwl-3",
   "name": "Bolt/Rzr Sharp Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya rayo/cortante 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Thunder Attack and Razor Sharp skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de rayo\" y \"filo de cuchilla\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1613,10 +1613,10 @@
  {
   "id": "boltprecise-jewel-3",
   "name": "Bolt/Precise Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya rayo/puntería 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Thunder Attack and Ballistics skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de rayo\" y \"balística\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1634,10 +1634,10 @@
  {
   "id": "boltopener-jewel-3",
   "name": "Bolt/Opener Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya rayo/detonante 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Thunder Attack and Opening Shot skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de rayo\" y \"primer disparo\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1655,10 +1655,10 @@
  {
   "id": "boltbandolier-jwl-3",
   "name": "Bolt/Bandolier Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya rayo/bandolero 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Thunder Attack and Tetrad Shot skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de rayo\" y \"disparo tétrada\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1676,10 +1676,10 @@
  {
   "id": "boltfocus-jewel-3",
   "name": "Bolt/Focus Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya rayo/carga veloz 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Thunder Attack and Focus skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de rayo\" y \"carga veloz\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1697,10 +1697,10 @@
  {
   "id": "boltenhancer-jwl-3",
   "name": "Bolt/Enhancer Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya rayo/aumento 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Thunder Attack and Power Prolonger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de rayo\" y \"carga prolongada\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1718,10 +1718,10 @@
  {
   "id": "boltko-jewel-3",
   "name": "Bolt/KO Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya rayo/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Thunder Attack and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de rayo\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1739,10 +1739,10 @@
  {
   "id": "boltquickswitch-jwl-3",
   "name": "Bolt/Quickswitch Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya rayo/mutación 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Thunder Attack and Rapid Morph skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de rayo\" y \"mutación rápida\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1760,10 +1760,10 @@
  {
   "id": "boltironwall-jewel-3",
   "name": "Bolt/Ironwall Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya rayo/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Thunder Attack and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de rayo\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1781,10 +1781,10 @@
  {
   "id": "boltshield-jewel-3",
   "name": "Bolt/Shield Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya rayo/escudo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Thunder Attack and Guard Up skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de rayo\" y \"escudo\".",
   "skills": [
    {
     "name": "Thunder Attack",
@@ -1802,10 +1802,10 @@
  {
   "id": "dragon-jewel-1",
   "name": "Dragon Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya draco 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Dragon Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de draco\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -1819,10 +1819,10 @@
  {
   "id": "dragon-jewel-ii-2",
   "name": "Dragon Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya draco II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Dragon Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de draco\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -1836,10 +1836,10 @@
  {
   "id": "dragon-jewel-iii-3",
   "name": "Dragon Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya draco III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Dragon Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de draco\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -1853,10 +1853,10 @@
  {
   "id": "dragonguardian-jwl-3",
   "name": "Dragon/Guardian Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya draco/guardián 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Dragon Attack and Offensive Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de draco\" y \"bloqueo agresivo\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -1874,10 +1874,10 @@
  {
   "id": "dragoncrit-elem-jwl-3",
   "name": "Dragon/Crit Elem Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya draco/crít. elem. 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Dragon Attack and Critical Element skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de draco\" y \"elemento crítico\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -1895,10 +1895,10 @@
  {
   "id": "dragonhandicraft-jwl-3",
   "name": "Dragon/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya draco/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Dragon Attack and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de draco\" y \"artesanía\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -1916,10 +1916,10 @@
  {
   "id": "dragonrzr-sharp-jwl-3",
   "name": "Dragon/Rzr Sharp Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya draco/cortante 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Dragon Attack and Razor Sharp skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de draco\" y \"filo de cuchilla\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -1937,10 +1937,10 @@
  {
   "id": "dragonprecise-jewel-3",
   "name": "Dragon/Precise Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya draco/puntería 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Dragon Attack and Ballistics skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de draco\" y \"balística\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -1958,10 +1958,10 @@
  {
   "id": "dragonopener-jewel-3",
   "name": "Dragon/Opener Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya draco/detonante 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Dragon Attack and Opening Shot skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de draco\" y \"primer disparo\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -1979,10 +1979,10 @@
  {
   "id": "dragonbandolier-jwl-3",
   "name": "Dragon/Bandolier Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya draco/bandolero 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Dragon Attack and Tetrad Shot skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de draco\" y \"disparo tétrada\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -2000,10 +2000,10 @@
  {
   "id": "dragonfocus-jewel-3",
   "name": "Dragon/Focus Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya draco/carga veloz 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Dragon Attack and Focus skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de draco\" y \"carga veloz\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -2021,10 +2021,10 @@
  {
   "id": "dragonenhancer-jwl-3",
   "name": "Dragon/Enhancer Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya draco/aumento 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Dragon Attack and Power Prolonger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de draco\" y \"carga prolongada\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -2042,10 +2042,10 @@
  {
   "id": "dragonko-jewel-3",
   "name": "Dragon/KO Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya draco/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Dragon Attack and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de draco\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -2063,10 +2063,10 @@
  {
   "id": "dragonquickswitch-jwl-3",
   "name": "Dragon/Quickswitch Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya draco/mutación 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Dragon Attack and Rapid Morph skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de draco\" y \"mutación rápida\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -2084,10 +2084,10 @@
  {
   "id": "dragonironwall-jwl-3",
   "name": "Dragon/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya draco/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Dragon Attack and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de draco\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -2105,10 +2105,10 @@
  {
   "id": "dragonshield-jewel-3",
   "name": "Dragon/Shield Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya draco/escudo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Dragon Attack and Guard Up skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"ataque de draco\" y \"escudo\".",
   "skills": [
    {
     "name": "Dragon Attack",
@@ -2126,10 +2126,10 @@
  {
   "id": "venom-jewel-1",
   "name": "Venom Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya venenosa 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Poison Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque venenoso\".",
   "skills": [
    {
     "name": "Poison Attack",
@@ -2143,10 +2143,10 @@
  {
   "id": "venom-jewel-ii-2",
   "name": "Venom Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya venenosa II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Poison Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque venenoso\".",
   "skills": [
    {
     "name": "Poison Attack",
@@ -2160,10 +2160,10 @@
  {
   "id": "venom-jewel-iii-3",
   "name": "Venom Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya venenosa III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Poison Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque venenoso\".",
   "skills": [
    {
     "name": "Poison Attack",
@@ -2177,10 +2177,10 @@
  {
   "id": "paralyzer-jewel-1",
   "name": "Paralyzer Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya paralizante 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Paralysis Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque paralizante\".",
   "skills": [
    {
     "name": "Paralysis Attack",
@@ -2194,10 +2194,10 @@
  {
   "id": "paralyzer-jewel-ii-2",
   "name": "Paralyzer Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya paralizante II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Paralysis Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque paralizante\".",
   "skills": [
    {
     "name": "Paralysis Attack",
@@ -2211,10 +2211,10 @@
  {
   "id": "paralyzer-jwl-iii-3",
   "name": "Paralyzer Jwl III [3]",
-  "nameEs": "",
+  "nameEs": "Joya paralizante III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Paralysis Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque paralizante\".",
   "skills": [
    {
     "name": "Paralysis Attack",
@@ -2228,10 +2228,10 @@
  {
   "id": "sleep-jewel-1",
   "name": "Sleep Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya sueño 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Sleep Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de sueño\".",
   "skills": [
    {
     "name": "Sleep Attack",
@@ -2245,10 +2245,10 @@
  {
   "id": "sleep-jewel-ii-2",
   "name": "Sleep Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya sueño II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Sleep Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de sueño\".",
   "skills": [
    {
     "name": "Sleep Attack",
@@ -2262,10 +2262,10 @@
  {
   "id": "sleep-jewel-iii-3",
   "name": "Sleep Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya sueño III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Sleep Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de sueño\".",
   "skills": [
    {
     "name": "Sleep Attack",
@@ -2279,10 +2279,10 @@
  {
   "id": "blast-jewel-1",
   "name": "Blast Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya nitro 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Blast Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de nitro\".",
   "skills": [
    {
     "name": "Blast Attack",
@@ -2296,10 +2296,10 @@
  {
   "id": "blast-jewel-ii-2",
   "name": "Blast Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya nitro II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Blast Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de nitro\".",
   "skills": [
    {
     "name": "Blast Attack",
@@ -2313,10 +2313,10 @@
  {
   "id": "blast-jewel-iii-3",
   "name": "Blast Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya nitro III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Blast Attack skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ataque de nitro\".",
   "skills": [
    {
     "name": "Blast Attack",
@@ -2330,10 +2330,10 @@
  {
   "id": "crit-element-jewel-1",
   "name": "Crit Element Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya crítico elemental 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Critical Element skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"elemento crítico\".",
   "skills": [
    {
     "name": "Critical Element",
@@ -2347,10 +2347,10 @@
  {
   "id": "crit-element-jewel-ii-2",
   "name": "Crit Element Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya crítico elemental II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Critical Element skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"elemento crítico\".",
   "skills": [
    {
     "name": "Critical Element",
@@ -2364,10 +2364,10 @@
  {
   "id": "crit-elem-jwl-iii-3",
   "name": "Crit Elem Jwl III [3]",
-  "nameEs": "",
+  "nameEs": "Joya crítico elemental III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Element skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"elemento crítico\".",
   "skills": [
    {
     "name": "Critical Element",
@@ -2381,10 +2381,10 @@
  {
   "id": "crit-elemblaze-jwl-3",
   "name": "Crit Elem/Blaze Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya crít. elemental/fuego 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Element and Fire Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"elemento crítico\" y \"ataque de fuego\".",
   "skills": [
    {
     "name": "Critical Element",
@@ -2402,10 +2402,10 @@
  {
   "id": "crit-elemstream-jwl-3",
   "name": "Crit Elem/Stream Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya crít. elemental/agua 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Element and Water Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"elemento crítico\" y \"ataque de agua\".",
   "skills": [
    {
     "name": "Critical Element",
@@ -2423,10 +2423,10 @@
  {
   "id": "crit-elemfrost-jwl-3",
   "name": "Crit Elem/Frost Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya crít. elemental/hielo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Element and Ice Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"elemento crítico\" y \"ataque de hielo\".",
   "skills": [
    {
     "name": "Critical Element",
@@ -2444,10 +2444,10 @@
  {
   "id": "crit-elembolt-jwl-3",
   "name": "Crit Elem/Bolt Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya crít. elemental/rayo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Element and Thunder Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"elemento crítico\" y \"ataque de rayo\".",
   "skills": [
    {
     "name": "Critical Element",
@@ -2465,10 +2465,10 @@
  {
   "id": "crit-elemdragon-jwl-3",
   "name": "Crit Elem/Dragon Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya crít. elemental/draco 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Element and Dragon Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"elemento crítico\" y \"ataque de draco\".",
   "skills": [
    {
     "name": "Critical Element",
@@ -2486,10 +2486,10 @@
  {
   "id": "crit-elemhandicraft-jwl-3",
   "name": "Crit Elem/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya crít. elem./artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Element and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"elemento crítico\" y \"artesanía\".",
   "skills": [
    {
     "name": "Critical Element",
@@ -2507,10 +2507,10 @@
  {
   "id": "crit-elementprecise-jwl-3",
   "name": "Crit Element/Precise Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya crít. elem./puntería 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Element and Ballistics skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"elemento crítico\" y \"balística\".",
   "skills": [
    {
     "name": "Critical Element",
@@ -2528,10 +2528,10 @@
  {
   "id": "crit-elemko-jewel-3",
   "name": "Crit Elem/KO Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya crít. elemental/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Element and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"elemento crítico\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Critical Element",
@@ -2549,10 +2549,10 @@
  {
   "id": "crit-elemironwall-jwl-3",
   "name": "Crit Elem/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya crít. elemental/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Element and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"elemento crítico\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Critical Element",
@@ -2570,10 +2570,10 @@
  {
   "id": "crit-status-jewel-1",
   "name": "Crit Status Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya estado crítico 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Critical Status skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"estado crítico\".",
   "skills": [
    {
     "name": "Critical Status",
@@ -2587,10 +2587,10 @@
  {
   "id": "crit-status-jewel-ii-2",
   "name": "Crit Status Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya estado crítico II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Critical Status skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"estado crítico\".",
   "skills": [
    {
     "name": "Critical Status",
@@ -2604,10 +2604,10 @@
  {
   "id": "crit-stat-jwl-iii-3",
   "name": "Crit Stat Jwl III [3]",
-  "nameEs": "",
+  "nameEs": "Joya estado crítico III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Status skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"estado crítico\".",
   "skills": [
    {
     "name": "Critical Status",
@@ -2621,10 +2621,10 @@
  {
   "id": "crit-stathandicraft-jwl-3",
   "name": "Crit Stat/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya est. crítico/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Status and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"estado crítico\" y \"artesanía\".",
   "skills": [
    {
     "name": "Critical Status",
@@ -2642,10 +2642,10 @@
  {
   "id": "crit-statprecise-jwl-3",
   "name": "Crit Stat/Precise Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya est. crítico/puntería 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Status and Ballistics skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"estado crítico\" y \"balística\".",
   "skills": [
    {
     "name": "Critical Status",
@@ -2663,10 +2663,10 @@
  {
   "id": "crit-statusko-jwl-3",
   "name": "Crit Status/KO Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya est. crítico/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Status and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"estado crítico\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Critical Status",
@@ -2684,10 +2684,10 @@
  {
   "id": "crit-statironwall-jwl-3",
   "name": "Crit Stat/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya crít. estado/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Critical Status and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"estado crítico\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Critical Status",
@@ -2705,10 +2705,10 @@
  {
   "id": "charge-jewel-1",
   "name": "Charge Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya carga 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Charge Master skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"maestro de cargas\".",
   "skills": [
    {
     "name": "Charge Master",
@@ -2722,10 +2722,10 @@
  {
   "id": "charge-jewel-ii-2",
   "name": "Charge Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya carga II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Charge Master skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"maestro de cargas\".",
   "skills": [
    {
     "name": "Charge Master",
@@ -2739,10 +2739,10 @@
  {
   "id": "charge-jewel-iii-3",
   "name": "Charge Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya carga III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Charge Master skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"maestro de cargas\".",
   "skills": [
    {
     "name": "Charge Master",
@@ -2756,10 +2756,10 @@
  {
   "id": "chargehandicraft-jwl-3",
   "name": "Charge/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya carga/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Charge Master and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"maestro de cargas\" y \"artesanía\".",
   "skills": [
    {
     "name": "Charge Master",
@@ -2777,10 +2777,10 @@
  {
   "id": "chargeko-jewel-3",
   "name": "Charge/KO Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya carga/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Charge Master and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"maestro de cargas\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Charge Master",
@@ -2798,10 +2798,10 @@
  {
   "id": "handicraft-jewel-1",
   "name": "Handicraft Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya artesana 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Handicraft skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"artesanía\".",
   "skills": [
    {
     "name": "Handicraft",
@@ -2815,10 +2815,10 @@
  {
   "id": "handicraft-jewel-ii-2",
   "name": "Handicraft Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya artesana II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Handicraft skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"artesanía\".",
   "skills": [
    {
     "name": "Handicraft",
@@ -2832,10 +2832,10 @@
  {
   "id": "handicraft-jwl-iii-3",
   "name": "Handicraft Jwl III [3]",
-  "nameEs": "",
+  "nameEs": "Joya artesana III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Handicraft skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"artesanía\".",
   "skills": [
    {
     "name": "Handicraft",
@@ -2849,10 +2849,10 @@
  {
   "id": "razor-sharp-jewel-1",
   "name": "Razor Sharp Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya cortante 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Razor Sharp skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"filo de cuchilla\".",
   "skills": [
    {
     "name": "Razor Sharp",
@@ -2866,10 +2866,10 @@
  {
   "id": "razor-sharp-jewel-ii-2",
   "name": "Razor Sharp Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya cortante II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Razor Sharp skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"filo de cuchilla\".",
   "skills": [
    {
     "name": "Razor Sharp",
@@ -2883,10 +2883,10 @@
  {
   "id": "rzr-sharp-jwl-iii-3",
   "name": "Rzr Sharp Jwl III [3]",
-  "nameEs": "",
+  "nameEs": "Joya cortante III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Razor Sharp skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"filo de cuchilla\".",
   "skills": [
    {
     "name": "Razor Sharp",
@@ -2900,10 +2900,10 @@
  {
   "id": "rzr-sharpblaze-jwl-3",
   "name": "Rzr Sharp/Blaze Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cortante/fuego 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Razor Sharp and Fire Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"filo de cuchilla\" y \"ataque de fuego\".",
   "skills": [
    {
     "name": "Razor Sharp",
@@ -2921,10 +2921,10 @@
  {
   "id": "rzr-sharpstream-jwl-3",
   "name": "Rzr Sharp/Stream Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cortante/agua 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Razor Sharp and Water Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"filo de cuchilla\" y \"ataque de agua\".",
   "skills": [
    {
     "name": "Razor Sharp",
@@ -2942,10 +2942,10 @@
  {
   "id": "rzr-sharpfrost-jwl-3",
   "name": "Rzr Sharp/Frost Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cortante/hielo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Razor Sharp and Ice Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"filo de cuchilla\" y \"ataque de hielo\".",
   "skills": [
    {
     "name": "Razor Sharp",
@@ -2963,10 +2963,10 @@
  {
   "id": "rzr-sharpbolt-jwl-3",
   "name": "Rzr Sharp/Bolt Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cortante/rayo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Razor Sharp and Thunder Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"filo de cuchilla\" y \"ataque de rayo\".",
   "skills": [
    {
     "name": "Razor Sharp",
@@ -2984,10 +2984,10 @@
  {
   "id": "rzr-sharpdragon-jwl-3",
   "name": "Rzr Sharp/Dragon Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cortante/draco 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Razor Sharp and Dragon Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"filo de cuchilla\" y \"ataque de draco\".",
   "skills": [
    {
     "name": "Razor Sharp",
@@ -3005,10 +3005,10 @@
  {
   "id": "rzr-sharphandicraft-jwl-3",
   "name": "Rzr Sharp/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cortante/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the  Razor Sharp and Handicraft  skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"filo de cuchilla\" y \"artesanía\".",
   "skills": [
    {
     "name": "Razor Sharp",
@@ -3026,10 +3026,10 @@
  {
   "id": "razor-sharpko-jwl-3",
   "name": "Razor Sharp/KO Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cortante/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Razor Sharp and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"filo de cuchilla\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Razor Sharp",
@@ -3047,10 +3047,10 @@
  {
   "id": "rzr-sharpironwall-jwl-3",
   "name": "Rzr Sharp/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cortante/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Razor Sharp and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"filo de cuchilla\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Razor Sharp",
@@ -3068,10 +3068,10 @@
  {
   "id": "sharp-jewel-1",
   "name": "Sharp Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya afilado 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Protective Polish skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"acabado protector\".",
   "skills": [
    {
     "name": "Protective Polish",
@@ -3085,10 +3085,10 @@
  {
   "id": "sharp-jewel-ii-2",
   "name": "Sharp Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya afilado II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Protective Polish skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"acabado protector\".",
   "skills": [
    {
     "name": "Protective Polish",
@@ -3102,10 +3102,10 @@
  {
   "id": "sharp-jewel-iii-3",
   "name": "Sharp Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya afilado III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Protective Polish skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"acabado protector\".",
   "skills": [
    {
     "name": "Protective Polish",
@@ -3119,10 +3119,10 @@
  {
   "id": "minds-eye-jewel-1",
   "name": "Mind's Eye Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya ojo mental 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Mind&#x27;s Eye skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ojo mental\".",
   "skills": [
    {
     "name": "Mind's Eye",
@@ -3136,10 +3136,10 @@
  {
   "id": "minds-eye-jewel-ii-2",
   "name": "Mind's Eye Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya ojo mental II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Mind&#x27;s Eye skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ojo mental\".",
   "skills": [
    {
     "name": "Mind's Eye",
@@ -3153,10 +3153,10 @@
  {
   "id": "minds-eye-jwl-iii-3",
   "name": "Mind's Eye Jwl III [3]",
-  "nameEs": "",
+  "nameEs": "Joya ojo mental III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Mind&#x27;s Eye skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ojo mental\".",
   "skills": [
    {
     "name": "Mind's Eye",
@@ -3170,10 +3170,10 @@
  {
   "id": "blunt-jewel-1",
   "name": "Blunt Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya contundente 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Bludgeoner skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"impacto mejorado\".",
   "skills": [
    {
     "name": "Bludgeoner",
@@ -3187,10 +3187,10 @@
  {
   "id": "blunt-jewel-ii-2",
   "name": "Blunt Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya contundente II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Bludgeoner skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"impacto mejorado\".",
   "skills": [
    {
     "name": "Bludgeoner",
@@ -3204,10 +3204,10 @@
  {
   "id": "blunt-jewel-iii-3",
   "name": "Blunt Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya contundente III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Bludgeoner skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"impacto mejorado\".",
   "skills": [
    {
     "name": "Bludgeoner",
@@ -3221,10 +3221,10 @@
  {
   "id": "mastery-jewel-3",
   "name": "Mastery Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya maestría 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Master&#x27;s Touch skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"toque maestro\".",
   "skills": [
    {
     "name": "Master's Touch",
@@ -3238,10 +3238,10 @@
  {
   "id": "forceshot-jewel-3",
   "name": "Forceshot Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya disparo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Normal Shots skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"disparo normal\".",
   "skills": [
    {
     "name": "Normal Shots",
@@ -3255,10 +3255,10 @@
  {
   "id": "pierce-jewel-3",
   "name": "Pierce Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya perforante 3",
   "slotLevel": 3,
   "description": "A decoration that enhances the Piercing Shots skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que mejora la habilidad \"disparo perforante\".",
   "skills": [
    {
     "name": "Piercing Shots",
@@ -3272,10 +3272,10 @@
  {
   "id": "spread-jewel-3",
   "name": "Spread Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya abanico 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Spread/Power Shots skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"disparo abanico/potente\".",
   "skills": [
    {
     "name": "Spread/Power Shots",
@@ -3289,10 +3289,10 @@
  {
   "id": "precise-jewel-1",
   "name": "Precise Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya puntería 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Ballistics skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"balística\".",
   "skills": [
    {
     "name": "Ballistics",
@@ -3306,10 +3306,10 @@
  {
   "id": "precise-jewel-ii-2",
   "name": "Precise Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya puntería II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Ballistics skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"balística\".",
   "skills": [
    {
     "name": "Ballistics",
@@ -3323,10 +3323,10 @@
  {
   "id": "precise-jewel-iii-3",
   "name": "Precise Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya puntería III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Ballistics skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"balística\".",
   "skills": [
    {
     "name": "Ballistics",
@@ -3340,10 +3340,10 @@
  {
   "id": "salvo-jewel-3",
   "name": "Salvo Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya andanada 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Rapid Fire Up skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"andanada rápida\".",
   "skills": [
    {
     "name": "Rapid Fire Up",
@@ -3357,10 +3357,10 @@
  {
   "id": "opener-jewel-1",
   "name": "Opener Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya detonante 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Opening Shot skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"primer disparo\".",
   "skills": [
    {
     "name": "Opening Shot",
@@ -3374,10 +3374,10 @@
  {
   "id": "opener-jewel-ii-2",
   "name": "Opener Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya detonante II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Opening Shot skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"primer disparo\".",
   "skills": [
    {
     "name": "Opening Shot",
@@ -3391,10 +3391,10 @@
  {
   "id": "opener-jewel-iii-3",
   "name": "Opener Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya detonante III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Opening Shot skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"primer disparo\".",
   "skills": [
    {
     "name": "Opening Shot",
@@ -3408,10 +3408,10 @@
  {
   "id": "openerblaze-jewel-3",
   "name": "Opener/Blaze Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya detonante/fuego 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Opening Shot and Fire Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"primer disparo\" y \"ataque de fuego\".",
   "skills": [
    {
     "name": "Opening Shot",
@@ -3429,10 +3429,10 @@
  {
   "id": "openerstream-jwl-3",
   "name": "Opener/Stream Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya detonante/agua 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Opening Shot and Water Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"primer disparo\" y \"ataque de agua\".",
   "skills": [
    {
     "name": "Opening Shot",
@@ -3450,10 +3450,10 @@
  {
   "id": "openerfrost-jewel-3",
   "name": "Opener/Frost Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya detonante/hielo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Opening Shot and Ice Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"primer disparo\" y \"ataque de hielo\".",
   "skills": [
    {
     "name": "Opening Shot",
@@ -3471,10 +3471,10 @@
  {
   "id": "openerbolt-jewel-3",
   "name": "Opener/Bolt Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya detonante/rayo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Opening Shot and Thunder Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"primer disparo\" y \"ataque de rayo\".",
   "skills": [
    {
     "name": "Opening Shot",
@@ -3492,10 +3492,10 @@
  {
   "id": "openerdragon-jewel-3",
   "name": "Opener/Dragon Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya detonante/draco 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Opening Shot and Dragon Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"primer disparo\" y \"ataque de draco\".",
   "skills": [
    {
     "name": "Opening Shot",
@@ -3513,10 +3513,10 @@
  {
   "id": "openerprecise-jewel-3",
   "name": "Opener/Precise Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya detonante/puntería 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Opening Shot and Ballistics skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"primer disparo\" y \"balística\".",
   "skills": [
    {
     "name": "Opening Shot",
@@ -3534,10 +3534,10 @@
  {
   "id": "openerironwall-jwl-3",
   "name": "Opener/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya detonante/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Opening Shot and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"primer disparo\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Opening Shot",
@@ -3555,10 +3555,10 @@
  {
   "id": "bandolier-jewel-1",
   "name": "Bandolier Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya bandolero 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Tetrad Shot skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"disparo tétrada\".",
   "skills": [
    {
     "name": "Tetrad Shot",
@@ -3572,10 +3572,10 @@
  {
   "id": "bandolier-jewel-ii-2",
   "name": "Bandolier Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya bandolero II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Tetrad Shot skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"disparo tétrada\".",
   "skills": [
    {
     "name": "Tetrad Shot",
@@ -3589,10 +3589,10 @@
  {
   "id": "bandolier-jewel-iii-3",
   "name": "Bandolier Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya bandolero III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Tetrad Shot skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"disparo tétrada\".",
   "skills": [
    {
     "name": "Tetrad Shot",
@@ -3606,10 +3606,10 @@
  {
   "id": "bandolierblaze-jwl-3",
   "name": "Bandolier/Blaze Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya bandolero/fuego 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Tetrad Shot and Fire Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"disparo tétrada\" y \"ataque de fuego\".",
   "skills": [
    {
     "name": "Tetrad Shot",
@@ -3627,10 +3627,10 @@
  {
   "id": "bandolierstream-jwl-3",
   "name": "Bandolier/Stream Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya bandolero/agua 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Tetrad Shot and Water Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"disparo tétrada\" y \"ataque de agua\".",
   "skills": [
    {
     "name": "Tetrad Shot",
@@ -3648,10 +3648,10 @@
  {
   "id": "bandolierfrost-jwl-3",
   "name": "Bandolier/Frost Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya bandolero/hielo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Tetrad Shot and Ice Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"disparo tétrada\" y \"ataque de hielo\".",
   "skills": [
    {
     "name": "Tetrad Shot",
@@ -3669,10 +3669,10 @@
  {
   "id": "bandolierbolt-jwl-3",
   "name": "Bandolier/Bolt Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya bandolero/rayo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Tetrad Shot and Thunder Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"disparo tétrada\" y \"ataque de rayo\".",
   "skills": [
    {
     "name": "Tetrad Shot",
@@ -3690,10 +3690,10 @@
  {
   "id": "bandolierdragon-jwl-3",
   "name": "Bandolier/Dragon Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya bandolero/draco 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Tetrad Shot and Dragon Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"disparo tétrada\" y \"ataque de draco\".",
   "skills": [
    {
     "name": "Tetrad Shot",
@@ -3711,10 +3711,10 @@
  {
   "id": "bandolierprecise-jwl-3",
   "name": "Bandolier/Precise Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya bandolero/puntería 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Tetrad Shot and Ballistics skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"disparo tétrada\" y \"balística\".",
   "skills": [
    {
     "name": "Tetrad Shot",
@@ -3732,10 +3732,10 @@
  {
   "id": "bandolierironwall-jwl-3",
   "name": "Bandolier/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya bandolero/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Tetrad Shot and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"disparo tétrada\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Tetrad Shot",
@@ -3753,10 +3753,10 @@
  {
   "id": "trueshot-jewel-1",
   "name": "Trueshot Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya tirofijo 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Special Ammo Boost skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bonus tiro especial\".",
   "skills": [
    {
     "name": "Special Ammo Boost",
@@ -3770,10 +3770,10 @@
  {
   "id": "trueshot-jewel-ii-2",
   "name": "Trueshot Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya tirofijo II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Special Ammo Boost skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bonus tiro especial\".",
   "skills": [
    {
     "name": "Special Ammo Boost",
@@ -3787,10 +3787,10 @@
  {
   "id": "poisoncoat-jewel-2",
   "name": "Poisoncoat Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya ponzoñosa 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Poison Functionality skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"añade veneno\".",
   "skills": [
    {
     "name": "Poison Functionality",
@@ -3804,10 +3804,10 @@
  {
   "id": "paracoat-jewel-3",
   "name": "Paracoat Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya paralizadora 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Para Functionality skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"añade parálisis\".",
   "skills": [
    {
     "name": "Para Functionality",
@@ -3821,10 +3821,10 @@
  {
   "id": "sleepcoat-jewel-3",
   "name": "Sleepcoat Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya somnífera 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Sleep Functionality skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"añade sueño\".",
   "skills": [
    {
     "name": "Sleep Functionality",
@@ -3838,10 +3838,10 @@
  {
   "id": "blastcoat-jewel-2",
   "name": "Blastcoat Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya vial nitro 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Blast Functionality skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"añade nitro\".",
   "skills": [
    {
     "name": "Blast Functionality",
@@ -3855,10 +3855,10 @@
  {
   "id": "draincoat-jewel-2",
   "name": "Draincoat Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya drenaje 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Exhaust Functionality skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"añade fatiga\".",
   "skills": [
    {
     "name": "Exhaust Functionality",
@@ -3872,10 +3872,10 @@
  {
   "id": "defense-jewel-1",
   "name": "Defense Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya defensa 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Defense Boost skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bonus de defensa\".",
   "skills": [
    {
     "name": "Defense Boost",
@@ -3889,10 +3889,10 @@
  {
   "id": "protection-jewel-1",
   "name": "Protection Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya protección 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Divine Blessing skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bendición divina\".",
   "skills": [
    {
     "name": "Divine Blessing",
@@ -3906,10 +3906,10 @@
  {
   "id": "fire-res-jewel-1",
   "name": "Fire Res Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya resistencia al fuego 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Fire Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antifuego\".",
   "skills": [
    {
     "name": "Fire Resistance",
@@ -3923,10 +3923,10 @@
  {
   "id": "water-res-jewel-1",
   "name": "Water Res Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya resistencia al agua 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Water Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antiagua\".",
   "skills": [
    {
     "name": "Water Resistance",
@@ -3940,10 +3940,10 @@
  {
   "id": "thunder-res-jewel-1",
   "name": "Thunder Res Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya resistencia al rayo 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Thunder Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antirrayo\".",
   "skills": [
    {
     "name": "Thunder Resistance",
@@ -3957,10 +3957,10 @@
  {
   "id": "ice-res-jewel-1",
   "name": "Ice Res Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya resistencia al hielo 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Ice Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antihielo\".",
   "skills": [
    {
     "name": "Ice Resistance",
@@ -3974,10 +3974,10 @@
  {
   "id": "dragon-res-jewel-1",
   "name": "Dragon Res Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya resistencia al draco 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Dragon Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antidraco\".",
   "skills": [
    {
     "name": "Dragon Resistance",
@@ -3991,10 +3991,10 @@
  {
   "id": "antidote-jewel-1",
   "name": "Antidote Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya antídoto 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Poison Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antiveneno\".",
   "skills": [
    {
     "name": "Poison Resistance",
@@ -4008,10 +4008,10 @@
  {
   "id": "antipara-jewel-1",
   "name": "Antipara Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya antiparálisis 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Paralysis Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antiparálisis\".",
   "skills": [
    {
     "name": "Paralysis Resistance",
@@ -4025,10 +4025,10 @@
  {
   "id": "pep-jewel-1",
   "name": "Pep Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya antisueño 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Sleep Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antisueño\".",
   "skills": [
    {
     "name": "Sleep Resistance",
@@ -4042,10 +4042,10 @@
  {
   "id": "def-lock-jewel-1",
   "name": "Def Lock Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya bloqueo 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Iron Skin skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"piel de hierro\".",
   "skills": [
    {
     "name": "Iron Skin",
@@ -4059,10 +4059,10 @@
  {
   "id": "steadfast-jewel-1",
   "name": "Steadfast Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya voluntad 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Stun Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antiaturdimiento\".",
   "skills": [
    {
     "name": "Stun Resistance",
@@ -4076,10 +4076,10 @@
  {
   "id": "suture-jewel-1",
   "name": "Suture Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya sutura 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Bleeding Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antisangrado\".",
   "skills": [
    {
     "name": "Bleeding Resistance",
@@ -4093,10 +4093,10 @@
  {
   "id": "escape-jewel-1",
   "name": "Escape Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya escape 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Bind Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antiinmovilización\".",
   "skills": [
    {
     "name": "Bind Resistance",
@@ -4110,10 +4110,10 @@
  {
   "id": "antiblast-jewel-1",
   "name": "Antiblast Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya antinitro 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Blast Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antinitro\".",
   "skills": [
    {
     "name": "Blast Resistance",
@@ -4127,10 +4127,10 @@
  {
   "id": "perfume-jewel-1",
   "name": "Perfume Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya aromatizante 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Stench Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antihedor\".",
   "skills": [
    {
     "name": "Stench Resistance",
@@ -4144,10 +4144,10 @@
  {
   "id": "adapt-jewel-1",
   "name": "Adapt Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya adaptación 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Adaptability skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"adaptabilidad\".",
   "skills": [
    {
     "name": "Adaptability",
@@ -4161,10 +4161,10 @@
  {
   "id": "medicine-jewel-1",
   "name": "Medicine Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya medicinal 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Recovery Up skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"recuperación\".",
   "skills": [
    {
     "name": "Recovery Up",
@@ -4178,10 +4178,10 @@
  {
   "id": "recovery-jewel-1",
   "name": "Recovery Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya recuperación 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Recovery Speed skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"recuperación rápida\".",
   "skills": [
    {
     "name": "Recovery Speed",
@@ -4195,10 +4195,10 @@
  {
   "id": "survival-jewel-1",
   "name": "Survival Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya supervivencia 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Survival Expert skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"experto en supervivencia\".",
   "skills": [
    {
     "name": "Survival Expert",
@@ -4212,10 +4212,10 @@
  {
   "id": "physique-jewel-1",
   "name": "Physique Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya salud 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Constitution skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"constitución\".",
   "skills": [
    {
     "name": "Constitution",
@@ -4229,10 +4229,10 @@
  {
   "id": "refresh-jewel-2",
   "name": "Refresh Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya refresco 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Stamina Surge skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"aguante\".",
   "skills": [
    {
     "name": "Stamina Surge",
@@ -4246,10 +4246,10 @@
  {
   "id": "sprinter-jewel-1",
   "name": "Sprinter Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya impulso 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Marathon Runner skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"corredor de fondo\".",
   "skills": [
    {
     "name": "Marathon Runner",
@@ -4263,10 +4263,10 @@
  {
   "id": "hungerless-jewel-1",
   "name": "Hungerless Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya antigula 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Hunger Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antihambre\".",
   "skills": [
    {
     "name": "Hunger Resistance",
@@ -4280,10 +4280,10 @@
  {
   "id": "challenger-jewel-3",
   "name": "Challenger Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya desafiante 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Agitator skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"instigación\".",
   "skills": [
    {
     "name": "Agitator",
@@ -4297,10 +4297,10 @@
  {
   "id": "throttle-jewel-3",
   "name": "Throttle Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya poder 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Latent Power skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"poder latente\".",
   "skills": [
    {
     "name": "Latent Power",
@@ -4314,10 +4314,10 @@
  {
   "id": "potential-jewel-2",
   "name": "Potential Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya potencia 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Heroics skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"heroicidad\".",
   "skills": [
    {
     "name": "Heroics",
@@ -4331,10 +4331,10 @@
  {
   "id": "chain-jewel-3",
   "name": "Chain Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya serie 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Burst skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ráfaga\".",
   "skills": [
    {
     "name": "Burst",
@@ -4348,10 +4348,10 @@
  {
   "id": "foray-jewel-3",
   "name": "Foray Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya irrupción 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Foray skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"irrupción\".",
   "skills": [
    {
     "name": "Foray",
@@ -4365,10 +4365,10 @@
  {
   "id": "flayer-jewel-3",
   "name": "Flayer Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya desuello 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Flayer skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"desuello\".",
   "skills": [
    {
     "name": "Flayer",
@@ -4382,10 +4382,10 @@
  {
   "id": "focus-jewel-1",
   "name": "Focus Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya carga veloz 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Focus skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"carga veloz\".",
   "skills": [
    {
     "name": "Focus",
@@ -4399,10 +4399,10 @@
  {
   "id": "focus-jewel-ii-2",
   "name": "Focus Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya carga veloz II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Focus skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"carga veloz\".",
   "skills": [
    {
     "name": "Focus",
@@ -4416,10 +4416,10 @@
  {
   "id": "focus-jewel-iii-3",
   "name": "Focus Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya carga veloz III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Focus skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"carga veloz\".",
   "skills": [
    {
     "name": "Focus",
@@ -4433,10 +4433,10 @@
  {
   "id": "focusblaze-jewel-3",
   "name": "Focus/Blaze Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya carga veloz/fuego 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Focus and Fire Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"carga veloz\" y \"ataque de fuego\".",
   "skills": [
    {
     "name": "Focus",
@@ -4454,10 +4454,10 @@
  {
   "id": "focusstream-jewel-3",
   "name": "Focus/Stream Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya carga veloz/agua 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Focus and Water Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"carga veloz\" y \"ataque de agua\".",
   "skills": [
    {
     "name": "Focus",
@@ -4475,10 +4475,10 @@
  {
   "id": "focusfrost-jewel-3",
   "name": "Focus/Frost Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya carga veloz/hielo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Focus and Ice Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"carga veloz\" y \"ataque de hielo\".",
   "skills": [
    {
     "name": "Focus",
@@ -4496,10 +4496,10 @@
  {
   "id": "focusbolt-jwl-3",
   "name": "Focus/Bolt Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya carga veloz/rayo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Focus and Thunder Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"carga veloz\" y \"ataque de rayo\".",
   "skills": [
    {
     "name": "Focus",
@@ -4517,10 +4517,10 @@
  {
   "id": "focusdragon-jewel-3",
   "name": "Focus/Dragon Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya carga veloz/draco 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Focus and Dragon Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"carga veloz\" y \"ataque de draco\".",
   "skills": [
    {
     "name": "Focus",
@@ -4538,10 +4538,10 @@
  {
   "id": "focushandicraft-jewel-3",
   "name": "Focus/Handicraft Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya carga veloz/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Focus and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"carga veloz\" y \"artesanía\".",
   "skills": [
    {
     "name": "Focus",
@@ -4559,10 +4559,10 @@
  {
   "id": "focusprecise-jewel-3",
   "name": "Focus/Precise Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya carga veloz/puntería 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Focus and Ballistics skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"carga veloz\" y \"balística\".",
   "skills": [
    {
     "name": "Focus",
@@ -4580,10 +4580,10 @@
  {
   "id": "focusko-jewel-3",
   "name": "Focus/KO Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya carga veloz/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Focus and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"carga veloz\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Focus",
@@ -4601,10 +4601,10 @@
  {
   "id": "enhancer-jewel-1",
   "name": "Enhancer Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya aumento 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Power Prolonger skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"carga prolongada\".",
   "skills": [
    {
     "name": "Power Prolonger",
@@ -4618,10 +4618,10 @@
  {
   "id": "enhancer-jewel-ii-2",
   "name": "Enhancer Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya aumento II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Power Prolonger skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"carga prolongada\".",
   "skills": [
    {
     "name": "Power Prolonger",
@@ -4635,10 +4635,10 @@
  {
   "id": "enhancer-jewel-iii-3",
   "name": "Enhancer Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya aumento III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Power Prolonger skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"carga prolongada\".",
   "skills": [
    {
     "name": "Power Prolonger",
@@ -4652,10 +4652,10 @@
  {
   "id": "enhancerblaze-jewel-3",
   "name": "Enhancer/Blaze Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya aumento/fuego 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Power Prolonger and Fire Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"carga prolongada\" y \"ataque de fuego\".",
   "skills": [
    {
     "name": "Power Prolonger",
@@ -4673,10 +4673,10 @@
  {
   "id": "enhancerstream-jwl-3",
   "name": "Enhancer/Stream Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya aumento/agua 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Power Prolonger and Water Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"carga prolongada\" y \"ataque de agua\".",
   "skills": [
    {
     "name": "Power Prolonger",
@@ -4694,10 +4694,10 @@
  {
   "id": "enhancerfrost-jwl-3",
   "name": "Enhancer/Frost Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya aumento/hielo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Power Prolonger and Ice Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"carga prolongada\" y \"ataque de hielo\".",
   "skills": [
    {
     "name": "Power Prolonger",
@@ -4715,10 +4715,10 @@
  {
   "id": "enhancerbolt-jewel-3",
   "name": "Enhancer/Bolt Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya aumento/rayo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Power Prolonger and Thunder Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"carga prolongada\" y \"ataque de rayo\".",
   "skills": [
    {
     "name": "Power Prolonger",
@@ -4736,10 +4736,10 @@
  {
   "id": "enhancerdragon-jwl-3",
   "name": "Enhancer/Dragon Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya aumento/draco 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Power Prolonger and Dragon Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"carga prolongada\" y \"ataque de draco\".",
   "skills": [
    {
     "name": "Power Prolonger",
@@ -4757,10 +4757,10 @@
  {
   "id": "enhancerhandicraft-jwl-3",
   "name": "Enhancer/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya aumento/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Power Prolonger and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"carga prolongada\" y \"artesanía\".",
   "skills": [
    {
     "name": "Power Prolonger",
@@ -4778,10 +4778,10 @@
  {
   "id": "gambit-jewel-1",
   "name": "Gambit Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya gambito 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Punishing Draw skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"pena inmediata\".",
   "skills": [
    {
     "name": "Punishing Draw",
@@ -4795,10 +4795,10 @@
  {
   "id": "gambit-jewel-ii-2",
   "name": "Gambit Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya gambito II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Punishing Draw skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"pena inmediata\".",
   "skills": [
    {
     "name": "Punishing Draw",
@@ -4812,10 +4812,10 @@
  {
   "id": "gambit-jewel-iii-3",
   "name": "Gambit Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya gambito III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Punishing Draw skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"pena inmediata\".",
   "skills": [
    {
     "name": "Punishing Draw",
@@ -4829,10 +4829,10 @@
  {
   "id": "gambithandicraft-jwl-3",
   "name": "Gambit/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya gambito/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Punishing Draw and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"pena inmediata\" y \"artesanía\".",
   "skills": [
    {
     "name": "Punishing Draw",
@@ -4850,10 +4850,10 @@
  {
   "id": "gambitko-jewel-3",
   "name": "Gambit/KO Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya gambito/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Punishing Draw and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"pena inmediata\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Punishing Draw",
@@ -4871,10 +4871,10 @@
  {
   "id": "gambitironwall-jwl-3",
   "name": "Gambit/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya gambito/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Punishing Draw and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"pena inmediata\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Punishing Draw",
@@ -4892,10 +4892,10 @@
  {
   "id": "ko-jewel-1",
   "name": "KO Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya boxeo 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Slugger skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Slugger",
@@ -4909,10 +4909,10 @@
  {
   "id": "ko-jewel-ii-2",
   "name": "KO Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya boxeo II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Slugger skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Slugger",
@@ -4926,10 +4926,10 @@
  {
   "id": "ko-jewel-iii-3",
   "name": "KO Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya boxeo III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Slugger skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Slugger",
@@ -4943,10 +4943,10 @@
  {
   "id": "drain-jewel-1",
   "name": "Drain Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya débil 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Stamina Thief skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"agotador\".",
   "skills": [
    {
     "name": "Stamina Thief",
@@ -4960,10 +4960,10 @@
  {
   "id": "drain-jewel-ii-2",
   "name": "Drain Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya débil II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Stamina Thief skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"agotador\".",
   "skills": [
    {
     "name": "Stamina Thief",
@@ -4977,10 +4977,10 @@
  {
   "id": "drain-jewel-iii-3",
   "name": "Drain Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya débil III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Stamina Thief skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"agotador\".",
   "skills": [
    {
     "name": "Stamina Thief",
@@ -4994,10 +4994,10 @@
  {
   "id": "artillery-jewel-1",
   "name": "Artillery Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya artillería 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Artillery skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"artillería\".",
   "skills": [
    {
     "name": "Artillery",
@@ -5011,10 +5011,10 @@
  {
   "id": "artillery-jewel-ii-2",
   "name": "Artillery Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya artillería II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Artillery skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"artillería\".",
   "skills": [
    {
     "name": "Artillery",
@@ -5028,10 +5028,10 @@
  {
   "id": "artillery-jewel-iii-3",
   "name": "Artillery Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya artillería III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Artillery skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"artillería\".",
   "skills": [
    {
     "name": "Artillery",
@@ -5045,10 +5045,10 @@
  {
   "id": "quickswitch-jewel-1",
   "name": "Quickswitch Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya mutación 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Rapid Morph skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"mutación rápida\".",
   "skills": [
    {
     "name": "Rapid Morph",
@@ -5062,10 +5062,10 @@
  {
   "id": "quickswitch-jewel-ii-2",
   "name": "Quickswitch Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya mutación II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Rapid Morph skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"mutación rápida\".",
   "skills": [
    {
     "name": "Rapid Morph",
@@ -5079,10 +5079,10 @@
  {
   "id": "quickswitch-jewel-iii-3",
   "name": "Quickswitch Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya mutación III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Rapid Morph skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"mutación rápida\".",
   "skills": [
    {
     "name": "Rapid Morph",
@@ -5096,10 +5096,10 @@
  {
   "id": "quickswitchblaze-jwl-3",
   "name": "Quickswitch/Blaze Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya mutación/fuego 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Rapid Morph and Fire Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"mutación rápida\" y \"ataque de fuego\".",
   "skills": [
    {
     "name": "Rapid Morph",
@@ -5117,10 +5117,10 @@
  {
   "id": "quickswitchstream-jwl-3",
   "name": "Quickswitch/Stream Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya mutación/agua 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Rapid Morph and Water Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"mutación rápida\" y \"ataque de agua\".",
   "skills": [
    {
     "name": "Rapid Morph",
@@ -5138,10 +5138,10 @@
  {
   "id": "quickswitchfrost-jwl-3",
   "name": "Quickswitch/Frost Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya mutación/hielo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Rapid Morph and Ice Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"mutación rápida\" y \"ataque de hielo\".",
   "skills": [
    {
     "name": "Rapid Morph",
@@ -5159,10 +5159,10 @@
  {
   "id": "quickswitchbolt-jwl-3",
   "name": "Quickswitch/Bolt Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya mutación/rayo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Rapid Morph and Thunder Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"mutación rápida\" y \"ataque de rayo\".",
   "skills": [
    {
     "name": "Rapid Morph",
@@ -5180,10 +5180,10 @@
  {
   "id": "quickswitchdragon-jwl-3",
   "name": "Quickswitch/Dragon Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya mutación/draco 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Rapid Morph and Dragon Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"mutación rápida\" y \"ataque de draco\".",
   "skills": [
    {
     "name": "Rapid Morph",
@@ -5201,10 +5201,10 @@
  {
   "id": "quickswitchhandicraft-jwl-3",
   "name": "Quickswitch/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya mutación/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Rapid Morph and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"mutación rápida\" y \"artesanía\".",
   "skills": [
    {
     "name": "Rapid Morph",
@@ -5222,10 +5222,10 @@
  {
   "id": "quickswitchko-jwl-3",
   "name": "Quickswitch/KO Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya mutación/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Rapid Morph and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"mutación rápida\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Rapid Morph",
@@ -5243,10 +5243,10 @@
  {
   "id": "quickswitchironwall-jwl-3",
   "name": "Quickswitch/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya mutación/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Rapid Morph and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"mutación rápida\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Rapid Morph",
@@ -5264,10 +5264,10 @@
  {
   "id": "destroyer-jewel-2",
   "name": "Destroyer Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya destrucción 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Partbreaker skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"rompepartes\".",
   "skills": [
    {
     "name": "Partbreaker",
@@ -5281,10 +5281,10 @@
  {
   "id": "phoenix-jewel-2",
   "name": "Phoenix Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya fénix 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Coalescence skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"coalescencia\".",
   "skills": [
    {
     "name": "Coalescence",
@@ -5298,10 +5298,10 @@
  {
   "id": "ambush-jewel-2",
   "name": "Ambush Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya emboscada 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Ambush skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"emboscada\".",
   "skills": [
    {
     "name": "Ambush",
@@ -5315,10 +5315,10 @@
  {
   "id": "sane-jewel-1",
   "name": "Sane Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya cordura 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Antivirus skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antivirus\".",
   "skills": [
    {
     "name": "Antivirus",
@@ -5332,10 +5332,10 @@
  {
   "id": "sonorous-jewel-2",
   "name": "Sonorous Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya músico 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Horn Maestro skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"as de la cornamusa\".",
   "skills": [
    {
     "name": "Horn Maestro",
@@ -5349,10 +5349,10 @@
  {
   "id": "sonorousattack-jwl-3",
   "name": "Sonorous/Attack Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya músico/ataque 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Horn Maestro and Attack Boost skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"as de la cornamusa\" y \"bonus de ataque\".",
   "skills": [
    {
     "name": "Horn Maestro",
@@ -5370,10 +5370,10 @@
  {
   "id": "sonorousexpert-jwl-3",
   "name": "Sonorous/Expert Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya músico/experto 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Horn Maestro and Critical Eye skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"as de la cornamusa\" y \"ojo crítico\".",
   "skills": [
    {
     "name": "Horn Maestro",
@@ -5391,10 +5391,10 @@
  {
   "id": "sonorousdraw-jwl-3",
   "name": "Sonorous/Draw Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya músico/desenfunde 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Horn Maestro and Critical Draw skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"as de la cornamusa\" y \"desenfunde crítico\".",
   "skills": [
    {
     "name": "Horn Maestro",
@@ -5412,10 +5412,10 @@
  {
   "id": "sonoroushandicraft-jwl-3",
   "name": "Sonorous/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya músico/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Horn Maestro and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"as de la cornamusa\" y \"artesanía\".",
   "skills": [
    {
     "name": "Horn Maestro",
@@ -5433,10 +5433,10 @@
  {
   "id": "sonorousko-jewel-3",
   "name": "Sonorous/KO Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya músico/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Horn Maestro and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"as de la cornamusa\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Horn Maestro",
@@ -5454,10 +5454,10 @@
  {
   "id": "charge-up-jewel-2",
   "name": "Charge Up Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya cargada 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Charge Up skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"más carga\".",
   "skills": [
    {
     "name": "Charge Up",
@@ -5471,10 +5471,10 @@
  {
   "id": "charge-upattack-jwl-3",
   "name": "Charge Up/Attack Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cargada/ataque 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Charge Up and Attack Boost skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"más carga\" y \"bonus de ataque\".",
   "skills": [
    {
     "name": "Charge Up",
@@ -5492,10 +5492,10 @@
  {
   "id": "charge-upexpert-jwl-3",
   "name": "Charge Up/Expert Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cargada/experto 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Charge Up and Critical Eye skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"más carga\" y \"ojo crítico\".",
   "skills": [
    {
     "name": "Charge Up",
@@ -5513,10 +5513,10 @@
  {
   "id": "charge-updraw-jwl-3",
   "name": "Charge Up/Draw Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cargada/desenfunde 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Charge Up and Critical Draw skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"más carga\" y \"desenfunde crítico\".",
   "skills": [
    {
     "name": "Charge Up",
@@ -5534,10 +5534,10 @@
  {
   "id": "charge-uphandicraft-jwl-3",
   "name": "Charge Up/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cargada/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Charge Up and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"más carga\" y \"artesanía\".",
   "skills": [
    {
     "name": "Charge Up",
@@ -5555,10 +5555,10 @@
  {
   "id": "charge-upko-jewel-3",
   "name": "Charge Up/KO Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya cargada/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Charge Up and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"más carga\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Charge Up",
@@ -5576,10 +5576,10 @@
  {
   "id": "flight-jewel-2",
   "name": "Flight Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya vuelo 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Airborne skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bonus ataque en salto\".",
   "skills": [
    {
     "name": "Airborne",
@@ -5593,10 +5593,10 @@
  {
   "id": "flightattack-jwl-3",
   "name": "Flight/Attack Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya vuelo/ataque 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Airborne and Attack Boost skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"bonus ataque en salto\" y \"bonus de ataque\".",
   "skills": [
    {
     "name": "Airborne",
@@ -5614,10 +5614,10 @@
  {
   "id": "flightexpert-jewel-3",
   "name": "Flight/Expert Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya vuelo/experto 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Airborne and Critical Eye skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"bonus ataque en salto\" y \"ojo crítico\".",
   "skills": [
    {
     "name": "Airborne",
@@ -5635,10 +5635,10 @@
  {
   "id": "flightdraw-jewel-3",
   "name": "Flight/Draw Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya vuelo/desenfunde 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Airborne and Critical Draw skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"bonus ataque en salto\" y \"desenfunde crítico\".",
   "skills": [
    {
     "name": "Airborne",
@@ -5656,10 +5656,10 @@
  {
   "id": "flighthandicraft-jwl-3",
   "name": "Flight/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya vuelo/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Airborne and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"bonus ataque en salto\" y \"artesanía\".",
   "skills": [
    {
     "name": "Airborne",
@@ -5677,10 +5677,10 @@
  {
   "id": "growth-jewel-1",
   "name": "Growth Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya crecimiento 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Self-Improvement skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"automejora\".",
   "skills": [
    {
     "name": "Self-Improvement",
@@ -5694,10 +5694,10 @@
  {
   "id": "poison-jewel-2",
   "name": "Poison Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya tóxica 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Poison Duration Up skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"veneno extendido\".",
   "skills": [
    {
     "name": "Poison Duration Up",
@@ -5711,10 +5711,10 @@
  {
   "id": "poisonattack-jewel-3",
   "name": "Poison/Attack Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya tóxica/ataque 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Poison Duration Up and Attack Boost skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"veneno extendido\" y \"bonus de ataque\".",
   "skills": [
    {
     "name": "Poison Duration Up",
@@ -5732,10 +5732,10 @@
  {
   "id": "poisonexpert-jwl-3",
   "name": "Poison/Expert Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya tóxica/experto 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Poison Duration Up and Critical Eye skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"veneno extendido\" y \"ojo crítico\".",
   "skills": [
    {
     "name": "Poison Duration Up",
@@ -5753,10 +5753,10 @@
  {
   "id": "poisondraw-jewel-3",
   "name": "Poison/Draw Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya tóxica/desenfunde 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Poison Duration Up and Critical Draw skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"veneno extendido\" y \"desenfunde crítico\".",
   "skills": [
    {
     "name": "Poison Duration Up",
@@ -5774,10 +5774,10 @@
  {
   "id": "poisonhandicraft-jwl-3",
   "name": "Poison/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya tóxica/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Poison Duration Up and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"veneno extendido\" y \"artesanía\".",
   "skills": [
    {
     "name": "Poison Duration Up",
@@ -5795,10 +5795,10 @@
  {
   "id": "poisonprecise-jwl-3",
   "name": "Poison/Precise Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya tóxica/puntería 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Poison Duration Up and Ballistics skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"veneno extendido\" y \"balística\".",
   "skills": [
    {
     "name": "Poison Duration Up",
@@ -5816,10 +5816,10 @@
  {
   "id": "poisonko-jewel-3",
   "name": "Poison/KO Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya tóxica/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Poison Duration Up and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"veneno extendido\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Poison Duration Up",
@@ -5837,10 +5837,10 @@
  {
   "id": "poisonironwall-jwl-3",
   "name": "Poison/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya tóxica/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Poison Duration Up and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"veneno extendido\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Poison Duration Up",
@@ -5858,10 +5858,10 @@
  {
   "id": "ironwall-jewel-1",
   "name": "Ironwall Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya muro 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Guard skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Guard",
@@ -5875,10 +5875,10 @@
  {
   "id": "ironwall-jewel-ii-2",
   "name": "Ironwall Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya muro II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Guard skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Guard",
@@ -5892,10 +5892,10 @@
  {
   "id": "ironwall-jewel-iii-3",
   "name": "Ironwall Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya muro III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Guard skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Guard",
@@ -5909,10 +5909,10 @@
  {
   "id": "evasion-jewel-2",
   "name": "Evasion Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya evasión 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Evade Window skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"intervalo de evasión\".",
   "skills": [
    {
     "name": "Evade Window",
@@ -5926,10 +5926,10 @@
  {
   "id": "jumping-jewel-2",
   "name": "Jumping Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya salto 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Evade Extender skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"distancia evasiva\".",
   "skills": [
    {
     "name": "Evade Extender",
@@ -5943,10 +5943,10 @@
  {
   "id": "earplugs-jewel-2",
   "name": "Earplugs Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya tapones 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Earplugs skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antirrugidos\".",
   "skills": [
    {
     "name": "Earplugs",
@@ -5960,10 +5960,10 @@
  {
   "id": "shield-jewel-1",
   "name": "Shield Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya escudo 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Guard Up skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"escudo\".",
   "skills": [
    {
     "name": "Guard Up",
@@ -5977,10 +5977,10 @@
  {
   "id": "shield-jewel-ii-2",
   "name": "Shield Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya escudo II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Guard Up skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"escudo\".",
   "skills": [
    {
     "name": "Guard Up",
@@ -5994,10 +5994,10 @@
  {
   "id": "shield-jewel-iii-3",
   "name": "Shield Jewel III [3]",
-  "nameEs": "",
+  "nameEs": "Joya escudo III 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Guard Up skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"escudo\".",
   "skills": [
    {
     "name": "Guard Up",
@@ -6011,10 +6011,10 @@
  {
   "id": "shieldblaze-jewel-3",
   "name": "Shield/Blaze Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya escudo/fuego 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Guard Up and Fire Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"escudo\" y \"ataque de fuego\".",
   "skills": [
    {
     "name": "Guard Up",
@@ -6032,10 +6032,10 @@
  {
   "id": "shieldstream-jewel-3",
   "name": "Shield/Stream Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya escudo/agua 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Guard Up and Water Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"escudo\" y \"ataque de agua\".",
   "skills": [
    {
     "name": "Guard Up",
@@ -6053,10 +6053,10 @@
  {
   "id": "shieldfrost-jewel-3",
   "name": "Shield/Frost Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya escudo/hielo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Guard Up and Ice Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"escudo\" y \"ataque de hielo\".",
   "skills": [
    {
     "name": "Guard Up",
@@ -6074,10 +6074,10 @@
  {
   "id": "shieldbolt-jewel-3",
   "name": "Shield/Bolt Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya escudo/rayo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Guard Up and Thunder Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"escudo\" y \"ataque de rayo\".",
   "skills": [
    {
     "name": "Guard Up",
@@ -6095,10 +6095,10 @@
  {
   "id": "shielddragon-jwl-3",
   "name": "Shield/Dragon Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya escudo/draco 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Guard Up and Dragon Attack skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"escudo\" y \"ataque de draco\".",
   "skills": [
    {
     "name": "Guard Up",
@@ -6116,10 +6116,10 @@
  {
   "id": "shieldhandicraft-jwl-3",
   "name": "Shield/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya escudo/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Guard Up and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"escudo\" y \"artesanía\".",
   "skills": [
    {
     "name": "Guard Up",
@@ -6137,10 +6137,10 @@
  {
   "id": "shieldironwall-jwl-3",
   "name": "Shield/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya escudo/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Guard Up and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"escudo\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Guard Up",
@@ -6158,10 +6158,10 @@
  {
   "id": "sheath-jewel-1",
   "name": "Sheath Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya envainado 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Quick Sheathe skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"envainado veloz\".",
   "skills": [
    {
     "name": "Quick Sheathe",
@@ -6175,10 +6175,10 @@
  {
   "id": "wind-resist-jewel-1",
   "name": "Wind Resist Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya antiviento 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Windproof skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antiviento\".",
   "skills": [
    {
     "name": "Windproof",
@@ -6192,10 +6192,10 @@
  {
   "id": "footing-jewel-1",
   "name": "Footing Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya firmeza 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Tremor Resistance skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"antitemblores\".",
   "skills": [
    {
     "name": "Tremor Resistance",
@@ -6209,10 +6209,10 @@
  {
   "id": "brace-jewel-1",
   "name": "Brace Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya tenaz 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Flinch Free skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"firmeza\".",
   "skills": [
    {
     "name": "Flinch Free",
@@ -6226,10 +6226,10 @@
  {
   "id": "intimidator-jewel-1",
   "name": "Intimidator Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya intimidante 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Intimidator skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"intimidador\".",
   "skills": [
    {
     "name": "Intimidator",
@@ -6243,10 +6243,10 @@
  {
   "id": "gobbler-jewel-1",
   "name": "Gobbler Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya tragón 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Speed Eating skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"ingesta rápida\".",
   "skills": [
    {
     "name": "Speed Eating",
@@ -6260,10 +6260,10 @@
  {
   "id": "magazine-jewel-1",
   "name": "Magazine Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya cargador 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Load Shells skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"cargar arma\".",
   "skills": [
    {
     "name": "Load Shells",
@@ -6277,10 +6277,10 @@
  {
   "id": "magazine-jewel-ii-2",
   "name": "Magazine Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya cargador II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Load Shells skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"cargar arma\".",
   "skills": [
    {
     "name": "Load Shells",
@@ -6294,10 +6294,10 @@
  {
   "id": "magazineattack-jwl-3",
   "name": "Magazine/Attack Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cargador/ataque 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Load Shells and Attack Boost skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"cargar arma\" y \"bonus de ataque\".",
   "skills": [
    {
     "name": "Load Shells",
@@ -6315,10 +6315,10 @@
  {
   "id": "magazineexpert-jwl-3",
   "name": "Magazine/Expert Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cargador/experto 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Load Shells and Critical Eye skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"cargar arma\" y \"ojo crítico\".",
   "skills": [
    {
     "name": "Load Shells",
@@ -6336,10 +6336,10 @@
  {
   "id": "magazinedraw-jwl-3",
   "name": "Magazine/Draw Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cargador/desenfunde 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Load Shells and Critical Draw skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"cargar arma\" y \"desenfunde crítico\".",
   "skills": [
    {
     "name": "Load Shells",
@@ -6357,10 +6357,10 @@
  {
   "id": "magazinehandicraft-jwl-3",
   "name": "Magazine/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cargador/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Load Shells and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"cargar arma\" y \"artesanía\".",
   "skills": [
    {
     "name": "Load Shells",
@@ -6378,10 +6378,10 @@
  {
   "id": "magazineironwall-jwl-3",
   "name": "Magazine/Ironwall Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya cargador/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Load Shells and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"cargar arma\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Load Shells",
@@ -6399,10 +6399,10 @@
  {
   "id": "mirewalker-jewel-1",
   "name": "Mirewalker Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya lodazal 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Aquatic/Oilsilt Mobility skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"movilidad por agua/fango\".",
   "skills": [
    {
     "name": "Aquatic/Oilsilt Mobility",
@@ -6416,10 +6416,10 @@
  {
   "id": "shockproof-jewel-1",
   "name": "Shockproof Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya amortiguación 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Shock Absorber skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"amortiguador\".",
   "skills": [
    {
     "name": "Shock Absorber",
@@ -6433,10 +6433,10 @@
  {
   "id": "dive-jewel-1",
   "name": "Dive Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya inmersión 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Leap of Faith skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"mejora de salto\".",
   "skills": [
    {
     "name": "Leap of Faith",
@@ -6450,10 +6450,10 @@
  {
   "id": "leap-jewel-1",
   "name": "Leap Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya brinco 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Jump Master skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"experto en salto\".",
   "skills": [
    {
     "name": "Jump Master",
@@ -6467,10 +6467,10 @@
  {
   "id": "climber-jewel-1",
   "name": "Climber Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya escalada 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Cliffhanger skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"experto en trepar\".",
   "skills": [
    {
     "name": "Cliffhanger",
@@ -6484,10 +6484,10 @@
  {
   "id": "friendship-jewel-1",
   "name": "Friendship Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya amistad 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Wide-Range skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"efecto área\".",
   "skills": [
    {
     "name": "Wide-Range",
@@ -6501,10 +6501,10 @@
  {
   "id": "maintenance-jewel-2",
   "name": "Maintenance Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya reparadora 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Tool Specialist skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"experto en herramientas\".",
   "skills": [
    {
     "name": "Tool Specialist",
@@ -6518,10 +6518,10 @@
  {
   "id": "bomber-jewel-1",
   "name": "Bomber Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya bombardera 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Bombardier skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"bombardero\".",
   "skills": [
    {
     "name": "Bombardier",
@@ -6535,10 +6535,10 @@
  {
   "id": "fungiform-jewel-2",
   "name": "Fungiform Jewel [2]",
-  "nameEs": "",
+  "nameEs": "Joya micótica 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Mushroomancer skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"micología\".",
   "skills": [
    {
     "name": "Mushroomancer",
@@ -6552,10 +6552,10 @@
  {
   "id": "enduring-jewel-1",
   "name": "Enduring Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya impasible 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Item Prolonger skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"duración de objetos\".",
   "skills": [
    {
     "name": "Item Prolonger",
@@ -6569,10 +6569,10 @@
  {
   "id": "satiated-jewel-1",
   "name": "Satiated Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya saciante 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Free Meal skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"comida gratis\".",
   "skills": [
    {
     "name": "Free Meal",
@@ -6586,10 +6586,10 @@
  {
   "id": "grinder-jewel-1",
   "name": "Grinder Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya afiladora 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Speed Sharpening skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"afilado rápido\".",
   "skills": [
    {
     "name": "Speed Sharpening",
@@ -6603,10 +6603,10 @@
  {
   "id": "grinder-jewel-ii-2",
   "name": "Grinder Jewel II [2]",
-  "nameEs": "",
+  "nameEs": "Joya afiladora II 2",
   "slotLevel": 2,
   "description": "A decoration that grants the Speed Sharpening skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"afilado rápido\".",
   "skills": [
    {
     "name": "Speed Sharpening",
@@ -6620,10 +6620,10 @@
  {
   "id": "grinderattack-jewel-3",
   "name": "Grinder/Attack Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya afiladora/ataque 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Speed Sharpening and Attack Boost skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"afilado rápido\" y \"bonus de ataque\".",
   "skills": [
    {
     "name": "Speed Sharpening",
@@ -6641,10 +6641,10 @@
  {
   "id": "grinderexpert-jewel-3",
   "name": "Grinder/Expert Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya afiladora/experto 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Speed Sharpening and Critical Eye skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"afilado rápido\" y \"ojo crítico\".",
   "skills": [
    {
     "name": "Speed Sharpening",
@@ -6662,10 +6662,10 @@
  {
   "id": "grinderdraw-jewel-3",
   "name": "Grinder/Draw Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya afiladora/desenfunde 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Speed Sharpening and Critical Draw skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"afilado rápido\" y \"desenfunde crítico\".",
   "skills": [
    {
     "name": "Speed Sharpening",
@@ -6683,10 +6683,10 @@
  {
   "id": "grinderhandicraft-jwl-3",
   "name": "Grinder/Handicraft Jwl [3]",
-  "nameEs": "",
+  "nameEs": "Joya afiladora/artesana 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Speed Sharpening and Handicraft skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"afilado rápido\" y \"artesanía\".",
   "skills": [
    {
     "name": "Speed Sharpening",
@@ -6704,10 +6704,10 @@
  {
   "id": "grinderko-jewel-3",
   "name": "Grinder/KO Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya afiladora/boxeo 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Speed Sharpening and Slugger skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"afilado rápido\" y \"as del aturdimiento\".",
   "skills": [
    {
     "name": "Speed Sharpening",
@@ -6725,10 +6725,10 @@
  {
   "id": "grinderironwall-jewel-3",
   "name": "Grinder/Ironwall Jewel [3]",
-  "nameEs": "",
+  "nameEs": "Joya afiladora/muro 3",
   "slotLevel": 3,
   "description": "A decoration that grants the Speed Sharpening and Guard skills.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga las habilidades \"afilado rápido\" y \"bloqueo mejorado\".",
   "skills": [
    {
     "name": "Speed Sharpening",
@@ -6746,10 +6746,10 @@
  {
   "id": "flash-jewel-1",
   "name": "Flash Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya luz 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Blindsider skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"mejora al deslumbrar\".",
   "skills": [
    {
     "name": "Blindsider",
@@ -6763,10 +6763,10 @@
  {
   "id": "botany-jewel-1",
   "name": "Botany Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya botánica 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Botanist skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"botánica\".",
   "skills": [
    {
     "name": "Botanist",
@@ -6780,10 +6780,10 @@
  {
   "id": "geology-jewel-1",
   "name": "Geology Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya geológica 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Geologist skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"geología\".",
   "skills": [
    {
     "name": "Geologist",
@@ -6797,10 +6797,10 @@
  {
   "id": "specimen-jewel-1",
   "name": "Specimen Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya espécimen 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Entomologist skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"entomología\".",
   "skills": [
    {
     "name": "Entomologist",
@@ -6814,10 +6814,10 @@
  {
   "id": "ranger-jewel-1",
   "name": "Ranger Jewel [1]",
-  "nameEs": "",
+  "nameEs": "Joya explorador 1",
   "slotLevel": 1,
   "description": "A decoration that grants the Outdoorsman skill.",
-  "descriptionEs": "",
+  "descriptionEs": "Adorno que otorga la habilidad \"autosuficiente\".",
   "skills": [
    {
     "name": "Outdoorsman",

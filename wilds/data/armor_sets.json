@@ -861,7 +861,8 @@
    2,
    1
   ],
-  "localImage": "data/images/armor_sets_full/dahaad-gamma-set.png"
+  "localImage": "data/images/armor_sets_full/dahaad-gamma-set.png",
+  "nameEs": "Dahaad γ Set"
  },
  {
   "name": "Gogmazios α Set",
@@ -1105,7 +1106,8 @@
     "material": "Wartorn Dragongem",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Gogmazios α Set"
  },
  {
   "name": "Gogmazios β Set",
@@ -1351,7 +1353,8 @@
     "material": "Wartorn Dragongem",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Gogmazios β Set"
  },
  {
   "name": "Harvest α Set",
@@ -1542,7 +1545,8 @@
     "material": "Hunter Symbol I",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Cosecha α Set"
  },
  {
   "name": "Dreamwalker α Set",
@@ -1725,7 +1729,8 @@
     "material": "Hunter Symbol I",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Cabalgasueños α Set"
  },
  {
   "name": "Gelidron α Set",
@@ -1827,7 +1832,8 @@
     "material": "Hunter Symbol III",
     "qty": 2
    }
-  ]
+  ],
+  "nameEs": "Gelidron α Set"
  },
  {
   "name": "Bale α Set",
@@ -2127,7 +2133,8 @@
    1,
    1
   ],
-  "localImage": "data/images/armor_sets_full/nu-udra-gamma-set.png"
+  "localImage": "data/images/armor_sets_full/nu-udra-gamma-set.png",
+  "nameEs": "Nu Udra γ Set"
  },
  {
   "name": "Akuma α Set",
@@ -2248,7 +2255,8 @@
     "material": "SF6 Ticket",
     "qty": 15
    }
-  ]
+  ],
+  "nameEs": "Akuma α Set"
  },
  {
   "name": "Omega Attire α Set",
@@ -2496,7 +2504,8 @@
     "material": "Omega Data 2.0",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Atuendo Omega α Set"
  },
  {
   "name": "Diver α Set",
@@ -2679,7 +2688,8 @@
     "material": "Hunter Symbol I",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Buceo α Set"
  },
  {
   "name": "Afi α Set",
@@ -2825,7 +2835,8 @@
     "material": "Hunter Symbol I",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Afi α Set"
  },
  {
   "name": "Lagiacrus α Set",
@@ -3056,7 +3067,8 @@
     "material": "Lagiacrus Sapphire",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Lagiacrus α Set"
  },
  {
   "name": "Lagiacrus β Set",
@@ -3278,7 +3290,8 @@
     "material": "Lagiacrus Sapphire",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Lagiacrus β Set"
  },
  {
   "name": "Seregios α Set",
@@ -3491,7 +3504,8 @@
     "material": "Hunter Symbol III",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Seregios α Set"
  },
  {
   "name": "Seregios β Set",
@@ -3710,7 +3724,8 @@
     "material": "Hunter Symbol III",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Seregios β Set"
  },
  {
   "name": "Blossom α Set",
@@ -3920,7 +3935,8 @@
     "material": "Hunter Symbol I",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Flores α Set"
  },
  {
   "name": "Ceremonial α Set",
@@ -4073,7 +4089,8 @@
     "material": "Hunter Symbol I",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Ceremonial α Set"
  },
  {
   "name": "Ajarakan α Set",
@@ -4250,7 +4267,8 @@
     "material": "Ajarakan Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Ajarakan α Set"
  },
  {
   "name": "Ajarakan β Set",
@@ -4440,7 +4458,8 @@
     "material": "Ajarakan Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Ajarakan β Set"
  },
  {
   "name": "Alloy α Set",
@@ -4603,7 +4622,8 @@
     "material": "Earth Crystal",
     "qty": 2
    }
-  ]
+  ],
+  "nameEs": "Aleación α Set"
  },
  {
   "name": "Arkveld α Set",
@@ -4814,7 +4834,8 @@
     "material": "Hunter Symbol III",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Arkveld α Set"
  },
  {
   "name": "Arkveld β Set",
@@ -5036,7 +5057,8 @@
     "material": "Hunter Symbol III",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Arkveld β Set"
  },
  {
   "name": "Artian α Set",
@@ -5258,7 +5280,8 @@
     "material": "Gracium",
     "qty": 15
    }
-  ]
+  ],
+  "nameEs": "Artiano α Set"
  },
  {
   "name": "Azuz α Set",
@@ -5402,7 +5425,8 @@
     "material": "Hunter Symbol II",
     "qty": 3
    }
-  ]
+  ],
+  "nameEs": "Azuz α Set"
  },
  {
   "name": "Balahara α Set",
@@ -5578,7 +5602,8 @@
     "material": "Balahara Black Pearl",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Balahara α Set"
  },
  {
   "name": "Balahara β Set",
@@ -5766,7 +5791,8 @@
     "material": "Balahara Black Pearl",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Balahara β Set"
  },
  {
   "name": "Battle α Set",
@@ -5983,7 +6009,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Combate α Set"
  },
  {
   "name": "Blango α Set",
@@ -6198,7 +6225,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Blangonga α Set"
  },
  {
   "name": "Blango β Set",
@@ -6410,7 +6438,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Blangonga β Set"
  },
  {
   "name": "Bone α Set",
@@ -6565,7 +6594,8 @@
     "material": "Mystery Bone",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Hueso α Set"
  },
  {
   "name": "Bulaqchi α Set",
@@ -6631,7 +6661,8 @@
     "material": "Bulaqchi Shell",
     "qty": 2
    }
-  ]
+  ],
+  "nameEs": "Bulaqchi α Set"
  },
  {
   "name": "Bulaqchi β Set",
@@ -6691,7 +6722,8 @@
     "material": "Bulaqchi Shell",
     "qty": 2
    }
-  ]
+  ],
+  "nameEs": "Bulaqchi β Set"
  },
  {
   "name": "Butterfly α Set",
@@ -6876,7 +6908,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Mariposa α Set"
  },
  {
   "name": "Chainmail α Set",
@@ -7025,7 +7058,8 @@
    1,
    1
   ],
-  "localImage": "data/images/armor_sets_full/chainmail-alpha-set.png"
+  "localImage": "data/images/armor_sets_full/chainmail-alpha-set.png",
+  "nameEs": "Malla α Set"
  },
  {
   "name": "Chatacabra α Set",
@@ -7198,7 +7232,8 @@
     "material": "Chatacabra Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Chatacabra α Set"
  },
  {
   "name": "Chatacabra β Set",
@@ -7388,7 +7423,8 @@
     "material": "Chatacabra Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Chatacabra β Set"
  },
  {
   "name": "Clerk α Set",
@@ -7605,7 +7641,8 @@
     "material": "Rathian Coin",
     "qty": 25
    }
-  ]
+  ],
+  "nameEs": "Ayudante α Set"
  },
  {
   "name": "Comaqchi α Set",
@@ -7657,7 +7694,8 @@
     "material": "Comaqchi Shell",
     "qty": 2
    }
-  ]
+  ],
+  "nameEs": "Comaqchi α Set"
  },
  {
   "name": "Comaqchi β Set",
@@ -7717,7 +7755,8 @@
     "material": "Comaqchi Shell",
     "qty": 2
    }
-  ]
+  ],
+  "nameEs": "Comaqchi β Set"
  },
  {
   "name": "Commission α Set",
@@ -7934,7 +7973,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Comisión α Set"
  },
  {
   "name": "Conga α Set",
@@ -8111,7 +8151,8 @@
     "material": "Conga Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Congalala α Set"
  },
  {
   "name": "Conga β Set",
@@ -8290,7 +8331,8 @@
     "material": "Conga Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Congalala β Set"
  },
  {
   "name": "Dahaad α Set",
@@ -8513,7 +8555,8 @@
     "material": "Hunter Symbol III",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Dahaad α Set"
  },
  {
   "name": "Dahaad β Set",
@@ -8746,7 +8789,8 @@
     "material": "Hunter Symbol III",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Dahaad β Set"
  },
  {
   "name": "Damascus α Set",
@@ -8971,7 +9015,8 @@
     "material": "Hunter Symbol III",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Damasco α Set"
  },
  {
   "name": "Death Stench α Set",
@@ -9166,7 +9211,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Pestilente α Set"
  },
  {
   "name": "Dober α Set",
@@ -9392,7 +9438,8 @@
     "material": "Hunter Symbol III",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Dober α Set"
  },
  {
   "name": "Doshaguma α Set",
@@ -9591,7 +9638,8 @@
     "material": "Doshaguma Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Doshaguma α Set"
  },
  {
   "name": "Doshaguma β Set",
@@ -9800,7 +9848,8 @@
     "material": "Doshaguma Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Doshaguma β Set"
  },
  {
   "name": "Dragonking α Set",
@@ -9872,7 +9921,8 @@
     "material": "Hunter Symbol III",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Rey dragón α Set"
  },
  {
   "name": "Expedition Headgear α Set",
@@ -9943,7 +9993,8 @@
     "material": "Hunter Symbol I",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Casco de expedición α Set"
  },
  {
   "name": "Gajau α Set",
@@ -9996,7 +10047,8 @@
     "material": "Gajau Hide",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Gajau α Set"
  },
  {
   "name": "Gore α Set",
@@ -10222,7 +10274,8 @@
     "material": "Hunter Symbol III",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Gore α Set"
  },
  {
   "name": "Gore β Set",
@@ -10457,7 +10510,8 @@
     "material": "Hunter Symbol III",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Gore β Set"
  },
  {
   "name": "Gravios α Set",
@@ -10679,7 +10733,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Gravios α Set"
  },
  {
   "name": "Gravios β Set",
@@ -10904,7 +10959,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Gravios β Set"
  },
  {
   "name": "Guardian Arkveld α Set",
@@ -11080,7 +11136,8 @@
     "material": "Guardian Pelt",
     "qty": 3
    }
-  ]
+  ],
+  "nameEs": "Arkveld Guardián α Set"
  },
  {
   "name": "Guardian Arkveld β Set",
@@ -11288,7 +11345,8 @@
     "material": "Guardian Pelt",
     "qty": 3
    }
-  ]
+  ],
+  "nameEs": "Arkveld Guardián β Set"
  },
  {
   "name": "Guardian Doshaguma α Set",
@@ -11481,7 +11539,8 @@
     "material": "Guardian Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Doshaguma Guardián α Set"
  },
  {
   "name": "Guardian Doshaguma β Set",
@@ -11667,7 +11726,8 @@
     "material": "Guardian Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Doshaguma Guardián β Set"
  },
  {
   "name": "Guardian Ebony α Set",
@@ -11840,7 +11900,8 @@
     "material": "G. Ebony Odogaron Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Ébano Guardián α Set"
  },
  {
   "name": "Guardian Ebony β Set",
@@ -12025,7 +12086,8 @@
     "material": "G. Ebony Odogaron Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Ébano Guardián β Set"
  },
  {
   "name": "Guardian Fulgur α Set",
@@ -12233,7 +12295,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Fulgúreo Guardián α Set"
  },
  {
   "name": "Guardian Fulgur β Set",
@@ -12457,7 +12520,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Fulgúreo Guardián β Set"
  },
  {
   "name": "Guardian Rathalos α Set",
@@ -12644,7 +12708,8 @@
     "material": "Guardian Rathalos Plate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Rathalos Guardián α Set"
  },
  {
   "name": "Guardian Rathalos β Set",
@@ -12832,7 +12897,8 @@
     "material": "Guardian Rathalos Plate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Rathalos Guardián β Set"
  },
  {
   "name": "Guardian Seikret α Set",
@@ -12882,7 +12948,8 @@
     "material": "Tough Guardian Bone",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Seikret Guardián α Set"
  },
  {
   "name": "Guardian Seikret β Set",
@@ -12935,7 +13002,8 @@
     "material": "Tough Guardian Bone",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Seikret Guardián β Set"
  },
  {
   "name": "Guild Ace α Set",
@@ -13120,7 +13188,8 @@
     "material": "Hunter Symbol III",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "As gremial α Set"
  },
  {
   "name": "Guild Cross α Set",
@@ -13327,7 +13396,8 @@
     "material": "Chata Coin",
     "qty": 25
    }
-  ]
+  ],
+  "nameEs": "Cruz gremial α Set"
  },
  {
   "name": "Gypceros α Set",
@@ -13524,7 +13594,8 @@
     "material": "Hunter Symbol I",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Gypceros α Set"
  },
  {
   "name": "Gypceros β Set",
@@ -13719,7 +13790,8 @@
     "material": "Hunter Symbol I",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Gypceros β Set"
  },
  {
   "name": "High Metal α Set",
@@ -13924,7 +13996,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Megametal α Set"
  },
  {
   "name": "Hirabami α Set",
@@ -14093,7 +14166,8 @@
     "material": "Frost Sac",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Hirabami α Set"
  },
  {
   "name": "Hirabami β Set",
@@ -14272,7 +14346,8 @@
     "material": "Frost Sac",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Hirabami β Set"
  },
  {
   "name": "Hope α Set",
@@ -14429,7 +14504,8 @@
    1,
    1
   ],
-  "localImage": "data/images/armor_sets_full/hope-alpha-set.png"
+  "localImage": "data/images/armor_sets_full/hope-alpha-set.png",
+  "nameEs": "Esperanza α Set"
  },
  {
   "name": "Ingot α Set",
@@ -14607,7 +14683,8 @@
     "material": "Firestone",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Lingotes α Set"
  },
  {
   "name": "King Beetle α Set",
@@ -14800,7 +14877,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Rey escarabajo α Set"
  },
  {
   "name": "Kranodath α Set",
@@ -14846,7 +14924,8 @@
     "material": "Charred Oilbone",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Kranodath α Set"
  },
  {
   "name": "Kranodath β Set",
@@ -14897,7 +14976,8 @@
     "material": "Charred Oilbone",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Kranodath β Set"
  },
  {
   "name": "Kunafa α Set",
@@ -15055,7 +15135,8 @@
     "material": "Hunter Symbol II",
     "qty": 4
    }
-  ]
+  ],
+  "nameEs": "Kunafa α Set"
  },
  {
   "name": "Kut-Ku α Set",
@@ -15252,7 +15333,8 @@
     "material": "Hunter Symbol I",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Kut-Ku α Set"
  },
  {
   "name": "Kut-Ku β Set",
@@ -15457,7 +15539,8 @@
     "material": "Hunter Symbol I",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Kut-Ku β Set"
  },
  {
   "name": "Lala Barina α Set",
@@ -15622,7 +15705,8 @@
     "material": "Lala Barina Mucus",
     "qty": 3
    }
-  ]
+  ],
+  "nameEs": "Lala Barina α Set"
  },
  {
   "name": "Lala Barina β Set",
@@ -15815,7 +15899,8 @@
     "material": "Lala Barina Mucus",
     "qty": 3
    }
-  ]
+  ],
+  "nameEs": "Lala Barina β Set"
  },
  {
   "name": "Leather α Set",
@@ -15961,7 +16046,8 @@
    1,
    1
   ],
-  "localImage": "data/images/armor_sets_full/leather-alpha-set.png"
+  "localImage": "data/images/armor_sets_full/leather-alpha-set.png",
+  "nameEs": "Cuero α Set"
  },
  {
   "name": "Melahoa α Set",
@@ -16174,7 +16260,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Melahoa α Set"
  },
  {
   "name": "Mimiphyta α Set",
@@ -16259,7 +16346,8 @@
     "material": "Hunter Symbol I",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Mimifita α Set"
  },
  {
   "name": "Mizutsune α Set",
@@ -16479,7 +16567,8 @@
     "material": "Mizutsune Water Orb",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Mizutsune α Set"
  },
  {
   "name": "Mizutsune β Set",
@@ -16704,7 +16793,8 @@
     "material": "Mizutsune Water Orb",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Mizutsune β Set"
  },
  {
   "name": "Nerscylla α Set",
@@ -16877,7 +16967,8 @@
     "material": "Sleep Sac",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Nerscylla α Set"
  },
  {
   "name": "Nerscylla β Set",
@@ -17062,7 +17153,8 @@
     "material": "Sleep Sac",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Nerscylla β Set"
  },
  {
   "name": "Numinous α Set",
@@ -17286,7 +17378,8 @@
     "material": "Faux Whitegleam Orb",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Espiritual α Set"
  },
  {
   "name": "Numinous β Set",
@@ -17520,7 +17613,8 @@
     "material": "Faux Whitegleam Orb",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Espiritual β Set"
  },
  {
   "name": "Nu Udra α Set",
@@ -17731,7 +17825,8 @@
     "material": "Guardian Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Nu Udra α Set"
  },
  {
   "name": "Nu Udra β Set",
@@ -17951,7 +18046,8 @@
     "material": "Guardian Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Nu Udra β Set"
  },
  {
   "name": "Piragill α Set",
@@ -17997,7 +18093,8 @@
     "material": "Piragill Fin",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Piragill α Set"
  },
  {
   "name": "Piragill β Set",
@@ -18048,7 +18145,8 @@
     "material": "Piragill Fin",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Piragill β Set"
  },
  {
   "name": "Quematrice α Set",
@@ -18224,7 +18322,8 @@
     "material": "Quematrice Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Quematrice α Set"
  },
  {
   "name": "Quematrice β Set",
@@ -18406,7 +18505,8 @@
     "material": "Quematrice Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Quematrice β Set"
  },
  {
   "name": "Rathalos α Set",
@@ -18613,7 +18713,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Rathalos α Set"
  },
  {
   "name": "Rathalos β Set",
@@ -18836,7 +18937,8 @@
     "material": "Hunter Symbol II",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Rathalos β Set"
  },
  {
   "name": "Rathian α Set",
@@ -19025,7 +19127,8 @@
     "material": "Hunter Symbol I",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Rathian α Set"
  },
  {
   "name": "Rathian β Set",
@@ -19231,7 +19334,8 @@
     "material": "Hunter Symbol I",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Rathian β Set"
  },
  {
   "name": "Rey Dau α Set",
@@ -19435,7 +19539,8 @@
     "material": "Guardian Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Rey Dau α Set"
  },
  {
   "name": "Rey Dau β Set",
@@ -19655,7 +19760,8 @@
     "material": "Guardian Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Rey Dau β Set"
  },
  {
   "name": "Rey Dau Gamma Set",
@@ -19818,7 +19924,8 @@
    3,
    1
   ],
-  "localImage": "data/images/armor_sets_full/rey-dau-gamma-set.png"
+  "localImage": "data/images/armor_sets_full/rey-dau-gamma-set.png",
+  "nameEs": "Rey Dau γ Set"
  },
  {
   "name": "Rompopolo α Set",
@@ -19994,7 +20101,8 @@
     "material": "Poison Sac",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Rompopolo α Set"
  },
  {
   "name": "Rompopolo β Set",
@@ -20178,7 +20286,8 @@
     "material": "Poison Sac",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Rompopolo β Set"
  },
  {
   "name": "Sild α Set",
@@ -20284,7 +20393,8 @@
     "material": "Hunter Symbol II",
     "qty": 2
    }
-  ]
+  ],
+  "nameEs": "Sild α Set"
  },
  {
   "name": "Suja α Set",
@@ -20358,7 +20468,8 @@
     "material": "Hunter Symbol II",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Suja α Set"
  },
  {
   "name": "Talioth α Set",
@@ -20404,7 +20515,8 @@
     "material": "Sharp Fang",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Talioth α Set"
  },
  {
   "name": "Talioth β Set",
@@ -20458,7 +20570,8 @@
     "material": "Sharp Fang",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Talioth β Set"
  },
  {
   "name": "Uth Duna α Set",
@@ -20668,7 +20781,8 @@
     "material": "Guardian Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Uth Duna α Set"
  },
  {
   "name": "Uth Duna β Set",
@@ -20882,7 +20996,8 @@
     "material": "Guardian Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Uth Duna β Set"
  },
  {
   "name": "Vespoid α Set",
@@ -21046,7 +21161,8 @@
     "material": "Vespoid Wing",
     "qty": 2
    }
-  ]
+  ],
+  "nameEs": "Vespoid α Set"
  },
  {
   "name": "Vespoid β Set",
@@ -21214,7 +21330,8 @@
     "material": "Vespoid Wing",
     "qty": 2
    }
-  ]
+  ],
+  "nameEs": "Vespoid β Set"
  },
  {
   "name": "Xu Wu α Set",
@@ -21401,7 +21518,8 @@
     "material": "Tough Guardian Bone",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Xu Wu α Set"
  },
  {
   "name": "Xu Wu β Set",
@@ -21602,7 +21720,8 @@
     "material": "Tough Guardian Bone",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Xu Wu β Set"
  },
  {
   "name": "Ajarakan Set",
@@ -21762,7 +21881,8 @@
     "material": "Ajarakan Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Ajarakan Set"
  },
  {
   "name": "Alloy Set",
@@ -21890,7 +22010,8 @@
     "material": "Earth Crystal",
     "qty": 2
    }
-  ]
+  ],
+  "nameEs": "Aleación Set"
  },
  {
   "name": "Balahara Set",
@@ -22042,7 +22163,8 @@
     "material": "Balahara Black Pearl",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Balahara Set"
  },
  {
   "name": "Bone Set",
@@ -22162,7 +22284,8 @@
     "material": "Mystery Bone",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Hueso Set"
  },
  {
   "name": "Bulaqchi Set",
@@ -22214,7 +22337,8 @@
     "material": "Bulaqchi Shell",
     "qty": 2
    }
-  ]
+  ],
+  "nameEs": "Bulaqchi Set"
  },
  {
   "name": "Chainmail Set",
@@ -22328,7 +22452,8 @@
    "dragon": 0
   },
   "decoSlots": [],
-  "localImage": "data/images/armor_sets_full/chainmail-set.png"
+  "localImage": "data/images/armor_sets_full/chainmail-set.png",
+  "nameEs": "Malla Set"
  },
  {
   "name": "Chatacabra Set",
@@ -22472,7 +22597,8 @@
     "material": "Chatacabra Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Chatacabra Set"
  },
  {
   "name": "Comaqchi Set",
@@ -22524,7 +22650,8 @@
     "material": "Comaqchi Shell",
     "qty": 2
    }
-  ]
+  ],
+  "nameEs": "Comaqchi Set"
  },
  {
   "name": "Conga Set",
@@ -22668,7 +22795,8 @@
     "material": "Conga Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Congalala Set"
  },
  {
   "name": "Doshaguma Set",
@@ -22816,7 +22944,8 @@
     "material": "Doshaguma Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Doshaguma Set"
  },
  {
   "name": "Gajau Set",
@@ -22858,7 +22987,8 @@
     "material": "Gajau Hide",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Gajau Set"
  },
  {
   "name": "Guardian Arkveld Set",
@@ -23024,7 +23154,8 @@
     "material": "Guardian Pelt",
     "qty": 3
    }
-  ]
+  ],
+  "nameEs": "Arkveld Guardián Set"
  },
  {
   "name": "Guardian Doshaguma Set",
@@ -23185,7 +23316,8 @@
     "material": "Guardian Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Doshaguma Guardián Set"
  },
  {
   "name": "Guardian Ebony Set",
@@ -23346,7 +23478,8 @@
     "material": "G. Ebony Odogaron Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Ébano Guardián Set"
  },
  {
   "name": "Guardian Rathalos Set",
@@ -23507,7 +23640,8 @@
     "material": "Guardian Rathalos Plate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Rathalos Guardián Set"
  },
  {
   "name": "Guardian Seikret Set",
@@ -23558,7 +23692,8 @@
     "material": "Tough Guardian Bone",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Seikret Guardián Set"
  },
  {
   "name": "Hirabami Set",
@@ -23710,7 +23845,8 @@
     "material": "Frost Sac",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Hirabami Set"
  },
  {
   "name": "Hope Set",
@@ -23824,7 +23960,8 @@
    "dragon": 0
   },
   "decoSlots": [],
-  "localImage": "data/images/armor_sets_full/hope-set.png"
+  "localImage": "data/images/armor_sets_full/hope-set.png",
+  "nameEs": "Esperanza Set"
  },
  {
   "name": "Ingot Set",
@@ -23964,7 +24101,8 @@
     "material": "Firestone",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Lingotes Set"
  },
  {
   "name": "Kranodath Set",
@@ -24010,7 +24148,8 @@
     "material": "Charred Oilbone",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Kranodath Set"
  },
  {
   "name": "Lala Barina Set",
@@ -24154,7 +24293,8 @@
     "material": "Lala Barina Mucus",
     "qty": 3
    }
-  ]
+  ],
+  "nameEs": "Lala Barina Set"
  },
  {
   "name": "Leather Set",
@@ -24268,7 +24408,8 @@
    "dragon": 0
   },
   "decoSlots": [],
-  "localImage": "data/images/armor_sets_full/leather-set.png"
+  "localImage": "data/images/armor_sets_full/leather-set.png",
+  "nameEs": "Cuero Set"
  },
  {
   "name": "Nerscylla Set",
@@ -24428,7 +24569,8 @@
     "material": "Sleep Sac",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Nerscylla Set"
  },
  {
   "name": "Nu Udra Set",
@@ -24605,7 +24747,8 @@
     "material": "Guardian Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Nu Udra Set"
  },
  {
   "name": "Piragill Set",
@@ -24651,7 +24794,8 @@
     "material": "Piragill Fin",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Piragill Set"
  },
  {
   "name": "Quematrice Set",
@@ -24795,7 +24939,8 @@
     "material": "Quematrice Certificate",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Quematrice Set"
  },
  {
   "name": "Rey Dau Set",
@@ -24964,7 +25109,8 @@
     "material": "Guardian Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Rey Dau Set"
  },
  {
   "name": "Rompopolo Set",
@@ -25108,7 +25254,8 @@
     "material": "Poison Sac",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Rompopolo Set"
  },
  {
   "name": "Talioth Set",
@@ -25154,7 +25301,8 @@
     "material": "Sharp Fang",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Talioth Set"
  },
  {
   "name": "Uth Duna Set",
@@ -25323,7 +25471,8 @@
     "material": "Guardian Pelt",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Uth Duna Set"
  },
  {
   "name": "Vespoid Set",
@@ -25455,7 +25604,8 @@
     "material": "Vespoid Wing",
     "qty": 2
    }
-  ]
+  ],
+  "nameEs": "Vespoid Set"
  },
  {
   "name": "Xu Wu Set",
@@ -25620,7 +25770,8 @@
     "material": "Tough Guardian Bone",
     "qty": 1
    }
-  ]
+  ],
+  "nameEs": "Xu Wu Set"
  },
  {
   "name": "Orion α Set",
@@ -25851,7 +26002,8 @@
     "material": "Hunter Symbol I",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Orión α Set"
  },
  {
   "name": "Uth Duna Gamma Set",
@@ -25976,7 +26128,8 @@
    1,
    1
   ],
-  "localImage": "data/images/armor_sets_full/uth-duna-gamma-set.png"
+  "localImage": "data/images/armor_sets_full/uth-duna-gamma-set.png",
+  "nameEs": "Uth Duna γ Set"
  },
  {
   "name": "Sakuratide α Set",
@@ -26097,6 +26250,7 @@
     "material": "Hunter Symbol I",
     "qty": 5
    }
-  ]
+  ],
+  "nameEs": "Marea Sakura α Set"
  }
 ]

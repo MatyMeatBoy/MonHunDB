@@ -2259,8 +2259,13 @@ function bootMaterials() {
   }
 }
 
+// decorations.json/armor_pieces.json skill refs only carry {name, level} (no
+// nameEs) -- cross-reference the full skills.json record the same way
+// decoSkillEffectText() does, instead of reading a field that doesn't exist
+// on the bare ref.
 function trSkillName(s) {
-  return lang === "es" && s.nameEs ? s.nameEs : s.name;
+  const full = (s.nameEs ? s : skillsByName.get(s.name)) || s;
+  return lang === "es" && full.nameEs ? full.nameEs : s.name;
 }
 // decorations.json/armor_pieces.json skill refs only carry {name, level} (no
 // nameEs/effect) -- cross-reference the full skills.json record (has real

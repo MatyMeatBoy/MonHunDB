@@ -2,7 +2,8 @@
 // covering BOTH sources translateMaterial() draws from: items_wilds.json
 // (Fextralife /Items catalog) and every monster-drop material name in
 // monsters.json. Source: the locally scraped Kiranico EN/ES item list living
-// in the standalone webscraper tool's output (../../Apps/claude/webscraper).
+// in the standalone ScraperinoRiperino tool's output
+// (../../Apps/claude/scraperino-riperino).
 //
 // Kiranico spells the "+" tier as a literal "+" ("Whetfish Fin+"); Fextralife
 // items_wilds.json spells it "Plus" ("Whetfish Fin Plus") while monsters.json
@@ -16,7 +17,7 @@ const path = require('path');
 const ITEMS_PATH = path.join(__dirname, 'items_wilds.json');
 const MONSTERS_PATH = path.join(__dirname, 'monsters.json');
 const OUT_PATH = path.join(__dirname, 'kiranico_item_translations.json');
-const KIRANICO_PATH = path.join(__dirname, '../../../../Apps/claude/webscraper/out/wilds/items.json');
+const KIRANICO_PATH = path.join(__dirname, '../../../../Apps/claude/scraperino-riperino/out/wilds/items.json');
 
 // Mirrors i18n_wilds.js's normalizeMaterialKey() exactly.
 const MATERIAL_NAME_ALIASES = {

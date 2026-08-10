@@ -2,7 +2,7 @@
  {
   "id": "marathon-charm-i",
   "name": "Marathon Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto maratón I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -11,7 +11,7 @@
  {
   "id": "marathon-charm-ii",
   "name": "Marathon Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto maratón II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -20,7 +20,7 @@
  {
   "id": "marathon-charm-iii",
   "name": "Marathon Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto maratón III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -29,7 +29,7 @@
  {
   "id": "fitness-charm-i",
   "name": "Fitness Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto en forma I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -38,7 +38,7 @@
  {
   "id": "fitness-charm-ii",
   "name": "Fitness Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto en forma II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -47,7 +47,7 @@
  {
   "id": "fitness-charm-iii",
   "name": "Fitness Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto en forma III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -56,7 +56,7 @@
  {
   "id": "fitness-charm-iv",
   "name": "Fitness Charm IV",
-  "nameEs": "",
+  "nameEs": "Amuleto en forma IV",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -65,7 +65,7 @@
  {
   "id": "fitness-charm-v",
   "name": "Fitness Charm V",
-  "nameEs": "",
+  "nameEs": "Amuleto en forma V",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -74,7 +74,7 @@
  {
   "id": "sheathe-charm-i",
   "name": "Sheathe Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto envainado I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -83,7 +83,7 @@
  {
   "id": "sheathe-charm-ii",
   "name": "Sheathe Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto envainado II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -92,7 +92,7 @@
  {
   "id": "sheathe-charm-iii",
   "name": "Sheathe Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto envainado III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -101,7 +101,7 @@
  {
   "id": "challenger-charm-i",
   "name": "Challenger Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto desafío I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -110,7 +110,7 @@
  {
   "id": "challenger-charm-ii",
   "name": "Challenger Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto desafío II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -119,7 +119,7 @@
  {
   "id": "challenger-charm-iii",
   "name": "Challenger Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto desafío III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -128,7 +128,7 @@
  {
   "id": "unscathed-charm-i",
   "name": "Unscathed Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto ileso I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -137,7 +137,7 @@
  {
   "id": "unscathed-charm-ii",
   "name": "Unscathed Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto ileso II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -146,7 +146,7 @@
  {
   "id": "unscathed-charm-iii",
   "name": "Unscathed Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto ileso III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -155,7 +155,7 @@
  {
   "id": "fury-charm-i",
   "name": "Fury Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto furia I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -164,7 +164,7 @@
  {
   "id": "fury-charm-ii",
   "name": "Fury Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto furia II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -173,7 +173,7 @@
  {
   "id": "fury-charm-iii",
   "name": "Fury Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto furia III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -182,7 +182,7 @@
  {
   "id": "exploiter-charm-i",
   "name": "Exploiter Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto provecho I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -191,7 +191,7 @@
  {
   "id": "exploiter-charm-ii",
   "name": "Exploiter Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto provecho II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -200,7 +200,7 @@
  {
   "id": "power-charm-i",
   "name": "Power Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto de poder I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -209,7 +209,7 @@
  {
   "id": "power-charm-ii",
   "name": "Power Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto de poder II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -218,7 +218,7 @@
  {
   "id": "power-charm-iii",
   "name": "Power Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto de poder III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -227,7 +227,7 @@
  {
   "id": "mighty-charm-i",
   "name": "Mighty Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto potente I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -236,7 +236,7 @@
  {
   "id": "mighty-charm-ii",
   "name": "Mighty Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto potente II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -245,7 +245,7 @@
  {
   "id": "mighty-charm-iii",
   "name": "Mighty Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto potente III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -254,7 +254,7 @@
  {
   "id": "surge-charm-i",
   "name": "Surge Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto recarga I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -263,7 +263,7 @@
  {
   "id": "surge-charm-ii",
   "name": "Surge Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto recarga II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -272,7 +272,7 @@
  {
   "id": "surge-charm-iii",
   "name": "Surge Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto recarga III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -281,7 +281,7 @@
  {
   "id": "defense-charm-i",
   "name": "Defense Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto defensa I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -290,7 +290,7 @@
  {
   "id": "defense-charm-ii",
   "name": "Defense Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto defensa II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -299,7 +299,7 @@
  {
   "id": "defense-charm-iii",
   "name": "Defense Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto defensa III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -308,7 +308,7 @@
  {
   "id": "defense-charm-iv",
   "name": "Defense Charm IV",
-  "nameEs": "",
+  "nameEs": "Amuleto defensa IV",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -317,7 +317,7 @@
  {
   "id": "defense-charm-v",
   "name": "Defense Charm V",
-  "nameEs": "",
+  "nameEs": "Amuleto defensa V",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -326,7 +326,7 @@
  {
   "id": "blessing-charm-i",
   "name": "Blessing Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto bendito I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -335,7 +335,7 @@
  {
   "id": "blessing-charm-ii",
   "name": "Blessing Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto bendito II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -344,7 +344,7 @@
  {
   "id": "blessing-charm-iii",
   "name": "Blessing Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto bendito III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -353,7 +353,7 @@
  {
   "id": "recovery-charm-i",
   "name": "Recovery Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto recuperación I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -362,7 +362,7 @@
  {
   "id": "recovery-charm-ii",
   "name": "Recovery Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto recuperación II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -371,7 +371,7 @@
  {
   "id": "recovery-charm-iii",
   "name": "Recovery Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto recuperación III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -380,7 +380,7 @@
  {
   "id": "speed-heal-charm-i",
   "name": "Speed Heal Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto cura veloz I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -389,7 +389,7 @@
  {
   "id": "speed-heal-charm-ii",
   "name": "Speed Heal Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto cura veloz II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -398,7 +398,7 @@
  {
   "id": "speed-heal-charm-iii",
   "name": "Speed Heal Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto cura veloz III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -407,7 +407,7 @@
  {
   "id": "gluttons-charm-i",
   "name": "Glutton&#x27;s Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto gula I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -416,7 +416,7 @@
  {
   "id": "gluttons-charm-ii",
   "name": "Glutton&#x27;s Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto gula II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -425,7 +425,7 @@
  {
   "id": "gluttons-charm-iii",
   "name": "Glutton&#x27;s Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto gula III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -434,7 +434,7 @@
  {
   "id": "earplugs-charm-i",
   "name": "Earplugs Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto antirrugidos I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -443,7 +443,7 @@
  {
   "id": "earplugs-charm-ii",
   "name": "Earplugs Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto antirrugidos II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -452,7 +452,7 @@
  {
   "id": "windproof-charm-i",
   "name": "Windproof Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto antiviento I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -461,7 +461,7 @@
  {
   "id": "windproof-charm-ii",
   "name": "Windproof Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto antiviento II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -470,7 +470,7 @@
  {
   "id": "windproof-charm-iii",
   "name": "Windproof Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto antiviento III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -479,7 +479,7 @@
  {
   "id": "tremor-charm-i",
   "name": "Tremor Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto temblores I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -488,7 +488,7 @@
  {
   "id": "tremor-charm-ii",
   "name": "Tremor Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto temblores II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -497,7 +497,7 @@
  {
   "id": "tremor-charm-iii",
   "name": "Tremor Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto temblores III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -506,7 +506,7 @@
  {
   "id": "evasion-charm-i",
   "name": "Evasion Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto evasión I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -515,7 +515,7 @@
  {
   "id": "evasion-charm-ii",
   "name": "Evasion Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto evasión II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -524,7 +524,7 @@
  {
   "id": "evasion-charm-iii",
   "name": "Evasion Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto evasión III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -533,7 +533,7 @@
  {
   "id": "evasion-charm-iv",
   "name": "Evasion Charm IV",
-  "nameEs": "",
+  "nameEs": "Amuleto evasión IV",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -542,7 +542,7 @@
  {
   "id": "leaping-charm-i",
   "name": "Leaping Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto saltarín I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -551,7 +551,7 @@
  {
   "id": "leaping-charm-ii",
   "name": "Leaping Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto saltarín II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -560,7 +560,7 @@
  {
   "id": "leaping-charm-iii",
   "name": "Leaping Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto saltarín III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -569,7 +569,7 @@
  {
   "id": "fire-charm-i",
   "name": "Fire Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto fuego I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -578,7 +578,7 @@
  {
   "id": "fire-charm-ii",
   "name": "Fire Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto fuego II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -587,7 +587,7 @@
  {
   "id": "fire-charm-iii",
   "name": "Fire Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto fuego III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -596,7 +596,7 @@
  {
   "id": "water-charm-i",
   "name": "Water Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto agua I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -605,7 +605,7 @@
  {
   "id": "water-charm-ii",
   "name": "Water Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto agua II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -614,7 +614,7 @@
  {
   "id": "water-charm-iii",
   "name": "Water Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto agua III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -623,7 +623,7 @@
  {
   "id": "thunder-charm-i",
   "name": "Thunder Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto rayo I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -632,7 +632,7 @@
  {
   "id": "thunder-charm-ii",
   "name": "Thunder Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto rayo II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -641,7 +641,7 @@
  {
   "id": "thunder-charm-iii",
   "name": "Thunder Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto rayo III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -650,7 +650,7 @@
  {
   "id": "ice-charm-i",
   "name": "Ice Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto hielo I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -659,7 +659,7 @@
  {
   "id": "ice-charm-ii",
   "name": "Ice Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto hielo II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -668,7 +668,7 @@
  {
   "id": "ice-charm-iii",
   "name": "Ice Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto hielo III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -677,7 +677,7 @@
  {
   "id": "dragon-charm-i",
   "name": "Dragon Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto draco I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -686,7 +686,7 @@
  {
   "id": "dragon-charm-ii",
   "name": "Dragon Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto draco II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -695,7 +695,7 @@
  {
   "id": "dragon-charm-iii",
   "name": "Dragon Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto draco III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -704,7 +704,7 @@
  {
   "id": "blight-charm-i",
   "name": "Blight Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto plaga I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -713,7 +713,7 @@
  {
   "id": "blight-charm-ii",
   "name": "Blight Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto plaga II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -722,7 +722,7 @@
  {
   "id": "blight-charm-iii",
   "name": "Blight Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto plaga III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -731,7 +731,7 @@
  {
   "id": "poison-charm-i",
   "name": "Poison Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto veneno I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -740,7 +740,7 @@
  {
   "id": "poison-charm-ii",
   "name": "Poison Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto veneno II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -749,7 +749,7 @@
  {
   "id": "poison-charm-iii",
   "name": "Poison Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto veneno III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -758,7 +758,7 @@
  {
   "id": "paralysis-charm-i",
   "name": "Paralysis Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto antiparálisis I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -767,7 +767,7 @@
  {
   "id": "paralysis-charm-ii",
   "name": "Paralysis Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto antiparálisis II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -776,7 +776,7 @@
  {
   "id": "paralysis-charm-iii",
   "name": "Paralysis Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto antiparálisis III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -785,7 +785,7 @@
  {
   "id": "sleep-charm-i",
   "name": "Sleep Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto sueño I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -794,7 +794,7 @@
  {
   "id": "sleep-charm-ii",
   "name": "Sleep Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto sueño II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -803,7 +803,7 @@
  {
   "id": "sleep-charm-iii",
   "name": "Sleep Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto sueño III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -812,7 +812,7 @@
  {
   "id": "stun-charm-i",
   "name": "Stun Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto aturdidor I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -821,7 +821,7 @@
  {
   "id": "stun-charm-ii",
   "name": "Stun Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto aturdidor II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -830,7 +830,7 @@
  {
   "id": "stun-charm-iii",
   "name": "Stun Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto aturdidor III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -839,7 +839,7 @@
  {
   "id": "blast-charm-i",
   "name": "Blast Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto nitro I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -848,7 +848,7 @@
  {
   "id": "blast-charm-ii",
   "name": "Blast Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto nitro II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -857,7 +857,7 @@
  {
   "id": "blast-charm-iii",
   "name": "Blast Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto nitro III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -866,7 +866,7 @@
  {
   "id": "botany-charm-i",
   "name": "Botany Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto botánico I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -875,7 +875,7 @@
  {
   "id": "botany-charm-ii",
   "name": "Botany Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto botánico II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -884,7 +884,7 @@
  {
   "id": "botany-charm-iii",
   "name": "Botany Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto botánico III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -893,7 +893,7 @@
  {
   "id": "botany-charm-iv",
   "name": "Botany Charm IV",
-  "nameEs": "",
+  "nameEs": "Amuleto botánico IV",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -902,7 +902,7 @@
  {
   "id": "geology-charm-i",
   "name": "Geology Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto geólogo I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -911,7 +911,7 @@
  {
   "id": "geology-charm-ii",
   "name": "Geology Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto geólogo II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -920,7 +920,7 @@
  {
   "id": "geology-charm-iii",
   "name": "Geology Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto geólogo III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -929,7 +929,7 @@
  {
   "id": "breaker-charm-i",
   "name": "Breaker Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto destructor I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -938,7 +938,7 @@
  {
   "id": "breaker-charm-ii",
   "name": "Breaker Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto destructor II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -947,7 +947,7 @@
  {
   "id": "breaker-charm-iii",
   "name": "Breaker Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto destructor III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -956,7 +956,7 @@
  {
   "id": "bombardier-charm-i",
   "name": "Bombardier Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto bombardero I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -965,7 +965,7 @@
  {
   "id": "bombardier-charm-ii",
   "name": "Bombardier Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto bombardero II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -974,7 +974,7 @@
  {
   "id": "bombardier-charm-iii",
   "name": "Bombardier Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto bombardero III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -983,7 +983,7 @@
  {
   "id": "mushroom-charm-i",
   "name": "Mushroom Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto seta I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -992,7 +992,7 @@
  {
   "id": "mushroom-charm-ii",
   "name": "Mushroom Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto seta II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1001,7 +1001,7 @@
  {
   "id": "mushroom-charm-iii",
   "name": "Mushroom Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto seta III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1010,7 +1010,7 @@
  {
   "id": "extension-charm-i",
   "name": "Extension Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto extensión I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1019,7 +1019,7 @@
  {
   "id": "extension-charm-ii",
   "name": "Extension Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto extensión II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1028,7 +1028,7 @@
  {
   "id": "extension-charm-iii",
   "name": "Extension Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto extensión III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1037,7 +1037,7 @@
  {
   "id": "friendship-charm-i",
   "name": "Friendship Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto amistad I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1046,7 +1046,7 @@
  {
   "id": "friendship-charm-ii",
   "name": "Friendship Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto amistad II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1055,7 +1055,7 @@
  {
   "id": "friendship-charm-iii",
   "name": "Friendship Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto amistad III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1064,7 +1064,7 @@
  {
   "id": "friendship-charm-iv",
   "name": "Friendship Charm IV",
-  "nameEs": "",
+  "nameEs": "Amuleto amistad IV",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1073,7 +1073,7 @@
  {
   "id": "friendship-charm-v",
   "name": "Friendship Charm V",
-  "nameEs": "",
+  "nameEs": "Amuleto amistad V",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1082,7 +1082,7 @@
  {
   "id": "light-eaters-charm-i",
   "name": "Light Eater&#x27;s Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto frugal I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1091,7 +1091,7 @@
  {
   "id": "light-eaters-charm-ii",
   "name": "Light Eater&#x27;s Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto frugal II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1100,7 +1100,7 @@
  {
   "id": "light-eaters-charm-iii",
   "name": "Light Eater&#x27;s Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto frugal III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1109,7 +1109,7 @@
  {
   "id": "grit-charm-i",
   "name": "Grit Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto abrasivo I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1118,7 +1118,7 @@
  {
   "id": "grit-charm-ii",
   "name": "Grit Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto abrasivo II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1127,7 +1127,7 @@
  {
   "id": "grit-charm-iii",
   "name": "Grit Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto abrasivo III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1136,7 +1136,7 @@
  {
   "id": "grit-charm-iv",
   "name": "Grit Charm IV",
-  "nameEs": "",
+  "nameEs": "Amuleto abrasivo IV",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1145,7 +1145,7 @@
  {
   "id": "impact-charm-i",
   "name": "Impact Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto impacto I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1154,7 +1154,7 @@
  {
   "id": "impact-charm-ii",
   "name": "Impact Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto impacto II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1163,7 +1163,7 @@
  {
   "id": "impact-charm-iii",
   "name": "Impact Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto impacto III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1172,7 +1172,7 @@
  {
   "id": "hungerless-charm-i",
   "name": "Hungerless Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto antihambre I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1181,7 +1181,7 @@
  {
   "id": "hungerless-charm-ii",
   "name": "Hungerless Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto antihambre II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1190,7 +1190,7 @@
  {
   "id": "hungerless-charm-iii",
   "name": "Hungerless Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto antihambre III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1199,7 +1199,7 @@
  {
   "id": "counter-charm-i",
   "name": "Counter Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto de contraataque I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1208,7 +1208,7 @@
  {
   "id": "counter-charm-ii",
   "name": "Counter Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto de contraataque II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1217,7 +1217,7 @@
  {
   "id": "counter-charm-iii",
   "name": "Counter Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto de contraataque III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1226,7 +1226,7 @@
  {
   "id": "foray-charm-i",
   "name": "Foray Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto de irrupción I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1235,7 +1235,7 @@
  {
   "id": "foray-charm-ii",
   "name": "Foray Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto de irrupción II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1244,7 +1244,7 @@
  {
   "id": "foray-charm-iii",
   "name": "Foray Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto de irrupción III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1253,7 +1253,7 @@
  {
   "id": "phoenix-charm-i",
   "name": "Phoenix Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto fénix I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1262,7 +1262,7 @@
  {
   "id": "phoenix-charm-ii",
   "name": "Phoenix Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto fénix II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1271,7 +1271,7 @@
  {
   "id": "phoenix-charm-iii",
   "name": "Phoenix Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto fénix III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1280,7 +1280,7 @@
  {
   "id": "chain-charm-i",
   "name": "Chain Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto de serie I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1289,7 +1289,7 @@
  {
   "id": "chain-charm-ii",
   "name": "Chain Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto de serie II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1298,7 +1298,7 @@
  {
   "id": "chain-charm-iii",
   "name": "Chain Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto de serie III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1307,7 +1307,7 @@
  {
   "id": "counterattack-charm-i",
   "name": "Counterattack Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto de contragolpe I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1316,7 +1316,7 @@
  {
   "id": "counterattack-charm-ii",
   "name": "Counterattack Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto de contragolpe II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1325,7 +1325,7 @@
  {
   "id": "counterattack-charm-iii",
   "name": "Counterattack Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto de contragolpe III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1334,7 +1334,7 @@
  {
   "id": "descent-charm-i",
   "name": "Descent Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto de descenso I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1343,7 +1343,7 @@
  {
   "id": "descent-charm-ii",
   "name": "Descent Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto de descenso II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1352,7 +1352,7 @@
  {
   "id": "descent-charm-iii",
   "name": "Descent Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto de descenso III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1361,7 +1361,7 @@
  {
   "id": "bleed-charm-i",
   "name": "Bleed Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto sangre I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1370,7 +1370,7 @@
  {
   "id": "bleed-charm-ii",
   "name": "Bleed Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto sangre II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1379,7 +1379,7 @@
  {
   "id": "bleed-charm-iii",
   "name": "Bleed Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto sangre III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1388,7 +1388,7 @@
  {
   "id": "guard-charm-i",
   "name": "Guard Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto guarda I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1397,7 +1397,7 @@
  {
   "id": "guard-charm-ii",
   "name": "Guard Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto guarda II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1406,7 +1406,7 @@
  {
   "id": "guard-charm-iii",
   "name": "Guard Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto guarda III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1415,7 +1415,7 @@
  {
   "id": "survival-charm-i",
   "name": "Survival Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto de supervivencia I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1424,7 +1424,7 @@
  {
   "id": "survival-charm-ii",
   "name": "Survival Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto de supervivencia II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1433,7 +1433,7 @@
  {
   "id": "survival-charm-iii",
   "name": "Survival Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto de supervivencia III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1442,7 +1442,7 @@
  {
   "id": "maintenance-charm-i",
   "name": "Maintenance Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto reparador I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1451,7 +1451,7 @@
  {
   "id": "maintenance-charm-ii",
   "name": "Maintenance Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto reparador II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1460,7 +1460,7 @@
  {
   "id": "maintenance-charm-iii",
   "name": "Maintenance Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto reparador III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1469,7 +1469,7 @@
  {
   "id": "intimidator-charm-i",
   "name": "Intimidator Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto intimidante I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1478,7 +1478,7 @@
  {
   "id": "intimidator-charm-ii",
   "name": "Intimidator Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto intimidante II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1487,7 +1487,7 @@
  {
   "id": "intimidator-charm-iii",
   "name": "Intimidator Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto intimidante III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1496,7 +1496,7 @@
  {
   "id": "escape-charm-i",
   "name": "Escape Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto de escape I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1505,7 +1505,7 @@
  {
   "id": "escape-charm-ii",
   "name": "Escape Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto de escape II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1514,7 +1514,7 @@
  {
   "id": "escape-charm-iii",
   "name": "Escape Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto de escape III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1523,7 +1523,7 @@
  {
   "id": "chainblade-charm-i",
   "name": "Chainblade Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto desollador I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1532,7 +1532,7 @@
  {
   "id": "chainblade-charm-ii",
   "name": "Chainblade Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto desollador II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1541,7 +1541,7 @@
  {
   "id": "imbibe-charm-i",
   "name": "Imbibe Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto de ósmosis I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1550,7 +1550,7 @@
  {
   "id": "imbibe-charm-ii",
   "name": "Imbibe Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto de ósmosis II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1559,7 +1559,7 @@
  {
   "id": "convert-charm-i",
   "name": "Convert Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto de conversión I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1568,7 +1568,7 @@
  {
   "id": "convert-charm-ii",
   "name": "Convert Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto de conversión II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1577,7 +1577,7 @@
  {
   "id": "sanity-charm-i",
   "name": "Sanity Charm I",
-  "nameEs": "",
+  "nameEs": "Amuleto de cordura I",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1586,7 +1586,7 @@
  {
   "id": "sanity-charm-ii",
   "name": "Sanity Charm II",
-  "nameEs": "",
+  "nameEs": "Amuleto de cordura II",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1595,7 +1595,7 @@
  {
   "id": "sanity-charm-iii",
   "name": "Sanity Charm III",
-  "nameEs": "",
+  "nameEs": "Amuleto de cordura III",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1604,7 +1604,7 @@
  {
   "id": "hope-charm",
   "name": "Hope Charm",
-  "nameEs": "",
+  "nameEs": "Amuleto de esperanza",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1613,7 +1613,7 @@
  {
   "id": "maintenance-charm-iv",
   "name": "Maintenance Charm IV",
-  "nameEs": "",
+  "nameEs": "Amuleto reparador IV",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1622,7 +1622,7 @@
  {
   "id": "rice-ball-charm",
   "name": "Rice Ball Charm",
-  "nameEs": "",
+  "nameEs": "Talismán de onigiri",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1631,7 +1631,7 @@
  {
   "id": "unknown-charm",
   "name": "Unknown Charm",
-  "nameEs": "",
+  "nameEs": "Amuleto desconocido",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1640,7 +1640,7 @@
  {
   "id": "historical-charm",
   "name": "Historical Charm",
-  "nameEs": "",
+  "nameEs": "Amuleto histórico",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1649,7 +1649,7 @@
  {
   "id": "secret-charm",
   "name": "Secret Charm",
-  "nameEs": "",
+  "nameEs": "Amuleto secreto",
   "rarity": 0,
   "skills": [],
   "materials": [],
@@ -1658,7 +1658,7 @@
  {
   "id": "golden-age-charm",
   "name": "Golden Age Charm",
-  "nameEs": "",
+  "nameEs": "Amuleto de edad dorada",
   "rarity": 0,
   "skills": [],
   "materials": [],

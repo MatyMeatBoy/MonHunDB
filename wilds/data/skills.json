@@ -2,9 +2,9 @@
  {
   "id": "attack-boost",
   "name": "Attack Boost",
-  "nameEs": "",
+  "nameEs": "Bonus de ataque",
   "descEn": "Increases attack power.",
-  "descEs": "",
+  "descEs": "Aumenta notablemente el poder de ataque.",
   "levels": [
    {
     "level": 1,
@@ -32,9 +32,9 @@
  {
   "id": "offensive-guard",
   "name": "Offensive Guard",
-  "nameEs": "",
+  "nameEs": "Bloqueo agresivo",
   "descEn": "Temporarily increases attack power after executing a perfectly-timed guard.",
-  "descEs": "",
+  "descEs": "Aumenta el poder de ataque de forma temporal tras un bloqueo perfecto.",
   "levels": [
    {
     "level": 1,
@@ -52,9 +52,9 @@
  {
   "id": "critical-eye",
   "name": "Critical Eye",
-  "nameEs": "",
+  "nameEs": "Ojo crítico",
   "descEn": "Increases affinity.",
-  "descEs": "",
+  "descEs": "Aumenta la afinidad.",
   "levels": [
    {
     "level": 1,
@@ -82,9 +82,9 @@
  {
   "id": "critical-boost",
   "name": "Critical Boost",
-  "nameEs": "",
+  "nameEs": "Bonus críticos",
   "descEn": "Increases the damage of critical hits.",
-  "descEs": "",
+  "descEs": "Aumenta el daño de golpes críticos.",
   "levels": [
    {
     "level": 1,
@@ -117,9 +117,9 @@
  {
   "id": "critical-draw",
   "name": "Critical Draw",
-  "nameEs": "",
+  "nameEs": "Desenfunde crítico",
   "descEn": "Increases affinity when performing draw attacks. (Not effective while riding.)",
-  "descEs": "",
+  "descEs": "Aumenta la afinidad al realizar ataques tras desenfundar o preparar el arma. (No tiene efecto mientras montas).",
   "levels": [
    {
     "level": 1,
@@ -137,9 +137,9 @@
  {
   "id": "fire-attack",
   "name": "Fire Attack",
-  "nameEs": "",
+  "nameEs": "Ataque de fuego",
   "descEn": "Increases fire element attack power. (Elemental attack power has a maximum limit.)",
-  "descEs": "",
+  "descEs": "Potencia los ataques elementales de fuego. (El poder elemental tiene un máximo).",
   "levels": [
    {
     "level": 1,
@@ -157,9 +157,9 @@
  {
   "id": "water-attack",
   "name": "Water Attack",
-  "nameEs": "",
+  "nameEs": "Ataque de agua",
   "descEn": "Increases water element attack power. (Elemental attack power has a maximum limit.)",
-  "descEs": "",
+  "descEs": "Potencia los ataques elementales de agua. (El poder elemental tiene un máximo).",
   "levels": [
    {
     "level": 1,
@@ -177,9 +177,9 @@
  {
   "id": "ice-attack",
   "name": "Ice Attack",
-  "nameEs": "",
+  "nameEs": "Ataque de hielo",
   "descEn": "Increases ice element attack power. (Elemental attack power has a maximum limit.)",
-  "descEs": "",
+  "descEs": "Potencia los ataques elementales de hielo. (El poder elemental tiene un máximo).",
   "levels": [
    {
     "level": 1,
@@ -197,9 +197,9 @@
  {
   "id": "thunder-attack",
   "name": "Thunder Attack",
-  "nameEs": "",
+  "nameEs": "Ataque de rayo",
   "descEn": "Increases thunder element attack power. (Elemental attack power has a maximum limit.)",
-  "descEs": "",
+  "descEs": "Potencia los ataques elementales de rayo. (El poder elemental tiene un máximo).",
   "levels": [
    {
     "level": 1,
@@ -217,9 +217,9 @@
  {
   "id": "dragon-attack",
   "name": "Dragon Attack",
-  "nameEs": "",
+  "nameEs": "Ataque de draco",
   "descEn": "Increases dragon element attack power. (Elemental attack power has a maximum limit.)",
-  "descEs": "",
+  "descEs": "Potencia los ataques elementales de draco. (El poder elemental tiene un máximo).",
   "levels": [
    {
     "level": 1,
@@ -237,9 +237,9 @@
  {
   "id": "poison-attack",
   "name": "Poison Attack",
-  "nameEs": "",
+  "nameEs": "Ataque venenoso",
   "descEn": "Increases the rate of poison buildup. (Poison buildup has a maximum limit.)",
-  "descEs": "",
+  "descEs": "Acelera la acumulación de veneno. (Tiene un límite máximo).",
   "levels": [
    {
     "level": 1,
@@ -257,9 +257,9 @@
  {
   "id": "paralysis-attack",
   "name": "Paralysis Attack",
-  "nameEs": "",
+  "nameEs": "Ataque paralizante",
   "descEn": "Increases the rate of paralysis buildup. (Paralysis buildup has a maximum limit.)",
-  "descEs": "",
+  "descEs": "Acelera la acumulación de parálisis. (Tiene un límite máximo).",
   "levels": [
    {
     "level": 1,
@@ -277,9 +277,9 @@
  {
   "id": "sleep-attack",
   "name": "Sleep Attack",
-  "nameEs": "",
+  "nameEs": "Ataque de sueño",
   "descEn": "Increases the rate of sleep buildup. (Sleep buildup has a maximum limit.)",
-  "descEs": "",
+  "descEs": "Acelera la acumulación de sueño. (Tiene un límite máximo).",
   "levels": [
    {
     "level": 1,
@@ -297,9 +297,9 @@
  {
   "id": "blast-attack",
   "name": "Blast Attack",
-  "nameEs": "",
+  "nameEs": "Ataque de nitro",
   "descEn": "Increases the rate of blast buildup. (Blast buildup has a maximum limit.)",
-  "descEs": "",
+  "descEs": "Acelera la acumulación de nitro. (Tiene un límite máximo).",
   "levels": [
    {
     "level": 1,
@@ -317,9 +317,9 @@
  {
   "id": "critical-element",
   "name": "Critical Element",
-  "nameEs": "",
+  "nameEs": "Elemento crítico",
   "descEn": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
-  "descEs": "",
+  "descEs": "Aumenta el daño elemental (fuego, agua, rayo, hielo, draco) cuando es resultado de un crítico.",
   "levels": [
    {
     "level": 1,
@@ -342,9 +342,9 @@
  {
   "id": "critical-status",
   "name": "Critical Status",
-  "nameEs": "",
+  "nameEs": "Estado crítico",
   "descEn": "Increases abnormal status effects (paralysis, poison, sleep, blast) when landing critical hits.",
-  "descEs": "",
+  "descEs": "Aumenta los efectos de estados alterados (parálisis, sueño, nitro y veneno) cuando son resultado de un crítico.",
   "levels": [
    {
     "level": 1,
@@ -362,9 +362,9 @@
  {
   "id": "charge-master",
   "name": "Charge Master",
-  "nameEs": "",
+  "nameEs": "Maestro de cargas",
   "descEn": "Increases element power and status buildup for charged attacks.",
-  "descEs": "",
+  "descEs": "Aumenta el poder elemental y los efectos de estado para los ataques cargados.",
   "levels": [
    {
     "level": 1,
@@ -387,9 +387,9 @@
  {
   "id": "handicraft",
   "name": "Handicraft",
-  "nameEs": "",
+  "nameEs": "Artesanía",
   "descEn": "Extends the weapon sharpness gauge. However, it will not increase the gauge past its maximum.",
-  "descEs": "",
+  "descEs": "Expande la barra de afilado del arma, pero no lo hará más allá de su máximo predeterminado.",
   "levels": [
    {
     "level": 1,
@@ -417,9 +417,9 @@
  {
   "id": "razor-sharp",
   "name": "Razor Sharp",
-  "nameEs": "",
+  "nameEs": "Filo de cuchilla",
   "descEn": "Prevents your weapon from losing sharpness.",
-  "descEs": "",
+  "descEs": "Evita que el arma pierda afilado.",
   "levels": [
    {
     "level": 1,
@@ -437,9 +437,9 @@
  {
   "id": "protective-polish",
   "name": "Protective Polish",
-  "nameEs": "",
+  "nameEs": "Acabado protector",
   "descEn": "Weapon sharpness does not decrease for a set time after sharpening.",
-  "descEs": "",
+  "descEs": "El afilado del arma no disminuye durante un tiempo tras afilarla.",
   "levels": [
    {
     "level": 1,
@@ -461,10 +461,10 @@
  },
  {
   "id": "minds-eye",
-  "name": "Mind&#x27;s Eye",
-  "nameEs": "",
+  "name": "Mind's Eye",
+  "nameEs": "Ojo mental",
   "descEn": "Your attacks are deflected less and are more powerful against hard monster parts.",
-  "descEs": "",
+  "descEs": "Tus ataques se desvían menos y son más potentes contra partes de monstruos más duras.",
   "levels": [
    {
     "level": 1,
@@ -482,9 +482,9 @@
  {
   "id": "bludgeoner",
   "name": "Bludgeoner",
-  "nameEs": "",
+  "nameEs": "Impacto mejorado",
   "descEn": "Increases damage dealt when your weapon sharpness is low.",
-  "descEs": "",
+  "descEs": "Aumenta el daño infligido cuando el afilado de tu arma esté bajo.",
   "levels": [
    {
     "level": 1,
@@ -501,10 +501,10 @@
  },
  {
   "id": "masters-touch",
-  "name": "Master&#x27;s Touch",
-  "nameEs": "",
+  "name": "Master's Touch",
+  "nameEs": "Toque maestro",
   "descEn": "Prevents your weapon from losing sharpness during critical hits.",
-  "descEs": "",
+  "descEs": "Evita que el arma pierda afilado con los ataques críticos.",
   "levels": [
    {
     "level": 1,
@@ -517,36 +517,36 @@
  {
   "id": "normal-shots",
   "name": "Normal Shots",
-  "nameEs": "",
+  "nameEs": "Disparo normal",
   "descEn": "Increases the attack power of Normal Ammo, normal arrows, and Flying Swallow Shot.",
-  "descEs": "",
+  "descEs": "Aumenta el poder de ataque de la munición normal, las flechas normales y el tiro golondrina volante.",
   "levels": [],
   "colorIndex": 0
  },
  {
   "id": "piercing-shots",
   "name": "Piercing Shots",
-  "nameEs": "",
+  "nameEs": "Disparo perforante",
   "descEn": "Increases the attack of the bowgun&#x27;s Pierce Ammo, and the bow&#x27;s Dragon Piercer and Thousand Dragons.",
-  "descEs": "",
+  "descEs": "Aumenta el ataque de la munición perforante (ballesta) y la munición perforadragones y mil dragones (arco).",
   "levels": [],
   "colorIndex": 0
  },
  {
   "id": "spreadpower-shots",
   "name": "Spread/Power Shots",
-  "nameEs": "",
+  "nameEs": "Disparo abanico/potente",
   "descEn": "Increases the attack of the bowgun&#x27;s Spread Ammo and the bow&#x27;s Power Shots and Quick Shots.",
-  "descEs": "",
+  "descEs": "Aumenta el ataque de la munición abanico de la ballesta y los tiros potentes y disparo rápido del arco.",
   "levels": [],
   "colorIndex": 0
  },
  {
   "id": "ballistics",
   "name": "Ballistics",
-  "nameEs": "",
+  "nameEs": "Balística",
   "descEn": "Extends the range in which ammo and arrows have maximum power. Also boosts power at higher levels.",
-  "descEs": "",
+  "descEs": "Amplía el alcance en que munición y flechas tienen máxima potencia. Los niveles más altos mejoran la potencia.",
   "levels": [
    {
     "level": 1,
@@ -564,18 +564,18 @@
  {
   "id": "rapid-fire-up",
   "name": "Rapid Fire Up",
-  "nameEs": "",
+  "nameEs": "Andanada rápida",
   "descEn": "Improves light bowgun rapid fire.",
-  "descEs": "",
+  "descEs": "Mejora las andanadas de la ballesta ligera.",
   "levels": [],
   "colorIndex": 0
  },
  {
   "id": "opening-shot",
   "name": "Opening Shot",
-  "nameEs": "",
+  "nameEs": "Primer disparo",
   "descEn": "Increases the bowgun&#x27;s reload speed and increases the power of bullets when fully loaded.",
-  "descEs": "",
+  "descEs": "Aumenta la velocidad de recarga de la ballesta y la potencia de disparo cuando está cargada al máximo.",
   "levels": [
    {
     "level": 1,
@@ -768,9 +768,9 @@
  {
   "id": "tetrad-shot",
   "name": "Tetrad Shot",
-  "nameEs": "",
+  "nameEs": "Disparo tétrada",
   "descEn": "Increases affinity of bowgun ammo/ coatings from the fourth shot and attack of the fourth and sixth shots.",
-  "descEs": "",
+  "descEs": "Aumenta la afinidad de munición y viales de ballesta desde el cuarto disparo, y el ataque de los disparos cuarto y sexto.",
   "levels": [
    {
     "level": 1,
@@ -793,9 +793,9 @@
  {
   "id": "special-ammo-boost",
   "name": "Special Ammo Boost",
-  "nameEs": "",
+  "nameEs": "Bonus tiro especial",
   "descEn": "Increases the power of the bowgun&#x27;s special ammo, and the bow&#x27;s Dragon Piercer, Thousand Dragons, and Tracer.",
-  "descEs": "",
+  "descEs": "Potencia las flechas perforadragones, mil dragones y marcadoras del arco, y los tiros especiales de la ballesta.",
   "levels": [
    {
     "level": 1,
@@ -813,54 +813,54 @@
  {
   "id": "poison-functionality",
   "name": "Poison Functionality",
-  "nameEs": "",
+  "nameEs": "Añade veneno",
   "descEn": "Allows you to apply poison coatings.",
-  "descEs": "",
+  "descEs": "Si tienes un arco equipado, permite equiparte con viales de veneno.",
   "levels": [],
   "colorIndex": 0
  },
  {
   "id": "para-functionality",
   "name": "Para Functionality",
-  "nameEs": "",
+  "nameEs": "Añade parálisis",
   "descEn": "Allows you to apply paralysis coatings.",
-  "descEs": "",
+  "descEs": "Si tienes un arco equipado, permite equiparte con viales paralizantes.",
   "levels": [],
   "colorIndex": 0
  },
  {
   "id": "sleep-functionality",
   "name": "Sleep Functionality",
-  "nameEs": "",
+  "nameEs": "Añade sueño",
   "descEn": "Allows you to apply sleep coatings.",
-  "descEs": "",
+  "descEs": "Si tienes un arco equipado, permite equiparte con viales de sueño.",
   "levels": [],
   "colorIndex": 0
  },
  {
   "id": "blast-functionality",
   "name": "Blast Functionality",
-  "nameEs": "",
+  "nameEs": "Añade nitro",
   "descEn": "Allows you to apply blast coatings.",
-  "descEs": "",
+  "descEs": "Si tienes un arco equipado, permite equiparte con viales de nitro.",
   "levels": [],
   "colorIndex": 0
  },
  {
   "id": "exhaust-functionality",
   "name": "Exhaust Functionality",
-  "nameEs": "",
+  "nameEs": "Añade fatiga",
   "descEn": "Allows you to apply exhaust coatings.",
-  "descEs": "",
+  "descEs": "Si tienes un arco equipado, permite equiparte con viales de fatiga.",
   "levels": [],
   "colorIndex": 0
  },
  {
   "id": "focus",
   "name": "Focus",
-  "nameEs": "",
+  "nameEs": "Carga veloz",
   "descEn": "Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.",
-  "descEs": "",
+  "descEs": "Carga los indicadores de armas rápidamente, así como los ataques cargados con armas que lo permitan.",
   "levels": [
    {
     "level": 1,
@@ -883,9 +883,9 @@
  {
   "id": "power-prolonger",
   "name": "Power Prolonger",
-  "nameEs": "",
+  "nameEs": "Carga prolongada",
   "descEn": "Allows long swords, dual blades, insect glaives, switch axes, and charge blades to stay powered up longer.",
-  "descEs": "",
+  "descEs": "Las espadas largas, espadas dobles, glaives insecto, hachas espada y hachas cargadas permanecen cargadas más tiempo.",
   "levels": [
    {
     "level": 1,
@@ -908,9 +908,9 @@
  {
   "id": "punishing-draw",
   "name": "Punishing Draw",
-  "nameEs": "",
+  "nameEs": "Pena inmediata",
   "descEn": "Adds a stun effect to draw attacks and slightly increases attack power. (Not effective while riding.)",
-  "descEs": "",
+  "descEs": "Añade efecto aturdidor a los ataques al desenfundar y aumenta un poco el ataque. (No sirve mientras montas).",
   "levels": [
    {
     "level": 1,
@@ -933,9 +933,9 @@
  {
   "id": "slugger",
   "name": "Slugger",
-  "nameEs": "",
+  "nameEs": "As del aturdimiento",
   "descEn": "Makes it easier to stun monsters.",
-  "descEs": "",
+  "descEs": "Hace más probable que consigas aturdir a un monstruo.",
   "levels": [
    {
     "level": 1,
@@ -958,9 +958,9 @@
  {
   "id": "stamina-thief",
   "name": "Stamina Thief",
-  "nameEs": "",
+  "nameEs": "Agotador",
   "descEn": "Increases certain attacks&#x27; ability to exhaust monsters.",
-  "descEs": "",
+  "descEs": "Aumenta la posibilidad de que ciertos ataques agoten a los monstruos.",
   "levels": [
    {
     "level": 1,
@@ -983,9 +983,9 @@
  {
   "id": "artillery",
   "name": "Artillery",
-  "nameEs": "",
+  "nameEs": "Artillería",
   "descEn": "Strengthens explosive attacks like shells, Wyvern&#x27;s Fire, charge blade phial attacks, and Sticky Ammo.",
-  "descEs": "",
+  "descEs": "Potencia ataques explosivos, como proyectiles, fuego de wyvern, viales del hacha cargada y munición explosiva.",
   "levels": [
    {
     "level": 1,
@@ -1008,9 +1008,9 @@
  {
   "id": "rapid-morph",
   "name": "Rapid Morph",
-  "nameEs": "",
+  "nameEs": "Mutación rápida",
   "descEn": "Increases switch speed and power for switch axes and charge blades.",
-  "descEs": "",
+  "descEs": "Aumenta la velocidad de mutación y la fuerza de ataque de las hachas espada y las hachas cargadas.",
   "levels": [
    {
     "level": 1,
@@ -1033,9 +1033,9 @@
  {
   "id": "horn-maestro",
   "name": "Horn Maestro",
-  "nameEs": "",
+  "nameEs": "As de la cornamusa",
   "descEn": "Increases the effect duration of hunting horn melodies. (Effect lost when you change weapons.)",
-  "descEs": "",
+  "descEs": "Aumenta el tiempo que duran las melodías de la cornamusa. (El efecto se pierde al cambiar de arma).",
   "levels": [
    {
     "level": 1,
@@ -1048,9 +1048,9 @@
  {
   "id": "charge-up",
   "name": "Charge Up",
-  "nameEs": "",
+  "nameEs": "Más carga",
   "descEn": "Increases the damage and stun power of charged hammer attacks.",
-  "descEs": "",
+  "descEs": "Aumenta el daño y la capacidad de aturdir de los ataques cargados del martillo.",
   "levels": [
    {
     "level": 1,
@@ -1063,9 +1063,9 @@
  {
   "id": "airborne",
   "name": "Airborne",
-  "nameEs": "",
+  "nameEs": "Bonus ataque en salto",
   "descEn": "Increases the damage caused by jumping attacks.",
-  "descEs": "",
+  "descEs": "Aumenta el daño provocado por los ataques en salto.",
   "levels": [
    {
     "level": 1,
@@ -1078,9 +1078,9 @@
  {
   "id": "poison-duration-up",
   "name": "Poison Duration Up",
-  "nameEs": "",
+  "nameEs": "Veneno extendido",
   "descEn": "Extends the duration of your poison&#x27;s effect on monsters.",
-  "descEs": "",
+  "descEs": "Prolonga la duración de los efectos del veneno en monstruos.",
   "levels": [
    {
     "level": 1,
@@ -1253,9 +1253,9 @@
  {
   "id": "guard",
   "name": "Guard",
-  "nameEs": "",
+  "nameEs": "Bloqueo mejorado",
   "descEn": "Reduces knockbacks and stamina depletion when guarding.",
-  "descEs": "",
+  "descEs": "Reduce los empujes y el gasto de resistencia al bloquear ataques.",
   "levels": [
    {
     "level": 1,
@@ -1278,9 +1278,9 @@
  {
   "id": "guard-up",
   "name": "Guard Up",
-  "nameEs": "",
+  "nameEs": "Escudo",
   "descEn": "Reduces damage taken when guarding and allows you to guard against ordinarily unblockable attacks.",
-  "descEs": "",
+  "descEs": "Reduce el daño recibido al bloquear, y permite protegerse de ataques que normalmente no se pueden bloquear.",
   "levels": [
    {
     "level": 1,
@@ -1303,9 +1303,9 @@
  {
   "id": "load-shells",
   "name": "Load Shells",
-  "nameEs": "",
+  "nameEs": "Cargar arma",
   "descEn": "Improves reloading, and increases the gunlance&#x27;s shell capacity and charge blade&#x27;s phial capacity.",
-  "descEs": "",
+  "descEs": "Mejora la recarga y capacidad de munición de la lanza pistola, y la capacidad de viales del hacha cargada.",
   "levels": [
    {
     "level": 1,
@@ -1323,9 +1323,9 @@
  {
   "id": "speed-sharpening",
   "name": "Speed Sharpening",
-  "nameEs": "",
+  "nameEs": "Afilado rápido",
   "descEn": "Speeds up weapon sharpening when using a whetstone.",
-  "descEs": "",
+  "descEs": "Aumenta la velocidad de afilado del arma al usar una piedra de afilar.",
   "levels": [
    {
     "level": 1,
@@ -1343,9 +1343,9 @@
  {
   "id": "slicked-blade",
   "name": "Slicked Blade",
-  "nameEs": "",
+  "nameEs": "Filo alisado",
   "descEn": "Temporarily increases affinity when wet or when inflicted with bubbleblight. (Wet and bubbleblight effects stack.)",
-  "descEs": "",
+  "descEs": "Aumenta temporalmente la afinidad cuando estás mojado o tienes plaga de burbujas. (El efecto es acumulable).",
   "levels": [
    {
     "level": 1,
@@ -1368,9 +1368,9 @@
  {
   "id": "whiteflame-torrent",
   "name": "Whiteflame Torrent",
-  "nameEs": "",
+  "nameEs": "Torrente de llamas blancas",
   "descEn": "Chance to deal additional damage after landing an attack.",
-  "descEs": "",
+  "descEs": "Da cierta probabilidad de infligir daño adicional al conectar un golpe.",
   "levels": [
    {
     "level": 1,
@@ -1383,9 +1383,9 @@
  {
   "id": "convert-thunder-resistance",
   "name": "Convert Thunder Resistance",
-  "nameEs": "",
+  "nameEs": "Convierte antirrayo",
   "descEn": "Increase to your weapon&#x27;s elemental attack proportional to your thunder resistance.",
-  "descEs": "",
+  "descEs": "Mejora el ataque elemental de tu arma de forma proporcional a tu resistencia antirrayo.",
   "levels": [
    {
     "level": 1,
@@ -1398,9 +1398,9 @@
  {
   "id": "bladescale-honing",
   "name": "Bladescale Honing",
-  "nameEs": "",
+  "nameEs": "Afilado de filoescama",
   "descEn": "Narrowly evading a monster&#x27;s attack while your weapon is drawn grants special sharpness.",
-  "descEs": "",
+  "descEs": "Esquivar por poco el ataque de un monstruo con el arma desenfundada da un afilado especial al arma.",
   "levels": [
    {
     "level": 1,
@@ -1413,9 +1413,9 @@
  {
   "id": "bladescale-loading",
   "name": "Bladescale Loading",
-  "nameEs": "",
+  "nameEs": "Carga de filoescama",
   "descEn": "Narrowly evading a monster&#x27;s attack while your weapon is drawn grants special loaded ammo or applied coatings.",
-  "descEs": "",
+  "descEs": "Esquivar por poco el ataque de un monstruo con el arma desenvainada te da munición especial cargada o viales correspondientes.",
   "levels": [
    {
     "level": 1,
@@ -1453,9 +1453,9 @@
  {
   "id": "power-stone",
   "name": "Power Stone",
-  "nameEs": "",
+  "nameEs": "Piedra de poder",
   "descEn": "Temporarily increases attack upon mining materials.",
-  "descEs": "",
+  "descEs": "Aumenta el ataque temporalmente al extraer minerales.",
   "levels": [
    {
     "level": 1,
@@ -1483,9 +1483,9 @@
  {
   "id": "crackling-cornpopper",
   "name": "Crackling Cornpopper",
-  "nameEs": "",
+  "nameEs": "Maicera rebosante",
   "descEn": "Increases shelling power and fire attack while the Wyvern&#x27;s Fire Gauge is blinking red.",
-  "descEs": "",
+  "descEs": "Aumenta la potencia de proyectiles y disparos si el arma está sobrecalentada.",
   "levels": [
    {
     "level": 1,
@@ -1498,9 +1498,9 @@
  {
   "id": "grillmaster",
   "name": "Grillmaster",
-  "nameEs": "",
+  "nameEs": "Maestro de la parrilla",
   "descEn": "Grill meat to sharpen your weapon and temporarily increase your attack. (Duration and effect vary based on results.)",
-  "descEs": "",
+  "descEs": "Cocina carne para afilar tu arma y aumentar temporalmente tu ataque. (La duración y el efecto varían según el resultado).",
   "levels": [
    {
     "level": 1,
@@ -1518,9 +1518,9 @@
  {
   "id": "evading-reload",
   "name": "Evading Reload",
-  "nameEs": "",
+  "nameEs": "Recarga en esquiva",
   "descEn": "Evading loads the currently selected ammo automatically.",
-  "descEs": "",
+  "descEs": "Al esquivar, se carga automáticamente la munición que tengas seleccionada.",
   "levels": [
    {
     "level": 1,
@@ -1548,9 +1548,9 @@
  {
   "id": "darkside",
   "name": "Darkside",
-  "nameEs": "",
+  "nameEs": "Lado oscuro",
   "descEn": "Performing certain Lvl 2 or higher charged slashes deals self-damage. Attack is also temporarily boosted.",
-  "descEs": "",
+  "descEs": "Lanzar ciertos tajos cargados de nv. 2 o superior te inflige daño. También aumenta temporalmente el ataque.",
   "levels": [
    {
     "level": 1,
@@ -1563,9 +1563,9 @@
  {
   "id": "synthetic-shield",
   "name": "Synthetic Shield",
-  "nameEs": "",
+  "nameEs": "Escudo sintético",
   "descEn": "Temporarily increases your defense and the defense of those around you after a successful Perfect Guard.",
-  "descEs": "",
+  "descEs": "Aumenta temporalmente tu defensa y la defensa de quien esté cerca de ti tras realizar una guardia perfecta.",
   "levels": [
    {
     "level": 1,
@@ -1583,9 +1583,9 @@
  {
   "id": "synergy",
   "name": "Synergy",
-  "nameEs": "",
+  "nameEs": "Sinergia",
   "descEn": "Temporarily increases your affinity and the affinity of those around you after using a Rising Spiral Slash.",
-  "descEs": "",
+  "descEs": "Aumenta temporalmente tu afinidad y la afinidad de quién esté cerca de ti tras usar un tajo espiral ascendente.",
   "levels": [
    {
     "level": 1,
@@ -1598,18 +1598,18 @@
  {
   "id": "catburglar",
   "name": "Catburglar",
-  "nameEs": "",
+  "nameEs": "Ladrón gato",
   "descEn": "Grants a small chance of obtaining various items when landing critical hits.",
-  "descEs": "",
+  "descEs": "Concede una pequeña probabilidad de obtener diversos objetos al realizar golpes críticos.",
   "levels": [],
   "colorIndex": 0
  },
  {
   "id": "resentment",
   "name": "Resentment",
-  "nameEs": "",
+  "nameEs": "Resentimiento",
   "descEn": "Increases attack when you have recoverable damage (the red portion of your Health Gauge).",
-  "descEs": "",
+  "descEs": "Aumenta el ataque cuando se activa el daño temporal (la parte roja de la barra de salud).",
   "levels": [
    {
     "level": 1,
@@ -1642,9 +1642,9 @@
  {
   "id": "adrenaline-rush",
   "name": "Adrenaline Rush",
-  "nameEs": "",
+  "nameEs": "Subida de adrenalina",
   "descEn": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
-  "descEs": "",
+  "descEs": "Aumenta temporalmente la potencia de ataque tras esquivar en el momento justo en que te ataque un monstruo.",
   "levels": [
    {
     "level": 1,
@@ -1677,9 +1677,9 @@
  {
   "id": "peak-performance",
   "name": "Peak Performance",
-  "nameEs": "",
+  "nameEs": "Plena forma",
   "descEn": "Increases attack when your health is full.",
-  "descEs": "",
+  "descEs": "Aumenta el ataque cuando la salud está completa.",
   "levels": [
    {
     "level": 1,
@@ -1712,9 +1712,9 @@
  {
   "id": "counterstrike",
   "name": "Counterstrike",
-  "nameEs": "",
+  "nameEs": "Venganza",
   "descEn": "Temporarily increases attack power after being knocked back.",
-  "descEs": "",
+  "descEs": "Aumenta el poder de ataque de manera temporal tras ser derribado.",
   "levels": [
    {
     "level": 1,
@@ -1737,9 +1737,9 @@
  {
   "id": "weakness-exploit",
   "name": "Weakness Exploit",
-  "nameEs": "",
+  "nameEs": "Punto débil",
   "descEn": "Increases the affinity of attacks that exploit a monster&#x27;s weak  points and wounds.",
-  "descEs": "",
+  "descEs": "Aumenta la afinidad de ataques que aprovechan los puntos débiles y las heridas de un monstruo.",
   "levels": [
    {
     "level": 1,
@@ -1772,9 +1772,9 @@
  {
   "id": "maximum-might",
   "name": "Maximum Might",
-  "nameEs": "",
+  "nameEs": "Poder máximo",
   "descEn": "Increases affinity if stamina is kept full for a period of time.",
-  "descEs": "",
+  "descEs": "Aumenta la afinidad mientras la resistencia esté llena durante cierto tiempo.",
   "levels": [
    {
     "level": 1,
@@ -1797,9 +1797,9 @@
  {
   "id": "convert-element",
   "name": "Convert Element",
-  "nameEs": "",
+  "nameEs": "Convierte elemento",
   "descEn": "After taking elemental damage, temporarily grants you dragon element effects. (Cooldown after effect ends.)",
-  "descEs": "",
+  "descEs": "Al recibir daño elemental, otorga elemento draco de forma temporal. (Necesita recargarse tras su uso).",
   "levels": [
    {
     "level": 1,
@@ -1822,9 +1822,9 @@
  {
   "id": "defense-boost",
   "name": "Defense Boost",
-  "nameEs": "",
+  "nameEs": "Bonus de defensa",
   "descEn": "Increases defense. Also improves resistances at higher levels.",
-  "descEs": "",
+  "descEs": "Aumenta la defensa. En niveles más altos también mejora las resistencias.",
   "levels": [
    {
     "level": 1,
@@ -1867,9 +1867,9 @@
  {
   "id": "divine-blessing",
   "name": "Divine Blessing",
-  "nameEs": "",
+  "nameEs": "Bendición divina",
   "descEn": "Has a predetermined chance of reducing the damage you take.",
-  "descEs": "",
+  "descEs": "Confiere cierta probabilidad de reducir el daño que sufres.",
   "levels": [
    {
     "level": 1,
@@ -1892,9 +1892,9 @@
  {
   "id": "fire-resistance",
   "name": "Fire Resistance",
-  "nameEs": "",
+  "nameEs": "Antifuego",
   "descEn": "Increases fire resistance. Also improves defense at higher levels.",
-  "descEs": "",
+  "descEs": "Aumenta la resistencia al fuego. En niveles más altos también mejora la defensa.",
   "levels": [
    {
     "level": 1,
@@ -1917,9 +1917,9 @@
  {
   "id": "water-resistance",
   "name": "Water Resistance",
-  "nameEs": "",
+  "nameEs": "Antiagua",
   "descEn": "Increases water resistance. Also improves defense at higher levels.",
-  "descEs": "",
+  "descEs": "Aumenta la resistencia al agua. En niveles más altos también mejora la defensa.",
   "levels": [
    {
     "level": 1,
@@ -1942,9 +1942,9 @@
  {
   "id": "thunder-resistance",
   "name": "Thunder Resistance",
-  "nameEs": "",
+  "nameEs": "Antirrayo",
   "descEn": "Increases thunder resistance. Also improves defense at higher levels.",
-  "descEs": "",
+  "descEs": "Aumenta la resistencia al rayo. En niveles más altos también mejora la defensa.",
   "levels": [
    {
     "level": 1,
@@ -1967,9 +1967,9 @@
  {
   "id": "ice-resistance",
   "name": "Ice Resistance",
-  "nameEs": "",
+  "nameEs": "Antihielo",
   "descEn": "Increases ice resistance. Also improves defense at higher levels.",
-  "descEs": "",
+  "descEs": "Aumenta la resistencia al hielo. En niveles más altos también mejora la defensa.",
   "levels": [
    {
     "level": 1,
@@ -1992,9 +1992,9 @@
  {
   "id": "dragon-resistance",
   "name": "Dragon Resistance",
-  "nameEs": "",
+  "nameEs": "Antidraco",
   "descEn": "Increases dragon resistance. Also improves defense at higher levels.",
-  "descEs": "",
+  "descEs": "Aumenta la resistencia a draco. En niveles más altos también mejora la defensa.",
   "levels": [
    {
     "level": 1,
@@ -2017,9 +2017,9 @@
  {
   "id": "poison-resistance",
   "name": "Poison Resistance",
-  "nameEs": "",
+  "nameEs": "Antiveneno",
   "descEn": "Reduces damage while poisoned.",
-  "descEs": "",
+  "descEs": "Reduce el daño recibido por veneno.",
   "levels": [
    {
     "level": 1,
@@ -2042,9 +2042,9 @@
  {
   "id": "paralysis-resistance",
   "name": "Paralysis Resistance",
-  "nameEs": "",
+  "nameEs": "Antiparálisis",
   "descEn": "Reduces the duration of paralysis.",
-  "descEs": "",
+  "descEs": "Reduce o elimina los efectos de la parálisis.",
   "levels": [
    {
     "level": 1,
@@ -2067,9 +2067,9 @@
  {
   "id": "sleep-resistance",
   "name": "Sleep Resistance",
-  "nameEs": "",
+  "nameEs": "Antisueño",
   "descEn": "Reduces the duration of sleep.",
-  "descEs": "",
+  "descEs": "Reduce o elimina los efectos del sueño.",
   "levels": [
    {
     "level": 1,
@@ -2092,9 +2092,9 @@
  {
   "id": "iron-skin",
   "name": "Iron Skin",
-  "nameEs": "",
+  "nameEs": "Piel de hierro",
   "descEn": "Grants protection against defense down.",
-  "descEs": "",
+  "descEs": "Protege contra la defensa reducida.",
   "levels": [
    {
     "level": 1,
@@ -2117,9 +2117,9 @@
  {
   "id": "blight-resistance",
   "name": "Blight Resistance",
-  "nameEs": "",
+  "nameEs": "Antiplagas",
   "descEn": "Grants protection against all elemental blights.",
-  "descEs": "",
+  "descEs": "Protege contra todas las plagas elementales.",
   "levels": [
    {
     "level": 1,
@@ -2142,9 +2142,9 @@
  {
   "id": "stun-resistance",
   "name": "Stun Resistance",
-  "nameEs": "",
+  "nameEs": "Antiaturdimiento",
   "descEn": "Reduces the duration of stun.",
-  "descEs": "",
+  "descEs": "Reduce la duración del aturdimiento.",
   "levels": [
    {
     "level": 1,
@@ -2167,9 +2167,9 @@
  {
   "id": "bleeding-resistance",
   "name": "Bleeding Resistance",
-  "nameEs": "",
+  "nameEs": "Antisangrado",
   "descEn": "Grants protection against bleeding.",
-  "descEs": "",
+  "descEs": "Protege contra los sangrados.",
   "levels": [
    {
     "level": 1,
@@ -2192,9 +2192,9 @@
  {
   "id": "bind-resistance",
   "name": "Bind Resistance",
-  "nameEs": "",
+  "nameEs": "Antiinmovilización",
   "descEn": "Grants protection against webbed status and frostblight.",
-  "descEs": "",
+  "descEs": "Protege contra el estado enmarañado y la plaga de escarcha.",
   "levels": [
    {
     "level": 1,
@@ -2217,9 +2217,9 @@
  {
   "id": "blast-resistance",
   "name": "Blast Resistance",
-  "nameEs": "",
+  "nameEs": "Antinitro",
   "descEn": "Grants protection against blastblight.",
-  "descEs": "",
+  "descEs": "Protege contra la plaga de nitro.",
   "levels": [
    {
     "level": 1,
@@ -2242,9 +2242,9 @@
  {
   "id": "stench-resistance",
   "name": "Stench Resistance",
-  "nameEs": "",
+  "nameEs": "Antihedor",
   "descEn": "Grants protection against stench.",
-  "descEs": "",
+  "descEs": "Protege contra el hedor.",
   "levels": [
    {
     "level": 1,
@@ -2262,9 +2262,9 @@
  {
   "id": "adaptability",
   "name": "Adaptability",
-  "nameEs": "",
+  "nameEs": "Adaptabilidad",
   "descEn": "Grants protection against environmental damage, such as from heat or cold.",
-  "descEs": "",
+  "descEs": "Protege contra el daño ambiental, como el calor o el frío.",
   "levels": [
    {
     "level": 1,
@@ -2282,9 +2282,9 @@
  {
   "id": "recovery-up",
   "name": "Recovery Up",
-  "nameEs": "",
+  "nameEs": "Recuperación",
   "descEn": "Increases the amount recovered when restoring health.",
-  "descEs": "",
+  "descEs": "Aumenta la cantidad de salud recuperada al usar un objeto curativo.",
   "levels": [
    {
     "level": 1,
@@ -2307,9 +2307,9 @@
  {
   "id": "recovery-speed",
   "name": "Recovery Speed",
-  "nameEs": "",
+  "nameEs": "Recuperación rápida",
   "descEn": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
-  "descEs": "",
+  "descEs": "Acelera la recuperación de daño recuperable (la parte roja de la barra de salud).",
   "levels": [
    {
     "level": 1,
@@ -2332,9 +2332,9 @@
  {
   "id": "survival-expert",
   "name": "Survival Expert",
-  "nameEs": "",
+  "nameEs": "Experto en supervivencia",
   "descEn": "Extra health is recovered from environmental interactables.",
-  "descEs": "",
+  "descEs": "Recuperas salud adicional cuando interactúas con elementos del entorno.",
   "levels": [
    {
     "level": 1,
@@ -2357,9 +2357,9 @@
  {
   "id": "constitution",
   "name": "Constitution",
-  "nameEs": "",
+  "nameEs": "Constitución",
   "descEn": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
-  "descEs": "",
+  "descEs": "Disminuye el gasto de resistencia al esquivar, bloquear o ejecutar determinadas acciones.",
   "levels": [
    {
     "level": 1,
@@ -2392,9 +2392,9 @@
  {
   "id": "stamina-surge",
   "name": "Stamina Surge",
-  "nameEs": "",
+  "nameEs": "Aguante",
   "descEn": "Speeds up stamina recovery.",
-  "descEs": "",
+  "descEs": "Aumenta la recuperación de resistencia.",
   "levels": [
    {
     "level": 1,
@@ -2417,9 +2417,9 @@
  {
   "id": "marathon-runner",
   "name": "Marathon Runner",
-  "nameEs": "",
+  "nameEs": "Corredor de fondo",
   "descEn": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
-  "descEs": "",
+  "descEs": "Reduce el gasto de resistencia para acciones que la consumen gradualmente (como esprintar).",
   "levels": [
    {
     "level": 1,
@@ -2442,9 +2442,9 @@
  {
   "id": "hunger-resistance",
   "name": "Hunger Resistance",
-  "nameEs": "",
+  "nameEs": "Antihambre",
   "descEn": "Reduces maximum stamina depletion over time.",
-  "descEs": "",
+  "descEs": "Reduce el gasto de resistencia máximo a lo largo del tiempo.",
   "levels": [
    {
     "level": 1,
@@ -2467,9 +2467,9 @@
  {
   "id": "agitator",
   "name": "Agitator",
-  "nameEs": "",
+  "nameEs": "Instigación",
   "descEn": "Increases attack power and affinity when large monsters become enraged.",
-  "descEs": "",
+  "descEs": "Aumenta la fuerza de ataque y la afinidad cuando los monstruos grandes se enfurecen.",
   "levels": [
    {
     "level": 1,
@@ -2502,9 +2502,9 @@
  {
   "id": "latent-power",
   "name": "Latent Power",
-  "nameEs": "",
+  "nameEs": "Poder latente",
   "descEn": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
-  "descEs": "",
+  "descEs": "Aumenta temporalmente la afinidad y reduce el gasto de resistencia al cumplir con ciertas condiciones.",
   "levels": [
    {
     "level": 1,
@@ -2537,9 +2537,9 @@
  {
   "id": "heroics",
   "name": "Heroics",
-  "nameEs": "",
+  "nameEs": "Heroicidad",
   "descEn": "Increases attack power and defense when health drops to 35% or lower.",
-  "descEs": "",
+  "descEs": "Aumenta el poder de ataque y la defensa cuando la salud baja al 35 % o menos.",
   "levels": [
    {
     "level": 1,
@@ -2572,9 +2572,9 @@
  {
   "id": "burst",
   "name": "Burst",
-  "nameEs": "",
+  "nameEs": "Ráfaga",
   "descEn": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)",
-  "descEs": "",
+  "descEs": "Conectar golpes sin pausa potencia gradualmente el ataque/atq. elemental (la bonificación depende del arma).",
   "levels": [
    {
     "level": 1,
@@ -2607,9 +2607,9 @@
  {
   "id": "foray",
   "name": "Foray",
-  "nameEs": "",
+  "nameEs": "Irrupción",
   "descEn": "Increases attack power and affinity against large monsters affected by poison or paralysis.",
-  "descEs": "",
+  "descEs": "Aumenta el poder de ataque y la afinidad contra monstruos grandes afectados por veneno o parálisis.",
   "levels": [
    {
     "level": 1,
@@ -2642,9 +2642,9 @@
  {
   "id": "flayer",
   "name": "Flayer",
-  "nameEs": "",
+  "nameEs": "Desuello",
   "descEn": "Makes it easier to inflict wounds. Can also deal extra non-elemental damage upon buildup. (Excludes some attacks.)",
-  "descEs": "",
+  "descEs": "Facilita infligir heridas. También puede infligir daño extra no elemental si se acumula (salvo con ciertos ataques).",
   "levels": [
    {
     "level": 1,
@@ -2677,9 +2677,9 @@
  {
   "id": "palico-rally",
   "name": "Palico Rally",
-  "nameEs": "",
+  "nameEs": "Mejora de camarada",
   "descEn": "Powers up Palicoes.",
-  "descEs": "",
+  "descEs": "Fortalece a los camaradas.",
   "levels": [
    {
     "level": 1,
@@ -2712,9 +2712,9 @@
  {
   "id": "partbreaker",
   "name": "Partbreaker",
-  "nameEs": "",
+  "nameEs": "Rompepartes",
   "descEn": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
-  "descEs": "",
+  "descEs": "Hace que sea más fácil romper las partes de monstruos grandes y aumenta el daño infligido al rematar una herida.",
   "levels": [
    {
     "level": 1,
@@ -2737,9 +2737,9 @@
  {
   "id": "coalescence",
   "name": "Coalescence",
-  "nameEs": "",
+  "nameEs": "Coalescencia",
   "descEn": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
-  "descEs": "",
+  "descEs": "Aumenta los ataques elementales y los efectos de estado de forma temporal tras recuperarte de plagas y estados alterados.",
   "levels": [
    {
     "level": 1,
@@ -2762,9 +2762,9 @@
  {
   "id": "ambush",
   "name": "Ambush",
-  "nameEs": "",
+  "nameEs": "Emboscada",
   "descEn": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
-  "descEs": "",
+  "descEs": "Aumenta el daño contra monstruos grandes de forma temporal con un ataque sigiloso.",
   "levels": [
    {
     "level": 1,
@@ -2787,9 +2787,9 @@
  {
   "id": "antivirus",
   "name": "Antivirus",
-  "nameEs": "",
+  "nameEs": "Antivirus",
   "descEn": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured.",
-  "descEs": "",
+  "descEs": "Acelera la recuperación cuando contraes el virus de la cólera. Tras curarte, aumenta tu afinidad.",
   "levels": [
    {
     "level": 1,
@@ -2812,9 +2812,9 @@
  {
   "id": "elemental-absorption",
   "name": "Elemental Absorption",
-  "nameEs": "",
+  "nameEs": "Absorción elemental",
   "descEn": "After taking elemental damage, temporarily grants you element effects. (Cooldown after effect ends)",
-  "descEs": "",
+  "descEs": "Da propiedades elementales por un tiempo tras recibir daño elemental. (Reactivable solo tras cierto tiempo).",
   "levels": [
    {
     "level": 1,
@@ -2837,9 +2837,9 @@
  {
   "id": "self-improvement",
   "name": "Self-Improvement",
-  "nameEs": "",
+  "nameEs": "Automejora",
   "descEn": "Attack and defense increase as time passes while on a quest. (The maximum is reached after 30 minutes.)",
-  "descEs": "",
+  "descEs": "El ataque y la defensa aumentan de forma gradual desde que empieza una misión. (El máximo se alcanza pasados 30 minutos).",
   "levels": [
    {
     "level": 1,
@@ -2852,9 +2852,9 @@
  {
   "id": "evade-window",
   "name": "Evade Window",
-  "nameEs": "",
+  "nameEs": "Intervalo de evasión",
   "descEn": "Extends the invulnerability period when evading.",
-  "descEs": "",
+  "descEs": "Prolonga el periodo de invulnerabilidad al esquivar.",
   "levels": [
    {
     "level": 1,
@@ -2887,9 +2887,9 @@
  {
   "id": "evade-extender",
   "name": "Evade Extender",
-  "nameEs": "",
+  "nameEs": "Distancia evasiva",
   "descEn": "Increases evade distance.",
-  "descEs": "",
+  "descEs": "Aumenta la distancia al esquivar.",
   "levels": [
    {
     "level": 1,
@@ -2912,9 +2912,9 @@
  {
   "id": "earplugs",
   "name": "Earplugs",
-  "nameEs": "",
+  "nameEs": "Antirrugidos",
   "descEn": "Grants protection from large monsters&#x27; roars.",
-  "descEs": "",
+  "descEs": "Protege contra los rugidos de monstruos grandes.",
   "levels": [
    {
     "level": 1,
@@ -2937,9 +2937,9 @@
  {
   "id": "quick-sheathe",
   "name": "Quick Sheathe",
-  "nameEs": "",
+  "nameEs": "Envainado veloz",
   "descEn": "Speeds up weapon sheathing.",
-  "descEs": "",
+  "descEs": "Aumenta la velocidad al envainar el arma equipada.",
   "levels": [
    {
     "level": 1,
@@ -2962,9 +2962,9 @@
  {
   "id": "windproof",
   "name": "Windproof",
-  "nameEs": "",
+  "nameEs": "Antiviento",
   "descEn": "Grants protection against wind pressure.",
-  "descEs": "",
+  "descEs": "Protege contra las ráfagas de viento.",
   "levels": [
    {
     "level": 1,
@@ -2987,9 +2987,9 @@
  {
   "id": "tremor-resistance",
   "name": "Tremor Resistance",
-  "nameEs": "",
+  "nameEs": "Antitemblores",
   "descEn": "Grants protection against ground tremors.",
-  "descEs": "",
+  "descEs": "Protege contra los temblores de tierra.",
   "levels": [
    {
     "level": 1,
@@ -3012,9 +3012,9 @@
  {
   "id": "flinch-free",
   "name": "Flinch Free",
-  "nameEs": "",
+  "nameEs": "Firmeza",
   "descEn": "Prevents knockbacks and other reactions to small damage.",
-  "descEs": "",
+  "descEs": "Protege contra reacciones a pequeños ataques, como ser empujado hacia atrás.",
   "levels": [
    {
     "level": 1,
@@ -3037,9 +3037,9 @@
  {
   "id": "intimidator",
   "name": "Intimidator",
-  "nameEs": "",
+  "nameEs": "Intimidador",
   "descEn": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)",
-  "descEs": "",
+  "descEs": "Reduce la probabilidad de que los monstruos pequeños ataquen al verte. (No tiene efecto sobre ciertos monstruos).",
   "levels": [
    {
     "level": 1,
@@ -3062,9 +3062,9 @@
  {
   "id": "speed-eating",
   "name": "Speed Eating",
-  "nameEs": "",
+  "nameEs": "Ingesta rápida",
   "descEn": "Increases meat-eating and item-consumption speed.",
-  "descEs": "",
+  "descEs": "Aumenta la velocidad al comer carne y consumir objetos.",
   "levels": [
    {
     "level": 1,
@@ -3087,9 +3087,9 @@
  {
   "id": "aquaticoilsilt-mobility",
   "name": "Aquatic/Oilsilt Mobility",
-  "nameEs": "",
+  "nameEs": "Movilidad por agua/fango",
   "descEn": "Grants resistance against impairments to mobility while in water, oilsilt, or streams.",
-  "descEs": "",
+  "descEs": "Protege contra penalizaciones a la movilidad mientras estás en el agua, el fango oleoso o los arroyos.",
   "levels": [
    {
     "level": 1,
@@ -3107,18 +3107,18 @@
  {
   "id": "shock-absorber",
   "name": "Shock Absorber",
-  "nameEs": "",
+  "nameEs": "Amortiguador",
   "descEn": "Disables damage reactions when you hit a friend or when a friend hits you.",
-  "descEs": "",
+  "descEs": "Desactiva la reacción al daño cuando golpeas a un aliado o viceversa.",
   "levels": [],
   "colorIndex": 0
  },
  {
   "id": "leap-of-faith",
   "name": "Leap of Faith",
-  "nameEs": "",
+  "nameEs": "Mejora de salto",
   "descEn": "Allows you to do a dive-evade when facing towards large monsters and extends the dive-evade distance.",
-  "descEs": "",
+  "descEs": "Te permite esquivar lanzándote cuando estás de cara a monstruos grandes, y alarga la distancia de esquiva.",
   "levels": [
    {
     "level": 1,
@@ -3131,9 +3131,9 @@
  {
   "id": "jump-master",
   "name": "Jump Master",
-  "nameEs": "",
+  "nameEs": "Experto en salto",
   "descEn": "Prevents attacks from knocking you back during a jump.",
-  "descEs": "",
+  "descEs": "Evita que los ataques te derriben mientras saltas.",
   "levels": [
    {
     "level": 1,
@@ -3146,9 +3146,9 @@
  {
   "id": "cliffhanger",
   "name": "Cliffhanger",
-  "nameEs": "",
+  "nameEs": "Experto en trepar",
   "descEn": "Decreases stamina depletion when climbing on vines.",
-  "descEs": "",
+  "descEs": "Reduce el gasto de resistencia mientras trepas por hiedras.",
   "levels": [
    {
     "level": 1,
@@ -3161,9 +3161,9 @@
  {
   "id": "wide-range",
   "name": "Wide-Range",
-  "nameEs": "",
+  "nameEs": "Efecto área",
   "descEn": "Allows the effects of certain items to also affect nearby allies.",
-  "descEs": "",
+  "descEs": "Permite que el efecto de ciertos objetos también afecte a aliados cercanos.",
   "levels": [
    {
     "level": 1,
@@ -3196,9 +3196,9 @@
  {
   "id": "tool-specialist",
   "name": "Tool Specialist",
-  "nameEs": "",
+  "nameEs": "Experto en herramientas",
   "descEn": "Reduces the recharge time for specialized tools.",
-  "descEs": "",
+  "descEs": "Reduce el tiempo de recarga de las herramientas especializadas.",
   "levels": [
    {
     "level": 1,
@@ -3231,9 +3231,9 @@
  {
   "id": "bombardier",
   "name": "Bombardier",
-  "nameEs": "",
+  "nameEs": "Bombardero",
   "descEn": "Increases the damage of explosive items.",
-  "descEs": "",
+  "descEs": "Aumenta el daño de los objetos explosivos.",
   "levels": [
    {
     "level": 1,
@@ -3256,9 +3256,9 @@
  {
   "id": "mushroomancer",
   "name": "Mushroomancer",
-  "nameEs": "",
+  "nameEs": "Micología",
   "descEn": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
-  "descEs": "",
+  "descEs": "Permite digerir setas no comestibles y beneficiarse de sus efectos.",
   "levels": [
    {
     "level": 1,
@@ -3281,9 +3281,9 @@
  {
   "id": "item-prolonger",
   "name": "Item Prolonger",
-  "nameEs": "",
+  "nameEs": "Duración de objetos",
   "descEn": "Extends the duration of some item effects.",
-  "descEs": "",
+  "descEs": "Aumenta la duración del efecto de algunos objetos.",
   "levels": [
    {
     "level": 1,
@@ -3306,9 +3306,9 @@
  {
   "id": "free-meal",
   "name": "Free Meal",
-  "nameEs": "",
+  "nameEs": "Comida gratis",
   "descEn": "Gives you a predetermined chance of consuming a food or drink item for free.",
-  "descEs": "",
+  "descEs": "Ofrece una probabilidad determinada de consumir un objeto de comida o bebida gratis.",
   "levels": [
    {
     "level": 1,
@@ -3331,9 +3331,9 @@
  {
   "id": "blindsider",
   "name": "Blindsider",
-  "nameEs": "",
+  "nameEs": "Mejora al deslumbrar",
   "descEn": "Improves the effectiveness of flash attacks and items.",
-  "descEs": "",
+  "descEs": "Mejora la efectividad de los ataques y objetos que produzcan destellos.",
   "levels": [
    {
     "level": 1,
@@ -3346,9 +3346,9 @@
  {
   "id": "botanist",
   "name": "Botanist",
-  "nameEs": "",
+  "nameEs": "Botánica",
   "descEn": "Increases the quantity of herbs and other consumable items you gather.",
-  "descEs": "",
+  "descEs": "Aumenta la cantidad de hierbas y otros objetos consumibles que se obtienen al extraer recursos.",
   "levels": [
    {
     "level": 1,
@@ -3376,9 +3376,9 @@
  {
   "id": "geologist",
   "name": "Geologist",
-  "nameEs": "",
+  "nameEs": "Geología",
   "descEn": "Increases the number of items you gain at gathering points.",
-  "descEs": "",
+  "descEs": "Aumenta el número de objetos que obtienes en puntos de recolección.",
   "levels": [
    {
     "level": 1,
@@ -3401,9 +3401,9 @@
  {
   "id": "entomologist",
   "name": "Entomologist",
-  "nameEs": "",
+  "nameEs": "Entomología",
   "descEn": "The bodies of small insect monsters won&#x27;t be destroyed, allowing them to be carved. (Excludes some.)",
-  "descEs": "",
+  "descEs": "Los cuerpos de insectos pequeños no se destruirán, lo que permite despiezarlos (con ciertas excepciones).",
   "levels": [
    {
     "level": 1,
@@ -3416,9 +3416,9 @@
  {
   "id": "outdoorsman",
   "name": "Outdoorsman",
-  "nameEs": "",
+  "nameEs": "Autosuficiente",
   "descEn": "Improves fishing, grilling, and transporting abilities.",
-  "descEs": "",
+  "descEs": "Mejora las habilidades de pesca, parrilla y transporte.",
   "levels": [
    {
     "level": 1,
@@ -3431,9 +3431,9 @@
  {
   "id": "rice-ball",
   "name": "Rice Ball",
-  "nameEs": "",
+  "nameEs": "Onigiri",
   "descEn": "Increases the attack power of Akuma actions and stun damage.",
-  "descEs": "",
+  "descEs": "Aumenta el poder de ataque de Akuma y el daño por aturdimiento.",
   "levels": [
    {
     "level": 1,
@@ -3446,9 +3446,9 @@
  {
   "id": "neopteron-alert",
   "name": "Neopteron Alert",
-  "nameEs": "",
+  "nameEs": "Alerta de Neopteron",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Aumenta la cantidad de miel que obtienes de los puntos de recolección.",
   "levels": [
    {
     "level": 1,
@@ -3461,9 +3461,9 @@
  {
   "id": "neopteron-camouflage",
   "name": "Neopteron Camouflage",
-  "nameEs": "",
+  "nameEs": "Camuflaje de neopteron",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Aumenta la velocidad de movimiento al agacharte y hace que sea más fácil evitar que los monstruos grandes te detecten.",
   "levels": [
    {
     "level": 1,
@@ -3476,9 +3476,9 @@
  {
   "id": "scaling-prowess",
   "name": "Scaling Prowess",
-  "nameEs": "",
+  "nameEs": "Maestría con escamas",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Es más sencillo montar monstruos y herirlos mientras estás sobre ellos.",
   "levels": [
    {
     "level": 1,
@@ -3491,9 +3491,9 @@
  {
   "id": "scale-layering",
   "name": "Scale Layering",
-  "nameEs": "",
+  "nameEs": "Capas de escamas",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Reduce temporalmente el consumo de resistencia cuando la salud esté al 40% o menos.",
   "levels": [
    {
     "level": 1,
@@ -3506,9 +3506,9 @@
  {
   "id": "flexible-leathercraft",
   "name": "Flexible Leathercraft",
-  "nameEs": "",
+  "nameEs": "Cuero flexible",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Aumenta la velocidad de recolección y protege contra los empujes mientras recolectas o despiezas.",
   "levels": [
    {
     "level": 1,
@@ -3521,9 +3521,9 @@
  {
   "id": "buttery-leathercraft",
   "name": "Buttery Leathercraft",
-  "nameEs": "",
+  "nameEs": "Cuero mantecoso",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Aumenta temporalmente tu afinidad cuando se desliza por el terreno.",
   "levels": [
    {
     "level": 1,
@@ -3536,9 +3536,9 @@
  {
   "id": "fortifying-pelt",
   "name": "Fortifying Pelt",
-  "nameEs": "",
+  "nameEs": "Pelaje fortalecedor",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Aumenta ataque y defensa tras desmayarte en una misión. (Puede usarse dos veces.)",
   "levels": [
    {
     "level": 1,
@@ -3551,9 +3551,9 @@
  {
   "id": "alluring-pelt",
   "name": "Alluring Pelt",
-  "nameEs": "",
+  "nameEs": "Pelaje atractivo",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Llamarás más la atención al atacar a un monstruo.",
   "levels": [
    {
     "level": 1,
@@ -3565,10 +3565,10 @@
  },
  {
   "id": "lords-favor",
-  "name": "Lord&#x27;s Favor",
-  "nameEs": "",
+  "name": "Lord's Favor",
+  "nameEs": "Favor del señor",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Potencia el ataque un tiempo al usar efectos tales como efectos de melodías que afecten a compañeros cercanos.",
   "levels": [
    {
     "level": 1,
@@ -3580,10 +3580,10 @@
  },
  {
   "id": "lords-fury",
-  "name": "Lord&#x27;s Fury",
-  "nameEs": "",
+  "name": "Lord's Fury",
+  "nameEs": "Ira del señor",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Potencia el ataque cuando estás bajo el efecto de estados alterados.",
   "levels": [
    {
     "level": 1,
@@ -3595,10 +3595,10 @@
  },
  {
   "id": "guardians-pulse",
-  "name": "Guardian&#x27;s Pulse",
-  "nameEs": "",
+  "name": "Guardian's Pulse",
+  "nameEs": "Pulso de Guardián",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Aumenta la velocidad de recuperación de resistencia y la parte roja de la barra cuando estás cerca de petrowylact.",
   "levels": [
    {
     "level": 1,
@@ -3610,10 +3610,10 @@
  },
  {
   "id": "guardians-protection",
-  "name": "Guardian&#x27;s Protection",
-  "nameEs": "",
+  "name": "Guardian's Protection",
+  "nameEs": "Protección de Guardián",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Cuando estés en las Ruinas de Wyveria, reduce el daño elemental y único.",
   "levels": [
    {
     "level": 1,
@@ -3626,9 +3626,9 @@
  {
   "id": "imparted-wisdom",
   "name": "Imparted Wisdom",
-  "nameEs": "",
+  "nameEs": "Sabiduría impartida",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Aumenta la probabilidad de encontrar puntos de recolección de recursos raros.",
   "levels": [
    {
     "level": 1,
@@ -3640,10 +3640,10 @@
  },
  {
   "id": "lords-soul",
-  "name": "Lord&#x27;s Soul",
-  "nameEs": "",
+  "name": "Lord's Soul",
+  "nameEs": "Alma del amo",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Aumenta el ataque y reduce la defensa, pero te permite sobrevivir a un golpe letal. Después aumenta la defensa y resistencia.",
   "levels": [
    {
     "level": 1,
@@ -3656,9 +3656,9 @@
  {
   "id": "master-of-the-fist",
   "name": "Master of the Fist",
-  "nameEs": "",
+  "nameEs": "Maestro del puño",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Aumenta el poder de los ataques especiales: Los Drive Impact lanzan ataques interceptores. Aumenta más el poder de ataques interceptores.",
   "levels": [
    {
     "level": 1,
@@ -3671,9 +3671,9 @@
  {
   "id": "festival-spirit",
   "name": "Festival Spirit",
-  "nameEs": "",
+  "nameEs": "Espíritu festivo",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Permite despiezar una vez más de lo normal a los monstruos que abatas. (No aplicable si la misión ya ha empezado).",
   "levels": [
    {
     "level": 1,
@@ -3685,10 +3685,10 @@
  },
  {
   "id": "glorys-favor",
-  "name": "Glory&#x27;s Favor",
-  "nameEs": "",
+  "name": "Glory's Favor",
+  "nameEs": "Favor de la gloria",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "3 → Aumenta las recompensas por objetivos de misión. (No sirve si accedes a una misión a medias).",
   "levels": [
    {
     "level": 1,
@@ -3700,10 +3700,10 @@
  },
  {
   "id": "doshagumas-might",
-  "name": "Doshaguma&#x27;s Might",
-  "nameEs": "",
+  "name": "Doshaguma's Might",
+  "nameEs": "Poder Doshaguma",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Potencia el ataque +10 por un tiempo tras un forcejeo o tras un ataque interceptor con éxito.4 → Potencia el ataque +25 por un tiempo tras un forcejeo o tras un ataque interceptor con éxito.",
   "levels": [
    {
     "level": 1,
@@ -3715,10 +3715,10 @@
  },
  {
   "id": "rathaloss-flare",
-  "name": "Rathalos&#x27;s Flare",
-  "nameEs": "",
+  "name": "Rathalos's Flare",
+  "nameEs": "Fulgor de Rathalos",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Da cierta probabilidad de infligir daño adicional de fuego al conectar un golpe.4 → Aumenta el daño de fuego adicional al conectar un golpe.",
   "levels": [
    {
     "level": 1,
@@ -3730,10 +3730,10 @@
  },
  {
   "id": "xu-wus-vigor",
-  "name": "Xu Wu&#x27;s Vigor",
-  "nameEs": "",
+  "name": "Xu Wu's Vigor",
+  "nameEs": "Energía de Xu Wu",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Ataque +15 temporalmente tras haber comido un filete al punto o similares.4 → Ataque +30 temporalmente tras haber comido un filete al punto o similares.",
   "levels": [
    {
     "level": 1,
@@ -3745,10 +3745,10 @@
  },
  {
   "id": "gravioss-protection",
-  "name": "Gravios&#x27;s Protection",
-  "nameEs": "",
+  "name": "Gravios's Protection",
+  "nameEs": "Protección de Gravios",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Reduce el daño que recibes un 20 % cuando tienes la salud al completo.4 → Reduce el daño que recibes un 35 % cuando tienes la salud al completo.",
   "levels": [
    {
     "level": 1,
@@ -3760,10 +3760,10 @@
  },
  {
   "id": "blangongas-spirit",
-  "name": "Blangonga&#x27;s Spirit",
-  "nameEs": "",
+  "name": "Blangonga's Spirit",
+  "nameEs": "Espíritu de Blangonga",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → El gesto ¡hacia la victoria! mejora bastante por un tiempo el ataque de aliados cercanos (sobre todo camaradas/cazadores de apoyo).4 → El gesto ¡hacia la victoria! mejora por un tiempo el ataque de aliados cercanos (esp. camaradas y cazadores de apoyo).",
   "levels": [
    {
     "level": 1,
@@ -3775,10 +3775,10 @@
  },
  {
   "id": "ebony-odogarons-power",
-  "name": "Ebony Odogaron&#x27;s Power",
-  "nameEs": "",
+  "name": "Ebony Odogaron's Power",
+  "nameEs": "Potencia de Odogaron Ébano",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Prolonga la duración de la habilidad \"ráfaga\" y da ataque +8 mientras \"ráfaga\" esté activa.4 → Prolonga más la duración de la habilidad \"ráfaga\" y da ataque +18 mientras \"ráfaga\" esté activa.",
   "levels": [
    {
     "level": 1,
@@ -3790,10 +3790,10 @@
  },
  {
   "id": "fulgur-anjanaths-will",
-  "name": "Fulgur Anjanath&#x27;s Will",
-  "nameEs": "",
+  "name": "Fulgur Anjanath's Will",
+  "nameEs": "Afán de Anjanath Fulgúreo",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Da una barra de resistencia adicional.4 → Da una barra de resistencia larga adicional.",
   "levels": [
    {
     "level": 1,
@@ -3805,10 +3805,10 @@
  },
  {
   "id": "uth-dunas-cover",
-  "name": "Uth Duna&#x27;s Cover",
-  "nameEs": "",
+  "name": "Uth Duna's Cover",
+  "nameEs": "Cobertura de Uth Duna",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Potencia la defensa durante un tiempo cuando usas una herramienta especializada.4 → Potencia mucho la defensa y la resistencia durante un tiempo cuando usas una herramienta especializada.",
   "levels": [
    {
     "level": 1,
@@ -3820,10 +3820,10 @@
  },
  {
   "id": "rey-daus-voltage",
-  "name": "Rey Dau&#x27;s Voltage",
-  "nameEs": "",
+  "name": "Rey Dau's Voltage",
+  "nameEs": "Voltaje de Rey Dau",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Prolonga bastante el tiempo de activación de la habilidad \"poder latente\".4 → Prolonga el tiempo de activación de la habilidad \"poder latente\".",
   "levels": [
    {
     "level": 1,
@@ -3835,10 +3835,10 @@
  },
  {
   "id": "nu-udras-mutiny",
-  "name": "Nu Udra&#x27;s Mutiny",
-  "nameEs": "",
+  "name": "Nu Udra's Mutiny",
+  "nameEs": "Sublevación de Nu Udra",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Inflige bastante daño adicional mientras esté activa la habilidad \"resentimiento\".4 → Inflige daño adicional mientras esté activa la habilidad \"resentimiento\".",
   "levels": [
    {
     "level": 1,
@@ -3850,10 +3850,10 @@
  },
  {
   "id": "jin-dahaads-revolt",
-  "name": "Jin Dahaad&#x27;s Revolt",
-  "nameEs": "",
+  "name": "Jin Dahaad's Revolt",
+  "nameEs": "Rebelión de Jin Dahaad",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Aumenta el ataque tras recuperarte de los estados enmarañado, plaga de escarcha, inmovilización o un forcejeo.4 → Aumenta mucho el ataque tras recuperarte de los estados enmarañado, plaga de escarcha, inmovilización o un forcejeo.",
   "levels": [
    {
     "level": 1,
@@ -3865,10 +3865,10 @@
  },
  {
   "id": "gore-magalas-tyranny",
-  "name": "Gore Magala&#x27;s Tyranny",
-  "nameEs": "",
+  "name": "Gore Magala's Tyranny",
+  "nameEs": "Tiranía de Gore Magala",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Te infecta con la cólera al enfrentarte a monstruos grandes.4 → Te infecta con cólera y potencia el ataque al enfrentarte a monstruos grandes. El ataque aumenta tras recuperarte.",
   "levels": [
    {
     "level": 1,
@@ -3880,10 +3880,10 @@
  },
  {
   "id": "arkvelds-hunger",
-  "name": "Arkveld&#x27;s Hunger",
-  "nameEs": "",
+  "name": "Arkveld's Hunger",
+  "nameEs": "Hambre de Arkveld",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Regenera pequeñas cantidades de salud si atacas continuamente a un monstruo. La salud ganada depende del arma.4 → Regenera tu salud mientras atacas continuamente a un monstruo. La salud ganada depende del arma.",
   "levels": [
    {
     "level": 1,
@@ -3895,10 +3895,10 @@
  },
  {
   "id": "guardian-arkvelds-vitality",
-  "name": "Guardian Arkveld&#x27;s Vitality",
-  "nameEs": "",
+  "name": "Guardian Arkveld's Vitality",
+  "nameEs": "Salud de Arkveld Guardián",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Restablece bastante salud cuando rematas la herida de un monstruo grande.4 → Restablece salud cuando rematas la herida de un monstruo grande.",
   "levels": [
    {
     "level": 1,
@@ -3910,10 +3910,10 @@
  },
  {
   "id": "mizutsunes-prowess",
-  "name": "Mizutsune&#x27;s Prowess",
-  "nameEs": "",
+  "name": "Mizutsune's Prowess",
+  "nameEs": "Poder de Mizutsune",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Evita la plaga de burbujas mayor, y te da plaga de burbujas menor tras esquivar varias veces.4 → Además de los efectos anteriores, mejora las esquivas mientras te afecte una plaga de burbujas menor.",
   "levels": [
    {
     "level": 1,
@@ -3925,10 +3925,10 @@
  },
  {
   "id": "zoh-shias-pulse",
-  "name": "Zoh Shia&#x27;s Pulse",
-  "nameEs": "",
+  "name": "Zoh Shia's Pulse",
+  "nameEs": "Pulso de Zoh Shia",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Permite que la barra de salud se regenere lentamente hasta el máximo, aunque no tenga una parte en rojo.4 → Permite que la barra de salud se regenere hasta el máximo, aunque no tenga una parte en rojo.",
   "levels": [
    {
     "level": 1,
@@ -3941,9 +3941,9 @@
  {
   "id": "blossomdance-prayer",
   "name": "Blossomdance Prayer",
-  "nameEs": "",
+  "nameEs": "Oración de floradanza",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Durante la floradanza, añade objetos especiales a las recompensas de misión. (Sin efecto si te unes a media misión).4 → Durante la floradanza, añade objetos especiales para las recompensas de misión y aumenta bastante el ataque y la defensa.",
   "levels": [
    {
     "level": 1,
@@ -3955,10 +3955,10 @@
  },
  {
   "id": "leviathans-fury",
-  "name": "Leviathan&#x27;s Fury",
-  "nameEs": "",
+  "name": "Leviathan's Fury",
+  "nameEs": "Furia de leviatán",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Aumenta temporalmente la afinidad e inflige daño por rayo adicional al acumularlo. (Excepto algunos ataques).4 → Aumenta aún más el daño por rayo adicional y prolonga bastante el aumento de afinidad.",
   "levels": [
    {
     "level": 1,
@@ -3970,10 +3970,10 @@
  },
  {
   "id": "seregioss-tenacity",
-  "name": "Seregios&#x27;s Tenacity",
-  "nameEs": "",
+  "name": "Seregios's Tenacity",
+  "nameEs": "Tenacidad de Seregios",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Prolonga la subida de adrenalina. Si está activa y se activa de nuevo, prolonga el efecto una vez más.4 → Además, si se activa de nuevo mientras la habilidad está activa, mejora aún más el ataque.",
   "levels": [
    {
     "level": 1,
@@ -3986,9 +3986,9 @@
  {
   "id": "flamefete-prayer",
   "name": "Flamefete Prayer",
-  "nameEs": "",
+  "nameEs": "Oración de chisparranda",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Durante la chisparranda, añade objetos especiales a las recompensas de misión. (Sin efecto si te unes a media misión).4 → Durante la chisparranda, añade objetos especiales a las recompensas de misión y aumenta mucho el ataque y la defensa.",
   "levels": [
    {
     "level": 1,
@@ -4001,9 +4001,9 @@
  {
   "id": "dreamspell-prayer",
   "name": "Dreamspell Prayer",
-  "nameEs": "",
+  "nameEs": "Oración del Sueñiencanto",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Durante el sueñiencanto, añade objetos especiales a las recompensas de misión. (Sin efecto si te unes a mitad de misión).4 → Durante el sueñiencanto, añade objetos especiales a las recompensas de misión y mejora mucho el ataque y la defensa.",
   "levels": [
    {
     "level": 1,
@@ -4016,18 +4016,18 @@
  {
   "id": "lumenhymn-prayer",
   "name": "Lumenhymn Prayer",
-  "nameEs": "",
+  "nameEs": "Oración de iluminario",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Durante el iluminario, agrega objetos especiales a las recompensas de misión. (Sin efecto si te unes a mitad).4 → Durante el iluminario, agrega objetos especiales a las recompensas de misión y mejora mucho el ataque y la defensa.",
   "levels": [],
   "colorIndex": 0
  },
  {
   "id": "soul-of-the-dark-knight",
   "name": "Soul of the Dark Knight",
-  "nameEs": "",
+  "nameEs": "Alma del caballero oscuro",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Tener daño recuperable potencia el ataque elemental y algunos de los tajos cargados de nv. 3 de la gran espada.4 → Te permite realizar la acción especial: la noche más oscura.",
   "levels": [
    {
     "level": 1,
@@ -4040,9 +4040,9 @@
  {
   "id": "omega-resonance",
   "name": "Omega Resonance",
-  "nameEs": "",
+  "nameEs": "Resonancia Omega",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → (Al inicio de misión) Alterna entre resonancia local/remota. Si cumples los requisitos, mejora el ataque o afinidad.4 → Aumenta el efecto de \"resonancia I\" y el efecto de la habilidad de arma \"escudo sintético\", o el efecto de \"sinergia\".",
   "levels": [
    {
     "level": 1,
@@ -4055,9 +4055,9 @@
  {
   "id": "gogmapocalypse",
   "name": "Gogmapocalypse",
-  "nameEs": "",
+  "nameEs": "Gogmapocalipsis",
   "descEn": "/div>",
-  "descEs": "",
+  "descEs": "2 → Aumenta el ataque elemental cuando los monstruos grandes se enfurecen.4 → El efecto de nivel I aumenta y tú obtienes una barrera de daño temporal. (La barrera se reactiva tras la recarga).",
   "levels": [],
   "colorIndex": 0
  }
