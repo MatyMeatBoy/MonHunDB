@@ -1560,3 +1560,8 @@ body {
   margin-right: 3px;
 }
 
+
+[data-i18n-title] {
+  border-bottom: 1px dotted var(--text-dim);
+  cursor: help;
+}
