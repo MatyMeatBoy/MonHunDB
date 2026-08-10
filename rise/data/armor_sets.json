@@ -6527,5 +6527,201 @@
         "name": "Zinogre Greaves X"
       }
     ]
+  },
+  {
+    "name": "Ibushi - Pure Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/ibushi-pure.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "510825380",
+        "name": "Ibushi's Pure Helm"
+      },
+      {
+        "part": "chest",
+        "id": "476222372",
+        "name": "Ibushi's Pure Breastplate"
+      },
+      {
+        "part": "arms",
+        "id": "307401636",
+        "name": "Ibushi's Pure Pauldrons"
+      },
+      {
+        "part": "waist",
+        "id": "272798628",
+        "name": "Ibushi's Pure Fauld"
+      },
+      {
+        "part": "legs",
+        "id": "372413348",
+        "name": "Ibushi's Pure Foot"
+      }
+    ]
+  },
+  {
+    "name": "Narwa - Pure Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/narwa-pure.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "405615482",
+        "name": "Narwa's Pure Helm"
+      },
+      {
+        "part": "chest",
+        "id": "505230202",
+        "name": "Narwa's Pure Breastplate"
+      },
+      {
+        "part": "arms",
+        "id": "470627194",
+        "name": "Narwa's Pure Pauldrons"
+      },
+      {
+        "part": "waist",
+        "id": "335360890",
+        "name": "Narwa's Pure Fauld"
+      },
+      {
+        "part": "legs",
+        "id": "300757882",
+        "name": "Narwa's Pure Foot"
+      }
+    ]
+  },
+  {
+    "name": "Jaggi Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/jaggi-set.png",
+    "pieces": [
+      {
+        "part": "arms",
+        "id": "1977328197",
+        "name": "Jaggi Gauntlets"
+      },
+      {
+        "part": "arms",
+        "id": "1237033541",
+        "name": "Jaggi Shinguards"
+      },
+      {
+        "part": "head",
+        "id": "1007758176",
+        "name": "Jaggi Mask"
+      }
+    ]
+  },
+  {
+    "name": "Jaggi S Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/jaggi-s-set.png",
+    "pieces": [
+      {
+        "part": "arms",
+        "id": "1992102522",
+        "name": "Jaggi Gauntlets S"
+      },
+      {
+        "part": "arms",
+        "id": "1251807866",
+        "name": "Jaggi Shinguards S"
+      },
+      {
+        "part": "head",
+        "id": "1055562497",
+        "name": "Jaggi Mask S"
+      }
+    ]
+  },
+  {
+    "name": "Jaggi X Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/jaggi-x-set.png",
+    "pieces": [
+      {
+        "part": "arms",
+        "id": "128508435",
+        "name": "Jaggi Gauntlets X"
+      },
+      {
+        "part": "arms",
+        "id": "461955603",
+        "name": "Jaggi Shinguards X"
+      },
+      {
+        "part": "head",
+        "id": "687007347",
+        "name": "Jaggi Mask X"
+      }
+    ]
+  },
+  {
+    "name": "Droth Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/droth.png",
+    "pieces": [
+      {
+        "part": "chest",
+        "id": "2025726301",
+        "name": "Droth Mail"
+      },
+      {
+        "part": "waist",
+        "id": "2090738013",
+        "name": "Droth Coil"
+      },
+      {
+        "part": "legs",
+        "id": "1921917277",
+        "name": "Droth Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Droth S Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/droth-s.png",
+    "pieces": [
+      {
+        "part": "chest",
+        "id": "2039976306",
+        "name": "Droth Mail S"
+      },
+      {
+        "part": "waist",
+        "id": "2104988018",
+        "name": "Droth Coil S"
+      },
+      {
+        "part": "legs",
+        "id": "1936167282",
+        "name": "Droth Greaves S"
+      }
+    ]
+  },
+  {
+    "name": "Droth X Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/droth-x.png",
+    "pieces": [
+      {
+        "part": "chest",
+        "id": "220602775",
+        "name": "Droth Mail X"
+      },
+      {
+        "part": "waist",
+        "id": "17179031",
+        "name": "Droth Coil X"
+      },
+      {
+        "part": "legs",
+        "id": "16130455",
+        "name": "Droth Greaves X"
+      }
+    ]
   }
 ]
