@@ -70,25 +70,38 @@ function parseSetPage(html, title) {
   if (bonusM) {
     out.setBonus = [...bonusM[1].matchAll(/([A-Za-z][A-Za-z '&+\-]+?) (?:x|Lv)(\d+)/g)].map(x => ({ name: clean(x[1]), threshold: parseInt(x[2]) }));
   }
-  // pieces: rows after "is comprised of 5 pieces" / table rows
-  const pieces = [];
-  const pieceSection = html.match(/The [A-Za-z ()]+ is comprised of 5 pieces[\s\S]*?<table[\s\S]*?<tbody>([\s\S]*?)<\/tbody>/);
-  if (pieceSection) {
-    for (const tr of pieceSection[1].matchAll(/<tr>([\s\S]*?)<\/tr>/g)) {
-      const cells = [...tr[1].matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/g)].map(x => clean(x[1]));
-      if (!cells.length) continue;
-      const name = cells[0];
-      if (!name || /Piece &|Icon/i.test(name)) continue;
-      // cells: name, defense, fire, water, thunder, ice, dragon, slots(, skill, deco?)
-      const num = (s) => { const v = parseInt(s); return isNaN(v) ? null : v; };
+  // pieces: table after "is comprised of 5 pieces" or "Set Pieces"
+  // Pattern: Piece & Icon {Name} {Defense} {Fire} {Water} {Thunder} {Ice} {Dragon}
+  // Use text extraction instead of table parsing
+  const txt = html.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').replace(/&amp;/g, '&');
+  const piecesIdx = txt.search(/Piece\s*&?\s*Icon\s*(?:G\s*)?([A-Z][a-z]+)\s+(\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)/i);
+  if (piecesIdx >= 0) {
+    const pieceRe = /\b([A-Z][A-Za-z0-9 '&-]+?)\s+(Alpha|Beta|Gamma)?\s+(\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)/g;
+    let pm;
+    const pieceNames = new Set();
+    // Restrict to the area after "Piece & Icon" and before next h2/h1 or end of content
+    const section = txt.slice(piecesIdx, piecesIdx + 10000);
+    while ((pm = pieceRe.exec(section))) {
+      let name = pm[1].trim();
+      if (pieceNames.has(name)) continue;
+      pieceNames.add(name);
+      const def = parseInt(pm[3]) || 0;
       pieces.push({
         name,
-        defense: num(cells[1]),
-        res: { fire: num(cells[2]), water: num(cells[3]), thunder: num(cells[4]), ice: num(cells[5]), dragon: num(cells[6]) },
-        slots: cells[7] ? cells[7].split(',').map(s => num(s)).filter(x => x !== null) : [],
-        rest: cells.slice(8).join(' '),
+        defense: def,
+        res: {
+          fire: parseInt(pm[4]) || 0,
+          water: parseInt(pm[5]) || 0,
+          thunder: parseInt(pm[6]) || 0,
+          ice: parseInt(pm[7]) || 0,
+          dragon: parseInt(pm[8]) || 0,
+        },
+        slots: [],
       });
     }
+    // dedupe and limit to 5 pieces per set
+    if (pieces.length > 5) pieces.splice(5);
+  }
   }
   out.pieces = pieces;
   return out;

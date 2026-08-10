@@ -1306,13 +1306,18 @@ body {
 .ailment-item summary::-webkit-details-marker { display: none; }
 
 .ailment-item summary::after {
-  content: "â–¾";
-  color: var(--text-dim);
-  font-size: 0.75rem;
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid var(--text-dim);
   margin-left: 0.4rem;
+  transition: transform 0.15s ease;
 }
 
-.ailment-item details[open] summary::after { content: "â–´"; }
+.ailment-item details[open] summary::after { transform: rotate(180deg); }
 
 .buildup-bars {
   padding: 0 0.6rem 0.6rem;
@@ -1531,11 +1536,17 @@ body {
 }
 .decoration-material-sources summary::-webkit-details-marker { display: none; }
 .decoration-material-sources summary::after {
-  content: "â–¾";
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid var(--text-dim);
   margin-left: 0.35rem;
-  font-size: 0.7rem;
+  transition: transform 0.15s ease;
 }
-.decoration-material-sources[open] summary::after { content: "â–´"; }
+.decoration-material-sources[open] summary::after { transform: rotate(180deg); }
 .decoration-material-sources .gs-source-row { margin-top: 0.4rem; }
 
 @media (max-width: 560px) {

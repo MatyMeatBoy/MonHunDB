@@ -2801,7 +2801,12 @@
   "slotLevel": 1,
   "description": "A decoration that grants the Mind&#x27;s Eye skill.",
   "descriptionEs": "",
-  "skills": [],
+  "skills": [
+   {
+    "name": "Mind's Eye",
+    "level": 1
+   }
+  ],
   "materials": []
  },
  {
@@ -2811,7 +2816,12 @@
   "slotLevel": 2,
   "description": "A decoration that grants the Mind&#x27;s Eye skill.",
   "descriptionEs": "",
-  "skills": [],
+  "skills": [
+   {
+    "name": "Mind's Eye",
+    "level": 1
+   }
+  ],
   "materials": []
  },
  {
@@ -2821,7 +2831,12 @@
   "slotLevel": 3,
   "description": "A decoration that grants the Mind&#x27;s Eye skill.",
   "descriptionEs": "",
-  "skills": [],
+  "skills": [
+   {
+    "name": "Mind's Eye",
+    "level": 1
+   }
+  ],
   "materials": []
  },
  {
@@ -2876,7 +2891,12 @@
   "slotLevel": 3,
   "description": "A decoration that grants the Master&#x27;s Touch skill.",
   "descriptionEs": "",
-  "skills": [],
+  "skills": [
+   {
+    "name": "Master's Touch",
+    "level": 1
+   }
+  ],
   "materials": []
  },
  {
@@ -2901,7 +2921,12 @@
   "slotLevel": 3,
   "description": "A decoration that enhances the Piercing Shots skill.",
   "descriptionEs": "",
-  "skills": [],
+  "skills": [
+   {
+    "name": "Piercing Shots",
+    "level": 1
+   }
+  ],
   "materials": []
  },
  {
