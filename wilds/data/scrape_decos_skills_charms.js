@@ -23,67 +23,55 @@ function get(url) {
 }
 
 function parseDecorations(html) {
-  // Each item: <a href="/data/decorations/slug">Name [N]</a> <p>Description</p>
   const decos = [];
-  const pattern = /<a[^>]*href="\/data\/decorations\/([^"]+)"[^>]*>([^<]+)<\/a>[\s\S]*?<p[^>]*>([^<]+)<\/p>/g;
+  // table rows: <td><a href="/data/decorations/slug"><span>Name</span></a></td><td><span>Desc</span></td>
+  const rowRe = /<tr[^>]*>[\s\S]*?<td[^>]*>[\s\S]*?<a[^>]*href="\/data\/decorations\/([^"]+)"[^>]*>[\s\S]*?(?:<span[^>]*>)?([^<]+)(?:<\/span>)?<\/a>[\s\S]*?<\/td>[\s\S]*?<td[^>]*>[\s\S]*?(?:<span[^>]*>)?([^<]*)(?:<\/span>)?<\/td>[\s\S]*?<\/tr>/gi;
   let m;
-  while ((m = pattern.exec(html))) {
-    const [, slug, nameRaw, desc] = m;
+  while ((m = rowRe.exec(html))) {
+    const [, slug, nameRaw, descRaw] = m;
     const name = nameRaw.replace(/&amp;/g, '&').replace(/&#x27;/g, "'").trim();
+    const desc = descRaw.trim();
+    if (!name) continue;
     const slotM = name.match(/\[(\d+)\]/);
     const slot = slotM ? parseInt(slotM[1]) : 1;
-    const id = slug;
-    // Extract skill names from description
     const skills = [];
-    // "A decoration that grants the X skill." or "A decoration that grants the X and Y skills."
-    const skillM = desc.match(/grants the ([A-Za-z '&+/-]+?(?:\s+and\s+[A-Za-z '&+/-]+?)?)\s+skills?\./);
+    const skillM = desc.match(/grants the ([A-Za-z '&+\-\/]+?(?:\s+and\s+[A-Za-z '&+\-\/]+?)?)\s+skills?\./);
     if (skillM) {
-      const names = skillM[1].split(/\s+and\s+/);
-      names.forEach(n => skills.push({ name: n.trim(), level: 1 }));
+      skillM[1].split(/\s+and\s+/).forEach(n => skills.push({ name: n.trim(), level: 1 }));
     }
-    decos.push({ id, name, nameEs: '', slotLevel: slot, description: desc, descriptionEs: '', skills, materials: [] });
+    decos.push({ id: slug, name, nameEs: '', slotLevel: slot, description: desc, descriptionEs: '', skills, materials: [] });
   }
   console.log('decorations:', decos.length);
-  // verify by slot
   for (const sl of [1,2,3,4]) console.log('  slot', sl, ':', decos.filter(d => d.slotLevel === sl).length);
   return decos;
 }
 
 function parseSkills(html) {
-  // Each skill link: <a href="/data/skills/slug">Name</a> <p>description</p>
   const skills = [];
-  const pattern = /<a[^>]*href="\/data\/skills\/([^"]+)"[^>]*>([^<]+)<\/a>\s*<\/h\d>\s*<p[^>]*>([^<]+)<\/p>/gi;
+  // table rows: <td><a href="/data/skills/slug"><span>Name</span></a></td><td>desc</td>
+  const rowRe = /<tr[^>]*>[\s\S]*?<td[^>]*>[\s\S]*?<a[^>]*href="\/data\/skills\/([^"]+)"[^>]*>[\s\S]*?(?:<span[^>]*>)?([^<]+)(?:<\/span>)?<\/a>[\s\S]*?<\/td>[\s\S]*?<td[^>]*>[\s\S]*?(?:<span[^>]*>)?([^<]*)(?:<\/span>)?<\/td>[\s\S]*?<\/tr>/gi;
   let m;
-  while ((m = pattern.exec(html))) {
-    const [, slug, name, desc] = m;
-    const id = slug;
-    skills.push({ id, name: name.trim(), nameEs: '', descEn: desc.trim(), descEs: '', levels: [], colorIndex: 0 });
-  }
-  // fallback: simpler pattern for just links
-  if (!skills.length) {
-    const pattern2 = /<a[^>]*href="\/data\/skills\/([^"]+)"[^>]*>([^<]+)<\/a>/gi;
-    while ((m = pattern2.exec(html))) {
-      const [, slug, name] = m;
-      if (!skills.find(s => s.id === slug)) {
-        skills.push({ id: slug, name: name.trim(), nameEs: '', descEn: '', descEs: '', levels: [], colorIndex: 0 });
-      }
-    }
+  while ((m = rowRe.exec(html))) {
+    const [, slug, nameRaw, descRaw] = m;
+    const name = nameRaw.replace(/&amp;/g, '&').trim();
+    const desc = descRaw.trim();
+    if (!name) continue;
+    skills.push({ id: slug, name, nameEs: '', descEn: desc, descEs: '', levels: [], colorIndex: 0 });
   }
   console.log('skills:', skills.length);
   return skills;
 }
 
 function parseCharms(html) {
-  // Each charm link: <a href="/data/charms/slug">Name</a>
   const charms = [];
-  const pattern = /<a[^>]*href="\/data\/charms\/([^"]+)"[^>]*>([^<]+)<\/a>/gi;
+  // table rows: <td><a href="/data/charms/slug"><span>Name</span></a></td>
+  const rowRe = /<tr[^>]*>[\s\S]*?<td[^>]*>[\s\S]*?<a[^>]*href="\/data\/charms\/([^"]+)"[^>]*>[\s\S]*?(?:<span[^>]*>)?([^<]+)(?:<\/span>)?<\/a>[\s\S]*?<\/td>[\s\S]*?<\/tr>/gi;
   let m;
-  while ((m = pattern.exec(html))) {
-    const [, slug, name] = m;
-    const id = slug;
-    // slot and skills can be derived from name? Charms in Wilds don't show skills in list page
-    // Just capture basic info; details would need individual page visits
-    charms.push({ id, name: name.trim(), nameEs: '', rarity: 0, skills: [], materials: [], decoSlots: [] });
+  while ((m = rowRe.exec(html))) {
+    const [, slug, nameRaw] = m;
+    const name = nameRaw.replace(/&amp;/g, '&').trim();
+    if (!name) continue;
+    charms.push({ id: slug, name, nameEs: '', rarity: 0, skills: [], materials: [], decoSlots: [] });
   }
   console.log('charms:', charms.length);
   return charms;
