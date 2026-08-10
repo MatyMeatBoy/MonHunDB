@@ -752,7 +752,7 @@ const ARMOR_SET_IMG_OVERRIDES = {
   "Primordial Set": "primordial", "Risen Kaiser Set": "risen-kaiser", "Risen Kushala Set": "risen-kushala",
   "Risen Mizuha Set": "risen-mizuha",
   "Squire's Set": "knight-squire", "Knight Squire Set": "knight-squire",
-  "Scholar's Set": "scholar", "Scholarly Set": "scholar",
+  "Scholar's Set": "scholar", "Scholarly Set": "scholarly-set",
   "Golm Set": "garangolm", "Garangolm Set": "garangolm",
   "Rakna Set": "rakna-kadaki", "Rakna X Set": "rakna-kadaki-x", "Rakna-Kadaki X Set": "rakna-kadaki-x",
   "Utsushi Set": "utsushi-visible", "Utsushi True Set": "utsushi-true-visible", "Utsushi True (Hidden) Set": "utsushi-true-hidden", "Utsushi True (Visible) Set": "utsushi-true-visible", "Utsushi (Hidden) Set": "utsushi-hidden", "Utsushi (Visible) Set": "utsushi-visible",
@@ -1813,11 +1813,15 @@ function renderArmorIndex(query) {
     </div>`;
   }
   const partialGroups = !q ? buildPartialArmorGroups() : buildPartialArmorGroups().filter(g => normalizeSearch(g.prefix).includes(q));
-  if (partialGroups.length) {
+  // Exclude partial groups that are already covered by explicit or implied sets
+  const allSetNames = new Set(explicitNames);
+  for (const s of implied) allSetNames.add(armorSetDisplayName(s.prefix));
+  const filteredPartial = partialGroups.filter(g => !allSetNames.has(armorSetDisplayName(g.prefix)));
+  if (filteredPartial.length) {
     html += `<div class="decorations-slot-group">
       <h3 class="decorations-slot-heading">${ui("armorPartialSets")}</h3>
       <div class="decorations-grid">
-        ${partialGroups.map(g => `
+        ${filteredPartial.map(g => `
           <button type="button" class="decoration-card armor-set-card" data-implied="${g.prefix}">
             <img class="armor-set-thumb" src="${armorSetImg(armorSetDisplayName(g.prefix))}" alt="" loading="lazy" onerror="this.style.display='none'">
             <span class="decoration-card-name">${armorSetDisplayName(g.prefix)}</span>
