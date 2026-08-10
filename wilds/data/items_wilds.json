@@ -573,7 +573,7 @@
  },
  {
   "name": "Jeweled Mullet Roe",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4b/Jeweled_mullet_roe_item_special_items_other_mhwilds_wiki_guide_25px.png/20px-Jeweled_mullet_roe_item_special_items_other_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Fish_Icon_Orange.png"
  },
  {
   "name": "Krano Copper",
@@ -2429,15 +2429,15 @@
  },
  {
   "name": "Royal Felyne Emblem",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8e/Royal_felyne_emblem_item_equipment_material_mhwilds_wiki_guide_85px.png/65px-Royal_felyne_emblem_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Coin_Icon_Blue.png"
  },
  {
   "name": "Gala Suit Ticket",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4a/Gala_suit_ticket_item_equipment_material_mhwilds_wiki_guide_85px.png/65px-Gala_suit_ticket_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.png"
  },
  {
   "name": "Azure Stargem",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f3/Azure_stargem_item_equipment_material_mhwilds_wiki_guide_85px.png/65px-Azure_stargem_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Blue.png"
  },
  {
   "name": "Blossom Ticket",
