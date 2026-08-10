@@ -1712,7 +1712,15 @@ let armorSetPieceIds = null;
 function getArmorSetPieceIds() {
   if (!armorSetPieceIds) {
     armorSetPieceIds = new Set();
-    for (const s of armorSets) for (const p of s.pieces) armorSetPieceIds.add(p.id);
+    const names = new Set();
+    for (const s of armorSets) for (const p of s.pieces) {
+      armorSetPieceIds.add(p.id);
+      names.add(p.name.toLowerCase());
+    }
+    // Also include M/F variant duplicates (different ID, same name)
+    for (const ap of armorPieces) {
+      if (names.has(ap.name.toLowerCase())) armorSetPieceIds.add(ap.id);
+    }
   }
   return armorSetPieceIds;
 }
@@ -1766,7 +1774,12 @@ function renderArmorIndex(query) {
     .filter(g => g.pieces.some(p => p.materials && p.materials.length && p.defense));
   const usedIds = getArmorSetPieceIds();
   for (const g of implied) for (const p of g.pieces) usedIds.add(p.id);
-  const looseMatches = armorPieces.filter(p => !usedIds.has(p.id) && (!q ||
+  // Also exclude pieces whose name matches one already in an explicit or implied set
+  // (handles M/F duplicates with different IDs but same name)
+  const usedNames = new Set();
+  for (const s of setMatches) for (const p of s.pieces) usedNames.add(p.name.toLowerCase());
+  for (const g of implied) for (const p of g.pieces) usedNames.add(p.name.toLowerCase());
+  const looseMatches = armorPieces.filter(p => !usedIds.has(p.id) && !usedNames.has(p.name.toLowerCase()) && (!q ||
     normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q)))
     .filter(p => p.materials && p.materials.length && p.defense);
 
