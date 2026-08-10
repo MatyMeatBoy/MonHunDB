@@ -24,15 +24,17 @@ async function main() {
   const html = await get('https://mhwilds.kiranico.com/data/weapons');
   fs.writeFileSync(path.join(__dirname, 'weapons_raw.html'), html);
 
-  // Parse table rows: <td><a href="/data/weapons/slug"><span>Name</span></a></td><td>...</td>
+  // Parse ALL weapon links
   const weapons = [];
-  const rowRe = /<tr[^>]*>[\s\S]*?<a[^>]*href="\/data\/weapons\/([^"]+)"[^>]*>[\s\S]*?(?:<span[^>]*>)?([^<]+)(?:<\/span>)?<\/a>/gi;
+  const rowRe = /href="\/data\/weapons\/([^"]+)"[^>]*>([^<]+)</gi;
   let m;
   const seen = new Set();
   while ((m = rowRe.exec(html))) {
     const slug = m[1];
-    const name = m[2].replace(/&amp;/g, '&').replace(/&#x27;/g, "'").trim();
-    if (!name || seen.has(slug)) continue;
+    let name = m[2].replace(/&amp;/g, '&').replace(/&#x27;/g, "'").trim();
+    // skip if the link text contains common nav text
+    if (!name || /Database|Monster Hunter|Toggle theme|English/i.test(name)) continue;
+    if (seen.has(slug)) continue;
     seen.add(slug);
     weapons.push({ id: slug, name, nameEs: '', type: '', attack: 0, rarity: 0, element: null, materials: [], icon: '' });
   }
