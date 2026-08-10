@@ -750,7 +750,11 @@ function armorSetPrefix(name) {
   }
   n = n.replace(/^Pukei-Pukei(?! X)/, "Pukei");
   if (suffix === " X") n = n.replace(/^Pukei$/, "Pukei-Pukei");
-  n = n.replace(/^Kadachi/, "Tobi-Kadachi").replace(/^Lecturer's$/, "Lecturer").replace(/^Holy Ire/, "Divine Ire");
+  // same base/S-vs-X asymmetry as Pukei-Pukei above: Fextralife calls the
+  // base and S sets just "Kadachi Set"/"Kadachi S Set", only the X tier is
+  // "Tobi-Kadachi X Set" -- confirmed against the live wiki pages, not a guess
+  if (suffix === " X") n = n.replace(/^Kadachi$/, "Tobi-Kadachi");
+  n = n.replace(/^Lecturer's$/, "Lecturer").replace(/^Holy Ire/, "Divine Ire");
   return (n.trim() + suffix).trim() + vSuffix;
 }
 
@@ -795,7 +799,7 @@ const ARMOR_SET_IMG_OVERRIDES = {
   "Utsushi Set": "utsushi-visible", "Utsushi True Set": "utsushi-true-visible", "Utsushi True (Hidden) Set": "utsushi-true-hidden", "Utsushi True (Visible) Set": "utsushi-true-visible", "Utsushi (Hidden) Set": "utsushi-hidden", "Utsushi (Visible) Set": "utsushi-visible",
   "S. Studded Set": "", "S. Studded S Set": "", "S. Studded X Set": "",
   "Pukei-Pukei X Set": "pukei-pukei-x", "Pukei-Pukei Set": "pukei", "Pukei-Pukei S Set": "pukei-s",
-  "Tobi-Kadachi Set": "tobi-kadachi-x", "Tobi-Kadachi S Set": "tobi-kadachi-x", "Tobi-Kadachi X Set": "tobi-kadachi-x",
+  "Kadachi Set": "kadachi-set", "Kadachi S Set": "kadachi-set", "Tobi-Kadachi X Set": "tobi-kadachi-x",
 };
 const ARMOR_SET_DISPLAY_MAP = { "S. Studded": "Shell Studded", "Squire's": "Knight Squire", "Scholar's": "Scholar", "Golm": "Garangolm", "Rakna": "Rakna-Kadaki", "Artillery Corps": "Royal Artillery Corps", "Chaotic": "Chaotic Gore Magala", "Gore": "Gore Magala", "Hoplite's": "Heavy Knight", "Professor's": "Professor", "Regios": "Seregios", "Outpost HQ": "Base Commander", "Ibushi's": "Ibushi", "Ibushi's Pure": "Ibushi - Pure", "Narwa's": "Narwa", "Narwa's Pure": "Narwa - Pure", "Lecturer": "Lecture", "Lecturer's": "Lecture", "Divine Ire": "Grand Divine Ire", "Channeler's": "Channeler", "Channeler's (Spring)": "Channeler (Spring)", "Medium's": "Medium", "Medium's (Light)": "Medium (Light)", "Charité": "Charite" };
 function armorSetDisplayName(prefix) {
