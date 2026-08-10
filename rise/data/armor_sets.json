@@ -6983,6 +6983,11 @@
         "name": "Mizuha Guards"
       },
       {
+        "part": "arms",
+        "id": "1125196621",
+        "name": "Mizuha Sleeves"
+      },
+      {
         "part": "waist",
         "id": "1090593613",
         "name": "Mizuha Sash"
@@ -7148,27 +7153,27 @@
     "pieces": [
       {
         "part": "head",
-        "id": "1527976646",
+        "id": "92959486",
         "name": "Grand Mizuha Mask"
       },
       {
         "part": "chest",
-        "id": "1558460678",
+        "id": "461009662",
         "name": "Grand Mizuha Guards"
       },
       {
         "part": "arms",
-        "id": "1523857670",
+        "id": "426406654",
         "name": "Grand Mizuha Sleeves"
       },
       {
         "part": "waist",
-        "id": "1489254662",
+        "id": "526021374",
         "name": "Grand Mizuha Sash"
       },
       {
         "part": "legs",
-        "id": "1454651654",
+        "id": "491418366",
         "name": "Grand Mizuha Leg Wrap"
       }
     ]

@@ -300,15 +300,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Rathian Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "23%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "30%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 50%"
     },
     {
      "material": "Rathian Carapace",
@@ -322,9 +322,9 @@
     {
      "material": "Rathian Webbing",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "33%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -334,7 +334,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 80%",
      "dropped": ""
     },
     {
@@ -349,7 +349,7 @@
     {
      "material": "Rathian Ruby",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -367,7 +367,7 @@
     {
      "material": "Rathian Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -380,7 +380,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 65%"
     },
     {
      "material": "Wyverian Bloodstone",
@@ -841,15 +841,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Rathalos Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "23%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "30%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 50%"
     },
     {
      "material": "Rathalos Carapace",
@@ -863,9 +863,9 @@
     {
      "material": "Rathalos Wing",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "33%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -875,7 +875,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 80%",
      "dropped": ""
     },
     {
@@ -890,7 +890,7 @@
     {
      "material": "Rathalos Ruby",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -908,7 +908,7 @@
     {
      "material": "Rathalos Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -921,7 +921,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 45%"
     },
     {
      "material": "Wyverian Bloodstone",
@@ -1387,15 +1387,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Guardian Rathalos Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "23%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "33%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 45%"
     },
     {
      "material": "Guardian Rathalos Carapace",
@@ -1409,9 +1409,9 @@
     {
      "material": "Guardian Rathalos Wing",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "30%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -1421,13 +1421,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 93%",
      "dropped": ""
     },
     {
      "material": "Guardian Rathalos Ruby",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -1448,7 +1448,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Carve Crystalized Carcass: 83%",
      "dropped": ""
     },
     {
@@ -1481,7 +1481,7 @@
     {
      "material": "G. Rathalos Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -1503,7 +1503,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 45%"
     },
     {
      "material": "Wyverian Bloodstone",
@@ -2087,22 +2087,22 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Gravios Carapace",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "21%",
      "capture": "",
-     "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "breakParts": "60%, 60%, 60%",
+     "carves": "30%, Cuerpo podrido: 40%, Parte cortada: 78%, Parte cortada podrida: 100%",
+     "dropped": "Herida: 80%"
     },
     {
      "material": "Gravios Wing",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "21%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -2111,7 +2111,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -2120,7 +2120,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -2136,7 +2136,7 @@
     {
      "material": "Wyvern Gem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -2172,7 +2172,7 @@
     {
      "material": "Gravios Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -2185,7 +2185,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 45%"
     },
     {
      "material": "Wyverian Bloodstone",
@@ -2649,15 +2649,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Kut-Ku Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "23%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "30%, Cuerpo podrido: 40%",
+     "dropped": "Herida: 50%"
     },
     {
      "material": "Kut-Ku Carapace",
@@ -2671,7 +2671,7 @@
     {
      "material": "Kut-Ku Wing",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "33%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -2682,7 +2682,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -2698,7 +2698,7 @@
     {
      "material": "Bird Wyvern Gem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -2716,7 +2716,7 @@
     {
      "material": "Yian Kut-Ku Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -2729,7 +2729,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 50%"
     },
     {
      "material": "Wyverian Bloodstone (S)",
@@ -3191,15 +3191,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Rubbery Hide+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "26%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "33%, Cuerpo podrido: 40%",
+     "dropped": "Herida: 45%"
     },
     {
      "material": "Gypceros Wing",
@@ -3213,7 +3213,7 @@
     {
      "material": "Gypceros Tail",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "38%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -3224,14 +3224,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "70%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Bird Wyvern Gem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -3267,7 +3267,7 @@
     {
      "material": "Gypceros Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -3280,7 +3280,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 50%"
     },
     {
      "material": "Wyverian Bloodstone (S)",
@@ -3727,15 +3727,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Congalala Pelt+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "31%",
      "capture": "",
-     "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "breakParts": "100%",
+     "carves": "33%, Cuerpo podrido: 40%",
+     "dropped": "Herida: 100%"
     },
     {
      "material": "Congalala Fang+",
@@ -3749,9 +3749,9 @@
     {
      "material": "Congalala Claw+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "54%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -3760,14 +3760,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Beast Gem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -3785,7 +3785,7 @@
     {
      "material": "Congalala Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -3798,7 +3798,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 50%"
     },
     {
      "material": "Wyverian Bloodstone (S)",
@@ -4247,15 +4247,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Blangonga Pelt+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "31%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "33%, Cuerpo podrido: 40%",
+     "dropped": "Herida: 100%"
     },
     {
      "material": "Blangonga Whisker",
@@ -4269,9 +4269,9 @@
     {
      "material": "Blangonga Fang+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "54%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -4280,14 +4280,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Beast Gem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -4305,7 +4305,7 @@
     {
      "material": "Blangonga Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -4318,7 +4318,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 45%"
     },
     {
      "material": "Wyverian Bloodstone",
@@ -4848,15 +4848,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Lagiacrus Hide+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "25%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "23%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 50%"
     },
     {
      "material": "Lagiacrus Scale+",
@@ -4870,9 +4870,9 @@
     {
      "material": "Lagiacrus Claw+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "27%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -4881,7 +4881,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -4890,7 +4890,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -4900,13 +4900,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 100%",
      "dropped": ""
     },
     {
      "material": "Lagiacrus Sapphire",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -4924,7 +4924,7 @@
     {
      "material": "Lagiacrus Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -4937,7 +4937,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 85%"
     },
     {
      "material": "Wyverian Bloodstone Chunk",
@@ -5856,15 +5856,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Nerscylla Carapace",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "23%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "35%, Cuerpo podrido: 40%",
+     "dropped": "Herida: 63%"
     },
     {
      "material": "Nerscylla Shear",
@@ -5878,18 +5878,18 @@
     {
      "material": "Nerscylla Claw+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "41%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Nerscylla Spike+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -5907,14 +5907,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Nerscylla Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -5927,7 +5927,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 65%"
     },
     {
      "material": "Wyverian Bloodstone",
@@ -6577,15 +6577,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Gore Magala Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "24%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "24%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 38%"
     },
     {
      "material": "Gore Magala Carapace",
@@ -6599,7 +6599,7 @@
     {
      "material": "Gore Magala Ripclaw+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "25%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -6610,7 +6610,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -6620,7 +6620,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 93%",
      "dropped": ""
     },
     {
@@ -6628,14 +6628,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Gore Magala Nyctgem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -6653,7 +6653,7 @@
     {
      "material": "Gore Magala Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -6666,7 +6666,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 70%"
     },
     {
      "material": "Wyverian Bloodstone (L)",
@@ -7158,15 +7158,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Seregios Slavescale",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "25%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "23%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 50%"
     },
     {
      "material": "Seregios Airblade",
@@ -7180,9 +7180,9 @@
     {
      "material": "Seregios Carver",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "27%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -7191,7 +7191,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -7200,7 +7200,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -7210,13 +7210,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 100%",
      "dropped": ""
     },
     {
      "material": "Seregios Dissenter",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -7234,7 +7234,7 @@
     {
      "material": "Seregios Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -7247,7 +7247,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 85%"
     },
     {
      "material": "Wyverian Bloodstone Chunk",
@@ -8162,15 +8162,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Gogmazios Rampart",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "24%, Cuerpo podrido: 50%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 40%"
     },
     {
      "material": "Gogmazios Fiberwing",
@@ -8186,7 +8186,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -8195,7 +8195,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -8205,7 +8205,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 98%, Parte cortada podrida: 40%",
      "dropped": ""
     },
     {
@@ -8213,7 +8213,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -8222,7 +8222,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -8232,7 +8232,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 2%",
      "dropped": ""
     },
     {
@@ -8240,14 +8240,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%, 100%, 100%, 100%, 100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Gogmazios Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -8260,7 +8260,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 85%"
     },
     {
      "material": "Wyverian Bloodstone Chunk",
@@ -8812,29 +8812,29 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Mizutsune Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "24%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "24%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 30%"
     },
     {
      "material": "Mizutsune Purplefur+",
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Bubblefoam+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "25%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -8845,7 +8845,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -8854,7 +8854,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -8864,13 +8864,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 94%",
      "dropped": ""
     },
     {
      "material": "Mizutsune Water Orb",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -8888,7 +8888,7 @@
     {
      "material": "Mizutsune Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -8901,7 +8901,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 85%"
     },
     {
      "material": "Wyverian Bloodstone Chunk",
@@ -9535,15 +9535,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Guardian Fulgur Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "23%",
      "capture": "",
-     "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "breakParts": "100%, 100%",
+     "carves": "30%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 45%"
     },
     {
      "material": "Guardian Fulgur Pelt+",
@@ -9557,9 +9557,9 @@
     {
      "material": "Guardian Fulgur Fang+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "33%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "30%",
      "carves": "",
      "dropped": ""
     },
@@ -9578,13 +9578,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 93%",
      "dropped": ""
     },
     {
      "material": "Guardian Fulgur Gem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -9605,7 +9605,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Carve Crystalized Carcass: 83%",
      "dropped": ""
     },
     {
@@ -9638,7 +9638,7 @@
     {
      "material": "Guardian Fulgur Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -9651,7 +9651,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 45%"
     },
     {
      "material": "Wyverian Bloodstone",
@@ -10304,31 +10304,31 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Guardian Ebony Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "20%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "30%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 45%"
     },
     {
      "material": "Guardian Ebony Sinew+",
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Guardian Ebony Claw+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "27%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -10337,7 +10337,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -10347,13 +10347,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 93%",
      "dropped": ""
     },
     {
      "material": "Guardian Ebony Gem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -10374,7 +10374,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Carve Crystalized Carcass: 83%",
      "dropped": ""
     },
     {
@@ -10407,7 +10407,7 @@
     {
      "material": "G. Ebony Odogaron Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -10438,7 +10438,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 45%"
     },
     {
      "material": "Wyverian Bloodstone",
@@ -10881,22 +10881,22 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Doshaguma Hide+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "31%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "33%, Cuerpo podrido: 40%",
+     "dropped": "Herida: 50%"
     },
     {
      "material": "Doshaguma Fur+",
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -10912,16 +10912,16 @@
     {
      "material": "Doshaguma Claw+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "54%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Beast Gem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -10939,7 +10939,7 @@
     {
      "material": "Doshaguma Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -10952,7 +10952,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 45%"
     },
     {
      "material": "Wyverian Bloodstone",
@@ -11406,29 +11406,29 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Guardian Doshaguma Hide+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "26%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "33%, Cuerpo podrido: 40%",
+     "dropped": "Herida: 45%"
     },
     {
      "material": "Guardian Doshaguma Fur+",
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Guardian Doshaguma Fang+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "38%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -11439,14 +11439,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Beast Gem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -11467,7 +11467,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Carve Crystalized Carcass: 83%",
      "dropped": ""
     },
     {
@@ -11500,7 +11500,7 @@
     {
      "material": "G. Doshaguma Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -11522,7 +11522,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 45%"
     },
     {
      "material": "Wyverian Bloodstone",
@@ -11980,15 +11980,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Balahara Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "23%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "30%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 48%"
     },
     {
      "material": "Balahara Carapace",
@@ -12002,9 +12002,9 @@
     {
      "material": "Balahara Skull+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "45%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "80%",
      "carves": "",
      "dropped": ""
     },
@@ -12014,7 +12014,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 93%",
      "dropped": ""
     },
     {
@@ -12029,7 +12029,7 @@
     {
      "material": "Wyvern Gem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -12047,7 +12047,7 @@
     {
      "material": "Balahara Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -12069,7 +12069,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 65%"
     },
     {
      "material": "Wyverian Bloodstone",
@@ -12626,15 +12626,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Chatacabra Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "31%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "35%, Cuerpo podrido: 40%",
+     "dropped": "Herida: 50%"
     },
     {
      "material": "Chatacabra Hide+",
@@ -12648,7 +12648,7 @@
     {
      "material": "Chatacabra Jaw+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "60%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -12657,9 +12657,9 @@
     {
      "material": "Chatacabra Carapace",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -12675,7 +12675,7 @@
     {
      "material": "Chatacabra Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -12688,7 +12688,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 50%"
     },
     {
      "material": "Wyverian Bloodstone (S)",
@@ -13128,15 +13128,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Quematrice Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "26%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "30%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 45%"
     },
     {
      "material": "Quematrice Hide+",
@@ -13150,7 +13150,7 @@
     {
      "material": "Quematrice Igniter+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "55%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -13161,7 +13161,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -13171,13 +13171,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 93%",
      "dropped": ""
     },
     {
      "material": "Wyvern Gem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -13186,7 +13186,7 @@
     {
      "material": "Quematrice Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -13199,7 +13199,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 50%"
     },
     {
      "material": "Wyverian Bloodstone (S)",
@@ -13737,15 +13737,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Lala Barina Floret+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "23%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "33%, Cuerpo podrido: 40%",
+     "dropped": "Herida: 45%"
     },
     {
      "material": "Lala Barina Carapace",
@@ -13759,7 +13759,7 @@
     {
      "material": "Lala Barina Mucus+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "34%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -13770,16 +13770,16 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Lala Barina Stinger+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -13795,7 +13795,7 @@
     {
      "material": "Lala Barina Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -13808,7 +13808,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 50%"
     },
     {
      "material": "Wyverian Bloodstone (S)",
@@ -14321,15 +14321,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Rompopolo Hide+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "26%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "33%, Cuerpo podrido: 40%",
+     "dropped": "Herida: 80%"
     },
     {
      "material": "Rompopolo Beak+",
@@ -14343,9 +14343,9 @@
     {
      "material": "Rompopolo Claw+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "38%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -14354,14 +14354,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "60%, 60%, 60%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Wyvern Gem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -14379,7 +14379,7 @@
     {
      "material": "Rompopolo Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -14392,7 +14392,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 50%"
     },
     {
      "material": "Wyverian Bloodstone (S)",
@@ -14848,15 +14848,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Rey Dau Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "26%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "30%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 50%"
     },
     {
      "material": "Rey Dau Carapace",
@@ -14870,9 +14870,9 @@
     {
      "material": "Rey Dau Fulgurtalon",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "36%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -14881,7 +14881,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -14891,13 +14891,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 93%",
      "dropped": ""
     },
     {
      "material": "Rey Dau Boltgem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -14915,7 +14915,7 @@
     {
      "material": "Rey Dau Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -14937,7 +14937,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 70%"
     },
     {
      "material": "Wyverian Bloodstone (L)",
@@ -15712,15 +15712,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Uth Duna Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "20%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "30%, Cuerpo podrido: 40%",
+     "dropped": "Herida: 45%"
     },
     {
      "material": "Uth Duna Hide+",
@@ -15734,9 +15734,9 @@
     {
      "material": "Uth Duna Cilia+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "24%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "93%",
      "carves": "",
      "dropped": ""
     },
@@ -15745,7 +15745,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -15754,14 +15754,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Uth Duna Watergem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -15779,7 +15779,7 @@
     {
      "material": "Uth Duna Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -15801,7 +15801,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 70%"
     },
     {
      "material": "Wyverian Bloodstone (L)",
@@ -16594,15 +16594,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Nu Udra Hide+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "26%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "30%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 45%"
     },
     {
      "material": "Nu Udra Oilmucus+",
@@ -16616,7 +16616,7 @@
     {
      "material": "Nu Udra Spike+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "24%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -16628,7 +16628,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 60%",
      "dropped": ""
     },
     {
@@ -16636,14 +16636,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Nu Udra Flamegem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -16652,7 +16652,7 @@
     {
      "material": "Nu Udra Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -16674,7 +16674,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 70%"
     },
     {
      "material": "Wyverian Bloodstone (L)",
@@ -17255,15 +17255,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Ajarakan Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "26%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "30%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 45%"
     },
     {
      "material": "Ajarakan Carapace",
@@ -17277,7 +17277,7 @@
     {
      "material": "Ajarakan Jewel+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "24%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -17288,7 +17288,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -17298,13 +17298,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 93%",
      "dropped": ""
     },
     {
      "material": "Ajarakan Medulla",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -17322,7 +17322,7 @@
     {
      "material": "Ajarakan Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -17344,7 +17344,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 45%"
     },
     {
      "material": "Wyverian Bloodstone",
@@ -17895,15 +17895,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Arkveld Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "23%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "30%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 45%"
     },
     {
      "material": "Arkveld Armorplate",
@@ -17917,7 +17917,7 @@
     {
      "material": "White Arkveld Pelt",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "33%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -17928,7 +17928,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -17938,13 +17938,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 93%",
      "dropped": ""
     },
     {
      "material": "Arkveld Gem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -17964,14 +17964,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Arkveld Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -17984,7 +17984,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 85%"
     },
     {
      "material": "Wyverian Bloodstone Chunk",
@@ -18966,15 +18966,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Hirabami Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "26%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "33%, Cuerpo podrido: 40%",
+     "dropped": "Herida: 45%"
     },
     {
      "material": "Hirabami Hide+",
@@ -18988,9 +18988,9 @@
     {
      "material": "Hirabami Webbing+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "38%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -18999,14 +18999,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Wyvern Gem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -19024,7 +19024,7 @@
     {
      "material": "Hirabami Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -19037,7 +19037,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 65%"
     },
     {
      "material": "Wyverian Bloodstone",
@@ -19675,15 +19675,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Jin Dahaad Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "23%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "30%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 50%"
     },
     {
      "material": "Jin Dahaad Carapace",
@@ -19697,9 +19697,9 @@
     {
      "material": "Jin Dahaad Claw+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "33%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%, 100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -19708,7 +19708,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -19718,13 +19718,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 93%",
      "dropped": ""
     },
     {
      "material": "Jin Dahaad Icegem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -19744,14 +19744,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%, 88%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Jin Dahaad Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -19764,7 +19764,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 70%"
     },
     {
      "material": "Wyverian Bloodstone (L)",
@@ -20306,31 +20306,31 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Xu Wu Hide+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "26%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "30%, Cuerpo podrido: 60%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 50%"
     },
     {
      "material": "Golden Corneum+",
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "93%",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Xu Wu Claw+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "24%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -20339,7 +20339,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -20349,13 +20349,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 95%",
      "dropped": ""
     },
     {
      "material": "Xu Wu Umbragem",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -20364,7 +20364,7 @@
     {
      "material": "Xu Wu Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -20386,7 +20386,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": ""
+     "dropped": "Tempered Herida: 45%"
     },
     {
      "material": "Wyverian Bloodstone",
@@ -21222,15 +21222,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Zoh Shia Crystalscale",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "24%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "24%, Cuerpo podrido: 40%, Parte cortada podrida: 60%",
+     "dropped": "Herida: 40%"
     },
     {
      "material": "Zoh Shia Layershell",
@@ -21244,9 +21244,9 @@
     {
      "material": "Zoh Shia Stakeclaw",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "25%",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -21255,7 +21255,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -21264,7 +21264,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -21274,13 +21274,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Parte cortada: 93%",
      "dropped": ""
     },
     {
      "material": "Faux Whitegleam Orb",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "100%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -21298,7 +21298,7 @@
     {
      "material": "Zoh Shia Certificate S",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -22059,15 +22059,15 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Omega Screw",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
-     "dropped": ""
+     "carves": "28%, Cuerpo podrido: 50%",
+     "dropped": "Herida: 40%"
     },
     {
      "material": "Omega Spring",
@@ -22083,7 +22083,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%, 100%, 100%, 100%",
      "carves": "",
      "dropped": ""
     },
@@ -22092,7 +22092,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -22101,7 +22101,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "",
+     "breakParts": "100%",
      "carves": "",
      "dropped": ""
     },
@@ -22117,7 +22117,7 @@
     {
      "material": "Omega Data 1.0",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "8%",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -22269,14 +22269,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Vespoid Carapace",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "30%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "42%",
      "dropped": ""
     },
     {
@@ -22294,7 +22294,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     },
     {
@@ -22468,14 +22468,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Conga Pelt+",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "50%",
      "dropped": ""
     },
     {
@@ -22484,7 +22484,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     }
    ]
@@ -22646,14 +22646,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Blango Pelt+",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "50%",
      "dropped": ""
     },
     {
@@ -22662,7 +22662,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     }
    ]
@@ -22827,14 +22827,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Herbivore Carapace",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "70%",
      "dropped": ""
     },
     {
@@ -22852,7 +22852,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     }
    ]
@@ -23011,14 +23011,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Raw Meat",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "70%",
      "dropped": ""
     },
     {
@@ -23036,7 +23036,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     }
    ]
@@ -23200,14 +23200,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Raw Meat",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "100%",
      "dropped": ""
     },
     {
@@ -23216,7 +23216,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     }
    ]
@@ -23381,14 +23381,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Raw Meat",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "100%",
      "dropped": ""
     },
     {
@@ -23397,7 +23397,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     }
    ]
@@ -23583,14 +23583,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Bulaqchi Carapace",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "30%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "100%",
      "dropped": ""
     },
     {
@@ -23599,7 +23599,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     },
     {
@@ -23776,14 +23776,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Talioth Scale+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "30%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "70%",
      "dropped": ""
     },
     {
@@ -23801,7 +23801,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     },
     {
@@ -23978,14 +23978,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Wingdrake Hide+",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "100%",
      "dropped": ""
     },
     {
@@ -23994,7 +23994,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     },
     {
@@ -24162,14 +24162,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Acute Fang",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "100%",
      "dropped": ""
     },
     {
@@ -24178,7 +24178,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     }
    ]
@@ -24338,14 +24338,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Piragill Fin+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "30%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "70%",
      "dropped": ""
     },
     {
@@ -24363,7 +24363,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     },
     {
@@ -24540,14 +24540,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Wingdrake Hide+",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "100%",
      "dropped": ""
     },
     {
@@ -24556,7 +24556,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     }
    ]
@@ -24721,14 +24721,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Kranodath Skull+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "30%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "75%",
      "dropped": ""
     },
     {
@@ -24746,7 +24746,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     },
     {
@@ -24933,14 +24933,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Comaqchi Carapace",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "30%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "100%",
      "dropped": ""
     },
     {
@@ -24949,7 +24949,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     },
     {
@@ -25128,14 +25128,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Raw Meat",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "100%",
      "dropped": ""
     },
     {
@@ -25144,7 +25144,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     }
    ]
@@ -25303,14 +25303,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Raw Meat",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "75%",
      "dropped": ""
     },
     {
@@ -25319,7 +25319,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     }
    ]
@@ -25481,14 +25481,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Acute Fang",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "75%",
      "dropped": ""
     },
     {
@@ -25497,7 +25497,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     }
    ]
@@ -25640,14 +25640,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Monster Broth",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "100%, Cuerpo podrido: 100%",
      "dropped": ""
     }
    ]
@@ -25806,14 +25806,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Guardian Seikret Feather+",
      "rarity": null,
-     "targetReward": "",
+     "targetReward": "30%",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "70%",
      "dropped": ""
     },
     {
@@ -25831,7 +25831,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Cuerpo podrido: 100%",
      "dropped": ""
     },
     {
@@ -25840,7 +25840,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "Carve Crystalized Carcass: 50%",
      "dropped": ""
     },
     {
@@ -26008,14 +26008,14 @@
    }
   ],
   "materials": {
-   "high": [
+   "High Rank": [
     {
      "material": "Omega Screw",
      "rarity": null,
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "20%, Cuerpo podrido: 20%",
      "dropped": ""
     },
     {
@@ -26024,7 +26024,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "",
+     "carves": "80%, Cuerpo podrido: 80%",
      "dropped": ""
     }
    ]
