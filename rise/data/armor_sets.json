@@ -6870,5 +6870,37 @@
         "name": "Uroktor Coil X"
       }
     ]
+  },
+  {
+    "name": "Royal Artillery Corps Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/royal-artillery.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "486129265",
+        "name": "Artillery Corps Helm"
+      },
+      {
+        "part": "chest",
+        "id": "317308529",
+        "name": "Artillery Corps Vest"
+      },
+      {
+        "part": "arms",
+        "id": "282705521",
+        "name": "Artillery Corps Gauntlets"
+      },
+      {
+        "part": "waist",
+        "id": "382320241",
+        "name": "Artillery Corps Tassets"
+      },
+      {
+        "part": "legs",
+        "id": "347717233",
+        "name": "Artillery Corps Greaves"
+      }
+    ]
   }
 ]
