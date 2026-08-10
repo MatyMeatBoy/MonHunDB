@@ -2887,10 +2887,7 @@ const NEWS = [
     titleKey: "newsV04Title",
     textKey: "newsV04Text",
     bulletsKey: "newsV04Bullets",
-    imageHtml: () => `
-      <img src="data/images/armor_sets/rathalos-x-set.png" alt="" loading="lazy">
-      <img src="data/images/armor_sets/zinogre-set-x.png" alt="" loading="lazy">
-    `,
+    imageHtml: () => newsSilhouettePreviewHtml(),
   },
   {
     id: "v03",
