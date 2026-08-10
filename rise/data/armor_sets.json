@@ -2211,7 +2211,7 @@
   {
     "name": "Sinister Grudge Set",
     "image": "",
-    "localImage": null,
+    "localImage": "data/images/armor_sets/sinister-grudge-set.png",
     "pieces": [
       {
         "part": "head",
