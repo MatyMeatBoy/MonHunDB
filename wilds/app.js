@@ -1533,24 +1533,24 @@ function decoSlotsTag(levels) {
 }
 function getWeaponChain(w) {
   if (weaponParentOf && weaponsByNameNorm) {
-    // normal upgrade branch: ancestors + descendants that share the weapon's
-    // family. Cross-tree unlock links (a different-family parent/child) are NOT
-    // part of this branch -- they're reported separately via getWeaponCrossLinks().
+    // The real tree (data/weapon_tree.json, scraped from Fextralife's
+    // genuinely nested per-branch HTML -- see scrape_weapon_tree_fextralife.js)
+    // only ever contains true within-branch parent/child pairs, so no
+    // "same family" guard is needed here (unlike Rise's heuristic-derived
+    // links, which could cross branches). Wilds also frequently renames the
+    // final weapon in a branch to something sharing no name tokens with its
+    // parent (e.g. "Hope Blade V" -> "Esperanza Blade") -- a token-overlap
+    // filter would wrongly cut the chain right before the final weapon.
     const key = normalizeWeaponName(w.name);
-    const sameFam = (a, b) => {
-      const wa = weaponsByNameNorm.get(a), wb = weaponsByNameNorm.get(b);
-      return wa && wb ? weaponSameFamily(wa, wb) : false;
-    };
     const anc = [];
     let cur = key, guard = 0;
     while (weaponParentOf.has(cur) && guard++ < 60) {
       const p = weaponParentOf.get(cur);
-      if (!sameFam(p, cur)) break;
       anc.unshift(p);
       cur = p;
     }
     const desc = [];
-    const dfs = (n) => { for (const c of (weaponChildrenOf.get(n) || [])) { if (sameFam(c, n)) { desc.push(c); dfs(c); } } };
+    const dfs = (n) => { for (const c of (weaponChildrenOf.get(n) || [])) { desc.push(c); dfs(c); } };
     dfs(key);
     const names = anc.concat([key], desc);
     return names.map(n => weaponsByNameNorm.get(n)).filter(Boolean);
