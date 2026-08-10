@@ -6902,5 +6902,147 @@
         "name": "Artillery Corps Greaves"
       }
     ]
+  },
+  {
+    "name": "Risen Mizuha Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/risen-mizuha.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "733524129",
+        "name": "Risen Mizuha Headdress"
+      },
+      {
+        "part": "chest",
+        "id": "698921121",
+        "name": "Risen Mizuha Robes"
+      },
+      {
+        "part": "arms",
+        "id": "798535841",
+        "name": "Risen Mizuha Sleeves"
+      },
+      {
+        "part": "waist",
+        "id": "763932833",
+        "name": "Risen Mizuha Sash"
+      },
+      {
+        "part": "legs",
+        "id": "595112097",
+        "name": "Risen Mizuha Gaiters"
+      }
+    ]
+  },
+  {
+    "name": "Risen Kaiser Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/risen-kaiser.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1433096295",
+        "name": "Risen Kaiser Horns"
+      },
+      {
+        "part": "chest",
+        "id": "727404647",
+        "name": "Risen Kaiser Mail"
+      },
+      {
+        "part": "arms",
+        "id": "692801639",
+        "name": "Risen Kaiser Braces"
+      },
+      {
+        "part": "waist",
+        "id": "792416359",
+        "name": "Risen Kaiser Coil"
+      },
+      {
+        "part": "legs",
+        "id": "757813351",
+        "name": "Risen Kaiser Cuisse"
+      }
+    ]
+  },
+  {
+    "name": "Mizuha Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/mizuha.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1328620365",
+        "name": "Mizuha Cap"
+      },
+      {
+        "part": "arms",
+        "id": "1294017357",
+        "name": "Mizuha Guards"
+      },
+      {
+        "part": "waist",
+        "id": "1090593613",
+        "name": "Mizuha Sash"
+      },
+      {
+        "part": "legs",
+        "id": "1089545037",
+        "name": "Mizuha Gaiters"
+      }
+    ]
+  },
+  {
+    "name": "Slagtoth Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/slagtoth.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1956537025",
+        "name": "Slagtoth Hood"
+      },
+      {
+        "part": "chest",
+        "id": "1250845377",
+        "name": "Slagtoth Cloak"
+      }
+    ]
+  },
+  {
+    "name": "Slagtoth S Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/slagtoth-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1970787046",
+        "name": "Slagtoth Hood S"
+      },
+      {
+        "part": "chest",
+        "id": "1265095398",
+        "name": "Slagtoth Cloak S"
+      }
+    ]
+  },
+  {
+    "name": "Slagtoth X Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/slagtoth-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1983069",
+        "name": "Slagtoth Hood X"
+      },
+      {
+        "part": "chest",
+        "id": "101597789",
+        "name": "Slagtoth Cloak X"
+      }
+    ]
   }
 ]

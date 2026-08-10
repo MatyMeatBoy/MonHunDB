@@ -806,12 +806,12 @@ function buildImpliedArmorGroups() {
   // dedupe by prefix+pieces: armor_pieces.json lists some sets twice (Rakna,
   // Utsushi, Valstrax, Mosgharl, Ibushi's, Narwa's, Golden, etc.) and hide
   // layered-armor-only sets (Swallow, Sonic, Floral, Buff, Elgado, ...)
+  // dedupe by prefix only (M/F variants produce duplicate groups with different IDs)
   const seen = new Set();
   impliedArmorGroupsCache = groups.filter(g => {
     if (ARMOR_SET_HIDDEN.has(g.prefix)) return false;
-    const k = g.prefix + "|" + g.pieces.map(x => x.id).sort().join(",");
-    if (seen.has(k)) return false;
-    seen.add(k);
+    if (seen.has(g.prefix)) return false;
+    seen.add(g.prefix);
     return true;
   });
   return impliedArmorGroupsCache;
