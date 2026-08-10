@@ -16,7 +16,16 @@ const MANIFEST_PATH = path.join(__dirname, 'item_icon_manifest.json');
 const items = JSON.parse(fs.readFileSync(ITEMS_PATH, 'utf8'));
 const manifest = {};
 for (const it of items) {
-  if (it.icon) manifest[it.name] = it.icon;
+  if (!it.icon) continue;
+  manifest[it.name] = it.icon;
+  // monsters.json's material rows spell the "+" tier as a literal "+"
+  // ("Blangonga Fang+"), never as items_wilds.json's "Plus" word -- alias
+  // both forms so itemIconSrcWilds() (which is fed either spelling
+  // depending on caller) resolves regardless of which one it's given.
+  if (/\s+Plus$/i.test(it.name)) {
+    const plusForm = it.name.replace(/\s+Plus$/i, '+');
+    if (!manifest[plusForm]) manifest[plusForm] = it.icon;
+  }
 }
 
 fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 1));

@@ -236,10 +236,15 @@ function navSkill(idOrName) {
 function normalizeSearch(s) {
   // strip accents, then "+" (ex. "Attack Jewel+ 4") so a query typed without
   // it ("attack jewel 4") still matches -- most people don't type the plus.
+  // Also strip the standalone word "plus" the same way, since some data
+  // (items_wilds.json) spells the same tier "Attack Jewel Plus" instead of
+  // "Attack Jewel+" -- typing either "attack jewel" or "attack jewel plus"
+  // should find it regardless of which form the underlying record uses.
   // Greek α/β (used in armor tier names, ex. "Quematrice β Set") map to
   // "alpha"/"beta" so typing the English word still finds them.
   return (s || "").normalize("NFD").replace(new RegExp("[\\u0300-\\u036f]", "g"), "")
-    .toLowerCase().replace(/\+/g, " ").replace(/α/g, "alpha").replace(/β/g, "beta")
+    .toLowerCase().replace(/\+/g, " ").replace(/\bplus\b/g, " ")
+    .replace(/α/g, "alpha").replace(/β/g, "beta")
     .replace(/\s+/g, " ").trim();
 }
 
