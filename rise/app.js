@@ -835,9 +835,11 @@ function buildPartialArmorGroups() {
     }
   }
   // exclude sets already fully represented (implied groups use the same pieces)
-  // and hide layered-armor-only sets
+  // and hide layered-armor-only sets. Also exclude sets that have an explicit
+  // entry in armor_sets.json to prevent duplicates.
   const fullKeys = new Set(buildImpliedArmorGroups().map(g => g.prefix));
-  partialArmorGroupsCache = partial.filter(g => !fullKeys.has(g.prefix) && !ARMOR_SET_HIDDEN.has(g.prefix));
+  const explicitPrefixes = new Set(armorSets.map(s => s.name.replace(/\s+Set$/i, "")));
+  partialArmorGroupsCache = partial.filter(g => !fullKeys.has(g.prefix) && !explicitPrefixes.has(g.prefix) && !ARMOR_SET_HIDDEN.has(g.prefix));
   return partialArmorGroupsCache;
 }
 
