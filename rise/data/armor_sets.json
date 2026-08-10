@@ -6819,5 +6819,56 @@
         "name": "Golden Lunegreaves"
       }
     ]
+  },
+  {
+    "name": "Uroktor Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/uroktor.png",
+    "pieces": [
+      {
+        "part": "chest",
+        "id": "2053685523",
+        "name": "Uroktor Torso"
+      },
+      {
+        "part": "waist",
+        "id": "2118697235",
+        "name": "Uroktor Coil"
+      }
+    ]
+  },
+  {
+    "name": "Uroktor S Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/uroktor-s.png",
+    "pieces": [
+      {
+        "part": "chest",
+        "id": "2067935536",
+        "name": "Uroktor Torso S"
+      },
+      {
+        "part": "waist",
+        "id": "2132947248",
+        "name": "Uroktor Coil S"
+      }
+    ]
+  },
+  {
+    "name": "Uroktor X Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/uroktor-x.png",
+    "pieces": [
+      {
+        "part": "chest",
+        "id": "268407220",
+        "name": "Uroktor Torso X"
+      },
+      {
+        "part": "waist",
+        "id": "64983476",
+        "name": "Uroktor Coil X"
+      }
+    ]
   }
 ]
