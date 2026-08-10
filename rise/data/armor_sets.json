@@ -7326,5 +7326,51 @@
         "name": "Bullfango Mask S"
       }
     ]
+  },
+  {
+    "name": "Gargwa S Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/gargwa-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1271214880",
+        "name": "Gargwa Mask S"
+      }
+    ]
+  },
+  {
+    "name": "Chrome Metal Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/chrome-metal.png",
+    "pieces": [
+      {
+        "part": "waist",
+        "id": "161659855",
+        "name": "Chrome Metal Coil"
+      },
+      {
+        "part": "legs",
+        "id": "261274575",
+        "name": "Chrome Metal Boots"
+      }
+    ]
+  },
+  {
+    "name": "Chrome Metal Set X",
+    "image": "",
+    "localImage": "data/images/armor_sets/chrome-metal-x.png",
+    "pieces": [
+      {
+        "part": "waist",
+        "id": "641668764",
+        "name": "Chrome Metal Coil X"
+      },
+      {
+        "part": "legs",
+        "id": "607065756",
+        "name": "Chrome Metal Boots X"
+      }
+    ]
   }
 ]
