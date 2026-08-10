@@ -1553,3 +1553,10 @@ body {
 .weapon-cross-line { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin: 0.4rem 0; }
 .weapon-cross-link { display: inline-flex; align-items: center; gap: 0.35rem; cursor: pointer; }
 
+.defense-icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
