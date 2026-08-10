@@ -949,6 +949,9 @@ function escapeAttr(str) {
 }
 function wrapXn(str) {
   if (!str) return str;
+  // Normalize: remove redundant x1, convert bare xN to [xN]
+  str = str.replace(/\bx1\b/g, "").replace(/\s+/g, " ").trim();
+  str = str.replace(/\bx(\d+)\b/g, "[x$1]");
   return str.replace(/\(x(\d+)\)|\[x(\d+)\]/g, (whole, a, b) => {
     const n = a || b;
     return `<span class="gs-xn" title="${escapeAttr(I18N.ui[lang].gsXnTooltip(n))}">(x${n})</span>`;
