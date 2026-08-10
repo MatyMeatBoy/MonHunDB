@@ -7389,5 +7389,78 @@
         "name": "Chaos Archplate"
       }
     ]
+  },
+  {
+    "name": "Grand Chaos Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/grand-chaos.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1630207382",
+        "name": "Grand Chaoshroom"
+      },
+      {
+        "part": "chest",
+        "id": "1729822102",
+        "name": "Grand Chaos Plate"
+      }
+    ]
+  },
+  {
+    "name": "Gargwa X Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/gargwa-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "121967292",
+        "name": "Gargwa Mask X"
+      }
+    ]
+  },
+  {
+    "name": "Bullfango Mask X Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/bullfango-mask-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "226197969",
+        "name": "Bullfango Mask X"
+      }
+    ]
+  },
+  {
+    "name": "Crimson Valstrax - Epoch Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/crimson-valstrax-eclipse.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1552103353",
+        "name": "Valstrax Helm - Epoch"
+      },
+      {
+        "part": "chest",
+        "id": "1383282617",
+        "name": "Valstrax Mail - Epoch"
+      },
+      {
+        "part": "arms",
+        "id": "1348679609",
+        "name": "Valstrax Braces - Epoch"
+      },
+      {
+        "part": "waist",
+        "id": "1448294329",
+        "name": "Valstrax Coil - Epoch"
+      },
+      {
+        "part": "legs",
+        "id": "1413691321",
+        "name": "Valstrax Greaves - Epoch"
+      }
+    ]
   }
 ]
