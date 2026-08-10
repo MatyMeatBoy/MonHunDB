@@ -70,38 +70,41 @@ function parseSetPage(html, title) {
   if (bonusM) {
     out.setBonus = [...bonusM[1].matchAll(/([A-Za-z][A-Za-z '&+\-]+?) (?:x|Lv)(\d+)/g)].map(x => ({ name: clean(x[1]), threshold: parseInt(x[2]) }));
   }
-  // pieces: table after "is comprised of 5 pieces" or "Set Pieces"
-  // Pattern: Piece & Icon {Name} {Defense} {Fire} {Water} {Thunder} {Ice} {Dragon}
-  // Use text extraction instead of table parsing
-  const txt = html.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').replace(/&amp;/g, '&');
-  const piecesIdx = txt.search(/Piece\s*&?\s*Icon\s*(?:G\s*)?([A-Z][a-z]+)\s+(\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)/i);
-  if (piecesIdx >= 0) {
-    const pieceRe = /\b([A-Z][A-Za-z0-9 '&-]+?)\s+(Alpha|Beta|Gamma)?\s+(\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)/g;
+  // pieces: table after "Piece & Icon" (strip the header from text)
+  const pieces = [];
+  const txt = html.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').replace(/&amp;/g, '&').replace(/--/g, '0').replace(/Piece\s*&?\s*Icon\s*/gi, '');
+  // find the piece table area: starts near "comprised of 5 pieces" or "Set Pieces"
+  let start = 0;
+  const markers = [/is comprised of 5 pieces/i, /Set Pieces\s+The/i, /shown below/i];
+  for (const re of markers) {
+    const m = txt.match(re);
+    if (m) { start = Math.max(start, m.index - 20); }
+  }
+  const section = txt.slice(start, start + 8000);
+  if (section) {
+    const pieceRe = /([A-Z].+?)\s+(\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)/g;
     let pm;
     const pieceNames = new Set();
-    // Restrict to the area after "Piece & Icon" and before next h2/h1 or end of content
-    const section = txt.slice(piecesIdx, piecesIdx + 10000);
     while ((pm = pieceRe.exec(section))) {
       let name = pm[1].trim();
+      if (name.length > 70) continue;
+      if (/^(Set|Equipment|Monster|Skills|Stronger|Weakest|Derived|Information|Game|Home|Search|Toggle|Navigation)/i.test(name)) continue;
       if (pieceNames.has(name)) continue;
       pieceNames.add(name);
-      const def = parseInt(pm[3]) || 0;
       pieces.push({
         name,
-        defense: def,
+        defense: parseInt(pm[2]) || 0,
         res: {
-          fire: parseInt(pm[4]) || 0,
-          water: parseInt(pm[5]) || 0,
-          thunder: parseInt(pm[6]) || 0,
-          ice: parseInt(pm[7]) || 0,
-          dragon: parseInt(pm[8]) || 0,
+          fire: parseInt(pm[3]) || 0,
+          water: parseInt(pm[4]) || 0,
+          thunder: parseInt(pm[5]) || 0,
+          ice: parseInt(pm[6]) || 0,
+          dragon: parseInt(pm[7]) || 0,
         },
         slots: [],
       });
     }
-    // dedupe and limit to 5 pieces per set
     if (pieces.length > 5) pieces.splice(5);
-  }
   }
   out.pieces = pieces;
   return out;

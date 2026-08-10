@@ -2882,6 +2882,17 @@ function newsSilhouettePreviewHtml() {
 // and tied 1:1 to the i18n keys that hold its translated text.
 const NEWS = [
   {
+    id: "v04",
+    tagKey: "newsV04Tag",
+    titleKey: "newsV04Title",
+    textKey: "newsV04Text",
+    bulletsKey: "newsV04Bullets",
+    imageHtml: () => `
+      <img src="data/images/armor_sets/mosgharl-set.png" alt="" loading="lazy">
+      <img src="data/images/armor_sets/mosgharl-x-set.png" alt="" loading="lazy">
+    `,
+  },
+  {
     id: "v03",
     tagKey: "newsV03Tag",
     titleKey: "newsV03Title",

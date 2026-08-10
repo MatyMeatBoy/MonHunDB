@@ -38,7 +38,44 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Sororal Earrings Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 4,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Sororal Coat Alpha 66 - 4 1 1 1 3 Sororal Vambraces Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 4,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Sororal Coil Alpha 66 - 4 1 1 1 3 Sororal Boots Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 4,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Sororal_Alpha_Set"
  },
  {
@@ -80,7 +117,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Azure Age Hair Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 4,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Azure Age Haori Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 4,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Azure Age Sleeve Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 4,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Azure Age Obi Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 4,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Azure Age Geta Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 4,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Azure_Age_Alpha_Set"
  },
  {
@@ -130,7 +228,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Gala Suit Top Hat α",
+    "defense": 66,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Gala Suit Jacket α",
+    "defense": 66,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Gala Suit Cuffs α",
+    "defense": 66,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Gala Suit Tail α",
+    "defense": 66,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Gala Suit Slacks α",
+    "defense": 66,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 4
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Gala_Suit_Alpha_Set"
  },
  {
@@ -138,7 +297,68 @@
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/c/c2/Arkveld_gamma_armor-set-mhwilds-wiki-guide.png/Arkveld_gamma_armor-set-mhwilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Arkvulcan Helm γ",
+    "defense": 68,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Arkvulcan Mail γ",
+    "defense": 68,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Arkvulcan Vambraces γ",
+    "defense": 68,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Arkvulcan Coil γ",
+    "defense": 68,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Arkvulcan Greaves γ",
+    "defense": 68,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Arkveld_Gamma_Set"
  },
  {
@@ -188,7 +408,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Dahaad Shardhelm Gammaa",
+    "defense": 68,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Dahaad Shardmail Gamma",
+    "defense": 68,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Dahaad Shardbraces Gamma",
+    "defense": 68,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Dahaad Shardcoil Gamma",
+    "defense": 68,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Dahaad Shardgreaves Gamma",
+    "defense": 68,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Dahaad_Gamma_Set"
  },
  {
@@ -254,7 +535,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Gogmazios Helm Alpha",
+    "defense": 68,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "Gogmazios Mail Alpha",
+    "defense": 68,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "Gogmazios Vambraces Alpha",
+    "defense": 68,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "Gogmazios Coil Alpha",
+    "defense": 68,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "Gogmazios Greaves Alpha",
+    "defense": 68,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -5
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Gogmazios_Alpha_Set"
  },
  {
@@ -320,7 +662,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Gogmazios Helm Beta",
+    "defense": 68,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "Gogmazios Mail Beta",
+    "defense": 68,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "Gogmazios Vambraces Beta",
+    "defense": 68,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "Gogmazios Coil Beta",
+    "defense": 68,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "Gogmazios Greaves Beta",
+    "defense": 68,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -5
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Gogmazios_Beta_Set"
  },
  {
@@ -346,7 +749,32 @@
    }
   ],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Harvest Flor α",
+    "defense": 36,
+    "res": {
+     "fire": 4,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Harvest Raiz α",
+    "defense": 36,
+    "res": {
+     "fire": 4,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Harvest_Alpha_Set"
  },
  {
@@ -404,7 +832,32 @@
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/a/a2/Gelidron_alpha_armor-set-mhwilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Gelidron Mask α",
+    "defense": 66,
+    "res": {
+     "fire": 4,
+     "water": 2,
+     "thunder": -4,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Gelidron Backpack α",
+    "defense": 66,
+    "res": {
+     "fire": 4,
+     "water": 2,
+     "thunder": -4,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Gelidron_Alpha_Set"
  },
  {
@@ -412,7 +865,68 @@
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b1/Tu3-bale-armor-set-mhwilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Bale Burgeonet Alpha",
+    "defense": 68,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -2,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Bale Cuirass Alpha",
+    "defense": 68,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -2,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Bale Gauntlets Alpha",
+    "defense": 68,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -2,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Bale Flanchard Alpha",
+    "defense": 68,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -2,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Bale Sollerets Alpha",
+    "defense": 68,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -2,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Bale_Alpha_Set"
  },
  {
@@ -470,7 +984,68 @@
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/34/Akuma_alpha-armor-set-mhwilds-wiki-guide.png/Akuma_alpha-armor-set-mhwilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Demon Prayer Beads Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": -2,
+     "thunder": 0,
+     "ice": -2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Demon Garb Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": -2,
+     "thunder": 0,
+     "ice": -2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Demon Arm Wraps Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": -2,
+     "thunder": 0,
+     "ice": -2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Demon Belt Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": -2,
+     "thunder": 0,
+     "ice": -2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Demon Pants Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": -2,
+     "thunder": 0,
+     "ice": -2,
+     "dragon": 3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Akuma_Alpha_Set"
  },
  {
@@ -528,7 +1103,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Omega Ear Cuffs Alpha",
+    "defense": 68,
+    "res": {
+     "fire": 3,
+     "water": 0,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Omega Suit Alpha",
+    "defense": 68,
+    "res": {
+     "fire": 3,
+     "water": 0,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Omega Vambraces Alpha",
+    "defense": 68,
+    "res": {
+     "fire": 3,
+     "water": 0,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Omega Accessory Alpha",
+    "defense": 68,
+    "res": {
+     "fire": 3,
+     "water": 0,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Omega Boots Alpha",
+    "defense": 68,
+    "res": {
+     "fire": 3,
+     "water": 0,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Omega_Attire_Alpha_Set"
  },
  {
@@ -536,7 +1172,68 @@
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b1/Diver-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png/Diver-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Diver's Mask Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 4,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Diver's Suit Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 4,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Diver's Braces Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 4,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Diver's Belt Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 4,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Diver's Boots Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 4,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Diver_Alpha_Set"
  },
  {
@@ -544,7 +1241,56 @@
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/7/76/Afi-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png/Afi-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Afi Crown Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": -3,
+     "thunder": 2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Afi Top Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": -3,
+     "thunder": 2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Afi Armguards Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": -3,
+     "thunder": 2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Afi Wrap Alpha 36 — 2 -3 2 2 2 Afi Sandals Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": -3,
+     "thunder": 2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Afi_Alpha_Set"
  },
  {
@@ -602,7 +1348,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Lagiacrus Helm Alpha",
+    "defense": 64,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Lagiacrus Mail Alpha",
+    "defense": 64,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Lagiacrus Braces Alpha",
+    "defense": 64,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Lagiacrus Coil Alpha",
+    "defense": 64,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Lagiacrus Greaves Alpha",
+    "defense": 64,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": 4,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Lagiacrus_Alpha_Set"
  },
  {
@@ -644,7 +1451,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Lagiacrus Helm Beta",
+    "defense": 64,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Lagiacrus Mail Beta",
+    "defense": 64,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Lagiacrus Braces Beta",
+    "defense": 64,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Lagiacrus Coil Beta",
+    "defense": 64,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Lagiacrus Greaves Beta",
+    "defense": 64,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Lagiacrus_Beta_Set"
  },
  {
@@ -702,7 +1570,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Regios Helm Alpha",
+    "defense": 64,
+    "res": {
+     "fire": 4,
+     "water": 0,
+     "thunder": -3,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Regios Mail Alpha",
+    "defense": 64,
+    "res": {
+     "fire": 4,
+     "water": 0,
+     "thunder": -3,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Regios Vambraces Alpha",
+    "defense": 64,
+    "res": {
+     "fire": 4,
+     "water": 0,
+     "thunder": -3,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Regios Coil Alpha",
+    "defense": 64,
+    "res": {
+     "fire": 4,
+     "water": 0,
+     "thunder": -3,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Regios Greaves Alpha",
+    "defense": 64,
+    "res": {
+     "fire": 0,
+     "water": 4,
+     "thunder": 0,
+     "ice": -3,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Seregios_Alpha_Set"
  },
  {
@@ -744,7 +1673,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Regios Helm Beta",
+    "defense": 64,
+    "res": {
+     "fire": 4,
+     "water": 0,
+     "thunder": -3,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Regios Mail Beta",
+    "defense": 64,
+    "res": {
+     "fire": 4,
+     "water": 0,
+     "thunder": -3,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Regios Vambraces Beta",
+    "defense": 64,
+    "res": {
+     "fire": 4,
+     "water": 0,
+     "thunder": -3,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Regios Coil Beta",
+    "defense": 64,
+    "res": {
+     "fire": 4,
+     "water": 0,
+     "thunder": -3,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Regios Greaves Beta",
+    "defense": 64,
+    "res": {
+     "fire": 4,
+     "water": 0,
+     "thunder": -3,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Seregios_Beta_Set"
  },
  {
@@ -762,7 +1752,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Blossom Headgear Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 4,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Blossom Vest Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 4,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Blossom Cuffs Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 4,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Blossom Coat Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 4,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Blossom Boots Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 4,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Blossom_Alpha_Set"
  },
  {
@@ -770,7 +1821,68 @@
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/6/63/Ceremonial_alpha_set-mhwilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Ceremonial Helm Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Ceremonial Mail Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Ceremonial Vambraces Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Ceremonial Coil Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Ceremonial Greaves Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Ceremonial_Alpha_Set"
  },
  {
@@ -812,7 +1924,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Ajarakan Helm Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": -3,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Ajarakan Mail Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": -3,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Ajarakan Vambraces Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": -3,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Ajarakan Coil Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": -3,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Ajarakan Greaves Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": 3,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Ajarakan_Alpha_Set"
  },
  {
@@ -854,7 +2027,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Ajarakan Helm Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": -3,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Ajarakan Mail Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": -3,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Ajarakan Vambraces Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": -3,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Ajarakan Coil Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": -3,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Ajarakan Greaves Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": -3,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Ajarakan_Beta_Set"
  },
  {
@@ -888,7 +2122,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Alloy Helm Alpha",
+    "defense": 32,
+    "res": {
+     "fire": -2,
+     "water": 1,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Alloy Mail Alpha",
+    "defense": 32,
+    "res": {
+     "fire": -2,
+     "water": 1,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Alloy Vambraces Alpha",
+    "defense": 32,
+    "res": {
+     "fire": -2,
+     "water": 1,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Alloy Coil Alpha",
+    "defense": 32,
+    "res": {
+     "fire": -2,
+     "water": 1,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Alloy Greaves Alpha",
+    "defense": 32,
+    "res": {
+     "fire": -2,
+     "water": 1,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Alloy_Alpha_Set"
  },
  {
@@ -938,7 +2233,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Arkvulcan Helm Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Arkvulcan Mail Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Arkvulcan Vambraces Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Arkvulcan Coil Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Arkvulcan Greaves Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Arkveld_Alpha_Set"
  },
  {
@@ -980,7 +2336,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Arkvulcan Helm Beta",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Arkvulcan Mail Beta",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Arkvulcan Vambraces Beta",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Arkvulcan Coil Beta",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Arkvulcan Greaves Beta",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Arkveld_Beta_Set"
  },
  {
@@ -1038,7 +2455,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Artian Helm Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 1,
+     "water": -2,
+     "thunder": -2,
+     "ice": 2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Artian Mail Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 1,
+     "water": -2,
+     "thunder": -2,
+     "ice": 2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Artian Vambraces Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 1,
+     "water": -2,
+     "thunder": -2,
+     "ice": 2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Artian Coil Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 1,
+     "water": -2,
+     "thunder": -2,
+     "ice": 2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Artian Greaves Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 1,
+     "water": -2,
+     "thunder": -2,
+     "ice": 2,
+     "dragon": 3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Artian_Alpha_Set"
  },
  {
@@ -1072,7 +2550,44 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Azuz Headdress Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 4,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Azuz Apron Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 4,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "NO ARMS - - - - - - - NO WAIST - - - - - - - Azuz Pants Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 4,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Azuz_Alpha_Set"
  },
  {
@@ -1114,7 +2629,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Balahara Helm Alpha",
+    "defense": 38,
+    "res": {
+     "fire": -1,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Balahara Mail Alpha",
+    "defense": 38,
+    "res": {
+     "fire": -1,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Balahara Vambraces Alpha",
+    "defense": 38,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Balahara Coil Alpha",
+    "defense": 38,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Balahara Greaves Alpha",
+    "defense": 38,
+    "res": {
+     "fire": -1,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Balahara_Alpha_Set"
  },
  {
@@ -1148,7 +2724,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Balahara Helm Beta",
+    "defense": 38,
+    "res": {
+     "fire": -1,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Balahara Mail Beta",
+    "defense": 38,
+    "res": {
+     "fire": -1,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Balahara Vambraces Beta",
+    "defense": 38,
+    "res": {
+     "fire": -1,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Balahara Coil Beta",
+    "defense": 38,
+    "res": {
+     "fire": -1,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Balahara Greaves Beta",
+    "defense": 38,
+    "res": {
+     "fire": -1,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Balahara_Beta_Set"
  },
  {
@@ -1222,7 +2859,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Battle Helm Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 2,
+     "water": -1,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Battle Mail Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 2,
+     "water": -1,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Battle Vambraces Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 2,
+     "water": -1,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Battle Coil Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 2,
+     "water": -1,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Battle Greaves Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 2,
+     "water": -1,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Battle_Alpha_Set"
  },
  {
@@ -1272,7 +2970,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Blango Helm Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -4,
+     "water": 1,
+     "thunder": 0,
+     "ice": 4,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Blango Mail Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": -4,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Blango Vambraces Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -4,
+     "water": 1,
+     "thunder": 0,
+     "ice": 4,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Blango Coil Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -4,
+     "water": 1,
+     "thunder": 0,
+     "ice": 4,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Blango Greaves Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -4,
+     "water": 1,
+     "thunder": 0,
+     "ice": 4,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Blango_Alpha_Set"
  },
  {
@@ -1306,7 +3065,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Blango Helm Beta",
+    "defense": 48,
+    "res": {
+     "fire": -4,
+     "water": 1,
+     "thunder": 0,
+     "ice": 4,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Blango Mail Beta",
+    "defense": 48,
+    "res": {
+     "fire": -4,
+     "water": 1,
+     "thunder": 0,
+     "ice": 4,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Blango Vambraces Beta",
+    "defense": 48,
+    "res": {
+     "fire": -4,
+     "water": 1,
+     "thunder": 0,
+     "ice": 4,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Blango Coil Beta",
+    "defense": 48,
+    "res": {
+     "fire": -4,
+     "water": 1,
+     "thunder": 0,
+     "ice": 4,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Blango Greaves Beta",
+    "defense": 48,
+    "res": {
+     "fire": -4,
+     "water": 1,
+     "thunder": 0,
+     "ice": 4,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Blango_Beta_Set"
  },
  {
@@ -1340,7 +3160,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Bone Helm Alpha",
+    "defense": 32,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Bone Mail Alpha",
+    "defense": 32,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Bone Vambraces Alpha",
+    "defense": 32,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Bone Coil Alpha",
+    "defense": 32,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Bone Greaves Alpha",
+    "defense": 32,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Bone_Alpha_Set"
  },
  {
@@ -1366,7 +3247,20 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Bulaqchi Specs Alpha",
+    "defense": 32,
+    "res": {
+     "fire": 0,
+     "water": -4,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Bulaqchi_Alpha_Set"
  },
  {
@@ -1384,7 +3278,20 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Bulaqchi Specs Beta",
+    "defense": 32,
+    "res": {
+     "fire": -4,
+     "water": 1,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": 4
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Bulaqchi_Beta_Set"
  },
  {
@@ -1434,7 +3341,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Butterfly Vertex Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Butterfly Thorax Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Butterfly Brachia Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Butterfly Elytra Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Butterfly Crura Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Butterfly_Alpha_Set"
  },
  {
@@ -1468,7 +3436,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Chainmail Headgear Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Chainmail Armor Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Chainmail Gloves Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Chainmail Belt Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Chainmail Pants Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Chainmail_Alpha_Set"
  },
  {
@@ -1510,7 +3539,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Chatacabra Helm Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 2,
+     "thunder": -3,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Chatacabra Mail Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Chatacabra Vambraces Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 2,
+     "thunder": -3,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Chatacabra Coil Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 2,
+     "thunder": -3,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Chatacabra Greaves Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Chatacabra_Alpha_Set"
  },
  {
@@ -1552,7 +3642,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Chatacabra Helm Beta",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 2,
+     "thunder": -3,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Chatacabra Mail Beta",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 2,
+     "thunder": -3,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Chatacabra Vambraces Beta",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 2,
+     "thunder": -3,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Chatacabra Coil Beta",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 2,
+     "thunder": -3,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Chatacabra Greaves Beta",
+    "defense": 36,
+    "res": {
+     "fire": 1,
+     "water": 2,
+     "thunder": -3,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Chatacabra_Beta_Set"
  },
  {
@@ -1602,7 +3753,68 @@
     "threshold": 5
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Clerk Visor Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Clerk Suit Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Clerk Vambraces Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Clerk Belt Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Clerk Shoes Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Clerk_Alpha_Set"
  },
  {
@@ -1620,7 +3832,20 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Comaqchi Accessory Alpha",
+    "defense": 32,
+    "res": {
+     "fire": 0,
+     "water": -5,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Comaqchi_Alpha_Set"
  },
  {
@@ -1638,7 +3863,20 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Comaqchi Accessory Beta",
+    "defense": 32,
+    "res": {
+     "fire": -5,
+     "water": 0,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": 3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Comaqchi_Beta_Set"
  },
  {
@@ -1688,7 +3926,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Commission Helm Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Commission Mail Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Commission Vambraces Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Commission Coil Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Commission Greaves Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Commission_Alpha_Set"
  },
  {
@@ -1738,7 +4037,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Conga Helm Alpha",
+    "defense": 36,
+    "res": {
+     "fire": -3,
+     "water": 1,
+     "thunder": 1,
+     "ice": -1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Conga Mail Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Conga Vambraces Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Conga Coil Alpha",
+    "defense": 36,
+    "res": {
+     "fire": -3,
+     "water": 1,
+     "thunder": 1,
+     "ice": -1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Conga Greaves Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Conga_Alpha_Set"
  },
  {
@@ -1772,7 +4132,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Conga Helm Beta",
+    "defense": 36,
+    "res": {
+     "fire": -3,
+     "water": 1,
+     "thunder": 1,
+     "ice": -1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Conga Mail Beta",
+    "defense": 36,
+    "res": {
+     "fire": -3,
+     "water": 1,
+     "thunder": 1,
+     "ice": -1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Conga Vambraces Beta",
+    "defense": 36,
+    "res": {
+     "fire": -3,
+     "water": 1,
+     "thunder": 1,
+     "ice": -1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Conga Coil Beta",
+    "defense": 36,
+    "res": {
+     "fire": -3,
+     "water": 1,
+     "thunder": 1,
+     "ice": -1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Conga Greaves Beta",
+    "defense": 36,
+    "res": {
+     "fire": -3,
+     "water": 1,
+     "thunder": 1,
+     "ice": -1,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Conga_Beta_Set"
  },
  {
@@ -1822,7 +4243,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Dahaad Shardhelm Alpha",
+    "defense": 60,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Dahaad Shardmail Alpha",
+    "defense": 60,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Dahaad Shardbraces Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Dahaad Shardcoil Alpha",
+    "defense": 60,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Dahaad Shardgreaves Alpha",
+    "defense": 60,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Dahaad_Alpha_Set"
  },
  {
@@ -1872,7 +4354,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Dahaad Shardhelm Beta",
+    "defense": 60,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Dahaad Shardmail Beta",
+    "defense": 60,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Dahaad Shardbraces Beta",
+    "defense": 60,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Dahaad Shardcoil Beta",
+    "defense": 60,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Dahaad Shardgreaves Beta",
+    "defense": 60,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Dahaad_Beta_Set"
  },
  {
@@ -1914,7 +4457,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Damascus Helm Alpha",
+    "defense": 56,
+    "res": {
+     "fire": 4,
+     "water": -2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Damascus Mail Alpha",
+    "defense": 56,
+    "res": {
+     "fire": 4,
+     "water": -2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Damascus Vambraces Alpha",
+    "defense": 56,
+    "res": {
+     "fire": 4,
+     "water": -2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Damascus Coil Alpha",
+    "defense": 56,
+    "res": {
+     "fire": 4,
+     "water": -2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Damascus Greaves Alpha",
+    "defense": 56,
+    "res": {
+     "fire": 4,
+     "water": -2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Damascus_Alpha_Set"
  },
  {
@@ -1960,7 +4564,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Death Stench Brain Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 3,
+     "water": 2,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Death Stench Muscle Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 3,
+     "water": 2,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Death Stench Grip Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 3,
+     "water": 2,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Death Stench Bowels Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 3,
+     "water": 2,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Death Stench Heel Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 3,
+     "water": 2,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 4
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Death_Stench_Alpha_Set"
  },
  {
@@ -2002,7 +4667,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Dober Helm Alpha",
+    "defense": 56,
+    "res": {
+     "fire": -2,
+     "water": 0,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Dober Mail Alpha",
+    "defense": 56,
+    "res": {
+     "fire": -2,
+     "water": 0,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Dober Vambraces Alpha",
+    "defense": 56,
+    "res": {
+     "fire": -2,
+     "water": 0,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Dober Coil Alpha",
+    "defense": 56,
+    "res": {
+     "fire": -2,
+     "water": 0,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Dober Greaves Alpha",
+    "defense": 56,
+    "res": {
+     "fire": -2,
+     "water": 0,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Dober_Alpha_Set"
  },
  {
@@ -2052,7 +4778,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Doshaguma Helm Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Doshaguma Mail Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Doshaguma Braces Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Doshaguma Coil Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Doshaguma Greaves Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Doshaguma_Alpha_Set"
  },
  {
@@ -2094,7 +4881,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Doshaguma Helm Beta",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Doshaguma Mail Beta",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Doshaguma Braces Beta",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Doshaguma Coil Beta",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Doshaguma Greaves Beta",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -1,
+     "dragon": 4
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Doshaguma_Beta_Set"
  },
  {
@@ -2112,7 +4960,20 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Dragonking Eyepatch Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Dragonking_Alpha_Set"
  },
  {
@@ -2120,7 +4981,20 @@
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/a/a8/Placeholder_armor_set-mhwilds-wiki-guide.png/Placeholder_armor_set-mhwilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Expedition Headgear Alpha",
+    "defense": 40,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Expedition_Headgear_Alpha_Set"
  },
  {
@@ -2178,7 +5052,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Gore Helm Alpha",
+    "defense": 60,
+    "res": {
+     "fire": -2,
+     "water": 3,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gore Mail Alpha",
+    "defense": 60,
+    "res": {
+     "fire": -2,
+     "water": 3,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gore Vambraces Alpha",
+    "defense": 60,
+    "res": {
+     "fire": -2,
+     "water": 3,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gore Coil Alpha",
+    "defense": 60,
+    "res": {
+     "fire": -2,
+     "water": 3,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gore Greaves Alpha",
+    "defense": 60,
+    "res": {
+     "fire": -2,
+     "water": 3,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Gore_Alpha_Set"
  },
  {
@@ -2228,7 +5163,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Gore Helm Beta",
+    "defense": 60,
+    "res": {
+     "fire": -2,
+     "water": 3,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gore Mail Beta",
+    "defense": 60,
+    "res": {
+     "fire": -2,
+     "water": 3,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gore Vambraces Beta",
+    "defense": 60,
+    "res": {
+     "fire": -2,
+     "water": 3,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gore Coil Beta",
+    "defense": 60,
+    "res": {
+     "fire": -2,
+     "water": 3,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gore Greaves Beta",
+    "defense": 60,
+    "res": {
+     "fire": -2,
+     "water": 3,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Gore_Beta_Set"
  },
  {
@@ -2270,7 +5266,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Gravios Helm Alpha",
+    "defense": 52,
+    "res": {
+     "fire": 4,
+     "water": -3,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Gravios Mail Alpha",
+    "defense": 52,
+    "res": {
+     "fire": 4,
+     "water": -3,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Gravios Vambraces Alpha",
+    "defense": 52,
+    "res": {
+     "fire": 4,
+     "water": -3,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Gravios Coil Alpha",
+    "defense": 52,
+    "res": {
+     "fire": 4,
+     "water": -3,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Gravios Greaves Alpha",
+    "defense": 52,
+    "res": {
+     "fire": 4,
+     "water": -3,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Gravios_Alpha_Set"
  },
  {
@@ -2312,7 +5369,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Gravios Helm Beta",
+    "defense": 52,
+    "res": {
+     "fire": 4,
+     "water": -3,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Gravios Mail Beta",
+    "defense": 52,
+    "res": {
+     "fire": 4,
+     "water": -3,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Gravios Vambraces Beta",
+    "defense": 52,
+    "res": {
+     "fire": 4,
+     "water": -3,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Gravios Coil Beta",
+    "defense": 52,
+    "res": {
+     "fire": 4,
+     "water": -3,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Gravios Greaves Beta",
+    "defense": 52,
+    "res": {
+     "fire": 4,
+     "water": -3,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Gravios_Beta_Set"
  },
  {
@@ -2354,7 +5472,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "G Arkveld Helm Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Arkveld Mail Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "G Arkveld Vambraces Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Arkveld Coil Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "G Arkveld Greaves Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Arkveld_Alpha_Set"
  },
  {
@@ -2404,7 +5583,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "G Arkveld Helm Beta",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Arkveld Mail Beta",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Arkveld Vambraces Beta",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Arkveld Coil Beta",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Arkveld Greaves Beta",
+    "defense": 66,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Arkveld_Beta_Set"
  },
  {
@@ -2446,7 +5686,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "G Doshaguma Helm Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Doshaguma Mail Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Doshaguma Braces Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Doshaguma Coil Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Doshaguma Greaves Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -2,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Doshaguma_Alpha_Set"
  },
  {
@@ -2472,7 +5773,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "G Doshaguma Helm Beta",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Doshaguma Mail Beta",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Doshaguma Braces Beta",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Doshaguma Coil Beta",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Doshaguma Greaves Beta",
+    "defense": 48,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -2,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Doshaguma_Beta_Set"
  },
  {
@@ -2514,7 +5876,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "G Ebony Helm Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": -3,
+     "ice": -2,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Ebony Mail Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -2,
+     "water": -3,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Ebony Braces Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": -3,
+     "ice": -2,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Ebony Coil Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -2,
+     "water": -3,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Ebony Greaves Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -2,
+     "water": -3,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 4
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Ebony_Alpha_Set"
  },
  {
@@ -2548,7 +5971,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "G Ebony Helm Beta",
+    "defense": 48,
+    "res": {
+     "fire": -2,
+     "water": -3,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Ebony Mail Beta",
+    "defense": 48,
+    "res": {
+     "fire": -2,
+     "water": -3,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Ebony Braces Beta",
+    "defense": 48,
+    "res": {
+     "fire": -2,
+     "water": -3,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Ebony Coil Beta",
+    "defense": 48,
+    "res": {
+     "fire": -2,
+     "water": -3,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Ebony Greaves Beta",
+    "defense": 48,
+    "res": {
+     "fire": -2,
+     "water": -3,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 4
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Ebony_Beta_Set"
  },
  {
@@ -2590,7 +6074,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "G Fulgur Helm Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": -1,
+     "ice": 2,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "G Fulgur Mail Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Fulgur Vambraces Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Fulgur Coil Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Fulgur Greaves Alpha",
+    "defense": 48,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Fulgur_Alpha_Set"
  },
  {
@@ -2632,7 +6177,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "G Fulgur Helm Beta",
+    "defense": 48,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Fulgur Mail Beta",
+    "defense": 48,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Fulgur Vambraces Beta",
+    "defense": 48,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Fulgur Coil Beta",
+    "defense": 48,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Fulgur Greaves Beta",
+    "defense": 48,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Fulgur_Beta_Set"
  },
  {
@@ -2674,7 +6280,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "G Rathalos Helm Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "G Rathalos Mail Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "G Rathalos Vambraces Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "G Rathalos Coil Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "G Rathalos Greaves Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -5
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Rathalos_Alpha_Set"
  },
  {
@@ -2708,7 +6375,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "G Rathalos Helm Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "G Rathalos Mail Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "G Rathalos Vambraces Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "G Rathalos Coil Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "G Rathalos Greaves Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -5
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Rathalos_Beta_Set"
  },
  {
@@ -2756,7 +6484,68 @@
     "threshold": 5
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Guild Ace Earrings Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Guild Ace Mail Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Guild Ace Vambraces Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Guild Ace Coil Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Guild Ace Boots Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guild_Ace_Alpha_Set"
  },
  {
@@ -2806,7 +6595,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Guild Cross Circlet Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Guild Cross Suit Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Guild Cross Vambraces Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Guild Cross Coil Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Guild Cross Boots Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guild_Cross_Alpha_Set"
  },
  {
@@ -2856,7 +6706,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Gypceros Helm Alpha",
+    "defense": 36,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gypceros Mail Alpha",
+    "defense": 36,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gypceros Vambraces Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -4,
+     "thunder": 3,
+     "ice": 4,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gypceros Coil Alpha",
+    "defense": 36,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gypceros Greaves Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -4,
+     "thunder": 3,
+     "ice": 4,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Gypceros_Alpha_Set"
  },
  {
@@ -2890,7 +6801,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Gypceros Helm Beta",
+    "defense": 36,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gypceros Mail Beta",
+    "defense": 36,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gypceros Vambraces Beta",
+    "defense": 36,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gypceros Coil Beta",
+    "defense": 36,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Gypceros Greaves Beta",
+    "defense": 36,
+    "res": {
+     "fire": -4,
+     "water": 3,
+     "thunder": 4,
+     "ice": -1,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Gypceros_Beta_Set"
  },
  {
@@ -2956,7 +6928,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "High Metal Helm Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "High Metal Mail Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "High Metal Braces Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "High Metal Coil Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "High Metal Greaves Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/High_Metal_Alpha_Set"
  },
  {
@@ -2998,7 +7031,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Hirabami Headdress Alpha",
+    "defense": 38,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Hirabami Mail Alpha",
+    "defense": 38,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Hirabami Vambraces Alpha",
+    "defense": 38,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Hirabami Coil Alpha",
+    "defense": 38,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Hirabami Greaves Alpha",
+    "defense": 38,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Hirabami_Alpha_Set"
  },
  {
@@ -3032,7 +7126,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Hirabami Headdress Beta",
+    "defense": 38,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Hirabami Mail Beta",
+    "defense": 38,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Hirabami Vambraces Beta",
+    "defense": 38,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Hirabami Coil Beta",
+    "defense": 38,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Hirabami Greaves Beta",
+    "defense": 38,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -2,
+     "ice": 3,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Hirabami_Beta_Set"
  },
  {
@@ -3074,7 +7229,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Hope Mask Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 1,
+     "water": 0,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Hope Mail Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 1,
+     "water": 0,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Hope Vambraces Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 1,
+     "water": 0,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Hope Coil Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 1,
+     "water": 0,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Hope Greaves Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 1,
+     "water": 0,
+     "thunder": 1,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Hope_Alpha_Set"
  },
  {
@@ -3116,7 +7332,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Ingot Helm Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -2,
+     "water": 0,
+     "thunder": 3,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Ingot Mail Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -2,
+     "water": 0,
+     "thunder": 3,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Ingot Vambraces Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -2,
+     "water": 0,
+     "thunder": 3,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Ingot Coil Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -2,
+     "water": 0,
+     "thunder": 3,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Ingot Greaves Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -2,
+     "water": 0,
+     "thunder": 3,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Ingot_Alpha_Set"
  },
  {
@@ -3174,7 +7451,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "King Beetle Vertex Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "King Beetle Thorax Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "King Beetle Brachia Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "King Beetle Elytra Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "King Beetle Crura Alpha",
+    "defense": 44,
+    "res": {
+     "fire": -1,
+     "water": -1,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/King_Beetle_Alpha_Set"
  },
  {
@@ -3190,7 +7528,20 @@
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/2/2c/Kranodath-b-set_mhwilds-wiki-guide.png/Kranodath-b-set_mhwilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "NO HELM - - - - - - - Kranodath Mail Beta",
+    "defense": 32,
+    "res": {
+     "fire": 4,
+     "water": -2,
+     "thunder": 0,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Kranodath_Beta_Set"
  },
  {
@@ -3232,7 +7583,56 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Kunafa Headgear Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 4,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Kunafa Cloak Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 4,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "NO ARMS - - - - - - - Kunafa Sash Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 4,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Kunafa Chaps Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 4,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Kunafa_Alpha_Set"
  },
  {
@@ -3274,7 +7674,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Kut-Ku Helm Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 3,
+     "water": 0,
+     "thunder": -2,
+     "ice": -4,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Kut-Ku Mail Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 3,
+     "water": 0,
+     "thunder": -2,
+     "ice": -4,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Kut-Ku Vambraces Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 3,
+     "water": 0,
+     "thunder": -2,
+     "ice": -4,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Kut-Ku Coil Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": 3,
+     "thunder": 0,
+     "ice": -2,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "Kut-Ku Greaves Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 3,
+     "water": 0,
+     "thunder": -2,
+     "ice": -4,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Kut-Ku_Alpha_Set"
  },
  {
@@ -3308,7 +7769,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Kut-Ku Helm Beta",
+    "defense": 36,
+    "res": {
+     "fire": 3,
+     "water": 0,
+     "thunder": -2,
+     "ice": -4,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Kut-Ku Mail Beta",
+    "defense": 36,
+    "res": {
+     "fire": 3,
+     "water": 0,
+     "thunder": -2,
+     "ice": -4,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Kut-Ku Vambraces Beta",
+    "defense": 36,
+    "res": {
+     "fire": 3,
+     "water": 0,
+     "thunder": -2,
+     "ice": -4,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Kut-Ku Coil Beta",
+    "defense": 36,
+    "res": {
+     "fire": 3,
+     "water": 0,
+     "thunder": -2,
+     "ice": -4,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Kut-Ku Greaves Beta",
+    "defense": 36,
+    "res": {
+     "fire": 3,
+     "water": 0,
+     "thunder": -2,
+     "ice": -4,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Kut-Ku_Beta_Set"
  },
  {
@@ -3350,7 +7872,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Barina Headgear Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Barina Mail Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Barina Vambraces Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Barina Coil Alpha",
+    "defense": 36,
+    "res": {
+     "fire": -3,
+     "water": 3,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Barina Greaves Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Lala_Barina_Alpha_Set"
  },
  {
@@ -3392,7 +7975,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Barina Headgear Beta",
+    "defense": 36,
+    "res": {
+     "fire": -3,
+     "water": 3,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Barina Mail Beta",
+    "defense": 36,
+    "res": {
+     "fire": -3,
+     "water": 3,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Barina Vambraces Beta",
+    "defense": 36,
+    "res": {
+     "fire": -3,
+     "water": 3,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Barina Coil Beta",
+    "defense": 36,
+    "res": {
+     "fire": -3,
+     "water": 3,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Barina Greaves Beta",
+    "defense": 36,
+    "res": {
+     "fire": -3,
+     "water": 3,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Lala_Barina_Beta_Set"
  },
  {
@@ -3426,7 +8070,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Leather Headgear Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Leather Mail Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Leather Gloves Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Leather Belt Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Leather Pants Alpha",
+    "defense": 26,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Leather_Alpha_Set"
  },
  {
@@ -3500,7 +8205,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Melahoa Hat Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Melahoa Jacket Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Melahoa Branch Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Melahoa Folia Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Melahoa Roots Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Melahoa_Alpha_Set"
  },
  {
@@ -3526,7 +8292,20 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Mimiphyta Alpha",
+    "defense": 36,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -2,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Mimiphyta_Alpha_Set"
  },
  {
@@ -3580,7 +8359,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Mizutsune Helm Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Mizutsune Mail Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Mizutsune Braces Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Mizutsune Coil Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Mizutsune Greaves Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Mizutsune_Alpha_Set"
  },
  {
@@ -3630,7 +8470,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Mizutsune Helm Beta",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Mizutsune Mail Beta",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Mizutsune Braces Beta",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Mizutsune Coil Beta",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Mizutsune Greaves Beta",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Mizutsune_Beta_Set"
  },
  {
@@ -3680,7 +8581,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Nerscylla Helm Alpha",
+    "defense": 38,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Nerscylla Mail Alpha",
+    "defense": 38,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Nerscylla Vambraces Alpha",
+    "defense": 38,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Nerscylla Coil Alpha",
+    "defense": 38,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Nerscylla Greaves Alpha",
+    "defense": 38,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Nerscylla_Alpha_Set"
  },
  {
@@ -3714,7 +8676,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Nerscylla Helm Beta",
+    "defense": 38,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Nerscylla Mail Beta",
+    "defense": 38,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Nerscylla Vambraces Beta",
+    "defense": 38,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Nerscylla Coil Beta",
+    "defense": 38,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Nerscylla Greaves Beta",
+    "defense": 38,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Nerscylla_Beta_Set"
  },
  {
@@ -3764,7 +8787,56 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Numinous Crown Alpha",
+    "defense": 68,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "Numinous Shroud Alpha",
+    "defense": 68,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "Numinous Vambraces Alpha",
+    "defense": 68,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "Numinous Overlay Alpha 68 - -2 2 2 0 -4 Numinous Greaves Alpha",
+    "defense": 68,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Numinous_Alpha_Set"
  },
  {
@@ -3814,7 +8886,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Numinous Crown Beta",
+    "defense": 68,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "Numinous Shroud Beta",
+    "defense": 68,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "Numinous Vambraces Beta",
+    "defense": 68,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "Numinous Overlay Beta",
+    "defense": 68,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "Numinous Greaves Beta",
+    "defense": 68,
+    "res": {
+     "fire": -2,
+     "water": 2,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Numinous_Beta_Set"
  },
  {
@@ -3864,7 +8997,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Udra Mirehelm Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 5,
+     "water": -4,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Udra Miremail Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 5,
+     "water": -4,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Udra Mirebraces Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 5,
+     "water": -4,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Udra Mirecoil Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 5,
+     "water": -4,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Udra Miregreaves Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 5,
+     "water": -4,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Nu_Udra_Alpha_Set"
  },
  {
@@ -3914,7 +9108,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Udra Mirehelm Beta",
+    "defense": 60,
+    "res": {
+     "fire": 5,
+     "water": -4,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Udra Miremail Beta",
+    "defense": 60,
+    "res": {
+     "fire": 5,
+     "water": -4,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Udra Mirebraces Beta",
+    "defense": 60,
+    "res": {
+     "fire": 5,
+     "water": -4,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Udra Mirecoil Beta",
+    "defense": 60,
+    "res": {
+     "fire": 5,
+     "water": -4,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Udra Miregreaves Beta",
+    "defense": 60,
+    "res": {
+     "fire": 5,
+     "water": -4,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Nu_Udra_Beta_Set"
  },
  {
@@ -3972,7 +9227,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Quematrice Helm Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": -3,
+     "thunder": 0,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Quematrice Mail Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Quematrice Braces Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": -3,
+     "thunder": 0,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Quematrice Coil Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Quematrice Greaves Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": -3,
+     "thunder": 0,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Quematrice_Alpha_Set"
  },
  {
@@ -4006,7 +9322,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Quematrice Helm Beta",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": -3,
+     "thunder": 0,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Quematrice Mail Beta",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": -3,
+     "thunder": 0,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Quematrice Braces Beta",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": -3,
+     "thunder": 0,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Quematrice Coil Beta",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": -3,
+     "thunder": 0,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Quematrice Greaves Beta",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": -3,
+     "thunder": 0,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Quematrice_Beta_Set"
  },
  {
@@ -4040,7 +9417,68 @@
     "threshold": 4
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Rathalos Helm Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathalos Mail Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathalos Vambraces Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathalos Coil Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": 3,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathalos Greaves Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Rathalos_Alpha_Set"
  },
  {
@@ -4074,7 +9512,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Rathalos Helm Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathalos Mail Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathalos Vambraces Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathalos Coil Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathalos Greaves Beta",
+    "defense": 48,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Rathalos_Beta_Set"
  },
  {
@@ -4116,7 +9615,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Rathian Helm Alpha",
+    "defense": 38,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -2,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathian Mail Alpha",
+    "defense": 38,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathian Vambraces Alpha",
+    "defense": 38,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathian Coil Alpha",
+    "defense": 38,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathian Greaves Alpha",
+    "defense": 38,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": -2,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Rathian_Alpha_Set"
  },
  {
@@ -4150,7 +9710,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Rathian Helm Beta",
+    "defense": 38,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -2,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathian Mail Beta",
+    "defense": 38,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -2,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathian Vambraces Beta",
+    "defense": 38,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -2,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathian Coil Beta",
+    "defense": 38,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -2,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rathian Greaves Beta",
+    "defense": 38,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -2,
+     "ice": 0,
+     "dragon": -3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Rathian_Beta_Set"
  },
  {
@@ -4200,7 +9821,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Rey Sandhelm Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": -2,
+     "ice": 4,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandmail Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandbraces Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandcoil Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandgreaves Alpha",
+    "defense": 60,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Rey_Dau_Alpha_Set"
  },
  {
@@ -4250,7 +9932,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Rey Sandhelm Beta",
+    "defense": 60,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandmail Beta",
+    "defense": 60,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandbraces Beta",
+    "defense": 60,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandcoil Beta",
+    "defense": 60,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandgreaves Beta",
+    "defense": 60,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Rey_Dau_Beta_Set"
  },
  {
@@ -4308,7 +10051,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Rey Sandhelm y",
+    "defense": 68,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandmail y",
+    "defense": 68,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandbraces y",
+    "defense": 68,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandcoil y",
+    "defense": 68,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": -2,
+     "ice": 4,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandgreaves y",
+    "defense": 68,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Rey_Dau_Gamma_Set"
  },
  {
@@ -4350,7 +10154,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Rompopolo Helm Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Rompopolo Mail Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Rompopolo Vambraces Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Rompopolo Coil Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rompopolo Greaves Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Rompopolo_Alpha_Set"
  },
  {
@@ -4392,7 +10257,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Rompopolo Helm Beta",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Rompopolo Mail Beta",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Rompopolo Vambraces Beta",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Rompopolo Coil Beta",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Rompopolo Greaves Beta",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Rompopolo_Beta_Set"
  },
  {
@@ -4418,7 +10344,32 @@
     "threshold": 4
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Sild Hood Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "Sild Coat Alpha",
+    "defense": 44,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 4
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Sild_Alpha_Set"
  },
  {
@@ -4444,7 +10395,20 @@
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/97/Talioth_a_set_mhwilds-wiki-guide.png/Talioth_a_set_mhwilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "NO HELM - - - - - - - NO CHEST - - - - - - - Talioth Vambraces Alpha",
+    "defense": 32,
+    "res": {
+     "fire": 0,
+     "water": 4,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Talioth_Alpha_Set"
  },
  {
@@ -4452,7 +10416,20 @@
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/7/71/Talioth_b_set_mhwilds-wiki-guide.png/Talioth_b_set_mhwilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "NO HELM - - - - - - - NO CHEST - - - - - - - Talioth Vambraces Beta",
+    "defense": 32,
+    "res": {
+     "fire": 4,
+     "water": -2,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Talioth_Beta_Set"
  },
  {
@@ -4502,7 +10479,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Duna Wildhelm Alpha",
+    "defense": 60,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Wildmail Alpha",
+    "defense": 60,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Wildbraces Alpha",
+    "defense": 60,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Wildcoil Alpha",
+    "defense": 60,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Wildgreaves Alpha",
+    "defense": 60,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Uth_Duna_Alpha_Set"
  },
  {
@@ -4544,7 +10582,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Duna Wildhelm Beta",
+    "defense": 60,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Wildmail Beta",
+    "defense": 60,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Wildbraces Beta",
+    "defense": 60,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Wildcoil Beta",
+    "defense": 60,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Wildgreaves Beta",
+    "defense": 60,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Uth_Duna_Beta_Set"
  },
  {
@@ -4586,7 +10685,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Vespoid Helm Alpha",
+    "defense": 32,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Vespoid Mail Alpha",
+    "defense": 32,
+    "res": {
+     "fire": -2,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Vespoid Vambraces Alpha",
+    "defense": 32,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Vespoid Coil Alpha",
+    "defense": 32,
+    "res": {
+     "fire": -2,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Vespoid Greaves Alpha",
+    "defense": 32,
+    "res": {
+     "fire": -2,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Vespoid_Alpha_Set"
  },
  {
@@ -4612,7 +10772,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Vespoid Helm Beta",
+    "defense": 32,
+    "res": {
+     "fire": -2,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Vespoid Mail Beta",
+    "defense": 32,
+    "res": {
+     "fire": -2,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Vespoid Vambraces Beta",
+    "defense": 32,
+    "res": {
+     "fire": -2,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Vespoid Coil Beta",
+    "defense": 32,
+    "res": {
+     "fire": -2,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Vespoid Greaves Beta",
+    "defense": 32,
+    "res": {
+     "fire": -2,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Vespoid_Beta_Set"
  },
  {
@@ -4654,7 +10875,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Xu Wu Helm Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Xu Wu Mail Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Xu Wu Vambraces Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Xu Wu Coil Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Xu Wu Greaves Alpha",
+    "defense": 48,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Xu_Wu_Alpha_Set"
  },
  {
@@ -4688,7 +10970,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Xu Wu Helm Beta",
+    "defense": 48,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Xu Wu Mail Beta",
+    "defense": 48,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Xu Wu Vambraces Beta",
+    "defense": 48,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Xu Wu Coil Beta",
+    "defense": 48,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Xu Wu Greaves Beta",
+    "defense": 48,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Xu_Wu_Beta_Set"
  },
  {
@@ -4730,7 +11073,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Ajarakan Helm",
+    "defense": 24,
+    "res": {
+     "fire": 0,
+     "water": 3,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Ajarakan Mail",
+    "defense": 24,
+    "res": {
+     "fire": 0,
+     "water": 3,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Ajarakan Vambraces",
+    "defense": 24,
+    "res": {
+     "fire": 0,
+     "water": 3,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Ajarakan Coil",
+    "defense": 24,
+    "res": {
+     "fire": 0,
+     "water": 3,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Ajarakan Greaves",
+    "defense": 24,
+    "res": {
+     "fire": 0,
+     "water": 3,
+     "thunder": -3,
+     "ice": 1,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Ajarakan_Set"
  },
  {
@@ -4756,7 +11160,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Alloy Helm",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Alloy Mail",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Alloy Vambraces",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Alloy Coil",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "Alloy Greaves",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Alloy_Set"
  },
  {
@@ -4790,7 +11255,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Balahara Helm",
+    "defense": 12,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Balahara Mail",
+    "defense": 12,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Balahara Vambraces",
+    "defense": 12,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Balahara Coil",
+    "defense": 12,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Balahara Greaves",
+    "defense": 12,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Balahara_Set"
  },
  {
@@ -4816,7 +11342,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Bone Helm",
+    "defense": 4,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Bone Mail",
+    "defense": 4,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Bone Vambraces",
+    "defense": 4,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Bone Coil",
+    "defense": 4,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 2,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Bone Greaves",
+    "defense": 4,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 2,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Bone_Set"
  },
  {
@@ -4834,7 +11421,20 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Bulaqchi Specs",
+    "defense": 4,
+    "res": {
+     "fire": 0,
+     "water": -4,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Bulaqchi_Set"
  },
  {
@@ -4860,7 +11460,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Chainmail Headgear",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Chainmail Vest",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Chainmail Gloves",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Chainmail Belt",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Chainmail Pants",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": 2,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Chainmail_Set"
  },
  {
@@ -4886,7 +11547,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Chatacabra Helm",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Chatacabra Mail",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Chatacabra Vambraces",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Chatacabra Coil",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Chatacabra Greaves",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Chatacabra_Set"
  },
  {
@@ -4904,7 +11626,20 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Comaqchi Accessory",
+    "defense": 16,
+    "res": {
+     "fire": 0,
+     "water": -5,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Comaqchi_Set"
  },
  {
@@ -4930,7 +11665,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Conga Helm",
+    "defense": 8,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Conga Mail",
+    "defense": 8,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Conga Vambraces",
+    "defense": 8,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Conga Coil",
+    "defense": 8,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Conga Greaves",
+    "defense": 8,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Conga_Set"
  },
  {
@@ -4956,7 +11752,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Doshaguma Helm",
+    "defense": 16,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Doshaguma Mail",
+    "defense": 16,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Doshaguma Braces",
+    "defense": 16,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Doshaguma Coil",
+    "defense": 16,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -1,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Doshaguma Greaves",
+    "defense": 16,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -1,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Doshaguma_Set"
  },
  {
@@ -4990,7 +11847,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "G Arkveld Helm",
+    "defense": 30,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Arkveld Mail",
+    "defense": 30,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": -1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "G Arkveld Vambraces",
+    "defense": 30,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Arkveld Coil",
+    "defense": 30,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Arkveld Greaves",
+    "defense": 30,
+    "res": {
+     "fire": 2,
+     "water": 0,
+     "thunder": -1,
+     "ice": 0,
+     "dragon": -4
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Arkveld_Set"
  },
  {
@@ -5024,7 +11942,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "G Doshaguma Helm",
+    "defense": 26,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Doshaguma Mail",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -1,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Doshaguma Braces",
+    "defense": 26,
+    "res": {
+     "fire": -3,
+     "water": 2,
+     "thunder": -1,
+     "ice": -2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Doshaguma Coil",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -1,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Doshaguma Greaves",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -1,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Doshaguma_Set"
  },
  {
@@ -5050,7 +12029,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "G Ebony Helm",
+    "defense": 26,
+    "res": {
+     "fire": -2,
+     "water": -3,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Ebony Mail",
+    "defense": 26,
+    "res": {
+     "fire": -2,
+     "water": -3,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Ebony Braces",
+    "defense": 26,
+    "res": {
+     "fire": -2,
+     "water": -3,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 4
+    },
+    "slots": []
+   },
+   {
+    "name": "G Ebony Coil",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": -3,
+     "ice": -2,
+     "dragon": -2
+    },
+    "slots": []
+   },
+   {
+    "name": "G Ebony Greaves",
+    "defense": 26,
+    "res": {
+     "fire": -2,
+     "water": -3,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": 4
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Ebony_Set"
  },
  {
@@ -5076,7 +12116,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "G Rathalos Helm",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": 3,
+     "thunder": 1,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "G Rathalos Mail",
+    "defense": 26,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "G Rathalos Vambraces",
+    "defense": 26,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "G Rathalos Coil",
+    "defense": 26,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -5
+    },
+    "slots": []
+   },
+   {
+    "name": "G Rathalos Greaves",
+    "defense": 26,
+    "res": {
+     "fire": 3,
+     "water": 1,
+     "thunder": -2,
+     "ice": 1,
+     "dragon": -5
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Guardian_Rathalos_Set"
  },
  {
@@ -5118,7 +12219,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Hirabami Headdress",
+    "defense": 22,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Hirabami Mail",
+    "defense": 22,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Hirabami Vambraces",
+    "defense": 22,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Hirabami Coil",
+    "defense": 22,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 3
+    },
+    "slots": []
+   },
+   {
+    "name": "Hirabami Greaves",
+    "defense": 22,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Hirabami_Set"
  },
  {
@@ -5144,7 +12306,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Hope Mask",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Hope Mail",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Hope Vambraces",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Hope Coil",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Hope Greaves",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Hope_Set"
  },
  {
@@ -5178,7 +12401,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Ingot Helm",
+    "defense": 16,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Ingot Mail",
+    "defense": 16,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Ingot Vambraces",
+    "defense": 16,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Ingot Coil",
+    "defense": 16,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Ingot Greaves",
+    "defense": 16,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 0,
+     "ice": 3,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Ingot_Set"
  },
  {
@@ -5186,7 +12470,20 @@
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/55/Kranodath-set_mhwilds-wiki-guide.png/Kranodath-set_mhwilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "NO HELM - - - - - - - Kranodath Mail",
+    "defense": 16,
+    "res": {
+     "fire": 0,
+     "water": 4,
+     "thunder": -2,
+     "ice": 0,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Kranodath_Set"
  },
  {
@@ -5212,7 +12509,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Barina Headgear",
+    "defense": 8,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Barina Mail",
+    "defense": 8,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Barina Vambraces",
+    "defense": 8,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Barina Coil",
+    "defense": 8,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Barina Greaves",
+    "defense": 8,
+    "res": {
+     "fire": 0,
+     "water": -3,
+     "thunder": 3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Lala_Barina_Set"
  },
  {
@@ -5238,7 +12596,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Leather Headgear",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Leather Vest",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Leather Gloves",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Leather Belt",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Leather Pants",
+    "defense": 2,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 0,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Leather_Set"
  },
  {
@@ -5280,7 +12699,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Nerscylla Helm",
+    "defense": 20,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Nerscylla Mail",
+    "defense": 20,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Nerscylla Vambraces",
+    "defense": 20,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Nerscylla Coil",
+    "defense": 20,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Nerscylla Greaves",
+    "defense": 20,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 2,
+     "ice": -2,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Nerscylla_Set"
  },
  {
@@ -5306,7 +12786,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Udra Mirehelm",
+    "defense": 26,
+    "res": {
+     "fire": 5,
+     "water": -4,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Udra Miremail",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": 5,
+     "thunder": -4,
+     "ice": 0,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Udra Mirebraces",
+    "defense": 26,
+    "res": {
+     "fire": 5,
+     "water": -4,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Udra Mirecoil",
+    "defense": 26,
+    "res": {
+     "fire": 5,
+     "water": -4,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Udra Miregreaves",
+    "defense": 26,
+    "res": {
+     "fire": 5,
+     "water": -4,
+     "thunder": 0,
+     "ice": 1,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Nu_Udra_Set"
  },
  {
@@ -5340,7 +12881,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Quematrice Helm",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Quematrice Mail",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Quematrice Braces",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Quematrice Coil",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": -1
+    },
+    "slots": []
+   },
+   {
+    "name": "Quematrice Greaves",
+    "defense": 6,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": -1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Quematrice_Set"
  },
  {
@@ -5366,7 +12968,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Rey Sandhelm",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": -2,
+     "ice": 4,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandmail",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": -2,
+     "ice": 4,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandbraces",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandcoil",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rey Sandgreaves",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": -2,
+     "ice": 4,
+     "dragon": -3
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Rey_Dau_Set"
  },
  {
@@ -5392,7 +13055,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Rompopolo Helm",
+    "defense": 18,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rompopolo Mail",
+    "defense": 18,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rompopolo Vambraces",
+    "defense": 18,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rompopolo Coil",
+    "defense": 18,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Rompopolo Greaves",
+    "defense": 18,
+    "res": {
+     "fire": 0,
+     "water": 0,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Rompopolo_Set"
  },
  {
@@ -5400,7 +13124,20 @@
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/5b/Talioth_set-mhwilds-wiki-guide.png/Talioth_set-mhwilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "NO HELMS - - - - - - - NO CHEST - - - - - - - Talioth Vambraces",
+    "defense": 4,
+    "res": {
+     "fire": 0,
+     "water": 4,
+     "thunder": -2,
+     "ice": -2,
+     "dragon": -2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Talioth_Set"
  },
  {
@@ -5434,7 +13171,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Duna Helm",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Mail",
+    "defense": 26,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Vambraces",
+    "defense": 26,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Coil",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Greaves",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": -1,
+     "thunder": 4,
+     "ice": -3,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Uth_Duna_Set"
  },
  {
@@ -5460,7 +13258,68 @@
     "threshold": 2
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Vespoid Helm",
+    "defense": 4,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Vespoid Mail",
+    "defense": 4,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Vespoid Vambraces",
+    "defense": 4,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Vespoid Coil",
+    "defense": 4,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Vespoid Greaves",
+    "defense": 4,
+    "res": {
+     "fire": 0,
+     "water": -2,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Vespoid_Set"
  },
  {
@@ -5486,7 +13345,68 @@
     "threshold": 3
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Xu Wu Helm",
+    "defense": 26,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Xu Wu Mail",
+    "defense": 26,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Xu Wu Vambraces",
+    "defense": 26,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Xu Wu Coil",
+    "defense": 26,
+    "res": {
+     "fire": 0,
+     "water": 1,
+     "thunder": 1,
+     "ice": 1,
+     "dragon": -3
+    },
+    "slots": []
+   },
+   {
+    "name": "Xu Wu Greaves",
+    "defense": 26,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Xu_Wu_Set"
  },
  {
@@ -5536,7 +13456,68 @@
     "threshold": 1
    }
   ],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Orion Cap Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": 4,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Orion Vest Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": 4,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Orion Vambraces Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": 4,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Orion Coat Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": 4,
+     "dragon": 1
+    },
+    "slots": []
+   },
+   {
+    "name": "Orion Boots Alpha",
+    "defense": 66,
+    "res": {
+     "fire": 1,
+     "water": 1,
+     "thunder": 1,
+     "ice": 4,
+     "dragon": 1
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Orion_Alpha_Set"
  },
  {
@@ -5544,14 +13525,124 @@
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/9f/Arch-tempered_uth_duna-armor-set-mhwilds-wiki-guide.png/Arch-tempered_uth_duna-armor-set-mhwilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Duna Wildhelm Gamma",
+    "defense": 68,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Wildmail Gamma 68 — -1 4 -3 0 0 Duna Wildbraces Gamma",
+    "defense": 68,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Wildcoil Gamma",
+    "defense": 68,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   },
+   {
+    "name": "Duna Wildgreaves Gamma",
+    "defense": 68,
+    "res": {
+     "fire": -1,
+     "water": 4,
+     "thunder": -3,
+     "ice": 0,
+     "dragon": 0
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Uth_Duna_Gamma_Set"
  },
  {
   "name": "Sakuratide Alpha Set",
   "equipmentSkills": [],
   "setBonus": [],
-  "pieces": [],
+  "pieces": [
+   {
+    "name": "Sakuratide Headgear Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 0,
+     "water": 2,
+     "thunder": 2,
+     "ice": -3,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Sakuratide Robe Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": -3,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Sakuratide Bracers Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": -3,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Sakuratide Obi Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": -3,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   },
+   {
+    "name": "Sakuratide Hakama Alpha",
+    "defense": 36,
+    "res": {
+     "fire": 2,
+     "water": 2,
+     "thunder": -3,
+     "ice": 2,
+     "dragon": 2
+    },
+    "slots": []
+   }
+  ],
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Sakuratide_Alpha_Set"
  }
 ]
