@@ -891,13 +891,30 @@ function buildMonsterEquipmentIndex() {
     const tally = tallyMonstersForMaterials(allMats);
     if (!tally.length) continue;
     const [topMonster, topCount] = tally[0];
-    if (topCount >= 3) {
-      // prefer a matching real armor_sets.json entry (has a Fextralife
-      // image) if its pieces overlap this group, else fall back to the
-      // group's own piece list with no set image
+    if (topCount >= 2) {
       const pieceIds = new Set(group.pieces.map(p => p.id));
-      const matchedSet = armorSets.find(s => s.pieces.filter(ref => pieceIds.has(ref.id)).length >= 3);
+      const matchedSet = armorSets.find(s => s.pieces.filter(ref => pieceIds.has(ref.id)).length >= 2);
       add(topMonster, "armorGroups", matchedSet ? { name: matchedSet.name, image: matchedSet.localImage || matchedSet.image, isRealSet: true } : { name: armorSetDisplayName(group.prefix), image: armorSetImg(armorSetDisplayName(group.prefix)), pieces: group.pieces, isRealSet: false });
+    }
+  }
+
+  // Also link explicit armor sets by name matching if not already matched
+  for (const s of armorSets) {
+    if (s.pieces.length < 2) continue;
+    const allMats = s.pieces.flatMap(p => {
+      const ap = armorPieces.find(x => x.id === p.id);
+      return ap ? ap.materials || [] : [];
+    });
+    if (!allMats.length) continue;
+    const tally = tallyMonstersForMaterials(allMats);
+    if (!tally.length) continue;
+    const [topMonster, topCount] = tally[0];
+    if (topCount >= 2) {
+      // Check if this monster already has this set linked
+      const entry = index.get(topMonster);
+      if (!entry || !entry.armorGroups.some(g => g.name === s.name)) {
+        add(topMonster, "armorGroups", { name: s.name, image: s.localImage || s.image, isRealSet: true });
+      }
     }
   }
 
