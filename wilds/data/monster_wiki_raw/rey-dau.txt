@@ -1,0 +1,820 @@
+{{Meta
+|MetaTitle     = Rey Dau - MHWilds
+|MetaDesc      = This page describes Rey Dau, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Rey Dau, Wilds, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Rey Dau Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Rey Dau]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Rey Dau
+|MHWilds = Y
+|MHST3 = Y
+|MHWA = Y
+|Music = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Rey Dau
+|Japanese Name = レ・ダウ
+|Image = MHWilds-Rey Dau Render 001.webp
+|Title = Bright Thunder Wyvern (煌雷竜)
+|Class = [[Flying Wyvern]]
+
+|Elements = {{UI|UI|Thunder}}
+|Status Effects = {{Element|Thunderblight}}
+|Weaknesses = {{UI|UI|Ice}}
+
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Flash Pods = Y
+|Dung Pods = 100%
+|Gold Crown Small = 1851.38
+|Average = 2057.09
+|Silver Crown = 2365.65
+|Gold Crown Large = 2530.22
+|Locales = [[Windward Plains]], [[Wounded Hollow]]
+|Sleeping Areas = [[Windward Plains|Windward Plains - Area 17]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Rey Dau is found primarily in the [[Windward Plains]] and is primarily active in the Sandtide, although it can rarely be found in other weather conditions. It can also appear in the [[Wounded Hollow]] from HR 100 onwards.
+
+Rey Dau primarily fights by slashing and slamming its wings, which can be done from both the ground and the air. Its horns can be folded in front of its face, allowing for charged stabs and firing off bolts of lightning. As it uses physical attacks with its wings and tail, these parts will become coated in Fulgurite glass, increasing the range of their electrical attacks. These crystals can be shattered off its body with enough damage. Rey Dau's tail cannot be coated in Fulgurite if it is severed.
+
+Eventually Rey Dau will charge up its body with electricity, causing its horns to glow brightly, and its wings and tail to immediately become coated in Fulgurite glass. This state allows Rey Dau to fire even deadlier lightning bolts, however, it can be knocked out of it by dealing enough damage to the Fulgurite crystals covering its body.
+
+While in its nest in Area 17, Rey Dau's electrically charged attacks will electrify the Fulgurite lining the ground, creating delayed aftershocks. Additionally, the area has a pillar that can be pulled down to topple and damage Rey Dau, generating Grounding Pod ammo for the slinger in the process, allowing one to temporarily neutralize the ground's ability to conduct electricity.
+
+Rey Dau is immune to the effects of [[Great Thunderbug|Great Thunderbugs]] and [[Shock Trap (MHWilds)|Shock Traps]] due to its adaptations to the Sandtide and its lightning.
+
+After its charged lightning attacks, Rey Dau's folded out horns are left exposed as weak points for Focus Strikes. If a Focus Strike is successfully performed on its horns, Rey Dau will reel back and be briefly knocked down, there is a cool-down to this interaction however. 
+
+==== Arch-Tempered ====
+Arch-Tempered Rey Dau receives the following moveset changes:
+
+* Previous moves are performed faster with new combos.
+* Gains a new downward lightning beam that it uses to take off.
+* While in a charged state, all physical attacks leave behind delayed electric aftershocks.
+* Charged lightning beams create delayed electric explosions at the impact site.
+* No longer exposes a weak point after its double lightning beam.
+==Hunter's Notes==
+{{MonsterDescription
+|Game=[[Monster Hunter Wilds]]
+|Icon=MHWilds-Rey Dau Icon.webp
+|Description='''Characteristics:''' The flying wyvern that reigns supreme over the Windward Plains' ecosystem. It has adapted to the Sandtide - when it most frequently appears - and is able to store, amplify and discharge the storm's heavy lightning to lethal effect. Rey Dau is highly territorial and will attack any and all intruders on sight. The fulgurite against its carapace emits a sound that puts every monster in the region on guard.</br><br/>'''Helpful Hints:''' When a Rey Dau's wing or tail touches the ground while charged, it causes a reaction that produces a mantle of fulgurite. Not only does this widen the appendage's attack range, but it also increases the monster's charging capacity - so make a point of breaking these parts. Their heads may also be vulnerable after a discharge attack. Hunters are advised to bring thunder-resistant armor and water-based weaponry.</br><br/>'''Map Description:''' The flying wyvern that reigns supreme over the Windward Plains' ecosystem. It is able to store, amplify, and discharge the Sandtide's lightning.
+}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''65'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''60'''</sup>
+|5
+|15<sup style="color:mediumvioletred">20</sup>
+|0
+|20<sup style="color:mediumvioletred">25</sup>
+|5
+|100
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|30<sup style="color:mediumvioletred">'''65'''</sup>
+|30<sup style="color:mediumvioletred">'''65'''</sup>
+|25<sup style="color:mediumvioletred">'''55'''</sup>
+|5
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|5<sup style="color:mediumvioletred">15</sup>
+|5
+| -
+|-
+|'''Left Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|37<sup style="color:mediumvioletred">'''65'''</sup>
+|37<sup style="color:mediumvioletred">'''65'''</sup>
+|33<sup style="color:mediumvioletred">'''55'''</sup>
+|5
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|5<sup style="color:mediumvioletred">15</sup>
+|5
+| -
+|-
+|'''Right Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|37<sup style="color:mediumvioletred">'''65'''</sup>
+|37<sup style="color:mediumvioletred">'''65'''</sup>
+|33<sup style="color:mediumvioletred">'''55'''</sup>
+|5
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|5<sup style="color:mediumvioletred">15</sup>
+|5
+| -
+|-
+|'''Tail'''
+|<span style="color:limegreen;">❹</span>
+|'''45'''<sup style="color:mediumvioletred">'''65'''</sup>
+|40<sup style="color:mediumvioletred">'''65'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|5
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|10<sup style="color:mediumvioletred">15</sup>
+|5
+| -
+|-
+|'''Left Wing'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|5
+|10
+|0
+|15
+|5
+| -
+|-
+|'''Right Wing'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|5
+|10
+|0
+|15
+|5
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =150→550
+|Poison Increase = 100
+|Poison Duration = 20s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 300→1000
+|Paralysis Increase = 100
+|Paralysis Duration = 8s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 100
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 150→870
+|Stun Increase = 120
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 90→1170
+|Mount Increase = 270
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 11
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration =
+|Shock Exhausted Duration =
+|Shock Tolerance Reduction =
+|Shock Min Duration =
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 11
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Azuz, the Everforge
+| data-sort-value="8" |LR 2'''★'''
+|Assignment
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[A Merciless Glare (MHWilds Quest)|A Merciless Glare]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rey Dau|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |LR 2'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Sultan of the Sand (MHWilds Quest)|Sultan of the Sand]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rey Dau|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Plains Basecamp
+| data-sort-value="8" |HR 6'''★'''
+|Assignment
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Roaring Rey Dau (MHWilds Quest)|Roaring Rey Dau]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rey Dau|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 6'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[When the Dust Settles... (MHWilds Quest)|When the Dust Settles...]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rey Dau|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Hunting Exercise: Tempered Rey Dau (MHWilds Quest)|Hunting Exercise: Tempered Rey Dau]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rey Dau|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Optional
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[The Wind 'n' Sand Blues (MHWilds Quest)|The Wind 'n' Sand Blues]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Doshaguma|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Seregios|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rey Dau|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 10'''★'''
+|Optional
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Proof of a Hero (MHWilds Quest)|Proof of a Hero]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rey Dau|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Uth Duna|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Nu Udra|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Arkveld|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Razzle Dazzle Frazzle (MHWilds Quest)|Razzle Dazzle Frazzle]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Gypceros|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rey Dau|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[A Flash of Brilliance (MHWilds Quest)|A Flash of Brilliance]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Lagiacrus|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rey Dau|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[A Silent Flash (MHWilds Quest)|A Silent Flash]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rey Dau|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 10'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Ruler of the Desert Kingdom (MHWilds Quest)|Ruler of the Desert Kingdom]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rey Dau|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Grand Hub
+| data-sort-value="8" |HR 7'''★'''
+|Challenge
+|{{UI|UI|Slay|title=Arena|nolink=true}} [[Event: The Dreamer's Stairway (MHWilds Quest)|Event: The Dreamer's Stairway]]{{note|This quest was only available between the 20<sup>th</sup> of January and the 24<sup>th</sup> of February during 2026.}}
+|[[Windward Plains]]
+| data-sort-value="1" |{{IPUClassicSmall|MHWilds|Alpha Doshaguma|Doshaguma|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rey Dau|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Arkveld|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Free Challenge
+|{{UI|UI|Slay|title=Arena|nolink=true}} [[The Shining Storm Rages (MHWilds Quest)|The Shining Storm Rages]]{{note|This quest was only available between the 6<sup>th</sup> and the 20<sup>th</sup> of May during 2025.|Temp}}
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rey Dau|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |レールガン_本体<br>Railgun_Main body<br>{{MachineTranslation}}
+|26, {{UI|UI|Thunder|title=Thunder Damage|text=104}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=60}}
+|???
+|???
+|???
+|???
+|100
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |レールガン_着弾<br>Railgun_Impact<br>{{MachineTranslation}}
+|26, {{UI|UI|Thunder|title=Thunder Damage|text=104}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=60}}
+|???
+|???
+|???
+|???
+|100
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |スタンガン<br>stun gun<br>{{MachineTranslation}}
+|12, {{UI|UI|Thunder|title=Thunder Damage|text=48}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=55}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |プチレールガン<br>Petit Railgun<br>{{MachineTranslation}}
+|16, {{UI|UI|Thunder|title=Thunder Damage|text=39}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |バインドボイス<br>Bind Voice<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |中型レールガン<br>Medium Railgun<br>{{MachineTranslation}}
+|18, {{UI|UI|Thunder|title=Thunder Damage|text=72}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |放電<br>Discharge<br>{{MachineTranslation}}
+|15, {{UI|UI|Thunder|title=Thunder Damage|text=35}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=35}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |バクステレールガン_着弾<br>Backstreet Railgun_Impact<br>{{MachineTranslation}}
+|22, {{UI|UI|Thunder|title=Thunder Damage|text=88}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|75
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |スタンガン（弱）<br>Stun Gun (Weak)<br>{{MachineTranslation}}
+|4, {{UI|UI|Thunder|title=Thunder Damage|text=11}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|15
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |放電<br>Discharge<br>{{MachineTranslation}}
+|15, {{UI|UI|Thunder|title=Thunder Damage|text=35}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=35}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |プチレールガン（組技用）<br>Mini Railgun (for grappling)<br>{{MachineTranslation}}
+|16, {{UI|UI|Thunder|title=Thunder Damage|text=39}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |バクステレールガン_本体<br>Backsteer Railgun_Main Body<br>{{MachineTranslation}}
+|22, {{UI|UI|Thunder|title=Thunder Damage|text=88}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=60}}
+|???
+|???
+|???
+|???
+|75
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| Low Rank = 
+<div class="twocol">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Scale|Scale|Yellow}}
+|28%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Shell|Shell|Yellow}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Wingtalon|Claw|Blue}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Thunderhorn|Claw|Yellow}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Tail|Tail|Yellow}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Plate|Plate|Yellow}}
+|7%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Scale|Scale|Yellow}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Shell|Shell|Yellow}}
+|40%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Tail|Tail|Yellow}}
+|88%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Plate|Plate|Yellow}}
+|12%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Scale|Scale|Yellow}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Tail|Tail|Yellow}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Scale|Scale|Yellow}}
+|25%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Shell|Shell|Yellow}}
+|25%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Wingtalon|Claw|Blue}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Tail|Tail|Yellow}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Thunderhorn|Claw|Yellow}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Certificate|Ticket|Yellow}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Plate|Plate|Yellow}}
+|5%
+|-
+! colspan="2" |Break Horn
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Thunderhorn|Claw|Yellow}}
+|100%
+|-
+! colspan="2" |Break Left Wing
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Wingtalon|Claw|Blue}}
+|100%
+|-
+! colspan="2" |Break Right Wing
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Wingtalon|Claw|Blue}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Scale|Scale|Yellow}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Shell|Shell|Yellow}}
+|50%
+|}
+</div>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Scale+|Scale|Yellow}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Carapace|Shell|Yellow}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Fulgurtalon|Claw|Blue}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Bolthorn|Claw|Yellow}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Tail|Tail|Yellow}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Boltgem|Ball|Yellow}}
+|5%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Scale+|Scale|Yellow}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Monster Hardbone|Bone|Red}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Carapace|Shell|Yellow}}
+|30%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Tail|Tail|Yellow}}
+|93%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Boltgem|Ball|Yellow}}
+|7%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Scale+|Scale|Yellow}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Tail|Tail|Yellow}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Carapace|Shell|Yellow}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Scale+|Scale|Yellow}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Fulgurtalon|Claw|Blue}}
+|16%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Bolthorn|Claw|Yellow}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Tail|Tail|Yellow}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Certificate S|Ticket|Yellow}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Plate|Plate|Yellow}}
+|7%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Boltgem|Ball|Yellow}}
+|3%
+|-
+! colspan="2" |Break Horn
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Bolthorn|Claw|Yellow}}
+|100%
+|-
+! colspan="2" |Break Left Wing
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Fulgurtalon|Claw|Blue}}
+|100%
+|-
+! colspan="2" |Break Right Wing
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Fulgurtalon|Claw|Blue}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Carapace|Shell|Yellow}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Scale+|Scale|Yellow}}
+|50%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone|Ore|Red}}
+|70%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (L)|Ore|Red}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone Chunk|Ore|Red}}
+|7%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Carapace|Shell|Yellow}}
+|26%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Scale+|Scale|Yellow}}
+|26%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Fulgurtalon|Claw|Blue}}
+|16%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Bolthorn|Claw|Yellow}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Tail|Tail|Yellow}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Plate|Plate|Yellow}}
+|7%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Boltgem|Ball|Yellow}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Bolthorn|Claw|Yellow}}
+|36%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Fulgurtalon|Claw|Blue}}
+|36%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Plate|Plate|Yellow}}
+|21%
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Boltgem|Ball|Yellow}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Rey Dau Boltgem|Ball|Yellow}}
+|100%
+|}
+</div>
+</tabber>
+
+=Notes=
+{{notelist}}
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

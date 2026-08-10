@@ -1,0 +1,652 @@
+{{Meta
+|MetaTitle     = Quematrice - MHWilds
+|MetaDesc      = This page describes Quematrice, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Quematrice, Wilds, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Quematrice Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Quematrice]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Quematrice
+|MHWilds = Y
+|MHWA = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Quematrice
+|Japanese Name = ケマトリス
+|Image = MHWilds-Quematrice Render 001.webp
+|Title = Flame Tail Wyvern (炎尾竜)
+|Class = [[Brute Wyvern]]
+
+|Elements = {{UI|UI|Fire}}
+|Status Effects = {{Element|Fireblight}}
+|Weaknesses = {{UI|UI|Water}}
+
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Flash Pods = Y
+|Dung Pods = 100%
+|Gold Crown Small = 1119.75
+|Average = 1244.17
+|Silver Crown = 1430.79
+|Gold Crown Large = 1530.32
+|Locales = [[Windward Plains]], [[Ruins of Wyveria]], [[Wounded Hollow]]
+|Sleeping Areas = [[Windward Plains|Windward Plains - Area 9]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Quematrice is found primarily in the [[Windward Plains]], with [[Tempered Monsters|Tempered individuals]] also being found in the [[Ruins of Wyveria]]. It can also appear in the [[Wounded Hollow]]. 
+
+Quematrice mainly attacks by biting and swinging its tail, spreading flames as it drags it across the ground. By severing the tail, the monster's ability to spread fire with it is removed. The fires spawned from its attacks are capable of setting alight any patches of grass they come in contact with. 
+
+After performing its flaming tail spin, Quematrice's neck is left exposed as a weak point for Focus Strikes. If a Focus Strike is successfully performed on the neck, Quematrice will reel back and be briefly knocked down. 
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription
+|Description='''Characteristics:''' Brute Wyverns with disproportionately long tails. They spread a flammable substance which vaporizes quickly, then it ignite it by dragging their tails along the ground. By nature, Quematrice rarely hunt their own prey, and instead scavenge herbivore carrion left behind by other predators. This often leads to confrontations with other, smaller carnivores.</br><br/>'''Helpful Hints:''' Keep an eye on where the flammable material settles on the ground to gauge how much a Quematrice's fire will spread. Since they rely on their tails to attack from a distance as well as to start blazes, a hunter can weaken this monster significantly by cutting it off.</br><br/>'''Map Description:''' Brute wyverns that spread flammable vapor which they then ignite with their tails. They subsist on prey stolen from other predators.
+|Icon=MHWilds-Quematrice Icon.webp
+|Game=[[Monster Hunter Wilds]]}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''60'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''65'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''75'''</sup>
+|0
+|20<sup style="color:mediumvioletred">30</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|10<sup style="color:mediumvioletred">20</sup>
+|5
+|100
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|40<sup style="color:mediumvioletred">'''65'''</sup>
+|40<sup style="color:mediumvioletred">'''65'''</sup>
+|30<sup style="color:mediumvioletred">'''65'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5
+| -
+|-
+|'''Tail'''
+|<span style="color:limegreen;">❹</span>
+|'''65'''
+|'''60'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''65'''</sup>
+|0
+|25
+|5<sup style="color:mediumvioletred">15</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|5
+| -
+|-
+|'''Right Foreleg'''
+|<span style="color:#c0c0c0;">❷</span>
+|40<sup style="color:mediumvioletred">'''65'''</sup>
+|35<sup style="color:mediumvioletred">'''65'''</sup>
+|35<sup style="color:mediumvioletred">'''65'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5
+| -
+|-
+|'''Left Foreleg'''
+|<span style="color:#c0c0c0;">❷</span>
+|40<sup style="color:mediumvioletred">'''65'''</sup>
+|35<sup style="color:mediumvioletred">'''65'''</sup>
+|35<sup style="color:mediumvioletred">'''65'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5
+| -
+|-
+|'''Right Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|40<sup style="color:mediumvioletred">'''65'''</sup>
+|35<sup style="color:mediumvioletred">'''65'''</sup>
+|35<sup style="color:mediumvioletred">'''65'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5
+| -
+|-
+|'''Left Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|40<sup style="color:mediumvioletred">'''65'''</sup>
+|35<sup style="color:mediumvioletred">'''65'''</sup>
+|35<sup style="color:mediumvioletred">'''65'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =100→370
+|Poison Increase = 90
+|Poison Duration = 25s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 130→580
+|Paralysis Increase = 75
+|Paralysis Duration = 12s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 75
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 11
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 9
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 11
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Plains Basecamp
+| data-sort-value="8" |LR 1'''★'''
+|Assignment
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Hot on Their Tails (MHWilds Quest)|Hot on Their Tails]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Quematrice|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |LR 1'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Fire Starter (MHWilds Quest)|Fire Starter]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Quematrice|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[The Pursued and the Pursuer (MHWilds Quest)|The Pursued and the Pursuer]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Quematrice|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Rath-from-Above, Go! (MHWilds Quest)|Rath-from-Above, Go!]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Quematrice|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Continuing Conflict (MHWilds Quest)|Continuing Conflict]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Quematrice|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rathian|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[When Do Quematrice Sing? (MHWilds Quest)|When Do Quematrice Sing?]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Quematrice|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Stalking Supper (MHWilds Quest)|Stalking Supper]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Quematrice|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Three Tails Better Than None (MHWilds Quest)|Three Tails Better Than None]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Quematrice|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Quematrice|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Quematrice|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Meat at the Heart of Wyveria (MHWilds Quest)|Meat at the Heart of Wyveria]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Quematrice|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rathalos|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Every Hunter's Dream (MHWilds Quest)|Every Hunter's Dream]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Mizutsune|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Quematrice|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Quematrice|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Quematrice|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Quematrice|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Grand Hub
+| data-sort-value="8" |HR 4'''★'''
+|Challenge
+|{{UI|UI|Slay|title=Arena|nolink=true}} [[Event: Ignition to the Top (MHWilds Quest)|Event: Ignition to the Top]]{{note|This quest was only available between the 2<sup>nd</sup> of September and the 4<sup>th</sup> of November during 2025.}}
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Quematrice|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |尻尾薙ぎ払い_火炎<br>Tail Sweeping_Flame<br>{{MachineTranslation}}
+|15, {{UI|UI|Fire|title=Fire Damage|text=35}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |大回転用_火炎<br>Giant slalom_Flame<br>{{MachineTranslation}}
+|21, {{UI|UI|Fire|title=Fire Damage|text=49}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |火炎エフェクト用<br>For flame effects<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| Low Rank = 
+<div class="twocol">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Quematrice Scale|Scale|Blue}}
+|33%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Hide|Hide|Blue}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Igniter|Chemical|Red}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Crest|Head|Red}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Tail|Tail|Blue}}
+|11%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Quematrice Scale|Scale|Blue}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Hide|Hide|Blue}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Igniter|Chemical|Red}}
+|30%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Quematrice Tail|Tail|Blue}}
+|100%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Quematrice Scale|Scale|Blue}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Tail|Tail|Blue}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Quematrice Hide|Hide|Blue}}
+|25%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Scale|Scale|Blue}}
+|25%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Igniter|Chemical|Red}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Crest|Head|Red}}
+|14%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Certificate|Ticket|Blue}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Tail|Tail|Blue}}
+|8%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Quematrice Crest|Head|Red}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Quematrice Scale|Scale|Blue}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Hide|Hide|Blue}}
+|43%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Igniter|Chemical|Red}}
+|12%
+|}
+</div>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Quematrice Scale+|Scale|Blue}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Hide+|Hide|Blue}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Igniter+|Chemical|Red}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Tail|Tail|Blue}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Crest+|Head|Red}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Wyvern Gem|Ball|Light Blue}}
+|5%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Quematrice Scale+|Scale|Blue}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Hide+|Hide|Blue}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Igniter+|Chemical|Red}}
+|30%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Quematrice Tail|Tail|Blue}}
+|93%
+|-
+|{{GenericItemLink|MHWilds|Wyvern Gem|Ball|Light Blue}}
+|7%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Quematrice Scale+|Scale|Blue}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Tail|Tail|Blue}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Quematrice Hide+|Hide|Blue}}
+|25%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Scale+|Scale|Blue}}
+|25%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Igniter+|Chemical|Red}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Crest+|Head|Red}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Certificate S|Ticket|Blue}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Tail|Tail|Blue}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Wyvern Gem|Ball|Light Blue}}
+|3%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Quematrice Crest+|Head|Red}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Quematrice Scale+|Scale|Blue}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Hide+|Hide|Blue}}
+|43%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Igniter+|Chemical|Red}}
+|12%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone Shard|Ore|Red}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (S)|Ore|Red}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone|Ore|Red}}
+|15%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Quematrice Hide+|Hide|Blue}}
+|26%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Scale+|Scale|Blue}}
+|26%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Crest+|Head|Red}}
+|19%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Igniter+|Chemical|Red}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Tail|Tail|Blue}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Wyvern Gem|Ball|Light Blue}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Quematrice Igniter+|Chemical|Red}}
+|55%
+|-
+|{{GenericItemLink|MHWilds|Quematrice Crest+|Head|Red}}
+|38%
+|-
+|{{GenericItemLink|MHWilds|Wyvern Gem|Ball|Light Blue}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Wyvern Gem|Ball|Light Blue}}
+|100%
+|}
+</div>
+</tabber>
+
+=Notes=
+{{notelist}}
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

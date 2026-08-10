@@ -1,0 +1,786 @@
+{{Meta
+|MetaTitle     = Mizutsune - MHWilds
+|MetaDesc      = This page describes Mizutsune, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Mizutsune, Wilds, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Mizutsune Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Mizutsune]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Mizutsune
+|MHWilds = Y
+|MHRS = Y
+|MHRise = Y
+|MHGU = Y
+|MHGen = Y
+|MHNow = Y
+|MHST2 = Y
+|MHExplore = Y
+|MHRiders = Y
+|MHPuzzles = Y
+|MHWA = Y
+|Music = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Mizutsune
+|Japanese Name = タマミツネ
+|Image = MHWilds-Mizutsune Render 001.webp
+|Title = Bubble Fox Wyvern (泡狐竜)
+|Class = [[Leviathan]]
+
+|Elements = {{UI|UI|Fire}} {{UI|UI|Water}}
+|Status Effects = {{Element|Fireblight}} {{Element|Waterblight}} {{Element|Bubbleblight}} {{Element|Severe Bubbleblight}}
+|Weaknesses = {{UI|UI|Thunder}}
+
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Gold Crown Small = 1731.09
+|Average = 1923.43
+|Silver Crown = 2211.95
+|Gold Crown Large = 2365.82
+|Locales = [[Scarlet Forest]], [[Ruins of Wyveria]], [[Wounded Hollow]]
+|Sleeping Areas = [[Scarlet Forest|Scarlet Forest - Area 6]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Mizutsune is found primarily in the [[Scarlet Forest]], with [[Tempered Monsters|Tempered]] individuals also being found in the [[Ruins of Wyveria]]. It can also appear in the [[Wounded Hollow]].
+
+Mizutsune attacks by sliding across the ground using his bubblefoam, often attacking with his brush-like tail in the process. Hitting Mizutsune while he is sliding around will topple him. Additionally, Mizutsune is capable of shooting both jets of water and bubbles, with some of his attacks also sending off bubbles. Small bubbles inflict Minor Bubbleblight, large bubbles inflict Major Bubbleblight. In addition, he will sometimes produce green and red bubbles, which heal you and boost attack respectively.
+
+While low on health when he enters his enraged state, he will form a blue fiery glow in one of his eyes, similar to [[Soulseer Mizutsune]]. In this state, he can spit fire-element bubbles as well as perform attacks similar to Soulseer.
+
+After performing a water burst, Mizutsune's mouth is left exposed as a weak-point for Focus Strikes. If a Focus Strike is successfully performed on his mouth, Mizutsune will reel back and be briefly knocked down, however there is a cool-down to this interaction.
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription
+|Description='''Characteristics:''' Specially evolved leviathans with sleek, lithe bodies, Mizutsune can secrete a peculiar foam that covers their foes in immobilizing bubbles. Once their prey's movement is impaired, they'll close in with spry, dance-like movements.</br><br/>'''Helpful Hints:''' The foam of a Mizutsune allows it to move with incredible agility even on land, but that's not all. Different kinds of foam produce unique effects, such as inflicting bubbleblight, healing hunters, or boosting your attacks. They can even employ an explosive foam when angered. If you are inflicted with bubbleblight, you'll be left open for longer after taking an attack, so fix yourself up quickly with a cleanser.</br><br/>'''Map Description:''' Specially evolved leviathans, Mizutsune can excrete a peculiar foam that deftly covers their foes in dangerous bubbles.
+|Icon=MHWilds-Mizutsune Icon.webp
+|Game=[[Monster Hunter Wilds]]}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Wounded</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''63'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''63'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|10<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|8<sup style="color:mediumvioletred">10</sup>
+|100
+|-
+|'''Left Leg'''
+|<span style="color:orange;">❸</span>
+|28<sup style="color:mediumvioletred">'''50'''</sup>
+|28<sup style="color:mediumvioletred">'''50'''</sup>
+|10<sup style="color:mediumvioletred">'''50'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|25<sup style="color:mediumvioletred">30</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|30
+| -
+|-
+|'''Left Claw'''
+|<span style="color:;"></span>
+|24<sup style="color:mediumvioletred">'''50'''</sup>
+|24<sup style="color:mediumvioletred">'''50'''</sup>
+|10<sup style="color:mediumvioletred">'''50'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|30
+|15<sup style="color:mediumvioletred">20</sup>
+|30
+| -
+|-
+|'''Right Leg'''
+|<span style="color:orange;">❸</span>
+|28<sup style="color:mediumvioletred">'''50'''</sup>
+|28<sup style="color:mediumvioletred">'''50'''</sup>
+|10<sup style="color:mediumvioletred">'''50'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|25<sup style="color:mediumvioletred">30</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|30
+| -
+|-
+|'''Right Claw'''
+|<span style="color:;"></span>
+|24<sup style="color:mediumvioletred">'''50'''</sup>
+|24<sup style="color:mediumvioletred">'''50'''</sup>
+|10<sup style="color:mediumvioletred">'''50'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|30
+|15<sup style="color:mediumvioletred">20</sup>
+|30
+| -
+|-
+|'''Left Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|38<sup style="color:mediumvioletred">'''50'''</sup>
+|38<sup style="color:mediumvioletred">'''50'''</sup>
+|25<sup style="color:mediumvioletred">'''50'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|10<sup style="color:mediumvioletred">30</sup>
+|5<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Right Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|38<sup style="color:mediumvioletred">'''50'''</sup>
+|38<sup style="color:mediumvioletred">'''50'''</sup>
+|25<sup style="color:mediumvioletred">'''50'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|10<sup style="color:mediumvioletred">30</sup>
+|5<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|25<sup style="color:mediumvioletred">'''50'''</sup>
+|25<sup style="color:mediumvioletred">'''50'''</sup>
+|20<sup style="color:mediumvioletred">'''50'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|10<sup style="color:mediumvioletred">30</sup>
+|5<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Tail'''
+|<span style="color:#c0c0c0;">❷</span>
+|43<sup style="color:mediumvioletred">'''50'''</sup>
+|33<sup style="color:mediumvioletred">'''50'''</sup>
+|40<sup style="color:mediumvioletred">'''50'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|10<sup style="color:mediumvioletred">30</sup>
+|5<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Dorsal Fin'''
+|<span style="color:crimson;">❶</span>
+|43<sup style="color:mediumvioletred">'''50'''</sup>
+|43<sup style="color:mediumvioletred">'''50'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''50'''</sup>
+|8<sup style="color:mediumvioletred">10</sup>
+|0
+|15<sup style="color:mediumvioletred">30</sup>
+|5<sup style="color:mediumvioletred">20</sup>
+|10<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWildsStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =150→550
+|Poison Increase = 100
+|Poison Duration = 20s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 180→960
+|Paralysis Increase = 130
+|Paralysis Duration = 10s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 130
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 11
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 9
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 11
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness =
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness = 100
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Forest Basecamp
+| data-sort-value="8" |HR 5'''★'''
+|Assignment
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[The Entrancing Water Dancer (MHWilds Quest)|The Entrancing Water Dancer]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Mizutsune|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Bubbling Crimson Flowers (MHWilds Quest)|Bubbling Crimson Flowers]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Mizutsune|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Hunting Exercise: Tempered Mizutsune (MHWilds Quest)|Hunting Exercise: Tempered Mizutsune]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Mizutsune|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Optional
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Serenade of Scarlet Water (MHWilds Quest)|Serenade of Scarlet Water]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Mizutsune|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Lagiacrus|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Uth Duna|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Every Hunter's Dream (MHWilds Quest)|Every Hunter's Dream]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Mizutsune|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Quematrice|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Quematrice|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Quematrice|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Quematrice|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Playing the Long Game (MHWilds Quest)|Playing the Long Game]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Balahara|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Mizutsune|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Grand Hub
+| data-sort-value="8" |HR 5'''★'''
+|Challenge
+|{{UI|UI|Slay|title=Arena|nolink=true}} [[Fleeting Bubbles (MHWilds Quest)|Fleeting Bubbles]]{{note|This quest was only available between the 8<sup>th</sup> and the 22<sup>nd</sup> of July during 2025.}}
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Mizutsune|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |???
+|20
+|{{UI|UI|???|title=??? Damage|text=1}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|21, {{UI|UI|Water|title=Water Damage|text=49}}
+|{{UI|UI|Water|title=Water Damage|text=0}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|24, {{UI|UI|Water|title=Water Damage|text=56}}
+|{{UI|UI|Water|title=Water Damage|text=0}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|0
+|{{UI|UI|???|title=??? Damage|text=4}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|0
+|{{UI|UI|???|title=??? Damage|text=6}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|30
+|{{UI|UI|???|title=??? Damage|text=2}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|30
+|{{UI|UI|???|title=??? Damage|text=2}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|0
+|{{UI|UI|???|title=??? Damage|text=4}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|0
+|{{UI|UI|???|title=??? Damage|text=6}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|70
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|70
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|70
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|0
+|{{UI|UI|???|title=??? Damage|text=3}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|0
+|{{UI|UI|???|title=??? Damage|text=5}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|24, {{UI|UI|Water|title=Water Damage|text=56}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|0
+| -
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|21, {{UI|UI|Water|title=Water Damage|text=49}}
+|{{UI|UI|Water|title=Water Damage|text=0}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|21, {{UI|UI|Water|title=Water Damage|text=49}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Scale+|Scale|White}}
+|24%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Purplefur+|Hide|Dark Purple}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Bubblefoam+|Chemical|Purple}}
+|16%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Claw+|Claw|Dark Purple}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Fin+|Monster Part|Pink}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Tail|Tail|Dark Purple}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Water Orb|Ball|Dark Purple}}
+|3%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Scale+|Scale|White}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Purplefur+|Hide|Dark Purple}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Monster Keenbone|Bone|Pink}}
+|30%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Tail|Tail|Dark Purple}}
+|94%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Water Orb|Ball|Dark Purple}}
+|6%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Scale+|Scale|White}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Tail|Tail|Dark Purple}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Purplefur+|Hide|Dark Purple}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Scale+|Scale|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Bubblefoam+|Chemical|Purple}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Claw+|Claw|Dark Purple}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Certificate S|Ticket|Dark Purple}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Fin+|Monster Part|Pink}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Tail|Tail|Dark Purple}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Water Orb|Ball|Dark Purple}}
+|3%
+|-
+! colspan="2" |Break Dorsal Fin
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Fin+|Monster Part|Pink}}
+|100%
+|-
+! colspan="2" |Break Head I
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Fin+|Monster Part|Pink}}
+|100%
+|-
+! colspan="2" |Break Left Claw
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Claw+|Claw|Dark Purple}}
+|100%
+|-
+! colspan="2" |Break Right Claw
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Claw+|Claw|Dark Purple}}
+|100%
+|-
+! colspan="2" |Break Tail
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Purplefur+|Hide|Dark Purple}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Bubblefoam+|Chemical|Purple}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Purplefur+|Hide|Dark Purple}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Scale+|Scale|White}}
+|30%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (L)|Ore|Red}}
+|85%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone Chunk|Ore|Red}}
+|15%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Purplefur+|Hide|Dark Purple}}
+|24%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Scale+|Scale|White}}
+|24%
+|-
+|{{GenericItemLink|MHWilds|Bubblefoam+|Chemical|Purple}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Claw+|Claw|Dark Purple}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Fin+|Monster Part|Pink}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Tail|Tail|Dark Purple}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Water Orb|Ball|Dark Purple}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Bubblefoam+|Chemical|Purple}}
+|25%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Claw+|Claw|Dark Purple}}
+|25%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Fin+|Monster Part|Pink}}
+|25%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Tail|Tail|Dark Purple}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Water Orb|Ball|Dark Purple}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Mizutsune Water Orb|Ball|Dark Purple}}
+|100%
+|}
+</div>
+</tabber>
+
+=Notes=
+{{notelist}}
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

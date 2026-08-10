@@ -1,0 +1,737 @@
+{{Meta
+|MetaTitle     = Arkveld - MHWilds
+|MetaDesc      = This page describes Arkveld, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Arkveld, Wilds, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Arkveld Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Arkveld]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Arkveld
+|MHWilds = Y
+|MHST3 = Y
+|MHWA = Y
+|Music = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Arkveld
+|Japanese Name = アルシュベルド
+|Image = MHWilds-Arkveld Render 001.webp
+|Title = Chain Blade Wyvern (鎖刃竜)
+|Class = [[Flying Wyvern]]
+
+|Elements = {{UI|UI|Dragon}}
+|Status Effects = {{Element|Dragonblight}}
+|Weaknesses = {{UI|UI|Dragon}}
+
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Flash Pods = Y
+|Dung Pods = 100%
+|Gold Crown Small = 1499.89
+|Average = 1666.54
+|Silver Crown = 1916.52
+|Gold Crown Large = 2049.84
+|Locales = [[Windward Plains]], [[Scarlet Forest]], [[Oilwell Basin]], [[Iceshard Cliffs]], [[Ruins of Wyveria]], [[Wounded Hollow]]
+|Sleeping Areas = [[Windward Plains|Windward Plains - Area 17]]<br>[[Scarlet Forest|Scarlet Forest - Area 11]]<br>[[Oilwell Basin|Oilwell Basin - Area 16]]<br>[[Iceshard Cliffs|Iceshard Cliffs - Area 16]]<br>[[Ruins of Wyveria|Ruins of Wyveria - Area 15]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Arkveld can be found in any locale, irrespective of the time or weather period.
+
+Arkveld primarily attacks with its chainblades, which can extend and retract at will, by both scraping them across the ground or by whipping them at targets from a distance. It  can also use its extendable tail to stab and sweep at targets behind it.
+
+After some time, Arkveld will enter a charged state where its chainblades split in two (for a total of four) and become charged with Dragon energy. In this state, some of its chainblade attacks become imbued with Dragon element, as well as gaining the ability to plunge its chains into the ground and release Dragon bursts. However, its chainblades will become extremely weak to elemental damage instead of immune. Dealing enough damage to a chainblade will collapse it back into its original form, while overloading both its chainblades will dispel the enhanced form, toppling it. Arkveld will exit this state when it is exhausted, but will enter it more frequently as it nears death.
+
+Breaking one of its chainblade parts always drops a '''Crushing Chainblade Shard''', which can be picked up as a {{IconPickerOverlayAlt|MHWilds|Pod|Heavy Slicing Pod (MHWilds)|Heavy Slicing Pod|Color=White|OverlayLeft=Star}} or {{IconPickerOverlayAlt|MHWilds|Pod|Heavy Piercing Pod (MHWilds)|Heavy Piercing Pod|Color=Blue|OverlayLeft=Star}}.
+
+In its charged state, after performing either its quadruple chain slam or its large Dragon explosion, Arkveld's chains will be left exposed as a weak point for Focus Strikes. If a Focus Strike is successfully performed on its chains, Arkveld will reel back and be briefly knocked down.
+
+==== Arch-Tempered ====
+Arch-Tempered Arkveld receives the following moveset changes:
+
+* Previous attacks are performed much faster, with many having altered timings or behavior.
+* Can combo numerous attacks in a row without pause, with each attack potentially chaining into several other ones.
+* Can perform additional new attacks.
+* If not charged, can now absorb elemental attacks that hit its chainblades to enter its charged state faster; the charged state can only be suppressed by dealing elemental attacks to the chainblades.
+* Below a certain amount of HP, begins manifesting [[Guardian]] abilities to augment its charged state, giving it Wylkrystal-creating variants of many previous attacks akin to [[Guardian Arkveld]].
+* While manifesting Guardian abilities, gains even more new attacks.
+* After first manifesting Guardian abilities, rapidly heals any [[Wounds (MHWilds)|Wounds]] that are not destroyed quickly.
+
+==Hunter's Notes==
+{{MonsterDescription
+|Description='''Characteristics:''' A flying wyvern that was considered extinct according to documents left behind by the Guild. Their wings have a unique, chain-like blade that can extend and retract freely to reap their prey. They feed on elemental energy absorbed through these chainblades, and are able to convert the energy to unleash dragon element attacks.</br><br/>'''Helpful Hints:''' The more energy this monster absorbs, the more ferocious its attacks become. Once they fill their energy tanks, their chainblades will sweep out to attack an even wider area. Conversely, since their wings possess organs that absorb energy, a hunter can force the energy to leak out by focusing attacks there. Flooding them with continuous elemental attacks will eventually overload the organs, forcing the monster out of its enhanced state.</br><br/>'''Map Description:''' A wyvern with chain-like wings. The flexible chainblades on their wings are used to mow down prey and absorb elemental energy.
+|Icon=MHWilds-Arkveld Icon.webp
+|Game=[[Monster Hunter Wilds]]}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''45'''
+|'''48'''
+|'''45'''
+|5
+|5
+|5
+|5
+|5
+|100
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|28<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''62'''</sup>
+|20<sup style="color:mediumvioletred">'''65'''</sup>
+|1<sup style="color:mediumvioletred">5</sup>
+|1<sup style="color:mediumvioletred">5</sup>
+|1<sup style="color:mediumvioletred">10</sup>
+|1<sup style="color:mediumvioletred">5</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Left Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|26<sup style="color:mediumvioletred">'''60'''</sup>
+|25<sup style="color:mediumvioletred">'''62'''</sup>
+|20<sup style="color:mediumvioletred">'''65'''</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">10</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|4<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Right Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|26<sup style="color:mediumvioletred">'''60'''</sup>
+|25<sup style="color:mediumvioletred">'''62'''</sup>
+|20<sup style="color:mediumvioletred">'''65'''</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">10</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|4<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Tail'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''62'''</sup>
+|42<sup style="color:mediumvioletred">'''65'''</sup>
+|5
+|5
+|5<sup style="color:mediumvioletred">10</sup>
+|5
+|5<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Left Wing'''
+|<span style="color:orange;">❸</span>
+|42<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''62'''</sup>
+|38<sup style="color:mediumvioletred">'''65'''</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">10</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|4<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Right Wing'''
+|<span style="color:orange;">❸</span>
+|42<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''62'''</sup>
+|38<sup style="color:mediumvioletred">'''65'''</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">10</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|4<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Left Chainblade'''
+|<span style="color:orange;">❸</span>
+|'''50'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''68'''</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">38</sup>
+| -
+|-
+|'''Left Chainblade (Charged)'''
+|<span style="color:orange;">❸</span>
+|'''52'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''52'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''48'''<sup style="color:mediumvioletred">'''68'''</sup>
+|20<sup style="color:mediumvioletred">30</sup>
+|20<sup style="color:mediumvioletred">30</sup>
+|20<sup style="color:mediumvioletred">30</sup>
+|20<sup style="color:mediumvioletred">30</sup>
+|25<sup style="color:mediumvioletred">38</sup>
+| -
+|-
+|'''Right Chainblade'''
+|<span style="color:orange;">❸</span>
+|'''50'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''68'''</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">38</sup>
+| -
+|-
+|'''Right Chainblade (Charged)'''
+|<span style="color:orange;">❸</span>
+|'''52'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''52'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''48'''<sup style="color:mediumvioletred">'''68'''</sup>
+|20<sup style="color:mediumvioletred">30</sup>
+|20<sup style="color:mediumvioletred">30</sup>
+|20<sup style="color:mediumvioletred">30</sup>
+|20<sup style="color:mediumvioletred">30</sup>
+|25<sup style="color:mediumvioletred">38</sup>
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =150→550
+|Poison Increase = 100
+|Poison Duration = 20s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 180→960
+|Paralysis Increase = 130
+|Paralysis Duration = 10s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 130
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 11
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 9
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 11
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Plains Basecamp
+| data-sort-value="8" |HR 7'''★'''
+|Assignment
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Awakening From a Dream (MHWilds Quest)|Awakening From a Dream]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Arkveld|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 7'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[The Chains of Life (MHWilds Quest)|The Chains of Life]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Arkveld|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Hunting Exercise: Tempered Arkveld (MHWilds Quest)|Hunting Exercise: Tempered Arkveld]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Arkveld|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 10'''★'''
+|Optional
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Proof of a Hero (MHWilds Quest)|Proof of a Hero]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rey Dau|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Uth Duna|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Nu Udra|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Arkveld|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 10'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Freedom from Solitude (MHWilds Quest)|Freedom from Solitude]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Arkveld|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Grand Hub
+| data-sort-value="8" |HR 7'''★'''
+|Challenge
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Event: The Dreamer's Stairway (MHWilds Quest)|Event: The Dreamer's Stairway]]{{note|This quest was only available between the 20<sup>th</sup> of January and the 24<sup>th</sup> of February during 2026.}}
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IPUClassicSmall|MHWilds|Alpha Doshaguma|Doshaguma|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rey Dau|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Arkveld|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Grand Hub
+| data-sort-value="8" |HR 10'''★'''
+|Challenge
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Event: Unchained Arkveld (MHWilds Quest)|Event: Unchained Arkveld]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Arkveld|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+|HR 10'''★'''
+|Free Challenge
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[The Proud Child of the Wilds (MHWilds Quest)|The Proud Child of the Wilds]]{{note|This quest was only available between the 18<sup>th</sup> of March and the 1<sup>st</sup> of April during 2026.|Temp}}
+|[[Ruins of Wyveria]]
+|{{IconPickerUniversalAlt|MHWilds|Arkveld|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |バインドボイス<br>Bind Voice<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |シェル流し爆発<br>Shell flush explosion<br>{{MachineTranslation}}
+|7, {{UI|UI|Dragon|title=Dragon Damage|text=43}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |シェル大爆発<br>Shell Explosion<br>{{MachineTranslation}}
+|22, {{UI|UI|Dragon|title=Dragon Damage|text=88}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=50}}
+|???
+|???
+|???
+|???
+|45
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |シェル大爆発<br>Shell Explosion<br>{{MachineTranslation}}
+|22, {{UI|UI|Dragon|title=Dragon Damage|text=88}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=50}}
+|???
+|???
+|???
+|???
+|45
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |シェル大爆発<br>Shell Explosion<br>{{MachineTranslation}}
+|22, {{UI|UI|Dragon|title=Dragon Damage|text=88}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=50}}
+|???
+|???
+|???
+|???
+|45
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |エネルギー爆発<br>Energy Burst<br>{{MachineTranslation}}
+|80
+|<br>{{UI|UI|Stun|title=Stun Damage|text=55}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |シェル流し爆発<br>Shell flush explosion<br>{{MachineTranslation}}
+|7, {{UI|UI|Dragon|title=Dragon Damage|text=43}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |シェル流し爆発<br>Shell flush explosion<br>{{MachineTranslation}}
+|7, {{UI|UI|Dragon|title=Dragon Damage|text=43}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |暴れ連撃フィニッシュ<br>Rampage Finisher<br>{{MachineTranslation}}
+|17, {{UI|UI|Dragon|title=Dragon Damage|text=68}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|75
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Arkveld Scale+|Scale|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Armorplate|Shell|White}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|White Arkveld Pelt|Hide|White}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Horn+|Claw|White}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Tail|Tail|White}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Gem|Ball|White}}
+|5%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Arkveld Scale+|Scale|White}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Armorplate|Shell|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Monster Hardbone|Bone|Red}}
+|30%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Arkveld Tail|Tail|White}}
+|93%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Gem|Ball|White}}
+|7%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Arkveld Scale+|Scale|White}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Tail|Tail|White}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Arkveld Armorplate|Shell|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Scale+|Scale|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Monster Hardbone|Bone|Red}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|White Arkveld Pelt|Hide|White}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Certificate S|Ticket|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Horn+|Claw|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Tail|Tail|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Gem|Ball|White}}
+|3%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Arkveld Horn+|Claw|White}}
+|100%
+|-
+! colspan="2" |Break Left Chainblade
+|-
+|{{GenericItemLink|MHWilds|Arkveld Calloushell|Wing|White}}
+|100%
+|-
+! colspan="2" |Break Right Chainblade
+|-
+|{{GenericItemLink|MHWilds|Arkveld Calloushell|Wing|White}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Arkveld Scale+|Scale|White}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Armorplate|Shell|White}}
+|43%
+|-
+|{{GenericItemLink|MHWilds|White Arkveld Pelt|Hide|White}}
+|12%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (L)|Ore|Red}}
+|85%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone Chunk|Ore|Red}}
+|15%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Arkveld Armorplate|Shell|White}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Scale+|Scale|White}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|White Arkveld Pelt|Hide|White}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Horn+|Claw|White}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Tail|Tail|White}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Monster Hardbone|Bone|Red}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Gem|Ball|White}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|White Arkveld Pelt|Hide|White}}
+|33%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Horn+|Claw|White}}
+|21%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Tail|Tail|White}}
+|21%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Calloushell|Wing|White}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Arkveld Gem|Ball|White}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Arkveld Gem|Ball|White}}
+|100%
+|}
+</div>
+</tabber>
+
+== Equipment ==
+
+=== Weapons ===
+<div class="threecol"><div>
+* {{GenericWeaponLink|MHWilds|Veldian Labrys I|CB|7}}
+* {{GenericWeaponLink|MHWilds|Abiding Gawain|CB|8}}
+* {{GenericWeaponLink|MHWilds|Veldian Harpes I|DB|7}}
+* {{GenericWeaponLink|MHWilds|Inspired Ywain|DB|8}}
+* {{GenericWeaponLink|MHWilds|Veldian Gladius I|GS|7}}
+* {{GenericWeaponLink|MHWilds|Stalwart Lamorak|GS|8}}
+* {{GenericWeaponLink|MHWilds|Veldian Hasta I|GL|7}}
+* {{GenericWeaponLink|MHWilds|Lawful Bors|GL|8}}
+* {{GenericWeaponLink|MHWilds|Veldian Malleus I|Hm|7}}
+* {{GenericWeaponLink|MHWilds|Exultant Bedivere|Hm|8}}
+* {{GenericWeaponLink|MHWilds|Veldian Sibilus I|HH|7}}
+* {{GenericWeaponLink|MHWilds|Resounding Galahad|HH|8}}
+* {{GenericWeaponLink|MHWilds|Veldian Trudis I|IG|7}}
+* {{GenericWeaponLink|MHWilds|Enduring Tor|IG|8}}
+</div><div>
+* {{GenericWeaponLink|MHWilds|Veldian Lancea I|Ln|7}}
+* {{GenericWeaponLink|MHWilds|Purifying Beaumains|Ln|8}}
+* {{GenericWeaponLink|MHWilds|Veldian Ensis I|LS|7}}
+* {{GenericWeaponLink|MHWilds|Righteous Lancelot|LS|8}}
+* {{GenericWeaponLink|MHWilds|Veldian Securis I|SA|7}}
+* {{GenericWeaponLink|MHWilds|Indomitable Perceval|SA|8}}
+* {{GenericWeaponLink|MHWilds|Veldian Mucro I|SnS|7}}
+* {{GenericWeaponLink|MHWilds|Guiding Artorius|SnS|8}}
+* {{GenericWeaponLink|MHWilds|Veldian Arcum I|Bo|7}}
+* {{GenericWeaponLink|MHWilds|Renowned Tristram|Bo|8}}
+* {{GenericWeaponLink|MHWilds|Veldian Tormentum I|HBG|7}}
+* {{GenericWeaponLink|MHWilds|Aeternal Palamedes|HBG|8}}
+* {{GenericWeaponLink|MHWilds|Veldian Impetum I|LBG|7}}
+* {{GenericWeaponLink|MHWilds|Expiating Caius|LBG|8}}
+</div>
+</div>
+
+=== Armor Sets ===
+<div class="threecol"><div>
+* {{GenericArmorLink|MHWilds|Arkveld α Set|Chestplate|8}}
+</div><div>
+* {{GenericArmorLink|MHWilds|Arkveld β Set|Chestplate|8}}
+</div><div>
+* {{GenericArmorLink|MHWilds|Arkveld γ Set|Chestplate|8}}
+</div></div>
+
+=Notes=
+{{notelist}}
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

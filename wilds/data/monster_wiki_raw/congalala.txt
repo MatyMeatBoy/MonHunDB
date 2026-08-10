@@ -1,0 +1,723 @@
+{{Meta
+|MetaTitle     = Congalala - MHWilds
+|MetaDesc      = This page describes Congalala, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Congalala, Wilds, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Congalala Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Congalala]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Congalala
+|MHWilds = Y
+|MHGU = Y
+|MH4U = Y
+|MH4 = Y
+|MHFU = Y
+|MHF2 = Y
+|MH2 = Y
+|MHST1 = Y
+|MHST2 = Y
+|MHFrontier = Y
+|MHOnline = Y
+|MHWA = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Congalala
+|Japanese Name = ババコンガ
+|Image = MHWilds-Congalala Render 001.webp
+|Title = Pink Fur Beast (桃毛獣)
+|Class = [[Fanged Beast]]
+
+|Elements = {{UI|UI|Fire}}<ref name="elements" group="notes">Depends on Mushroom eaten, or if [[Tempered Monsters|Tempered]]</ref>
+|Status Effects = ({{Element|Paralysis}} {{Element|Poison}} {{Element|Blastblight}})<ref name="elements" group="notes" /> {{Element|Soiled}}
+|Weaknesses = {{UI|UI|Fire}}
+
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Flash Pods = Y
+|Dung Pods = 100%
+|Gold Crown Small = 946.04
+|Average = 1051.15
+|Silver Crown = 1208.82
+|Gold Crown Large = 1292.91
+|Locales = [[Scarlet Forest]], [[Ruins of Wyveria]], [[Wounded Hollow]]
+|Sleeping Areas = [[Scarlet Forest|Scarlet Forest - Area 7]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Congalala is found primarily in the [[Scarlet Forest]], with [[Tempered Monsters|Tempered individuals]] occasionally being found in the [[Ruins of Wyveria]]. It can also appear in the [[Wounded Hollow]]. 
+
+Congalala primarily attacks with its claws, by slamming its body down and by farting. While not carrying anything in its tail, it is also capable of excreting into it and throw its dung forward. 
+
+Additionally, Congalala is capable of performing a variety of breath attacks depending on the type of mushroom it has recently eaten. Periodically, Congalala will sniff into the air before going over to a patch of mushrooms and picking one up with its tail, which it will proceed to eat in order to change the effect of its breath. Congalala's breath attacks will inflict Soiled by default. After consuming red [[Nitroshroom (MHWilds)|Nitroshrooms]], its breath will inflict Blastblight; after consuming yellow [[Parashroom (MHWilds)|Parashrooms]], its breath will inflict Paralysis; after consuming purple [[Toadstool (MHWilds)|Toadstools]], its breath will inflict Poison.
+
+Occasionally, Congalala will instead dig into the ground and pull out a black [[Truffle Du Conga (MHWilds)|Truffle Du Conga]]. Consuming this particular mushroom will allow Congalala to use all its breath attacks simultaneously. However, if it is flinched before it can finish eating, it will drop the mushroom which can be picked up as an item and used as a cooking ingredient.
+
+If caught in a [[Pitfall Trap (MHWilds)|Pitfall Trap]], Congalala will fall into it face first, leaving its rear exposed. When enraged, Congalala is capable of farting in retaliation whilst trapped.
+
+After performing a fart, Congalala's rear is left exposed as a weak point for Focus Strikes. If a Focus Strike is successfully performed on its rear, Congalala will reel back and be briefly knocked down, however there is a cool-down to this interaction.
+
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription
+|Description='''Characteristics:''' Large fanged beasts with pink fur and a distinct crest, which the males sculpt with plant oils and juices as a sign of virility. Congalala are common in temperate forests and are therefore well researched. They're big eaters and love mushrooms, which they absorb and then exhale as a variety of potent breaths that inflict poison, blast, paralysis, and more.</br><br/>'''Helpful Hints:''' The stench from a Congalala is so rancid that healing items have no effect. But you can quickly dispel it with a deodorant or by evading in water. Those farts are also trouble, but a hunter might just spot an opportunity if they watch carefully. Congalala are also known to use any breath type - a trick some have attributed to the black mushrooms they're seen digging up.</br><br/>'''Map Description:''' Large, pink fanged beasts. Beware their potent breath, which changes based on their mushroom diet, and stench, which disables recovery items.
+|Icon=MHWilds-Congalala Icon.webp
+|Game=[[Monster Hunter Wilds]]}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''65'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''70'''<sup style="color:mediumvioletred">'''80'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|25
+|10
+|10
+|15
+|5
+|100
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|35<sup style="color:mediumvioletred">'''55'''</sup>
+|35<sup style="color:mediumvioletred">'''55'''</sup>
+|35<sup style="color:mediumvioletred">'''55'''</sup>
+|10<sup style="color:mediumvioletred">25</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|5
+| -
+|-
+|'''Left Foreleg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|15<sup style="color:mediumvioletred">25</sup>
+|10
+|10
+|15
+|5
+| -
+|-
+|'''Right Foreleg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|15<sup style="color:mediumvioletred">25</sup>
+|10
+|10
+|15
+|5
+| -
+|-
+|'''Left Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|35<sup style="color:mediumvioletred">'''55'''</sup>
+|35<sup style="color:mediumvioletred">'''55'''</sup>
+|35<sup style="color:mediumvioletred">'''55'''</sup>
+|15<sup style="color:mediumvioletred">25</sup>
+|10
+|10
+|15
+|5
+| -
+|-
+|'''Right Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|35<sup style="color:mediumvioletred">'''55'''</sup>
+|35<sup style="color:mediumvioletred">'''55'''</sup>
+|35<sup style="color:mediumvioletred">'''55'''</sup>
+|15<sup style="color:mediumvioletred">25</sup>
+|10
+|10
+|15
+|5
+| -
+|-
+|'''Tail'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|15<sup style="color:mediumvioletred">25</sup>
+|10
+|10
+|15
+|5
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =150→550
+|Poison Increase = 100
+|Poison Duration = 20s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 180→960
+|Paralysis Increase = 130
+|Paralysis Duration = 10s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 130
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 11
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 9
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 11
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Forest Basecamp
+| data-sort-value="8" |LR 1'''★'''
+|Assignment
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Drive Off the Congalala! (MHWilds Quest)|Drive Off the Congalala!]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Congalala|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |LR 1'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Tussle in Pink (MHWilds Quest)|Tussle in Pink]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Congalala|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Flippant Flatulence (MHWilds Quest)|Flippant Flatulence]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Congalala|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Fur Damagings Are Dislikeworthy (MHWilds Quest)|Fur Damagings Are Dislikeworthy]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Lala Barina|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Congalala|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Congalala Cravings (MHWilds Quest)|Congalala Cravings]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Congalala|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Congalala Courting Carols (MHWilds Quest)|Congalala Courting Carols]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Congalala|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Congalala|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Congalala|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Putting Up a Stink (MHWilds Quest)|Putting Up a Stink]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Congalala|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rathian|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |オナラ<br>Farts<br>{{MachineTranslation}}
+|20
+|{{UI|UI|Stench|title=Stench Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|15
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |フン投げ（空中）<br>Dung throwing (air)<br>{{MachineTranslation}}
+|20
+|{{UI|UI|Stench|title=Stench Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |悪臭ブレス<br>Stink Breath<br>{{MachineTranslation}}
+|30
+|{{UI|UI|Stench|title=Stench Damage|text=100}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |大悪臭ブレス<br>Great Stink Breath<br>{{MachineTranslation}}
+|40
+|{{UI|UI|Stench|title=Stench Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |毒霧ブレス<br>Poison Mist Breath<br>{{MachineTranslation}}
+|10
+|{{UI|UI|Poison|title=Poison Damage|text=100}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |フン投げ（着弾）<br>Dung throwing (landing)<br>{{MachineTranslation}}
+|0
+|{{UI|UI|Stench|title=Stench Damage|text=100}}
+|???
+|???
+|???
+|???
+|15
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |麻痺ブレス（噴射）<br>Paralysis Breath (jet)<br>{{MachineTranslation}}
+|10
+|{{UI|UI|Paralysis|title=Paralysis Damage|text=100}}
+|???
+|???
+|???
+|???
+|15
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |麻痺ブレス（着弾）<br>Paralysis Breath (on impact)<br>{{MachineTranslation}}
+|10
+|{{UI|UI|Paralysis|title=Paralysis Damage|text=100}}
+|???
+|???
+|???
+|???
+|15
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |爆破ブレス（噴射）<br>Explosive breath (jet)<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |爆破ブレス（爆発）<br>Explosive breath (explosion)<br>{{MachineTranslation}}
+|60
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |大悪臭ブレス<br>Great Stink Breath<br>{{MachineTranslation}}
+|40
+|{{UI|UI|Stench|title=Stench Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |悪臭ブレス<br>Stink Breath<br>{{MachineTranslation}}
+|30
+|{{UI|UI|Stench|title=Stench Damage|text=100}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| Low Rank = 
+<div class="twocol">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Congalala Pelt|Hide|Pink}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Congalala Fang|Claw|Pink}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Congalala Claw|Claw|Pink}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Vibrant Pelt|Hide|Yellow}}
+|15%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Congalala Pelt|Hide|Pink}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Brute Bone|Bone|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Congalala Fang|Claw|Pink}}
+|30%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Congalala Fang|Claw|Pink}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Congalala Pelt|Hide|Pink}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Congalala Claw|Claw|Pink}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Vibrant Pelt|Hide|Yellow}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Congalala Certificate|Ticket|Pink}}
+|8%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Vibrant Pelt|Hide|Yellow}}
+|100%
+|-
+! colspan="2" |Break Left Foreleg
+|-
+|{{GenericItemLink|MHWilds|Congalala Claw|Claw|Pink}}
+|100%
+|-
+! colspan="2" |Break Right Foreleg
+|-
+|{{GenericItemLink|MHWilds|Congalala Claw|Claw|Pink}}
+|100%
+|-
+! colspan="2" |Break Tail
+|-
+|{{GenericItemLink|MHWilds|Congalala Pelt|Hide|Pink}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Congalala Pelt|Hide|Pink}}
+|100%
+|}
+</div>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Congalala Pelt+|Hide|Pink}}
+|33%
+|-
+|{{GenericItemLink|MHWilds|Congalala Fang+|Claw|Pink}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Congalala Claw+|Claw|Pink}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Vibrant Pelt+|Hide|Yellow}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Beast Gem|Ball|Orange}}
+|5%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Congalala Pelt+|Hide|Pink}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Congalala Fang+|Claw|Pink}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Stoutbone|Bone|Gray}}
+|30%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Congalala Fang+|Claw|Pink}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Congalala Pelt+|Hide|Pink}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Congalala Claw+|Claw|Pink}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Vibrant Pelt+|Hide|Yellow}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Congalala Certificate S|Ticket|Pink}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Beast Gem|Ball|Orange}}
+|3%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Vibrant Pelt+|Hide|Yellow}}
+|100%
+|-
+! colspan="2" |Break Left Foreleg
+|-
+|{{GenericItemLink|MHWilds|Congalala Claw+|Claw|Pink}}
+|100%
+|-
+! colspan="2" |Break Right Foreleg
+|-
+|{{GenericItemLink|MHWilds|Congalala Claw+|Claw|Pink}}
+|100%
+|-
+! colspan="2" |Break Tail
+|-
+|{{GenericItemLink|MHWilds|Congalala Pelt+|Hide|Pink}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Congalala Pelt+|Hide|Pink}}
+|100%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone Shard|Ore|Red}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (S)|Ore|Red}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone|Ore|Red}}
+|15%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Congalala Fang+|Claw|Pink}}
+|31%
+|-
+|{{GenericItemLink|MHWilds|Congalala Pelt+|Hide|Pink}}
+|31%
+|-
+|{{GenericItemLink|MHWilds|Congalala Claw+|Claw|Pink}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Vibrant Pelt+|Hide|Yellow}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Beast Gem|Ball|Orange}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Congalala Claw+|Claw|Pink}}
+|54%
+|-
+|{{GenericItemLink|MHWilds|Vibrant Pelt+|Hide|Yellow}}
+|39%
+|-
+|{{GenericItemLink|MHWilds|Beast Gem|Ball|Orange}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Beast Gem|Ball|Orange}}
+|100%
+|}
+</div>
+</tabber>
+
+=Notes=
+<references group="notes" />
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

@@ -1,0 +1,924 @@
+{{Meta
+|MetaTitle     = Ajarakan - MHWilds
+|MetaDesc      = This page describes Ajarakan, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Ajarakan, Monster Hunter Wilds, Wilds, MHWilds, MHWs, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Ajarakan Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Ajarakan]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Ajarakan
+|MHWilds = Y
+|MHST3 = Y
+|MHWA = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Ajarakan
+|Japanese Name = アジャラカン
+|Image = MHWilds-Ajarakan Render 001.webp
+|Title = Glowing Monkey Beast (赫猿獣)
+|Class = [[Fanged Beast]]
+|Elements = {{UI|UI|Fire}}
+|Status Effects = {{Element|Blastblight}}
+|Weaknesses = {{UI|UI|Water}}
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Flash Pods = Y
+|Dung Pods = 100%
+|Gold Crown Small = 1047.92
+|Average = 1164.36
+|Silver Crown = 1339.01
+|Gold Crown Large = 1432.16
+|Locales = [[Oilwell Basin]], [[Ruins of Wyveria]], [[Wounded Hollow]]
+|Sleeping Areas = [[Oilwell Basin|Oilwell Basin - Area 6]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Ajarakan is found primarily in the [[Oilwell Basin]], with [[Tempered Monsters|Tempered individuals]] also being found in the [[Ruins of Wyveria]]. It can also appear in the [[Wounded Hollow]]. Ajarakan is often encountered and travels in pairs.
+
+Ajarakan attacks with its powerful forelimbs, either slamming them forward or scraping them across the ground. While its body is heated, most of its attacks with its arms will additionally fling up blast-inflicting molten debris. 
+
+As it fights, its body gradually heats up, culminating with it digging its arms into the ground and causing its back to catch on fire. While in this state, standing too close to it will cause passive damage, additionally, weaker arrows and Bowgun ammo will fail to deal significant damage. Eventually it will exit this state after performing its spinning ball slam, though it is not guaranteed to. Dealing enough damage to Ajarakan in this state will forcibly knock it out of it and topple it.
+
+Ajarakan is also capable of hanging and swinging from the overhead debris present in certain zones, eventually leaping and slamming towards its target. It can be knocked down while climbing to topple it.
+
+After performing its massive explosion attack while heated, Ajarakan's arms will be left exposed as a weak point for Focus Strikes. If a Focus Strike is successfully performed on its arms, Ajarakan will reel back and be briefly knocked down. 
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription
+|Description='''Characteristics:''' Characteristic by their highly developed carapaces, Ajarakan wrap themselves in molten metal that they rub together to heat up and create explosions. Presumably due to the friction of the metal, they can reach high enough temperatures to melt even the ground or bullets. They can also use their strong limbs to grip onto the ceiling and move around freely, so a hunter must watch out from every angle, including above.</br><br/>'''Helpful Hints:''' Approaching an Ajarakan's extreme heat will sap your health, so use cool drinks or Chillmantle Bugs to counteract it. Normal Ammo and arrows will wilt if you try to pierce their molten carapaces, so you must use heat-resistant equipment or hit them with Watermoss to bring down their temperature first. Continuous friction will cause their body temperature to rise, but soften their outer shells.</br><br/>'''Map Description:''' Fanged beasts that adhere metal to their bodies and use friction to heat and cause explosions. They move in groups during the Firespring.
+|Icon=MHWilds-Ajarakan Icon.webp
+|Game=[[Monster Hunter Wilds]]}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''45'''<sup style="color:mediumvioletred">'''80'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''82'''</sup>
+|40<sup style="color:mediumvioletred">'''80'''</sup>
+|0
+|20<sup style="color:mediumvioletred">25</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|100
+|-
+|'''Right Foreleg'''
+|<span style="color:crimson;">❶</span>
+|'''50'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''68'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''70'''</sup>
+|0
+|25
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Left Foreleg'''
+|<span style="color:crimson;">❶</span>
+|'''50'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''68'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''70'''</sup>
+|0
+|25
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Right Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|25<sup style="color:mediumvioletred">'''70'''</sup>
+|25<sup style="color:mediumvioletred">'''68'''</sup>
+|20<sup style="color:mediumvioletred">'''70'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|10<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Left Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|25<sup style="color:mediumvioletred">'''70'''</sup>
+|25<sup style="color:mediumvioletred">'''68'''</sup>
+|20<sup style="color:mediumvioletred">'''70'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|10<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Tail Tip'''
+|<span style="color:limegreen;">❹</span>
+|'''45'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''68'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''70'''</sup>
+|0
+|20<sup style="color:mediumvioletred">25</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Tail'''
+|<span style="color:limegreen;">❹</span>
+|40<sup style="color:mediumvioletred">'''70'''</sup>
+|40<sup style="color:mediumvioletred">'''68'''</sup>
+|35<sup style="color:mediumvioletred">'''70'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|10<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Back'''
+|<span style="color:orange;">❸</span>
+|30<sup style="color:mediumvioletred">'''70'''</sup>
+|30<sup style="color:mediumvioletred">'''68'''</sup>
+|25<sup style="color:mediumvioletred">'''70'''</sup>
+|0
+|20<sup style="color:mediumvioletred">25</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Belly'''
+|<span style="color:orange;">❸</span>
+|30<sup style="color:mediumvioletred">'''70'''</sup>
+|30<sup style="color:mediumvioletred">'''68'''</sup>
+|25<sup style="color:mediumvioletred">'''70'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|10<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =150→550
+|Poison Increase = 100
+|Poison Duration = 20s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 180→960
+|Paralysis Increase = 130
+|Paralysis Duration = 10s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 130
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 11
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 9
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 11
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Azuz, the Everforge
+| data-sort-value="8" |LR 2'''★'''
+|Assignment
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Ajarakan Ablaze (MHWilds Quest)|Ajarakan Ablaze]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Ajarakan|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |LR 2'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Scorching Simian (MHWilds Quest)|Scorching Simian]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Ajarakan|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Annihilating Anguish (MHWilds Quest)|Annihilating Anguish]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Ajarakan|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[As Gatekeeper (MHWilds Quest)|As Gatekeeper]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Ajarakan|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Ajarakan|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 6'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Troublemakers (MHWilds Quest)|Troublemakers]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Ajarakan|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Gravios|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Optional
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Tango of Lives Ablaze (MHWilds Quest)|Tango of Lives Ablaze]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Ajarakan|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rathalos|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Nu Udra|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[The Monkey King (MHWilds Quest)|The Monkey King]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Ajarakan|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Grand Hub
+| data-sort-value="8" |HR 5'''★'''
+|Arena
+|{{UI|UI|Slay|title=Arena|nolink=true}} [[Demonic Strength (MHWilds Quest)|Demonic Strength]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Ajarakan|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Grand Hub
+| data-sort-value="8" |HR 5'''★'''
+|Arena
+|{{UI|UI|Slay|title=Arena|nolink=true}} [[True Strength (MHWilds Quest)|True Strength]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Ajarakan|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |バインドボイス<br>Bind Voice<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |単発パンチシェル<br>Single Punch Shell<br>{{MachineTranslation}}
+|22, {{UI|UI|Fire|title=Fire Damage|text=23}}
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|25
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |二連ジャブシェル<br>Double Jab Shell<br>{{MachineTranslation}}
+|12, {{UI|UI|Fire|title=Fire Damage|text=13}}
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|10
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |摺り上げパンチシェル<br>Printing punch shell<br>{{MachineTranslation}}
+|17, {{UI|UI|Fire|title=Fire Damage|text=18}}
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|20
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |通常時殺し技シェル_赤熱時<br>Normal Killer Shell_Red Hot<br>{{MachineTranslation}}
+|18, {{UI|UI|Fire|title=Fire Damage|text=42}}
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|45
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |赤熱時殺し技シェル<br>Red-hot Kill Shell<br>{{MachineTranslation}}
+|16, {{UI|UI|Fire|title=Fire Damage|text=64}}
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|70
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Requires {{GenericSkillLink|MHWilds|Guard Up|Armor|Yellow}} to block.
+|-
+! rowspan="2" |放物線岩投げシェル<br>Parabolic Rock Throwing Shell<br>{{MachineTranslation}}
+|30
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|15
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |放物線岩投げシェル<br>Parabolic Rock Throwing Shell<br>{{MachineTranslation}}
+|30
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|15
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |タックルシェル_通常時<br>Tackle Shell_Normal<br>{{MachineTranslation}}
+|10
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=5}}
+|???
+|???
+|???
+|???
+|5
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |天井攻撃シェル_通常時<br>Ceiling attack shell_normal<br>{{MachineTranslation}}
+|50
+|<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|25
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |赤熱時殺し技予兆シェル<br>Red-hot Kill Technique Premonition Shell<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |タックルシェル_赤熱時<br>Tackle Shell_Red Hot<br>{{MachineTranslation}}
+|13, {{UI|UI|Fire|title=Fire Damage|text=32}}
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |天井攻撃シェル_赤熱時<br>Ceiling attack shell_red hot<br>{{MachineTranslation}}
+|15, {{UI|UI|Fire|title=Fire Damage|text=35}}
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|25
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |通常時殺し技シェル_通常時<br>Normal Killer Shell_Normal<br>{{MachineTranslation}}
+|60
+|<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|45
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |通常時殺し技シェル_赤熱時<br>Normal Killer Shell_Red Hot<br>{{MachineTranslation}}
+|18, {{UI|UI|Fire|title=Fire Damage|text=42}}
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|45
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |放物線岩投げシェル（赤熱時）<br>Parabolic Rock Throwing Shell (when red hot)<br>{{MachineTranslation}}
+|8, {{UI|UI|Fire|title=Fire Damage|text=32}}
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|25
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |赤熱時殺し技予兆シェル<br>Red-hot Kill Technique Premonition Shell<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |リセット技爆発シェル<br>Reset Technique Explosive Shell<br>{{MachineTranslation}}
+|12, {{UI|UI|Fire|title=Fire Damage|text=28}}
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|20
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |隕石アタック<br>Meteorite Attack<br>{{MachineTranslation}}
+|16, {{UI|UI|Fire|title=Fire Damage|text=64}}
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|70
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |隕石アタック回転予兆<br>Meteorite attack rotation sign<br>{{MachineTranslation}}
+|10, {{UI|UI|Fire|title=Fire Damage|text=10}}
+|{{UI|UI|Blast|title=Blast Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=5}}
+|???
+|???
+|???
+|???
+|10
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |捕食用単発パンチシェル<br>Predatory Single-Shot Punch Shell<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |捕食用背中タックルシェル<br>Predatory Back Tackle Shell<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |捕食用赤熱時背中タックルシェル<br>Predatory Red Hot Back Tackle Shell<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| Low Rank = 
+<div class="twocol">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Scale|Scale|Vermilion}}
+|28%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Shell|Shell|Vermilion}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Jewel|Ore|Vermilion}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Ridge|Monster Part|Vermilion}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Tail|Tail|Vermilion}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Marrow|Monster Part|Vermilion}}
+|7%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Scale|Scale|Vermilion}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Jewel|Ore|Vermilion}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Shell|Shell|Vermilion}}
+|30%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Tail|Tail|Vermilion}}
+|88%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Marrow|Monster Part|Vermilion}}
+|12%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Scale|Scale|Vermilion}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Tail|Tail|Vermilion}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Scale|Scale|Vermilion}}
+|25%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Shell|Shell|Vermilion}}
+|25%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Jewel|Ore|Vermilion}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Ridge|Monster Part|Vermilion}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Tail|Tail|Vermilion}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Certificate|Ticket|Vermilion}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Marrow|Monster Part|Vermilion}}
+|5%
+|-
+! colspan="2" |Break Back
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Ridge|Monster Part|Vermilion}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Scale|Scale|Vermilion}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Shell|Shell|Vermilion}}
+|43%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Jewel|Ore|Vermilion}}
+|12%
+|}
+</div>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Scale+|Scale|Vermilion}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Carapace|Shell|Vermilion}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Jewel+|Ore|Vermilion}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Ridge+|Monster Part|Vermilion}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Tail|Tail|Vermilion}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Medulla|Monster Part|Vermilion}}
+|5%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Scale+|Scale|Vermilion}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Jewel+|Ore|Vermilion}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Shell|Shell|Vermilion}}
+|30%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Tail|Tail|Vermilion}}
+|93%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Medulla|Monster Part|Vermilion}}
+|7%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Scale+|Scale|Vermilion}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Tail|Tail|Vermilion}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Carapace|Shell|Vermilion}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Scale+|Scale|Vermilion}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Jewel+|Ore|Vermilion}}
+|16%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Ridge+|Monster Part|Vermilion}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Tail|Tail|Vermilion}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Certificate S|Ticket|Vermilion}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Marrow|Monster Part|Vermilion}}
+|7%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Medulla|Monster Part|Vermilion}}
+|3%
+|-
+! colspan="2" |Break Back
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Ridge+|Monster Part|Vermilion}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Scale+|Scale|Vermilion}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Carapace|Shell|Vermilion}}
+|43%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Jewel+|Ore|Vermilion}}
+|12%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (S)|Ore|Red}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone|Ore|Red}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (L)|Ore|Red}}
+|20%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Carapace|Shell|Vermilion}}
+|26%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Scale+|Scale|Vermilion}}
+|26%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Jewel+|Ore|Vermilion}}
+|16%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Ridge+|Monster Part|Vermilion}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Tail|Tail|Vermilion}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Marrow|Monster Part|Vermilion}}
+|7%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Medulla|Monster Part|Vermilion}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Jewel+|Ore|Vermilion}}
+|24%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Ridge+|Monster Part|Vermilion}}
+|24%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Tail|Tail|Vermilion}}
+|24%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Marrow|Monster Part|Vermilion}}
+|21%
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Medulla|Monster Part|Vermilion}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Ajarakan Medulla|Monster Part|Vermilion}}
+|100%
+|}
+</div>
+</tabber>
+
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

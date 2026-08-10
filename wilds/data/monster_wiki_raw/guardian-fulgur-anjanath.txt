@@ -1,0 +1,746 @@
+{{Meta
+|MetaTitle = Guardian Fulgur Anjanath - MHWilds
+|MetaDesc = This page describes Guardian Fulgur Anjanath, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords = Guardian Fulgur Anjanath, Wilds, Stats, Materials, Attacks
+|MetaImage = MHWilds-Guardian Fulgur Anjanath Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Guardian Fulgur Anjanath]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Guardian Fulgur Anjanath
+|MHWilds = Y
+|MHWA = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Guardian Fulgur Anjanath
+|Japanese Name = 護竜アンジャナフ亜種
+|Image = MHWilds-Guardian Fulgur Anjanath Render 001.webp
+|Title = Guardian Thunder Jaw Wyvern (護雷顎竜) 
+|Class = [[Construct]]
+
+|Elements = {{UI|UI|Thunder}}
+|Status Effects = {{Element|Thunderblight}}
+|Weaknesses = {{UI|UI|Ice}}
+
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Flash Pods = Y
+|Dung Pods = 100%
+|Gold Crown Small = 1481.81
+|Average = 1646.46
+|Silver Crown = 1893.43
+|Gold Crown Large = 2025.15
+|Locales = [[Ruins of Wyveria]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription
+|Description= '''Characteristics:''' An artificial monster species created by an ancient civilization and imbued with Fulgur Anjanath's power. Guardian Fulgur Anjanath cannot reproduce and do not require food, relying instead on Wyvern Milk for energy. Not only can the lightning charged in their bodies be released as an attack, they can also use it to empower themselves and perform vicious biting attacks.<br/><br/>'''Helpful Hints:''' A hunter must watch out for a Guardian Fulgur Anjanath's sparks and teeth. While their lightning attacks alone are a threat, their maws infused with Guardian energy will cause wide-range explosions. Try to topple one by aggressively targeting its legs. The crystals that form from their attacks will explode through elemental interference, so Slinger ammo can also be effective.</br><br/>'''Map Description:''' An artificial species created by an ancient civilization with a Fulgur Anjanath's power. They can discharge lightning and have a nasty bite.
+|Icon=MHWilds-Guardian Fulgur Anjanath Icon.webp
+|Game=[[Monster Hunter Wilds]]}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''65'''</sup>
+|10
+|20
+|0
+|30
+|30
+|100
+|-
+|'''Nose'''
+|<span style="color:crimson;">❶</span>
+|'''65'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''60'''
+|'''55'''
+|15<sup style="color:mediumvioletred">10</sup>
+|25<sup style="color:mediumvioletred">20</sup>
+|0
+|35<sup style="color:mediumvioletred">25</sup>
+|30<sup style="color:mediumvioletred">25</sup>
+|100
+|-
+|'''Neck'''
+|<span style="color:crimson;">❶</span>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|10<sup style="color:mediumvioletred">'''55'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|20
+|0
+|25
+|5<sup style="color:mediumvioletred">25</sup>
+| -
+|-
+|'''Torso'''
+|<span style="color:#c0c0c0;">❷</span>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|0
+|20<sup style="color:mediumvioletred">25</sup>
+|0<sup style="color:mediumvioletred">25</sup>
+| -
+|-
+|'''Left Wing'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''65'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''55'''
+|15<sup style="color:mediumvioletred">10</sup>
+|25<sup style="color:mediumvioletred">20</sup>
+|0
+|35<sup style="color:mediumvioletred">25</sup>
+|10<sup style="color:mediumvioletred">25</sup>
+| -
+|-
+|'''Right Wing'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''65'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''55'''
+|15<sup style="color:mediumvioletred">10</sup>
+|25<sup style="color:mediumvioletred">20</sup>
+|0
+|35<sup style="color:mediumvioletred">25</sup>
+|10<sup style="color:mediumvioletred">25</sup>
+| -
+|-
+|'''Left Leg'''
+|<span style="color:orange;">❸</span>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|10<sup style="color:mediumvioletred">'''55'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|0
+|20<sup style="color:mediumvioletred">25</sup>
+|0<sup style="color:mediumvioletred">25</sup>
+| -
+|-
+|'''Right Leg'''
+|<span style="color:orange;">❸</span>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|10<sup style="color:mediumvioletred">'''55'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|0
+|20<sup style="color:mediumvioletred">25</sup>
+|0<sup style="color:mediumvioletred">25</sup>
+| -
+|-
+|'''Tail'''
+|<span style="color:orange;">❸</span>
+|'''60'''
+|'''60'''
+|'''75'''<sup style="color:mediumvioletred">'''55'''</sup>
+|10
+|20
+|0
+|25
+|5<sup style="color:mediumvioletred">25</sup>
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =250→700
+|Poison Increase = 150
+|Poison Duration = 15s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 180→960
+|Paralysis Increase = 130
+|Paralysis Duration = 10s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 130
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 10
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 8
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 10
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Wyveria Basecamp
+| data-sort-value="8" |HR 5'''★'''
+|Assignment
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Thundering Flowers (MHWilds Quest)|Thundering Flowers]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Guardian Fulgur Anjanath|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Lala Barina|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Guardian Fulgur Anjanath Hunt (MHWilds Quest)|Guardian Fulgur Anjanath Hunt]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Guardian Fulgur Anjanath|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Running Wild (MHWilds Quest)|Running Wild]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Guardian Fulgur Anjanath|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 6'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Wreaking Havoc in Wyveria (MHWilds Quest)|Wreaking Havoc in Wyveria]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Guardian Fulgur Anjanath|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Ultimate Berserker (MHWilds Quest)|Ultimate Berserker]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Guardian Fulgur Anjanath|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |鼻水飛ばし<br>Snot blowing<br>{{MachineTranslation}}
+|30
+|<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |鼻水飛ばし_着弾<br>Snot splashing _ impact<br>{{MachineTranslation}}
+|20
+|<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|20
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |鼻水飛ばし(帯電)<br>Snot blower (charged)<br>{{MachineTranslation}}
+|8, {{UI|UI|Thunder|title=Thunder Damage|text=32}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |鼻水飛ばし(帯電)_着弾<br>Snot spray (electrically charged)_impact<br>{{MachineTranslation}}
+|8, {{UI|UI|Thunder|title=Thunder Damage|text=32}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|20
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |帯電牽制脚攻撃<br>Electrified Pinch Leg Attack<br>{{MachineTranslation}}
+|6, {{UI|UI|Thunder|title=Thunder Damage|text=24}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|20
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |予兆<br>Omen<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Unblockable
+|-
+! rowspan="2" |雷大噛みつき<br>Thunder Bite<br>{{MachineTranslation}}
+|16, {{UI|UI|Thunder|title=Thunder Damage|text=64}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |必殺突進噛みつき<br>Deadly Charge Bite<br>{{MachineTranslation}}
+|14, {{UI|UI|Thunder|title=Thunder Damage|text=56}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |超必殺ビリビリタックル_エネルギー爆発<br>Super Special Tackle_Energy Explosion<br>{{MachineTranslation}}
+|90
+|<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |弱噛みつき_エネルギー爆発<br>Weak Bite_Energy Burst<br>{{MachineTranslation}}
+|20
+|<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |薙ぎ払い噛みつき_エネルギー爆発<br>Sweeping and biting_Energy explosion<br>{{MachineTranslation}}
+|20
+|<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |中距離薙ぎ払い_エネルギー爆発<br>Mid-range sweep_Energy explosion<br>{{MachineTranslation}}
+|50
+|<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |必殺2連ガブガブ_エネルギー爆発<br>Special move: Double Gobble - Energy explosion<br>{{MachineTranslation}}
+|50
+|<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|45
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |結晶起爆<br>Crystal Detonation<br>{{MachineTranslation}}
+|5, {{UI|UI|Thunder|title=Thunder Damage|text=5}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Unblockable
+|-
+! rowspan="2" |結晶起爆<br>Crystal Detonation<br>{{MachineTranslation}}
+|5, {{UI|UI|Thunder|title=Thunder Damage|text=5}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Unblockable
+|-
+! rowspan="2" |結晶起爆<br>Crystal Detonation<br>{{MachineTranslation}}
+|5, {{UI|UI|Thunder|title=Thunder Damage|text=5}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Unblockable
+|-
+! rowspan="2" |組技用_雷大噛みつき<br>Grappling_Thunder Bite<br>{{MachineTranslation}}
+|16, {{UI|UI|Thunder|title=Thunder Damage|text=64}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |バインドボイス<br>Bind Voice<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Scale+|Scale|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Pelt+|Hide|White}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Fang+|Claw|White}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Nosebone+|Bone|White}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Tail|Tail|White}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Gem|Ball|White}}
+|5%
+|-
+! colspan="2" |Carves (Crystalized)
+|-
+|{{GenericItemLink|MHWilds|Cloudy Crystal|Ore|White}}
+|83%
+|-
+|{{GenericItemLink|MHWilds|Coruscating Crystal|Ore|White}}
+|17%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Scale+|Scale|White}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Pelt+|Hide|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Thunder Sac|Sac|Yellow}}
+|30%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Tail|Tail|White}}
+|93%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Gem|Ball|White}}
+|7%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Scale+|Scale|White}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Tail|Tail|White}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Pelt+|Hide|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Scale+|Scale|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Thunder Sac|Sac|Yellow}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Fang+|Claw|White}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Certificate S|Ticket|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Nosebone+|Bone|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Tail|Tail|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Gem|Ball|White}}
+|3%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Nosebone+|Bone|White}}
+|70%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Fang+|Claw|White}} x2
+|30%
+|-
+! colspan="2" |Break Left Leg
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Scale+|Scale|White}}
+|100%
+|-
+! colspan="2" |Break Right Leg
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Scale+|Scale|White}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Scale+|Scale|White}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Pelt+|Hide|White}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Guardian Pelt+|Hide|White}}
+|12%
+|-
+|{{GenericItemLink|MHWilds|Guardian Blood+|Chemical|White}}
+|8%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (S)|Ore|Red}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone|Ore|Red}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (L)|Ore|Red}}
+|20%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Pelt+|Hide|White}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Scale+|Scale|White}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Fang+|Claw|White}}
+|16%
+|-
+|{{GenericItemLink|MHWilds|Thunder Sac|Sac|Yellow}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Nosebone+|Bone|White}}
+|10%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Tail|Tail|White}}
+|10%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Gem|Ball|White}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Fang+|Claw|White}}
+|33%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Nosebone+|Bone|White}}
+|21%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Tail|Tail|White}}
+|21%
+|-
+|{{GenericItemLink|MHWilds|Thunder Sac|Sac|Yellow}} x2
+|18%
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Gem|Ball|White}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Guardian Fulgur Gem|Ball|White}}
+|100%
+|}
+</div>
+</tabber>
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

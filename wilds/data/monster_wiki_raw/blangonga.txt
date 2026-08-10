@@ -1,0 +1,585 @@
+{{Meta
+|MetaTitle     = Blangonga - MHWilds
+|MetaDesc      = This page describes Blangonga, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Blangonga, Wilds, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Blangonga Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Blangonga]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Blangonga
+|MHWilds = Y
+|MHGU = Y
+|MHGen = Y
+|MHFU = Y
+|MHF2 = Y
+|MH2 = Y
+|MHFrontier = Y
+|MHOnline = Y
+|MHST3 = Y
+|MHWA = Y
+|MHWA = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Blangonga
+|Japanese Name = ドドブランゴ
+|Image = MHWilds-Blangonga Render 001.webp
+|Title = Snow Lion (雪獅子)
+|Class = [[Fanged Beast]]
+
+|Elements = {{UI|UI|Ice}}
+|Status Effects = {{Element|Iceblight}} {{Element|Frostblight}}
+|Weaknesses = {{UI|UI|Fire}}
+
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Flash Pods = Y
+|Dung Pods = 100%
+|Gold Crown Small = 809.43
+|Average = 899.37
+|Silver Crown = 1034.28
+|Gold Crown Large = 1106.23
+|Locales = [[Iceshard Cliffs]], [[Wounded Hollow]]
+|Sleeping Areas = [[Iceshard Cliffs|Iceshard Cliffs - Area 14]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Blangonga is found primarily in the [[Iceshard Cliffs]]. It can also appear in the [[Wounded Hollow]].
+
+Blangonga relies on physical blows from its powerful forearms to attack hunters. It is also capable of releasing beams of frost from its mouth that can freeze hunters in place as well as throwing snowballs.
+
+Blangonga is typically accompanied by a pack of Blango. Blangonga is capable of issuing commands to its Blango, causing one of them to attack the hunter. While enraged, it is additionally capable of performing a special roar, causing all present Blango to rush the Hunter. Breaking the Blangonga's fangs twice prevents it from issuing any form of command.
+
+While in its nest in Area 14, Blangonga is capable of digging into the deep snow, re-emerging below the hunter to ambush them.
+
+While breathing frost, Blangonga's rear is left exposed as a weak point for Focus Strikes. If a Focus Strike is successfully performed on their rear, Blangonga will reel back and be briefly knocked down, however there is a cool-down to this interaction.
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDoubleDescription
+|Description='''Characteristics:''' Large, white fanged beasts that rule over other Blango, attacking intruders as a pack. Its muscularity and mobility allows it to strike swiftly, even on fresh snow, and pounce from long distances—so hunters with long-range weapons still need to stay on guard. Large tusks are the mark of a powerful leader.</br><br/>'''Helpful Hints:''' Blangonga use snowy ground to their advantage for extra mobility, and can summon other Blangos to gang up on unwary hunters. Use extra caution when they’re angry, because they can direct the whole pack at a chosen target with perilous efficiency. Watch out for that freezing breath, too. Destroying a Blangonga’s tusks is believed to undermine its authority with the other Blangos, disrupting their teamwork.</br><br/>'''Map Description:''' Large, white fanged beasts that rule over other Blango, attacking as a pack. They exhibit a range of mobility, particularly in snowy climes.
+|Icon=MHWilds-Blangonga Icon.webp
+|Icon2=MHWilds-Frenzied Blangonga Icon.webp
+|Game=[[Monster Hunter Wilds]]}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''70'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''70'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|30
+|5
+|15
+|0
+|0
+|100
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''55'''</sup>
+|20<sup style="color:mediumvioletred">30</sup>
+|5
+|15
+|0
+|0
+| -
+|-
+|'''Left Foreleg'''
+|<span style="color:crimson;">❶</span>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''55'''</sup>
+|15<sup style="color:mediumvioletred">30</sup>
+|5
+|15
+|0
+|0
+| -
+|-
+|'''Right Foreleg'''
+|<span style="color:crimson;">❶</span>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''55'''</sup>
+|15<sup style="color:mediumvioletred">30</sup>
+|5
+|15
+|0
+|0
+| -
+|-
+|'''Left Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''55'''</sup>
+|15<sup style="color:mediumvioletred">30</sup>
+|5
+|15
+|0
+|0
+| -
+|-
+|'''Right Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''55'''</sup>
+|15<sup style="color:mediumvioletred">30</sup>
+|5
+|15
+|0
+|0
+| -
+|-
+|'''Tail'''
+|<span style="color:limegreen;">❹</span>
+|'''50'''<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''60'''</sup>
+|25<sup style="color:mediumvioletred">'''55'''</sup>
+|15<sup style="color:mediumvioletred">30</sup>
+|5
+|15
+|0
+|0
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =150→550
+|Poison Increase = 100
+|Poison Duration = 20s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 180→960
+|Paralysis Increase = 130
+|Paralysis Duration = 10s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 130
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 11
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 9
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 11
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Blangonga Excursion (MHWilds Quest)|Blangonga Excursion]]
+|[[Iceshard Cliffs]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Blangonga|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[What We Protect (MHWilds Quest)|What We Protect]]
+|[[Iceshard Cliffs]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Blangonga|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Cliffs Basecamp
+| data-sort-value="8" |HR 6'''★'''
+|Assignment
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Shrouded in Black (MHWilds Quest)|Shrouded in Black]]
+|[[Iceshard Cliffs]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Gore Magala|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Blangonga|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 6'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Echoing from the Cliffs (MHWilds Quest)|Echoing from the Cliffs]]
+|[[Iceshard Cliffs]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Blangonga|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Hirabami|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Frenzy Obscured (MHWilds Quest)|Frenzy Obscured]]
+|[[Iceshard Cliffs]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Yian Kut-Ku|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Yian Kut-Ku|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Blangonga|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Nerscylla|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Nerscylla|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 6'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[No More Mister Ice Guy (MHWilds Quest)|No More Mister Ice Guy]]
+|[[Iceshard Cliffs]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Blangonga|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[The Snow Has Teeth (MHWilds Quest)|The Snow Has Teeth]]
+|[[Iceshard Cliffs]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Blangonga|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Blangonga|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Blangonga|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[The White Wonder (MHWilds Quest)|The White Wonder]]
+|[[Iceshard Cliffs]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Blangonga|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |バインドボイス<br>Bind Voice<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |雪玉_必殺噛みつきダイブ／大雪玉かち上げ<br>Snowball_Deadly Bite Dive/Big Snowball Knock-Up<br>{{MachineTranslation}}
+|9, {{UI|UI|Ice|title=Ice Damage|text=21}}
+|{{UI|UI|Ice|title=Ice Damage|text=0}}
+|???
+|???
+|???
+|???
+|20
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |多段凍結やられ<br>Multiple freezes<br>{{MachineTranslation}}
+|3, {{UI|UI|Ice|title=Ice Damage|text=7}}
+|{{UI|UI|Ice|title=Ice Damage|text=34}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |大雪玉_大雪玉かち上げ<br>Big snowball_Big snowball hit<br>{{MachineTranslation}}
+|12, {{UI|UI|Ice|title=Ice Damage|text=28}}
+|{{UI|UI|Ice|title=Ice Damage|text=0}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |（歴戦）多段凍結やられ<br>(Veteran) Multiple freezes<br>{{MachineTranslation}}
+|3, {{UI|UI|Ice|title=Ice Damage|text=7}}
+|{{UI|UI|Ice|title=Ice Damage|text=70}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |（歴戦）多段凍結やられ<br>(Veteran) Multiple freezes<br>{{MachineTranslation}}
+|3, {{UI|UI|Ice|title=Ice Damage|text=7}}
+|{{UI|UI|Ice|title=Ice Damage|text=70}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |多段凍結やられ<br>Multiple freezes<br>{{MachineTranslation}}
+|3, {{UI|UI|Ice|title=Ice Damage|text=7}}
+|{{UI|UI|Ice|title=Ice Damage|text=34}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |岩玉<br>Rock ball<br>{{MachineTranslation}}
+|40
+| -
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Blangonga Pelt+|Hide|White}}
+|33%
+|-
+|{{GenericItemLink|MHWilds|Blangonga Whisker|Monster Part|White}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Blangonga Fang+|Claw|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Blangonga Tail|Tail|White}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Beast Gem|Ball|Orange}}
+|5%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Blangonga Pelt+|Hide|White}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Blangonga Whisker|Monster Part|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Great Stoutbone|Bone|White}}
+|30%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Blangonga Pelt+|Hide|White}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Blangonga Whisker|Monster Part|White}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Blangonga Fang+|Claw|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Blangonga Tail|Tail|White}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Blangonga Certificate S|Ticket|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Beast Gem|Ball|Orange}}
+|3%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Blangonga Fang+|Claw|White}}
+|100%
+|-
+|{{GenericItemLink|MHWilds|Blangonga Fang+|Claw|White}}
+|100%
+|-
+! colspan="2" |Break Tail
+|-
+|{{GenericItemLink|MHWilds|Blangonga Tail|Tail|White}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Blangonga Pelt+|Hide|White}}
+|100%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (S)|Ore|Red}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone|Ore|Red}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (L)|Ore|Red}}
+|20%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Blangonga Pelt+|Hide|White}}
+|31%
+|-
+|{{GenericItemLink|MHWilds|Blangonga Whisker|Monster Part|White}}
+|31%
+|-
+|{{GenericItemLink|MHWilds|Blangonga Fang+|Claw|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Blangonga Tail|Tail|White}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Beast Gem|Ball|Orange}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Blangonga Fang+|Claw|White}}
+|54%
+|-
+|{{GenericItemLink|MHWilds|Blangonga Tail|Tail|White}}
+|39%
+|-
+|{{GenericItemLink|MHWilds|Beast Gem|Ball|Orange}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Beast Gem|Ball|Orange}}
+|100%
+|}
+</div>
+</tabber>
+
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

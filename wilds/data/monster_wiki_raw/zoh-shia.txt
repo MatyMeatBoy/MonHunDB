@@ -1,0 +1,1394 @@
+{{Meta
+|MetaTitle     = Zoh Shia - MHWilds
+|MetaDesc      = This page describes Zoh Shia, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Zoh Shia, Wilds, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Zoh Shia Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Zoh Shia]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Zoh Shia
+|MHWilds = Y
+|MHWA = Y
+|Music = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Zoh Shia
+|Japanese Name = ゾ・シア
+|Image = MHWilds-Zoh Shia Render 001.webp
+|Title = White Embers Dragon, or White Seraph Dragon<ref>Its alias may be a reference to the type of angels in Abrahamic myth called "seraphim," which come from the Hebrew ''[https://en.wikipedia.org/wiki/Seraph saraph]'' ("burning"), due to its position in the plot.  In Japanese, the seraphim are referred to as "Ember Angels" (熾天使).{{FanTranslation}}</ref> (白熾龍)  
+|Class = [[Construct]]
+
+|Elements = {{UI|UI|Fire}} {{UI|UI|Thunder}}
+|Status Effects = {{Element|Fireblight}} {{Element|Thunderblight}}
+|Weaknesses = {{UI|UI|Dragon}}
+
+|Capture HP % = (-)
+|Limp HP % = 15%
+|Meat = Y
+|Gold Crown Small = 
+|Average = 4623.6
+|Silver Crown = 
+|Gold Crown Large = 
+|Roar=Strong|Locales=[[Dragontorch Shrine]] ([[Ruins of Wyveria]])|Sleeping Areas = (-)|Wind Pressure={{IconPickerUniversalAlt|MHWilds|Dragon Wind Pressure|Dragon}}|Tremor=None}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Zoh Shia is fought exclusively in the [[Dragontorch Shrine]] located in the [[Ruins of Wyveria]], during Wyvern's Wakening, becoming available for Quest creation in a similar manner to [[Jin Dahaad]]. Zoh Shia cannot be fought in its Low Rank form after the story, except by answering other players' SOS flares.
+
+In its first phase, it will be in its '''Crystalized State''' where its body will be completely covered by armor that makes it more resilient and renders it immune to Wounding, which can be broken to deal more damage to the monster. Any broken armor parts will regenerate after some time has passed, although they will be significantly easier to break after regrowing. Zoh Shia primarily uses physical blows from its wingarms, and infuses the ground with energy explosions that create Wylkrystals, which can be detonated by its elemental attacks. Hunters can detonate these Wylkrystals with elemental Slinger ammo, dealing damage to Zoh Shia if it is close enough. The explosion of the Wylkcrystals can also cause a chain reaction with other nearby Wylkcrystals, knocking it down if enough hit it at once; every 3rd wound destroyed will also knock down Zoh Shia. Dealing enough damage will cause it to reveal its head, which will use fireball and fire breath attacks while exposed. The head can still grow back its armor, but will be forced to shed it when breathing fire.
+
+Zoh Shia begins phase 2 by creating a large number of massive Wylkrystals and igniting the ceiling, causing ignited debris to rain down across the area and periodically fall for the rest of the fight. It then breathes a torrent of fire that drastically intensifies after a short delay and ignites all the Wylkrystals to expand its reach. Hunters can detonate the Wylkrystals early with elemental Slinger ammo to prevent Zoh Shia from using them to spread its flames. In this phase, Zoh Shia is still able to use Wylk attacks, but liberally uses a wider array of fire attacks using its wings, which are now also revealed alongside its head, including jets of flame that leap along the ground, and a smaller version of its phase transition attack.
+
+In the third phase, Zoh Shia completely sheds its armor and loses the ability to grow it back, showing its true form as it enters its '''Fallen State''' and gaining the ability to use red lightning attacks; namely in the form of blasts along the ground and a rain from the sky. It will always begin the phase by creating a large number of Wylkrystals around itself, then sequentially striking them with lightning to create explosions.
+
+Zoh Shia is immune to both traps and [[Flash Pod (MHWilds)|Flash Pods]], as well as any similar effects.
+
+After its Wylk-creating wingarm slams while its arms are exposed or have their armor broken, Zoh Shia's wingarms are left exposed as weak points for Focus Strikes. If a Focus Strike is successfully performed on its wing-arms, Zoh Shia will reel back and be briefly knocked down, though there is a cool-down to this interaction. 
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription
+|Description= '''Characteristics:''' A massive Guardian that has been feeding off the Dragontorch's energy. Its body is encased in crystallized Wyvern Milk, allowing it to regenerate. Zoh Shia, like other Guardians, excels at energy attacks and can produce repeated explosions to crystallize the whole area. Beneath its white Guardian coat, its body pulses with dark recollection - which you may see, should it reveal its full power from the days of yore.<br/><br/>'''Helpful Hints:''' Zoh Shia share the same basic traits of other Guardians. The crystals on their wings and head can be stripped away to deplete their energy stores. The white crystals on their bodies will grow back weaker, making them easier to destroy a second time. The crystals they create will detonate if they take elemental damage, but a talented hunter can use elemental Slinger ammo and smart maneuvering to make good use of them.</br><br/>'''Map Description:''' A Guardian created to be Wyveria's savior. It was feeding off the Dragontorch, drawing from the vast stores of energy while it slumbered.
+|Icon=MHWilds-Zoh Shia Icon.webp
+|Game=[[Monster Hunter Wilds]]
+}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head (Crystalized)'''
+|<span style="color:crimson;">❶</span>
+|40
+|'''45'''
+|'''45'''
+|10
+|5
+|5
+|5
+|15
+|100
+|-
+|'''L Wingarm (Crystalized)'''
+|<span style="color:#c0c0c0;">❷</span>
+|40
+|40
+|10
+|10
+|5
+|5
+|5
+|15
+| -
+|-
+|'''R Wingarm (Crystalized)'''
+|<span style="color:#c0c0c0;">❷</span>
+|40
+|40
+|10
+|10
+|5
+|5
+|5
+|15
+| -
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''65'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''70'''<sup style="color:mediumvioletred">'''80'''</sup>
+|'''65'''<sup style="color:mediumvioletred">'''75'''</sup>
+|15
+|5
+|5
+|10
+|30
+|100
+|-
+|'''Left Wingarm'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''85'''<sup style="color:mediumvioletred">'''95'''</sup>
+|'''85'''<sup style="color:mediumvioletred">'''95'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|20
+|5
+|5
+|15
+|30
+| -
+|-
+|'''Right Wingarm'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''85'''<sup style="color:mediumvioletred">'''95'''</sup>
+|'''85'''<sup style="color:mediumvioletred">'''95'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|20
+|5
+|5
+|15
+|30
+| -
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''65'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|10
+|5
+|5
+|5
+|20
+|100
+|-
+|'''Left Wingarm'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''80'''<sup style="color:mediumvioletred">'''90'''</sup>
+|'''80'''<sup style="color:mediumvioletred">'''90'''</sup>
+|'''55'''<sup style="color:mediumvioletred">'''65'''</sup>
+|10
+|5
+|5
+|5
+|20
+| -
+|-
+|'''Right Wingarm'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''80'''<sup style="color:mediumvioletred">'''90'''</sup>
+|'''80'''<sup style="color:mediumvioletred">'''90'''</sup>
+|'''55'''<sup style="color:mediumvioletred">'''65'''</sup>
+|10
+|5
+|5
+|5
+|20
+| -
+|-
+|'''Left Foreleg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|5
+|5
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Right Foreleg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|5
+|5
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Left Hind Leg'''
+|<span style="color:limegreen;">❹</span>
+|25<sup style="color:mediumvioletred">'''60'''</sup>
+|25<sup style="color:mediumvioletred">'''60'''</sup>
+|25<sup style="color:mediumvioletred">'''60'''</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5
+|5
+|5<sup style="color:mediumvioletred">10</sup>
+|10<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Right Hind Leg'''
+|<span style="color:limegreen;">❹</span>
+|25<sup style="color:mediumvioletred">'''60'''</sup>
+|25<sup style="color:mediumvioletred">'''60'''</sup>
+|25<sup style="color:mediumvioletred">'''60'''</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5
+|5
+|5<sup style="color:mediumvioletred">10</sup>
+|10<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Neck'''
+|<span style="color:crimson;">❶</span>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''60'''</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5
+|5
+|5<sup style="color:mediumvioletred">10</sup>
+|30
+| -
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|25<sup style="color:mediumvioletred">'''60'''</sup>
+|25<sup style="color:mediumvioletred">'''60'''</sup>
+|5<sup style="color:mediumvioletred">'''60'''</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5
+|5
+|5<sup style="color:mediumvioletred">10</sup>
+|10<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Tail'''
+|<span style="color:crimson;">❶</span>
+|35<sup style="color:mediumvioletred">'''60'''</sup>
+|35<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''60'''</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|5
+|5
+|5<sup style="color:mediumvioletred">10</sup>
+|10<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =150→550
+|Poison Increase = 100
+|Poison Duration = 20s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 180→960
+|Paralysis Increase = 130
+|Paralysis Duration = 10s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 130
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 150→870
+|Stun Increase = 120
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration =   
+|Pitfall Exhausted Duration =  
+|Pitfall Tolerance Reduction =  
+|Pitfall Min Duration =  
+
+|Shock Duration =  
+|Shock Exhausted Duration =  
+|Shock Tolerance Reduction =  
+|Shock Min Duration =  
+
+|Ivy Duration = 
+|Ivy Exhausted Duration = 
+
+|Flash Duration = 
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness =
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Suja, Peaks of Accord
+| data-sort-value="8" |LR 3'''★'''
+|Assignment
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Guardian Zoh Shia (MHWilds Quest)|Guardian Zoh Shia]]
+|[[Dragontorch Shrine]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Zoh Shia|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Suja, Peaks of Accord
+| data-sort-value="8" |HR 8'''★'''
+|Assignment
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Germination (MHWilds Quest)|Germination]]
+|[[Dragontorch Shrine]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Zoh Shia|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 10'''★'''
+|Event
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Hope of the Ancients (MHWilds Quest)|Hope of the Ancients]]
+|[[Dragontorch Shrine]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Zoh Shia|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |翼腕掴み爆発<br>Wing Arm Grab Explosion<br>{{MachineTranslation}}
+|60
+|<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕掴み爆発(枯渇)<br>Wing Arm Grab Explosion (Depleted)<br>{{MachineTranslation}}
+|50
+|<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕広範囲殺し爆発<br>Wing Arm Wide-Range Killing Explosion<br>{{MachineTranslation}}
+|85
+|<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|80
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕広範囲殺し爆発(枯渇)<br>Winged Arm Wide-Range Killing Explosion (Depletion)<br>{{MachineTranslation}}
+|85
+|<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|80
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕薙ぎ払い爆発<br>Wing Arm Sweep Explosion<br>{{MachineTranslation}}
+|60
+|<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕薙ぎ払い爆発(枯渇)<br>Wing Arm Sweep Explosion (Depleted)<br>{{MachineTranslation}}
+|0
+|<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |牽制ブレス<br>Diversion Breath<br>{{MachineTranslation}}
+|10, {{UI|UI|Fire|title=Fire Damage|text=40}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|20
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |牽制ブレス着弾爆発<br>Deterrent Breath Impact Explosion<br>{{MachineTranslation}}
+|10, {{UI|UI|Fire|title=Fire Damage|text=40}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |チャージブレス<br>Charge Breath<br>{{MachineTranslation}}
+|17, {{UI|UI|Fire|title=Fire Damage|text=68}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=50}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |チャージブレス着弾爆発<br>Charge Breath Impact Explosion<br>{{MachineTranslation}}
+|17, {{UI|UI|Fire|title=Fire Damage|text=68}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=50}}
+|???
+|???
+|???
+|???
+|80
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |直下ブレス<br>Directly Below Breath<br>{{MachineTranslation}}
+|14, {{UI|UI|Fire|title=Fire Damage|text=56}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=35}}
+|???
+|???
+|???
+|???
+|80
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |直下ブレス着弾爆発<br>Directly below breath impact explosion<br>{{MachineTranslation}}
+|14, {{UI|UI|Fire|title=Fire Damage|text=56}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=35}}
+|???
+|???
+|???
+|???
+|80
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |エネルギー流し込み爆発<br>Energy flow explosion<br>{{MachineTranslation}}
+|50
+|<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |エネルギーライン確認用<br>For checking energy lines<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Unblockable
+|-
+! rowspan="2" |エネルギー流し込み爆発<br>Energy flow explosion<br>{{MachineTranslation}}
+|50
+|<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |エネルギー流し込み爆発<br>Energy flow explosion<br>{{MachineTranslation}}
+|50
+|<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |プロミネンス火炎弾<br>Prominence Flame Bullet<br>{{MachineTranslation}}
+|12, {{UI|UI|Fire|title=Fire Damage|text=48}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|70
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |プロミネンス着弾<br>Prominence impact<br>{{MachineTranslation}}
+|12, {{UI|UI|Fire|title=Fire Damage|text=48}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|70
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕引き裂き爆破爆発<br>Wing Arm Tearing Explosion Explosion<br>{{MachineTranslation}}
+|70
+|<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕引き裂き爆破爆発(枯渇)<br>Wing Arm Tearing Explosion Explosion (Depletion)<br>{{MachineTranslation}}
+|70
+|<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |這いずり突進爆発<br>Crawl and Charge Explosion<br>{{MachineTranslation}}
+|50
+|<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |這いずり突進爆発(枯渇)<br>Crawling Charge Explosion (Depleted)<br>{{MachineTranslation}}
+|50
+|<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |咆哮<br>Roar<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |プロミネンス爆発<br>Prominence explosion<br>{{MachineTranslation}}
+|14, {{UI|UI|Fire|title=Fire Damage|text=56}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|90
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |大技_エネルギー爆発大<br>Big move_Large energy explosion<br>{{MachineTranslation}}
+|90
+|<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|100
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |大技_エネルギー爆発小<br>Special Move_Small Energy Explosion<br>{{MachineTranslation}}
+|70
+|<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|70
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |大技_火炎放射<br>Special move: Flame thrower<br>{{MachineTranslation}}
+|16, {{UI|UI|Fire|title=Fire Damage|text=64}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=35}}
+|???
+|???
+|???
+|???
+|70
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Unblockable
+|-
+! rowspan="2" |大技_メテオ<br>Great move_Meteor<br>{{MachineTranslation}}
+|6, {{UI|UI|Fire|title=Fire Damage|text=24}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|15
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |大技_メテオ着弾<br>Great move - Meteor impact<br>{{MachineTranslation}}
+|6, {{UI|UI|Fire|title=Fire Damage|text=24}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|15
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |大技_直下ブレス<br>Special Move: Downward Breath<br>{{MachineTranslation}}
+|30, {{UI|UI|Fire|title=Fire Damage|text=120}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=35}}
+|???
+|???
+|???
+|???
+|100
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Requires {{GenericSkillLink|MHWilds|Guard Up|Armor|Yellow}} to block.
+|-
+! rowspan="2" |大技_直下ブレス着弾爆発<br>Special Move_Direct Breath Impact Explosion<br>{{MachineTranslation}}
+|30, {{UI|UI|Fire|title=Fire Damage|text=120}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=35}}
+|???
+|???
+|???
+|???
+|100
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Requires {{GenericSkillLink|MHWilds|Guard Up|Armor|Yellow}} to block.
+|-
+! rowspan="2" |大技_結晶破壊用<br>Special Technique_Crystal Destruction<br>{{MachineTranslation}}
+|1
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |落雷攻撃_落雷本体<br>Lightning attack_Lightning body<br>{{MachineTranslation}}
+|10, {{UI|UI|Thunder|title=Thunder Damage|text=40}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |落雷攻撃_着弾<br>Lightning Attack_Impact<br>{{MachineTranslation}}
+|10, {{UI|UI|Thunder|title=Thunder Damage|text=40}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕溜め爆発横移動爆発<br>Wing arm charge explosion horizontal movement explosion<br>{{MachineTranslation}}
+|65
+|<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |大技簡易版_エネルギー爆発大<br>Simple version of big move_Big energy explosion<br>{{MachineTranslation}}
+|90
+|<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|100
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |大技簡易版_エネルギー爆発小<br>Simple version of big move_Small energy explosion<br>{{MachineTranslation}}
+|70
+|<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|70
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |咆哮<br>Roar<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕引き裂き爆破爆発<br>Wing Arm Tearing Explosion Explosion<br>{{MachineTranslation}}
+|70
+|<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕引き裂き爆破爆発<br>Wing Arm Tearing Explosion Explosion<br>{{MachineTranslation}}
+|70
+|<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |雷薙ぎ払いブレス<br>Thunder Sweeping Breath<br>{{MachineTranslation}}
+|16, {{UI|UI|Thunder|title=Thunder Damage|text=64}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |着火アタリ（火）<br>Ignition hit (fire)<br>{{MachineTranslation}}
+|1, {{UI|UI|Fire|title=Fire Damage|text=0}}
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |着火アタリ（火）<br>Ignition hit (fire)<br>{{MachineTranslation}}
+|1, {{UI|UI|Fire|title=Fire Damage|text=0}}
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |着火アタリ（火）<br>Ignition hit (fire)<br>{{MachineTranslation}}
+|1, {{UI|UI|Fire|title=Fire Damage|text=0}}
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |着火アタリ（火）<br>Ignition hit (fire)<br>{{MachineTranslation}}
+|1, {{UI|UI|Fire|title=Fire Damage|text=0}}
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |着火アタリ（火）<br>Ignition hit (fire)<br>{{MachineTranslation}}
+|1, {{UI|UI|Fire|title=Fire Damage|text=0}}
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |着火アタリ（火）<br>Ignition hit (fire)<br>{{MachineTranslation}}
+|1, {{UI|UI|Fire|title=Fire Damage|text=0}}
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |着火アタリ（火）<br>Ignition hit (fire)<br>{{MachineTranslation}}
+|1, {{UI|UI|Fire|title=Fire Damage|text=0}}
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕溜め爆発横移動爆発(後半暴走時)<br>Wing arm charge explosion lateral movement explosion (later rampage)<br>{{MachineTranslation}}
+|14, {{UI|UI|Fire|title=Fire Damage|text=56}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕広範囲殺し爆発<br>Wing Arm Wide-Range Killing Explosion<br>{{MachineTranslation}}
+|85
+|<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|80
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |直下ブレス(EX)<br>Direct Breath (EX)<br>{{MachineTranslation}}
+|8, {{UI|UI|Fire|title=Fire Damage|text=72}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=35}}
+|???
+|???
+|???
+|???
+|80
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Requires {{GenericSkillLink|MHWilds|Guard Up|Armor|Yellow}} to block.
+|-
+! rowspan="2" |直下ブレス着弾爆発(EX)<br>Directly below breath impact explosion (EX)<br>{{MachineTranslation}}
+|8, {{UI|UI|Fire|title=Fire Damage|text=72}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=35}}
+|???
+|???
+|???
+|???
+|80
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Requires {{GenericSkillLink|MHWilds|Guard Up|Armor|Yellow}} to block.
+|-
+! rowspan="2" |チャージブレス(EX)<br>Charge Breath (EX)<br>{{MachineTranslation}}
+|10, {{UI|UI|Fire|title=Fire Damage|text=90}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=50}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |チャージブレス着弾爆発(EX)<br>Charge Breath Impact Explosion (EX)<br>{{MachineTranslation}}
+|10, {{UI|UI|Fire|title=Fire Damage|text=90}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=50}}
+|???
+|???
+|???
+|???
+|80
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |雷薙ぎ払いブレス(EX)<br>Thunder Sweeping Breath (EX)<br>{{MachineTranslation}}
+|10, {{UI|UI|Thunder|title=Thunder Damage|text=95}}
+|{{UI|UI|Thunder|title=Thunder Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕掴み爆発<br>Wing Arm Grab Explosion<br>{{MachineTranslation}}
+|60
+|<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕薙ぎ払い爆発<br>Wing Arm Sweep Explosion<br>{{MachineTranslation}}
+|60
+|<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕溜め爆発横移動爆発(後半暴走時)<br>Wing arm charge explosion lateral movement explosion (later rampage)<br>{{MachineTranslation}}
+|14, {{UI|UI|Fire|title=Fire Damage|text=56}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |翼腕溜め爆発横移動爆発<br>Wing arm charge explosion horizontal movement explosion<br>{{MachineTranslation}}
+|65
+|<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| Low Rank = 
+<div class="twocol">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale|Scale|White}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Guardian Pelt|Hide|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Guardian Blood|Chemical|White}}
+|20%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Guardian Pelt|Hide|White}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale|Scale|White}}
+|50%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Guardian Blood|Chemical|White}}
+|100%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale|Scale|White}}
+|100%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Nourishing Extract|Chemical|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Guardian Blood|Chemical|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Tough Guardian Bone|Bone|Light Blue}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Guardian Pelt|Hide|White}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale|Scale|White}}
+|15%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Guardian Blood|Chemical|White}}
+|100%
+|-
+! colspan="2" |Break Left Foreleg
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale|Scale|White}}
+|100%
+|-
+! colspan="2" |Break Left Wingarm
+|-
+|{{GenericItemLink|MHWilds|Guardian Pelt|Hide|White}}
+|100%
+|-
+! colspan="2" |Break Right Foreleg
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale|Scale|White}}
+|100%
+|-
+! colspan="2" |Break Right Wingarm
+|-
+|{{GenericItemLink|MHWilds|Guardian Pelt|Hide|White}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Guardian Blood|Chemical|White}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale|Scale|White}}
+|50%
+|}
+</div>
+|-| High Rank = 
+<div class="twocol">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Crystalscale|Scale|White}}
+|24%
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Layershell|Shell|White}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Stakeclaw|Claw|White}}
+|16%
+|-
+|{{GenericItemLink|MHWilds|Blackember Mass|Question Mark|Gray}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Crystalhorn|Claw|White}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Crystaltail|Tail|White}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Faux Whitegleam Orb|Ball|White}}
+|3%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Crystalscale|Scale|White}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Layershell|Shell|White}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Stakeclaw|Claw|White}}
+|25%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Crystaltail|Tail|White}}
+|93%
+|-
+|{{GenericItemLink|MHWilds|Faux Whitegleam Orb|Ball|White}}
+|7%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Crystalscale|Scale|White}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Crystaltail|Tail|White}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Crystalscale|Scale|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Layershell|Shell|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Stakeclaw|Claw|White}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Blackember Mass|Question Mark|Gray}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Crystalhorn|Claw|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Crystaltail|Tail|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Certificate S|Ticket|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Faux Whitegleam Orb|Ball|White}}
+|3%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Crystalhorn|Claw|White}}
+|100%
+|-
+! colspan="2" |Break Left Foreleg
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Stakeclaw|Claw|White}}
+|100%
+|-
+! colspan="2" |Break Left Wingarm
+|-
+|{{GenericItemLink|MHWilds|Blackember Mass|Question Mark|Gray}}
+|100%
+|-
+! colspan="2" |Break Right Foreleg
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Stakeclaw|Claw|White}}
+|100%
+|-
+! colspan="2" |Break Right Wingarm
+|-
+|{{GenericItemLink|MHWilds|Blackember Mass|Question Mark|Gray}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Guardian Blood+|Chemical|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Crystalscale|Scale|White}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Zoh Shia Layershell|Shell|White}}
+|30%
+|}
+</div>
+</tabber>
+
+== Equipment ==
+
+=== Weapons ===
+<div class="threecol"><div>
+* {{GenericWeaponLink|MHWilds|Zoh Yirmiya I|CB|7}}
+* {{GenericWeaponLink|MHWilds|Blazing Yirmiya|CB|8}}
+* {{GenericWeaponLink|MHWilds|Zoh Liel I|DB|7}}
+* {{GenericWeaponLink|MHWilds|Blazing Liel|DB|8}}
+* {{GenericWeaponLink|MHWilds|Zoh Veiah I|GS|7}}
+* {{GenericWeaponLink|MHWilds|Blazing Veiah|GS|8}}
+* {{GenericWeaponLink|MHWilds|Zoh Lael I|GL|7}}
+* {{GenericWeaponLink|MHWilds|Blazing Lael|GL|8}}
+* {{GenericWeaponLink|MHWilds|Zoh Uria I|Hm|7}}
+* {{GenericWeaponLink|MHWilds|Blazing Uria|Hm|8}}
+* {{GenericWeaponLink|MHWilds|Zoh Gariel I|HH|7}}
+* {{GenericWeaponLink|MHWilds|Blazing Gariel|HH|8}}
+* {{GenericWeaponLink|MHWilds|Zoh Katir I|IG|7}}
+* {{GenericWeaponLink|MHWilds|Blazing Katir|IG|8}}
+</div><div>
+* {{GenericWeaponLink|MHWilds|Zoh Sital I|Ln|7}}
+* {{GenericWeaponLink|MHWilds|Blazing Sital|Ln|8}}
+* {{GenericWeaponLink|MHWilds|Zoh Rafel I|LS|7}}
+* {{GenericWeaponLink|MHWilds|Blazing Rafel|LS|8}}
+* {{GenericWeaponLink|MHWilds|Zoh Mahaiah I|SA|7}}
+* {{GenericWeaponLink|MHWilds|Blazing Mahaiah|SA|8}}
+* {{GenericWeaponLink|MHWilds|Zoh Mikal I|SnS|7}}
+* {{GenericWeaponLink|MHWilds|Blazing Mikal|SnS|8}}
+* {{GenericWeaponLink|MHWilds|Zoh Samira I|Bo|7}}
+* {{GenericWeaponLink|MHWilds|Blazing Samira|Bo|8}}
+* {{GenericWeaponLink|MHWilds|Zoh Mitran I|HBG|7}}
+* {{GenericWeaponLink|MHWilds|Blazing Mitran|HBG|8}}
+* {{GenericWeaponLink|MHWilds|Zoh Kaiah I|LBG|7}}
+* {{GenericWeaponLink|MHWilds|Blazing Kaiah|LBG|8}}
+</div>
+</div>
+
+=== Armor Sets ===
+<div class="threecol"><div>
+* {{GenericArmorLink|MHWilds|Numinous α Set|Chestplate|8}}
+</div><div>
+* {{GenericArmorLink|MHWilds|Numinous β Set|Chestplate|8}}
+</div></div>
+
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

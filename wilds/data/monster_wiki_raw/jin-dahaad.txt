@@ -1,0 +1,1081 @@
+{{Meta
+|MetaTitle     = Jin Dahaad - MHWilds
+|MetaDesc      = This page describes Jin Dahaad, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Jin Dahaad, Wilds, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Jin Dahaad Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Jin Dahaad]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Jin Dahaad
+|MHWilds = Y
+|MHWA = Y
+|Music = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Jin Dahaad
+|Japanese Name = ジン・ダハド
+|Image = MHWilds-Jin Dahaad Render 001.webp
+|Title = Frozen Peak Wyvern (凍峰竜)
+|Class = [[Leviathan]]
+
+|Elements = {{UI|UI|Ice}}
+|Status Effects = {{Element|Frostblight}}
+|Weaknesses = {{UI|UI|Fire}}
+
+|Capture HP % = (-)
+|Limp HP % = 15%
+|Meat = Y
+|Flash Pods = Y
+|Dung Pods = 100%
+|Gold Crown Small = 
+|Average = 4560.89
+|Silver Crown = 
+|Gold Crown Large = 
+|Locales=[[Iceshard Cliffs]], [[Rimechain Peak]]|Roar=Strong}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Jin Dahaad is found exclusively in the [[Iceshard Cliffs]], and is primarily active in the Frostwinds, although it can rarely be found during other weather conditions. Interaction with Jin Dahaad in the Cliffs is limited, as it will lean over a cliffside and launch attacks at hunters and other monsters, leaving if hunters damage it enough. If Jin Dahaad is repelled like this and the player is eligible for the quest, they can pursue Jin Dahaad to the [[Rimechain Peak]] to begin a quest, starting off in Area 3 instead of the starting area. Jin Dahaad can also appear at the Rimechain Peak itself, upon which players can directly start an Investigation for it from the menu.
+
+The battle with Jin Dahaad takes place over three (four in its proper quest) areas that it moves between at specific health intervals. The first and second areas are largely nondescript, with Jin Dahaad using powerful physical attacks from its forelimbs and tail that kick up icy debris around it, as well as ice breath attacks from its mouth, with it being able to use more powerful ice breaths from the second area onwards. The second area will always have three resting [[Hirabami]] that, if awakened, will interfere with the fight by attacking Jin Dahaad for a brief time before leaving.
+
+The four iceplates distributed across its body (Cranial, Abdominal, Tail, and Large) can be broken, with breaking them all neutralizing its forelimbs, hindlimbs, and tail's ability to release freezing air with physical attacks. The Large Iceplate will be frozen over and nearly immune to damage until all three other Iceplates are broken, with breaking it additionally disabling its use of its super attack. Attacking and breaking Jin Dahaad's legs will always knock it down and allow better access to the iceplates. Players that break one of Jin Dahaad's Iceplates will draw its aggro, indicated by a red line connecting them to the monster similar to the one caused by a [[Luring Pod (MHWilds)|Luring Pod]].
+
+In the third area, there will be several collapsible walls that can be brought down onto Jin Dahaad, floating rubble that can be knocked down to damage Jin Dahaad and provide temporary cover from its attacks, and several crumbling structures that Jin Dahaad can climb onto before launching ice breath attacks. The crumbling structures will gradually weaken as Jin Dahaad clings to them, until they can be collapsed with the hook Slinger to send Jin Dahaad falling back down for massive damage and a knockdown. It will also periodically use a special attack where it begins sucking in air, dealing continuous chip damage to hunters, before releasing a zone-spanning ice explosion that deals immense damage. Hunters can avoid this attack by dropping the rubble from the top of the arena and using it as cover from the blast.
+
+In its Slay quest, Jin Dahaad will move to a fourth area once its health is low enough. This area is largely the same as the third, although it lacks the crumbling walls. Jin Dahaad uses a similar moveset to its third phase, but behaves more aggressively and gains a new attack where it crystallizes their surroundings.
+
+Unusually for a non-[[Elder Dragon]], Jin Dahaad cannot be captured. It remains vulnerable to [[Shock Trap (MHWilds)|Shock Traps]], but is immune to [[Pitfall Trap (MHWilds)|Pitfall Traps]].
+
+After performing an ice beam attack, Jin Dahaad's head is left exposed as weak points for Focus Strikes; its chest also becomes a weak point after expelling frost from its body vents or using its nova attack. If a Focus Strike is successfully performed on its head or chest, Jin Dahaad will reel back and be briefly knocked down, however, there is a cool-down to this interactions that is shared between both weak points. Additionally, all of its intact iceplates, except for the Large Iceplate, become weak points whenever Jin Dahaad is knocked down.
+
+==== Arch-Tempered ====
+Arch-Tempered Jin Dahaad receives the following moveset changes:
+
+* Combos previous attacks more aggressively; body slam may be performed twice in a row.
+* Can use attacks exclusive to the final area in the third area.
+* Expelling ice mist from its torso creates a short-lived whirlwind, dealing no damage but inflicting rapid Frostblight buildup.
+* Downward ice explosion produces an additional delayed explosion of icicles, dealing damage and obstructing movement.
+* Can perform additional new attacks.
+* While coiled around structures, creates clusters of exploding icicles around players.
+* Nova attack has a faster charge-up time and is a guaranteed faint if it connects. Additionally, in the final area, it produces additional clusters of exploding icicles from the ground while charging.
+<div style="display: flex;flex-direction: column;">
+
+==Hunter's Notes==
+{{MonsterDescription
+|Game=[[Monster Hunter Wilds]]
+|Icon=MHWilds-Jin Dahaad Icon.webp
+|Description='''Characteristics:''' A leviathan that sits at the peak of the Iceshard Cliffs' ecosystem. It surrounds its massive form in cold temperatures via ridge-like cooling organs across its body; the frost its limbs produce doubles as a potent weapon and a way to travel along walls and floating rocks.</br><br/>'''Helpful Hints:''' Every part of Jin Dahaad's massive body is capable of powerful freezing attacks. Diminish their offensive capabilities by attacking the ridges that they use for cooling. The largest ridges on their back are particularly powerful and should be destroyed, but the hide there is very tough unless the other ridges are dealt with first.</br><br/>'''Map Description:''' A leviathan that sits at the peak of the Iceshard Cliffs' ecosystem. It generates cold air via cooling organs across its massive body.
+}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''65'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''65'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''50'''</sup>
+|20<sup style="color:mediumvioletred">25</sup>
+|5
+|5
+|0
+|5
+|100
+|-
+|'''Neck'''
+|<span style="color:orange;">❸</span>
+|'''60'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''50'''</sup>
+|10<sup style="color:mediumvioletred">25</sup>
+|5
+|5
+|0
+|5
+|100
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|30<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''55'''</sup>
+|20<sup style="color:mediumvioletred">'''45'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5
+|5
+|0
+|5
+| -
+|-
+|'''Right Foreleg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''45'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5
+|5
+|0
+|5
+| -
+|-
+|'''Left Foreleg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''45'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5
+|5
+|0
+|5
+| -
+|-
+|'''Right Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''45'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5
+|5
+|0
+|5
+| -
+|-
+|'''Left Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''45'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5
+|5
+|0
+|5
+| -
+|-
+|'''Tail'''
+|<span style="color:limegreen;">❹</span>
+|'''55'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''55'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''50'''</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|5
+|5
+|0
+|5
+| -
+|-
+|'''Abdominal Iceplate'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''75'''<sup style="color:mediumvioletred">'''85'''</sup>
+|'''75'''<sup style="color:mediumvioletred">'''85'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''50'''</sup>
+|10<sup style="color:mediumvioletred">25</sup>
+|5
+|5
+|0
+|5
+| -
+|-
+|'''Lg. Iceplate (Hidden)'''
+|<span style="color:#c0c0c0;">❷</span>
+|1
+|1
+|1
+|0
+|0
+|0
+|0
+|0
+| -
+|-
+|'''Lg. Iceplate (Exposed)'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''75'''<sup style="color:mediumvioletred">'''85'''</sup>
+|'''75'''<sup style="color:mediumvioletred">'''85'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''50'''</sup>
+|10<sup style="color:mediumvioletred">25</sup>
+|5
+|5
+|0
+|5
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =250→700
+|Poison Increase = 150
+|Poison Duration = 15s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 300→1000
+|Paralysis Increase = 100
+|Paralysis Duration = 8s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 250→1150
+|Sleep Increase = 100
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 200→1100
+|Stun Increase = 150
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration =
+|Pitfall Exhausted Duration =
+|Pitfall Tolerance Reduction =
+|Pitfall Min Duration =
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 9
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 
+|Ivy Exhausted Duration = 
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Cliffs Basecamp
+| data-sort-value="8" |LR 3'''★'''
+|Assignment
+|{{UI|UI|Special Quest|title=Repel|nolink=true}} [[The Rimechain Trial (MHWilds Quest)|The Rimechain Trial]]
+|[[Rimechain Peak]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Jin Dahaad|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Cliffs Basecamp
+| data-sort-value="8" |HR 6'''★'''
+|Assignment
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Frozen Lord on the Precipice (MHWilds Quest)|Frozen Lord on the Precipice]]
+|[[Rimechain Peak]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Jin Dahaad|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 6'''★'''
+|Optional
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[When Frost Falls (MHWilds Quest)|When Frost Falls]]
+|[[Rimechain Peak]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Jin Dahaad|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Optional
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Hunting Exercise: Tempered Jin Dahaad (MHWilds Quest)|Hunting Exercise: Tempered Jin Dahaad]]
+|[[Rimechain Peak]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Jin Dahaad|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Event
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Heart of Judecca (MHWilds Quest)|Heart of Judecca]]
+|[[Rimechain Peak]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Jin Dahaad|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 10'''★'''
+|Event
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Frozen Knells of the East (MHWilds Quest)|Frozen Knells of the East]]
+|[[Rimechain Peak]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Jin Dahaad|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Grand Hub
+| data-sort-value="8" |HR 6'''★'''
+|Challenge
+|{{UI|UI|Slay|title=Arena|nolink=true}} [[Event: Chill or Be Chilled (MHWilds Quest)|Event: Chill or Be Chilled]]{{note|This quest was only available between the 2<sup>th</sup> of January and the 24<sup>th</sup> of February during 2026.}}
+|[[Rimechain Peak]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Jin Dahaad|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Free Challenge
+|{{UI|UI|Slay|title=Arena|nolink=true}} [[The Cold Path to Oblivion (MHWilds Quest)|The Cold Path to Oblivion]]{{note|This quest was only available between the 6<sup>th</sup> and the 20<sup>th</sup> of January during 2026.|Temp}}
+|[[Rimechain Peak]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Jin Dahaad|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |発見咆哮<br>Discovery Roar<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |氷霧ブレス<br>Ice Mist Breath<br>{{MachineTranslation}}
+|14, {{UI|UI|Ice|title=Ice Damage|text=56}}
+|{{UI|UI|Ice|title=Ice Damage|text=80}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|45
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |冷気爆発（小）アタリの中心から版<br>Cold Explosion (Small) From the center of the hit<br>{{MachineTranslation}}
+|12, {{UI|UI|Ice|title=Ice Damage|text=28}}
+|{{UI|UI|Ice|title=Ice Damage|text=40}}<br>{{UI|UI|Stun|title=Stun Damage|text=5}}
+|???
+|???
+|???
+|???
+|25
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |冷気爆発（大）<br>Cold Blast (Large)<br>{{MachineTranslation}}
+|19, {{UI|UI|Ice|title=Ice Damage|text=76}}
+|{{UI|UI|Ice|title=Ice Damage|text=80}}<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |冷気爆発（小）全方位版<br>Cold Blast (Small) All-directional version<br>{{MachineTranslation}}
+|12, {{UI|UI|Ice|title=Ice Damage|text=28}}
+|{{UI|UI|Ice|title=Ice Damage|text=40}}<br>{{UI|UI|Stun|title=Stun Damage|text=5}}
+|???
+|???
+|???
+|???
+|25
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |冷気爆発（小）アタリの中心から版<br>Cold Explosion (Small) From the center of the hit<br>{{MachineTranslation}}
+|12, {{UI|UI|Ice|title=Ice Damage|text=28}}
+|{{UI|UI|Ice|title=Ice Damage|text=40}}<br>{{UI|UI|Stun|title=Stun Damage|text=5}}
+|???
+|???
+|???
+|???
+|25
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |ノーダメシェル<br>No Damage Shell<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Unblockable
+|-
+! rowspan="2" |冷気爆発（小）攻撃者の中心から版<br>Cold Blast (small) from the attacker's center<br>{{MachineTranslation}}
+|12, {{UI|UI|Ice|title=Ice Damage|text=28}}
+|{{UI|UI|Ice|title=Ice Damage|text=40}}<br>{{UI|UI|Stun|title=Stun Damage|text=5}}
+|???
+|???
+|???
+|???
+|25
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |冷気爆発（小）アタリの中心から版<br>Cold Explosion (Small) From the center of the hit<br>{{MachineTranslation}}
+|12, {{UI|UI|Ice|title=Ice Damage|text=28}}
+|{{UI|UI|Ice|title=Ice Damage|text=40}}<br>{{UI|UI|Stun|title=Stun Damage|text=5}}
+|???
+|???
+|???
+|???
+|25
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |冷気爆発（小）アタリの中心から版<br>Cold Explosion (Small) From the center of the hit<br>{{MachineTranslation}}
+|12, {{UI|UI|Ice|title=Ice Damage|text=28}}
+|{{UI|UI|Ice|title=Ice Damage|text=40}}<br>{{UI|UI|Stun|title=Stun Damage|text=5}}
+|???
+|???
+|???
+|???
+|25
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |アイスノヴァ_スリップダメージ<br>Ice Nova_Slip Damage<br>{{MachineTranslation}}
+|1, {{UI|UI|Ice|title=Ice Damage|text=4}}
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Unblockable
+|-
+! rowspan="2" |アイスノヴァ_大ダメージ<br>Ice Nova_Big Damage<br>{{MachineTranslation}}
+|15, {{UI|UI|Ice|title=Ice Damage|text=135}}
+|{{UI|UI|Ice|title=Ice Damage|text=70}}<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|100
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Unblockable
+|-
+! rowspan="2" |ジェットブレス<br>Jet Breath<br>{{MachineTranslation}}
+|11, {{UI|UI|Ice|title=Ice Damage|text=99}}
+|{{UI|UI|Ice|title=Ice Damage|text=80}}<br>{{UI|UI|Stun|title=Stun Damage|text=35}}
+|???
+|???
+|???
+|???
+|75
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |絶対零度空間_作成ブレス<br>Absolute Zero Space_Create Breath<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Unblockable
+|-
+! rowspan="2" |絶対零度空間_円柱<br>Absolute Zero Space_Cylinder<br>{{MachineTranslation}}
+|12, {{UI|UI|Ice|title=Ice Damage|text=28}}
+|{{UI|UI|Ice|title=Ice Damage|text=10}}<br>{{UI|UI|Stun|title=Stun Damage|text=5}}
+|???
+|???
+|???
+|???
+|25
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |絶対零度空間_横広<br>Absolute Zero Space_Yokohama<br>{{MachineTranslation}}
+|12, {{UI|UI|Ice|title=Ice Damage|text=28}}
+|{{UI|UI|Ice|title=Ice Damage|text=10}}<br>{{UI|UI|Stun|title=Stun Damage|text=5}}
+|???
+|???
+|???
+|???
+|25
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |発見咆哮<br>Discovery Roar<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |氷爆発ノヴァ<br>Ice Explosion Nova<br>{{MachineTranslation}}
+|10, {{UI|UI|Ice|title=Ice Damage|text=90}}
+|{{UI|UI|Ice|title=Ice Damage|text=80}}<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |噴射冷気<br>Cold air jet<br>{{MachineTranslation}}
+|15, {{UI|UI|Ice|title=Ice Damage|text=35}}
+|{{UI|UI|Ice|title=Ice Damage|text=80}}<br>{{UI|UI|Stun|title=Stun Damage|text=5}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |氷霧ブレス_横なぎ<br>Ice Mist Breath_Horizontal Sweep<br>{{MachineTranslation}}
+|12, {{UI|UI|Ice|title=Ice Damage|text=48}}
+|{{UI|UI|Ice|title=Ice Damage|text=80}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|45
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |柱状態氷ブレス_1回目<br>Pillar state ice breath 1st time<br>{{MachineTranslation}}
+|14, {{UI|UI|Ice|title=Ice Damage|text=56}}
+|{{UI|UI|Ice|title=Ice Damage|text=80}}<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |柱状態氷ブレス_2回目<br>Pillar state ice breath 2nd time<br>{{MachineTranslation}}
+|14, {{UI|UI|Ice|title=Ice Damage|text=56}}
+|{{UI|UI|Ice|title=Ice Damage|text=80}}<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |絶対零度空間_円柱_予兆<br>Absolute Zero Space_Cylinder_Omen<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Unblockable
+|-
+! rowspan="2" |絶対零度空間_横広_予兆<br>Absolute Zero Space_Horizontal_Omen<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Unblockable
+|-
+! rowspan="2" |罠敵利用ピンポイントブレス<br>Pinpoint Breath using Trap Enemy<br>{{MachineTranslation}}
+|16, {{UI|UI|Ice|title=Ice Damage|text=64}}
+|{{UI|UI|Ice|title=Ice Damage|text=80}}<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |罠敵利用ピンポイントブレス着弾爆発<br>Pinpoint breath attack using trap enemies and explosions<br>{{MachineTranslation}}
+|16, {{UI|UI|Ice|title=Ice Damage|text=64}}
+|{{UI|UI|Ice|title=Ice Damage|text=80}}<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |罠敵利用氷霧ブレス<br>Trap enemy ice fog breath<br>{{MachineTranslation}}
+|14, {{UI|UI|Ice|title=Ice Damage|text=56}}
+|{{UI|UI|Ice|title=Ice Damage|text=85}}<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|45
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| Low Rank = 
+<div class="twocol">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Icium|Ore|White}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Frost Sac|Sac|White}}
+|40%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Icium|Ore|White}}
+|100%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Frost Sac|Sac|White}}
+|100%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Frost Sac|Sac|White}}
+|100%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Dragonite Ore|Ore|Green}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Frost Sac|Sac|White}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Icium|Ore|White}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Machalite Ore|Ore|Blue}} x2
+|15%
+|-
+|{{GenericItemLink|MHWilds|Sturdy Bone|Bone|White}} x2
+|10%
+|-
+|{{GenericItemLink|MHWilds|Armor Sphere+|Armor Sphere|Green}}
+|8%
+|-
+! colspan="2" |Break Abdominal Iceplate
+|-
+|{{GenericItemLink|MHWilds|Icium|Ore|White}} x2
+|100%
+|-
+! colspan="2" |Break Cranial Iceplate
+|-
+|{{GenericItemLink|MHWilds|Icium|Ore|White}}
+|100%
+|-
+! colspan="2" |Break Left Foreleg
+|-
+|{{GenericItemLink|MHWilds|Icium|Ore|White}}
+|100%
+|-
+! colspan="2" |Break Left Hind Leg
+|-
+|{{GenericItemLink|MHWilds|Icium|Ore|White}}
+|100%
+|-
+! colspan="2" |Break Lg. Iceplate (Exposed)
+|-
+|{{GenericItemLink|MHWilds|Frost Sac|Sac|White}}
+|100%
+|-
+! colspan="2" |Break Right Foreleg
+|-
+|{{GenericItemLink|MHWilds|Icium|Ore|White}}
+|100%
+|-
+! colspan="2" |Break Right Hind Leg
+|-
+|{{GenericItemLink|MHWilds|Icium|Ore|White}}
+|100%
+|-
+! colspan="2" |Break Tail Iceplate
+|-
+|{{GenericItemLink|MHWilds|Icium|Ore|White}} x2
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Icium|Ore|White}}
+|100%
+|}
+</div>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Scale+|Scale|Brown}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Carapace|Shell|Brown}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Claw+|Claw|Brown}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Horn|Claw|Brown}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Tail|Tail|Brown}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Icegem|Ball|Light Blue}}
+|5%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Scale+|Scale|Brown}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Freezer Sac|Sac|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Carapace|Shell|Brown}}
+|30%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Tail|Tail|Brown}}
+|93%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Icegem|Ball|Light Blue}}
+|7%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Scale+|Scale|Brown}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Tail|Tail|Brown}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Carapace|Shell|Brown}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Scale+|Scale|Brown}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Freezer Sac|Sac|White}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Claw+|Claw|Brown}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Certificate S|Ticket|Brown}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Horn|Claw|Brown}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Tail|Tail|Brown}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Icegem|Ball|Light Blue}}
+|3%
+|-
+! colspan="2" |Break Abdominal Iceplate
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Iceplate|Shell|Brown}}
+|100%
+|-
+! colspan="2" |Break Cranial Iceplate
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Horn|Claw|Brown}}
+|100%
+|-
+! colspan="2" |Break Left Foreleg
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Claw+|Claw|Brown}}
+|100%
+|-
+! colspan="2" |Break Left Hind Leg
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Claw+|Claw|Brown}}
+|100%
+|-
+! colspan="2" |Break Lg. Iceplate (Exposed)
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Iceplate|Shell|Brown}}
+|88%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Icegem|Ball|Light Blue}}
+|12%
+|-
+! colspan="2" |Break Right Foreleg
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Claw+|Claw|Brown}}
+|100%
+|-
+! colspan="2" |Break Right Hind Leg
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Claw+|Claw|Brown}}
+|100%
+|-
+! colspan="2" |Break Tail Iceplate
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Iceplate|Shell|Brown}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Scale+|Scale|Brown}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Carapace|Shell|Brown}}
+|38%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Iceplate|Shell|Brown}}
+|12%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone|Ore|Red}}
+|70%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (L)|Ore|Red}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone Chunk|Ore|Red}}
+|7%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Carapace|Shell|Brown}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Scale+|Scale|Brown}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Claw+|Claw|Brown}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Freezer Sac|Sac|White}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Horn|Claw|Brown}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Tail|Tail|Brown}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Icegem|Ball|Light Blue}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Claw+|Claw|Brown}}
+|33%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Horn|Claw|Brown}}
+|21%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Tail|Tail|Brown}}
+|21%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Iceplate|Shell|Brown}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Icegem|Ball|Light Blue}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Jin Dahaad Icegem|Ball|Light Blue}}
+|100%
+|}
+</div>
+</tabber>
+
+== Equipment ==
+
+=== Weapons ===
+<div class="threecol"><div>
+* {{GenericWeaponLink|MHWilds|Jin Dhakoo I|DB|7}}
+* {{GenericWeaponLink|MHWilds|Precipice Ulokiem|DB|8}}
+* {{GenericWeaponLink|MHWilds|Jin Dhavaar I|GS|7}}
+* {{GenericWeaponLink|MHWilds|Precipice Metallam|GS|8}}
+* {{GenericWeaponLink|MHWilds|Jin Dhatop I|GL|7}}
+* {{GenericWeaponLink|MHWilds|Precipice Lohamata|GL|8}}
+* {{GenericWeaponLink|MHWilds|Jin Dhauda I|Hm|7}}
+* {{GenericWeaponLink|MHWilds|Precipice Logamtu|Hm|8}}
+* {{GenericWeaponLink|MHWilds|Jin Dhaang I|HH|7}}
+* {{GenericWeaponLink|MHWilds|Precipice Kovira|HH|8}}
+* {{GenericWeaponLink|MHWilds|Jin Dhachhad|IG|7}}
+* {{GenericWeaponLink|MHWilds|Precipice Geumgel|IG|8}}
+* {{GenericWeaponLink|MHWilds|Jin Dhaklab I|SnS|7}}
+* {{GenericWeaponLink|MHWilds|Precipice Mateptro|SnS|8}}
+</div><div>
+* {{GenericWeaponLink|MHWilds|Jin Dhaphal I|HBG|7}}
+* {{GenericWeaponLink|MHWilds|Precipice Malmiam|HBG|8}}
+</div>
+</div>
+
+=== Armor Sets ===
+<div class="threecol"><div>
+* {{GenericArmorLink|MHWilds|Dahaad α Set|Chestplate|7}}
+</div><div>
+* {{GenericArmorLink|MHWilds|Dahaad β Set|Chestplate|7}}
+</div><div>
+* {{GenericArmorLink|MHWilds|Dahaad γ Set|Chestplate|8}}
+</div></div>
+
+=Notes=
+{{notelist}}
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

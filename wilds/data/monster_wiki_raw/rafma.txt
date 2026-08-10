@@ -1,0 +1,51 @@
+{{Meta
+|MetaTitle     = Rafma - MHWilds
+|MetaDesc      = Rafma is a Herbivore small monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Rafma, Wilds, Stats, Materials, Attacks
+|MetaImage     = MHWilds-Rafma Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Rafma]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Rafma
+|MHWilds = Y
+|MHWA = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Rafma
+|Japanese Name = ラフマー
+|Image = {{{Render|MHWilds-Rafma Render 001.webp}}}
+|Title = None
+|Class = [[Herbivore]]
+
+|Elements = 
+|Status Effects = {{Element|Paralysis}}
+|Weaknesses = None
+|Locales = [[Iceshard Cliffs]], [[Ruins of Wyveria]]
+|Game = MHWilds
+|Small = Y
+|Capture HP % = 20
+|Limp HP % = 15
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription
+|Description='''Small Monster Field Guide:''' Herbivores that live in cold regions. Rafma form herds with a large alpha at the head. When threatened, the alpha discharges static electricity stored in its horn to shock foes and defend the herd. This horn can also be targeted with the hook slinger to get paralytic ammo. Rafma have been sighted moving along dizzyingly steep cliffsides, to the wonderment of observers.</br><br/>'''Map Description (Alpha):''' Herbivores that live primarily in cold regions. The larger alphas protect the herd, and can be harvested for paralytic Slinger ammo.</br><br/>'''Map Description:''' Herbivores that live in herds in cold areas. They are targeted by predators as a source of sustenance where flora and fauna are scarce.
+|Icon=MHWilds-Rafma Icon.webp
+|Game=Monster Hunter Wilds}}
+</div>
+
+==Damage Data==
+===Hit Zone Values===
+
+</div>
+</div>
+==Physical Attributes==
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+
+[[Category:Small Monster MHWilds Subpages]]

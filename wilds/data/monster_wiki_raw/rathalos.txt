@@ -1,0 +1,784 @@
+{{Meta
+|MetaTitle     = Rathalos - MHWilds
+|MetaDesc      = This page describes Rathalos, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Rathalos, Wilds, Stats, Materials, Attacks 
+|MetaImage = File:MHWilds-Rathalos Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Rathalos]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Rathalos
+|MH1 = Y
+|MHG = Y
+|MHF1 = Y
+|MH2 = Y
+|MHF2 = Y
+|MHFU = Y
+|MH3 = Y
+|MHP3 = Y
+|MH3U = Y
+|MH4 = Y
+|MH4U = Y
+|MHGen = Y
+|MHGU = Y
+|MHWorld = Y
+|MHWI = Y
+|MHRise = Y
+|MHRS = Y
+|MHWilds = Y
+|MHi = Y
+|MHFrontier = Y
+|MHExplore = Y
+|MHOnline = Y
+|MHST1 = Y
+|MHRiders = Y
+|MHST2 = Y
+|MHNow = Y
+|MHPuzzles = Y
+|MHST3 = Y
+|MHOutlanders = Y
+|MHWA = Y
+|Music = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Rathalos
+|Japanese Name = リオレウス
+|Image = MHWilds-Rathalos Render 001.webp
+|Title = Fire Wyvern (火竜)
+|Class = [[Flying Wyvern]]
+|Elements = {{UI|UI|Fire}}
+|Status Effects = {{Element|Fireblight}} {{Element|Poison}}
+|Weaknesses = {{{Weakness|{{UI|UI|Dragon}}}}}
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Flash Pods = Y
+|Dung Pods = 100%
+|Gold Crown Small = 1533.8
+|Average = 1704.22
+|Silver Crown = 1959.85
+|Gold Crown Large = 2096.19
+|Locales = [[Scarlet Forest]], [[Oilwell Basin]], [[Ruins of Wyveria]], [[Wounded Hollow]]
+|Sleeping Areas = [[Scarlet Forest|Scarlet Forest - Area 11]]<br>[[Oilwell Basin|Oilwell Basin - Area 16]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Rathalos is found in the [[Scarlet Forest]] and [[Oilwell Basin]], with [[Tempered Monsters|Tempered]] individuals also being found in the [[Ruins of Wyveria]]. It can also appear in the [[Wounded Hollow]]. In the Forest, he will most commonly appear during the Fallow, while in the Basin, he emerges most often during the Inclemency and more rarely in the Fallow.
+
+Rathalos, while grounded, primarily attack by biting and shooting fireballs. However, Rathalos prefers to attack from the sky, lunging at the hunter with his poisonous talons and breathing out streams of fire. Damaging him enough while he is flying causes him to flinch in the air for an extended period of time, flinching him again will knock him out of the sky. [[Flash Pod (MHWilds)|Flash Bombs]] can also be used to instantly knock him out of the sky.
+
+His nest in Area 11 of the Scarlet Forest features piles of decaying plant matter. If one of his flame attacks touches the piles, they will burn for roughly a minute.
+
+After performing any of his fire breathes, Rathalos' mouth is left exposed as a weak point for Focus Strikes. If a Focus Strike is successfully performed on his mouth, Rathalos will reel back and be briefly knocked down, however there is a cool-down to this interaction. 
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription
+|Description='''Characteristics:''' Fearsome male wyverns known as the “Kings of the Skies.” Alongside the Rathian, they stake out a wide territory around their nest, and it is the male’s role to watch from above. Armed with powerful poisonous claws and fiery breath, Rathalos use their aerial prowess to descend on invaders.</br><br/>'''Helpful Hints:''' As Kings of the Skies, Rathalos will attack with a variety of aerial strikes. A bright flash should be enough to disorient them and bring them down. When Rathalos are in trouble, their Rathian mates may swoop in to help, so be sure to have dung pods and large dung pods at the ready.</br><br/>'''Map Description:''' Fearsome wyverns known as "Kings of the Skies." Armed with powerful poison claws, they use their aerial prowess to descend on prey from above.
+|Icon=MHWilds-Rathalos Icon.webp
+|Game=[[Monster Hunter Wilds]]}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''65'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''70'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''65'''</sup>
+|0
+|15
+|20
+|15
+|30
+|100
+|-
+|'''Neck'''
+|<span style="color:orange;">❸</span>
+|35<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''50'''</sup>
+|0
+|5<sup style="color:mediumvioletred">15</sup>
+|10<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|20<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|25<sup style="color:mediumvioletred">'''60'''</sup>
+|25<sup style="color:mediumvioletred">'''55'''</sup>
+|20<sup style="color:mediumvioletred">'''50'''</sup>
+|0
+|5<sup style="color:mediumvioletred">15</sup>
+|10<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|20<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Left Wing'''
+|<span style="color:orange;">❸</span>
+|'''55'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''55'''</sup>
+|40<sup style="color:mediumvioletred">'''50'''</sup>
+|0
+|10<sup style="color:mediumvioletred">15</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|25<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Right Wing'''
+|<span style="color:orange;">❸</span>
+|'''55'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''55'''</sup>
+|40<sup style="color:mediumvioletred">'''50'''</sup>
+|0
+|10<sup style="color:mediumvioletred">15</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|25<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Left Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''50'''</sup>
+|0
+|0<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">20</sup>
+|0<sup style="color:mediumvioletred">15</sup>
+|15<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Right Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''50'''</sup>
+|0
+|0<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">20</sup>
+|0<sup style="color:mediumvioletred">15</sup>
+|15<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Tail'''
+|<span style="color:limegreen;">❹</span>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''55'''</sup>
+|35<sup style="color:mediumvioletred">'''50'''</sup>
+|0
+|5<sup style="color:mediumvioletred">15</sup>
+|10<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|20<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =250→700
+|Poison Increase = 150
+|Poison Duration = 15s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 180→960
+|Paralysis Increase = 130
+|Paralysis Duration = 10s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 130
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 11
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 9
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 11
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[King of the Skies (MHWilds Quest)|King of the Skies]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rathalos|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Hunting Exercise: Tempered Rathalos (MHWilds Quest)|Hunting Exercise: Tempered Rathalos]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rathalos|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Optional
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Tango of Lives Ablaze (MHWilds Quest)|Tango of Lives Ablaze]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Ajarakan|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rathalos|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Nu Udra|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[The Melodic Monarch (MHWilds Quest)|The Melodic Monarch]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rathalos|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 7'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Endless Sky, Endless Sea (MHWilds Quest)|Endless Sky, Endless Sea]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Lagiacrus|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rathalos|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[It's Darker than You Think (MHWilds Quest)|It's Darker than You Think]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Guardian Rathalos|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rathalos|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Meat at the Heart of Wyveria (MHWilds Quest)|Meat at the Heart of Wyveria]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Quematrice|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rathalos|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Grand Hub
+| data-sort-value="8" |HR 5'''★'''
+|Challenge
+|{{UI|UI|Slay|title=Arena|nolink=true}} [[Event: Mark of a True King (MHWilds Quest)|Event: Mark of a True King]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rathalos|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |火球<br>Fireball<br>{{MachineTranslation}}
+|21, {{UI|UI|Fire|title=Fire Damage|text=49}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=60}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |薙ぎ払いブレス<br>Sweeping Breath<br>{{MachineTranslation}}
+|22, {{UI|UI|Fire|title=Fire Damage|text=53}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=60}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |咆哮<br>Roar<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |爆発<br>explosion<br>{{MachineTranslation}}
+|9, {{UI|UI|Fire|title=Fire Damage|text=21}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |しぐさ(Shell)<br>Gestures (Shell)<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |燃え残り<br>Embers<br>{{MachineTranslation}}
+|0, {{UI|UI|Fire|title=Fire Damage|text=5}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |ファイアーバーナー<br>Fire Burner<br>{{MachineTranslation}}
+|30, {{UI|UI|Fire|title=Fire Damage|text=70}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=60}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |爆発<br>explosion<br>{{MachineTranslation}}
+|9, {{UI|UI|Fire|title=Fire Damage|text=21}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |しぐさ(Shell)<br>Gestures (Shell)<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |弱帯ブレス<br>Weak Band Breath<br>{{MachineTranslation}}
+|22, {{UI|UI|Fire|title=Fire Damage|text=53}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=60}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |強帯ブレス<br>Strong Belt Breath<br>{{MachineTranslation}}
+|24, {{UI|UI|Fire|title=Fire Damage|text=56}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=60}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |弱帯ブレス(レーザー部分)<br>Weak band bracelet (laser part)<br>{{MachineTranslation}}
+|22, {{UI|UI|Fire|title=Fire Damage|text=53}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |強帯ブレス(レーザー部分)<br>Strong band bracelet (laser part)<br>{{MachineTranslation}}
+|24, {{UI|UI|Fire|title=Fire Damage|text=56}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |燃え残り<br>Embers<br>{{MachineTranslation}}
+|0, {{UI|UI|Fire|title=Fire Damage|text=5}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |疲れ帯ブレス<br>Fatigue Belt Breath<br>{{MachineTranslation}}
+|18, {{UI|UI|Fire|title=Fire Damage|text=42}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=60}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |疲れ帯ブレス(レーザー部分)<br>Fatigue belt bracelet (laser part)<br>{{MachineTranslation}}
+|18, {{UI|UI|Fire|title=Fire Damage|text=42}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |燃え残り<br>Embers<br>{{MachineTranslation}}
+|0, {{UI|UI|Fire|title=Fire Damage|text=5}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |燃え残り<br>Embers<br>{{MachineTranslation}}
+|0, {{UI|UI|Fire|title=Fire Damage|text=5}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |薙ぎ払いブレス<br>Sweeping Breath<br>{{MachineTranslation}}
+|22, {{UI|UI|Fire|title=Fire Damage|text=53}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=60}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Rathalos Scale+|Scale|Red}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Carapace|Shell|Red}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Wing|Wing|Red}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Tail|Tail|Red}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Rath Medulla|Monster Part|Red}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Ruby|Ball|Red}}
+|5%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Rathalos Scale+|Scale|Red}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Inferno Sac|Sac|Red}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Carapace|Shell|Red}}
+|30%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Rathalos Tail|Tail|Red}}
+|80%
+|-
+|{{GenericItemLink|MHWilds|Rath Medulla|Monster Part|Red}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Ruby|Ball|Red}}
+|7%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Rathalos Scale+|Scale|Red}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Tail|Tail|Red}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Rathalos Carapace|Shell|Red}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Scale+|Scale|Red}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Inferno Sac|Sac|Red}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Wing|Wing|Red}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Rath Medulla|Monster Part|Red}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Certificate S|Ticket|Red}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Tail|Tail|Red}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Ruby|Ball|Red}}
+|3%
+|-
+! colspan="2" |Break Left Wing
+|-
+|{{GenericItemLink|MHWilds|Rathalos Wing|Wing|Red}}
+|100%
+|-
+! colspan="2" |Break Right Wing
+|-
+|{{GenericItemLink|MHWilds|Rathalos Wing|Wing|Red}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Rathalos Carapace|Shell|Red}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Scale+|Scale|Red}}
+|50%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (S)|Ore|Red}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone|Ore|Red}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (L)|Ore|Red}}
+|20%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Rathalos Carapace|Shell|Red}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Scale+|Scale|Red}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Wing|Wing|Red}}
+|16%
+|-
+|{{GenericItemLink|MHWilds|Inferno Sac|Sac|Red}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Rath Medulla|Monster Part|Red}}
+|10%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Tail|Tail|Red}}
+|10%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Ruby|Ball|Red}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Rathalos Wing|Wing|Red}}
+|33%
+|-
+|{{GenericItemLink|MHWilds|Rath Medulla|Monster Part|Red}}
+|21%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Tail|Tail|Red}}
+|21%
+|-
+|{{GenericItemLink|MHWilds|Inferno Sac|Sac|Red}} x2
+|18%
+|-
+|{{GenericItemLink|MHWilds|Rathalos Ruby|Ball|Red}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Rathalos Ruby|Ball|Red}}
+|100%
+|}
+</div>
+</tabber>
+
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

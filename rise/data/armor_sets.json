@@ -6978,7 +6978,7 @@
         "name": "Mizuha Cap"
       },
       {
-        "part": "arms",
+        "part": "chest",
         "id": "1294017357",
         "name": "Mizuha Guards"
       },
@@ -7106,6 +7106,70 @@
         "part": "legs",
         "id": "2047207430",
         "name": "Silver Solgreaves"
+      }
+    ]
+  },
+  {
+    "name": "Heavy Knight Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/heavy-knight.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "290397875",
+        "name": "Hoplite's Helm"
+      },
+      {
+        "part": "chest",
+        "id": "390012595",
+        "name": "Hoplite's Armor"
+      },
+      {
+        "part": "arms",
+        "id": "355409587",
+        "name": "Hoplite's Braces"
+      },
+      {
+        "part": "waist",
+        "id": "1797201587",
+        "name": "Hoplite's Belt"
+      },
+      {
+        "part": "legs",
+        "id": "1762598579",
+        "name": "Hoplite's Greaves"
+      }
+    ]
+  },
+  {
+    "name": "Grand Mizuha Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/grand-mizuha.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1527976646",
+        "name": "Grand Mizuha Mask"
+      },
+      {
+        "part": "chest",
+        "id": "1558460678",
+        "name": "Grand Mizuha Guards"
+      },
+      {
+        "part": "arms",
+        "id": "1523857670",
+        "name": "Grand Mizuha Sleeves"
+      },
+      {
+        "part": "waist",
+        "id": "1489254662",
+        "name": "Grand Mizuha Sash"
+      },
+      {
+        "part": "legs",
+        "id": "1454651654",
+        "name": "Grand Mizuha Leg Wrap"
       }
     ]
   }

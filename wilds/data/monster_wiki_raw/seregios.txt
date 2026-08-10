@@ -1,0 +1,457 @@
+{{Meta
+|MetaTitle     = Seregios - MHWilds
+|MetaDesc      = This page describes Seregios, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Seregios, Wilds, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Seregios Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Seregios]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Seregios
+|MHWilds = Y
+|MHRS = Y
+|MHGU = Y
+|MHGen = Y
+|MH4U = Y
+|MHFrontier = Y
+|MHExplore = Y
+|MHST1 = Y
+|MHRiders = Y
+|MHST2 = Y
+|MHST3 = Y
+|MHWA = Y
+|Music = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Seregios
+|Japanese Name = セルレギオス
+|Image = MHWilds-Seregios Render 001.webp
+|Title = Thousand Blade Wyvern (千刃竜)
+|Class = [[Flying Wyvern]]
+
+|Elements = 
+|Status Effects = {{Element|Bleeding}}
+|Weaknesses = {{UI|UI|Thunder}}
+|Roar = Weak
+|Wind Pressure = ✗
+|Tremor = ✗
+|Game = MHWilds
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Flash Pods = Y
+|Dung Pods = 100%
+|Screamer Pods = Y
+|Gold Crown Small = 1557.24
+|Average = 1730.27
+|Silver Crown = 1989.81
+|Gold Crown Large = 2128.23
+|Locales = [[Windward Plains]], [[Ruins of Wyveria]], [[Wounded Hollow]]
+|Sleeping Areas = [[Windward Plains|Windward Plains - Area 4]]<br>[[Ruins of Wyveria|Ruins of Wyveria - Area 12]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Seregios is found primarily in the [[Windward Plains]], with [[Tempered Monsters|Tempered]] individuals also being found in the [[Ruins of Wyveria]]. It can also appear in the [[Wounded Hollow]].
+
+Seregios attacks primarily with its powerful hind-legs, often flying into the air beforehand to lunge at its target. It is also capable of firing off blade-scales from its head, wings and tail. Breaking a Seregios' parts reduces the number of blade scales it is capable of firing off. Seregios is additionally capable of picking up [[Herbivore|Herbivores]] on the map and tossing them at the hunter.
+
+Some of Seregios' scales, when landing in terrain, can be picked up as Bladescale Pods.
+
+After its sweeping talon attack or divebomb, one of Seregios' legs is left exposed as a weak point for Focus Strikes (either its left for the sweep, or the stuck leg for the divebomb). If a Focus Strike is successfully performed on its leg, Seregios will reel back and be briefly knocked down, however there is a cool-down to this interaction. 
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription|Icon=MHWilds-Seregios Icon.webp|Game=[[Monster Hunter Wilds]]|Description='''Characteristics:''' Fiercely territorial flying wyverns known for the sharp, blade-like scales covering their bodies. Boasting swift aerial mobility and lightning-fast footwork, Seregios use their powerful hind legs to make quick work of their prey. Reports confirm that Seregios also have the ability to launch the scales from their bodies, causing lacerations that bleed profusely.</br><br/>'''Helpful Hints:''' Beware of flanking attacks and their fierce hind leg strikes. Viciously aggressive, they’ll launch their blade-like scales, which can inflict bleeding, and then immediately follow-up with additional attacks. Breaking their heads and tail can reduce the number of scales they’re able to deploy, so focus on breaking parts while healing your bleeding status as necessary with Well-done Steaks or by resting briefly.</br><br/>'''Map Description:''' Fiercely territorial flying wyverns known for the sharp, blade-like scales covering their body.}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Wounded</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''45'''<sup style="color:mediumvioletred">'''50'''</sup>
+|'''55'''<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''50'''</sup>
+|0
+|5<sup style="color:mediumvioletred">15</sup>
+|15<sup style="color:mediumvioletred">30</sup>
+|10<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|100
+|-
+|'''Neck'''
+|<span style="color:crimson;">❶</span>
+|35<sup style="color:mediumvioletred">'''50'''</sup>
+|40<sup style="color:mediumvioletred">'''45'''</sup>
+|30<sup style="color:mediumvioletred">'''45'''</sup>
+|0
+|5
+|10<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5<sup style="color:mediumvioletred">0</sup>
+| -
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|35<sup style="color:mediumvioletred">'''60'''</sup>
+|35<sup style="color:mediumvioletred">'''55'''</sup>
+|10<sup style="color:mediumvioletred">'''55'''</sup>
+|0
+|5<sup style="color:mediumvioletred">10</sup>
+|5<sup style="color:mediumvioletred">30</sup>
+|5<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+| -
+|-
+|'''Left Leg'''
+|<span style="color:crimson;">❶</span>
+|'''50'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|0
+|10
+|20<sup style="color:mediumvioletred">30</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+| -
+|-
+|'''Right Leg'''
+|<span style="color:crimson;">❶</span>
+|'''50'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|0
+|10
+|20<sup style="color:mediumvioletred">30</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+| -
+|-
+|'''Left Wing'''
+|<span style="color:#c0c0c0;">❷</span>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''55'''</sup>
+|15<sup style="color:mediumvioletred">'''55'''</sup>
+|0
+|5<sup style="color:mediumvioletred">10</sup>
+|10<sup style="color:mediumvioletred">30</sup>
+|5<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+| -
+|-
+|'''Right Wing'''
+|<span style="color:#c0c0c0;">❷</span>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''55'''</sup>
+|15<sup style="color:mediumvioletred">'''55'''</sup>
+|0
+|5<sup style="color:mediumvioletred">10</sup>
+|10<sup style="color:mediumvioletred">30</sup>
+|5<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+| -
+|-
+|'''Tail'''
+|<span style="color:limegreen;">❹</span>
+|40<sup style="color:mediumvioletred">'''60'''</sup>
+|35<sup style="color:mediumvioletred">'''55'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|0
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">30</sup>
+|10<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+| -
+|-
+|'''???'''
+|<span style="color:orange;">❸</span>
+|35
+|35
+|10
+|0
+|5
+|5
+|5
+|5
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWildsStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =150→550
+|Poison Increase = 100
+|Poison Duration = 20s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 300→1500
+|Paralysis Increase = 200
+|Paralysis Duration = 8s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 200
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 11
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 9
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 11
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness =
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness = 100
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Kunafa, Windsong Village
+| data-sort-value="8" |HR 6'''★'''
+|Assignment
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Wings That Rend the Sky (MHWilds Quest)|Wings That Rend the Sky]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Seregios|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 6'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[1,000 Shimmering Swords (MHWilds Quest)|1,000 Shimmering Swords]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Seregios|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Hunting Exercise: Tempered Seregios (MHWilds Quest)|Hunting Exercise: Tempered Seregios]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Seregios|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Optional
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[The Wind 'n' Sand Blues (MHWilds Quest)|The Wind 'n' Sand Blues]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Doshaguma|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Seregios|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rey Dau|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 6'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Shining Blades against the Dull Wasteland (MHWilds Quest)|Shining Blades against the Dull Wasteland]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Seregios|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Grand Hub
+| data-sort-value="8" |HR 6'''★'''
+|Challenge
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Boundless Blades (MHWilds Quest)|Boundless Blades]]{{note|This quest was only available between the 7<sup>th</sup> and the 21<sup>st</sup> of October during 2025.}}
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Seregios|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |???
+|10
+| -
+|???
+|???
+|???
+|???
+|10
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|15
+|{{UI|UI|Bleeding|title=Bleeding Damage|text=50}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|20
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|120
+|{{UI|UI|Bleeding|title=Bleeding Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=40}}
+|???
+|???
+|???
+|???
+|100
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|0
+| -
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|25
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|8
+| -
+|???
+|???
+|???
+|???
+|20
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|12
+|{{UI|UI|Bleeding|title=Bleeding Damage|text=50}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |???
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+
+=Notes=
+{{notelist}}
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

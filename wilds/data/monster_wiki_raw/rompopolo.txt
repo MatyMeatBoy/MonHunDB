@@ -1,0 +1,718 @@
+{{Meta
+|MetaTitle     = Rompopolo - MHWilds
+|MetaDesc      = This page describes Rompopolo, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Rompopolo, Wilds, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Rompopolo Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Rompopolo]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Rompopolo
+|MHWilds = Y
+|MHWA = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Rompopolo
+|Japanese Name = ププロポル
+|Image = MHWilds-Rompopolo Render 001.webp
+|Title = Swamp Spouting Wyvern (沼噴竜)
+|Class = [[Brute Wyvern]]
+
+|Elements = 
+|Status Effects = {{Element|Poison}}
+|Weaknesses = {{UI|UI|Water}}
+
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Flash Pods = Y
+|Dung Pods = 100%
+|Gold Crown Small = 1078.04
+|Average = 1197.82
+|Silver Crown = 1377.49
+|Gold Crown Large = 1473.32
+|Locales = [[Oilwell Basin]], [[Wounded Hollow]]
+|Sleeping Areas = [[Oilwell Basin|Oilwell Basin - Area 10]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Rompopolo is found primarily in the [[Oilwell Basin]]. It can also appear in the [[Wounded Hollow]].
+
+Rompopolo attacks utilising its sharp, blade-like forelimbs. Its posterior sac is capable of creating explosions in the ground that, if they occur on oil silt, create temporary platforms that are easier to walk on. Its anterior sac is capable of expelling a poisonous mist. If this sac is deflated, Rompopolo loses this ability. If Rompopolo's forelimbs are broken, its heavier forelimb attacks will make it briefly stagger or fall over.
+
+When not enraged, the gas sacs on its head, back, and tail can each be individually deflated, toppling the monster if all three sacs are deflated. Eventually however, Rompopolo will re-inflate its sacs. While the monster is enraged, damaging one sac enough will cause all of its sacs to deflate, the monster to be knocked over, and for Rompopolo to exit its enrage.
+
+While performing a poison attack, Rompopolo's tongue is left exposed as a weak point for Focus Strikes. If a Focus Strike is successfully performed on its tongue, Rompopolo will reel back and be briefly knocked down, there is a cool-down to this interaction however. 
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription
+|Description='''Characteristics:''' Dappled brute wyverns that prowl Oilwell Basin. They use their tails to inject gas into the ground and detonate it, then feed on the small creatures that are unearthed. The toxic gas they spray from their tongues serve to weaken prey, which they then finish off with the blasts. Rompopolo are extremely territorial and will readily engage their own kind.</br><br/>'''Helpful Hints:''' Hunters must be wary of the Rompopolo's poisonous explosions. Gas sacs can be found all over their bodies; the anterior ones contain poison, while the posterior sacs are for explosions. If you see one start to swell strike it to shrink it back down. When fighting in oilsilt, the blasts will kick up rubble that can act as stable footholds.</br><br/>'''Map Description:''' Dappled brute wyverns that prowl Oilwell Basin. The gas from their tongues is toxic, and the gas in their tails can detonate the earth.
+|Icon=MHWilds-Rompopolo Icon.webp
+|Game=[[Monster Hunter Wilds]]}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:limegreen;">❹</span>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''65'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|10
+|25
+|10
+|10
+|5
+|100
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|35<sup style="color:mediumvioletred">'''50'''</sup>
+|35<sup style="color:mediumvioletred">'''50'''</sup>
+|35<sup style="color:mediumvioletred">'''50'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5
+| -
+|-
+|'''Back'''
+|<span style="color:orange;">❸</span>
+|'''55'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''55'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''70'''</sup>
+|10
+|20<sup style="color:mediumvioletred">25</sup>
+|10
+|10
+|5
+| -
+|-
+|'''Left Foreleg'''
+|<span style="color:orange;">❸</span>
+|40<sup style="color:mediumvioletred">'''50'''</sup>
+|40<sup style="color:mediumvioletred">'''50'''</sup>
+|40<sup style="color:mediumvioletred">'''50'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5
+| -
+|-
+|'''Right Foreleg'''
+|<span style="color:orange;">❸</span>
+|40<sup style="color:mediumvioletred">'''50'''</sup>
+|40<sup style="color:mediumvioletred">'''50'''</sup>
+|40<sup style="color:mediumvioletred">'''50'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5
+| -
+|-
+|'''Left Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|33<sup style="color:mediumvioletred">'''50'''</sup>
+|33<sup style="color:mediumvioletred">'''50'''</sup>
+|33<sup style="color:mediumvioletred">'''50'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5
+| -
+|-
+|'''Right Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|33<sup style="color:mediumvioletred">'''50'''</sup>
+|33<sup style="color:mediumvioletred">'''50'''</sup>
+|33<sup style="color:mediumvioletred">'''50'''</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|15<sup style="color:mediumvioletred">20</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|5
+| -
+|-
+|'''Tail'''
+|<span style="color:crimson;">❶</span>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|10
+|25
+|10
+|10
+|5
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =250→700
+|Poison Increase = 150
+|Poison Duration = 15s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 180→960
+|Paralysis Increase = 130
+|Paralysis Duration = 10s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 130
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 11
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 9
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 11
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Forest Basecamp
+| data-sort-value="8" |LR 2'''★'''
+|Assignment
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[A Fuse Ignited (MHWilds Quest)|A Fuse Ignited]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rompopolo|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |LR 2'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Oilwell Basin Blast (MHWilds Quest)|Oilwell Basin Blast]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rompopolo|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Profusion of Poison (MHWilds Quest)|Profusion of Poison]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rompopolo|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |LR 2'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Chemicus Nocturnus (MHWilds Quest)|Chemicus Nocturnus]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rompopolo|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Pick Your Poison (MHWilds Quest)|Pick Your Poison]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Gypceros|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rompopolo|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Romping Around (MHWilds Quest)|Romping Around]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rompopolo|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 10'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Just What the Doctor Ordered (MHWilds Quest)|Just What the Doctor Ordered]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rompopolo|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |顔まわり舌ガス<br>Gas around the face and tongue<br>{{MachineTranslation}}
+|20
+|{{UI|UI|Poison|title=Poison Damage|text=100}}
+|???
+|???
+|???
+|???
+|15
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |接近舌ガス<br>Approaching tongue gas<br>{{MachineTranslation}}
+|20
+|{{UI|UI|Poison|title=Poison Damage|text=100}}
+|???
+|???
+|???
+|???
+|15
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |誘い爆発<br>Invitation Explosion<br>{{MachineTranslation}}
+|30
+|<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|35
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |殺し爆発<br>Killer Explosion<br>{{MachineTranslation}}
+|60
+|<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |誘い爆発（予兆）<br>Invitation explosion (premonition)<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |殺し爆発（予兆）<br>Murder Explosion (Omen)<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |バインドボイス<br>Bind Voice<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |舌ガスブレス<br>Tongue Gas Breath<br>{{MachineTranslation}}
+|20
+|{{UI|UI|Poison|title=Poison Damage|text=100}}
+|???
+|???
+|???
+|???
+|15
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |舌ガスブレス<br>Tongue Gas Breath<br>{{MachineTranslation}}
+|20
+|{{UI|UI|Poison|title=Poison Damage|text=100}}
+|???
+|???
+|???
+|???
+|15
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| Low Rank = 
+<div class="twocol">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Hide|Hide|Dark Blue}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Beak|Head|Dark Blue}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Claw|Claw|Dark Blue}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Spotted Poison Hide|Hide|Dark Blue}}
+|15%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Hide|Hide|Dark Blue}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Poison Sac|Sac|Purple}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Beak|Head|Dark Blue}}
+|30%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Hide|Hide|Dark Blue}}
+|25%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Beak|Head|Dark Blue}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Poison Sac|Sac|Purple}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Claw|Claw|Dark Blue}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Spotted Poison Hide|Hide|Dark Blue}}
+|10%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Certificate|Ticket|Dark Blue}}
+|8%
+|-
+! colspan="2" |Break Back
+|-
+|{{GenericItemLink|MHWilds|Spotted Poison Hide|Hide|Dark Blue}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Poison Sac|Sac|Purple}}
+|40%
+|-
+! colspan="2" |Break Foreleg
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Claw|Claw|Dark Blue}}
+|100%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Spotted Poison Hide|Hide|Dark Blue}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Beak|Head|Dark Blue}}
+|40%
+|-
+! colspan="2" |Break Tail
+|-
+|{{GenericItemLink|MHWilds|Spotted Poison Hide|Hide|Dark Blue}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Poison Sac|Sac|Purple}}
+|40%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Hide|Hide|Dark Blue}}
+|80%
+|-
+|{{GenericItemLink|MHWilds|Spotted Poison Hide|Hide|Dark Blue}}
+|20%
+|}
+</div>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Hide+|Hide|Dark Blue}}
+|33%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Beak+|Head|Dark Blue}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Claw+|Claw|Dark Blue}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Spotted Poison Hide+|Hide|Dark Blue}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Wyvern Gem|Ball|Light Blue}}
+|5%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Hide+|Hide|Dark Blue}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Beak+|Head|Dark Blue}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Toxin Sac|Sac|Purple}}
+|30%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Beak+|Head|Dark Blue}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Hide+|Hide|Dark Blue}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Toxin Sac|Sac|Purple}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Claw+|Claw|Dark Blue}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Spotted Poison Hide+|Hide|Dark Blue}}
+|10%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Certificate S|Ticket|Dark Blue}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Wyvern Gem|Ball|Light Blue}}
+|3%
+|-
+! colspan="2" |Break Back
+|-
+|{{GenericItemLink|MHWilds|Spotted Poison Hide+|Hide|Dark Blue}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Toxin Sac|Sac|Purple}}
+|40%
+|-
+! colspan="2" |Break Foreleg
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Claw+|Claw|Dark Blue}}
+|100%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Spotted Poison Hide+|Hide|Dark Blue}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Beak+|Head|Dark Blue}}
+|40%
+|-
+! colspan="2" |Break Tail
+|-
+|{{GenericItemLink|MHWilds|Spotted Poison Hide+|Hide|Dark Blue}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Toxin Sac|Sac|Purple}}
+|40%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Hide+|Hide|Dark Blue}}
+|80%
+|-
+|{{GenericItemLink|MHWilds|Spotted Poison Hide+|Hide|Dark Blue}}
+|20%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone Shard|Ore|Red}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (S)|Ore|Red}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone|Ore|Red}}
+|15%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Beak+|Head|Dark Blue}}
+|26%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Hide+|Hide|Dark Blue}}
+|26%
+|-
+|{{GenericItemLink|MHWilds|Toxin Sac|Sac|Purple}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Claw+|Claw|Dark Blue}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Spotted Poison Hide+|Hide|Dark Blue}}
+|10%
+|-
+|{{GenericItemLink|MHWilds|Wyvern Gem|Ball|Light Blue}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Rompopolo Claw+|Claw|Dark Blue}}
+|38%
+|-
+|{{GenericItemLink|MHWilds|Spotted Poison Hide+|Hide|Dark Blue}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Toxin Sac|Sac|Purple}} x2
+|25%
+|-
+|{{GenericItemLink|MHWilds|Wyvern Gem|Ball|Light Blue}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Wyvern Gem|Ball|Light Blue}}
+|100%
+|}
+</div>
+</tabber>
+
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

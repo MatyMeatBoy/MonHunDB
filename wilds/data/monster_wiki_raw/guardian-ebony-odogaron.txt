@@ -1,0 +1,817 @@
+{{Meta
+|MetaTitle     = Guardian Ebony Odogaron - MHWilds
+|MetaDesc      = This page describes Guardian Ebony Odogaron, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Guardian Ebony Odogaron, Wilds, Stats, Materials, Attacks
+|MetaImage     = MHWA-Guardian Ebony Odogaron Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Guardian Ebony Odogaron]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Guardian Ebony Odogaron
+|MHWilds = Y
+|MHWA = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Guardian Ebony Odogaron
+|Japanese Name = 護竜オドガロン亜種
+|Image = MHWA-Guardian Ebony Odogaron Render 001.webp
+|Title = Guardian Wicked Claw Wyvern (護兇爪竜) 
+|Class = [[Construct]]
+
+|Elements = {{UI|UI|Dragon}}
+|Status Effects = {{Element|Dragonblight}} {{Element|Bleeding}}
+|Weaknesses = {{UI|UI|Water}}
+
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Flash Pods = Y
+|Dung Pods = 100%
+|Gold Crown Small = 1249.88
+|Average = 1388.75
+|Silver Crown = 1597.06
+|Gold Crown Large = 1708.16
+|Locales = [[Ruins of Wyveria]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription
+|Description= '''Characteristics:''' An artificial monster species created by an ancient civilization and imbued with Ebony Odogaron's power. Guardian Ebony Odogaron cannot reproduce and do not require food, relying instead on Wyvern Milk for energy. They will attempt to corner targets with flurries of attacks from their well-developed claws and tails.<br/><br/>'''Helpful Hints:''' Guardian Ebony Odogaron are most notable for their honed claws that induce bleeding and dexterous tails, both of which carry Guardian energy that can trigger explosions. If their dragon-element attacks connect with Wylkrystals, it will cause an explosion of the same element. However, since the crystals are triggered through elemental interference Slinger ammo can also be used effectively.</br><br/>'''Map Description:''' An artificial species created by an ancient civilization with an Ebony Odogaron's power. The flurries from their foreclaws pose a threat.
+|Icon=MHWilds-Guardian Ebony Odogaron Icon.webp
+|Game=[[Monster Hunter Wilds]]}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''45'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''62'''</sup>
+|25
+|40
+|25
+|25
+|5<sup style="color:mediumvioletred">30</sup>
+|100
+|-
+|'''Neck'''
+|<span style="color:crimson;">❶</span>
+|25<sup style="color:mediumvioletred">'''60'''</sup>
+|35<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|15
+|25
+|15
+|15
+|5<sup style="color:mediumvioletred">30</sup>
+|100
+|-
+|'''Back'''
+|<span style="color:orange;">❸</span>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|25<sup style="color:mediumvioletred">'''60'''</sup>
+|20<sup style="color:mediumvioletred">'''60'''</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|20<sup style="color:mediumvioletred">25</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|25<sup style="color:mediumvioletred">'''60'''</sup>
+|20<sup style="color:mediumvioletred">'''60'''</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|20<sup style="color:mediumvioletred">25</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Left Foreleg'''
+|<span style="color:crimson;">❶</span>
+|35<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|35<sup style="color:mediumvioletred">25</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|30
+| -
+|-
+|'''Right Foreleg'''
+|<span style="color:crimson;">❶</span>
+|35<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|35<sup style="color:mediumvioletred">25</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|30
+| -
+|-
+|'''Left Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|35<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|35<sup style="color:mediumvioletred">25</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Right Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|35<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|35<sup style="color:mediumvioletred">25</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">30</sup>
+| -
+|-
+|'''Tail'''
+|<span style="color:orange;">❸</span>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|25<sup style="color:mediumvioletred">'''60'''</sup>
+|20<sup style="color:mediumvioletred">'''60'''</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|35<sup style="color:mediumvioletred">25</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|20<sup style="color:mediumvioletred">15</sup>
+|30
+| -
+|-
+|'''Tail Tip'''
+|<span style="color:orange;">❸</span>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''60'''</sup>
+|15
+|25
+|15
+|15
+|30
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =150→550
+|Poison Increase = 100
+|Poison Duration = 20s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 130→580
+|Paralysis Increase = 75
+|Paralysis Duration = 12s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 75
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 10
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 8
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 10
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Wyveria Basecamp
+| data-sort-value="8" |LR 3'''★'''
+|Assignment
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Watcher of the Ancient Capital (MHWilds Quest)|Watcher of the Ancient Capital]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Guardian Ebony Odogaron|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |LR 3'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Red Eyes in the Night (MHWilds Quest)|Red Eyes in the Night]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Guardian Ebony Odogaron|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[White Wails (MHWilds Quest)|White Wails]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Guardian Ebony Odogaron|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Purrfect Plundering (MHWilds Quest)|Purrfect Plundering]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Guardian Ebony Odogaron|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 6'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[The Struggle to Survive (MHWilds Quest)|The Struggle to Survive]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Xu Wu|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Guardian Ebony Odogaron|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 6'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[The Claws Are Out (MHWilds Quest)|The Claws Are Out]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Guardian Ebony Odogaron|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Masterless Claws (MHWilds Quest)|Masterless Claws]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Guardian Ebony Odogaron|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |龍属性ブレス_発射<br>Dragon attribute breath_fire<br>{{MachineTranslation}}
+|9, {{UI|UI|Dragon|title=Dragon Damage|text=36}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|20
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |龍属性ブレス_着弾<br>Dragon Attribute Breath_Impact<br>{{MachineTranslation}}
+|7, {{UI|UI|Dragon|title=Dragon Damage|text=28}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|20
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |払い爪_エネルギー爆発<br>Sweeping Claws_Energy Explosion<br>{{MachineTranslation}}
+|40
+|<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |回転尻尾_エネルギー爆発<br>Spinning tail_energy explosion<br>{{MachineTranslation}}
+|30
+|<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |必殺爪攻撃_エネルギー爆発<br>Deadly claw attack_Energy explosion<br>{{MachineTranslation}}
+|70
+|<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |飛び掛かり爪_エネルギー爆発<br>Pounce Claws_Energy Explosion<br>{{MachineTranslation}}
+|50
+|<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |尻尾サマー_エネルギー爆発<br>Tail Summer_Energy Explosion<br>{{MachineTranslation}}
+|70
+|<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |結晶起爆<br>Crystal Detonation<br>{{MachineTranslation}}
+|5, {{UI|UI|Dragon|title=Dragon Damage|text=5}}
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Unblockable
+|-
+! rowspan="2" |咆哮<br>Roar<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |組技用ブレス<br>Grappling Brace<br>{{MachineTranslation}}
+|10, {{UI|UI|Dragon|title=Dragon Damage|text=40}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| Low Rank = 
+<div class="twocol">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Scale|Scale|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Sinew|Monster Part|White}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Claw|Claw|White}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Fang|Claw|White}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Tail|Tail|White}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Plate|Plate|White}}
+|5%
+|-
+! colspan="2" |Carves (Crystalized)
+|-
+|{{GenericItemLink|MHWilds|Crushed Crystal|Ore|White}}
+|75%
+|-
+|{{GenericItemLink|MHWilds|Cloudy Crystal|Ore|White}}
+|25%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Scale|Scale|White}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Sinew|Monster Part|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Tough Guardian Bone|Bone|Light Blue}}
+|30%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Tail|Tail|White}}
+|93%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Plate|Plate|White}}
+|7%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Scale|Scale|White}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Tail|Tail|White}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Scale|Scale|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Sinew|Monster Part|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Nourishing Extract|Chemical|White}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Claw|Claw|White}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|G. Ebony Odogaron Certificate|Ticket|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Fang|Claw|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Tail|Tail|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Plate|Plate|White}}
+|3%
+|-
+! colspan="2" |Break Foreleg
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Claw|Claw|White}}
+|100%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Fang|Claw|White}}
+|100%
+|-
+! colspan="2" |Break Hind Leg
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Claw|Claw|White}}
+|100%
+|-
+! colspan="2" |Break Tail
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Sinew|Monster Part|White}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Scale|Scale|White}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Sinew|Monster Part|White}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale|Scale|White}}
+|12%
+|-
+|{{GenericItemLink|MHWilds|Guardian Blood|Chemical|White}}
+|8%
+|}
+</div>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Scale+|Scale|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Sinew+|Monster Part|White}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Claw+|Claw|White}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Fang+|Claw|White}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Tail|Tail|White}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Gem|Ball|White}}
+|5%
+|-
+! colspan="2" |Carves (Crystalized)
+|-
+|{{GenericItemLink|MHWilds|Cloudy Crystal|Ore|White}}
+|83%
+|-
+|{{GenericItemLink|MHWilds|Coruscating Crystal|Ore|White}}
+|17%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Scale+|Scale|White}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Sinew+|Monster Part|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Monster Keenbone|Bone|Pink}}
+|30%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Tail|Tail|White}}
+|93%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Gem|Ball|White}}
+|7%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Scale+|Scale|White}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Tail|Tail|White}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Scale+|Scale|White}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Sinew+|Monster Part|White}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Nourishing Extract|Chemical|White}}
+|16%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Claw+|Claw|White}}
+|14%
+|-
+|{{GenericItemLink|MHWilds|G. Ebony Odogaron Certificate S|Ticket|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Fang+|Claw|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Tail|Tail|White}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Plate|Plate|White}}
+|7%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Gem|Ball|White}}
+|3%
+|-
+! colspan="2" |Break Foreleg
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Claw+|Claw|White}}
+|100%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Fang+|Claw|White}}
+|100%
+|-
+! colspan="2" |Break Hind Leg
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Claw+|Claw|White}}
+|100%
+|-
+! colspan="2" |Break Tail
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Sinew+|Monster Part|White}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Scale+|Scale|White}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Sinew+|Monster Part|White}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale+|Scale|White}}
+|12%
+|-
+|{{GenericItemLink|MHWilds|Guardian Blood+|Chemical|White}}
+|8%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (S)|Ore|Red}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone|Ore|Red}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (L)|Ore|Red}}
+|20%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Scale+|Scale|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Sinew+|Monster Part|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Claw+|Claw|White}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Nourishing Extract|Chemical|White}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Fang+|Claw|White}}
+|10%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Tail|Tail|White}}
+|10%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Plate|Plate|White}}
+|7%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Gem|Ball|White}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Claw+|Claw|White}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Fang+|Claw|White}}
+|24%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Plate|Plate|White}}
+|21%
+|-
+|{{GenericItemLink|MHWilds|Nourishing Extract|Chemical|White}} x2
+|21%
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Gem|Ball|White}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Guardian Ebony Gem|Ball|White}}
+|100%
+|}
+</div>
+</tabber>
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

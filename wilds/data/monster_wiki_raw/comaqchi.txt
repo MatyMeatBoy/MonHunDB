@@ -1,0 +1,52 @@
+{{Meta
+|MetaTitle     = Comaqchi - MHWilds
+|MetaDesc      = Comaqchi is a Neopteron small monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Comaqchi, Wilds, Stats, Materials, Attacks
+|MetaImage     = MHWilds-Comaqchi Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Comaqchi]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Comaqchi
+|MHWilds = Y
+|MHWA = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Comaqchi
+|Japanese Name = ネマラチカ
+|Image = {{{Render|MHWilds-Comaqchi Render 001.webp}}}
+|Title = None
+|Class = Neopteron
+
+|Elements = 
+|Status Effects = {{Element|Sleep}}
+|Weaknesses = None
+|Locales = [[Iceshard Cliffs]]
+|Game = MHWilds
+|Small = Y
+|Capture HP % = 20
+|Limp HP % = 15
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription
+|Description = '''Small Monster Field Guide:''' Neopterons that inhabit the Iceshard Cliffs. Comaqchi rarely move around, staying adhered to the walls most of the time in large colonies. Their forelegs are well adapted to striking, and they can use their well-developed tail stingers to inject a sleeping agent that make targets easier to prey upon.</br><br/>'''Map Description:''' Neopterons with well-developed tail stingers and forelegs. They surround prey in colonies, using their tails to inject a sleeping agent.
+|Icon = MHWilds-Comaqchi Icon.webp
+|Game = [[Monster Hunter Wilds]]
+}}
+</div>
+
+==Damage Data==
+===Hit Zone Values===
+
+</div>
+</div>
+==Physical Attributes==
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+
+[[Category:Small Monster MHWilds Subpages]]

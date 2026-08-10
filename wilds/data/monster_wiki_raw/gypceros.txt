@@ -1,0 +1,561 @@
+{{Meta
+|MetaTitle     = Gypceros - MHWilds
+|MetaDesc      = This page describes Gypceros, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Gypceros, Wilds, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Gypceros Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Gypceros]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Gypceros
+|MHWilds = Y
+|MHGU = Y
+|MHGen = Y
+|MH4U = Y
+|MH4 = Y
+|MHFU = Y
+|MHF2 = Y
+|MH2 = Y
+|MHF1 = Y
+|MHG = Y
+|MH1 = Y
+|MHST1 = Y
+|MHST2 = Y
+|MHFrontier = Y
+|MHOnline = Y
+|MHRiders = Y
+|MHi = Y
+|MHPuzzles = Y
+|MHST3 = Y
+|MHWA = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Gypceros
+|Japanese Name = ゲリョス
+|Image = MHWilds-Gypceros Render 001.webp
+|Title = Poison Strange Bird (毒怪鳥)
+|Class = [[Bird Wyvern]]
+
+|Elements =
+|Status Effects = {{Element|Stun}} {{Element|Poison}}
+
+|Weaknesses = {{UI|UI|Fire}}
+
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Dung Pods = 100%
+|Gold Crown Small = 867.72
+|Average = 964.14
+|Silver Crown = 1108.76
+|Gold Crown Large = 1185.89
+|Locales = [[Windward Plains]], [[Oilwell Basin]], [[Iceshard Cliffs]], [[Ruins of Wyveria]], [[Wounded Hollow]]
+|Sleeping Areas = [[Windward Plains|Windward Plains - 4]]<br>[[Oilwell Basin|Oilwell Basin - Area 11]]<br>[[Iceshard Cliffs|Iceshard Cliffs - 6]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Gypceros is found in the [[Windward Plains]], [[Oilwell Basin]] and [[Iceshard Cliffs]], with [[Tempered Monsters|Tempered]] individuals also being found in the [[Ruins of Wyveria]]. It can also appear in the [[Wounded Hollow]]. In the Plains, it only emerges during the Fallow, while in the Basin, it appears more commonly in the Plenty.
+
+Gypceros attack using its elastic tail which is capable of extending multiple times its normal length. It can also spit out poison that flows with the terrain and drips from ceilings, often doing so while charging. Hitting its poison with a [[Puddle Pod (MHWilds)|Puddle Pod]] will dissolve it harmlessly. Gypceros also possesses a crest capable of producing a blinding flash, instantly stunning any hunter within range. By breaking its head twice, this crest can be removed.
+
+When near death, Gypceros is capable of faking its own dying animation, though no Quest Complete screen will appear. During this state, it can be carved for materials. Eventually, its body will twitch before it flails around back onto its feet.
+
+While in its nest in Area 11 of the Oilwell Basin, Gypceros is capable of running on the walls during its charging spit.
+
+Due to the rubbery properties of its hide, Gypceros is immune to both the Thunder element and to [[Shock Trap (MHWilds)|Shock Traps]], and due to the use of its own blinding flash, it is immune to [[Flash Pod (MHWilds)|Flash Bombs]].
+
+After performing its flashbang, Gypceros' crest is left exposed as a weak point for Focus Strikes. If a Focus Strike is successfully performed on its crest, Gypceros will reel back and be briefly knocked down, however there is a cool-down to this interaction. 
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDoubleDescription
+|Description='''Characteristics:''' Wyverns that can stun enemies by striking their prominent crests to produce powerful flashes of light. Their stretchy, rubbery hide resists blunt impacts and reduces the effectiveness of shock traps. A smart hunter knows to maneuver carefully around the poisonous filth they spew, which drips from ceilings or down slopes.</br><br/>'''Helpful Hints:''' Faced with a Gypceros, a hunter has two headaches to deal with: the poison and the flashes. The poison will pool and hamper your movements, but you can clear it away with some watermoss. As for the flashes, destroying its crest will stop them; in the meantime, it’s a good idea to take cover. If you see its crest glow before the attack, that means you’re still inside the dazzling danger radius.</br><br/>'''Map Description:''' Monsters that use their prominent crest to stun foes with disorientating flashes of light before finishing them off with poisonous saliva.
+|Icon=MHWilds-Gypceros Icon.webp
+|Icon2=MHWilds-Frenzied Gypceros Icon.webp
+|Game=[[Monster Hunter Wilds]]}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|'''55'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|30
+|10
+|0
+|20
+|10
+|100
+|-
+|'''Neck'''
+|<span style="color:limegreen;">❹</span>
+|'''50'''
+|25
+|40
+|20
+|5
+|0
+|10
+|10
+| -
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|'''45'''<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''55'''</sup>
+|20<sup style="color:mediumvioletred">'''45'''</sup>
+|20<sup style="color:mediumvioletred">10</sup>
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|10
+|10
+| -
+|-
+|'''Left Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|25<sup style="color:mediumvioletred">'''55'''</sup>
+|25<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''45'''</sup>
+|10
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|10
+|10
+| -
+|-
+|'''Right Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|25<sup style="color:mediumvioletred">'''55'''</sup>
+|25<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''45'''</sup>
+|10
+|5<sup style="color:mediumvioletred">10</sup>
+|0
+|10
+|10
+| -
+|-
+|'''Tail'''
+|<span style="color:limegreen;">❹</span>
+|'''70'''<sup style="color:mediumvioletred">'''80'''</sup>
+|40<sup style="color:mediumvioletred">'''60'''</sup>
+|'''80'''<sup style="color:mediumvioletred">'''90'''</sup>
+|20
+|5<sup style="color:mediumvioletred">15</sup>
+|0
+|10<sup style="color:mediumvioletred">20</sup>
+|10
+| -
+|-
+|'''Left Wing'''
+|<span style="color:#c0c0c0;">❷</span>
+|42<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''45'''</sup>
+|20<sup style="color:mediumvioletred">10</sup>
+|10
+|0
+|20<sup style="color:mediumvioletred">10</sup>
+|10
+| -
+|-
+|'''Right Wing'''
+|<span style="color:#c0c0c0;">❷</span>
+|42<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''55'''</sup>
+|30<sup style="color:mediumvioletred">'''45'''</sup>
+|20<sup style="color:mediumvioletred">10</sup>
+|10
+|0
+|20<sup style="color:mediumvioletred">10</sup>
+|10
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|For the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =250→700
+|Poison Increase = 150
+|Poison Duration = 15s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 180→960
+|Paralysis Increase = 130
+|Paralysis Duration = 10s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 130
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration nor Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, not the Monster's Health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 11
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration =
+|Shock Exhausted Duration =
+|Shock Tolerance Reduction =
+|Shock Min Duration =
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 11
+
+|Flash Duration = 
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Mysterious Poison (MHWilds Quest)|Mysterious Poison]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Gypceros|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Pick Your Poison (MHWilds Quest)|Pick Your Poison]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Gypceros|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rompopolo|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[That Won't Faze Me! (MHWilds Quest)|That Won't Faze Me!]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Gypceros|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Frenzy or Be Frenzied Upon (MHWilds Quest)|Frenzy or Be Frenzied Upon]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Nerscylla|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Gypceros|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Razzle Dazzle Frazzle (MHWilds Quest)|Razzle Dazzle Frazzle]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Gypceros|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rey Dau|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |毒ブレス<br>Poison Breath<br>{{MachineTranslation}}
+|35
+|{{UI|UI|Poison|title=Poison Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |閃光<br>flash<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|10
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |バックジャンプ<br>Back Jump<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |弱閃光<br>Weak flash<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|10
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |毒ブレス<br>Poison Breath<br>{{MachineTranslation}}
+|35
+|{{UI|UI|Poison|title=Poison Damage|text=100}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Rubbery Hide+|Hide|Blue}}
+|33%
+|-
+|{{GenericItemLink|MHWilds|Gypceros Wing|Wing|Blue}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Gypceros Tail|Tail|Blue}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Gypceros Head|Head|Blue}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Bird Wyvern Gem|Ball|Blue}}
+|5%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Rubbery Hide+|Hide|Blue}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Dash Extract|Chemical|Yellow}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Toxin Sac|Sac|Purple}}
+|30%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Gypceros Wing|Wing|Blue}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Rubbery Hide+|Hide|Blue}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Toxin Sac|Sac|Purple}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Gypceros Tail|Tail|Blue}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Gypceros Head|Head|Blue}}
+|10%
+|-
+|{{GenericItemLink|MHWilds|Gypceros Certificate S|Ticket|Blue}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Bird Wyvern Gem|Ball|Blue}}
+|3%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Gypceros Head|Head|Blue}}
+|70%
+|-
+|{{GenericItemLink|MHWilds|Novacrystal|Ore|White}}
+|30%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Rubbery Hide+|Hide|Blue}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Dash Extract|Chemical|Yellow}}
+|43%
+|-
+|{{GenericItemLink|MHWilds|Novacrystal|Ore|White}}
+|12%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone Shard|Ore|Red}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (S)|Ore|Red}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone|Ore|Red}}
+|15%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Gypceros Wing|Wing|Blue}}
+|26%
+|-
+|{{GenericItemLink|MHWilds|Rubbery Hide+|Hide|Blue}}
+|26%
+|-
+|{{GenericItemLink|MHWilds|Toxin Sac|Sac|Purple}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Gypceros Tail|Tail|Blue}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Gypceros Head|Head|Blue}}
+|10%
+|-
+|{{GenericItemLink|MHWilds|Bird Wyvern Gem|Ball|Blue}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Gypceros Tail|Tail|Blue}}
+|38%
+|-
+|{{GenericItemLink|MHWilds|Gypceros Head|Head|Blue}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Toxin Sac|Sac|Purple}} x2
+|25%
+|-
+|{{GenericItemLink|MHWilds|Bird Wyvern Gem|Ball|Blue}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Bird Wyvern Gem|Ball|Blue}}
+|100%
+|}
+</div>
+</tabber>
+
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

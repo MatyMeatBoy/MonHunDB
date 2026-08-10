@@ -1,0 +1,514 @@
+{{Meta
+|MetaTitle     = Guardian Arkveld - MHWilds
+|MetaDesc      = This page describes Guardian Arkveld, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Guardian Arkveld, Wilds, Stats, Materials, Attacks
+|MetaImage     = MHWilds-Guardian Arkveld Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Guardian Arkveld]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Guardian Arkveld
+|MHWilds = Y
+|MHWA = Y
+|Music = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Guardian Arkveld
+|Japanese Name = 護竜アルシュベルド
+|Image = MHWilds-Guardian Arkveld Render 001.webp
+|Title = Guardian Chain Blade Wyvern (護鎖刃竜) 
+|Class = [[Construct]]
+
+|Elements = {{UI|UI|Dragon}}
+|Status Effects = {{Element|Dragonblight}}
+|Weaknesses = {{UI|UI|Dragon}}
+
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Flash Pods = Y
+|Dung Pods = 100%
+|Gold Crown Small = 
+|Average = 1666.54
+|Silver Crown = 
+|Gold Crown Large = 
+|Locales = [[Ruins of Wyveria]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription
+|Description= '''Characteristics:''' An artificial species created by an ancient civilization and imbued with the power of a monster called Arkveld. It cannot reproduce and does not require food, relying instead on Wyvern Milk for energy. In addition to absorbing and discharging energy the way other Guardians do, Guardian Arkveld can also absorb elemental energy through the chainblades on its wings and use it for sustenance.<br/><br/>'''Helpful Hints:''' Guardian Arkveld use retractable chainblades on their wings to attack. Not only are the blades used to absorb and release energy like other Guardians, but they can also convert the energy to the dragon element and discharge it, which will trigger an explosion of the same element if it comes into contact with Wylkrystals. The crystals formed by their attacks will explode from elemental interference, making Slinger ammo effective.</br><br/>'''Map Description:''' An artificial species created by an ancient civilization based on a presumed extinct, legendary monster called Arkveld.
+|Icon=MHWilds-Guardian Arkveld Icon.webp
+|Game=[[Monster Hunter Wilds]]
+}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''45'''
+|'''48'''
+|'''45'''
+|5
+|5
+|5
+|5
+|5
+|100
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|28<sup style="color:mediumvioletred">'''60'''</sup>
+|30<sup style="color:mediumvioletred">'''62'''</sup>
+|20<sup style="color:mediumvioletred">'''65'''</sup>
+|1<sup style="color:mediumvioletred">5</sup>
+|1<sup style="color:mediumvioletred">5</sup>
+|1<sup style="color:mediumvioletred">10</sup>
+|1<sup style="color:mediumvioletred">5</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Left Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|26<sup style="color:mediumvioletred">'''60'''</sup>
+|25<sup style="color:mediumvioletred">'''62'''</sup>
+|20<sup style="color:mediumvioletred">'''65'''</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">10</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|4<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Right Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|26<sup style="color:mediumvioletred">'''60'''</sup>
+|25<sup style="color:mediumvioletred">'''62'''</sup>
+|20<sup style="color:mediumvioletred">'''65'''</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">10</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|4<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Tail'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''62'''</sup>
+|42<sup style="color:mediumvioletred">'''65'''</sup>
+|5
+|5
+|5<sup style="color:mediumvioletred">10</sup>
+|5
+|5<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Left Wing'''
+|<span style="color:orange;">❸</span>
+|42<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''62'''</sup>
+|38<sup style="color:mediumvioletred">'''65'''</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">10</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|4<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Right Wing'''
+|<span style="color:orange;">❸</span>
+|42<sup style="color:mediumvioletred">'''60'''</sup>
+|40<sup style="color:mediumvioletred">'''62'''</sup>
+|38<sup style="color:mediumvioletred">'''65'''</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|2<sup style="color:mediumvioletred">10</sup>
+|2<sup style="color:mediumvioletred">5</sup>
+|4<sup style="color:mediumvioletred">15</sup>
+| -
+|-
+|'''Left Chainblade'''
+|<span style="color:orange;">❸</span>
+|'''50'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''68'''</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">38</sup>
+| -
+|-
+|'''Right Chainblade'''
+|<span style="color:orange;">❸</span>
+|'''50'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''70'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''68'''</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">30</sup>
+|0<sup style="color:mediumvioletred">38</sup>
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =150→550
+|Poison Increase = 100
+|Poison Duration = 20s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 180→960
+|Paralysis Increase = 130
+|Paralysis Duration = 10s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 130
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 11
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 9
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 11
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+| Wyveria Basecamp
+| data-sort-value="8" |LR 3'''★'''
+|Assignment
+|{{UI|UI|Special Quest|title=Repel|nolink=true}} [[Repel the Guardian Arkveld (MHWilds Quest)|Repel the Guardian Arkveld]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Guardian Arkveld|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Wyveria Basecamp
+| data-sort-value="8" |LR 3'''★'''
+|Assignment
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[The Pale Dream of a Lone Shadow (MHWilds Quest)|The Pale Dream of a Lone Shadow]]
+|[[Ruins of Wyveria]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Guardian Arkveld|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |バインドボイス<br>Bind Voice<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |シェル流し爆発<br>Shell flush explosion<br>{{MachineTranslation}}
+|7, {{UI|UI|Dragon|title=Dragon Damage|text=43}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |シェル大爆発<br>Shell Explosion<br>{{MachineTranslation}}
+|22, {{UI|UI|Dragon|title=Dragon Damage|text=88}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=50}}
+|???
+|???
+|???
+|???
+|45
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |シェル大爆発<br>Shell Explosion<br>{{MachineTranslation}}
+|22, {{UI|UI|Dragon|title=Dragon Damage|text=88}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=50}}
+|???
+|???
+|???
+|???
+|45
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |シェル大爆発<br>Shell Explosion<br>{{MachineTranslation}}
+|22, {{UI|UI|Dragon|title=Dragon Damage|text=88}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=50}}
+|???
+|???
+|???
+|???
+|45
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |エネルギー爆発<br>Energy Burst<br>{{MachineTranslation}}
+|80
+|<br>{{UI|UI|Stun|title=Stun Damage|text=55}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |シェル流し爆発<br>Shell flush explosion<br>{{MachineTranslation}}
+|7, {{UI|UI|Dragon|title=Dragon Damage|text=43}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |シェル流し爆発<br>Shell flush explosion<br>{{MachineTranslation}}
+|7, {{UI|UI|Dragon|title=Dragon Damage|text=43}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |暴れ連撃フィニッシュ<br>Rampage Finisher<br>{{MachineTranslation}}
+|17, {{UI|UI|Dragon|title=Dragon Damage|text=68}}
+|{{UI|UI|Dragon|title=Dragon Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=25}}
+|???
+|???
+|???
+|???
+|75
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| Low Rank = 
+<div class="twocol">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale|Scale|White}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Guardian Pelt|Hide|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Guardian Blood|Chemical|White}}
+|20%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Guardian Pelt|Hide|White}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale|Scale|White}}
+|50%
+|-
+! colspan="2" |Carve Tail
+|-
+|{{GenericItemLink|MHWilds|Guardian Blood|Chemical|White}}
+|100%
+|-
+! colspan="2" |Carve Tail (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale|Scale|White}}
+|100%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Nourishing Extract|Chemical|White}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Guardian Pelt|Hide|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale|Scale|White}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Tough Guardian Bone|Bone|Light Blue}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Guardian Blood|Chemical|White}}
+|10%
+|-
+! colspan="2" |Break 
+|-
+|{{GenericItemLink|MHWilds|Guardian Pelt|Hide|White}}
+|100%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale|Scale|White}}
+|100%
+|-
+! colspan="2" |Break Right Chainblade
+|-
+|{{GenericItemLink|MHWilds|Guardian Pelt|Hide|White}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Guardian Scale|Scale|White}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Guardian Pelt|Hide|White}}
+|43%
+|-
+|{{GenericItemLink|MHWilds|Guardian Blood|Chemical|White}}
+|12%
+|}
+</div>
+</tabber>
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

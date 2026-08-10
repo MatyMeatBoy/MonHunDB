@@ -1,0 +1,582 @@
+{{Meta
+|MetaTitle     = Chatacabra - MHWilds
+|MetaDesc      = This page describes Chatacabra, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Chatacabra, Wilds, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Chatacabra Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Chatacabra]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Chatacabra
+|MHWilds = Y
+|MHNow = Y
+|MHST3 = Y
+|MHWA = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Chatacabra
+|Japanese Name = チャタカブラ
+|Image = MHWilds-Chatacabra Render 001.webp
+|Title = Binding Frog (纏蛙)
+|Class = [[Amphibian]]
+
+|Elements = 
+|Status Effects = 
+|Weaknesses = {{UI|UI|Thunder}}
+
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Flash Pods = Y
+|Dung Pods = 100%
+|Gold Crown Small = 448.47
+|Average = 498.3
+|Silver Crown = 573.04
+|Gold Crown Large = 612.91
+|Locales = [[Windward Plains]], [[Wounded Hollow]]
+|Sleeping Areas = [[Windward Plains|Windward Plains - Area 2]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Chatacabra is found primarily in the [[Windward Plains]]. It can also appear in the [[Wounded Hollow]].
+
+Chatacabra primarily fights both with its large tongue and by slamming its muscular forearms onto targets. When Chatacabra enrages, it will drag its forearms through the ground to armor them with rocks, causing its arm slams to kick up debris, extending their reach. Dealing enough damage to a forearm will remove its affixed armor and topple the monster.
+
+After performing its double arm slam, Chatacabra's tongue may be left exposed, becoming a weak point for Focus Strikes. If a Focus Strike is successfully performed on the tongue, Chatacabra will reel back and be briefly knocked down.
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription
+|Description='''Characteristics:''' Amphibians that use their long tongues to seize and devour prey such as Bulaqchi. Their evolved forelimbs store a sticky mucus-like substance. When agitated, Chatacabra rub their forelimbs against the ground to collect stone and ore, widening the range and destructiveness of their blows.</br><br/>'''Helpful Hints:''' The Chatacabra's soft tongue is the place to strike; look for openings after their attacks or when they become tired. Destroying the ore stuck to their forelimbs will leave them wide open to attack. They roam a wide area, so environmental elements like falling boulders or Flashflies will be useful in taking them down. To give you an idea of how hungry these things can get, some hunters have witnessed them swallowing entire barrels during their charges.</br><br/>'''Map Description:''' Amphibians that affix rocks to their forelimbs to power up their attacks. Break this "armor" to create an attack opening. Their tongue is most vulnerable.
+|Icon=MHWilds-Chatacabra Icon.webp
+|Game=[[Monster Hunter Wilds]]}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''60'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''65'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''75'''</sup>
+|10
+|5
+|25<sup style="color:mediumvioletred">30</sup>
+|10<sup style="color:mediumvioletred">15</sup>
+|0
+|100
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|'''45'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''65'''</sup>
+|10
+|5
+|20<sup style="color:mediumvioletred">30</sup>
+|15
+|0
+| -
+|-
+|'''Left Foreleg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''60'''<sup style="color:mediumvioletred">'''80'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''80'''</sup>
+|'''65'''<sup style="color:mediumvioletred">'''80'''</sup>
+|5<sup style="color:mediumvioletred">0</sup>
+|5<sup style="color:mediumvioletred">0</sup>
+|15
+|10
+|0
+| -
+|-
+|'''Right Foreleg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''60'''<sup style="color:mediumvioletred">'''80'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''80'''</sup>
+|'''65'''<sup style="color:mediumvioletred">'''80'''</sup>
+|5<sup style="color:mediumvioletred">0</sup>
+|5<sup style="color:mediumvioletred">0</sup>
+|15
+|10
+|0
+| -
+|-
+|'''Left Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''65'''</sup>
+|0<sup style="color:mediumvioletred">10</sup>
+|0<sup style="color:mediumvioletred">5</sup>
+|20<sup style="color:mediumvioletred">30</sup>
+|15
+|0
+| -
+|-
+|'''Right Hind Leg'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''45'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''45'''<sup style="color:mediumvioletred">'''65'''</sup>
+|0<sup style="color:mediumvioletred">10</sup>
+|0<sup style="color:mediumvioletred">5</sup>
+|20<sup style="color:mediumvioletred">30</sup>
+|15
+|0
+| -
+|-
+|'''Rear'''
+|<span style="color:limegreen;">❹</span>
+|'''50'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''55'''<sup style="color:mediumvioletred">'''65'''</sup>
+|10
+|5
+|20<sup style="color:mediumvioletred">30</sup>
+|15
+|0
+| -
+|-
+|'''Tongue'''
+|<span style="color:crimson;">❶</span>
+|'''85'''
+|'''85'''
+|'''90'''
+|10
+|5
+|25
+|15
+|0
+|100
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =100→370
+|Poison Increase = 90
+|Poison Duration = 25s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 130→580
+|Paralysis Increase = 75
+|Paralysis Duration = 12s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 75
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 100→550
+|Stun Increase = 75
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 11
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 9
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 11
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|N/A
+| data-sort-value="8" |LR 1'''★'''
+|Assignment
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Slimy Situation (MHWilds Quest)|Slimy Situation]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Chatacabra|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |LR 1'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Beware the Chatacabra (MHWilds Quest)|Beware the Chatacabra]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Chatacabra|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[A Futile Fight (MHWilds Quest)|A Futile Fight]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Chatacabra|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Tongue-Tied (MHWilds Quest)|Tongue-Tied]]
+|[[Windward Plains]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Chatacabra|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Grand Hub
+| data-sort-value="8" |HR 4'''★'''
+|Arena
+|{{UI|UI|Slay|title=Arena|nolink=true}} [[Arena: Chatacabra (MHWilds Quest)|Arena: Chatacabra]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Chatacabra|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |強化パンチインパクト<br>Enhanced Punch Impact<br>{{MachineTranslation}}
+|40
+| -
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |叩きつけインパクト<br>Slamming Impact<br>{{MachineTranslation}}
+|50
+| -
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |強化パンチインパクト_大<br>Enhanced Punch Impact_Large<br>{{MachineTranslation}}
+|45
+| -
+|???
+|???
+|???
+|???
+|30
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |叩きつけインパクト_大<br>Slamming Impact_Large<br>{{MachineTranslation}}
+|55
+| -
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| Low Rank = 
+<div class="twocol">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Scale|Scale|Green}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Hide|Hide|Green}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Jaw|Head|Green}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Shell|Shell|Green}}
+|15%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Scale|Scale|Green}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Hide|Hide|Green}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Sturdy Bone|Bone|White}}
+|30%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Hide|Hide|Green}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Scale|Scale|Green}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Jaw|Head|Green}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Shell|Shell|Green}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Certificate|Ticket|Green}}
+|8%
+|-
+! colspan="2" |Break Left Foreleg
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Shell|Shell|Green}}
+|100%
+|-
+! colspan="2" |Break Right Foreleg
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Shell|Shell|Green}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Hide|Hide|Green}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Scale|Scale|Green}}
+|50%
+|}
+</div>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Scale+|Scale|Green}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Hide+|Hide|Green}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Jaw+|Head|Green}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Carapace|Shell|Green}}
+|15%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Scale+|Scale|Green}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Hide+|Hide|Green}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Stoutbone|Bone|Gray}}
+|30%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Hide+|Hide|Green}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Scale+|Scale|Green}}
+|27%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Jaw+|Head|Green}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Carapace|Shell|Green}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Certificate S|Ticket|Green}}
+|8%
+|-
+! colspan="2" |Break Left Foreleg
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Carapace|Shell|Green}}
+|100%
+|-
+! colspan="2" |Break Right Foreleg
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Carapace|Shell|Green}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Hide+|Hide|Green}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Scale+|Scale|Green}}
+|50%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone Shard|Ore|Red}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (S)|Ore|Red}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone|Ore|Red}}
+|15%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Hide+|Hide|Green}}
+|31%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Scale+|Scale|Green}}
+|31%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Jaw+|Head|Green}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Carapace|Shell|Green}}
+|15%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Jaw+|Head|Green}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Carapace|Shell|Green}}
+|40%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Chatacabra Carapace|Shell|Green}} x3
+|100%
+|}
+</div>
+</tabber>
+
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

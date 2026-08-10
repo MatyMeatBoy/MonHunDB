@@ -1,0 +1,751 @@
+{{Meta
+|MetaTitle     = Yian Kut-Ku - MHWilds
+|MetaDesc      = This page describes Yian Kut-Ku, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Yian Kut-Ku, Wilds, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Yian Kut-Ku Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Yian Kut-Ku]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Yian Kut-Ku
+|MHWilds = Y
+|MHGU = Y
+|MHGen = Y
+|MH4U = Y
+|MH4 = Y
+|MHFU = Y
+|MHF2 = Y
+|MH2 = Y
+|MHF1 = Y
+|MHG = Y
+|MH1 = Y
+|MHFrontier = Y
+|MHST1 = Y
+|MHOnline = Y
+|MHST2 = Y
+|MHi = Y
+|MHST3 = Y
+|MHWA = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Yian Kut-Ku
+|Japanese Name = イャンクック
+|Image = MHWilds-Yian Kut-Ku Render 001.webp
+|Title = Strange Bird (怪鳥)
+|Class = [[Bird Wyvern]]
+
+|Elements = {{UI|UI|Fire}}
+|Status Effects = {{Element|Fireblight}}
+|Weaknesses = {{UI|UI|Ice}}
+
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Flash Pods = Y
+|Dung Pods = 100%
+|Screamer Pods = Y
+|Gold Crown Small = 895.09
+|Average = 994.55
+|Silver Crown = 1143.73
+|Gold Crown Large = 1223.29
+|Locales = [[Scarlet Forest]], [[Iceshard Cliffs]], [[Wounded Hollow]]
+|Sleeping Areas = [[Scarlet Forest|Scarlet Forest - Area 16]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Yian Kut-Ku are primarily found in the [[Scarlet Forest]], with [[Frenzy Virus|Frenzied]] individuals also being found in the [[Iceshard Cliffs]]. They can also be found in the [[Wounded Hollow]]. In the Scarlet Forest, they form large packs during the Plenty. Lonesome [[Tempered Monsters|tempered]] individuals can also be found in any season.
+
+Yian Kut-Ku attack by pecking at their target or by spitting a fiery liquid, often doing so while charging forward. Yian Kut-Ku possess a highly acute sense of hearing, meaning that [[Screamer Pod (MHWilds)|Screamer Pods]] are capable of stunning the monster. However, once they have recovered, the Yian Kut-Ku will become instantly enraged. They are immune to the effects of Screamer Pods while enraged.
+
+While engaging with a target, the ears of a Yian Kut-Ku will fan out, however when they are near death they will be folded back up again.
+
+While falling over after a charge, Yian Kut Ku's mouth is left exposed as a weak point for Focus Strikes. If a Focus Strike is successfully performed on their mouth, Yian Kut-Ku will reel back and be briefly knocked down, however there is a cool-down to this interaction.
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDoubleDescription
+|Description='''Characteristics:''' Bird wyverns with impressive beaks and large ears. They tend to be skittish but will sometimes initiate attacks on a perceived threat. Yian Kut-Ku arrive in large groups during the season of Plenty in the Scarlet Forest. The absence of eggs or young suggests that the purpose of this is not to breed, but rather to seek out mates and nourishment.</br><br/>'''Helpful Hints: '''The Yian Kut-Ku's superior hearing comes with great sensitivity to sound. A loud noise is sometimes all it takes to stop them in their tracks, reason enough to make liberal use of sonic bombs. But there's a catch: once a Yian Kut-Ku comes back to itself, it's going to be really flocking mad and come at a hunter even more viciously than before.</br><br/>'''Map Description:''' Bird wyverns with impressive beaks, big ears, and an appetite for insects. Skittish by nature, they will still put up a fight if threatened.
+|Icon=MHWilds-Yian Kut-Ku Icon.webp
+|Icon2=MHWilds-Frenzied Yian Kut-Ku Icon.webp
+|Game=[[Monster Hunter Wilds]]}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''56'''<sup style="color:mediumvioletred">'''66'''</sup>
+|'''75'''<sup style="color:mediumvioletred">'''85'''</sup>
+|'''80'''<sup style="color:mediumvioletred">'''90'''</sup>
+|10
+|15
+|20
+|30
+|0
+|100
+|-
+|'''Neck'''
+|<span style="color:crimson;">❶</span>
+|42
+|42
+|'''45'''
+|10
+|25
+|30
+|40
+|20
+| -
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|'''66'''<sup style="color:mediumvioletred">'''76'''</sup>
+|'''63'''<sup style="color:mediumvioletred">'''73'''</sup>
+|'''60'''<sup style="color:mediumvioletred">'''70'''</sup>
+|5
+|15
+|15
+|20
+|0
+| -
+|-
+|'''Tail'''
+|<span style="color:limegreen;">❹</span>
+|'''60'''<sup style="color:mediumvioletred">'''76'''</sup>
+|'''56'''<sup style="color:mediumvioletred">'''73'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''70'''</sup>
+|5
+|15
+|15
+|20
+|0
+| -
+|-
+|'''Right Leg'''
+|<span style="color:orange;">❸</span>
+|28<sup style="color:mediumvioletred">'''76'''</sup>
+|28<sup style="color:mediumvioletred">'''73'''</sup>
+|30<sup style="color:mediumvioletred">'''70'''</sup>
+|5
+|5<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">20</sup>
+|0
+| -
+|-
+|'''Left Leg'''
+|<span style="color:orange;">❸</span>
+|28<sup style="color:mediumvioletred">'''76'''</sup>
+|28<sup style="color:mediumvioletred">'''73'''</sup>
+|30<sup style="color:mediumvioletred">'''70'''</sup>
+|5
+|5<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">15</sup>
+|5<sup style="color:mediumvioletred">20</sup>
+|0
+| -
+|-
+|'''Right Wing'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''80'''<sup style="color:mediumvioletred">'''90'''</sup>
+|42<sup style="color:mediumvioletred">'''52'''</sup>
+|'''70'''<sup style="color:mediumvioletred">'''80'''</sup>
+|5
+|10
+|25
+|15
+|0
+| -
+|-
+|'''Left Wing'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''80'''<sup style="color:mediumvioletred">'''90'''</sup>
+|42<sup style="color:mediumvioletred">'''52'''</sup>
+|'''70'''<sup style="color:mediumvioletred">'''80'''</sup>
+|5
+|10
+|25
+|15
+|0
+| -
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =150→550
+|Poison Increase = 100
+|Poison Duration = 20s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 180→960
+|Paralysis Increase = 130
+|Paralysis Duration = 10s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 130
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 70→670
+|Blast Increase = 30
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 75→995
+|Mount Increase = 230
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 10
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 8
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 10
+
+|Flash Duration = 20
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness = 100
+|Sonic Note = when not enraged
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Plains Basecamp
+| data-sort-value="8" |HR 4'''★'''
+|Assignment
+|{{UI|UI|Capture|title=Capture|nolink=true}} [[Lured by Abundance (MHWilds Quest)|Lured by Abundance]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Yian Kut-Ku|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Aberrant Atrocity (MHWilds Quest)|Aberrant Atrocity]]
+|[[Iceshard Cliffs]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Yian Kut-Ku|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 8'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Frenzy Obscured (MHWilds Quest)|Frenzy Obscured]]
+|[[Iceshard Cliffs]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Yian Kut-Ku|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Yian Kut-Ku|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Blangonga|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Nerscylla|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Nerscylla|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 4'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Kut-Ku Gone Cuckoo (MHWilds Quest)|Kut-Ku Gone Cuckoo]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Yian Kut-Ku|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 5'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Kut-Ku the Forest Conqueror (MHWilds Quest)|Kut-Ku the Forest Conqueror]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Yian Kut-Ku|Type=Frenzied|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[There Goes the Neighborhood (MHWilds Quest)|There Goes the Neighborhood]]
+|[[Scarlet Forest]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Yian Kut-Ku|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Grand Hub
+| data-sort-value="8" |HR 4'''★'''
+|Challenge
+|{{UI|UI|Slay|title=Arena|nolink=true}} [[Event: Ballerina and Firebird (MHWilds Quest)|Event: Ballerina and Firebird]]{{note|This quest was only available between the 16<sup>th</sup> of December 2025 and the 3<sup>rd</sup> of February 2026.}}
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Lala Barina|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Yian Kut-Ku|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |火炎液<br>Flame Fluid<br>{{MachineTranslation}}
+|8, {{UI|UI|Fire|title=Fire Damage|text=32}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|39
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |火炎液着弾<br>Flame liquid impact<br>{{MachineTranslation}}
+|6, {{UI|UI|Fire|title=Fire Damage|text=24}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=5}}
+|???
+|???
+|???
+|???
+|39
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |バックジャンプ風圧<br>Back Jump Wind Pressure<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |ショートジャンプ風圧<br>Short Jump Wind Pressure<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |連続火炎液<br>Continuous flame liquid<br>{{MachineTranslation}}
+|14, {{UI|UI|Fire|title=Fire Damage|text=56}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |連続火炎液着弾<br>Continuous flame liquid impact<br>{{MachineTranslation}}
+|9, {{UI|UI|Fire|title=Fire Damage|text=36}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|39
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |火炎球<br>Fireball<br>{{MachineTranslation}}
+|10, {{UI|UI|Fire|title=Fire Damage|text=40}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |火炎球着弾<br>Fireball impact<br>{{MachineTranslation}}
+|14, {{UI|UI|Fire|title=Fire Damage|text=56}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |火炎球着弾燃え残り<br>Fireball impact embers<br>{{MachineTranslation}}
+|4, {{UI|UI|Fire|title=Fire Damage|text=16}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|10
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |火炎液着弾<br>Flame liquid impact<br>{{MachineTranslation}}
+|6, {{UI|UI|Fire|title=Fire Damage|text=24}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=5}}
+|???
+|???
+|???
+|???
+|39
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |連続火炎液着弾<br>Continuous flame liquid impact<br>{{MachineTranslation}}
+|9, {{UI|UI|Fire|title=Fire Damage|text=36}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|39
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |火炎球着弾<br>Fireball impact<br>{{MachineTranslation}}
+|14, {{UI|UI|Fire|title=Fire Damage|text=56}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=10}}
+|???
+|???
+|???
+|???
+|50
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| Low Rank = 
+<div class="twocol">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Scale+|Scale|Pink}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Carapace|Shell|Pink}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Wing|Wing|Pink}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Ear|Monster Part|Pink}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Giant Beak|Head|Pink}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Bird Wyvern Gem|Ball|Blue}}
+|5%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Scale+|Scale|Pink}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Inferno Sac|Sac|Red}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Carapace|Shell|Pink}}
+|30%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Carapace|Shell|Pink}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Scale+|Scale|Pink}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Inferno Sac|Sac|Red}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Wing|Wing|Pink}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Giant Beak|Head|Pink}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Ear|Monster Part|Pink}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Yian Kut-Ku Certificate S|Ticket|Pink}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Bird Wyvern Gem|Ball|Blue}}
+|3%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Ear|Monster Part|Pink}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Carapace|Shell|Pink}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Scale+|Scale|Pink}}
+|50%
+|}
+</div>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Scale+|Scale|Pink}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Carapace|Shell|Pink}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Wing|Wing|Pink}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Ear|Monster Part|Pink}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Giant Beak|Head|Pink}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Bird Wyvern Gem|Ball|Blue}}
+|5%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Scale+|Scale|Pink}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Inferno Sac|Sac|Red}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Carapace|Shell|Pink}}
+|30%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Carapace|Shell|Pink}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Scale+|Scale|Pink}}
+|20%
+|-
+|{{GenericItemLink|MHWilds|Inferno Sac|Sac|Red}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Wing|Wing|Pink}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Giant Beak|Head|Pink}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Ear|Monster Part|Pink}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Yian Kut-Ku Certificate S|Ticket|Pink}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Bird Wyvern Gem|Ball|Blue}}
+|3%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Ear|Monster Part|Pink}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Carapace|Shell|Pink}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Scale+|Scale|Pink}}
+|50%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone Shard|Ore|Red}}
+|50%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (S)|Ore|Red}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone|Ore|Red}}
+|15%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Carapace|Shell|Pink}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Scale+|Scale|Pink}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Wing|Wing|Pink}}
+|16%
+|-
+|{{GenericItemLink|MHWilds|Inferno Sac|Sac|Red}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Giant Beak|Head|Pink}}
+|10%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Ear|Monster Part|Pink}}
+|10%
+|-
+|{{GenericItemLink|MHWilds|Bird Wyvern Gem|Ball|Blue}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Wing|Wing|Pink}}
+|33%
+|-
+|{{GenericItemLink|MHWilds|Giant Beak|Head|Pink}}
+|21%
+|-
+|{{GenericItemLink|MHWilds|Kut-Ku Ear|Monster Part|Pink}}
+|21%
+|-
+|{{GenericItemLink|MHWilds|Inferno Sac|Sac|Red}} x2
+|18%
+|-
+|{{GenericItemLink|MHWilds|Bird Wyvern Gem|Ball|Blue}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Bird Wyvern Gem|Ball|Blue}}
+|100%
+|}
+</div>
+</tabber>
+
+=Notes=
+{{notelist}}
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]

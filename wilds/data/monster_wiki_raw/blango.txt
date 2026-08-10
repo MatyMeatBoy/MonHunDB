@@ -1,0 +1,73 @@
+{{Meta
+|MetaTitle     = Blango - MHWilds
+|MetaDesc      = Blango is a Fanged Beast small monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Blango, Wilds, Stats, Materials, Attacks
+|MetaImage     = MHWilds-Blango Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Blango]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Blango
+|MHWilds = Y
+|MH2 = Y
+|MHFrontier = Y
+|MHGen = Y
+|MHGU = Y
+|MHF2 = Y
+|MHFU = Y
+|MHST3 = Y
+|MHWA = Y
+|MHOnline = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Blango
+|Japanese Name = ブランゴ
+|Image = {{{Render|MHWilds-Blango Render 001.webp}}}
+|Title = Snow Lion
+|Class = [[Fanged Beast]]
+
+|Elements = {{UI|UI|Ice}}
+|Status Effects = {{Element|Iceblight}} {{Element|Snowman}}
+|Weaknesses = {{UI|UI|Fire}}
+|Locales = [[Iceshard Cliffs]]
+|Game = MHWilds
+|Small = Y
+|Capture HP % = 20
+|Limp HP % = 15
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription|Description='''Small Monster Field Guide:''' Fanged Beasts covered entirely in white fur. Blango generally travel in groups with a Blangonga leading them. As a pack they work together efficiently to eliminate threats to their territory, responding instantly to their leaders commands.</br><br/>'''Map Description:''' Fanged beasts with snow-white pelts. Blango travel in packs with a Blangonga at the head, working together to eliminate intruders.
+
+
+|Game=[[Monster Hunter Wilds]]|Icon=MHWilds-Blango Icon.webp}}
+</div>
+
+==Damage Data==
+===Hit Zone Values===
+
+==Moveset==
+<div class="mw-collapsible" style="width:100%;">
+{{CollapseNotice}}
+<div class="mw-collapsible-content">
+''Please note that most names for attacks are unofficial, prioritizing descriptiveness. If the action actually has an official name, it will be specified. The format of this section is likely to be changed.''
+
+{| class="wikitable" style="width:100%;"
+===[[Monster Hunter Wilds]]===
+!Name
+!Description
+!Raw Damage
+!Elemental Damage
+!Ailment Buildup
+|-
+|}
+</div>
+==Physical Attributes==
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+
+[[Category:Small Monster MHWilds Subpages]]

@@ -304,11 +304,11 @@
     {
      "material": "Rathian Scale+",
      "rarity": null,
-     "targetReward": "23%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "30%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 50%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Rathian Carapace",
@@ -322,9 +322,9 @@
     {
      "material": "Rathian Webbing",
      "rarity": null,
-     "targetReward": "33%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -334,7 +334,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 80%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -349,7 +349,7 @@
     {
      "material": "Rathian Ruby",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -367,7 +367,7 @@
     {
      "material": "Rathian Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -380,7 +380,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 65%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone",
@@ -428,7 +428,81 @@
     "immune": true
    }
   ],
-  "image": "data/images/rathian.webp"
+  "image": "data/images/rathian.webp",
+  "locations": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Oilwell Basin",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 250,
+      "max": 700
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "rathalos",
@@ -771,11 +845,11 @@
     {
      "material": "Rathalos Scale+",
      "rarity": null,
-     "targetReward": "23%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "30%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 50%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Rathalos Carapace",
@@ -789,9 +863,9 @@
     {
      "material": "Rathalos Wing",
      "rarity": null,
-     "targetReward": "33%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -801,7 +875,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 80%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -816,7 +890,7 @@
     {
      "material": "Rathalos Ruby",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -834,7 +908,7 @@
     {
      "material": "Rathalos Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -847,7 +921,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 45%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone",
@@ -905,7 +979,81 @@
     "immune": true
    }
   ],
-  "image": "data/images/rathalos.webp"
+  "image": "data/images/rathalos.webp",
+  "locations": [
+   "Scarlet Forest",
+   "Oilwell Basin",
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 250,
+      "max": 700
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "guardian-rathalos",
@@ -1243,11 +1391,11 @@
     {
      "material": "Guardian Rathalos Scale+",
      "rarity": null,
-     "targetReward": "23%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "33%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 45%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Guardian Rathalos Carapace",
@@ -1261,9 +1409,9 @@
     {
      "material": "Guardian Rathalos Wing",
      "rarity": null,
-     "targetReward": "30%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -1273,13 +1421,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 93%",
+     "carves": "",
      "dropped": ""
     },
     {
      "material": "Guardian Rathalos Ruby",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -1300,7 +1448,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "carve crystalized carcass: 83%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -1333,7 +1481,7 @@
     {
      "material": "G. Rathalos Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -1355,7 +1503,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 45%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone",
@@ -1412,7 +1560,78 @@
     "immune": true
    }
   ],
-  "image": "data/images/guardian-rathalos.webp"
+  "image": "data/images/guardian-rathalos.webp",
+  "locations": [
+   "Ruins of Wyveria"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 250,
+      "max": 700
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "gravios",
@@ -1872,18 +2091,18 @@
     {
      "material": "Gravios Carapace",
      "rarity": null,
-     "targetReward": "21%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "60%, 60%, 60%",
-     "carves": "30%, rotten monster carcass: 40%, severed part: 78%, rotten severed part: 100%",
-     "dropped": "Herida: 80%"
+     "breakParts": "",
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Gravios Wing",
      "rarity": null,
-     "targetReward": "21%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -1892,7 +2111,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -1901,7 +2120,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -1917,7 +2136,7 @@
     {
      "material": "Wyvern Gem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -1953,7 +2172,7 @@
     {
      "material": "Gravios Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -1966,7 +2185,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 45%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone",
@@ -2023,7 +2242,80 @@
    "Fire"
   ],
   "resistances": [],
-  "image": "data/images/gravios.webp"
+  "image": "data/images/gravios.webp",
+  "locations": [
+   "Oilwell Basin",
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "yian-kut-ku",
@@ -2361,11 +2653,11 @@
     {
      "material": "Kut-Ku Scale+",
      "rarity": null,
-     "targetReward": "23%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "30%, rotten monster carcass: 40%",
-     "dropped": "Herida: 50%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Kut-Ku Carapace",
@@ -2379,7 +2671,7 @@
     {
      "material": "Kut-Ku Wing",
      "rarity": null,
-     "targetReward": "33%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -2390,7 +2682,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -2406,7 +2698,7 @@
     {
      "material": "Bird Wyvern Gem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -2424,7 +2716,7 @@
     {
      "material": "Yian Kut-Ku Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -2437,7 +2729,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 50%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone (S)",
@@ -2491,7 +2783,81 @@
   "attackElements": [
    "Fire"
   ],
-  "resistances": []
+  "resistances": [],
+  "image": "data/images/yian-kut-ku.webp",
+  "locations": [
+   "Scarlet Forest",
+   "Iceshard Cliffs",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "gypceros",
@@ -2829,11 +3195,11 @@
     {
      "material": "Rubbery Hide+",
      "rarity": null,
-     "targetReward": "26%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "33%, rotten monster carcass: 40%",
-     "dropped": "Herida: 45%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Gypceros Wing",
@@ -2847,7 +3213,7 @@
     {
      "material": "Gypceros Tail",
      "rarity": null,
-     "targetReward": "38%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -2858,14 +3224,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "70%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Bird Wyvern Gem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -2901,7 +3267,7 @@
     {
      "material": "Gypceros Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -2914,7 +3280,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 50%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone (S)",
@@ -2970,7 +3336,82 @@
     "immune": true
    }
   ],
-  "image": "data/images/gypceros.webp"
+  "image": "data/images/gypceros.webp",
+  "locations": [
+   "Windward Plains",
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 250,
+      "max": 700
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "congalala",
@@ -3290,11 +3731,11 @@
     {
      "material": "Congalala Pelt+",
      "rarity": null,
-     "targetReward": "31%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
-     "carves": "33%, rotten monster carcass: 40%",
-     "dropped": "Herida: 100%"
+     "breakParts": "",
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Congalala Fang+",
@@ -3308,9 +3749,9 @@
     {
      "material": "Congalala Claw+",
      "rarity": null,
-     "targetReward": "54%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -3319,14 +3760,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Beast Gem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -3344,7 +3785,7 @@
     {
      "material": "Congalala Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -3357,7 +3798,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 50%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone (S)",
@@ -3417,7 +3858,80 @@
    "Fire"
   ],
   "resistances": [],
-  "image": "data/images/congalala.webp"
+  "image": "data/images/congalala.webp",
+  "locations": [
+   "Scarlet Forest",
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "blangonga",
@@ -3737,11 +4251,11 @@
     {
      "material": "Blangonga Pelt+",
      "rarity": null,
-     "targetReward": "31%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "33%, rotten monster carcass: 40%",
-     "dropped": "Herida: 100%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Blangonga Whisker",
@@ -3755,9 +4269,9 @@
     {
      "material": "Blangonga Fang+",
      "rarity": null,
-     "targetReward": "54%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -3766,14 +4280,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Beast Gem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -3791,7 +4305,7 @@
     {
      "material": "Blangonga Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -3804,7 +4318,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 45%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone",
@@ -3862,7 +4376,79 @@
     "immune": true
    }
   ],
-  "image": "data/images/blangonga.webp"
+  "image": "data/images/blangonga.webp",
+  "locations": [
+   "Iceshard Cliffs",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "lagiacrus",
@@ -4266,11 +4852,11 @@
     {
      "material": "Lagiacrus Hide+",
      "rarity": null,
-     "targetReward": "25%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "23%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 50%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Lagiacrus Scale+",
@@ -4284,9 +4870,9 @@
     {
      "material": "Lagiacrus Claw+",
      "rarity": null,
-     "targetReward": "27%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -4295,7 +4881,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -4304,7 +4890,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -4314,13 +4900,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 100%",
+     "carves": "",
      "dropped": ""
     },
     {
      "material": "Lagiacrus Sapphire",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -4338,7 +4924,7 @@
     {
      "material": "Lagiacrus Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -4351,7 +4937,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 85%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone Chunk",
@@ -4400,7 +4986,11 @@
     "immune": true
    }
   ],
-  "image": "data/images/lagiacrus.webp"
+  "image": "data/images/lagiacrus.webp",
+  "locations": [
+   "Scarlet Forest",
+   "Wounded Hollow"
+  ]
  },
  {
   "slug": "nerscylla",
@@ -5270,11 +5860,11 @@
     {
      "material": "Nerscylla Carapace",
      "rarity": null,
-     "targetReward": "23%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "35%, rotten monster carcass: 40%",
-     "dropped": "Herida: 63%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Nerscylla Shear",
@@ -5288,18 +5878,18 @@
     {
      "material": "Nerscylla Claw+",
      "rarity": null,
-     "targetReward": "41%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Nerscylla Spike+",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -5317,14 +5907,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Nerscylla Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -5337,7 +5927,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 65%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone",
@@ -5385,7 +5975,81 @@
     "immune": true
    }
   ],
-  "image": "data/images/nerscylla.webp"
+  "image": "data/images/nerscylla.webp",
+  "locations": [
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 130,
+      "max": 580
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 250,
+      "max": 1150
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "gore-magala",
@@ -5917,11 +6581,11 @@
     {
      "material": "Gore Magala Scale+",
      "rarity": null,
-     "targetReward": "24%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "24%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 38%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Gore Magala Carapace",
@@ -5935,7 +6599,7 @@
     {
      "material": "Gore Magala Ripclaw+",
      "rarity": null,
-     "targetReward": "25%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -5946,7 +6610,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -5956,7 +6620,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 93%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -5964,14 +6628,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Gore Magala Nyctgem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -5989,7 +6653,7 @@
     {
      "material": "Gore Magala Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -6002,7 +6666,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 70%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone (L)",
@@ -6056,7 +6720,80 @@
     "immune": true
    }
   ],
-  "image": "data/images/gore-magala.webp"
+  "image": "data/images/gore-magala.webp",
+  "locations": [
+   "Iceshard Cliffs",
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 250,
+      "max": 700
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 300,
+      "max": 1000
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 250,
+      "max": 1150
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 870
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "seregios",
@@ -6425,11 +7162,11 @@
     {
      "material": "Seregios Slavescale",
      "rarity": null,
-     "targetReward": "25%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "23%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 50%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Seregios Airblade",
@@ -6443,9 +7180,9 @@
     {
      "material": "Seregios Carver",
      "rarity": null,
-     "targetReward": "27%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -6454,7 +7191,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -6463,7 +7200,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -6473,13 +7210,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 100%",
+     "carves": "",
      "dropped": ""
     },
     {
      "material": "Seregios Dissenter",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -6497,7 +7234,7 @@
     {
      "material": "Seregios Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -6510,7 +7247,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 85%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone Chunk",
@@ -6555,7 +7292,12 @@
     "immune": true
    }
   ],
-  "image": "data/images/seregios.webp"
+  "image": "data/images/seregios.webp",
+  "locations": [
+   "Windward Plains",
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ]
  },
  {
   "slug": "gogmazios",
@@ -7427,8 +8169,8 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "24%, rotten monster carcass: 50%, rotten severed part: 60%",
-     "dropped": "Herida: 40%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Gogmazios Fiberwing",
@@ -7444,7 +8186,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -7453,7 +8195,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -7463,7 +8205,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 98%, rotten severed part: 40%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -7471,7 +8213,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -7480,7 +8222,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -7490,7 +8232,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 2%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -7498,14 +8240,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%, 100%, 100%, 100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Gogmazios Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -7518,7 +8260,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 85%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone Chunk",
@@ -7566,7 +8308,11 @@
     "immune": true
    }
   ],
-  "image": "data/images/gogmazios.webp"
+  "image": "data/images/gogmazios.webp",
+  "locations": [
+   "Forgotten Machineworks",
+   "Oilwell Basin"
+  ]
  },
  {
   "slug": "mizutsune",
@@ -8070,25 +8816,25 @@
     {
      "material": "Mizutsune Scale+",
      "rarity": null,
-     "targetReward": "24%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "24%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 30%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Mizutsune Purplefur+",
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Bubblefoam+",
      "rarity": null,
-     "targetReward": "25%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -8099,7 +8845,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -8108,7 +8854,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -8118,13 +8864,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 94%",
+     "carves": "",
      "dropped": ""
     },
     {
      "material": "Mizutsune Water Orb",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -8142,7 +8888,7 @@
     {
      "material": "Mizutsune Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -8155,7 +8901,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 85%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone Chunk",
@@ -8206,7 +8952,12 @@
     "immune": true
    }
   ],
-  "image": "data/images/mizutsune.webp"
+  "image": "data/images/mizutsune.webp",
+  "locations": [
+   "Scarlet Forest",
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ]
  },
  {
   "slug": "guardian-fulgur-anjanath",
@@ -8788,11 +9539,11 @@
     {
      "material": "Guardian Fulgur Scale+",
      "rarity": null,
-     "targetReward": "23%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
-     "carves": "30%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 45%"
+     "breakParts": "",
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Guardian Fulgur Pelt+",
@@ -8806,9 +9557,9 @@
     {
      "material": "Guardian Fulgur Fang+",
      "rarity": null,
-     "targetReward": "33%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "30%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -8827,13 +9578,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 93%",
+     "carves": "",
      "dropped": ""
     },
     {
      "material": "Guardian Fulgur Gem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -8854,7 +9605,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "carve crystalized carcass: 83%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -8887,7 +9638,7 @@
     {
      "material": "Guardian Fulgur Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -8900,7 +9651,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 45%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone",
@@ -8956,7 +9707,78 @@
     "immune": true
    }
   ],
-  "image": "data/images/guardian-fulgur-anjanath.webp"
+  "image": "data/images/guardian-fulgur-anjanath.webp",
+  "locations": [
+   "Ruins of Wyveria"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 250,
+      "max": 700
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "guardian-ebony-odogaron",
@@ -9486,27 +10308,27 @@
     {
      "material": "Guardian Ebony Scale+",
      "rarity": null,
-     "targetReward": "20%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "30%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 45%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Guardian Ebony Sinew+",
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Guardian Ebony Claw+",
      "rarity": null,
-     "targetReward": "27%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -9515,7 +10337,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -9525,13 +10347,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 93%",
+     "carves": "",
      "dropped": ""
     },
     {
      "material": "Guardian Ebony Gem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -9552,7 +10374,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "carve crystalized carcass: 83%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -9585,7 +10407,7 @@
     {
      "material": "G. Ebony Odogaron Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -9616,7 +10438,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 45%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone",
@@ -9672,7 +10494,78 @@
    "Dragon"
   ],
   "resistances": [],
-  "image": "data/images/guardian-ebony-odogaron.webp"
+  "image": "data/images/guardian-ebony-odogaron.webp",
+  "locations": [
+   "Ruins of Wyveria"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 130,
+      "max": 580
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "doshaguma",
@@ -9992,18 +10885,18 @@
     {
      "material": "Doshaguma Hide+",
      "rarity": null,
-     "targetReward": "31%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "33%, rotten monster carcass: 40%",
-     "dropped": "Herida: 50%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Doshaguma Fur+",
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -10019,16 +10912,16 @@
     {
      "material": "Doshaguma Claw+",
      "rarity": null,
-     "targetReward": "54%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Beast Gem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -10046,7 +10939,7 @@
     {
      "material": "Doshaguma Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -10059,7 +10952,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 45%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone",
@@ -10110,7 +11003,81 @@
   "isSmall": false,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/doshaguma.webp"
+  "image": "data/images/doshaguma.webp",
+  "locations": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "guardian-doshaguma",
@@ -10443,25 +11410,25 @@
     {
      "material": "Guardian Doshaguma Hide+",
      "rarity": null,
-     "targetReward": "26%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "33%, rotten monster carcass: 40%",
-     "dropped": "Herida: 45%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Guardian Doshaguma Fur+",
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Guardian Doshaguma Fang+",
      "rarity": null,
-     "targetReward": "38%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -10472,14 +11439,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Beast Gem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -10500,7 +11467,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "carve crystalized carcass: 83%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -10533,7 +11500,7 @@
     {
      "material": "G. Doshaguma Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -10555,7 +11522,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 45%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone",
@@ -10608,7 +11575,78 @@
   "isSmall": false,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/guardian-doshaguma.webp"
+  "image": "data/images/guardian-doshaguma.webp",
+  "locations": [
+   "Ruins of Wyveria"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "balahara",
@@ -10946,11 +11984,11 @@
     {
      "material": "Balahara Scale+",
      "rarity": null,
-     "targetReward": "23%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "30%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 48%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Balahara Carapace",
@@ -10964,9 +12002,9 @@
     {
      "material": "Balahara Skull+",
      "rarity": null,
-     "targetReward": "45%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "80%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -10976,7 +12014,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 93%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -10991,7 +12029,7 @@
     {
      "material": "Wyvern Gem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -11009,7 +12047,7 @@
     {
      "material": "Balahara Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -11031,7 +12069,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 65%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone",
@@ -11078,7 +12116,79 @@
     "immune": true
    }
   ],
-  "image": "data/images/balahara.webp"
+  "image": "data/images/balahara.webp",
+  "locations": [
+   "Windward Plains",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 130,
+      "max": 580
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "chatacabra",
@@ -11520,11 +12630,11 @@
     {
      "material": "Chatacabra Scale+",
      "rarity": null,
-     "targetReward": "31%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "35%, rotten monster carcass: 40%",
-     "dropped": "Herida: 50%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Chatacabra Hide+",
@@ -11538,7 +12648,7 @@
     {
      "material": "Chatacabra Jaw+",
      "rarity": null,
-     "targetReward": "60%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -11547,9 +12657,9 @@
     {
      "material": "Chatacabra Carapace",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -11565,7 +12675,7 @@
     {
      "material": "Chatacabra Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -11578,7 +12688,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 50%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone (S)",
@@ -11630,7 +12740,79 @@
     "immune": true
    }
   ],
-  "image": "data/images/chatacabra.webp"
+  "image": "data/images/chatacabra.webp",
+  "locations": [
+   "Windward Plains",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 100,
+      "max": 370
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 130,
+      "max": 580
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 100,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "quematrice",
@@ -11950,11 +13132,11 @@
     {
      "material": "Quematrice Scale+",
      "rarity": null,
-     "targetReward": "26%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "30%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 45%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Quematrice Hide+",
@@ -11968,7 +13150,7 @@
     {
      "material": "Quematrice Igniter+",
      "rarity": null,
-     "targetReward": "55%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -11979,7 +13161,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -11989,13 +13171,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 93%",
+     "carves": "",
      "dropped": ""
     },
     {
      "material": "Wyvern Gem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -12004,7 +13186,7 @@
     {
      "material": "Quematrice Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -12017,7 +13199,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 50%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone (S)",
@@ -12073,7 +13255,80 @@
     "immune": true
    }
   ],
-  "image": "data/images/quematrice.webp"
+  "image": "data/images/quematrice.webp",
+  "locations": [
+   "Windward Plains",
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 100,
+      "max": 370
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 130,
+      "max": 580
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "lala-barina",
@@ -12486,11 +13741,11 @@
     {
      "material": "Lala Barina Floret+",
      "rarity": null,
-     "targetReward": "23%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "33%, rotten monster carcass: 40%",
-     "dropped": "Herida: 45%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Lala Barina Carapace",
@@ -12504,7 +13759,7 @@
     {
      "material": "Lala Barina Mucus+",
      "rarity": null,
-     "targetReward": "34%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -12515,16 +13770,16 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Lala Barina Stinger+",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -12540,7 +13795,7 @@
     {
      "material": "Lala Barina Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -12553,7 +13808,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 50%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone (S)",
@@ -12607,7 +13862,80 @@
     "immune": true
    }
   ],
-  "image": "data/images/lala-barina.webp"
+  "image": "data/images/lala-barina.webp",
+  "locations": [
+   "Scarlet Forest",
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 300,
+      "max": 1000
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 100,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "rompopolo",
@@ -12997,11 +14325,11 @@
     {
      "material": "Rompopolo Hide+",
      "rarity": null,
-     "targetReward": "26%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "33%, rotten monster carcass: 40%",
-     "dropped": "Herida: 80%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Rompopolo Beak+",
@@ -13015,9 +14343,9 @@
     {
      "material": "Rompopolo Claw+",
      "rarity": null,
-     "targetReward": "38%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -13026,14 +14354,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "60%, 60%, 60%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Wyvern Gem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -13051,7 +14379,7 @@
     {
      "material": "Rompopolo Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -13064,7 +14392,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 50%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone (S)",
@@ -13117,7 +14445,79 @@
   "isSmall": false,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/rompopolo.webp"
+  "image": "data/images/rompopolo.webp",
+  "locations": [
+   "Oilwell Basin",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 250,
+      "max": 700
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "rey-dau",
@@ -13452,11 +14852,11 @@
     {
      "material": "Rey Dau Scale+",
      "rarity": null,
-     "targetReward": "26%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "30%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 50%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Rey Dau Carapace",
@@ -13470,9 +14870,9 @@
     {
      "material": "Rey Dau Fulgurtalon",
      "rarity": null,
-     "targetReward": "36%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -13481,7 +14881,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -13491,13 +14891,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 93%",
+     "carves": "",
      "dropped": ""
     },
     {
      "material": "Rey Dau Boltgem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -13515,7 +14915,7 @@
     {
      "material": "Rey Dau Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -13537,7 +14937,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 70%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone (L)",
@@ -13593,7 +14993,79 @@
     "immune": true
    }
   ],
-  "image": "data/images/rey-dau.webp"
+  "image": "data/images/rey-dau.webp",
+  "locations": [
+   "Windward Plains",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 300,
+      "max": 1000
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 870
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 90,
+      "max": 1170
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "uth-duna",
@@ -14244,11 +15716,11 @@
     {
      "material": "Uth Duna Scale+",
      "rarity": null,
-     "targetReward": "20%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "30%, rotten monster carcass: 40%",
-     "dropped": "Herida: 45%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Uth Duna Hide+",
@@ -14262,9 +15734,9 @@
     {
      "material": "Uth Duna Cilia+",
      "rarity": null,
-     "targetReward": "24%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "93%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -14273,7 +15745,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -14282,14 +15754,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Uth Duna Watergem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -14307,7 +15779,7 @@
     {
      "material": "Uth Duna Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -14329,7 +15801,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 70%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone (L)",
@@ -14385,7 +15857,78 @@
     "immune": true
    }
   ],
-  "image": "data/images/uth-duna.webp"
+  "image": "data/images/uth-duna.webp",
+  "locations": [
+   "Scarlet Forest"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 870
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 90,
+      "max": 1170
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "nu-udra",
@@ -15055,11 +16598,11 @@
     {
      "material": "Nu Udra Hide+",
      "rarity": null,
-     "targetReward": "26%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "30%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 45%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Nu Udra Oilmucus+",
@@ -15073,7 +16616,7 @@
     {
      "material": "Nu Udra Spike+",
      "rarity": null,
-     "targetReward": "24%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -15085,7 +16628,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 60%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -15093,14 +16636,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Nu Udra Flamegem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -15109,7 +16652,7 @@
     {
      "material": "Nu Udra Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -15131,7 +16674,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 70%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone (L)",
@@ -15187,7 +16730,79 @@
     "immune": true
    }
   ],
-  "image": "data/images/nu-udra.webp"
+  "image": "data/images/nu-udra.webp",
+  "locations": [
+   "Oilwell Basin",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 300,
+      "max": 1000
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 1920
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 90,
+      "max": 1170
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "ajarakan",
@@ -15644,11 +17259,11 @@
     {
      "material": "Ajarakan Scale+",
      "rarity": null,
-     "targetReward": "26%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "30%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 45%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Ajarakan Carapace",
@@ -15662,7 +17277,7 @@
     {
      "material": "Ajarakan Jewel+",
      "rarity": null,
-     "targetReward": "24%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -15673,7 +17288,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -15683,13 +17298,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 93%",
+     "carves": "",
      "dropped": ""
     },
     {
      "material": "Ajarakan Medulla",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -15707,7 +17322,7 @@
     {
      "material": "Ajarakan Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -15729,7 +17344,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 45%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone",
@@ -15785,7 +17400,80 @@
     "immune": true
    }
   ],
-  "image": "data/images/ajarakan.webp"
+  "image": "data/images/ajarakan.webp",
+  "locations": [
+   "Oilwell Basin",
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "arkveld",
@@ -16211,11 +17899,11 @@
     {
      "material": "Arkveld Scale+",
      "rarity": null,
-     "targetReward": "23%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "30%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 45%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Arkveld Armorplate",
@@ -16229,7 +17917,7 @@
     {
      "material": "White Arkveld Pelt",
      "rarity": null,
-     "targetReward": "33%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -16240,7 +17928,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -16250,13 +17938,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 93%",
+     "carves": "",
      "dropped": ""
     },
     {
      "material": "Arkveld Gem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -16276,14 +17964,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Arkveld Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -16296,7 +17984,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 85%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone Chunk",
@@ -16342,7 +18030,83 @@
    "Dragon"
   ],
   "resistances": [],
-  "image": "data/images/arkveld.webp"
+  "image": "data/images/arkveld.webp",
+  "locations": [
+   "Windward Plains",
+   "Scarlet Forest",
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "guardian-arkveld",
@@ -16797,7 +18561,78 @@
    "Dragon"
   ],
   "resistances": [],
-  "image": "data/images/guardian-arkveld.webp"
+  "image": "data/images/guardian-arkveld.webp",
+  "locations": [
+   "Ruins of Wyveria"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "hirabami",
@@ -17135,11 +18970,11 @@
     {
      "material": "Hirabami Scale+",
      "rarity": null,
-     "targetReward": "26%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "33%, rotten monster carcass: 40%",
-     "dropped": "Herida: 45%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Hirabami Hide+",
@@ -17153,9 +18988,9 @@
     {
      "material": "Hirabami Webbing+",
      "rarity": null,
-     "targetReward": "38%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -17164,14 +18999,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Wyvern Gem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -17189,7 +19024,7 @@
     {
      "material": "Hirabami Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -17202,7 +19037,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 65%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone",
@@ -17249,7 +19084,80 @@
     "immune": true
    }
   ],
-  "image": "data/images/hirabami.webp"
+  "image": "data/images/hirabami.webp",
+  "locations": [
+   "Iceshard Cliffs",
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 100,
+      "max": 370
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 100,
+      "max": 640
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "jin-dahaad",
@@ -17771,11 +19679,11 @@
     {
      "material": "Jin Dahaad Scale+",
      "rarity": null,
-     "targetReward": "23%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "30%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 50%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Jin Dahaad Carapace",
@@ -17789,9 +19697,9 @@
     {
      "material": "Jin Dahaad Claw+",
      "rarity": null,
-     "targetReward": "33%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%, 100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -17800,7 +19708,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -17810,13 +19718,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 93%",
+     "carves": "",
      "dropped": ""
     },
     {
      "material": "Jin Dahaad Icegem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -17836,14 +19744,14 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%, 88%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Jin Dahaad Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -17856,7 +19764,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 70%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone (L)",
@@ -17912,7 +19820,79 @@
     "immune": true
    }
   ],
-  "image": "data/images/jin-dahaad.webp"
+  "image": "data/images/jin-dahaad.webp",
+  "locations": [
+   "Iceshard Cliffs",
+   "Rimechain Peak"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 250,
+      "max": 700
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 300,
+      "max": 1000
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 250,
+      "max": 1150
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 200,
+      "max": 1100
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "xu-wu",
@@ -18330,27 +20310,27 @@
     {
      "material": "Xu Wu Hide+",
      "rarity": null,
-     "targetReward": "26%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "30%, rotten monster carcass: 60%, rotten severed part: 60%",
-     "dropped": "Herida: 50%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Golden Corneum+",
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "93%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
     {
      "material": "Xu Wu Claw+",
      "rarity": null,
-     "targetReward": "24%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -18359,7 +20339,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -18369,13 +20349,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 95%",
+     "carves": "",
      "dropped": ""
     },
     {
      "material": "Xu Wu Umbragem",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -18384,7 +20364,7 @@
     {
      "material": "Xu Wu Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -18406,7 +20386,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "tempered Herida: 45%"
+     "dropped": ""
     },
     {
      "material": "Wyverian Bloodstone",
@@ -18458,7 +20438,79 @@
     "immune": true
    }
   ],
-  "image": "data/images/xu-wu.webp"
+  "image": "data/images/xu-wu.webp",
+  "locations": [
+   "Ruins of Wyveria",
+   "Wounded Hollow"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 100,
+      "max": 370
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 250,
+      "max": 1150
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 120,
+      "max": 720
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "zoh-shia",
@@ -19174,11 +21226,11 @@
     {
      "material": "Zoh Shia Crystalscale",
      "rarity": null,
-     "targetReward": "24%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "24%, rotten monster carcass: 40%, rotten severed part: 60%",
-     "dropped": "Herida: 40%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Zoh Shia Layershell",
@@ -19192,9 +21244,9 @@
     {
      "material": "Zoh Shia Stakeclaw",
      "rarity": null,
-     "targetReward": "25%",
+     "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -19203,7 +21255,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -19212,7 +21264,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -19222,13 +21274,13 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "severed part: 93%",
+     "carves": "",
      "dropped": ""
     },
     {
      "material": "Faux Whitegleam Orb",
      "rarity": null,
-     "targetReward": "100%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -19246,7 +21298,7 @@
     {
      "material": "Zoh Shia Certificate S",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -19289,7 +21341,79 @@
    "Thunder"
   ],
   "resistances": [],
-  "image": "data/images/zoh-shia.webp"
+  "image": "data/images/zoh-shia.webp",
+  "locations": [
+   "Dragontorch Shrine",
+   "Ruins of Wyveria"
+  ],
+  "ailmentSusceptibility": [
+   {
+    "ailment": "Poison",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 550
+     }
+    ]
+   },
+   {
+    "ailment": "Paralysis",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 180,
+      "max": 960
+     }
+    ]
+   },
+   {
+    "ailment": "Sleep",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 750
+     }
+    ]
+   },
+   {
+    "ailment": "Blast",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 70,
+      "max": 670
+     }
+    ]
+   },
+   {
+    "ailment": "Stun",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 150,
+      "max": 870
+     }
+    ]
+   },
+   {
+    "ailment": "Mount",
+    "stars": 2,
+    "buildup": [
+     {
+      "label": "Initial",
+      "value": 75,
+      "max": 995
+     }
+    ]
+   }
+  ]
  },
  {
   "slug": "high-purrformance-barrel-puncher",
@@ -19942,8 +22066,8 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "28%, rotten monster carcass: 50%",
-     "dropped": "Herida: 40%"
+     "carves": "",
+     "dropped": ""
     },
     {
      "material": "Omega Spring",
@@ -19959,7 +22083,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%, 100%, 100%, 100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -19968,7 +22092,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -19977,7 +22101,7 @@
      "rarity": null,
      "targetReward": "",
      "capture": "",
-     "breakParts": "100%",
+     "breakParts": "",
      "carves": "",
      "dropped": ""
     },
@@ -19993,7 +22117,7 @@
     {
      "material": "Omega Data 1.0",
      "rarity": null,
-     "targetReward": "8%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
      "carves": "",
@@ -20038,7 +22162,10 @@
     "immune": true
    }
   ],
-  "image": "data/images/omega-planetes.webp"
+  "image": "data/images/omega-planetes.webp",
+  "locations": [
+   "Rimechain Peak"
+  ]
  },
  {
   "slug": "vespoid",
@@ -20146,10 +22273,10 @@
     {
      "material": "Vespoid Carapace",
      "rarity": null,
-     "targetReward": "30%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "42%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -20167,7 +22294,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -20213,7 +22340,13 @@
     "immune": true
    }
   ],
-  "image": "data/images/vespoid.webp"
+  "image": "data/images/vespoid.webp",
+  "locations": [
+   "Scarlet Forest",
+   "Oilwell Basin",
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
  },
  {
   "slug": "conga",
@@ -20342,7 +22475,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "50%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -20351,7 +22484,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     }
    ]
@@ -20388,7 +22521,10 @@
     "immune": true
    }
   ],
-  "image": "data/images/conga.webp"
+  "image": "data/images/conga.webp",
+  "locations": [
+   "Scarlet Forest"
+  ]
  },
  {
   "slug": "blango",
@@ -20517,7 +22653,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "50%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -20526,7 +22662,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     }
    ]
@@ -20566,7 +22702,10 @@
     "immune": true
    }
   ],
-  "image": "data/images/blango.webp"
+  "image": "data/images/blango.webp",
+  "locations": [
+   "Iceshard Cliffs"
+  ]
  },
  {
   "slug": "ceratonoth-male",
@@ -20695,7 +22834,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "70%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -20713,7 +22852,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     }
    ]
@@ -20747,7 +22886,10 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/ceratonoth-male.webp"
+  "image": "data/images/ceratonoth-male.webp",
+  "locations": [
+   "Windward Plains"
+  ]
  },
  {
   "slug": "ceratonoth-female",
@@ -20876,7 +23018,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "70%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -20894,7 +23036,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     }
    ]
@@ -20928,7 +23070,10 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/ceratonoth-female.webp"
+  "image": "data/images/ceratonoth-female.webp",
+  "locations": [
+   "Windward Plains"
+  ]
  },
  {
   "slug": "dalthydon",
@@ -21062,7 +23207,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -21071,7 +23216,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     }
    ]
@@ -21105,7 +23250,11 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/dalthydon.webp"
+  "image": "data/images/dalthydon.webp",
+  "locations": [
+   "Windward Plains",
+   "Scarlet Forest"
+  ]
  },
  {
   "slug": "dalthydon-livestock",
@@ -21239,7 +23388,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -21248,7 +23397,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     }
    ]
@@ -21282,7 +23431,11 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/dalthydon-livestock.webp"
+  "image": "data/images/dalthydon-livestock.webp",
+  "locations": [
+   "Windward Plains",
+   "Scarlet Forest"
+  ]
  },
  {
   "slug": "bulaqchi",
@@ -21434,10 +23587,10 @@
     {
      "material": "Bulaqchi Carapace",
      "rarity": null,
-     "targetReward": "30%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -21446,7 +23599,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -21498,7 +23651,10 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/bulaqchi.webp"
+  "image": "data/images/bulaqchi.webp",
+  "locations": [
+   "Windward Plains"
+  ]
  },
  {
   "slug": "talioth",
@@ -21624,10 +23780,10 @@
     {
      "material": "Talioth Scale+",
      "rarity": null,
-     "targetReward": "30%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "70%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -21645,7 +23801,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -21697,7 +23853,10 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/talioth.webp"
+  "image": "data/images/talioth.webp",
+  "locations": [
+   "Windward Plains"
+  ]
  },
  {
   "slug": "baunos",
@@ -21826,7 +23985,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -21835,7 +23994,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -21878,7 +24037,10 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/baunos.webp"
+  "image": "data/images/baunos.webp",
+  "locations": [
+   "Windward Plains"
+  ]
  },
  {
   "slug": "gajios",
@@ -22007,7 +24169,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -22016,7 +24178,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     }
    ]
@@ -22050,7 +24212,11 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/gajios.webp"
+  "image": "data/images/gajios.webp",
+  "locations": [
+   "Windward Plains",
+   "Scarlet Forest"
+  ]
  },
  {
   "slug": "piragill",
@@ -22176,10 +24342,10 @@
     {
      "material": "Piragill Fin+",
      "rarity": null,
-     "targetReward": "30%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "70%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -22197,7 +24363,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -22249,7 +24415,10 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/piragill.webp"
+  "image": "data/images/piragill.webp",
+  "locations": [
+   "Scarlet Forest"
+  ]
  },
  {
   "slug": "harpios",
@@ -22378,7 +24547,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -22387,7 +24556,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     }
    ]
@@ -22421,7 +24590,11 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/harpios.webp"
+  "image": "data/images/harpios.webp",
+  "locations": [
+   "Scarlet Forest",
+   "Oilwell Basin"
+  ]
  },
  {
   "slug": "kranodath",
@@ -22552,10 +24725,10 @@
     {
      "material": "Kranodath Skull+",
      "rarity": null,
-     "targetReward": "30%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "75%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -22573,7 +24746,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -22583,7 +24756,7 @@
      "capture": "",
      "breakParts": "",
      "carves": "",
-     "dropped": "dropped materials: 100%"
+     "dropped": ""
     },
     {
      "material": "Dragonite Ore",
@@ -22635,7 +24808,10 @@
     "immune": true
    }
   ],
-  "image": "data/images/kranodath.webp"
+  "image": "data/images/kranodath.webp",
+  "locations": [
+   "Oilwell Basin"
+  ]
  },
  {
   "slug": "comaqchi",
@@ -22761,10 +24937,10 @@
     {
      "material": "Comaqchi Carapace",
      "rarity": null,
-     "targetReward": "30%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -22773,7 +24949,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -22827,7 +25003,10 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/comaqchi.webp"
+  "image": "data/images/comaqchi.webp",
+  "locations": [
+   "Iceshard Cliffs"
+  ]
  },
  {
   "slug": "gelidron",
@@ -22956,7 +25135,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -22965,7 +25144,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     }
    ]
@@ -22999,7 +25178,10 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/gelidron.webp"
+  "image": "data/images/gelidron.webp",
+  "locations": [
+   "Oilwell Basin"
+  ]
  },
  {
   "slug": "rafma",
@@ -23128,7 +25310,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "75%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -23137,7 +25319,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     }
    ]
@@ -23173,7 +25355,11 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/rafma.webp"
+  "image": "data/images/rafma.webp",
+  "locations": [
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
  },
  {
   "slug": "porkeplume",
@@ -23302,7 +25488,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "75%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -23311,7 +25497,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     }
    ]
@@ -23346,7 +25532,11 @@
     "immune": true
    }
   ],
-  "image": "data/images/porkeplume.webp"
+  "image": "data/images/porkeplume.webp",
+  "locations": [
+   "Iceshard Cliffs",
+   "Ruins of Wyveria"
+  ]
  },
  {
   "slug": "nerscylla-hatchling",
@@ -23457,7 +25647,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "100%, rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     }
    ]
@@ -23491,7 +25681,10 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/nerscylla-hatchling.webp"
+  "image": "data/images/nerscylla-hatchling.webp",
+  "locations": [
+   "Iceshard Cliffs"
+  ]
  },
  {
   "slug": "guardian-seikret",
@@ -23617,10 +25810,10 @@
     {
      "material": "Guardian Seikret Feather+",
      "rarity": null,
-     "targetReward": "30%",
+     "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "70%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -23638,7 +25831,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "rotten monster carcass: 100%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -23647,7 +25840,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "carve crystalized carcass: 50%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -23708,7 +25901,10 @@
   "isSmall": true,
   "attackElements": [],
   "resistances": [],
-  "image": "data/images/guardian-seikret.webp"
+  "image": "data/images/guardian-seikret.webp",
+  "locations": [
+   "Ruins of Wyveria"
+  ]
  },
  {
   "slug": "omega-micros",
@@ -23819,7 +26015,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "20%, rotten monster carcass: 20%",
+     "carves": "",
      "dropped": ""
     },
     {
@@ -23828,7 +26024,7 @@
      "targetReward": "",
      "capture": "",
      "breakParts": "",
-     "carves": "80%, rotten monster carcass: 80%",
+     "carves": "",
      "dropped": ""
     }
    ]
@@ -23863,6 +26059,10 @@
     "immune": true
    }
   ],
-  "image": "data/images/omega-micros.webp"
+  "image": "data/images/omega-micros.webp",
+  "locations": [
+   "Iceshard Cliffs",
+   "Rimechain Peak"
+  ]
  }
 ]

@@ -1,0 +1,935 @@
+{{Meta
+|MetaTitle     = Nu Udra - MHWilds
+|MetaDesc      = This page describes Nu Udra, which is a large monster appearing in Monster Hunter Wilds (MHWilds). Described here are its weaknesses, elements, attacks, armor, weapons, hitzones (HZVs), parts, drops and drop rates, materials, crown sizes, ecology, lore, history, images, notes, and more.
+|MetaKeywords  = Nu Udra, Wilds, Stats, Materials, Attacks
+|MetaImage = File:MHWilds-Nu Udra Render 001.webp
+}}
+<div class=subpages style="color: #54595d; font-size:0.95rem">< <bdi dir="ltr">[[Nu Udra]]</bdi></div>
+{{MonsterAppearancesNav
+|Monster = Nu Udra
+|MHWilds = Y
+|MHWA = Y
+|Music = Y
+}}
+{{MonsterGameInfoBox
+|English Name = Nu Udra
+|Japanese Name = ヌ・エグドラ
+|Image = MHWilds-Nu Udra Render 001.webp
+|Title = Hell Flame Octopus (獄焔蛸)
+|Class = [[Cephalopod]]
+
+|Elements = {{UI|UI|Fire}}
+|Status Effects = {{Element|Fireblight}}
+|Weaknesses = {{UI|UI|Water}}
+
+|Capture HP % = 20%
+|Limp HP % = 15%
+|Meat = Y
+|Dung Pods = 100%
+|Gold Crown Small = 1884.33
+|Average = 2093.7
+|Silver Crown = 2282.13
+|Gold Crown Large = 2365.88
+|Locales = [[Oilwell Basin]], [[Wounded Hollow]]
+|Sleeping Areas = [[Oilwell Basin|Oilwell Basin - Area 17]]
+}}
+=Gameplay Information=
+''The following information is for [[Monster Hunter Wilds]]. The Gameplay Information for other titles can be found from the navigation bar at the top of this page.''
+
+Nu Udra is found primarily in the [[Oilwell Basin]] and is primarily active in the Firespring, although it can rarely be found during other weather conditions. It can also appear in the [[Wounded Hollow]] from MR 100 onwards.
+
+Nu Udra primarily attacks with physical strikes from its six grounded arms, being able to launch attacks in nearly any direction and strike with multiple arms at once. Each arm can be individually severed to reduce their range and provide extra carves.
+
+Once enraged, Nu Udra's body begins glowing as it sets it alight and begins to use more powerful fire-based attacks. This includes flaming oil projectiles that create delayed explosions on impact, and using its siphon to expel large amounts of fire on the ground. Eventually, Nu Udra will shed its oil coating in a dense rain of flaming oil, reapplying its oil coat afterwards. Dealing enough damage to it while it is enraged will knock it out of its enrage, remove the oil coating on its body and toppling it, weakening it for a time.
+
+While in its nest in Area 17, Nu Udra is able to burrow into the cracks in the ground to quickly reposition around the area.
+
+As it does not rely on sight to detect prey, it is immune to [[Flash Pod (MHWilds)|Flash Bombs]] and similar effects.
+
+After performing its quadrupal arm slam, Nu Udra's beak, located behind its face tentacles, is left exposed as a weak point for Focus Strikes. If a Focus Strike is successfully performed on its beak, Nu Udra will reel back and be briefly knocked down, there is a cool-down to this interaction however.
+
+==== Arch-Tempered ====
+Arch-Tempered Nu Udra receives the following moveset changes:
+
+* Previous moves are performed faster and more aggressively, with further reach.
+* While ignited, emits a burning aura that deals constant damage to nearby hunters. This can be negated by Level 2 [[Adaptability (MHWilds)|Adaptability]].
+* No longer exits the ignited state unless forced out of it via damage.
+* Can perform additional new attacks.
+<div style="display: flex;flex-direction: column;">
+==Hunter's Notes==
+{{MonsterDescription
+|Description='''Characteristics:''' The cephalopod that reigns supreme over Oilwell Basin's ecosystem. Usually, when sighted, Nu Udra is covered in oilsilt, but when enraged it will ignite the coating, transfiguring itself into a horror of flame. The oculi that appear on its body and mant arms are presumed to be sensory organs, but the truth is still being investigated.</br><br/>'''Helpful Hints:''' Each of a Nu Udra's many unique tentacles can be severed. But watch out when they get angry and burst into flame. You can douse any parts that are burning with watermoss - a recommended strategy, since it will leave the monster weakened. A Nu Udra's soft body allows them to slip through crevasses and move in surprising ways, so be careful not to let them get the jump on you.</br><br/>'''Map Description:''' The cephalopod that reigns supreme over Oilwell Basin's ecosystem. A vision of hell, it attacks with tentacles and ignited oilsilt.
+|Icon=MHWilds-Nu Udra Icon.webp
+|Game=[[Monster Hunter Wilds]]}}
+</div>
+
+==Physical Attributes==
+===Damage Effectiveness===
+{| class="wikitable mobile-sm" style="text-align:center;width:100%;margin:auto"
+! colspan="12" | Damage Effectiveness <sup style="color:mediumvioletred">Tenderized</sup>(%)
+|-
+|- class="sticky-row"
+!'''Part'''
+![[File:MHRS-Kinsect_Cutting_Icon_Rare_1.png|24x24px]]
+![[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]]
+![[File:MHWilds-Ammo_Icon_White.png|24x24px]]
+![[File:UI-Fireblight.png|24x24px]]
+![[File:UI-Waterblight.png|24x24px]]
+![[File:UI-Thunderblight.png|24x24px]]
+![[File:UI-Iceblight.png|24x24px]]
+![[File:UI-Dragonblight.png|24x24px]]
+![[File:UI-Stun.png|24x24px]]
+|-
+|'''Head'''
+|<span style="color:crimson;">❶</span>
+|'''70'''<sup style="color:mediumvioletred">'''80'''</sup>
+|'''75'''<sup style="color:mediumvioletred">'''85'''</sup>
+|'''50'''<sup style="color:mediumvioletred">'''60'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|10
+|5
+|10
+|100
+|-
+|'''Tentacle'''
+|<span style="color:orange;">❸</span>
+|30
+|43
+|25
+|0
+|15
+|10
+|5
+|10
+| -
+|-
+|'''Membrane'''
+|<span style="color:orange;">❸</span>
+|30<sup style="color:mediumvioletred">'''65'''</sup>
+|43<sup style="color:mediumvioletred">'''75'''</sup>
+|25<sup style="color:mediumvioletred">'''58'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|10
+|5
+|10
+| -
+|-
+|'''Torso'''
+|<span style="color:orange;">❸</span>
+|'''50'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''65'''<sup style="color:mediumvioletred">'''75'''</sup>
+|43<sup style="color:mediumvioletred">'''58'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|10
+|5
+|10
+| -
+|-
+|'''Front Left Arm'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''55'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''48'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''48'''<sup style="color:mediumvioletred">'''58'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|10
+|5
+|10
+| -
+|-
+|'''Front Right Arm'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''55'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''48'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''48'''<sup style="color:mediumvioletred">'''58'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|10
+|5
+|10
+| -
+|-
+|'''Middle Left Arm'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''55'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''48'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''48'''<sup style="color:mediumvioletred">'''58'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|10
+|5
+|10
+| -
+|-
+|'''Middle Right Arm'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''55'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''48'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''48'''<sup style="color:mediumvioletred">'''58'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|10
+|5
+|10
+| -
+|-
+|'''Rear Left Arm'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''55'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''48'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''48'''<sup style="color:mediumvioletred">'''58'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|10
+|5
+|10
+| -
+|-
+|'''Rear Right Arm'''
+|<span style="color:#c0c0c0;">❷</span>
+|'''55'''<sup style="color:mediumvioletred">'''65'''</sup>
+|'''48'''<sup style="color:mediumvioletred">'''75'''</sup>
+|'''48'''<sup style="color:mediumvioletred">'''58'''</sup>
+|0
+|15<sup style="color:mediumvioletred">25</sup>
+|10
+|5
+|10
+| -
+|-
+|'''Mouth'''
+|<span style="color:crimson;">❶</span>
+|'''80'''
+|'''80'''
+|'''80'''
+|0
+|20
+|5
+|5
+|10
+|100
+|-
+|}
+{{UserHelpBox|
+*'''Part''' - the name of the part. Any special states or conditions are shown in parentheses. 
+*[[File:MHWilds-Great_Sword_Icon_Rare_0.png|24x24px]][[File:MHWilds-Hammer_Icon_Rare_0.png|24x24px]][[File:MHWilds-Ammo_Icon_White.png|24x24px]] - the effectiveness of '''Cutting''', '''Blunt''', and '''Shot''' raw attack types respectively. For example, if a part has a hitzone value of 40 for Cutting, it means that any Cutting damage dealt to it is reduced by 60%. Hitzone values greater than or equal to '''45''' are considered weak spots by the game, displaying orange damage numbers and activating [[Weakness Exploit (MHWilds)|Weakness Exploit]]. These numbers are given in '''bold'''. Tenderized values are given in Purple.
+*{{UI|UI|Fire}}{{UI|UI|Water}}{{UI|UI|Thunder}}{{UI|UI|Ice}}{{UI|UI|Dragon}} - the effectiveness of each elemental damage type. For example, if a part has a hitzone value of 25 for Thunder, it means that any Thunder damage dealt to it is reduced by 75%.
+*{{UI|UI|Stun}} - the effectiveness of [[Stun]] against the specified part. For example, a value of 50 means that only 50% of all stun buildup dealt to that part contributes to the monster's stun threshold. A <code>-</code> means that hitting the part with an attack will never contribute to stun buildup, regardless of its properties.
+}}
+<div class="twocol">
+<div>
+===Status Effectiveness===
+{{MHWIStatusData
+|Status Data Template: Add the values you want after the "=" symbol.
+|For the "★" numbers just copy and paste the star symbol and paste it after the "="
+|for the "In Master Rank" values just input the number, the template will automatically add the "In MR" text to the right side of it.
+|Use "N/A" when the Status does not apply to this monster (Like when Elderseal does nothing).
+|Poison data
+|Poison ★ number = 
+|Poison Threshold =150→550
+|Poison Increase = 100
+|Poison Duration = 20s
+|Poison Decay = 5/10s
+|Poison Damage = 10
+|Poison Damage in Master Rank=
+
+|Paralysis data (Paralysis doesn't have Damage Values).
+|Paralysis ★ number = 
+|Paralysis Threshold = 300→1000
+|Paralysis Increase = 100
+|Paralysis Duration = 8s
+|Paralysis Decay = 5/10s
+
+|Sleep Data (Sleep doesn't have Damage Values).
+|Sleep ★ number = 
+|Sleep Threshold = 150→750
+|Sleep Increase = 100
+|Sleep Duration = 40s
+|Sleep Decay = 5/10s
+
+|Blast Data (Blast doesn't have Duration neither Decay Values).
+|Blast ★ number = 
+|Blast Threshold = 120→1920
+|Blast Increase = 90
+|Blast Damage = 100
+|Blast Damage in Master Rank =
+
+|Stun Data (Stun doesn't have Damage Values).
+|Stun ★ number = 
+|Stun Threshold = 120→720
+|Stun Increase = 100
+|Stun Duration = 10s
+|Stun Decay = 5/10s
+
+|Exhaust Data (The Damage is made directly against the Monster's Stamina, Not the monster health)
+|Exhaust Threshold = N/A
+|Exhaust Increase = N/A
+|Exhaust Duration = 
+|Exhaust Decay = N/A
+|Exhaust Damage = N/A
+
+|Mount Data (Mount doesn't have Duration, Decay and/or Damage Values).
+|Mount Threshold = 90→1170
+|Mount Increase = 270
+}}
+</div>
+<div>
+===Item Effectiveness===
+{{ItemEffectivenessTable
+|Game = MHWilds
+
+|Pitfall Duration = 10 
+|Pitfall Exhausted Duration = 11
+|Pitfall Tolerance Reduction = 2
+|Pitfall Min Duration = 3
+
+|Shock Duration = 8
+|Shock Exhausted Duration = 9
+|Shock Tolerance Reduction = 2
+|Shock Min Duration = 3
+
+|Ivy Duration = 10
+|Ivy Exhausted Duration = 11
+
+|Flash Duration = 
+|Flash Note = 
+|Flash Tolerance Reduction =
+|Flash Min Duration =
+
+|Meat Effectiveness = False
+
+|Dung Effectiveness = 100
+
+|Sonic Effectiveness =
+}}
+</div>
+</div>
+
+== Quests Targeting This Monster ==
+{| class="wikitable mobile-sm sortable" style="text-align:center;margin:auto"
+!Location
+!Rank
+!Type
+!Name
+!Locale
+!Targets
+|-
+|Azuz, the Everforge
+| data-sort-value="8" |LR 3'''★'''
+|Assignment
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[The Black Flame Quietly Manifests (MHWilds Quest)|The Black Flame Quietly Manifests]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Nu Udra|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |LR 3'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Creeping Flames (MHWilds Quest)|Creeping Flames]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Nu Udra|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Basin Basecamp
+| data-sort-value="8" |HR 6'''★'''
+|Assignment
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Scorching the Earth Once More (MHWilds Quest)|Scorching the Earth Once More]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Nu Udra|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 6'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Sinister Sneer (MHWilds Quest)|Sinister Sneer]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Nu Udra|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Optional
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Hunting Exercise: Tempered Nu Udra (MHWilds Quest)|Hunting Exercise: Tempered Nu Udra]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Nu Udra|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Optional
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Tango of Lives Ablaze (MHWilds Quest)|Tango of Lives Ablaze]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Ajarakan|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Rathalos|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Nu Udra|Type=Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 10'''★'''
+|Optional
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Proof of a Hero (MHWilds Quest)|Proof of a Hero]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Rey Dau|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Uth Duna|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Nu Udra|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}} {{IconPickerUniversalAlt|MHWilds|Arkveld|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 6'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[An Inferno Laid Bare (MHWilds Quest)|An Inferno Laid Bare]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Nu Udra|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 9'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Be Cursed, Ye Shadowy Flame (MHWilds Quest)|Be Cursed, Ye Shadowy Flame]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Nu Udra|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8" |HR 10'''★'''
+|Event
+|{{UI|UI|Hunt|title=Hunt|nolink=true}} [[Scion of the Dark Cradle (MHWilds Quest)|Scion of the Dark Cradle]]
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Nu Udra|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Grand Hub
+| data-sort-value="8" |HR 6'''★'''
+|Challenge
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Event: Eightfold Execration (MHWilds Quest)|Event: Eightfold Execration]]{{note|This quest was only available between the 20<sup>th</sup> of January and the 24<sup>th</sup> of February during 2026.}}
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Nu Udra|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Grand Hub
+| data-sort-value="8" |HR 9'''★'''
+|Challenge
+|{{UI|UI|Slay|title=Slay|nolink=true}} [[Event: Dreams May Soar (MHWilds Quest)|Event: Dreams May Soar]]
+|[[Wounded Hollow]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Xu Wu|Size=32|Text=|Margin=0|ML=Y|ext=webp}}{{IconPickerUniversalAlt|MHWilds|Lagiacrus|Size=32|Text=|Margin=0|ML=Y|ext=webp}}{{IconPickerUniversalAlt|MHWilds|Nu Udra|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|-
+|Anywhere
+| data-sort-value="8"|HR 9'''★'''
+|Free Challenge
+|{{UI|UI|Slay|nolink=true}} [[Burn in Blackest Hell (MHWilds Quest)|Burn in Blackest Hell]]{{note|This quest was only available between the 23<sup>rd</sup> of October and the 11<sup>th</sup> of November during 2025.|Temp}}
+|[[Oilwell Basin]]
+| data-sort-value="1" |{{IconPickerUniversalAlt|MHWilds|Nu Udra|Type=Arch Tempered|Size=32|Text=|Margin=0|ML=Y|ext=webp}}
+|}
+
+== Attacks ==
+{| class="mw-collapsible mw-collapsed wikitable" style="width:100%;"
+|- class="sticky-row"
+!Name 
+!style="width:10%;" |Base Damage 
+!style="width:10%;"|Status Buildup 
+!style="width:5%;"|Startup
+!style="width:20%;"|Active
+!style="width:5%;"|Recovery
+!style="width:5%;"|Stamina Cost 
+!style="width:5%;"|Guard Knockback 
+!style="width:20%;"|Animation
+|-
+! rowspan="2" |炎泥噴射_噴射部分<br>Mud spraying_spraying part<br>{{MachineTranslation}}
+|16, {{UI|UI|Fire|title=Fire Damage|text=64}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|80
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |炎泥噴射_炎部分<br>Mud spray_flame part<br>{{MachineTranslation}}
+|16, {{UI|UI|Fire|title=Fire Damage|text=64}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|80
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |炎ばら撒き<br>Flame Scattering<br>{{MachineTranslation}}
+|12, {{UI|UI|Fire|title=Fire Damage|text=48}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |炎ばら撒き(着弾)<br>Flame Scattering (Impact)<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |Unblockable
+|-
+! rowspan="2" |炎ばら撒き(着弾爆発)<br>Flame scattering (explosion on impact)<br>{{MachineTranslation}}
+|16, {{UI|UI|Fire|title=Fire Damage|text=64}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |拘束フィニッシュ<br>Restraint Finish<br>{{MachineTranslation}}
+|8, {{UI|UI|Fire|title=Fire Damage|text=32}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |広がり炎弾<br>Spreading Fire Bullet<br>{{MachineTranslation}}
+|10, {{UI|UI|Fire|title=Fire Damage|text=40}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |広がり炎弾(着弾)<br>Spreading fire bullet (on impact)<br>{{MachineTranslation}}
+|10, {{UI|UI|Fire|title=Fire Damage|text=40}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |広がり炎弾(着弾爆発)<br>Spreading fire bullet (explosion on impact)<br>{{MachineTranslation}}
+|10, {{UI|UI|Fire|title=Fire Damage|text=40}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |パンチ爆発<br>Punch Explosion<br>{{MachineTranslation}}
+|12, {{UI|UI|Fire|title=Fire Damage|text=38}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |叩きつけ爆発<br>Slamming explosion<br>{{MachineTranslation}}
+|12, {{UI|UI|Fire|title=Fire Damage|text=38}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=30}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |薙ぎ払い爆発<br>Sweeping Explosion<br>{{MachineTranslation}}
+|12, {{UI|UI|Fire|title=Fire Damage|text=38}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=15}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |拘束フィニッシュスリップ<br>Restrained Finish Slip<br>{{MachineTranslation}}
+|1
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |バインドボイス<br>Bind Voice<br>{{MachineTranslation}}
+|0
+| -
+|???
+|???
+|???
+|???
+|60
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |追加シェル_軌道<br>Add shell_trajectory<br>{{MachineTranslation}}
+|12, {{UI|UI|Fire|title=Fire Damage|text=48}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |追加シェル_爆発<br>Additional Shell_Explosion<br>{{MachineTranslation}}
+|20, {{UI|UI|Fire|title=Fire Damage|text=60}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}<br>{{UI|UI|Stun|title=Stun Damage|text=20}}
+|???
+|???
+|???
+|???
+|40
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |拘束フィニッシュ<br>Restraint Finish<br>{{MachineTranslation}}
+|8, {{UI|UI|Fire|title=Fire Damage|text=32}}
+|{{UI|UI|Fire|title=Fire Damage|text=0}}
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+! rowspan="2" |拘束フィニッシュスリップ<br>Restrained Finish Slip<br>{{MachineTranslation}}
+|1
+| -
+|???
+|???
+|???
+|???
+|0
+| rowspan="2" |<tabber> |-|Normal=[[File:Wiki.png|128x128px]]|-|Hitboxes=[[File:Wiki.png|128x128px]]</tabber>
+|-
+| colspan="7" |
+|-
+|}
+{{UserHelpBox|!!Monster Attack Help!!}}
+== Drop Rates ==
+<tabber>
+|-| Low Rank = 
+<div class="twocol">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Hide|Hide|Gray}}
+|28%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Oilmucus|Chemical|Gray}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Spike|Claw|Yellow}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Tentacle|Monster Part|Gray}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Horn|Claw|Yellow}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Cerebrospinal Fluid|Chemical|Light Blue}}
+|7%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Hide|Hide|Gray}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Oilmucus|Chemical|Gray}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Spike|Claw|Yellow}}
+|30%
+|-
+! colspan="2" |Carve Arm
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Tentacle|Monster Part|Gray}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Spike|Claw|Yellow}}
+|35%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Cerebrospinal Fluid|Chemical|Light Blue}}
+|5%
+|-
+! colspan="2" |Carve Arm (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Hide|Hide|Gray}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Tentacle|Monster Part|Gray}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Hide|Hide|Gray}}
+|25%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Oilmucus|Chemical|Gray}}
+|25%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Spike|Claw|Yellow}}
+|15%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Horn|Claw|Yellow}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Tentacle|Monster Part|Gray}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Certificate|Ticket|Gray}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Cerebrospinal Fluid|Chemical|Light Blue}}
+|5%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Horn|Claw|Yellow}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Hide|Hide|Gray}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Oilmucus|Chemical|Gray}}
+|43%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Spike|Claw|Yellow}}
+|12%
+|}
+</div>
+|-| High Rank = 
+<div class="threecen">
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Gathered</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Carves
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Hide+|Hide|Gray}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Oilmucus+|Chemical|Gray}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Spike+|Claw|Yellow}}
+|18%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Tentacle+|Monster Part|Gray}}
+|13%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Horn+|Claw|Yellow}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Flamegem|Ball|Red}}
+|5%
+|-
+! colspan="2" |Carves (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Hide+|Hide|Gray}}
+|40%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Oilmucus+|Chemical|Gray}}
+|30%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Spike+|Claw|Yellow}}
+|30%
+|-
+! colspan="2" |Carve Arm
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Tentacle+|Monster Part|Gray}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Spike+|Claw|Yellow}}
+|38%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Flamegem|Ball|Red}}
+|2%
+|-
+! colspan="2" |Carve Arm (Rotten)
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Hide+|Hide|Gray}}
+|60%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Tentacle+|Monster Part|Gray}}
+|40%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Quest Rewards</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Hunt Rewards
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Hide+|Hide|Gray}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Oilmucus+|Chemical|Gray}}
+|22%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Spike+|Claw|Yellow}}
+|16%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Horn+|Claw|Yellow}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Tentacle+|Monster Part|Gray}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Certificate S|Ticket|Gray}}
+|8%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Cerebrospinal Fluid|Chemical|Light Blue}}
+|7%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Flamegem|Ball|Red}}
+|3%
+|-
+! colspan="2" |Break Head
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Horn+|Claw|Yellow}}
+|100%
+|-
+! colspan="2" |Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Hide+|Hide|Gray}}
+|45%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Oilmucus+|Chemical|Gray}}
+|43%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Spike+|Claw|Yellow}}
+|12%
+|-
+! colspan="2" |Tempered Wound Destruction Rewards
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone|Ore|Red}}
+|70%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone (L)|Ore|Red}}
+|23%
+|-
+|{{GenericItemLink|MHWilds|Wyverian Bloodstone Chunk|Ore|Red}}
+|7%
+|}
+</div>
+<div style="padding-bottom: 10px;">
+{| class="wikitable itemtable mw-collapsible"
+!colspan="2" | <big>Investigation</big>
+|-
+!Item
+!Chance
+|-
+! colspan="2" |Investigations (Basic)
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Hide+|Hide|Gray}}
+|26%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Oilmucus+|Chemical|Gray}}
+|26%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Spike+|Claw|Yellow}}
+|16%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Horn+|Claw|Yellow}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Tentacle+|Monster Part|Gray}}
+|11%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Cerebrospinal Fluid|Chemical|Light Blue}}
+|7%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Flamegem|Ball|Red}}
+|3%
+|-
+! colspan="2" |Investigation (Valuable)
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Horn+|Claw|Yellow}}
+|24%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Spike+|Claw|Yellow}}
+|24%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Tentacle+|Monster Part|Gray}}
+|24%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Cerebrospinal Fluid|Chemical|Light Blue}}
+|21%
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Flamegem|Ball|Red}}
+|7%
+|-
+! colspan="2" |Investigation (Rare)
+|-
+|{{GenericItemLink|MHWilds|Nu Udra Flamegem|Ball|Red}}
+|100%
+|}
+</div>
+</tabber>
+
+=Notes=
+{{notelist}}
+=Sources=
+<references />
+{{MonsterListsBox}}
+{{MonsterListBox}}
+[[Category:Large Monster MHWilds Subpages]]
