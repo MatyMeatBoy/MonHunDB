@@ -7177,5 +7177,78 @@
         "name": "Grand Mizuha Leg Wrap"
       }
     ]
+  },
+  {
+    "name": "Gargwa Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/gargwa.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1256440579",
+        "name": "Gargwa Mask"
+      }
+    ]
+  },
+  {
+    "name": "Bullfango Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/bullfango.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "2103501273",
+        "name": "Bullfango Mask"
+      }
+    ]
+  },
+  {
+    "name": "Chaos Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/chaos.png",
+    "pieces": [
+      {
+        "part": "chest",
+        "id": "1045657716",
+        "name": "Chaos Plate"
+      },
+      {
+        "part": null,
+        "id": "960800789",
+        "name": "Chaos Archbun"
+      }
+    ]
+  },
+  {
+    "name": "Death Stench Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/death-stench.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "171162104",
+        "name": "Death Stench Brain"
+      },
+      {
+        "part": "chest",
+        "id": "136559096",
+        "name": "Death Stench Muscle"
+      },
+      {
+        "part": "arms",
+        "id": "236173816",
+        "name": "Death Stench Grip"
+      },
+      {
+        "part": "waist",
+        "id": "201570808",
+        "name": "Death Stench Bowels"
+      },
+      {
+        "part": "legs",
+        "id": "66304504",
+        "name": "Death Stench Heel"
+      }
+    ]
   }
 ]
