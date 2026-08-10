@@ -7076,5 +7076,37 @@
         "name": "Guild Palace Greaves"
       }
     ]
+  },
+  {
+    "name": "Silver Sol Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/silver-sol.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1648748550",
+        "name": "Silver Solhelm"
+      },
+      {
+        "part": "chest",
+        "id": "1614145542",
+        "name": "Silver Solmail"
+      },
+      {
+        "part": "arms",
+        "id": "1713760262",
+        "name": "Silver Solbraces"
+      },
+      {
+        "part": "waist",
+        "id": "1679157254",
+        "name": "Silver Solcoil"
+      },
+      {
+        "part": "legs",
+        "id": "2047207430",
+        "name": "Silver Solgreaves"
+      }
+    ]
   }
 ]
