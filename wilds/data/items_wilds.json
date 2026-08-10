@@ -137,7 +137,7 @@
  },
  {
   "name": "Whetfish Fin Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/af/Whetfish_fin_plus_item_healing_support_mhwilds_wiki_guide_25px.png/20px-Whetfish_fin_plus_item_healing_support_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.png"
  },
  {
   "name": "Whetfish Fin",
@@ -725,7 +725,7 @@
  },
  {
   "name": "Ajarakan Jewel Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/45/Ajarakan_jewel_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_jewel_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Vermilion.png"
  },
  {
   "name": "Acute Fang",
@@ -757,7 +757,7 @@
  },
  {
   "name": "Ajarakan Ridge Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1a/Ajarakan_ridge_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_ridge_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Vermilion.png"
  },
  {
   "name": "Ajarakan Ridge",
@@ -765,7 +765,7 @@
  },
  {
   "name": "Ajarakan Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2a/Ajarakan_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Ajarakan_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Vermilion.png"
  },
  {
   "name": "Ajarakan Scale",
@@ -805,11 +805,11 @@
  },
  {
   "name": "Arkveld Horn Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b4/Arkveld_horn_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Arkveld_horn_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
  },
  {
   "name": "Arkveld Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/08/Arkveld_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Arkveld_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
  },
  {
   "name": "Arkveld Tail",
@@ -817,7 +817,7 @@
  },
  {
   "name": "Armor Sphere Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b6/Armor_sphere_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Armor_sphere_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Armor_Sphere_Icon_Green.png"
  },
  {
   "name": "Armor Sphere",
@@ -845,7 +845,7 @@
  },
  {
   "name": "Balahara Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d1/Balahara_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Balahara_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Gray.png"
  },
  {
   "name": "Balahara Scale",
@@ -857,7 +857,7 @@
  },
  {
   "name": "Balahara Skull Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/ae/Balahara_skull_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Balahara_skull_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Gray.png"
  },
  {
   "name": "Balahara Skull",
@@ -881,11 +881,11 @@
  },
  {
   "name": "Blangonga Fang Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/78/Blangonga_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Blangonga_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
  },
  {
   "name": "Blangonga Pelt Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/85/Blangonga_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Blangonga_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
  },
  {
   "name": "Blangonga Tail",
@@ -897,7 +897,7 @@
  },
  {
   "name": "Blango Pelt Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cb/Blango_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Blango_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
  },
  {
   "name": "Bulaqchi Carapace",
@@ -929,7 +929,7 @@
  },
  {
   "name": "Chatacabra Hide Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/62/Chatacabra_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Chatacabra_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Green.png"
  },
  {
   "name": "Chatacabra Hide",
@@ -937,7 +937,7 @@
  },
  {
   "name": "Chatacabra Jaw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0d/Chatacabra_jaw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Chatacabra_jaw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Green.png"
  },
  {
   "name": "Chatacabra Jaw",
@@ -945,7 +945,7 @@
  },
  {
   "name": "Chatacabra Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/04/Chatacabra_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Chatacabra_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Green.png"
  },
  {
   "name": "Chatacabra Scale",
@@ -985,7 +985,7 @@
  },
  {
   "name": "Congalala Claw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/75/Congalala_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Congalala_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Pink.png"
  },
  {
   "name": "Congalala Claw",
@@ -993,7 +993,7 @@
  },
  {
   "name": "Congalala Fang Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/14/Congalala_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Congalala_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Pink.png"
  },
  {
   "name": "Congalala Fang",
@@ -1001,7 +1001,7 @@
  },
  {
   "name": "Congalala Pelt Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cc/Congalala_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Congalala_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.png"
  },
  {
   "name": "Congalala Pelt",
@@ -1009,7 +1009,7 @@
  },
  {
   "name": "Conga Pelt Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b9/Conga_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Conga_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.png"
  },
  {
   "name": "Crushed Crystal",
@@ -1033,7 +1033,7 @@
  },
  {
   "name": "Doshaguma Claw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/cd/Doshaguma_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.png"
  },
  {
   "name": "Doshaguma Claw",
@@ -1041,7 +1041,7 @@
  },
  {
   "name": "Doshaguma Fang Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/74/Doshaguma_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.png"
  },
  {
   "name": "Doshaguma Fang",
@@ -1049,7 +1049,7 @@
  },
  {
   "name": "Doshaguma Fur Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c0/Doshaguma_fur_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_fur_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.png"
  },
  {
   "name": "Doshaguma Fur",
@@ -1057,7 +1057,7 @@
  },
  {
   "name": "Doshaguma Hide Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7e/Doshaguma_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Doshaguma_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.png"
  },
  {
   "name": "Doshaguma Hide",
@@ -1129,7 +1129,7 @@
  },
  {
   "name": "Golden Corneum Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/35/Golden_corneum_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Golden_corneum_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Yellow.png"
  },
  {
   "name": "Golden Corneum",
@@ -1153,15 +1153,15 @@
  },
  {
   "name": "Gore Magala Ripclaw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e3/Gore_magala_ripclaw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gore_magala_ripclaw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Gray.png"
  },
  {
   "name": "Gore Magala Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/96/Gore_magala_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gore_magala_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Gray.png"
  },
  {
   "name": "Gore Magala Wing Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e7/Gore_magala_wing_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gore_magala_wing_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_Gray.png"
  },
  {
   "name": "Gracium",
@@ -1181,7 +1181,7 @@
  },
  {
   "name": "Gravios Pleura Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ce/Gravios_pleura_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gravios_pleura_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.png"
  },
  {
   "name": "Gravios Skull",
@@ -1205,7 +1205,7 @@
  },
  {
   "name": "Guardian Blood Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/de/Guardian_blood_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_blood_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_White.png"
  },
  {
   "name": "Guardian Blood",
@@ -1213,7 +1213,7 @@
  },
  {
   "name": "Guardian Doshaguma Claw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c0/Guardian_doshaguma_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_doshaguma_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
  },
  {
   "name": "Guardian Doshaguma Claw",
@@ -1225,7 +1225,7 @@
  },
  {
   "name": "Guardian Doshaguma Fur Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3c/Guardian_doshaguma_fur_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_doshaguma_fur_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
  },
  {
   "name": "Guardian Doshaguma Fur",
@@ -1233,7 +1233,7 @@
  },
  {
   "name": "Guardian Doshaguma Hide Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fb/Guardian_doshaguma_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_doshaguma_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
  },
  {
   "name": "Guardian Doshaguma Hide",
@@ -1241,7 +1241,7 @@
  },
  {
   "name": "Guardian Ebony Claw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b9/Guardian_ebony_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
  },
  {
   "name": "Guardian Ebony Claw",
@@ -1249,7 +1249,7 @@
  },
  {
   "name": "Guardian Ebony Fang Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4c/Guardian_ebony_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
  },
  {
   "name": "Guardian Ebony Fang",
@@ -1265,7 +1265,7 @@
  },
  {
   "name": "Guardian Ebony Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ef/Guardian_ebony_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
  },
  {
   "name": "Guardian Ebony Scale",
@@ -1273,7 +1273,7 @@
  },
  {
   "name": "Guardian Ebony Sinew Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d9/Guardian_ebony_sinew_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_ebony_sinew_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.png"
  },
  {
   "name": "Guardian Ebony Sinew",
@@ -1289,19 +1289,19 @@
  },
  {
   "name": "Guardian Fulgur Fang Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0c/Guardian_fulgur_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_fulgur_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
  },
  {
   "name": "Guardian Fulgur Nosebone Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ea/Guardian_fulgur_nosebone_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_fulgur_nosebone_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_White.png"
  },
  {
   "name": "Guardian Fulgur Pelt Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3b/Guardian_fulgur_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_fulgur_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
  },
  {
   "name": "Guardian Fulgur Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/22/Guardian_fulgur_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_fulgur_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
  },
  {
   "name": "Guardian Fulgur Tail",
@@ -1309,7 +1309,7 @@
  },
  {
   "name": "Guardian Pelt Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/04/Guardian_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
  },
  {
   "name": "Guardian Pelt",
@@ -1325,7 +1325,7 @@
  },
  {
   "name": "Guardian Rathalos Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/65/Guardian_rathalos_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_rathalos_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
  },
  {
   "name": "Guardian Rathalos Scale",
@@ -1349,7 +1349,7 @@
  },
  {
   "name": "Guardian Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/31/Guardian_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
  },
  {
   "name": "Guardian Scale",
@@ -1357,7 +1357,7 @@
  },
  {
   "name": "Guardian Seikret Feather Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/87/Guardian_seikret_feather_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_seikret_feather_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Green.png"
  },
  {
   "name": "Guardian Seikret Feather",
@@ -1433,7 +1433,7 @@
  },
  {
   "name": "Hirabami Hide Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c7/Hirabami_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hirabami_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Purple.png"
  },
  {
   "name": "Hirabami Hide",
@@ -1441,7 +1441,7 @@
  },
  {
   "name": "Hirabami Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/12/Hirabami_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hirabami_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Purple.png"
  },
  {
   "name": "Hirabami Scale",
@@ -1449,7 +1449,7 @@
  },
  {
   "name": "Hirabami Tail Claw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8c/Hirabami_tail_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hirabami_tail_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Purple.png"
  },
  {
   "name": "Hirabami Tail Claw",
@@ -1457,7 +1457,7 @@
  },
  {
   "name": "Hirabami Webbing Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/01/Hirabami_webbing_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Hirabami_webbing_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Purple.png"
  },
  {
   "name": "Hirabami Webbing",
@@ -1497,7 +1497,7 @@
  },
  {
   "name": "Jin Dahaad Claw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4d/Jin_dahaad_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Jin_dahaad_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.png"
  },
  {
   "name": "Jin Dahaad Horn",
@@ -1553,7 +1553,7 @@
  },
  {
   "name": "Jin Dahaad Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6f/Jin_dahaad_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Jin_dahaad_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Brown.png"
  },
  {
   "name": "Jin Dahaad Tail",
@@ -1561,7 +1561,7 @@
  },
  {
   "name": "Kranodath Skull Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7a/Kranodath_skull_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Kranodath_skull_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Purple.png"
  },
  {
   "name": "Kranodath Skull",
@@ -1577,7 +1577,7 @@
  },
  {
   "name": "Kut-Ku Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/29/Kut-ku_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Kut-ku_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Pink.png"
  },
  {
   "name": "Kut-Ku Wing",
@@ -1589,15 +1589,15 @@
  },
  {
   "name": "Lagiacrus Claw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/01/Lagiacrus_claw_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Lagiacrus_claw_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Light_Blue.png"
  },
  {
   "name": "Lagiacrus Hide Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/52/Lagiacrus_hide_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Lagiacrus_hide_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Light_Blue.png"
  },
  {
   "name": "Lagiacrus Horn Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1a/Lagiacrus_horn_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Lagiacrus_horn_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Light_Blue.png"
  },
  {
   "name": "Lagiacrus Sapphire",
@@ -1605,7 +1605,7 @@
  },
  {
   "name": "Lagiacrus Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0f/Lagiacrus_scale_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Lagiacrus_scale_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Light_Blue.png"
  },
  {
   "name": "Lagiacrus Shockspike",
@@ -1629,7 +1629,7 @@
  },
  {
   "name": "Lala Barina Claw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/48/Lala_barina_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Rose.png"
  },
  {
   "name": "Lala Barina Claw",
@@ -1637,7 +1637,7 @@
  },
  {
   "name": "Lala Barina Floret Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/91/Lala_barina_floret_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_floret_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
  },
  {
   "name": "Lala Barina Floret",
@@ -1645,7 +1645,7 @@
  },
  {
   "name": "Lala Barina Mucus Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/84/Lala_barina_mucus_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_mucus_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Rose.png"
  },
  {
   "name": "Lala Barina Mucus",
@@ -1657,7 +1657,7 @@
  },
  {
   "name": "Lala Barina Stinger Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f9/Lala_barina_stinger_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Lala_barina_stinger_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.png"
  },
  {
   "name": "Lala Barina Stinger",
@@ -1721,7 +1721,7 @@
  },
  {
   "name": "Nerscylla Claw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/17/Nerscylla_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nerscylla_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
  },
  {
   "name": "Nerscylla Claw",
@@ -1737,7 +1737,7 @@
  },
  {
   "name": "Nerscylla Spike Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5a/Nerscylla_spike_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nerscylla_spike_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.png"
  },
  {
   "name": "Nerscylla Spike",
@@ -1769,7 +1769,7 @@
  },
  {
   "name": "Nu Udra Hide Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4e/Nu_udra_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Gray.png"
  },
  {
   "name": "Nu Udra Hide",
@@ -1777,7 +1777,7 @@
  },
  {
   "name": "Nu Udra Horn Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/57/Nu_udra_horn_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_horn_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
  },
  {
   "name": "Nu Udra Horn",
@@ -1785,7 +1785,7 @@
  },
  {
   "name": "Nu Udra Oilmucus Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f8/Nu_udra_oilmucus_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_oilmucus_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Gray.png"
  },
  {
   "name": "Nu Udra Oilmucus",
@@ -1793,7 +1793,7 @@
  },
  {
   "name": "Nu Udra Spike Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5c/Nu_udra_spike_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_spike_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
  },
  {
   "name": "Nu Udra Spike",
@@ -1801,7 +1801,7 @@
  },
  {
   "name": "Nu Udra Tentacle Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3d/Nu_udra_tentacle_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Nu_udra_tentacle_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.png"
  },
  {
   "name": "Nu Udra Tentacle",
@@ -1825,7 +1825,7 @@
  },
  {
   "name": "Piragill Fin Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/03/Piragill_fin_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Piragill_fin_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Red.png"
  },
  {
   "name": "Piragill Fin",
@@ -1849,7 +1849,7 @@
  },
  {
   "name": "Quematrice Crest Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3d/Quematrice_crest_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_crest_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Red.png"
  },
  {
   "name": "Quematrice Crest",
@@ -1857,7 +1857,7 @@
  },
  {
   "name": "Quematrice Hide Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/05/Quematrice_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Blue.png"
  },
  {
   "name": "Quematrice Hide",
@@ -1865,7 +1865,7 @@
  },
  {
   "name": "Quematrice Igniter Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c4/Quematrice_igniter_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_igniter_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Red.png"
  },
  {
   "name": "Quematrice Igniter",
@@ -1873,7 +1873,7 @@
  },
  {
   "name": "Quematrice Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/65/Quematrice_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Quematrice_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Blue.png"
  },
  {
   "name": "Quematrice Scale",
@@ -1897,7 +1897,7 @@
  },
  {
   "name": "Rathalos Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/94/Rathalos_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathalos_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Red.png"
  },
  {
   "name": "Rathalos Tail",
@@ -1921,11 +1921,11 @@
  },
  {
   "name": "Rathian Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b6/Rathian_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathian_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Green.png"
  },
  {
   "name": "Rathian Spike Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1f/Rathian_spike_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rathian_spike_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Green.png"
  },
  {
   "name": "Rathian Webbing",
@@ -1969,7 +1969,7 @@
  },
  {
   "name": "Rey Dau Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5a/Rey_dau_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rey_dau_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.png"
  },
  {
   "name": "Rey Dau Scale",
@@ -1989,7 +1989,7 @@
  },
  {
   "name": "Rompopolo Beak Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3c/Rompopolo_beak_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rompopolo_beak_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Dark_Blue.png"
  },
  {
   "name": "Rompopolo Beak",
@@ -2005,7 +2005,7 @@
  },
  {
   "name": "Rompopolo Claw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ca/Rompopolo_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rompopolo_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Dark_Blue.png"
  },
  {
   "name": "Rompopolo Claw",
@@ -2013,7 +2013,7 @@
  },
  {
   "name": "Rompopolo Hide Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/98/Rompopolo_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rompopolo_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Blue.png"
  },
  {
   "name": "Rompopolo Hide",
@@ -2021,7 +2021,7 @@
  },
  {
   "name": "Rubbery Hide Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/20/Rubbery_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Rubbery_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Blue.png"
  },
  {
   "name": "Rubbery Hide",
@@ -2093,7 +2093,7 @@
  },
  {
   "name": "Spotted Poison Hide Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/13/Spotted_poison_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Spotted_poison_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Blue.png"
  },
  {
   "name": "Spotted Poison Hide",
@@ -2121,7 +2121,7 @@
  },
  {
   "name": "Talioth Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ca/Talioth_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Talioth_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Orange.png"
  },
  {
   "name": "Talioth Scale",
@@ -2153,7 +2153,7 @@
  },
  {
   "name": "Uth Duna Cilia Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c2/Uth_duna_cilia_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_cilia_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.png"
  },
  {
   "name": "Uth Duna Cilia",
@@ -2161,7 +2161,7 @@
  },
  {
   "name": "Uth Duna Claw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e5/Uth_duna_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Violet.png"
  },
  {
   "name": "Uth Duna Claw",
@@ -2169,7 +2169,7 @@
  },
  {
   "name": "Uth Duna Hide Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/35/Uth_duna_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Violet.png"
  },
  {
   "name": "Uth Duna Hide",
@@ -2181,7 +2181,7 @@
  },
  {
   "name": "Uth Duna Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ce/Uth_duna_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_scale_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Violet.png"
  },
  {
   "name": "Uth Duna Scale",
@@ -2189,7 +2189,7 @@
  },
  {
   "name": "Uth Duna Tentacle Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/13/Uth_duna_tentacle_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Uth_duna_tentacle_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Pink.png"
  },
  {
   "name": "Uth Duna Tentacle",
@@ -2217,7 +2217,7 @@
  },
  {
   "name": "Vibrant Pelt Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1c/Vibrant_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Vibrant_pelt_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Yellow.png"
  },
  {
   "name": "Vibrant Pelt",
@@ -2233,7 +2233,7 @@
  },
  {
   "name": "Wingdrake Hide Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b0/Wingdrake_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Wingdrake_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Tan.png"
  },
  {
   "name": "Wingdrake Hide",
@@ -2281,7 +2281,7 @@
  },
  {
   "name": "Xu Wu Claw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3f/Xu_wu_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_claw_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
  },
  {
   "name": "Xu Wu Claw",
@@ -2289,7 +2289,7 @@
  },
  {
   "name": "Xu Wu Fang Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7a/Xu_wu_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
  },
  {
   "name": "Xu Wu Fang",
@@ -2297,7 +2297,7 @@
  },
  {
   "name": "Xu Wu Hide Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c1/Xu_wu_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_hide_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Gray.png"
  },
  {
   "name": "Xu Wu Hide",
@@ -2305,7 +2305,7 @@
  },
  {
   "name": "Xu Wu Tentacle Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/26/Xu_wu_tentacle_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Xu_wu_tentacle_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.png"
  },
  {
   "name": "Xu Wu Umbragem",
@@ -2333,7 +2333,7 @@
  },
  {
   "name": "Gore Magala Feeler Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b6/Gore_magala_feeler_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Gore_magala_feeler_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Gray.png"
  },
  {
   "name": "Gore Magala Tail",
@@ -2341,7 +2341,7 @@
  },
  {
   "name": "Guardian Doshaguma Fang Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d0/Guardian_doshaguma_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-Guardian_doshaguma_fang_plus_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
  },
  {
   "name": "Guardian Fulgur Gem",
@@ -2365,15 +2365,15 @@
  },
  {
   "name": "Mizutsune Fin Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/73/Piragill_fin_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Piragill_fin_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Pink.png"
  },
  {
   "name": "Mizutsune Claw Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/95/Mizutsune_claw_s_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Mizutsune_claw_s_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Dark_Purple.png"
  },
  {
   "name": "Mizutsune Purplefur Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1c/Mizutsune_purplefur_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Mizutsune_purplefur_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Purple.png"
  },
  {
   "name": "Mizutsune Tail",
@@ -2381,11 +2381,11 @@
  },
  {
   "name": "Mizutsune Scale Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/47/Mizutsune_scale_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Mizutsune_scale_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
  },
  {
   "name": "Bubblefoam Plus",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/82/Bubblefoam_plus_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Bubblefoam_plus_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Purple.png"
  },
  {
   "name": "Mizutsune Certificate S",
@@ -2576,14 +2576,6 @@
   "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_Green.png"
  },
  {
-  "name": "Rathian Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Green.png"
- },
- {
-  "name": "Rathian Spike+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Green.png"
- },
- {
   "name": "First-aid Med",
   "icon": "data/images/items_mhwikiorg/MHWilds-Medicine_Icon_Green.png"
  },
@@ -2756,176 +2748,8 @@
   "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_White.png"
  },
  {
-  "name": "Chatacabra Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Green.png"
- },
- {
-  "name": "Chatacabra Jaw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Green.png"
- },
- {
-  "name": "Chatacabra Hide+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Green.png"
- },
- {
-  "name": "Quematrice Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Blue.png"
- },
- {
-  "name": "Quematrice Hide+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Blue.png"
- },
- {
-  "name": "Quematrice Igniter+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Red.png"
- },
- {
-  "name": "Quematrice Crest+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Red.png"
- },
- {
-  "name": "Lala Barina Floret+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Lala Barina Claw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Rose.png"
- },
- {
-  "name": "Lala Barina Stinger+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.png"
- },
- {
-  "name": "Balahara Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Gray.png"
- },
- {
-  "name": "Balahara Skull+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Gray.png"
- },
- {
-  "name": "Doshaguma Fur+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.png"
- },
- {
-  "name": "Doshaguma Hide+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.png"
- },
- {
-  "name": "Doshaguma Claw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.png"
- },
- {
-  "name": "Doshaguma Fang+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.png"
- },
- {
-  "name": "Uth Duna Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Violet.png"
- },
- {
-  "name": "Uth Duna Hide+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Violet.png"
- },
- {
-  "name": "Uth Duna Cilia+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.png"
- },
- {
-  "name": "Uth Duna Tentacle+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Pink.png"
- },
- {
-  "name": "Uth Duna Claw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Violet.png"
- },
- {
-  "name": "Rompopolo Hide+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Blue.png"
- },
- {
-  "name": "Rompopolo Claw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Dark_Blue.png"
- },
- {
-  "name": "Spotted Poison Hide+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Blue.png"
- },
- {
-  "name": "Rompopolo Beak+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Dark_Blue.png"
- },
- {
-  "name": "Rey Dau Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.png"
- },
- {
-  "name": "Hirabami Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Purple.png"
- },
- {
-  "name": "Hirabami Hide+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Purple.png"
- },
- {
-  "name": "Hirabami Webbing+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Purple.png"
- },
- {
-  "name": "Hirabami Tail Claw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Purple.png"
- },
- {
-  "name": "Ajarakan Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Vermilion.png"
- },
- {
-  "name": "Ajarakan Ridge+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Vermilion.png"
- },
- {
-  "name": "Ajarakan Jewel+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Vermilion.png"
- },
- {
-  "name": "Nu Udra Hide+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Gray.png"
- },
- {
-  "name": "Nu Udra Spike+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Nu Udra Horn+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Nu Udra Tentacle+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.png"
- },
- {
-  "name": "Nu Udra Oilmucus+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Gray.png"
- },
- {
   "name": "G. Doshaguma Certificate",
   "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Guardian Doshaguma Fur+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Guardian Doshaguma Hide+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Guardian Doshaguma Claw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Guardian Doshaguma Fang+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
  },
  {
   "name": "G. Doshaguma Certificate S",
@@ -2936,10 +2760,6 @@
   "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
  },
  {
-  "name": "Guardian Rathalos Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
   "name": "Equipped Mantles",
   "icon": "data/images/items_mhwikiorg/MHWilds-Cape_Icon_White.png"
  },
@@ -2948,72 +2768,16 @@
   "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
  },
  {
-  "name": "Jin Dahaad Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Brown.png"
- },
- {
-  "name": "Jin Dahaad Claw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.png"
- },
- {
   "name": "G. Ebony Odogaron Certificate",
   "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Sinew+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Claw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Fang+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
  },
  {
   "name": "G. Ebony Odogaron Certificate S",
   "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
  },
  {
-  "name": "Xu Wu Hide+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Gray.png"
- },
- {
-  "name": "Golden Corneum+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Yellow.png"
- },
- {
-  "name": "Xu Wu Tentacle+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.png"
- },
- {
-  "name": "Xu Wu Claw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Xu Wu Fang+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Guardian Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
   "name": "EZ Large Dung Pod",
   "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Brown.png"
- },
- {
-  "name": "Arkveld Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Arkveld Horn+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
  },
  {
   "name": "Heavy Blunt Pod",
@@ -3040,124 +2804,8 @@
   "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Blue.png"
  },
  {
-  "name": "Guardian Fulgur Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Guardian Fulgur Pelt+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Guardian Fulgur Fang+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Guardian Fulgur Nosebone+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_White.png"
- },
- {
-  "name": "Talioth Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Orange.png"
- },
- {
-  "name": "Wingdrake Hide+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Tan.png"
- },
- {
-  "name": "Piragill Fin+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Red.png"
- },
- {
-  "name": "Kranodath Skull+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Purple.png"
- },
- {
-  "name": "Guardian Seikret Feather+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Green.png"
- },
- {
-  "name": "Congalala Pelt+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.png"
- },
- {
-  "name": "Congalala Claw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Pink.png"
- },
- {
-  "name": "Congalala Fang+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Pink.png"
- },
- {
-  "name": "Vibrant Pelt+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Yellow.png"
- },
- {
-  "name": "Nerscylla Claw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Nerscylla Spike+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.png"
- },
- {
-  "name": "Kut-Ku Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Pink.png"
- },
- {
-  "name": "Rubbery Hide+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Blue.png"
- },
- {
-  "name": "Blangonga Pelt+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Blangonga Fang+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Gravios Pleura+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.png"
- },
- {
-  "name": "Rathalos Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Red.png"
- },
- {
-  "name": "Gore Magala Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Gray.png"
- },
- {
-  "name": "Gore Magala Wing+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_Gray.png"
- },
- {
-  "name": "Gore Magala Ripclaw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Gray.png"
- },
- {
-  "name": "Gore Magala Feeler+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Gray.png"
- },
- {
-  "name": "Conga Pelt+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.png"
- },
- {
-  "name": "Blango Pelt+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
   "name": "Coruscating Crystal",
   "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.png"
- },
- {
-  "name": "Lala Barina Mucus+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Rose.png"
- },
- {
-  "name": "Guardian Blood+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_White.png"
  },
  {
   "name": "Glowing Orb - Sword",
@@ -3166,10 +2814,6 @@
  {
   "name": "Ancient Orb - Sword",
   "icon": "data/images/items_mhwikiorg/MHWilds-Decoration_Icon_Lemon.png"
- },
- {
-  "name": "Armor Sphere+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Armor_Sphere_Icon_Green.png"
  },
  {
   "name": "Rocksteady Mantle",
@@ -3228,10 +2872,6 @@
   "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.png"
  },
  {
-  "name": "Guardian Pelt+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
   "name": "Common Wood Minnow",
   "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_Brown.png"
  },
@@ -3288,48 +2928,8 @@
   "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Emerald.png"
  },
  {
-  "name": "Whetfish Fin+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.png"
- },
- {
   "name": "Expedition Headgear Ticket",
   "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Mizutsune Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Mizutsune Purplefur+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Purple.png"
- },
- {
-  "name": "Mizutsune Claw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Dark_Purple.png"
- },
- {
-  "name": "Mizutsune Fin+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Pink.png"
- },
- {
-  "name": "Bubblefoam+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Purple.png"
- },
- {
-  "name": "Lagiacrus Scale+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Light_Blue.png"
- },
- {
-  "name": "Lagiacrus Hide+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Light_Blue.png"
- },
- {
-  "name": "Lagiacrus Horn+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Light_Blue.png"
- },
- {
-  "name": "Lagiacrus Claw+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Light_Blue.png"
  },
  {
   "name": "Mutated Armament"
