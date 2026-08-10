@@ -89,6 +89,11 @@ const skillsIndexEl = document.getElementById("skills-index");
 const skillDetailEl = document.getElementById("skill-detail");
 let skills = [];
 let skillsByName = new Map();
+// Full MHRice item catalog (potions/bombs/ammo/etc, 1764 items) -- extends
+// the "Materiales" section beyond just monster-drop materials into a real
+// Materiales/Items catalog. See data/items.json + data/_mhrice_items_raw.json.
+let items = [];
+let itemsByName = new Map();
 let weapons = [];
 let armorPieces = [];
 let armorSets = [];
@@ -324,7 +329,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
@@ -334,6 +339,7 @@ async function init() {
       fetch("data/armor_sets.json"),
       fetch("data/skills.json"),
       fetch("data/weapon_tree.json"),
+      fetch("data/items.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
@@ -353,6 +359,8 @@ async function init() {
     skills = skillsRes.ok ? await skillsRes.json() : [];
     weaponsById = new Map(weapons.map(w => [w.id, w]));
     skillsByName = new Map(skills.filter(s => s.name).map(s => [s.name, s]));
+    items = itemsRes.ok ? await itemsRes.json() : [];
+    itemsByName = new Map(items.map(it => [it.name, it]));
     if (weaponTreeRes.ok) initWeaponTree(await weaponTreeRes.json());
   } catch (err) {
     triggerLabelEl.textContent = ui("selectError");
@@ -521,9 +529,12 @@ function materialIconTag(name) {
   // it ("Narwa Claw +") from an inconsistent original scrape -- normalize
   // the same way translateMaterial() already does so both forms hit the icon
   const src = materialIconManifest[name] || materialIconManifest[normalizeMaterialKey(name)];
-  return src
-    ? `<img class="material-icon" src="${src}" alt="" loading="lazy">`
-    : `<span class="material-icon material-icon--placeholder"></span>`;
+  if (src) return `<img class="material-icon" src="${src}" alt="" loading="lazy">`;
+  // Materiales/Items catalog fallback (consumables/tools/ammo -- not a
+  // monster-drop material, so never in the two lookups above)
+  const it = itemsByName.get(name) || itemsByName.get(normalizeMaterialKey(name));
+  if (it) return itemMaskIconTag(it.iconId, it.color, "material-icon");
+  return `<span class="material-icon material-icon--placeholder"></span>`;
 }
 
 function selectMonster(name, opts = {}) {
@@ -2051,18 +2062,32 @@ function showMaterialsView() {
   renderMaterialsIndex("");
 }
 
+// Materiales/Items catalog: monster-drop materials (materialIndex, cross-
+// referenced to "which monster gives this") stay their own untitled group
+// like before; items.json entries NOT already covered (potions/bombs/ammo/
+// etc -- no monster source) get grouped by their MHRice category underneath.
+const ITEM_CATEGORY_ORDER = ["consume", "tool", "material", "bullet", "bottle", "payoff", "offcuts", "carrypayoff", "antique"];
 function renderMaterialsIndex(query) {
   if (!materialIndex) buildMaterialIndex();
   const q = normalizeSearch((query || "").trim());
   const keys = [...materialIndex.keys()].sort((a, b) => trMaterial(a).localeCompare(trMaterial(b)));
   const filtered = !q ? keys : keys.filter(k => normalizeSearch(k).includes(q) || normalizeSearch(trMaterial(k)).includes(q));
 
-  if (!filtered.length) {
+  const extraByCategory = new Map();
+  for (const it of items) {
+    if (materialIndex.has(normalizeMaterialKey(it.name))) continue; // already shown above
+    if (q && !normalizeSearch(it.name).includes(q) && !normalizeSearch(it.nameEs || "").includes(q)) continue;
+    if (!extraByCategory.has(it.category)) extraByCategory.set(it.category, []);
+    extraByCategory.get(it.category).push(it.name);
+  }
+  for (const list of extraByCategory.values()) list.sort((a, b) => trMaterial(a).localeCompare(trMaterial(b)));
+
+  if (!filtered.length && !extraByCategory.size) {
     materialsIndexEl.innerHTML = `<p class="no-data">${ui("materialsNoResults")}</p>`;
     return;
   }
 
-  materialsIndexEl.innerHTML = `
+  let html = filtered.length ? `
     <div class="decorations-slot-group">
       <div class="decorations-grid">
         ${filtered.map(k => `
@@ -2073,7 +2098,27 @@ function renderMaterialsIndex(query) {
         `).join("")}
       </div>
     </div>
-  `;
+  ` : "";
+
+  for (const cat of ITEM_CATEGORY_ORDER) {
+    const names = extraByCategory.get(cat);
+    if (!names || !names.length) continue;
+    html += `
+      <div class="decorations-slot-group">
+        <h3 class="decorations-slot-heading">${ui("itemCategory_" + cat)}</h3>
+        <div class="decorations-grid">
+          ${names.map(k => `
+            <button type="button" class="decoration-card" data-key="${escapeAttr(k)}">
+              ${materialIconTag(k)}
+              <span class="decoration-card-name">${trMaterial(k)}</span>
+            </button>
+          `).join("")}
+        </div>
+      </div>
+    `;
+  }
+
+  materialsIndexEl.innerHTML = html;
   materialsIndexEl.querySelectorAll(".decoration-card").forEach(btn => {
     btn.addEventListener("click", () => navMaterial(btn.dataset.key));
   });
@@ -2924,6 +2969,17 @@ function newsSilhouettePreviewHtml() {
 // Kept as a plain array instead of a JSON file since it's small, hand-written,
 // and tied 1:1 to the i18n keys that hold its translated text.
 const NEWS = [
+  {
+    id: "v05",
+    tagKey: "newsV05Tag",
+    titleKey: "newsV05Title",
+    textKey: "newsV05Text",
+    bulletsKey: "newsV05Bullets",
+    imageHtml: () => `
+      ${itemMaskIconTag("010", 4, "news-item-icon")}
+      ${itemMaskIconTag("021", 7, "news-item-icon")}
+    `,
+  },
   {
     id: "v04",
     tagKey: "newsV04Tag",

@@ -2159,12 +2159,21 @@ function renderMaterialsIndex(query) {
   const keys = [...materialIndex.keys()].sort((a, b) => trMaterial(a).localeCompare(trMaterial(b)));
   const filtered = !q ? keys : keys.filter(k => normalizeSearch(k).includes(q) || normalizeSearch(trMaterial(k)).includes(q));
 
-  if (!filtered.length) {
+  // Materiales/Items: items_wilds.json (607+ consumables/ammo/etc scraped
+  // from Fextralife's /Items page, no monster source) shown as their own
+  // group below the monster-drop materials -- no category field on this
+  // side (unlike Rise's MHRice dump), so one flat "Items" group.
+  const itemNames = Object.keys(itemIconManifest)
+    .filter(n => !materialIndex.has(normalizeMaterialKey(n)))
+    .filter(n => !q || normalizeSearch(n).includes(q))
+    .sort((a, b) => trMaterial(a).localeCompare(trMaterial(b)));
+
+  if (!filtered.length && !itemNames.length) {
     materialsIndexEl.innerHTML = `<p class="no-data">${ui("materialsNoResults")}</p>`;
     return;
   }
 
-  materialsIndexEl.innerHTML = `
+  let html = filtered.length ? `
     <div class="decorations-slot-group">
       <div class="decorations-grid">
         ${filtered.map(k => `
@@ -2175,12 +2184,29 @@ function renderMaterialsIndex(query) {
         `).join("")}
       </div>
     </div>
-  `;
+  ` : "";
+
+  if (itemNames.length) {
+    html += `
+      <div class="decorations-slot-group">
+        <h3 class="decorations-slot-heading">${ui("itemsHeading")}</h3>
+        <div class="decorations-grid">
+          ${itemNames.map(k => `
+            <button type="button" class="decoration-card" data-key="${escapeAttr(k)}">
+              ${materialIconTag(k)}
+              <span class="decoration-card-name">${trMaterial(k)}</span>
+            </button>
+          `).join("")}
+        </div>
+      </div>
+    `;
+  }
+
+  materialsIndexEl.innerHTML = html;
   materialsIndexEl.querySelectorAll(".decoration-card").forEach(btn => {
     btn.addEventListener("click", () => navMaterial(btn.dataset.key));
   });
 }
-
 function showMaterialDetail(matKey) {
   if (!materialIndex) buildMaterialIndex();
   const key = normalizeMaterialKey(matKey);
@@ -3148,6 +3174,15 @@ function newsSilhouettePreviewHtml() {
 // no reusa el changelog de Rise, que hablaria de features/imagenes que
 // no existen aca).
 const NEWS = [
+  {
+    id: "v02",
+    tagKey: null,
+    tag: "v0.2 Alpha",
+    titleKey: "newsV02Title",
+    textKey: "newsV02Text",
+    bulletsKey: "newsV02Bullets",
+    imageHtml: () => `<img src="data/images/rey-dau.webp" alt="" loading="lazy">`,
+  },
   {
     id: "v01",
     tagKey: null,

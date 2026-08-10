@@ -12,7 +12,7 @@ const I18N = {
       titleDecorations: "Adornos — Bestiario MH Rise: Sunbreak",
       titleWeapons: "Armas — Bestiario MH Rise: Sunbreak",
       titleArmor: "Armaduras — Bestiario MH Rise: Sunbreak",
-      titleMaterials: "Materiales — Bestiario MH Rise: Sunbreak",
+      titleMaterials: "Materiales/Items — Bestiario MH Rise: Sunbreak",
       titleSkills: "Habilidades — Bestiario MH Rise: Sunbreak",
       hubTitle: "Bestiario Monster Hunter",
       hubSubtitle: "Elige un juego para explorar su guía completa",
@@ -117,6 +117,15 @@ const I18N = {
         "Nombres de materiales y habilidades clickeables en Adornos, Armas, Armaduras y el buscador global — un click te lleva directo a su página.",
         "Selector ES/EN con bandera de fondo (España/Reino Unido).",
       ],
+      newsV05Tag: "v0.5",
+      newsV05Title: "Materiales/Items: catálogo completo del juego",
+      newsV05Text: "La sección de Materiales se convierte en Materiales/Items: además de los materiales que dropean los monstruos, ahora están los 1.764 ítems del juego — pociones, bombas, munición, herramientas y más — cada uno con su ícono real y traducción al español.",
+      newsV05Bullets: [
+        "1.764 ítems nuevos catalogados: consumibles, herramientas, munición, frascos, recompensas y antigüedades, además de los materiales de monstruo que ya estaban.",
+        "Íconos reales para todos — mismo sistema de máscaras de 2 capas que ya usaban materiales, decoraciones y habilidades.",
+        "Traducción al español para el 88% de los ítems nuevos, cruzando contra el diccionario ya existente de Kiranico.",
+        "Los que no dropea ningún monstruo (pociones, bombas, etc.) muestran claramente que se consiguen por otra vía en vez de un desplegable vacío.",
+      ],
       newsV04Tag: "v0.4",
       newsV04Title: "Navegación renovada y galería de armaduras completa",
       newsV04Text: "El sitio ahora tiene URLs propias por sección — más rápido, más estable, y cada página guarda su estado sin bugs. La galería de armaduras saltó de 62 a 224 sets: base, S y X de cada familia, todos con sus imágenes, materiales y habilidades en español listas para explorar.",
@@ -162,7 +171,16 @@ const I18N = {
       armorPartArms: "Brazos",
       armorPartWaist: "Cintura",
       armorPartLegs: "Piernas",
-      materialsNav: "Materiales",
+      materialsNav: "Materiales/Items",
+      itemCategory_consume: "Consumibles",
+      itemCategory_tool: "Herramientas",
+      itemCategory_material: "Materiales",
+      itemCategory_bullet: "Munición",
+      itemCategory_bottle: "Frascos",
+      itemCategory_payoff: "Recompensas",
+      itemCategory_offcuts: "Retazos",
+      itemCategory_carrypayoff: "Recompensas de misión",
+      itemCategory_antique: "Antigüedades",
       materialsSearchPlaceholder: "Buscar material…",
       materialsBack: "← Volver a materiales",
       materialsNoResults: "Sin materiales que coincidan",
@@ -190,7 +208,7 @@ const I18N = {
       titleDecorations: "Decorations — Bestiary MH Rise: Sunbreak",
       titleWeapons: "Weapons — Bestiary MH Rise: Sunbreak",
       titleArmor: "Armor — Bestiary MH Rise: Sunbreak",
-      titleMaterials: "Materials — Bestiary MH Rise: Sunbreak",
+      titleMaterials: "Materials/Items — Bestiary MH Rise: Sunbreak",
       titleSkills: "Skills — Bestiary MH Rise: Sunbreak",
       hubTitle: "Monster Hunter Bestiary",
       hubSubtitle: "Choose a game to explore its full guide",
@@ -284,6 +302,15 @@ const I18N = {
         "Every crafting material links straight to which monster(s) drop it and at what rank.",
         "All wired into global search, just like Decorations already was.",
       ],
+      newsV05Tag: "v0.5",
+      newsV05Title: "Materials/Items: the game's full item catalog",
+      newsV05Text: "The Materials section becomes Materials/Items: alongside the materials monsters drop, it now covers all 1,764 items in the game — potions, bombs, ammo, tools and more — each with a real icon and Spanish translation.",
+      newsV05Bullets: [
+        "1,764 new items cataloged: consumables, tools, ammo, bottles, rewards and antiques, on top of the monster materials that were already there.",
+        "Real icons for all of them — same 2-layer mask system already used for materials, decorations and skills.",
+        "Spanish translation for 88% of the new items, cross-referenced against the existing Kiranico dictionary.",
+        "Items no monster drops (potions, bombs, etc.) now clearly show they're obtained another way instead of an empty dropdown.",
+      ],
       newsV04Tag: "v0.4",
       newsV04Title: "Renewed navigation and complete armor gallery",
       newsV04Text: "The site now has dedicated URLs per section — faster, more stable, and each page keeps its state without bugs. The armor gallery jumped from 62 to 224 sets: base, S and X variants for every family, all with their images, materials and Spanish skill names ready to explore.",
@@ -341,7 +368,16 @@ const I18N = {
       armorPartArms: "Arms",
       armorPartWaist: "Waist",
       armorPartLegs: "Legs",
-      materialsNav: "Materials",
+      materialsNav: "Materials/Items",
+      itemCategory_consume: "Consumables",
+      itemCategory_tool: "Tools",
+      itemCategory_material: "Materials",
+      itemCategory_bullet: "Ammo",
+      itemCategory_bottle: "Bottles",
+      itemCategory_payoff: "Rewards",
+      itemCategory_offcuts: "Scraps",
+      itemCategory_carrypayoff: "Quest Rewards",
+      itemCategory_antique: "Antiques",
       materialsSearchPlaceholder: "Search material…",
       materialsBack: "← Back to materials",
       materialsNoResults: "No matching materials",
@@ -632,5 +668,15 @@ function normalizeMaterialKey(s) {
 }
 
 function translateMaterial(name) {
-  return I18N.materials[normalizeMaterialKey(name)] || name;
+  const key = normalizeMaterialKey(name);
+  if (I18N.materials[key]) return I18N.materials[key];
+  // Materiales/Items catalog (app.js, loaded from data/items.json) --
+  // translateMaterial() is defined here (loaded before app.js) but only
+  // CALLED later during rendering, by which point itemsByName is populated,
+  // so this forward reference resolves fine in classic-script scope.
+  if (typeof itemsByName !== "undefined") {
+    const it = itemsByName.get(name) || itemsByName.get(key);
+    if (it && it.nameEs) return it.nameEs;
+  }
+  return name;
 }

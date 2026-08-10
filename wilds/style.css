@@ -634,7 +634,7 @@ body {
   color: var(--accent);
 }
 .news-item-toggle-label::after {
-  content: "â–¾";
+  content: "▾";
   display: inline-block;
   margin-left: 0.35rem;
   transition: transform 0.15s ease;
@@ -1350,7 +1350,7 @@ body {
 .ailment-item summary::-webkit-details-marker { display: none; }
 
 .ailment-item summary::after {
-  content: "â–¾";
+  content: "▾";
   color: var(--text-dim);
   font-size: 0.75rem;
   margin-left: 0.4rem;
@@ -1598,7 +1598,7 @@ body {
 }
 .decoration-material-sources summary::-webkit-details-marker { display: none; }
 .decoration-material-sources summary::after {
-  content: "â–¾";
+  content: "▾";
   margin-left: 0.35rem;
   font-size: 0.7rem;
 }
