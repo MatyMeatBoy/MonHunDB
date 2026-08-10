@@ -6723,5 +6723,101 @@
         "name": "Droth Greaves X"
       }
     ]
+  },
+  {
+    "name": "Flaming Espinas Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/flaming-espinas.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1844481988",
+        "name": "Flaming Espinas Brain"
+      },
+      {
+        "part": "chest",
+        "id": "1675661252",
+        "name": "Flaming Espinas Muscle"
+      },
+      {
+        "part": "arms",
+        "id": "1641058244",
+        "name": "Flaming Espinas Grip"
+      },
+      {
+        "part": "waist",
+        "id": "1740672964",
+        "name": "Flaming Espinas Bowels"
+      },
+      {
+        "part": "legs",
+        "id": "1706069956",
+        "name": "Flaming Espinas Heel"
+      }
+    ]
+  },
+  {
+    "name": "Risen Kushala Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/risen-kushala.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1418846278",
+        "name": "Risen Kushala Glare"
+      },
+      {
+        "part": "chest",
+        "id": "713154630",
+        "name": "Risen Kushala Iram"
+      },
+      {
+        "part": "arms",
+        "id": "678551622",
+        "name": "Risen Kushala Grande"
+      },
+      {
+        "part": "waist",
+        "id": "778166342",
+        "name": "Risen Kushala Cocoon"
+      },
+      {
+        "part": "legs",
+        "id": "743563334",
+        "name": "Risen Kushala Crus"
+      }
+    ]
+  },
+  {
+    "name": "Golden Lune Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/golden-lune-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1662998567",
+        "name": "Golden Lunehelm"
+      },
+      {
+        "part": "chest",
+        "id": "1628395559",
+        "name": "Golden Lunemail"
+      },
+      {
+        "part": "arms",
+        "id": "1627346983",
+        "name": "Golden Lunebraces"
+      },
+      {
+        "part": "waist",
+        "id": "1726961703",
+        "name": "Golden Lunecoil"
+      },
+      {
+        "part": "legs",
+        "id": "1692358695",
+        "name": "Golden Lunegreaves"
+      }
+    ]
   }
 ]
