@@ -281,6 +281,11 @@ function applyI18nText(root) {
     const val = I18N.ui[lang][key];
     if (typeof val === "string") el.textContent = val;
   });
+  root.querySelectorAll("[data-i18n-title]").forEach(el => {
+    const key = el.dataset.i18nTitle;
+    const val = I18N.ui[lang][key];
+    if (typeof val === "string") el.setAttribute("title", val);
+  });
 }
 
 function applyUiStrings() {
@@ -3005,7 +3010,7 @@ function renderHitzones(container, hitzones) {
 
 function normalizeDropText(text) {
   if (!text) return text;
-  return text.replace(/\bx1\b/g, "").replace(/\s+/g, " ").replace(/\bx(\d+)\b/g, "[x$1]").trim();
+  return text.replace(/\bPalico\s*/gi, "").replace(/\bx1\b/g, "").replace(/\s+/g, " ").replace(/\bx(\d+)\b/g, "[x$1]").trim();
 }
 
 function renderMaterialsTable(tbody, rows) {
