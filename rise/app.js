@@ -3003,11 +3003,17 @@ function renderHitzones(container, hitzones) {
   `;
 }
 
+function normalizeDropText(text) {
+  if (!text) return text;
+  return text.replace(/\bx1\b/g, "").replace(/\s+/g, " ").replace(/\bx(\d+)\b/g, "[x$1]").trim();
+}
+
 function renderMaterialsTable(tbody, rows) {
   if (!rows || !rows.length) {
     tbody.innerHTML = `<tr><td colspan="7" class="no-data">${ui("noMaterialsForRank")}</td></tr>`;
     return;
   }
+  const fmt = (text, mat) => annotateAnomalyLevel(trPartTokens(normalizeDropText(text)), mat) || "—";
   tbody.innerHTML = rows.map(r => `
     <tr>
       <td class="material-name">
@@ -3016,11 +3022,11 @@ function renderMaterialsTable(tbody, rows) {
         </button>
       </td>
       <td>${r.rarity ?? "—"}</td>
-      <td>${annotateAnomalyLevel(trPartTokens(r.targetReward), r.material) || "—"}</td>
-      <td>${annotateAnomalyLevel(trPartTokens(r.capture), r.material) || "—"}</td>
-      <td>${annotateAnomalyLevel(trPartTokens(r.breakParts), r.material) || "—"}</td>
-      <td>${annotateAnomalyLevel(trPartTokens(r.carves), r.material) || "—"}</td>
-      <td>${annotateAnomalyLevel(trPartTokens(r.dropped), r.material) || "—"}</td>
+      <td>${fmt(r.targetReward, r.material)}</td>
+      <td>${fmt(r.capture, r.material)}</td>
+      <td>${fmt(r.breakParts, r.material)}</td>
+      <td>${fmt(r.carves, r.material)}</td>
+      <td>${fmt(r.dropped, r.material)}</td>
     </tr>
   `).join("");
   tbody.querySelectorAll("[data-mat-key]").forEach(btn => {
