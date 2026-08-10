@@ -636,8 +636,13 @@ body {
   color: var(--accent);
 }
 .news-item-toggle-label::after {
-  content: "▾";
+  content: "";
   display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid var(--accent);
   margin-left: 0.35rem;
   transition: transform 0.15s ease;
 }
