@@ -7044,5 +7044,37 @@
         "name": "Slagtoth Cloak X"
       }
     ]
+  },
+  {
+    "name": "Guild Palace Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/guild-palace.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1619740736",
+        "name": "Guild Palace Helm"
+      },
+      {
+        "part": "chest",
+        "id": "1719355456",
+        "name": "Guild Palace Mail"
+      },
+      {
+        "part": "arms",
+        "id": "1684752448",
+        "name": "Guild Palace Braces"
+      },
+      {
+        "part": "waist",
+        "id": "2052802624",
+        "name": "Guild Palace Coil"
+      },
+      {
+        "part": "legs",
+        "id": "2018199616",
+        "name": "Guild Palace Greaves"
+      }
+    ]
   }
 ]
