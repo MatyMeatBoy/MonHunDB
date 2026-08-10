@@ -7208,14 +7208,14 @@
     "localImage": "data/images/armor_sets/chaos.png",
     "pieces": [
       {
+        "part": "head",
+        "id": "946042996",
+        "name": "Chaoshroom"
+      },
+      {
         "part": "chest",
         "id": "1045657716",
         "name": "Chaos Plate"
-      },
-      {
-        "part": null,
-        "id": "960800789",
-        "name": "Chaos Archbun"
       }
     ]
   },
@@ -7370,6 +7370,23 @@
         "part": "legs",
         "id": "607065756",
         "name": "Chrome Metal Boots X"
+      }
+    ]
+  },
+  {
+    "name": "Chaos S Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/chaos-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "960800789",
+        "name": "Chaos Archbun"
+      },
+      {
+        "part": "chest",
+        "id": "1060415509",
+        "name": "Chaos Archplate"
       }
     ]
   }
