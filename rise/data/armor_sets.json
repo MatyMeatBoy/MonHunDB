@@ -792,39 +792,6 @@
     "localImage": "data/images/armor_sets/rathalos-x-set.png"
   },
   {
-    "name": "Zinogre Set X",
-    "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/zinogre_x-male-set-mhr-wiki-guide.png",
-    "fextraHref": "https://monsterhunterrise.wiki.fextralife.com/Zinogre+Set+X",
-    "pieces": [
-      {
-        "part": "head",
-        "id": "985868263",
-        "name": "Zinogre Helm X"
-      },
-      {
-        "part": "chest",
-        "id": "951265255",
-        "name": "Zinogre Mail X"
-      },
-      {
-        "part": "arms",
-        "id": "1050879975",
-        "name": "Zinogre Braces X"
-      },
-      {
-        "part": "waist",
-        "id": "1016276967",
-        "name": "Zinogre Coil X"
-      },
-      {
-        "part": "legs",
-        "id": "847456231",
-        "name": "Zinogre Greaves X"
-      }
-    ],
-    "localImage": "data/images/armor_sets/zinogre-set-x.png"
-  },
-  {
     "name": "Lunagaron Set",
     "image": "https://monsterhunterrise.wiki.fextralife.com/file/Monster-Hunter-Rise/lunagaron-male-set-mhr-wiki-guide.png",
     "fextraHref": "https://monsterhunterrise.wiki.fextralife.com/Lunagaron+Set",
@@ -7357,7 +7324,7 @@
     ]
   },
   {
-    "name": "Chrome Metal Set X",
+    "name": "Chrome Metal X Set",
     "image": "",
     "localImage": "data/images/armor_sets/chrome-metal-x.png",
     "pieces": [
@@ -7460,6 +7427,330 @@
         "part": "legs",
         "id": "1413691321",
         "name": "Valstrax Greaves - Epoch"
+      }
+    ]
+  },
+  {
+    "name": "Channeler (Spring) Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/channeler-spring.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1869180171",
+        "name": "Channeler Hair Tie (Spring)"
+      },
+      {
+        "part": "chest",
+        "id": "1834577163",
+        "name": "Channeler Robe (Spring)"
+      },
+      {
+        "part": "arms",
+        "id": "1665756427",
+        "name": "Channeler Hope (Spring)"
+      },
+      {
+        "part": "waist",
+        "id": "1631153419",
+        "name": "Channeler Obi (Spring)"
+      },
+      {
+        "part": "legs",
+        "id": "1730768139",
+        "name": "Channeler Hakama (Spring)"
+      }
+    ]
+  },
+  {
+    "name": "Medium (Light) Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/medium-light.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1763970249",
+        "name": "Medium Hair Tie (Light)"
+      },
+      {
+        "part": "chest",
+        "id": "1863584969",
+        "name": "Medium Robe (Light)"
+      },
+      {
+        "part": "arms",
+        "id": "1828981961",
+        "name": "Medium Prayer (Light)"
+      },
+      {
+        "part": "waist",
+        "id": "1827933385",
+        "name": "Medium Obi (Light)"
+      },
+      {
+        "part": "legs",
+        "id": "1659112649",
+        "name": "Medium Hakama (Light)"
+      }
+    ]
+  },
+  {
+    "name": "Lecture Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/lecture.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "2081827210",
+        "name": "Lecturer Hood"
+      },
+      {
+        "part": "chest",
+        "id": "1913006474",
+        "name": "Lecturer Suit"
+      },
+      {
+        "part": "arms",
+        "id": "1911957898",
+        "name": "Lecturer Gloves"
+      },
+      {
+        "part": "waist",
+        "id": "2011572618",
+        "name": "Lecturer Skirt"
+      },
+      {
+        "part": "legs",
+        "id": "1976969610",
+        "name": "Lecturer Boots"
+      }
+    ]
+  },
+  {
+    "name": "Utsushi Set (Visible)",
+    "image": "",
+    "localImage": "data/images/armor_sets/utsushi-visible.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "557186892",
+        "name": "Utsushi Mask (V)"
+      },
+      {
+        "part": "chest",
+        "id": "656801612",
+        "name": "Utsushi Chest (V)"
+      },
+      {
+        "part": "arms",
+        "id": "622198604",
+        "name": "Utsushi Braces (V)"
+      },
+      {
+        "part": "waist",
+        "id": "990248780",
+        "name": "Utsushi Tassets (V)"
+      },
+      {
+        "part": "legs",
+        "id": "989200204",
+        "name": "Utsushi Greaves (V)"
+      }
+    ]
+  },
+  {
+    "name": "Utsushi Set (Hidden)",
+    "image": "",
+    "localImage": "data/images/armor_sets/utsushi-hidden.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "781401792",
+        "name": "Utsushi Mask (H)"
+      },
+      {
+        "part": "chest",
+        "id": "746798784",
+        "name": "Utsushi Chest (H)"
+      },
+      {
+        "part": "arms",
+        "id": "577978048",
+        "name": "Utsushi Braces (H)"
+      },
+      {
+        "part": "waist",
+        "id": "543375040",
+        "name": "Utsushi Tassets (H)"
+      },
+      {
+        "part": "legs",
+        "id": "642989760",
+        "name": "Utsushi Greaves (H)"
+      }
+    ]
+  },
+  {
+    "name": "Utsushi S Set (Visible)",
+    "image": "",
+    "localImage": "data/images/armor_sets/utsushi-s-visible.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "571420525",
+        "name": "Utsushi Mask (V) S"
+      },
+      {
+        "part": "chest",
+        "id": "570371949",
+        "name": "Utsushi Chest (V) S"
+      },
+      {
+        "part": "arms",
+        "id": "669986669",
+        "name": "Utsushi Braces (V) S"
+      },
+      {
+        "part": "waist",
+        "id": "635383661",
+        "name": "Utsushi Tassets (V) S"
+      },
+      {
+        "part": "legs",
+        "id": "1003433837",
+        "name": "Utsushi Greaves (V) S"
+      }
+    ]
+  },
+  {
+    "name": "Utsushi S Set (Hidden)",
+    "image": "",
+    "localImage": "data/images/armor_sets/utsushi-s-hidden.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "796159713",
+        "name": "Utsushi Mask (H) S"
+      },
+      {
+        "part": "chest",
+        "id": "761556705",
+        "name": "Utsushi Chest (H) S"
+      },
+      {
+        "part": "arms",
+        "id": "592735969",
+        "name": "Utsushi Braces (H) S"
+      },
+      {
+        "part": "waist",
+        "id": "558132961",
+        "name": "Utsushi Tassets (H) S"
+      },
+      {
+        "part": "legs",
+        "id": "657747681",
+        "name": "Utsushi Greaves (H) S"
+      }
+    ]
+  },
+  {
+    "name": "Utsushi True (Visible) Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/utsushi-true-visible.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1854946666",
+        "name": "Utsushi True Mask (V)"
+      },
+      {
+        "part": "chest",
+        "id": "1820343658",
+        "name": "Utsushi True Chest (V)"
+      },
+      {
+        "part": "arms",
+        "id": "1651522922",
+        "name": "Utsushi True Braces (V)"
+      },
+      {
+        "part": "waist",
+        "id": "1616919914",
+        "name": "Utsushi True Tassets (V)"
+      },
+      {
+        "part": "legs",
+        "id": "1716534634",
+        "name": "Utsushi True Greaves (V)"
+      }
+    ]
+  },
+  {
+    "name": "Utsushi True (Hidden) Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/utsushi-true-hidden.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "1749212456",
+        "name": "Utsushi True Mask (H)"
+      },
+      {
+        "part": "chest",
+        "id": "1848827176",
+        "name": "Utsushi True Chest (H)"
+      },
+      {
+        "part": "arms",
+        "id": "1814224168",
+        "name": "Utsushi True Braces (H)"
+      },
+      {
+        "part": "waist",
+        "id": "1645403432",
+        "name": "Utsushi True Tassets (H)"
+      },
+      {
+        "part": "legs",
+        "id": "1610800424",
+        "name": "Utsushi True Greaves (H)"
+      }
+    ]
+  },
+  {
+    "name": "Skull Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/skull.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "816573420",
+        "name": "Skull Visage"
+      }
+    ]
+  },
+  {
+    "name": "Skull S Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/skull-s.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "770935218",
+        "name": "Skull Visage S"
+      }
+    ]
+  },
+  {
+    "name": "Skull X Set",
+    "image": "",
+    "localImage": "data/images/armor_sets/skull-x.png",
+    "pieces": [
+      {
+        "part": "head",
+        "id": "759187133",
+        "name": "Skull Visage X"
       }
     ]
   }

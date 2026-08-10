@@ -337,6 +337,7 @@ async function init() {
       loadMaterialIconManifest(),
       loadMhriceIconMaps(),
       loadArmorFextraIcons(),
+      loadWeaponGame8Icons(),
     ]);
     if (!monstersRes.ok) throw new Error("HTTP " + monstersRes.status);
     monsters = await monstersRes.json();
@@ -478,6 +479,23 @@ async function loadArmorFextraIcons() {
     }
   } catch (e) {
     console.warn("No se pudo cargar el manifiesto de íconos de armadura (Fextralife fallback)", e);
+  }
+}
+// Fallback de segunda capa para weaponIconTag(): igual patron que
+// armorFextraIcons pero con renders de Game8 (data/images/weapons_game8/<id>.png),
+// fondo negro removido via remove_black_bg.py. Kiranico sigue siendo la
+// fuente primaria siempre -- esto solo entra si el <img> primario da 404.
+let weaponGame8Icons = {};
+async function loadWeaponGame8Icons() {
+  try {
+    const res = await fetch("data/weapon_game8_icons.json");
+    if (res.ok) {
+      const manifest = await res.json();
+      weaponGame8Icons = {};
+      for (const id of Object.keys(manifest)) weaponGame8Icons[id] = true;
+    }
+  } catch (e) {
+    console.warn("No se pudo cargar el manifiesto de renders Game8 (weapons fallback)", e);
   }
 }
 
@@ -700,7 +718,7 @@ function coreArmorNameForGrouping(name) {
 // "Head Scarf") and normalizes Pukei-Pukei->Pukei (base/S). Result is the set
 // name alone (no part word), ready for display/grouping.
 const ARMOR_PART_WORDS = /^(Head|Mail|Vambraces|Braces|Armguards|Coil|Greaves|Garb|Obi|Leggings|Scarf|Crown|Robe|Sleeves|Hakama|Mask|Hat|Hood|Suit|Gloves|Skirt|Socks|Boots|Earrings|Cuirass|Belt|Faulds|Sash|Sandals|Vest|Helm|Cap|Shawl|Arms|Chest|Legs|Waist|Haori|Kote|Jersey|Shoes|Shirt|Pants|Cover|Tassets|Lobos|Patch|Headdress|Choker|Headgear|Hair-tie|Hair|Tie|Hope|Prayer|Feet|Barrette|Leg|Wrap|Guards|Jacket)$/i;
-const ARMOR_SET_HIDDEN = new Set(["Swallow", "Sonic", "Floral", "Buff", "Buff Body", "Elgado", "Akuma's", "Arlow", "Azure", "Azure Age", "Blossom", "Dragonsbane", "Fall", "Fiorayne", "Formal Dragon", "Guild Cross", "Hinoa", "Kamura Cloak", "Lance Gunn", "Minoto", "Orion", "Ran Page", "Summer", "Wild", "Flame Seal", "Cunning Specs", "Mighty Bow Feather", "Utsushi", "Utsushi True"]);
+const ARMOR_SET_HIDDEN = new Set(["Swallow", "Sonic", "Floral", "Buff", "Buff Body", "Elgado", "Akuma's", "Arlow", "Azure", "Azure Age", "Blossom", "Dragonsbane", "Fall", "Fiorayne", "Formal Dragon", "Guild Cross", "Hinoa", "Kamura Cloak", "Lance Gunn", "Minoto", "Orion", "Ran Page", "Summer", "Wild", "Flame Seal", "Cunning Specs", "Mighty Bow Feather", "Utsushi", "Utsushi True", "Black Leather", "Shadow Shades", "Canyne Tail"]);
 function armorSetPrefix(name) {
   // keep female variants (Spring)/(Light) as their own set — capture before
   // core() strips trailing "(text)"
@@ -1371,7 +1389,11 @@ function trWeaponType(type) {
   return lang === "es" && I18N.weaponTypes ? (I18N.weaponTypes[type] || type) : type;
 }
 function weaponIconTag(w) {
-  return `<img class="material-icon" src="data/images/weapons/${w.id}.webp" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`;
+  const fallbackSrc = weaponGame8Icons[w.id] ? `data/images/weapons_game8/${w.id}.png` : null;
+  const onerror = fallbackSrc
+    ? `if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${fallbackSrc}';}else{this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}));}`
+    : `this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))`;
+  return `<img class="material-icon" src="data/images/weapons/${w.id}.webp" alt="" loading="lazy" onerror="${onerror}">`;
 }
 // Words that don't identify a weapon family (they appear in almost every
 // name of a type) — ignored when deciding whether two consecutive weapons
@@ -1806,7 +1828,8 @@ function renderArmorIndex(query) {
   for (const g of implied) for (const p of g.pieces) usedNames.add(p.name.toLowerCase());
   const looseMatches = armorPieces.filter(p => !usedIds.has(p.id) && !usedNames.has(p.name.toLowerCase()) && (!q ||
     normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q)))
-    .filter(p => p.materials && p.materials.length && p.defense);
+    .filter(p => p.materials && p.materials.length && p.defense)
+    .filter(p => !ARMOR_SET_HIDDEN.has(armorSetPrefix(p.name)));
 
   // merge explicit and implied sets into one list, tagged by rank
   function setRank(items) {
