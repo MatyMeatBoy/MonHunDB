@@ -893,7 +893,12 @@ function armorSetPrefix(name) {
   const v = name.match(/\s*\((Spring|Light)\)\s*$/);
   const vSuffix = v ? " (" + v[1] + ")" : "";
   let n = coreArmorNameForGrouping(name);
-  const m = n.match(/\s+(S|X|SP)$/);
+  // MHFU's own rank-tier letters (confirmed against every piece name in
+  // armor_pieces.json): D/S/U/X/Z, not just Rise's S/X/SP -- each is a
+  // materially different tier (different stats/materials) of the same
+  // named set, same relationship as Rise's S/X, so it's kept as part of
+  // the set's display name rather than stripped away entirely.
+  const m = n.match(/\s+(S|X|SP|D|U|Z)$/);
   const suffix = m ? " " + m[1] : "";
   if (m) n = n.slice(0, m.index);
   let prev = "";
