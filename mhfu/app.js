@@ -1571,8 +1571,14 @@ function initWeaponTree(tree) {
 }
 function isWeaponTrueFinal(w) {
   if (weaponFinalNames) return weaponFinalNames.has(normalizeWeaponName(w.name));
-  if (!w.nextId || !weaponsById.has(w.nextId)) return true;
-  return !weaponSameFamily(w, weaponsById.get(w.nextId));
+  // MHFU's prevId/nextId already IS a real, trustworthy per-branch chain
+  // (reconstructed straight from the game by mhfu-db/Kolyn090, not scraped
+  // or heuristically derived) -- no weaponSameFamily() guard needed. That
+  // check was rejecting real links whenever a branch's final weapon gets a
+  // whole new name sharing no tokens with its parent (ex. "Buster Blade" ->
+  // "Ravager Blade" -> ... -> "Strategic Blade"), the same false-negative
+  // Wilds hit and fixed the same way once its own tree data was trustworthy.
+  return !w.nextId || !weaponsById.has(w.nextId);
 }
 function decoSlotsTag(levels) {
   if (!levels || !levels.length) return "";
@@ -1602,12 +1608,16 @@ function getWeaponChain(w) {
     const names = anc.concat([key], desc);
     return names.map(n => weaponsByNameNorm.get(n)).filter(Boolean);
   }
+  // MHFU has no weapon_tree.json (weaponParentOf stays null), so this walks
+  // weapons.json's own prevId/nextId directly -- a real per-branch chain
+  // already, same reasoning as isWeaponTrueFinal() above: no sameFamily
+  // guard, since the source data isn't heuristically derived.
   const chain = [];
   const seen = new Set([w.id]);
   let cur = w;
   while (cur.prevId && weaponsById.has(cur.prevId)) {
     const prev = weaponsById.get(cur.prevId);
-    if (seen.has(prev.id) || !weaponSameFamily(cur, prev)) break;
+    if (seen.has(prev.id)) break;
     seen.add(prev.id);
     chain.unshift(prev);
     cur = prev;
@@ -1616,7 +1626,7 @@ function getWeaponChain(w) {
   cur = w;
   while (cur.nextId && weaponsById.has(cur.nextId)) {
     const next = weaponsById.get(cur.nextId);
-    if (seen.has(next.id) || !weaponSameFamily(cur, next)) break;
+    if (seen.has(next.id)) break;
     seen.add(next.id);
     chain.push(next);
     cur = next;
