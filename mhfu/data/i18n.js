@@ -177,7 +177,7 @@ const I18N = {
       armorPiecesHeading: "Piezas del set",
       armorMaterialsHeading: "Materiales para crear",
       armorLoosePieces: "Piezas sueltas",
-      armorRankMaster: "Rango Maestro",
+      armorRankMaster: "Rango G",
       armorRankHigh: "Rango Alto",
       armorRankLow: "Rango Bajo",
       armorPartialSets: "Sets parciales",
@@ -392,7 +392,7 @@ const I18N = {
       armorPiecesHeading: "Set Pieces",
       armorMaterialsHeading: "Crafting Materials",
       armorLoosePieces: "Loose Pieces",
-      armorRankMaster: "Master Rank",
+      armorRankMaster: "G Rank",
       armorRankHigh: "High Rank",
       armorRankLow: "Low Rank",
       armorPartialSets: "Partial Sets",
@@ -476,9 +476,11 @@ const I18N = {
   },
 
   ranks: {
+    "Village": "Aldea",
     "Low Rank": "Rango Bajo",
     "High Rank": "Rango Alto",
-    "Master Rank": "Rango Maestro",
+    "G Rank": "Rango G",
+    "Epic Hunting": "Caza Épica",
   },
 
   // Official taxonomy per https://monsterhunter.fandom.com/es/wiki/Bestiario

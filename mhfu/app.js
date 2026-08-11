@@ -27,7 +27,7 @@ const GROUP_OVERRIDES = {
 };
 
 const ELEMENT_ORDER = ["fire", "water", "thunder", "ice", "dragon", "blast", "poison", "paralysis", "sleep", "stun", "exhaust"];
-const RANK_ORDER = ["Low Rank", "High Rank", "Master Rank"];
+const RANK_ORDER = ["Low Rank", "High Rank", "G Rank"];
 
 let monsters = [];
 let currentRank = null;
