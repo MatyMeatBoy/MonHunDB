@@ -1,10 +1,10 @@
 :root {
-  --bg: #14110f;
-  --bg-panel: #1d1916;
-  --border: #3a322a;
-  --text: #ede4d6;
-  --text-dim: #a99f8f;
-  --accent: #d9832a;
+  --bg: #171a14;
+  --bg-panel: #20241c;
+  --border: #3d4434;
+  --text: #e6e8dc;
+  --text-dim: #9aa38c;
+  --accent: #7c9a5c;
   --radius: 10px;
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
 }
@@ -13,7 +13,7 @@
 
 body {
   margin: 0;
-  background: radial-gradient(circle at top, #201a14 0%, #100d0a 70%);
+  background: radial-gradient(circle at top, #1e2318 0%, #0e100b 70%);
   color: var(--text);
   min-height: 100vh;
 }
@@ -23,8 +23,8 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 0.65rem;
-  padding: 0.5rem 1rem;
-  background: linear-gradient(180deg, #221b14, #17130f);
+  padding: 0.6rem 1rem;
+  background: linear-gradient(180deg, #262b1f, #14170f);
   border-bottom: 2px solid var(--accent);
   position: sticky;
   top: 0;
@@ -39,14 +39,16 @@ body {
 }
 
 .hub-brand-mascot {
-  height: 72px;
+  height: 84px;
   width: auto;
   display: block;
+  flex: 0 0 auto;
 }
 
 .hub-brand-wordmark {
-  height: 72px;
+  height: 44px;
   width: auto;
+  max-width: 40vw;
   display: block;
 }
 

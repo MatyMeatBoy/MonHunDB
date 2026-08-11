@@ -1,11 +1,11 @@
 :root {
-  --bg: #14110f;
-  --bg-panel: #1d1916;
-  --bg-panel-alt: #262019;
-  --border: #3a322a;
-  --text: #ede4d6;
-  --text-dim: #a99f8f;
-  --accent: #d9832a;
+  --bg: #171a14;
+  --bg-panel: #20241c;
+  --bg-panel-alt: #2a2f22;
+  --border: #3d4434;
+  --text: #e6e8dc;
+  --text-dim: #9aa38c;
+  --accent: #7c9a5c;
   --accent-2: #b23a3a;
   --star-on: #e8b23a;
   --star-off: #453c31;
@@ -18,7 +18,7 @@
 
 body {
   margin: 0;
-  background: radial-gradient(circle at top, #201a14 0%, #100d0a 70%);
+  background: radial-gradient(circle at top, #1e2318 0%, #0e100b 70%);
   color: var(--text);
   min-height: 100vh;
 }
@@ -36,7 +36,7 @@ body {
   align-items: center;
   gap: 0.65rem;
   padding: 0.5rem 1rem;
-  background: linear-gradient(180deg, #221b14, #17130f);
+  background: linear-gradient(180deg, #262b1f, #14170f);
   border-bottom: 2px solid var(--accent);
   position: sticky;
   top: 0;
@@ -65,11 +65,21 @@ body {
   vertical-align: middle;
 }
 
+.brand-monhundb {
+  height: 34px;
+  width: auto;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
 .brand-home {
   cursor: pointer;
   border-radius: 6px;
   flex: 0 0 auto;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .topbar h1 {
@@ -124,7 +134,7 @@ body {
 .monster-trigger:focus,
 .monster-trigger[aria-expanded="true"] {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(217, 131, 42, 0.25);
+  box-shadow: 0 0 0 3px rgba(124, 154, 92, 0.25);
 }
 
 .trigger-icon {
@@ -192,8 +202,8 @@ body {
 .monster-section-heading {
   padding: 0.5rem 0.75rem 0.2rem;
   font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
-  letter-spacing: 0.05em; color: #c8a24a; opacity: 0.8;
-  border-bottom: 1px solid #4a3e38; margin: 0.4rem 0 0.15rem;
+  letter-spacing: 0.05em; color: #b8c478; opacity: 0.8;
+  border-bottom: 1px solid #454f3a; margin: 0.4rem 0 0.15rem;
 }
 .monster-section-heading:first-child { margin-top: 0; border-top: none; }
 
@@ -608,7 +618,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.05em;
   color: var(--accent);
-  background: rgba(217, 131, 42, 0.15);
+  background: rgba(124, 154, 92, 0.15);
   border-radius: 999px;
   padding: 0.15rem 0.6rem;
   margin-bottom: 0.4rem;
@@ -744,7 +754,7 @@ body {
   height: 190px;
   object-fit: contain;
   flex-shrink: 0;
-  background: radial-gradient(circle, rgba(217, 131, 42, 0.12) 0%, transparent 72%);
+  background: radial-gradient(circle, rgba(124, 154, 92, 0.12) 0%, transparent 72%);
   border-radius: var(--radius);
 }
 
@@ -969,7 +979,7 @@ body {
 .rank-tab.active {
   background: var(--accent);
   border-color: var(--accent);
-  color: #1a1208;
+  color: #10140c;
   font-weight: 600;
 }
 
@@ -1001,7 +1011,7 @@ body {
 }
 
 .materials-table tbody tr:hover {
-  background: rgba(217, 131, 42, 0.08);
+  background: rgba(124, 154, 92, 0.08);
 }
 
 .materials-table td.material-name {
@@ -1235,7 +1245,7 @@ body {
 .hz-silhouette-stat-tab.active {
   background: var(--accent);
   border-color: var(--accent);
-  color: #1a1208;
+  color: #10140c;
   font-weight: 600;
 }
 
@@ -1283,7 +1293,7 @@ body {
   letter-spacing: 0.05em;
 }
 
-.hitzones-table tbody tr:hover { background: rgba(217, 131, 42, 0.08); }
+.hitzones-table tbody tr:hover { background: rgba(124, 154, 92, 0.08); }
 
 .hitzones-table th.hz-best,
 .hitzones-table td.hz-best {
@@ -1518,7 +1528,7 @@ body {
   padding: 0.2rem 0.7rem;
 }
 
-.decoration-card.selected { border-color: var(--accent); background: rgba(217, 131, 42, 0.12); }
+.decoration-card.selected { border-color: var(--accent); background: rgba(124, 154, 92, 0.12); }
 
 .armor-set-card { flex-direction: column; align-items: stretch; text-align: center; }
 .armor-set-thumb {
