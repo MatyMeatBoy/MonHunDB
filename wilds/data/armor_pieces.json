@@ -353,7 +353,7 @@
  },
  {
   "id": "wp16",
-  "name": "Arkveld Helm Gamma",
+  "name": "Arkveld Helm γ",
   "part": "head",
   "defense": 68,
   "rarity": 8,
@@ -377,7 +377,7 @@
  },
  {
   "id": "wp17",
-  "name": "Arkveld Mail Gamma",
+  "name": "Arkveld Mail γ",
   "part": "chest",
   "defense": 68,
   "rarity": 8,
@@ -401,7 +401,7 @@
  },
  {
   "id": "wp18",
-  "name": "Arkveld Vambraces Gamma",
+  "name": "Arkveld Vambraces γ",
   "part": "arms",
   "defense": 68,
   "rarity": 8,
@@ -425,7 +425,7 @@
  },
  {
   "id": "wp19",
-  "name": "Arkveld Coil Gamma",
+  "name": "Arkveld Coil γ",
   "part": "waist",
   "defense": 68,
   "rarity": 8,
@@ -451,7 +451,7 @@
  },
  {
   "id": "wp20",
-  "name": "Arkveld Greaves Gamma",
+  "name": "Arkveld Greaves γ",
   "part": "legs",
   "defense": 68,
   "rarity": 8,
@@ -475,7 +475,7 @@
  },
  {
   "id": "wp21",
-  "name": "Dahaad Shardhelm Gamma",
+  "name": "Dahaad Shardhelm γ",
   "part": "head",
   "defense": 68,
   "rarity": 8,
@@ -500,7 +500,7 @@
  },
  {
   "id": "wp22",
-  "name": "Dahaad Shardmail Gamma",
+  "name": "Dahaad Shardmail γ",
   "part": "chest",
   "defense": 68,
   "rarity": 8,
@@ -525,7 +525,7 @@
  },
  {
   "id": "wp23",
-  "name": "Dahaad Shardbraces Gamma",
+  "name": "Dahaad Shardbraces γ",
   "part": "arms",
   "defense": 68,
   "rarity": 8,
@@ -548,7 +548,7 @@
  },
  {
   "id": "wp24",
-  "name": "Dahaad Shardcoil Gamma",
+  "name": "Dahaad Shardcoil γ",
   "part": "waist",
   "defense": 68,
   "rarity": 8,
@@ -571,7 +571,7 @@
  },
  {
   "id": "wp25",
-  "name": "Dahaad Shardgreaves Gamma",
+  "name": "Dahaad Shardgreaves γ",
   "part": "legs",
   "defense": 68,
   "rarity": 8,
@@ -1251,7 +1251,7 @@
  },
  {
   "id": "wp53",
-  "name": "Udra Mirehelm Gamma",
+  "name": "Udra Mirehelm γ",
   "part": "head",
   "defense": 68,
   "rarity": 8,
@@ -1278,7 +1278,7 @@
  },
  {
   "id": "wp54",
-  "name": "Udra Miremail Gamma",
+  "name": "Udra Miremail γ",
   "part": "chest",
   "defense": 68,
   "rarity": 8,
@@ -1303,7 +1303,7 @@
  },
  {
   "id": "wp55",
-  "name": "Udra Mirebraces Gamma",
+  "name": "Udra Mirebraces γ",
   "part": "arms",
   "defense": 68,
   "rarity": 8,
@@ -1330,7 +1330,7 @@
  },
  {
   "id": "wp56",
-  "name": "Udra Mirecoil Gamma",
+  "name": "Udra Mirecoil γ",
   "part": "waist",
   "defense": 68,
   "rarity": 8,
@@ -1353,7 +1353,7 @@
  },
  {
   "id": "wp57",
-  "name": "Udra Miregreaves Gamma",
+  "name": "Udra Miregreaves γ",
   "part": "legs",
   "defense": 68,
   "rarity": 8,
@@ -11600,7 +11600,7 @@
  },
  {
   "id": "wp489",
-  "name": "Rey Sandhelm Gamma",
+  "name": "Rey Sandhelm γ",
   "part": "head",
   "defense": 68,
   "rarity": 8,
@@ -11623,7 +11623,7 @@
  },
  {
   "id": "wp490",
-  "name": "Rey Sandmail Gamma",
+  "name": "Rey Sandmail γ",
   "part": "chest",
   "defense": 68,
   "rarity": 8,
@@ -11646,7 +11646,7 @@
  },
  {
   "id": "wp491",
-  "name": "Rey Sandbraces Gamma",
+  "name": "Rey Sandbraces γ",
   "part": "arms",
   "defense": 68,
   "rarity": 8,
@@ -11671,7 +11671,7 @@
  },
  {
   "id": "wp492",
-  "name": "Rey Sandcoil Gamma",
+  "name": "Rey Sandcoil γ",
   "part": "waist",
   "defense": 68,
   "rarity": 8,
@@ -11691,7 +11691,7 @@
  },
  {
   "id": "wp493",
-  "name": "Rey Sandgreaves Gamma",
+  "name": "Rey Sandgreaves γ",
   "part": "legs",
   "defense": 68,
   "rarity": 8,
@@ -15650,7 +15650,7 @@
  },
  {
   "id": "wp676",
-  "name": "Duna Wildhelm Gamma",
+  "name": "Duna Wildhelm γ",
   "part": "head",
   "defense": 68,
   "rarity": 8,
@@ -15675,7 +15675,7 @@
  },
  {
   "id": "wp677",
-  "name": "Duna Wildmail Gamma",
+  "name": "Duna Wildmail γ",
   "part": "chest",
   "defense": 68,
   "rarity": 8,
@@ -15695,7 +15695,7 @@
  },
  {
   "id": "wp678",
-  "name": "Duna Wildbraces Gamma",
+  "name": "Duna Wildbraces γ",
   "part": "arms",
   "defense": 68,
   "rarity": 8,
@@ -15718,7 +15718,7 @@
  },
  {
   "id": "wp679",
-  "name": "Duna Wildcoil Gamma",
+  "name": "Duna Wildcoil γ",
   "part": "waist",
   "defense": 68,
   "rarity": 8,
@@ -15743,7 +15743,7 @@
  },
  {
   "id": "wp680",
-  "name": "Duna Wildgreaves Gamma",
+  "name": "Duna Wildgreaves γ",
   "part": "legs",
   "defense": 68,
   "rarity": 8,

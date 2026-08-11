@@ -1561,8 +1561,22 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
-.armor-set-pair-buttons button:first-child { border-right: 1px solid var(--border); }
+.armor-set-pair-buttons button:not(:last-child) { border-right: 1px solid var(--border); }
 .armor-set-pair-buttons button:hover { background: var(--accent); color: var(--bg); }
+/* Gamma is a strictly-stronger tier added later than alpha/beta -- a
+   warm glowing accent (vs. the neutral alpha/beta buttons) signals "this
+   one's better" at a glance, per the request to make it visually stand out. */
+.armor-set-pair-buttons button.gamma {
+  background: linear-gradient(180deg, #ffb347, #d9481f);
+  color: #2a1200;
+  font-weight: 800;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
+  box-shadow: inset 0 0 6px rgba(255, 200, 120, 0.6);
+}
+.armor-set-pair-buttons button.gamma:hover {
+  background: linear-gradient(180deg, #ffcb73, #ef5a26);
+  color: #2a1200;
+}
 
 .armor-mode-toggle {
   display: flex;

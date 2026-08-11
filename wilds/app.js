@@ -2016,13 +2016,16 @@ function renderArmorIndex(query) {
   const explicitNames = new Set(setMatches.map(s => s.name));
   let mappedSets = setMatches.map(s => ({ name: s.name, image: s.localImage || s.image, rank: setRankWilds(s), isSet: true }));
 
-  // Wilds-only: a set that comes in both an alpha (a) and beta (ss) tier is
-  // the SAME base gear line with two different skill loadouts -- merge them
-  // into one card with two buttons instead of two separate cards, so the
+  // Wilds-only: a set that comes in an alpha (a), beta (ss) and/or gamma (g)
+  // tier is the SAME base gear line with different skill loadouts -- merge
+  // them into one card with 2-3 buttons instead of separate cards, so the
   // gallery reads as "one set, pick your tier" like the game's own UI does.
+  // Gamma is a later, strictly stronger tier than alpha/beta (added in a
+  // title update) -- kept visually distinct (armor-set-pair-buttons--gamma)
+  // and previews its own portrait on hover instead of only on click.
   const byBaseName = new Map();
   for (const s of mappedSets) {
-    const base = s.name.replace(/[αβ]\s*/g, "").trim();
+    const base = s.name.replace(/[αβγ]\s*/g, "").trim();
     if (!byBaseName.has(base)) byBaseName.set(base, []);
     byBaseName.get(base).push(s);
   }
@@ -2031,10 +2034,12 @@ function renderArmorIndex(query) {
   for (const [base, group] of byBaseName) {
     const a = group.find(s => s.name.includes("α"));
     const b = group.find(s => s.name.includes("β"));
+    const g = group.find(s => s.name.includes("γ"));
     if (a && b) {
       pairedNames.add(a.name);
       pairedNames.add(b.name);
-      pairCards.push({ isPair: true, base, a, b, rank: a.rank });
+      if (g) pairedNames.add(g.name);
+      pairCards.push({ isPair: true, base, a, b, g, rank: a.rank });
     }
   }
   mappedSets = mappedSets.filter(s => !pairedNames.has(s.name));
@@ -2065,11 +2070,12 @@ function renderArmorIndex(query) {
       <div class="decorations-grid">
         ${items.map(s => s.isPair ? `
           <div class="decoration-card armor-set-card armor-set-card--pair">
-            <img class="armor-set-thumb" src="${s.a.image}" alt="" loading="lazy" onerror="this.style.display='none'">
+            <img class="armor-set-thumb" src="${s.a.image}" alt="" loading="lazy" onerror="this.style.display='none'" data-default-src="${escapeAttr(s.a.image)}">
             <span class="decoration-card-name">${s.base}</span>
             <div class="armor-set-pair-buttons">
               <button type="button" data-set="${escapeAttr(s.a.name)}">α</button>
               <button type="button" data-set="${escapeAttr(s.b.name)}">β</button>
+              ${s.g ? `<button type="button" class="gamma" data-set="${escapeAttr(s.g.name)}" data-preview-src="${escapeAttr(s.g.image)}" title="${ui("armorGammaHint")}">γ</button>` : ""}
             </div>
           </div>
         ` : `
@@ -2115,6 +2121,15 @@ function renderArmorIndex(query) {
 
   armorIndexEl.querySelectorAll("[data-set]").forEach(btn => {
     btn.addEventListener("click", () => navArmorSet(btn.dataset.set));
+  });
+  // Gamma button: preview its own portrait on hover (swap back to the
+  // alpha/default image on mouseleave) instead of only revealing it after
+  // navigating into the set -- makes the "this one's different" obvious.
+  armorIndexEl.querySelectorAll(".armor-set-pair-buttons button.gamma").forEach(btn => {
+    const img = btn.closest(".armor-set-card--pair")?.querySelector(".armor-set-thumb");
+    if (!img || !btn.dataset.previewSrc) return;
+    btn.addEventListener("mouseenter", () => { img.src = btn.dataset.previewSrc; });
+    btn.addEventListener("mouseleave", () => { img.src = img.dataset.defaultSrc; });
   });
   armorIndexEl.querySelectorAll("[data-implied]").forEach(btn => {
     btn.addEventListener("click", () => navArmorSet(btn.dataset.implied));

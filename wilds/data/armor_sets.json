@@ -564,13 +564,13 @@
   "url": "https://monsterhunterwilds.wiki.fextralife.com/Gala_Suit_Alpha_Set"
  },
  {
-  "name": "Arkveld Gamma Set",
+  "name": "Arkveld γ Set",
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/c/c2/Arkveld_gamma_armor-set-mhwilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
   "pieces": [
    {
-    "name": "Arkveld Helm Gamma",
+    "name": "Arkveld Helm γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ec/Arkvulcan_helm_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_helm_gamma-mhwilds-wiki-guide.png",
     "part": "head",
     "defense": 68,
@@ -590,7 +590,7 @@
     "id": "wp16"
    },
    {
-    "name": "Arkveld Mail Gamma",
+    "name": "Arkveld Mail γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/15/Arkvulcan_mail_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_mail_gamma-mhwilds-wiki-guide.png",
     "part": "chest",
     "defense": 68,
@@ -610,7 +610,7 @@
     "id": "wp17"
    },
    {
-    "name": "Arkveld Vambraces Gamma",
+    "name": "Arkveld Vambraces γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4b/Arkvulcan_vambraces_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_vambraces_gamma-mhwilds-wiki-guide.png",
     "part": "arms",
     "defense": 68,
@@ -630,7 +630,7 @@
     "id": "wp18"
    },
    {
-    "name": "Arkveld Coil Gamma",
+    "name": "Arkveld Coil γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/93/Arkvulcan_coil_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_coil_gamma-mhwilds-wiki-guide.png",
     "part": "waist",
     "defense": 68,
@@ -652,7 +652,7 @@
     "id": "wp19"
    },
    {
-    "name": "Arkveld Greaves Gamma",
+    "name": "Arkveld Greaves γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5a/Arkvulcan_greaves_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_greaves_gamma-mhwilds-wiki-guide.png",
     "part": "legs",
     "defense": 68,
@@ -699,7 +699,7 @@
   "localImage": "data/images/armor_sets_full/arkveld-gamma-set.png"
  },
  {
-  "name": "Dahaad Gamma Set",
+  "name": "Dahaad γ Set",
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/c/cb/Dahaad_armor_gamma_set-mhwilds-wiki-guide.png",
   "equipmentSkills": [
    {
@@ -747,7 +747,7 @@
   ],
   "pieces": [
    {
-    "name": "Dahaad Shardhelm Gamma",
+    "name": "Dahaad Shardhelm γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d7/Dahaad_shardhelm_gamma_typea_mhwilds_fextralife_wiki_guide.png/110px-Dahaad_shardhelm_gamma_typea_mhwilds_fextralife_wiki_guide.png",
     "part": "head",
     "defense": 68,
@@ -767,7 +767,7 @@
     "id": "wp21"
    },
    {
-    "name": "Dahaad Shardmail Gamma",
+    "name": "Dahaad Shardmail γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/09/Dahaad_shardmail_gamma_typea_mhwilds_fextralife_wiki_guide.png/110px-Dahaad_shardmail_gamma_typea_mhwilds_fextralife_wiki_guide.png",
     "part": "chest",
     "defense": 68,
@@ -787,7 +787,7 @@
     "id": "wp22"
    },
    {
-    "name": "Dahaad Shardbraces Gamma",
+    "name": "Dahaad Shardbraces γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/86/Dahaad_shardbraces_gamma_typea_mhwilds_fextralife_wiki_guide.png/110px-Dahaad_shardbraces_gamma_typea_mhwilds_fextralife_wiki_guide.png",
     "part": "arms",
     "defense": 68,
@@ -805,7 +805,7 @@
     "id": "wp23"
    },
    {
-    "name": "Dahaad Shardcoil Gamma",
+    "name": "Dahaad Shardcoil γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/eb/Dahaad_shardcoil_gamma_typea_mhwilds_fextralife_wiki_guide.png/110px-Dahaad_shardcoil_gamma_typea_mhwilds_fextralife_wiki_guide.png",
     "part": "waist",
     "defense": 68,
@@ -823,7 +823,7 @@
     "id": "wp24"
    },
    {
-    "name": "Dahaad Shardgreaves Gamma",
+    "name": "Dahaad Shardgreaves γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/14/Dahaad_shardgreaves_gamma_typea_mhwilds_fextralife_wiki_guide.png/110px-Dahaad_shardgreaves_gamma_typea_mhwilds_fextralife_wiki_guide.png",
     "part": "legs",
     "defense": 68,
@@ -1962,7 +1962,7 @@
   "localImage": "data/images/armor_sets_full/bale-alpha-set.png"
  },
  {
-  "name": "Nu Udra Gamma Set",
+  "name": "Nu Udra γ Set",
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/4/4b/Tu3_nu_udra_gamma_armor-set-mhwilds-wiki-guide.png",
   "equipmentSkills": [
    {
@@ -2010,7 +2010,7 @@
   ],
   "pieces": [
    {
-    "name": "Udra Mirehelm Gamma",
+    "name": "Udra Mirehelm γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7f/Udra_mirehelm2_gamma-monster-hunter-wilds-wiki-guide-200px.png/85px-Udra_mirehelm2_gamma-monster-hunter-wilds-wiki-guide-200px.png",
     "part": "head",
     "defense": 68,
@@ -2032,7 +2032,7 @@
     "id": "wp53"
    },
    {
-    "name": "Udra Miremail Gamma",
+    "name": "Udra Miremail γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/71/Udra_miremail2_gamma-monster-hunter-wilds-wiki-guide-200px.png/85px-Udra_miremail2_gamma-monster-hunter-wilds-wiki-guide-200px.png",
     "part": "chest",
     "defense": 68,
@@ -2052,7 +2052,7 @@
     "id": "wp54"
    },
    {
-    "name": "Udra Mirebraces Gamma",
+    "name": "Udra Mirebraces γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f9/Udra_mirebraces2_gamma-monster-hunter-wilds-wiki-guide-200px.png/85px-Udra_mirebraces2_gamma-monster-hunter-wilds-wiki-guide-200px.png",
     "part": "arms",
     "defense": 68,
@@ -2074,7 +2074,7 @@
     "id": "wp55"
    },
    {
-    "name": "Udra Mirecoil Gamma",
+    "name": "Udra Mirecoil γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/89/Udra_mirecoil2_gamma-monster-hunter-wilds-wiki-guide-200px.png/85px-Udra_mirecoil2_gamma-monster-hunter-wilds-wiki-guide-200px.png",
     "part": "waist",
     "defense": 68,
@@ -2092,7 +2092,7 @@
     "id": "wp56"
    },
    {
-    "name": "Udra Miregreaves Gamma",
+    "name": "Udra Miregreaves γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/56/Udra_miregreaves2_gamma-monster-hunter-wilds-wiki-guide-200px.png/85px-Udra_miregreaves2_gamma-monster-hunter-wilds-wiki-guide-200px.png",
     "part": "legs",
     "defense": 68,
@@ -19769,7 +19769,7 @@
   "nameEs": "Rey Dau β Set"
  },
  {
-  "name": "Rey Dau Gamma Set",
+  "name": "Rey Dau γ Set",
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/5/5a/Rey_dau_gamma_armor-set-mhwilds-wiki-guide.png",
   "equipmentSkills": [
    {
@@ -19825,7 +19825,7 @@
   ],
   "pieces": [
    {
-    "name": "Rey Sandhelm Gamma",
+    "name": "Rey Sandhelm γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1b/Rey-sandhelm-gamma-type-a-head-armor-monster-hunter-wilds-wiki-guide.png/110px-Rey-sandhelm-gamma-type-a-head-armor-monster-hunter-wilds-wiki-guide.png",
     "part": "head",
     "defense": 68,
@@ -19843,7 +19843,7 @@
     "id": "wp489"
    },
    {
-    "name": "Rey Sandmail Gamma",
+    "name": "Rey Sandmail γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f9/Rey-sandmail-gamma-type-a-chest-armor-monster-hunter-wilds-wiki-guide.png/110px-Rey-sandmail-gamma-type-a-chest-armor-monster-hunter-wilds-wiki-guide.png",
     "part": "chest",
     "defense": 68,
@@ -19861,7 +19861,7 @@
     "id": "wp490"
    },
    {
-    "name": "Rey Sandbraces Gamma",
+    "name": "Rey Sandbraces γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/ff/Rey-sandbraces-type-a-arms-armor-monster-hunter-wilds-wiki-guide.png/110px-Rey-sandbraces-type-a-arms-armor-monster-hunter-wilds-wiki-guide.png",
     "part": "arms",
     "defense": 68,
@@ -19881,7 +19881,7 @@
     "id": "wp491"
    },
    {
-    "name": "Rey Sandcoil Gamma",
+    "name": "Rey Sandcoil γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0d/Rey-sandcoil-gamma-type-a-waist-armor-monster-hunter-wilds-wiki-guide.png/110px-Rey-sandcoil-gamma-type-a-waist-armor-monster-hunter-wilds-wiki-guide.png",
     "part": "waist",
     "defense": 68,
@@ -19896,7 +19896,7 @@
     "id": "wp492"
    },
    {
-    "name": "Rey Sandgreaves Gamma",
+    "name": "Rey Sandgreaves γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a4/Rey-sandgreaves-gamma-type-a-leg-armor-monster-hunter-wilds-wiki-guide.png/110px-Rey-sandgreaves-gamma-type-a-leg-armor-monster-hunter-wilds-wiki-guide.png",
     "part": "legs",
     "defense": 68,
@@ -26011,13 +26011,13 @@
   "nameEs": "Orión α Set"
  },
  {
-  "name": "Uth Duna Gamma Set",
+  "name": "Uth Duna γ Set",
   "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/9/9f/Arch-tempered_uth_duna-armor-set-mhwilds-wiki-guide.png",
   "equipmentSkills": [],
   "setBonus": [],
   "pieces": [
    {
-    "name": "Duna Wildhelm Gamma",
+    "name": "Duna Wildhelm γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c8/Duna_wildhelm_gamma_type_a_head_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Duna_wildhelm_gamma_type_a_head_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "part": "head",
     "defense": 68,
@@ -26037,7 +26037,7 @@
     "id": "wp676"
    },
    {
-    "name": "Duna Wildmail Gamma",
+    "name": "Duna Wildmail γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/12/Duna_wildmail_gamma_type_a_body_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Duna_wildmail_gamma_type_a_body_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "part": "chest",
     "defense": 68,
@@ -26052,7 +26052,7 @@
     "id": "wp677"
    },
    {
-    "name": "Duna Wildbraces Gamma",
+    "name": "Duna Wildbraces γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c2/Duna_wildbraces_gamma_type_a_arm_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Duna_wildbraces_gamma_type_a_arm_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "part": "arms",
     "defense": 68,
@@ -26070,7 +26070,7 @@
     "id": "wp678"
    },
    {
-    "name": "Duna Wildcoil Gamma",
+    "name": "Duna Wildcoil γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/88/Duna_wildcoil_gamma_type_a_waist_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Duna_wildcoil_gamma_type_a_waist_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "part": "waist",
     "defense": 68,
@@ -26090,7 +26090,7 @@
     "id": "wp679"
    },
    {
-    "name": "Duna Wildgreaves Gamma",
+    "name": "Duna Wildgreaves γ",
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e3/Duna_wildgreaves_gamma_type_a_leg_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Duna_wildgreaves_gamma_type_a_leg_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "part": "legs",
     "defense": 68,
