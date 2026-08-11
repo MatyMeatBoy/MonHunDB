@@ -258,6 +258,7 @@ body {
 }
 
 .monster-option img.icon-missing { visibility: hidden; }
+.monster-option[hidden] { display: none; }
 
 .monster-list .no-results {
   padding: 1rem 0.6rem;
