@@ -1,0 +1,2276 @@
+[
+ {
+  "id": "mhfus1",
+  "name": "Attack",
+  "nameEs": "Attack",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Attack Up (Large) (+20 pts)",
+    "effectEs": null,
+    "points": 20
+   },
+   {
+    "level": 2,
+    "effectEn": "Attack Up (Medium) (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 3,
+    "effectEn": "Attack Up (Small) (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 4,
+    "effectEn": "Attack Down (Small) (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 5,
+    "effectEn": "Attack Down (Medium) (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   },
+   {
+    "level": 6,
+    "effectEn": "Attack Down (Large) (-20 pts)",
+    "effectEs": null,
+    "points": -20
+   }
+  ],
+  "colorIndex": 0
+ },
+ {
+  "id": "mhfus2",
+  "name": "Defense",
+  "nameEs": "Defense",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Defense +40 (+20 pts)",
+    "effectEs": null,
+    "points": 20
+   },
+   {
+    "level": 2,
+    "effectEn": "Defense +30 (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 3,
+    "effectEn": "Defense +20 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 4,
+    "effectEn": "Defense -20 (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 5,
+    "effectEn": "Defense -30 (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   },
+   {
+    "level": 6,
+    "effectEn": "Defense -40 (-20 pts)",
+    "effectEs": null,
+    "points": -20
+   }
+  ],
+  "colorIndex": 1
+ },
+ {
+  "id": "mhfus3",
+  "name": "Health",
+  "nameEs": "Health",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Health +50 (+20 pts)",
+    "effectEs": null,
+    "points": 20
+   },
+   {
+    "level": 2,
+    "effectEn": "Health +30 (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 3,
+    "effectEn": "Health +20 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 4,
+    "effectEn": "Health -10 (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 5,
+    "effectEn": "Health -20 (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   },
+   {
+    "level": 6,
+    "effectEn": "Health -30 (-20 pts)",
+    "effectEs": null,
+    "points": -20
+   }
+  ],
+  "colorIndex": 2
+ },
+ {
+  "id": "mhfus4",
+  "name": "All Resist",
+  "nameEs": "All Resist",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "All Res +10 (+20 pts)",
+    "effectEs": null,
+    "points": 20
+   },
+   {
+    "level": 2,
+    "effectEn": "All Res +5 (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 3,
+    "effectEn": "All Res +3 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 4,
+    "effectEn": "All Res -3 (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 5,
+    "effectEn": "All Res -5 (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   },
+   {
+    "level": 6,
+    "effectEn": "All Res -10 (-20 pts)",
+    "effectEs": null,
+    "points": -20
+   }
+  ],
+  "colorIndex": 3
+ },
+ {
+  "id": "mhfus5",
+  "name": "Fire Res",
+  "nameEs": "Fire Res",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Fire Res +10 (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Fire Res +5 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Fire Res -5 (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 4,
+    "effectEn": "Fire Res -10 (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   }
+  ],
+  "colorIndex": 4
+ },
+ {
+  "id": "mhfus6",
+  "name": "Water Res",
+  "nameEs": "Water Res",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Water Res +10 (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Water Res +5 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Water Res -5 (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 4,
+    "effectEn": "Water Res -10 (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   }
+  ],
+  "colorIndex": 5
+ },
+ {
+  "id": "mhfus7",
+  "name": "ThunderRes",
+  "nameEs": "ThunderRes",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Thunder Res +10 (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Thunder Res +5 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Thunder Res -5 (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 4,
+    "effectEn": "Thunder Res -10 (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   }
+  ],
+  "colorIndex": 6
+ },
+ {
+  "id": "mhfus8",
+  "name": "Ice Res",
+  "nameEs": "Ice Res",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Ice Res +10 (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Ice Res +5 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Ice Res -5 (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 4,
+    "effectEn": "Ice Res -10 (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   }
+  ],
+  "colorIndex": 7
+ },
+ {
+  "id": "mhfus9",
+  "name": "Dragon Res",
+  "nameEs": "Dragon Res",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Dragon Res +10 (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Dragon Res +5 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Dragon Res -5 (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 4,
+    "effectEn": "Dragon Res -10 (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   }
+  ],
+  "colorIndex": 8
+ },
+ {
+  "id": "mhfus10",
+  "name": "Faint",
+  "nameEs": "Faint",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Faint Negated (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Faint Prob Halved (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Faint Duration(x2) (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 9
+ },
+ {
+  "id": "mhfus11",
+  "name": "Poison",
+  "nameEs": "Poison",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Poison Negated (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Poison Dur Halved (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Poison Dur(x2) (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 10
+ },
+ {
+  "id": "mhfus12",
+  "name": "Paralysis",
+  "nameEs": "Paralysis",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Paralysis Negated (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Para Duration Halved (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Para Duration(x2) (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 11
+ },
+ {
+  "id": "mhfus13",
+  "name": "Sleep",
+  "nameEs": "Sleep",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Sleep Negated (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Sleep Dur Halved (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Sleep Duration(x2) (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 0
+ },
+ {
+  "id": "mhfus14",
+  "name": "Antiseptic",
+  "nameEs": "Antiseptic",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Antiseptic (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 1
+ },
+ {
+  "id": "mhfus15",
+  "name": "Fatigue",
+  "nameEs": "Fatigue",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Fatigue Cancellation (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 2
+ },
+ {
+  "id": "mhfus16",
+  "name": "Snow Res",
+  "nameEs": "Snow Res",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Snow Res (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 3
+ },
+ {
+  "id": "mhfus17",
+  "name": "Quake Res",
+  "nameEs": "Quake Res",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Quake Resistance (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 4
+ },
+ {
+  "id": "mhfus18",
+  "name": "HearProtct",
+  "nameEs": "HearProtct",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "High Grade Earplug (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Earplug (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 5
+ },
+ {
+  "id": "mhfus19",
+  "name": "Wind Press",
+  "nameEs": "Wind Press",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Dragon Wind Breaker (+20 pts)",
+    "effectEs": null,
+    "points": 20
+   },
+   {
+    "level": 2,
+    "effectEn": "High Wind Res (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 3,
+    "effectEn": "Low Wind Res (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 6
+ },
+ {
+  "id": "mhfus20",
+  "name": "Anti-Theft",
+  "nameEs": "Anti-Theft",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Steal No Effect (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 7
+ },
+ {
+  "id": "mhfus21",
+  "name": "ResistSts",
+  "nameEs": "ResistSts",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Self-Defense (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 8
+ },
+ {
+  "id": "mhfus22",
+  "name": "AntiFirDrg",
+  "nameEs": "AntiFirDrg",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Metallic Protection (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 9
+ },
+ {
+  "id": "mhfus23",
+  "name": "AntiDaora",
+  "nameEs": "AntiDaora",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Frosty Protection (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 10
+ },
+ {
+  "id": "mhfus24",
+  "name": "AntiChamel",
+  "nameEs": "AntiChamel",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Fiery Protection (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 11
+ },
+ {
+  "id": "mhfus25",
+  "name": "Artisan",
+  "nameEs": "Artisan",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Sharpness +1 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 0
+ },
+ {
+  "id": "mhfus26",
+  "name": "Sharpness",
+  "nameEs": "Sharpness",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Sharp Sword (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 2,
+    "effectEn": "Blunt (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 1
+ },
+ {
+  "id": "mhfus27",
+  "name": "Fencing",
+  "nameEs": "Fencing",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "ESP (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 2
+ },
+ {
+  "id": "mhfus28",
+  "name": "SwdShrpner",
+  "nameEs": "SwdShrpner",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Sharpening Skl Inc (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 2,
+    "effectEn": "Sharpening Skl Half (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 3
+ },
+ {
+  "id": "mhfus29",
+  "name": "Guard",
+  "nameEs": "Guard",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Guard +2 (+20 pts)",
+    "effectEs": null,
+    "points": 20
+   },
+   {
+    "level": 2,
+    "effectEn": "Guard +1 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Guard -1 (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 4
+ },
+ {
+  "id": "mhfus30",
+  "name": "Auto-Guard",
+  "nameEs": "Auto-Guard",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Auto-Guard (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 5
+ },
+ {
+  "id": "mhfus31",
+  "name": "Sword Draw",
+  "nameEs": "Sword Draw",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Art of Unsheathing (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 6
+ },
+ {
+  "id": "mhfus32",
+  "name": "Edgemaster",
+  "nameEs": "Edgemaster",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Stellar Hunter (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 7
+ },
+ {
+  "id": "mhfus33",
+  "name": "NormalS Up",
+  "nameEs": "NormalS Up",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "NormalS/RapidBow Up (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 8
+ },
+ {
+  "id": "mhfus34",
+  "name": "PierceS Up",
+  "nameEs": "PierceS Up",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "PierceS/PierceBow Up (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 9
+ },
+ {
+  "id": "mhfus35",
+  "name": "PelletS Up",
+  "nameEs": "PelletS Up",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "PelletS/ScattrBow Up (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 10
+ },
+ {
+  "id": "mhfus36",
+  "name": "NormalSAdd",
+  "nameEs": "NormalSAdd",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Normal S All LV Add (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 11
+ },
+ {
+  "id": "mhfus37",
+  "name": "PierceSAdd",
+  "nameEs": "PierceSAdd",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Pierce S All LV Add (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Pierce S LV1 Add (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 0
+ },
+ {
+  "id": "mhfus38",
+  "name": "PelletSAdd",
+  "nameEs": "PelletSAdd",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Pellet S All LV Add (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Pellet S LV 1 Add (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 1
+ },
+ {
+  "id": "mhfus39",
+  "name": "CragSAdd",
+  "nameEs": "CragSAdd",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Crag S All LV Add (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Crag S LV 1 Add (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 2
+ },
+ {
+  "id": "mhfus40",
+  "name": "ClustSAdd",
+  "nameEs": "ClustSAdd",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Clust S All LV Add (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Clust S LV 1 Add (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 3
+ },
+ {
+  "id": "mhfus41",
+  "name": "Reload",
+  "nameEs": "Reload",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Reloading Speed +3 (+20 pts)",
+    "effectEs": null,
+    "points": 20
+   },
+   {
+    "level": 2,
+    "effectEn": "Reloading Speed +2 (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 3,
+    "effectEn": "Reloading Speed +1 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 4,
+    "effectEn": "Reloading Speed -1 (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 5,
+    "effectEn": "Reloading Speed -2 (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   },
+   {
+    "level": 6,
+    "effectEn": "Reloading Speed -3 (-20 pts)",
+    "effectEs": null,
+    "points": -20
+   }
+  ],
+  "colorIndex": 4
+ },
+ {
+  "id": "mhfus42",
+  "name": "AutoReload",
+  "nameEs": "AutoReload",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Auto Reload (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 5
+ },
+ {
+  "id": "mhfus43",
+  "name": "Recoil",
+  "nameEs": "Recoil",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Recoil Reduction +2 (+20 pts)",
+    "effectEs": null,
+    "points": 20
+   },
+   {
+    "level": 2,
+    "effectEn": "Recoil Reduction +1 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 6
+ },
+ {
+  "id": "mhfus44",
+  "name": "Precision",
+  "nameEs": "Precision",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Shell Deviation Down (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 2,
+    "effectEn": "Shell Deviation Up (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 7
+ },
+ {
+  "id": "mhfus45",
+  "name": "PoisonCAdd",
+  "nameEs": "PoisonCAdd",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Poison Coating Add (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 8
+ },
+ {
+  "id": "mhfus46",
+  "name": "ParalyCAdd",
+  "nameEs": "ParalyCAdd",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Paralysis Coat Add (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 9
+ },
+ {
+  "id": "mhfus47",
+  "name": "SleepCAdd",
+  "nameEs": "SleepCAdd",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Sleep Coating Add (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 10
+ },
+ {
+  "id": "mhfus48",
+  "name": "PowerCAdd",
+  "nameEs": "PowerCAdd",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Power Coating Add (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 11
+ },
+ {
+  "id": "mhfus49",
+  "name": "ClsRngCAdd",
+  "nameEs": "ClsRngCAdd",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "ClsRngCAdd (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 0
+ },
+ {
+  "id": "mhfus50",
+  "name": "SteadyHand",
+  "nameEs": "SteadyHand",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Straight & True (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 1
+ },
+ {
+  "id": "mhfus51",
+  "name": "Expert",
+  "nameEs": "Expert",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Reckless Abandon +3 (+20 pts)",
+    "effectEs": null,
+    "points": 20
+   },
+   {
+    "level": 2,
+    "effectEn": "Reckless Abandon +2 (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 3,
+    "effectEn": "Reckless Abandon +1 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 4,
+    "effectEn": "Reckless Abandon -1 (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 5,
+    "effectEn": "Reckless Abandon -2 (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   }
+  ],
+  "colorIndex": 2
+ },
+ {
+  "id": "mhfus52",
+  "name": "Spc Attack",
+  "nameEs": "Spc Attack",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Abnormal Sts Atk Up (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 3
+ },
+ {
+  "id": "mhfus53",
+  "name": "ElementAtk",
+  "nameEs": "ElementAtk",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Element Attack Up (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 4
+ },
+ {
+  "id": "mhfus54",
+  "name": "Rec Speed",
+  "nameEs": "Rec Speed",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Damage Rec Speed +2 (+20 pts)",
+    "effectEs": null,
+    "points": 20
+   },
+   {
+    "level": 2,
+    "effectEn": "Damage Rec Speed +1 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Damage Rec Speed -1 (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 4,
+    "effectEn": "Damage Rec Speed -2 (-20 pts)",
+    "effectEs": null,
+    "points": -20
+   }
+  ],
+  "colorIndex": 5
+ },
+ {
+  "id": "mhfus55",
+  "name": "Protection",
+  "nameEs": "Protection",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Divine Protection (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 2,
+    "effectEn": "Demonic Protection (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 6
+ },
+ {
+  "id": "mhfus56",
+  "name": "Guard Up",
+  "nameEs": "Guard Up",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Guard Inc (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 7
+ },
+ {
+  "id": "mhfus57",
+  "name": "Evade",
+  "nameEs": "Evade",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Evade +2 (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Evade +1 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 8
+ },
+ {
+  "id": "mhfus58",
+  "name": "Evade Dist",
+  "nameEs": "Evade Dist",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Evade Distance Up (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 9
+ },
+ {
+  "id": "mhfus59",
+  "name": "Potential",
+  "nameEs": "Potential",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Adrenaline +2 (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Adrenaline +1 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Worry (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 10
+ },
+ {
+  "id": "mhfus60",
+  "name": "Gunnery",
+  "nameEs": "Gunnery",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Gunnery King (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Gunnery Master (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   }
+  ],
+  "colorIndex": 11
+ },
+ {
+  "id": "mhfus61",
+  "name": "Capacity",
+  "nameEs": "Capacity",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Capacity Up (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 0
+ },
+ {
+  "id": "mhfus62",
+  "name": "ShortCharg",
+  "nameEs": "ShortCharg",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Focus (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 2,
+    "effectEn": "Distracted (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 1
+ },
+ {
+  "id": "mhfus63",
+  "name": "Guts",
+  "nameEs": "Guts",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Guts (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 2
+ },
+ {
+  "id": "mhfus64",
+  "name": "Fury",
+  "nameEs": "Fury",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Emboldened (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 3
+ },
+ {
+  "id": "mhfus65",
+  "name": "Map",
+  "nameEs": "Map",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Farsight (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 2,
+    "effectEn": "Map Unavailable (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 4
+ },
+ {
+  "id": "mhfus66",
+  "name": "PsychicVis",
+  "nameEs": "PsychicVis",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Autotracker (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Detect (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 5
+ },
+ {
+  "id": "mhfus67",
+  "name": "Gathering",
+  "nameEs": "Gathering",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Gathering +2 (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Gathering +1 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Gathering -1 (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 6
+ },
+ {
+  "id": "mhfus68",
+  "name": "Carving",
+  "nameEs": "Carving",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Carving Celebrity (+20 pts)",
+    "effectEs": null,
+    "points": 20
+   },
+   {
+    "level": 2,
+    "effectEn": "Carving Iron Man (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 7
+ },
+ {
+  "id": "mhfus69",
+  "name": "HiSpdGathr",
+  "nameEs": "HiSpdGathr",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "High Speed Gathering (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 8
+ },
+ {
+  "id": "mhfus70",
+  "name": "Backpackng",
+  "nameEs": "Backpackng",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Backpacking Expert (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 9
+ },
+ {
+  "id": "mhfus71",
+  "name": "Whim",
+  "nameEs": "Whim",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Divine Whim (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Spirit's Whim (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Spectre's Whim (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 4,
+    "effectEn": "Devil's Whim (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   }
+  ],
+  "colorIndex": 10
+ },
+ {
+  "id": "mhfus72",
+  "name": "Fishing",
+  "nameEs": "Fishing",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Fishing Expert (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 11
+ },
+ {
+  "id": "mhfus73",
+  "name": "Heat Res",
+  "nameEs": "Heat Res",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Heat Cancel (Hi) (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Heat Cancel (Lo) (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Heat Inc (Lo) (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 4,
+    "effectEn": "Heat Inc (Hi) (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   }
+  ],
+  "colorIndex": 0
+ },
+ {
+  "id": "mhfus74",
+  "name": "Cold Res",
+  "nameEs": "Cold Res",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Cold Elimination(Hi) (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Cold Elimination(Lo) (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Cold Increase (Lo) (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 4,
+    "effectEn": "Cold Increase (Hi) (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   }
+  ],
+  "colorIndex": 1
+ },
+ {
+  "id": "mhfus75",
+  "name": "Terrain",
+  "nameEs": "Terrain",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "TerrainDamageNegate (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "TerrainDamageHalf (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "TerrainDamageInc(Lo) (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 4,
+    "effectEn": "TerrainDamageInc(Hi) (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   }
+  ],
+  "colorIndex": 2
+ },
+ {
+  "id": "mhfus76",
+  "name": "Stamina",
+  "nameEs": "Stamina",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Runner (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 2,
+    "effectEn": "Flat Footed (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 3
+ },
+ {
+  "id": "mhfus77",
+  "name": "Constitutn",
+  "nameEs": "Constitutn",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Constitution +2 (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Constitution +1 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Constitution -1 (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 4,
+    "effectEn": "Constitution -2 (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   }
+  ],
+  "colorIndex": 4
+ },
+ {
+  "id": "mhfus78",
+  "name": "Hunger",
+  "nameEs": "Hunger",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Hunger Negated (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Hunger Halved (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Hunger Increase (Lo) (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 4,
+    "effectEn": "Hunger Increase (Hi) (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   }
+  ],
+  "colorIndex": 5
+ },
+ {
+  "id": "mhfus79",
+  "name": "Sneak",
+  "nameEs": "Sneak",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Stealth (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 2,
+    "effectEn": "Taunt (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 6
+ },
+ {
+  "id": "mhfus80",
+  "name": "Fate",
+  "nameEs": "Fate",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Luck Booster (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Good Luck (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 3,
+    "effectEn": "Bad Luck (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 4,
+    "effectEn": "Calamity (-20 pts)",
+    "effectEs": null,
+    "points": -20
+   }
+  ],
+  "colorIndex": 7
+ },
+ {
+  "id": "mhfus81",
+  "name": "SpeedSetup",
+  "nameEs": "SpeedSetup",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Trap Master (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 8
+ },
+ {
+  "id": "mhfus82",
+  "name": "Tranquilzr",
+  "nameEs": "Tranquilzr",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Tranquilizing Celeb (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Tranquilizing Whiz (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 9
+ },
+ {
+  "id": "mhfus83",
+  "name": "Perceive",
+  "nameEs": "Perceive",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Tranquilizing Guru (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 10
+ },
+ {
+  "id": "mhfus84",
+  "name": "Recovery",
+  "nameEs": "Recovery",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "HealthRecItemsImprvd (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 2,
+    "effectEn": "HealthRecItemsWeaknd (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 11
+ },
+ {
+  "id": "mhfus85",
+  "name": "Everlastng",
+  "nameEs": "Everlastng",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Item Usage Improve (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 2,
+    "effectEn": "Item Usage Decline (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 0
+ },
+ {
+  "id": "mhfus86",
+  "name": "Wide Area",
+  "nameEs": "Wide Area",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Wide Area +2 (+20 pts)",
+    "effectEs": null,
+    "points": 20
+   },
+   {
+    "level": 2,
+    "effectEn": "Wide Area +1 (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 1
+ },
+ {
+  "id": "mhfus87",
+  "name": "Throw",
+  "nameEs": "Throw",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Throwing Skill Up (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 2
+ },
+ {
+  "id": "mhfus88",
+  "name": "BombStrUp",
+  "nameEs": "BombStrUp",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Bomber (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 3
+ },
+ {
+  "id": "mhfus89",
+  "name": "Gluttony",
+  "nameEs": "Gluttony",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Scavenger (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Filled Up (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 4
+ },
+ {
+  "id": "mhfus90",
+  "name": "Cooking",
+  "nameEs": "Cooking",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Quick Eating (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 2,
+    "effectEn": "Slow Life (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 5
+ },
+ {
+  "id": "mhfus91",
+  "name": "BBQ",
+  "nameEs": "BBQ",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "BBQ Celebrity (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 2,
+    "effectEn": "So-Called BBQ King (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   }
+  ],
+  "colorIndex": 6
+ },
+ {
+  "id": "mhfus92",
+  "name": "Horn",
+  "nameEs": "Horn",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Flute Expert (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 7
+ },
+ {
+  "id": "mhfus93",
+  "name": "MixSucRate",
+  "nameEs": "MixSucRate",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Combine Success +45% (+20 pts)",
+    "effectEs": null,
+    "points": 20
+   },
+   {
+    "level": 2,
+    "effectEn": "Combine Success +25% (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 3,
+    "effectEn": "Combine Success +15% (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   },
+   {
+    "level": 4,
+    "effectEn": "Combine Success -5% (-10 pts)",
+    "effectEs": null,
+    "points": -10
+   },
+   {
+    "level": 5,
+    "effectEn": "Combine Success -10% (-15 pts)",
+    "effectEs": null,
+    "points": -15
+   },
+   {
+    "level": 6,
+    "effectEn": "Combine Success -15% (-20 pts)",
+    "effectEs": null,
+    "points": -20
+   }
+  ],
+  "colorIndex": 8
+ },
+ {
+  "id": "mhfus94",
+  "name": "Shot Mix",
+  "nameEs": "Shot Mix",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Bullet Limit (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 9
+ },
+ {
+  "id": "mhfus95",
+  "name": "Alchemy",
+  "nameEs": "Alchemy",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Alchemy (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 10
+ },
+ {
+  "id": "mhfus96",
+  "name": "ComrdGuide",
+  "nameEs": "ComrdGuide",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "ComradGuidance&Trade (+15 pts)",
+    "effectEs": null,
+    "points": 15
+   },
+   {
+    "level": 2,
+    "effectEn": "Comrade Guidance (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 11
+ },
+ {
+  "id": "mhfus97",
+  "name": "ComradeAtk",
+  "nameEs": "ComradeAtk",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Comrade Attack Up (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 0
+ },
+ {
+  "id": "mhfus98",
+  "name": "ComradeDef",
+  "nameEs": "ComradeDef",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Comrade Defense Up (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 1
+ },
+ {
+  "id": "mhfus99",
+  "name": "Torso Inc",
+  "nameEs": "Torso Inc",
+  "descEn": "",
+  "descEs": "",
+  "levels": [
+   {
+    "level": 1,
+    "effectEn": "Torso Inc (+10 pts)",
+    "effectEs": null,
+    "points": 10
+   }
+  ],
+  "colorIndex": 2
+ }
+]

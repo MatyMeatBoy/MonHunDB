@@ -1563,6 +1563,32 @@ body {
 .armor-set-pair-buttons button:first-child { border-right: 1px solid var(--border); }
 .armor-set-pair-buttons button:hover { background: var(--accent); color: var(--bg); }
 
+.armor-mode-toggle {
+  display: flex;
+  flex: 0 0 auto;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+.armor-mode-toggle button {
+  padding: 0.55rem 0.9rem;
+  background: var(--bg-panel);
+  color: var(--text-dim);
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.armor-mode-toggle button + button { border-left: 1px solid var(--border); }
+.armor-mode-toggle button.active { background: var(--accent); color: var(--bg); }
+.armor-mode-toggle button:hover:not(.active) { background: var(--bg-panel-alt); }
+
+.armor-palico-note {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  margin: 0 0 1rem;
+}
+
 .armor-set-detail-header {
   display: flex;
   flex-direction: column;

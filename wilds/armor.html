@@ -64,10 +64,16 @@
 
     <main id="armor-view" class="decorations-view">
     <div class="decorations-toolbar">
+      <div class="armor-mode-toggle" id="armor-mode-toggle">
+        <button type="button" data-mode="hunter" class="active" data-i18n="armorModeHunter">Cazador</button>
+        <button type="button" data-mode="palico" data-i18n="armorModePalico">Felyne</button>
+      </div>
       <input type="text" id="armor-search" class="monster-search" data-i18n-ph="armorSearchPlaceholder" placeholder="Buscar armadura…" autocomplete="off" />
     </div>
     <div id="armor-index" class="decorations-index"></div>
     <div id="armor-set-detail" class="decoration-detail" hidden></div>
+    <div id="palico-armor-index" class="decorations-index" hidden></div>
+    <div id="palico-armor-detail" class="decoration-detail" hidden></div>
   </main>
 
   <script src="data/i18n_wilds.js"></script>

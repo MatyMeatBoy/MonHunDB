@@ -75,6 +75,9 @@ const armorBackEl = document.getElementById("armor-back");
 const armorSearchEl = document.getElementById("armor-search");
 const armorIndexEl = document.getElementById("armor-index");
 const armorSetDetailEl = document.getElementById("armor-set-detail");
+const armorModeToggleEl = document.getElementById("armor-mode-toggle");
+const palicoArmorIndexEl = document.getElementById("palico-armor-index");
+const palicoArmorDetailEl = document.getElementById("palico-armor-detail");
 const materialsNavToggleEl = document.getElementById("materials-nav-toggle");
 const materialsViewEl = document.getElementById("materials-view");
 const materialsBackEl = document.getElementById("materials-back");
@@ -92,6 +95,8 @@ let skillsByName = new Map();
 let weapons = [];
 let armorPieces = [];
 let armorSets = [];
+let palicoArmorSets = [];
+let armorMode = "hunter";
 let weaponsById = new Map();
 const ARMOR_PART_ORDER = ["head", "chest", "arms", "waist", "legs"];
 
@@ -421,7 +426,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, charmsRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, palicoArmorRes, skillsRes, weaponTreeRes, charmsRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
@@ -429,6 +434,7 @@ async function init() {
       fetch("data/weapons.json"),
       fetch("data/armor_pieces.json"),
       fetch("data/armor_sets.json"),
+      fetch("data/palico_armor_sets.json"),
       fetch("data/skills.json"),
       fetch("data/weapon_tree.json"),
       fetch("data/charms.json"),
@@ -438,6 +444,7 @@ async function init() {
       loadMaterialIconManifest(),
       loadMhriceIconMaps(),
       loadArmorFextraIcons(),
+      loadCharmIconManifest(),
       loadItemIconManifestWilds(),
       loadDecoSkillIconManifestsWilds(),
       loadDecorationColorManifestWilds(),
@@ -451,6 +458,7 @@ async function init() {
     weapons = weaponsRes.ok ? await weaponsRes.json() : [];
     armorPieces = armorPiecesRes.ok ? await armorPiecesRes.json() : [];
     armorSets = armorSetsRes.ok ? await armorSetsRes.json() : [];
+    palicoArmorSets = palicoArmorRes.ok ? await palicoArmorRes.json() : [];
     skills = skillsRes.ok ? await skillsRes.json() : [];
     charms = charmsRes.ok ? await charmsRes.json() : [];
     weaponsById = new Map(weapons.map(w => [w.id, w]));
@@ -551,6 +559,16 @@ async function loadMaterialIconManifest() {
     if (res.ok) materialIconManifest = await res.json();
   } catch (e) {
     console.warn("No se pudo cargar el manifiesto de íconos de materiales", e);
+  }
+}
+
+let charmIconManifest = {};
+async function loadCharmIconManifest() {
+  try {
+    const res = await fetch("data/charm_icon_manifest.json");
+    if (res.ok) charmIconManifest = await res.json();
+  } catch (e) {
+    console.warn("No se pudo cargar el manifiesto de íconos de talismanes", e);
   }
 }
 
@@ -1884,10 +1902,85 @@ function showArmorView() {
   hideViews(detailEl, homeViewEl, decorationsViewEl, weaponsViewEl, materialsViewEl, skillsViewEl, charmsViewEl);
   armorViewEl.hidden = false;
   armorSetDetailEl.hidden = true;
-  armorIndexEl.hidden = false;
+  palicoArmorDetailEl.hidden = true;
   armorSearchEl.value = "";
   window.scrollTo(0, 0);
-  renderArmorIndex("");
+  setArmorMode(armorMode);
+}
+
+function setArmorMode(mode) {
+  armorMode = mode;
+  if (armorModeToggleEl) {
+    armorModeToggleEl.querySelectorAll("button").forEach(b => b.classList.toggle("active", b.dataset.mode === mode));
+  }
+  armorSetDetailEl.hidden = true;
+  palicoArmorDetailEl.hidden = true;
+  if (mode === "palico") {
+    armorIndexEl.hidden = true;
+    palicoArmorIndexEl.hidden = false;
+    renderPalicoArmorIndex();
+  } else {
+    palicoArmorIndexEl.hidden = true;
+    armorIndexEl.hidden = false;
+    renderArmorIndex("");
+  }
+}
+
+function renderPalicoArmorIndex() {
+  const html = `<div class="decorations-slot-group">
+    <div class="decorations-grid">
+      ${palicoArmorSets.map(s => `
+        <button type="button" class="decoration-card armor-set-card" data-palico-set="${escapeAttr(s.slug)}">
+          ${s.image ? `<img class="armor-set-thumb" src="${s.image}" alt="" loading="lazy" onerror="this.style.display='none'">` : `<span class="material-icon material-icon--placeholder"></span>`}
+          <span class="decoration-card-name">${s.name}</span>
+          <span class="decoration-card-skill">${ui("armorDefense")} ${s.defense ?? "—"}</span>
+        </button>
+      `).join("")}
+    </div>
+  </div>`;
+  palicoArmorIndexEl.innerHTML = html;
+  palicoArmorIndexEl.querySelectorAll("[data-palico-set]").forEach(btn => {
+    btn.addEventListener("click", () => showPalicoArmorSetDetail(btn.dataset.palicoSet));
+  });
+}
+
+function showPalicoArmorSetDetail(slug) {
+  const s = palicoArmorSets.find(x => x.slug === slug);
+  if (!s) return;
+  window.scrollTo(0, 0);
+  armorIndexEl.hidden = true;
+  palicoArmorIndexEl.hidden = true;
+  palicoArmorDetailEl.hidden = false;
+  const resistText = Object.entries(s.resistances || {})
+    .map(([k, v]) => `${trElement(k)} ${v > 0 ? "+" : ""}${v}`)
+    .join(" · ");
+  const pieceEntries = [...(s.pieces || []), ...(s.weapon ? [{ part: "weapon", ...s.weapon }] : [])];
+  const partLabel = { head: trArmorPart("head"), chest: trArmorPart("chest"), weapon: ui("weaponsNav") };
+  palicoArmorDetailEl.innerHTML = `
+    <button type="button" class="decorations-back" id="palico-armor-back">${ui("armorBack")}</button>
+    <div class="decoration-detail-header">
+      ${s.image ? `<img src="${s.image}" alt="" loading="lazy">` : ""}
+      <h2>${s.name}</h2>
+    </div>
+    <p class="gs-material-intro">${ui("armorRarity")}: ${s.rarity ?? "—"}</p>
+    <p class="gs-material-intro">${ui("armorDefense")}: ${s.defense ?? "—"}</p>
+    ${resistText ? `<p class="gs-material-intro">${ui("resistances")}: ${resistText}</p>` : ""}
+    ${pieceEntries.length ? `
+      <section class="block">
+        <h3>${ui("armorPiecesHeading")}</h3>
+        <div class="decorations-grid">
+          ${pieceEntries.map(p => `
+            <div class="decoration-card">
+              ${p.icon ? `<img class="material-icon" src="${p.icon}" alt="" loading="lazy">` : `<span class="material-icon material-icon--placeholder"></span>`}
+              <span class="decoration-card-name">${lang === "es" && p.nameEs ? p.nameEs : p.name}</span>
+              <span class="decoration-card-skill">${partLabel[p.part] || ""}</span>
+            </div>
+          `).join("")}
+        </div>
+      </section>
+    ` : `<p class="armor-palico-note">${ui("armorPalicoNote")}</p>`}
+  `;
+  document.getElementById("palico-armor-back").addEventListener("click", () => setArmorMode("palico"));
 }
 
 function renderArmorIndex(query) {
@@ -2132,15 +2225,25 @@ function showArmorPieceDetail(id) {
 
 function bootArmor() {
   armorSearchEl.addEventListener("input", () => renderArmorIndex(armorSearchEl.value));
+  if (armorModeToggleEl) {
+    armorModeToggleEl.querySelectorAll("button").forEach(btn => {
+      btn.addEventListener("click", () => setArmorMode(btn.dataset.mode));
+    });
+  }
   const params = new URLSearchParams(location.search);
   const setName = params.get("set");
   const pieceId = params.get("piece");
+  const palicoSlug = params.get("felyne");
   if (setName && armorSets.some(s => s.name === setName)) {
     showArmorView();
     showArmorSetDetail(setName);
   } else if (pieceId && armorPieces.some(p => p.id === pieceId)) {
     showArmorView();
     showArmorPieceDetail(pieceId);
+  } else if (palicoSlug && palicoArmorSets.some(s => s.slug === palicoSlug)) {
+    showArmorView();
+    setArmorMode("palico");
+    showPalicoArmorSetDetail(palicoSlug);
   } else {
     showArmorView();
   }
@@ -2439,7 +2542,8 @@ function trCharmName(charm) {
   return lang === "es" && charm.nameEs ? charm.nameEs : charm.name;
 }
 function charmIconTag(charm) {
-  const src = charm && charm.name ? itemIconSrcWilds(charm.name) : null;
+  const src = (charm && charm.id && charmIconManifest[charm.id])
+    || (charm && charm.name ? itemIconSrcWilds(charm.name) : null);
   return src
     ? `<img class="material-icon" src="${src}" alt="" loading="lazy">`
     : `<span class="material-icon material-icon--placeholder"></span>`;

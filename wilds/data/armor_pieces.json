@@ -15883,5 +15883,225 @@
   "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/80/Sakuratide-hakama-alpha-type-a-legs-armor-monster-hunter-wilds-wiki-guide.png/110px-Sakuratide-hakama-alpha-type-a-legs-armor-monster-hunter-wilds-wiki-guide.png",
   "setName": "Sakuratide α Set",
   "nameEs": "Hakama de marea Sakura α"
+ },
+ {
+  "id": "wp686",
+  "name": "Demon Prayer Beads α",
+  "part": "head",
+  "defense": 48,
+  "rarity": 6,
+  "resistances": {
+   "fire": 3,
+   "water": -2,
+   "thunder": 0,
+   "ice": -2,
+   "dragon": 3
+  },
+  "decoSlots": [],
+  "skills": [],
+  "materials": [
+   {
+    "material": "Ajarakan Scale+",
+    "qty": 3
+   },
+   {
+    "material": "Ajarakan Jewel+",
+    "qty": 1
+   },
+   {
+    "material": "SF6 Ticket",
+    "qty": 5
+   },
+   {
+    "material": "Ajarakan Medulla",
+    "qty": 10
+   },
+   {
+    "material": "Hunter Symbol II",
+    "qty": 5
+   },
+   {
+    "material": "SF6 Ticket",
+    "qty": 15
+   }
+  ],
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/34/Akuma_alpha-armor-set-mhwilds-wiki-guide.png/Akuma_alpha-armor-set-mhwilds-wiki-guide.png",
+  "setName": "Akuma α Set"
+ },
+ {
+  "id": "wp687",
+  "name": "Demon Garb α",
+  "part": "chest",
+  "defense": 48,
+  "rarity": 6,
+  "resistances": {
+   "fire": 3,
+   "water": -2,
+   "thunder": 0,
+   "ice": -2,
+   "dragon": 3
+  },
+  "decoSlots": [],
+  "skills": [],
+  "materials": [
+   {
+    "material": "Ajarakan Scale+",
+    "qty": 3
+   },
+   {
+    "material": "Ajarakan Jewel+",
+    "qty": 1
+   },
+   {
+    "material": "SF6 Ticket",
+    "qty": 5
+   },
+   {
+    "material": "Ajarakan Medulla",
+    "qty": 10
+   },
+   {
+    "material": "Hunter Symbol II",
+    "qty": 5
+   },
+   {
+    "material": "SF6 Ticket",
+    "qty": 15
+   }
+  ],
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/34/Akuma_alpha-armor-set-mhwilds-wiki-guide.png/Akuma_alpha-armor-set-mhwilds-wiki-guide.png",
+  "setName": "Akuma α Set"
+ },
+ {
+  "id": "wp688",
+  "name": "Demon Arm Wraps α",
+  "part": "arms",
+  "defense": 48,
+  "rarity": 6,
+  "resistances": {
+   "fire": 3,
+   "water": -2,
+   "thunder": 0,
+   "ice": -2,
+   "dragon": 3
+  },
+  "decoSlots": [],
+  "skills": [],
+  "materials": [
+   {
+    "material": "Ajarakan Scale+",
+    "qty": 3
+   },
+   {
+    "material": "Ajarakan Jewel+",
+    "qty": 1
+   },
+   {
+    "material": "SF6 Ticket",
+    "qty": 5
+   },
+   {
+    "material": "Ajarakan Medulla",
+    "qty": 10
+   },
+   {
+    "material": "Hunter Symbol II",
+    "qty": 5
+   },
+   {
+    "material": "SF6 Ticket",
+    "qty": 15
+   }
+  ],
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/34/Akuma_alpha-armor-set-mhwilds-wiki-guide.png/Akuma_alpha-armor-set-mhwilds-wiki-guide.png",
+  "setName": "Akuma α Set"
+ },
+ {
+  "id": "wp689",
+  "name": "Demon Belt α",
+  "part": "waist",
+  "defense": 48,
+  "rarity": 6,
+  "resistances": {
+   "fire": 3,
+   "water": -2,
+   "thunder": 0,
+   "ice": -2,
+   "dragon": 3
+  },
+  "decoSlots": [],
+  "skills": [],
+  "materials": [
+   {
+    "material": "Ajarakan Scale+",
+    "qty": 3
+   },
+   {
+    "material": "Ajarakan Jewel+",
+    "qty": 1
+   },
+   {
+    "material": "SF6 Ticket",
+    "qty": 5
+   },
+   {
+    "material": "Ajarakan Medulla",
+    "qty": 10
+   },
+   {
+    "material": "Hunter Symbol II",
+    "qty": 5
+   },
+   {
+    "material": "SF6 Ticket",
+    "qty": 15
+   }
+  ],
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/34/Akuma_alpha-armor-set-mhwilds-wiki-guide.png/Akuma_alpha-armor-set-mhwilds-wiki-guide.png",
+  "setName": "Akuma α Set"
+ },
+ {
+  "id": "wp690",
+  "name": "Demon Pants α",
+  "part": "legs",
+  "defense": 48,
+  "rarity": 6,
+  "resistances": {
+   "fire": 3,
+   "water": -2,
+   "thunder": 0,
+   "ice": -2,
+   "dragon": 3
+  },
+  "decoSlots": [],
+  "skills": [],
+  "materials": [
+   {
+    "material": "Ajarakan Scale+",
+    "qty": 3
+   },
+   {
+    "material": "Ajarakan Jewel+",
+    "qty": 1
+   },
+   {
+    "material": "SF6 Ticket",
+    "qty": 5
+   },
+   {
+    "material": "Ajarakan Medulla",
+    "qty": 10
+   },
+   {
+    "material": "Hunter Symbol II",
+    "qty": 5
+   },
+   {
+    "material": "SF6 Ticket",
+    "qty": 15
+   }
+  ],
+  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/3/34/Akuma_alpha-armor-set-mhwilds-wiki-guide.png/Akuma_alpha-armor-set-mhwilds-wiki-guide.png",
+  "setName": "Akuma α Set"
  }
 ]
