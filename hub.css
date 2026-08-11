@@ -33,22 +33,14 @@ body {
 
 .hub-brand {
   display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  line-height: 1.15;
+  align-items: center;
   margin: 0;
-  font-size: 1.25rem;
-  letter-spacing: 0.02em;
 }
 
-.hub-brand-main { font-size: 1.3rem; }
-
-.hub-brand-sub {
-  font-size: 0.72rem;
-  font-weight: 400;
-  color: var(--text-dim);
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
+.hub-brand-logo {
+  height: 52px;
+  width: auto;
+  display: block;
 }
 
 .lang-toggle {
