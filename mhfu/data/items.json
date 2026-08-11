@@ -74,7 +74,7 @@
  {
   "id": "mhfui7",
   "name": "Potion",
-  "nameEs": null,
+  "nameEs": "Poción",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -86,7 +86,7 @@
  {
   "id": "mhfui8",
   "name": "Mega Potion",
-  "nameEs": null,
+  "nameEs": "Megapoción",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -98,7 +98,7 @@
  {
   "id": "mhfui9",
   "name": "Nutrients",
-  "nameEs": null,
+  "nameEs": "Nutrientes",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -110,7 +110,7 @@
  {
   "id": "mhfui10",
   "name": "Mega Nutrients",
-  "nameEs": null,
+  "nameEs": "Meganutrientes",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -122,7 +122,7 @@
  {
   "id": "mhfui11",
   "name": "Antidote",
-  "nameEs": null,
+  "nameEs": "Antídoto",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -134,7 +134,7 @@
  {
   "id": "mhfui12",
   "name": "Immunizer",
-  "nameEs": null,
+  "nameEs": "Inmunizador",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -146,7 +146,7 @@
  {
   "id": "mhfui13",
   "name": "Power Juice",
-  "nameEs": null,
+  "nameEs": "Zumo de poder",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -158,7 +158,7 @@
  {
   "id": "mhfui14",
   "name": "Mega Juice",
-  "nameEs": null,
+  "nameEs": "Megazumo",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -170,7 +170,7 @@
  {
   "id": "mhfui15",
   "name": "Demondrug",
-  "nameEs": null,
+  "nameEs": "Droga demoníaca",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -182,7 +182,7 @@
  {
   "id": "mhfui16",
   "name": "Mega Demondrug",
-  "nameEs": null,
+  "nameEs": "Megadroga demon.",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -194,7 +194,7 @@
  {
   "id": "mhfui17",
   "name": "Power Pill",
-  "nameEs": null,
+  "nameEs": "Píldora de poder",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -206,7 +206,7 @@
  {
   "id": "mhfui18",
   "name": "Armorskin",
-  "nameEs": null,
+  "nameEs": "Piel de armadura",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -218,7 +218,7 @@
  {
   "id": "mhfui19",
   "name": "Mega Armorskin",
-  "nameEs": null,
+  "nameEs": "Megapiel armad.",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -230,7 +230,7 @@
  {
   "id": "mhfui20",
   "name": "Armor Pill",
-  "nameEs": null,
+  "nameEs": "Píldora armadura",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -242,7 +242,7 @@
  {
   "id": "mhfui21",
   "name": "Cool Drink",
-  "nameEs": null,
+  "nameEs": "Bebida fría",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -254,7 +254,7 @@
  {
   "id": "mhfui22",
   "name": "Hot Drink",
-  "nameEs": null,
+  "nameEs": "Bebida caliente",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -266,7 +266,7 @@
  {
   "id": "mhfui23",
   "name": "Thawing Agent",
-  "nameEs": null,
+  "nameEs": "Descongelante",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -278,7 +278,7 @@
  {
   "id": "mhfui24",
   "name": "Psychoserum",
-  "nameEs": null,
+  "nameEs": "Psicosuero",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -290,7 +290,7 @@
  {
   "id": "mhfui25",
   "name": "Monster Fluid",
-  "nameEs": null,
+  "nameEs": "Fluido monstruo",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -350,7 +350,7 @@
  {
   "id": "mhfui30",
   "name": "Herbal Medicine",
-  "nameEs": null,
+  "nameEs": "Medicina herbal",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -362,7 +362,7 @@
  {
   "id": "mhfui31",
   "name": "Max Potion",
-  "nameEs": null,
+  "nameEs": "Poción máx.",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -374,7 +374,7 @@
  {
   "id": "mhfui32",
   "name": "Ancient Potion",
-  "nameEs": null,
+  "nameEs": "Poción antigua",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -386,7 +386,7 @@
  {
   "id": "mhfui33",
   "name": "Catalyst",
-  "nameEs": null,
+  "nameEs": "Catalizador",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -398,7 +398,7 @@
  {
   "id": "mhfui34",
   "name": "Energy Drink",
-  "nameEs": null,
+  "nameEs": "Bebida energét.",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -410,7 +410,7 @@
  {
   "id": "mhfui35",
   "name": "Gunpowder",
-  "nameEs": null,
+  "nameEs": "Pólvora",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -422,7 +422,7 @@
  {
   "id": "mhfui36",
   "name": "Lifecrystals",
-  "nameEs": null,
+  "nameEs": "Cristales vida",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -434,7 +434,7 @@
  {
   "id": "mhfui37",
   "name": "Lifepowder",
-  "nameEs": null,
+  "nameEs": "Polvo de vida",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -446,7 +446,7 @@
  {
   "id": "mhfui38",
   "name": "Powercharm",
-  "nameEs": null,
+  "nameEs": "Amuleto de poder",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -458,7 +458,7 @@
  {
   "id": "mhfui39",
   "name": "Powertalon",
-  "nameEs": null,
+  "nameEs": "Garra de poder",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -470,7 +470,7 @@
  {
   "id": "mhfui40",
   "name": "Armorcharm",
-  "nameEs": null,
+  "nameEs": "Amuleto armadura",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -482,7 +482,7 @@
  {
   "id": "mhfui41",
   "name": "Armortalon",
-  "nameEs": null,
+  "nameEs": "Garra armadura",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -494,7 +494,7 @@
  {
   "id": "mhfui42",
   "name": "Tranquilizer",
-  "nameEs": null,
+  "nameEs": "Tranquilizante",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -506,7 +506,7 @@
  {
   "id": "mhfui43",
   "name": "Raw Meat",
-  "nameEs": null,
+  "nameEs": "Carne cruda",
   "category": "meat",
   "iconId": null,
   "color": null,
@@ -518,7 +518,7 @@
  {
   "id": "mhfui44",
   "name": "Poisoned Meat",
-  "nameEs": null,
+  "nameEs": "Carne envenenada",
   "category": "meat",
   "iconId": null,
   "color": null,
@@ -530,7 +530,7 @@
  {
   "id": "mhfui45",
   "name": "Tainted Meat",
-  "nameEs": null,
+  "nameEs": "Carne teñida",
   "category": "meat",
   "iconId": null,
   "color": null,
@@ -542,7 +542,7 @@
  {
   "id": "mhfui46",
   "name": "Drugged Meat",
-  "nameEs": null,
+  "nameEs": "Carne drogada",
   "category": "meat",
   "iconId": null,
   "color": null,
@@ -554,7 +554,7 @@
  {
   "id": "mhfui47",
   "name": "Rare Steak",
-  "nameEs": null,
+  "nameEs": "Fil. poco hecho",
   "category": "meat",
   "iconId": null,
   "color": null,
@@ -566,7 +566,7 @@
  {
   "id": "mhfui48",
   "name": "Well-Done Steak",
-  "nameEs": null,
+  "nameEs": "Cristal hielo",
   "category": "meat",
   "iconId": null,
   "color": null,
@@ -590,7 +590,7 @@
  {
   "id": "mhfui50",
   "name": "Burnt Meat",
-  "nameEs": null,
+  "nameEs": "Carne tostada",
   "category": "meat",
   "iconId": null,
   "color": null,
@@ -602,7 +602,7 @@
  {
   "id": "mhfui51",
   "name": "Hot Meat",
-  "nameEs": null,
+  "nameEs": "Carne caliente",
   "category": "meat",
   "iconId": null,
   "color": null,
@@ -614,7 +614,7 @@
  {
   "id": "mhfui52",
   "name": "Cold Meat",
-  "nameEs": null,
+  "nameEs": "Carne fría",
   "category": "meat",
   "iconId": null,
   "color": null,
@@ -626,7 +626,7 @@
  {
   "id": "mhfui53",
   "name": "Rare Fish",
-  "nameEs": null,
+  "nameEs": "Pesc. poco hecho",
   "category": "fish",
   "iconId": null,
   "color": null,
@@ -662,7 +662,7 @@
  {
   "id": "mhfui56",
   "name": "Burnt Fish",
-  "nameEs": null,
+  "nameEs": "Pesc. tostado",
   "category": "fish",
   "iconId": null,
   "color": null,
@@ -674,7 +674,7 @@
  {
   "id": "mhfui57",
   "name": "Boomerang",
-  "nameEs": null,
+  "nameEs": "Boomerang",
   "category": "boomerang",
   "iconId": null,
   "color": null,
@@ -686,7 +686,7 @@
  {
   "id": "mhfui58",
   "name": "Throwing Knife",
-  "nameEs": null,
+  "nameEs": "Cuchillo lanzam.",
   "category": "knife",
   "iconId": null,
   "color": null,
@@ -698,7 +698,7 @@
  {
   "id": "mhfui59",
   "name": "Poison Thrw Knf",
-  "nameEs": null,
+  "nameEs": "Cuch. lanz. ven.",
   "category": "knife",
   "iconId": null,
   "color": null,
@@ -710,7 +710,7 @@
  {
   "id": "mhfui60",
   "name": "Sleeping Thr Knf",
-  "nameEs": null,
+  "nameEs": "Cuch. somnífero",
   "category": "knife",
   "iconId": null,
   "color": null,
@@ -722,7 +722,7 @@
  {
   "id": "mhfui61",
   "name": "Paralyze Thr Knf",
-  "nameEs": null,
+  "nameEs": "Cuch. paraliz.",
   "category": "knife",
   "iconId": null,
   "color": null,
@@ -734,7 +734,7 @@
  {
   "id": "mhfui62",
   "name": "Tranq Thrwng Knf",
-  "nameEs": null,
+  "nameEs": "Cuch. tranquil.",
   "category": "knife",
   "iconId": null,
   "color": null,
@@ -746,7 +746,7 @@
  {
   "id": "mhfui63",
   "name": "Bomb Material",
-  "nameEs": null,
+  "nameEs": "Material bomba",
   "category": "ball",
   "iconId": null,
   "color": null,
@@ -758,7 +758,7 @@
  {
   "id": "mhfui64",
   "name": "Paintball",
-  "nameEs": null,
+  "nameEs": "Bola de pintura",
   "category": "ball",
   "iconId": null,
   "color": null,
@@ -770,7 +770,7 @@
  {
   "id": "mhfui65",
   "name": "Flash Bomb",
-  "nameEs": null,
+  "nameEs": "Bomba de luz",
   "category": "ball",
   "iconId": null,
   "color": null,
@@ -782,7 +782,7 @@
  {
   "id": "mhfui66",
   "name": "Sonic Bomb",
-  "nameEs": null,
+  "nameEs": "Bomba sónica",
   "category": "ball",
   "iconId": null,
   "color": null,
@@ -794,7 +794,7 @@
  {
   "id": "mhfui67",
   "name": "Dung",
-  "nameEs": null,
+  "nameEs": "Boñiga",
   "category": "dung",
   "iconId": null,
   "color": null,
@@ -818,7 +818,7 @@
  {
   "id": "mhfui69",
   "name": "Dung Bomb",
-  "nameEs": null,
+  "nameEs": "Bomba boñiga",
   "category": "dung",
   "iconId": null,
   "color": null,
@@ -830,7 +830,7 @@
  {
   "id": "mhfui70",
   "name": "Smoke Bomb",
-  "nameEs": null,
+  "nameEs": "Bomba de humo",
   "category": "smoke",
   "iconId": null,
   "color": null,
@@ -842,7 +842,7 @@
  {
   "id": "mhfui71",
   "name": "Poison Smoke Bmb",
-  "nameEs": null,
+  "nameEs": "Bomba humo ven.",
   "category": "smoke",
   "iconId": null,
   "color": null,
@@ -854,7 +854,7 @@
  {
   "id": "mhfui72",
   "name": "Farcaster",
-  "nameEs": null,
+  "nameEs": "Transportador",
   "category": "smoke",
   "iconId": null,
   "color": null,
@@ -866,7 +866,7 @@
  {
   "id": "mhfui73",
   "name": "Deodorant",
-  "nameEs": null,
+  "nameEs": "Desodorante",
   "category": "smoke",
   "iconId": null,
   "color": null,
@@ -878,7 +878,7 @@
  {
   "id": "mhfui74",
   "name": "Tranq Bomb",
-  "nameEs": null,
+  "nameEs": "Bomba tranquil.",
   "category": "ball",
   "iconId": null,
   "color": null,
@@ -890,7 +890,7 @@
  {
   "id": "mhfui75",
   "name": "Spiderweb",
-  "nameEs": null,
+  "nameEs": "Telaraña",
   "category": "web",
   "iconId": null,
   "color": null,
@@ -902,7 +902,7 @@
  {
   "id": "mhfui76",
   "name": "Net",
-  "nameEs": null,
+  "nameEs": "Red",
   "category": "web",
   "iconId": null,
   "color": null,
@@ -914,7 +914,7 @@
  {
   "id": "mhfui77",
   "name": "Trap Tool",
-  "nameEs": null,
+  "nameEs": "Herram. trampa",
   "category": "tool",
   "iconId": null,
   "color": null,
@@ -926,7 +926,7 @@
  {
   "id": "mhfui78",
   "name": "Pitfall Trap",
-  "nameEs": null,
+  "nameEs": "Trampa escollo",
   "category": "trap",
   "iconId": null,
   "color": null,
@@ -938,7 +938,7 @@
  {
   "id": "mhfui79",
   "name": "Shock Trap",
-  "nameEs": null,
+  "nameEs": "Trampa choque",
   "category": "trap",
   "iconId": null,
   "color": null,
@@ -950,7 +950,7 @@
  {
   "id": "mhfui80",
   "name": "Lightning Rod",
-  "nameEs": null,
+  "nameEs": "Pararrayos",
   "category": "trap",
   "iconId": null,
   "color": null,
@@ -974,7 +974,7 @@
  {
   "id": "mhfui82",
   "name": "Small Barrel",
-  "nameEs": null,
+  "nameEs": "Barril pequeño",
   "category": "barrel",
   "iconId": null,
   "color": null,
@@ -986,7 +986,7 @@
  {
   "id": "mhfui83",
   "name": "Large Barrel",
-  "nameEs": null,
+  "nameEs": "Barril grande",
   "category": "barrel",
   "iconId": null,
   "color": null,
@@ -998,7 +998,7 @@
  {
   "id": "mhfui84",
   "name": "Sm Barrel-Bomb",
-  "nameEs": null,
+  "nameEs": "Bomba barril pq.",
   "category": "bomb",
   "iconId": null,
   "color": null,
@@ -1010,7 +1010,7 @@
  {
   "id": "mhfui85",
   "name": "Sm Barrel-Bomb+",
-  "nameEs": null,
+  "nameEs": "Bomba barr. pq.+",
   "category": "bomb",
   "iconId": null,
   "color": null,
@@ -1022,7 +1022,7 @@
  {
   "id": "mhfui86",
   "name": "Lg Barrel-Bomb",
-  "nameEs": null,
+  "nameEs": "Bomba barril gr.",
   "category": "bomb",
   "iconId": null,
   "color": null,
@@ -1034,7 +1034,7 @@
  {
   "id": "mhfui87",
   "name": "Lg Barrel-Bomb+",
-  "nameEs": null,
+  "nameEs": "Bomba barr. gr.+",
   "category": "bomb",
   "iconId": null,
   "color": null,
@@ -1046,7 +1046,7 @@
  {
   "id": "mhfui88",
   "name": "Bounce Bomb",
-  "nameEs": null,
+  "nameEs": "Bomba de rebote",
   "category": "bomb",
   "iconId": null,
   "color": null,
@@ -1058,7 +1058,7 @@
  {
   "id": "mhfui89",
   "name": "Bounce Bomb+",
-  "nameEs": null,
+  "nameEs": "Bomba rebote +",
   "category": "bomb",
   "iconId": null,
   "color": null,
@@ -1082,7 +1082,7 @@
  {
   "id": "mhfui91",
   "name": "Huskberry",
-  "nameEs": null,
+  "nameEs": "Baya hueca",
   "category": "husk",
   "iconId": null,
   "color": null,
@@ -1094,7 +1094,7 @@
  {
   "id": "mhfui92",
   "name": "Sm Bone Husk",
-  "nameEs": null,
+  "nameEs": "Cásc. hueso pq.",
   "category": "husk",
   "iconId": null,
   "color": null,
@@ -1106,7 +1106,7 @@
  {
   "id": "mhfui93",
   "name": "Lg Bone Husk",
-  "nameEs": null,
+  "nameEs": "Cásc. hueso gr.",
   "category": "husk",
   "iconId": null,
   "color": null,
@@ -1130,7 +1130,7 @@
  {
   "id": "mhfui95",
   "name": "Normal S Lv2",
-  "nameEs": null,
+  "nameEs": "Disp. normal Nv2",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1142,7 +1142,7 @@
  {
   "id": "mhfui96",
   "name": "Normal S Lv3",
-  "nameEs": null,
+  "nameEs": "Disp. normal Nv3",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1154,7 +1154,7 @@
  {
   "id": "mhfui97",
   "name": "Pierce S Lv1",
-  "nameEs": null,
+  "nameEs": "Disp. perf. Nv1",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1166,7 +1166,7 @@
  {
   "id": "mhfui98",
   "name": "Pierce S Lv2",
-  "nameEs": null,
+  "nameEs": "Disp. perf. Nv2",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1178,7 +1178,7 @@
  {
   "id": "mhfui99",
   "name": "Pierce S Lv3",
-  "nameEs": null,
+  "nameEs": "Disp. perf. Nv3",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1190,7 +1190,7 @@
  {
   "id": "mhfui100",
   "name": "Pellet S Lv1",
-  "nameEs": null,
+  "nameEs": "D. perdigón Nv1",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1202,7 +1202,7 @@
  {
   "id": "mhfui101",
   "name": "Pellet S Lv2",
-  "nameEs": null,
+  "nameEs": "D. perdigón Nv2",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1214,7 +1214,7 @@
  {
   "id": "mhfui102",
   "name": "Pellet S Lv3",
-  "nameEs": null,
+  "nameEs": "D. perdigón Nv3",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1226,7 +1226,7 @@
  {
   "id": "mhfui103",
   "name": "Crag S Lv1",
-  "nameEs": null,
+  "nameEs": "Disp. expl. Nv1",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1238,7 +1238,7 @@
  {
   "id": "mhfui104",
   "name": "Crag S Lv2",
-  "nameEs": null,
+  "nameEs": "Disp. expl. Nv2",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1250,7 +1250,7 @@
  {
   "id": "mhfui105",
   "name": "Crag S Lv3",
-  "nameEs": null,
+  "nameEs": "Disp. expl. Nv3",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1262,7 +1262,7 @@
  {
   "id": "mhfui106",
   "name": "Clust S Lv1",
-  "nameEs": null,
+  "nameEs": "Disp. grupo Nv1",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1274,7 +1274,7 @@
  {
   "id": "mhfui107",
   "name": "Clust S Lv2",
-  "nameEs": null,
+  "nameEs": "Disp. grupo Nv2",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1286,7 +1286,7 @@
  {
   "id": "mhfui108",
   "name": "Clust S Lv3",
-  "nameEs": null,
+  "nameEs": "Disp. grupo Nv3",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1298,7 +1298,7 @@
  {
   "id": "mhfui109",
   "name": "Flaming S",
-  "nameEs": null,
+  "nameEs": "Disp. llama",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1310,7 +1310,7 @@
  {
   "id": "mhfui110",
   "name": "Water S",
-  "nameEs": null,
+  "nameEs": "Disp. agua",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1322,7 +1322,7 @@
  {
   "id": "mhfui111",
   "name": "Thunder S",
-  "nameEs": null,
+  "nameEs": "Disp. trueno",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1334,7 +1334,7 @@
  {
   "id": "mhfui112",
   "name": "Freeze S",
-  "nameEs": null,
+  "nameEs": "Disp. congel.",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1346,7 +1346,7 @@
  {
   "id": "mhfui113",
   "name": "Dragon S",
-  "nameEs": null,
+  "nameEs": "Disp. dragón",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1358,7 +1358,7 @@
  {
   "id": "mhfui114",
   "name": "Recov S Lv1",
-  "nameEs": null,
+  "nameEs": "Disp. recup. Nv1",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1370,7 +1370,7 @@
  {
   "id": "mhfui115",
   "name": "Recov S Lv2",
-  "nameEs": null,
+  "nameEs": "Disp. recup. Nv2",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1382,7 +1382,7 @@
  {
   "id": "mhfui116",
   "name": "Poison S Lv1",
-  "nameEs": null,
+  "nameEs": "Disp. veneno Nv1",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1394,7 +1394,7 @@
  {
   "id": "mhfui117",
   "name": "Poison S Lv2",
-  "nameEs": null,
+  "nameEs": "Disp. veneno Nv2",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1406,7 +1406,7 @@
  {
   "id": "mhfui118",
   "name": "Para S Lv1",
-  "nameEs": null,
+  "nameEs": "Disp. paral. Nv1",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1418,7 +1418,7 @@
  {
   "id": "mhfui119",
   "name": "Para S Lv2",
-  "nameEs": null,
+  "nameEs": "Disp. paral. Nv2",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1430,7 +1430,7 @@
  {
   "id": "mhfui120",
   "name": "Sleep S Lv1",
-  "nameEs": null,
+  "nameEs": "Disp. sueño Nv1",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1442,7 +1442,7 @@
  {
   "id": "mhfui121",
   "name": "Sleep S Lv2",
-  "nameEs": null,
+  "nameEs": "Disp. sueño Nv2",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1454,7 +1454,7 @@
  {
   "id": "mhfui122",
   "name": "Tranq S",
-  "nameEs": null,
+  "nameEs": "Disp. tranquil.",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1466,7 +1466,7 @@
  {
   "id": "mhfui123",
   "name": "Paint S",
-  "nameEs": null,
+  "nameEs": "Disp. pintura",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1478,7 +1478,7 @@
  {
   "id": "mhfui124",
   "name": "Demon S",
-  "nameEs": null,
+  "nameEs": "Disp. demonio",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1490,7 +1490,7 @@
  {
   "id": "mhfui125",
   "name": "Armor S",
-  "nameEs": null,
+  "nameEs": "Disp. armadura",
   "category": "shell",
   "iconId": null,
   "color": null,
@@ -1502,7 +1502,7 @@
  {
   "id": "mhfui126",
   "name": "Empty Bottle",
-  "nameEs": null,
+  "nameEs": "Botella vacía",
   "category": "empty-bottle",
   "iconId": null,
   "color": null,
@@ -1514,7 +1514,7 @@
  {
   "id": "mhfui127",
   "name": "Power Coating",
-  "nameEs": null,
+  "nameEs": "Revest. energía",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -1526,7 +1526,7 @@
  {
   "id": "mhfui128",
   "name": "Poison Coating",
-  "nameEs": null,
+  "nameEs": "Revest. veneno",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -1538,7 +1538,7 @@
  {
   "id": "mhfui129",
   "name": "ParalysisCoating",
-  "nameEs": null,
+  "nameEs": "Revest. parál.",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -1550,7 +1550,7 @@
  {
   "id": "mhfui130",
   "name": "Sleep Coating",
-  "nameEs": null,
+  "nameEs": "Revest. sueño",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -1562,7 +1562,7 @@
  {
   "id": "mhfui131",
   "name": "CloseRngCoating",
-  "nameEs": null,
+  "nameEs": "Revest. c.dist.",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -1574,7 +1574,7 @@
  {
   "id": "mhfui132",
   "name": "Paint Coating",
-  "nameEs": null,
+  "nameEs": "Revest. pintura",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -1586,7 +1586,7 @@
  {
   "id": "mhfui133",
   "name": "Cricket",
-  "nameEs": null,
+  "nameEs": "Grillo",
   "category": "bait",
   "iconId": null,
   "color": null,
@@ -1598,7 +1598,7 @@
  {
   "id": "mhfui134",
   "name": "Worm",
-  "nameEs": null,
+  "nameEs": "Gusano",
   "category": "bait",
   "iconId": null,
   "color": null,
@@ -1610,7 +1610,7 @@
  {
   "id": "mhfui135",
   "name": "Firefly",
-  "nameEs": null,
+  "nameEs": "Seta especial",
   "category": "bait",
   "iconId": null,
   "color": null,
@@ -1622,7 +1622,7 @@
  {
   "id": "mhfui136",
   "name": "Frog",
-  "nameEs": null,
+  "nameEs": "Rana",
   "category": "bait",
   "iconId": null,
   "color": null,
@@ -1634,7 +1634,7 @@
  {
   "id": "mhfui137",
   "name": "Tuna Bait",
-  "nameEs": null,
+  "nameEs": "Cebo de atún",
   "category": "bait",
   "iconId": null,
   "color": null,
@@ -1646,7 +1646,7 @@
  {
   "id": "mhfui138",
   "name": "Arrowana Bait",
-  "nameEs": null,
+  "nameEs": "Cebo arrowana",
   "category": "bait",
   "iconId": null,
   "color": null,
@@ -1658,7 +1658,7 @@
  {
   "id": "mhfui139",
   "name": "Goldenfish Bait",
-  "nameEs": null,
+  "nameEs": "Cebo pez dorado",
   "category": "bait",
   "iconId": null,
   "color": null,
@@ -1682,7 +1682,7 @@
  {
   "id": "mhfui141",
   "name": "Old Pickaxe",
-  "nameEs": null,
+  "nameEs": "Pico antiguo",
   "category": "pickaxe",
   "iconId": null,
   "color": null,
@@ -1694,7 +1694,7 @@
  {
   "id": "mhfui142",
   "name": "Iron Pickaxe",
-  "nameEs": null,
+  "nameEs": "Pico de hierro",
   "category": "pickaxe",
   "iconId": null,
   "color": null,
@@ -1706,7 +1706,7 @@
  {
   "id": "mhfui143",
   "name": "Mega Pickaxe",
-  "nameEs": null,
+  "nameEs": "Megapico",
   "category": "pickaxe",
   "iconId": null,
   "color": null,
@@ -1718,7 +1718,7 @@
  {
   "id": "mhfui144",
   "name": "Expand Pickaxe",
-  "nameEs": null,
+  "nameEs": "Pico expansión",
   "category": "pickaxe",
   "iconId": null,
   "color": null,
@@ -1730,7 +1730,7 @@
  {
   "id": "mhfui145",
   "name": "Old Bugnet",
-  "nameEs": null,
+  "nameEs": "Red bichos ant.",
   "category": "bugnet",
   "iconId": null,
   "color": null,
@@ -1742,7 +1742,7 @@
  {
   "id": "mhfui146",
   "name": "Bugnet",
-  "nameEs": null,
+  "nameEs": "Red de bichos",
   "category": "bugnet",
   "iconId": null,
   "color": null,
@@ -1754,7 +1754,7 @@
  {
   "id": "mhfui147",
   "name": "Mega Bugnet",
-  "nameEs": null,
+  "nameEs": "Megarred bichos",
   "category": "bugnet",
   "iconId": null,
   "color": null,
@@ -1790,7 +1790,7 @@
  {
   "id": "mhfui150",
   "name": "Whetstone",
-  "nameEs": null,
+  "nameEs": "Piedra de afilar",
   "category": "whetstone",
   "iconId": null,
   "color": null,
@@ -1814,7 +1814,7 @@
  {
   "id": "mhfui152",
   "name": "Garbage",
-  "nameEs": null,
+  "nameEs": "Basura",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -1826,7 +1826,7 @@
  {
   "id": "mhfui153",
   "name": "Flute",
-  "nameEs": null,
+  "nameEs": "Flauta",
   "category": "flute",
   "iconId": null,
   "color": null,
@@ -1838,7 +1838,7 @@
  {
   "id": "mhfui154",
   "name": "Health Flute",
-  "nameEs": null,
+  "nameEs": "Flauta de Salud",
   "category": "flute",
   "iconId": null,
   "color": null,
@@ -1850,7 +1850,7 @@
  {
   "id": "mhfui155",
   "name": "Antidote Flute",
-  "nameEs": null,
+  "nameEs": "Flauta antídoto",
   "category": "flute",
   "iconId": null,
   "color": null,
@@ -1862,7 +1862,7 @@
  {
   "id": "mhfui156",
   "name": "Demon Flute",
-  "nameEs": null,
+  "nameEs": "Flauta demonio",
   "category": "flute",
   "iconId": null,
   "color": null,
@@ -1874,7 +1874,7 @@
  {
   "id": "mhfui157",
   "name": "Armor Flute",
-  "nameEs": null,
+  "nameEs": "Flauta armadura",
   "category": "flute",
   "iconId": null,
   "color": null,
@@ -1886,7 +1886,7 @@
  {
   "id": "mhfui158",
   "name": "Honey",
-  "nameEs": null,
+  "nameEs": "Miel",
   "category": "honey",
   "iconId": null,
   "color": null,
@@ -1898,7 +1898,7 @@
  {
   "id": "mhfui159",
   "name": "Sunset Herb",
-  "nameEs": null,
+  "nameEs": "Hierba atardecer",
   "category": "herb",
   "iconId": null,
   "color": null,
@@ -1910,7 +1910,7 @@
  {
   "id": "mhfui160",
   "name": "Herb",
-  "nameEs": null,
+  "nameEs": "Hierba",
   "category": "herb",
   "iconId": null,
   "color": null,
@@ -1922,7 +1922,7 @@
  {
   "id": "mhfui161",
   "name": "Antidote Herb",
-  "nameEs": null,
+  "nameEs": "Hierba antídoto",
   "category": "herb",
   "iconId": null,
   "color": null,
@@ -1934,7 +1934,7 @@
  {
   "id": "mhfui162",
   "name": "Fire Herb",
-  "nameEs": null,
+  "nameEs": "Hierba de fuego",
   "category": "herb",
   "iconId": null,
   "color": null,
@@ -1946,7 +1946,7 @@
  {
   "id": "mhfui163",
   "name": "Ivy",
-  "nameEs": null,
+  "nameEs": "H. monstr. med.",
   "category": "herb",
   "iconId": null,
   "color": null,
@@ -1958,7 +1958,7 @@
  {
   "id": "mhfui164",
   "name": "Sleep Herb",
-  "nameEs": null,
+  "nameEs": "Paraliseta",
   "category": "herb",
   "iconId": null,
   "color": null,
@@ -1970,7 +1970,7 @@
  {
   "id": "mhfui165",
   "name": "Sap Plant",
-  "nameEs": null,
+  "nameEs": "H. monstr. pq.",
   "category": "herb",
   "iconId": null,
   "color": null,
@@ -1994,7 +1994,7 @@
  {
   "id": "mhfui167",
   "name": "Cactus Flower",
-  "nameEs": null,
+  "nameEs": "Flor de cactus",
   "category": "herb",
   "iconId": null,
   "color": null,
@@ -2006,7 +2006,7 @@
  {
   "id": "mhfui168",
   "name": "Hot Pepper",
-  "nameEs": null,
+  "nameEs": "Pimiento picante",
   "category": "herb",
   "iconId": null,
   "color": null,
@@ -2054,7 +2054,7 @@
  {
   "id": "mhfui172",
   "name": "Special Mushroom",
-  "nameEs": null,
+  "nameEs": "Luciérnaga",
   "category": "mushroom",
   "iconId": null,
   "color": null,
@@ -2078,7 +2078,7 @@
  {
   "id": "mhfui174",
   "name": "Blue Mushroom",
-  "nameEs": null,
+  "nameEs": "Seta azul",
   "category": "mushroom",
   "iconId": null,
   "color": null,
@@ -2090,7 +2090,7 @@
  {
   "id": "mhfui175",
   "name": "Nitroshroom",
-  "nameEs": null,
+  "nameEs": "Nitroseta",
   "category": "mushroom",
   "iconId": null,
   "color": null,
@@ -2102,7 +2102,7 @@
  {
   "id": "mhfui176",
   "name": "Parashroom",
-  "nameEs": null,
+  "nameEs": "Hierba somnífera",
   "category": "mushroom",
   "iconId": null,
   "color": null,
@@ -2114,7 +2114,7 @@
  {
   "id": "mhfui177",
   "name": "Toadstool",
-  "nameEs": null,
+  "nameEs": "Hongo",
   "category": "mushroom",
   "iconId": null,
   "color": null,
@@ -2126,7 +2126,7 @@
  {
   "id": "mhfui178",
   "name": "Exciteshroom",
-  "nameEs": null,
+  "nameEs": "Seta excitante",
   "category": "mushroom",
   "iconId": null,
   "color": null,
@@ -2138,7 +2138,7 @@
  {
   "id": "mhfui179",
   "name": "Dragon Toadstool",
-  "nameEs": null,
+  "nameEs": "Hongo dragón",
   "category": "mushroom",
   "iconId": null,
   "color": null,
@@ -2150,7 +2150,7 @@
  {
   "id": "mhfui180",
   "name": "Spicy Mushroom",
-  "nameEs": null,
+  "nameEs": "Seta picante",
   "category": "mushroom",
   "iconId": null,
   "color": null,
@@ -2174,7 +2174,7 @@
  {
   "id": "mhfui182",
   "name": "Paintberry",
-  "nameEs": null,
+  "nameEs": "Baya pintura",
   "category": "seed",
   "iconId": null,
   "color": null,
@@ -2186,7 +2186,7 @@
  {
   "id": "mhfui183",
   "name": "Power Seed",
-  "nameEs": null,
+  "nameEs": "Semilla de poder",
   "category": "seed",
   "iconId": null,
   "color": null,
@@ -2198,7 +2198,7 @@
  {
   "id": "mhfui184",
   "name": "Armor Seed",
-  "nameEs": null,
+  "nameEs": "Semilla armadura",
   "category": "seed",
   "iconId": null,
   "color": null,
@@ -2210,7 +2210,7 @@
  {
   "id": "mhfui185",
   "name": "Dragon Seed",
-  "nameEs": null,
+  "nameEs": "Semilla dragón",
   "category": "seed",
   "iconId": null,
   "color": null,
@@ -2222,7 +2222,7 @@
  {
   "id": "mhfui186",
   "name": "Scatternut",
-  "nameEs": null,
+  "nameEs": "Nuez frágil",
   "category": "seed",
   "iconId": null,
   "color": null,
@@ -2234,7 +2234,7 @@
  {
   "id": "mhfui187",
   "name": "Needleberry",
-  "nameEs": null,
+  "nameEs": "Baya aguja",
   "category": "seed",
   "iconId": null,
   "color": null,
@@ -2246,7 +2246,7 @@
  {
   "id": "mhfui188",
   "name": "Bomberry",
-  "nameEs": null,
+  "nameEs": "Baya bomba",
   "category": "seed",
   "iconId": null,
   "color": null,
@@ -2258,7 +2258,7 @@
  {
   "id": "mhfui189",
   "name": "Tropical Berry",
-  "nameEs": null,
+  "nameEs": "Cristal hielo",
   "category": "seed",
   "iconId": null,
   "color": null,
@@ -2270,7 +2270,7 @@
  {
   "id": "mhfui190",
   "name": "Frozen Berry",
-  "nameEs": null,
+  "nameEs": "Baya congelada",
   "category": "seed",
   "iconId": null,
   "color": null,
@@ -2354,7 +2354,7 @@
  {
   "id": "mhfui197",
   "name": "Stone",
-  "nameEs": null,
+  "nameEs": "Piedra",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2366,7 +2366,7 @@
  {
   "id": "mhfui198",
   "name": "Disk Stone",
-  "nameEs": null,
+  "nameEs": "Piedra disco",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2378,7 +2378,7 @@
  {
   "id": "mhfui199",
   "name": "Iron Ore",
-  "nameEs": null,
+  "nameEs": "Mineral hierro",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2390,7 +2390,7 @@
  {
   "id": "mhfui200",
   "name": "Earth Crystal",
-  "nameEs": null,
+  "nameEs": "Cristal tierra",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2402,7 +2402,7 @@
  {
   "id": "mhfui201",
   "name": "Machalite Ore",
-  "nameEs": null,
+  "nameEs": "Min. Machalita",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2414,7 +2414,7 @@
  {
   "id": "mhfui202",
   "name": "Dragonite Ore",
-  "nameEs": null,
+  "nameEs": "Min. Dragonita",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2426,7 +2426,7 @@
  {
   "id": "mhfui203",
   "name": "Carbalite Ore",
-  "nameEs": null,
+  "nameEs": "Min. Carbalita",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2438,7 +2438,7 @@
  {
   "id": "mhfui204",
   "name": "Eltalite Ore",
-  "nameEs": null,
+  "nameEs": "Min. Eltalita",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2450,7 +2450,7 @@
  {
   "id": "mhfui205",
   "name": "Union Ore",
-  "nameEs": null,
+  "nameEs": "Mineral de unión",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2462,7 +2462,7 @@
  {
   "id": "mhfui206",
   "name": "Mellanje Ore",
-  "nameEs": null,
+  "nameEs": "Min. Mellanje",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2474,7 +2474,7 @@
  {
   "id": "mhfui207",
   "name": "Firestone",
-  "nameEs": null,
+  "nameEs": "Piedra fuego",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2486,7 +2486,7 @@
  {
   "id": "mhfui208",
   "name": "Firecell Stone",
-  "nameEs": null,
+  "nameEs": "Piedra lava",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2534,7 +2534,7 @@
  {
   "id": "mhfui212",
   "name": "Lightcrystal",
-  "nameEs": null,
+  "nameEs": "Cristal ligero",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2546,7 +2546,7 @@
  {
   "id": "mhfui213",
   "name": "Novacrystal",
-  "nameEs": null,
+  "nameEs": "Cristal nova",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2558,7 +2558,7 @@
  {
   "id": "mhfui214",
   "name": "Purecrystal",
-  "nameEs": null,
+  "nameEs": "Cristal puro",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2570,7 +2570,7 @@
  {
   "id": "mhfui215",
   "name": "Antiseptic Stone",
-  "nameEs": null,
+  "nameEs": "Piedra antisépt.",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2582,7 +2582,7 @@
  {
   "id": "mhfui216",
   "name": "Ice Crystal",
-  "nameEs": null,
+  "nameEs": "Cristal hielo",
   "category": "ore",
   "iconId": null,
   "color": null,
@@ -2618,7 +2618,7 @@
  {
   "id": "mhfui219",
   "name": "Armor Stone",
-  "nameEs": null,
+  "nameEs": "Piedra armadura",
   "category": "armor-stone",
   "iconId": null,
   "color": null,
@@ -2630,7 +2630,7 @@
  {
   "id": "mhfui220",
   "name": "Armor Sphere",
-  "nameEs": null,
+  "nameEs": "Esfera armadura",
   "category": "armor-stone",
   "iconId": null,
   "color": null,
@@ -2642,7 +2642,7 @@
  {
   "id": "mhfui221",
   "name": "Armor Sphere+",
-  "nameEs": null,
+  "nameEs": "Esfera armadura+",
   "category": "armor-stone",
   "iconId": null,
   "color": null,
@@ -2654,7 +2654,7 @@
  {
   "id": "mhfui222",
   "name": "Hrd Armor Sphere",
-  "nameEs": null,
+  "nameEs": "Esf. armad. dura",
   "category": "armor-stone",
   "iconId": null,
   "color": null,
@@ -2666,7 +2666,7 @@
  {
   "id": "mhfui223",
   "name": "Hvy Armor Sphere",
-  "nameEs": null,
+  "nameEs": "Esf. armad. pes.",
   "category": "armor-stone",
   "iconId": null,
   "color": null,
@@ -2678,7 +2678,7 @@
  {
   "id": "mhfui224",
   "name": "Ryl Armor Sphere",
-  "nameEs": null,
+  "nameEs": "Esf. armad. real",
   "category": "armor-stone",
   "iconId": null,
   "color": null,
@@ -2690,7 +2690,7 @@
  {
   "id": "mhfui225",
   "name": "Tru Armor Sphere",
-  "nameEs": null,
+  "nameEs": "Esf. armad. aut.",
   "category": "armor-stone",
   "iconId": null,
   "color": null,
@@ -2702,7 +2702,7 @@
  {
   "id": "mhfui226",
   "name": "Knife Mackerel",
-  "nameEs": null,
+  "nameEs": "Caballa cuchillo",
   "category": "fish",
   "iconId": null,
   "color": null,
@@ -2714,7 +2714,7 @@
  {
   "id": "mhfui227",
   "name": "Sushifish",
-  "nameEs": null,
+  "nameEs": "Pez sushi",
   "category": "fish",
   "iconId": null,
   "color": null,
@@ -2726,7 +2726,7 @@
  {
   "id": "mhfui228",
   "name": "Sleepyfish",
-  "nameEs": null,
+  "nameEs": "Pez somnífero",
   "category": "fish",
   "iconId": null,
   "color": null,
@@ -2738,7 +2738,7 @@
  {
   "id": "mhfui229",
   "name": "Pin Tuna",
-  "nameEs": null,
+  "nameEs": "Atún pincho",
   "category": "fish",
   "iconId": null,
   "color": null,
@@ -2750,7 +2750,7 @@
  {
   "id": "mhfui230",
   "name": "Rumblefish",
-  "nameEs": null,
+  "nameEs": "Pez estruendoso",
   "category": "fish",
   "iconId": null,
   "color": null,
@@ -2762,7 +2762,7 @@
  {
   "id": "mhfui231",
   "name": "Scatterfish",
-  "nameEs": null,
+  "nameEs": "Pez frágil",
   "category": "fish",
   "iconId": null,
   "color": null,
@@ -2774,7 +2774,7 @@
  {
   "id": "mhfui232",
   "name": "Burst Arrowana",
-  "nameEs": null,
+  "nameEs": "Arrowana revent.",
   "category": "fish",
   "iconId": null,
   "color": null,
@@ -2786,7 +2786,7 @@
  {
   "id": "mhfui233",
   "name": "Bomb Arrowana",
-  "nameEs": null,
+  "nameEs": "Arrowana bomba",
   "category": "fish",
   "iconId": null,
   "color": null,
@@ -2906,7 +2906,7 @@
  {
   "id": "mhfui243",
   "name": "Insect Husk",
-  "nameEs": null,
+  "nameEs": "Cáscara insecto",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -2918,7 +2918,7 @@
  {
   "id": "mhfui244",
   "name": "Yambug",
-  "nameEs": null,
+  "nameEs": "Bicho ñame",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -2930,7 +2930,7 @@
  {
   "id": "mhfui245",
   "name": "Bughopper",
-  "nameEs": null,
+  "nameEs": "Salta bichos",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -2942,7 +2942,7 @@
  {
   "id": "mhfui246",
   "name": "Snakebee Larva",
-  "nameEs": null,
+  "nameEs": "Larva serpiente",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -2954,7 +2954,7 @@
  {
   "id": "mhfui247",
   "name": "Godbug",
-  "nameEs": null,
+  "nameEs": "Bicho divino",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -2966,7 +2966,7 @@
  {
   "id": "mhfui248",
   "name": "Bitterbug",
-  "nameEs": null,
+  "nameEs": "Cristal tierra",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -2978,7 +2978,7 @@
  {
   "id": "mhfui249",
   "name": "Flashbug",
-  "nameEs": null,
+  "nameEs": "Bicho luminoso",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -2990,7 +2990,7 @@
  {
   "id": "mhfui250",
   "name": "Thunderbug",
-  "nameEs": null,
+  "nameEs": "Bicho eléctrico",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -3002,7 +3002,7 @@
  {
   "id": "mhfui251",
   "name": "Carpenterbug",
-  "nameEs": null,
+  "nameEs": "Bicho carpintero",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -3014,7 +3014,7 @@
  {
   "id": "mhfui252",
   "name": "King Scarab",
-  "nameEs": null,
+  "nameEs": "Escarabajo rey",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -3026,7 +3026,7 @@
  {
   "id": "mhfui253",
   "name": "Emperor Cricket",
-  "nameEs": null,
+  "nameEs": "Grillo emperador",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -3038,7 +3038,7 @@
  {
   "id": "mhfui254",
   "name": "Killer Beetle",
-  "nameEs": null,
+  "nameEs": "Escar. asesino",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -3050,7 +3050,7 @@
  {
   "id": "mhfui255",
   "name": "Hercudrome",
-  "nameEs": null,
+  "nameEs": "Hercudrome",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -3062,7 +3062,7 @@
  {
   "id": "mhfui256",
   "name": "Rare Scarab",
-  "nameEs": null,
+  "nameEs": "Escarabajo raro",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -3074,7 +3074,7 @@
  {
   "id": "mhfui257",
   "name": "PhantomButterfly",
-  "nameEs": null,
+  "nameEs": "Mariposa fantsm.",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -3146,7 +3146,7 @@
  {
   "id": "mhfui263",
   "name": "Screamer",
-  "nameEs": null,
+  "nameEs": "Lanzagritos",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -3206,7 +3206,7 @@
  {
   "id": "mhfui268",
   "name": "Sleep Sac",
-  "nameEs": null,
+  "nameEs": "Bolsa somnífera",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -3302,7 +3302,7 @@
  {
   "id": "mhfui276",
   "name": "Power Extract",
-  "nameEs": null,
+  "nameEs": "Extracto poder",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -3314,7 +3314,7 @@
  {
   "id": "mhfui277",
   "name": "Pale Extract",
-  "nameEs": null,
+  "nameEs": "Extracto pálido",
   "category": "bottle",
   "iconId": null,
   "color": null,
@@ -3326,7 +3326,7 @@
  {
   "id": "mhfui278",
   "name": "Sm Monster Bone",
-  "nameEs": null,
+  "nameEs": "Planta de savia",
   "category": "bone",
   "iconId": null,
   "color": null,
@@ -3338,7 +3338,7 @@
  {
   "id": "mhfui279",
   "name": "Med Monster Bone",
-  "nameEs": null,
+  "nameEs": "Hiedra",
   "category": "bone",
   "iconId": null,
   "color": null,
@@ -3362,7 +3362,7 @@
  {
   "id": "mhfui281",
   "name": "Monster Bone+",
-  "nameEs": null,
+  "nameEs": "Hueso monstruo+",
   "category": "bone",
   "iconId": null,
   "color": null,
@@ -3374,7 +3374,7 @@
  {
   "id": "mhfui282",
   "name": "Hrd Monster Bone",
-  "nameEs": null,
+  "nameEs": "H. monstruo duro",
   "category": "bone",
   "iconId": null,
   "color": null,
@@ -3386,7 +3386,7 @@
  {
   "id": "mhfui283",
   "name": "Hvy Monster Bone",
-  "nameEs": null,
+  "nameEs": "HuesoMonstruoPes",
   "category": "bone",
   "iconId": null,
   "color": null,
@@ -3422,7 +3422,7 @@
  {
   "id": "mhfui286",
   "name": "Mystery Bone",
-  "nameEs": null,
+  "nameEs": "Hueso misterioso",
   "category": "bone",
   "iconId": null,
   "color": null,
@@ -3458,7 +3458,7 @@
  {
   "id": "mhfui289",
   "name": "Bone",
-  "nameEs": null,
+  "nameEs": "Hueso",
   "category": "bone",
   "iconId": null,
   "color": null,
@@ -3530,7 +3530,7 @@
  {
   "id": "mhfui295",
   "name": "Wyvern Fang",
-  "nameEs": null,
+  "nameEs": "Colmillo Wyvern",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -3542,7 +3542,7 @@
  {
   "id": "mhfui296",
   "name": "Wyvern Claw",
-  "nameEs": null,
+  "nameEs": "Garra de Wyvern",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -3650,7 +3650,7 @@
  {
   "id": "mhfui305",
   "name": "Piscine Liver",
-  "nameEs": null,
+  "nameEs": "Hígado Piscine",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -3878,7 +3878,7 @@
  {
   "id": "mhfui324",
   "name": "Kelbi Horn",
-  "nameEs": null,
+  "nameEs": "Cuerno de Kelbi",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -4058,7 +4058,7 @@
  {
   "id": "mhfui339",
   "name": "Giaprey Hide",
-  "nameEs": null,
+  "nameEs": "Piel de Giaprey",
   "category": "pelt",
   "iconId": null,
   "color": null,
@@ -4130,7 +4130,7 @@
  {
   "id": "mhfui345",
   "name": "Velociprey Fang",
-  "nameEs": null,
+  "nameEs": "Colm. Velociprey",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -4166,7 +4166,7 @@
  {
   "id": "mhfui348",
   "name": "Velociprey Hide",
-  "nameEs": null,
+  "nameEs": "Piel Velociprey",
   "category": "pelt",
   "iconId": null,
   "color": null,
@@ -4238,7 +4238,7 @@
  {
   "id": "mhfui354",
   "name": "Genprey Fang",
-  "nameEs": null,
+  "nameEs": "Colmillo Genprey",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -4334,7 +4334,7 @@
  {
   "id": "mhfui362",
   "name": "Ioprey Fang",
-  "nameEs": null,
+  "nameEs": "Colmillo Ioprey",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -7838,7 +7838,7 @@
  {
   "id": "mhfui654",
   "name": "Vespoid Wing",
-  "nameEs": null,
+  "nameEs": "Ala de Vespoid",
   "category": "honey",
   "iconId": null,
   "color": null,
@@ -8210,7 +8210,7 @@
  {
   "id": "mhfui685",
   "name": "Lao-Shan's Claw",
-  "nameEs": null,
+  "nameEs": "Garra Lao-Shan",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -13406,7 +13406,7 @@
  {
   "id": "mhfui1118",
   "name": "Blngo Flrry Ball",
-  "nameEs": null,
+  "nameEs": "Bola ráf. Blgo.",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -13418,7 +13418,7 @@
  {
   "id": "mhfui1119",
   "name": "Blngo Blzrd Ball",
-  "nameEs": null,
+  "nameEs": "Bola vent. Blgo.",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -13562,7 +13562,7 @@
  {
   "id": "mhfui1131",
   "name": "Pokke Snowman",
-  "nameEs": null,
+  "nameEs": "Muñ. nieve Pokke",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -13646,7 +13646,7 @@
  {
   "id": "mhfui1138",
   "name": "Flyn Crwn Frgmnt",
-  "nameEs": null,
+  "nameEs": "Frg. cor. Felyne",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -13658,7 +13658,7 @@
  {
   "id": "mhfui1139",
   "name": "Inferior FlynCrn",
-  "nameEs": null,
+  "nameEs": "Cor. Felyne inf.",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -13670,7 +13670,7 @@
  {
   "id": "mhfui1140",
   "name": "Felyne Crown",
-  "nameEs": null,
+  "nameEs": "Corona Felyne",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -13958,7 +13958,7 @@
  {
   "id": "mhfui1164",
   "name": "GldBladelessHndl",
-  "nameEs": null,
+  "nameEs": "Empuñ. sin hoja",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -13970,7 +13970,7 @@
  {
   "id": "mhfui1165",
   "name": "GldFlynJewelSwd",
-  "nameEs": null,
+  "nameEs": "Esp. dor. Felyne",
   "category": "knife",
   "iconId": null,
   "color": null,
@@ -13982,7 +13982,7 @@
  {
   "id": "mhfui1166",
   "name": "Hndlelss Gld Bld",
-  "nameEs": null,
+  "nameEs": "Hoja sin empuñ.",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -14054,7 +14054,7 @@
  {
   "id": "mhfui1172",
   "name": "Bttmlss Old Vase",
-  "nameEs": null,
+  "nameEs": "Jarrón sin base",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -14138,7 +14138,7 @@
  {
   "id": "mhfui1179",
   "name": "Dynasty Vase",
-  "nameEs": null,
+  "nameEs": "Jarrón dinástico",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -14234,7 +14234,7 @@
  {
   "id": "mhfui1187",
   "name": "Old Vase Bottom",
-  "nameEs": null,
+  "nameEs": "Base de jarrón",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -14294,7 +14294,7 @@
  {
   "id": "mhfui1192",
   "name": "Shakalaka Stone",
-  "nameEs": null,
+  "nameEs": "Piedra Shakalaka",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -14306,7 +14306,7 @@
  {
   "id": "mhfui1193",
   "name": "Holed Shaka Mask",
-  "nameEs": null,
+  "nameEs": "Másc. Shaka agj.",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -14450,7 +14450,7 @@
  {
   "id": "mhfui1205",
   "name": "Mysterious Mask",
-  "nameEs": null,
+  "nameEs": "Máscara mister.",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -14510,7 +14510,7 @@
  {
   "id": "mhfui1210",
   "name": "Torn Old Book",
-  "nameEs": null,
+  "nameEs": "Libro ant. roto",
   "category": "ticket",
   "iconId": null,
   "color": null,
@@ -14534,7 +14534,7 @@
  {
   "id": "mhfui1212",
   "name": "Old Book Scrap",
-  "nameEs": null,
+  "nameEs": "Frg. libro ant.",
   "category": "ticket",
   "iconId": null,
   "color": null,
@@ -14618,7 +14618,7 @@
  {
   "id": "mhfui1219",
   "name": "Eldr Drgn Rfrnc",
-  "nameEs": null,
+  "nameEs": "Ref. drg. anc.",
   "category": "book",
   "iconId": null,
   "color": null,
@@ -14714,7 +14714,7 @@
  {
   "id": "mhfui1227",
   "name": "TaillessCatStatu",
-  "nameEs": null,
+  "nameEs": "EstátGatoSinCola",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -14798,7 +14798,7 @@
  {
   "id": "mhfui1234",
   "name": "BrokenStoneTail",
-  "nameEs": null,
+  "nameEs": "Cola piedra rota",
   "category": "unknown",
   "iconId": null,
   "color": null,
@@ -14810,7 +14810,7 @@
  {
   "id": "mhfui1235",
   "name": "AncntCatKingStat",
-  "nameEs": null,
+  "nameEs": "EstAncReyGato",
   "category": "unknown",
   "iconId": null,
   "color": null,

@@ -3,6 +3,9 @@
 # See PROGRESS.md/DATA_NOTES.md for what they're for.
 vectores/mhrice/
 vectores/MHRise-Database-main/
+# MHFU raw source dumps (mhfu-db + mhfu-asset-db, ~700MB) -- mined via
+# Riperino into mhfu/data/*.json + mhfu/data/images/, not served directly.
+sources/
 
 # Raw scraped HTML cache for rise/data/scrape_weapon_trees.js -- resumable, not served.
 rise/data/weapon_tree_raw/

@@ -1,0 +1,11 @@
+{
+  "Fireblight": "data/images/status/fireblight.webp",
+  "Waterblight": "data/images/status/waterblight.webp",
+  "Thunderblight": "data/images/status/thunderblight.webp",
+  "Iceblight": "data/images/status/iceblight.webp",
+  "Dragonblight": "data/images/status/dragonblight.webp",
+  "Stun": "data/images/status/stun.webp",
+  "Poison": "data/images/status/poison.webp",
+  "Paralyze": "data/images/status/paralysis.webp",
+  "Sleep": "data/images/status/sleep.webp"
+}

@@ -1,32 +1,29 @@
+// MHFU subspecies -> base-species grouping, so the big-monster selector nests
+// them together (matches the ES-name-diff list in data/i18n.js monsterNames).
+// Replaces an earlier version of this dict copied from Rise, which listed
+// Rise-only monster names (Apex/Risen/etc.) that don't exist in MHFU.
 const GROUP_OVERRIDES = {
-  "Apex Arzuros": "Arzuros",
-  "Apex Diablos": "Diablos",
-  "Apex Mizutsune": "Mizutsune",
-  "Violet Mizutsune": "Mizutsune",
-  "Apex Rathalos": "Rathalos",
-  "Silver Rathalos": "Rathalos",
-  "Apex Rathian": "Rathian",
+  "Blue Yian Kut-Ku": "Yian Kut-Ku",
+  "Scarred Yian Garuga": "Yian Garuga",
+  "Purple Gypceros": "Gypceros",
+  "Pink Rathian": "Rathian",
   "Gold Rathian": "Rathian",
-  "Apex Zinogre": "Zinogre",
-  "Blood Orange Bishaten": "Bishaten",
-  "Chaotic Gore Magala": "Gore Magala",
-  "Risen Shagaru Magala": "Shagaru Magala",
-  "Risen Crimson Glow Valstrax": "Crimson Glow Valstrax",
-  "Primordial Malzeno": "Malzeno",
-  "Risen Kushala Daora": "Kushala Daora",
-  "Risen Teostra": "Teostra",
-  "Risen Chameleos": "Chameleos",
+  "Azure Rathalos": "Rathalos",
+  "Silver Rathalos": "Rathalos",
+  "Red Khezu": "Khezu",
+  "Black Gravios": "Gravios",
+  "White Monoblos": "Monoblos",
+  "Black Diablos": "Diablos",
+  "Green Plesioth": "Plesioth",
+  "Plum D.Hermitaur": "Daimyo Hermitaur",
+  "Terra S.Ceanataur": "Shogun Ceanataur",
+  "Emerald Congalala": "Congalala",
+  "Copper Blangonga": "Blangonga",
   "Furious Rajang": "Rajang",
-  "Seething Bazelgeuse": "Bazelgeuse",
-  "Lucent Nargacuga": "Nargacuga",
-  "Aurora Somnacanth": "Somnacanth",
-  "Magma Almudron": "Almudron",
-  "Pyre Rakna-Kadaki": "Rakna-Kadaki",
-  "Flaming Espinas": "Espinas",
-  "Scorned Magnamalo": "Magnamalo",
-  "Narwa the Allmother": "Narwa / Ibushi",
-  "Thunder Serpent Narwa": "Narwa / Ibushi",
-  "Wind Serpent Ibushi": "Narwa / Ibushi",
+  "Rusted Kushala Daora": "Kushala Daora",
+  "Ashen Lao-Shan Lung": "Lao-Shan Lung",
+  "Crimson Fatalis": "Fatalis",
+  "White Fatalis": "Fatalis",
 };
 
 const ELEMENT_ORDER = ["fire", "water", "thunder", "ice", "dragon", "blast", "poison", "paralysis", "sleep", "stun", "exhaust"];
@@ -189,6 +186,82 @@ function trLocation(name) {
 function trBodyPart(name) {
   return lang === "es" ? t(I18N.bodyParts, name) : name;
 }
+
+// MHFU's own hitzone/breakParts data uses lowercase machine slugs, often with
+// a state suffix ("head-enraged", "claw-pre-break-guard"), unlike Rise/Wilds
+// where the source already ships capitalized display names -- so I18N.bodyParts
+// (copied over from Rise) never matches. This decomposes base+suffix instead
+// of hand-listing every combination; the ~10 truly irregular slugs (typos in
+// the source data, left/right ordering, Gravios/Wyvern shell variants) are
+// listed as full overrides. Verified against every slug in mhfu/data/monsters.json
+// (106 hitzone parts + 35 breakParts/carves tokens, 0 unmatched).
+const MHFU_PART_BASE = {
+  antennae: ["Antennae", "Antenas"], arm: ["Arm", "Brazo"], arms: ["Arms", "Brazos"],
+  back: ["Back", "Espalda"], beak: ["Beak", "Pico"], body: ["Body", "Cuerpo"],
+  bod: ["Body", "Cuerpo"], chest: ["Chest", "Pecho"], claw: ["Claw", "Garra"],
+  claws: ["Claws", "Garras"], clawss: ["Claw", "Garra"], comb: ["Comb", "Cresta"],
+  ear: ["Ear", "Oreja"], eye: ["Eye", "Ojo"], eyes: ["Eyes", "Ojos"],
+  face: ["Face", "Cara"], fang: ["Fang", "Colmillo"], feet: ["Feet", "Patas"],
+  fin: ["Fin", "Aleta"], foreleg: ["Foreleg", "Pata delantera"],
+  forelegs: ["Forelegs", "Patas delanteras"], frontlegs: ["Forelegs", "Patas delanteras"],
+  head: ["Head", "Cabeza"], hindleg: ["Hindleg", "Pata trasera"],
+  hindlegs: ["Hindlegs", "Patas traseras"], horn: ["Horn", "Cuerno"],
+  "inside-shell": ["Inside shell", "Interior del caparazón"], internal: ["Internal", "Interior"],
+  jaw: ["Jaw", "Mandíbula"], legs: ["Legs", "Patas"], "lower-body": ["Lower body", "Parte inferior"],
+  mouth: ["Mouth", "Boca"], neck: ["Neck", "Cuello"], other: ["Other", "Otro"],
+  shell: ["Shell", "Caparazón"], shoulder: ["Shoulder", "Hombro"], spike: ["Spike", "Púa"],
+  stomach: ["Stomach", "Vientre"], tail: ["Tail", "Cola"], tentacles: ["Tentacles", "Tentáculos"],
+  "upper-body": ["Upper body", "Parte superior"], waist: ["Waist", "Cintura"],
+  wing: ["Wing", "Ala"], wings: ["Wings", "Alas"],
+  "wing membrane": ["Wing membrane", "Membrana del ala"],
+  "wings membrane": ["Wing membrane", "Membrana del ala"],
+};
+const MHFU_PART_MOD_SUFFIXES = [
+  ["pre-break-guard", ["Pre-break, guard", "Antes de romper, protegido"]],
+  ["post-break-guard", ["Post-break, guard", "Tras romper, protegido"]],
+  ["pre-break", ["Pre-break", "Antes de romper"]],
+  ["post-break", ["Post-break", "Tras romper"]],
+  ["brokenshell", ["Broken shell", "Caparazón roto"]],
+  ["brokenstomach", ["Belly broken", "Vientre roto"]],
+  ["flamewrap", ["Flame-wrapped", "Envuelto en fuego"]],
+  ["windwrap", ["Wind-wrapped", "Envuelto en viento"]],
+  ["harden", ["Hardened", "Endurecido"]],
+  ["enraged", ["Enraged", "Enfurecido"]],
+  ["hidden", ["Hidden", "Oculto"]],
+  ["guard", ["Guard", "Protegido"]],
+  ["break", ["Break", "Rotura"]],
+];
+const MHFU_PART_OVERRIDES = {
+  "bod-guardy": ["Body (Guard)", "Cuerpo (Protegido)"],
+  "bodybrokenshell": ["Body (Broken shell)", "Cuerpo (Caparazón roto)"],
+  "horn-left": ["Horn (Left)", "Cuerno (Izquierda)"],
+  "horn-right": ["Horn (Right)", "Cuerno (Derecha)"],
+  "left-shoulder": ["Shoulder (Left)", "Hombro (Izquierda)"],
+  "right-shoulder": ["Shoulder (Right)", "Hombro (Derecha)"],
+  "shell-gravios": ["Shell (Gravios)", "Caparazón (Gravios)"],
+  "shell-wyvern": ["Shell (Wyvern)", "Caparazón (Wyvern)"],
+  "play-dead": ["Playing dead", "Fingiendo estar muerto"],
+  "frontlegs-enraged": ["Forelegs (Enraged)", "Patas delanteras (Enfurecido)"],
+  "stomach-brokenstomach": ["Stomach (Broken)", "Vientre (Roto)"],
+};
+function humanizeMhfuPart(raw) {
+  const key = (raw || "").toLowerCase().trim();
+  if (MHFU_PART_OVERRIDES[key]) return MHFU_PART_OVERRIDES[key];
+  if (MHFU_PART_BASE[key]) return MHFU_PART_BASE[key];
+  for (const [suf, label] of MHFU_PART_MOD_SUFFIXES) {
+    if (key.endsWith("-" + suf)) {
+      const baseKey = key.slice(0, -(suf.length + 1));
+      if (MHFU_PART_BASE[baseKey]) {
+        return [`${MHFU_PART_BASE[baseKey][0]} (${label[0]})`, `${MHFU_PART_BASE[baseKey][1]} (${label[1]})`];
+      }
+    }
+  }
+  return [capitalize(raw || ""), raw || ""];
+}
+function trMhfuPart(raw) {
+  const [en, es] = humanizeMhfuPart(raw);
+  return lang === "es" ? es : en;
+}
 function trMonsterName(name) {
   return lang === "es" ? t(I18N.monsterNames, name) : name;
 }
@@ -278,12 +351,12 @@ function annotateAnomalyLevel(text, material) {
 }
 
 function trPartTokens(str) {
-  if (lang !== "es" || !str) return str;
+  if (!str) return str;
   return str.replace(/\(([^)]+)\)/g, (whole, inner) => {
     const translated = inner.split(/([,/])/).map(piece => {
       const trimmed = piece.trim();
       if (trimmed === "," || trimmed === "/" || trimmed === "") return piece;
-      return I18N.bodyParts[trimmed] || piece;
+      return trMhfuPart(trimmed);
     }).join("");
     return `(${translated})`;
   });
@@ -2936,7 +3009,7 @@ function renderHitzoneSilhouette(container, monster) {
     const hz = byPart[part];
     const val = hz ? (hz[statKey] ?? 0) : 0;
     const color = colorByPart[part] || HZ_SILHOUETTE_NEUTRAL;
-    const label = `${trBodyPart(part)}: ${hzStatLabel(statKey)} ${val}%`;
+    const label = `${trMhfuPart(part)}: ${hzStatLabel(statKey)} ${val}%`;
     return pointSets.map(pts => `
       <polygon points="${pts}" fill="${color}" stroke="#14110f" stroke-width="2" data-part="${part}">
         <title>${escapeAttr(label)}</title>
@@ -3079,7 +3152,7 @@ function renderHitzones(container, hitzones) {
       const cls = HITZONE_PHYSICAL_COLS.includes(c.key) ? (physClass[c.key] || "") : (colClass[c.key] || "");
       return `<td class="${cls}">${row[c.key] ?? "—"}%</td>`;
     }).join("");
-    return `<tr><td class="material-name">${trBodyPart(row.part)}</td>${cells}</tr>`;
+    return `<tr><td class="material-name">${trMhfuPart(row.part)}</td>${cells}</tr>`;
   }).join("");
 
   container.innerHTML = `

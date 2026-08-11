@@ -34,7 +34,8 @@
     "dragon": 10
    }
   ],
-  "image": "data/images/monsters/MH1-Felyne_Render_001.webp"
+  "image": "data/images/monsters/MH1-Felyne_Render_001.webp",
+  "isSmall": true
  },
  {
   "name": "Melynx",
@@ -262,7 +263,8 @@
     "dragon": 10
    }
   ],
-  "image": "data/images/monsters/MH1-Melynx_Render_001.webp"
+  "image": "data/images/monsters/MH1-Melynx_Render_001.webp",
+  "isSmall": true
  },
  {
   "name": "Shakalaka",
@@ -677,7 +679,8 @@
     "dragon": 20
    }
   ],
-  "image": "data/images/monsters/Shakalaka.webp"
+  "image": "data/images/monsters/Shakalaka.webp",
+  "isSmall": true
  },
  {
   "name": "King Shakalaka",
@@ -961,7 +964,8 @@
     "dragon": 10
    }
   ],
-  "image": "data/images/monsters/King_Shakalaka.webp"
+  "image": "data/images/monsters/King_Shakalaka.webp",
+  "isSmall": true
  },
  {
   "name": "Vespoid",
@@ -1176,7 +1180,8 @@
     "dragon": 0
    }
   ],
-  "image": "data/images/monsters/MH1-Vespoid_Render_001.webp"
+  "image": "data/images/monsters/MH1-Vespoid_Render_001.webp",
+  "isSmall": true
  },
  {
   "name": "Vespoid Queen",
@@ -1281,7 +1286,8 @@
     "dragon": 0
    }
   ],
-  "image": "data/images/monsters/Vespoid_Queen_and_Vespoid.webp"
+  "image": "data/images/monsters/Vespoid_Queen_and_Vespoid.webp",
+  "isSmall": true
  },
  {
   "name": "Hornetaur",
@@ -1496,7 +1502,8 @@
     "dragon": 0
    }
   ],
-  "image": "data/images/monsters/MH1-Hornetaur_Render_001.webp"
+  "image": "data/images/monsters/MH1-Hornetaur_Render_001.webp",
+  "isSmall": true
  },
  {
   "name": "Great Thunderbug",
@@ -1637,7 +1644,8 @@
     "dragon": 20
    }
   ],
-  "image": "data/images/monsters/Great_Thunderbug.webp"
+  "image": "data/images/monsters/Great_Thunderbug.webp",
+  "isSmall": true
  },
  {
   "name": "Anteka",
@@ -1818,7 +1826,8 @@
     "dragon": 10
    }
   ],
-  "image": "data/images/monsters/Anteka.webp"
+  "image": "data/images/monsters/Anteka.webp",
+  "isSmall": true
  },
  {
   "name": "Popo",
@@ -1981,7 +1990,8 @@
     "dragon": 10
    }
   ],
-  "image": "data/images/monsters/Popo.webp"
+  "image": "data/images/monsters/Popo.webp",
+  "isSmall": true
  },
  {
   "name": "Kelbi",
@@ -2162,7 +2172,8 @@
     "dragon": 10
    }
   ],
-  "image": "data/images/monsters/1stGen_and_2ndGen-Kelbi.webp"
+  "image": "data/images/monsters/1stGen_and_2ndGen-Kelbi.webp",
+  "isSmall": true
  },
  {
   "name": "Mosswine",
@@ -2343,7 +2354,8 @@
     "dragon": 10
    }
   ],
-  "image": "data/images/monsters/MH1-Mosswine_Render_001.webp"
+  "image": "data/images/monsters/MH1-Mosswine_Render_001.webp",
+  "isSmall": true
  },
  {
   "name": "Aptonoth",
@@ -2470,7 +2482,8 @@
     "dragon": 10
    }
   ],
-  "image": "data/images/monsters/MHF2-Rathalos_and_Aptonoth.webp"
+  "image": "data/images/monsters/MHF2-Rathalos_and_Aptonoth.webp",
+  "isSmall": true
  },
  {
   "name": "Apceros",
@@ -2635,7 +2648,8 @@
     "dragon": 10
    }
   ],
-  "image": "data/images/monsters/MH1-Apceros_Render_001.webp"
+  "image": "data/images/monsters/MH1-Apceros_Render_001.webp",
+  "isSmall": true
  },
  {
   "name": "Giaprey",
@@ -2792,7 +2806,8 @@
     "dragon": 10
    }
   ],
-  "image": "data/images/monsters/Giaprey.webp"
+  "image": "data/images/monsters/Giaprey.webp",
+  "isSmall": true
  },
  {
   "name": "Giadrome",
@@ -3169,7 +3184,8 @@
     "dragon": 10
    }
   ],
-  "image": "data/images/monsters/MH1-Velociprey_Render_001.webp"
+  "image": "data/images/monsters/MH1-Velociprey_Render_001.webp",
+  "isSmall": true
  },
  {
   "name": "Velocidrome",
@@ -3551,7 +3567,8 @@
     "dragon": 0
    }
   ],
-  "image": "data/images/monsters/MH1-Genprey_Render_001.webp"
+  "image": "data/images/monsters/MH1-Genprey_Render_001.webp",
+  "isSmall": true
  },
  {
   "name": "Gendrome",
@@ -3924,7 +3941,8 @@
     "dragon": 0
    }
   ],
-  "image": "data/images/monsters/MH1-Ioprey_Render_001.webp"
+  "image": "data/images/monsters/MH1-Ioprey_Render_001.webp",
+  "isSmall": true
  },
  {
   "name": "Iodrome",
@@ -7126,7 +7144,8 @@
     "dragon": 20
    }
   ],
-  "image": "data/images/monsters/Remobra.webp"
+  "image": "data/images/monsters/Remobra.webp",
+  "isSmall": true
  },
  {
   "name": "Rathian",
@@ -14999,7 +15018,8 @@
     "dragon": 0
    }
   ],
-  "image": "data/images/monsters/MH1-Cephalos_Render_001.webp"
+  "image": "data/images/monsters/MH1-Cephalos_Render_001.webp",
+  "isSmall": true
  },
  {
   "name": "Cephadrome",
@@ -16501,7 +16521,8 @@
     "dragon": 0
    }
   ],
-  "image": "data/images/monsters/Hermitaur.webp"
+  "image": "data/images/monsters/Hermitaur.webp",
+  "isSmall": true
  },
  {
   "name": "Daimyo Hermitaur",
@@ -17651,7 +17672,8 @@
     "dragon": 0
    }
   ],
-  "image": "data/images/monsters/MHF2-Ceanataur.webp"
+  "image": "data/images/monsters/MHF2-Ceanataur.webp",
+  "isSmall": true
  },
  {
   "name": "Shogun Ceanataur",
@@ -19013,7 +19035,8 @@
     "dragon": 10
    }
   ],
-  "image": "data/images/monsters/MH1-Bullfango_Render_001.webp"
+  "image": "data/images/monsters/MH1-Bullfango_Render_001.webp",
+  "isSmall": true
  },
  {
   "name": "Bulldrome",
@@ -19361,7 +19384,8 @@
     "dragon": 0
    }
   ],
-  "image": "data/images/monsters/Conga.webp"
+  "image": "data/images/monsters/Conga.webp",
+  "isSmall": true
  },
  {
   "name": "Congalala",
@@ -20456,7 +20480,8 @@
     "dragon": 0
    }
   ],
-  "image": "data/images/monsters/Blango.webp"
+  "image": "data/images/monsters/Blango.webp",
+  "isSmall": true
  },
  {
   "name": "Blangonga",
