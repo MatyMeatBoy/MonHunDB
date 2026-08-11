@@ -877,35 +877,26 @@ function armorSetImg(name) {
 let impliedArmorGroupsCache = null;
 function buildImpliedArmorGroups() {
   if (impliedArmorGroupsCache) return impliedArmorGroupsCache;
-  const groups = [];
-  let i = 0;
-  while (i < armorPieces.length) {
-    const prefix = armorSetPrefix(armorPieces[i].name);
-    let j = i;
-    const bucket = [];
-    while (j < armorPieces.length && bucket.length < 5) {
-      const p = armorPieces[j];
-      const pPrefix = armorSetPrefix(p.name);
-      if (pPrefix !== prefix) break;
-      bucket.push(p);
-      j++;
-    }
-    if (bucket.length === 5 && new Set(bucket.map(x => x.part)).size === 5 && prefix) {
-      groups.push({ prefix, pieces: bucket });
-    }
-    i = j > i ? j : i + 1;
+  // MHFU's armor_pieces.json is sorted by PART TYPE first (every "head"
+  // piece, then every "chest" piece, ...), not by set -- so a same-set's 5
+  // pieces are never adjacent in the array. The consecutive-window scan
+  // this function used before (copied from Rise, whose source data happens
+  // to be set-contiguous) found almost nothing here. Bucket by prefix
+  // across the whole array instead, same technique buildPartialArmorGroups()
+  // already uses correctly below.
+  const buckets = new Map();
+  for (const p of armorPieces) {
+    const prefix = armorSetPrefix(p.name);
+    if (!prefix) continue;
+    if (!buckets.has(prefix)) buckets.set(prefix, new Map());
+    const byPart = buckets.get(prefix);
+    if (!byPart.has(p.part)) byPart.set(p.part, p); // first piece per part wins (M/F duplicates)
   }
-  // dedupe by prefix+pieces: armor_pieces.json lists some sets twice (Rakna,
-  // Utsushi, Valstrax, Mosgharl, Ibushi's, Narwa's, Golden, etc.) and hide
-  // layered-armor-only sets (Swallow, Sonic, Floral, Buff, Elgado, ...)
-  // dedupe by prefix only (M/F variants produce duplicate groups with different IDs)
-  const seen = new Set();
-  impliedArmorGroupsCache = groups.filter(g => {
-    if (ARMOR_SET_HIDDEN.has(g.prefix)) return false;
-    if (seen.has(g.prefix)) return false;
-    seen.add(g.prefix);
-    return true;
-  });
+  const groups = [];
+  for (const [prefix, byPart] of buckets) {
+    if (byPart.size === 5) groups.push({ prefix, pieces: [...byPart.values()] });
+  }
+  impliedArmorGroupsCache = groups.filter(g => !ARMOR_SET_HIDDEN.has(g.prefix));
   return impliedArmorGroupsCache;
 }
 
