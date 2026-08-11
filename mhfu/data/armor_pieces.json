@@ -25248,7 +25248,7 @@
   ],
   "part": "chest",
   "decoSlots": [],
-  "hunterType": "B"
+  "hunterType": "BG"
  },
  {
   "id": "mhfua481",
@@ -48476,7 +48476,7 @@
   "decoSlots": [
    1
   ],
-  "hunterType": "B"
+  "hunterType": "BG"
  },
  {
   "id": "mhfua916",
@@ -115939,7 +115939,7 @@
   "hunterType": "G"
  },
  {
-  "id": "mhfuaX252",
+  "id": "mhfuaY1",
   "name": "None",
   "rarity": 1,
   "iconM": false,
@@ -115959,7 +115959,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX253",
+  "id": "mhfuaY2",
   "name": "Steel Tasset",
   "rarity": 1,
   "iconM": false,
@@ -115979,7 +115979,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX254",
+  "id": "mhfuaY3",
   "name": "None",
   "rarity": 1,
   "iconM": false,
@@ -115999,7 +115999,87 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX255",
+  "id": "mhfuaY4",
+  "name": "None",
+  "rarity": 1,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaY5",
+  "name": "None",
+  "rarity": 1,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaY6",
+  "name": "None",
+  "rarity": 1,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaY7",
+  "name": "None",
+  "rarity": 1,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaY8",
   "name": "None",
   "rarity": 1,
   "iconM": false,
@@ -116019,7 +116099,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX256",
+  "id": "mhfuaY9",
   "name": "None",
   "rarity": 1,
   "iconM": false,
@@ -116039,47 +116119,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX257",
-  "name": "None",
-  "rarity": 1,
-  "iconM": false,
-  "iconF": false,
-  "materials": [],
-  "defense": null,
-  "resistances": {
-   "fire": 0,
-   "water": 0,
-   "thunder": 0,
-   "ice": 0,
-   "dragon": 0
-  },
-  "skills": [],
-  "part": "waist",
-  "decoSlots": [],
-  "hunterType": "BG"
- },
- {
-  "id": "mhfuaX258",
-  "name": "None",
-  "rarity": 1,
-  "iconM": false,
-  "iconF": false,
-  "materials": [],
-  "defense": null,
-  "resistances": {
-   "fire": 0,
-   "water": 0,
-   "thunder": 0,
-   "ice": 0,
-   "dragon": 0
-  },
-  "skills": [],
-  "part": "waist",
-  "decoSlots": [],
-  "hunterType": "BG"
- },
- {
-  "id": "mhfuaX259",
+  "id": "mhfuaY10",
   "name": "None",
   "rarity": 1,
   "iconM": false,
@@ -116099,7 +116139,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX260",
+  "id": "mhfuaY11",
   "name": "None",
   "rarity": 1,
   "iconM": false,
@@ -116119,7 +116159,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX261",
+  "id": "mhfuaY12",
   "name": "None",
   "rarity": 1,
   "iconM": false,
@@ -116139,7 +116179,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX262",
+  "id": "mhfuaY13",
   "name": "Healer Hood",
   "rarity": 1,
   "iconM": false,
@@ -116159,7 +116199,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX263",
+  "id": "mhfuaY14",
   "name": "None",
   "rarity": 1,
   "iconM": false,
@@ -116179,7 +116219,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX264",
+  "id": "mhfuaY15",
   "name": "Black Scales",
   "rarity": 1,
   "iconM": false,
@@ -116199,27 +116239,7 @@
   "hunterType": "G"
  },
  {
-  "id": "mhfuaX265",
-  "name": "Kushala Snare",
-  "rarity": 1,
-  "iconM": false,
-  "iconF": false,
-  "materials": [],
-  "defense": null,
-  "resistances": {
-   "fire": 0,
-   "water": 0,
-   "thunder": 0,
-   "ice": 0,
-   "dragon": 0
-  },
-  "skills": [],
-  "part": "head",
-  "decoSlots": [],
-  "hunterType": "G"
- },
- {
-  "id": "mhfuaX266",
+  "id": "mhfuaY16",
   "name": "Kushala Cruz",
   "rarity": 1,
   "iconM": false,
@@ -116239,7 +116259,27 @@
   "hunterType": "B"
  },
  {
-  "id": "mhfuaX267",
+  "id": "mhfuaY17",
+  "name": "Kushala Snare",
+  "rarity": 1,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaY18",
   "name": "Kirin Leg Guarda",
   "rarity": 1,
   "iconM": false,
@@ -116259,7 +116299,7 @@
   "hunterType": "B"
  },
  {
-  "id": "mhfuaX268",
+  "id": "mhfuaY19",
   "name": "GuardianSpiritRaiment",
   "rarity": 1,
   "iconM": false,
@@ -116279,7 +116319,7 @@
   "hunterType": "B"
  },
  {
-  "id": "mhfuaX269",
+  "id": "mhfuaY20",
   "name": "None",
   "rarity": 2,
   "iconM": false,
@@ -116299,7 +116339,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX270",
+  "id": "mhfuaY21",
   "name": "Steel S Mail",
   "rarity": 2,
   "iconM": false,
@@ -116319,7 +116359,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX271",
+  "id": "mhfuaY22",
   "name": "Steel S Vambraces",
   "rarity": 2,
   "iconM": false,
@@ -116339,7 +116379,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX272",
+  "id": "mhfuaY23",
   "name": "Steel S Tasset",
   "rarity": 2,
   "iconM": false,
@@ -116359,7 +116399,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX273",
+  "id": "mhfuaY24",
   "name": "None",
   "rarity": 2,
   "iconM": false,
@@ -116379,67 +116419,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX274",
-  "name": "Red GuildGuardTights",
-  "rarity": 3,
-  "iconM": false,
-  "iconF": false,
-  "materials": [],
-  "defense": null,
-  "resistances": {
-   "fire": 0,
-   "water": 0,
-   "thunder": 0,
-   "ice": 0,
-   "dragon": 0
-  },
-  "skills": [],
-  "part": "legs",
-  "decoSlots": [],
-  "hunterType": "BG"
- },
- {
-  "id": "mhfuaX275",
-  "name": "Red GuildGuardTights",
-  "rarity": 3,
-  "iconM": false,
-  "iconF": false,
-  "materials": [],
-  "defense": null,
-  "resistances": {
-   "fire": 0,
-   "water": 0,
-   "thunder": 0,
-   "ice": 0,
-   "dragon": 0
-  },
-  "skills": [],
-  "part": "legs",
-  "decoSlots": [],
-  "hunterType": "BG"
- },
- {
-  "id": "mhfuaX276",
-  "name": "Puppet Master Gloves",
-  "rarity": 3,
-  "iconM": false,
-  "iconF": false,
-  "materials": [],
-  "defense": null,
-  "resistances": {
-   "fire": 0,
-   "water": 0,
-   "thunder": 0,
-   "ice": 0,
-   "dragon": 0
-  },
-  "skills": [],
-  "part": "arms",
-  "decoSlots": [],
-  "hunterType": "G"
- },
- {
-  "id": "mhfuaX277",
+  "id": "mhfuaY25",
   "name": "None",
   "rarity": 2,
   "iconM": false,
@@ -116459,7 +116439,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX278",
+  "id": "mhfuaY26",
   "name": "Steel U Mail",
   "rarity": 2,
   "iconM": false,
@@ -116479,7 +116459,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX279",
+  "id": "mhfuaY27",
   "name": "Steel U Vambraces",
   "rarity": 2,
   "iconM": false,
@@ -116499,7 +116479,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX280",
+  "id": "mhfuaY28",
   "name": "Steel U Tasset",
   "rarity": 2,
   "iconM": false,
@@ -116519,7 +116499,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX281",
+  "id": "mhfuaY29",
   "name": "None",
   "rarity": 2,
   "iconM": false,
@@ -116539,7 +116519,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX282",
+  "id": "mhfuaY30",
   "name": "None",
   "rarity": 2,
   "iconM": false,
@@ -116556,10 +116536,70 @@
   "skills": [],
   "part": "waist",
   "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaY31",
+  "name": "None",
+  "rarity": 2,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaY32",
+  "name": "Red GuildGuardTights",
+  "rarity": 3,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX283",
+  "id": "mhfuaY33",
+  "name": "Puppet Master Gloves",
+  "rarity": 3,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaY34",
   "name": "None",
   "rarity": 3,
   "iconM": false,
@@ -116579,7 +116619,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX284",
+  "id": "mhfuaY35",
   "name": "None",
   "rarity": 3,
   "iconM": false,
@@ -116599,7 +116639,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX285",
+  "id": "mhfuaY36",
   "name": "Healer Hood U",
   "rarity": 3,
   "iconM": false,
@@ -116619,7 +116659,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX286",
+  "id": "mhfuaY37",
   "name": "Chakra Armlet",
   "rarity": 4,
   "iconM": false,
@@ -116639,7 +116679,7 @@
   "hunterType": "BG"
  },
  {
-  "id": "mhfuaX287",
+  "id": "mhfuaY38",
   "name": "BlackBeltVambraces X",
   "rarity": 4,
   "iconM": false,
@@ -116659,7 +116699,7 @@
   "hunterType": "B"
  },
  {
-  "id": "mhfuaX288",
+  "id": "mhfuaY39",
   "name": "ExtrvgantSleevesShin",
   "rarity": 4,
   "iconM": false,
@@ -116679,7 +116719,7 @@
   "hunterType": "G"
  },
  {
-  "id": "mhfuaX289",
+  "id": "mhfuaY40",
   "name": "BorealisTasset Goku",
   "rarity": 4,
   "iconM": false,
@@ -116699,7 +116739,7 @@
   "hunterType": "B"
  },
  {
-  "id": "mhfuaX290",
+  "id": "mhfuaY41",
   "name": "Fatalis Scales Z",
   "rarity": 4,
   "iconM": false,
