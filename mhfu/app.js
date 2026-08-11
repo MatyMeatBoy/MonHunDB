@@ -945,15 +945,12 @@ function armorSetDisplayName(prefix) {
 function armorSetImg(name) {
   const override = ARMOR_SET_IMG_OVERRIDES[name];
   if (override) return `data/images/armor_sets/${override}.png`;
-  // S and X variants reuse the base (vanilla) image: "X Set" -> try x file,
-  // else fall back to the base file
-  const m = name.match(/^(.+?)\s+([SX]) Set$/);
-  if (m) {
-    const base = m[1].toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
-    return `data/images/armor_sets/${base}.png`;
-  }
-  const s = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").replace(/-set$/, "");
-  return `data/images/armor_sets/${s}.png`;
+  // every rank-tier variant (S/U/X/Z/G/Haku/Ten/Kyoku/SZ) reuses the base
+  // (vanilla) portrait -- only the base tier was scraped, same as Rise
+  // reusing one image across S/X.
+  const m = name.match(/^(.+?)\s+(S|U|X|Z|G|Haku|Ten|Kyoku|SZ) Set$/);
+  const base = (m ? m[1] : name).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").replace(/-set$/, "");
+  return `data/images/armor_sets/${base}.png`;
 }
 
 let impliedArmorGroupsCache = null;

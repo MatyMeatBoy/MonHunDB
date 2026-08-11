@@ -115937,5 +115937,2005 @@
    1
   ],
   "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX1",
+  "name": "AurorosGauntletKyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX2",
+  "name": "Auroros Helm Kyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX3",
+  "name": "Auroros Pants Kyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX4",
+  "name": "Auroros Torso Kyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX5",
+  "name": "Auroros Tasset Kyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX6",
+  "name": "BorealisGauntletKyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX7",
+  "name": "Borealis Pants Kyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX8",
+  "name": "BorealisTasset Kyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX9",
+  "name": "Devil Blos Guards",
+  "rarity": 8,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX10",
+  "name": "Devil Blos Helm",
+  "rarity": 8,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX11",
+  "name": "Devil Blos Greaves",
+  "rarity": 8,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX12",
+  "name": "Devil Blos Mail",
+  "rarity": 8,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX13",
+  "name": "Devil Blos Coil",
+  "rarity": 8,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX14",
+  "name": "Dragon Head S",
+  "rarity": 8,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX15",
+  "name": "Dragon Head X",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX16",
+  "name": "Empress Tasset X",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX17",
+  "name": "GenesisGauntletKyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX18",
+  "name": "Genesis Pants Kyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX19",
+  "name": "Genesis Torso Kyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX20",
+  "name": "Genesis Tasset Kyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX21",
+  "name": "Glyph Gauntlets Kyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX22",
+  "name": "Glyph Pants Kyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX23",
+  "name": "Glyph Tasset Kyoku",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX24",
+  "name": "Golden Moon Tasset Z",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX25",
+  "name": "Hunter Guards",
+  "rarity": 1,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX26",
+  "name": "Hunter Greaves",
+  "rarity": 1,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX27",
+  "name": "Hunter Tasset",
+  "rarity": 1,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX28",
+  "name": "Hunter Guards S",
+  "rarity": 6,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX29",
+  "name": "Hunter Greaves S",
+  "rarity": 6,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX30",
+  "name": "Hunter Tasset S",
+  "rarity": 6,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX31",
+  "name": "Hunter Guards U",
+  "rarity": 7,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX32",
+  "name": "Hunter Greaves U",
+  "rarity": 7,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX33",
+  "name": "Hunter Tasset U",
+  "rarity": 7,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX34",
+  "name": "Hypnoc Guards",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX35",
+  "name": "Hypnoc Helm",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX36",
+  "name": "Hypnoc Greaves",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX37",
+  "name": "Hypnoc Mail",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX38",
+  "name": "Hypnoc Tasset",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX39",
+  "name": "Hypnoc Guards S",
+  "rarity": 6,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX40",
+  "name": "Hypnoc Helm S",
+  "rarity": 6,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX41",
+  "name": "Hypnoc Greaves S",
+  "rarity": 6,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX42",
+  "name": "Hypnoc Mail S",
+  "rarity": 6,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX43",
+  "name": "Hypnoc Tasset S",
+  "rarity": 6,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX44",
+  "name": "Hypnoc Guards X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX45",
+  "name": "Hypnoc Helm X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX46",
+  "name": "Hypnoc Greaves X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX47",
+  "name": "Hypnoc Mail X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX48",
+  "name": "Hypnoc Tasset X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX49",
+  "name": "Jolly Roger Gloves",
+  "rarity": 8,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX50",
+  "name": "Jolly Roger Cap",
+  "rarity": 8,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX51",
+  "name": "Jolly Roger Pants",
+  "rarity": 8,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX52",
+  "name": "Jolly Roger Suit",
+  "rarity": 8,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX53",
+  "name": "Jolly Roger Coil",
+  "rarity": 8,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX54",
+  "name": "Naruga Guards S",
+  "rarity": 6,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX55",
+  "name": "Naruga Helm S",
+  "rarity": 6,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX56",
+  "name": "Naruga Greaves S",
+  "rarity": 6,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX57",
+  "name": "Naruga Mail S",
+  "rarity": 6,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX58",
+  "name": "Naruga Tasset S",
+  "rarity": 6,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX59",
+  "name": "Naruga Guards X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX60",
+  "name": "Naruga Helm X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX61",
+  "name": "Naruga Greaves X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX62",
+  "name": "Naruga Mail X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX63",
+  "name": "Naruga Tasset X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX64",
+  "name": "Red Lobster Guards",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX65",
+  "name": "Red Lobster Helm",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX66",
+  "name": "Red Lobster Greaves",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX67",
+  "name": "Red Lobster Mail",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX68",
+  "name": "Red Lobster Tasset",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX69",
+  "name": "Silver Sol Tasset Z",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX70",
+  "name": "True Carnage Mask",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX71",
+  "name": "True Carnage Boots",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX72",
+  "name": "True Indra Gloves",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX73",
+  "name": "True Indra Helm",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX74",
+  "name": "True Indra Leggings",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX75",
+  "name": "True Indra Vest",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX76",
+  "name": "True Mizuha Sleeves",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX77",
+  "name": "True Mizuha Cap",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX78",
+  "name": "True Mizuha Sash",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX79",
+  "name": "True SteadfastGuards",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX80",
+  "name": "True Steadfast Helm",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX81",
+  "name": "True Steadfast Boots",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX82",
+  "name": "Ucamulbas Gauntlets",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX83",
+  "name": "Ucamulbas Mask",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX84",
+  "name": "Ucamulbas Boots",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX85",
+  "name": "Ucamulbas Plate",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX86",
+  "name": "Ucamulbas Sash",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX87",
+  "name": "Volganos Guards",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX88",
+  "name": "Volganos Helm",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX89",
+  "name": "Volganos Greaves",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX90",
+  "name": "Volganos Mail",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX91",
+  "name": "Volganos Tasset",
+  "rarity": 5,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX92",
+  "name": "Volganos Guards X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX93",
+  "name": "Volganos Helm X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX94",
+  "name": "Volganos Greaves X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX95",
+  "name": "Volganos Mail X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX96",
+  "name": "Volganos Tasset X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "waist",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX97",
+  "name": "Wht Fatalis Fist Z",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "arms",
+  "decoSlots": [],
+  "hunterType": "G"
+ },
+ {
+  "id": "mhfuaX98",
+  "name": "Wht Fatalis Feet Z",
+  "rarity": 10,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "legs",
+  "decoSlots": [],
+  "hunterType": "B"
+ },
+ {
+  "id": "mhfuaX99",
+  "name": "Yian Garuga Helm X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "head",
+  "decoSlots": [],
+  "hunterType": "BG"
+ },
+ {
+  "id": "mhfuaX100",
+  "name": "Yian Garuga Mail X",
+  "rarity": 9,
+  "iconM": false,
+  "iconF": false,
+  "materials": [],
+  "defense": null,
+  "resistances": {
+   "fire": 0,
+   "water": 0,
+   "thunder": 0,
+   "ice": 0,
+   "dragon": 0
+  },
+  "skills": [],
+  "part": "chest",
+  "decoSlots": [],
+  "hunterType": "B"
  }
 ]

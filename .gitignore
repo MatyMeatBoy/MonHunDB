@@ -32,3 +32,4 @@ download_missing_armor.js
 download_remaining.py
 final_download.py
 selenium_download_missing.py
+__pycache__/
