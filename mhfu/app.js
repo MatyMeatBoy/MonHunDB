@@ -2090,32 +2090,34 @@ function showArmorSetDetail(setName) {
   armorIndexEl.hidden = true;
   armorSetDetailEl.hidden = false;
 
-  const pieces = set ? set.pieces : (impliedGroup || partialGroup).pieces;
-  const resolvedPieces = ARMOR_PART_ORDER.map(part => {
-    const ref = set ? set.pieces.find(p => p.part === part) : null;
-    return ref
-      ? armorPieces.find(x => x.id === ref.id)
-      : ((impliedGroup || partialGroup) ? (impliedGroup || partialGroup).pieces.find(x => x.part === part) : null);
-  }).filter(Boolean);
-  const piecesHtml = ARMOR_PART_ORDER.map(part => {
-    const ref = set ? set.pieces.find(p => p.part === part) : null;
-    const p = ref
-      ? armorPieces.find(x => x.id === ref.id)
-      : ((impliedGroup || partialGroup) ? (impliedGroup || partialGroup).pieces.find(x => x.part === part) : null);
-    if (!p) return "";
-    return `
+  // Explicit sets (armor_for_dummies.json rebuild) can hold every rank-tier
+  // variant of every part in one entry (up to 30+ pieces for a full-coverage
+  // set like Basarios) -- unlike Rise's one-piece-per-part model, so this
+  // resolves and groups ALL of them by part instead of taking a single
+  // first-match per ARMOR_PART_ORDER slot.
+  const resolvedPieces = set
+    ? set.pieces.map(ref => armorPieces.find(x => x.id === ref.id)).filter(Boolean)
+    : ARMOR_PART_ORDER.map(part => (impliedGroup || partialGroup).pieces.find(x => x.part === part)).filter(Boolean);
+  const byPart = new Map();
+  for (const p of resolvedPieces) {
+    if (!byPart.has(p.part)) byPart.set(p.part, []);
+    byPart.get(p.part).push(p);
+  }
+  const piecesHtml = ARMOR_PART_ORDER.filter(part => byPart.has(part)).map(part => {
+    const list = byPart.get(part);
+    return list.map(p => `
       <div class="decoration-detail-header armor-piece-header">
         <button type="button" class="armor-piece-link" data-piece="${p.id}">
           ${armorIconTag(p)}
           <h3>${trArmorName(p)}</h3>
-          <span class="decoration-detail-slot">${trArmorPart(part)}</span>
+          <span class="decoration-detail-slot">${trArmorPart(part)}</span>${armorHunterTypeBadge(p)}
         </button>
       </div>
       ${p.defense ? `<p class="gs-material-intro"><img src="data/images/icons/defense.svg" alt="" class="defense-icon" loading="lazy">${ui("armorDefense")}: ${p.defense}</p>` : ""}
       ${armorPieceSkillsHtml(p)}
       <div class="decoration-materials-blocks">${armorPieceMaterialsHtml(p)}</div>
-    `;
-  }).join("<hr class='armor-piece-divider'>");
+    `).join("<hr class='armor-piece-divider'>");
+  }).join("<hr class='armor-piece-divider armor-piece-divider--part'>");
 
   const displayName = set ? set.name : armorSetDisplayName((impliedGroup || partialGroup).prefix);
   armorSetDetailEl.innerHTML = `
