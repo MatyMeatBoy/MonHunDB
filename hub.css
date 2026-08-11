@@ -34,11 +34,18 @@ body {
 .hub-brand {
   display: inline-flex;
   align-items: center;
+  gap: 0.4rem;
   margin: 0;
 }
 
-.hub-brand-logo {
-  height: 52px;
+.hub-brand-mascot {
+  height: 72px;
+  width: auto;
+  display: block;
+}
+
+.hub-brand-wordmark {
+  height: 72px;
   width: auto;
   display: block;
 }
