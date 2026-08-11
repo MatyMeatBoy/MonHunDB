@@ -3156,6 +3156,18 @@ function newsSilhouettePreviewHtml() {
 // and tied 1:1 to the i18n keys that hold its translated text.
 const NEWS = [
   {
+    id: "v02",
+    tagKey: null,
+    tag: "v0.2 Alpha",
+    titleKey: "newsV02Title",
+    textKey: "newsV02Text",
+    bulletsKey: "newsV02Bullets",
+    imageHtml: () => `
+      <img src="data/images/armor_sets/basarios.png" alt="" loading="lazy" onerror="this.remove()">
+      <img src="data/images/armor_sets_gamefaqs/74198-161.jpg" alt="" loading="lazy" onerror="this.remove()">
+    `,
+  },
+  {
     id: "v01",
     tagKey: null,
     tag: "v0.1 Alpha",

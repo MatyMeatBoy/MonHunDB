@@ -609,7 +609,7 @@ body {
   border-radius: 6px;
 }
 
-.news-item-image--split img {
+.news-item-image img {
   width: 72px;
   height: 76px;
   object-fit: contain;
