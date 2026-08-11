@@ -398,6 +398,20 @@ body {
   margin: 0 0 0.4rem;
 }
 
+.armor-set-htype-summary { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.armor-htype-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.55rem;
+  background: var(--bg-panel-alt);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+.armor-htype-badge img.status-icon { width: 14px; height: 14px; }
+
 .gs-source-row {
   display: flex;
   flex-direction: column;

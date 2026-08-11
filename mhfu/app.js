@@ -116,6 +116,19 @@ function armorHunterTypeBadge(p) {
   if (p.hunterType === "G") return ` · <img class="status-icon" src="${HZ_PHYS_ICONS.projectile}" alt="" title="${ui("armorHunterTypeGunner")}" loading="lazy">${ui("armorHunterTypeGunner")}`;
   return "";
 }
+// Set-level summary shown on the set detail page, under its name: most
+// MHFU sets mix hunterType across pieces (ex. the waist/legs piece works
+// for both classes but the chest/arms piece is Blademaster-only), so this
+// lists every distinct type actually present rather than picking one.
+function armorSetHunterTypeSummary(resolvedPieces) {
+  const types = new Set(resolvedPieces.map(p => p.hunterType).filter(Boolean));
+  if (!types.size) return "";
+  const badges = [];
+  if (types.has("B")) badges.push(`<span class="armor-htype-badge"><img class="status-icon" src="${HZ_PHYS_ICONS.sever}" alt="" loading="lazy">${ui("armorHunterTypeBlade")}</span>`);
+  if (types.has("G")) badges.push(`<span class="armor-htype-badge"><img class="status-icon" src="${HZ_PHYS_ICONS.projectile}" alt="" loading="lazy">${ui("armorHunterTypeGunner")}</span>`);
+  if (types.has("BG")) badges.push(`<span class="armor-htype-badge">${ui("armorHunterTypeBoth")}</span>`);
+  return `<p class="gs-material-intro armor-set-htype-summary">${badges.join(" ")}</p>`;
+}
 let weaponsById = new Map();
 const ARMOR_PART_ORDER = ["head", "chest", "arms", "waist", "legs"];
 
@@ -2081,6 +2094,12 @@ function showArmorSetDetail(setName) {
   armorSetDetailEl.hidden = false;
 
   const pieces = set ? set.pieces : (impliedGroup || partialGroup).pieces;
+  const resolvedPieces = ARMOR_PART_ORDER.map(part => {
+    const ref = set ? set.pieces.find(p => p.part === part) : null;
+    return ref
+      ? armorPieces.find(x => x.id === ref.id)
+      : ((impliedGroup || partialGroup) ? (impliedGroup || partialGroup).pieces.find(x => x.part === part) : null);
+  }).filter(Boolean);
   const piecesHtml = ARMOR_PART_ORDER.map(part => {
     const ref = set ? set.pieces.find(p => p.part === part) : null;
     const p = ref
@@ -2108,6 +2127,7 @@ function showArmorSetDetail(setName) {
       ${set ? `<img class="armor-set-full-image" src="${set.localImage || set.image}" alt="">` : `<img class="armor-set-full-image" src="${armorSetImg(displayName)}" alt="" onerror="this.style.display='none'">`}
       <h2>${displayName}</h2>
     </div>
+    ${armorSetHunterTypeSummary(resolvedPieces)}
     <section class="block">
       <h3>${ui("armorPiecesHeading")}</h3>
       ${piecesHtml}
