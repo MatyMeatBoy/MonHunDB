@@ -1929,7 +1929,7 @@ function setArmorMode(mode) {
 function renderPalicoArmorIndex() {
   const html = `<div class="decorations-slot-group">
     <div class="decorations-grid">
-      ${palicoArmorSets.map(s => `
+      ${[...palicoArmorSets].sort((a, b) => a.name.localeCompare(b.name)).map(s => `
         <button type="button" class="decoration-card armor-set-card" data-palico-set="${escapeAttr(s.slug)}">
           ${s.image ? `<img class="armor-set-thumb" src="${s.image}" alt="" loading="lazy" onerror="this.style.display='none'">` : `<span class="material-icon material-icon--placeholder"></span>`}
           <span class="decoration-card-name">${s.name}</span>
@@ -1992,7 +1992,8 @@ function renderArmorIndex(query) {
   for (const g of implied) for (const p of g.pieces) usedIds.add(p.id);
   const looseMatches = armorPieces.filter(p => !usedIds.has(p.id) && (!q ||
     normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q)))
-    .filter(p => p.materials && p.materials.length && p.defense);
+    .filter(p => p.materials && p.materials.length && p.defense)
+    .sort((a, b) => trArmorName(a).localeCompare(trArmorName(b)));
 
   // merge explicit and implied sets into one list, tagged by rank
   function setRank(items) {
@@ -2056,7 +2057,8 @@ function renderArmorIndex(query) {
   ];
   let html = "";
   for (const r of ranks) {
-    const items = allSets.filter(s => s.rank === r.key);
+    const items = allSets.filter(s => s.rank === r.key)
+      .sort((a, b) => (a.isPair ? a.base : a.name).localeCompare(b.isPair ? b.base : b.name));
     if (!items.length) continue;
     html += `<div class="decorations-slot-group">
       <h3 class="decorations-slot-heading">${r.label}</h3>
@@ -2079,7 +2081,8 @@ function renderArmorIndex(query) {
       </div>
     </div>`;
   }
-  const partialGroups = !q ? buildPartialArmorGroups() : buildPartialArmorGroups().filter(g => normalizeSearch(g.prefix).includes(q));
+  const partialGroups = (!q ? buildPartialArmorGroups() : buildPartialArmorGroups().filter(g => normalizeSearch(g.prefix).includes(q)))
+    .sort((a, b) => armorSetDisplayName(a.prefix).localeCompare(armorSetDisplayName(b.prefix)));
   if (partialGroups.length) {
     html += `<div class="decorations-slot-group">
       <h3 class="decorations-slot-heading">${ui("armorPartialSets")}</h3>

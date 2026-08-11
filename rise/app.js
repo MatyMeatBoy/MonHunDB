@@ -1847,7 +1847,8 @@ function renderArmorIndex(query) {
   const looseMatches = armorPieces.filter(p => !usedIds.has(p.id) && !usedNames.has(p.name.toLowerCase()) && (!q ||
     normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q)))
     .filter(p => p.materials && p.materials.length && p.defense)
-    .filter(p => !ARMOR_SET_HIDDEN.has(armorSetPrefix(p.name)));
+    .filter(p => !ARMOR_SET_HIDDEN.has(armorSetPrefix(p.name)))
+    .sort((a, b) => trArmorName(a).localeCompare(trArmorName(b)));
 
   // merge explicit and implied sets into one list, tagged by rank
   function setRank(items) {
@@ -1876,7 +1877,7 @@ function renderArmorIndex(query) {
   ];
   let html = "";
   for (const r of ranks) {
-    const items = allSets.filter(s => s.rank === r.key);
+    const items = allSets.filter(s => s.rank === r.key).sort((a, b) => a.name.localeCompare(b.name));
     if (!items.length) continue;
     html += `<div class="decorations-slot-group">
       <h3 class="decorations-slot-heading">${r.label}</h3>
@@ -1894,7 +1895,8 @@ function renderArmorIndex(query) {
   // Exclude partial groups that are already covered by explicit or implied sets
   const allSetNames = new Set(explicitNames);
   for (const s of implied) allSetNames.add(armorSetDisplayName(s.prefix));
-  const filteredPartial = partialGroups.filter(g => !allSetNames.has(armorSetDisplayName(g.prefix)));
+  const filteredPartial = partialGroups.filter(g => !allSetNames.has(armorSetDisplayName(g.prefix)))
+    .sort((a, b) => armorSetDisplayName(a.prefix).localeCompare(armorSetDisplayName(b.prefix)));
   if (filteredPartial.length) {
     html += `<div class="decorations-slot-group">
       <h3 class="decorations-slot-heading">${ui("armorPartialSets")}</h3>

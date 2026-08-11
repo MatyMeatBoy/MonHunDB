@@ -78,6 +78,7 @@ const armorBackEl = document.getElementById("armor-back");
 const armorSearchEl = document.getElementById("armor-search");
 const armorIndexEl = document.getElementById("armor-index");
 const armorSetDetailEl = document.getElementById("armor-set-detail");
+const armorHunterTypeToggleEl = document.getElementById("armor-hunter-type-toggle");
 const materialsNavToggleEl = document.getElementById("materials-nav-toggle");
 const materialsViewEl = document.getElementById("materials-view");
 const materialsBackEl = document.getElementById("materials-back");
@@ -100,6 +101,21 @@ let itemsByName = new Map();
 let weapons = [];
 let armorPieces = [];
 let armorSets = [];
+// "all" | "B" (Blademaster) | "G" (Gunner) -- pieces marked "BG" always
+// pass, since they're usable by either class
+let armorHunterTypeFilter = "all";
+function matchesHunterTypeFilter(p) {
+  return armorHunterTypeFilter === "all" || p.hunterType === "BG" || p.hunterType === armorHunterTypeFilter;
+}
+// only flag the restrictive B-only/G-only pieces -- BG (works for both,
+// the common case) gets no badge to avoid cluttering every card. Reuses
+// the sever/projectile hitzone icons as the Blademaster/Gunner glyphs
+// (cutting weapons vs. ranged weapons is a fitting visual shorthand).
+function armorHunterTypeBadge(p) {
+  if (p.hunterType === "B") return ` · <img class="status-icon" src="${HZ_PHYS_ICONS.sever}" alt="" title="${ui("armorHunterTypeBlade")}" loading="lazy">${ui("armorHunterTypeBlade")}`;
+  if (p.hunterType === "G") return ` · <img class="status-icon" src="${HZ_PHYS_ICONS.projectile}" alt="" title="${ui("armorHunterTypeGunner")}" loading="lazy">${ui("armorHunterTypeGunner")}`;
+  return "";
+}
 let weaponsById = new Map();
 const ARMOR_PART_ORDER = ["head", "chest", "arms", "waist", "legs"];
 
@@ -1937,7 +1953,9 @@ function renderArmorIndex(query) {
   const looseMatches = armorPieces.filter(p => !usedIds.has(p.id) && !usedNames.has(p.name.toLowerCase()) && (!q ||
     normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q)))
     .filter(p => p.materials && p.materials.length && p.defense)
-    .filter(p => !ARMOR_SET_HIDDEN.has(armorSetPrefix(p.name)));
+    .filter(p => !ARMOR_SET_HIDDEN.has(armorSetPrefix(p.name)))
+    .filter(matchesHunterTypeFilter)
+    .sort((a, b) => trArmorName(a).localeCompare(trArmorName(b)));
 
   // merge explicit and implied sets into one list, tagged by rank
   function setRank(items) {
@@ -1966,7 +1984,7 @@ function renderArmorIndex(query) {
   ];
   let html = "";
   for (const r of ranks) {
-    const items = allSets.filter(s => s.rank === r.key);
+    const items = allSets.filter(s => s.rank === r.key).sort((a, b) => a.name.localeCompare(b.name));
     if (!items.length) continue;
     html += `<div class="decorations-slot-group">
       <h3 class="decorations-slot-heading">${r.label}</h3>
@@ -1984,7 +2002,8 @@ function renderArmorIndex(query) {
   // Exclude partial groups that are already covered by explicit or implied sets
   const allSetNames = new Set(explicitNames);
   for (const s of implied) allSetNames.add(armorSetDisplayName(s.prefix));
-  const filteredPartial = partialGroups.filter(g => !allSetNames.has(armorSetDisplayName(g.prefix)));
+  const filteredPartial = partialGroups.filter(g => !allSetNames.has(armorSetDisplayName(g.prefix)))
+    .sort((a, b) => armorSetDisplayName(a.prefix).localeCompare(armorSetDisplayName(b.prefix)));
   if (filteredPartial.length) {
     html += `<div class="decorations-slot-group">
       <h3 class="decorations-slot-heading">${ui("armorPartialSets")}</h3>
@@ -2007,7 +2026,7 @@ function renderArmorIndex(query) {
           <button type="button" class="decoration-card" data-piece="${p.id}">
             ${armorIconTag(p)}
             <span class="decoration-card-name">${trArmorName(p)}</span>
-            <span class="decoration-card-skill">${p.part ? trArmorPart(p.part) : ""}</span>
+            <span class="decoration-card-skill">${p.part ? trArmorPart(p.part) : ""}${armorHunterTypeBadge(p)}</span>
           </button>
         `).join("")}
       </div>
@@ -2130,6 +2149,15 @@ function showArmorPieceDetail(id) {
 
 function bootArmor() {
   armorSearchEl.addEventListener("input", () => renderArmorIndex(armorSearchEl.value));
+  if (armorHunterTypeToggleEl) {
+    armorHunterTypeToggleEl.querySelectorAll("button").forEach(btn => {
+      btn.addEventListener("click", () => {
+        armorHunterTypeFilter = btn.dataset.htype;
+        armorHunterTypeToggleEl.querySelectorAll("button").forEach(b => b.classList.toggle("active", b === btn));
+        renderArmorIndex(armorSearchEl.value);
+      });
+    });
+  }
   const params = new URLSearchParams(location.search);
   const setName = params.get("set");
   const pieceId = params.get("piece");
