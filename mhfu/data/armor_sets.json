@@ -1,0 +1,1273 @@
+[
+ {
+  "name": "Mafumofu Set",
+  "image": "data/images/armor_sets/mafumofu.png",
+  "pieces": [
+   {
+    "id": "mhfua1",
+    "name": "Mafumofu Hood",
+    "part": "head"
+   },
+   {
+    "id": "mhfua452",
+    "name": "Mafumofu Jacket",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua887",
+    "name": "Mafumofu Mittens",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1313",
+    "name": "Mafumofu Coat",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1737",
+    "name": "Mafumofu Boots",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Giaprey Set",
+  "image": "data/images/armor_sets/giaprey.png",
+  "pieces": [
+   {
+    "id": "mhfua13",
+    "name": "Giaprey Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua463",
+    "name": "Giaprey Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua898",
+    "name": "Giaprey Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1326",
+    "name": "Giaprey Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1748",
+    "name": "Giaprey Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Battle Set",
+  "image": "data/images/armor_sets/battle.png",
+  "pieces": [
+   {
+    "id": "mhfua15",
+    "name": "Battle Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua465",
+    "name": "Battle Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua900",
+    "name": "Battle Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1328",
+    "name": "Battle Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1750",
+    "name": "Battle Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Vespoid Set",
+  "image": "data/images/armor_sets/vespoid.png",
+  "pieces": [
+   {
+    "id": "mhfua19",
+    "name": "Vespoid Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua469",
+    "name": "Vespoid Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua904",
+    "name": "Vespoid Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1333",
+    "name": "Vespoid Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1756",
+    "name": "Vespoid Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Genprey Set",
+  "image": "data/images/armor_sets/genprey.png",
+  "pieces": [
+   {
+    "id": "mhfua27",
+    "name": "Genprey Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua477",
+    "name": "Genprey Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua912",
+    "name": "Genprey Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1341",
+    "name": "Genprey Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1764",
+    "name": "Genprey Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Ioprey Set",
+  "image": "data/images/armor_sets/ioprey.png",
+  "pieces": [
+   {
+    "id": "mhfua29",
+    "name": "Ioprey Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua481",
+    "name": "Ioprey Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua916",
+    "name": "Ioprey Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1346",
+    "name": "Ioprey Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1768",
+    "name": "Ioprey Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Kut-Ku Set",
+  "image": "data/images/armor_sets/kut-ku.png",
+  "pieces": [
+   {
+    "id": "mhfua31",
+    "name": "Kut-Ku Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua483",
+    "name": "Kut-Ku Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua918",
+    "name": "Kut-Ku Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1348",
+    "name": "Kut-Ku Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1770",
+    "name": "Kut-Ku Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Conga Set",
+  "image": "data/images/armor_sets/conga.png",
+  "pieces": [
+   {
+    "id": "mhfua35",
+    "name": "Conga Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua487",
+    "name": "Conga Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua922",
+    "name": "Conga Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1352",
+    "name": "Conga Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1774",
+    "name": "Conga Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Gypceros Set",
+  "image": "data/images/armor_sets/gypceros.png",
+  "pieces": [
+   {
+    "id": "mhfua37",
+    "name": "Gypceros Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua489",
+    "name": "Gypceros Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua924",
+    "name": "Gypceros Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1354",
+    "name": "Gypceros Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1776",
+    "name": "Gypceros Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Khezu Set",
+  "image": "data/images/armor_sets/khezu.png",
+  "pieces": [
+   {
+    "id": "mhfua39",
+    "name": "Khezu Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua491",
+    "name": "Khezu Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua926",
+    "name": "Khezu Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1356",
+    "name": "Khezu Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1778",
+    "name": "Khezu Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Hermitaur Set",
+  "image": "data/images/armor_sets/hermitaur.png",
+  "pieces": [
+   {
+    "id": "mhfua41",
+    "name": "Hermitaur Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua493",
+    "name": "Hermitaur Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua928",
+    "name": "Hermitaur Braces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1358",
+    "name": "Hermitaur Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1780",
+    "name": "Hermitaur Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Lobster Set",
+  "image": "data/images/armor_sets/lobster.png",
+  "pieces": [
+   {
+    "id": "mhfua45",
+    "name": "Lobster Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua497",
+    "name": "Lobster Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua932",
+    "name": "Lobster Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1360",
+    "name": "Lobster Coil",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1784",
+    "name": "Lobster Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Basarios Set",
+  "image": "data/images/armor_sets/basarios.png",
+  "pieces": [
+   {
+    "id": "mhfua55",
+    "name": "Basarios Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua507",
+    "name": "Basarios Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua942",
+    "name": "Basarios Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1368",
+    "name": "Basarios Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1794",
+    "name": "Basarios Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Monoblos Set",
+  "image": "data/images/armor_sets/monoblos.png",
+  "pieces": [
+   {
+    "id": "mhfua57",
+    "name": "Monoblos Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua509",
+    "name": "Monoblos Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua944",
+    "name": "Monoblos Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1370",
+    "name": "Monoblos Coil",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1796",
+    "name": "Monoblos Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Blango Set",
+  "image": "data/images/armor_sets/blango.png",
+  "pieces": [
+   {
+    "id": "mhfua61",
+    "name": "Blango Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua513",
+    "name": "Blango Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua948",
+    "name": "Blango Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1374",
+    "name": "Blango Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1800",
+    "name": "Blango Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Ceanataur Set",
+  "image": "data/images/armor_sets/ceanataur.png",
+  "pieces": [
+   {
+    "id": "mhfua63",
+    "name": "Ceanataur Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua515",
+    "name": "Ceanataur Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua950",
+    "name": "Ceanataur Braces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1376",
+    "name": "Ceanataur Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1802",
+    "name": "Ceanataur Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Rathian Set",
+  "image": "data/images/armor_sets/rathian.png",
+  "pieces": [
+   {
+    "id": "mhfua65",
+    "name": "Rathian Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua517",
+    "name": "Rathian Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua952",
+    "name": "Rathian Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1378",
+    "name": "Rathian Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1804",
+    "name": "Rathian Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Tigrex Set",
+  "image": "data/images/armor_sets/tigrex.png",
+  "pieces": [
+   {
+    "id": "mhfua67",
+    "name": "Tigrex Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua519",
+    "name": "Tigrex Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua954",
+    "name": "Tigrex Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1380",
+    "name": "Tigrex Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1806",
+    "name": "Tigrex Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Rathalos Set",
+  "image": "data/images/armor_sets/rathalos.png",
+  "pieces": [
+   {
+    "id": "mhfua69",
+    "name": "Rathalos Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua521",
+    "name": "Rathalos Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua956",
+    "name": "Rathalos Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1382",
+    "name": "Rathalos Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1808",
+    "name": "Rathalos Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Diablo Set",
+  "image": "data/images/armor_sets/diablo.png",
+  "pieces": [
+   {
+    "id": "mhfua71",
+    "name": "Diablo Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua523",
+    "name": "Diablo Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua958",
+    "name": "Diablo Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1384",
+    "name": "Diablo Coil",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1810",
+    "name": "Diablo Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Gravios Set",
+  "image": "data/images/armor_sets/gravios.png",
+  "pieces": [
+   {
+    "id": "mhfua73",
+    "name": "Gravios Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua525",
+    "name": "Gravios Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua960",
+    "name": "Gravios Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1386",
+    "name": "Gravios Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1812",
+    "name": "Gravios Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Black Belt Set",
+  "image": "data/images/armor_sets/black-belt.png",
+  "pieces": [
+   {
+    "id": "mhfua95",
+    "name": "Black Belt Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua538",
+    "name": "Black Belt Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua970",
+    "name": "Black Belt Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1394",
+    "name": "Black Belt Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1824",
+    "name": "Black Belt Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Melahoa Set",
+  "image": "data/images/armor_sets/melahoa.png",
+  "pieces": [
+   {
+    "id": "mhfua108",
+    "name": "Melahoa Flower Hat",
+    "part": "head"
+   },
+   {
+    "id": "mhfua552",
+    "name": "Melahoa Stalk",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua983",
+    "name": "Melahoa Branch",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1406",
+    "name": "Melahoa Skirt",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1837",
+    "name": "Melahoa Roots",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Makluva Set",
+  "image": "data/images/armor_sets/makluva.png",
+  "pieces": [
+   {
+    "id": "mhfua110",
+    "name": "Makluva Hood",
+    "part": "head"
+   },
+   {
+    "id": "mhfua553",
+    "name": "Makluva Cover",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua985",
+    "name": "Makluva Sleeves",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1408",
+    "name": "Makluva Coat",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1839",
+    "name": "Makluva Pants",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Obituary Set",
+  "image": "data/images/armor_sets/obituary.png",
+  "pieces": [
+   {
+    "id": "mhfua114",
+    "name": "Obituary Testa",
+    "part": "head"
+   },
+   {
+    "id": "mhfua557",
+    "name": "Obituary Petto",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua989",
+    "name": "Obituary Mano",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1412",
+    "name": "Obituary Anca",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1843",
+    "name": "Obituary Gamba",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Death Stench Set",
+  "image": "data/images/armor_sets/death-stench.png",
+  "pieces": [
+   {
+    "id": "mhfua120",
+    "name": "Death Stench Brain",
+    "part": "head"
+   },
+   {
+    "id": "mhfua563",
+    "name": "Death Stench Muscle",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua995",
+    "name": "Death Stench Grip",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1418",
+    "name": "Death Stench Bowels",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1849",
+    "name": "Death Stench Heel",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Extravagant Set",
+  "image": "data/images/armor_sets/extravagant.png",
+  "pieces": [
+   {
+    "id": "mhfua125",
+    "name": "Extravagant Cap",
+    "part": "head"
+   },
+   {
+    "id": "mhfua568",
+    "name": "Extravagant Camise",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1000",
+    "name": "Extravagant Sleeves",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1423",
+    "name": "Extravagant Coat",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1854",
+    "name": "Extravagant Trousers",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Kushala Set",
+  "image": "data/images/armor_sets/kushala.png",
+  "pieces": [
+   {
+    "id": "mhfua126",
+    "name": "Kushala Glare",
+    "part": "head"
+   },
+   {
+    "id": "mhfua569",
+    "name": "Kushala Cista",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1001",
+    "name": "Kushala Grip",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1424",
+    "name": "Kushala Cocoon",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1855",
+    "name": "Kushala Crus",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Kirin Set",
+  "image": "data/images/armor_sets/kirin.png",
+  "pieces": [
+   {
+    "id": "mhfua128",
+    "name": "Kirin Horn",
+    "part": "head"
+   },
+   {
+    "id": "mhfua571",
+    "name": "Kirin Jacket",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1003",
+    "name": "Kirin Longarms",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1426",
+    "name": "Kirin Hoop",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1857",
+    "name": "Kirin Leg Guards",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Carnage Set",
+  "image": "data/images/armor_sets/carnage.png",
+  "pieces": [
+   {
+    "id": "mhfua131",
+    "name": "Carnage Mask",
+    "part": "head"
+   },
+   {
+    "id": "mhfua574",
+    "name": "Carnage Raiment",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1006",
+    "name": "Carnage Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1429",
+    "name": "Carnage Wrap",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1860",
+    "name": "Carnage Boots",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Auroros Set",
+  "image": "data/images/armor_sets/auroros.png",
+  "pieces": [
+   {
+    "id": "mhfua132",
+    "name": "Auroros Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua575",
+    "name": "Auroros Torso",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1007",
+    "name": "Auroros Gauntlets",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1430",
+    "name": "Auroros Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1861",
+    "name": "Auroros Pants",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Empress Set",
+  "image": "data/images/armor_sets/empress.png",
+  "pieces": [
+   {
+    "id": "mhfua136",
+    "name": "Empress Crown",
+    "part": "head"
+   },
+   {
+    "id": "mhfua579",
+    "name": "Empress Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1011",
+    "name": "Empress Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1436",
+    "name": "Empress Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1867",
+    "name": "Empress Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Indra Set",
+  "image": "data/images/armor_sets/indra.png",
+  "pieces": [
+   {
+    "id": "mhfua138",
+    "name": "Indra Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua581",
+    "name": "Indra Vest",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1013",
+    "name": "Indra Gloves",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1438",
+    "name": "Indra Wrap",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1869",
+    "name": "Indra Leggings",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Steadfast Set",
+  "image": "data/images/armor_sets/steadfast.png",
+  "pieces": [
+   {
+    "id": "mhfua139",
+    "name": "Steadfast Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua582",
+    "name": "Steadfast Vest",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1014",
+    "name": "Steadfast Guards",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1439",
+    "name": "Steadfast Coat",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1870",
+    "name": "Steadfast Boots",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Kaiser Set",
+  "image": "data/images/armor_sets/kaiser.png",
+  "pieces": [
+   {
+    "id": "mhfua140",
+    "name": "Kaiser Crown",
+    "part": "head"
+   },
+   {
+    "id": "mhfua583",
+    "name": "Kaiser Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1015",
+    "name": "Kaiser Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1440",
+    "name": "Kaiser Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1871",
+    "name": "Kaiser Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Monodevil Set",
+  "image": "data/images/armor_sets/monodevil.png",
+  "pieces": [
+   {
+    "id": "mhfua144",
+    "name": "Monodevil Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua587",
+    "name": "Monodevil Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1019",
+    "name": "Monodevil Vambraces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1444",
+    "name": "Monodevil Coil",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua1875",
+    "name": "Monodevil Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Dark Akantor Set",
+  "image": "data/images/armor_sets/dark-akantor.png",
+  "pieces": [
+   {
+    "id": "mhfua302",
+    "name": "Dark Akantor Mask",
+    "part": "head"
+   },
+   {
+    "id": "mhfua748",
+    "name": "Dark Akantor Aegis",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1178",
+    "name": "Dark Akantor Claw",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1602",
+    "name": "Dark Akantor Sash",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua2034",
+    "name": "Dark Akantor Hessian",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Golden Moon Set",
+  "image": "data/images/armor_sets/golden-moon.png",
+  "pieces": [
+   {
+    "id": "mhfua321",
+    "name": "Golden Moon Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua767",
+    "name": "Golden Moon Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1196",
+    "name": "Golden Moon Braces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1620",
+    "name": "Golden Moon Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua2052",
+    "name": "Golden Moon Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Silver Sol Set",
+  "image": "data/images/armor_sets/silver-sol.png",
+  "pieces": [
+   {
+    "id": "mhfua323",
+    "name": "Silver Sol Helm",
+    "part": "head"
+   },
+   {
+    "id": "mhfua769",
+    "name": "Silver Sol Mail",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1198",
+    "name": "Silver Sol Braces",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1622",
+    "name": "Silver Sol Tasset",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua2054",
+    "name": "Silver Sol Greaves",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "Fatalis Set",
+  "image": "data/images/armor_sets/fatalis.png",
+  "pieces": [
+   {
+    "id": "mhfua329",
+    "name": "Fatalis Head",
+    "part": "head"
+   },
+   {
+    "id": "mhfua775",
+    "name": "Fatalis Hide",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1204",
+    "name": "Fatalis Claw",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1628",
+    "name": "Fatalis Spine",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua2060",
+    "name": "Fatalis Feet",
+    "part": "legs"
+   }
+  ]
+ },
+ {
+  "name": "White Fatalis Set",
+  "image": "data/images/armor_sets/white-fatalis.png",
+  "pieces": [
+   {
+    "id": "mhfua331",
+    "name": "White Fatalis Head",
+    "part": "head"
+   },
+   {
+    "id": "mhfua777",
+    "name": "White Fatalis Hide",
+    "part": "chest"
+   },
+   {
+    "id": "mhfua1206",
+    "name": "White Fatalis Claw",
+    "part": "arms"
+   },
+   {
+    "id": "mhfua1630",
+    "name": "White Fatalis Spine",
+    "part": "waist"
+   },
+   {
+    "id": "mhfua2062",
+    "name": "White Fatalis Feet",
+    "part": "legs"
+   }
+  ]
+ }
+]

@@ -815,7 +815,14 @@ function coreArmorNameForGrouping(name) {
 // "Head Scarf") and normalizes Pukei-Pukei->Pukei (base/S). Result is the set
 // name alone (no part word), ready for display/grouping.
 const ARMOR_PART_WORDS = /^(Head|Mail|Vambraces|Braces|Armguards|Coil|Greaves|Garb|Obi|Leggings|Scarf|Crown|Robe|Sleeves|Hakama|Mask|Hat|Hood|Suit|Gloves|Skirt|Socks|Boots|Earrings|Cuirass|Belt|Faulds|Sash|Sandals|Vest|Helm|Cap|Shawl|Arms|Chest|Legs|Waist|Haori|Kote|Jersey|Shoes|Shirt|Pants|Cover|Tassets|Lobos|Patch|Headdress|Choker|Headgear|Hair-tie|Hair|Tie|Hope|Prayer|Feet|Barrette|Leg|Wrap|Guards|Jacket)$/i;
-const ARMOR_SET_HIDDEN = new Set(["Swallow", "Sonic", "Floral", "Buff", "Buff Body", "Elgado", "Akuma's", "Arlow", "Azure", "Azure Age", "Blossom", "Dragonsbane", "Fall", "Fiorayne", "Formal Dragon", "Guild Cross", "Hinoa", "Kamura Cloak", "Lance Gunn", "Minoto", "Orion", "Ran Page", "Summer", "Wild", "Flame Seal", "Cunning Specs", "Mighty Bow Feather", "Utsushi", "Utsushi True", "Black Leather", "Shadow Shades", "Canyne Tail"]);
+// Empty on purpose: this whole file was cloned from Rise, and these three
+// maps (ARMOR_SET_HIDDEN/IMG_OVERRIDES/DISPLAY_MAP) were still full of
+// Rise-only set names (Kamura, Rakna-Kadaki, Utsushi...) that never match
+// anything in MHFU -- pure dead weight. armorSetImg()'s generic slugify
+// fallback already resolves the 41 real MHFU set portraits correctly
+// (armor_sets.json's image paths were generated with the same slug rule),
+// so no per-set overrides are needed unless a future set's name collides.
+const ARMOR_SET_HIDDEN = new Set();
 function armorSetPrefix(name) {
   // keep female variants (Spring)/(Light) as their own set — capture before
   // core() strips trailing "(text)"
@@ -842,49 +849,10 @@ function armorSetPrefix(name) {
 }
 
 // Map implicit-set prefix (the `prefix` before "Set") to the actual image file
-// basename in data/images/armor_sets/. Covers special cases where the Fextralife
-// image name differs from the implicit prefix.
-const ARMOR_SET_IMG_OVERRIDES = {
-  "Silver Set": "silver-sol", "Silver S Set": "silver-sol", "Silver X Set": "silver-sol",
-  "Golden S Set": "golden", "Golden Set": "golden", "Golden Lune Set": "golden-lune-x", "Golden Lune X Set": "golden-lune-x",
-  "Ibushi S Set": "ibushi", "Ibushi X Set": "ibushi", "Ibushi Set": "ibushi", "Ibushi - Pure Set": "ibushi-pure",
-  "Narwa S Set": "narwa", "Narwa X Set": "narwa", "Narwa Set": "narwa", "Narwa - Pure Set": "narwa-pure",
-  "Skalda Set": "skalda-x", "Skalda S Set": "skalda-x", "Skalda X Set": "skalda-x",
-  "Spio X Set": "spio",
-  "Kamura Set": "kamura", "Kamura S Set": "kamura", "Kamura Legacy Set": "kamura-legacy",
-  "Uroktor Set": "uroktor", "Uroktor S Set": "uroktor", "Uroktor X Set": "uroktor",
-  "Edel Set": "edel", "Edel S Set": "edel", "Edel X Set": "edel",
-  "Royal Ludroth Set": "royal-ludroth", "Royal Ludroth S Set": "royal-ludroth", "Royal Ludroth X Set": "royal-ludroth",
-  "Brigade Set": "brigade", "Brigade S Set": "brigade", "Brigade X Set": "brigade",
-  "Medium Set": "medium", "Medium S Set": "medium", "Medium (Light) Set": "medium",
-  "Lambent Set": "lucent-narga", "Nephilim Set": "chaotic-gore",
-  "Bazelgeuse Set": "bazelgeuse", "Bazel Set": "bazelgeuse",
-  "Jyuratodus Set": "jyuratodus", "Jyura Set": "jyuratodus",
-  "Bullfango Mask Set": "bullfango-mask",
-  "Hunter's Set": "hunter", "Hunter's S Set": "hunter-s", "Hunter's X Set": "hunter-x",
-  "Channeler's Set": "channeler", "Channeler's S Set": "channeler", "Channeler (Spring) Set": "channeler",
-  "Knight Squire Set": "knight-squire", "Heavy Knight Set": "heavy-knight",
-  "Base Commander Set": "base-commander", "Garangolm Set": "garangolm",
-  "Royal Artillery Corps Set": "royal-artillery", "Artillery Corps Set": "royal-artillery",
-  "Gore Magala Set": "gore-magala", "Seregios Set": "seregios",
-  "Rakna-Kadaki Set": "rakna-kadaki", "Rakna-Kadaki X Set": "rakna-kadaki-x",
-  "Chaotic Gore Set": "chaotic-gore", "Chaotic Gore Magala Set": "chaotic-gore",
-  "Silver Sol Set": "silver-sol", "Silver Sol S Set": "silver-sol-s", "Silver Sol X Set": "silver-sol-x",
-  "Arc Set": "arc", "Auroracanth Set": "auroracanth", "Espinas Set": "espinas",
-  "Flaming Espinas Set": "flaming-espinas", "Lucent Narga Set": "lucent-narga",
-  "Charite Set": "charite", "Charité Set": "charite",
-  "Primordial Set": "primordial", "Risen Kaiser Set": "risen-kaiser", "Risen Kushala Set": "risen-kushala",
-  "Risen Mizuha Set": "risen-mizuha",
-  "Squire's Set": "knight-squire", "Knight Squire Set": "knight-squire",
-  "Scholar's Set": "scholar", "Scholarly Set": "scholarly-set",
-  "Golm Set": "garangolm", "Garangolm Set": "garangolm",
-  "Rakna Set": "rakna-kadaki", "Rakna X Set": "rakna-kadaki-x", "Rakna-Kadaki X Set": "rakna-kadaki-x",
-  "Utsushi Set": "utsushi-visible", "Utsushi True Set": "utsushi-true-visible", "Utsushi True (Hidden) Set": "utsushi-true-hidden", "Utsushi True (Visible) Set": "utsushi-true-visible", "Utsushi (Hidden) Set": "utsushi-hidden", "Utsushi (Visible) Set": "utsushi-visible",
-  "S. Studded Set": "", "S. Studded S Set": "", "S. Studded X Set": "",
-  "Pukei-Pukei X Set": "pukei-pukei-x", "Pukei-Pukei Set": "pukei", "Pukei-Pukei S Set": "pukei-s",
-  "Kadachi Set": "kadachi-set", "Kadachi S Set": "kadachi-set", "Tobi-Kadachi X Set": "tobi-kadachi-x",
-};
-const ARMOR_SET_DISPLAY_MAP = { "S. Studded": "Shell Studded", "Squire's": "Knight Squire", "Scholar's": "Scholar", "Golm": "Garangolm", "Rakna": "Rakna-Kadaki", "Artillery Corps": "Royal Artillery Corps", "Chaotic": "Chaotic Gore Magala", "Gore": "Gore Magala", "Hoplite's": "Heavy Knight", "Professor's": "Professor", "Regios": "Seregios", "Outpost HQ": "Base Commander", "Ibushi's": "Ibushi", "Ibushi's Pure": "Ibushi - Pure", "Narwa's": "Narwa", "Narwa's Pure": "Narwa - Pure", "Lecturer": "Lecture", "Lecturer's": "Lecture", "Divine Ire": "Grand Divine Ire", "Channeler's": "Channeler", "Channeler's (Spring)": "Channeler (Spring)", "Medium's": "Medium", "Medium's (Light)": "Medium (Light)", "Charité": "Charite" };
+// basename in data/images/armor_sets/. Empty for MHFU (see note above) --
+// armorSetImg()'s generic slugify fallback covers every scraped set.
+const ARMOR_SET_IMG_OVERRIDES = {};
+const ARMOR_SET_DISPLAY_MAP = {};
 function armorSetDisplayName(prefix) {
   // split optional rank suffix (S/X) so it maps + reapplies for ALL variants
   const m = prefix.match(/^(.*?)\s+(S|X)$/);
