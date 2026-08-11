@@ -1395,6 +1395,31 @@ body {
   flex-wrap: wrap;
 }
 
+.armor-mode-toggle {
+  display: flex;
+  flex: 0 0 auto;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+.armor-mode-toggle button {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 0.9rem;
+  background: var(--bg-panel);
+  color: var(--text-dim);
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+}
+.armor-mode-toggle button + button { border-left: 1px solid var(--border); }
+.armor-mode-toggle button.active { background: var(--accent); color: var(--bg); }
+.armor-mode-toggle button:hover:not(.active) { background: var(--bg-panel-alt); }
+.armor-mode-toggle button img.status-icon { width: 16px; height: 16px; }
+
 .decorations-back {
   background: var(--bg-panel);
   color: var(--text);
