@@ -101,11 +101,31 @@ let itemsByName = new Map();
 let weapons = [];
 let armorPieces = [];
 let armorSets = [];
-// "all" | "B" (Blademaster) | "G" (Gunner) -- pieces marked "BG" always
-// pass, since they're usable by either class
+// "all" | "B" (Blademaster-exclusive) | "G" (Gunner-exclusive) | "BG" (Hibrido,
+// usable by either class) -- each is an exact match now, "Hibrido" is its own
+// category rather than something B/G silently include.
 let armorHunterTypeFilter = "all";
 function matchesHunterTypeFilter(p) {
-  return armorHunterTypeFilter === "all" || p.hunterType === "BG" || p.hunterType === armorHunterTypeFilter;
+  return armorHunterTypeFilter === "all" || p.hunterType === armorHunterTypeFilter;
+}
+// Sets are named "<Name> Set (Blademaster)" / "<Name> Set (Gunner)" when the
+// two classes use different pieces, or plain "<Name> Set" when it's Hibrido
+// (both classes share the same pieces). Mirrors that naming into a filter key.
+function setHunterClass(setName) {
+  if (/\(Blademaster\)$/.test(setName)) return "B";
+  if (/\(Gunner\)$/.test(setName)) return "G";
+  return "BG";
+}
+function matchesSetHunterTypeFilter(setName) {
+  return armorHunterTypeFilter === "all" || setHunterClass(setName) === armorHunterTypeFilter;
+}
+// Same idea for implied (piece-derived) groups, which have no name suffix to
+// read -- classify from what their pieces actually are: uniformly B, uniformly
+// G, or Hibrido/mixed otherwise.
+function impliedGroupHunterClass(pieces) {
+  const types = new Set(pieces.map(p => p.hunterType));
+  if (types.size === 1 && (types.has("B") || types.has("G"))) return [...types][0];
+  return "BG";
 }
 // only flag the restrictive B-only/G-only pieces -- BG (works for both,
 // the common case) gets no badge to avoid cluttering every card. Reuses
@@ -1975,6 +1995,10 @@ function renderArmorIndex(query) {
   const usedNames = new Set();
   for (const s of setMatches) for (const p of s.pieces) usedNames.add(p.name.toLowerCase());
   for (const g of implied) for (const p of g.pieces) usedNames.add(p.name.toLowerCase());
+  // hunterType filtering happens after usedIds/usedNames so hiding e.g. the
+  // Gunner sets while viewing "Blademaster" doesn't make their pieces look loose
+  const setMatchesFiltered = setMatches.filter(s => matchesSetHunterTypeFilter(s.name));
+  const impliedFiltered = implied.filter(g => armorHunterTypeFilter === "all" || impliedGroupHunterClass(g.pieces) === armorHunterTypeFilter);
   const looseMatches = armorPieces.filter(p => !usedIds.has(p.id) && !usedNames.has(p.name.toLowerCase()) && (!q ||
     normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q)))
     .filter(p => p.materials && p.materials.length && p.defense)
@@ -1993,8 +2017,8 @@ function renderArmorIndex(query) {
   }
   const explicitNames = new Set(setMatches.map(s => s.name));
   const allSets = [
-    ...setMatches.map(s => ({ name: s.name, image: s.localImage || s.image, rank: setRank(s.pieces.map(r => armorPieces.find(x => x.id === r.id)).filter(Boolean)), isSet: true })),
-    ...implied.filter(g => !explicitNames.has(armorSetDisplayName(g.prefix))).map(g => ({ name: armorSetDisplayName(g.prefix), image: armorSetImg(armorSetDisplayName(g.prefix)), rank: setRank(g.pieces), isImplied: true })),
+    ...setMatchesFiltered.map(s => ({ name: s.name, image: s.localImage || s.image, rank: setRank(s.pieces.map(r => armorPieces.find(x => x.id === r.id)).filter(Boolean)), isSet: true })),
+    ...impliedFiltered.filter(g => !explicitNames.has(armorSetDisplayName(g.prefix))).map(g => ({ name: armorSetDisplayName(g.prefix), image: armorSetImg(armorSetDisplayName(g.prefix)), rank: setRank(g.pieces), isImplied: true })),
   ];
 
   if (!allSets.length && !looseMatches.length) {
@@ -2028,6 +2052,7 @@ function renderArmorIndex(query) {
   const allSetNames = new Set(explicitNames);
   for (const s of implied) allSetNames.add(armorSetDisplayName(s.prefix));
   const filteredPartial = partialGroups.filter(g => !allSetNames.has(armorSetDisplayName(g.prefix)))
+    .filter(g => armorHunterTypeFilter === "all" || impliedGroupHunterClass(g.pieces) === armorHunterTypeFilter)
     .sort((a, b) => armorSetDisplayName(a.prefix).localeCompare(armorSetDisplayName(b.prefix)));
   if (filteredPartial.length) {
     html += `<div class="decorations-slot-group">
