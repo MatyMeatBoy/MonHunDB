@@ -2560,9 +2560,28 @@ function showCharmsView() {
   window.scrollTo(0, 0);
   renderCharmsIndex("");
 }
+// Charms share a base name with a trailing roman-numeral tier ("Marathon
+// Charm I" / "II" / "III"), a much simpler upgrade line than weapons (no
+// branching, no material-based tree needed) -- strip the tier to group.
+const CHARM_TIER_RANK = { I: 1, II: 2, III: 3, IV: 4, V: 5 };
+function charmBaseAndTier(name) {
+  const m = (name || "").match(/^(.*)\s+(I|II|III|IV|V)$/);
+  return m ? { base: m[1], tier: CHARM_TIER_RANK[m[2]] } : { base: name, tier: 0 };
+}
+function isCharmTrueFinal(charm) {
+  const { base, tier } = charmBaseAndTier(charm.name);
+  return !charms.some(c => c.id !== charm.id && charmBaseAndTier(c.name).base === base && charmBaseAndTier(c.name).tier > tier);
+}
+function charmChain(charm) {
+  const { base } = charmBaseAndTier(charm.name);
+  return charms
+    .filter(c => charmBaseAndTier(c.name).base === base)
+    .sort((a, b) => charmBaseAndTier(a.name).tier - charmBaseAndTier(b.name).tier);
+}
 function renderCharmsIndex(query) {
   const q = normalizeSearch((query || "").trim());
-  const sorted = [...charms].sort((a, b) => trCharmName(a).localeCompare(trCharmName(b)));
+  const finals = charms.filter(isCharmTrueFinal);
+  const sorted = [...finals].sort((a, b) => trCharmName(a).localeCompare(trCharmName(b)));
   const filtered = !q ? sorted : sorted.filter(c =>
     normalizeSearch(c.name || "").includes(q) || normalizeSearch(c.nameEs || "").includes(q)
   );
@@ -2615,6 +2634,22 @@ function showCharmDetail(id) {
       `).join("")
     : `<p class="no-data">${ui("noDataYet")}</p>`;
 
+  const chain = charmChain(charm);
+  const chainHtml = chain.length > 1 ? `
+    <section class="block">
+      <h3>${ui("weaponsEarlierVersions")}</h3>
+      <div class="decorations-grid">
+        ${chain.map(cc => `
+          <button type="button" class="decoration-card${cc.id === charm.id ? " selected" : ""}" data-charm-id="${escapeAttr(cc.id)}">
+            ${charmIconTag(cc)}
+            <span class="decoration-card-name">${trCharmName(cc)}</span>
+            <span class="decoration-card-skill">${isCharmTrueFinal(cc) ? ui("weaponsFinalVersion") : ("R" + (cc.rarity ?? "—"))}</span>
+          </button>
+        `).join("")}
+      </div>
+    </section>
+  ` : "";
+
   charmDetailEl.innerHTML = `
     <a class="decorations-back" href="charms">${ui("charmsBack")}</a>
     <div class="decoration-detail-header">
@@ -2631,7 +2666,11 @@ function showCharmDetail(id) {
       <h3>${ui("decorationsMaterialsHeading")}</h3>
       <div class="decoration-materials-blocks">${materialsHtml}</div>
     </section>
+    ${chainHtml}
   `;
+  charmDetailEl.querySelectorAll("[data-charm-id]").forEach(btn => {
+    btn.addEventListener("click", () => navCharm(btn.dataset.charmId));
+  });
 }
 function bootCharms() {
   charmsSearchEl.addEventListener("input", () => renderCharmsIndex(charmsSearchEl.value));
