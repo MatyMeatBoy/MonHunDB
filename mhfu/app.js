@@ -262,6 +262,54 @@ function trMhfuPart(raw) {
   const [en, es] = humanizeMhfuPart(raw);
   return lang === "es" ? es : en;
 }
+// base-part key for each MHFU_PART_OVERRIDES entry, used only for sorting
+// the hitzone table (see mhfuPartBaseKey) -- keeps e.g. "shell-gravios" next
+// to plain "shell" instead of scattered by whichever suffix it carries.
+const MHFU_PART_OVERRIDE_BASE = {
+  "bod-guardy": "body", "bodybrokenshell": "body",
+  "horn-left": "horn", "horn-right": "horn",
+  "left-shoulder": "shoulder", "right-shoulder": "shoulder",
+  "shell-gravios": "shell", "shell-wyvern": "shell",
+  "play-dead": "play-dead",
+  "frontlegs-enraged": "forelegs",
+  "stomach-brokenstomach": "stomach",
+};
+function mhfuPartBaseKey(raw) {
+  const key = (raw || "").toLowerCase().trim();
+  if (MHFU_PART_OVERRIDE_BASE[key]) return MHFU_PART_OVERRIDE_BASE[key];
+  if (MHFU_PART_BASE[key]) return key;
+  for (const [suf] of MHFU_PART_MOD_SUFFIXES) {
+    if (key.endsWith("-" + suf)) {
+      const baseKey = key.slice(0, -(suf.length + 1));
+      if (MHFU_PART_BASE[baseKey]) return baseKey;
+    }
+  }
+  return key;
+}
+// Sorts hitzone rows so each base part (Head, Body, Shell...) is immediately
+// followed by its own state variants (Head (Enraged), Head (Broken shell)...)
+// instead of the source order, which groups by state across ALL parts first
+// (every base part, then every "-brokenshell" part, then every "-enraged"
+// part...) -- correct data, just presented in a confusing order for
+// multi-state monsters like the Hermitaur/Ceanataur family.
+function sortMhfuHitzones(hitzones) {
+  const baseOrder = [];
+  const seenBase = new Set();
+  for (const h of hitzones) {
+    const base = mhfuPartBaseKey(h.part);
+    if (!seenBase.has(base)) { seenBase.add(base); baseOrder.push(base); }
+  }
+  const baseIndex = new Map(baseOrder.map((b, i) => [b, i]));
+  return hitzones
+    .map((h, i) => ({ h, i, base: mhfuPartBaseKey(h.part), isBare: !!MHFU_PART_BASE[(h.part || "").toLowerCase().trim()] }))
+    .sort((a, b) => {
+      const bi = baseIndex.get(a.base) - baseIndex.get(b.base);
+      if (bi !== 0) return bi;
+      if (a.isBare !== b.isBare) return a.isBare ? -1 : 1;
+      return a.i - b.i;
+    })
+    .map(x => x.h);
+}
 function trMonsterName(name) {
   return lang === "es" ? t(I18N.monsterNames, name) : name;
 }
@@ -2518,7 +2566,7 @@ function renderMonster(name) {
     ? resRows.join("") + condRows.join("")
     : `<li class="no-data">${ui("noData")}</li>`;
 
-  renderHitzones(node.querySelector(".hitzones-table-wrap"), monster.hitzones);
+  renderHitzones(node.querySelector(".hitzones-table-wrap"), sortMhfuHitzones(monster.hitzones));
   renderHitzoneSilhouette(node.querySelector(".hz-silhouette-wrap"), monster);
 
   const ailList = node.querySelector(".ailments-list");
