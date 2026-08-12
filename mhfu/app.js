@@ -335,6 +335,47 @@ function mhfuPartBaseKey(raw) {
   }
   return key;
 }
+// Some MHFU monsters' hitzones were scraped with Claw/Arm/Wing split across
+// TWO separate "part" rows for no real anatomical reason: the singular slug
+// ("claw") carries only physical damage (sever/blunt/projectile), and the
+// pluralized slug ("claws") carries only elemental damage (fire/water/
+// thunder/ice/dragon) -- same body part, same state suffix, zero overlapping
+// fields between the two (verified across every monster.json occurrence).
+// Left unmerged this renders as two half-empty rows both needing the same
+// display name ("Claw" / "Claws" -- confirmed live, Daimyo Hermitaur). Only
+// the Hermitaur/Ceanataur family + a few early monsters (Yian Kut-Ku, Remobra,
+// Cephalos) have the split; most monsters' "wings" entry is already one
+// complete row and is left untouched. "clawss" (Shogun/Terra Ceanataur) is
+// the same split with an extra scrape typo (double s) on top of the plural,
+// normalized first so it lines up with "claws".
+const MHFU_SPLIT_PART_BASES = ["arm", "claw", "wing"];
+function mergeMhfuSplitHitzoneRows(hitzones) {
+  const norm = (p) => (p === "clawss" ? "claws" : p);
+  const byPart = new Map();
+  const order = [];
+  for (const h of hitzones || []) {
+    const part = norm(h.part);
+    if (!byPart.has(part)) { byPart.set(part, { ...h, part }); order.push(part); }
+    else byPart.set(part, { ...byPart.get(part), ...h, part });
+  }
+  const consumed = new Set();
+  const merged = [];
+  for (const part of order) {
+    if (consumed.has(part)) continue;
+    const base = MHFU_SPLIT_PART_BASES.find(b => part === b || part.startsWith(b + "-"));
+    const pluralPart = base && base + "s" + part.slice(base.length);
+    if (base && pluralPart && byPart.has(pluralPart) && !consumed.has(pluralPart)) {
+      merged.push({ ...byPart.get(pluralPart), ...byPart.get(part), part });
+      consumed.add(part);
+      consumed.add(pluralPart);
+    } else {
+      merged.push(byPart.get(part));
+      consumed.add(part);
+    }
+  }
+  return merged;
+}
+
 // Sorts hitzone rows so each base part (Head, Body, Shell...) is immediately
 // followed by its own state variants (Head (Enraged), Head (Broken shell)...)
 // instead of the source order, which groups by state across ALL parts first
@@ -590,8 +631,11 @@ function bootPage() {
 }
 
 let iconManifest = {};
+// Bulldrome has no icon of its own scraped yet -- reuses Bullfango's (same
+// family, closest available) as a stand-in until a real one is found.
+const ICON_ALIASES = { Bulldrome: "Bullfango" };
 function iconPath(name) {
-  return iconManifest[name] || `data/images/icons/${slugify(name)}.png`;
+  return iconManifest[name] || `data/images/icons/${slugify(ICON_ALIASES[name] || name)}.png`;
 }
 function slugify(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
@@ -2683,7 +2727,7 @@ function renderMonster(name) {
     ? resRows.join("") + condRows.join("")
     : `<li class="no-data">${ui("noData")}</li>`;
 
-  renderHitzones(node.querySelector(".hitzones-table-wrap"), sortMhfuHitzones(monster.hitzones));
+  renderHitzones(node.querySelector(".hitzones-table-wrap"), sortMhfuHitzones(mergeMhfuSplitHitzoneRows(monster.hitzones)));
   renderHitzoneSilhouette(node.querySelector(".hz-silhouette-wrap"), monster);
 
   const ailList = node.querySelector(".ailments-list");
@@ -3128,10 +3172,11 @@ function renderHitzoneSilhouette(container, monster) {
     return;
   }
 
+  const hitzones = mergeMhfuSplitHitzoneRows(monster.hitzones);
   const statKey = hzSilhouetteStat;
   const byPart = {};
-  for (const h of monster.hitzones) byPart[h.part] = h;
-  const colorByPart = tierColorsByPart(monster.hitzones, statKey);
+  for (const h of hitzones) byPart[h.part] = h;
+  const colorByPart = tierColorsByPart(hitzones, statKey);
 
   const polys = Object.entries(shape.parts).map(([part, pointSets]) => {
     const hz = byPart[part];
