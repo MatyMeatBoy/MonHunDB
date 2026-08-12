@@ -631,11 +631,11 @@ function bootPage() {
 }
 
 let iconManifest = {};
-// Bulldrome has no icon of its own scraped yet -- reuses Bullfango's (same
-// family, closest available) as a stand-in until a real one is found.
-const ICON_ALIASES = { Bulldrome: "Bullfango" };
+// Bulldrome's icon isn't a same-slug PNG like the rest -- it's a 1st-gen SVG
+// icon from Monster Hunter Wiki (monsterhunterwiki.org), the user's pick.
+const ICON_OVERRIDES = { Bulldrome: "data/images/icons/bulldrome.svg" };
 function iconPath(name) {
-  return iconManifest[name] || `data/images/icons/${slugify(ICON_ALIASES[name] || name)}.png`;
+  return iconManifest[name] || ICON_OVERRIDES[name] || `data/images/icons/${slugify(name)}.png`;
 }
 function slugify(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
