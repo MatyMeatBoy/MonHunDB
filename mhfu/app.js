@@ -2792,23 +2792,27 @@ const HITZONE_HIGHLIGHT_LIMIT = 3;
 // - Remaining slots up to the cap of 3 are filled with the next best
 //   elements (yellow, hz-ok), regardless of whether they tie with each other.
 function rankElementColumns(hitzones) {
-  const maxByKey = {};
+  // Ranked by the SUM across every body part, not the single highest cell --
+  // a monster can have one part with a spiky high value in an element that's
+  // actually worse overall than an element that's consistently good across
+  // the whole body.
+  const sumByKey = {};
   for (const key of HITZONE_ELEMENT_COLS) {
-    maxByKey[key] = Math.max(0, ...hitzones.map(r => r[key] || 0));
+    sumByKey[key] = hitzones.reduce((total, r) => total + (r[key] || 0), 0);
   }
 
   const classByKey = {};
   for (const key of HITZONE_ELEMENT_COLS) {
-    if (maxByKey[key] === 0) classByKey[key] = "hz-zero";
+    if (sumByKey[key] === 0) classByKey[key] = "hz-zero";
   }
 
   const nonZero = HITZONE_ELEMENT_COLS
-    .filter(k => maxByKey[k] > 0)
-    .sort((a, b) => maxByKey[b] - maxByKey[a]);
+    .filter(k => sumByKey[k] > 0)
+    .sort((a, b) => sumByKey[b] - sumByKey[a]);
   if (!nonZero.length) return classByKey;
 
-  const topVal = maxByKey[nonZero[0]];
-  const topGroup = nonZero.filter(k => maxByKey[k] === topVal);
+  const topVal = sumByKey[nonZero[0]];
+  const topGroup = nonZero.filter(k => sumByKey[k] === topVal);
   for (const key of topGroup) classByKey[key] = "hz-best";
 
   let remaining = HITZONE_HIGHLIGHT_LIMIT - topGroup.length;
