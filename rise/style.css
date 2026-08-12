@@ -1226,6 +1226,23 @@ body {
 }
 .hz-silhouette polygon[data-part]:hover { opacity: 0.8; }
 
+/* Only ever rendered when the page itself is running on localhost -- see
+   IS_LOCAL_DEV in app.js. Never present in the DOM on the real deployed
+   site, so no styling here leaks anything visually either. */
+.hz-edit-snippet-btn {
+  display: block;
+  margin: 0.8rem auto 0;
+  padding: 0.4rem 0.8rem;
+  background: var(--bg-panel-alt, #2a2622);
+  border: 1px dashed var(--accent, #d9832a);
+  border-radius: 6px;
+  color: var(--text, #f0e6d8);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.hz-edit-snippet-btn:hover { border-style: solid; }
+.hz-edit-snippet-btn:disabled { opacity: 0.6; cursor: default; }
+
 .hitzones-table {
   width: 100%;
   border-collapse: collapse;

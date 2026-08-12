@@ -3005,6 +3005,45 @@ const HITZONE_SHAPES = {
       ],
     },
   },
+  // Traced from vectores/mh rise/daimyo-hermitaur.png via VecMon. Source
+  // snippet used "Hermitaur" as the key -- renamed here since our own
+  // monsters.json only has "Daimyo Hermitaur" (no separate small
+  // Hermitaur entry in Rise), so that's the real name this data belongs
+  // to. Left Leg/Right Leg/Shell have internal holes (decoration lines)
+  // this simple-outline format doesn't represent -- check visually if
+  // something looks off. bgImage is this feature's first real test case
+  // (see renderHitzoneSilhouette): the traced silhouette gets colored
+  // per-hitzone as usual, but the real reference image shows through
+  // faintly behind it instead of a flat background -- opt-in per monster,
+  // only rendered when this field is set.
+  "Daimyo Hermitaur": {
+    viewBox: "0 0 1169 1029",
+    bgImage: "data/images/hitzone_bg/daimyo-hermitaur.png",
+    parts: {
+      "Left Leg": [
+        "748,852 817,888 847,851 888,881 931,874 1017,1028 1009,941 969,874 1006,869 1119,1011 1109,944 1033,816 959,828 927,766 865,787 843,757 864,761 845,729 779,692 725,681 703,740 693,854",
+      ],
+      "Right Leg": [
+        "169,798 176,802 94,938 81,1018 179,872 228,850 324,858 335,957 365,996 370,870 435,877 471,830 502,861 599,857 523,770 519,777 519,785 520,786 519,787 507,775 501,761 490,763 480,759 471,751 467,738 470,734 432,714 370,758 335,786 278,803",
+      ],
+      Torso: [
+        "533,757 533,759 528,763 523,770 599,857 693,854 704,738 609,772 570,770",
+      ],
+      Shell: [
+        "84,303 262,390 183,392 309,453 328,515 282,539 329,553 348,594 333,622 362,622 372,659 427,680 436,677 473,626 456,581 517,589 558,596 628,589 668,594 700,602 792,559 779,626 823,633 856,604 876,539 845,520 865,478 856,394 819,438 772,425 759,397 787,339 739,354 786,262 717,336 705,299 743,144 641,257 654,63 635,31 576,241 542,12 521,0 502,232 474,284 264,135 253,151 341,240 380,322 185,255 328,366 327,399",
+        "800,704 845,729 864,761 885,764 865,681",
+      ],
+      "Left Claw": [
+        "818,312 919,425 925,477 878,540 876,539 856,604 823,633 779,626 792,559 701,601 693,640 723,686 725,681 779,692 800,704 865,681 864,677 995,566 1168,631 1126,529 1116,403 1052,265 933,214 938,295 779,230",
+      ],
+      Head: [
+        "504,653 511,735 518,735 527,732 530,738 533,757 570,770 609,772 704,738 723,686 693,640 701,601 700,602 668,594 628,589 558,596 517,589 456,581 473,626 472,628 508,630 502,654",
+      ],
+      "Right Claw": [
+        "12,665 103,853 144,785 169,798 278,803 335,786 370,758 432,714 470,734 488,727 503,735 511,735 504,653 502,654 508,630 472,628 436,677 427,680 443,686 378,718 249,604 192,447 136,490 132,535 96,573 18,542 0,580",
+      ],
+    },
+  },
 };
 
 // Maps a 0-100 hitzone value to a heat-map color: blue (cold/low damage) up
@@ -3094,13 +3133,25 @@ function renderHitzoneSilhouette(container, monster) {
   for (const h of monster.hitzones) byPart[h.part] = h;
   const colorByPart = tierColorsByPart(monster.hitzones, statKey);
 
+  // Experimental, opt-in per monster (see the comment on "Daimyo Hermitaur"
+  // in HITZONE_SHAPES): when a shape carries a real reference image, it's
+  // drawn first (behind everything) and the hitzone polygons get some
+  // fill-opacity instead of the usual solid fill, so the real art shows
+  // through faintly under the per-part coloring -- same technique VecMon
+  // itself uses for its tracing-reference backdrop.
+  const [, , shapeW, shapeH] = shape.viewBox.split(" ").map(Number);
+  const bgHtml = shape.bgImage
+    ? `<image href="${shape.bgImage}" x="0" y="0" width="${shapeW}" height="${shapeH}" preserveAspectRatio="none"></image>`
+    : "";
+  const polyFillOpacity = shape.bgImage ? ` fill-opacity="0.8"` : "";
+
   const polys = Object.entries(shape.parts).map(([part, pointSets]) => {
     const hz = byPart[part];
     const val = hz ? (hz[statKey] ?? 0) : 0;
     const color = colorByPart[part] || HZ_SILHOUETTE_NEUTRAL;
     const label = `${trBodyPart(part)}: ${hzStatLabel(statKey)} ${val}%`;
     return pointSets.map(pts => `
-      <polygon points="${pts}" fill="${color}" stroke="#14110f" stroke-width="2" data-part="${part}">
+      <polygon points="${pts}" fill="${color}"${polyFillOpacity} stroke="#14110f" stroke-width="2" data-part="${part}">
         <title>${escapeAttr(label)}</title>
       </polygon>
     `).join("");
@@ -3117,6 +3168,7 @@ function renderHitzoneSilhouette(container, monster) {
       <div class="hz-silhouette-stat-tabs">${tabButtons}</div>
     </div>
     <svg class="hz-silhouette" viewBox="${shape.viewBox}" xmlns="http://www.w3.org/2000/svg">
+      ${bgHtml}
       ${polys}
       ${shape.decor || ""}
     </svg>
@@ -3128,6 +3180,81 @@ function renderHitzoneSilhouette(container, monster) {
       renderHitzoneSilhouette(container, monster);
     });
   });
+
+  renderEditSnippetButton(container, monster, shape);
+}
+
+// Real IdentifierName check, same rule VecMon's own exporter uses (see
+// snippetKey() there) -- multi-word part names ("Left Leg") aren't valid
+// bare object-literal keys, so those need quoting or the snippet can't be
+// pasted/re-imported as JS.
+const SNIPPET_BARE_KEY_RE = /^[A-Za-z_$][A-Za-z0-9_$]*$/;
+function snippetKey(name) {
+  return SNIPPET_BARE_KEY_RE.test(name) ? name : JSON.stringify(name);
+}
+
+// Rebuilds the exact HITZONE_SHAPES snippet text for one monster from its
+// live shape data -- same text format VecMon's own "Generar snippet"
+// produces, so round-tripping through "Editar snippet" -> VecMon ->
+// re-paste here behaves identically either direction.
+function hitzoneSnippetText(name, shape) {
+  let out = `${snippetKey(name)}: {\n  viewBox: "${shape.viewBox}",\n`;
+  if (shape.bgImage) out += `  bgImage: "${shape.bgImage}",\n`;
+  out += `  parts: {\n`;
+  for (const [part, pointSets] of Object.entries(shape.parts)) {
+    const key = snippetKey(part);
+    if (pointSets.length === 1) {
+      out += `    ${key}: [\n      "${pointSets[0]}",\n    ],\n`;
+    } else {
+      out += `    ${key}: [\n${pointSets.map(p => `      "${p}",`).join("\n")}\n    ],\n`;
+    }
+  }
+  out += `  },\n},`;
+  return out;
+}
+
+// Only true when this page itself is being served from localhost (dev
+// server on this machine) -- never true on the real deployed site, no
+// matter who's looking at the page source on GitHub or in the browser.
+// Not a hidden toggle someone could flip by reading the JS: the condition
+// is the actual runtime origin, so the button below simply doesn't exist
+// outside local development.
+const IS_LOCAL_DEV = location.hostname === "localhost" || location.hostname === "127.0.0.1";
+
+// VecMon (github.com/../Apps/claude/VecMon) is a separate local tool for
+// tracing/editing these hitzone silhouettes visually -- this button hands
+// it the monster's current snippet + its own render image (the same one
+// this page already shows) via VecMon's /api/pending-load handshake, so
+// editing an existing shape starts from real geometry+art instead of an
+// empty canvas. No-op (button just doesn't render) for any monster with
+// no HITZONE_SHAPES entry yet -- nothing to edit.
+const VECMON_URL = "http://localhost:5055";
+function renderEditSnippetButton(container, monster, shape) {
+  if (!IS_LOCAL_DEV) return;
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "hz-edit-snippet-btn";
+  btn.textContent = "🛠️ Editar snippet en VecMon";
+  btn.addEventListener("click", async () => {
+    btn.disabled = true;
+    btn.textContent = "Abriendo VecMon...";
+    try {
+      const snippet = hitzoneSnippetText(monster.name, shape);
+      const imagePath = monster.image ? `rise/${monster.image}` : null;
+      await fetch(`${VECMON_URL}/api/pending-load`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: monster.name, snippet, imagePath }),
+      });
+      window.open(`${VECMON_URL}/?load=1`, "_blank");
+    } catch (e) {
+      alert(`No se pudo conectar con VecMon en ${VECMON_URL} -- ¿está corriendo? (${e.message})`);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = "🛠️ Editar snippet en VecMon";
+    }
+  });
+  container.appendChild(btn);
 }
 
 // Small decorative preview for a home-page news card: reuses the traced
