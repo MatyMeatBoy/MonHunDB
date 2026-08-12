@@ -47416,11 +47416,7 @@
       }
     ],
     "image": "data/images/tigrex.png",
-    "attackElements": [
-      "Fire",
-      "Ice",
-      "Water"
-    ]
+    "attackElements": []
   },
   {
     "name": "Tobi-Kadachi",
