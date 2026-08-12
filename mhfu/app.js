@@ -71,6 +71,7 @@ const weaponsViewEl = document.getElementById("weapons-view");
 const weaponsBackEl = document.getElementById("weapons-back");
 const weaponsSearchEl = document.getElementById("weapons-search");
 const weaponsIndexEl = document.getElementById("weapons-index");
+const weaponsTypeFilterEl = document.getElementById("weapons-type-filter");
 const weaponDetailEl = document.getElementById("weapon-detail");
 const armorNavToggleEl = document.getElementById("armor-nav-toggle");
 const armorViewEl = document.getElementById("armor-view");
@@ -1621,6 +1622,47 @@ function trWeaponName(w) {
 function trWeaponType(type) {
   return lang === "es" && I18N.weaponTypes ? (I18N.weaponTypes[type] || type) : type;
 }
+// Icon set is shared across all 3 games (data/images/weapon_types/, copied
+// identically into each game's data folder) -- a generic "type glyph" filter,
+// not meant to be per-game art, so the same 14 icons cover Rise/Wilds/MHFU
+// even though each game only uses a subset of the 14 real weapon types (MHFU
+// has 11, no Switch Axe/Charge Blade/Insect Glaive).
+const WEAPON_TYPE_ICON = {
+  "Great Sword": "great-sword", "Long Sword": "long-sword",
+  "Sword & Shield": "sword-shield", "Sword and Shield": "sword-shield",
+  "Dual Blades": "dual-blades", "Hammer": "hammer",
+  "Hunting Horn": "hunting-horn", "Lance": "lance", "Gunlance": "gunlance",
+  "Switch Axe": "switch-axe", "Charge Blade": "charge-blade",
+  "Insect Glaive": "insect-glaive", "Bow": "bow",
+  "Light Bowgun": "light-bowgun", "Heavy Bowgun": "heavy-bowgun",
+};
+const WEAPON_TYPE_ORDER = Object.keys(WEAPON_TYPE_ICON);
+function weaponTypeIconTag(type) {
+  const slug = WEAPON_TYPE_ICON[type];
+  return slug ? `<img class="weapon-type-icon" src="data/images/weapon_types/${slug}.png" alt="${escapeAttr(trWeaponType(type))}" loading="lazy">` : "";
+}
+let weaponsTypeFilter = "all";
+function renderWeaponsTypeFilter() {
+  if (!weaponsTypeFilterEl) return;
+  const types = [...new Set(weapons.map(w => w.type))]
+    .filter(t => WEAPON_TYPE_ICON[t])
+    .sort((a, b) => WEAPON_TYPE_ORDER.indexOf(a) - WEAPON_TYPE_ORDER.indexOf(b));
+  weaponsTypeFilterEl.innerHTML = `
+    <button type="button" class="weapon-type-btn${weaponsTypeFilter === "all" ? " active" : ""}" data-type="all">${ui("weaponsTypeAll")}</button>
+    ${types.map(t => `
+      <button type="button" class="weapon-type-btn${weaponsTypeFilter === t ? " active" : ""}" data-type="${escapeAttr(t)}" title="${escapeAttr(trWeaponType(t))}">
+        ${weaponTypeIconTag(t)}
+      </button>
+    `).join("")}
+  `;
+  weaponsTypeFilterEl.querySelectorAll("[data-type]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      weaponsTypeFilter = btn.dataset.type;
+      renderWeaponsTypeFilter();
+      renderWeaponsIndex(weaponsSearchEl.value);
+    });
+  });
+}
 function weaponIconTag(w) {
   const fallbackSrc = weaponGame8Icons[w.id] ? `data/images/weapons_game8/${w.id}.png` : null;
   const onerror = fallbackSrc
@@ -1829,15 +1871,18 @@ function showWeaponsView() {
   weaponDetailEl.hidden = true;
   weaponsIndexEl.hidden = false;
   weaponsSearchEl.value = "";
+  weaponsTypeFilter = "all";
   window.scrollTo(0, 0);
+  renderWeaponsTypeFilter();
   renderWeaponsIndex("");
 }
 
 function renderWeaponsIndex(query) {
   const q = normalizeSearch((query || "").trim());
-  let filtered = weapons.filter(w => isWeaponTrueFinal(w) && (
-    !q || normalizeSearch(w.name).includes(q) || normalizeSearch(w.nameEs || "").includes(q)
-  ));
+  let filtered = weapons.filter(w => isWeaponTrueFinal(w)
+    && (weaponsTypeFilter === "all" || w.type === weaponsTypeFilter)
+    && (!q || normalizeSearch(w.name).includes(q) || normalizeSearch(w.nameEs || "").includes(q))
+  );
   // order finals by their position in the real upgrade tree (per type)
   if (weaponOrderIdx) {
     filtered = filtered.slice().sort((a, b) => {
