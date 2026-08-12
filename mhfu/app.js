@@ -2820,11 +2820,98 @@ function starString(stars, max = 3) {
 
 // Real in-game 3D model per monster, extracted from Kolyn090/mhfu-asset-db
 // (OBJ+MTL+textures converted to a self-contained .glb with obj2gltf, since
-// <model-viewer> only reads glTF/GLB, not raw OBJ). Just Rathalos for now --
-// an experimental one-off ("BETA"), not a claim every monster has one; add
-// more names here as models get pulled and converted the same way.
+// <model-viewer> only reads glTF/GLB, not raw OBJ). Covers every monster the
+// source repo has a model for; a few of our monsters have no match there and
+// are left out on purpose (no fallback/reuse, to avoid showing the wrong
+// creature): Conga (only "Congalala" exists, a different life stage), Furious
+// Rajang (only base "Rajang"), Ceanataur (only "Shogun"/"Terra" variants),
+// Great Thunderbug, Kelbi_Male (picked Kelbi_Female as the one representative
+// model for our single generic "Kelbi" entry -- purely cosmetic, no gameplay
+// data attached). "Scarred Yian Garuga" maps to the repo's
+// "One_Ear_Yian_Garuga" folder -- the only unique Garuga variant on both
+// sides, so a safe 1:1 match despite the differing name. "Terra S.Ceanataur"
+// had 4 separate obj/mtl pairs in its folder (likely shell-break states);
+// used the first as the one representative model.
 const MONSTER_3D_MODELS = {
+  "Akantor": "data/models/akantor.glb",
+  "Anteka": "data/models/anteka.glb",
+  "Apceros": "data/models/apceros.glb",
+  "Aptonoth": "data/models/aptonoth.glb",
+  "Ashen Lao-Shan Lung": "data/models/ashen-lao-shan-lung.glb",
+  "Azure Rathalos": "data/models/azure-rathalos.glb",
+  "Basarios": "data/models/basarios.glb",
+  "Black Diablos": "data/models/black-diablos.glb",
+  "Black Gravios": "data/models/black-gravios.glb",
+  "Blango": "data/models/blango.glb",
+  "Blangonga": "data/models/blangonga.glb",
+  "Blue Yian Kut-Ku": "data/models/blue-yian-kut-ku.glb",
+  "Bulldrome": "data/models/bulldrome.glb",
+  "Bullfango": "data/models/bullfango.glb",
+  "Cephadrome": "data/models/cephadrome.glb",
+  "Cephalos": "data/models/cephalos.glb",
+  "Chameleos": "data/models/chameleos.glb",
+  "Congalala": "data/models/congalala.glb",
+  "Copper Blangonga": "data/models/copper-blangonga.glb",
+  "Crimson Fatalis": "data/models/crimson-fatalis.glb",
+  "Daimyo Hermitaur": "data/models/daimyo-hermitaur.glb",
+  "Diablos": "data/models/diablos.glb",
+  "Emerald Congalala": "data/models/emerald-congalala.glb",
+  "Fatalis": "data/models/fatalis.glb",
+  "Felyne": "data/models/felyne.glb",
+  "Gendrome": "data/models/gendrome.glb",
+  "Genprey": "data/models/genprey.glb",
+  "Giadrome": "data/models/giadrome.glb",
+  "Giaprey": "data/models/giaprey.glb",
+  "Gold Rathian": "data/models/gold-rathian.glb",
+  "Gravios": "data/models/gravios.glb",
+  "Green Plesioth": "data/models/green-plesioth.glb",
+  "Gypceros": "data/models/gypceros.glb",
+  "Hermitaur": "data/models/hermitaur.glb",
+  "Hornetaur": "data/models/hornetaur.glb",
+  "Hypnocatrice": "data/models/hypnocatrice.glb",
+  "Iodrome": "data/models/iodrome.glb",
+  "Ioprey": "data/models/ioprey.glb",
+  "Kelbi": "data/models/kelbi.glb",
+  "Khezu": "data/models/khezu.glb",
+  "King Shakalaka": "data/models/king-shakalaka.glb",
+  "Kirin": "data/models/kirin.glb",
+  "Kushala Daora": "data/models/kushala-daora.glb",
+  "Lao-Shan Lung": "data/models/lao-shan-lung.glb",
+  "Lavasioth": "data/models/lavasioth.glb",
+  "Lunastra": "data/models/lunastra.glb",
+  "Melynx": "data/models/melynx.glb",
+  "Monoblos": "data/models/monoblos.glb",
+  "Mosswine": "data/models/mosswine.glb",
+  "Nargacuga": "data/models/nargacuga.glb",
+  "Pink Rathian": "data/models/pink-rathian.glb",
+  "Plesioth": "data/models/plesioth.glb",
+  "Plum D.Hermitaur": "data/models/plum-d-hermitaur.glb",
+  "Popo": "data/models/popo.glb",
+  "Purple Gypceros": "data/models/purple-gypceros.glb",
+  "Rajang": "data/models/rajang.glb",
   "Rathalos": "data/models/rathalos.glb",
+  "Rathian": "data/models/rathian.glb",
+  "Red Khezu": "data/models/red-khezu.glb",
+  "Remobra": "data/models/remobra.glb",
+  "Rusted Kushala Daora": "data/models/rusted-kushala-daora.glb",
+  "Scarred Yian Garuga": "data/models/scarred-yian-garuga.glb",
+  "Shakalaka": "data/models/shakalaka.glb",
+  "Shen Gaoren": "data/models/shen-gaoren.glb",
+  "Shogun Ceanataur": "data/models/shogun-ceanataur.glb",
+  "Silver Rathalos": "data/models/silver-rathalos.glb",
+  "Teostra": "data/models/teostra.glb",
+  "Terra S.Ceanataur": "data/models/terra-s-ceanataur.glb",
+  "Tigrex": "data/models/tigrex.glb",
+  "Ukanlos": "data/models/ukanlos.glb",
+  "Velocidrome": "data/models/velocidrome.glb",
+  "Velociprey": "data/models/velociprey.glb",
+  "Vespoid": "data/models/vespoid.glb",
+  "Vespoid Queen": "data/models/vespoid-queen.glb",
+  "White Fatalis": "data/models/white-fatalis.glb",
+  "White Monoblos": "data/models/white-monoblos.glb",
+  "Yama Tsukami": "data/models/yama-tsukami.glb",
+  "Yian Garuga": "data/models/yian-garuga.glb",
+  "Yian Kut-Ku": "data/models/yian-kut-ku.glb",
 };
 
 function renderMonster(name) {
