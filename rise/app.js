@@ -1555,28 +1555,30 @@ function ammoTableHtml(w) {
     byType.get(base).levels[level] = { capacity: a.capacity, fullName: a.name };
   }
 
-  const rows = [...byType.entries()].map(([base, { shotType, levels }]) => {
+  // Two-column compact grid instead of a 3-column table -- the shot-type
+  // text (often long: "Moving shot, Moving reload, Rapid shot") moves into
+  // a title tooltip on the chip instead of taking its own visible column,
+  // per the user's request to only show name + X/X/X capacity at a glance.
+  const chips = [...byType.entries()].map(([base, { shotType, levels }]) => {
     const maxLv = Math.max(...Object.keys(levels).map(Number));
     const capacities = Array.from({ length: maxLv }, (_, i) => levels[i + 1]?.capacity ?? "0").join("/");
     const anyLevel = Object.values(levels)[0];
     const item = itemsByName.get(anyLevel.fullName) || itemsByName.get(base);
     const icon = item ? itemMaskIconTag(item.iconId, item.color, "material-icon") : "";
+    const tooltip = shotType ? escapeAttr(shotType) : "";
     return `
-      <tr>
-        <td class="ammo-type-cell">${icon}<span>${escapeAttr(base)}</span></td>
-        <td class="ammo-capacity">${capacities}</td>
-        <td class="ammo-shot-type">${escapeAttr(shotType || "—")}</td>
-      </tr>
+      <div class="ammo-chip" ${tooltip ? `title="${tooltip}"` : ""}>
+        ${icon}
+        <span class="ammo-chip-name">${escapeAttr(base)}</span>
+        <span class="ammo-chip-capacity">${capacities}</span>
+      </div>
     `;
   }).join("");
 
   return `
     <section class="block">
       <h3>${ui("weaponsAmmoHeading")}</h3>
-      <table class="ammo-table">
-        <thead><tr><th>${ui("weaponsAmmoType")}</th><th>${ui("weaponsAmmoCapacity")}</th><th>${ui("weaponsAmmoShotType")}</th></tr></thead>
-        <tbody>${rows}</tbody>
-      </table>
+      <div class="ammo-grid">${chips}</div>
     </section>
   `;
 }

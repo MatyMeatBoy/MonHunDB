@@ -1537,26 +1537,32 @@ body {
 .mh-sharpness-seg { position: absolute; top: 0; bottom: 0; height: 100%; }
 .mh-sharpness-seg.mh-sharpness-half { height: 50%; top: 0; bottom: auto; opacity: 0.75; }
 
-.ammo-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.88rem;
+.ammo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem 0.8rem;
 }
-.ammo-table th {
-  text-align: left;
-  color: var(--text-dim);
-  font-weight: 600;
-  padding: 0.4rem 0.6rem;
-  border-bottom: 1px solid var(--border);
+@media (max-width: 480px) {
+  .ammo-grid { grid-template-columns: 1fr; }
 }
-.ammo-table td {
-  padding: 0.4rem 0.6rem;
-  border-bottom: 1px solid var(--border);
+.ammo-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.55rem;
+  background: var(--bg-panel-alt);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: default;
 }
-.ammo-table tr:last-child td { border-bottom: none; }
-.ammo-type-cell { display: flex; align-items: center; gap: 0.5rem; }
-.ammo-capacity { text-align: center; font-weight: 600; color: var(--accent); }
-.ammo-shot-type { color: var(--text-dim); font-size: 0.82rem; }
+.ammo-chip-name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ammo-chip-capacity { font-weight: 600; color: var(--accent); flex: 0 0 auto; }
 
 .decoration-skills-list { grid-template-columns: 1fr; }
 .decoration-skill-effect { color: var(--text-dim); font-size: 0.85rem; text-align: right; }
