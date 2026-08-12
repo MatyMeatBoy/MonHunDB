@@ -1534,8 +1534,8 @@ body {
 }
 .monster-model3d {
   width: 100%;
-  height: 40vh;
-  min-height: 260px;
+  height: 46vh;
+  min-height: 300px;
   background: var(--bg-panel-alt);
   border: 1px solid var(--border);
   border-radius: 8px;
