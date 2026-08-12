@@ -2888,9 +2888,16 @@ function starString(stars, max = 3) {
 // model for our single generic "Kelbi" entry -- purely cosmetic, no gameplay
 // data attached). "Scarred Yian Garuga" maps to the repo's
 // "One_Ear_Yian_Garuga" folder -- the only unique Garuga variant on both
-// sides, so a safe 1:1 match despite the differing name. "Terra S.Ceanataur"
-// had 4 separate obj/mtl pairs in its folder (likely shell-break states);
-// used the first as the one representative model.
+// sides, so a safe 1:1 match despite the differing name.
+//
+// Most entries are a plain path (one real model). 4 monsters had multiple
+// separate obj/mtl pairs in their own folder instead of just one -- real
+// distinct states, not duplicates -- so those use { variants: [...] } and
+// get a toggle in renderMonster() instead of only ever showing the first:
+// Crimson Fatalis and Rajang have named states (normal/raged, confirmed by
+// the source repo's own filenames); Shogun/Terra S.Ceanataur's 4 states
+// have no names in the source (just numbered 1-4, likely shell-break
+// progression) so those are labeled generically ("Estado N").
 const MONSTER_3D_MODELS = {
   "Akantor": "data/models/akantor.glb",
   "Anteka": "data/models/anteka.glb",
@@ -2911,7 +2918,12 @@ const MONSTER_3D_MODELS = {
   "Chameleos": "data/models/chameleos.glb",
   "Congalala": "data/models/congalala.glb",
   "Copper Blangonga": "data/models/copper-blangonga.glb",
-  "Crimson Fatalis": "data/models/crimson-fatalis.glb",
+  "Crimson Fatalis": {
+    variants: [
+      { key: "normal", label: "Normal", path: "data/models/crimson-fatalis-normal.glb" },
+      { key: "raged", label: "Enfurecido", path: "data/models/crimson-fatalis-raged.glb" },
+    ],
+  },
   "Daimyo Hermitaur": "data/models/daimyo-hermitaur.glb",
   "Diablos": "data/models/diablos.glb",
   "Emerald Congalala": "data/models/emerald-congalala.glb",
@@ -2947,7 +2959,13 @@ const MONSTER_3D_MODELS = {
   "Plum D.Hermitaur": "data/models/plum-d-hermitaur.glb",
   "Popo": "data/models/popo.glb",
   "Purple Gypceros": "data/models/purple-gypceros.glb",
-  "Rajang": "data/models/rajang.glb",
+  "Rajang": {
+    variants: [
+      { key: "normal", label: "Normal", path: "data/models/rajang-normal.glb" },
+      { key: "raged", label: "Enfurecido", path: "data/models/rajang-raged.glb" },
+      { key: "raged2", label: "Muy enfurecido", path: "data/models/rajang-raged2.glb" },
+    ],
+  },
   "Rathalos": "data/models/rathalos.glb",
   "Rathian": "data/models/rathian.glb",
   "Red Khezu": "data/models/red-khezu.glb",
@@ -2956,10 +2974,24 @@ const MONSTER_3D_MODELS = {
   "Scarred Yian Garuga": "data/models/scarred-yian-garuga.glb",
   "Shakalaka": "data/models/shakalaka.glb",
   "Shen Gaoren": "data/models/shen-gaoren.glb",
-  "Shogun Ceanataur": "data/models/shogun-ceanataur.glb",
+  "Shogun Ceanataur": {
+    variants: [
+      { key: "1", label: "Estado 1", path: "data/models/shogun-ceanataur-1.glb" },
+      { key: "2", label: "Estado 2", path: "data/models/shogun-ceanataur-2.glb" },
+      { key: "3", label: "Estado 3", path: "data/models/shogun-ceanataur-3.glb" },
+      { key: "4", label: "Estado 4", path: "data/models/shogun-ceanataur-4.glb" },
+    ],
+  },
   "Silver Rathalos": "data/models/silver-rathalos.glb",
   "Teostra": "data/models/teostra.glb",
-  "Terra S.Ceanataur": "data/models/terra-s-ceanataur.glb",
+  "Terra S.Ceanataur": {
+    variants: [
+      { key: "1", label: "Estado 1", path: "data/models/terra-s-ceanataur-1.glb" },
+      { key: "2", label: "Estado 2", path: "data/models/terra-s-ceanataur-2.glb" },
+      { key: "3", label: "Estado 3", path: "data/models/terra-s-ceanataur-3.glb" },
+      { key: "4", label: "Estado 4", path: "data/models/terra-s-ceanataur-4.glb" },
+    ],
+  },
   "Tigrex": "data/models/tigrex.glb",
   "Ukanlos": "data/models/ukanlos.glb",
   "Velocidrome": "data/models/velocidrome.glb",
@@ -2984,14 +3016,39 @@ function renderMonster(name) {
   node.querySelector(".monster-species").textContent = trSpecies(monster.species || "");
 
   const model3dBlock = node.querySelector('[data-block="model3d"]');
-  const modelPath = MONSTER_3D_MODELS[monster.name];
-  if (modelPath) {
+  const modelEntry = MONSTER_3D_MODELS[monster.name];
+  const variantToggle = model3dBlock.querySelector(".model3d-variant-toggle");
+  if (modelEntry) {
     model3dBlock.hidden = false;
     const mv = model3dBlock.querySelector(".monster-model3d");
-    mv.setAttribute("src", modelPath);
     mv.setAttribute("alt", `Modelo 3D de ${trMonsterName(monster.name)}`);
+
+    // A handful of monsters (Crimson Fatalis, Rajang, Shogun/Terra
+    // Ceanataur) have real separate in-game models per state -- enraged
+    // fur, shell-break stages -- extracted as distinct files rather than
+    // one, so those get a toggle instead of always showing just the first
+    // one. Every other monster keeps the plain single-model path.
+    if (modelEntry.variants) {
+      variantToggle.hidden = false;
+      variantToggle.innerHTML = modelEntry.variants.map((v, i) =>
+        `<button type="button" class="model3d-variant-btn${i === 0 ? " active" : ""}" data-path="${v.path}">${escapeAttr(v.label)}</button>`
+      ).join("");
+      variantToggle.querySelectorAll(".model3d-variant-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          variantToggle.querySelectorAll(".model3d-variant-btn").forEach(b => b.classList.toggle("active", b === btn));
+          mv.setAttribute("src", btn.dataset.path);
+        });
+      });
+      mv.setAttribute("src", modelEntry.variants[0].path);
+    } else {
+      variantToggle.hidden = true;
+      variantToggle.innerHTML = "";
+      mv.setAttribute("src", modelEntry);
+    }
   } else {
     model3dBlock.hidden = true;
+    variantToggle.hidden = true;
+    variantToggle.innerHTML = "";
   }
 
   const mhElementEl = node.querySelector('[data-mh="element"] .mh-info-value');

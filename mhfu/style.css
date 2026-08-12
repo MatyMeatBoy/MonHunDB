@@ -1540,6 +1540,23 @@ body {
   border: 1px solid var(--border);
   border-radius: 8px;
 }
+.model3d-variant-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 0.6rem;
+}
+.model3d-variant-btn {
+  padding: 0.35rem 0.7rem;
+  background: var(--bg-panel-alt);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+.model3d-variant-btn:hover { border-color: var(--accent); }
+.model3d-variant-btn.active { background: var(--accent); border-color: var(--accent); color: #1a1714; font-weight: 600; }
 .model3d-note { font-size: 0.78rem; color: var(--text-dim); margin: 0.5rem 0 0; }
 .decoration-detail-slot {
   color: var(--text-dim);
