@@ -3406,6 +3406,50 @@ function hzStatLabelFull(key) {
   return HITZONE_ELEMENT_COLS.includes(key) ? trElement(key) : (I18N.ui[lang][capitalized] || hzStatLabel(key));
 }
 
+// Wilds' hitzone data doesn't line up 1:1 with the traced silhouette's 7
+// parts (Head, Wing, Neck, Back, Tail, Abdomen, Leg), so byPart lookups in
+// renderHitzoneSilhouette used to fail silently for Wing/Back/Abdomen/Leg on
+// every monster, always falling back to neutral gray. Two real quirks, both
+// verified against every "wounds:0" row in monsters.json before writing this:
+//  - Left/Right Wing and Left/Right Leg are always byte-identical (confirmed
+//    for Rathalos) -- same hitzone value mirrored per side, so either one
+//    normalizes to a single Wing/Leg with zero data loss.
+//  - Wilds doesn't split Back from Abdomen at all -- one "Torso" value
+//    covers both, so it's reused for both shape regions (same "one real
+//    value, multiple shape regions" pattern already used for Barioth's
+//    Neck/Back and Basarios's Wing reuse elsewhere in HITZONE_SHAPES).
+// Also takes only the un-wounded ("wounds":0) row per part -- the silhouette
+// has no wound-state toggle, so this matches the monster's base values.
+function normalizeWildsHitzoneParts(hitzones) {
+  const base = (hitzones || []).filter(h => (h.wounds ?? 0) === 0);
+  const consumed = new Set();
+  const out = [];
+  for (const h of base) {
+    if (consumed.has(h.part)) continue;
+    if (h.part === "Left Wing" || h.part === "Right Wing") {
+      const rep = base.find(x => x.part === "Left Wing") || base.find(x => x.part === "Right Wing");
+      out.push({ ...rep, part: "Wing" });
+      consumed.add("Left Wing"); consumed.add("Right Wing");
+      continue;
+    }
+    if (h.part === "Left Leg" || h.part === "Right Leg") {
+      const rep = base.find(x => x.part === "Left Leg") || base.find(x => x.part === "Right Leg");
+      out.push({ ...rep, part: "Leg" });
+      consumed.add("Left Leg"); consumed.add("Right Leg");
+      continue;
+    }
+    if (h.part === "Torso") {
+      out.push({ ...h, part: "Back" });
+      out.push({ ...h, part: "Abdomen" });
+      consumed.add("Torso");
+      continue;
+    }
+    out.push(h);
+    consumed.add(h.part);
+  }
+  return out;
+}
+
 function renderHitzoneSilhouette(container, monster) {
   const shape = HITZONE_SHAPES[monster.name];
   if (!shape || !monster.hitzones || !monster.hitzones.length) {
@@ -3413,10 +3457,11 @@ function renderHitzoneSilhouette(container, monster) {
     return;
   }
 
+  const hitzones = normalizeWildsHitzoneParts(monster.hitzones);
   const statKey = hzSilhouetteStat;
   const byPart = {};
-  for (const h of monster.hitzones) byPart[h.part] = h;
-  const colorByPart = tierColorsByPart(monster.hitzones, statKey);
+  for (const h of hitzones) byPart[h.part] = h;
+  const colorByPart = tierColorsByPart(hitzones, statKey);
 
   const polys = Object.entries(shape.parts).map(([part, pointSets]) => {
     const hz = byPart[part];

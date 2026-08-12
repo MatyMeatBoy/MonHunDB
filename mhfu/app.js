@@ -246,6 +246,7 @@ function trBodyPart(name) {
 // listed as full overrides. Verified against every slug in mhfu/data/monsters.json
 // (106 hitzone parts + 35 breakParts/carves tokens, 0 unmatched).
 const MHFU_PART_BASE = {
+  abdomen: ["Abdomen", "Abdomen"],
   antennae: ["Antennae", "Antenas"], arm: ["Arm", "Brazo"], arms: ["Arms", "Brazos"],
   back: ["Back", "Espalda"], beak: ["Beak", "Pico"], body: ["Body", "Cuerpo"],
   bod: ["Body", "Cuerpo"], chest: ["Chest", "Pecho"], claw: ["Claw", "Garra"],
@@ -257,7 +258,8 @@ const MHFU_PART_BASE = {
   head: ["Head", "Cabeza"], hindleg: ["Hindleg", "Pata trasera"],
   hindlegs: ["Hindlegs", "Patas traseras"], horn: ["Horn", "Cuerno"],
   "inside-shell": ["Inside shell", "Interior del caparazón"], internal: ["Internal", "Interior"],
-  jaw: ["Jaw", "Mandíbula"], legs: ["Legs", "Patas"], "lower-body": ["Lower body", "Parte inferior"],
+  jaw: ["Jaw", "Mandíbula"], leg: ["Leg", "Pata"], legs: ["Legs", "Patas"],
+  "lower-body": ["Lower body", "Parte inferior"],
   mouth: ["Mouth", "Boca"], neck: ["Neck", "Cuello"], other: ["Other", "Otro"],
   shell: ["Shell", "Caparazón"], shoulder: ["Shoulder", "Hombro"], spike: ["Spike", "Púa"],
   stomach: ["Stomach", "Vientre"], tail: ["Tail", "Cola"], tentacles: ["Tentacles", "Tentáculos"],
@@ -375,6 +377,64 @@ function mergeMhfuSplitHitzoneRows(hitzones) {
     }
   }
   return merged;
+}
+
+// Reduces MHFU's raw hitzone rows down to the same 7-part naming Rise/Wilds
+// use (Head, Neck, Abdomen, Back, Wing, Leg, Tail), so the traced silhouette
+// shapes (HITZONE_SHAPES, keyed by those exact names) can actually look up
+// real per-part values instead of always falling back to neutral gray.
+// Three real quirks in MHFU's source data, each verified against every
+// monster in monsters.json before writing this:
+//  - "Stomach" is what every other game calls "Abdomen" -- 0/1500 monsters
+//    have both as separate hitzones, so this is a pure rename, no merge.
+//  - "Legs"(physical-only)+"Feet"(elemental-only) is a complementary split
+//    of ONE real leg hitzone for 18 monsters; for 9 others "Feet" alone is
+//    a complete standalone row (both physical+elemental present, confirmed
+//    e.g. Yian Kut-Ku) with no "Legs" counterpart -- either way it's the
+//    same real body part and normalizes to one "Leg".
+//  - "Back"/"Wings" are byte-identical duplicates ONLY for Diablos/Black
+//    Diablos (ground wyverns whose folded wings sit on their back) -- for
+//    actual flyers (Rathalos, etc.) the values genuinely differ and must
+//    stay separate. Those same 2 monsters also carry a "Wing membrane"/
+//    "Wings membrane" complementary split, which IS their real "Wing"
+//    hitzone (MHFU's term for what modern games just call "Wing").
+const HITZONE_STAT_KEYS = ["sever", "blunt", "projectile", "fire", "water", "thunder", "ice", "dragon"];
+function normalizeMhfuHitzoneParts(hitzones) {
+  const merged = mergeMhfuSplitHitzoneRows(hitzones);
+  const byPart = new Map(merged.map(h => [h.part.toLowerCase(), h]));
+  const wingsIsBackDup = byPart.has("back") && byPart.has("wings")
+    && HITZONE_STAT_KEYS.every(k => (byPart.get("back")[k] ?? 0) === (byPart.get("wings")[k] ?? 0));
+  const hasMembranePair = byPart.has("wing membrane") && byPart.has("wings membrane");
+  const hasLegsFeetPair = byPart.has("legs") && byPart.has("feet");
+
+  const consumed = new Set();
+  const out = [];
+  for (const h of merged) {
+    const part = h.part.toLowerCase();
+    if (consumed.has(part)) continue;
+
+    if (part === "wings" && wingsIsBackDup) { consumed.add(part); continue; }
+    if (part === "stomach") { out.push({ ...h, part: "Abdomen" }); consumed.add(part); continue; }
+    if (part === "back") { out.push({ ...h, part: "Back" }); consumed.add(part); continue; }
+    if ((part === "wing membrane" || part === "wings membrane") && hasMembranePair) {
+      out.push({ ...byPart.get("wings membrane"), ...byPart.get("wing membrane"), part: "Wing" });
+      consumed.add("wing membrane");
+      consumed.add("wings membrane");
+      continue;
+    }
+    if (part === "wings" || part === "wing") { out.push({ ...h, part: "Wing" }); consumed.add(part); continue; }
+    if ((part === "legs" || part === "feet") && hasLegsFeetPair) {
+      out.push({ ...byPart.get("feet"), ...byPart.get("legs"), part: "Leg" });
+      consumed.add("legs");
+      consumed.add("feet");
+      continue;
+    }
+    if (part === "legs" || part === "feet") { out.push({ ...h, part: "Leg" }); consumed.add(part); continue; }
+
+    out.push({ ...h, part: humanizeMhfuPart(h.part)[0] });
+    consumed.add(part);
+  }
+  return out;
 }
 
 // Sorts hitzone rows so each base part (Head, Body, Shell...) is immediately
@@ -3273,7 +3333,7 @@ function renderHitzoneSilhouette(container, monster) {
     return;
   }
 
-  const hitzones = mergeMhfuSplitHitzoneRows(monster.hitzones);
+  const hitzones = normalizeMhfuHitzoneParts(monster.hitzones);
   const statKey = hzSilhouetteStat;
   const byPart = {};
   for (const h of hitzones) byPart[h.part] = h;
