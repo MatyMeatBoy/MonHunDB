@@ -1151,7 +1151,23 @@ function runGlobalSearch(query) {
     normalizeSearch(w.name).includes(q) || normalizeSearch(w.nameEs || "").includes(q)
   )).slice(0, 6);
 
-  const armorSetMatches = (armorSets || []).filter(s => normalizeSearch(s.name).includes(q)).slice(0, 4);
+  // A set matches either by its own name, or because one of its pieces does
+  // (e.g. searching a piece name should surface the set it belongs to, not
+  // just literal set-name matches).
+  const armorSetMatches = (armorSets || []).filter(s =>
+    normalizeSearch(s.name).includes(q) ||
+    s.pieces.some(ref => {
+      const p = armorPieces.find(x => x.id === ref.id);
+      return p && (normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q));
+    })
+  ).slice(0, 4);
+  // Pieces that aren't in any explicit set (loose pieces) wouldn't be found
+  // by the set search above at all, so they need their own direct match.
+  const setPieceIds = getArmorSetPieceIds();
+  const loosePieceMatches = (armorPieces || []).filter(p =>
+    !setPieceIds.has(p.id) &&
+    (normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q))
+  ).slice(0, 6);
 
   let html = "";
 
@@ -1268,7 +1284,18 @@ function runGlobalSearch(query) {
     html += `</div>`;
   }
 
-  if (!monsterMatches.length && !materialMatches.length && !decorationMatches.length && !weaponMatches.length && !armorSetMatches.length) {
+  if (loosePieceMatches.length) {
+    html += `<div class="gs-section"><div class="gs-section-title">${ui("gsArmorSection")}</div>`;
+    html += loosePieceMatches.map(p => `
+      <button type="button" class="gs-monster-row" data-armor-piece="${p.id}">
+        ${armorIconTag(p)}
+        <span>${trArmorName(p)}${p.part ? ` <span class="gs-source-rank">${trArmorPart(p.part)}</span>` : ""}</span>
+      </button>
+    `).join("");
+    html += `</div>`;
+  }
+
+  if (!monsterMatches.length && !materialMatches.length && !decorationMatches.length && !weaponMatches.length && !armorSetMatches.length && !loosePieceMatches.length) {
     html = `<p class="gs-no-results">${ui("gsNoResults")}</p>`;
   }
 
@@ -1294,6 +1321,9 @@ function runGlobalSearch(query) {
   });
   gsResultsEl.querySelectorAll("[data-armor-set]").forEach(btn => {
     btn.addEventListener("click", () => navArmorSet(btn.dataset.armorSet));
+  });
+  gsResultsEl.querySelectorAll("[data-armor-piece]").forEach(btn => {
+    btn.addEventListener("click", () => navArmorPiece(btn.dataset.armorPiece));
   });
   gsResultsEl.querySelectorAll("[data-gs-related-armor]").forEach(btn => {
     btn.addEventListener("click", () => navArmorSet(btn.dataset.gsRelatedArmor));
