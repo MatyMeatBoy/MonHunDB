@@ -1520,6 +1520,27 @@ body {
 .decoration-detail-header img.material-icon,
 .decoration-detail-header .material-icon.item-mask-icon { width: 42px; height: 42px; }
 .decoration-detail-header h2 { margin: 0; flex: 1 1 auto; }
+
+.model3d-block h3 { display: flex; align-items: center; gap: 0.5rem; }
+.beta-badge {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #1a1714;
+  background: var(--accent);
+  border-radius: 4px;
+  padding: 0.1rem 0.4rem;
+  text-transform: uppercase;
+}
+.monster-model3d {
+  width: 100%;
+  height: 40vh;
+  min-height: 260px;
+  background: var(--bg-panel-alt);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.model3d-note { font-size: 0.78rem; color: var(--text-dim); margin: 0.5rem 0 0; }
 .decoration-detail-slot {
   color: var(--text-dim);
   font-size: 0.8rem;

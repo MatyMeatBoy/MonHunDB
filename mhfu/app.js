@@ -2741,6 +2741,15 @@ function starString(stars, max = 3) {
   return out;
 }
 
+// Real in-game 3D model per monster, extracted from Kolyn090/mhfu-asset-db
+// (OBJ+MTL+textures converted to a self-contained .glb with obj2gltf, since
+// <model-viewer> only reads glTF/GLB, not raw OBJ). Just Rathalos for now --
+// an experimental one-off ("BETA"), not a claim every monster has one; add
+// more names here as models get pulled and converted the same way.
+const MONSTER_3D_MODELS = {
+  "Rathalos": "data/models/rathalos.glb",
+};
+
 function renderMonster(name) {
   const monster = monsters.find(m => m.name === name);
   if (!monster) return;
@@ -2750,6 +2759,17 @@ function renderMonster(name) {
 
   node.querySelector(".monster-name").textContent = trMonsterName(monster.name);
   node.querySelector(".monster-species").textContent = trSpecies(monster.species || "");
+
+  const model3dBlock = node.querySelector('[data-block="model3d"]');
+  const modelPath = MONSTER_3D_MODELS[monster.name];
+  if (modelPath) {
+    model3dBlock.hidden = false;
+    const mv = model3dBlock.querySelector(".monster-model3d");
+    mv.setAttribute("src", modelPath);
+    mv.setAttribute("alt", `Modelo 3D de ${trMonsterName(monster.name)}`);
+  } else {
+    model3dBlock.hidden = true;
+  }
 
   const mhElementEl = node.querySelector('[data-mh="element"] .mh-info-value');
   const mainEls = monster.attackElements || [];
