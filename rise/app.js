@@ -1512,19 +1512,24 @@ const SHARPNESS_COLORS = ["#e42525", "#e88f27", "#e8e327", "#61c322", "#3b7fe0",
 function sharpnessBarHtml(w) {
   if (!w.sharpness || !w.sharpness.length) return "";
   const base = w.sharpness;
-  let highest = 0;
-  for (let i = base.length - 1; i >= 0; i--) { if (base[i] > 0) { highest = i; break; } }
   let pos = 0;
   const baseSegs = base.map((v, i) => {
     const left = pos / 4, width = v / 4;
     pos += v;
     return `<span class="mh-sharpness-seg" style="left:${left}%;width:${width}%;background:${SHARPNESS_COLORS[i]}"></span>`;
   }).join("");
+  // sharpnessTakumi is already indexed by resolved color (that's what the
+  // scraper read straight off mhrice's own "mh-sharpness-color-N" class on
+  // the rendered half-height span, N already folded to "last base color +
+  // however far the Handicraft extension reaches") -- so index i here IS
+  // the color to use, not an offset from it. In practice a weapon almost
+  // always has exactly one non-zero slot here anyway: the extension is one
+  // continuous block in the same color as wherever the base bar stopped.
   const takumi = w.sharpnessTakumi || [];
   const takumiSegs = takumi.map((v, i) => {
     const left = pos / 4, width = v / 4;
     pos += v;
-    const color = SHARPNESS_COLORS[(i + highest) % SHARPNESS_COLORS.length];
+    const color = SHARPNESS_COLORS[i % SHARPNESS_COLORS.length];
     return `<span class="mh-sharpness-seg mh-sharpness-half" style="left:${left}%;width:${width}%;background:${color}"></span>`;
   }).join("");
   return `<span class="mh-sharpness-bar" title="${ui("weaponsSharpnessHint")}">${baseSegs}${takumiSegs}</span>`;
@@ -1535,13 +1540,36 @@ function sharpnessBarHtml(w) {
 // no per-type capacity number) so it isn't covered by this same field.
 function ammoTableHtml(w) {
   if (!w.ammoTypes || !w.ammoTypes.length) return "";
-  const rows = w.ammoTypes.map(a => `
-    <tr>
-      <td>${escapeAttr(a.name)}</td>
-      <td class="ammo-capacity">${a.capacity ?? "—"}</td>
-      <td class="ammo-shot-type">${escapeAttr(a.shotType || "—")}</td>
-    </tr>
-  `).join("");
+  // The scraped list is flat, one row per level ("Normal Ammo 1", "Normal
+  // Ammo 2", ...) -- every other MH ammo table groups by type instead, one
+  // row per type showing all its levels' capacities together (most types
+  // top out at 3). Icon comes from the Materiales/Items catalog: every ammo
+  // name here is a real consumable item there (bullet category), already
+  // carrying the same iconId/color the game's own UI uses.
+  const byType = new Map();
+  for (const a of w.ammoTypes) {
+    const m = a.name.match(/^(.*?)\s+(\d+)$/);
+    const base = m ? m[1] : a.name;
+    const level = m ? parseInt(m[2], 10) : 1;
+    if (!byType.has(base)) byType.set(base, { shotType: a.shotType, levels: {} });
+    byType.get(base).levels[level] = { capacity: a.capacity, fullName: a.name };
+  }
+
+  const rows = [...byType.entries()].map(([base, { shotType, levels }]) => {
+    const maxLv = Math.max(...Object.keys(levels).map(Number));
+    const capacities = Array.from({ length: maxLv }, (_, i) => levels[i + 1]?.capacity ?? "0").join("/");
+    const anyLevel = Object.values(levels)[0];
+    const item = itemsByName.get(anyLevel.fullName) || itemsByName.get(base);
+    const icon = item ? itemMaskIconTag(item.iconId, item.color, "material-icon") : "";
+    return `
+      <tr>
+        <td class="ammo-type-cell">${icon}<span>${escapeAttr(base)}</span></td>
+        <td class="ammo-capacity">${capacities}</td>
+        <td class="ammo-shot-type">${escapeAttr(shotType || "—")}</td>
+      </tr>
+    `;
+  }).join("");
+
   return `
     <section class="block">
       <h3>${ui("weaponsAmmoHeading")}</h3>
