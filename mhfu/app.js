@@ -376,6 +376,23 @@ function mergeMhfuSplitHitzoneRows(hitzones) {
       consumed.add(part);
     }
   }
+
+  // "Legs"(physical-only)+"Feet"(elemental-only) is a complementary split of
+  // ONE real leg hitzone for 18 monsters (verified: never overlapping
+  // physical/elemental fields between the two); for 9 others (Yian Kut-Ku,
+  // Yian Garuga, Gypceros, Hypnocatrice, Rathian, Cephalos + variants) "Feet"
+  // alone is a complete standalone row with no "Legs" counterpart at all.
+  // Either way it's the same real body part, never a distinct one -- per the
+  // user, "Feet" doesn't exist as a separate hitzone, it's always "Legs".
+  const legsRow = merged.find(h => h.part === "legs");
+  const feetRow = merged.find(h => h.part === "feet");
+  if (legsRow || feetRow) {
+    const combinedLegs = { ...(feetRow || {}), ...(legsRow || {}), part: "legs" };
+    const insertAt = merged.findIndex(h => h.part === "legs" || h.part === "feet");
+    const withoutLegsFeet = merged.filter(h => h.part !== "legs" && h.part !== "feet");
+    withoutLegsFeet.splice(insertAt, 0, combinedLegs);
+    return withoutLegsFeet;
+  }
   return merged;
 }
 
