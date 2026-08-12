@@ -1534,6 +1534,26 @@ body {
 .mh-sharpness-seg { position: absolute; top: 0; bottom: 0; height: 100%; }
 .mh-sharpness-seg.mh-sharpness-half { height: 50%; top: 0; bottom: auto; opacity: 0.75; }
 
+.ammo-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+.ammo-table th {
+  text-align: left;
+  color: var(--text-dim);
+  font-weight: 600;
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+}
+.ammo-table td {
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+}
+.ammo-table tr:last-child td { border-bottom: none; }
+.ammo-capacity { text-align: center; font-weight: 600; color: var(--accent); }
+.ammo-shot-type { color: var(--text-dim); font-size: 0.82rem; }
+
 .decoration-skills-list { grid-template-columns: 1fr; }
 .decoration-skill-effect { color: var(--text-dim); font-size: 0.85rem; text-align: right; }
 

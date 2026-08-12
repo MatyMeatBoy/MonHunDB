@@ -1529,6 +1529,29 @@ function sharpnessBarHtml(w) {
   }).join("");
   return `<span class="mh-sharpness-bar" title="${ui("weaponsSharpnessHint")}">${baseSegs}${takumiSegs}</span>`;
 }
+// Ammo capacity table for Bowgun-type weapons (Light/Heavy Bowgun) -- what
+// ammo/coating types a specific weapon can load and how many shots it holds
+// per reload. Bow uses a different mechanic (equippable coating bottles,
+// no per-type capacity number) so it isn't covered by this same field.
+function ammoTableHtml(w) {
+  if (!w.ammoTypes || !w.ammoTypes.length) return "";
+  const rows = w.ammoTypes.map(a => `
+    <tr>
+      <td>${escapeAttr(a.name)}</td>
+      <td class="ammo-capacity">${a.capacity ?? "—"}</td>
+      <td class="ammo-shot-type">${escapeAttr(a.shotType || "—")}</td>
+    </tr>
+  `).join("");
+  return `
+    <section class="block">
+      <h3>${ui("weaponsAmmoHeading")}</h3>
+      <table class="ammo-table">
+        <thead><tr><th>${ui("weaponsAmmoType")}</th><th>${ui("weaponsAmmoCapacity")}</th><th>${ui("weaponsAmmoShotType")}</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </section>
+  `;
+}
 function getWeaponChain(w) {
   if (weaponParentOf && weaponsByNameNorm) {
     // normal upgrade branch: ancestors + descendants that share the weapon's
@@ -1780,6 +1803,7 @@ function showWeaponDetail(id) {
       </ul>
     </section>
     ${chainHtml}
+    ${ammoTableHtml(w)}
     <section class="block">
       <h3>${ui("weaponsMaterialsHeading")}</h3>
       <div class="decoration-materials-blocks">${materialsHtml}</div>
