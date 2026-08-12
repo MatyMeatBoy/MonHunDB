@@ -1124,7 +1124,7 @@ function renderRelatedEquipment(monsterName, container, sectionEl) {
     html += `<h4 class="subhead">${ui("relatedEquipmentArmor")}</h4><div class="decorations-grid">`;
     html += entry.armorGroups.map((g, i) => `
       <button type="button" class="decoration-card armor-set-card" data-related-armor="${i}">
-        ${g.image ? `<img class="armor-set-thumb" src="${g.image}" alt="" loading="lazy" onerror="this.style.display='none'">` : armorIconTag(g.pieces[0])}
+        ${g.image ? `<img class="armor-set-thumb" src="${g.image}" alt="" loading="lazy" onerror="this.style.display='none'">` : (g.pieces ? armorIconTag(g.pieces[0]) : `<span class="material-icon material-icon--placeholder"></span>`)}
         <span class="decoration-card-name">${g.name}</span>
       </button>
     `).join("");
@@ -1286,7 +1286,7 @@ function runGlobalSearch(query) {
       if (entry.armorGroups.length) {
         html += entry.armorGroups.map(g => `
           <button type="button" class="gs-monster-row" data-gs-related-armor="${escapeAttr(g.name)}">
-            ${g.image ? `<img src="${g.image}" alt="" loading="lazy" onerror="this.style.display='none'">` : armorIconTag(g.pieces[0])}
+            ${g.image ? `<img src="${g.image}" alt="" loading="lazy" onerror="this.style.display='none'">` : (g.pieces ? armorIconTag(g.pieces[0]) : `<span class="material-icon material-icon--placeholder"></span>`)}
             <span>${g.name}</span>
           </button>
         `).join("");
