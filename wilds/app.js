@@ -1583,22 +1583,32 @@ function sharpnessBarHtml(w) {
   return `<span class="mh-sharpness-bar" title="${ui("weaponsSharpnessHint")}">${baseSegs}${takumiSegs}</span>`;
 }
 
-// Ammo table for Light/Heavy Bowgun. Unlike Rise's mhrice-sourced data
-// (one row per ammo LEVEL, so a "6/6/0" capacity-per-level breakdown is
-// possible), this wiki source only gives the weapon's max usable level per
-// ammo type plus the capacity AT that level -- no per-level breakdown.
-// Showing a fabricated slash-separated sequence would overstate what's
-// actually known, so this renders "Lv.N — capacity" instead.
+// No ammo type in any of the 3 games goes past level 3 (verified against
+// every weapon's data) -- fixed ceiling for the X/Y/Z capacity format below.
+const AMMO_MAX_LEVEL = 3;
+// Ammo table for Light/Heavy Bowgun. Wilds redesigned bowguns around a fixed,
+// non-swappable loadout -- unlike Rise (where a weapon can craft/carry
+// "Normal Ammo 1" AND "Normal Ammo 2" as separate stacks, each with its own
+// capacity), a Wilds weapon's ammo type is locked to exactly ONE level, so
+// there's only ever one real capacity number, never three. That's not a data
+// gap: the OTHER two levels are genuinely 0 because this weapon literally
+// cannot fire them -- same "can't reach that level" case as Rise's own
+// single-level types (e.g. "Cluster Bomb 1" only), just handled per-type
+// there instead of per-weapon. Placing that one real number at its actual
+// level's slot and zero-filling the rest keeps the same X/Y/Z shape without
+// inventing anything.
 function ammoTableHtml(w) {
   if (!w.ammoTypes || !w.ammoTypes.length) return "";
-  const chips = w.ammoTypes.map(a => `
-    <div class="ammo-chip">
-      ${materialIconTag(a.name)}
-      <span class="ammo-chip-name">${escapeAttr(a.name)}</span>
-      <span class="ammo-chip-level">Lv.${a.level}</span>
-      <span class="ammo-chip-capacity">${a.capacity}</span>
-    </div>
-  `).join("");
+  const chips = w.ammoTypes.map(a => {
+    const capacities = Array.from({ length: AMMO_MAX_LEVEL }, (_, i) => (i + 1 === a.level ? a.capacity : "0")).join("/");
+    return `
+      <div class="ammo-chip">
+        ${materialIconTag(a.name)}
+        <span class="ammo-chip-name">${escapeAttr(a.name)}</span>
+        <span class="ammo-chip-capacity">${capacities}</span>
+      </div>
+    `;
+  }).join("");
   return `
     <section class="block">
       <h3>${ui("weaponsAmmoHeading")}</h3>

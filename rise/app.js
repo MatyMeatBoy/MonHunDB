@@ -1579,14 +1579,17 @@ function sharpnessBarHtml(w) {
 // ammo/coating types a specific weapon can load and how many shots it holds
 // per reload. Bow uses a different mechanic (equippable coating bottles,
 // no per-type capacity number) so it isn't covered by this same field.
+// No ammo type in any of the 3 games goes past level 3 (verified against
+// every weapon's data) -- fixed ceiling for the X/Y/Z capacity format below.
+const AMMO_MAX_LEVEL = 3;
 function ammoTableHtml(w) {
   if (!w.ammoTypes || !w.ammoTypes.length) return "";
   // The scraped list is flat, one row per level ("Normal Ammo 1", "Normal
   // Ammo 2", ...) -- every other MH ammo table groups by type instead, one
-  // row per type showing all its levels' capacities together (most types
-  // top out at 3). Icon comes from the Materiales/Items catalog: every ammo
-  // name here is a real consumable item there (bullet category), already
-  // carrying the same iconId/color the game's own UI uses.
+  // row per type showing all its levels' capacities together. Icon comes
+  // from the Materiales/Items catalog: every ammo name here is a real
+  // consumable item there (bullet category), already carrying the same
+  // iconId/color the game's own UI uses.
   const byType = new Map();
   for (const a of w.ammoTypes) {
     const m = a.name.match(/^(.*?)\s+(\d+)$/);
@@ -1601,8 +1604,10 @@ function ammoTableHtml(w) {
   // a title tooltip on the chip instead of taking its own visible column,
   // per the user's request to only show name + X/X/X capacity at a glance.
   const chips = [...byType.entries()].map(([base, { shotType, levels }]) => {
-    const maxLv = Math.max(...Object.keys(levels).map(Number));
-    const capacities = Array.from({ length: maxLv }, (_, i) => levels[i + 1]?.capacity ?? "0").join("/");
+    // Always X/Y/Z (levels 1/2/3, "0" for a level this type never reaches)
+    // -- a fixed 3 slots per the user's spec, not however many levels this
+    // particular type happens to have, so every row lines up the same way.
+    const capacities = Array.from({ length: AMMO_MAX_LEVEL }, (_, i) => levels[i + 1]?.capacity ?? "0").join("/");
     const anyLevel = Object.values(levels)[0];
     const item = itemsByName.get(anyLevel.fullName) || itemsByName.get(base);
     const icon = item ? itemMaskIconTag(item.iconId, item.color, "material-icon") : "";

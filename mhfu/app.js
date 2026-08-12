@@ -1731,6 +1731,46 @@ function sharpnessBarHtml(w) {
   }
   return `<span class="mh-sharpness-bar" title="${ui("weaponsSharpnessHint")}">${baseSegs}${takumiSegs}</span>`;
 }
+
+// No ammo type in any of the 3 games goes past level 3 (verified against
+// every weapon's data) -- fixed ceiling for the X/Y/Z capacity format below.
+const AMMO_MAX_LEVEL = 3;
+// Ammo table for Light/Heavy Bowgun, sourced from the same Riperino/MHFU
+// extraction weapons.json itself came from (build_weapons.js never wired
+// this part in). Real per-level rows already ("Normal S Lv1"/"Lv2"/"Lv3",
+// each with its own capacity, 0 for a level this weapon can't reach) --
+// closer to Rise's shape than Wilds' single-level one. A handful of types
+// (Flaming S, Tranq S, Water S...) never had multiple crafting levels in
+// MHFU at all, so they carry no "LvN" suffix -- treated as level 1 of 1,
+// same zero-padding as any other single-level type.
+function ammoTableHtml(w) {
+  if (!w.ammoTypes || !w.ammoTypes.length) return "";
+  const byType = new Map();
+  for (const a of w.ammoTypes) {
+    const m = a.name.match(/^(.*) Lv(\d)$/);
+    const base = m ? m[1] : a.name;
+    const level = m ? parseInt(m[2], 10) : 1;
+    if (!byType.has(base)) byType.set(base, {});
+    byType.get(base)[level] = a.capacity;
+  }
+  const chips = [...byType.entries()].map(([base, levels]) => {
+    const capacities = Array.from({ length: AMMO_MAX_LEVEL }, (_, i) => levels[i + 1] ?? "0").join("/");
+    const icon = materialIconTag(base);
+    return `
+      <div class="ammo-chip">
+        ${icon}
+        <span class="ammo-chip-name">${escapeAttr(base)}</span>
+        <span class="ammo-chip-capacity">${capacities}</span>
+      </div>
+    `;
+  }).join("");
+  return `
+    <section class="block">
+      <h3>${ui("weaponsAmmoHeading")}</h3>
+      <div class="ammo-grid">${chips}</div>
+    </section>
+  `;
+}
 function trWeaponType(type) {
   return lang === "es" && I18N.weaponTypes ? (I18N.weaponTypes[type] || type) : type;
 }
@@ -2103,6 +2143,7 @@ function showWeaponDetail(id) {
         ${sharpnessBarHtml(w) ? `<li class="stat-list-item"><span class="stat-name">${ui("weaponsSharpness")}</span>${sharpnessBarHtml(w)}</li>` : ""}
       </ul>
     </section>
+    ${ammoTableHtml(w)}
     ${chainHtml}
     <section class="block">
       <h3>${ui("weaponsMaterialsHeading")}</h3>
