@@ -1555,6 +1555,57 @@ function renderWeaponsTypeFilter() {
     });
   });
 }
+
+// Sourced from monsterhunterwiki.org's {{SharpnessBar}} template (raw
+// wikitext, not the rendered page) -- 7 ints Red->Purple, same "pixel out of
+// ~400" convention as Rise's mhrice-sourced data, so this reuses Rise's
+// exact rendering approach. sharpnessTakumi here is the Handicraft-extended
+// per-color delta (HR/HO/HY/HG/HB/HW/HP named args), already resolved to
+// the color it should render as as -- see rise/app.js's sharpnessBarHtml for
+// the same convention and why no "+highest" offset is needed.
+const SHARPNESS_COLORS = ["#e42525", "#e88f27", "#e8e327", "#61c322", "#3b7fe0", "#e8e8e8", "#c341d6"];
+function sharpnessBarHtml(w) {
+  if (!w.sharpness || !w.sharpness.length) return "";
+  const base = w.sharpness;
+  let pos = 0;
+  const baseSegs = base.map((v, i) => {
+    const left = pos / 4, width = v / 4;
+    pos += v;
+    return `<span class="mh-sharpness-seg" style="left:${left}%;width:${width}%;background:${SHARPNESS_COLORS[i]}"></span>`;
+  }).join("");
+  const takumi = w.sharpnessTakumi || [];
+  const takumiSegs = takumi.map((v, i) => {
+    const left = pos / 4, width = v / 4;
+    pos += v;
+    const color = SHARPNESS_COLORS[i % SHARPNESS_COLORS.length];
+    return `<span class="mh-sharpness-seg mh-sharpness-half" style="left:${left}%;width:${width}%;background:${color}"></span>`;
+  }).join("");
+  return `<span class="mh-sharpness-bar" title="${ui("weaponsSharpnessHint")}">${baseSegs}${takumiSegs}</span>`;
+}
+
+// Ammo table for Light/Heavy Bowgun. Unlike Rise's mhrice-sourced data
+// (one row per ammo LEVEL, so a "6/6/0" capacity-per-level breakdown is
+// possible), this wiki source only gives the weapon's max usable level per
+// ammo type plus the capacity AT that level -- no per-level breakdown.
+// Showing a fabricated slash-separated sequence would overstate what's
+// actually known, so this renders "Lv.N — capacity" instead.
+function ammoTableHtml(w) {
+  if (!w.ammoTypes || !w.ammoTypes.length) return "";
+  const chips = w.ammoTypes.map(a => `
+    <div class="ammo-chip">
+      ${materialIconTag(a.name)}
+      <span class="ammo-chip-name">${escapeAttr(a.name)}</span>
+      <span class="ammo-chip-level">Lv.${a.level}</span>
+      <span class="ammo-chip-capacity">${a.capacity}</span>
+    </div>
+  `).join("");
+  return `
+    <section class="block">
+      <h3>${ui("weaponsAmmoHeading")}</h3>
+      <div class="ammo-grid">${chips}</div>
+    </section>
+  `;
+}
 function weaponIconTag(w) {
   return w.icon
     ? `<img class="material-icon" src="${w.icon}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`
@@ -1875,8 +1926,10 @@ function showWeaponDetail(id) {
         <li class="stat-list-item"><span class="stat-name">${ui("weaponsRarity")}</span><span>${w.rarity ?? "—"}</span></li>
         ${elementsHtml ? `<li class="stat-list-item"><span class="stat-name">${ui("weaponsElement")}</span><span>${elementsHtml}</span></li>` : ""}
         ${w.decoSlots && w.decoSlots.length ? `<li class="stat-list-item"><span class="stat-name">${ui("weaponsDecoSlots")}</span>${decoSlotsTag(w.decoSlots)}</li>` : ""}
+        ${sharpnessBarHtml(w) ? `<li class="stat-list-item"><span class="stat-name">${ui("weaponsSharpness")}</span>${sharpnessBarHtml(w)}</li>` : ""}
       </ul>
     </section>
+    ${ammoTableHtml(w)}
     ${chainHtml}
     <section class="block">
       <h3>${ui("weaponsMaterialsHeading")}</h3>

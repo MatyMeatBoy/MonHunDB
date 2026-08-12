@@ -1619,6 +1619,41 @@ function bootDecorations() {
 function trWeaponName(w) {
   return lang === "es" && w.nameEs ? w.nameEs : w.name;
 }
+// mhfu/data/weapons.json already carries real sharpness/sharpnessArtisan
+// (from the mhfu-db-main community extraction this file was built from --
+// see build_weapons.js) but nothing ever rendered it. Unlike Rise/Wilds'
+// ~400-point pixel scale (mhrice/wiki-sourced), MHFU's numbers are a small
+// per-weapon "sharpness pool" (observed max ~45 across all 1147 weapons
+// with data), so a fixed reference of 50 gives every bar a comparable scale
+// with a little headroom, same idea as Rise's fixed 400.
+const SHARPNESS_COLORS = ["#e42525", "#e88f27", "#e8e327", "#61c322", "#3b7fe0", "#e8e8e8", "#c341d6"];
+const MHFU_SHARPNESS_MAX = 50;
+function sharpnessBarHtml(w) {
+  if (!w.sharpness || !w.sharpness.length) return "";
+  const base = w.sharpness;
+  const scale = 100 / MHFU_SHARPNESS_MAX;
+  let pos = 0;
+  const baseSegs = base.map((v, i) => {
+    const left = pos * scale, width = v * scale;
+    pos += v;
+    return `<span class="mh-sharpness-seg" style="left:${left}%;width:${width}%;background:${SHARPNESS_COLORS[i]}"></span>`;
+  }).join("");
+  // sharpnessArtisan is a full alternate bar (this weapon's sharpness WITH
+  // the Artisan skill applied), not a pre-computed extension like Rise's
+  // takumi array -- the extra length per color is derived here as the
+  // difference against the base bar, then rendered the same half-height way,
+  // continuing sequentially from where the base bar ends.
+  const artisan = w.sharpnessArtisan || [];
+  let takumiSegs = "";
+  for (let i = 0; i < Math.max(base.length, artisan.length); i++) {
+    const delta = (artisan[i] || 0) - (base[i] || 0);
+    if (delta <= 0) continue;
+    const left = pos * scale, width = delta * scale;
+    pos += delta;
+    takumiSegs += `<span class="mh-sharpness-seg mh-sharpness-half" style="left:${left}%;width:${width}%;background:${SHARPNESS_COLORS[i]}"></span>`;
+  }
+  return `<span class="mh-sharpness-bar" title="${ui("weaponsSharpnessHint")}">${baseSegs}${takumiSegs}</span>`;
+}
 function trWeaponType(type) {
   return lang === "es" && I18N.weaponTypes ? (I18N.weaponTypes[type] || type) : type;
 }
@@ -1988,6 +2023,7 @@ function showWeaponDetail(id) {
         <li class="stat-list-item"><span class="stat-name">${ui("weaponsRarity")}</span><span>${w.rarity ?? "—"}</span></li>
         ${elementsHtml ? `<li class="stat-list-item"><span class="stat-name">${ui("weaponsElement")}</span><span>${elementsHtml}</span></li>` : ""}
         ${w.decoSlots && w.decoSlots.length ? `<li class="stat-list-item"><span class="stat-name">${ui("weaponsDecoSlots")}</span>${decoSlotsTag(w.decoSlots)}</li>` : ""}
+        ${sharpnessBarHtml(w) ? `<li class="stat-list-item"><span class="stat-name">${ui("weaponsSharpness")}</span>${sharpnessBarHtml(w)}</li>` : ""}
       </ul>
     </section>
     ${chainHtml}
