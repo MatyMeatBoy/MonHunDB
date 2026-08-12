@@ -1552,6 +1552,14 @@ function renderWeaponsTypeFilter() {
       weaponsTypeFilter = btn.dataset.type;
       renderWeaponsTypeFilter();
       renderWeaponsIndex(weaponsSearchEl.value);
+      // The filter bar sits outside both the index and detail views (always
+      // visible), so clicking it while looking at a weapon's detail page
+      // re-rendered the index behind the scenes but left the user staring
+      // at the unchanged detail view -- switch back to the gallery so the
+      // filter they just picked is actually visible.
+      weaponsIndexEl.hidden = false;
+      weaponDetailEl.hidden = true;
+      window.scrollTo(0, 0);
     });
   });
 }

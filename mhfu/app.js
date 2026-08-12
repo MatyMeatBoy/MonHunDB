@@ -1750,12 +1750,22 @@ function ammoTableHtml(w) {
     const m = a.name.match(/^(.*) Lv(\d)$/);
     const base = m ? m[1] : a.name;
     const level = m ? parseInt(m[2], 10) : 1;
-    if (!byType.has(base)) byType.set(base, {});
-    byType.get(base)[level] = a.capacity;
+    if (!byType.has(base)) byType.set(base, { levels: {} });
+    byType.get(base).levels[level] = { capacity: a.capacity, fullName: a.name };
   }
-  const chips = [...byType.entries()].map(([base, levels]) => {
-    const capacities = Array.from({ length: AMMO_MAX_LEVEL }, (_, i) => levels[i + 1] ?? "0").join("/");
-    const icon = materialIconTag(base);
+  const chips = [...byType.entries()].map(([base, { levels }]) => {
+    const capacities = Array.from({ length: AMMO_MAX_LEVEL }, (_, i) => levels[i + 1]?.capacity ?? "0").join("/");
+    // The material icon manifest keys these by the FULL name including the
+    // " LvN" suffix (e.g. "Normal S Lv1"), not the stripped display base --
+    // looking up by the bare base here was the actual cause of most of
+    // these chips showing no icon at all. "Poison S" had no dedicated ammo
+    // icon anywhere in MHFU's own assets at all (checked items.json, the
+    // manifest, and the raw images/ folder) -- per the user, its manifest
+    // entry now points at Rise's own "Poison Ammo 1" icon (iconId 014,
+    // color 9), composited into a flat PNG and saved into MHFU's own
+    // images/items/ folder as a one-off borrowed asset.
+    const anyLevel = Object.values(levels)[0];
+    const icon = materialIconTag(anyLevel.fullName);
     return `
       <div class="ammo-chip">
         ${icon}
@@ -1812,6 +1822,14 @@ function renderWeaponsTypeFilter() {
       weaponsTypeFilter = btn.dataset.type;
       renderWeaponsTypeFilter();
       renderWeaponsIndex(weaponsSearchEl.value);
+      // The filter bar sits outside both the index and detail views (always
+      // visible), so clicking it while looking at a weapon's detail page
+      // re-rendered the index behind the scenes but left the user staring
+      // at the unchanged detail view -- switch back to the gallery so the
+      // filter they just picked is actually visible.
+      weaponsIndexEl.hidden = false;
+      weaponDetailEl.hidden = true;
+      window.scrollTo(0, 0);
     });
   });
 }

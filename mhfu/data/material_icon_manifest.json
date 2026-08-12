@@ -855,5 +855,7 @@
  "SpecPuppetTicket": "data/images/items/specpuppetticket.png",
  "Suiko Jewel": "data/images/items/suiko-jewel.png",
  "Akito Jewel": "data/images/items/akito-jewel.png",
- "BattlefieldJewel": "data/images/items/battlefieldjewel.png"
+ "BattlefieldJewel": "data/images/items/battlefieldjewel.png",
+ "Poison S Lv1": "data/images/items/poison-ammo-rise.png",
+ "Poison S Lv2": "data/images/items/poison-ammo-rise.png"
 }
