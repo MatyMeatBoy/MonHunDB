@@ -1502,6 +1502,33 @@ function decoSlotsTag(levels) {
   if (!levels || !levels.length) return "";
   return `<span class="deco-slots">${levels.map(l => `<img class="deco-slot-icon" src="data/images/icons/deco${l}.png" alt="Lv${l}" title="Lv${l}">`).join("")}</span>`;
 }
+// Sharpness bar, ported from mhrice (github.com/wwylele/mhrice): each weapon's
+// sharpness is 7 raw values (Red/Orange/Yellow/Green/Blue/White/Purple) that
+// sum to at most 400 -- rendered as solid segments at width% = value/4. The
+// optional sharpnessTakumi array is the extra length gained per level of the
+// Handicraft skill, drawn as half-height segments continuing where the base
+// bar ends (reusing the same color list, wrapping past the last base color).
+const SHARPNESS_COLORS = ["#e42525", "#e88f27", "#e8e327", "#61c322", "#3b7fe0", "#e8e8e8", "#c341d6"];
+function sharpnessBarHtml(w) {
+  if (!w.sharpness || !w.sharpness.length) return "";
+  const base = w.sharpness;
+  let highest = 0;
+  for (let i = base.length - 1; i >= 0; i--) { if (base[i] > 0) { highest = i; break; } }
+  let pos = 0;
+  const baseSegs = base.map((v, i) => {
+    const left = pos / 4, width = v / 4;
+    pos += v;
+    return `<span class="mh-sharpness-seg" style="left:${left}%;width:${width}%;background:${SHARPNESS_COLORS[i]}"></span>`;
+  }).join("");
+  const takumi = w.sharpnessTakumi || [];
+  const takumiSegs = takumi.map((v, i) => {
+    const left = pos / 4, width = v / 4;
+    pos += v;
+    const color = SHARPNESS_COLORS[(i + highest) % SHARPNESS_COLORS.length];
+    return `<span class="mh-sharpness-seg mh-sharpness-half" style="left:${left}%;width:${width}%;background:${color}"></span>`;
+  }).join("");
+  return `<span class="mh-sharpness-bar" title="${ui("weaponsSharpnessHint")}">${baseSegs}${takumiSegs}</span>`;
+}
 function getWeaponChain(w) {
   if (weaponParentOf && weaponsByNameNorm) {
     // normal upgrade branch: ancestors + descendants that share the weapon's
@@ -1734,6 +1761,7 @@ function showWeaponDetail(id) {
   ` : "";
 
   const elementsHtml = (w.elements || []).map(e => `<span class="mh-info-value">${elementIconTag(e.type)}${trElement(e.type)} ${e.value}</span>`).join(" ");
+  const sharpnessHtml = sharpnessBarHtml(w);
 
   weaponDetailEl.innerHTML = `
     <a class="decorations-back" href="weapons">${ui("weaponsBack")}</a>
@@ -1747,6 +1775,7 @@ function showWeaponDetail(id) {
         <li class="stat-list-item"><span class="stat-name">${ui("weaponsAttack")}</span><span>${w.attack ?? "—"}</span></li>
         <li class="stat-list-item"><span class="stat-name">${ui("weaponsRarity")}</span><span>${w.rarity ?? "—"}</span></li>
         ${elementsHtml ? `<li class="stat-list-item"><span class="stat-name">${ui("weaponsElement")}</span><span>${elementsHtml}</span></li>` : ""}
+        ${sharpnessHtml ? `<li class="stat-list-item"><span class="stat-name">${ui("weaponsSharpness")}</span><span>${sharpnessHtml}</span></li>` : ""}
         ${w.decoSlots && w.decoSlots.length ? `<li class="stat-list-item"><span class="stat-name">${ui("weaponsDecoSlots")}</span>${decoSlotsTag(w.decoSlots)}</li>` : ""}
       </ul>
     </section>
