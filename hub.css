@@ -31,6 +31,22 @@ body {
   z-index: 10;
 }
 
+.hub-vecmon-link {
+  margin-left: auto;
+  margin-right: 0.65rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line, #3c4930);
+  border-radius: 0.55rem;
+  color: var(--accent, #a9c957);
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+.hub-vecmon-link:hover { border-color: var(--accent, #a9c957); }
+
 .hub-brand {
   display: inline-flex;
   align-items: center;

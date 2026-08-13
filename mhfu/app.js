@@ -24,10 +24,26 @@ const GROUP_OVERRIDES = {
   "Ashen Lao-Shan Lung": "Lao-Shan Lung",
   "Crimson Fatalis": "Fatalis",
   "White Fatalis": "Fatalis",
+  "Vespoid Queen": "Vespoid",
 };
 
 const ELEMENT_ORDER = ["fire", "water", "thunder", "ice", "dragon", "blast", "poison", "paralysis", "sleep", "stun", "exhaust"];
 const RANK_ORDER = ["Low Rank", "High Rank", "G Rank"];
+
+function addLocalVecMonLink() {
+  if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1")) return;
+  const host = document.querySelector(".header-left");
+  if (!host || host.querySelector(".vecmon-admin-link")) return;
+  const link = document.createElement("a");
+  link.className = "header-icon-btn vecmon-admin-link";
+  link.title = "Abrir VecMon (Admin local)";
+  link.setAttribute("aria-label", "Abrir VecMon (Admin local)");
+  link.href = `http://${location.hostname}:5055/`;
+  link.target = "_blank"; link.rel = "noopener";
+  link.innerHTML = "<span aria-hidden=\"true\">✎</span>";
+  host.appendChild(link);
+}
+addLocalVecMonLink();
 
 let monsters = [];
 let currentRank = null;
@@ -883,6 +899,7 @@ function filterOptions(query) {
   const q = normalizeSearch(query.trim());
   let anyVisible = false;
   let anyGroupVisible = false;
+  let anySmallVisible = false;
   listEl.querySelectorAll(".monster-group").forEach(group => {
     let groupHasVisible = false;
     group.querySelectorAll(".monster-option").forEach(opt => {
@@ -891,10 +908,13 @@ function filterOptions(query) {
       if (match) groupHasVisible = true;
     });
     group.hidden = !groupHasVisible;
-    if (groupHasVisible) anyVisible = anyGroupVisible = true;
+    if (groupHasVisible) {
+      anyVisible = true;
+      if (group.dataset.section === "small") anySmallVisible = true;
+      else anyGroupVisible = true;
+    }
   });
-  // Small monsters are direct .monster-option siblings (not inside a .monster-group)
-  let anySmallVisible = false;
+  // Backward-compatible handling for any small monster left outside a group.
   listEl.querySelectorAll(":scope > .monster-option").forEach(opt => {
     const match = !q || (opt.dataset.search || "").includes(q);
     opt.hidden = !match;
@@ -2847,17 +2867,33 @@ function buildSelector() {
     smHeading.dataset.section = "small";
     smHeading.textContent = ui("selectorSmallMonsters");
     listEl.appendChild(smHeading);
-    const sortedSmall = small.slice().sort((a, b) => a.name.localeCompare(b.name));
-    for (const m of sortedSmall) {
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "monster-option";
-      btn.dataset.name = m.name;
-      btn.dataset.search = normalizeSearch(m.name + " " + trMonsterName(m.name));
-      btn.setAttribute("role", "option");
-      btn.innerHTML = `<img src="${iconPath(m.name)}" alt="" loading="lazy" onerror="this.classList.add('icon-missing')"><span>${trMonsterName(m.name)}</span>`;
-      btn.addEventListener("click", () => selectMonster(m.name));
-      listEl.appendChild(btn);
+    const smallGroups = new Map();
+    for (const m of small) {
+      const g = groupFor(m.name);
+      if (!smallGroups.has(g)) smallGroups.set(g, []);
+      smallGroups.get(g).push(m);
+    }
+    for (const groupName of [...smallGroups.keys()].sort((a, b) => a.localeCompare(b))) {
+      const items = smallGroups.get(groupName).sort((a, b) => a.name.localeCompare(b.name));
+      const baseIdx = items.findIndex(it => it.name === groupName);
+      if (baseIdx > 0) items.unshift(items.splice(baseIdx, 1)[0]);
+      const hasBase = baseIdx !== -1;
+      const groupEl = document.createElement("div");
+      groupEl.className = "monster-group";
+      groupEl.dataset.section = "small";
+      items.forEach((it, i) => {
+        const isVariant = hasBase && i > 0;
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "monster-option" + (isVariant ? " monster-option--variant" : "");
+        btn.dataset.name = it.name;
+        btn.dataset.search = normalizeSearch(it.name + " " + trMonsterName(it.name));
+        btn.setAttribute("role", "option");
+        btn.innerHTML = `${isVariant ? '<span class="variant-dash">â€”</span>' : ""}<img src="${iconPath(it.name)}" alt="" loading="lazy" onerror="this.classList.add('icon-missing')"><span>${trMonsterName(it.name)}</span>`;
+        btn.addEventListener("click", () => selectMonster(it.name));
+        groupEl.appendChild(btn);
+      });
+      listEl.appendChild(groupEl);
     }
   }
 
@@ -2882,8 +2918,8 @@ function starString(stars, max = 3) {
 // <model-viewer> only reads glTF/GLB, not raw OBJ). Covers every monster the
 // source repo has a model for; a few of our monsters have no match there and
 // are left out on purpose (no fallback/reuse, to avoid showing the wrong
-// creature): Conga (only "Congalala" exists, a different life stage), Furious
-// Rajang (only base "Rajang"), Ceanataur (only "Shogun"/"Terra" variants),
+// creature): Conga (only "Congalala" exists, a different life stage),
+// Ceanataur (only "Shogun"/"Terra" variants),
 // Great Thunderbug, Kelbi_Male (picked Kelbi_Female as the one representative
 // model for our single generic "Kelbi" entry -- purely cosmetic, no gameplay
 // data attached). "Scarred Yian Garuga" maps to the repo's
@@ -2929,6 +2965,12 @@ const MONSTER_3D_MODELS = {
   "Emerald Congalala": "data/models/emerald-congalala.glb",
   "Fatalis": "data/models/fatalis.glb",
   "Felyne": "data/models/felyne.glb",
+  "Furious Rajang": {
+    variants: [
+      { key: "raged", label: "Enfurecido", path: "data/models/rajang-raged.glb" },
+      { key: "raged2", label: "Muy enfurecido", path: "data/models/rajang-raged2.glb" },
+    ],
+  },
   "Gendrome": "data/models/gendrome.glb",
   "Genprey": "data/models/genprey.glb",
   "Giadrome": "data/models/giadrome.glb",
@@ -3022,6 +3064,14 @@ function renderMonster(name) {
     model3dBlock.hidden = false;
     const mv = model3dBlock.querySelector(".monster-model3d");
     mv.setAttribute("alt", `Modelo 3D de ${trMonsterName(monster.name)}`);
+    // model-viewer still catches the wheel while merely hovered in some
+    // browsers. Stop it before it reaches the component unless the user has
+    // explicitly focused the viewer with a click, so ordinary page scrolling
+    // is never hijacked by the model.
+    model3dBlock.addEventListener("wheel", event => {
+      if (document.activeElement !== mv) event.stopImmediatePropagation();
+    }, { capture: true });
+    mv.addEventListener("pointerdown", () => mv.focus());
 
     // A handful of monsters (Crimson Fatalis, Rajang, Shogun/Terra
     // Ceanataur) have real separate in-game models per state -- enraged
@@ -3593,6 +3643,7 @@ function renderHitzoneSilhouette(container, monster) {
       renderHitzoneSilhouette(container, monster);
     });
   });
+  window.VecMonBridge?.addButton(container, monster, shape, "mhfu");
 }
 
 // Small decorative preview for a home-page news card: reuses the traced

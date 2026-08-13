@@ -91,6 +91,8 @@
           class="monster-model3d"
           camera-controls
           disable-pan
+          interaction-policy="allow-when-focused"
+          tabindex="0"
           camera-orbit="0deg 75deg 75%"
           touch-action="pan-y"
           auto-rotate
@@ -99,7 +101,6 @@
           exposure="1.1"
           field-of-view="25deg"
         ></model-viewer>
-        <p class="model3d-note">Modelo extraído del juego MHFU.</p>
       </section>
 
       <section class="block" data-block="inflicts">
@@ -176,6 +177,7 @@
   </template>
 
   <script src="data/i18n.js"></script>
+  <script src="../vecmon-bridge.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

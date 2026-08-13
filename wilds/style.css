@@ -1742,3 +1742,6 @@ body {
 .weapon-cross-line { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin: 0.4rem 0; }
 .weapon-cross-link { display: inline-flex; align-items: center; gap: 0.35rem; cursor: pointer; }
 
+.hz-edit-snippet-btn { margin-top: 0.85rem; padding: 0.45rem 0.7rem; border: 1px dashed var(--accent); border-radius: 0.4rem; background: transparent; color: var(--text-dim); cursor: pointer; }
+.hz-edit-snippet-btn:hover { border-style: solid; color: var(--text); }
+.hz-edit-snippet-btn:disabled { opacity: 0.6; cursor: default; }

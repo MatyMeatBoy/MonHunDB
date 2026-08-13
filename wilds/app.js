@@ -32,6 +32,21 @@ const GROUP_OVERRIDES = {
 const ELEMENT_ORDER = ["fire", "water", "thunder", "ice", "dragon", "blast", "poison", "paralysis", "sleep", "stun", "exhaust"];
 const RANK_ORDER = ["Low Rank", "High Rank", "Master Rank"];
 
+function addLocalVecMonLink() {
+  if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1")) return;
+  const host = document.querySelector(".header-left");
+  if (!host || host.querySelector(".vecmon-admin-link")) return;
+  const link = document.createElement("a");
+  link.className = "header-icon-btn vecmon-admin-link";
+  link.title = "Abrir VecMon (Admin local)";
+  link.setAttribute("aria-label", "Abrir VecMon (Admin local)");
+  link.href = `http://${location.hostname}:5055/`;
+  link.target = "_blank"; link.rel = "noopener";
+  link.innerHTML = "<span aria-hidden=\"true\">✎</span>";
+  host.appendChild(link);
+}
+addLocalVecMonLink();
+
 let monsters = [];
 let currentRank = null;
 let lang = localStorage.getItem("mh-lang") || "es";
@@ -3515,6 +3530,7 @@ function renderHitzoneSilhouette(container, monster) {
       renderHitzoneSilhouette(container, monster);
     });
   });
+  window.VecMonBridge?.addButton(container, monster, shape, "wilds");
 }
 
 // Small decorative preview for a home-page news card: reuses the traced

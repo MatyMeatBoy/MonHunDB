@@ -32,6 +32,22 @@ const GROUP_OVERRIDES = {
 const ELEMENT_ORDER = ["fire", "water", "thunder", "ice", "dragon", "blast", "poison", "paralysis", "sleep", "stun", "exhaust"];
 const RANK_ORDER = ["Low Rank", "High Rank", "Master Rank"];
 
+function addLocalVecMonLink() {
+  if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1")) return;
+  const host = document.querySelector(".header-left") || document.querySelector(".hub-topbar");
+  if (!host || host.querySelector(".vecmon-admin-link")) return;
+  const link = document.createElement("a");
+  link.className = "header-icon-btn vecmon-admin-link";
+  link.title = "Abrir VecMon (Admin local)";
+  link.setAttribute("aria-label", "Abrir VecMon (Admin local)");
+  link.href = `http://${location.hostname}:5055/`;
+  link.target = "_blank";
+  link.rel = "noopener";
+  link.innerHTML = "<span aria-hidden=\"true\">✎</span>";
+  host.appendChild(link);
+}
+addLocalVecMonLink();
+
 let monsters = [];
 let currentRank = null;
 let lang = localStorage.getItem("mh-lang") || "es";
@@ -3228,14 +3244,21 @@ const IS_LOCAL_DEV = location.hostname === "localhost" || location.hostname === 
 // editing an existing shape starts from real geometry+art instead of an
 // empty canvas. No-op (button just doesn't render) for any monster with
 // no HITZONE_SHAPES entry yet -- nothing to edit.
-const VECMON_URL = "http://localhost:5055";
+const VECMON_URL = `http://${location.hostname}:5055`;
 function renderEditSnippetButton(container, monster, shape) {
+  if (window.VecMonBridge) {
+    window.VecMonBridge.addButton(container, monster, shape, "rise");
+    return;
+  }
   if (!IS_LOCAL_DEV) return;
   const btn = document.createElement("button");
   btn.type = "button";
   btn.className = "hz-edit-snippet-btn";
   btn.textContent = "🛠️ Editar snippet en VecMon";
   btn.addEventListener("click", async () => {
+    // Open from the direct click so browser popup protection accepts it;
+    // navigate it only after VecMon has received the snippet handoff.
+    const editorWindow = window.open("about:blank", "_blank");
     btn.disabled = true;
     btn.textContent = "Abriendo VecMon...";
     try {
@@ -3246,8 +3269,10 @@ function renderEditSnippetButton(container, monster, shape) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name: monster.name, snippet, imagePath }),
       });
-      window.open(`${VECMON_URL}/?load=1`, "_blank");
+      if (editorWindow) editorWindow.location.href = `${VECMON_URL}/?load=1`;
+      else window.location.href = `${VECMON_URL}/?load=1`;
     } catch (e) {
+      if (editorWindow) editorWindow.close();
       alert(`No se pudo conectar con VecMon en ${VECMON_URL} -- ¿está corriendo? (${e.message})`);
     } finally {
       btn.disabled = false;
