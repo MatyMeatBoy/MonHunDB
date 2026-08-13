@@ -33,7 +33,7 @@ const ELEMENT_ORDER = ["fire", "water", "thunder", "ice", "dragon", "blast", "po
 const RANK_ORDER = ["Low Rank", "High Rank", "Master Rank"];
 
 function addLocalVecMonLink() {
-  if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1")) return;
+  if (!(location.protocol === "http:" && /^(localhost|127(?:\.\d{1,3}){3})$/.test(location.hostname))) return;
   const host = document.querySelector(".header-left") || document.querySelector(".hub-topbar");
   if (!host || host.querySelector(".vecmon-admin-link")) return;
   const link = document.createElement("a");

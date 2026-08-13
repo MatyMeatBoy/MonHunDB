@@ -47,6 +47,7 @@ body {
 }
 .hub-vecmon-link:hover { border-color: var(--accent, #a9c957); }
 .hub-vecmon-link { font-size: 1.75rem; line-height: 1; }
+.hub-vecmon-link[hidden] { display: none !important; }
 
 .hub-brand {
   display: inline-flex;

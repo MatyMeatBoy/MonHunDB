@@ -1,6 +1,6 @@
 // Local-only bridge shared by Rise, MHFU and Wilds.
 (() => {
-  const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
+  const isLocal = location.protocol === "http:" && /^(localhost|127(?:\.\d{1,3}){3})$/.test(location.hostname);
   const url = `http://${location.hostname}:5055`;
   const bareKey = /^[A-Za-z_$][A-Za-z0-9_$]*$/;
   const key = value => bareKey.test(value) ? value : JSON.stringify(value);
