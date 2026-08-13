@@ -2,6 +2,8 @@
 // them together (matches the ES-name-diff list in data/i18n.js monsterNames).
 // Replaces an earlier version of this dict copied from Rise, which listed
 // Rise-only monster names (Apex/Risen/etc.) that don't exist in MHFU.
+// Trophy variants v2: keep this file versioned so GitHub Pages refreshes the
+// silver/gold GLB paths after a deployment instead of serving stale JS.
 const GROUP_OVERRIDES = {
   "Blue Yian Kut-Ku": "Yian Kut-Ku",
   "Scarred Yian Garuga": "Yian Garuga",
