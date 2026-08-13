@@ -1540,6 +1540,35 @@ body {
   border: 1px solid var(--border);
   border-radius: 8px;
 }
+.model3d-pedestal-toggle {
+  margin: 0 0 0.55rem;
+  padding: 0.35rem 0.7rem;
+  background: var(--bg-panel-alt);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+.model3d-finish-toggle { margin: 0 0 0.55rem 0.35rem; padding: 0.35rem 0.7rem; background: var(--bg-panel-alt); border: 1px solid var(--border); color: var(--text-dim); border-radius: 999px; font-size: 0.78rem; cursor: pointer; }
+.model3d-finish-toggle:hover { border-color: var(--accent); color: var(--accent); }
+.model3d-stage { position: relative; overflow: hidden; border-radius: 8px; background: radial-gradient(ellipse at 50% 84%, rgba(160,108,55,.22), transparent 42%), var(--bg-panel-alt); }
+.model3d-pedestal {
+  display: none;
+  position: absolute;
+  z-index: 0;
+  left: 31%; right: 31%; bottom: 1.5%; height: 16%;
+  transform: perspective(420px) rotateX(12deg);
+  background: linear-gradient(145deg, #9d6938, #4b2818 62%, #26150f);
+  border: 3px solid #29160d;
+  border-radius: 10px 10px 5px 5px;
+  box-shadow: 0 13px 0 #2a160d, 0 18px 24px rgba(0,0,0,.55), inset 0 0 0 2px rgba(222,157,83,.35);
+}
+.has-pedestal .model3d-pedestal { display: none; }
+.has-pedestal .monster-model3d { position: relative; z-index: 1; background: transparent; }
+.pedestal-top { position:absolute; inset: 7% 4% 44%; border-radius: 5px; background: repeating-linear-gradient(8deg, rgba(61,29,14,.25) 0 3px, transparent 3px 12px), linear-gradient(#b47a43,#754522); }
+.pedestal-front { position:absolute; left: 15%; right:15%; bottom: 8%; height: 27%; display:grid; place-items:center; color:#d49a55; font:700 .62rem/1 Georgia,serif; letter-spacing:.18em; text-shadow:1px 1px #32180d; }
+.pedestal-plate { position:absolute; left:29%; right:29%; top:-11%; height:28%; display:grid; place-items:center; color:#5a3215; background:linear-gradient(#ffe39a,#b9781c 55%,#6e3d10); border:2px solid #f5ca63; border-radius:4px; font:800 .53rem/1 Arial,sans-serif; letter-spacing:.08em; box-shadow:0 2px 3px #1e1009; }
 .model3d-variant-toggle {
   display: flex;
   flex-wrap: wrap;
@@ -1745,3 +1774,4 @@ body {
 .hz-edit-snippet-btn { margin-top: 0.85rem; padding: 0.45rem 0.7rem; border: 1px dashed var(--accent); border-radius: 0.4rem; background: transparent; color: var(--text-dim); cursor: pointer; }
 .hz-edit-snippet-btn:hover { border-style: solid; color: var(--text); }
 .hz-edit-snippet-btn:disabled { opacity: 0.6; cursor: default; }
+.vecmon-admin-link { font-size: 1.45rem !important; line-height: 1; }

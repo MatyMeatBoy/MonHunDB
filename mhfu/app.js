@@ -3063,6 +3063,30 @@ function renderMonster(name) {
   if (modelEntry) {
     model3dBlock.hidden = false;
     const mv = model3dBlock.querySelector(".monster-model3d");
+    const pedestalToggle = model3dBlock.querySelector(".model3d-pedestal-toggle");
+    const finishToggle = model3dBlock.querySelector(".model3d-finish-toggle");
+    const pedestalStage = model3dBlock.querySelector(".model3d-stage");
+    const isRathalos = monster.name === "Rathalos";
+    if (pedestalToggle && pedestalStage) {
+      pedestalToggle.hidden = !isRathalos;
+      if (finishToggle) finishToggle.hidden = true;
+      pedestalStage.classList.toggle("has-pedestal", false);
+      let pedestalFinish = "bronze";
+      pedestalToggle.onclick = () => {
+        const active = pedestalStage.classList.toggle("has-pedestal");
+        pedestalToggle.textContent = active ? "☰ Quitar pedestal" : "☰ Pedestal MonHunDB";
+        pedestalFinish = "bronze";
+        if (finishToggle) finishToggle.hidden = !active;
+        if (finishToggle) finishToggle.textContent = "Acabado: bronce · Cambiar acabado";
+        if (isRathalos) mv.setAttribute("src", active ? "data/models/rathalos-pedestal-bronze.glb" : modelEntry);
+      };
+      if (finishToggle) finishToggle.onclick = () => {
+        if (!pedestalStage.classList.contains("has-pedestal")) return;
+        pedestalFinish = pedestalFinish === "bronze" ? "silver" : pedestalFinish === "silver" ? "gold" : "bronze";
+        finishToggle.textContent = `Acabado: ${pedestalFinish} · Cambiar acabado`;
+        mv.setAttribute("src", `data/models/rathalos-pedestal-${pedestalFinish}.glb`);
+      };
+    }
     mv.setAttribute("alt", `Modelo 3D de ${trMonsterName(monster.name)}`);
     // model-viewer still catches the wheel while merely hovered in some
     // browsers. Stop it before it reaches the component unless the user has

@@ -87,20 +87,29 @@
       <section class="block model3d-block" data-block="model3d" hidden>
         <h3>Modelo 3D <span class="beta-badge">BETA</span></h3>
         <div class="model3d-variant-toggle" hidden></div>
-        <model-viewer
-          class="monster-model3d"
-          camera-controls
-          disable-pan
-          interaction-policy="allow-when-focused"
-          tabindex="0"
-          camera-orbit="0deg 75deg 75%"
-          touch-action="pan-y"
-          auto-rotate
-          rotation-per-second="18deg"
-          shadow-intensity="0.6"
-          exposure="1.1"
-          field-of-view="25deg"
-        ></model-viewer>
+        <button type="button" class="model3d-pedestal-toggle" hidden>☰ Pedestal MonHunDB</button>
+        <button type="button" class="model3d-finish-toggle" hidden>Acabado: bronce · Cambiar a plata</button>
+        <div class="model3d-stage">
+          <div class="model3d-pedestal" aria-hidden="true">
+            <div class="pedestal-top"></div>
+            <div class="pedestal-front"><span>MONHUNDB</span></div>
+            <div class="pedestal-plate">MONHUNDB</div>
+          </div>
+          <model-viewer
+            class="monster-model3d"
+            camera-controls
+            disable-pan
+            interaction-policy="allow-when-focused"
+            tabindex="0"
+            camera-orbit="0deg 75deg 75%"
+            touch-action="pan-y"
+            auto-rotate
+            rotation-per-second="18deg"
+            shadow-intensity="0.6"
+            exposure="1.1"
+            field-of-view="25deg"
+          ></model-viewer>
+        </div>
       </section>
 
       <section class="block" data-block="inflicts">

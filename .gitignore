@@ -24,6 +24,7 @@ weapon_tree_kamura.png
 # stray files from a merged external project (bestiario-nemo) â€” not part of the app
 node_modules/
 develop/
+vectores/
 package.json
 package-lock.json
 check_final.py

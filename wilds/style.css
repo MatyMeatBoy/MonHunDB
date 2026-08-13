@@ -1745,3 +1745,4 @@ body {
 .hz-edit-snippet-btn { margin-top: 0.85rem; padding: 0.45rem 0.7rem; border: 1px dashed var(--accent); border-radius: 0.4rem; background: transparent; color: var(--text-dim); cursor: pointer; }
 .hz-edit-snippet-btn:hover { border-style: solid; color: var(--text); }
 .hz-edit-snippet-btn:disabled { opacity: 0.6; cursor: default; }
+.vecmon-admin-link { font-size: 1.45rem !important; line-height: 1; }
