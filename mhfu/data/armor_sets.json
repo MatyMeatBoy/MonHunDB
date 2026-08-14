@@ -1,7 +1,7 @@
 [
  {
   "name": "Mafumofu Set",
-  "image": "data/images/armor_sets/mafumofu.png",
+  "image": "data/images/armor_sets_fandom/auto/mafumofu.png",
   "pieces": [
    {
     "id": "mhfua1",
@@ -43,7 +43,7 @@
  },
  {
   "name": "Leather Set",
-  "image": "data/images/armor_sets/leather.png",
+  "image": "data/images/armor_sets_fandom/auto/leather.png",
   "pieces": [
    {
     "id": "mhfua2",
@@ -253,7 +253,7 @@
  },
  {
   "name": "Bone Set (Gunner)",
-  "image": "data/images/armor_sets/bone.jpg",
+  "image": "data/images/armor_sets_fandom/auto/bone-armor-gunner.png",
   "pieces": [
    {
     "id": "mhfua10",
@@ -295,7 +295,7 @@
  },
  {
   "name": "Giaprey Set (Blademaster)",
-  "image": "data/images/armor_sets/giaprey.png",
+  "image": "data/images/armor_sets_fandom/auto/giaprey-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua13",
@@ -337,7 +337,7 @@
  },
  {
   "name": "Giaprey Set (Gunner)",
-  "image": "data/images/armor_sets/giaprey.png",
+  "image": "data/images/armor_sets_fandom/auto/giaprey-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua14",
@@ -379,7 +379,7 @@
  },
  {
   "name": "Battle Set (Blademaster)",
-  "image": "data/images/armor_sets/battle.png",
+  "image": "data/images/armor_sets_fandom/auto/battle-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua15",
@@ -547,7 +547,7 @@
  },
  {
   "name": "Vespoid Set (Blademaster)",
-  "image": "data/images/armor_sets/vespoid.png",
+  "image": "data/images/armor_sets_fandom/auto/vespoid-armor-blade.jpg",
   "pieces": [
    {
     "id": "mhfua19",
@@ -715,7 +715,7 @@
  },
  {
   "name": "Hornet Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-35.jpg",
+  "image": "data/images/armor_sets_fandom/auto/hornet-armor-blade.jpg",
   "pieces": [
    {
     "id": "mhfua25",
@@ -799,7 +799,7 @@
  },
  {
   "name": "Genprey Set (Blademaster)",
-  "image": "data/images/armor_sets/genprey.png",
+  "image": "data/images/armor_sets_fandom/auto/genprey-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua27",
@@ -841,7 +841,7 @@
  },
  {
   "name": "Genprey Set (Gunner)",
-  "image": "data/images/armor_sets/genprey.png",
+  "image": "data/images/armor_sets_fandom/auto/genprey-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua28",
@@ -939,7 +939,7 @@
  },
  {
   "name": "Ioprey Set (Blademaster)",
-  "image": "data/images/armor_sets/ioprey.png",
+  "image": "data/images/armor_sets_fandom/auto/ioprey-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua29",
@@ -1023,7 +1023,7 @@
  },
  {
   "name": "Kut-Ku Set (Blademaster)",
-  "image": "data/images/armor_sets/kut-ku.png",
+  "image": "data/images/armor_sets_fandom/auto/kut-ku-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua31",
@@ -1065,7 +1065,7 @@
  },
  {
   "name": "Kut-Ku Set (Gunner)",
-  "image": "data/images/armor_sets/kut-ku.png",
+  "image": "data/images/armor_sets_fandom/auto/kut-ku-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua32",
@@ -1191,7 +1191,7 @@
  },
  {
   "name": "Conga Set (Blademaster)",
-  "image": "data/images/armor_sets/conga.png",
+  "image": "data/images/armor_sets_fandom/auto/conga-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua35",
@@ -1233,7 +1233,7 @@
  },
  {
   "name": "Conga Set (Gunner)",
-  "image": "data/images/armor_sets/conga.png",
+  "image": "data/images/armor_sets_fandom/auto/conga-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua36",
@@ -1275,7 +1275,7 @@
  },
  {
   "name": "Gypceros Set (Blademaster)",
-  "image": "data/images/armor_sets/gypceros.png",
+  "image": "data/images/armor_sets_fandom/auto/gypceros-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua37",
@@ -1317,7 +1317,7 @@
  },
  {
   "name": "Gypceros Set (Gunner)",
-  "image": "data/images/armor_sets/gypceros.png",
+  "image": "data/images/armor_sets_fandom/auto/gypceros-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua38",
@@ -1359,7 +1359,7 @@
  },
  {
   "name": "Khezu Set (Blademaster)",
-  "image": "data/images/armor_sets/khezu.png",
+  "image": "data/images/armor_sets_fandom/auto/khezu-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua39",
@@ -1401,7 +1401,7 @@
  },
  {
   "name": "Khezu Set (Gunner)",
-  "image": "data/images/armor_sets/khezu.png",
+  "image": "data/images/armor_sets_fandom/auto/khezu-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua40",
@@ -1443,7 +1443,7 @@
  },
  {
   "name": "Hermitaur Set (Blademaster)",
-  "image": "data/images/armor_sets/hermitaur.png",
+  "image": "data/images/armor_sets_fandom/auto/hermitaur-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua41",
@@ -1485,7 +1485,7 @@
  },
  {
   "name": "Hermitaur Set (Gunner)",
-  "image": "data/images/armor_sets/hermitaur.png",
+  "image": "data/images/armor_sets_fandom/auto/hermitaur-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua42",
@@ -1611,7 +1611,7 @@
  },
  {
   "name": "Lobster Set (Blademaster)",
-  "image": "data/images/armor_sets/lobster.png",
+  "image": "data/images/armor_sets_fandom/auto/lobster-armor-blade.jpg",
   "pieces": [
    {
     "id": "mhfua45",
@@ -1695,7 +1695,7 @@
  },
  {
   "name": "Kut-Ku D Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-81.jpg",
+  "image": "data/images/armor_sets_fandom/auto/kut-ku-d-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua47",
@@ -1737,7 +1737,7 @@
  },
  {
   "name": "Kut-Ku D Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-82.jpg",
+  "image": "data/images/armor_sets_fandom/auto/kut-ku-d-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua48",
@@ -1779,7 +1779,7 @@
  },
  {
   "name": "Gypceros D Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-85.jpg",
+  "image": "data/images/armor_sets_fandom/auto/gypceros-d-armor-blade.jpg",
   "pieces": [
    {
     "id": "mhfua49",
@@ -1863,7 +1863,7 @@
  },
  {
   "name": "Khezu D Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-89.jpg",
+  "image": "data/images/armor_sets_fandom/auto/khezu-d-armor-blade.jpg",
   "pieces": [
    {
     "id": "mhfua51",
@@ -1947,7 +1947,7 @@
  },
  {
   "name": "Plesioth D Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-93.jpg",
+  "image": "data/images/armor_sets_fandom/auto/plesioth-d-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua53",
@@ -1989,7 +1989,7 @@
  },
  {
   "name": "Plesioth D Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-94.jpg",
+  "image": "data/images/armor_sets_fandom/auto/plesioth-d-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua54",
@@ -2031,7 +2031,7 @@
  },
  {
   "name": "Basarios Set (Blademaster)",
-  "image": "data/images/armor_sets/basarios.png",
+  "image": "data/images/armor_sets_fandom/auto/basarios-armor-blade.jpg",
   "pieces": [
    {
     "id": "mhfua55",
@@ -2073,7 +2073,7 @@
  },
  {
   "name": "Basarios Set (Gunner)",
-  "image": "data/images/armor_sets/basarios.png",
+  "image": "data/images/armor_sets_fandom/auto/basarios-armor-gun.jpg",
   "pieces": [
    {
     "id": "mhfua56",
@@ -2115,7 +2115,7 @@
  },
  {
   "name": "Monoblos Set (Blademaster)",
-  "image": "data/images/armor_sets/monoblos.png",
+  "image": "data/images/armor_sets_fandom/auto/monoblos-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua57",
@@ -2157,7 +2157,7 @@
  },
  {
   "name": "Monoblos Set (Gunner)",
-  "image": "data/images/armor_sets/monoblos.png",
+  "image": "data/images/armor_sets_fandom/auto/monoblos-armor-gun.jpg",
   "pieces": [
    {
     "id": "mhfua58",
@@ -2283,7 +2283,7 @@
  },
  {
   "name": "Blango Set (Blademaster)",
-  "image": "data/images/armor_sets/blango.png",
+  "image": "data/images/armor_sets_fandom/auto/blango-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua61",
@@ -2325,7 +2325,7 @@
  },
  {
   "name": "Blango Set (Gunner)",
-  "image": "data/images/armor_sets/blango.png",
+  "image": "data/images/armor_sets_fandom/auto/blango-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua62",
@@ -2409,7 +2409,7 @@
  },
  {
   "name": "Ceanataur Set (Gunner)",
-  "image": "data/images/armor_sets/ceanataur.png",
+  "image": "data/images/armor_sets_fandom/auto/ceanataur-armor-gun.jpg",
   "pieces": [
    {
     "id": "mhfua64",
@@ -2451,7 +2451,7 @@
  },
  {
   "name": "Rathian Set (Blademaster)",
-  "image": "data/images/armor_sets/rathian.png",
+  "image": "data/images/armor_sets_fandom/auto/rathian-armor-blade.jpg",
   "pieces": [
    {
     "id": "mhfua65",
@@ -2535,7 +2535,7 @@
  },
  {
   "name": "Tigrex Set (Blademaster)",
-  "image": "data/images/armor_sets/tigrex.png",
+  "image": "data/images/armor_sets_fandom/auto/tigrex-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua67",
@@ -2577,7 +2577,7 @@
  },
  {
   "name": "Tigrex Set (Gunner)",
-  "image": "data/images/armor_sets/tigrex.png",
+  "image": "data/images/armor_sets_fandom/auto/tigrex-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua68",
@@ -2619,7 +2619,7 @@
  },
  {
   "name": "Rathalos Set (Blademaster)",
-  "image": "data/images/armor_sets/rathalos.png",
+  "image": "data/images/armor_sets_fandom/auto/rathalos-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua69",
@@ -2661,7 +2661,7 @@
  },
  {
   "name": "Rathalos Set (Gunner)",
-  "image": "data/images/armor_sets/rathalos.png",
+  "image": "data/images/armor_sets_fandom/auto/rathalos-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua70",
@@ -2703,7 +2703,7 @@
  },
  {
   "name": "Diablo Set (Blademaster)",
-  "image": "data/images/armor_sets/diablo.png",
+  "image": "data/images/armor_sets_fandom/auto/diablo-armor-blade.jpg",
   "pieces": [
    {
     "id": "mhfua71",
@@ -2745,7 +2745,7 @@
  },
  {
   "name": "Diablo Set (Gunner)",
-  "image": "data/images/armor_sets/diablo.png",
+  "image": "data/images/armor_sets_fandom/auto/diablo-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua72",
@@ -2787,7 +2787,7 @@
  },
  {
   "name": "Gravios Set (Blademaster)",
-  "image": "data/images/armor_sets/gravios.png",
+  "image": "data/images/armor_sets_fandom/auto/gravios-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua73",
@@ -2871,7 +2871,7 @@
  },
  {
   "name": "Diablo D Set (Blademaster)",
-  "image": "data/images/armor_sets/diablo-d.jpg",
+  "image": "data/images/armor_sets_fandom/auto/diablo-d-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua75",
@@ -3165,7 +3165,7 @@
  },
  {
   "name": "Bistro Set",
-  "image": "data/images/armor_sets/bistro.jpg",
+  "image": "data/images/armor_sets_fandom/auto/bistro.png",
   "pieces": [
    {
     "id": "mhfua93",
@@ -3747,7 +3747,7 @@
  },
  {
   "name": "Remobra Set",
-  "image": "data/images/armor_sets/remobra.jpg",
+  "image": "data/images/armor_sets_fandom/auto/remobra.png",
   "pieces": [
    {
     "id": "mhfua107",
@@ -3789,7 +3789,7 @@
  },
  {
   "name": "Melahoa Set (Blademaster)",
-  "image": "data/images/armor_sets/melahoa.png",
+  "image": "data/images/armor_sets_fandom/auto/melahoa-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua108",
@@ -3831,7 +3831,7 @@
  },
  {
   "name": "Melahoa Set (Gunner)",
-  "image": "data/images/armor_sets/melahoa.png",
+  "image": "data/images/armor_sets_fandom/auto/melahoa-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua109",
@@ -3873,7 +3873,7 @@
  },
  {
   "name": "Makluva Set (Blademaster)",
-  "image": "data/images/armor_sets/makluva.png",
+  "image": "data/images/armor_sets_fandom/auto/makluva-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua110",
@@ -3915,7 +3915,7 @@
  },
  {
   "name": "Makluva Set (Gunner)",
-  "image": "data/images/armor_sets/makluva.png",
+  "image": "data/images/armor_sets_fandom/auto/makluva-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua111",
@@ -4041,7 +4041,7 @@
  },
  {
   "name": "Obituary Set (Blademaster)",
-  "image": "data/images/armor_sets/obituary.png",
+  "image": "data/images/armor_sets_fandom/auto/obituary-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua114",
@@ -4118,7 +4118,7 @@
  },
  {
   "name": "Obituary Set (Gunner)",
-  "image": "data/images/armor_sets/obituary.png",
+  "image": "data/images/armor_sets_fandom/auto/obituary-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua115",
@@ -4279,7 +4279,7 @@
  },
  {
   "name": "Death Stench Set (Blademaster)",
-  "image": "data/images/armor_sets/death-stench.png",
+  "image": "data/images/armor_sets_fandom/auto/death-stench-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua120",
@@ -4321,7 +4321,7 @@
  },
  {
   "name": "Death Stench Set (Gunner)",
-  "image": "data/images/armor_sets/death-stench.png",
+  "image": "data/images/armor_sets_fandom/auto/death-stench-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua121",
@@ -4447,7 +4447,7 @@
  },
  {
   "name": "Mizuha / Extravagant Set (Blademaster)",
-  "image": "data/images/armor_sets/mizuha-extravagant.jpg",
+  "image": "data/images/armor_sets_fandom/auto/mizuha-extravagant-bm.png",
   "pieces": [
    {
     "id": "mhfua124",
@@ -4489,7 +4489,7 @@
  },
  {
   "name": "Mizuha / Extravagant Set (Gunner)",
-  "image": "data/images/armor_sets/mizuha-extravagant.jpg",
+  "image": "data/images/armor_sets_fandom/auto/mizuha-extravagant-gn.png",
   "pieces": [
    {
     "id": "mhfua125",
@@ -4531,7 +4531,7 @@
  },
  {
   "name": "Kushala Set (Blademaster)",
-  "image": "data/images/armor_sets/kushala.png",
+  "image": "data/images/armor_sets_fandom/auto/kushala-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua126",
@@ -4573,7 +4573,7 @@
  },
  {
   "name": "Kushala Set (Gunner)",
-  "image": "data/images/armor_sets/kushala.png",
+  "image": "data/images/armor_sets_fandom/auto/kushala-armor-gun.png",
   "pieces": [
    {
     "id": "mhfuaY17",
@@ -4615,7 +4615,7 @@
  },
  {
   "name": "Kirin Set (Blademaster)",
-  "image": "data/images/armor_sets/kirin.png",
+  "image": "data/images/armor_sets_fandom/auto/kirin-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua128",
@@ -4657,7 +4657,7 @@
  },
  {
   "name": "Kirin Set (Gunner)",
-  "image": "data/images/armor_sets/kirin.png",
+  "image": "data/images/armor_sets_fandom/auto/kirin-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua129",
@@ -4699,7 +4699,7 @@
  },
  {
   "name": "Guardian Spirit / Carnage Set (Blademaster)",
-  "image": "data/images/armor_sets/guardian-spirit-carnage.jpg",
+  "image": "data/images/armor_sets_fandom/auto/guardian-spirit-bm.png",
   "pieces": [
    {
     "id": "mhfua130",
@@ -4741,7 +4741,7 @@
  },
  {
   "name": "Guardian Spirit / Carnage Set (Gunner)",
-  "image": "data/images/armor_sets/guardian-spirit-carnage.jpg",
+  "image": "data/images/armor_sets_fandom/auto/carnage-gn.png",
   "pieces": [
    {
     "id": "mhfua131",
@@ -4783,7 +4783,7 @@
  },
  {
   "name": "Auroros Set (Blademaster)",
-  "image": "data/images/armor_sets/auroros.png",
+  "image": "data/images/armor_sets_fandom/auto/auroros-armor-blade.jpg",
   "pieces": [
    {
     "id": "mhfua132",
@@ -5021,7 +5021,7 @@
  },
  {
   "name": "Empress Set (Blademaster)",
-  "image": "data/images/armor_sets/empress.png",
+  "image": "data/images/armor_sets_fandom/auto/empress-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua136",
@@ -5063,7 +5063,7 @@
  },
  {
   "name": "Empress Set (Gunner)",
-  "image": "data/images/armor_sets/empress.png",
+  "image": "data/images/armor_sets_fandom/auto/empress-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua137",
@@ -5105,7 +5105,7 @@
  },
  {
   "name": "Indra / Steadfast Set (Blademaster)",
-  "image": "data/images/armor_sets/indra-steadfast.jpg",
+  "image": "data/images/armor_sets_fandom/auto/indra-bm.png",
   "pieces": [
    {
     "id": "mhfua138",
@@ -5147,7 +5147,7 @@
  },
  {
   "name": "Indra / Steadfast Set (Gunner)",
-  "image": "data/images/armor_sets/indra-steadfast.jpg",
+  "image": "data/images/armor_sets_fandom/auto/steadfast-gn.png",
   "pieces": [
    {
     "id": "mhfua139",
@@ -5189,7 +5189,7 @@
  },
  {
   "name": "Kaiser Set (Blademaster)",
-  "image": "data/images/armor_sets/kaiser.png",
+  "image": "data/images/armor_sets_fandom/auto/kaiser-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua140",
@@ -5231,7 +5231,7 @@
  },
  {
   "name": "Kaiser Set (Gunner)",
-  "image": "data/images/armor_sets/kaiser.png",
+  "image": "data/images/armor_sets_fandom/auto/kaiser-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua141",
@@ -5273,7 +5273,7 @@
  },
  {
   "name": "Monodevil Set (Blademaster)",
-  "image": "data/images/armor_sets/monodevil.png",
+  "image": "data/images/armor_sets_fandom/auto/monodevil-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua144",
@@ -5315,7 +5315,7 @@
  },
  {
   "name": "Monodevil Set (Gunner)",
-  "image": "data/images/armor_sets/monodevil.png",
+  "image": "data/images/armor_sets_fandom/auto/monodevil-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua145",
@@ -5399,7 +5399,7 @@
  },
  {
   "name": "Rathian Heart Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-284.jpg",
+  "image": "data/images/armor_sets_fandom/auto/rathian-heart-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua147",
@@ -5483,7 +5483,7 @@
  },
  {
   "name": "Rathalos Soul Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-288.jpg",
+  "image": "data/images/armor_sets_fandom/auto/rathalos-soul-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua149",
@@ -5525,7 +5525,7 @@
  },
  {
   "name": "Mafumofu S Set",
-  "image": "data/images/armor_sets_gamefaqs/74198-291.jpg",
+  "image": "data/images/armor_sets_fandom/auto/mafumofu-s.png",
   "pieces": [
    {
     "id": "mhfua150",
@@ -5602,7 +5602,7 @@
  },
  {
   "name": "Leather S Set",
-  "image": "data/images/armor_sets_gamefaqs/74198-293.jpg",
+  "image": "data/images/armor_sets_fandom/auto/leather-s.png",
   "pieces": [
    {
     "id": "mhfua152",
@@ -5679,7 +5679,7 @@
  },
  {
   "name": "Chain S Set",
-  "image": "data/images/armor_sets_gamefaqs/74198-295.jpg",
+  "image": "data/images/armor_sets_fandom/auto/chain-s.png",
   "pieces": [
    {
     "id": "mhfua154",
@@ -5798,7 +5798,7 @@
  },
  {
   "name": "Hunter's S Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-298.jpg",
+  "image": "data/images/armor_sets_fandom/auto/hunter-s-s-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua157",
@@ -5924,7 +5924,7 @@
  },
  {
   "name": "Battle S Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-305.jpg",
+  "image": "data/images/armor_sets_fandom/auto/battle-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua164",
@@ -6008,7 +6008,7 @@
  },
  {
   "name": "Velociprey S Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-309.jpg",
+  "image": "data/images/armor_sets_fandom/auto/velociprey-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua168",
@@ -6092,7 +6092,7 @@
  },
  {
   "name": "Vespoid S Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-313.jpg",
+  "image": "data/images/armor_sets_fandom/auto/vespoid-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua170",
@@ -6134,7 +6134,7 @@
  },
  {
   "name": "Vespoid S Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-314.jpg",
+  "image": "data/images/armor_sets_fandom/auto/vespoid-s-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua171",
@@ -6176,7 +6176,7 @@
  },
  {
   "name": "Hi-Metal S Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-317.jpg",
+  "image": "data/images/armor_sets_fandom/auto/hi-metal-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua172",
@@ -6260,7 +6260,7 @@
  },
  {
   "name": "Steel S Set",
-  "image": "data/images/armor_sets_gamefaqs/74198-322.jpg",
+  "image": "data/images/armor_sets_fandom/auto/steel-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfuaY20",
@@ -6302,7 +6302,7 @@
  },
  {
   "name": "Hornet S Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-323.jpg",
+  "image": "data/images/armor_sets_fandom/auto/hornet-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua174",
@@ -6386,7 +6386,7 @@
  },
  {
   "name": "Genprey S Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-327.jpg",
+  "image": "data/images/armor_sets_fandom/auto/genprey-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua176",
@@ -6470,7 +6470,7 @@
  },
  {
   "name": "Ioprey S Set (Blademaster)",
-  "image": "data/images/armor_sets/ioprey-s.jpg",
+  "image": "data/images/armor_sets_fandom/auto/ioprey-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua178",
@@ -6554,7 +6554,7 @@
  },
  {
   "name": "Kut-Ku S Set (Blademaster)",
-  "image": "data/images/armor_sets/kut-ku-s.jpg",
+  "image": "data/images/armor_sets_fandom/auto/kut-ku-s-armor-blade.jpg",
   "pieces": [
    {
     "id": "mhfua180",
@@ -6638,7 +6638,7 @@
  },
  {
   "name": "Cephalos S Set (Blademaster)",
-  "image": "data/images/armor_sets/cephalos-s.jpg",
+  "image": "data/images/armor_sets_fandom/auto/cephalos-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua182",
@@ -6722,7 +6722,7 @@
  },
  {
   "name": "Conga S Set (Blademaster)",
-  "image": "data/images/armor_sets/conga-s.jpg",
+  "image": "data/images/armor_sets_fandom/auto/conga-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua184",
@@ -6806,7 +6806,7 @@
  },
  {
   "name": "Gypceros S Set (Blademaster)",
-  "image": "data/images/armor_sets/gypceros-s.jpg",
+  "image": "data/images/armor_sets_fandom/auto/gypceros-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua186",
@@ -6890,7 +6890,7 @@
  },
  {
   "name": "Khezu S Set (Blademaster)",
-  "image": "data/images/armor_sets/khezu-s.jpg",
+  "image": "data/images/armor_sets_fandom/auto/khezu-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua188",
@@ -6974,7 +6974,7 @@
  },
  {
   "name": "Hermitaur S Set (Blademaster)",
-  "image": "data/images/armor_sets/hermitaur-s.jpg",
+  "image": "data/images/armor_sets_fandom/auto/hermitaur-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua190",
@@ -7058,7 +7058,7 @@
  },
  {
   "name": "Hypno S Set (Blademaster)",
-  "image": "data/images/armor_sets/hypno-s.jpg",
+  "image": "data/images/armor_sets_fandom/auto/hypno-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua192",
@@ -7226,7 +7226,7 @@
  },
  {
   "name": "Plesioth S Set (Blademaster)",
-  "image": "data/images/armor_sets/plesioth-s.jpg",
+  "image": "data/images/armor_sets_fandom/auto/plesioth-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua196",
@@ -7268,7 +7268,7 @@
  },
  {
   "name": "Plesioth S Set (Gunner)",
-  "image": "data/images/armor_sets/plesioth-s.jpg",
+  "image": "data/images/armor_sets_fandom/auto/plesioth-s-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua197",
@@ -7310,7 +7310,7 @@
  },
  {
   "name": "Monoblos S Set (Blademaster)",
-  "image": "data/images/armor_sets/monoblos-s.jpg",
+  "image": "data/images/armor_sets_fandom/auto/monoblos-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua198",
@@ -7352,7 +7352,7 @@
  },
  {
   "name": "Monoblos S Set (Gunner)",
-  "image": "data/images/armor_sets/monoblos-s.jpg",
+  "image": "data/images/armor_sets_fandom/auto/monoblos-s-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua199",
@@ -7394,7 +7394,7 @@
  },
  {
   "name": "Garuga S Set (Blademaster)",
-  "image": "data/images/armor_sets/garuga-s.jpg",
+  "image": "data/images/armor_sets_fandom/auto/garuga-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua200",
@@ -7520,7 +7520,7 @@
  },
  {
   "name": "Blango S Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-395.jpg",
+  "image": "data/images/armor_sets_fandom/auto/blango-s-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua203",
@@ -7730,7 +7730,7 @@
  },
  {
   "name": "Narga S Set (Blademaster)",
-  "image": "data/images/armor_sets_fandom/narga-s-bm.png",
+  "image": "data/images/armor_sets_fandom/auto/narga-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua208",
@@ -7814,7 +7814,7 @@
  },
  {
   "name": "Tigrex S Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-410.jpg",
+  "image": "data/images/armor_sets_fandom/auto/tigrex-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua210",
@@ -7898,7 +7898,7 @@
  },
  {
   "name": "Rathalos S Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-414.jpg",
+  "image": "data/images/armor_sets_fandom/auto/rathalos-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua212",
@@ -7982,7 +7982,7 @@
  },
  {
   "name": "Diablo S Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-418.jpg",
+  "image": "data/images/armor_sets_fandom/auto/diablo-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua214",
@@ -8066,7 +8066,7 @@
  },
  {
   "name": "Gravios S Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-422.jpg",
+  "image": "data/images/armor_sets_fandom/auto/gravios-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua216",
@@ -8150,7 +8150,7 @@
  },
  {
   "name": "Leather U Set",
-  "image": "data/images/armor_sets/leather-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/leather-u.png",
   "pieces": [
    {
     "id": "mhfua218",
@@ -8192,7 +8192,7 @@
  },
  {
   "name": "Chain U Set",
-  "image": "data/images/armor_sets/chain-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/chain-u.png",
   "pieces": [
    {
     "id": "mhfua219",
@@ -8234,7 +8234,7 @@
  },
  {
   "name": "Hunter's U Set (Blademaster)",
-  "image": "data/images/armor_sets/hunter-s-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/hunter-s-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua220",
@@ -8318,7 +8318,7 @@
  },
  {
   "name": "Bone U Set (Blademaster)",
-  "image": "data/images/armor_sets/bone-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/bone-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua222",
@@ -8402,7 +8402,7 @@
  },
  {
   "name": "Battle U Set (Blademaster)",
-  "image": "data/images/armor_sets/battle-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/battle-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua224",
@@ -8486,7 +8486,7 @@
  },
  {
   "name": "Giaprey U Set (Blademaster)",
-  "image": "data/images/armor_sets/giaprey-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/giaprey-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua226",
@@ -8570,7 +8570,7 @@
  },
  {
   "name": "Vespoid U Set (Blademaster)",
-  "image": "data/images/armor_sets/vespoid-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/vespoid-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua228",
@@ -8654,7 +8654,7 @@
  },
  {
   "name": "Hi-Metal U Set (Blademaster)",
-  "image": "data/images/armor_sets/hi-metal-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/hi-metal-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua230",
@@ -8738,7 +8738,7 @@
  },
  {
   "name": "Steel U Set",
-  "image": "data/images/armor_sets/steel-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/steel-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfuaY25",
@@ -8780,7 +8780,7 @@
  },
  {
   "name": "Hornet U Set (Blademaster)",
-  "image": "data/images/armor_sets/hornet-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/hornet-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua232",
@@ -8864,7 +8864,7 @@
  },
  {
   "name": "Genprey U Set (Blademaster)",
-  "image": "data/images/armor_sets/genprey-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/genprey-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua234",
@@ -8948,7 +8948,7 @@
  },
  {
   "name": "Ioprey U Set (Blademaster)",
-  "image": "data/images/armor_sets/ioprey-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/ioprey-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua236",
@@ -9032,7 +9032,7 @@
  },
  {
   "name": "Kut-Ku U Set (Blademaster)",
-  "image": "data/images/armor_sets/kut-ku-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/kut-ku-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua238",
@@ -9116,7 +9116,7 @@
  },
  {
   "name": "Cephalos U Set (Blademaster)",
-  "image": "data/images/armor_sets/cephalos-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/cephalos-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua240",
@@ -9200,7 +9200,7 @@
  },
  {
   "name": "Conga U Set (Blademaster)",
-  "image": "data/images/armor_sets/conga-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/conga-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua242",
@@ -9452,7 +9452,7 @@
  },
  {
   "name": "Hermitaur U Set (Blademaster)",
-  "image": "data/images/armor_sets/hermitaur-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/hermitaur-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua248",
@@ -9494,7 +9494,7 @@
  },
  {
   "name": "Hermitaur U Set (Gunner)",
-  "image": "data/images/armor_sets/hermitaur-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/hermitaur-u-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua249",
@@ -9956,7 +9956,7 @@
  },
  {
   "name": "Gravios U Set (Blademaster)",
-  "image": "data/images/armor_sets/gravios-u.jpg",
+  "image": "data/images/armor_sets_fandom/auto/gravios-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua260",
@@ -10467,7 +10467,7 @@
  },
  {
   "name": "Golden / Puppet Master Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-530.jpg",
+  "image": "data/images/armor_sets_fandom/auto/golden-bm.png",
   "pieces": [
    {
     "id": "mhfua278",
@@ -10509,7 +10509,7 @@
  },
  {
   "name": "Golden / Puppet Master Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-531.jpg",
+  "image": "data/images/armor_sets_fandom/auto/puppet-master-gn.png",
   "pieces": [
    {
     "id": "mhfua279",
@@ -10705,7 +10705,7 @@
  },
  {
   "name": "Death Stench S Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-538.jpg",
+  "image": "data/images/armor_sets_fandom/auto/death-stench-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua284",
@@ -10957,7 +10957,7 @@
  },
  {
   "name": "Kirin S Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-550.jpg",
+  "image": "data/images/armor_sets_fandom/auto/kirin-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua290",
@@ -10999,7 +10999,7 @@
  },
  {
   "name": "Kirin S Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-551.jpg",
+  "image": "data/images/armor_sets_fandom/auto/kirin-s-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua291",
@@ -11195,7 +11195,7 @@
  },
  {
   "name": "Ultimate Indra / Supreme Steadfast Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-558.jpg",
+  "image": "data/images/armor_sets_fandom/auto/ultimate-indra-bm.png",
   "pieces": [
    {
     "id": "mhfua296",
@@ -11237,7 +11237,7 @@
  },
  {
   "name": "Ultimate Indra / Supreme Steadfast Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-559.jpg",
+  "image": "data/images/armor_sets_fandom/auto/ultimate-indra-gn.png",
   "pieces": [
    {
     "id": "mhfua297",
@@ -11279,7 +11279,7 @@
  },
  {
   "name": "Kaiser S Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-562.jpg",
+  "image": "data/images/armor_sets_fandom/auto/kaiser-s-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua298",
@@ -11321,7 +11321,7 @@
  },
  {
   "name": "Kaiser S Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-563.jpg",
+  "image": "data/images/armor_sets_fandom/auto/kaiser-s-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua299",
@@ -11447,7 +11447,7 @@
  },
  {
   "name": "Dark Akantor Set (Blademaster)",
-  "image": "data/images/armor_sets_fandom/dark-akantor-blade.png",
+  "image": "data/images/armor_sets_fandom/auto/dark-akantor-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua302",
@@ -11489,7 +11489,7 @@
  },
  {
   "name": "Dark Akantor Set (Gunner)",
-  "image": "data/images/armor_sets_fandom/dark-akantor-gunner.png",
+  "image": "data/images/armor_sets_fandom/auto/dark-akantor-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua303",
@@ -11917,7 +11917,7 @@
  },
  {
   "name": "Makluva U Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-588.jpg",
+  "image": "data/images/armor_sets_fandom/auto/makluva-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua313",
@@ -11959,7 +11959,7 @@
  },
  {
   "name": "Makluva U Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-589.jpg",
+  "image": "data/images/armor_sets_fandom/auto/makluva-u-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua314",
@@ -12001,7 +12001,7 @@
  },
  {
   "name": "Monodevil U Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-592.jpg",
+  "image": "data/images/armor_sets_fandom/auto/monodevil-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua315",
@@ -12043,7 +12043,7 @@
  },
  {
   "name": "Monodevil U Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-593.jpg",
+  "image": "data/images/armor_sets_fandom/auto/monodevil-u-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua316",
@@ -12169,7 +12169,7 @@
  },
  {
   "name": "Rathalos Soul U Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-600.jpg",
+  "image": "data/images/armor_sets_fandom/auto/rathalos-soul-u-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua319",
@@ -12253,7 +12253,7 @@
  },
  {
   "name": "Golden Moon Set (Blademaster)",
-  "image": "data/images/armor_sets_fandom/golden-moon-bm.png",
+  "image": "data/images/armor_sets_fandom/auto/golden-moon-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua321",
@@ -12295,7 +12295,7 @@
  },
  {
   "name": "Golden Moon Set (Gunner)",
-  "image": "data/images/armor_sets_fandom/golden-moon-gn.png",
+  "image": "data/images/armor_sets_fandom/auto/golden-moon-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua322",
@@ -12337,7 +12337,7 @@
  },
  {
   "name": "Silver Sol Set (Blademaster)",
-  "image": "data/images/armor_sets/silver-sol.png",
+  "image": "data/images/armor_sets_fandom/auto/silver-sol-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua323",
@@ -12575,7 +12575,7 @@
  },
  {
   "name": "Fatalis Set (Blademaster)",
-  "image": "data/images/armor_sets/fatalis.png",
+  "image": "data/images/armor_sets_fandom/auto/fatalis-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua329",
@@ -12617,7 +12617,7 @@
  },
  {
   "name": "Fatalis Set (Gunner)",
-  "image": "data/images/armor_sets/fatalis.png",
+  "image": "data/images/armor_sets_fandom/auto/fatalis-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua330",
@@ -12659,7 +12659,7 @@
  },
  {
   "name": "White Fatalis Set (Blademaster)",
-  "image": "data/images/armor_sets/white-fatalis.png",
+  "image": "data/images/armor_sets_fandom/auto/white-fatalis-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua331",
@@ -12701,7 +12701,7 @@
  },
  {
   "name": "White Fatalis Set (Gunner)",
-  "image": "data/images/armor_sets/white-fatalis.png",
+  "image": "data/images/armor_sets_fandom/auto/white-fatalis-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua332",
@@ -12743,7 +12743,7 @@
  },
  {
   "name": "Kut-Ku X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-624.jpg",
+  "image": "data/images/armor_sets_fandom/auto/kut-ku-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua333",
@@ -12827,7 +12827,7 @@
  },
  {
   "name": "Conga X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-628.jpg",
+  "image": "data/images/armor_sets_fandom/auto/conga-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua335",
@@ -12869,7 +12869,7 @@
  },
  {
   "name": "Conga X Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-629.jpg",
+  "image": "data/images/armor_sets_fandom/auto/conga-x-armor-gunner.png",
   "pieces": [
    {
     "id": "mhfua336",
@@ -12911,7 +12911,7 @@
  },
  {
   "name": "Gypceros X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-632.jpg",
+  "image": "data/images/armor_sets_fandom/auto/gypceros-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua337",
@@ -12953,7 +12953,7 @@
  },
  {
   "name": "Gypceros X Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-633.jpg",
+  "image": "data/images/armor_sets_fandom/auto/gypceros-x-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua338",
@@ -13079,7 +13079,7 @@
  },
  {
   "name": "Hermitaur X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-640.jpg",
+  "image": "data/images/armor_sets_fandom/auto/hermitaur-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua341",
@@ -13163,7 +13163,7 @@
  },
  {
   "name": "Hypno X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-644.jpg",
+  "image": "data/images/armor_sets_fandom/auto/hypno-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua343",
@@ -13247,7 +13247,7 @@
  },
  {
   "name": "Basarios X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-648.jpg",
+  "image": "data/images/armor_sets_fandom/auto/basarios-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua345",
@@ -13289,7 +13289,7 @@
  },
  {
   "name": "Basarios X Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-649.jpg",
+  "image": "data/images/armor_sets_fandom/auto/basarios-x-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua346",
@@ -13331,7 +13331,7 @@
  },
  {
   "name": "Plesioth X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-652.jpg",
+  "image": "data/images/armor_sets_fandom/auto/plesioth-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua347",
@@ -13415,7 +13415,7 @@
  },
  {
   "name": "Monoblos X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-656.jpg",
+  "image": "data/images/armor_sets_fandom/auto/monoblos-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua349",
@@ -13625,7 +13625,7 @@
  },
  {
   "name": "Blango X Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-665.jpg",
+  "image": "data/images/armor_sets_fandom/auto/blango-x-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua354",
@@ -13751,7 +13751,7 @@
  },
  {
   "name": "Rathian X Set (Blademaster)",
-  "image": "data/images/armor_sets/rathian-x.jpg",
+  "image": "data/images/armor_sets_fandom/auto/rathian-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua357",
@@ -13793,7 +13793,7 @@
  },
  {
   "name": "Rathian X Set (Gunner)",
-  "image": "data/images/armor_sets/rathian-x.jpg",
+  "image": "data/images/armor_sets_fandom/auto/rathian-x-armor-gunner.png",
   "pieces": [
    {
     "id": "mhfua358",
@@ -13835,7 +13835,7 @@
  },
  {
   "name": "Narga X Set (Blademaster)",
-  "image": "data/images/armor_sets_fandom/narga-x-bm.png",
+  "image": "data/images/armor_sets_fandom/auto/narga-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua359",
@@ -13877,7 +13877,7 @@
  },
  {
   "name": "Narga X Set (Gunner)",
-  "image": "data/images/armor_sets_fandom/narga-x-gn.png",
+  "image": "data/images/armor_sets_fandom/auto/narga-x-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua360",
@@ -13919,7 +13919,7 @@
  },
  {
   "name": "Lava X Set (Blademaster)",
-  "image": "data/images/armor_sets/lava-x.jpg",
+  "image": "data/images/armor_sets_fandom/auto/lava-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua361",
@@ -13961,7 +13961,7 @@
  },
  {
   "name": "Lava X Set (Gunner)",
-  "image": "data/images/armor_sets/lava-x.jpg",
+  "image": "data/images/armor_sets_fandom/auto/lava-x-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua362",
@@ -14003,7 +14003,7 @@
  },
  {
   "name": "Tigrex X Set (Blademaster)",
-  "image": "data/images/armor_sets/tigrex-x.jpg",
+  "image": "data/images/armor_sets_fandom/auto/tigrex-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua363",
@@ -14045,7 +14045,7 @@
  },
  {
   "name": "Tigrex X Set (Gunner)",
-  "image": "data/images/armor_sets/tigrex-x.jpg",
+  "image": "data/images/armor_sets_fandom/auto/tigrex-x-armor-gunner.png",
   "pieces": [
    {
     "id": "mhfua364",
@@ -14129,7 +14129,7 @@
  },
  {
   "name": "Rathalos X Set (Gunner)",
-  "image": "data/images/armor_sets/rathalos-x.jpg",
+  "image": "data/images/armor_sets_fandom/auto/rathalos-x-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua366",
@@ -14171,7 +14171,7 @@
  },
  {
   "name": "Diablo X Set (Blademaster)",
-  "image": "data/images/armor_sets/diablo-x.jpg",
+  "image": "data/images/armor_sets_fandom/auto/diablo-x-armor-blademaster-mhfu.png",
   "pieces": [
    {
     "id": "mhfua367",
@@ -14255,7 +14255,7 @@
  },
  {
   "name": "Gravios X Set (Blademaster)",
-  "image": "data/images/armor_sets/gravios-x.jpg",
+  "image": "data/images/armor_sets_fandom/auto/gravios-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua369",
@@ -14339,7 +14339,7 @@
  },
  {
   "name": "Kut-Ku Z Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-700.jpg",
+  "image": "data/images/armor_sets_fandom/auto/kut-ku-z-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua371",
@@ -14381,7 +14381,7 @@
  },
  {
   "name": "Kut-Ku Z Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-701.jpg",
+  "image": "data/images/armor_sets_fandom/auto/kut-ku-z-armor-gunner.png",
   "pieces": [
    {
     "id": "mhfua372",
@@ -14423,7 +14423,7 @@
  },
  {
   "name": "Conga Z Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-704.jpg",
+  "image": "data/images/armor_sets_fandom/auto/conga-z-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua373",
@@ -14465,7 +14465,7 @@
  },
  {
   "name": "Conga Z Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-705.jpg",
+  "image": "data/images/armor_sets_fandom/auto/conga-z-armor-gunner.png",
   "pieces": [
    {
     "id": "mhfua374",
@@ -14507,7 +14507,7 @@
  },
  {
   "name": "Gypceros Z Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-708.jpg",
+  "image": "data/images/armor_sets_fandom/auto/gypceros-z-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua375",
@@ -14549,7 +14549,7 @@
  },
  {
   "name": "Gypceros Z Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-709.jpg",
+  "image": "data/images/armor_sets_fandom/auto/gypceros-z-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua376",
@@ -14591,7 +14591,7 @@
  },
  {
   "name": "Khezu Z Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-712.jpg",
+  "image": "data/images/armor_sets_fandom/auto/khezu-z-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua377",
@@ -14675,7 +14675,7 @@
  },
  {
   "name": "Hermitaur Z Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-716.jpg",
+  "image": "data/images/armor_sets_fandom/auto/hermitaur-z-armor-blademaster-mhfu.png",
   "pieces": [
    {
     "id": "mhfua379",
@@ -14759,7 +14759,7 @@
  },
  {
   "name": "Plesioth Z Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-720.jpg",
+  "image": "data/images/armor_sets_fandom/auto/plesioth-z-armor-blademaster-mhfu.png",
   "pieces": [
    {
     "id": "mhfua381",
@@ -14843,7 +14843,7 @@
  },
  {
   "name": "Blango Z Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-724.jpg",
+  "image": "data/images/armor_sets_fandom/auto/blango-z-armor-blademaster-mhfu.png",
   "pieces": [
    {
     "id": "mhfua383",
@@ -15011,7 +15011,7 @@
  },
  {
   "name": "Diablo Z Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-732.jpg",
+  "image": "data/images/armor_sets_fandom/auto/diablo-z-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua387",
@@ -15095,7 +15095,7 @@
  },
  {
   "name": "Gravios Z Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-736.jpg",
+  "image": "data/images/armor_sets_fandom/auto/gravios-z-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua389",
@@ -15305,7 +15305,7 @@
  },
  {
   "name": "Black Belt X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-746.jpg",
+  "image": "data/images/armor_sets_fandom/auto/black-belt-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua394",
@@ -15389,7 +15389,7 @@
  },
  {
   "name": "Obituary X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-750.jpg",
+  "image": "data/images/armor_sets_fandom/auto/obituary-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua396",
@@ -15627,7 +15627,7 @@
  },
  {
   "name": "Kushala X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-758.jpg",
+  "image": "data/images/armor_sets_fandom/auto/kushala-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua402",
@@ -15711,7 +15711,7 @@
  },
  {
   "name": "Kirin X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-762.jpg",
+  "image": "data/images/armor_sets_fandom/auto/kirin-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua404",
@@ -15795,7 +15795,7 @@
  },
  {
   "name": "Empress X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-766.jpg",
+  "image": "data/images/armor_sets_fandom/auto/empress-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua406",
@@ -15879,7 +15879,7 @@
  },
  {
   "name": "Indra Shin / Steadfast Shin Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-770.jpg",
+  "image": "data/images/armor_sets_fandom/auto/indra-shin-bm.png",
   "pieces": [
    {
     "id": "mhfua408",
@@ -15921,7 +15921,7 @@
  },
  {
   "name": "Indra Shin / Steadfast Shin Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-771.jpg",
+  "image": "data/images/armor_sets_fandom/auto/steadfast-shin-gn.png",
   "pieces": [
    {
     "id": "mhfua409",
@@ -15963,7 +15963,7 @@
  },
  {
   "name": "Kaiser X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-774.jpg",
+  "image": "data/images/armor_sets_fandom/auto/kaiser-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua410",
@@ -16131,7 +16131,7 @@
  },
  {
   "name": "Dragon X Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-782.jpg",
+  "image": "data/images/armor_sets_fandom/auto/dragon-x-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua414",
@@ -16215,7 +16215,7 @@
  },
  {
   "name": "Dark Ukanlos Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-786.jpg",
+  "image": "data/images/armor_sets_fandom/auto/dark-ukanlos-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua416",
@@ -16341,7 +16341,7 @@
  },
  {
   "name": "Melahoa Z Set (Gunner)",
-  "image": "data/images/armor_sets/melahoa-z.jpg",
+  "image": "data/images/armor_sets_fandom/auto/melahoa-z-armor-gunner.png",
   "pieces": [
    {
     "id": "mhfua419",
@@ -16383,7 +16383,7 @@
  },
  {
   "name": "Makluva Z Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-816.jpg",
+  "image": "data/images/armor_sets_fandom/auto/makluva-z-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua420",
@@ -16425,7 +16425,7 @@
  },
  {
   "name": "Makluva Z Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-817.jpg",
+  "image": "data/images/armor_sets_fandom/auto/makluva-z-armor-gunner.png",
   "pieces": [
    {
     "id": "mhfua421",
@@ -16467,7 +16467,7 @@
  },
  {
   "name": "Rathian Heart Z Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-818.jpg",
+  "image": "data/images/armor_sets_fandom/auto/rathian-heart-z-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua422",
@@ -16509,7 +16509,7 @@
  },
  {
   "name": "Rathian Heart Z Set (Gunner)",
-  "image": "data/images/armor_sets/rathian-heart-z.jpg",
+  "image": "data/images/armor_sets_fandom/auto/rathian-heart-z-armor-gunner.png",
   "pieces": [
    {
     "id": "mhfua423",
@@ -16593,7 +16593,7 @@
  },
  {
   "name": "Rathalos Soul Z Set (Gunner)",
-  "image": "data/images/armor_sets/rathalos-soul-z.jpg",
+  "image": "data/images/armor_sets_fandom/auto/rathalos-soul-z-armor-gunner.png",
   "pieces": [
    {
     "id": "mhfua425",
@@ -16635,7 +16635,7 @@
  },
  {
   "name": "Golden Moon Z Set (Blademaster)",
-  "image": "data/images/armor_sets_fandom/golden-moon-z-bm.png",
+  "image": "data/images/armor_sets_fandom/auto/golden-moon-z-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua426",
@@ -16677,7 +16677,7 @@
  },
  {
   "name": "Golden Moon Z Set (Gunner)",
-  "image": "data/images/armor_sets_fandom/golden-moon-z-gn.png",
+  "image": "data/images/armor_sets_fandom/auto/golden-moon-z-armor-gunner.png",
   "pieces": [
    {
     "id": "mhfua427",
@@ -16719,7 +16719,7 @@
  },
  {
   "name": "Silver Sol Z Set (Blademaster)",
-  "image": "data/images/armor_sets/silver-sol-z.jpg",
+  "image": "data/images/armor_sets_fandom/auto/silver-sol-z-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua428",
@@ -16761,7 +16761,7 @@
  },
  {
   "name": "Silver Sol Z Set (Gunner)",
-  "image": "data/images/armor_sets/silver-sol-z.jpg",
+  "image": "data/images/armor_sets_fandom/auto/silver-sol-z-armor-gunner.png",
   "pieces": [
    {
     "id": "mhfua429",
@@ -16957,7 +16957,7 @@
  },
  {
   "name": "Fatalis Z Set (Blademaster)",
-  "image": "data/images/armor_sets/fatalis-z.jpg",
+  "image": "data/images/armor_sets_fandom/auto/fatalis-z-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua434",
@@ -16999,7 +16999,7 @@
  },
  {
   "name": "Fatalis Z Set (Gunner)",
-  "image": "data/images/armor_sets/fatalis-z.jpg",
+  "image": "data/images/armor_sets_fandom/auto/fatalis-z-armor-gunner.png",
   "pieces": [
    {
     "id": "mhfua435",
@@ -17041,7 +17041,7 @@
  },
  {
   "name": "White Fatalis Z Set (Blademaster)",
-  "image": "data/images/armor_sets/white-fatalis-z.jpg",
+  "image": "data/images/armor_sets_fandom/auto/white-fatalis-z-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua436",
@@ -17083,7 +17083,7 @@
  },
  {
   "name": "White Fatalis Z Set (Gunner)",
-  "image": "data/images/armor_sets/white-fatalis-z.jpg",
+  "image": "data/images/armor_sets_fandom/auto/white-fatalis-z-armor-gunner.png",
   "pieces": [
    {
     "id": "mhfua437",

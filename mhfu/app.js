@@ -650,7 +650,7 @@ async function init() {
       fetch("data/material_obtain_notes.json"),
       fetch("data/weapons.json"),
       fetch("data/armor_pieces.json"),
-      fetch("data/armor_sets.json"),
+      fetch("data/armor_sets.json?v=20260814-fandom"),
       fetch("data/skills.json"),
       fetch("data/weapon_tree.json"),
       fetch("data/items.json"),
