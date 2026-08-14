@@ -3528,19 +3528,12 @@
   "rank": 1
  },
  {
-  "name": "Guardian (1) Set",
+  "name": "Guardian (1) Set (Male)",
   "image": "data/images/armor_sets_gamefaqs/74198-179.jpg",
   "pieces": [
    {
     "id": "mhfua100",
     "name": "Guardian Helm",
-    "part": "head",
-    "variant": null,
-    "rank": 1
-   },
-   {
-    "id": "mhfua104",
-    "name": "Helper Hood",
     "part": "head",
     "variant": null,
     "rank": 1
@@ -3553,22 +3546,8 @@
     "rank": 1
    },
    {
-    "id": "mhfua547",
-    "name": "Helper Vest",
-    "part": "chest",
-    "variant": null,
-    "rank": 1
-   },
-   {
     "id": "mhfua975",
     "name": "Guardian Vambraces",
-    "part": "arms",
-    "variant": null,
-    "rank": 1
-   },
-   {
-    "id": "mhfua979",
-    "name": "Helper Sleeves",
     "part": "arms",
     "variant": null,
     "rank": 1
@@ -3581,16 +3560,46 @@
     "rank": 1
    },
    {
-    "id": "mhfua1403",
-    "name": "Helper Skirt",
-    "part": "waist",
+    "id": "mhfua1829",
+    "name": "Guardian Boots",
+    "part": "legs",
+    "variant": null,
+    "rank": 1
+   }
+  ],
+  "rank": 1,
+  "galleryGroup": "Guardian (1)",
+  "gender": "Male"
+ },
+ {
+  "name": "Helper Set (Female)",
+  "image": "data/images/armor_sets_gamefaqs/74198-179.jpg",
+  "pieces": [
+   {
+    "id": "mhfua104",
+    "name": "Helper Hood",
+    "part": "head",
     "variant": null,
     "rank": 1
    },
    {
-    "id": "mhfua1829",
-    "name": "Guardian Boots",
-    "part": "legs",
+    "id": "mhfua547",
+    "name": "Helper Vest",
+    "part": "chest",
+    "variant": null,
+    "rank": 1
+   },
+   {
+    "id": "mhfua979",
+    "name": "Helper Sleeves",
+    "part": "arms",
+    "variant": null,
+    "rank": 1
+   },
+   {
+    "id": "mhfua1403",
+    "name": "Helper Skirt",
+    "part": "waist",
     "variant": null,
     "rank": 1
    },
@@ -3602,22 +3611,17 @@
     "rank": 1
    }
   ],
-  "rank": 1
+  "rank": 1,
+  "galleryGroup": "Guardian (1)",
+  "gender": "Female"
  },
  {
-  "name": "Guardian (2) Set",
+  "name": "Guardian (2) Set (Male)",
   "image": "data/images/armor_sets_gamefaqs/74198-181.jpg",
   "pieces": [
    {
     "id": "mhfua101",
     "name": "Guardian Mask",
-    "part": "head",
-    "variant": null,
-    "rank": 1
-   },
-   {
-    "id": "mhfua105",
-    "name": "Healer Glasses",
     "part": "head",
     "variant": null,
     "rank": 1
@@ -3630,22 +3634,8 @@
     "rank": 1
    },
    {
-    "id": "mhfuaY13",
-    "name": "Healer Hood",
-    "part": "chest",
-    "variant": null,
-    "rank": 1
-   },
-   {
     "id": "mhfua976",
     "name": "Guardian Guards",
-    "part": "arms",
-    "variant": null,
-    "rank": 1
-   },
-   {
-    "id": "mhfua980",
-    "name": "Healer Sleeves",
     "part": "arms",
     "variant": null,
     "rank": 1
@@ -3658,16 +3648,46 @@
     "rank": 1
    },
    {
-    "id": "mhfua1404",
-    "name": "Healer Frills",
-    "part": "waist",
+    "id": "mhfua1830",
+    "name": "Guardian Pants",
+    "part": "legs",
+    "variant": null,
+    "rank": 1
+   }
+  ],
+  "rank": 1,
+  "galleryGroup": "Guardian (2)",
+  "gender": "Male"
+ },
+ {
+  "name": "Healer Set (Female)",
+  "image": "data/images/armor_sets_gamefaqs/74198-181.jpg",
+  "pieces": [
+   {
+    "id": "mhfua105",
+    "name": "Healer Glasses",
+    "part": "head",
     "variant": null,
     "rank": 1
    },
    {
-    "id": "mhfua1830",
-    "name": "Guardian Pants",
-    "part": "legs",
+    "id": "mhfuaY13",
+    "name": "Healer Hood",
+    "part": "chest",
+    "variant": null,
+    "rank": 1
+   },
+   {
+    "id": "mhfua980",
+    "name": "Healer Sleeves",
+    "part": "arms",
+    "variant": null,
+    "rank": 1
+   },
+   {
+    "id": "mhfua1404",
+    "name": "Healer Frills",
+    "part": "waist",
     "variant": null,
     "rank": 1
    },
@@ -3679,7 +3699,9 @@
     "rank": 1
    }
   ],
-  "rank": 1
+  "rank": 1,
+  "galleryGroup": "Guardian (2)",
+  "gender": "Female"
  },
  {
   "name": "Ioprey (2) Set",
@@ -7708,7 +7730,7 @@
  },
  {
   "name": "Narga S Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-406.jpg",
+  "image": "data/images/armor_sets_fandom/narga-s-bm.png",
   "pieces": [
    {
     "id": "mhfua208",
@@ -11425,7 +11447,7 @@
  },
  {
   "name": "Dark Akantor Set (Blademaster)",
-  "image": "data/images/armor_sets/dark-akantor.png",
+  "image": "data/images/armor_sets_fandom/dark-akantor-blade.png",
   "pieces": [
    {
     "id": "mhfua302",
@@ -11467,7 +11489,7 @@
  },
  {
   "name": "Dark Akantor Set (Gunner)",
-  "image": "data/images/armor_sets/dark-akantor.png",
+  "image": "data/images/armor_sets_fandom/dark-akantor-gunner.png",
   "pieces": [
    {
     "id": "mhfua303",
@@ -11634,19 +11656,12 @@
   "rank": 3
  },
  {
-  "name": "Guardian U (1) Set",
+  "name": "Guardian U (1) Set (Male)",
   "image": "data/images/armor_sets_gamefaqs/74198-580.jpg",
   "pieces": [
    {
     "id": "mhfua307",
     "name": "Guardian Helm U",
-    "part": "head",
-    "variant": null,
-    "rank": 3
-   },
-   {
-    "id": "mhfua309",
-    "name": "Helper Hood U",
     "part": "head",
     "variant": null,
     "rank": 3
@@ -11659,22 +11674,8 @@
     "rank": 3
    },
    {
-    "id": "mhfua755",
-    "name": "Helper Vest U",
-    "part": "chest",
-    "variant": null,
-    "rank": 3
-   },
-   {
     "id": "mhfua1182",
     "name": "Guardian Vambraces U",
-    "part": "arms",
-    "variant": null,
-    "rank": 3
-   },
-   {
-    "id": "mhfua1184",
-    "name": "Helper Sleeves U",
     "part": "arms",
     "variant": null,
     "rank": 3
@@ -11687,16 +11688,46 @@
     "rank": 3
    },
    {
-    "id": "mhfua1608",
-    "name": "Helper Skirt U",
-    "part": "waist",
+    "id": "mhfua2038",
+    "name": "Guardian Boots U",
+    "part": "legs",
+    "variant": null,
+    "rank": 3
+   }
+  ],
+  "rank": 3,
+  "galleryGroup": "Guardian U (1)",
+  "gender": "Male"
+ },
+ {
+  "name": "Helper U Set (Female)",
+  "image": "data/images/armor_sets_gamefaqs/74198-580.jpg",
+  "pieces": [
+   {
+    "id": "mhfua309",
+    "name": "Helper Hood U",
+    "part": "head",
     "variant": null,
     "rank": 3
    },
    {
-    "id": "mhfua2038",
-    "name": "Guardian Boots U",
-    "part": "legs",
+    "id": "mhfua755",
+    "name": "Helper Vest U",
+    "part": "chest",
+    "variant": null,
+    "rank": 3
+   },
+   {
+    "id": "mhfua1184",
+    "name": "Helper Sleeves U",
+    "part": "arms",
+    "variant": null,
+    "rank": 3
+   },
+   {
+    "id": "mhfua1608",
+    "name": "Helper Skirt U",
+    "part": "waist",
     "variant": null,
     "rank": 3
    },
@@ -11708,22 +11739,17 @@
     "rank": 3
    }
   ],
-  "rank": 3
+  "rank": 3,
+  "galleryGroup": "Guardian U (1)",
+  "gender": "Female"
  },
  {
-  "name": "Guardian U (2) Set",
+  "name": "Guardian U (2) Set (Male)",
   "image": "data/images/armor_sets_gamefaqs/74198-582.jpg",
   "pieces": [
    {
     "id": "mhfua308",
     "name": "Guardian Mask U",
-    "part": "head",
-    "variant": null,
-    "rank": 3
-   },
-   {
-    "id": "mhfua310",
-    "name": "Healer Beret U",
     "part": "head",
     "variant": null,
     "rank": 3
@@ -11736,22 +11762,8 @@
     "rank": 3
    },
    {
-    "id": "mhfuaY36",
-    "name": "Healer Hood U",
-    "part": "chest",
-    "variant": null,
-    "rank": 3
-   },
-   {
     "id": "mhfua1183",
     "name": "Guardian Guards U",
-    "part": "arms",
-    "variant": null,
-    "rank": 3
-   },
-   {
-    "id": "mhfua1185",
-    "name": "Healer Sleeves U",
     "part": "arms",
     "variant": null,
     "rank": 3
@@ -11764,16 +11776,46 @@
     "rank": 3
    },
    {
-    "id": "mhfua1609",
-    "name": "Healer Frills U",
-    "part": "waist",
+    "id": "mhfua2039",
+    "name": "Guardian Pants U",
+    "part": "legs",
+    "variant": null,
+    "rank": 3
+   }
+  ],
+  "rank": 3,
+  "galleryGroup": "Guardian U (2)",
+  "gender": "Male"
+ },
+ {
+  "name": "Healer U Set (Female)",
+  "image": "data/images/armor_sets_gamefaqs/74198-582.jpg",
+  "pieces": [
+   {
+    "id": "mhfua310",
+    "name": "Healer Beret U",
+    "part": "head",
     "variant": null,
     "rank": 3
    },
    {
-    "id": "mhfua2039",
-    "name": "Guardian Pants U",
-    "part": "legs",
+    "id": "mhfuaY36",
+    "name": "Healer Hood U",
+    "part": "chest",
+    "variant": null,
+    "rank": 3
+   },
+   {
+    "id": "mhfua1185",
+    "name": "Healer Sleeves U",
+    "part": "arms",
+    "variant": null,
+    "rank": 3
+   },
+   {
+    "id": "mhfua1609",
+    "name": "Healer Frills U",
+    "part": "waist",
     "variant": null,
     "rank": 3
    },
@@ -11785,7 +11827,9 @@
     "rank": 3
    }
   ],
-  "rank": 3
+  "rank": 3,
+  "galleryGroup": "Guardian U (2)",
+  "gender": "Female"
  },
  {
   "name": "Melahoa U Set (Blademaster)",
@@ -12209,7 +12253,7 @@
  },
  {
   "name": "Golden Moon Set (Blademaster)",
-  "image": "data/images/armor_sets/golden-moon.png",
+  "image": "data/images/armor_sets_fandom/golden-moon-bm.png",
   "pieces": [
    {
     "id": "mhfua321",
@@ -12251,7 +12295,7 @@
  },
  {
   "name": "Golden Moon Set (Gunner)",
-  "image": "data/images/armor_sets/golden-moon.png",
+  "image": "data/images/armor_sets_fandom/golden-moon-gn.png",
   "pieces": [
    {
     "id": "mhfua322",
@@ -13791,7 +13835,7 @@
  },
  {
   "name": "Narga X Set (Blademaster)",
-  "image": "data/images/armor_sets/narga-x.jpg",
+  "image": "data/images/armor_sets_fandom/narga-x-bm.png",
   "pieces": [
    {
     "id": "mhfua359",
@@ -13833,7 +13877,7 @@
  },
  {
   "name": "Narga X Set (Gunner)",
-  "image": "data/images/armor_sets/narga-x.jpg",
+  "image": "data/images/armor_sets_fandom/narga-x-gn.png",
   "pieces": [
    {
     "id": "mhfua360",
@@ -15177,7 +15221,7 @@
  },
  {
   "name": "Golden Shin / Puppet Master Shin Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-742.jpg",
+  "image": "data/images/armor_sets_fandom/golden-shin.png",
   "pieces": [
    {
     "id": "mhfua392",
@@ -15219,7 +15263,7 @@
  },
  {
   "name": "Golden Shin / Puppet Master Shin Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-743.jpg",
+  "image": "data/images/armor_sets_fandom/golden-shin.png",
   "pieces": [
    {
     "id": "mhfua393",
@@ -16591,7 +16635,7 @@
  },
  {
   "name": "Golden Moon Z Set (Blademaster)",
-  "image": "data/images/armor_sets/golden-moon-z.jpg",
+  "image": "data/images/armor_sets_fandom/golden-moon-z-bm.png",
   "pieces": [
    {
     "id": "mhfua426",
@@ -16633,7 +16677,7 @@
  },
  {
   "name": "Golden Moon Z Set (Gunner)",
-  "image": "data/images/armor_sets/golden-moon-z.jpg",
+  "image": "data/images/armor_sets_fandom/golden-moon-z-gn.png",
   "pieces": [
    {
     "id": "mhfua427",
@@ -17158,7 +17202,7 @@
  },
  {
   "name": "Famitsu Set",
-  "image": null,
+  "image": "data/images/armor_sets_fandom/famitsu-x.png",
   "pieces": [
    {
     "id": "mhfuaX37",
@@ -17389,7 +17433,7 @@
  },
  {
   "name": "Hypnoc Set",
-  "image": null,
+  "image": "data/images/armor_sets_fandom/hypno-s-bm.png",
   "pieces": [
    {
     "id": "mhfuaX84",
@@ -17683,7 +17727,7 @@
  },
  {
   "name": "Naruga Set",
-  "image": null,
+  "image": "data/images/armor_sets_fandom/narga-s-bm.png",
   "pieces": [
    {
     "id": "mhfuaX128",
@@ -17935,7 +17979,7 @@
  },
  {
   "name": "True Golden Set",
-  "image": null,
+  "image": "data/images/armor_sets_fandom/golden.png",
   "pieces": [
    {
     "id": "mhfuaX178",
@@ -17970,7 +18014,7 @@
  },
  {
   "name": "True Indra Set",
-  "image": null,
+  "image": "data/images/armor_sets_fandom/true-indra.png",
   "pieces": [
    {
     "id": "mhfuaX183",
@@ -18047,7 +18091,7 @@
  },
  {
   "name": "True Steadfast Set",
-  "image": null,
+  "image": "data/images/armor_sets_fandom/steadfast.png",
   "pieces": [
    {
     "id": "mhfuaX194",
@@ -18352,5 +18396,91 @@
    }
   ],
   "rank": 2
+ },
+ {
+  "name": "Diasorte Set (Blademaster)",
+  "image": "data/images/armor_sets_fandom/diasorte.png",
+  "pieces": [
+   {
+    "id": "mhfua274",
+    "name": "Diasorte Helm",
+    "part": "head",
+    "variant": null,
+    "rank": 2
+   },
+   {
+    "id": "mhfua720",
+    "name": "Diasorte Mail",
+    "part": "chest",
+    "variant": null,
+    "rank": 2
+   },
+   {
+    "id": "mhfua1150",
+    "name": "Diasorte Vambraces",
+    "part": "arms",
+    "variant": null,
+    "rank": 2
+   },
+   {
+    "id": "mhfua1573",
+    "name": "Diasorte Coil",
+    "part": "waist",
+    "variant": null,
+    "rank": 2
+   },
+   {
+    "id": "mhfua2006",
+    "name": "Diasorte Greaves",
+    "part": "legs",
+    "variant": null,
+    "rank": 2
+   }
+  ],
+  "rank": 2,
+  "galleryGroup": "Diasorte Set"
+ },
+ {
+  "name": "Diasorte Set (Gunner)",
+  "image": "data/images/armor_sets_fandom/diasorte.png",
+  "pieces": [
+   {
+    "id": "mhfua275",
+    "name": "Diasorte Cap",
+    "part": "head",
+    "variant": null,
+    "rank": 2
+   },
+   {
+    "id": "mhfua721",
+    "name": "Diasorte Vest",
+    "part": "chest",
+    "variant": null,
+    "rank": 2
+   },
+   {
+    "id": "mhfua1151",
+    "name": "Diasorte Guards",
+    "part": "arms",
+    "variant": null,
+    "rank": 2
+   },
+   {
+    "id": "mhfua1574",
+    "name": "Diasorte Coat",
+    "part": "waist",
+    "variant": null,
+    "rank": 2
+   },
+   {
+    "id": "mhfua2007",
+    "name": "Diasorte Leggings",
+    "part": "legs",
+    "variant": null,
+    "rank": 2
+   }
+  ],
+  "rank": 2,
+  "galleryGroup": "Diasorte Set"
  }
 ]

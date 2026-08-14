@@ -136,7 +136,8 @@ function setHunterClass(setName) {
   return "BG";
 }
 function matchesSetHunterTypeFilter(setName) {
-  return armorHunterTypeFilter === "all" || setHunterClass(setName) === armorHunterTypeFilter;
+  const kind = setHunterClass(setName);
+  return armorHunterTypeFilter === "all" || kind === armorHunterTypeFilter || (kind === "BG" && (armorHunterTypeFilter === "B" || armorHunterTypeFilter === "G"));
 }
 // Same idea for implied (piece-derived) groups, which have no name suffix to
 // read -- classify from what their pieces actually are: uniformly B, uniformly
@@ -2329,8 +2330,15 @@ function renderArmorIndex(query) {
     return 0; // Low
   }
   const explicitNames = new Set(setMatches.map(s => s.name));
+  const seenGalleryGroups = new Set();
+  const gallerySetMatches = setMatchesFiltered.filter(s => {
+    const group = s.galleryGroup || s.name;
+    if (seenGalleryGroups.has(group)) return false;
+    seenGalleryGroups.add(group);
+    return true;
+  });
   const allSets = [
-    ...setMatchesFiltered.map(s => ({ name: s.name, image: s.localImage || s.image, rank: setRank(s.pieces.map(r => armorPieces.find(x => x.id === r.id)).filter(Boolean)), isSet: true })),
+    ...gallerySetMatches.map(s => ({ name: s.name, image: s.localImage || s.image, galleryGroup: s.galleryGroup || s.name, rank: setRank(s.pieces.map(r => armorPieces.find(x => x.id === r.id)).filter(Boolean)), isSet: true })),
     ...impliedFiltered.filter(g => !explicitNames.has(armorSetDisplayName(g.prefix))).map(g => ({ name: armorSetDisplayName(g.prefix), image: armorSetImg(armorSetDisplayName(g.prefix)), rank: setRank(g.pieces), isImplied: true })),
   ];
 
@@ -2458,11 +2466,14 @@ function showArmorSetDetail(setName) {
   }).join("<hr class='armor-piece-divider armor-piece-divider--part'>");
 
   const displayName = set ? set.name : armorSetDisplayName((impliedGroup || partialGroup).prefix);
+  const variants = set && set.galleryGroup ? armorSets.filter(s => s.galleryGroup === set.galleryGroup) : [];
+  const variantHtml = variants.length > 1 ? `<div class="armor-variant-switcher"><span>Variantes:</span>${variants.map(v => `<button type="button" data-variant-set="${v.name}"${v.name === set.name ? " disabled" : ""}>${v.name}</button>`).join("")}</div>` : "";
   armorSetDetailEl.innerHTML = `
     <a class="decorations-back" href="armor">${ui("armorBack")}</a>
     <div class="armor-set-detail-header">
       ${set ? `<img class="armor-set-full-image" src="${set.localImage || set.image}" alt="">` : `<img class="armor-set-full-image" src="${armorSetImg(displayName)}" alt="" onerror="this.style.display='none'">`}
       <h2>${displayName}</h2>
+      ${variantHtml}
     </div>
     ${armorSetHunterTypeSummary(resolvedPieces)}
     <section class="block">
@@ -2481,6 +2492,9 @@ function showArmorSetDetail(setName) {
   });
   armorSetDetailEl.querySelectorAll(".armor-piece-link[data-piece]").forEach(btn => {
     btn.addEventListener("click", () => navArmorPiece(btn.dataset.piece));
+  });
+  armorSetDetailEl.querySelectorAll("[data-variant-set]").forEach(btn => {
+    btn.addEventListener("click", () => navArmorSet(btn.dataset.variantSet));
   });
 }
 

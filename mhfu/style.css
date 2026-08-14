@@ -1617,6 +1617,9 @@ body {
 }
 .armor-set-full-image { max-width: 320px; width: 100%; object-fit: contain; background: var(--bg-panel-alt); border-radius: 10px; }
 .armor-set-detail-header h2 { margin: 0; }
+.armor-variant-switcher { display: flex; flex-wrap: wrap; align-items: center; gap: .45rem; margin-top: .35rem; font-size: .9rem; }
+.armor-variant-switcher button { border: 1px solid var(--border-color); border-radius: 999px; padding: .25rem .55rem; background: var(--bg-panel-alt); color: inherit; cursor: pointer; }
+.armor-variant-switcher button:disabled { opacity: .55; cursor: default; }
 
 .armor-piece-header { margin: 1.5rem 0 0.5rem; }
 .armor-piece-divider { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
