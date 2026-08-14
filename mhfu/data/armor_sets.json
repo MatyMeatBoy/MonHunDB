@@ -17125,7 +17125,7 @@
  },
  {
   "name": "Devil Blos Set",
-  "image": null,
+  "image": "data/images/armor_sets_fandom/devil-blos.png",
   "pieces": [
    {
     "id": "mhfuaX23",
@@ -18056,7 +18056,7 @@
  },
  {
   "name": "True Mizuha Set",
-  "image": null,
+  "image": "data/images/armor_sets_fandom/true-mizuha.png",
   "pieces": [
    {
     "id": "mhfuaX188",
@@ -18126,7 +18126,7 @@
  },
  {
   "name": "Ucamulbas Set",
-  "image": null,
+  "image": "data/images/armor_sets_fandom/ucamulbas.png",
   "pieces": [
    {
     "id": "mhfuaX210",
@@ -18203,7 +18203,7 @@
  },
  {
   "name": "Volganos Set",
-  "image": null,
+  "image": "data/images/armor_sets_fandom/volganos.png",
   "pieces": [
    {
     "id": "mhfuaX220",

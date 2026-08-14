@@ -19,7 +19,7 @@
 
 | Recurso | Completo | Falta |
 |---|---:|---:|
-| Fotos de sets de armadura | `██████████` **98,5% (399/405)** | **6 sets especiales/evento aún sin imagen fiable** |
+| Fotos de sets de armadura | `██████████` **99,5% (403/405)** | **2 sets especiales/evento sin retrato Fandom fiable** |
 | Renders de piezas de armadura | `██████████` **97,5% (2.156/2.211)** | **55 piezas** |
 | Materiales de monstruo | `█████████░` **98,8% (82/83 fichas)** | **1 ficha** |
 | Armas, adornos, objetos y habilidades | **Catálogo cargado** | Falta auditoría visual individual |
