@@ -650,7 +650,7 @@ async function init() {
       fetch("data/material_obtain_notes.json"),
       fetch("data/weapons.json"),
       fetch("data/armor_pieces.json"),
-      fetch("data/armor_sets.json?v=20260814-fandom"),
+      fetch("data/armor_sets.json?v=20260814-fandom-v2"),
       fetch("data/skills.json"),
       fetch("data/weapon_tree.json"),
       fetch("data/items.json"),
@@ -1145,6 +1145,20 @@ function buildImpliedArmorGroups() {
 }
 
 let partialArmorGroupsCache = null;
+function explicitArmorPrefixSet() {
+  const prefixes = new Set();
+  for (const s of armorSets) {
+    const display = s.name.replace(/\s+Set(?:\s+\((?:Blademaster|Gunner|Male|Female)\))?$/i, "");
+    prefixes.add(display);
+    prefixes.add(display.replace(/\s+\((?:Male|Female)\)$/i, ""));
+    for (const alias of s.aliases || []) prefixes.add(alias);
+    for (const ref of s.pieces || []) {
+      const p = armorPieces.find(x => x.id === ref.id);
+      if (p) prefixes.add(armorSetPrefix(p.name));
+    }
+  }
+  return prefixes;
+}
 function buildPartialArmorGroups() {
   if (partialArmorGroupsCache) return partialArmorGroupsCache;
   // sets that have some pieces but not the full 5 (e.g. Jaggi Set)
@@ -1165,7 +1179,7 @@ function buildPartialArmorGroups() {
   // and hide layered-armor-only sets. Also exclude sets that have an explicit
   // entry in armor_sets.json to prevent duplicates.
   const fullKeys = new Set(buildImpliedArmorGroups().map(g => g.prefix));
-  const explicitPrefixes = new Set(armorSets.map(s => s.name.replace(/\s+Set$/i, "")));
+  const explicitPrefixes = explicitArmorPrefixSet();
   partialArmorGroupsCache = partial.filter(g => !fullKeys.has(g.prefix) && !explicitPrefixes.has(g.prefix) && !ARMOR_SET_HIDDEN.has(g.prefix));
   return partialArmorGroupsCache;
 }
@@ -2312,7 +2326,8 @@ function renderArmorIndex(query) {
   // hunterType filtering happens after usedIds/usedNames so hiding e.g. the
   // Gunner sets while viewing "Blademaster" doesn't make their pieces look loose
   const setMatchesFiltered = setMatches.filter(s => matchesSetHunterTypeFilter(s.name));
-  const impliedFiltered = implied.filter(g => armorHunterTypeFilter === "all" || impliedGroupHunterClass(g.pieces) === armorHunterTypeFilter);
+  const explicitCoverage = explicitArmorPrefixSet();
+  const impliedFiltered = implied.filter(g => !explicitCoverage.has(g.prefix) && (armorHunterTypeFilter === "all" || impliedGroupHunterClass(g.pieces) === armorHunterTypeFilter));
   const looseMatches = armorPieces.filter(p => !usedIds.has(p.id) && !usedNames.has(p.name.toLowerCase()) && (!q ||
     normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q)))
     .filter(p => p.materials && p.materials.length && p.defense)
@@ -2370,7 +2385,7 @@ function renderArmorIndex(query) {
   }
   const partialGroups = !q ? buildPartialArmorGroups() : buildPartialArmorGroups().filter(g => normalizeSearch(g.prefix).includes(q));
   // Exclude partial groups that are already covered by explicit or implied sets
-  const allSetNames = new Set(explicitNames);
+  const allSetNames = new Set([...explicitNames, ...explicitCoverage].map(n => n.endsWith(" Set") ? n : armorSetDisplayName(n)));
   for (const s of implied) allSetNames.add(armorSetDisplayName(s.prefix));
   const filteredPartial = partialGroups.filter(g => !allSetNames.has(armorSetDisplayName(g.prefix)))
     .filter(g => armorHunterTypeFilter === "all" || impliedGroupHunterClass(g.pieces) === armorHunterTypeFilter)
