@@ -24,7 +24,7 @@ function parseRows(html) {
     const row = m[1];
     const cells = [...row.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map(x => x[1]);
     if (cells.length < 4) continue;
-    const piece = clean(cells[1]);
+    const piece = clean(cells[1]).replace(/^G\.\s+/, "Guardian ");
     if (!piece || /^(Head|Chest|Arms|Waist|Legs)$/.test(piece)) continue;
     const skills = [];
     for (const s of cells[3].matchAll(/<a[^>]*href="\/data\/skills\/[^"?]+"[^>]*>([^<]+)<\/a>/g)) {

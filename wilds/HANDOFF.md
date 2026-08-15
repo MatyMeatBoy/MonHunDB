@@ -67,7 +67,7 @@ Los nombres de sets/piezas con "Alpha"/"Beta" ahora usan los símbolos griegos *
 ## 4. Lo que falta (para retomar)
 
 - 🔴 **Materiales por pieza de armadura** (solo hay a nivel de set) — si se necesita desglose, re-scrapear página individual de cada pieza.
-- 🟢 **Habilidades por pieza**: 592/690 piezas matcheadas desde las páginas de `armor-series`; las 98 restantes no tienen match exacto en Kiranico y conservan sus datos vacíos sin inventar. Los resúmenes de set quedaron en 155/159: se reconstruyeron 21 sets que no tenían resumen usando únicamente sus piezas ya matcheadas. También se normalizaron cinco nombres `Diver's` que venían con una entidad HTML literal.
+- 🟢 **Habilidades por pieza**: 665/690 piezas matcheadas desde las páginas de `armor-series`; las 25 restantes no tienen match exacto en Kiranico y conservan sus datos vacíos sin inventar. Los resúmenes de set quedaron en 158/159: se reconstruyeron 24 sets que no tenían resumen usando únicamente sus piezas ya matcheadas. También se normalizaron nombres `Diver's` y Guardian que venían abreviados o con entidades HTML literales.
 - 🔴 **Árbol de mejora de armas** (prevId/nextId) — sin esto el catálogo no puede mostrar "solo finales". Buscar otra fuente (quizás `monsterhunterwiki.org` tenga cadena de crafteo, no probado).
 - 🟡 **Talismanes**: habilidades cubiertas en 181/185; quedan sin ícono/materiales y 4 entradas especiales sin habilidad en la fuente.
 - 🟡 **34/286 materiales** y **30/177 skills** sin ícono — las páginas ya scrapeadas no los cubren.

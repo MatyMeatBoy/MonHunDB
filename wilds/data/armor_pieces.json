@@ -9818,7 +9818,7 @@
   },
   {
     "id": "wp268",
-    "name": "G Arkveld Helm α",
+    "name": "Guardian Arkveld Helm α",
     "part": "head",
     "defense": 66,
     "rarity": 8,
@@ -9835,7 +9835,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Flayer",
+        "level": 1
+      },
+      {
+        "name": "Partbreaker",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/47/G_arkveld_helm_a_helm_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_helm_a_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld α Set",
@@ -9843,7 +9860,7 @@
   },
   {
     "id": "wp269",
-    "name": "G Arkveld Mail α",
+    "name": "Guardian Arkveld Mail α",
     "part": "chest",
     "defense": 66,
     "rarity": 8,
@@ -9855,7 +9872,24 @@
       "dragon": -4
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Flayer",
+        "level": 2
+      },
+      {
+        "name": "Blight Resistance",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/21/G_arkveld_mail_a_body_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_mail_a_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld α Set",
@@ -9863,7 +9897,7 @@
   },
   {
     "id": "wp270",
-    "name": "G Arkveld Vambraces α",
+    "name": "Guardian Arkveld Vambraces α",
     "part": "arms",
     "defense": 66,
     "rarity": 8,
@@ -9878,7 +9912,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 2
+      },
+      {
+        "name": "Blight Resistance",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2a/G_arkveld_vambraces_a_arm_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_vambraces_a_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld α Set",
@@ -9886,7 +9937,7 @@
   },
   {
     "id": "wp271",
-    "name": "G Arkveld Coil α",
+    "name": "Guardian Arkveld Coil α",
     "part": "waist",
     "defense": 66,
     "rarity": 8,
@@ -9898,7 +9949,24 @@
       "dragon": -4
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Flayer",
+        "level": 2
+      },
+      {
+        "name": "Elemental Absorption",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/02/G_arkveld_coil_a_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_coil_a_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld α Set",
@@ -9906,7 +9974,7 @@
   },
   {
     "id": "wp272",
-    "name": "G Arkveld Greaves α",
+    "name": "Guardian Arkveld Greaves α",
     "part": "legs",
     "defense": 66,
     "rarity": 8,
@@ -9918,7 +9986,24 @@
       "dragon": -4
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Elemental Absorption",
+        "level": 2
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/22/G_arkveld_greaves_a_leg_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_greaves_a_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld α Set",
@@ -9926,7 +10011,7 @@
   },
   {
     "id": "wp273",
-    "name": "G Arkveld Helm β",
+    "name": "Guardian Arkveld Helm β",
     "part": "head",
     "defense": 66,
     "rarity": 8,
@@ -9943,7 +10028,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Flayer",
+        "level": 1
+      },
+      {
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d1/G_arkveld_helm_b_helm_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_helm_b_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld β Set",
@@ -9951,7 +10053,7 @@
   },
   {
     "id": "wp274",
-    "name": "G Arkveld Mail β",
+    "name": "Guardian Arkveld Mail β",
     "part": "chest",
     "defense": 66,
     "rarity": 8,
@@ -9966,7 +10068,24 @@
       3,
       3
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Flayer",
+        "level": 1
+      },
+      {
+        "name": "Blight Resistance",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5e/G_arkveld_mail_b_body_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_mail_b_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld β Set",
@@ -9974,7 +10093,7 @@
   },
   {
     "id": "wp275",
-    "name": "G Arkveld Vambraces β",
+    "name": "Guardian Arkveld Vambraces β",
     "part": "arms",
     "defense": 66,
     "rarity": 8,
@@ -9993,7 +10112,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/32/G_arkveld_vambraces_b_arm_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_vambraces_b_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld β Set",
@@ -10001,7 +10133,7 @@
   },
   {
     "id": "wp276",
-    "name": "G Arkveld Coil β",
+    "name": "Guardian Arkveld Coil β",
     "part": "waist",
     "defense": 66,
     "rarity": 8,
@@ -10018,7 +10150,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Flayer",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b7/G_arkveld_coil_b_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_coil_b_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld β Set",
@@ -10026,7 +10171,7 @@
   },
   {
     "id": "wp277",
-    "name": "G Arkveld Greaves β",
+    "name": "Guardian Arkveld Greaves β",
     "part": "legs",
     "defense": 66,
     "rarity": 8,
@@ -10043,7 +10188,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Elemental Absorption",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/ad/G_arkveld_greaves_b_leg_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_greaves_b_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld β Set",
@@ -10051,7 +10213,7 @@
   },
   {
     "id": "wp278",
-    "name": "G Doshaguma Helm α",
+    "name": "Guardian Doshaguma Helm α",
     "part": "head",
     "defense": 48,
     "rarity": 6,
@@ -10068,7 +10230,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Heroics",
+        "level": 1
+      },
+      {
+        "name": "Hunger Resistance",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7f/G_doshaguma_helm_a_helm_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_helm_a_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma α Set",
@@ -10076,7 +10255,7 @@
   },
   {
     "id": "wp279",
-    "name": "G Doshaguma Mail α",
+    "name": "Guardian Doshaguma Mail α",
     "part": "chest",
     "defense": 48,
     "rarity": 6,
@@ -10093,7 +10272,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Constitution",
+        "level": 2
+      },
+      {
+        "name": "Iron Skin",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7b/G_doshaguma_mail_a_body_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_mail_a_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma α Set",
@@ -10101,7 +10297,7 @@
   },
   {
     "id": "wp280",
-    "name": "G Doshaguma Braces α",
+    "name": "Guardian Doshaguma Braces α",
     "part": "arms",
     "defense": 48,
     "rarity": 6,
@@ -10120,7 +10316,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Heroics",
+        "level": 1
+      },
+      {
+        "name": "Iron Skin",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/94/G_doshaguma_braces_a_arm_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_braces_a_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma α Set",
@@ -10128,7 +10341,7 @@
   },
   {
     "id": "wp281",
-    "name": "G Doshaguma Coil α",
+    "name": "Guardian Doshaguma Coil α",
     "part": "waist",
     "defense": 48,
     "rarity": 6,
@@ -10143,7 +10356,24 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Heroics",
+        "level": 2
+      },
+      {
+        "name": "Hunger Resistance",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fa/G_doshaguma_coil_a_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_coil_a_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma α Set",
@@ -10151,7 +10381,7 @@
   },
   {
     "id": "wp282",
-    "name": "G Doshaguma Greaves α",
+    "name": "Guardian Doshaguma Greaves α",
     "part": "legs",
     "defense": 48,
     "rarity": 6,
@@ -10166,7 +10396,24 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Heroics",
+        "level": 1
+      },
+      {
+        "name": "Constitution",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/36/G_doshaguma_greaves_a_leg_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_greaves_a_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma α Set",
@@ -10174,7 +10421,7 @@
   },
   {
     "id": "wp283",
-    "name": "G Doshaguma Helm β",
+    "name": "Guardian Doshaguma Helm β",
     "part": "head",
     "defense": 48,
     "rarity": 6,
@@ -10193,7 +10440,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Heroics",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b9/G_doshaguma_helm_b_helm_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_helm_b_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma β Set",
@@ -10201,7 +10461,7 @@
   },
   {
     "id": "wp284",
-    "name": "G Doshaguma Mail β",
+    "name": "Guardian Doshaguma Mail β",
     "part": "chest",
     "defense": 48,
     "rarity": 6,
@@ -10218,7 +10478,20 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Constitution",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c0/G_doshaguma_mail_b_body_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_mail_b_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma β Set",
@@ -10226,7 +10499,7 @@
   },
   {
     "id": "wp285",
-    "name": "G Doshaguma Braces β",
+    "name": "Guardian Doshaguma Braces β",
     "part": "arms",
     "defense": 48,
     "rarity": 6,
@@ -10245,7 +10518,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Heroics",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/40/G_doshaguma_braces_b_arm_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_braces_b_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma β Set",
@@ -10253,7 +10539,7 @@
   },
   {
     "id": "wp286",
-    "name": "G Doshaguma Coil β",
+    "name": "Guardian Doshaguma Coil β",
     "part": "waist",
     "defense": 48,
     "rarity": 6,
@@ -10270,7 +10556,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Heroics",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d7/G_doshaguma_coil_b_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_coil_b_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma β Set",
@@ -10278,7 +10577,7 @@
   },
   {
     "id": "wp287",
-    "name": "G Doshaguma Greaves β",
+    "name": "Guardian Doshaguma Greaves β",
     "part": "legs",
     "defense": 48,
     "rarity": 6,
@@ -10295,7 +10594,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Heroics",
+        "level": 1
+      },
+      {
+        "name": "Constitution",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/46/G_doshaguma_greaves_b_leg_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_greaves_b_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma β Set",
@@ -10303,7 +10619,7 @@
   },
   {
     "id": "wp288",
-    "name": "G Ebony Helm α",
+    "name": "Guardian Ebony Helm α",
     "part": "head",
     "defense": 48,
     "rarity": 6,
@@ -10315,7 +10631,24 @@
       "dragon": 4
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Burst",
+        "level": 2
+      },
+      {
+        "name": "Earplugs",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/77/G_ebony_helm_a_helm_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_helm_a_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony α Set",
@@ -10323,7 +10656,7 @@
   },
   {
     "id": "wp289",
-    "name": "G Ebony Mail α",
+    "name": "Guardian Ebony Mail α",
     "part": "chest",
     "defense": 48,
     "rarity": 6,
@@ -10338,7 +10671,24 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Earplugs",
+        "level": 1
+      },
+      {
+        "name": "Bleeding Resistance",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/bd/G_ebony_mail_a_body_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_mail_a_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony α Set",
@@ -10346,7 +10696,7 @@
   },
   {
     "id": "wp290",
-    "name": "G Ebony Braces α",
+    "name": "Guardian Ebony Braces α",
     "part": "arms",
     "defense": 48,
     "rarity": 6,
@@ -10358,7 +10708,24 @@
       "dragon": 4
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Burst",
+        "level": 2
+      },
+      {
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/24/G_ebony_braces_a_arm_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_braces_a_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony α Set",
@@ -10366,7 +10733,7 @@
   },
   {
     "id": "wp291",
-    "name": "G Ebony Coil α",
+    "name": "Guardian Ebony Coil α",
     "part": "waist",
     "defense": 48,
     "rarity": 6,
@@ -10381,7 +10748,24 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Burst",
+        "level": 1
+      },
+      {
+        "name": "Bleeding Resistance",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/87/G_ebony_coil_a_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_coil_a_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony α Set",
@@ -10389,7 +10773,7 @@
   },
   {
     "id": "wp292",
-    "name": "G Ebony Greaves α",
+    "name": "Guardian Ebony Greaves α",
     "part": "legs",
     "defense": 48,
     "rarity": 6,
@@ -10404,7 +10788,24 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Earplugs",
+        "level": 1
+      },
+      {
+        "name": "Divine Blessing",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/eb/G_ebony_greaves_a_leg_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_greaves_a_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony α Set",
@@ -10412,7 +10813,7 @@
   },
   {
     "id": "wp293",
-    "name": "G Ebony Helm β",
+    "name": "Guardian Ebony Helm β",
     "part": "head",
     "defense": 48,
     "rarity": 6,
@@ -10427,7 +10828,20 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Burst",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/14/G_ebony_helm_b_helm_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_helm_b_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony β Set",
@@ -10435,7 +10849,7 @@
   },
   {
     "id": "wp294",
-    "name": "G Ebony Mail β",
+    "name": "Guardian Ebony Mail β",
     "part": "chest",
     "defense": 48,
     "rarity": 6,
@@ -10452,7 +10866,20 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Earplugs",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0e/G_ebony_mail_b_body_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_mail_b_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony β Set",
@@ -10460,7 +10887,7 @@
   },
   {
     "id": "wp295",
-    "name": "G Ebony Braces β",
+    "name": "Guardian Ebony Braces β",
     "part": "arms",
     "defense": 48,
     "rarity": 6,
@@ -10477,7 +10904,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Burst",
+        "level": 1
+      },
+      {
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/95/G_ebony_braces_b_arm_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_braces_b_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony β Set",
@@ -10485,7 +10929,7 @@
   },
   {
     "id": "wp296",
-    "name": "G Ebony Coil β",
+    "name": "Guardian Ebony Coil β",
     "part": "waist",
     "defense": 48,
     "rarity": 6,
@@ -10502,7 +10946,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Burst",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f9/G_ebony_coil_b_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_coil_b_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony β Set",
@@ -10510,7 +10967,7 @@
   },
   {
     "id": "wp297",
-    "name": "G Ebony Greaves β",
+    "name": "Guardian Ebony Greaves β",
     "part": "legs",
     "defense": 48,
     "rarity": 6,
@@ -10527,7 +10984,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Earplugs",
+        "level": 1
+      },
+      {
+        "name": "Divine Blessing",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8f/G_ebony_greaves_b_leg_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_greaves_b_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony β Set",
@@ -10535,7 +11009,7 @@
   },
   {
     "id": "wp298",
-    "name": "G Fulgur Helm α",
+    "name": "Guardian Fulgur Helm α",
     "part": "head",
     "defense": 48,
     "rarity": 6,
@@ -10547,7 +11021,24 @@
       "dragon": -2
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Fulgur Anjanath's Will",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Agitator",
+        "level": 2
+      },
+      {
+        "name": "Coalescence",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1c/G_fulgur_helm_a_helm_typea_mhwilds_wiki_guide_200px.png/110px-G_fulgur_helm_a_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Fulgur α Set",
@@ -10555,7 +11046,7 @@
   },
   {
     "id": "wp299",
-    "name": "G Fulgur Mail α",
+    "name": "Guardian Fulgur Mail α",
     "part": "chest",
     "defense": 48,
     "rarity": 6,
@@ -10570,7 +11061,24 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Fulgur Anjanath's Will",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Maximum Might",
+        "level": 1
+      },
+      {
+        "name": "Coalescence",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a6/G_fulgur_mail_a_body_typea_mhwilds_wiki_guide_200px.png/110px-G_fulgur_mail_a_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Fulgur α Set",
@@ -10578,7 +11086,7 @@
   },
   {
     "id": "wp300",
-    "name": "G Fulgur Vambraces α",
+    "name": "Guardian Fulgur Vambraces α",
     "part": "arms",
     "defense": 48,
     "rarity": 6,
@@ -10593,7 +11101,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Fulgur Anjanath's Will",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Maximum Might",
+        "level": 1
+      },
+      {
+        "name": "Agitator",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/19/G_fulgur_vambraces_a_arm_typea_mhwilds_wiki_guide_200px.png/110px-G_fulgur_vambraces_a_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Fulgur α Set",
@@ -10601,7 +11126,7 @@
   },
   {
     "id": "wp301",
-    "name": "G Fulgur Coil α",
+    "name": "Guardian Fulgur Coil α",
     "part": "waist",
     "defense": 48,
     "rarity": 6,
@@ -10618,7 +11143,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Fulgur Anjanath's Will",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Stamina Surge",
+        "level": 1
+      },
+      {
+        "name": "Maximum Might",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b7/G_fulgur_coil_a_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_fulgur_coil_a_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Fulgur α Set",
@@ -10626,7 +11168,7 @@
   },
   {
     "id": "wp302",
-    "name": "G Fulgur Greaves α",
+    "name": "Guardian Fulgur Greaves α",
     "part": "legs",
     "defense": 48,
     "rarity": 6,
@@ -10641,7 +11183,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Fulgur Anjanath's Will",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Coalescence",
+        "level": 1
+      },
+      {
+        "name": "Stamina Surge",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a0/G_fulgur_greaves_a_leg_typea_mhwilds_wiki_guide_200px.png/110px-G_fulgur_greaves_a_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Fulgur α Set",
@@ -10649,7 +11208,7 @@
   },
   {
     "id": "wp303",
-    "name": "G Fulgur Helm β",
+    "name": "Guardian Fulgur Helm β",
     "part": "head",
     "defense": 48,
     "rarity": 6,
@@ -10664,7 +11223,20 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Fulgur Anjanath's Will",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Agitator",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/49/G_fulgur_helm_b_helm_typea_mhwilds_wiki_guide_200px.png/110px-G_fulgur_helm_b_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Fulgur β Set",
@@ -10672,7 +11244,7 @@
   },
   {
     "id": "wp304",
-    "name": "G Fulgur Mail β",
+    "name": "Guardian Fulgur Mail β",
     "part": "chest",
     "defense": 48,
     "rarity": 6,
@@ -10691,7 +11263,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Fulgur Anjanath's Will",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Maximum Might",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1f/G_fulgur_mail_b_body_typea_mhwilds_wiki_guide_200px.png/110px-G_fulgur_mail_b_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Fulgur β Set",
@@ -10699,7 +11284,7 @@
   },
   {
     "id": "wp305",
-    "name": "G Fulgur Vambraces β",
+    "name": "Guardian Fulgur Vambraces β",
     "part": "arms",
     "defense": 48,
     "rarity": 6,
@@ -10716,7 +11301,20 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Fulgur Anjanath's Will",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Maximum Might",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/82/G_fulgur_vambraces_b_arm_typea_mhwilds_wiki_guide_200px.png/110px-G_fulgur_vambraces_b_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Fulgur β Set",
@@ -10724,7 +11322,7 @@
   },
   {
     "id": "wp306",
-    "name": "G Fulgur Coil β",
+    "name": "Guardian Fulgur Coil β",
     "part": "waist",
     "defense": 48,
     "rarity": 6,
@@ -10741,7 +11339,20 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Fulgur Anjanath's Will",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ed/G_fulgur_coil_b_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_fulgur_coil_b_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Fulgur β Set",
@@ -10749,7 +11360,7 @@
   },
   {
     "id": "wp307",
-    "name": "G Fulgur Greaves β",
+    "name": "Guardian Fulgur Greaves β",
     "part": "legs",
     "defense": 48,
     "rarity": 6,
@@ -10766,7 +11377,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Fulgur Anjanath's Will",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Coalescence",
+        "level": 1
+      },
+      {
+        "name": "Stamina Surge",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/86/G_fulgur_greaves_b_leg_typea_mhwilds_wiki_guide_200px.png/110px-G_fulgur_greaves_b_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Fulgur β Set",
@@ -10774,7 +11402,7 @@
   },
   {
     "id": "wp308",
-    "name": "G Rathalos Helm α",
+    "name": "Guardian Rathalos Helm α",
     "part": "head",
     "defense": 48,
     "rarity": 6,
@@ -10791,7 +11419,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "name": "Survival Expert",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c0/G_rathalos_helm_a_helm_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_helm_a_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos α Set",
@@ -10799,7 +11444,7 @@
   },
   {
     "id": "wp309",
-    "name": "G Rathalos Mail α",
+    "name": "Guardian Rathalos Mail α",
     "part": "chest",
     "defense": 48,
     "rarity": 6,
@@ -10814,7 +11459,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "name": "Intimidator",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/37/G_rathalos_mail_a_body_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_mail_a_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos α Set",
@@ -10822,7 +11484,7 @@
   },
   {
     "id": "wp310",
-    "name": "G Rathalos Vambraces α",
+    "name": "Guardian Rathalos Vambraces α",
     "part": "arms",
     "defense": 48,
     "rarity": 6,
@@ -10837,7 +11499,28 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "name": "Intimidator",
+        "level": 1
+      },
+      {
+        "name": "Survival Expert",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6b/G_rathalos_vambraces_a_arm_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_vambraces_a_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos α Set",
@@ -10845,7 +11528,7 @@
   },
   {
     "id": "wp311",
-    "name": "G Rathalos Coil α",
+    "name": "Guardian Rathalos Coil α",
     "part": "waist",
     "defense": 48,
     "rarity": 6,
@@ -10862,7 +11545,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/33/G_rathalos_coil_a_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_coil_a_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos α Set",
@@ -10870,7 +11570,7 @@
   },
   {
     "id": "wp312",
-    "name": "G Rathalos Greaves α",
+    "name": "Guardian Rathalos Greaves α",
     "part": "legs",
     "defense": 48,
     "rarity": 6,
@@ -10885,7 +11585,24 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "name": "Windproof",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/80/G_rathalos_greaves_a_leg_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_greaves_a_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos α Set",
@@ -10893,7 +11610,7 @@
   },
   {
     "id": "wp313",
-    "name": "G Rathalos Helm β",
+    "name": "Guardian Rathalos Helm β",
     "part": "head",
     "defense": 48,
     "rarity": 6,
@@ -10910,7 +11627,20 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/be/G_rathalos_helm_b_helm_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_helm_b_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos β Set",
@@ -10918,7 +11648,7 @@
   },
   {
     "id": "wp314",
-    "name": "G Rathalos Mail β",
+    "name": "Guardian Rathalos Mail β",
     "part": "chest",
     "defense": 48,
     "rarity": 6,
@@ -10933,7 +11663,24 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "name": "Intimidator",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e0/G_rathalos_mail_b_body_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_mail_b_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos β Set",
@@ -10941,7 +11688,7 @@
   },
   {
     "id": "wp315",
-    "name": "G Rathalos Vambraces β",
+    "name": "Guardian Rathalos Vambraces β",
     "part": "arms",
     "defense": 48,
     "rarity": 6,
@@ -10960,7 +11707,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/64/G_rathalos_vambraces_b_arm_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_vambraces_b_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos β Set",
@@ -10968,7 +11728,7 @@
   },
   {
     "id": "wp316",
-    "name": "G Rathalos Coil β",
+    "name": "Guardian Rathalos Coil β",
     "part": "waist",
     "defense": 48,
     "rarity": 6,
@@ -10987,7 +11747,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e3/G_rathalos_coil_b_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_coil_b_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos β Set",
@@ -10995,7 +11768,7 @@
   },
   {
     "id": "wp317",
-    "name": "G Rathalos Greaves β",
+    "name": "Guardian Rathalos Greaves β",
     "part": "legs",
     "defense": 48,
     "rarity": 6,
@@ -11010,7 +11783,24 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "name": "Windproof",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/29/G_rathalos_greaves_b_leg_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_greaves_b_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos β Set",
@@ -11018,7 +11808,7 @@
   },
   {
     "id": "wp318",
-    "name": "G Seikret Coil α",
+    "name": "Guardian Seikret Coil α",
     "part": "head",
     "defense": 44,
     "rarity": 6,
@@ -11033,7 +11823,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Jump Master",
+        "level": 1
+      },
+      {
+        "name": "Earplugs",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/82/G_seikret_coil_a_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_seikret_coil_a_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Seikret α Set",
@@ -11041,7 +11844,7 @@
   },
   {
     "id": "wp319",
-    "name": "G Seikret Coil β",
+    "name": "Guardian Seikret Coil β",
     "part": "head",
     "defense": 44,
     "rarity": 6,
@@ -11058,7 +11861,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian's Protection",
+        "level": 1
+      },
+      {
+        "name": "Jump Master",
+        "level": 1
+      },
+      {
+        "name": "Earplugs",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e9/G_seikret_coil_b_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_seikret_coil_b_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Seikret β Set",
@@ -20238,7 +21054,7 @@
   },
   {
     "id": "wp582",
-    "name": "G Arkveld Helm",
+    "name": "Guardian Arkveld Helm",
     "part": "head",
     "defense": 30,
     "rarity": 4,
@@ -20253,7 +21069,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Flayer",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c3/G_arkveld_helm_helm_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_helm_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld Set",
@@ -20261,7 +21090,7 @@
   },
   {
     "id": "wp583",
-    "name": "G Arkveld Mail",
+    "name": "Guardian Arkveld Mail",
     "part": "chest",
     "defense": 30,
     "rarity": 4,
@@ -20273,7 +21102,24 @@
       "dragon": -4
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Flayer",
+        "level": 1
+      },
+      {
+        "name": "Blight Resistance",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/13/G_arkveld_mail_body_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_mail_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld Set",
@@ -20281,7 +21127,7 @@
   },
   {
     "id": "wp584",
-    "name": "G Arkveld Vambraces",
+    "name": "Guardian Arkveld Vambraces",
     "part": "arms",
     "defense": 30,
     "rarity": 4,
@@ -20296,7 +21142,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Flayer",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/84/G_arkveld_vambraces_arm_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_vambraces_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld Set",
@@ -20304,7 +21163,7 @@
   },
   {
     "id": "wp585",
-    "name": "G Arkveld Coil",
+    "name": "Guardian Arkveld Coil",
     "part": "waist",
     "defense": 30,
     "rarity": 4,
@@ -20321,7 +21180,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Blight Resistance",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/af/G_arkveld_coil_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_coil_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld Set",
@@ -20329,7 +21201,7 @@
   },
   {
     "id": "wp586",
-    "name": "G Arkveld Greaves",
+    "name": "Guardian Arkveld Greaves",
     "part": "legs",
     "defense": 30,
     "rarity": 4,
@@ -20344,7 +21216,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian Arkveld's Vitality",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Blight Resistance",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b0/G_arkveld_greaves_leg_typea_mhwilds_wiki_guide_200px.png/110px-G_arkveld_greaves_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Arkveld Set",
@@ -20352,7 +21237,7 @@
   },
   {
     "id": "wp587",
-    "name": "G Doshaguma Helm",
+    "name": "Guardian Doshaguma Helm",
     "part": "head",
     "defense": 26,
     "rarity": 4,
@@ -20367,7 +21252,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Heroics",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/20/G_doshaguma_helm_helm_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_helm_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma Set",
@@ -20375,7 +21273,7 @@
   },
   {
     "id": "wp588",
-    "name": "G Doshaguma Mail",
+    "name": "Guardian Doshaguma Mail",
     "part": "chest",
     "defense": 26,
     "rarity": 4,
@@ -20387,7 +21285,24 @@
       "dragon": 2
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Heroics",
+        "level": 1
+      },
+      {
+        "name": "Iron Skin",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/47/G_doshaguma_mail_body_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_mail_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma Set",
@@ -20395,7 +21310,7 @@
   },
   {
     "id": "wp589",
-    "name": "G Doshaguma Braces",
+    "name": "Guardian Doshaguma Braces",
     "part": "arms",
     "defense": 26,
     "rarity": 4,
@@ -20410,7 +21325,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/96/G_doshaguma_braces_arm_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_braces_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma Set",
@@ -20418,7 +21346,7 @@
   },
   {
     "id": "wp590",
-    "name": "G Doshaguma Coil",
+    "name": "Guardian Doshaguma Coil",
     "part": "waist",
     "defense": 26,
     "rarity": 4,
@@ -20430,7 +21358,24 @@
       "dragon": 2
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Heroics",
+        "level": 1
+      },
+      {
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a3/G_doshaguma_coil_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_coil_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma Set",
@@ -20438,7 +21383,7 @@
   },
   {
     "id": "wp591",
-    "name": "G Doshaguma Greaves",
+    "name": "Guardian Doshaguma Greaves",
     "part": "legs",
     "defense": 26,
     "rarity": 4,
@@ -20450,7 +21395,24 @@
       "dragon": 2
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Doshaguma's Might",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Marathon Runner",
+        "level": 1
+      },
+      {
+        "name": "Iron Skin",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/ca/G_doshaguma_greaves_leg_typea_mhwilds_wiki_guide_200px.png/110px-G_doshaguma_greaves_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Doshaguma Set",
@@ -20458,7 +21420,7 @@
   },
   {
     "id": "wp592",
-    "name": "G Ebony Helm",
+    "name": "Guardian Ebony Helm",
     "part": "head",
     "defense": 26,
     "rarity": 4,
@@ -20473,7 +21435,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Burst",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a2/G_ebony_helm_helm_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_helm_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony Set",
@@ -20481,7 +21456,7 @@
   },
   {
     "id": "wp593",
-    "name": "G Ebony Mail",
+    "name": "Guardian Ebony Mail",
     "part": "chest",
     "defense": 26,
     "rarity": 4,
@@ -20496,7 +21471,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Bleeding Resistance",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d2/G_ebony_mail_body_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_mail_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony Set",
@@ -20504,7 +21492,7 @@
   },
   {
     "id": "wp594",
-    "name": "G Ebony Braces",
+    "name": "Guardian Ebony Braces",
     "part": "arms",
     "defense": 26,
     "rarity": 4,
@@ -20519,7 +21507,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Burst",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/14/G_ebony_braces_arm_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_braces_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony Set",
@@ -20527,7 +21528,7 @@
   },
   {
     "id": "wp595",
-    "name": "G Ebony Coil",
+    "name": "Guardian Ebony Coil",
     "part": "waist",
     "defense": 26,
     "rarity": 4,
@@ -20539,7 +21540,24 @@
       "dragon": 4
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Burst",
+        "level": 1
+      },
+      {
+        "name": "Bleeding Resistance",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f0/G_ebony_coil_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_coil_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony Set",
@@ -20547,7 +21565,7 @@
   },
   {
     "id": "wp596",
-    "name": "G Ebony Greaves",
+    "name": "Guardian Ebony Greaves",
     "part": "legs",
     "defense": 26,
     "rarity": 4,
@@ -20562,7 +21580,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Ebony Odogaron's Power",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Bleeding Resistance",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b5/G_ebony_greaves_leg_typea_mhwilds_wiki_guide_200px.png/110px-G_ebony_greaves_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Ebony Set",
@@ -20570,7 +21601,7 @@
   },
   {
     "id": "wp597",
-    "name": "G Rathalos Helm",
+    "name": "Guardian Rathalos Helm",
     "part": "head",
     "defense": 26,
     "rarity": 4,
@@ -20582,7 +21613,24 @@
       "dragon": -5
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      },
+      {
+        "name": "Intimidator",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/3e/G_rathalos_helm_helm_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_helm_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos Set",
@@ -20590,7 +21638,7 @@
   },
   {
     "id": "wp598",
-    "name": "G Rathalos Mail",
+    "name": "Guardian Rathalos Mail",
     "part": "chest",
     "defense": 26,
     "rarity": 4,
@@ -20605,7 +21653,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Intimidator",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/88/G_rathalos_mail_body_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_mail_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos Set",
@@ -20613,7 +21674,7 @@
   },
   {
     "id": "wp599",
-    "name": "G Rathalos Vambraces",
+    "name": "Guardian Rathalos Vambraces",
     "part": "arms",
     "defense": 26,
     "rarity": 4,
@@ -20628,7 +21689,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/ab/G_rathalos_vambraces_arm_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_vambraces_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos Set",
@@ -20636,7 +21710,7 @@
   },
   {
     "id": "wp600",
-    "name": "G Rathalos Coil",
+    "name": "Guardian Rathalos Coil",
     "part": "waist",
     "defense": 26,
     "rarity": 4,
@@ -20651,7 +21725,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Intimidator",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/74/G_rathalos_coil_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_coil_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos Set",
@@ -20659,7 +21746,7 @@
   },
   {
     "id": "wp601",
-    "name": "G Rathalos Greaves",
+    "name": "Guardian Rathalos Greaves",
     "part": "legs",
     "defense": 26,
     "rarity": 4,
@@ -20674,7 +21761,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Rathalos's Flare",
+        "level": 1
+      },
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Weakness Exploit",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1d/G_rathalos_greaves_leg_typea_mhwilds_wiki_guide_200px.png/110px-G_rathalos_greaves_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Rathalos Set",
@@ -20682,7 +21782,7 @@
   },
   {
     "id": "wp602",
-    "name": "G Seikret Coil",
+    "name": "Guardian Seikret Coil",
     "part": "head",
     "defense": 22,
     "rarity": 4,
@@ -20697,7 +21797,16 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Guardian's Pulse",
+        "level": 1
+      },
+      {
+        "name": "Jump Master",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7b/G_seikret_coil_waist_typea_mhwilds_wiki_guide_200px.png/110px-G_seikret_coil_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Guardian Seikret Set",
