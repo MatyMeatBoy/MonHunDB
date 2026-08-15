@@ -11,11 +11,47 @@ const skillsOnly = process.argv.includes("--skills-only");
 // paraphrases from the MHFU skill guide. More pools can be added here without
 // changing the schema or hand-editing the generated JSON.
 const MHFU_SKILL_DESCRIPTIONS = {
-  Gathering: {
-    en: "Affects how many times materials can be gathered at a single gathering point.",
-    es: "Afecta cuántas veces se pueden recoger materiales en un mismo punto de recolección.",
-  },
+  Attack: { en: "Increases or decreases the hunter's attack power.", es: "Aumenta o reduce el poder de ataque del cazador." },
+  Defense: { en: "Increases or decreases the hunter's defense.", es: "Aumenta o reduce la defensa del cazador." },
+  Health: { en: "Increases or decreases the hunter's maximum health.", es: "Aumenta o reduce la salud máxima del cazador." },
+  "All Resist": { en: "Increases or decreases all elemental resistances.", es: "Aumenta o reduce todas las resistencias elementales." },
+  "Fire Res": { en: "Changes resistance to fire damage.", es: "Modifica la resistencia al daño de fuego." },
+  "Water Res": { en: "Changes resistance to water damage.", es: "Modifica la resistencia al daño de agua." },
+  ThunderRes: { en: "Changes resistance to thunder damage.", es: "Modifica la resistencia al daño de rayo." },
+  "Ice Res": { en: "Changes resistance to ice damage.", es: "Modifica la resistencia al daño de hielo." },
+  "Dragon Res": { en: "Changes resistance to dragon damage.", es: "Modifica la resistencia al daño de dragón." },
+  Faint: { en: "Changes how easily the hunter faints after taking damage.", es: "Modifica la facilidad con la que el cazador se desmaya al recibir daño." },
+  Poison: { en: "Changes resistance to poison and its effects.", es: "Modifica la resistencia al veneno y sus efectos." },
+  Paralysis: { en: "Changes resistance to paralysis and its effects.", es: "Modifica la resistencia a la parálisis y sus efectos." },
+  Sleep: { en: "Changes resistance to sleep and its effects.", es: "Modifica la resistencia al sueño y sus efectos." },
+  Hunger: { en: "Affects the rate at which the hunter's stamina bar decreases.", es: "Afecta la velocidad a la que disminuye la barra de resistencia." },
+  "Heat Res": { en: "Affects how quickly heat drains the hunter's health.", es: "Afecta la velocidad a la que el calor reduce la salud." },
+  "Cold Res": { en: "Affects how quickly cold drains the hunter's stamina.", es: "Afecta la velocidad a la que el frío reduce la resistencia." },
+  Gathering: { en: "Affects how many times materials can be gathered at a single gathering point.", es: "Afecta cuántas veces se pueden recoger materiales en un mismo punto de recolección." },
+  Carving: { en: "Affects the number of times materials can be carved from a monster.", es: "Afecta cuántas veces se pueden extraer materiales de un monstruo." },
+  Fishing: { en: "Improves fishing and reduces the chance of a fish escaping.", es: "Mejora la pesca y reduce la posibilidad de que escape el pez." },
+  Artisan: { en: "Improves weapon sharpness and can add a higher sharpness level.", es: "Mejora el afilado del arma y puede añadir un nivel superior de filo." },
+  Sharpness: { en: "Changes the weapon's sharpness and sharpening speed.", es: "Modifica el filo del arma y la velocidad de afilado." },
+  Guard: { en: "Reduces stamina loss and knockback while guarding.", es: "Reduce la pérdida de resistencia y el retroceso al protegerse." },
+  "Guard Up": { en: "Allows guarding attacks that normally cannot be blocked.", es: "Permite protegerse de ataques que normalmente no se pueden bloquear." },
+  Evade: { en: "Extends the invulnerability window during an evade.", es: "Amplía la ventana de invulnerabilidad durante una evasión." },
+  "Evade Dist": { en: "Changes the distance covered by evades.", es: "Modifica la distancia recorrida al evadir." },
+  Expert: { en: "Changes affinity, affecting the chance of a critical hit.", es: "Modifica la afinidad, que afecta a la probabilidad de golpe crítico." },
+  Potential: { en: "Activates stronger effects when the hunter's health is low.", es: "Activa efectos más fuertes cuando la salud del cazador es baja." },
+  Stamina: { en: "Changes stamina consumption and recovery.", es: "Modifica el consumo y la recuperación de resistencia." },
+  "Wide Area": { en: "Shares the effects of certain consumable items with nearby hunters.", es: "Comparte los efectos de ciertos consumibles con cazadores cercanos." },
+  BombStrUp: { en: "Increases the damage dealt by bombs.", es: "Aumenta el daño infligido por las bombas." },
+  Cooking: { en: "Changes the results of cooking and meal preparation.", es: "Modifica los resultados de cocinar y preparar comidas." },
+  BBQ: { en: "Improves the timing and results of cooking meat.", es: "Mejora el tiempo y los resultados al cocinar carne." },
 };
+
+function skillDescription(pool) {
+  if (MHFU_SKILL_DESCRIPTIONS[pool]) return MHFU_SKILL_DESCRIPTIONS[pool];
+  return {
+    en: "Describes the effects granted by this armor-skill point pool.",
+    es: "Describe los efectos que activa este grupo de puntos de habilidad.",
+  };
+}
 
 // ---- decorations ----
 const decosRaw = JSON.parse(fs.readFileSync(path.join(SRC, "decorations/decorations.json"), "utf8"));
@@ -58,7 +94,7 @@ for (const s of skillsRaw) {
 const skills = [...pools.entries()].map(([pool, tiers], i) => {
   tiers.sort((a, b) => b.points - a.points);
   const poolEs = tiers.find(t => t["skill-point-es"])?.["skill-point-es"] || pool;
-  const description = MHFU_SKILL_DESCRIPTIONS[pool];
+  const description = skillDescription(pool);
   return {
     id: `mhfus${i + 1}`,
     name: pool,

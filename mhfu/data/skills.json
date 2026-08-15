@@ -3,8 +3,8 @@
   "id": "mhfus1",
   "name": "Attack",
   "nameEs": "Ataque",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Increases or decreases the hunter's attack power.",
+  "descEs": "Aumenta o reduce el poder de ataque del cazador.",
   "activations": [
    {
     "points": 20,
@@ -43,8 +43,8 @@
   "id": "mhfus2",
   "name": "Defense",
   "nameEs": "Defensa",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Increases or decreases the hunter's defense.",
+  "descEs": "Aumenta o reduce la defensa del cazador.",
   "activations": [
    {
     "points": 20,
@@ -83,8 +83,8 @@
   "id": "mhfus3",
   "name": "Health",
   "nameEs": "Salud",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Increases or decreases the hunter's maximum health.",
+  "descEs": "Aumenta o reduce la salud máxima del cazador.",
   "activations": [
    {
     "points": 20,
@@ -123,8 +123,8 @@
   "id": "mhfus4",
   "name": "All Resist",
   "nameEs": "Res. todo",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Increases or decreases all elemental resistances.",
+  "descEs": "Aumenta o reduce todas las resistencias elementales.",
   "activations": [
    {
     "points": 20,
@@ -163,8 +163,8 @@
   "id": "mhfus5",
   "name": "Fire Res",
   "nameEs": "Res. fuego",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Changes resistance to fire damage.",
+  "descEs": "Modifica la resistencia al daño de fuego.",
   "activations": [
    {
     "points": 15,
@@ -193,8 +193,8 @@
   "id": "mhfus6",
   "name": "Water Res",
   "nameEs": "Res. agua",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Changes resistance to water damage.",
+  "descEs": "Modifica la resistencia al daño de agua.",
   "activations": [
    {
     "points": 15,
@@ -223,8 +223,8 @@
   "id": "mhfus7",
   "name": "ThunderRes",
   "nameEs": "Res.trueno",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Changes resistance to thunder damage.",
+  "descEs": "Modifica la resistencia al daño de rayo.",
   "activations": [
    {
     "points": 15,
@@ -253,8 +253,8 @@
   "id": "mhfus8",
   "name": "Ice Res",
   "nameEs": "Res.hielo",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Changes resistance to ice damage.",
+  "descEs": "Modifica la resistencia al daño de hielo.",
   "activations": [
    {
     "points": 15,
@@ -283,8 +283,8 @@
   "id": "mhfus9",
   "name": "Dragon Res",
   "nameEs": "Res. dragón",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Changes resistance to dragon damage.",
+  "descEs": "Modifica la resistencia al daño de dragón.",
   "activations": [
    {
     "points": 15,
@@ -313,8 +313,8 @@
   "id": "mhfus10",
   "name": "Faint",
   "nameEs": "Desmayo",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Changes how easily the hunter faints after taking damage.",
+  "descEs": "Modifica la facilidad con la que el cazador se desmaya al recibir daño.",
   "activations": [
    {
     "points": 15,
@@ -338,8 +338,8 @@
   "id": "mhfus11",
   "name": "Poison",
   "nameEs": "Veneno",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Changes resistance to poison and its effects.",
+  "descEs": "Modifica la resistencia al veneno y sus efectos.",
   "activations": [
    {
     "points": 15,
@@ -363,8 +363,8 @@
   "id": "mhfus12",
   "name": "Paralysis",
   "nameEs": "Paralisis",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Changes resistance to paralysis and its effects.",
+  "descEs": "Modifica la resistencia a la parálisis y sus efectos.",
   "activations": [
    {
     "points": 15,
@@ -388,8 +388,8 @@
   "id": "mhfus13",
   "name": "Sleep",
   "nameEs": "Sueño",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Changes resistance to sleep and its effects.",
+  "descEs": "Modifica la resistencia al sueño y sus efectos.",
   "activations": [
    {
     "points": 15,
@@ -413,8 +413,8 @@
   "id": "mhfus14",
   "name": "Antiseptic",
   "nameEs": "Antisépt.",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -428,8 +428,8 @@
   "id": "mhfus15",
   "name": "Fatigue",
   "nameEs": "Fatiga",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -443,8 +443,8 @@
   "id": "mhfus16",
   "name": "Snow Res",
   "nameEs": "R.nieve",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -458,8 +458,8 @@
   "id": "mhfus17",
   "name": "Quake Res",
   "nameEs": "Anti-tembl.",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -473,8 +473,8 @@
   "id": "mhfus18",
   "name": "HearProtct",
   "nameEs": "Prot.Oído",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 15,
@@ -493,8 +493,8 @@
   "id": "mhfus19",
   "name": "Wind Press",
   "nameEs": "Pres. viento (Presion al viento)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 20,
@@ -518,8 +518,8 @@
   "id": "mhfus20",
   "name": "Anti-Theft",
   "nameEs": "Anti-Robo",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -533,8 +533,8 @@
   "id": "mhfus21",
   "name": "ResistSts",
   "nameEs": "EstResist",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -548,8 +548,8 @@
   "id": "mhfus22",
   "name": "AntiFirDrg",
   "nameEs": "AntiFueDrg",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -563,8 +563,8 @@
   "id": "mhfus23",
   "name": "AntiDaora",
   "nameEs": "Anti-Daora",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -578,8 +578,8 @@
   "id": "mhfus24",
   "name": "AntiChamel",
   "nameEs": "Anti-Chamel",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -593,8 +593,8 @@
   "id": "mhfus25",
   "name": "Artisan",
   "nameEs": "Artisan",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Improves weapon sharpness and can add a higher sharpness level.",
+  "descEs": "Mejora el afilado del arma y puede añadir un nivel superior de filo.",
   "activations": [
    {
     "points": 10,
@@ -608,8 +608,8 @@
   "id": "mhfus26",
   "name": "Sharpness",
   "nameEs": "Afilado",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Changes the weapon's sharpness and sharpening speed.",
+  "descEs": "Modifica el filo del arma y la velocidad de afilado.",
   "activations": [
    {
     "points": 10,
@@ -628,8 +628,8 @@
   "id": "mhfus27",
   "name": "Fencing",
   "nameEs": "Fencing",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -643,8 +643,8 @@
   "id": "mhfus28",
   "name": "SwdShrpner",
   "nameEs": "Afilador",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -663,8 +663,8 @@
   "id": "mhfus29",
   "name": "Guard",
   "nameEs": "Proteger",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Reduces stamina loss and knockback while guarding.",
+  "descEs": "Reduce la pérdida de resistencia y el retroceso al protegerse.",
   "activations": [
    {
     "points": 20,
@@ -688,8 +688,8 @@
   "id": "mhfus30",
   "name": "Auto-Guard",
   "nameEs": "Auto-Guard",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -703,8 +703,8 @@
   "id": "mhfus31",
   "name": "Sword Draw",
   "nameEs": "Sword Draw",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -718,8 +718,8 @@
   "id": "mhfus32",
   "name": "Edgemaster",
   "nameEs": "Dsnf. Espada",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -733,8 +733,8 @@
   "id": "mhfus33",
   "name": "NormalS Up",
   "nameEs": "SubDNorm (Subir Daño Normal)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -748,8 +748,8 @@
   "id": "mhfus34",
   "name": "PierceS Up",
   "nameEs": "SubirDPerf (Subir Daño Perforacion)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -763,8 +763,8 @@
   "id": "mhfus35",
   "name": "PelletS Up",
   "nameEs": "SubirDPerd (Subir Daño Perdigón)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -778,8 +778,8 @@
   "id": "mhfus36",
   "name": "NormalSAdd",
   "nameEs": "AñDNormal (Añadir Disparo Normal)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -793,8 +793,8 @@
   "id": "mhfus37",
   "name": "PierceSAdd",
   "nameEs": "AñDPerf (Añadir Disparo Perforante)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 15,
@@ -813,8 +813,8 @@
   "id": "mhfus38",
   "name": "PelletSAdd",
   "nameEs": "AñDPerd (Añadir Disparo Perdigón)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 15,
@@ -833,8 +833,8 @@
   "id": "mhfus39",
   "name": "CragSAdd",
   "nameEs": "AñDExpl (Añadir Disparo Explosivo)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 15,
@@ -853,8 +853,8 @@
   "id": "mhfus40",
   "name": "ClustSAdd",
   "nameEs": "AñDispGr (Añadir Disparo Grupo)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 15,
@@ -873,8 +873,8 @@
   "id": "mhfus41",
   "name": "Reload",
   "nameEs": "Recargar",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 20,
@@ -913,8 +913,8 @@
   "id": "mhfus42",
   "name": "AutoReload",
   "nameEs": "Autorecarg.",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -928,8 +928,8 @@
   "id": "mhfus43",
   "name": "Recoil",
   "nameEs": "Retroceso",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 20,
@@ -948,8 +948,8 @@
   "id": "mhfus44",
   "name": "Precision",
   "nameEs": "Precis. (Precision)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -968,8 +968,8 @@
   "id": "mhfus45",
   "name": "PoisonCAdd",
   "nameEs": "Añ.Rev.ven",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -983,8 +983,8 @@
   "id": "mhfus46",
   "name": "ParalyCAdd",
   "nameEs": "Añ.Rev.cmb",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -998,8 +998,8 @@
   "id": "mhfus47",
   "name": "SleepCAdd",
   "nameEs": "Añ.Rev.sue",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1013,8 +1013,8 @@
   "id": "mhfus48",
   "name": "PowerCAdd",
   "nameEs": "Añ.Rev.ene",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1028,8 +1028,8 @@
   "id": "mhfus49",
   "name": "ClsRngCAdd",
   "nameEs": "ClsRngCAdd",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1043,8 +1043,8 @@
   "id": "mhfus50",
   "name": "SteadyHand",
   "nameEs": "Mano firme",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1058,8 +1058,8 @@
   "id": "mhfus51",
   "name": "Expert",
   "nameEs": "Experto",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Changes affinity, affecting the chance of a critical hit.",
+  "descEs": "Modifica la afinidad, que afecta a la probabilidad de golpe crítico.",
   "activations": [
    {
     "points": 20,
@@ -1093,8 +1093,8 @@
   "id": "mhfus52",
   "name": "Spc Attack",
   "nameEs": "M.Espada",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1108,8 +1108,8 @@
   "id": "mhfus53",
   "name": "ElementAtk",
   "nameEs": "Atq. Esp.",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1123,8 +1123,8 @@
   "id": "mhfus54",
   "name": "Rec Speed",
   "nameEs": "Vel.recup (Velocidad recuperacion)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 20,
@@ -1153,8 +1153,8 @@
   "id": "mhfus55",
   "name": "Protection",
   "nameEs": "Protección",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1173,8 +1173,8 @@
   "id": "mhfus56",
   "name": "Guard Up",
   "nameEs": "Subir prot.",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Allows guarding attacks that normally cannot be blocked.",
+  "descEs": "Permite protegerse de ataques que normalmente no se pueden bloquear.",
   "activations": [
    {
     "points": 10,
@@ -1188,8 +1188,8 @@
   "id": "mhfus57",
   "name": "Evade",
   "nameEs": "Evasión",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Extends the invulnerability window during an evade.",
+  "descEs": "Amplía la ventana de invulnerabilidad durante una evasión.",
   "activations": [
    {
     "points": 15,
@@ -1208,8 +1208,8 @@
   "id": "mhfus58",
   "name": "Evade Dist",
   "nameEs": "Dist Evas. (Distancia Evasión)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Changes the distance covered by evades.",
+  "descEs": "Modifica la distancia recorrida al evadir.",
   "activations": [
    {
     "points": 10,
@@ -1223,8 +1223,8 @@
   "id": "mhfus59",
   "name": "Potential",
   "nameEs": "Potencial",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Activates stronger effects when the hunter's health is low.",
+  "descEs": "Activa efectos más fuertes cuando la salud del cazador es baja.",
   "activations": [
    {
     "points": 15,
@@ -1248,8 +1248,8 @@
   "id": "mhfus60",
   "name": "Gunnery",
   "nameEs": "Gunnery",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 15,
@@ -1268,8 +1268,8 @@
   "id": "mhfus61",
   "name": "Capacity",
   "nameEs": "Cargam.",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1283,8 +1283,8 @@
   "id": "mhfus62",
   "name": "ShortCharg",
   "nameEs": "Carga Corta",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1303,8 +1303,8 @@
   "id": "mhfus63",
   "name": "Guts",
   "nameEs": "Agallas",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1318,8 +1318,8 @@
   "id": "mhfus64",
   "name": "Fury",
   "nameEs": "Furia",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1333,8 +1333,8 @@
   "id": "mhfus65",
   "name": "Map",
   "nameEs": "Mapa",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1353,8 +1353,8 @@
   "id": "mhfus66",
   "name": "PsychicVis",
   "nameEs": "Vis. Psiquica (Vision Psiquica)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 15,
@@ -1403,8 +1403,8 @@
   "id": "mhfus68",
   "name": "Carving",
   "nameEs": "Carving",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Affects the number of times materials can be carved from a monster.",
+  "descEs": "Afecta cuántas veces se pueden extraer materiales de un monstruo.",
   "activations": [
    {
     "points": 20,
@@ -1423,8 +1423,8 @@
   "id": "mhfus69",
   "name": "HiSpdGathr",
   "nameEs": "RecAltaVel (Recogida de alta velocidad)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1438,8 +1438,8 @@
   "id": "mhfus70",
   "name": "Backpackng",
   "nameEs": "Mochilero",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1453,8 +1453,8 @@
   "id": "mhfus71",
   "name": "Whim",
   "nameEs": "Capricho",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 15,
@@ -1483,8 +1483,8 @@
   "id": "mhfus72",
   "name": "Fishing",
   "nameEs": "Pesca",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Improves fishing and reduces the chance of a fish escaping.",
+  "descEs": "Mejora la pesca y reduce la posibilidad de que escape el pez.",
   "activations": [
    {
     "points": 10,
@@ -1498,8 +1498,8 @@
   "id": "mhfus73",
   "name": "Heat Res",
   "nameEs": "Res.Calor",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Affects how quickly heat drains the hunter's health.",
+  "descEs": "Afecta la velocidad a la que el calor reduce la salud.",
   "activations": [
    {
     "points": 15,
@@ -1528,8 +1528,8 @@
   "id": "mhfus74",
   "name": "Cold Res",
   "nameEs": "Res.Frio",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Affects how quickly cold drains the hunter's stamina.",
+  "descEs": "Afecta la velocidad a la que el frío reduce la resistencia.",
   "activations": [
    {
     "points": 15,
@@ -1558,8 +1558,8 @@
   "id": "mhfus75",
   "name": "Terrain",
   "nameEs": "Terreno",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 15,
@@ -1588,8 +1588,8 @@
   "id": "mhfus76",
   "name": "Stamina",
   "nameEs": "Resistencia",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Changes stamina consumption and recovery.",
+  "descEs": "Modifica el consumo y la recuperación de resistencia.",
   "activations": [
    {
     "points": 10,
@@ -1608,8 +1608,8 @@
   "id": "mhfus77",
   "name": "Constitutn",
   "nameEs": "Const. (Constitucion)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 15,
@@ -1638,8 +1638,8 @@
   "id": "mhfus78",
   "name": "Hunger",
   "nameEs": "Hambre",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Affects the rate at which the hunter's stamina bar decreases.",
+  "descEs": "Afecta la velocidad a la que disminuye la barra de resistencia.",
   "activations": [
    {
     "points": 15,
@@ -1668,8 +1668,8 @@
   "id": "mhfus79",
   "name": "Sneak",
   "nameEs": "Sigilo",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1688,8 +1688,8 @@
   "id": "mhfus80",
   "name": "Fate",
   "nameEs": "Destino",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 15,
@@ -1718,8 +1718,8 @@
   "id": "mhfus81",
   "name": "SpeedSetup",
   "nameEs": "Confg.vel. (Configurar velocidad)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1733,8 +1733,8 @@
   "id": "mhfus82",
   "name": "Tranquilzr",
   "nameEs": "Tranquil. (Tranquilizador)",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 15,
@@ -1753,8 +1753,8 @@
   "id": "mhfus83",
   "name": "Perceive",
   "nameEs": "Percepcion",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1768,8 +1768,8 @@
   "id": "mhfus84",
   "name": "Recovery",
   "nameEs": "Recuperación",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1788,8 +1788,8 @@
   "id": "mhfus85",
   "name": "Everlastng",
   "nameEs": "Eterno",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1808,8 +1808,8 @@
   "id": "mhfus86",
   "name": "Wide Area",
   "nameEs": "Área amplia",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Shares the effects of certain consumable items with nearby hunters.",
+  "descEs": "Comparte los efectos de ciertos consumibles con cazadores cercanos.",
   "activations": [
    {
     "points": 20,
@@ -1828,8 +1828,8 @@
   "id": "mhfus87",
   "name": "Throw",
   "nameEs": "Lanzamiento",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1843,8 +1843,8 @@
   "id": "mhfus88",
   "name": "BombStrUp",
   "nameEs": "BombStrUp",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Increases the damage dealt by bombs.",
+  "descEs": "Aumenta el daño infligido por las bombas.",
   "activations": [
    {
     "points": 10,
@@ -1858,8 +1858,8 @@
   "id": "mhfus89",
   "name": "Gluttony",
   "nameEs": "Glotoneria",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 15,
@@ -1878,8 +1878,8 @@
   "id": "mhfus90",
   "name": "Cooking",
   "nameEs": "Cocina",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Changes the results of cooking and meal preparation.",
+  "descEs": "Modifica los resultados de cocinar y preparar comidas.",
   "activations": [
    {
     "points": 10,
@@ -1898,8 +1898,8 @@
   "id": "mhfus91",
   "name": "BBQ",
   "nameEs": "Barbacoa",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Improves the timing and results of cooking meat.",
+  "descEs": "Mejora el tiempo y los resultados al cocinar carne.",
   "activations": [
    {
     "points": 10,
@@ -1918,8 +1918,8 @@
   "id": "mhfus92",
   "name": "Horn",
   "nameEs": "Cuerno",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1933,8 +1933,8 @@
   "id": "mhfus93",
   "name": "MixSucRate",
   "nameEs": "Índice éxito mixto",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 20,
@@ -1973,8 +1973,8 @@
   "id": "mhfus94",
   "name": "Shot Mix",
   "nameEs": "Disparo mixto",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -1988,8 +1988,8 @@
   "id": "mhfus95",
   "name": "Alchemy",
   "nameEs": "Alquimia",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -2003,8 +2003,8 @@
   "id": "mhfus96",
   "name": "ComrdGuide",
   "nameEs": "Guia Camarada",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 15,
@@ -2023,8 +2023,8 @@
   "id": "mhfus97",
   "name": "ComradeAtk",
   "nameEs": "ComradeAtk",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -2038,8 +2038,8 @@
   "id": "mhfus98",
   "name": "ComradeDef",
   "nameEs": "ComradeDef",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
@@ -2053,8 +2053,8 @@
   "id": "mhfus99",
   "name": "Torso Inc",
   "nameEs": "Torso Inc",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Describes the effects granted by this armor-skill point pool.",
+  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
   "activations": [
    {
     "points": 10,
