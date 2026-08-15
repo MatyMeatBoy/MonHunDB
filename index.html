@@ -14,6 +14,7 @@
       <img class="hub-brand-wordmark" src="wordmark_monhundb.png" alt="MonHunDB" />
     </a>
     <a id="vecmon-admin-link" class="hub-vecmon-link" href="http://localhost:5055/" target="_blank" rel="noopener" title="Abrir VecMon (Admin local)" aria-label="Abrir VecMon (Admin local)" hidden style="display:none">✎</a>
+    <a id="chromakey-admin-link" class="hub-chromakey-link" href="http://localhost:5056/" target="_blank" rel="noopener" title="Abrir ChromaKey (Admin local)" aria-label="Abrir ChromaKey (Admin local)" hidden style="display:none">✂</a>
     <button type="button" id="lang-toggle" class="lang-toggle" title="Idioma / Language">
       <span class="lang-opt" data-lang="es">ES</span>/<span class="lang-opt" data-lang="en">EN</span>
     </button>
@@ -58,6 +59,9 @@
     var vecmonLink = document.getElementById("vecmon-admin-link");
     vecmonLink.hidden = !isLocalAdmin;
     vecmonLink.style.display = isLocalAdmin ? "inline-flex" : "none";
+    var chromaLink = document.getElementById("chromakey-admin-link");
+    chromaLink.hidden = !isLocalAdmin;
+    chromaLink.style.display = isLocalAdmin ? "inline-flex" : "none";
     var lang = localStorage.getItem("mh-lang") || "es";
     document.documentElement.lang = lang;
     function applyI18n() {

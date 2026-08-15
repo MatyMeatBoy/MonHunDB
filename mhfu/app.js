@@ -47,6 +47,21 @@ function addLocalVecMonLink() {
 }
 addLocalVecMonLink();
 
+function addLocalChromaKeyLink() {
+  if (!(location.protocol === "http:" && /^(localhost|127(?:\.\d{1,3}){3})$/.test(location.hostname))) return;
+  const host = document.querySelector(".header-left");
+  if (!host || host.querySelector(".chromakey-admin-link")) return;
+  const link = document.createElement("a");
+  link.className = "header-icon-btn chromakey-admin-link";
+  link.title = "Abrir ChromaKey (Admin local)";
+  link.setAttribute("aria-label", "Abrir ChromaKey (Admin local)");
+  link.href = `http://${location.hostname}:5056/`;
+  link.target = "_blank"; link.rel = "noopener";
+  link.innerHTML = "<span aria-hidden=\"true\">✂</span>";
+  host.appendChild(link);
+}
+addLocalChromaKeyLink();
+
 let monsters = [];
 let currentRank = null;
 let lang = localStorage.getItem("mh-lang") || "es";
@@ -649,8 +664,8 @@ async function init() {
       fetch("data/decorations.json"),
       fetch("data/material_obtain_notes.json"),
       fetch("data/weapons.json"),
-      fetch("data/armor_pieces.json"),
-      fetch("data/armor_sets.json?v=20260814-fandom-v2"),
+      fetch("data/armor_pieces.json?v=20260814-kyoku-shin"),
+      fetch("data/armor_sets.json?v=20260814-kyoku-shin"),
       fetch("data/skills.json"),
       fetch("data/weapon_tree.json"),
       fetch("data/items.json"),
@@ -1380,9 +1395,11 @@ function runGlobalSearch(query) {
       || normalizeSearch(skill.nameEs || "").includes(q);
   }).slice(0, 8);
 
-  const weaponMatches = (weapons || []).filter(w => isWeaponTrueFinal(w) && (
+  // Global search is an explicit lookup, so include upgrade nodes as well as
+  // finals. Otherwise the starting MHFU weapons could never be found here.
+  const weaponMatches = (weapons || []).filter(w => (
     normalizeSearch(w.name).includes(q) || normalizeSearch(w.nameEs || "").includes(q)
-  )).slice(0, 6);
+  )).slice(0, 12);
 
   // A set matches either by its own name, or because one of its pieces does
   // (e.g. searching a piece name like "Archfiend Armor Epine" should surface
@@ -2086,10 +2103,18 @@ function showWeaponsView() {
 
 function renderWeaponsIndex(query) {
   const q = normalizeSearch((query || "").trim());
-  let filtered = weapons.filter(w => isWeaponTrueFinal(w)
-    && (weaponsTypeFilter === "all" || w.type === weaponsTypeFilter)
-    && (!q || normalizeSearch(w.name).includes(q) || normalizeSearch(w.nameEs || "").includes(q))
-  );
+  let filtered = weapons.filter(w => {
+    const matchesQuery = q && (
+      normalizeSearch(w.name).includes(q) ||
+      normalizeSearch(w.nameEs || "").includes(q)
+    );
+    // Keep the catalogue compact on first load, but never hide an earlier
+    // weapon when the hunter is specifically looking for it. MHFU's starters
+    // (Bone, Large Bone, etc.) are upgrade nodes, not final weapons.
+    return (isWeaponTrueFinal(w) || matchesQuery)
+      && (weaponsTypeFilter === "all" || w.type === weaponsTypeFilter)
+      && (!q || matchesQuery);
+  });
   // order finals by their position in the real upgrade tree (per type)
   if (weaponOrderIdx) {
     filtered = filtered.slice().sort((a, b) => {
@@ -2165,6 +2190,13 @@ function showWeaponDetail(id) {
   }).join("") || `<p class="no-data">${ui("noMaterialsYet")}</p>`;
 
   const chain = getWeaponChain(w);
+  const treeSvg = renderWeaponTreeSVG(w);
+  const treeHtml = treeSvg ? `
+    <section class="block">
+      <h3>${ui("weaponsTreeHeading")}</h3>
+      ${treeSvg}
+    </section>
+  ` : "";
   const chainHtml = chain.length > 1 ? `
     <section class="block">
       <h3>${ui("weaponsEarlierVersions")}</h3>
@@ -2199,6 +2231,7 @@ function showWeaponDetail(id) {
       </ul>
     </section>
     ${ammoTableHtml(w)}
+    ${treeHtml}
     ${chainHtml}
     <section class="block">
       <h3>${ui("weaponsMaterialsHeading")}</h3>
@@ -2696,9 +2729,15 @@ function bootMaterials() {
   materialsSearchEl.addEventListener("input", () => renderMaterialsIndex(materialsSearchEl.value));
   const params = new URLSearchParams(location.search);
   const matKey = params.get("mat");
-  if (matKey && materialIndex && materialIndex.has(normalizeMaterialKey(matKey))) {
+  const normalizedMatKey = normalizeMaterialKey(matKey || "");
+  // A material can be valid even without a monster-drop row: gathering,
+  // merchant, quest and event materials live in items.json / obtain notes.
+  // Resolve the canonical key so its dedicated source note is rendered.
+  const notedMaterial = Object.keys(materialObtainNotes).find(key => normalizeMaterialKey(key) === normalizedMatKey);
+  const catalogMaterial = items.find(item => normalizeMaterialKey(item.name) === normalizedMatKey);
+  if (matKey && materialIndex && (materialIndex.has(normalizedMatKey) || notedMaterial || catalogMaterial)) {
     showMaterialsView();
-    showMaterialDetail(matKey);
+    showMaterialDetail(notedMaterial || (catalogMaterial && catalogMaterial.name) || matKey);
   } else {
     showMaterialsView();
   }

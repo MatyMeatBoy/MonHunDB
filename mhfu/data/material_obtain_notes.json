@@ -1,0 +1,690 @@
+{
+  "Ancient Fish": {
+    "en": "Casting Machine",
+    "es": "Casting Machine"
+  },
+  "Ancient Potion": {
+    "en": "Combine Immunizer ans Kelbi Horn",
+    "es": "Combina Immunizer ans Kelbi Horn"
+  },
+  "Antidote Herb": {
+    "en": "Gathering Spot Swamp",
+    "es": "Puntos de recolección Pantano"
+  },
+  "Antiseptic Stone": {
+    "en": "Combine Bitterbug + Earth Crystal",
+    "es": "Combina Bitterbug + Earth Crystal"
+  },
+  "Armor Pill": {
+    "en": "Combine Immunizer and Armor Seed",
+    "es": "Combina Immunizer y Armor Seed"
+  },
+  "Armorskin": {
+    "en": "Combine Catalyst and Armor Seed",
+    "es": "Combina Catalyst y Armor Seed"
+  },
+  "Binoculars": {
+    "en": "Buy from the Town Merchant (50z)",
+    "es": "Compra en the Mercader del pueblo (50z)"
+  },
+  "Bitterbug": {
+    "en": "Any Insect Thickets",
+    "es": "Any Insect Thickets"
+  },
+  "BlackBeltCoinG": {
+    "en": "Training School G-Lv Training \"Hypnocatrice Training\", \"Emerald Congalala Training\" and \"Plum Daimyo Hermitaur Training\" Training School Lv4★ \"Challenge Quest 7\"",
+    "es": "Training School G-Lv Training \"Hypnocatrice Training\", \"Emerald Congalala Training\" y \"Plum Daimyo Hermitaur Training\" Training School Lv4★ \"Challenge Quest 7\""
+  },
+  "Blackbelt Ticket": {
+    "en": "Complete quests at the training school",
+    "es": "Complete quests at the training school"
+  },
+  "Blangonga Coin": {
+    "en": "Training School Battle Training \"Blangonga Training\"",
+    "es": "Training School Battle Training \"Blangonga Training\""
+  },
+  "Book of Combos 1": {
+    "en": "Buy from the Town Merchant (1000z)",
+    "es": "Compra en the Mercader del pueblo (1000z)"
+  },
+  "Book of Combos 5": {
+    "en": "Buy from the Town Merchant (15000z)",
+    "es": "Compra en the Mercader del pueblo (15000z)"
+  },
+  "Boomerang": {
+    "en": "Combine Whetstone and Sm Monster Bone Buy from the Town Merchant or Hunter's Shoppe (150z)",
+    "es": "Combina Whetstone y Sm Monster Bone Compra en the Mercader del pueblo o Tienda del cazador (150z)"
+  },
+  "Bughopper": {
+    "en": "Any Insect Thickets",
+    "es": "Any Insect Thickets"
+  },
+  "Burnt Meat": {
+    "en": "Cook Raw Meat and end too late",
+    "es": "Cook Raw Meat y end too late"
+  },
+  "Cactus Flower": {
+    "en": "Gathering Spot Desert",
+    "es": "Puntos de recolección Desierto"
+  },
+  "Carpenterbug": {
+    "en": "SnwyMntains district and pokke farm",
+    "es": "zona de Montañas Nevadas y Granja Pokke"
+  },
+  "Catalyst": {
+    "en": "Combine Mega Nutrients and Dragon Toadstool",
+    "es": "Combina Mega Nutrients y Dragon Toadstool"
+  },
+  "Cephadrome Coin": {
+    "en": "Training School Special Training \"Cephadrome Training\" Group Training \"Cephadrome Exercises\"",
+    "es": "Training School Special Training \"Cephadrome Training\" Group Training \"Cephadrome Exercises\""
+  },
+  "Chaos Mushroom": {
+    "en": "Gather from the Mushroom Tree on Pokke Farm",
+    "es": "Gather from the Mushroom Tree on Granja Pokke"
+  },
+  "CloseRngCoating": {
+    "en": "Buy from the Town Merchant or Hunter's Shoppe (27z) Combine Empty Bottle and Knife Mackerel",
+    "es": "Compra en the Mercader del pueblo o Tienda del cazador (27z) Combina Empty Bottle y Knife Mackerel"
+  },
+  "Clust S Lv3": {
+    "en": "Combine Lg Bone Husk and Scatterfish",
+    "es": "Combina Lg Bone Husk y Scatterfish"
+  },
+  "Cold Meat": {
+    "en": "Combine Well-Done Steak and Ice Crystal",
+    "es": "Combina Well-Done Steak y Ice Crystal"
+  },
+  "Commendation S": {
+    "en": "Quest Reward for late G-Rank Quests",
+    "es": "Recompensa de misión for late Rango G Quests"
+  },
+  "Comrade Ticket": {
+    "en": "Random gift from a Felyne Comrade given to you by another Player",
+    "es": "Random gift from a Felyne Comrade given to you by another Player"
+  },
+  "Congalala Coin": {
+    "en": "Training School Battle Training \"Congalala Training\" Group Training \"Congalala Exercises\"",
+    "es": "Training School Battle Training \"Congalala Training\" Group Training \"Congalala Exercises\""
+  },
+  "Cool Drink": {
+    "en": "Combine Ice Crystal and Bitterbug Buy from the Town Merchant or Hunter's Shoppe (300z)",
+    "es": "Combina Ice Crystal y Bitterbug Compra en the Mercader del pueblo o Tienda del cazador (300z)"
+  },
+  "Crag S Lv3": {
+    "en": "Combine Lg Bone Husk and Bomb Arrowana",
+    "es": "Combina Lg Bone Husk y Bomb Arrowana"
+  },
+  "Cricket": {
+    "en": "Buy from the Peddling Granny (10z)",
+    "es": "Compra en the Abuela ambulante (10z)"
+  },
+  "Daimyo Coin": {
+    "en": "Training School Battle Training \"Daimyo Hermitau Training\"",
+    "es": "Training School Battle Training \"Daimyo Hermitau Training\""
+  },
+  "Demondrug": {
+    "en": "Combine Catalyst + Power Seed",
+    "es": "Combina Catalyst + Power Seed"
+  },
+  "Diablos Coin": {
+    "en": "Training School Battle Training \"Diablos Training\"",
+    "es": "Training School Battle Training \"Diablos Training\""
+  },
+  "Disk Stone": {
+    "en": "Low Rank Volcano",
+    "es": "Volcán (rango bajo)"
+  },
+  "Dosbiscus": {
+    "en": "Pokke Farm; fertilize a Red Seed or Power/Armor Seed",
+    "es": "Granja Pokke; fertilize a Red Seed o Power/Armor Seed"
+  },
+  "Dragon S": {
+    "en": "Combine Lg Bone Husk and Dragon Seed",
+    "es": "Combina Lg Bone Husk y Dragon Seed"
+  },
+  "Dragon Seed": {
+    "en": "Gathering Spot Volcano",
+    "es": "Puntos de recolección Volcán"
+  },
+  "Earth Crystal": {
+    "en": "Low Rank Swamp",
+    "es": "Pantano (rango bajo)"
+  },
+  "Elder Thank You": {
+    "en": "Reward from the Pokke Elder after Village Lv6★ and Guild Hall Lv5★ Shen Gaoren Urgent Quests",
+    "es": "Recompensa from the Pokke Elder after Village Lv6★ y Guild Hall Lv5★ Shen Gaoren Urgent Quests"
+  },
+  "Elder Thnk You+": {
+    "en": "Reward from the Pokke Elder after Guild Hall Lv8★ Urgent Quest \"The Approaching Gaoren\"",
+    "es": "Recompensa from the Pokke Elder after Guild Hall Lv8★ Urgent Quest \"The Approaching Gaoren\""
+  },
+  "Electro Sac": {
+    "en": "Carve or quest reward from Khezu.",
+    "es": "Se obtiene tallando o como recompensa de misión de Khezu."
+  },
+  "Emperor Cricket": {
+    "en": "G-Rank most Areas",
+    "es": "Rango G la mayoría de zonas"
+  },
+  "Energy Drink": {
+    "en": "Combine Sunset Herb and Honey",
+    "es": "Combina Sunset Herb y Honey"
+  },
+  "Expert Coin G": {
+    "en": "Training School G-Lv Training \"Nargacuga Training\" and \"Copper Blangonga\" Training School Lv4★ \"Challenge Quest 7\" and Lv5★ \"Challenge Quest 8\"",
+    "es": "Training School G-Lv Training \"Nargacuga Training\" y \"Copper Blangonga\" Training School Lv4★ \"Challenge Quest 7\" y Lv5★ \"Challenge Quest 8\""
+  },
+  "Expert Ticket": {
+    "en": "Training School Battle Training \"Diablos Training\", \"Gravios Training\" and \"Kirin Training\" Training School Special Training \"Rathalos Training\" and \"Rathalos Training\"",
+    "es": "Training School Battle Training \"Diablos Training\", \"Gravios Training\" y \"Kirin Training\" Training School Special Training \"Rathalos Training\" y \"Rathalos Training\""
+  },
+  "Fire Coin": {
+    "en": "Training School Special Training \"Rathalos Training\"",
+    "es": "Training School Special Training \"Rathalos Training\""
+  },
+  "Fire Herb": {
+    "en": "Gathering Spot Desert, Volcano",
+    "es": "Puntos de recolección Desierto, Volcán"
+  },
+  "Flute": {
+    "en": "Buy from the Town Merchant or Hunter's Shoppe (480z)",
+    "es": "Compra en the Mercader del pueblo o Tienda del cazador (480z)"
+  },
+  "FlynMealPassPlus": {
+    "en": "Random gift from the Felyne Kitchen Head Chef with 3+ Felynes, or after 10 meals prepared by 5 Felynes.",
+    "es": "Regalo aleatorio del Chef con 3 o más Felynes, o tras 10 comidas preparadas por 5 Felynes."
+  },
+  "FlynMealPassReg": {
+    "en": "Random gift from the Felyne Kitchen Head Chef with 2+ Felynes on kitchen duty.",
+    "es": "Regalo aleatorio del Chef de la Cocina Felyne con 2 o más Felynes trabajando."
+  },
+  "Frog": {
+    "en": "Jungle, Old Desert, Snowy Mountains",
+    "es": "Jungla, Old Desierto, Montañas Nevadas"
+  },
+  "Frozen Berry": {
+    "en": "Combine Tropical Berry with Ice Crystal",
+    "es": "Combina Tropical Berry with Ice Crystal"
+  },
+  "Giant Corn": {
+    "en": "Pokke Farm; fertilize a Yellow Seed",
+    "es": "Granja Pokke; fertilize a Yellow Seed"
+  },
+  "Gourmet Fish": {
+    "en": "Felyne Kitchen \"BBQ Service\"",
+    "es": "Felyne Kitchen \"BBQ Service\""
+  },
+  "Gourmet Fish+": {
+    "en": "Felyne Kitchen \"BBQ Service\"",
+    "es": "Felyne Kitchen \"BBQ Service\""
+  },
+  "Gourmet Steak": {
+    "en": "Cook Raw Meat with a Gourmet BBQ Spit and end at the right time Felyne Kitchen Gift",
+    "es": "Cook Raw Meat with a Gourmet BBQ Spit y end at the right time Felyne Kitchen Gift"
+  },
+  "Gravios Coin": {
+    "en": "Training School Battle Training \"Gravios Training\"",
+    "es": "Training School Battle Training \"Gravios Training\""
+  },
+  "Great Hornfly": {
+    "en": "Pokke Farm",
+    "es": "Granja Pokke"
+  },
+  "Great Ladybug": {
+    "en": "Pokke Farm",
+    "es": "Granja Pokke"
+  },
+  "Great Stone": {
+    "en": "Quest Reward for LVG3★ Event Quest \"High Altitude King\"",
+    "es": "Recompensa de misión for LVG3★ Event Quest \"High Altitude King\""
+  },
+  "Gunpowder": {
+    "en": "Combine Fire Herb and Nitroshroom Buy from the Peddling Granny (222z)",
+    "es": "Combina Fire Herb y Nitroshroom Compra en the Abuela ambulante (222z)"
+  },
+  "Hard Ticket": {
+    "en": "Data import reward for Rare 4-5 equipment.",
+    "es": "Recompensa de importación de datos para equipo de rareza 4-5."
+  },
+  "Health Flute": {
+    "en": "Combine Lifepowder and Flute",
+    "es": "Combina Lifepowder y Flute"
+  },
+  "Herbal Medicine": {
+    "en": "Combine Cactus Flower and Bitterbug",
+    "es": "Combina Cactus Flower y Bitterbug"
+  },
+  "Hercudrome": {
+    "en": "Volcano, Tower High-Rank Mountains",
+    "es": "Volcán, Tower High-Rank Mountains"
+  },
+  "Hero of JumboBio": {
+    "en": "Reward from the Peddling Granny after slaying a Lunastra",
+    "es": "Recompensa from the Abuela ambulante after slaying a Lunastra"
+  },
+  "Hero of Kkto Bio": {
+    "en": "Reward from the Pokke Elder after completing the required Monoblos deed.",
+    "es": "Recompensa del Anciano de Pokke tras completar el encargo requerido de Monoblos."
+  },
+  "Honey": {
+    "en": "Gathering Spot Jungle",
+    "es": "Puntos de recolección Jungla"
+  },
+  "Hot Drink": {
+    "en": "Combine Hot Pepper and Bitterbug Buy from the Town Merchant or Hunter's Shoppe (250z)",
+    "es": "Combina Hot Pepper y Bitterbug Compra en the Mercader del pueblo o Tienda del cazador (250z)"
+  },
+  "Hot Meat": {
+    "en": "Combine Well-Done Steak and Hot Pepper",
+    "es": "Combina Well-Done Steak y Hot Pepper"
+  },
+  "Hunter Soul Tkt": {
+    "en": "Quest Reward for LV6★ Event Quest \"2 Colors of Meow\"",
+    "es": "Recompensa de misión for LV6★ Event Quest \"2 Colors of Meow\""
+  },
+  "Hunter's Ticket": {
+    "en": "Quest Reward for LV6★ Event Quest \"2 Colors of Meow\"",
+    "es": "Recompensa de misión for LV6★ Event Quest \"2 Colors of Meow\""
+  },
+  "Huskberry": {
+    "en": "Buy from the Town Merchant or Hunter's Shoppe (2z)",
+    "es": "Compra en the Mercader del pueblo o Tienda del cazador (2z)"
+  },
+  "Hypno Ticket": {
+    "en": "Quest Reward for LVG1★ Event Quest \"Super Hypnocatrice Brawl\"",
+    "es": "Recompensa de misión for LVG1★ Event Quest \"Super Hypnocatrice Brawl\""
+  },
+  "Ice Crystal": {
+    "en": "Low Rank Snowy Mountains",
+    "es": "Rango bajo Montañas Nevadas"
+  },
+  "Immunizer": {
+    "en": "Combine Catalyst + Dragon Toadstool",
+    "es": "Combina Catalyst + Dragon Toadstool"
+  },
+  "Ivy": {
+    "en": "Gathering Spot Snwoy Mountains, Jungle, Forest&Hills",
+    "es": "Puntos de recolección Snwoy Mountains, Jungla, Bosque y Colinas"
+  },
+  "Khezu Coin": {
+    "en": "Training School Battle Training \"Khezu Training\"",
+    "es": "Training School Battle Training \"Khezu Training\""
+  },
+  "Killer Beetle": {
+    "en": "Jungle",
+    "es": "Jungla"
+  },
+  "King Scarab": {
+    "en": "High-Rank Forest & Hills and Desert",
+    "es": "High-Rank Bosque y Colinas y Desierto"
+  },
+  "Kirin Coin": {
+    "en": "Training School Battle Training \"Kirin Training\"",
+    "es": "Training School Battle Training \"Kirin Training\""
+  },
+  "Knife Mackerel": {
+    "en": "Peddling Granny",
+    "es": "Abuela ambulante"
+  },
+  "Kut-Ku Coin": {
+    "en": "Training School Battle Training \"Yian Kut-Ku Training\" Group Training \"Blue Yian Kut-Ku Exercises\"",
+    "es": "Training School Battle Training \"Yian Kut-Ku Training\" Group Training \"Blue Yian Kut-Ku Exercises\""
+  },
+  "Lavasioth Ticket": {
+    "en": "Quest Reward for LVG1★ Event Quest \"Surrounded in a Sea of Magma\"",
+    "es": "Recompensa de misión for LVG1★ Event Quest \"Surrounded in a Sea of Magma\""
+  },
+  "Legend Coin G": {
+    "en": "Training School G-Lv Training \"Rajang Training\" Training School Lv5★ \"Challenge Quest 10\"",
+    "es": "Training School G-Lv Training \"Rajang Training\" Training School Lv5★ \"Challenge Quest 10\""
+  },
+  "Lifecrystals": {
+    "en": "Combine Godbug and Wyvern Fang",
+    "es": "Combina Godbug y Wyvern Fang"
+  },
+  "Lifepowder": {
+    "en": "Combine Lifecrystals + Wyvern Claw",
+    "es": "Combina Lifecrystals + Wyvern Claw"
+  },
+  "Max Potion": {
+    "en": "Combine Mega Nutrients and Dragon Toadstool",
+    "es": "Combina Mega Nutrients y Dragon Toadstool"
+  },
+  "Mega Armorskin": {
+    "en": "Combine Armorskin and Pale Extract",
+    "es": "Combina Armorskin y Pale Extract"
+  },
+  "Mega Bugnet": {
+    "en": "Combine Net and Med Monster Bone",
+    "es": "Combina Net y Med Monster Bone"
+  },
+  "Mega Demondrug": {
+    "en": "Combine Demondrug and Pale Extract",
+    "es": "Combina Demondrug y Pale Extract"
+  },
+  "Mega Juice": {
+    "en": "Combine Well-Done Steak and Power Extract",
+    "es": "Combina Well-Done Steak y Power Extract"
+  },
+  "Mega Pickaxe": {
+    "en": "Combine Machalite Ore and Bone",
+    "es": "Combina Machalite Ore y Bone"
+  },
+  "Mystery Bone": {
+    "en": "Gather from bone piles in all areas, or receive it as a reward from gathering quests.",
+    "es": "Recolecta en pilas de huesos de todas las zonas, o como recompensa de misiones de recolección."
+  },
+  "Needleberry": {
+    "en": "Gathering Spot Forest and Hills",
+    "es": "Puntos de recolección Forest y Hills"
+  },
+  "Net": {
+    "en": "Combine Spider Web and Ivy",
+    "es": "Combina Spider Web y Ivy"
+  },
+  "Normal S Lv3": {
+    "en": "Buy from the Town Merchant or Hunter's Shoppe (5z) Combine Huskberry and Rumblefish",
+    "es": "Compra en the Mercader del pueblo o Tienda del cazador (5z) Combina Huskberry y Rumblefish"
+  },
+  "Normal Ticket": {
+    "en": "Data import reward for Rare 1-3 equipment.",
+    "es": "Recompensa de importación de datos para equipo de rareza 1-3."
+  },
+  "Nutrients": {
+    "en": "Combine Blue Mushroom and Godbug",
+    "es": "Combina Blue Mushroom y Godbug"
+  },
+  "Old Pickaxe": {
+    "en": "Combine Stone and Bone Buy from the Town Merchant (60z)",
+    "es": "Combina Stone y Bone Compra en the Mercader del pueblo (60z)"
+  },
+  "ParalysisCoating": {
+    "en": "Buy from the Town Merchant or Hunter's Shoppe (26z) Combine Empty Bottle and Toadstool",
+    "es": "Compra en the Mercader del pueblo o Tienda del cazador (26z) Combina Empty Bottle y Toadstool"
+  },
+  "Parashroom": {
+    "en": "Most Mushroom Gathering Spot",
+    "es": "Most Mushroom Puntos de recolección"
+  },
+  "Pellet S Lv3": {
+    "en": "Buy from the Town Merchant or Hunter's Shoppe (24z) Combine Sm Bone Husk and Wyvern Fang",
+    "es": "Compra en the Mercader del pueblo o Tienda del cazador (24z) Combina Sm Bone Husk y Wyvern Fang"
+  },
+  "PhantomButterfly": {
+    "en": "G-Rank Volcano and Tower",
+    "es": "Rango G Volcán y Tower"
+  },
+  "Pierce S Lv3": {
+    "en": "Buy from the Town Merchant or Hunter's Shoppe (28z) Combine Sm Bone Husk and Pin Tuna",
+    "es": "Compra en the Mercader del pueblo o Tienda del cazador (28z) Combina Sm Bone Husk y Pin Tuna"
+  },
+  "Pin Tuna": {
+    "en": "Most Areas",
+    "es": "Most Areas"
+  },
+  "Plesioth Coin": {
+    "en": "Training School Special Training \"Plesioth Training\"",
+    "es": "Training School Special Training \"Plesioth Training\""
+  },
+  "Plus Class Tcket": {
+    "en": "Reward from the corresponding Plus-class event/transfer content.",
+    "es": "Recompensa del contenido de evento o transferencia correspondiente de clase Plus."
+  },
+  "Poison Coating": {
+    "en": "Buy from the Town Merchant or Hunter's Shoppe (17z) Combine Empty Bottle and Toadstool",
+    "es": "Compra en the Mercader del pueblo o Tienda del cazador (17z) Combina Empty Bottle y Toadstool"
+  },
+  "Pokke Ticket": {
+    "en": "Reward from the Pokke Elder for various deeds Buy from the Pokke Point Merchant (5000pts)",
+    "es": "Recompensa from the Pokke Elder for various deeds Compra en the Comerciante de Puntos Pokke (5000pts)"
+  },
+  "Pokke Ticket+": {
+    "en": "Reward from the Pokke Elder for various grest deeds, like completing Urgent Quests",
+    "es": "Recompensa from the Pokke Elder for various grest deeds, like completing Urgent Quests"
+  },
+  "Power Coating": {
+    "en": "Buy from the Town Merchant or Hunter's Shoppe (32z) Combine Empty Bottle and Nitroshroom",
+    "es": "Compra en the Mercader del pueblo o Tienda del cazador (32z) Combina Empty Bottle y Nitroshroom"
+  },
+  "Power Juice": {
+    "en": "Combine Catalyst and Rare Steak",
+    "es": "Combina Catalyst y Rare Steak"
+  },
+  "Power Pill": {
+    "en": "Combine Immunizer and Power Seed",
+    "es": "Combina Immunizer y Power Seed"
+  },
+  "Power Seed": {
+    "en": "Gathering Spot Desert",
+    "es": "Puntos de recolección Desierto"
+  },
+  "Puppet Ticket": {
+    "en": "Quest Reward for LV6★ Event Quest \"2 Colors of Meow\"",
+    "es": "Recompensa de misión for LV6★ Event Quest \"2 Colors of Meow\""
+  },
+  "Rainbow Insect": {
+    "en": "Volcano, G-Rank Desert",
+    "es": "Volcán, Rango G Desierto"
+  },
+  "Rainbow Ore": {
+    "en": "Mining Point+3 & Bomb Mining",
+    "es": "Mining Point+3 & Bomb Mining"
+  },
+  "Rajang Coin": {
+    "en": "Training School Special Training \"Rajang Training\"",
+    "es": "Training School Special Training \"Rajang Training\""
+  },
+  "Rare Scarab": {
+    "en": "G-Rank Volcano and Tower",
+    "es": "Rango G Volcán y Tower"
+  },
+  "Rumblefish": {
+    "en": "Peddling Granny",
+    "es": "Abuela ambulante"
+  },
+  "Sap Plant": {
+    "en": "Gathering Spot Snowy Mountains",
+    "es": "Puntos de recolección Montañas Nevadas"
+  },
+  "Shock Trap": {
+    "en": "Combine Thunderbug and Trap Tool",
+    "es": "Combina Thunderbug y Trap Tool"
+  },
+  "Shogun Coin": {
+    "en": "Training School Special Training \"Shogun Ceanataur Training\"",
+    "es": "Training School Special Training \"Shogun Ceanataur Training\""
+  },
+  "Sinister Cloth": {
+    "en": "Send Trenya to the Desert, Swamp, Forest and Hills or Volcano (300, 500, 1000pts) Great Forest (500pts)",
+    "es": "Send Trenya to the Desierto, Pantano, Forest y Hills o Volcán (300, 500, 1000pts) Great Forest (500pts)"
+  },
+  "Sleep Coating": {
+    "en": "Buy from the Town Merchant or Hunter's Shoppe (17z) Combine Empty Bottle and Sleep Herb",
+    "es": "Compra en the Mercader del pueblo o Tienda del cazador (17z) Combina Empty Bottle y Sleep Herb"
+  },
+  "Sleep Herb": {
+    "en": "Gathering Spot Snowy Mountains",
+    "es": "Puntos de recolección Montañas Nevadas"
+  },
+  "Sm Bone Husk": {
+    "en": "Bone Piles",
+    "es": "Bone Piles"
+  },
+  "Small Goldenfish": {
+    "en": "Training School",
+    "es": "Training School"
+  },
+  "Speartuna": {
+    "en": "Forest & Hills, Jungle",
+    "es": "Bosque y Colinas, Jungla"
+  },
+  "SpecPuppetTicket": {
+    "en": "Quest Reward for LVG3★ Event Quest \"Hunter's Fiesta!\"",
+    "es": "Recompensa de misión for LVG3★ Event Quest \"Hunter's Fiesta!\""
+  },
+  "Spicy Mushroom": {
+    "en": "Combine Special Mushroom and Hot Pepper (Only during Quests possible)",
+    "es": "Combina Special Mushroom y Hot Pepper (Only during Quests possible)"
+  },
+  "Springnight Carp": {
+    "en": "Pokke Farm exclusive",
+    "es": "Granja Pokke exclusive"
+  },
+  "Steel Egg": {
+    "en": "Quest Reward Delivery Quests and Training School",
+    "es": "Recompensa de misión Delivery Quests y Training School"
+  },
+  "Sunset Herb": {
+    "en": "Gathering Spot Jungle",
+    "es": "Puntos de recolección Jungla"
+  },
+  "Tailed Frog": {
+    "en": "Pokke Farm exclusive",
+    "es": "Granja Pokke exclusive"
+  },
+  "Tigrex Coin": {
+    "en": "Training School Battle Training \"Tigrex Training\"",
+    "es": "Training School Battle Training \"Tigrex Training\""
+  },
+  "Toadstool": {
+    "en": "Most Mushroom Gathering Spot",
+    "es": "Most Mushroom Puntos de recolección"
+  },
+  "Trap Tool": {
+    "en": "Buy from the Town Merchant (200z)",
+    "es": "Compra en the Mercader del pueblo (200z)"
+  },
+  "Unknown Skull": {
+    "en": "Forest and Hills Area 5 & 12 on Low Rank",
+    "es": "Forest y Hills Area 5 & 12 on Rango bajo"
+  },
+  "Warrior Coin G": {
+    "en": "Training School G-Lv Training \"Lavasioth Training\" and \"Terra Shogun Ceanataur\" Training School Lv5★ \"Challenge Quest 8\"",
+    "es": "Training School G-Lv Training \"Lavasioth Training\" y \"Terra Shogun Ceanataur\" Training School Lv5★ \"Challenge Quest 8\""
+  },
+  "Well-Done Steak": {
+    "en": "Cook Raw Meat and end at the right time",
+    "es": "Cook Raw Meat y end at the right time"
+  },
+  "Whetstone": {
+    "en": "Buy from the Town Merchant or Hunter's Shoppe (80z)",
+    "es": "Compra en the Mercader del pueblo o Tienda del cazador (80z)"
+  },
+  "Wyverian Harp": {
+    "en": "Give Trenya a total of 10000pts",
+    "es": "Give Trenya a total of 10000pts"
+  },
+  "Yambug": {
+    "en": "Any Insect Thickets",
+    "es": "Any Insect Thickets"
+  },
+  "Yian Garuga Coin": {
+    "en": "Training School Battle Training \"Yian Garuga Training\"",
+    "es": "Training School Battle Training \"Yian Garuga Training\""
+  },
+  "Amezari Carapace": {
+    "en": "Only from the downloadable Amezari Carnival! event of MHP2G; not normally obtainable in western MHFU.",
+    "es": "Solo aparece en el evento descargable Amezari Carnival! de MHP2G; no se obtiene normalmente en MHFU occidental."
+  },
+  "Amezari Shell": {
+    "en": "Only from the downloadable Amezari Carnival! event of MHP2G; not normally obtainable in western MHFU.",
+    "es": "Solo aparece en el evento descargable Amezari Carnival! de MHP2G; no se obtiene normalmente en MHFU occidental."
+  },
+  "Dengeki G Ticket": {
+    "en": "Reward from the Dengeki G event quests (Japanese DLC).",
+    "es": "Recompensa de las misiones de evento Dengeki G (DLC japonés)."
+  },
+  "Dengeki Maoh Tkt": {
+    "en": "Reward from the Dengeki Maoh event quest (Japanese DLC).",
+    "es": "Recompensa de la misión de evento Dengeki Maoh (DLC japonés)."
+  },
+  "Dengeki Ticket": {
+    "en": "Reward from Dengeki event quests (Japanese DLC).",
+    "es": "Recompensa de misiones de evento Dengeki (DLC japonés)."
+  },
+  "Famitsu Invoice": {
+    "en": "Reward from Famitsu event quests (Japanese DLC).",
+    "es": "Recompensa de misiones de evento Famitsu (DLC japonés)."
+  },
+  "Famitsu PT Tckt": {
+    "en": "Reward from Famitsu event quests (Japanese DLC).",
+    "es": "Recompensa de misiones de evento Famitsu (DLC japonés)."
+  },
+  "Famitsu Ticket": {
+    "en": "Reward from Famitsu event quests (Japanese DLC).",
+    "es": "Recompensa de misiones de evento Famitsu (DLC japonés)."
+  },
+  "FamitsuCustomTkt": {
+    "en": "Reward from the corresponding Famitsu custom event quest (Japanese DLC).",
+    "es": "Recompensa de la misión de evento Famitsu correspondiente (DLC japonés)."
+  },
+  "Magazine Ticket": {
+    "en": "Reward from Magazine event quests (Japanese DLC).",
+    "es": "Recompensa de misiones de evento Magazine (DLC japonés)."
+  },
+  "Pirate J Tckt G": {
+    "en": "Reward from Pirate J G event quests (Japanese DLC).",
+    "es": "Recompensa de misiones de evento Pirate J G (DLC japonés)."
+  },
+  "Pirate J Ticket": {
+    "en": "Reward from Pirate J event quests (Japanese DLC).",
+    "es": "Recompensa de misiones de evento Pirate J (DLC japonés)."
+  },
+  "GoldRathianThorn": {
+    "en": "Gold Rathian: rare tail carve or high-rank/G-rank quest reward.",
+    "es": "Rathian Dorada: carveo raro de cola o recompensa de misión de rango alto/G."
+  },
+  "Barrel Lid": {
+    "en": "No normal acquisition is documented for western MHFU; treated as event/dummy content.",
+    "es": "No hay obtención normal documentada en MHFU occidental; se considera contenido de evento/dummy."
+  },
+  "Bomb Arrowana": {
+    "en": "Fish at fishing spots in the maps where Arrowana appear.",
+    "es": "Pesca en puntos de pesca de los mapas donde aparece Arrowana."
+  },
+  "Burst Arrowana": {
+    "en": "Fish at fishing spots in the maps where Burst Arrowana appear.",
+    "es": "Pesca en puntos de pesca de los mapas donde aparece Burst Arrowana."
+  },
+  "Dark Piece": {
+    "en": "Trade Elder Dragon Bones to the old man in the Pokke Farm cave.",
+    "es": "Entrega Huesos de Dragón Anciano al anciano de la cueva de la Granja Pokke."
+  },
+  "Dark Stone": {
+    "en": "Trade Elder Dragon Bones to the old man in the Pokke Farm cave.",
+    "es": "Entrega Huesos de Dragón Anciano al anciano de la cueva de la Granja Pokke."
+  },
+  "Fatalis DevilEye": {
+    "en": "Fatalis: break the head and claim the corresponding quest reward.",
+    "es": "Fatalis: rompe la cabeza y recoge la recompensa de misión correspondiente."
+  },
+  "Godbug": {
+    "en": "Gather with a bug net in insect spots; also available from the Pokke Farm insect thicket.",
+    "es": "Recolecta con red en puntos de insectos; también aparece en la zona de insectos de la Granja Pokke."
+  },
+  "Hornetaur Head": {
+    "en": "Poison Hornetaurs so they remain carveable; also obtainable from Jungle Trenya at 500 points.",
+    "es": "Envenena a los Hornetaur para poder tallarlos; también con Trenya en Jungla por 500 puntos."
+  },
+  "HvnlyBlkGraviShl": {
+    "en": "Black Gravios: G-Rank body carve or quest reward.",
+    "es": "Gravios Negro: carveo del cuerpo o recompensa de misión de rango G."
+  },
+  "Lao-Shan's Scale+": {
+    "en": "High-Rank/G-Rank Lao-Shan Lung body or tail carve and quest rewards.",
+    "es": "Lao-Shan Lung de rango alto/G: carveo de cuerpo o cola y recompensas de misión."
+  },
+  "Lao-Shan'sHvyShel": {
+    "en": "G-Rank Lao-Shan Lung: body carve or quest reward.",
+    "es": "Lao-Shan Lung de rango G: carveo del cuerpo o recompensa de misión."
+  },
+  "Lost Umbrella": {
+    "en": "Rare gathering item in Marshlands area 1; it can also appear as a quest reward.",
+    "es": "Objeto raro de recolección en el área 1 del Pantano; también puede salir como recompensa de misión."
+  },
+  "StoutBlkTwstdHrn": {
+    "en": "G-Rank Black Diablos: break both horns and claim the quest reward.",
+    "es": "Diablos Negro de rango G: rompe ambos cuernos y recoge la recompensa de misión."
+  }
+}

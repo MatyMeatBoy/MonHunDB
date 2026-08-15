@@ -16325,7 +16325,7 @@
  },
  {
   "name": "Guardian Spirit Shin / Carnage Shin Set (Blademaster)",
-  "image": "data/images/armor_sets_gamefaqs/74198-778.jpg",
+  "image": "data/images/armor_sets_fandom/auto/guardian-spirit-shin-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua412",
@@ -16367,7 +16367,7 @@
  },
  {
   "name": "Guardian Spirit Shin / Carnage Shin Set (Gunner)",
-  "image": "data/images/armor_sets_gamefaqs/74198-779.jpg",
+  "image": "data/images/armor_sets_fandom/auto/guardian-spirit-shin-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua413",
@@ -17095,75 +17095,75 @@
   "imageFallback": "data/images/armor_sets_fandom/auto/silver-sol-z-armor-gunner.png"
  },
  {
-  "name": "Auroros Goku Set (Blademaster)",
-  "image": "data/images/armor_sets/auroros-goku.jpg",
+  "name": "Auroros Kyoku Set (Blademaster)",
+  "image": "data/images/armor_sets_fandom/auto/auroros-kyoku-armor-blade.png",
   "pieces": [
    {
     "id": "mhfua430",
-    "name": "Auroros Helm Goku",
+    "name": "Auroros Helm Kyoku",
     "part": "head",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua432",
-    "name": "Borealis Crown Goku",
+    "name": "Borealis Crown Kyoku",
     "part": "head",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua879",
-    "name": "Auroros Torso Goku",
+    "name": "Auroros Torso Kyoku",
     "part": "chest",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua881",
-    "name": "Borealis Chest Goku",
+    "name": "Borealis Chest Kyoku",
     "part": "chest",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua1305",
-    "name": "AurorosGauntletsGoku",
+    "name": "AurorosGauntletsKyoku",
     "part": "arms",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua1307",
-    "name": "BorealsGauntletsGoku",
+    "name": "BorealsGauntletsKyoku",
     "part": "arms",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua1729",
-    "name": "Auroros Tasset Goku",
+    "name": "Auroros Tasset Kyoku",
     "part": "waist",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfuaY40",
-    "name": "BorealisTasset Goku",
+    "name": "BorealisTasset Kyoku",
     "part": "waist",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua2163",
-    "name": "Auroros Pants Goku",
+    "name": "Auroros Pants Kyoku",
     "part": "legs",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua2165",
-    "name": "Borealis Pants Goku",
+    "name": "Borealis Pants Kyoku",
     "part": "legs",
     "variant": null,
     "rank": 4
@@ -17172,75 +17172,75 @@
   "rank": 4
  },
  {
-  "name": "Auroros Goku Set (Gunner)",
-  "image": "data/images/armor_sets/auroros-goku.jpg",
+  "name": "Auroros Kyoku Set (Gunner)",
+  "image": "data/images/armor_sets_fandom/auto/auroros-kyoku-armor-gun.png",
   "pieces": [
    {
     "id": "mhfua431",
-    "name": "GenesisHeadpieceGoku",
+    "name": "GenesisHeadpieceKyoku",
     "part": "head",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua433",
-    "name": "Glyph Crown Goku",
+    "name": "Glyph Crown Kyoku",
     "part": "head",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua880",
-    "name": "Genesis Torso Goku",
+    "name": "Genesis Torso Kyoku",
     "part": "chest",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua882",
-    "name": "Glyph Chest Goku",
+    "name": "Glyph Chest Kyoku",
     "part": "chest",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua1306",
-    "name": "GenesisGauntletsGoku",
+    "name": "GenesisGauntletsKyoku",
     "part": "arms",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua1308",
-    "name": "Glyph Gauntlets Goku",
+    "name": "Glyph Gauntlets Kyoku",
     "part": "arms",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua1730",
-    "name": "Genesis Tasset Goku",
+    "name": "Genesis Tasset Kyoku",
     "part": "waist",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua1732",
-    "name": "Glyph Tasset Goku",
+    "name": "Glyph Tasset Kyoku",
     "part": "waist",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua2164",
-    "name": "Genesis Pants Goku",
+    "name": "Genesis Pants Kyoku",
     "part": "legs",
     "variant": null,
     "rank": 4
    },
    {
     "id": "mhfua2166",
-    "name": "Glyph Pants Goku",
+    "name": "Glyph Pants Kyoku",
     "part": "legs",
     "variant": null,
     "rank": 4

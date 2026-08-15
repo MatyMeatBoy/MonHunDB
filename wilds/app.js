@@ -47,6 +47,21 @@ function addLocalVecMonLink() {
 }
 addLocalVecMonLink();
 
+function addLocalChromaKeyLink() {
+  if (!(location.protocol === "http:" && /^(localhost|127(?:\.\d{1,3}){3})$/.test(location.hostname))) return;
+  const host = document.querySelector(".header-left");
+  if (!host || host.querySelector(".chromakey-admin-link")) return;
+  const link = document.createElement("a");
+  link.className = "header-icon-btn chromakey-admin-link";
+  link.title = "Abrir ChromaKey (Admin local)";
+  link.setAttribute("aria-label", "Abrir ChromaKey (Admin local)");
+  link.href = `http://${location.hostname}:5056/`;
+  link.target = "_blank"; link.rel = "noopener";
+  link.innerHTML = "<span aria-hidden=\"true\">✂</span>";
+  host.appendChild(link);
+}
+addLocalChromaKeyLink();
+
 let monsters = [];
 let currentRank = null;
 let lang = localStorage.getItem("mh-lang") || "es";

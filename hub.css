@@ -147,3 +147,6 @@ body {
 .hub-card-title { margin: 0 0 0.5rem; font-size: 1.15rem; }
 .hub-card-desc { margin: 0 0 0.9rem; color: var(--text-dim); font-size: 0.92rem; line-height: 1.45; }
 .hub-card-enter { color: var(--accent); font-weight: 600; letter-spacing: 0.04em; }
+
+.hub-chromakey-link { margin-left: .45rem; color: var(--cyan, #69d3d0); text-decoration: none; font-size: 1.15rem; align-items: center; justify-content: center; }
+.hub-chromakey-link:hover { color: var(--accent); }
