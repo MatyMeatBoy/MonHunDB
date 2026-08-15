@@ -25,7 +25,7 @@
 8 páginas (Rise tiene 7): `index.html`, `monster.html`, `decorations.html`, `weapons.html`, `armor.html`, `materials.html`, `skills.html`, **`charms.html`** (nueva, Wilds no comparte esto con Rise). Nav de 6 íconos en las 8. Sin botón "Volver a monstruos" (se sacó de las 2 webs esta sesión, el combobox del topbar ya cubre eso).
 
 ### `data/monsters.json` — 53 monstruos ✅
-Fusionados 2 duplicados reales esta sesión: Ceratonoth (Male)/(Female) eran 100% idénticos en stats → un solo "Ceratonoth". "Dalthydon (Livestock)" era duplicado exacto de "Dalthydon" → eliminado. Ícono de barra: 132/136 monstruos con ícono (copiados de `bestiario-nemo/exportv1/wilds/images/`), faltan Ceratonoth (ya resuelto con ícono unificado), y una entrada rara "High Purrformance Barrel Puncher" en el manifest viejo que **no es un monstruo** (parece arma de Palico mal clasificada — sin investigar todavía).
+Fusionados 2 duplicados reales esta sesión: Ceratonoth (Male)/(Female) eran 100% idénticos en stats → un solo "Ceratonoth". "Dalthydon (Livestock)" era duplicado exacto de "Dalthydon" → eliminado. Ícono de barra: 132/136 monstruos con ícono (copiados de `bestiario-nemo/exportv1/wilds/images/`), faltan Ceratonoth (ya resuelto con ícono unificado). La entrada "High Purrformance Barrel Puncher" queda descartada del catálogo final: solo existe en el listado bruto histórico y no está en `monsters.json` ni en el manifiesto usado por la app.
 
 ### `data/decorations.json` — 361/361 con ícono ✅ (100%)
 Fuente: `monsterhunterwiki.org/wiki/MHWilds/Decorations` — match perfecto 361/361 por nombre exacto. Trae también `rarity` y `sources` (texto de dónde se consigue: baúles, minijefes, %). Materiales de crafteo siguen vacíos **a propósito** — confirmado que en Wilds las decoraciones no se craftean con partes de monstruo.
@@ -70,5 +70,5 @@ Los nombres de sets/piezas con "Alpha"/"Beta" ahora usan los símbolos griegos *
 - 🔴 **Árbol de mejora de armas** (prevId/nextId) — sin esto el catálogo no puede mostrar "solo finales". Buscar otra fuente (quizás `monsterhunterwiki.org` tenga cadena de crafteo, no probado).
 - 🟡 **Talismanes**: sin ícono/skills/materiales — fuente no investigada.
 - 🟡 **34/286 materiales** y **30/177 skills** sin ícono — las páginas ya scrapeadas no los cubren.
-- 🟡 **"High Purrformance Barrel Puncher"** en `icon_manifest.json` — probablemente no es un monstruo, revisar.
+- ✅ **"High Purrformance Barrel Puncher"** — verificado como entrada ajena al catálogo y descartado del dataset final.
 - 🟢 Todo lo demás (monstruos, decoraciones, sets de armadura, catálogo de armas) es usable y verificado en navegador sin errores de consola.
