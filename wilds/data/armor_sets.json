@@ -566,7 +566,28 @@
   {
     "name": "Arkveld γ Set",
     "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/c/c2/Arkveld_gamma_armor-set-mhwilds-wiki-guide.png",
-    "equipmentSkills": [],
+    "equipmentSkills": [
+      {
+        "name": "Weakness Exploit",
+        "level": 3
+      },
+      {
+        "name": "Blight Resistance",
+        "level": 2
+      },
+      {
+        "name": "Convert Element",
+        "level": 3
+      },
+      {
+        "name": "Flayer",
+        "level": 2
+      },
+      {
+        "name": "Elemental Absorption",
+        "level": 3
+      }
+    ],
     "setBonus": [],
     "pieces": [
       {

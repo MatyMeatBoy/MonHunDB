@@ -370,7 +370,12 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Weakness Exploit",
+        "level": 3
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ec/Arkvulcan_helm_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_helm_gamma-mhwilds-wiki-guide.png",
     "setName": "Arkveld Gamma Set"
@@ -394,7 +399,16 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Blight Resistance",
+        "level": 1
+      },
+      {
+        "name": "Convert Element",
+        "level": 3
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/15/Arkvulcan_mail_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_mail_gamma-mhwilds-wiki-guide.png",
     "setName": "Arkveld Gamma Set"
@@ -418,7 +432,16 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Weakness Exploit",
+        "level": 2
+      },
+      {
+        "name": "Flayer",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4b/Arkvulcan_vambraces_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_vambraces_gamma-mhwilds-wiki-guide.png",
     "setName": "Arkveld Gamma Set"
@@ -444,7 +467,16 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Flayer",
+        "level": 1
+      },
+      {
+        "name": "Elemental Absorption",
+        "level": 3
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/93/Arkvulcan_coil_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_coil_gamma-mhwilds-wiki-guide.png",
     "setName": "Arkveld Gamma Set"
@@ -468,7 +500,16 @@
       3,
       3
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Flayer",
+        "level": 2
+      },
+      {
+        "name": "Blight Resistance",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5a/Arkvulcan_greaves_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_greaves_gamma-mhwilds-wiki-guide.png",
     "setName": "Arkveld Gamma Set"

@@ -45,8 +45,8 @@
 | Íconos de objetos | `██████████` **99,1% (768/775)** | **7 íconos** |
 | Imágenes de sets de armadura | `██████████` **98,7% (157/159)** | **2 sets** |
 | Materiales de sets | `█████████░` **91,2% (145/159)** | **14 sets** |
-| Habilidades de sets | `██████████` **99,4% (158/159)** | **1 set** |
-| Habilidades por pieza | `██████████` **96,4% (665/690)** | **25 piezas** |
+| Habilidades de sets | `██████████` **100% (159/159)** | **0 sets** |
+| Habilidades por pieza | `██████████` **97,1% (670/690)** | **20 piezas** |
 | Materiales por pieza | `░░░░░░░░░░` **0,7% (5/690)** | **685 piezas** |
 | Datos de habilidades de charms | `█████████░` **97,8% (181/185)** | **4 entradas especiales sin habilidad publicable** |
 | Visor 3D | **Pendiente** | No hay modelos locales detectados |
