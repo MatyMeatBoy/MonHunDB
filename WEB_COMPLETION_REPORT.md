@@ -32,7 +32,7 @@
 | Catálogo de monstruos | `██████████` **100% (78/78)** | 0 contra la lista maestra documentada |
 | Renders de monstruos | `██████████` **100% (78/78)** | 0 |
 | Hitzones, debilidades y materiales | `██████████` **100%** | 0 registros vacíos detectados |
-| Rareza de armas | `█████████░` **86,8% (3.431/3.953)** | **522 armas** sin rareza |
+| Rareza de armas | `██████████` **100% (3.953/3.953)** | 0 |
 | Materiales de armadura | `█████████░` **85,4% (1.344/1.574 piezas)** | **230 piezas** |
 | Habilidades de armadura | `█████████░` **86,8% (1.366/1.574 piezas)** | **208 piezas** |
 | Visor 3D | **No medido** | No hay carpeta de modelos equivalente a MHFU |
@@ -60,7 +60,7 @@ Wilds: habilidades por pieza         0% pendiente  ░░░░░░░░░�
 Wilds: materiales por pieza          99% pendiente  ██████████
 Wilds: charms (habilidades)           2% pendiente  ░░░░░░░░░░
 MHFU: fotos de sets                  29% pendiente  ███░░░░░░░
-Rise: rareza de armas                 13% pendiente  █░░░░░░░░░
+Rise: rareza de armas                  0% pendiente  ░░░░░░░░░░
 MHFU: renders de piezas                3% pendiente  ░░░░░░░░░░
 Wilds: materiales de sets              9% pendiente  ░░░░░░░░░░
 ``` 
@@ -78,7 +78,7 @@ Wilds: materiales de sets              9% pendiente  ░░░░░░░░░
 2. Desglosar habilidades y materiales por pieza en Wilds.
 3. Completar materiales/habilidades faltantes de sets de Wilds.
 4. Recuperar fotos de sets y renders de piezas de MHFU.
-5. Resolver las 522 rarezas de armas pendientes de Rise.
+5. Auditar enlaces, iconos y traducciones de armas Rise; la rareza ya está completa.
 6. Auditar enlaces, iconos y traducciones y luego extender el visor 3D a Rise/Wilds.
 
 No hay un porcentaje global único honesto todavía: mezclar monstruos, iconos, armaduras, datos y modelos exigiría decidir pesos arbitrarios. Este informe deja cada porcentaje trazable y actualizable.
