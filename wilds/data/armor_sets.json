@@ -727,7 +727,8 @@
         "qty": 1
       }
     ],
-    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/583632"
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/583632",
+    "localImage": "data/images/armor_sets_full/gala-suit-alpha-set.png"
   },
   {
     "name": "Arkveld γ Set",
@@ -27424,6 +27425,7 @@
         "qty": 5
       }
     ],
-    "nameEs": "Marea Sakura α Set"
+    "nameEs": "Marea Sakura α Set",
+    "localImage": "data/images/armor_sets_full/sakuratide-alpha-set.png"
   }
 ]
