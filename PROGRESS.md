@@ -1,12 +1,13 @@
 # Progreso del proyecto
 
-Última actualización: 2026-08-10
+Última actualización: 2026-08-15
 
 ## Cierre MHFU: puntos de habilidades y ramas de armas (2026-08-15)
 
 - MHFU usa **puntos de habilidad**, no niveles numerados: la ficha de cada habilidad muestra las columnas "Puntos necesarios" y "Habilidad activada". `Gathering` quedó comprobada con `+15/+10/-10/-15` → `Gathering +2/+1/-1/-2` (en español, `Recogida`).
 - Armaduras y adornos muestran sus aportes como `+N pts`/`-N pts`; no se presentan como habilidades completas ni como `Lv. N`.
 - Se añadió la descripción de Recogida y el generador de MHFU ahora lee Scraperino desde `develop` con la corrección documentada de `Gathering -2`.
+- Se completaron las descripciones de las 99 familias de habilidades MHFU (inglés/español); ninguna ficha queda sin descripción y se conservan las 215 activaciones con sus puntos.
 - Se auditaron 7.813 referencias de puntos de armadura/adornos y se normalizaron 146 alias; no quedan nombres de habilidad sin ficha. El script reutilizable es `mhfu/data/normalize_skill_references.js`.
 - Los árboles de armas usan nodos de tamaño fijo y desplazamiento horizontal para conservar legibilidad. El equipo relacionado indexa también armas intermedias, para no perder ramas como `Blango Destroyer` cuando la mejora final cambia de monstruo/materiales.
 
