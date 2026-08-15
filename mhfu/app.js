@@ -119,6 +119,9 @@ const materialsBackEl = document.getElementById("materials-back");
 const materialsSearchEl = document.getElementById("materials-search");
 const materialsIndexEl = document.getElementById("materials-index");
 const materialDetailEl = document.getElementById("material-detail");
+const materialsModeToggleEl = document.getElementById("materials-mode-toggle");
+let materialsMode = "items";
+let combinations = [];
 const skillsNavToggleEl = document.getElementById("skills-nav-toggle");
 const skillsViewEl = document.getElementById("skills-view");
 const skillsBackEl = document.getElementById("skills-back");
@@ -658,7 +661,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes, combinationsRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
@@ -670,6 +673,7 @@ async function init() {
       fetch("data/weapon_tree.json"),
       fetch("data/items.json"),
       fetch("data/quests.json"),
+      fetch("data/combinations.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
@@ -692,6 +696,7 @@ async function init() {
     items = itemsRes.ok ? await itemsRes.json() : [];
     itemsByName = new Map(items.map(it => [it.name, it]));
     quests = questsRes.ok ? await questsRes.json() : [];
+    combinations = combinationsRes.ok ? await combinationsRes.json() : [];
     if (weaponTreeRes.ok) initWeaponTree(await weaponTreeRes.json());
   } catch (err) {
     triggerLabelEl.textContent = ui("selectError");
@@ -869,9 +874,79 @@ function materialIconTag(name) {
   // Materiales/Items catalog fallback (consumables/tools/ammo -- not a
   // monster-drop material, so never in the two lookups above)
   const it = itemsByName.get(name) || itemsByName.get(normalizeMaterialKey(name));
-  if (it) return itemMaskIconTag(it.iconId, it.color, "material-icon");
+  // The MHFU catalogue has a handful of treasure/utility items for which
+  // the original data source does not expose an individual icon id.  Keep
+  // them visibly identified instead of generating a broken url ending in
+  // "null.r.png".  The fallback is a real local game-item icon of the same
+  // broad family; individual art can replace these mappings later.
+  if (it && it.iconId != null) return itemMaskIconTag(it.iconId, it.color, "material-icon");
+  const fallback = MHFU_ITEM_ICON_FALLBACKS[name] || MHFU_ITEM_ICON_FALLBACKS[it?.category];
+  if (fallback) return `<img class="material-icon" src="data/images/items/${fallback}" alt="" loading="lazy">`;
   return `<span class="material-icon material-icon--placeholder"></span>`;
 }
+
+const MHFU_ITEM_ICON_FALLBACKS = {
+  // Category fallbacks cover the catalogue records for which the original
+  // PSP database has no per-item sprite.  They are deliberately real local
+  // game icons rather than blank placeholders, so every item remains legible.
+  bag: "lifepowder.png",
+  ball: "dung-bomb.png",
+  bomb: "lg-barrel-bomb.png",
+  bone: "mystery-bone.png",
+  book: "anc-drgn-treasre.png",
+  bottle: "empty-bottle.png",
+  "carapaceon-shell": "gt-lobstershell.png",
+  egg: "herbivore-egg.png",
+  fang: "blangonga-fang.png",
+  fish: "goldenfish.png",
+  herb: "herb.png",
+  honey: "honey.png",
+  husk: "insect-husk.png",
+  insect: "killer-beetle.png",
+  jewel: "akito-jewel.png",
+  knife: "shakainheritance.png",
+  map: "map.png",
+  meat: "raw-meat.png",
+  monster: "rathalos-scale.png",
+  mushroom: "blue-mushroom.png",
+  ore: "carbalite-ore.png",
+  pelt: "anteka-pelt.png",
+  pickaxe: "old-pickaxe.png",
+  scale: "rathalos-scale.png",
+  seed: "armor-seed.png",
+  shell: "rathalos-shell.png",
+  ticket: "hard-ticket.png",
+  unknown: "unknown-skull.png",
+  "Iron Pickaxe": "old-pickaxe.png",
+  "Lifecrystals": "lifepowder.png",
+  "Huskberry": "insect-husk.png",
+  "Sm Bone Husk": "insect-husk.png",
+  "Lg Bone Husk": "insect-husk.png",
+  "Crag S Lv3": "sm-barrel-bomb.png",
+  "Purecrystal": "lightcrystal.png",
+  "PhantomButterfly": "killer-beetle.png",
+  "Pokke Snowman": "shakalakatreasr.png",
+  "Blngo Blzrd Ball": "shakalakatreasr.png",
+  "Blngo Flrry Ball": "shakalakatreasr.png",
+  "Felyne Crown": "felyne-fur-ruby.png",
+  "Inferior FlynCrn": "felyne-fur-ruby.png",
+  "Flyn Crwn Frgmnt": "felyne-fur-ruby.png",
+  "GldFlynJewelSwd": "shakainheritance.png",
+  "Hndlelss Gld Bld": "shakainheritance.png",
+  "GldBladelessHndl": "shakainheritance.png",
+  "Dynasty Vase": "shakalakatreasr.png",
+  "Bttmlss Old Vase": "shakalakatreasr.png",
+  "Old Vase Bottom": "shakalakatreasr.png",
+  "Mysterious Mask": "shakainheritance.png",
+  "Holed Shaka Mask": "shakainheritance.png",
+  "Shakalaka Stone": "firecell-stone.png",
+  "Eldr Drgn Rfrnc": "anc-drgn-treasre.png",
+  "Torn Old Book": "anc-drgn-treasre.png",
+  "Old Book Scrap": "anc-drgn-treasre.png",
+  "AncntCatKingStat": "shakalakatreasr.png",
+  "TaillessCatStatu": "shakalakatreasr.png",
+  "BrokenStoneTail": "shakalakatreasr.png",
+};
 
 function selectMonster(name, opts = {}) {
   selectedMonster = name;
@@ -1387,6 +1462,22 @@ function runGlobalSearch(query) {
     }
   }
 
+  // materialIndex is deliberately limited to monster drops.  The actual
+  // catalogue also has gathering, quest, shop, treasure and combination-only
+  // items, all of which have their own material page and must be searchable.
+  const materialMatchKeys = new Set(materialMatches.map(match => normalizeMaterialKey(match.matName)));
+  const itemMatches = (items || []).filter(item =>
+    !materialMatchKeys.has(normalizeMaterialKey(item.name)) &&
+    (normalizeSearch(item.name).includes(q) || normalizeSearch(item.nameEs || "").includes(q) || normalizeSearch(trMaterial(item.name)).includes(q))
+  ).slice(0, 12);
+  // Match the product and both inputs: searching "Poción" explains how to
+  // create it and which fusion uses it next.
+  const combinationMatches = (combinations || []).filter(combo =>
+    [combo.name, combo.materialA, combo.materialB].some(name =>
+      normalizeSearch(name).includes(q) || normalizeSearch(trMaterial(name)).includes(q)
+    )
+  ).slice(0, 10);
+
   const decorationMatches = (decorations || []).filter(dec => {
     const skill = dec.skills[0];
     return normalizeSearch(dec.name).includes(q)
@@ -1398,7 +1489,9 @@ function runGlobalSearch(query) {
   // Global search is an explicit lookup, so include upgrade nodes as well as
   // finals. Otherwise the starting MHFU weapons could never be found here.
   const weaponMatches = (weapons || []).filter(w => (
-    normalizeSearch(w.name).includes(q) || normalizeSearch(w.nameEs || "").includes(q)
+    normalizeSearch(w.name).includes(q) ||
+    normalizeSearch(w.nameEs || "").includes(q) ||
+    normalizeSearch(trWeaponName(w)).includes(q)
   )).slice(0, 12);
 
   // A set matches either by its own name, or because one of its pieces does
@@ -1418,6 +1511,14 @@ function runGlobalSearch(query) {
     !setPieceIds.has(p.id) &&
     (normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q))
   ).slice(0, 6);
+  const skillMatches = (skills || []).filter(skill =>
+    normalizeSearch(skill.name || "").includes(q) || normalizeSearch(skill.nameEs || "").includes(q)
+  ).slice(0, 8);
+  const questMatches = (quests || []).filter(quest =>
+    normalizeSearch(quest.name || "").includes(q) ||
+    normalizeSearch(quest.goalCondition || "").includes(q) ||
+    (quest.mainMonsters || []).some(monster => normalizeSearch(monster).includes(q) || normalizeSearch(trMonsterName(monster)).includes(q))
+  ).slice(0, 8);
 
   let html = "";
 
@@ -1449,6 +1550,35 @@ function runGlobalSearch(query) {
         `).join("")}
       </div>`;
     }
+  }
+
+  if (itemMatches.length) {
+    html += `<div class="gs-section"><div class="gs-section-title">${ui("gsItemsSection")}</div>`;
+    html += itemMatches.map(item => `
+      <button type="button" class="gs-monster-row" data-mat-key="${escapeAttr(item.name)}">
+        ${materialIconTag(item.name)}
+        <span>${trMaterial(item.name)}</span>
+      </button>
+    `).join("");
+    html += `</div>`;
+  }
+
+  if (combinationMatches.length) {
+    html += `<div class="gs-section"><div class="gs-section-title">${ui("gsCombinationsSection")}</div>`;
+    html += combinationMatches.map(combo => {
+      const amount = combo.min === combo.max ? `x${combo.min}` : `x${combo.min}–${combo.max}`;
+      return `<div class="gs-combination-row">
+        <span class="gs-combination-label">${ui("combinationProduces")}</span>
+        <button type="button" class="gs-combination-item gs-combination-item--result" data-mat-key="${escapeAttr(combo.name)}">${materialIconTag(combo.name)}<span>${trMaterial(combo.name)} ${amount}</span></button>
+        <span class="gs-combination-formula">
+          <button type="button" class="gs-combination-item" data-mat-key="${escapeAttr(combo.materialA)}">${materialIconTag(combo.materialA)}<span>${trMaterial(combo.materialA)}</span></button>
+          <span aria-hidden="true">+</span>
+          <button type="button" class="gs-combination-item" data-mat-key="${escapeAttr(combo.materialB)}">${materialIconTag(combo.materialB)}<span>${trMaterial(combo.materialB)}</span></button>
+          <span class="gs-source-rank">${combo.chance}%</span>
+        </span>
+      </div>`;
+    }).join("");
+    html += `</div>`;
   }
 
   if (monsterMatches.length) {
@@ -1545,7 +1675,29 @@ function runGlobalSearch(query) {
     html += `</div>`;
   }
 
-  if (!monsterMatches.length && !materialMatches.length && !decorationMatches.length && !weaponMatches.length && !armorSetMatches.length && !loosePieceMatches.length) {
+  if (skillMatches.length) {
+    html += `<div class="gs-section"><div class="gs-section-title">${ui("gsSkillsSection")}</div>`;
+    html += skillMatches.map(skill => `
+      <button type="button" class="gs-monster-row" data-skill-id="${escapeAttr(skill.id)}">
+        ${skillIconTag(skill)}
+        <span>${trSkillName(skill)}</span>
+      </button>
+    `).join("");
+    html += `</div>`;
+  }
+
+  if (questMatches.length) {
+    html += `<div class="gs-section"><div class="gs-section-title">${ui("gsQuestsSection")}</div>`;
+    html += questMatches.map(quest => `
+      <button type="button" class="gs-monster-row" data-quest-id="${escapeAttr(quest.id)}">
+        ${quest.mainMonsters?.[0] ? `<img src="${iconPath(quest.mainMonsters[0])}" alt="" loading="lazy">` : `<span class="material-icon material-icon--placeholder"></span>`}
+        <span>${escapeAttr(quest.name)} <span class="gs-source-rank">${escapeAttr(quest.rank)}</span></span>
+      </button>
+    `).join("");
+    html += `</div>`;
+  }
+
+  if (!monsterMatches.length && !materialMatches.length && !itemMatches.length && !combinationMatches.length && !decorationMatches.length && !weaponMatches.length && !armorSetMatches.length && !loosePieceMatches.length && !skillMatches.length && !questMatches.length) {
     html = `<p class="gs-no-results">${ui("gsNoResults")}</p>`;
   }
 
@@ -1747,8 +1899,12 @@ function bootDecorations() {
 
 // ---------- Weapons ----------
 
+const MHFU_WEAPON_NAME_ES = {
+  "Bone": "Hueso",
+  "Large Bone": "Hueso grande",
+};
 function trWeaponName(w) {
-  return lang === "es" && w.nameEs ? w.nameEs : w.name;
+  return lang === "es" ? (w.nameEs || MHFU_WEAPON_NAME_ES[w.name] || w.name) : w.name;
 }
 // mhfu/data/weapons.json already carries real sharpness/sharpnessArtisan
 // (from the mhfu-db-main community extraction this file was built from --
@@ -2106,7 +2262,8 @@ function renderWeaponsIndex(query) {
   let filtered = weapons.filter(w => {
     const matchesQuery = q && (
       normalizeSearch(w.name).includes(q) ||
-      normalizeSearch(w.nameEs || "").includes(q)
+      normalizeSearch(w.nameEs || "").includes(q) ||
+      normalizeSearch(trWeaponName(w)).includes(q)
     );
     // Keep the catalogue compact on first load, but never hide an earlier
     // weapon when the hunter is specifically looking for it. MHFU's starters
@@ -2114,6 +2271,12 @@ function renderWeaponsIndex(query) {
     return (isWeaponTrueFinal(w) || matchesQuery)
       && (weaponsTypeFilter === "all" || w.type === weaponsTypeFilter)
       && (!q || matchesQuery);
+  });
+  gsResultsEl.querySelectorAll("[data-skill-id]").forEach(btn => {
+    btn.addEventListener("click", () => navSkill(btn.dataset.skillId));
+  });
+  gsResultsEl.querySelectorAll("[data-quest-id]").forEach(btn => {
+    btn.addEventListener("click", () => navQuest(btn.dataset.questId));
   });
   // order finals by their position in the real upgrade tree (per type)
   if (weaponOrderIdx) {
@@ -2620,14 +2783,75 @@ function showMaterialsView() {
   materialsIndexEl.hidden = false;
   materialsSearchEl.value = "";
   window.scrollTo(0,0);
-  renderMaterialsIndex("");
+  renderMaterialsMode("");
+}
+
+function renderMaterialsMode(query) {
+  materialsModeToggleEl?.querySelectorAll("[data-materials-mode]").forEach(button => {
+    button.classList.toggle("active", button.dataset.materialsMode === materialsMode);
+  });
+  if (materialsMode === "combinations") renderCombinationsIndex(query);
+  else renderMaterialsIndex(query);
+}
+
+function combinationItemHtml(name, extraClass = "") {
+  return `<button type="button" class="combination-item ${extraClass}" data-combination-item="${escapeAttr(name)}">
+    ${materialIconTag(name)}<span>${trMaterial(name)}</span>
+  </button>`;
+}
+
+function renderCombinationsIndex(query) {
+  const q = normalizeSearch((query || "").trim());
+  const groups = ["normal", "alchemy", "treasure"];
+  let html = "";
+  for (const type of groups) {
+    const rows = combinations.filter(combo => combo.type === type && (!q || [combo.name, combo.materialA, combo.materialB]
+      .some(name => normalizeSearch(name).includes(q) || normalizeSearch(trMaterial(name)).includes(q))));
+    if (!rows.length) continue;
+    html += `<section class="combination-group">
+      <h3 class="decorations-slot-heading">${ui("combinationType_" + type)}</h3>
+      <div class="combination-list">${rows.map(combo => {
+        const amount = combo.min === combo.max ? `x${combo.min}` : `x${combo.min}–${combo.max}`;
+        return `<article class="combination-card">
+          <div class="combination-result">
+            <span class="combination-caption">${ui("combinationProduces")}</span>
+            ${combinationItemHtml(combo.name, "combination-item--result")}
+            <span class="combination-amount">${amount}</span>
+          </div>
+          <div class="combination-formula">
+            ${combinationItemHtml(combo.materialA)}
+            <span class="combination-symbol" aria-hidden="true">+</span>
+            ${combinationItemHtml(combo.materialB)}
+            <span class="combination-symbol" aria-hidden="true">→</span>
+            <span class="combination-chance">${ui("combinationChance")} ${combo.chance}%</span>
+          </div>
+        </article>`;
+      }).join("")}</div>
+    </section>`;
+  }
+  materialsIndexEl.innerHTML = html || `<p class="no-data">${ui("materialsNoResults")}</p>`;
+  materialsIndexEl.querySelectorAll("[data-combination-item]").forEach(button => {
+    button.addEventListener("click", () => navMaterial(button.dataset.combinationItem));
+  });
 }
 
 // Materiales/Items catalog: monster-drop materials (materialIndex, cross-
 // referenced to "which monster gives this") stay their own untitled group
 // like before; items.json entries NOT already covered (potions/bombs/ammo/
 // etc -- no monster source) get grouped by their MHRice category underneath.
-const ITEM_CATEGORY_ORDER = ["consume", "tool", "material", "bullet", "bottle", "payoff", "offcuts", "carrypayoff", "antique"];
+const MHFU_ITEM_CATEGORY_LABELS = {
+  bag: { es: "Bolsas y objetos", en: "Pouches & items" }, ball: { es: "Bolas", en: "Balls" }, bomb: { es: "Bombas", en: "Bombs" },
+  bone: { es: "Huesos", en: "Bones" }, book: { es: "Libros", en: "Books" }, bottle: { es: "Frascos", en: "Bottles" },
+  "carapaceon-shell": { es: "Caparazones", en: "Carapaceon shells" }, egg: { es: "Huevos", en: "Eggs" }, fang: { es: "Colmillos", en: "Fangs" },
+  fish: { es: "Peces", en: "Fish" }, herb: { es: "Hierbas", en: "Herbs" }, honey: { es: "Miel", en: "Honey" }, husk: { es: "Cáscaras", en: "Husks" },
+  insect: { es: "Insectos", en: "Insects" }, jewel: { es: "Joyas", en: "Jewels" }, knife: { es: "Cuchillos", en: "Knives" }, map: { es: "Mapas", en: "Maps" },
+  meat: { es: "Carne", en: "Meat" }, monster: { es: "Partes de monstruo", en: "Monster parts" }, mushroom: { es: "Setas", en: "Mushrooms" },
+  ore: { es: "Minerales", en: "Ores" }, pelt: { es: "Pieles", en: "Pelts" }, pickaxe: { es: "Picos", en: "Pickaxes" }, scale: { es: "Escamas", en: "Scales" },
+  seed: { es: "Semillas", en: "Seeds" }, shell: { es: "Conchas", en: "Shells" }, ticket: { es: "Tickets", en: "Tickets" }, unknown: { es: "Objetos especiales", en: "Special items" },
+};
+function itemCategoryLabel(category) {
+  return MHFU_ITEM_CATEGORY_LABELS[category]?.[lang] || category;
+}
 function renderMaterialsIndex(query) {
   if (!materialIndex) buildMaterialIndex();
   const q = normalizeSearch((query || "").trim());
@@ -2661,12 +2885,16 @@ function renderMaterialsIndex(query) {
     </div>
   ` : "";
 
-  for (const cat of ITEM_CATEGORY_ORDER) {
+  // MHFU's source categories are different from Rise's old consume/tool
+  // grouping.  Iterate the categories actually present so no catalogue item
+  // silently disappears from the Materials/Items page.
+  const categoryOrder = [...extraByCategory.keys()].sort((a, b) => itemCategoryLabel(a).localeCompare(itemCategoryLabel(b)));
+  for (const cat of categoryOrder) {
     const names = extraByCategory.get(cat);
     if (!names || !names.length) continue;
     html += `
       <div class="decorations-slot-group">
-        <h3 class="decorations-slot-heading">${ui("itemCategory_" + cat)}</h3>
+        <h3 class="decorations-slot-heading">${itemCategoryLabel(cat)}</h3>
         <div class="decorations-grid">
           ${names.map(k => `
             <button type="button" class="decoration-card" data-key="${escapeAttr(k)}">
@@ -2685,10 +2913,48 @@ function renderMaterialsIndex(query) {
   });
 }
 
+function materialCombinationLink(name, extraClass = "") {
+  return `<button type="button" class="material-combination-item ${extraClass}" data-material-link="${escapeAttr(name)}">
+    ${materialIconTag(name)}<span>${trMaterial(name)}</span>
+  </button>`;
+}
+
+function materialCombinationRecipe(combo) {
+  const amount = combo.min === combo.max ? `x${combo.min}` : `x${combo.min}–${combo.max}`;
+  return `<article class="material-combination-recipe">
+    <div class="material-combination-formula">
+      ${materialCombinationLink(combo.materialA)}
+      <span class="combination-symbol" aria-hidden="true">+</span>
+      ${materialCombinationLink(combo.materialB)}
+      <span class="combination-symbol" aria-hidden="true">→</span>
+      ${materialCombinationLink(combo.name, "material-combination-item--result")}
+      <span class="combination-amount">${amount}</span>
+      <span class="combination-chance">${ui("combinationChance")} ${combo.chance}%</span>
+    </div>
+  </article>`;
+}
+
+function materialCombinationsHtml(matKey) {
+  const key = normalizeMaterialKey(matKey);
+  const creates = combinations.filter(combo => normalizeMaterialKey(combo.name) === key);
+  const uses = combinations.filter(combo =>
+    normalizeMaterialKey(combo.materialA) === key || normalizeMaterialKey(combo.materialB) === key
+  );
+  if (!creates.length && !uses.length) return "";
+  return `<div class="material-combinations-block">
+    <h4 class="material-combinations-heading">${ui("materialsCombinationsHeading")}</h4>
+    ${creates.length ? `<h4 class="material-combinations-subheading">${ui("combinationCreatedFrom")}</h4><div class="material-combination-list">${creates.map(materialCombinationRecipe).join("")}</div>` : ""}
+    ${uses.length ? `<h4 class="material-combinations-subheading">${ui("combinationUsedIn")}</h4><div class="material-combination-list">${uses.map(materialCombinationRecipe).join("")}</div>` : ""}
+  </div>`;
+}
+
 function showMaterialDetail(matKey) {
   if (!materialIndex) buildMaterialIndex();
   const key = normalizeMaterialKey(matKey);
   const { sources, isPlusTierFallback } = getMaterialSources(matKey);
+  const hasCombination = combinations.some(combo =>
+    [combo.name, combo.materialA, combo.materialB].some(name => normalizeMaterialKey(name) === key)
+  );
   materialsIndexEl.hidden = true;
   materialDetailEl.hidden = false;
 
@@ -2706,7 +2972,7 @@ function showMaterialDetail(matKey) {
       </span>
       <span class="gs-source-summary">${isPlusTierFallback ? "—" : (summarizeRow(s.row, matKey) || "—")}</span>
     </button>
-  `).join("")}` : `<p class="gs-material-intro">${materialObtainNotes[matKey] ? escapeAttr(materialObtainNotes[matKey][lang]) : ui("decorationsMaterialNoMonster")}</p>`;
+  `).join("")}` : (hasCombination ? "" : `<p class="gs-material-intro">${materialObtainNotes[matKey] ? escapeAttr(materialObtainNotes[matKey][lang]) : ui("decorationsMaterialNoMonster")}</p>`);
 
   materialDetailEl.innerHTML = `
     <a class="decorations-back" href="materials">${ui("materialsBack")}</a>
@@ -2718,15 +2984,27 @@ function showMaterialDetail(matKey) {
     <section class="block">
       <h3>${ui("materialsSourcesHeading")}</h3>
       <div class="decoration-materials-blocks">${sourcesHtml}</div>
+      ${materialCombinationsHtml(matKey)}
     </section>
   `;
   materialDetailEl.querySelectorAll(".gs-source-row").forEach(btn => {
     btn.addEventListener("click", () => navMonster(btn.dataset.name, btn.dataset.rank));
   });
+  materialDetailEl.querySelectorAll("[data-material-link]").forEach(button => {
+    button.addEventListener("click", () => navMaterial(button.dataset.materialLink));
+  });
 }
 
 function bootMaterials() {
-  materialsSearchEl.addEventListener("input", () => renderMaterialsIndex(materialsSearchEl.value));
+  materialsSearchEl.addEventListener("input", () => renderMaterialsMode(materialsSearchEl.value));
+  materialsModeToggleEl?.querySelectorAll("[data-materials-mode]").forEach(button => {
+    button.addEventListener("click", () => {
+      materialsMode = button.dataset.materialsMode;
+      materialDetailEl.hidden = true;
+      materialsIndexEl.hidden = false;
+      renderMaterialsMode(materialsSearchEl.value);
+    });
+  });
   const params = new URLSearchParams(location.search);
   const matKey = params.get("mat");
   const normalizedMatKey = normalizeMaterialKey(matKey || "");

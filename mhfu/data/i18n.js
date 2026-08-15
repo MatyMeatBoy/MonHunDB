@@ -82,9 +82,13 @@ const I18N = {
       specialCaseUnconfirmedTitle: "Caso especial (sin confirmar del todo): se infirió por patrón con otro monstruo similar, a verificar en el juego.",
       searchPlaceholder: "Buscar monstruo…",
       noSearchResults: "Sin resultados",
-      globalSearchPlaceholder: "Buscar monstruo o material…",
+      globalSearchPlaceholder: "Buscar en toda la base de datos…",
       mhInfoElement: "Elemento principal",
       gsMonstersSection: "Monstruos",
+      gsItemsSection: "Materiales e ítems",
+      gsCombinationsSection: "Combinaciones",
+      gsSkillsSection: "Habilidades",
+      gsQuestsSection: "Misiones",
       gsMaterialIntro: "Este objeto puedes obtenerlo de los siguientes monstruos:",
       gsNoResults: "Sin resultados para esa búsqueda",
       gsXnTooltip: (n) => `Ese slot de recompensa tiene ${n} tiradas independientes: una captura, carveo o recompensa de misión te da varios objetos a la vez (no solo uno), y cada uno de esos 'cupos' se sortea por separado contra la tabla de materiales. No significa que captures/carveas ${n} veces.`,
@@ -195,6 +199,13 @@ const I18N = {
       armorPartWaist: "Cintura",
       armorPartLegs: "Piernas",
       materialsNav: "Materiales/Items",
+      materialsItemsList: "Materiales / Items",
+      combinationList: "Lista de combinaciones",
+      combinationType_normal: "Combinaciones",
+      combinationType_alchemy: "Alquimia",
+      combinationType_treasure: "Tesoro",
+      combinationChance: "Éxito",
+      combinationProduces: "Produce",
       itemCategory_consume: "Consumibles",
       itemCategory_tool: "Herramientas",
       itemCategory_material: "Materiales",
@@ -208,6 +219,9 @@ const I18N = {
       materialsBack: "← Volver a materiales",
       materialsNoResults: "Sin materiales que coincidan",
       materialsSourcesHeading: "¿Dónde conseguirlo?",
+      materialsCombinationsHeading: "Combinaciones",
+      combinationCreatedFrom: "Cómo se fusiona",
+      combinationUsedIn: "Se usa para fusionar",
       materialsAnomalyLevel: (range) => `Nivel de Anomalía: ${range}`,
       materialsPlusTierNote: "Versión mejorada (+): sale del mismo monstruo que el material base, normalmente vía Investigaciones de Anomalía.",
       skillsNav: "Habilidades",
@@ -301,9 +315,13 @@ const I18N = {
       specialCaseUnconfirmedTitle: "Special case (not fully confirmed): inferred by pattern from a similar monster, worth verifying in-game.",
       searchPlaceholder: "Search monster…",
       noSearchResults: "No results",
-      globalSearchPlaceholder: "Search monster or material…",
+      globalSearchPlaceholder: "Search the entire database…",
       mhInfoElement: "Main element",
       gsMonstersSection: "Monsters",
+      gsItemsSection: "Materials & items",
+      gsCombinationsSection: "Combinations",
+      gsSkillsSection: "Skills",
+      gsQuestsSection: "Quests",
       gsMaterialIntro: "You can get this item from the following monsters:",
       gsNoResults: "No results for that search",
       gsXnTooltip: (n) => `That reward slot has ${n} independent rolls: a capture, carve, or quest reward gives you several items at once (not just one), and each of those 'slots' is rolled separately against the material table. It does not mean you capture/carve ${n} times.`,
@@ -415,6 +433,13 @@ const I18N = {
       armorPartWaist: "Waist",
       armorPartLegs: "Legs",
       materialsNav: "Materials/Items",
+      materialsItemsList: "Materials / Items",
+      combinationList: "Combination List",
+      combinationType_normal: "Combinations",
+      combinationType_alchemy: "Alchemy",
+      combinationType_treasure: "Treasure",
+      combinationChance: "Success",
+      combinationProduces: "Produces",
       itemCategory_consume: "Consumables",
       itemCategory_tool: "Tools",
       itemCategory_material: "Materials",
@@ -428,6 +453,9 @@ const I18N = {
       materialsBack: "← Back to materials",
       materialsNoResults: "No matching materials",
       materialsSourcesHeading: "Where to get it",
+      materialsCombinationsHeading: "Combinations",
+      combinationCreatedFrom: "How to combine it",
+      combinationUsedIn: "Used in combinations",
       materialsAnomalyLevel: (range) => `Anomaly Level: ${range}`,
       materialsPlusTierNote: "Upgraded (+) version: comes from the same monster as the base material, usually via Anomaly Investigations.",
       skillsNav: "Skills",
@@ -685,6 +713,38 @@ const I18N = {
 // and merged into I18N.materials at runtime by app.js.
 I18N.materials = {};
 
+// The old MHFU item scrape contains a few misaligned Spanish values (for
+// example Med Monster Bone was read as "Hiedra"). These overrides cover the
+// bone/skull crafting family, which is especially common in the early game.
+const MHFU_MATERIAL_NAME_ES = {
+  "Sm Monster Bone": "Hueso monstruo pequeño",
+  "Med Monster Bone": "Hueso monstruo mediano",
+  "Lg Monster Bone": "Hueso monstruo grande",
+  "Monster Bone+": "Hueso monstruo+",
+  "Hrd Monster Bone": "Hueso monstruo duro",
+  "Hvy Monster Bone": "Hueso monstruo pesado",
+  "Eldr Dragon Bone": "Hueso de dragón anciano",
+  "BigEDragonBone": "Hueso de gran dragón anciano",
+  "Mystery Bone": "Hueso misterioso",
+  "Bone": "Hueso",
+  "Pale Bone": "Hueso pálido",
+  "RobustWyvernBone": "Hueso robusto de wyvern",
+  "Brute Bone": "Hueso bruto",
+  "Giant Bone": "Hueso gigante",
+  "Stout Bone": "Hueso sólido",
+  "Massive Bone": "Hueso macizo",
+  "Sm Bone Husk": "Cáscara de hueso pequeña",
+  "Lg Bone Husk": "Cáscara de hueso grande",
+  "Unknown Skull": "Cráneo desconocido",
+  "Master's Skull": "Cráneo maestro",
+  "Giadrome Skull": "Cráneo de Giadrome",
+  "Gendrome Skull": "Cráneo de Gendrome",
+  "Iodrome Skull": "Cráneo de Iodrome",
+  "Remobra Skull": "Cráneo de Remobra",
+  "Tigrex Skull Shl": "Cráneo de Tigrex",
+  "Wyvern Skull Shl": "Cráneo de wyvern",
+};
+
 function t(dict, key) {
   if (key === null || key === undefined) return key;
   return dict[key] || key;
@@ -710,6 +770,7 @@ function normalizeMaterialKey(s) {
 
 function translateMaterial(name) {
   const key = normalizeMaterialKey(name);
+  if (MHFU_MATERIAL_NAME_ES[key]) return MHFU_MATERIAL_NAME_ES[key];
   if (I18N.materials[key]) return I18N.materials[key];
   // Materiales/Items catalog (app.js, loaded from data/items.json) --
   // translateMaterial() is defined here (loaded before app.js) but only

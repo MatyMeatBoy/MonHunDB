@@ -1,0 +1,497 @@
+[
+  {
+    "name": "Potion",
+    "materialA": "Herb",
+    "materialB": null
+  },
+  {
+    "name": "Mega Potion",
+    "materialA": "Potion",
+    "materialB": "Honey"
+  },
+  {
+    "name": "First-aid Med+",
+    "materialA": "First-aid Med",
+    "materialB": "Honey"
+  },
+  {
+    "name": "Antidote",
+    "materialA": "Antidote Herb",
+    "materialB": null
+  },
+  {
+    "name": "Herbal Medicine",
+    "materialA": "Antidote",
+    "materialB": "Blue Mushroom"
+  },
+  {
+    "name": "Catalyst",
+    "materialA": "Bitterbug",
+    "materialB": "Honey"
+  },
+  {
+    "name": "Immunizer",
+    "materialA": "Bitterbug",
+    "materialB": "Mandragora"
+  },
+  {
+    "name": "Cleanser",
+    "materialA": "Fire Herb",
+    "materialB": "Popfish"
+  },
+  {
+    "name": "Max Potion",
+    "materialA": "Catalyst",
+    "materialB": "Mandragora"
+  },
+  {
+    "name": "Ancient Potion",
+    "materialA": "Immunizer",
+    "materialB": "Kelbi Horn"
+  },
+  {
+    "name": "Lifepowder",
+    "materialA": "Godbug",
+    "materialB": "Blue Mushroom"
+  },
+  {
+    "name": "Dust of Life",
+    "materialA": "Godbug",
+    "materialB": "Gloamgrass Bud"
+  },
+  {
+    "name": "Herbal Powder",
+    "materialA": "Godbug",
+    "materialB": "Herbal Medicine"
+  },
+  {
+    "name": "Energy Drink",
+    "materialA": "Nitroshroom",
+    "materialB": "Honey"
+  },
+  {
+    "name": "Dash Juice",
+    "materialA": "Catalyst",
+    "materialB": "Dash Extract"
+  },
+  {
+    "name": "Demondrug",
+    "materialA": "Catalyst",
+    "materialB": "Might Seed"
+  },
+  {
+    "name": "Mega Demondrug",
+    "materialA": "Pale Extract",
+    "materialB": "Demondrug"
+  },
+  {
+    "name": "Demon Powder",
+    "materialA": "Godbug",
+    "materialB": "Might Seed"
+  },
+  {
+    "name": "Armorskin",
+    "materialA": "Catalyst",
+    "materialB": "Adamant Seed"
+  },
+  {
+    "name": "Mega Armorskin",
+    "materialA": "Pale Extract",
+    "materialB": "Armorskin"
+  },
+  {
+    "name": "Hardshell Powder",
+    "materialA": "Godbug",
+    "materialB": "Adamant Seed"
+  },
+  {
+    "name": "Deodorant",
+    "materialA": "Sunscorned Grass",
+    "materialB": null
+  },
+  {
+    "name": "Farcaster",
+    "materialA": "Smokenut",
+    "materialB": "Exciteshroom"
+  },
+  {
+    "name": "Powertalon",
+    "materialA": "Powercharm",
+    "materialB": "Ibushi Claw+"
+  },
+  {
+    "name": "Armortalon",
+    "materialA": "Armorcharm",
+    "materialB": "Ibushi Claw+"
+  },
+  {
+    "name": "Poison Smoke Bomb",
+    "materialA": "Smokenut",
+    "materialB": "Toadstool"
+  },
+  {
+    "name": "Flash Bomb",
+    "materialA": "Flashbug",
+    "materialB": null
+  },
+  {
+    "name": "Sonic Bomb",
+    "materialA": "Screamer Sac",
+    "materialB": null
+  },
+  {
+    "name": "Dung Bomb",
+    "materialA": "Dung",
+    "materialB": null
+  },
+  {
+    "name": "Gunpowder",
+    "materialA": "Fire Herb",
+    "materialB": "Nitroshroom"
+  },
+  {
+    "name": "Barrel Bomb",
+    "materialA": "Fire Herb",
+    "materialB": "Small Barrel"
+  },
+  {
+    "name": "Large Barrel Bomb",
+    "materialA": "Gunpowder",
+    "materialB": "Large Barrel"
+  },
+  {
+    "name": "Mega Barrel Bomb",
+    "materialA": "Scatterfish",
+    "materialB": "Large Barrel Bomb"
+  },
+  {
+    "name": "Poisoned Meat",
+    "materialA": "Raw Meat",
+    "materialB": "Toadstool"
+  },
+  {
+    "name": "Tinged Meat",
+    "materialA": "Raw Meat",
+    "materialB": "Parashroom"
+  },
+  {
+    "name": "Drugged Meat",
+    "materialA": "Raw Meat",
+    "materialB": "Sleep Herb"
+  },
+  {
+    "name": "Net",
+    "materialA": "Ivy",
+    "materialB": "Spider Web"
+  },
+  {
+    "name": "Pitfall Trap",
+    "materialA": "Trap Tool",
+    "materialB": "Net"
+  },
+  {
+    "name": "Shock Trap",
+    "materialA": "Trap Tool",
+    "materialB": "Thunderbug"
+  },
+  {
+    "name": "Tranq Bomb",
+    "materialA": "Sleep Herb",
+    "materialB": "Parashroom"
+  },
+  {
+    "name": "Exploding Kunai",
+    "materialA": "Gray Seed",
+    "materialB": null
+  },
+  {
+    "name": "Fire Barrel Bomb",
+    "materialA": "Crimson Seed",
+    "materialB": null
+  },
+  {
+    "name": "Water Barrel Bomb",
+    "materialA": "Blue Seed",
+    "materialB": null
+  },
+  {
+    "name": "Thunder Barrel Bomb",
+    "materialA": "Gold Seed",
+    "materialB": null
+  },
+  {
+    "name": "Ice Barrel Bomb",
+    "materialA": "Silver Seed",
+    "materialB": null
+  },
+  {
+    "name": "Tranq Ammo",
+    "materialA": "Tranq Bomb",
+    "materialB": "Normal Ammo 1"
+  },
+  {
+    "name": "Power Coating",
+    "materialA": "Empty Phial",
+    "materialB": "Nitroshroom"
+  },
+  {
+    "name": "Poison Coating",
+    "materialA": "Empty Phial",
+    "materialB": "Toadstool"
+  },
+  {
+    "name": "Para Coating",
+    "materialA": "Empty Phial",
+    "materialB": "Parashroom"
+  },
+  {
+    "name": "Sleep Coating",
+    "materialA": "Empty Phial",
+    "materialB": "Sleep Herb"
+  },
+  {
+    "name": "Blast Coating",
+    "materialA": "Empty Phial",
+    "materialB": "Fire Herb"
+  },
+  {
+    "name": "Exhaust Coating",
+    "materialA": "Empty Phial",
+    "materialB": "Exciteshroom"
+  },
+  {
+    "name": "Normal Ammo 2",
+    "materialA": "Normal Ammo 1",
+    "materialB": "Gunpowder Lv2"
+  },
+  {
+    "name": "Normal Ammo 3",
+    "materialA": "Normal Ammo 1",
+    "materialB": "Gunpowder Lv3"
+  },
+  {
+    "name": "Pierce Ammo 1",
+    "materialA": "Latchberry",
+    "materialB": null
+  },
+  {
+    "name": "Pierce Ammo 2",
+    "materialA": "Pierce Ammo 1",
+    "materialB": "Gunpowder Lv2"
+  },
+  {
+    "name": "Pierce Ammo 3",
+    "materialA": "Pierce Ammo 1",
+    "materialB": "Gunpowder Lv3"
+  },
+  {
+    "name": "Spread Ammo 1",
+    "materialA": "Needleberry",
+    "materialB": null
+  },
+  {
+    "name": "Spread Ammo 2",
+    "materialA": "Spread Ammo 1",
+    "materialB": "Gunpowder Lv2"
+  },
+  {
+    "name": "Spread Ammo 3",
+    "materialA": "Spread Ammo 1",
+    "materialB": "Gunpowder Lv3"
+  },
+  {
+    "name": "Shrapnel Ammo 1",
+    "materialA": "Huskberry",
+    "materialB": null
+  },
+  {
+    "name": "Shrapnel Ammo 2",
+    "materialA": "Shrapnel Ammo 1",
+    "materialB": "Gunpowder Lv2"
+  },
+  {
+    "name": "Shrapnel Ammo 3",
+    "materialA": "Shrapnel Ammo 1",
+    "materialB": "Gunpowder Lv3"
+  },
+  {
+    "name": "Sticky Ammo 1",
+    "materialA": "Blastnut",
+    "materialB": null
+  },
+  {
+    "name": "Sticky Ammo 2",
+    "materialA": "Sticky Ammo 1",
+    "materialB": "Gunpowder Lv2"
+  },
+  {
+    "name": "Sticky Ammo 3",
+    "materialA": "Sticky Ammo 1",
+    "materialB": "Gunpowder Lv3"
+  },
+  {
+    "name": "Cluster Bomb 1",
+    "materialA": "Bomberry",
+    "materialB": null
+  },
+  {
+    "name": "Cluster Bomb 2",
+    "materialA": "Cluster Bomb 1",
+    "materialB": "Gunpowder Lv2"
+  },
+  {
+    "name": "Cluster Bomb 3",
+    "materialA": "Cluster Bomb 1",
+    "materialB": "Gunpowder Lv3"
+  },
+  {
+    "name": "Poison Ammo 1",
+    "materialA": "Normal Ammo 1",
+    "materialB": "Toadstool"
+  },
+  {
+    "name": "Poison Ammo 2",
+    "materialA": "Poison Ammo 1",
+    "materialB": "Catalyst"
+  },
+  {
+    "name": "Paralysis Ammo 1",
+    "materialA": "Normal Ammo 1",
+    "materialB": "Parashroom"
+  },
+  {
+    "name": "Paralysis Ammo 2",
+    "materialA": "Paralysis Ammo 1",
+    "materialB": "Catalyst"
+  },
+  {
+    "name": "Sleep Ammo 1",
+    "materialA": "Normal Ammo 1",
+    "materialB": "Sleep Herb"
+  },
+  {
+    "name": "Sleep Ammo 2",
+    "materialA": "Sleep Ammo 1",
+    "materialB": "Catalyst"
+  },
+  {
+    "name": "Exhaust Ammo 1",
+    "materialA": "Normal Ammo 1",
+    "materialB": "Exciteshroom"
+  },
+  {
+    "name": "Exhaust Ammo 2",
+    "materialA": "Exhaust Ammo 1",
+    "materialB": "Catalyst"
+  },
+  {
+    "name": "Recover Ammo 1",
+    "materialA": "Normal Ammo 1",
+    "materialB": "Potion"
+  },
+  {
+    "name": "Recover Ammo 2",
+    "materialA": "Recover Ammo 1",
+    "materialB": "Catalyst"
+  },
+  {
+    "name": "Demon Ammo",
+    "materialA": "Normal Ammo 1",
+    "materialB": "Might Seed"
+  },
+  {
+    "name": "Armor Ammo",
+    "materialA": "Normal Ammo 1",
+    "materialB": "Adamant Seed"
+  },
+  {
+    "name": "Flaming Ammo",
+    "materialA": "Normal Ammo 1",
+    "materialB": "Fire Herb"
+  },
+  {
+    "name": "Piercing Fire Ammo",
+    "materialA": "Pierce Ammo 1",
+    "materialB": "Fire Herb"
+  },
+  {
+    "name": "Water Ammo",
+    "materialA": "Normal Ammo 1",
+    "materialB": "Flowfern"
+  },
+  {
+    "name": "Piercing Water Ammo",
+    "materialA": "Pierce Ammo 1",
+    "materialB": "Flowfern"
+  },
+  {
+    "name": "Freeze Ammo",
+    "materialA": "Normal Ammo 1",
+    "materialB": "Snow Herb"
+  },
+  {
+    "name": "Piercing Ice Ammo",
+    "materialA": "Pierce Ammo 1",
+    "materialB": "Snow Herb"
+  },
+  {
+    "name": "Thunder Ammo",
+    "materialA": "Normal Ammo 1",
+    "materialB": "Thunderbug"
+  },
+  {
+    "name": "Piercing Thunder Ammo",
+    "materialA": "Pierce Ammo 1",
+    "materialB": "Thunderbug"
+  },
+  {
+    "name": "Dragon Ammo",
+    "materialA": "Normal Ammo 1",
+    "materialB": "Dragonfell Berry"
+  },
+  {
+    "name": "Piercing Dragon Ammo",
+    "materialA": "Pierce Ammo 1",
+    "materialB": "Dragonfell Berry"
+  },
+  {
+    "name": "Slicing Ammo",
+    "materialA": "Slashberry",
+    "materialB": null
+  },
+  {
+    "name": "Wyvern Ammo",
+    "materialA": "Dragonstrike Nut",
+    "materialB": null
+  },
+  {
+    "name": "Gunpowder Lv2",
+    "materialA": "Flamenut",
+    "materialB": null
+  },
+  {
+    "name": "Gunpowder Lv2",
+    "materialA": "Combustuna",
+    "materialB": "Fire Herb"
+  },
+  {
+    "name": "Gunpowder Lv2",
+    "materialA": "Big Combustuna",
+    "materialB": "Fire Herb"
+  },
+  {
+    "name": "Gunpowder Lv3",
+    "materialA": "Blazenut",
+    "materialB": null
+  },
+  {
+    "name": "Gunpowder Lv3",
+    "materialA": "Flamefin",
+    "materialB": "Fire Herb"
+  },
+  {
+    "name": "Gunpowder Lv3",
+    "materialA": "Great Flamefin",
+    "materialB": "Fire Herb"
+  }
+]

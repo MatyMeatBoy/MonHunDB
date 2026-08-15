@@ -113,6 +113,9 @@ const materialsBackEl = document.getElementById("materials-back");
 const materialsSearchEl = document.getElementById("materials-search");
 const materialsIndexEl = document.getElementById("materials-index");
 const materialDetailEl = document.getElementById("material-detail");
+const materialsModeToggleEl = document.getElementById("materials-mode-toggle");
+let materialsMode = "items";
+let combinations = [];
 const skillsNavToggleEl = document.getElementById("skills-nav-toggle");
 const skillsViewEl = document.getElementById("skills-view");
 const skillsBackEl = document.getElementById("skills-back");
@@ -361,7 +364,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, combinationsRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
@@ -372,6 +375,7 @@ async function init() {
       fetch("data/skills.json"),
       fetch("data/weapon_tree.json"),
       fetch("data/items.json"),
+      fetch("data/combinations.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
@@ -392,6 +396,7 @@ async function init() {
     weaponsById = new Map(weapons.map(w => [w.id, w]));
     skillsByName = new Map(skills.filter(s => s.name).map(s => [s.name, s]));
     items = itemsRes.ok ? await itemsRes.json() : [];
+    combinations = combinationsRes.ok ? await combinationsRes.json() : [];
     itemsByName = new Map(items.map(it => [it.name, it]));
     if (weaponTreeRes.ok) initWeaponTree(await weaponTreeRes.json());
   } catch (err) {
@@ -2266,7 +2271,16 @@ function showMaterialsView() {
   materialsIndexEl.hidden = false;
   materialsSearchEl.value = "";
   window.scrollTo(0,0);
-  renderMaterialsIndex("");
+  renderMaterialsMode("");
+}
+
+function renderMaterialsMode(query) {
+  materialsModeToggleEl?.querySelectorAll("button").forEach(b => b.classList.toggle("active", b.dataset.materialsMode === materialsMode));
+  if (materialsMode === "items") return renderMaterialsIndex(query);
+  const q = normalizeSearch(query || "");
+  const rows = combinations.filter(c => !q || [c.name, c.materialA, c.materialB].filter(Boolean).some(n => normalizeSearch(n).includes(q) || normalizeSearch(trMaterial(n)).includes(q)));
+  materialsIndexEl.innerHTML = rows.map(c => `<article class="material-combination-formula">${[c.materialA,c.materialB].filter(Boolean).map(n => `<button data-material-link="${escapeAttr(n)}">${materialIconTag(n)}${trMaterial(n)}</button>`).join('<span>+</span>')}<span>→</span><button data-material-link="${escapeAttr(c.name)}">${materialIconTag(c.name)}${trMaterial(c.name)}</button></article>`).join("") || `<p class="no-data">${ui("materialsNoResults")}</p>`;
+  materialsIndexEl.querySelectorAll("[data-material-link]").forEach(b => b.addEventListener("click", () => navMaterial(b.dataset.materialLink)));
 }
 
 // Materiales/Items catalog: monster-drop materials (materialIndex, cross-
@@ -2335,6 +2349,7 @@ function showMaterialDetail(matKey) {
   if (!materialIndex) buildMaterialIndex();
   const key = normalizeMaterialKey(matKey);
   const { sources, isPlusTierFallback } = getMaterialSources(matKey);
+  const relatedCombinations = combinations.filter(c => [c.name, c.materialA, c.materialB].filter(Boolean).some(n => normalizeMaterialKey(n) === key));
   materialsIndexEl.hidden = true;
   materialDetailEl.hidden = false;
 
@@ -2353,6 +2368,7 @@ function showMaterialDetail(matKey) {
       <span class="gs-source-summary">${isPlusTierFallback ? "—" : (summarizeRow(s.row, matKey) || "—")}</span>
     </button>
   `).join("")}` : `<p class="gs-material-intro">${materialObtainNotes[matKey] ? escapeAttr(materialObtainNotes[matKey][lang]) : ui("decorationsMaterialNoMonster")}</p>`;
+  const combinationsHtml = relatedCombinations.length ? `<div class="material-combinations-block"><h4>${lang === "es" ? "Combinaciones" : "Combinations"}</h4>${relatedCombinations.map(c => `<div class="material-combination-formula"><button data-material-link="${escapeAttr(c.materialA)}">${materialIconTag(c.materialA)}${trMaterial(c.materialA)}</button>${c.materialB ? `<span>+</span><button data-material-link="${escapeAttr(c.materialB)}">${materialIconTag(c.materialB)}${trMaterial(c.materialB)}</button>` : ""}<span>→</span><button data-material-link="${escapeAttr(c.name)}">${materialIconTag(c.name)}${trMaterial(c.name)}</button></div>`).join("")}</div>` : "";
 
   materialDetailEl.innerHTML = `
     <a class="decorations-back" href="materials">${ui("materialsBack")}</a>
@@ -2364,15 +2380,18 @@ function showMaterialDetail(matKey) {
     <section class="block">
       <h3>${ui("materialsSourcesHeading")}</h3>
       <div class="decoration-materials-blocks">${sourcesHtml}</div>
+      ${combinationsHtml}
     </section>
   `;
   materialDetailEl.querySelectorAll(".gs-source-row").forEach(btn => {
     btn.addEventListener("click", () => navMonster(btn.dataset.name, btn.dataset.rank));
   });
+  materialDetailEl.querySelectorAll("[data-material-link]").forEach(btn => btn.addEventListener("click", () => navMaterial(btn.dataset.materialLink)));
 }
 
 function bootMaterials() {
-  materialsSearchEl.addEventListener("input", () => renderMaterialsIndex(materialsSearchEl.value));
+  materialsSearchEl.addEventListener("input", () => renderMaterialsMode(materialsSearchEl.value));
+  materialsModeToggleEl?.querySelectorAll("button").forEach(b => b.addEventListener("click", () => { materialsMode = b.dataset.materialsMode; materialDetailEl.hidden = true; materialsIndexEl.hidden = false; renderMaterialsMode(materialsSearchEl.value); }));
   const params = new URLSearchParams(location.search);
   const matKey = params.get("mat");
   if (matKey && materialIndex && materialIndex.has(normalizeMaterialKey(matKey))) {

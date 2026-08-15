@@ -64,6 +64,10 @@
 
     <main id="materials-view" class="decorations-view">
     <div class="decorations-toolbar">
+      <div id="materials-mode-toggle" class="materials-mode-toggle" role="group" aria-label="Vista de materiales">
+        <button type="button" class="active" data-materials-mode="items" data-i18n="materialsItemsList">Materiales / Items</button>
+        <button type="button" data-materials-mode="combinations" data-i18n="combinationList">Lista de combinaciones</button>
+      </div>
       <input type="text" id="materials-search" class="monster-search" data-i18n-ph="materialsSearchPlaceholder" placeholder="Buscar material…" autocomplete="off" />
     </div>
     <div id="materials-index" class="decorations-index"></div>

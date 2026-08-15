@@ -490,6 +490,16 @@ body {
   text-align: center;
 }
 
+.material-combinations-block { margin-top: 1rem; }
+.materials-mode-toggle { display:flex; gap:0.35rem; flex-wrap:wrap; }
+.materials-mode-toggle button { border:1px solid var(--border); border-radius:6px; background:var(--bg-panel-alt); color:var(--text-dim); padding:0.38rem 0.6rem; font:inherit; cursor:pointer; }
+.materials-mode-toggle button.active { color:var(--text); border-color:var(--accent); }
+.material-combinations-block h4 { margin: 0 0 0.45rem; font-size: 0.95rem; }
+.material-combination-formula { display:flex; align-items:center; flex-wrap:wrap; gap:0.35rem; margin-top:0.38rem; padding:0.45rem; border:1px solid var(--border); border-radius:7px; background:var(--bg-panel-alt); }
+.material-combination-formula button { display:inline-flex; align-items:center; gap:0.3rem; border:0; background:transparent; color:var(--text); font:inherit; cursor:pointer; padding:0.12rem; }
+.material-combination-formula button:hover { color:var(--accent); }
+.material-combination-formula .material-icon { width:22px; height:22px; }
+
 .lang-toggle {
   position: relative;
   overflow: hidden;
