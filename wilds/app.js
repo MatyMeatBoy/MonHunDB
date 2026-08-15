@@ -2465,7 +2465,7 @@ function renderMaterialsMode(query) {
   if (materialsMode === "items") return renderMaterialsIndex(query);
   const q = normalizeSearch(query || "");
   const rows = combinations.filter(c => !q || [c.name, c.materialA, c.materialB].filter(Boolean).some(n => normalizeSearch(n).includes(q) || normalizeSearch(trMaterial(n)).includes(q)));
-  materialsIndexEl.innerHTML = rows.map(c => `<article class="material-combination-formula">${[c.materialA,c.materialB].filter(Boolean).map(n => `<button data-material-link="${escapeAttr(n)}">${materialIconTag(n)}${trMaterial(n)}</button>`).join('<span>+</span>')}<span>→</span><button data-material-link="${escapeAttr(c.name)}">${materialIconTag(c.name)}${trMaterial(c.name)}</button></article>`).join("") || `<p class="no-data">${ui("materialsNoResults")}</p>`;
+  materialsIndexEl.innerHTML = rows.length ? `<section class="combination-group"><h3 class="decorations-slot-heading">${lang === "es" ? "Combinaciones" : "Combinations"}</h3><div class="combination-list">${rows.map(c => `<article class="combination-card"><div class="combination-result"><span class="combination-caption">${lang === "es" ? "Produce" : "Produces"}</span><button class="combination-item combination-item--result" data-material-link="${escapeAttr(c.name)}">${materialIconTag(c.name)}<span>${trMaterial(c.name)}</span></button><span class="combination-amount">x1</span></div><div class="combination-formula">${[c.materialA,c.materialB].filter(Boolean).map(n => `<button class="combination-item" data-material-link="${escapeAttr(n)}">${materialIconTag(n)}<span>${trMaterial(n)}</span></button>`).join('<span class="combination-symbol">+</span>')}<span class="combination-symbol">→</span></div></article>`).join("")}</div></section>` : `<p class="no-data">${ui("materialsNoResults")}</p>`;
   materialsIndexEl.querySelectorAll("[data-material-link]").forEach(b => b.addEventListener("click", () => navMaterial(b.dataset.materialLink)));
 }
 
@@ -3590,6 +3590,14 @@ function newsSilhouettePreviewHtml() {
 // no reusa el changelog de Rise, que hablaria de features/imagenes que
 // no existen aca).
 const NEWS = [
+  {
+    id: "v03",
+    tagKey: "newsWildsV03Tag",
+    titleKey: "newsWildsV03Title",
+    textKey: "newsWildsV03Text",
+    bulletsKey: "newsWildsV03Bullets",
+    imageHtml: () => `<img src="data/images/rey-dau.webp" alt="" loading="lazy">`,
+  },
   {
     id: "v02",
     tagKey: null,

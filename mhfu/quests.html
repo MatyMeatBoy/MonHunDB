@@ -62,10 +62,20 @@
     </div>
   </header>
 
-    <main id="quests-view" class="decorations-view">
+  <main id="quests-view" class="decorations-view">
     <div class="decorations-toolbar">
+      <div class="quests-mode-toggle" role="tablist" aria-label="Modo de misiones">
+        <button type="button" class="quest-filter-btn active" data-quest-mode="single" data-i18n="questsModeSingle">Aldea / Un jugador</button>
+        <button type="button" class="quest-filter-btn" data-quest-mode="hub" data-i18n="questsModeHub">Sala de reuniones</button>
+      </div>
+      <div id="quests-source-filter" class="quests-source-filter" hidden></div>
       <input type="text" id="quests-search" class="monster-search" data-i18n-ph="questsSearchPlaceholder" placeholder="Buscar misión o monstruo…" autocomplete="off" />
     </div>
+    <!-- Kept in the page data for the future Guides section; hidden from Quests for now. -->
+    <details class="mhfu-quest-guide" hidden>
+      <summary data-i18n="questsGuideSummary">Guía MHFU: Granja Pokke y Puntos Pokke</summary>
+      <div id="mhfu-quest-guide-body"></div>
+    </details>
     <div id="quests-index" class="decorations-index"></div>
     <div id="quest-detail" class="decoration-detail" hidden></div>
   </main>

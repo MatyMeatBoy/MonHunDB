@@ -94,6 +94,15 @@ const I18N = {
       newsHeading: "Novedades",
       newsSeeDetails: "Ver detalles",
       newsHideDetails: "Ocultar detalles",
+      newsV06Tag: "v0.6",
+      newsV06Title: "Combinaciones más claras y navegación de materiales renovada",
+      newsV06Text: "La sección Materiales/Items ahora presenta las combinaciones como recetas visuales, con el resultado separado de sus ingredientes y enlaces directos a cada objeto.",
+      newsV06Bullets: [
+        "Nuevo diseño de recetas: resultado, cantidad e ingredientes quedan diferenciados de un vistazo.",
+        "Todos los materiales de una combinación conservan su icono real y enlace directo a la ficha.",
+        "Buscador compartido para Materiales/Items y Lista de combinaciones.",
+        "Toggle de modo reorganizado para aprovechar mejor el espacio en escritorio y móvil.",
+      ],
       newsV01Title: "Llegan los mapas de zonas de daño",
       newsV01Text: "Empezamos a agregar siluetas interactivas con las zonas débiles y resistentes de cada monstruo, mostrando el daño por tipo de arma y elemento directamente sobre su cuerpo. Por ahora están disponibles para Rathalos y Barioth — el resto del bestiario se irá sumando de a poco.",
       newsV01Bullets: [
@@ -301,6 +310,15 @@ const I18N = {
       newsHeading: "News",
       newsSeeDetails: "See details",
       newsHideDetails: "Hide details",
+      newsV06Tag: "v0.6",
+      newsV06Title: "Clearer combinations and renewed materials navigation",
+      newsV06Text: "Materials/Items now presents combinations as visual recipes, separating the result from its ingredients and linking every object directly to its page.",
+      newsV06Bullets: [
+        "New recipe layout: result, quantity, and ingredients are clearly separated at a glance.",
+        "Every combination ingredient keeps its real icon and direct link to its item page.",
+        "Shared search for Materials/Items and the Combinations list.",
+        "Reworked mode toggle to use space more effectively on desktop and mobile.",
+      ],
       newsV01Title: "Hitzone maps have arrived",
       newsV01Text: "We're starting to add interactive silhouettes showing each monster's weak and resistant zones, mapping damage by weapon type and element right onto its body. Available for Rathalos and Barioth for now — the rest of the bestiary will follow.",
       newsV01Bullets: [

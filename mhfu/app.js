@@ -97,7 +97,12 @@ const questsViewEl = document.getElementById("quests-view");
 const questsSearchEl = document.getElementById("quests-search");
 const questsIndexEl = document.getElementById("quests-index");
 const questDetailEl = document.getElementById("quest-detail");
+const questsSourceFilterEl = document.getElementById("quests-source-filter");
+const mhfuQuestGuideBodyEl = document.getElementById("mhfu-quest-guide-body");
 let quests = [];
+let questsMode = "single";
+let questsSource = "";
+let questsCategory = "";
 
 const weaponsNavToggleEl = document.getElementById("weapons-nav-toggle");
 const weaponsViewEl = document.getElementById("weapons-view");
@@ -135,6 +140,7 @@ let skillsByName = new Map();
 // Materiales/Items catalog. See data/items.json + data/_mhrice_items_raw.json.
 let items = [];
 let itemsByName = new Map();
+let gatheringSources = { rankTiers: [], pokkePoints: {}, farm: {}, treasureHunting: {} };
 let weapons = [];
 let armorPieces = [];
 let armorSets = [];
@@ -661,7 +667,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes, combinationsRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes, combinationsRes, gatheringSourcesRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
@@ -674,6 +680,7 @@ async function init() {
       fetch("data/items.json"),
       fetch("data/quests.json"),
       fetch("data/combinations.json"),
+      fetch("data/gathering_sources.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
@@ -697,6 +704,7 @@ async function init() {
     itemsByName = new Map(items.map(it => [it.name, it]));
     quests = questsRes.ok ? await questsRes.json() : [];
     combinations = combinationsRes.ok ? await combinationsRes.json() : [];
+    gatheringSources = gatheringSourcesRes.ok ? await gatheringSourcesRes.json() : gatheringSources;
     if (weaponTreeRes.ok) initWeaponTree(await weaponTreeRes.json());
   } catch (err) {
     triggerLabelEl.textContent = ui("selectError");
@@ -750,7 +758,12 @@ function bootPage() {
 let iconManifest = {};
 // Bulldrome's icon isn't a same-slug PNG like the rest -- it's a 1st-gen SVG
 // icon from Monster Hunter Wiki (monsterhunterwiki.org), the user's pick.
-const ICON_OVERRIDES = { Bulldrome: "data/images/icons/bulldrome.svg" };
+const ICON_OVERRIDES = {
+  Bulldrome: "data/images/icons/bulldrome.svg",
+  "Lao-Shan Lung": "data/images/icons/lao-shan-lung.png",
+  "Ashen Lao-Shan Lung": "data/images/icons/ashen-lao-shan-lung.png",
+  "Ash Lao-Shan Lung": "data/images/icons/ashen-lao-shan-lung.png"
+};
 function iconPath(name) {
   return iconManifest[name] || ICON_OVERRIDES[name] || `data/images/icons/${slugify(name)}.png`;
 }
@@ -2847,7 +2860,7 @@ const MHFU_ITEM_CATEGORY_LABELS = {
   insect: { es: "Insectos", en: "Insects" }, jewel: { es: "Joyas", en: "Jewels" }, knife: { es: "Cuchillos", en: "Knives" }, map: { es: "Mapas", en: "Maps" },
   meat: { es: "Carne", en: "Meat" }, monster: { es: "Partes de monstruo", en: "Monster parts" }, mushroom: { es: "Setas", en: "Mushrooms" },
   ore: { es: "Minerales", en: "Ores" }, pelt: { es: "Pieles", en: "Pelts" }, pickaxe: { es: "Picos", en: "Pickaxes" }, scale: { es: "Escamas", en: "Scales" },
-  seed: { es: "Semillas", en: "Seeds" }, shell: { es: "Conchas", en: "Shells" }, ticket: { es: "Tickets", en: "Tickets" }, unknown: { es: "Objetos especiales", en: "Special items" },
+  seed: { es: "Semillas", en: "Seeds" }, shell: { es: "Conchas", en: "Shells" }, ticket: { es: "Tickets", en: "Tickets" }, account: { es: "Cuenta / Puntos Pokke", en: "Account / Pokke Points" }, unknown: { es: "Objetos especiales", en: "Special items" },
 };
 function itemCategoryLabel(category) {
   return MHFU_ITEM_CATEGORY_LABELS[category]?.[lang] || category;
@@ -2866,6 +2879,11 @@ function renderMaterialsIndex(query) {
     extraByCategory.get(it.category).push(it.name);
   }
   for (const list of extraByCategory.values()) list.sort((a, b) => trMaterial(a).localeCompare(trMaterial(b)));
+
+  const accountNames = (gatheringSources.pokkePoints?.accountItems || []).map(entry => entry.name)
+    .filter(name => !items.some(item => normalizeMaterialKey(item.name) === normalizeMaterialKey(name)))
+    .filter(name => !q || normalizeSearch(name).includes(q));
+  if (accountNames.length) extraByCategory.set("account", accountNames);
 
   if (!filtered.length && !extraByCategory.size) {
     materialsIndexEl.innerHTML = `<p class="no-data">${ui("materialsNoResults")}</p>`;
@@ -2948,6 +2966,59 @@ function materialCombinationsHtml(matKey) {
   </div>`;
 }
 
+function gatheringAccountItem(matKey) {
+  const key = normalizeMaterialKey(matKey);
+  const compact = key.replace(/[^a-z0-9]/g, "");
+  return (gatheringSources.pokkePoints?.accountItems || []).find(entry => {
+    const entryKey = normalizeMaterialKey(entry.name);
+    return entryKey === key || entryKey.replace(/[^a-z0-9]/g, "") === compact;
+  }) || null;
+}
+
+function gatheringRankHint(matKey) {
+  const note = materialObtainNotes[matKey]?.en || materialObtainNotes[matKey]?.es || "";
+  const text = normalizeSearch(note);
+  const ids = [];
+  if (/low rank|rango bajo|village|elder/.test(text)) ids.push("elder-guild-low");
+  if (/high rank|rango alto|upper rank|nekoht|guild/.test(text)) ids.push("nekoht-guild-high");
+  if (/g-rank|rango g|g rank/.test(text)) ids.push("g-rank");
+  return ids;
+}
+
+function gatheringSourcesHtml(matKey) {
+  const account = gatheringAccountItem(matKey);
+  const sourceInfo = Object.entries(gatheringSources.itemSources || {}).find(([name]) => normalizeMaterialKey(name) === normalizeMaterialKey(matKey))?.[1] || null;
+  const rankIds = gatheringRankHint(matKey);
+  const tiers = (gatheringSources.rankTiers || []).map(tier => {
+    const active = rankIds.includes(tier.id);
+    const label = lang === "es" ? tier.labelEs : tier.label;
+    return '<span class="mhfu-rank-chip' + (active ? ' active' : '') + '">' + escapeAttr(label) + '</span>';
+  }).join("");
+  const note = materialObtainNotes[matKey]?.[lang] || materialObtainNotes[matKey]?.en;
+  const accountHtml = account
+    ? '<div class="mhfu-account-item"><span class="mhfu-account-points">' +
+      account.points.toLocaleString(lang === "es" ? "es-ES" : "en-US") + ' Pts</span><span>' +
+      escapeAttr(account.source) + '</span><small>' +
+      escapeAttr(gatheringSources.pokkePoints.accountItemsNote || "") + '</small></div>'
+    : "";
+  const farmNote = account && gatheringSources.farm?.note
+    ? '<p class="mhfu-gathering-note"><strong>' + ui("materialsPokkeFarm") + ':</strong> ' +
+      escapeAttr(gatheringSources.farm.note) + '</p>'
+    : "";
+  const mapNote = sourceInfo?.maps ? '<p class="mhfu-gathering-note"><strong>' + ui("materialsMapSources") + ':</strong> ' + escapeAttr(sourceInfo.maps) + '</p>' : "";
+  const nodeNote = sourceInfo?.farmNode ? '<p class="mhfu-gathering-note"><strong>' + ui("materialsFarmNode") + ':</strong> ' + escapeAttr(sourceInfo.farmNode) + (sourceInfo.farmRequirement ? ' — ' + escapeAttr(sourceInfo.farmRequirement) : '') + '</p>' : "";
+  const rankNote = rankIds.length
+    ? '<p class="mhfu-gathering-note">' + ui("materialsGatheringRankHint") + '</p>'
+    : "";
+  const noteHtml = note ? '<p class="mhfu-gathering-note">' + escapeAttr(note) + '</p>' : "";
+  const body = accountHtml || farmNote || mapNote || nodeNote || rankNote || noteHtml
+    ? accountHtml + farmNote + mapNote + nodeNote + rankNote + noteHtml
+    : '<p class="no-data">' + ui("materialsGatheringNoData") + '</p>';
+  return '<section class="block mhfu-gathering-block"><h3>' +
+    ui("materialsGatheringHeading") + '</h3><div class="mhfu-rank-chips">' +
+    tiers + '</div>' + body + '</section>';
+}
+
 function showMaterialDetail(matKey) {
   if (!materialIndex) buildMaterialIndex();
   const key = normalizeMaterialKey(matKey);
@@ -2961,7 +3032,7 @@ function showMaterialDetail(matKey) {
   const range = ANOMALY_LEVEL_RANGE[key];
   const rangeStr = range ? (range.max ? `${range.min}-${range.max}` : `${range.min}+`) : null;
 
-  const sourcesHtml = sources.length ? `
+  let sourcesHtml = sources.length ? `
     ${isPlusTierFallback ? `<p class="material-plus-tier-note">${ui("materialsPlusTierNote")}</p>` : ""}
     ${sources.map(s => `
     <button type="button" class="gs-source-row" data-name="${s.monster}" data-rank="${s.rank}">
@@ -2974,6 +3045,7 @@ function showMaterialDetail(matKey) {
     </button>
   `).join("")}` : (hasCombination ? "" : `<p class="gs-material-intro">${materialObtainNotes[matKey] ? escapeAttr(materialObtainNotes[matKey][lang]) : ui("decorationsMaterialNoMonster")}</p>`);
 
+  sourcesHtml += gatheringSourcesHtml(matKey);
   materialDetailEl.innerHTML = `
     <a class="decorations-back" href="materials">${ui("materialsBack")}</a>
     <div class="decoration-detail-header">
@@ -3013,9 +3085,14 @@ function bootMaterials() {
   // Resolve the canonical key so its dedicated source note is rendered.
   const notedMaterial = Object.keys(materialObtainNotes).find(key => normalizeMaterialKey(key) === normalizedMatKey);
   const catalogMaterial = items.find(item => normalizeMaterialKey(item.name) === normalizedMatKey);
-  if (matKey && materialIndex && (materialIndex.has(normalizedMatKey) || notedMaterial || catalogMaterial)) {
+  const normalizedCompact = normalizedMatKey.replace(/[^a-z0-9]/g, "");
+  const accountMaterial = (gatheringSources.pokkePoints?.accountItems || []).find(item => {
+    const itemKey = normalizeMaterialKey(item.name);
+    return itemKey === normalizedMatKey || itemKey.replace(/[^a-z0-9]/g, "") === normalizedCompact;
+  });
+  if (matKey && materialIndex && (materialIndex.has(normalizedMatKey) || notedMaterial || catalogMaterial || accountMaterial)) {
     showMaterialsView();
-    showMaterialDetail(notedMaterial || (catalogMaterial && catalogMaterial.name) || matKey);
+    showMaterialDetail(notedMaterial || (catalogMaterial && catalogMaterial.name) || (accountMaterial && accountMaterial.name) || matKey);
   } else {
     showMaterialsView();
   }
@@ -4039,6 +4116,14 @@ function newsSilhouettePreviewHtml() {
 // and tied 1:1 to the i18n keys that hold its translated text.
 const NEWS = [
   {
+    id: "v06",
+    tagKey: "newsV06Tag",
+    titleKey: "newsV06Title",
+    textKey: "newsV06Text",
+    bulletsKey: "newsV06Bullets",
+    imageHtml: () => questTicketIconTag({ goalCondition: "Hunt the monster" }),
+  },
+  {
     id: "v02",
     tagKey: null,
     tag: "v0.2 Alpha",
@@ -4193,21 +4278,192 @@ function navQuest(id) {
   location.href = u.href;
 }
 
+function questMode(qt) {
+  const rank = normalizeSearch(qt?.rank || "");
+  return rank.includes("guild hall") || rank.includes("training hall (group)") ? "hub" : "single";
+}
+
+function questCategory(qt) {
+  const rank = normalizeSearch(qt?.rank || "");
+  if (rank.includes("elder hall")) return "elder";
+  if (rank.includes("nekoht")) return "nekoht";
+  if (rank.includes("treasure hunt")) return "treasure";
+  if (rank.includes("training hall")) return "training";
+  if (rank.includes("guild hall")) return "guild";
+  return "other";
+}
+
+function questCategoryLabel(category) {
+  const keys = { elder: "questsCategoryElder", nekoht: "questsCategoryNekoht", treasure: "questsCategoryTreasure", training: "questsCategoryTraining", guild: "questsCategoryGuild", other: "questsCategoryOther" };
+  return ui(keys[category] || keys.other);
+}
+
+function questClient(qt) {
+  const client = (qt?.client || "").trim();
+  return client || (questCategory(qt) === "training" ? ui("questsTrainingInstructor") : "");
+}
+
+function questStars(qt) {
+  const category = questCategory(qt);
+  if (category === "elder" || category === "nekoht") {
+    const star = Number(qt?.difficulty);
+    return star >= 1 && star <= 9 ? `${star}★` : "";
+  }
+  const rankMatch = String(qt?.rank || "").match(/(\d)★/);
+  if (rankMatch) return `${rankMatch[1]}★`;
+  // Group Training Hall entries do not include the star in their rank
+  // label, but their difficulty field carries the corresponding tier.
+  const difficulty = Number(qt?.difficulty);
+  return difficulty >= 1 && difficulty <= 9 && questMode(qt) === "hub" ? `${difficulty}★` : "";
+}
+
+function questTypeInfo(qt) {
+  const text = normalizeSearch(`${qt?.name || ""} ${qt?.goalCondition || ""} ${qt?.details || ""}`);
+  if (/\bcaptur\w*/.test(text)) return { key: "capture", label: ui("questsTypeCapture"), color: "gray" };
+  if (/\b(deliver|delivery|gather|collect|pick|mine|fish|egg|herb|mushroom)\w*/.test(text)) return { key: "gather", label: ui("questsTypeGather"), color: "green" };
+  if (/\b(slay|hunt|repel|kill|defeat)\w*/.test(text)) return { key: "hunt", label: ui("questsTypeHunt"), color: "red" };
+  return { key: "special", label: ui("questsTypeSpecial"), color: "purple" };
+}
+
+function questTicketIconTag(qt, compact = false) {
+  const type = questTypeInfo(qt);
+  const cls = compact ? " quest-ticket-icon--compact" : "";
+  return `<span class="quest-ticket-icon quest-ticket-icon--${type.color}${cls}" title="${escapeAttr(type.label)}" aria-label="${escapeAttr(type.label)}"><span class="quest-ticket-icon__paper"></span><span class="quest-ticket-icon__seam"></span><span class="quest-ticket-icon__fold"></span></span>`;
+}
+
+function questMonsterIconsTag(qt, interactive = false) {
+  const names = [...new Set((qt?.mainMonsters || []).filter(Boolean))];
+  if (!names.length) return "";
+  return `<span class="quest-monster-icons" aria-label="${escapeAttr(ui("questsMainMonsters"))}">${names.map(name => {
+    const icon = `<img class="quest-monster-icon" src="${escapeAttr(iconPath(name))}" alt="${escapeAttr(name)}" title="${escapeAttr(name)}" loading="lazy" onerror="this.hidden=true">`;
+    return interactive && monsters.some(monster => monster.name === name)
+      ? `<button type="button" class="quest-monster-icon-link" data-monster-name="${escapeAttr(name)}">${icon}</button>`
+      : icon;
+  }).join("")}</span>`;
+}
+
+function questGoalTag(qt, compact = false) {
+  const goal = escapeAttr(qt?.goalCondition || "—");
+  return `<span class="quest-goal${compact ? " quest-goal--compact" : ""}"><span>${goal}</span>${questMonsterIconsTag(qt, !compact)}</span>`;
+}
+
+function questItems(qt) {
+  if (!items.length) return [];
+  const text = normalizeSearch(`${qt?.name || ""} ${qt?.goalCondition || ""} ${qt?.details || ""}`);
+  const found = new Map();
+  const questItemCatalog = items.concat((gatheringSources.pokkePoints?.accountItems || []).map(entry => ({ id: `account:${entry.name}`, name: entry.name })));
+  for (const item of questItemCatalog) {
+    const labels = [item.name, item.nameEs].filter(Boolean);
+    if (labels.some(label => {
+      const key = normalizeSearch(label);
+      return key.length >= 5 && text.includes(key);
+    })) found.set(item.id || item.name, item);
+  }
+  let result = [...found.values()].sort((a, b) => (b.name || "").length - (a.name || "").length);
+  result = result.filter((item, index) => {
+    const key = normalizeSearch(item.name || "");
+    return !result.some((other, otherIndex) => otherIndex < index && normalizeSearch(other.name || "").includes(key));
+  });
+  // Hunt quests usually do not spell out their reward table in the quest
+  // record. Link the target monsters' rank-appropriate material pool as a
+  // useful, concrete fallback instead of leaving the reward area empty.
+  if (!result.length) {
+    const rank = normalizeSearch(qt?.rank || "");
+    const tier = rank.includes("elder") ? "Village" : rank.includes("nekoht") ? "High Rank" : rank.includes("guild hall 3") ? "High Rank" : rank.includes("training hall 3") ? "High Rank" : "Low Rank";
+    const materialNames = new Set();
+    for (const monsterName of qt?.mainMonsters || []) {
+      const monster = monsters.find(monsterRow => monsterRow.name === monsterName);
+      const rows = monster?.materials?.[tier] || monster?.materials?.["Low Rank"] || [];
+      for (const row of rows) if (row.material) materialNames.add(row.material);
+    }
+    result = [...materialNames].map(name => ({ name, id: `material:${name}` }));
+  }
+  return result.slice(0, 12);
+}
+
+function questItemLinkTag(item) {
+  const label = lang === "es" && item.nameEs ? item.nameEs : item.name;
+  return `<button type="button" class="quest-item-link" data-quest-item="${escapeAttr(item.name)}">${materialIconTag(item.name)}<span>${escapeAttr(label)}</span></button>`;
+}
+
+function renderQuestSourceFilter() {
+  if (!questsSourceFilterEl) return;
+  const availableCategories = [...new Set(quests.filter(qt => questMode(qt) === questsMode).map(questCategory))];
+  questsCategory = availableCategories.includes(questsCategory) ? questsCategory : "";
+  questsSource = "";
+  questsSourceFilterEl.hidden = availableCategories.length === 0;
+  const categoryButtons = availableCategories.map(category => `<button type="button" class="quest-subfilter-btn${category === questsCategory ? " active" : ""}" data-quest-category="${category}">${questCategoryLabel(category)}</button>`).join("");
+  questsSourceFilterEl.innerHTML = `<div class="quests-subtoggle" role="tablist" aria-label="${escapeAttr(ui("questsCategoryLabel"))}"><button type="button" class="quest-subfilter-btn${!questsCategory ? " active" : ""}" data-quest-category="">${ui("questsCategoryAll")}</button>${categoryButtons}</div>`;
+  questsSourceFilterEl.querySelectorAll("[data-quest-category]").forEach(btn => btn.addEventListener("click", () => {
+    questsCategory = btn.dataset.questCategory;
+    questsSource = "";
+    renderQuestSourceFilter();
+    renderQuestsIndex(questsSearchEl.value);
+  }));
+  const select = questsSourceFilterEl.querySelector("#quests-source-select");
+  if (select) select.addEventListener("change", () => {
+    questsSource = select.value;
+    renderQuestsIndex(questsSearchEl.value);
+  });
+}
+
+function syncQuestModeButtons() {
+  document.querySelectorAll("[data-quest-mode]").forEach(btn => {
+    const active = btn.dataset.questMode === questsMode;
+    btn.classList.toggle("active", active);
+    btn.setAttribute("aria-selected", active ? "true" : "false");
+  });
+}
+
+function renderQuestGuide() {
+  if (!mhfuQuestGuideBodyEl) return;
+  const farm = gatheringSources.farm || {};
+  const treasure = gatheringSources.treasureHunting || {};
+  const points = gatheringSources.pokkePoints || {};
+  const tiers = (gatheringSources.rankTiers || []).map(t => `<span class="mhfu-rank-chip">${escapeAttr(lang === "es" ? t.labelEs : t.label)}</span>`).join("");
+  mhfuQuestGuideBodyEl.innerHTML = `
+    <div class="mhfu-guide-grid">
+      <div class="mhfu-guide-card">
+        <h4>${ui("questsGuideRanks")}</h4><div class="mhfu-rank-chips">${tiers}</div>
+        <p>${escapeAttr(lang === "es" ? "Training School es entrenamiento de un jugador; Treasure Hunting es la actividad especial de Treshi en la sala." : "Training School is single-player training; Treasure Hunting is Treshi's special activity in the hall.")}</p>
+      </div>
+      <div class="mhfu-guide-card">
+        <h4>${ui("questsGuidePoints")}</h4>
+        <p>${escapeAttr(lang === "es" ? "Training School y Treasure Hunting convierten el 10% de la puntuación en Puntos Pokke." : "Training School and Treasure Hunting convert 10% of the score into Pokke Points.")}</p>
+        <p>${escapeAttr(lang === "es" ? `Coronas de Treasure Hunting: plata ${treasure.crowns?.silver?.toLocaleString("es-ES") || "20.000"} pts · oro ${treasure.crowns?.gold?.toLocaleString("es-ES") || "30.000"} pts.` : `Treasure Hunting crowns: silver ${treasure.crowns?.silver?.toLocaleString() || "20,000"} pts · gold ${treasure.crowns?.gold?.toLocaleString() || "30,000"} pts.`)}</p>
+        <p>${escapeAttr(treasure.delivery || "")}</p>
+        <p>${escapeAttr(points.accountItemsNote || "")}</p>
+      </div>
+      <div class="mhfu-guide-card mhfu-guide-card--wide">
+        <h4>${ui("questsGuideFarm")}</h4>
+        <p>${escapeAttr(farm.note || "")}</p>
+        <div class="mhfu-farm-table"><div class="mhfu-farm-row mhfu-farm-row--head"><span>${ui("questsGuideUpgrade")}</span><span>${ui("questsGuideCost")}</span><span>${ui("questsGuideUnlock")}</span></div>
+        ${(farm.upgrades || []).map(u => `<div class="mhfu-farm-row"><span>${escapeAttr(u.name)}</span><span>${u.cost ? `${u.cost.toLocaleString()} Pts` : "—"}</span><span>${escapeAttr(u.unlock)}</span></div>`).join("")}</div>
+      </div>
+    </div>`;
+}
+
 function showQuestsView() {
   hideViews(detailEl, homeViewEl, decorationsViewEl, weaponsViewEl, armorViewEl, materialsViewEl, skillsViewEl);
   questsViewEl.hidden = false;
   questDetailEl.hidden = true;
   questsIndexEl.hidden = false;
   questsSearchEl.value = "";
+  questsMode = "single";
+  questsSource = "";
+  questsCategory = "";
+  syncQuestModeButtons();
+  renderQuestSourceFilter();
+  renderQuestGuide();
   window.scrollTo(0, 0);
   renderQuestsIndex("");
 }
 
 function renderQuestsIndex(query) {
   const q = normalizeSearch((query || "").trim());
-  const filtered = !q ? quests : quests.filter(qt =>
-    normalizeSearch(qt.name).includes(q) ||
-    (qt.mainMonsters || []).some(m => normalizeSearch(m).includes(q)));
+  const modeFiltered = quests.filter(qt => questMode(qt) === questsMode && (!questsCategory || questCategory(qt) === questsCategory));
+  const filtered = !q ? modeFiltered : modeFiltered.filter(qt =>
+    [qt.name, qt.goalCondition, qt.details, qt.client, qt.location, ...(qt.mainMonsters || [])].filter(Boolean).some(value => normalizeSearch(value).includes(q)));
 
   if (!filtered.length) {
     questsIndexEl.innerHTML = `<p class="no-data">${ui("questsNoResults")}</p>`;
@@ -4225,9 +4481,13 @@ function renderQuestsIndex(query) {
       <h3 class="decorations-slot-heading">${escapeAttr(rank)}</h3>
       <div class="decorations-grid">
         ${byRank.get(rank).map(qt => `
-          <button type="button" class="decoration-card" data-id="${qt.id}">
-            <span class="decoration-card-name">${escapeAttr(qt.name)}</span>
-            <span class="decoration-card-skill">${(qt.mainMonsters || []).map(escapeAttr).join(", ") || "—"}</span>
+          <button type="button" class="decoration-card quest-card" data-id="${qt.id}">
+            ${questTicketIconTag(qt, true)}
+            <span class="quest-card-copy">
+              <span class="decoration-card-name">${escapeAttr(qt.name)}</span>
+              ${questGoalTag(qt, true)}
+              <span class="decoration-card-skill">${questStars(qt) ? `<span class="quest-stars">${questStars(qt)}</span> ` : ""}${escapeAttr(questClient(qt) || "—")} · ${escapeAttr(questTypeInfo(qt).label)}</span>
+            </span>
           </button>
         `).join("")}
       </div>
@@ -4245,15 +4505,19 @@ function showQuestDetail(id) {
   window.scrollTo(0, 0);
   questsIndexEl.hidden = true;
   questDetailEl.hidden = false;
+  const type = questTypeInfo(qt);
+  const rewardItems = questItems(qt);
   questDetailEl.innerHTML = `
     <a class="decorations-back" href="quests">${ui("questsBack")}</a>
     <div class="decoration-detail-header">
+      ${questTicketIconTag(qt)}
       <h2>${escapeAttr(qt.name)}</h2>
       <span class="decoration-detail-slot">${escapeAttr(qt.rank)}</span>
     </div>
-    <p class="gs-material-intro">${ui("questsClient")}: ${escapeAttr(qt.client || "—")}</p>
+    <p class="quest-type-line"><span class="quest-type-badge quest-type-badge--${type.color}">${escapeAttr(type.label)}</span>${questStars(qt) ? ` <span class="quest-stars quest-stars--detail">${questStars(qt)}</span>` : ""}</p>
+    <p class="gs-material-intro">${ui("questsClient")}: ${escapeAttr(questClient(qt) || "—")}</p>
     <p class="gs-material-intro">${ui("questsLocation")}: ${escapeAttr(qt.location || "—")}</p>
-    <p class="gs-material-intro">${ui("questsGoal")}: ${escapeAttr(qt.goalCondition || "—")}</p>
+    <p class="gs-material-intro quest-goal-detail"><span>${ui("questsGoal")}: ${escapeAttr(qt.goalCondition || "—")}</span>${questMonsterIconsTag(qt, true)}</p>
     <p class="gs-material-intro">${ui("questsReward")}: ${qt.reward ?? "—"}  ·  ${ui("questsFee")}: ${qt.contractFee ?? "—"}  ·  ${ui("questsTimeLimit")}: ${qt.timeLimit ?? "—"}</p>
     ${qt.mainMonsters && qt.mainMonsters.length ? `
       <section class="block">
@@ -4265,15 +4529,30 @@ function showQuestDetail(id) {
         </ul>
       </section>
     ` : ""}
+    <section class="block quest-reward-items">
+      <h3>${ui("questsRewardsItems")}</h3>
+      ${rewardItems.length ? `<div class="quest-item-links">${rewardItems.map(questItemLinkTag).join("")}</div>` : `<p class="no-data">${ui("questsNoRewardItems")}</p>`}
+    </section>
     ${qt.details ? `<section class="block"><h3>${ui("questsDetails")}</h3><p class="gs-material-intro">${escapeAttr(qt.details)}</p></section>` : ""}
   `;
   questDetailEl.querySelectorAll("[data-monster-name]").forEach(btn => {
     btn.addEventListener("click", () => navMonster(btn.dataset.monsterName));
   });
+  questDetailEl.querySelectorAll("[data-quest-item]").forEach(btn => {
+    btn.addEventListener("click", () => navMaterial(btn.dataset.questItem));
+  });
 }
 
 function bootQuests() {
   questsSearchEl.addEventListener("input", () => renderQuestsIndex(questsSearchEl.value));
+  document.querySelectorAll("[data-quest-mode]").forEach(btn => btn.addEventListener("click", () => {
+    questsMode = btn.dataset.questMode;
+    questsSource = "";
+    questsCategory = "";
+    syncQuestModeButtons();
+    renderQuestSourceFilter();
+    renderQuestsIndex(questsSearchEl.value);
+  }));
   const params = new URLSearchParams(location.search);
   const questId = params.get("q");
   showQuestsView();

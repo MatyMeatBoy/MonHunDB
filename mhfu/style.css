@@ -1534,6 +1534,56 @@ body {
 
 .decorations-toolbar .monster-search { flex: 1 1 260px; }
 
+.quests-mode-toggle {
+  display: flex;
+  flex: 0 0 auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--bg-panel);
+}
+.quest-filter-btn {
+  border: 0;
+  border-right: 1px solid var(--border);
+  padding: 0.55rem 0.85rem;
+  background: transparent;
+  color: var(--text-dim);
+  font: 600 0.82rem inherit;
+  cursor: pointer;
+}
+.quest-filter-btn:last-child { border-right: 0; }
+.quest-filter-btn:hover:not(.active) { background: var(--bg-panel-alt); color: var(--text); }
+.quest-filter-btn.active { background: var(--accent); color: var(--bg); }
+.quests-source-filter {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+.quests-subtoggle { display: flex; flex-wrap: wrap; gap: .2rem; }
+.quest-subfilter-btn {
+  padding: .38rem .55rem;
+  color: var(--text-dim);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  font: 600 .74rem inherit;
+  cursor: pointer;
+}
+.quest-subfilter-btn:hover:not(.active) { color: var(--text); background: var(--bg-panel-alt); }
+.quest-subfilter-btn.active { color: var(--bg); border-color: var(--accent); background: var(--accent); }
+.quests-source-filter select {
+  max-width: 240px;
+  padding: 0.48rem 0.6rem;
+  color: var(--text);
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font: inherit;
+}
+
 .materials-mode-toggle {
   display: flex;
   align-items: stretch;
@@ -1649,8 +1699,147 @@ body {
   color: var(--text);
 }
 .decoration-card:hover { border-color: var(--accent); }
+.quest-card { align-items: center; }
+.quest-card-copy { min-width: 0; display: block; }
+.quest-goal {
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+  min-width: 0;
+  color: var(--text-muted);
+  font-size: .78rem;
+  line-height: 1.25;
+}
+.quest-goal > span:first-child { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.quest-goal--compact { margin: .12rem 0 .18rem; }
+.quest-monster-icons { display: inline-flex; align-items: center; gap: .18rem; flex: 0 0 auto; }
+.quest-monster-icon,
+.quest-monster-icon-link { width: 1.45rem; height: 1.45rem; flex: 0 0 1.45rem; }
+.quest-monster-icon { display: block; object-fit: contain; filter: drop-shadow(0 1px 1px rgba(0,0,0,.55)); }
+.quest-monster-icon-link { display: inline-flex; align-items: center; justify-content: center; padding: 0; border: 0; background: transparent; border-radius: 50%; cursor: pointer; }
+.quest-monster-icon-link:hover { background: color-mix(in srgb, var(--accent) 22%, transparent); }
+.quest-goal-detail { display: flex; align-items: center; gap: .65rem; flex-wrap: wrap; }
+.quest-goal-detail .quest-monster-icons { margin-left: .15rem; }
 .decoration-card img.material-icon,
 .decoration-card .material-icon.item-mask-icon { width: 28px; height: 28px; flex: 0 0 auto; }
+
+/* The quest ticket is the small cut-line ticket shown above a hunter. The
+   colour communicates the quest family while the fold and perforation keep
+   it recognisable at card size. */
+.quest-ticket-icon {
+  --quest-ticket-color: #b36cca;
+  position: relative;
+  display: inline-block;
+  width: 1.9rem;
+  height: 2rem;
+  flex: 0 0 auto;
+  filter: drop-shadow(0 1px 1px rgba(0,0,0,.35));
+}
+.quest-ticket-icon--compact { width: 1.62rem; height: 1.7rem; }
+.quest-ticket-icon--red { --quest-ticket-color: #d83b38; }
+.quest-ticket-icon--green { --quest-ticket-color: #55a45b; }
+.quest-ticket-icon--gray { --quest-ticket-color: #9297a0; }
+.quest-ticket-icon--purple { --quest-ticket-color: #a96bc8; }
+.quest-ticket-icon__paper {
+  position: absolute;
+  inset: 0 0 .08rem;
+  background: var(--quest-ticket-color);
+  border: 1px solid rgba(22, 19, 17, .66);
+  border-radius: .08rem;
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 75% 100%, 0 100%);
+}
+.quest-ticket-icon__seam {
+  position: absolute;
+  top: .12rem;
+  bottom: .15rem;
+  left: 41%;
+  border-left: 1px dotted rgba(24, 20, 18, .8);
+}
+.quest-ticket-icon__fold {
+  position: absolute;
+  right: 0;
+  bottom: .08rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 .38rem .38rem;
+  border-color: transparent transparent rgba(25, 20, 18, .44) transparent;
+}
+.quest-type-line { margin: -.75rem 0 1rem; }
+.quest-type-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: .2rem .5rem;
+  border-radius: 999px;
+  color: #fff;
+  font-size: .74rem;
+  font-weight: 700;
+  letter-spacing: .03em;
+}
+.quest-type-badge--red { background: #a92d2a; }
+.quest-type-badge--green { background: #3c7b42; }
+.quest-type-badge--gray { background: #656b75; }
+.quest-type-badge--purple { background: #75468c; }
+.quest-stars { color: #e6bb55; font-weight: 800; letter-spacing: .02em; }
+.quest-stars--detail { display: inline-block; margin-left: .4rem; padding: .15rem .4rem; border: 1px solid rgba(230,187,85,.55); border-radius: 999px; font-size: .8rem; }
+.quest-item-links { display: flex; flex-wrap: wrap; gap: .5rem; }
+.quest-item-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  min-width: 0;
+  padding: .35rem .5rem;
+  color: var(--text);
+  background: var(--bg-panel-alt);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font: 600 .8rem inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.quest-item-link:hover { border-color: var(--accent); color: var(--accent); }
+.quest-item-link .material-icon,
+.quest-item-link .item-mask-icon { width: 24px; height: 24px; flex: 0 0 auto; }
+
+.mhfu-gathering-block { margin-top: .85rem; }
+.mhfu-rank-chips { display: flex; flex-wrap: wrap; gap: .35rem; margin: .35rem 0 .7rem; }
+.mhfu-rank-chip {
+  padding: .2rem .5rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-dim);
+  font-size: .72rem;
+}
+.mhfu-rank-chip.active { border-color: var(--accent); color: var(--accent); background: rgba(124,154,92,.12); }
+.mhfu-gathering-note { margin: .45rem 0 0; color: var(--text-dim); font-size: .82rem; }
+.mhfu-account-item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: .2rem .55rem;
+  padding: .55rem .65rem;
+  border: 1px solid rgba(124,154,92,.45);
+  border-radius: 7px;
+  background: rgba(124,154,92,.08);
+}
+.mhfu-account-item small { grid-column: 1 / -1; color: var(--text-dim); font-size: .73rem; }
+.mhfu-account-points { color: var(--accent); font-weight: 800; white-space: nowrap; }
+.mhfu-quest-guide { border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg-panel); }
+.mhfu-quest-guide summary { padding: .7rem .85rem; color: var(--accent); font-weight: 700; cursor: pointer; }
+.mhfu-quest-guide[open] summary { border-bottom: 1px solid var(--border); }
+.mhfu-quest-guide > div { padding: .85rem; }
+.mhfu-guide-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
+.mhfu-guide-card { padding: .7rem; border: 1px solid var(--border); border-radius: 7px; background: var(--bg-panel-alt); }
+.mhfu-guide-card--wide { grid-column: 1 / -1; }
+.mhfu-guide-card h4 { margin: 0 0 .4rem; color: var(--accent); }
+.mhfu-guide-card p { margin: .35rem 0; color: var(--text-dim); font-size: .8rem; }
+.mhfu-farm-table { overflow-x: auto; font-size: .76rem; }
+.mhfu-farm-row { display: grid; grid-template-columns: minmax(150px, .8fr) 90px minmax(220px, 1.5fr); gap: .5rem; padding: .3rem .4rem; border-top: 1px solid rgba(128,128,128,.14); }
+.mhfu-farm-row--head { color: var(--text-dim); font-weight: 700; border-top: 0; }
+@media (max-width: 720px) {
+  .mhfu-guide-grid { grid-template-columns: 1fr; }
+  .mhfu-guide-card--wide { grid-column: auto; }
+  .mhfu-farm-row { grid-template-columns: minmax(130px, .8fr) 70px minmax(180px, 1.2fr); }
+}
 
 .decoration-card-name,
 .decoration-card-skill {

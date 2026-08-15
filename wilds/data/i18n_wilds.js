@@ -89,6 +89,15 @@ const I18N_WILDS = {
       newsHeading: "Novedades",
       newsSeeDetails: "Ver detalles",
       newsHideDetails: "Ocultar detalles",
+      newsWildsV03Tag: "v0.3",
+      newsWildsV03Title: "Combinaciones y materiales más fáciles de consultar",
+      newsWildsV03Text: "Las recetas de combinación ahora tienen una presentación visual más clara, con resultado, ingredientes, cantidades e iconos enlazados.",
+      newsWildsV03Bullets: [
+        "Resultado e ingredientes separados en una tarjeta de receta legible.",
+        "Iconos reales y enlaces directos para cada objeto de la combinación.",
+        "Buscador compartido entre el catálogo de Materiales/Items y las combinaciones.",
+        "Selector de modo reorganizado para mejorar la lectura en pantallas pequeñas.",
+      ],
       newsV01Title: "Arranca el bestiario de Wilds",
       newsV01Text: "Primera versión interna, todavía en desarrollo — algunas secciones tienen datos parciales.",
       newsV01Bullets: [
@@ -263,6 +272,15 @@ const I18N_WILDS = {
       newsHeading: "News",
       newsSeeDetails: "See details",
       newsHideDetails: "Hide details",
+      newsWildsV03Tag: "v0.3",
+      newsWildsV03Title: "Combinations and materials are easier to browse",
+      newsWildsV03Text: "Combination recipes now use a clearer visual layout, with linked results, ingredients, quantities, and icons.",
+      newsWildsV03Bullets: [
+        "Results and ingredients separated into a readable recipe card.",
+        "Real icons and direct links for every combination item.",
+        "Shared search across the Materials/Items catalog and combinations.",
+        "Reworked mode selector for better reading on smaller screens.",
+      ],
       newsV01Title: "The Wilds bestiary kicks off",
       newsV01Text: "First internal version, still under active development — some sections have partial data.",
       newsV01Bullets: [
