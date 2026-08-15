@@ -12841,8 +12841,8 @@
  },
  {
   "id": "mhfui1071",
-  "name": "Gathering Jewel",
-  "nameEs": null,
+    "name": "Gathering Jewel",
+    "nameEs": "Joya de recogida",
   "category": "jewel",
   "iconId": null,
   "color": null,

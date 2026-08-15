@@ -5912,12 +5912,13 @@
  {
   "id": "mhfud163",
   "name": "Gathering Jewel",
+  "nameEs": "Joya de recogida",
   "slotLevel": 1,
   "description": null,
   "skills": [
    {
     "name": "Gathering",
-    "nameEs": "Gathering",
+    "nameEs": "Recogida",
     "level": 2,
     "effect": "+2 pts",
     "effectEs": "+2 pts"

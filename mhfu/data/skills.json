@@ -5,42 +5,36 @@
   "nameEs": "Ataque",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Attack Up (Large) (+20 pts)",
-    "effectEs": "Sub ataque (grande) (+20 pts)",
-    "points": 20
+    "points": 20,
+    "nameEn": "Attack Up (Large)",
+    "nameEs": "Sub ataque (grande)"
    },
    {
-    "level": 2,
-    "effectEn": "Attack Up (Medium) (+15 pts)",
-    "effectEs": "Sub ataque (medio) (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Attack Up (Medium)",
+    "nameEs": "Sub ataque (medio)"
    },
    {
-    "level": 3,
-    "effectEn": "Attack Up (Small) (+10 pts)",
-    "effectEs": "Sub ataque (peq.) (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Attack Up (Small)",
+    "nameEs": "Sub ataque (peq.)"
    },
    {
-    "level": 4,
-    "effectEn": "Attack Down (Small) (-10 pts)",
-    "effectEs": "Ataque abajo (peq.) (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "Attack Down (Small)",
+    "nameEs": "Ataque abajo (peq.)"
    },
    {
-    "level": 5,
-    "effectEn": "Attack Down (Medium) (-15 pts)",
-    "effectEs": "Ataque abajo (medio) (-15 pts)",
-    "points": -15
+    "points": -15,
+    "nameEn": "Attack Down (Medium)",
+    "nameEs": "Ataque abajo (medio)"
    },
    {
-    "level": 6,
-    "effectEn": "Attack Down (Large) (-20 pts)",
-    "effectEs": "Ataque abajo (grande) (-20 pts)",
-    "points": -20
+    "points": -20,
+    "nameEn": "Attack Down (Large)",
+    "nameEs": "Ataque abajo (grande)"
    }
   ],
   "colorIndex": 0
@@ -51,42 +45,36 @@
   "nameEs": "Defensa",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Defense +40 (+20 pts)",
-    "effectEs": "Defensa +40 (+20 pts)",
-    "points": 20
+    "points": 20,
+    "nameEn": "Defense +40",
+    "nameEs": "Defensa +40"
    },
    {
-    "level": 2,
-    "effectEn": "Defense +30 (+15 pts)",
-    "effectEs": "Defensa +30 (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Defense +30",
+    "nameEs": "Defensa +30"
    },
    {
-    "level": 3,
-    "effectEn": "Defense +20 (+10 pts)",
-    "effectEs": "Defensa +20 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Defense +20",
+    "nameEs": "Defensa +20"
    },
    {
-    "level": 4,
-    "effectEn": "Defense -20 (-10 pts)",
-    "effectEs": "Defensa -20 (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "Defense -20",
+    "nameEs": "Defensa -20"
    },
    {
-    "level": 5,
-    "effectEn": "Defense -30 (-15 pts)",
-    "effectEs": "Defensa -30 (-15 pts)",
-    "points": -15
+    "points": -15,
+    "nameEn": "Defense -30",
+    "nameEs": "Defensa -30"
    },
    {
-    "level": 6,
-    "effectEn": "Defense -40 (-20 pts)",
-    "effectEs": "Defensa -40 (-20 pts)",
-    "points": -20
+    "points": -20,
+    "nameEn": "Defense -40",
+    "nameEs": "Defensa -40"
    }
   ],
   "colorIndex": 1
@@ -97,42 +85,36 @@
   "nameEs": "Salud",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Health +50 (+20 pts)",
-    "effectEs": "Salud +50 (+20 pts)",
-    "points": 20
+    "points": 20,
+    "nameEn": "Health +50",
+    "nameEs": "Salud +50"
    },
    {
-    "level": 2,
-    "effectEn": "Health +30 (+15 pts)",
-    "effectEs": "Salud +30 (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Health +30",
+    "nameEs": "Salud +30"
    },
    {
-    "level": 3,
-    "effectEn": "Health +20 (+10 pts)",
-    "effectEs": "Salud +20 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Health +20",
+    "nameEs": "Salud +20"
    },
    {
-    "level": 4,
-    "effectEn": "Health -10 (-10 pts)",
-    "effectEs": "Salud -10 (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "Health -10",
+    "nameEs": "Salud -10"
    },
    {
-    "level": 5,
-    "effectEn": "Health -20 (-15 pts)",
-    "effectEs": "Salud -20 (-15 pts)",
-    "points": -15
+    "points": -15,
+    "nameEn": "Health -20",
+    "nameEs": "Salud -20"
    },
    {
-    "level": 6,
-    "effectEn": "Health -30 (-20 pts)",
-    "effectEs": null,
-    "points": -20
+    "points": -20,
+    "nameEn": "Health -30",
+    "nameEs": "Salud -30"
    }
   ],
   "colorIndex": 2
@@ -143,42 +125,36 @@
   "nameEs": "Res. todo",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "All Res +10 (+20 pts)",
-    "effectEs": "Res. todo +10 (+20 pts)",
-    "points": 20
+    "points": 20,
+    "nameEn": "All Res +10",
+    "nameEs": "Res. todo +10"
    },
    {
-    "level": 2,
-    "effectEn": "All Res +5 (+15 pts)",
-    "effectEs": "Res. todo +5 (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "All Res +5",
+    "nameEs": "Res. todo +5"
    },
    {
-    "level": 3,
-    "effectEn": "All Res +3 (+10 pts)",
-    "effectEs": "Res. todo +3 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "All Res +3",
+    "nameEs": "Res. todo +3"
    },
    {
-    "level": 4,
-    "effectEn": "All Res -3 (-10 pts)",
-    "effectEs": "Res. todo -3 (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "All Res -3",
+    "nameEs": "Res. todo -3"
    },
    {
-    "level": 5,
-    "effectEn": "All Res -5 (-15 pts)",
-    "effectEs": "Res. todo -5 (-15 pts)",
-    "points": -15
+    "points": -15,
+    "nameEn": "All Res -5",
+    "nameEs": "Res. todo -5"
    },
    {
-    "level": 6,
-    "effectEn": "All Res -10 (-20 pts)",
-    "effectEs": "Res. todo -10 (-20 pts)",
-    "points": -20
+    "points": -20,
+    "nameEn": "All Res -10",
+    "nameEs": "Res. todo -10"
    }
   ],
   "colorIndex": 3
@@ -189,30 +165,26 @@
   "nameEs": "Res. fuego",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Fire Res +10 (+15 pts)",
-    "effectEs": "Res. fuego +10 (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Fire Res +10",
+    "nameEs": "Res. fuego +10"
    },
    {
-    "level": 2,
-    "effectEn": "Fire Res +5 (+10 pts)",
-    "effectEs": "Res. fuego +5 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Fire Res +5",
+    "nameEs": "Res. fuego +5"
    },
    {
-    "level": 3,
-    "effectEn": "Fire Res -5 (-10 pts)",
-    "effectEs": "Res. fuego -5 (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "Fire Res -5",
+    "nameEs": "Res. fuego -5"
    },
    {
-    "level": 4,
-    "effectEn": "Fire Res -10 (-15 pts)",
-    "effectEs": "Res. fuego -10 (-15 pts)",
-    "points": -15
+    "points": -15,
+    "nameEn": "Fire Res -10",
+    "nameEs": "Res. fuego -10"
    }
   ],
   "colorIndex": 4
@@ -223,30 +195,26 @@
   "nameEs": "Res. agua",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Water Res +10 (+15 pts)",
-    "effectEs": "Res. agua +10 (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Water Res +10",
+    "nameEs": "Res. agua +10"
    },
    {
-    "level": 2,
-    "effectEn": "Water Res +5 (+10 pts)",
-    "effectEs": "Res. agua +5 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Water Res +5",
+    "nameEs": "Res. agua +5"
    },
    {
-    "level": 3,
-    "effectEn": "Water Res -5 (-10 pts)",
-    "effectEs": "Res. agua -5 (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "Water Res -5",
+    "nameEs": "Res. agua -5"
    },
    {
-    "level": 4,
-    "effectEn": "Water Res -10 (-15 pts)",
-    "effectEs": "Res. agua -10 (-15 pts)",
-    "points": -15
+    "points": -15,
+    "nameEn": "Water Res -10",
+    "nameEs": "Res. agua -10"
    }
   ],
   "colorIndex": 5
@@ -257,30 +225,26 @@
   "nameEs": "Res.trueno",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Thunder Res +10 (+15 pts)",
-    "effectEs": "Res. trueno +10 (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Thunder Res +10",
+    "nameEs": "Res. trueno +10"
    },
    {
-    "level": 2,
-    "effectEn": "Thunder Res +5 (+10 pts)",
-    "effectEs": "Res. trueno +5 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Thunder Res +5",
+    "nameEs": "Res. trueno +5"
    },
    {
-    "level": 3,
-    "effectEn": "Thunder Res -5 (-10 pts)",
-    "effectEs": "Res. trueno -5 (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "Thunder Res -5",
+    "nameEs": "Res. trueno -5"
    },
    {
-    "level": 4,
-    "effectEn": "Thunder Res -10 (-15 pts)",
-    "effectEs": "Res. trueno -10 (-15 pts)",
-    "points": -15
+    "points": -15,
+    "nameEn": "Thunder Res -10",
+    "nameEs": "Res. trueno -10"
    }
   ],
   "colorIndex": 6
@@ -291,30 +255,26 @@
   "nameEs": "Res.hielo",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Ice Res +10 (+15 pts)",
-    "effectEs": "Res.hielo +10 (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Ice Res +10",
+    "nameEs": "Res.hielo +10"
    },
    {
-    "level": 2,
-    "effectEn": "Ice Res +5 (+10 pts)",
-    "effectEs": "Res. hielo +5 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Ice Res +5",
+    "nameEs": "Res. hielo +5"
    },
    {
-    "level": 3,
-    "effectEn": "Ice Res -5 (-10 pts)",
-    "effectEs": "Res.hielo +5 (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "Ice Res -5",
+    "nameEs": "Res.hielo +5"
    },
    {
-    "level": 4,
-    "effectEn": "Ice Res -10 (-15 pts)",
-    "effectEs": "Res.hielo +10 (-15 pts)",
-    "points": -15
+    "points": -15,
+    "nameEn": "Ice Res -10",
+    "nameEs": "Res.hielo +10"
    }
   ],
   "colorIndex": 7
@@ -325,30 +285,26 @@
   "nameEs": "Res. dragón",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Dragon Res +10 (+15 pts)",
-    "effectEs": "Res.dragón +10 (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Dragon Res +10",
+    "nameEs": "Res.dragón +10"
    },
    {
-    "level": 2,
-    "effectEn": "Dragon Res +5 (+10 pts)",
-    "effectEs": "Res.dragón +5 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Dragon Res +5",
+    "nameEs": "Res.dragón +5"
    },
    {
-    "level": 3,
-    "effectEn": "Dragon Res -5 (-10 pts)",
-    "effectEs": "Res.dragón -5 (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "Dragon Res -5",
+    "nameEs": "Res.dragón -5"
    },
    {
-    "level": 4,
-    "effectEn": "Dragon Res -10 (-15 pts)",
-    "effectEs": "Res.dragón -10 (-15 pts)",
-    "points": -15
+    "points": -15,
+    "nameEn": "Dragon Res -10",
+    "nameEs": "Res.dragón -10"
    }
   ],
   "colorIndex": 8
@@ -359,24 +315,21 @@
   "nameEs": "Desmayo",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Faint Negated (+15 pts)",
-    "effectEs": "Desmayo anulado (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Faint Negated",
+    "nameEs": "Desmayo anulado"
    },
    {
-    "level": 2,
-    "effectEn": "Faint Prob Halved (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Faint Prob Halved",
+    "nameEs": "Desmayo Prob Halved"
    },
    {
-    "level": 3,
-    "effectEn": "Faint Duration(x2) (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Faint Duration(x2)",
+    "nameEs": "Desmayo Duration(x2)"
    }
   ],
   "colorIndex": 9
@@ -387,24 +340,21 @@
   "nameEs": "Veneno",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Poison Negated (+15 pts)",
-    "effectEs": "Veneno anulado (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Poison Negated",
+    "nameEs": "Veneno anulado"
    },
    {
-    "level": 2,
-    "effectEn": "Poison Dur Halved (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Poison Dur Halved",
+    "nameEs": "Veneno Dur Halved"
    },
    {
-    "level": 3,
-    "effectEn": "Poison Dur(x2) (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Poison Dur(x2)",
+    "nameEs": "Veneno Dur(x2)"
    }
   ],
   "colorIndex": 10
@@ -415,24 +365,21 @@
   "nameEs": "Paralisis",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Paralysis Negated (+15 pts)",
-    "effectEs": "Parálisis anulada (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Paralysis Negated",
+    "nameEs": "Parálisis anulada"
    },
    {
-    "level": 2,
-    "effectEn": "Para Duration Halved (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Para Duration Halved",
+    "nameEs": "Para Duration Halved"
    },
    {
-    "level": 3,
-    "effectEn": "Para Duration(x2) (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Para Duration(x2)",
+    "nameEs": "Para Duration(x2)"
    }
   ],
   "colorIndex": 11
@@ -443,24 +390,21 @@
   "nameEs": "Sueño",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Sleep Negated (+15 pts)",
-    "effectEs": "Sueño anulado (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Sleep Negated",
+    "nameEs": "Sueño anulado"
    },
    {
-    "level": 2,
-    "effectEn": "Sleep Dur Halved (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Sleep Dur Halved",
+    "nameEs": "Sueño Dur Halved"
    },
    {
-    "level": 3,
-    "effectEn": "Sleep Duration(x2) (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Sleep Duration(x2)",
+    "nameEs": "Sueño Duration(x2)"
    }
   ],
   "colorIndex": 0
@@ -471,12 +415,11 @@
   "nameEs": "Antisépt.",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Antiseptic (+10 pts)",
-    "effectEs": "Antiséptico (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Antiseptic",
+    "nameEs": "Antiséptico"
    }
   ],
   "colorIndex": 1
@@ -487,12 +430,11 @@
   "nameEs": "Fatiga",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Fatigue Cancellation (+10 pts)",
-    "effectEs": "Canc.fatiga (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Fatigue Cancellation",
+    "nameEs": "Canc.fatiga"
    }
   ],
   "colorIndex": 2
@@ -503,12 +445,11 @@
   "nameEs": "R.nieve",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Snow Res (+10 pts)",
-    "effectEs": "Resistencia nieve (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Snow Res",
+    "nameEs": "Resistencia nieve"
    }
   ],
   "colorIndex": 3
@@ -519,12 +460,11 @@
   "nameEs": "Anti-tembl.",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Quake Resistance (+10 pts)",
-    "effectEs": "Anti-temblor (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Quake Resistance",
+    "nameEs": "Anti-temblor"
    }
   ],
   "colorIndex": 4
@@ -535,18 +475,16 @@
   "nameEs": "Prot.Oído",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "High Grade Earplug (+15 pts)",
-    "effectEs": "Tapón oídos gran cal. (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "High Grade Earplug",
+    "nameEs": "Tapón oídos gran cal."
    },
    {
-    "level": 2,
-    "effectEn": "Earplug (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Earplug",
+    "nameEs": "Earplug"
    }
   ],
   "colorIndex": 5
@@ -557,24 +495,21 @@
   "nameEs": "Pres. viento (Presion al viento)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Dragon Wind Breaker (+20 pts)",
-    "effectEs": "Anular viento dragón (+20 pts)",
-    "points": 20
+    "points": 20,
+    "nameEn": "Dragon Wind Breaker",
+    "nameEs": "Anular viento dragón"
    },
    {
-    "level": 2,
-    "effectEn": "High Wind Res (+15 pts)",
-    "effectEs": null,
-    "points": 15
+    "points": 15,
+    "nameEn": "High Wind Res",
+    "nameEs": "High Wind Res"
    },
    {
-    "level": 3,
-    "effectEn": "Low Wind Res (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Low Wind Res",
+    "nameEs": "Low Wind Res"
    }
   ],
   "colorIndex": 6
@@ -585,12 +520,11 @@
   "nameEs": "Anti-Robo",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Steal No Effect (+10 pts)",
-    "effectEs": "Robo sin efecto (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Steal No Effect",
+    "nameEs": "Robo sin efecto"
    }
   ],
   "colorIndex": 7
@@ -601,12 +535,11 @@
   "nameEs": "EstResist",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Self-Defense (+10 pts)",
-    "effectEs": "Auto-Defensa (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Self-Defense",
+    "nameEs": "Auto-Defensa"
    }
   ],
   "colorIndex": 8
@@ -617,12 +550,11 @@
   "nameEs": "AntiFueDrg",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Metallic Protection (+10 pts)",
-    "effectEs": "Protección metálica (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Metallic Protection",
+    "nameEs": "Protección metálica"
    }
   ],
   "colorIndex": 9
@@ -633,12 +565,11 @@
   "nameEs": "Anti-Daora",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Frosty Protection (+10 pts)",
-    "effectEs": "Protección helada (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Frosty Protection",
+    "nameEs": "Protección helada"
    }
   ],
   "colorIndex": 10
@@ -649,12 +580,11 @@
   "nameEs": "Anti-Chamel",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Fiery Protection (+10 pts)",
-    "effectEs": "Protección ardiente (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Fiery Protection",
+    "nameEs": "Protección ardiente"
    }
   ],
   "colorIndex": 11
@@ -665,12 +595,11 @@
   "nameEs": "Artisan",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Sharpness +1 (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Sharpness +1",
+    "nameEs": "Sharpness +1"
    }
   ],
   "colorIndex": 0
@@ -681,18 +610,16 @@
   "nameEs": "Afilado",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Sharp Sword (+10 pts)",
-    "effectEs": "Espada afilada (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Sharp Sword",
+    "nameEs": "Espada afilada"
    },
    {
-    "level": 2,
-    "effectEn": "Blunt (-10 pts)",
-    "effectEs": "Desafilado (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "Blunt",
+    "nameEs": "Desafilado"
    }
   ],
   "colorIndex": 1
@@ -703,12 +630,11 @@
   "nameEs": "Fencing",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "ESP (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "ESP",
+    "nameEs": "ESP"
    }
   ],
   "colorIndex": 2
@@ -719,18 +645,16 @@
   "nameEs": "Afilador",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Sharpening Skl Inc (+10 pts)",
-    "effectEs": "Hab. Afilado aum. (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Sharpening Skl Inc",
+    "nameEs": "Hab. Afilado aum."
    },
    {
-    "level": 2,
-    "effectEn": "Sharpening Skl Half (-10 pts)",
-    "effectEs": "Hab. Afilado mitad (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "Sharpening Skl Half",
+    "nameEs": "Hab. Afilado mitad"
    }
   ],
   "colorIndex": 3
@@ -741,24 +665,21 @@
   "nameEs": "Proteger",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Guard +2 (+20 pts)",
-    "effectEs": "Proteccion +2 (+20 pts)",
-    "points": 20
+    "points": 20,
+    "nameEn": "Guard +2",
+    "nameEs": "Proteccion +2"
    },
    {
-    "level": 2,
-    "effectEn": "Guard +1 (+10 pts)",
-    "effectEs": "Proteccion +1 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Guard +1",
+    "nameEs": "Proteccion +1"
    },
    {
-    "level": 3,
-    "effectEn": "Guard -1 (-10 pts)",
-    "effectEs": "Proteccion -1 (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "Guard -1",
+    "nameEs": "Proteccion -1"
    }
   ],
   "colorIndex": 4
@@ -769,12 +690,11 @@
   "nameEs": "Auto-Guard",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Auto-Guard (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Auto-Guard",
+    "nameEs": "Auto-Guard"
    }
   ],
   "colorIndex": 5
@@ -785,12 +705,11 @@
   "nameEs": "Sword Draw",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Art of Unsheathing (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Art of Unsheathing",
+    "nameEs": "Art of Unsheathing"
    }
   ],
   "colorIndex": 6
@@ -801,12 +720,11 @@
   "nameEs": "Dsnf. Espada",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Stellar Hunter (+10 pts)",
-    "effectEs": "Arte desenfundar (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Stellar Hunter",
+    "nameEs": "Arte desenfundar"
    }
   ],
   "colorIndex": 7
@@ -817,12 +735,11 @@
   "nameEs": "SubDNorm (Subir Daño Normal)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "NormalS/RapidBow Up (+10 pts)",
-    "effectEs": "Dnormal/ArcRáp subir (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "NormalS/RapidBow Up",
+    "nameEs": "Dnormal/ArcRáp subir"
    }
   ],
   "colorIndex": 8
@@ -833,12 +750,11 @@
   "nameEs": "SubirDPerf (Subir Daño Perforacion)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "PierceS/PierceBow Up (+10 pts)",
-    "effectEs": "Dperf/ArcPerf subir (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "PierceS/PierceBow Up",
+    "nameEs": "Dperf/ArcPerf subir"
    }
   ],
   "colorIndex": 9
@@ -849,12 +765,11 @@
   "nameEs": "SubirDPerd (Subir Daño Perdigón)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "PelletS/ScattrBow Up (+10 pts)",
-    "effectEs": "Dperd/ArcDspr subir (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "PelletS/ScattrBow Up",
+    "nameEs": "Dperd/ArcDspr subir"
    }
   ],
   "colorIndex": 10
@@ -865,12 +780,11 @@
   "nameEs": "AñDNormal (Añadir Disparo Normal)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Normal S All LV Add (+10 pts)",
-    "effectEs": "Añ.D.n.todos NV (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Normal S All LV Add",
+    "nameEs": "Añ.D.n.todos NV"
    }
   ],
   "colorIndex": 11
@@ -881,18 +795,16 @@
   "nameEs": "AñDPerf (Añadir Disparo Perforante)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Pierce S All LV Add (+15 pts)",
-    "effectEs": "Añ.D.perf. todos NV (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Pierce S All LV Add",
+    "nameEs": "Añ.D.perf. todos NV"
    },
    {
-    "level": 2,
-    "effectEn": "Pierce S LV1 Add (+10 pts)",
-    "effectEs": "Añadir d. Perf. NV1 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Pierce S LV1 Add",
+    "nameEs": "Añadir d. Perf. NV1"
    }
   ],
   "colorIndex": 0
@@ -903,18 +815,16 @@
   "nameEs": "AñDPerd (Añadir Disparo Perdigón)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Pellet S All LV Add (+15 pts)",
-    "effectEs": "Añ.D.Perd.todos  NV (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Pellet S All LV Add",
+    "nameEs": "Añ.D.Perd.todos  NV"
    },
    {
-    "level": 2,
-    "effectEn": "Pellet S LV 1 Add (+10 pts)",
-    "effectEs": "Añadir d. perd. NV1 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Pellet S LV 1 Add",
+    "nameEs": "Añadir d. perd. NV1"
    }
   ],
   "colorIndex": 1
@@ -925,18 +835,16 @@
   "nameEs": "AñDExpl (Añadir Disparo Explosivo)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Crag S All LV Add (+15 pts)",
-    "effectEs": "Añ.D.Expl.todos NV (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Crag S All LV Add",
+    "nameEs": "Añ.D.Expl.todos NV"
    },
    {
-    "level": 2,
-    "effectEn": "Crag S LV 1 Add (+10 pts)",
-    "effectEs": "Añadir d. expl. NV1 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Crag S LV 1 Add",
+    "nameEs": "Añadir d. expl. NV1"
    }
   ],
   "colorIndex": 2
@@ -947,18 +855,16 @@
   "nameEs": "AñDispGr (Añadir Disparo Grupo)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Clust S All LV Add (+15 pts)",
-    "effectEs": "Añ.D.grupo todos NV (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Clust S All LV Add",
+    "nameEs": "Añ.D.grupo todos NV"
    },
    {
-    "level": 2,
-    "effectEn": "Clust S LV 1 Add (+10 pts)",
-    "effectEs": "Añadir D. grupo NV1 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Clust S LV 1 Add",
+    "nameEs": "Añadir D. grupo NV1"
    }
   ],
   "colorIndex": 3
@@ -966,45 +872,39 @@
  {
   "id": "mhfus41",
   "name": "Reload",
-  "nameEs": "Velocidad Recarga -1",
+  "nameEs": "Recargar",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Reloading Speed +3 (+20 pts)",
-    "effectEs": "Velocidad Recarga +3 (+20 pts)",
-    "points": 20
+    "points": 20,
+    "nameEn": "Reloading Speed +3",
+    "nameEs": "Velocidad Recarga +3"
    },
    {
-    "level": 2,
-    "effectEn": "Reloading Speed +2 (+15 pts)",
-    "effectEs": "Velocidad Recarga +2 (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Reloading Speed +2",
+    "nameEs": "Velocidad Recarga +2"
    },
    {
-    "level": 3,
-    "effectEn": "Reloading Speed +1 (+10 pts)",
-    "effectEs": "Velocidad Recarga +1 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Reloading Speed +1",
+    "nameEs": "Velocidad Recarga +1"
    },
    {
-    "level": 4,
-    "effectEn": "Reloading Speed -1 (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Reloading Speed -1",
+    "nameEs": "Recargaring Speed -1"
    },
    {
-    "level": 5,
-    "effectEn": "Reloading Speed -2 (-15 pts)",
-    "effectEs": "Velocidad Recarga -2 (-15 pts)",
-    "points": -15
+    "points": -15,
+    "nameEn": "Reloading Speed -2",
+    "nameEs": "Velocidad Recarga -2"
    },
    {
-    "level": 6,
-    "effectEn": "Reloading Speed -3 (-20 pts)",
-    "effectEs": "Velocidad Recarga -3 (-20 pts)",
-    "points": -20
+    "points": -20,
+    "nameEn": "Reloading Speed -3",
+    "nameEs": "Velocidad Recarga -3"
    }
   ],
   "colorIndex": 4
@@ -1015,12 +915,11 @@
   "nameEs": "Autorecarg.",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Auto Reload (+10 pts)",
-    "effectEs": "Autorecarga (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Auto Reload",
+    "nameEs": "Autorecarga"
    }
   ],
   "colorIndex": 5
@@ -1031,18 +930,16 @@
   "nameEs": "Retroceso",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Recoil Reduction +2 (+20 pts)",
-    "effectEs": "Reduc. Retroceso +2 (+20 pts)",
-    "points": 20
+    "points": 20,
+    "nameEn": "Recoil Reduction +2",
+    "nameEs": "Reduc. Retroceso +2"
    },
    {
-    "level": 2,
-    "effectEn": "Recoil Reduction +1 (+10 pts)",
-    "effectEs": "Reduc. Retroceso +1 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Recoil Reduction +1",
+    "nameEs": "Reduc. Retroceso +1"
    }
   ],
   "colorIndex": 6
@@ -1053,18 +950,16 @@
   "nameEs": "Precis. (Precision)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Shell Deviation Down (+10 pts)",
-    "effectEs": "Desv.Proyectil - (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Shell Deviation Down",
+    "nameEs": "Desv.Proyectil -"
    },
    {
-    "level": 2,
-    "effectEn": "Shell Deviation Up (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Shell Deviation Up",
+    "nameEs": "Shell Deviation Up"
    }
   ],
   "colorIndex": 7
@@ -1075,12 +970,11 @@
   "nameEs": "Añ.Rev.ven",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Poison Coating Add (+10 pts)",
-    "effectEs": "Añ.Rev.veneno (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Poison Coating Add",
+    "nameEs": "Añ.Rev.veneno"
    }
   ],
   "colorIndex": 8
@@ -1091,12 +985,11 @@
   "nameEs": "Añ.Rev.cmb",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Paralysis Coat Add (+10 pts)",
-    "effectEs": "Añ.Rev.cmb (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Paralysis Coat Add",
+    "nameEs": "Añ.Rev.cmb"
    }
   ],
   "colorIndex": 9
@@ -1107,12 +1000,11 @@
   "nameEs": "Añ.Rev.sue",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Sleep Coating Add (+10 pts)",
-    "effectEs": "Añ.Rev.sueño (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Sleep Coating Add",
+    "nameEs": "Añ.Rev.sueño"
    }
   ],
   "colorIndex": 10
@@ -1123,12 +1015,11 @@
   "nameEs": "Añ.Rev.ene",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Power Coating Add (+10 pts)",
-    "effectEs": "Añadir Rev. energia (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Power Coating Add",
+    "nameEs": "Añadir Rev. energia"
    }
   ],
   "colorIndex": 11
@@ -1139,12 +1030,11 @@
   "nameEs": "ClsRngCAdd",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "ClsRngCAdd (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "ClsRngCAdd",
+    "nameEs": "ClsRngCAdd"
    }
   ],
   "colorIndex": 0
@@ -1155,12 +1045,11 @@
   "nameEs": "Mano firme",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Straight & True (+10 pts)",
-    "effectEs": "Firme y decidido (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Straight & True",
+    "nameEs": "Firme y decidido"
    }
   ],
   "colorIndex": 1
@@ -1171,36 +1060,31 @@
   "nameEs": "Experto",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Reckless Abandon +3 (+20 pts)",
-    "effectEs": "Abandono Temerario +3 (+20 pts)",
-    "points": 20
+    "points": 20,
+    "nameEn": "Reckless Abandon +3",
+    "nameEs": "Abandono Temerario +3"
    },
    {
-    "level": 2,
-    "effectEn": "Reckless Abandon +2 (+15 pts)",
-    "effectEs": "Abandono Temerario +2 (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Reckless Abandon +2",
+    "nameEs": "Abandono Temerario +2"
    },
    {
-    "level": 3,
-    "effectEn": "Reckless Abandon +1 (+10 pts)",
-    "effectEs": "Abandono Temerario +1 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Reckless Abandon +1",
+    "nameEs": "Abandono Temerario +1"
    },
    {
-    "level": 4,
-    "effectEn": "Reckless Abandon -1 (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Reckless Abandon -1",
+    "nameEs": "Reckless Abandon -1"
    },
    {
-    "level": 5,
-    "effectEn": "Reckless Abandon -2 (-15 pts)",
-    "effectEs": null,
-    "points": -15
+    "points": -15,
+    "nameEn": "Reckless Abandon -2",
+    "nameEs": "Reckless Abandon -2"
    }
   ],
   "colorIndex": 2
@@ -1211,12 +1095,11 @@
   "nameEs": "M.Espada",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Abnormal Sts Atk Up (+10 pts)",
-    "effectEs": "Cazador estelar (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Abnormal Sts Atk Up",
+    "nameEs": "Cazador estelar"
    }
   ],
   "colorIndex": 3
@@ -1227,12 +1110,11 @@
   "nameEs": "Atq. Esp.",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Element Attack Up (+10 pts)",
-    "effectEs": "Subir atq. est. anormal (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Element Attack Up",
+    "nameEs": "Subir atq. est. anormal"
    }
   ],
   "colorIndex": 4
@@ -1243,30 +1125,26 @@
   "nameEs": "Vel.recup (Velocidad recuperacion)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Damage Rec Speed +2 (+20 pts)",
-    "effectEs": "Vel.recup. daño +2 (+20 pts)",
-    "points": 20
+    "points": 20,
+    "nameEn": "Damage Rec Speed +2",
+    "nameEs": "Vel.recup. daño +2"
    },
    {
-    "level": 2,
-    "effectEn": "Damage Rec Speed +1 (+10 pts)",
-    "effectEs": "Vel.recup. daño +1 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Damage Rec Speed +1",
+    "nameEs": "Vel.recup. daño +1"
    },
    {
-    "level": 3,
-    "effectEn": "Damage Rec Speed -1 (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Damage Rec Speed -1",
+    "nameEs": "Damage Rec Speed -1"
    },
    {
-    "level": 4,
-    "effectEn": "Damage Rec Speed -2 (-20 pts)",
-    "effectEs": null,
-    "points": -20
+    "points": -20,
+    "nameEn": "Damage Rec Speed -2",
+    "nameEs": "Damage Rec Speed -2"
    }
   ],
   "colorIndex": 5
@@ -1277,18 +1155,16 @@
   "nameEs": "Protección",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Divine Protection (+10 pts)",
-    "effectEs": "Protección divina (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Divine Protection",
+    "nameEs": "Protección divina"
    },
    {
-    "level": 2,
-    "effectEn": "Demonic Protection (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Demonic Protection",
+    "nameEs": "Demonic Protection"
    }
   ],
   "colorIndex": 6
@@ -1299,12 +1175,11 @@
   "nameEs": "Subir prot.",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Guard Inc (+10 pts)",
-    "effectEs": "Guardia Inc (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Guard Inc",
+    "nameEs": "Guardia Inc"
    }
   ],
   "colorIndex": 7
@@ -1315,18 +1190,16 @@
   "nameEs": "Evasión",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Evade +2 (+15 pts)",
-    "effectEs": "Evasión +2 (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Evade +2",
+    "nameEs": "Evasión +2"
    },
    {
-    "level": 2,
-    "effectEn": "Evade +1 (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Evade +1",
+    "nameEs": "Evasión +1"
    }
   ],
   "colorIndex": 8
@@ -1337,12 +1210,11 @@
   "nameEs": "Dist Evas. (Distancia Evasión)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Evade Distance Up (+10 pts)",
-    "effectEs": "Sub. Dis. Evasion (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Evade Distance Up",
+    "nameEs": "Sub. Dis. Evasion"
    }
   ],
   "colorIndex": 9
@@ -1353,24 +1225,21 @@
   "nameEs": "Potencial",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Adrenaline +2 (+15 pts)",
-    "effectEs": "Adrenalina +2 (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Adrenaline +2",
+    "nameEs": "Adrenalina +2"
    },
    {
-    "level": 2,
-    "effectEn": "Adrenaline +1 (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Adrenaline +1",
+    "nameEs": "Adrenaline +1"
    },
    {
-    "level": 3,
-    "effectEn": "Worry (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Worry",
+    "nameEs": "Worry"
    }
   ],
   "colorIndex": 10
@@ -1381,18 +1250,16 @@
   "nameEs": "Gunnery",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Gunnery King (+15 pts)",
-    "effectEs": null,
-    "points": 15
+    "points": 15,
+    "nameEn": "Gunnery King",
+    "nameEs": "Gunnery King"
    },
    {
-    "level": 2,
-    "effectEn": "Gunnery Master (+15 pts)",
-    "effectEs": null,
-    "points": 15
+    "points": 15,
+    "nameEn": "Gunnery Master",
+    "nameEs": "Gunnery Master"
    }
   ],
   "colorIndex": 11
@@ -1403,12 +1270,11 @@
   "nameEs": "Cargam.",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Capacity Up (+10 pts)",
-    "effectEs": "Capac.+ (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Capacity Up",
+    "nameEs": "Capac.+"
    }
   ],
   "colorIndex": 0
@@ -1419,18 +1285,16 @@
   "nameEs": "Carga Corta",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Focus (+10 pts)",
-    "effectEs": "Concentracion (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Focus",
+    "nameEs": "Concentracion"
    },
    {
-    "level": 2,
-    "effectEn": "Distracted (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Distracted",
+    "nameEs": "Distracted"
    }
   ],
   "colorIndex": 1
@@ -1441,12 +1305,11 @@
   "nameEs": "Agallas",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Guts (+10 pts)",
-    "effectEs": "Agallas (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Guts",
+    "nameEs": "Agallas"
    }
   ],
   "colorIndex": 2
@@ -1457,12 +1320,11 @@
   "nameEs": "Furia",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Emboldened (+10 pts)",
-    "effectEs": "Envalentonado (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Emboldened",
+    "nameEs": "Envalentonado"
    }
   ],
   "colorIndex": 3
@@ -1473,18 +1335,16 @@
   "nameEs": "Mapa",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Farsight (+10 pts)",
-    "effectEs": "Mapa (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Farsight",
+    "nameEs": "Mapa"
    },
    {
-    "level": 2,
-    "effectEn": "Map Unavailable (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Map Unavailable",
+    "nameEs": "Mapa Unavailable"
    }
   ],
   "colorIndex": 4
@@ -1495,18 +1355,16 @@
   "nameEs": "Vis. Psiquica (Vision Psiquica)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Autotracker (+15 pts)",
-    "effectEs": "Autoseguimiento (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Autotracker",
+    "nameEs": "Autoseguimiento"
    },
    {
-    "level": 2,
-    "effectEn": "Detect (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Detect",
+    "nameEs": "Detect"
    }
   ],
   "colorIndex": 5
@@ -1517,24 +1375,26 @@
   "nameEs": "Recogida",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Gathering +2 (+15 pts)",
-    "effectEs": "Recogida +2 (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Gathering +2",
+    "nameEs": "Recogida +2"
    },
    {
-    "level": 2,
-    "effectEn": "Gathering +1 (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Gathering +1",
+    "nameEs": "Recogida +1"
    },
    {
-    "level": 3,
-    "effectEn": "Gathering -1 (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Gathering -1",
+    "nameEs": "Recogida -1"
+   },
+   {
+    "points": -15,
+    "nameEn": "Gathering -2",
+    "nameEs": "Recogida -2"
    }
   ],
   "colorIndex": 6
@@ -1545,18 +1405,16 @@
   "nameEs": "Carving",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Carving Celebrity (+20 pts)",
-    "effectEs": null,
-    "points": 20
+    "points": 20,
+    "nameEn": "Carving Celebrity",
+    "nameEs": "Carving Celebrity"
    },
    {
-    "level": 2,
-    "effectEn": "Carving Iron Man (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Carving Iron Man",
+    "nameEs": "Carving Iron Man"
    }
   ],
   "colorIndex": 7
@@ -1567,12 +1425,11 @@
   "nameEs": "RecAltaVel (Recogida de alta velocidad)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "High Speed Gathering (+10 pts)",
-    "effectEs": "Recogida gran veloc. (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "High Speed Gathering",
+    "nameEs": "Recogida gran veloc."
    }
   ],
   "colorIndex": 8
@@ -1583,12 +1440,11 @@
   "nameEs": "Mochilero",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Backpacking Expert (+10 pts)",
-    "effectEs": "Experto mochilero (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Backpacking Expert",
+    "nameEs": "Experto mochilero"
    }
   ],
   "colorIndex": 9
@@ -1596,33 +1452,29 @@
  {
   "id": "mhfus71",
   "name": "Whim",
-  "nameEs": "Capricho de espectro",
+  "nameEs": "Capricho",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Divine Whim (+15 pts)",
-    "effectEs": "Capricho divino (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Divine Whim",
+    "nameEs": "Capricho divino"
    },
    {
-    "level": 2,
-    "effectEn": "Spirit's Whim (+10 pts)",
-    "effectEs": "Capricho de espiritu (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Spirit's Whim",
+    "nameEs": "Capricho de espiritu"
    },
    {
-    "level": 3,
-    "effectEn": "Spectre's Whim (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Spectre's Whim",
+    "nameEs": "Spectre's Whim"
    },
    {
-    "level": 4,
-    "effectEn": "Devil's Whim (-15 pts)",
-    "effectEs": "Capricho de demonio (-15 pts)",
-    "points": -15
+    "points": -15,
+    "nameEn": "Devil's Whim",
+    "nameEs": "Capricho de demonio"
    }
   ],
   "colorIndex": 10
@@ -1633,12 +1485,11 @@
   "nameEs": "Pesca",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Fishing Expert (+10 pts)",
-    "effectEs": "Experto en pesca (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Fishing Expert",
+    "nameEs": "Experto en pesca"
    }
   ],
   "colorIndex": 11
@@ -1649,30 +1500,26 @@
   "nameEs": "Res.Calor",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Heat Cancel (Hi) (+15 pts)",
-    "effectEs": "Can. calor [alto] (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Heat Cancel (Hi)",
+    "nameEs": "Can. calor [alto]"
    },
    {
-    "level": 2,
-    "effectEn": "Heat Cancel (Lo) (+10 pts)",
-    "effectEs": "Can. calor [bajo] (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Heat Cancel (Lo)",
+    "nameEs": "Can. calor [bajo]"
    },
    {
-    "level": 3,
-    "effectEn": "Heat Inc (Lo) (-10 pts)",
-    "effectEs": "Aum. calor [bajo] (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "Heat Inc (Lo)",
+    "nameEs": "Aum. calor [bajo]"
    },
    {
-    "level": 4,
-    "effectEn": "Heat Inc (Hi) (-15 pts)",
-    "effectEs": null,
-    "points": -15
+    "points": -15,
+    "nameEn": "Heat Inc (Hi)",
+    "nameEs": "Heat Inc (Hi)"
    }
   ],
   "colorIndex": 0
@@ -1683,30 +1530,26 @@
   "nameEs": "Res.Frio",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Cold Elimination(Hi) (+15 pts)",
-    "effectEs": "Can.Frio [alto] (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Cold Elimination(Hi)",
+    "nameEs": "Can.Frio [alto]"
    },
    {
-    "level": 2,
-    "effectEn": "Cold Elimination(Lo) (+10 pts)",
-    "effectEs": "Can.Frio [bajo] (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Cold Elimination(Lo)",
+    "nameEs": "Can.Frio [bajo]"
    },
    {
-    "level": 3,
-    "effectEn": "Cold Increase (Lo) (-10 pts)",
-    "effectEs": "Aum.Frío [bajo] (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "Cold Increase (Lo)",
+    "nameEs": "Aum.Frío [bajo]"
    },
    {
-    "level": 4,
-    "effectEn": "Cold Increase (Hi) (-15 pts)",
-    "effectEs": null,
-    "points": -15
+    "points": -15,
+    "nameEn": "Cold Increase (Hi)",
+    "nameEs": "Cold Increase (Hi)"
    }
   ],
   "colorIndex": 1
@@ -1717,30 +1560,26 @@
   "nameEs": "Terreno",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "TerrainDamageNegate (+15 pts)",
-    "effectEs": "Anular daño terreno (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "TerrainDamageNegate",
+    "nameEs": "Anular daño terreno"
    },
    {
-    "level": 2,
-    "effectEn": "TerrainDamageHalf (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "TerrainDamageHalf",
+    "nameEs": "TerrenoDamageHalf"
    },
    {
-    "level": 3,
-    "effectEn": "TerrainDamageInc(Lo) (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "TerrainDamageInc(Lo)",
+    "nameEs": "TerrenoDamageInc(Lo)"
    },
    {
-    "level": 4,
-    "effectEn": "TerrainDamageInc(Hi) (-15 pts)",
-    "effectEs": null,
-    "points": -15
+    "points": -15,
+    "nameEn": "TerrainDamageInc(Hi)",
+    "nameEs": "TerrenoDamageInc(Hi)"
    }
   ],
   "colorIndex": 2
@@ -1751,18 +1590,16 @@
   "nameEs": "Resistencia",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Runner (+10 pts)",
-    "effectEs": "Corredor (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Runner",
+    "nameEs": "Corredor"
    },
    {
-    "level": 2,
-    "effectEn": "Flat Footed (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Flat Footed",
+    "nameEs": "Flat Footed"
    }
   ],
   "colorIndex": 3
@@ -1773,30 +1610,26 @@
   "nameEs": "Const. (Constitucion)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Constitution +2 (+15 pts)",
-    "effectEs": "Constitución +2 (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Constitution +2",
+    "nameEs": "Constitución +2"
    },
    {
-    "level": 2,
-    "effectEn": "Constitution +1 (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Constitution +1",
+    "nameEs": "Constitution +1"
    },
    {
-    "level": 3,
-    "effectEn": "Constitution -1 (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Constitution -1",
+    "nameEs": "Constitution -1"
    },
    {
-    "level": 4,
-    "effectEn": "Constitution -2 (-15 pts)",
-    "effectEs": null,
-    "points": -15
+    "points": -15,
+    "nameEn": "Constitution -2",
+    "nameEs": "Constitution -2"
    }
   ],
   "colorIndex": 4
@@ -1807,30 +1640,26 @@
   "nameEs": "Hambre",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Hunger Negated (+15 pts)",
-    "effectEs": "Hambre anulada (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Hunger Negated",
+    "nameEs": "Hambre anulada"
    },
    {
-    "level": 2,
-    "effectEn": "Hunger Halved (+10 pts)",
-    "effectEs": "Hambre a mitad (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Hunger Halved",
+    "nameEs": "Hambre a mitad"
    },
    {
-    "level": 3,
-    "effectEn": "Hunger Increase (Lo) (-10 pts)",
-    "effectEs": "Aumento hambre [ba] (-10 pts)",
-    "points": -10
+    "points": -10,
+    "nameEn": "Hunger Increase (Lo)",
+    "nameEs": "Aumento hambre [ba]"
    },
    {
-    "level": 4,
-    "effectEn": "Hunger Increase (Hi) (-15 pts)",
-    "effectEs": "Aumento hambre [al] (-15 pts)",
-    "points": -15
+    "points": -15,
+    "nameEn": "Hunger Increase (Hi)",
+    "nameEs": "Aumento hambre [al]"
    }
   ],
   "colorIndex": 5
@@ -1841,18 +1670,16 @@
   "nameEs": "Sigilo",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Stealth (+10 pts)",
-    "effectEs": "Sigilo (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Stealth",
+    "nameEs": "Sigilo"
    },
    {
-    "level": 2,
-    "effectEn": "Taunt (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Taunt",
+    "nameEs": "Taunt"
    }
   ],
   "colorIndex": 6
@@ -1863,30 +1690,26 @@
   "nameEs": "Destino",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Luck Booster (+15 pts)",
-    "effectEs": "Impulso de suerte (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Luck Booster",
+    "nameEs": "Impulso de suerte"
    },
    {
-    "level": 2,
-    "effectEn": "Good Luck (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Good Luck",
+    "nameEs": "Good Luck"
    },
    {
-    "level": 3,
-    "effectEn": "Bad Luck (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Bad Luck",
+    "nameEs": "Bad Luck"
    },
    {
-    "level": 4,
-    "effectEn": "Calamity (-20 pts)",
-    "effectEs": null,
-    "points": -20
+    "points": -20,
+    "nameEn": "Calamity",
+    "nameEs": "Calamity"
    }
   ],
   "colorIndex": 7
@@ -1897,12 +1720,11 @@
   "nameEs": "Confg.vel. (Configurar velocidad)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Trap Master (+10 pts)",
-    "effectEs": "Maestro trampas (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Trap Master",
+    "nameEs": "Maestro trampas"
    }
   ],
   "colorIndex": 8
@@ -1913,18 +1735,16 @@
   "nameEs": "Tranquil. (Tranquilizador)",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Tranquilizing Celeb (+15 pts)",
-    "effectEs": "Celebridad Tranquil. (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Tranquilizing Celeb",
+    "nameEs": "Celebridad Tranquil."
    },
    {
-    "level": 2,
-    "effectEn": "Tranquilizing Whiz (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Tranquilizing Whiz",
+    "nameEs": "Tranquilizing Whiz"
    }
   ],
   "colorIndex": 9
@@ -1935,12 +1755,11 @@
   "nameEs": "Percepcion",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Tranquilizing Guru (+10 pts)",
-    "effectEs": "Gurú Tranquil. (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Tranquilizing Guru",
+    "nameEs": "Gurú Tranquil."
    }
   ],
   "colorIndex": 10
@@ -1951,18 +1770,16 @@
   "nameEs": "Recuperación",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "HealthRecItemsImprvd (+10 pts)",
-    "effectEs": "ObjRecSaludMejorados (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "HealthRecItemsImprvd",
+    "nameEs": "ObjRecSaludMejorados"
    },
    {
-    "level": 2,
-    "effectEn": "HealthRecItemsWeaknd (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "HealthRecItemsWeaknd",
+    "nameEs": "HealthRecItemsWeaknd"
    }
   ],
   "colorIndex": 11
@@ -1973,18 +1790,16 @@
   "nameEs": "Eterno",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Item Usage Improve (+10 pts)",
-    "effectEs": "Mejora uso objetos (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Item Usage Improve",
+    "nameEs": "Mejora uso objetos"
    },
    {
-    "level": 2,
-    "effectEn": "Item Usage Decline (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Item Usage Decline",
+    "nameEs": "Item Usage Decline"
    }
   ],
   "colorIndex": 0
@@ -1995,18 +1810,16 @@
   "nameEs": "Área amplia",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Wide Area +2 (+20 pts)",
-    "effectEs": "Área amplia +2 (+20 pts)",
-    "points": 20
+    "points": 20,
+    "nameEn": "Wide Area +2",
+    "nameEs": "Área amplia +2"
    },
    {
-    "level": 2,
-    "effectEn": "Wide Area +1 (+10 pts)",
-    "effectEs": "Área amplia +1 (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Wide Area +1",
+    "nameEs": "Área amplia +1"
    }
   ],
   "colorIndex": 1
@@ -2017,12 +1830,11 @@
   "nameEs": "Lanzamiento",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Throwing Skill Up (+10 pts)",
-    "effectEs": "Subir lanzamiento (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Throwing Skill Up",
+    "nameEs": "Subir lanzamiento"
    }
   ],
   "colorIndex": 2
@@ -2033,12 +1845,11 @@
   "nameEs": "BombStrUp",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Bomber (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Bomber",
+    "nameEs": "Bomber"
    }
   ],
   "colorIndex": 3
@@ -2049,18 +1860,16 @@
   "nameEs": "Glotoneria",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Scavenger (+15 pts)",
-    "effectEs": "Carroñero (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Scavenger",
+    "nameEs": "Carroñero"
    },
    {
-    "level": 2,
-    "effectEn": "Filled Up (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Filled Up",
+    "nameEs": "Filled Up"
    }
   ],
   "colorIndex": 4
@@ -2071,18 +1880,16 @@
   "nameEs": "Cocina",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Quick Eating (+10 pts)",
-    "effectEs": "Comer rapido (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Quick Eating",
+    "nameEs": "Comer rapido"
    },
    {
-    "level": 2,
-    "effectEn": "Slow Life (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Slow Life",
+    "nameEs": "Slow Life"
    }
   ],
   "colorIndex": 5
@@ -2093,18 +1900,16 @@
   "nameEs": "Barbacoa",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "BBQ Celebrity (+10 pts)",
-    "effectEs": "Celebridad barbacoa (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "BBQ Celebrity",
+    "nameEs": "Celebridad barbacoa"
    },
    {
-    "level": 2,
-    "effectEn": "So-Called BBQ King (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "So-Called BBQ King",
+    "nameEs": "So-Called BBQ King"
    }
   ],
   "colorIndex": 6
@@ -2115,12 +1920,11 @@
   "nameEs": "Cuerno",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Flute Expert (+10 pts)",
-    "effectEs": "Experto en flauta (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Flute Expert",
+    "nameEs": "Experto en flauta"
    }
   ],
   "colorIndex": 7
@@ -2131,42 +1935,36 @@
   "nameEs": "Índice éxito mixto",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Combine Success +45% (+20 pts)",
-    "effectEs": "Éxito combinac. +45% (+20 pts)",
-    "points": 20
+    "points": 20,
+    "nameEn": "Combine Success +45%",
+    "nameEs": "Éxito combinac. +45%"
    },
    {
-    "level": 2,
-    "effectEn": "Combine Success +25% (+15 pts)",
-    "effectEs": "Éxito combinac. +25% (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "Combine Success +25%",
+    "nameEs": "Éxito combinac. +25%"
    },
    {
-    "level": 3,
-    "effectEn": "Combine Success +15% (+10 pts)",
-    "effectEs": "Éxito combinac. +15% (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Combine Success +15%",
+    "nameEs": "Éxito combinac. +15%"
    },
    {
-    "level": 4,
-    "effectEn": "Combine Success -5% (-10 pts)",
-    "effectEs": null,
-    "points": -10
+    "points": -10,
+    "nameEn": "Combine Success -5%",
+    "nameEs": "Combine Success -5%"
    },
    {
-    "level": 5,
-    "effectEn": "Combine Success -10% (-15 pts)",
-    "effectEs": null,
-    "points": -15
+    "points": -15,
+    "nameEn": "Combine Success -10%",
+    "nameEs": "Combine Success -10%"
    },
    {
-    "level": 6,
-    "effectEn": "Combine Success -15% (-20 pts)",
-    "effectEs": null,
-    "points": -20
+    "points": -20,
+    "nameEn": "Combine Success -15%",
+    "nameEs": "Combine Success -15%"
    }
   ],
   "colorIndex": 8
@@ -2177,12 +1975,11 @@
   "nameEs": "Disparo mixto",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Bullet Limit (+10 pts)",
-    "effectEs": "Limite de balas (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Bullet Limit",
+    "nameEs": "Limite de balas"
    }
   ],
   "colorIndex": 9
@@ -2193,12 +1990,11 @@
   "nameEs": "Alquimia",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Alchemy (+10 pts)",
-    "effectEs": "Alquimia (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Alchemy",
+    "nameEs": "Alquimia"
    }
   ],
   "colorIndex": 10
@@ -2209,18 +2005,16 @@
   "nameEs": "Guia Camarada",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "ComradGuidance&Trade (+15 pts)",
-    "effectEs": "Guíat+Comrc camrd (+15 pts)",
-    "points": 15
+    "points": 15,
+    "nameEn": "ComradGuidance&Trade",
+    "nameEs": "Guíat+Comrc camrd"
    },
    {
-    "level": 2,
-    "effectEn": "Comrade Guidance (+10 pts)",
-    "effectEs": "Guía camarada (+10 pts)",
-    "points": 10
+    "points": 10,
+    "nameEn": "Comrade Guidance",
+    "nameEs": "Guía camarada"
    }
   ],
   "colorIndex": 11
@@ -2231,12 +2025,11 @@
   "nameEs": "ComradeAtk",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Comrade Attack Up (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Comrade Attack Up",
+    "nameEs": "Comrade Attack Up"
    }
   ],
   "colorIndex": 0
@@ -2247,12 +2040,11 @@
   "nameEs": "ComradeDef",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Comrade Defense Up (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Comrade Defense Up",
+    "nameEs": "Comrade Defense Up"
    }
   ],
   "colorIndex": 1
@@ -2263,12 +2055,11 @@
   "nameEs": "Torso Inc",
   "descEn": "",
   "descEs": "",
-  "levels": [
+  "activations": [
    {
-    "level": 1,
-    "effectEn": "Torso Inc (+10 pts)",
-    "effectEs": null,
-    "points": 10
+    "points": 10,
+    "nameEn": "Torso Inc",
+    "nameEs": "Torso Inc"
    }
   ],
   "colorIndex": 2

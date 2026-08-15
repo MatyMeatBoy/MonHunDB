@@ -1121,13 +1121,13 @@ function buildSkillGrantIndex() {
   for (const dec of decorations) {
     for (const s of dec.skills || []) {
       if (!s.name) continue;
-      add(s.name, { kind: "decoration", id: dec.id, level: s.level });
+      add(s.name, { kind: "decoration", id: dec.id, points: skillPointsOf(s) });
     }
   }
   for (const p of armorPieces) {
     for (const s of p.skills || []) {
       if (!s.name) continue;
-      add(s.name, { kind: "armorPiece", id: p.id, level: s.level });
+      add(s.name, { kind: "armorPiece", id: p.id, points: skillPointsOf(s) });
     }
   }
 }
@@ -1315,7 +1315,12 @@ function buildMonsterEquipmentIndex() {
   };
 
   for (const w of weapons) {
-    if (!isWeaponTrueFinal(w) || !w.materials || !w.materials.length) continue;
+    // Do not limit this to the last upgrade of a line.  A final upgrade can
+    // change to another monster's materials (Blango Destroyer eventually
+    // becomes a Copper Blangonga/Rajang weapon), which made the original
+    // monster-specific branch disappear altogether from its monster page.
+    // Each card still opens the complete upgrade tree from that weapon.
+    if (!w.materials || !w.materials.length) continue;
     const tally = tallyMonstersForMaterials(w.materials);
     if (!tally.length) continue;
     const [topMonster, topCount] = tally[0];
@@ -1480,6 +1485,7 @@ function runGlobalSearch(query) {
   // items, all of which have their own material page and must be searchable.
   const materialMatchKeys = new Set(materialMatches.map(match => normalizeMaterialKey(match.matName)));
   const itemMatches = (items || []).filter(item =>
+    !isDuplicateDecorationItem(item) &&
     !materialMatchKeys.has(normalizeMaterialKey(item.name)) &&
     (normalizeSearch(item.name).includes(q) || normalizeSearch(item.nameEs || "").includes(q) || normalizeSearch(trMaterial(item.name)).includes(q))
   ).slice(0, 12);
@@ -1496,7 +1502,8 @@ function runGlobalSearch(query) {
     return normalizeSearch(dec.name).includes(q)
       || normalizeSearch(dec.nameEs || "").includes(q)
       || normalizeSearch(skill.name).includes(q)
-      || normalizeSearch(skill.nameEs || "").includes(q);
+      || normalizeSearch(skill.nameEs || "").includes(q)
+      || normalizeSearch(trDecorationSkillName(skill)).includes(q);
   }).slice(0, 8);
 
   // Global search is an explicit lookup, so include upgrade nodes as well as
@@ -1631,7 +1638,7 @@ function runGlobalSearch(query) {
           ${decorationIconTag(dec)}
           <span>${trDecorationName(dec)}</span>
         </button>
-        <p class="gs-decoration-skill">${lang === "es" ? skill.nameEs : skill.name} Lv${skill.level} — ${lang === "es" ? skill.effectEs : skill.effect}</p>
+        <p class="gs-decoration-skill">${escapeAttr(trDecorationSkillName(skill))} ${formatSkillPoints(skillPointsOf(skill))}${decorationSkillEffect(skill) ? ` — ${escapeAttr(decorationSkillEffect(skill))}` : ""}</p>
         <p class="gs-material-intro">${ui("decorationsMaterialsHeading")}:</p>
         <ul class="gs-decoration-materials">
           ${dec.materials.map(m => `
@@ -1660,9 +1667,9 @@ function runGlobalSearch(query) {
       const skillsSet = new Map();
       for (const ref of s.pieces) {
         const p = armorPieces.find(x => x.id === ref.id);
-        for (const sk of (p && p.skills) || []) skillsSet.set(sk.name, sk.level);
+        for (const sk of (p && p.skills) || []) skillsSet.set(sk.name, skillPointsOf(sk));
       }
-      const skillsText = [...skillsSet.entries()].map(([n, lv]) => `${n} Lv${lv}`).join(", ");
+      const skillsText = [...skillsSet.entries()].map(([n, points]) => `${trSkillName(skillsByName.get(n) || { name: n })} ${formatSkillPoints(points)}`).join(", ");
       return `<div class="gs-material-block">
         <button type="button" class="gs-decoration-header" data-armor-set="${s.name}">
           <img class="armor-set-thumb-sm" src="${s.localImage || s.image}" alt="" loading="lazy">
@@ -1734,6 +1741,9 @@ function runGlobalSearch(query) {
   gsResultsEl.querySelectorAll("[data-weapon-id]").forEach(btn => {
     btn.addEventListener("click", () => navWeapon(btn.dataset.weaponId));
   });
+  gsResultsEl.querySelectorAll("[data-skill-id]").forEach(btn => {
+    btn.addEventListener("click", () => navSkill(btn.dataset.skillId));
+  });
   gsResultsEl.querySelectorAll("[data-armor-set]").forEach(btn => {
     btn.addEventListener("click", () => navArmorSet(btn.dataset.armorSet));
   });
@@ -1767,6 +1777,37 @@ function initGlobalSearch() {
 
 function trDecorationName(dec) {
   return lang === "es" && dec.nameEs ? dec.nameEs : dec.name;
+}
+// items.json also contains decoration jewels as generic inventory items.
+// Those records have no recipe or real icon; decorations.json is the
+// authoritative, complete version shown to the user.
+function decorationForItemName(name) {
+  const key = normalizeMaterialKey(name || "");
+  return decorations.find(decoration => normalizeMaterialKey(decoration.name) === key) || null;
+}
+function isDuplicateDecorationItem(item) {
+  return item?.category === "jewel" && !!decorationForItemName(item.name);
+}
+function trDecorationSkillName(skill) {
+  const canonical = skillsByName.get(skill?.name);
+  return canonical ? trSkillName(canonical) : (lang === "es" && skill?.nameEs ? skill.nameEs : skill?.name || "");
+}
+function skillPointsOf(skill) {
+  // Older imported MHFU records called it "level", but armor and
+  // decorations only contribute points to a skill pool.
+  const value = Number(skill?.points ?? skill?.level);
+  return Number.isFinite(value) ? value : 0;
+}
+function formatSkillPoints(points) {
+  const value = Number(points);
+  if (!Number.isFinite(value)) return String(points ?? "");
+  return `${value > 0 ? "+" : ""}${value} pts`;
+}
+function decorationSkillEffect(skill) {
+  const effect = lang === "es" ? (skill.effectEs || skill.effect) : skill.effect;
+  // MHFU decoration data's generic effect is just the point contribution;
+  // it is already rendered next to the pool name, so avoid repeating it.
+  return /^[+-]\d+ pts$/i.test(String(effect || "").trim()) ? "" : (effect || "");
 }
 function decorationIconTag(dec) {
   const mh = decorationMhriceIcons[dec.name];
@@ -1817,7 +1858,7 @@ function renderDecorationsIndex(query) {
           <button type="button" class="decoration-card" data-id="${dec.id}">
             ${decorationIconTag(dec)}
             <span class="decoration-card-name">${trDecorationName(dec)}</span>
-            <span class="decoration-card-skill">${lang === "es" ? dec.skills[0].nameEs : dec.skills[0].name} Lv${dec.skills[0].level}</span>
+            <span class="decoration-card-skill">${escapeAttr(trDecorationSkillName(dec.skills[0]))} ${formatSkillPoints(skillPointsOf(dec.skills[0]))}</span>
           </button>
         `).join("")}
       </div>
@@ -1837,8 +1878,8 @@ function showDecorationDetail(id) {
 
   const skillsHtml = dec.skills.map(s => `
     <li class="stat-list-item">
-      <button type="button" class="stat-name skill-name-link" data-skill-name="${escapeAttr(s.name)}">${skillIconTagByName(s.name)}${lang === "es" ? s.nameEs : s.name} Lv${s.level}</button>
-      <span class="decoration-skill-effect">${lang === "es" ? s.effectEs : s.effect}</span>
+      <button type="button" class="stat-name skill-name-link" data-skill-name="${escapeAttr(s.name)}">${skillIconTagByName(s.name)}${escapeAttr(trDecorationSkillName(s))} ${formatSkillPoints(skillPointsOf(s))}</button>
+      ${decorationSkillEffect(s) ? `<span class="decoration-skill-effect">${escapeAttr(decorationSkillEffect(s))}</span>` : ""}
     </li>
   `).join("");
 
@@ -2221,13 +2262,17 @@ function renderWeaponTreeSVG(w) {
     else { c.forEach(k => assign(k, depth + 1)); xPos[n] = (xPos[c[0]] + xPos[c[c.length - 1]]) / 2; }
   })(root, 0);
   const total = leafCount[root];
-  const ROW = 62, COL = 210, NW = 195, NH = 40, M = 14, TOH = 18;
+  // Fixed SVG pixel dimensions keep every branch at the same readable
+  // scale.  Previously small trees stretched to the full content width while
+  // wide trees were shrunk to fit it, making the same node look huge or tiny.
+  const ROW = 66, COL = 196, NW = 178, NH = 42, M = 18;
   const W = total * COL + M * 2;
   const H = (yPos[root] + depthOfTree(root) + 1) * ROW + M * 2;
   function depthOfTree(n) { const c = children(n); return c.length ? 1 + Math.max(...c.map(depthOfTree)) : 0; }
   const cx = (n) => M + xPos[n] * COL - NW / 2;
   const cy = (n) => M + yPos[n] * ROW;
-  let svg = `<div class="weapon-tree-svg"><svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin meet" style="max-width:100%;height:auto;">`;
+  const compactClass = W <= 700 ? " weapon-tree-svg--compact" : "";
+  let svg = `<div class="weapon-tree-svg${compactClass}"><svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">`;
   // connecting lines (elbow from parent bottom to child top)
   const lines = [];
   for (const p of Object.keys(xPos)) {
@@ -2507,7 +2552,7 @@ function armorPieceMaterialsHtml(p) {
 }
 function armorPieceSkillsHtml(p) {
   if (!p.skills || !p.skills.length) return "";
-  return `<ul class="chips">${p.skills.map(s => `<li class="chip"><button type="button" class="skill-name-link" data-skill-name="${escapeAttr(s.name)}">${skillIconTagByName(s.name)}${trSkillName(skillsByName.get(s.name) || s)} Lv${s.level}</button></li>`).join("")}</ul>`;
+  return `<ul class="chips">${p.skills.map(s => `<li class="chip"><button type="button" class="skill-name-link" data-skill-name="${escapeAttr(s.name)}">${skillIconTagByName(s.name)}${trSkillName(skillsByName.get(s.name) || s)} ${formatSkillPoints(skillPointsOf(s))}</button></li>`).join("")}</ul>`;
 }
 
 function showArmorView() {
@@ -2873,6 +2918,7 @@ function renderMaterialsIndex(query) {
 
   const extraByCategory = new Map();
   for (const it of items) {
+    if (isDuplicateDecorationItem(it)) continue;
     if (materialIndex.has(normalizeMaterialKey(it.name))) continue; // already shown above
     if (q && !normalizeSearch(it.name).includes(q) && !normalizeSearch(it.nameEs || "").includes(q)) continue;
     if (!extraByCategory.has(it.category)) extraByCategory.set(it.category, []);
@@ -3020,6 +3066,11 @@ function gatheringSourcesHtml(matKey) {
 }
 
 function showMaterialDetail(matKey) {
+  const matchingDecoration = decorationForItemName(matKey);
+  if (matchingDecoration) {
+    navDecoration(matchingDecoration.id);
+    return;
+  }
   if (!materialIndex) buildMaterialIndex();
   const key = normalizeMaterialKey(matKey);
   const { sources, isPlusTierFallback } = getMaterialSources(matKey);
@@ -3167,11 +3218,18 @@ function showSkillDetail(idOrName) {
   skillsIndexEl.hidden = true;
   skillDetailEl.hidden = false;
 
-  const levelsHtml = s.levels.map(lv => `
-    <li class="stat-list-item">
-      <span class="stat-name">${lang === "es" ? "Nv." : "Lv."} ${lv.level}</span>
-      <span class="decoration-skill-effect">${lang === "es" ? (lv.effectEs || lv.effectEn) : lv.effectEn}</span>
-    </li>
+  // MHFU has activation thresholds, never numbered skill levels. Keep a
+  // fallback for older local data so the viewer remains usable mid-update.
+  const activations = s.activations || (s.levels || []).map(lv => ({
+    points: lv.points,
+    nameEn: String(lv.effectEn || "").replace(/\s*\([+-]\d+ pts\)\s*$/, ""),
+    nameEs: String(lv.effectEs || lv.effectEn || "").replace(/\s*\([+-]\d+ pts\)\s*$/, ""),
+  }));
+  const activationsHtml = activations.map(activation => `
+    <tr>
+      <td>${formatSkillPoints(activation.points)}</td>
+      <td>${escapeAttr(lang === "es" ? (activation.nameEs || activation.nameEn) : activation.nameEn)}</td>
+    </tr>
   `).join("");
 
   if (!skillGrantIndex) buildSkillGrantIndex();
@@ -3190,7 +3248,7 @@ function showSkillDetail(idOrName) {
         ${grantedDecorations.map(g => `
           <button type="button" class="decoration-card" data-granted-decoration="${g.dec.id}">
             ${decorationIconTag(g.dec)}
-            <span class="decoration-card-name">${trDecorationName(g.dec)} Lv${g.level}</span>
+            <span class="decoration-card-name">${trDecorationName(g.dec)} ${formatSkillPoints(g.points)}</span>
           </button>
         `).join("")}
       </div>
@@ -3201,7 +3259,7 @@ function showSkillDetail(idOrName) {
         ${grantedArmorPieces.map(g => `
           <button type="button" class="decoration-card" data-granted-armor-piece="${g.piece.id}">
             ${armorIconTag(g.piece)}
-            <span class="decoration-card-name">${trArmorName(g.piece)} Lv${g.level}</span>
+            <span class="decoration-card-name">${trArmorName(g.piece)} ${formatSkillPoints(g.points)}</span>
           </button>
         `).join("")}
       </div>
@@ -3217,7 +3275,10 @@ function showSkillDetail(idOrName) {
     <p class="gs-material-intro">${lang === "es" ? (s.descEs || s.descEn) : s.descEn}</p>
     <section class="block">
       <h3>${ui("skillsLevelsHeading")}</h3>
-      <ul class="stat-list decoration-skills-list">${levelsHtml}</ul>
+      <table class="skill-activation-table">
+        <thead><tr><th>${ui("skillsPointsHeading")}</th><th>${ui("skillsActivatedHeading")}</th></tr></thead>
+        <tbody>${activationsHtml}</tbody>
+      </table>
     </section>
     <section class="block">
       <h3>${ui("skillsGrantedByHeading")}</h3>

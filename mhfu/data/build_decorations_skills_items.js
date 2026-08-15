@@ -1,7 +1,11 @@
 const fs = require("fs");
 const path = require("path");
-const SRC = "C:/Users/MP/Documents/Apps/claude/scraperino-riperino/Riperino/MHFU";
+// Scraperino is kept as a local working tool, outside the public site data.
+// Resolve it from this repository's ignored develop folder rather than from
+// the old Claude-specific path, which no longer exists on this machine.
+const SRC = path.resolve(__dirname, "../../develop/scraperino-riperinoopencode/Riperino/MHFU");
 const OUT = __dirname;
+const skillsOnly = process.argv.includes("--skills-only");
 
 // ---- decorations ----
 const decosRaw = JSON.parse(fs.readFileSync(path.join(SRC, "decorations/decorations.json"), "utf8"));
@@ -20,10 +24,21 @@ const decorations = decosRaw.map((d, i) => ({
   materials: (d.materials || []).map(m => ({ material: m.name, qty: m.amount })),
   icon: null,
 }));
-fs.writeFileSync(path.join(OUT, "decorations.json"), JSON.stringify(decorations, null, 1));
+if (!skillsOnly) fs.writeFileSync(path.join(OUT, "decorations.json"), JSON.stringify(decorations, null, 1));
 
-// ---- skills (group flat point-tiers into pools, Rise-style levels[]) ----
+// ---- skills (MHFU uses point pools, not numbered skill levels) ----
 const skillsRaw = JSON.parse(fs.readFileSync(path.join(SRC, "skills/skills.json"), "utf8"));
+// Scraperino's source is complete for the regular skill pools, except for
+// Gathering -2. GameFAQs' MHFU skill guide documents it at -15 points.
+if (!skillsRaw.some(s => s["skill-point"] === "Gathering" && s.points === -15)) {
+  skillsRaw.push({
+    name: "Gathering -2",
+    "skill-point": "Gathering",
+    points: -15,
+    "name-es": "Recogida -2",
+    "skill-point-es": "Recogida",
+  });
+}
 const pools = new Map();
 for (const s of skillsRaw) {
   const pool = s["skill-point"];
@@ -32,13 +47,23 @@ for (const s of skillsRaw) {
 }
 const skills = [...pools.entries()].map(([pool, tiers], i) => {
   tiers.sort((a, b) => b.points - a.points);
+  const poolEs = tiers.find(t => t["skill-point-es"])?.["skill-point-es"] || pool;
   return {
     id: `mhfus${i + 1}`,
     name: pool,
-    nameEs: pool,
+    nameEs: poolEs,
     descEn: "", // no MHFU skill description text in the source -- "" (not null) so templates that skip the ${null}-literal guard don't print "null"
     descEs: "",
-    levels: tiers.map((t, j) => ({ level: j + 1, effectEn: `${t.name} (${t.points >= 0 ? "+" : ""}${t.points} pts)`, effectEs: null, points: t.points })),
+    // An activation has a required point threshold and a name. It is not a
+    // "level": armor and decorations contribute points to this pool.
+    activations: tiers.map(t => ({
+      points: t.points,
+      nameEn: t.name,
+      // Scraperino has partial Spanish activation names. When an activation
+      // is simply "Pool +N/-N", translate its pool even if its row lacks a
+      // duplicate name-es field (Gathering +1/-1 are the key example).
+      nameEs: t["name-es"] || (t.name.startsWith(pool) ? `${poolEs}${t.name.slice(pool.length)}` : t.name),
+    })),
     colorIndex: i % 12,
   };
 });
@@ -58,6 +83,6 @@ const items = itemsRaw.map((it, i) => ({
   sellingPrice: it["selling-price"] ?? null,
   carryMax: it["carry-max"] ?? null,
 }));
-fs.writeFileSync(path.join(OUT, "items.json"), JSON.stringify(items, null, 1));
+if (!skillsOnly) fs.writeFileSync(path.join(OUT, "items.json"), JSON.stringify(items, null, 1));
 
-console.log(`Wrote ${decorations.length} decorations, ${skills.length} skills (from ${skillsRaw.length} tiers), ${items.length} items.`);
+console.log(`Wrote ${skills.length} MHFU point-skill pools (from ${skillsRaw.length} activations).`);
