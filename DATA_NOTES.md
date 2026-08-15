@@ -48,6 +48,8 @@ A pedido del usuario, el detalle de cada decoración ahora reutiliza `materialIn
 
 # Notas de calidad de datos — casos a revisar
 
+> **MHFU:** Felyne aparece en el catálogo como monstruo pequeño, pero no tiene tabla de recompensas/drops en la fuente; se clasifica como ficha sin drops (no como material faltante).
+
 Estos son los casos donde los agentes de recolección encontraron datos ambiguos, contradictorios, o no estándar en Fextralife. Se documentan acá para revisarlos a mano antes de confiar 100% en ellos. Ninguno fue inventado — donde hubo duda, se dejó `null` en vez de adivinar un número.
 
 ## Confirmados y corregidos
