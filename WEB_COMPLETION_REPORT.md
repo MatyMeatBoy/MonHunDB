@@ -68,17 +68,15 @@ Wilds: materiales de sets              9% pendiente  ░░░░░░░░░
 ## Lectura rápida
 
 1. **La base de monstruos está sólida:** Rise está documentado como 78/78 y las tres bases tienen hitzones y debilidades completas.
-2. **La deuda visual más visible está en MHFU:** faltan 115 fotos de sets y 55 renders de piezas.
-3. **La deuda de datos más grande está en Wilds:** piezas de armadura sin habilidades/materiales y charms todavía con estructura vacía.
+2. **La deuda visual más visible está en MHFU:** faltan 2 fotos de sets especiales y 55 renders de piezas.
+3. **La deuda de datos más grande está en Wilds:** faltan materiales desglosados por pieza; habilidades de piezas y sets ya están completas.
 4. **La deuda transversal es el 3D:** el visor y los modelos están trabajados en MHFU; Rise y Wilds todavía no tienen una colección equivalente.
 
 ## Orden recomendado para llegar al completionismo
 
-1. Completar datos de charms de Wilds.
-2. Desglosar habilidades y materiales por pieza en Wilds.
-3. Completar materiales/habilidades faltantes de sets de Wilds.
-4. Recuperar fotos de sets y renders de piezas de MHFU.
-5. Auditar enlaces, iconos y traducciones de armas Rise; la rareza ya está completa.
-6. Auditar enlaces, iconos y traducciones y luego extender el visor 3D a Rise/Wilds.
+1. Desglosar materiales de forja por pieza en Wilds (las tablas agregadas de set ya están completas).
+2. Recuperar los renders de piezas MHFU que no tienen fuente visual fiable y limpiar los placeholders `None`.
+3. Auditar los siete iconos especiales de objetos Wilds que no tienen arte publicable.
+4. Extender el visor 3D a Rise/Wilds cuando existan modelos compatibles.
 
 No hay un porcentaje global único honesto todavía: mezclar monstruos, iconos, armaduras, datos y modelos exigiría decidir pesos arbitrarios. Este informe deja cada porcentaje trazable y actualizable.
