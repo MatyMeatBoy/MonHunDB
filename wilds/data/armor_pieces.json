@@ -2159,7 +2159,7 @@
   },
   {
     "id": "wp63",
-    "name": "Diver&#39;s Mask α",
+    "name": "Diver's Mask α",
     "part": "head",
     "defense": 36,
     "rarity": 5,
@@ -2174,7 +2174,16 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Festival Spirit",
+        "level": 1
+      },
+      {
+        "name": "Ambush",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fc/Divers_mask_alpha_type_a_head_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Divers_mask_alpha_type_a_head_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Diver α Set",
@@ -2182,7 +2191,7 @@
   },
   {
     "id": "wp64",
-    "name": "Diver&#39;s Suit α",
+    "name": "Diver's Suit α",
     "part": "chest",
     "defense": 36,
     "rarity": 5,
@@ -2199,7 +2208,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Festival Spirit",
+        "level": 1
+      },
+      {
+        "name": "Hunger Resistance",
+        "level": 2
+      },
+      {
+        "name": "Leap of Faith",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/eb/Divers_suit_alpha_type_a_chest_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Divers_suit_alpha_type_a_chest_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Diver α Set",
@@ -2207,7 +2229,7 @@
   },
   {
     "id": "wp65",
-    "name": "Diver&#39;s Braces α",
+    "name": "Diver's Braces α",
     "part": "arms",
     "defense": 36,
     "rarity": 5,
@@ -2222,7 +2244,20 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Festival Spirit",
+        "level": 1
+      },
+      {
+        "name": "Ambush",
+        "level": 1
+      },
+      {
+        "name": "Marathon Runner",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/57/Divers_braces_alpha_type_a_arm_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Divers_braces_alpha_type_a_arm_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Diver α Set",
@@ -2230,7 +2265,7 @@
   },
   {
     "id": "wp66",
-    "name": "Diver&#39;s Belt α",
+    "name": "Diver's Belt α",
     "part": "waist",
     "defense": 36,
     "rarity": 5,
@@ -2249,7 +2284,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Festival Spirit",
+        "level": 1
+      },
+      {
+        "name": "Aquatic/Oilsilt Mobility",
+        "level": 1
+      },
+      {
+        "name": "Hunger Resistance",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8d/Divers_belt_alpha_waist_type_a_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Divers_belt_alpha_waist_type_a_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Diver α Set",
@@ -2257,7 +2305,7 @@
   },
   {
     "id": "wp67",
-    "name": "Diver&#39;s Boots α",
+    "name": "Diver's Boots α",
     "part": "legs",
     "defense": 36,
     "rarity": 5,
@@ -2274,7 +2322,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Festival Spirit",
+        "level": 1
+      },
+      {
+        "name": "Aquatic/Oilsilt Mobility",
+        "level": 1
+      },
+      {
+        "name": "Marathon Runner",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/02/Divers_boots_alpha_leg_type_a_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Divers_boots_alpha_leg_type_a_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Diver α Set",

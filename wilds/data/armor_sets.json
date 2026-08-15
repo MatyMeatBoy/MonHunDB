@@ -2574,11 +2574,36 @@
   {
     "name": "Diver α Set",
     "image": "https://static0.fextralifeimages.com/file/monsterhunterwilds/b/b1/Diver-alpha-set-armor-set-monster-hunter-wilds-wiki-guide.png",
-    "equipmentSkills": [],
+    "equipmentSkills": [
+      {
+        "name": "Festival Spirit",
+        "level": 1
+      },
+      {
+        "name": "Ambush",
+        "level": 2
+      },
+      {
+        "name": "Hunger Resistance",
+        "level": 2
+      },
+      {
+        "name": "Leap of Faith",
+        "level": 1
+      },
+      {
+        "name": "Marathon Runner",
+        "level": 2
+      },
+      {
+        "name": "Aquatic/Oilsilt Mobility",
+        "level": 1
+      }
+    ],
     "setBonus": [],
     "pieces": [
       {
-        "name": "Diver&#39;s Mask α",
+        "name": "Diver's Mask α",
         "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/fc/Divers_mask_alpha_type_a_head_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Divers_mask_alpha_type_a_head_armor_monster_hunter_wilds_wiki_guide_200px.png",
         "part": "head",
         "defense": 36,
@@ -2596,7 +2621,7 @@
         "id": "wp63"
       },
       {
-        "name": "Diver&#39;s Suit α",
+        "name": "Diver's Suit α",
         "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/eb/Divers_suit_alpha_type_a_chest_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Divers_suit_alpha_type_a_chest_armor_monster_hunter_wilds_wiki_guide_200px.png",
         "part": "chest",
         "defense": 36,
@@ -2616,7 +2641,7 @@
         "id": "wp64"
       },
       {
-        "name": "Diver&#39;s Braces α",
+        "name": "Diver's Braces α",
         "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/57/Divers_braces_alpha_type_a_arm_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Divers_braces_alpha_type_a_arm_armor_monster_hunter_wilds_wiki_guide_200px.png",
         "part": "arms",
         "defense": 36,
@@ -2634,7 +2659,7 @@
         "id": "wp65"
       },
       {
-        "name": "Diver&#39;s Belt α",
+        "name": "Diver's Belt α",
         "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8d/Divers_belt_alpha_waist_type_a_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Divers_belt_alpha_waist_type_a_armor_monster_hunter_wilds_wiki_guide_200px.png",
         "part": "waist",
         "defense": 36,
@@ -2656,7 +2681,7 @@
         "id": "wp66"
       },
       {
-        "name": "Diver&#39;s Boots α",
+        "name": "Diver's Boots α",
         "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/02/Divers_boots_alpha_leg_type_a_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Divers_boots_alpha_leg_type_a_armor_monster_hunter_wilds_wiki_guide_200px.png",
         "part": "legs",
         "defense": 36,
