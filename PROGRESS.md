@@ -2,6 +2,14 @@
 
 Última actualización: 2026-08-10
 
+## Cierre MHFU: puntos de habilidades y ramas de armas (2026-08-15)
+
+- MHFU usa **puntos de habilidad**, no niveles numerados: la ficha de cada habilidad muestra las columnas "Puntos necesarios" y "Habilidad activada". `Gathering` quedó comprobada con `+15/+10/-10/-15` → `Gathering +2/+1/-1/-2` (en español, `Recogida`).
+- Armaduras y adornos muestran sus aportes como `+N pts`/`-N pts`; no se presentan como habilidades completas ni como `Lv. N`.
+- Se añadió la descripción de Recogida y el generador de MHFU ahora lee Scraperino desde `develop` con la corrección documentada de `Gathering -2`.
+- Se auditaron 7.813 referencias de puntos de armadura/adornos y se normalizaron 146 alias; no quedan nombres de habilidad sin ficha. El script reutilizable es `mhfu/data/normalize_skill_references.js`.
+- Los árboles de armas usan nodos de tamaño fijo y desplazamiento horizontal para conservar legibilidad. El equipo relacionado indexa también armas intermedias, para no perder ramas como `Blango Destroyer` cuando la mejora final cambia de monstruo/materiales.
+
 ## Feature: Wilds pasa de ~40% a ~75% funcional (2026-08-10)
 
 Sesión grande de scraping para `wilds/` (Monster Hunter Wilds, carpeta separada de Rise, nunca se mezclan datos/buscadores). Detalle completo, fuentes exactas y bugs corregidos en **`wilds/HANDOFF.md`** (ese archivo es el que hay que leer para retomar Wilds específicamente). Resumen:
