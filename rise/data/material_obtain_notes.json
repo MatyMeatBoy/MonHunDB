@@ -3,9 +3,17 @@
     "en": "Buy at the Anomaly Research Lab for 25 Investigation Coins.",
     "es": "Se compra en el Laboratorio de Investigación de Anomalías por 25 Monedas de Investigación."
   },
+  "Ancient Potion": {
+    "en": "Arena and Challenge Quest reward; it can also be crafted with Immunizer and a Kelbi Horn.",
+    "es": "Recompensa de la Arena y de misiones de desafío; también se fabrica con Inmunizador y un Cuerno de Kelbi."
+  },
   "Allfire Stone": {
     "en": "Mining outcrop (Master Rank), Lava Caverns.",
     "es": "Minado (yacimiento, Rango Maestro), Grutas de Lava."
+  },
+  "Aquaglow Jewel": {
+    "en": "Quest reward from Gathering Hub and Event quests, commonly in High Rank decoration-farming quests.",
+    "es": "Recompensa de misiones de la Sala de reunión y eventos, especialmente en misiones de Rango Alto para fabricar adornos."
   },
   "Anomaly Jewel": {
     "en": "Reward from Anomaly Investigations, or buy at the Anomaly Research Lab for 100 Investigation Coins.",
@@ -22,6 +30,10 @@
   "Bnahabra Stinger": {
     "en": "Carve or target reward from Bnahabra (small monster).",
     "es": "Carveo o recompensa de misión de Bnahabra (monstruo pequeño)."
+  },
+  "Bloodrun Jewel": {
+    "en": "Quest reward from High Rank Gathering Hub, Event, and Advanced quests.",
+    "es": "Recompensa de misiones de Rango Alto de la Sala de reunión, eventos y misiones avanzadas."
   },
   "Boggi Shard": {
     "en": "Meowcenaries reward, or carved from Boggi (small monster) in the Citadel.",
@@ -98,6 +110,10 @@
   "Lazurite Jewel": {
     "en": "Quest reward from several Village/Hub quests.",
     "es": "Recompensa de misión de varias misiones de Aldea/Hub."
+  },
+  "Lifepowder": {
+    "en": "Arena and Challenge Quest reward; it can also be crafted with a Godbug and a Blue Mushroom.",
+    "es": "Recompensa de la Arena y de misiones de desafío; también se fabrica con un Bicho divino y un Champiñón azul."
   },
   "Mandragora": {
     "en": "Quest reward, or gathered in several locations.",

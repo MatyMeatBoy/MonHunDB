@@ -37,7 +37,7 @@ A pedido del usuario (dio como ejemplo [monsterhunterrise.wiki.fextralife.com/An
 
 - `data/scrape_material_obtain.js` scrapea la sección "How to get X" de la wiki de Fextralife de MH Rise. La estructura HTML de esa sección es inconsistente entre páginas (a veces usa `<ul>`, a veces `<p>`, mezclado) — la primera versión del parser (que contaba `<ul>` en orden) se desalineaba apenas una página se saltaba la lista en alguna de las 3 columnas (Misiones/Monstruos/Ubicaciones). Se corrigió cortando por los 3 `<div class="col-sm-4">` fijos en vez de contar tags.
 - Aun así, ~12 de los 54 materiales dieron texto contaminado (mezclaba contenido de la sección "Usage" — árbol de armas que usan el material — con la sección de obtención, en páginas con estructura interna más compleja) o fallaron (8 con 404 — nombres con "+" no calzan con la URL de Fextralife). Para esos casos, en vez de mostrar el texto crudo scrapeado (potencialmente incorrecto), se redactó a mano un resumen corto en `data/material_obtain_notes.json` basado en las partes confiables del scrape (nombre del monstruo pequeño, tipo de recolección, rango) — nunca se inventó un dato que no viniera de la fuente.
-- 7 materiales quedaron sin nota (`Ancient Potion`, `Aquaglow Jewel`, `Bloodrun Jewel`, `Lifepowder`, y los 8 con URL 404 menos los que se pudieron redactar a mano) — siguen mostrando el mensaje genérico. Pendiente si el usuario los necesita.
+- Se completaron las notas de `Ancient Potion`, `Aquaglow Jewel`, `Bloodrun Jewel` y `Lifepowder` con datos de recompensas y crafteo de Kiranico. Solo quedan algunos materiales con URL de fuente 404 para una revisión posterior; no se inventaron rutas de obtención.
 - Se integró en `app.js`: `materialObtainNotes[material][lang]` reemplaza el mensaje genérico cuando existe nota; si no, cae al mensaje genérico de siempre. Carga en paralelo en `init()` desde `data/material_obtain_notes.json`.
 
 ### Ampliación (2026-08-07): vínculo a monstruos + desplegable
@@ -69,7 +69,7 @@ Monstruos que siguen en 0 después de esto (verificado que es correcto, no un fa
 
 ## Pendientes de verificación manual
 
-- **Apex Rathian (Master Rank)**: la tabla de materiales incluye dos filas atípicas, "Melding Pudding" y "Melding Honey" — no son materiales de monstruo típicos (suenan a items de crafteo/melding). Aparecieron igual en dos fetches independientes del agente del batch 3, así que se dejaron tal cual, pero conviene confirmar contra otra fuente (ej. Kiranico o el juego) si realmente pertenecen a la tabla de drops de Apex Rathian o si es un error de extracción de la página (tablas vecinas mezcladas).
+- **Apex Rathian (Master Rank)**: confirmado contra Kiranico que "Melding Pudding" (15%) y "Melding Honey" (35%) son recompensas objetivo reales de Apex Rathian. Se conservan correctamente en la tabla; ya no son un caso pendiente.
 - **Astalos**: primera extracción mostró Dragón como debilidad Y como resistencia al mismo tiempo (contradictorio). El agente del batch 6 priorizó la tabla de debilidades y descartó la resistencia a Dragón, dejando solo Thunder como inmune. Revisar contra la wiki directamente si hace falta más precisión.
 - **Gore Magala**: la wiki no expone estrellas para su debilidad a Fuego/Thunder en el resumen (solo texto plano). Quedó con `stars: null`. Su "species" quedó como "Unknown" porque el juego lo clasifica como "???" oficialmente.
 - **Risen Chameleos**: sin niveles de estrella para debilidades (Fire/Dragon/Thunder) ni resistencias/ailments — la wiki no los expone con estrellas para esta variante endgame. Todo quedó `null`/vacío en vez de inventar.
@@ -125,7 +125,7 @@ El usuario señaló que varias traducciones de ubicaciones estaban mal y pasó l
 | Infernal Springs | Manantiales Infernales | **Fuente Infernal** |
 | Red Stronghold | Fortaleza Roja | **Fortaleza** |
 
-Frost Islands (Islas Heladas) ya estaba bien. "The Allmother" sigue siendo un dato sospechoso — parece un error de scraping donde el propio nombre de Narwa the Allmother terminó listado como una de sus zonas de aparición; no es un lugar real del juego. Pendiente de limpiar cuando se revise ese monstruo puntualmente.
+Frost Islands (Islas Heladas) ya estaba bien. También se eliminó de Ibushi la entrada incorrecta "The Allmother": era el nombre de otro monstruo, no una zona de aparición.
 
 ## Bug de íconos de materiales corregido (2026-08-06)
 
