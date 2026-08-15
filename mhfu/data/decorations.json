@@ -2737,7 +2737,7 @@
   "description": null,
   "skills": [
    {
-    "name": "Crag S Add",
+    "name": "CragSAdd",
     "nameEs": "Crag S Add",
     "level": 2,
     "effect": "+2 pts",
@@ -2768,7 +2768,7 @@
   "description": null,
   "skills": [
    {
-    "name": "ClustS Add",
+    "name": "ClustSAdd",
     "nameEs": "ClustS Add",
     "level": 2,
     "effect": "+2 pts",
@@ -4238,7 +4238,7 @@
   "description": null,
   "skills": [
    {
-    "name": "WindPress",
+    "name": "Wind Press",
     "nameEs": "WindPress",
     "level": 1,
     "effect": "+1 pts",
@@ -4276,7 +4276,7 @@
   "description": null,
   "skills": [
    {
-    "name": "WindPress",
+    "name": "Wind Press",
     "nameEs": "WindPress",
     "level": 3,
     "effect": "+3 pts",
@@ -4314,7 +4314,7 @@
   "description": null,
   "skills": [
    {
-    "name": "WindPress",
+    "name": "Wind Press",
     "nameEs": "WindPress",
     "level": 5,
     "effect": "+5 pts",
