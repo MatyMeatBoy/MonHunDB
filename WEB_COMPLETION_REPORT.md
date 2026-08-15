@@ -44,7 +44,7 @@
 | Renders de monstruos locales | `█████████░` **98,1% (52/53)** | **1 render** |
 | Íconos de objetos | `██████████` **99,1% (768/775)** | **7 íconos** |
 | Imágenes de sets de armadura | `██████████` **98,7% (157/159)** | **2 sets** |
-| Materiales de sets | `█████████░` **91,2% (145/159)** | **14 sets** |
+| Materiales de sets | `██████████` **100% documentado (156 con materiales + 3 solo zenny)** | 0 sin fuente |
 | Habilidades de sets | `██████████` **100% (159/159)** | **0 sets** |
 | Habilidades por pieza | `██████████` **100% (690/690)** | **0 piezas** |
 | Materiales por pieza | `░░░░░░░░░░` **0,7% (5/690)** | **685 piezas** |

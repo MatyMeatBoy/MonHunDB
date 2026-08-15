@@ -406,7 +406,90 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/azure-age-alpha-set.png"
+    "localImage": "data/images/armor_sets_full/azure-age-alpha-set.png",
+    "materials": [
+      {
+        "material": "Rey Dau Scale+",
+        "qty": 3
+      },
+      {
+        "material": "Lagiacrus Hide+",
+        "qty": 3
+      },
+      {
+        "material": "Lagiacrus Sapphire",
+        "qty": 1
+      },
+      {
+        "material": "Azure Stargem",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Carapace",
+        "qty": 5
+      },
+      {
+        "material": "Lagiacrus Scale+",
+        "qty": 5
+      },
+      {
+        "material": "Lagiacrus Horn+",
+        "qty": 3
+      },
+      {
+        "material": "Azure Stargem",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Bolthorn",
+        "qty": 3
+      },
+      {
+        "material": "Rey Dau Fulgurtalon",
+        "qty": 4
+      },
+      {
+        "material": "Lagiacrus Tail",
+        "qty": 2
+      },
+      {
+        "material": "Azure Stargem",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Scale+",
+        "qty": 3
+      },
+      {
+        "material": "Rey Dau Boltgem",
+        "qty": 1
+      },
+      {
+        "material": "Lagiacrus Hide+",
+        "qty": 1
+      },
+      {
+        "material": "Azure Stargem",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Tail",
+        "qty": 2
+      },
+      {
+        "material": "Lagiacrus Claw+",
+        "qty": 4
+      },
+      {
+        "material": "Lagiacrus Shockspike",
+        "qty": 3
+      },
+      {
+        "material": "Azure Stargem",
+        "qty": 1
+      }
+    ],
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/584418"
   },
   {
     "name": "Gala Suit α Set",
@@ -561,7 +644,90 @@
         "id": "wp15"
       }
     ],
-    "url": "https://monsterhunterwilds.wiki.fextralife.com/Gala_Suit_Alpha_Set"
+    "url": "https://monsterhunterwilds.wiki.fextralife.com/Gala_Suit_Alpha_Set",
+    "materials": [
+      {
+        "material": "Gypceros Head",
+        "qty": 1
+      },
+      {
+        "material": "Novacrystal",
+        "qty": 1
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Gala Suit Ticket",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Plate",
+        "qty": 1
+      },
+      {
+        "material": "Gypceros Wing",
+        "qty": 3
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Gala Suit Ticket",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Boltgem",
+        "qty": 1
+      },
+      {
+        "material": "Gypceros Tail",
+        "qty": 2
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Gala Suit Ticket",
+        "qty": 1
+      },
+      {
+        "material": "Rubbery Hide+",
+        "qty": 4
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Fulgurtalon",
+        "qty": 3
+      },
+      {
+        "material": "Gala Suit Ticket",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Scale+",
+        "qty": 4
+      },
+      {
+        "material": "Lightcrystal",
+        "qty": 2
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Gala Suit Ticket",
+        "qty": 1
+      }
+    ],
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/583632"
   },
   {
     "name": "Arkveld γ Set",
@@ -717,7 +883,90 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/arkveld-gamma-set.png"
+    "localImage": "data/images/armor_sets_full/arkveld-gamma-set.png",
+    "materials": [
+      {
+        "material": "Arkveld Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Arkveld Horn+",
+        "qty": 3
+      },
+      {
+        "material": "Arkveld Gem",
+        "qty": 1
+      },
+      {
+        "material": "Arkveld Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Arkveld Armorplate",
+        "qty": 6
+      },
+      {
+        "material": "White Arkveld Pelt",
+        "qty": 3
+      },
+      {
+        "material": "Arkveld Tail",
+        "qty": 2
+      },
+      {
+        "material": "Arkveld Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Arkveld Horn+",
+        "qty": 3
+      },
+      {
+        "material": "Arkveld Tail",
+        "qty": 3
+      },
+      {
+        "material": "Dragonbone Relic",
+        "qty": 2
+      },
+      {
+        "material": "Arkveld Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Wyvern Gem",
+        "qty": 2
+      },
+      {
+        "material": "Arkveld Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Arkveld Armorplate",
+        "qty": 4
+      },
+      {
+        "material": "Arkveld Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "White Arkveld Pelt",
+        "qty": 4
+      },
+      {
+        "material": "Arkveld Gem",
+        "qty": 1
+      },
+      {
+        "material": "Arkveld Calloushell",
+        "qty": 3
+      },
+      {
+        "material": "Arkveld Certificate γ",
+        "qty": 1
+      }
+    ],
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/580835"
   },
   {
     "name": "Dahaad γ Set",
@@ -883,7 +1132,90 @@
       1
     ],
     "localImage": "data/images/armor_sets_full/dahaad-gamma-set.png",
-    "nameEs": "Dahaad γ Set"
+    "nameEs": "Dahaad γ Set",
+    "materials": [
+      {
+        "material": "Jin Dahaad Horn",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Icegem",
+        "qty": 1
+      },
+      {
+        "material": "Jin Dahaad Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Jin Dahaad Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Jin Dahaad Claw+",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Tail",
+        "qty": 2
+      },
+      {
+        "material": "Jin Dahaad Carapace",
+        "qty": 6
+      },
+      {
+        "material": "Jin Dahaad Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Gracium",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Horn",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Tail",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Jin Dahaad Claw+",
+        "qty": 4
+      },
+      {
+        "material": "Jin Dahaad Iceplate",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Icegem",
+        "qty": 1
+      },
+      {
+        "material": "Jin Dahaad Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Wyvern Gem",
+        "qty": 2
+      },
+      {
+        "material": "Jin Dahaad Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Jin Dahaad Carapace",
+        "qty": 4
+      },
+      {
+        "material": "Jin Dahaad Certificate γ",
+        "qty": 1
+      }
+    ],
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/572237"
   },
   {
     "name": "Gogmazios α Set",
@@ -2022,7 +2354,90 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/bale-alpha-set.png"
+    "localImage": "data/images/armor_sets_full/bale-alpha-set.png",
+    "materials": [
+      {
+        "material": "Omega Data 1.0",
+        "qty": 1
+      },
+      {
+        "material": "Omega Screw",
+        "qty": 6
+      },
+      {
+        "material": "Omega Spring",
+        "qty": 3
+      },
+      {
+        "material": "Omega Pedal",
+        "qty": 3
+      },
+      {
+        "material": "Novacrystal",
+        "qty": 2
+      },
+      {
+        "material": "Omega Data 1.0",
+        "qty": 1
+      },
+      {
+        "material": "Omega Spring",
+        "qty": 5
+      },
+      {
+        "material": "Omega Pedal",
+        "qty": 3
+      },
+      {
+        "material": "Omega Data 1.0",
+        "qty": 1
+      },
+      {
+        "material": "Omega Screw",
+        "qty": 4
+      },
+      {
+        "material": "Omega Lens",
+        "qty": 3
+      },
+      {
+        "material": "Omega Nodule",
+        "qty": 1
+      },
+      {
+        "material": "Omega Data 1.0",
+        "qty": 1
+      },
+      {
+        "material": "Omega Spring",
+        "qty": 4
+      },
+      {
+        "material": "Omega Axle",
+        "qty": 3
+      },
+      {
+        "material": "Omega Nodule",
+        "qty": 1
+      },
+      {
+        "material": "Omega Data 1.0",
+        "qty": 1
+      },
+      {
+        "material": "Omega Screw",
+        "qty": 5
+      },
+      {
+        "material": "Omega Lens",
+        "qty": 2
+      },
+      {
+        "material": "Omega Axle",
+        "qty": 2
+      }
+    ],
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/553652"
   },
   {
     "name": "Nu Udra γ Set",
@@ -2197,7 +2612,90 @@
       1
     ],
     "localImage": "data/images/armor_sets_full/nu-udra-gamma-set.png",
-    "nameEs": "Nu Udra γ Set"
+    "nameEs": "Nu Udra γ Set",
+    "materials": [
+      {
+        "material": "Firecell Stone",
+        "qty": 2
+      },
+      {
+        "material": "Nu Udra Tentacle+",
+        "qty": 2
+      },
+      {
+        "material": "Nu Udra Horn+",
+        "qty": 2
+      },
+      {
+        "material": "Nu Udra Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Beast Gem",
+        "qty": 2
+      },
+      {
+        "material": "Nu Udra Spike+",
+        "qty": 3
+      },
+      {
+        "material": "Nu Udra Hide+",
+        "qty": 5
+      },
+      {
+        "material": "Nu Udra Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Nu Udra Flamegem",
+        "qty": 1
+      },
+      {
+        "material": "Nu Udra Oilmucus+",
+        "qty": 4
+      },
+      {
+        "material": "Nu Udra Hide+",
+        "qty": 3
+      },
+      {
+        "material": "Nu Udra Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Nu Udra Flamegem",
+        "qty": 1
+      },
+      {
+        "material": "Nu Udra Tentacle+",
+        "qty": 3
+      },
+      {
+        "material": "Nu Udra Hide+",
+        "qty": 5
+      },
+      {
+        "material": "Nu Udra Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Nu Udra Cerebrospinal Fluid",
+        "qty": 2
+      },
+      {
+        "material": "Nu Udra Oilmucus+",
+        "qty": 4
+      },
+      {
+        "material": "Nu Udra Spike+",
+        "qty": 6
+      },
+      {
+        "material": "Nu Udra Certificate γ",
+        "qty": 1
+      }
+    ],
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/559725"
   },
   {
     "name": "Akuma α Set",
@@ -7231,7 +7729,42 @@
       1
     ],
     "localImage": "data/images/armor_sets_full/chainmail-alpha-set.png",
-    "nameEs": "Malla α Set"
+    "nameEs": "Malla α Set",
+    "materials": [
+      {
+        "material": "Guardian Scale",
+        "qty": 1
+      },
+      {
+        "material": "Icium",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Scale",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Scale",
+        "qty": 1
+      },
+      {
+        "material": "Icium",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Scale",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Scale",
+        "qty": 1
+      },
+      {
+        "material": "Icium",
+        "qty": 1
+      }
+    ],
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501900"
   },
   {
     "name": "Chatacabra α Set",
@@ -14725,7 +15258,46 @@
       1
     ],
     "localImage": "data/images/armor_sets_full/hope-alpha-set.png",
-    "nameEs": "Esperanza α Set"
+    "nameEs": "Esperanza α Set",
+    "materials": [
+      {
+        "material": "Sturdy Bone",
+        "qty": 2
+      },
+      {
+        "material": "Iron Ore",
+        "qty": 1
+      },
+      {
+        "material": "Sturdy Bone",
+        "qty": 1
+      },
+      {
+        "material": "Earth Crystal",
+        "qty": 1
+      },
+      {
+        "material": "Sturdy Bone",
+        "qty": 2
+      },
+      {
+        "material": "Earth Crystal",
+        "qty": 1
+      },
+      {
+        "material": "Sturdy Bone",
+        "qty": 1
+      },
+      {
+        "material": "Iron Ore",
+        "qty": 1
+      },
+      {
+        "material": "Sturdy Bone",
+        "qty": 3
+      }
+    ],
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501894"
   },
   {
     "name": "Ingot α Set",
@@ -16289,7 +16861,42 @@
       1
     ],
     "localImage": "data/images/armor_sets_full/leather-alpha-set.png",
-    "nameEs": "Cuero α Set"
+    "nameEs": "Cuero α Set",
+    "materials": [
+      {
+        "material": "Guardian Pelt",
+        "qty": 1
+      },
+      {
+        "material": "Machalite Ore",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Pelt",
+        "qty": 1
+      },
+      {
+        "material": "Machalite Ore",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Pelt",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Pelt",
+        "qty": 1
+      },
+      {
+        "material": "Machalite Ore",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Pelt",
+        "qty": 1
+      }
+    ],
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501899"
   },
   {
     "name": "Melahoa α Set",
@@ -20189,7 +20796,90 @@
       1
     ],
     "localImage": "data/images/armor_sets_full/rey-dau-gamma-set.png",
-    "nameEs": "Rey Dau γ Set"
+    "nameEs": "Rey Dau γ Set",
+    "materials": [
+      {
+        "material": "Wyvern Gem",
+        "qty": 2
+      },
+      {
+        "material": "Rey Dau Scale+",
+        "qty": 5
+      },
+      {
+        "material": "Rey Dau Bolthorn",
+        "qty": 3
+      },
+      {
+        "material": "Rey Dau Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Carapace",
+        "qty": 6
+      },
+      {
+        "material": "Rey Dau Plate",
+        "qty": 2
+      },
+      {
+        "material": "Rey Dau Fulgurtalon",
+        "qty": 3
+      },
+      {
+        "material": "Rey Dau Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Scale+",
+        "qty": 3
+      },
+      {
+        "material": "Rey Dau Boltgem",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Fulgurtalon",
+        "qty": 4
+      },
+      {
+        "material": "Rey Dau Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Carapace",
+        "qty": 5
+      },
+      {
+        "material": "Rey Dau Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Rey Dau Fulgurtalon",
+        "qty": 2
+      },
+      {
+        "material": "Rey Dau Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Tail",
+        "qty": 2
+      },
+      {
+        "material": "Rey Dau Bolthorn",
+        "qty": 2
+      },
+      {
+        "material": "Novacrystal",
+        "qty": 2
+      },
+      {
+        "material": "Rey Dau Certificate γ",
+        "qty": 1
+      }
+    ],
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/514827"
   },
   {
     "name": "Rompopolo α Set",
@@ -22748,7 +23438,9 @@
     },
     "decoSlots": [],
     "localImage": "data/images/armor_sets_full/chainmail-set.png",
-    "nameEs": "Malla Set"
+    "nameEs": "Malla Set",
+    "materials": [],
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501359"
   },
   {
     "name": "Chatacabra Set",
@@ -24274,7 +24966,9 @@
     },
     "decoSlots": [],
     "localImage": "data/images/armor_sets_full/hope-set.png",
-    "nameEs": "Esperanza Set"
+    "nameEs": "Esperanza Set",
+    "materials": [],
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/483472"
   },
   {
     "name": "Ingot Set",
@@ -24731,7 +25425,9 @@
     },
     "decoSlots": [],
     "localImage": "data/images/armor_sets_full/leather-set.png",
-    "nameEs": "Cuero Set"
+    "nameEs": "Cuero Set",
+    "materials": [],
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501358"
   },
   {
     "name": "Nerscylla Set",
@@ -26498,7 +27194,90 @@
       1
     ],
     "localImage": "data/images/armor_sets_full/uth-duna-gamma-set.png",
-    "nameEs": "Uth Duna γ Set"
+    "nameEs": "Uth Duna γ Set",
+    "materials": [
+      {
+        "material": "Wyvern Gem",
+        "qty": 2
+      },
+      {
+        "material": "Uth Duna Cilia+",
+        "qty": 3
+      },
+      {
+        "material": "Uth Duna Scale+",
+        "qty": 5
+      },
+      {
+        "material": "Uth Duna Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Uth Duna Plate",
+        "qty": 2
+      },
+      {
+        "material": "Uth Duna Claw+",
+        "qty": 3
+      },
+      {
+        "material": "Uth Duna Hide+",
+        "qty": 6
+      },
+      {
+        "material": "Uth Duna Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Uth Duna Claw+",
+        "qty": 2
+      },
+      {
+        "material": "Uth Duna Hide+",
+        "qty": 5
+      },
+      {
+        "material": "Uth Duna Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Uth Duna Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Uth Duna Watergem",
+        "qty": 1
+      },
+      {
+        "material": "Uth Duna Claw+",
+        "qty": 4
+      },
+      {
+        "material": "Uth Duna Scale+",
+        "qty": 3
+      },
+      {
+        "material": "Uth Duna Certificate γ",
+        "qty": 1
+      },
+      {
+        "material": "Dragonbone Relic",
+        "qty": 2
+      },
+      {
+        "material": "Uth Duna Tentacle+",
+        "qty": 2
+      },
+      {
+        "material": "Uth Duna Cilia+",
+        "qty": 2
+      },
+      {
+        "material": "Uth Duna Certificate γ",
+        "qty": 1
+      }
+    ],
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/536399"
   },
   {
     "name": "Sakuratide α Set",
