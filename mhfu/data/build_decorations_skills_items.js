@@ -7,6 +7,16 @@ const SRC = path.resolve(__dirname, "../../develop/scraperino-riperinoopencode/R
 const OUT = __dirname;
 const skillsOnly = process.argv.includes("--skills-only");
 
+// Short pool descriptions transcribed as concise, original-language
+// paraphrases from the MHFU skill guide. More pools can be added here without
+// changing the schema or hand-editing the generated JSON.
+const MHFU_SKILL_DESCRIPTIONS = {
+  Gathering: {
+    en: "Affects how many times materials can be gathered at a single gathering point.",
+    es: "Afecta cuántas veces se pueden recoger materiales en un mismo punto de recolección.",
+  },
+};
+
 // ---- decorations ----
 const decosRaw = JSON.parse(fs.readFileSync(path.join(SRC, "decorations/decorations.json"), "utf8"));
 const decorations = decosRaw.map((d, i) => ({
@@ -48,12 +58,13 @@ for (const s of skillsRaw) {
 const skills = [...pools.entries()].map(([pool, tiers], i) => {
   tiers.sort((a, b) => b.points - a.points);
   const poolEs = tiers.find(t => t["skill-point-es"])?.["skill-point-es"] || pool;
+  const description = MHFU_SKILL_DESCRIPTIONS[pool];
   return {
     id: `mhfus${i + 1}`,
     name: pool,
     nameEs: poolEs,
-    descEn: "", // no MHFU skill description text in the source -- "" (not null) so templates that skip the ${null}-literal guard don't print "null"
-    descEs: "",
+    descEn: description?.en || "",
+    descEs: description?.es || "",
     // An activation has a required point threshold and a name. It is not a
     // "level": armor and decorations contribute points to this pool.
     activations: tiers.map(t => ({

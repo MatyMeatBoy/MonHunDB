@@ -1373,8 +1373,8 @@
   "id": "mhfus67",
   "name": "Gathering",
   "nameEs": "Recogida",
-  "descEn": "",
-  "descEs": "",
+  "descEn": "Affects how many times materials can be gathered at a single gathering point.",
+  "descEs": "Afecta cuántas veces se pueden recoger materiales en un mismo punto de recolección.",
   "activations": [
    {
     "points": 15,
