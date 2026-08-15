@@ -1,6 +1,6 @@
 # Informe gráfico de completitud de MonHunDB
 
-**Auditoría:** 15 de agosto de 2026  
+**Auditoría:** 15 de agosto de 2026
 **Criterio:** porcentajes calculados sobre los registros que ya existen en cada catálogo. Cuando no hay una lista maestra fiable, se marca como *no medido* en vez de inventar un total.
 
 ## Resumen visual
