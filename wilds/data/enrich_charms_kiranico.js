@@ -26,6 +26,14 @@ function parseSkill(html, locale) {
   return { slug: href[1], name: name[1], level: Number(level[1]), effect: effect[1] };
 }
 
+function parseLocalizedLevels(html) {
+  const t = decode(html);
+  const out = new Map();
+  const re = /"children":"Lv(\d+)"[^]{0,500}?"type":"tx","props":\{"children":"([^"\\]+)"/g;
+  for (const m of t.matchAll(re)) out.set(Number(m[1]), m[2]);
+  return out;
+}
+
 async function fetchOne(url) {
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
@@ -46,18 +54,22 @@ async function main() {
     const batch = charms.slice(i, i + 8);
     await Promise.all(batch.map(async charm => {
       const enHtml = await fetchOne(`https://mhwilds.kiranico.com/data/charms/${charm.id}`);
-      const esHtml = await fetchOne(`https://mhwilds.kiranico.com/es-419/data/charms/${charm.id}`);
+      const enDecoded = decode(enHtml);
       const en = parseSkill(enHtml, "en");
-      const es = parseSkill(esHtml, "es-419");
+      const esSkillSlug = enDecoded.match(/"es-419":"\/es-419\/data\/skills\/([^"\\]+)"/)?.[1];
+      const esSkillHtml = esSkillSlug
+        ? await fetchOne(`https://mhwilds.kiranico.com/es-419/data/skills/${esSkillSlug}`)
+        : "";
+      const esLevels = parseLocalizedLevels(esSkillHtml);
       if (en) {
         const skill = skillByName.get(en.name);
         const levelData = skill?.levels?.find(l => l.level === en.level);
         charm.skills = [{
           name: en.name,
-          nameEs: skill?.nameEs || es?.name || en.name,
+          nameEs: skill?.nameEs || en.name,
           level: en.level,
           effect: en.effect,
-          effectEs: levelData?.descEs || es?.effect || en.effect,
+          effectEs: esLevels.get(en.level) || levelData?.descEs || en.effect,
         }];
         done++;
       }

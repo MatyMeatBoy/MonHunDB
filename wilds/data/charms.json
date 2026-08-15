@@ -10,7 +10,7 @@
         "nameEs": "Corredor de fondo",
         "level": 1,
         "effect": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
-        "effectEs": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing)."
+        "effectEs": "Reduce el consumo continuo de resistencia un 15 %."
       }
     ],
     "materials": [],
@@ -27,7 +27,7 @@
         "nameEs": "Corredor de fondo",
         "level": 2,
         "effect": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
-        "effectEs": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing)."
+        "effectEs": "Reduce el consumo continuo de resistencia un 30 %."
       }
     ],
     "materials": [],
@@ -44,7 +44,7 @@
         "nameEs": "Corredor de fondo",
         "level": 3,
         "effect": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
-        "effectEs": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing)."
+        "effectEs": "Reduce el consumo continuo de resistencia un 50 %."
       }
     ],
     "materials": [],
@@ -61,7 +61,7 @@
         "nameEs": "Constitución",
         "level": 1,
         "effect": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
-        "effectEs": "Reduces stamina depletion when evading, blocking, or doing certain other actions."
+        "effectEs": "Reduce el consumo fijo de resistencia un 10 %."
       }
     ],
     "materials": [],
@@ -78,7 +78,7 @@
         "nameEs": "Constitución",
         "level": 2,
         "effect": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
-        "effectEs": "Reduces stamina depletion when evading, blocking, or doing certain other actions."
+        "effectEs": "Reduce el consumo fijo de resistencia un 20 %."
       }
     ],
     "materials": [],
@@ -95,7 +95,7 @@
         "nameEs": "Constitución",
         "level": 3,
         "effect": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
-        "effectEs": "Reduces stamina depletion when evading, blocking, or doing certain other actions."
+        "effectEs": "Reduce el consumo fijo de resistencia un 30 %."
       }
     ],
     "materials": [],
@@ -112,7 +112,7 @@
         "nameEs": "Constitución",
         "level": 4,
         "effect": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
-        "effectEs": "Reduces stamina depletion when evading, blocking, or doing certain other actions."
+        "effectEs": "Reduce el consumo fijo de resistencia un 40 %."
       }
     ],
     "materials": [],
@@ -129,7 +129,7 @@
         "nameEs": "Constitución",
         "level": 5,
         "effect": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
-        "effectEs": "Reduces stamina depletion when evading, blocking, or doing certain other actions."
+        "effectEs": "Reduce el consumo fijo de resistencia un 50 %."
       }
     ],
     "materials": [],
@@ -146,7 +146,7 @@
         "nameEs": "Envainado veloz",
         "level": 1,
         "effect": "Speeds up weapon sheathing.",
-        "effectEs": "Speeds up weapon sheathing."
+        "effectEs": "Aumenta ligeramente la velocidad al envainar."
       }
     ],
     "materials": [],
@@ -163,7 +163,7 @@
         "nameEs": "Envainado veloz",
         "level": 2,
         "effect": "Speeds up weapon sheathing.",
-        "effectEs": "Speeds up weapon sheathing."
+        "effectEs": "Aumenta la velocidad al envainar."
       }
     ],
     "materials": [],
@@ -180,7 +180,7 @@
         "nameEs": "Envainado veloz",
         "level": 3,
         "effect": "Speeds up weapon sheathing.",
-        "effectEs": "Speeds up weapon sheathing."
+        "effectEs": "Aumenta mucho la velocidad al envainar."
       }
     ],
     "materials": [],
@@ -197,7 +197,7 @@
         "nameEs": "Instigación",
         "level": 1,
         "effect": "Increases attack power and affinity when large monsters become enraged.",
-        "effectEs": "Increases attack power and affinity when large monsters become enraged."
+        "effectEs": "Ataque +4 y afinidad +3 % mientras esté activo."
       }
     ],
     "materials": [],
@@ -214,7 +214,7 @@
         "nameEs": "Instigación",
         "level": 2,
         "effect": "Increases attack power and affinity when large monsters become enraged.",
-        "effectEs": "Increases attack power and affinity when large monsters become enraged."
+        "effectEs": "Ataque +8 y afinidad +5 % mientras esté activo."
       }
     ],
     "materials": [],
@@ -231,7 +231,7 @@
         "nameEs": "Instigación",
         "level": 3,
         "effect": "Increases attack power and affinity when large monsters become enraged.",
-        "effectEs": "Increases attack power and affinity when large monsters become enraged."
+        "effectEs": "Ataque +12 y afinidad +7 % mientras esté activo."
       }
     ],
     "materials": [],
@@ -248,7 +248,7 @@
         "nameEs": "Plena forma",
         "level": 1,
         "effect": "Increases attack when your health is full.",
-        "effectEs": "Increases attack when your health is full."
+        "effectEs": "Ataque +3 mientras esté activo."
       }
     ],
     "materials": [],
@@ -265,7 +265,7 @@
         "nameEs": "Plena forma",
         "level": 2,
         "effect": "Increases attack when your health is full.",
-        "effectEs": "Increases attack when your health is full."
+        "effectEs": "Ataque +6 mientras esté activo."
       }
     ],
     "materials": [],
@@ -282,7 +282,7 @@
         "nameEs": "Plena forma",
         "level": 3,
         "effect": "Increases attack when your health is full.",
-        "effectEs": "Increases attack when your health is full."
+        "effectEs": "Ataque +10 mientras esté activo."
       }
     ],
     "materials": [],
@@ -299,7 +299,7 @@
         "nameEs": "Resentimiento",
         "level": 1,
         "effect": "Increases attack when you have recoverable damage (the red portion of your Health Gauge).",
-        "effectEs": "Increases attack when you have recoverable damage (the red portion of your Health Gauge)."
+        "effectEs": "Ataque +5 mientras esté activo."
       }
     ],
     "materials": [],
@@ -316,7 +316,7 @@
         "nameEs": "Resentimiento",
         "level": 2,
         "effect": "Increases attack when you have recoverable damage (the red portion of your Health Gauge).",
-        "effectEs": "Increases attack when you have recoverable damage (the red portion of your Health Gauge)."
+        "effectEs": "Ataque +10 mientras esté activo."
       }
     ],
     "materials": [],
@@ -333,7 +333,7 @@
         "nameEs": "Resentimiento",
         "level": 3,
         "effect": "Increases attack when you have recoverable damage (the red portion of your Health Gauge).",
-        "effectEs": "Increases attack when you have recoverable damage (the red portion of your Health Gauge)."
+        "effectEs": "Ataque +15 mientras esté activo."
       }
     ],
     "materials": [],
@@ -350,7 +350,7 @@
         "nameEs": "Punto débil",
         "level": 1,
         "effect": "Increases the affinity of attacks that exploit a monster's weak  points and wounds.",
-        "effectEs": "Increases the affinity of attacks that exploit a monster's weak  points and wounds."
+        "effectEs": "Los ataques a puntos débiles tienen afinidad +5 %, más un 3 % adicional sobre heridas."
       }
     ],
     "materials": [],
@@ -367,7 +367,7 @@
         "nameEs": "Punto débil",
         "level": 2,
         "effect": "Increases the affinity of attacks that exploit a monster's weak  points and wounds.",
-        "effectEs": "Increases the affinity of attacks that exploit a monster's weak  points and wounds."
+        "effectEs": "Los ataques a puntos débiles tienen afinidad +10 %, más un 5 % adicional sobre heridas."
       }
     ],
     "materials": [],
@@ -384,7 +384,7 @@
         "nameEs": "Poder latente",
         "level": 1,
         "effect": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
-        "effectEs": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met."
+        "effectEs": "Mientras está activo, afinidad +10 % y reduce el gasto de resistencia un 30 %."
       }
     ],
     "materials": [],
@@ -401,7 +401,7 @@
         "nameEs": "Poder latente",
         "level": 2,
         "effect": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
-        "effectEs": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met."
+        "effectEs": "Mientras está activo, afinidad +20 % y reduce el gasto de resistencia un 30 %."
       }
     ],
     "materials": [],
@@ -418,7 +418,7 @@
         "nameEs": "Poder latente",
         "level": 3,
         "effect": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
-        "effectEs": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met."
+        "effectEs": "Mientras está activo, afinidad +30 % y reduce el gasto de resistencia un 50 %."
       }
     ],
     "materials": [],
@@ -435,7 +435,7 @@
         "nameEs": "Poder máximo",
         "level": 1,
         "effect": "Increases affinity if stamina is kept full for a period of time.",
-        "effectEs": "Increases affinity if stamina is kept full for a period of time."
+        "effectEs": "Afinidad +10 % mientras esté activo."
       }
     ],
     "materials": [],
@@ -452,7 +452,7 @@
         "nameEs": "Poder máximo",
         "level": 2,
         "effect": "Increases affinity if stamina is kept full for a period of time.",
-        "effectEs": "Increases affinity if stamina is kept full for a period of time."
+        "effectEs": "Afinidad +20 % mientras esté activo."
       }
     ],
     "materials": [],
@@ -469,7 +469,7 @@
         "nameEs": "Poder máximo",
         "level": 3,
         "effect": "Increases affinity if stamina is kept full for a period of time.",
-        "effectEs": "Increases affinity if stamina is kept full for a period of time."
+        "effectEs": "Afinidad +30 % mientras esté activo."
       }
     ],
     "materials": [],
@@ -486,7 +486,7 @@
         "nameEs": "Aguante",
         "level": 1,
         "effect": "Speeds up stamina recovery.",
-        "effectEs": "Speeds up stamina recovery."
+        "effectEs": "Velocidad de recuperación de resistencia +10 %"
       }
     ],
     "materials": [],
@@ -503,7 +503,7 @@
         "nameEs": "Aguante",
         "level": 2,
         "effect": "Speeds up stamina recovery.",
-        "effectEs": "Speeds up stamina recovery."
+        "effectEs": "Velocidad de recuperación de resistencia +30 %"
       }
     ],
     "materials": [],
@@ -520,7 +520,7 @@
         "nameEs": "Aguante",
         "level": 3,
         "effect": "Speeds up stamina recovery.",
-        "effectEs": "Speeds up stamina recovery."
+        "effectEs": "Velocidad de recuperación de resistencia +50 %"
       }
     ],
     "materials": [],
@@ -537,7 +537,7 @@
         "nameEs": "Bonus de defensa",
         "level": 1,
         "effect": "Increases defense. Also improves resistances at higher levels.",
-        "effectEs": "Increases defense. Also improves resistances at higher levels."
+        "effectEs": "Defensa +5"
       }
     ],
     "materials": [],
@@ -554,7 +554,7 @@
         "nameEs": "Bonus de defensa",
         "level": 2,
         "effect": "Increases defense. Also improves resistances at higher levels.",
-        "effectEs": "Increases defense. Also improves resistances at higher levels."
+        "effectEs": "Defensa +10"
       }
     ],
     "materials": [],
@@ -571,7 +571,7 @@
         "nameEs": "Bonus de defensa",
         "level": 3,
         "effect": "Increases defense. Also improves resistances at higher levels.",
-        "effectEs": "Increases defense. Also improves resistances at higher levels."
+        "effectEs": "Defensa +5 % Bonus: +10"
       }
     ],
     "materials": [],
@@ -588,7 +588,7 @@
         "nameEs": "Bonus de defensa",
         "level": 4,
         "effect": "Increases defense. Also improves resistances at higher levels.",
-        "effectEs": "Increases defense. Also improves resistances at higher levels."
+        "effectEs": "Defensa +5 % Bonus: +20 Resistencias elementales +3"
       }
     ],
     "materials": [],
@@ -605,7 +605,7 @@
         "nameEs": "Bonus de defensa",
         "level": 5,
         "effect": "Increases defense. Also improves resistances at higher levels.",
-        "effectEs": "Increases defense. Also improves resistances at higher levels."
+        "effectEs": "Defensa +8 % Bonus: +20 Resistencias elementales +3"
       }
     ],
     "materials": [],
@@ -622,7 +622,7 @@
         "nameEs": "Bendición divina",
         "level": 1,
         "effect": "Has a predetermined chance of reducing the damage you take.",
-        "effectEs": "Has a predetermined chance of reducing the damage you take."
+        "effectEs": "Al activarse, reduce el daño recibido un 15 %."
       }
     ],
     "materials": [],
@@ -639,7 +639,7 @@
         "nameEs": "Bendición divina",
         "level": 2,
         "effect": "Has a predetermined chance of reducing the damage you take.",
-        "effectEs": "Has a predetermined chance of reducing the damage you take."
+        "effectEs": "Al activarse, reduce el daño recibido un 30 %."
       }
     ],
     "materials": [],
@@ -656,7 +656,7 @@
         "nameEs": "Bendición divina",
         "level": 3,
         "effect": "Has a predetermined chance of reducing the damage you take.",
-        "effectEs": "Has a predetermined chance of reducing the damage you take."
+        "effectEs": "Al activarse, reduce el daño recibido un 50 %."
       }
     ],
     "materials": [],
@@ -673,7 +673,7 @@
         "nameEs": "Recuperación",
         "level": 1,
         "effect": "Increases the amount recovered when restoring health.",
-        "effectEs": "Increases the amount recovered when restoring health."
+        "effectEs": "Aumenta ligeramente la recuperación."
       }
     ],
     "materials": [],
@@ -690,7 +690,7 @@
         "nameEs": "Recuperación",
         "level": 2,
         "effect": "Increases the amount recovered when restoring health.",
-        "effectEs": "Increases the amount recovered when restoring health."
+        "effectEs": "Aumenta moderadamente la recuperación."
       }
     ],
     "materials": [],
@@ -707,7 +707,7 @@
         "nameEs": "Recuperación",
         "level": 3,
         "effect": "Increases the amount recovered when restoring health.",
-        "effectEs": "Increases the amount recovered when restoring health."
+        "effectEs": "Aumenta mucho la recuperación."
       }
     ],
     "materials": [],
@@ -724,7 +724,7 @@
         "nameEs": "Recuperación rápida",
         "level": 1,
         "effect": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
-        "effectEs": "Speeds healing of recoverable damage (the red portion of the Health Gauge)."
+        "effectEs": "Duplica la velocidad a la que se cura el daño recuperable."
       }
     ],
     "materials": [],
@@ -741,7 +741,7 @@
         "nameEs": "Recuperación rápida",
         "level": 2,
         "effect": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
-        "effectEs": "Speeds healing of recoverable damage (the red portion of the Health Gauge)."
+        "effectEs": "Triplica la velocidad a la que se cura el daño recuperable."
       }
     ],
     "materials": [],
@@ -758,7 +758,7 @@
         "nameEs": "Recuperación rápida",
         "level": 3,
         "effect": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
-        "effectEs": "Speeds healing of recoverable damage (the red portion of the Health Gauge)."
+        "effectEs": "Cuadruplica la velocidad a la que se cura el daño recuperable."
       }
     ],
     "materials": [],
@@ -775,7 +775,7 @@
         "nameEs": "Ingesta rápida",
         "level": 1,
         "effect": "Increases meat-eating and item-consumption speed.",
-        "effectEs": "Increases meat-eating and item-consumption speed."
+        "effectEs": "Aumenta moderadamente la velocidad al comer."
       }
     ],
     "materials": [],
@@ -792,7 +792,7 @@
         "nameEs": "Ingesta rápida",
         "level": 2,
         "effect": "Increases meat-eating and item-consumption speed.",
-        "effectEs": "Increases meat-eating and item-consumption speed."
+        "effectEs": "Aumenta la velocidad al comer."
       }
     ],
     "materials": [],
@@ -809,7 +809,7 @@
         "nameEs": "Ingesta rápida",
         "level": 3,
         "effect": "Increases meat-eating and item-consumption speed.",
-        "effectEs": "Increases meat-eating and item-consumption speed."
+        "effectEs": "Aumenta mucho la velocidad al comer."
       }
     ],
     "materials": [],
@@ -826,7 +826,7 @@
         "nameEs": "Antirrugidos",
         "level": 1,
         "effect": "Grants protection from large monsters' roars.",
-        "effectEs": "Grants protection from large monsters' roars."
+        "effectEs": "Reduce el efecto de los rugidos más débiles."
       }
     ],
     "materials": [],
@@ -843,7 +843,7 @@
         "nameEs": "Antirrugidos",
         "level": 2,
         "effect": "Grants protection from large monsters' roars.",
-        "effectEs": "Grants protection from large monsters' roars."
+        "effectEs": "Anula el efecto de los rugidos más débiles y reduce el efecto de los rugidos fuertes."
       }
     ],
     "materials": [],
@@ -860,7 +860,7 @@
         "nameEs": "Antiviento",
         "level": 1,
         "effect": "Grants protection against wind pressure.",
-        "effectEs": "Grants protection against wind pressure."
+        "effectEs": "Anula las ráfagas de viento menores y reduce a la mitad el efecto de las ráfagas de viento mayores."
       }
     ],
     "materials": [],
@@ -877,7 +877,7 @@
         "nameEs": "Antiviento",
         "level": 2,
         "effect": "Grants protection against wind pressure.",
-        "effectEs": "Grants protection against wind pressure."
+        "effectEs": "Anula las ráfagas de viento menores y mayores y reduce a la mitad el efecto de las ráfagas de draco."
       }
     ],
     "materials": [],
@@ -894,7 +894,7 @@
         "nameEs": "Antiviento",
         "level": 3,
         "effect": "Grants protection against wind pressure.",
-        "effectEs": "Grants protection against wind pressure."
+        "effectEs": "Anula todos los tipos de ráfagas de viento."
       }
     ],
     "materials": [],
@@ -911,7 +911,7 @@
         "nameEs": "Antitemblores",
         "level": 1,
         "effect": "Grants protection against ground tremors.",
-        "effectEs": "Grants protection against ground tremors."
+        "effectEs": "Anula temblores de tierra muy menores y reduce el efecto de los temblores menores a la mitad."
       }
     ],
     "materials": [],
@@ -928,7 +928,7 @@
         "nameEs": "Antitemblores",
         "level": 2,
         "effect": "Grants protection against ground tremors.",
-        "effectEs": "Grants protection against ground tremors."
+        "effectEs": "Anula los temblores de tierra menores y reduce mucho el efecto de los temblores de tierra mayores."
       }
     ],
     "materials": [],
@@ -945,7 +945,7 @@
         "nameEs": "Antitemblores",
         "level": 3,
         "effect": "Grants protection against ground tremors.",
-        "effectEs": "Grants protection against ground tremors."
+        "effectEs": "Anula todos los temblores de tierra."
       }
     ],
     "materials": [],
@@ -962,7 +962,7 @@
         "nameEs": "Intervalo de evasión",
         "level": 1,
         "effect": "Extends the invulnerability period when evading.",
-        "effectEs": "Extends the invulnerability period when evading."
+        "effectEs": "Alarga muy ligeramente el momento de invulnerabilidad al evadir."
       }
     ],
     "materials": [],
@@ -979,7 +979,7 @@
         "nameEs": "Intervalo de evasión",
         "level": 2,
         "effect": "Extends the invulnerability period when evading.",
-        "effectEs": "Extends the invulnerability period when evading."
+        "effectEs": "Alarga ligeramente el momento de invulnerabilidad al evadir."
       }
     ],
     "materials": [],
@@ -996,7 +996,7 @@
         "nameEs": "Intervalo de evasión",
         "level": 3,
         "effect": "Extends the invulnerability period when evading.",
-        "effectEs": "Extends the invulnerability period when evading."
+        "effectEs": "Alarga el momento de invulnerabilidad al hacer una evasión."
       }
     ],
     "materials": [],
@@ -1013,7 +1013,7 @@
         "nameEs": "Intervalo de evasión",
         "level": 4,
         "effect": "Extends the invulnerability period when evading.",
-        "effectEs": "Extends the invulnerability period when evading."
+        "effectEs": "Alarga mucho el momento de invulnerabilidad al hacer una evasión."
       }
     ],
     "materials": [],
@@ -1030,7 +1030,7 @@
         "nameEs": "Distancia evasiva",
         "level": 1,
         "effect": "Increases evade distance.",
-        "effectEs": "Increases evade distance."
+        "effectEs": "Aumenta ligeramente la distancia a la que evades."
       }
     ],
     "materials": [],
@@ -1047,7 +1047,7 @@
         "nameEs": "Distancia evasiva",
         "level": 2,
         "effect": "Increases evade distance.",
-        "effectEs": "Increases evade distance."
+        "effectEs": "Aumenta la distancia a la que evades."
       }
     ],
     "materials": [],
@@ -1064,7 +1064,7 @@
         "nameEs": "Distancia evasiva",
         "level": 3,
         "effect": "Increases evade distance.",
-        "effectEs": "Increases evade distance."
+        "effectEs": "Aumenta mucho la distancia a la que evades."
       }
     ],
     "materials": [],
@@ -1081,7 +1081,7 @@
         "nameEs": "Antifuego",
         "level": 1,
         "effect": "Increases fire resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases fire resistance. Also improves defense at higher levels."
+        "effectEs": "Antifuego +6"
       }
     ],
     "materials": [],
@@ -1098,7 +1098,7 @@
         "nameEs": "Antifuego",
         "level": 2,
         "effect": "Increases fire resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases fire resistance. Also improves defense at higher levels."
+        "effectEs": "Antifuego +12"
       }
     ],
     "materials": [],
@@ -1115,7 +1115,7 @@
         "nameEs": "Antifuego",
         "level": 3,
         "effect": "Increases fire resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases fire resistance. Also improves defense at higher levels."
+        "effectEs": "Antifuego +20 Defensa +10"
       }
     ],
     "materials": [],
@@ -1132,7 +1132,7 @@
         "nameEs": "Antiagua",
         "level": 1,
         "effect": "Increases water resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases water resistance. Also improves defense at higher levels."
+        "effectEs": "Antiagua +6"
       }
     ],
     "materials": [],
@@ -1149,7 +1149,7 @@
         "nameEs": "Antiagua",
         "level": 2,
         "effect": "Increases water resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases water resistance. Also improves defense at higher levels."
+        "effectEs": "Antiagua +12"
       }
     ],
     "materials": [],
@@ -1166,7 +1166,7 @@
         "nameEs": "Antiagua",
         "level": 3,
         "effect": "Increases water resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases water resistance. Also improves defense at higher levels."
+        "effectEs": "Antiagua +20 Defensa +10"
       }
     ],
     "materials": [],
@@ -1183,7 +1183,7 @@
         "nameEs": "Antirrayo",
         "level": 1,
         "effect": "Increases thunder resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases thunder resistance. Also improves defense at higher levels."
+        "effectEs": "Antirrayo +6"
       }
     ],
     "materials": [],
@@ -1200,7 +1200,7 @@
         "nameEs": "Antirrayo",
         "level": 2,
         "effect": "Increases thunder resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases thunder resistance. Also improves defense at higher levels."
+        "effectEs": "Antirrayo +12"
       }
     ],
     "materials": [],
@@ -1217,7 +1217,7 @@
         "nameEs": "Antirrayo",
         "level": 3,
         "effect": "Increases thunder resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases thunder resistance. Also improves defense at higher levels."
+        "effectEs": "Antirrayo +20 Defensa +10"
       }
     ],
     "materials": [],
@@ -1234,7 +1234,7 @@
         "nameEs": "Antihielo",
         "level": 1,
         "effect": "Increases ice resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases ice resistance. Also improves defense at higher levels."
+        "effectEs": "Antihielo +6"
       }
     ],
     "materials": [],
@@ -1251,7 +1251,7 @@
         "nameEs": "Antihielo",
         "level": 2,
         "effect": "Increases ice resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases ice resistance. Also improves defense at higher levels."
+        "effectEs": "Antihielo +12"
       }
     ],
     "materials": [],
@@ -1268,7 +1268,7 @@
         "nameEs": "Antihielo",
         "level": 3,
         "effect": "Increases ice resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases ice resistance. Also improves defense at higher levels."
+        "effectEs": "Antihielo +20 Defensa +10"
       }
     ],
     "materials": [],
@@ -1285,7 +1285,7 @@
         "nameEs": "Antidraco",
         "level": 1,
         "effect": "Increases dragon resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases dragon resistance. Also improves defense at higher levels."
+        "effectEs": "Antidraco +6"
       }
     ],
     "materials": [],
@@ -1302,7 +1302,7 @@
         "nameEs": "Antidraco",
         "level": 2,
         "effect": "Increases dragon resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases dragon resistance. Also improves defense at higher levels."
+        "effectEs": "Antidraco +12"
       }
     ],
     "materials": [],
@@ -1319,7 +1319,7 @@
         "nameEs": "Antidraco",
         "level": 3,
         "effect": "Increases dragon resistance. Also improves defense at higher levels.",
-        "effectEs": "Increases dragon resistance. Also improves defense at higher levels."
+        "effectEs": "Antidraco +20 Defensa +10"
       }
     ],
     "materials": [],
@@ -1336,7 +1336,7 @@
         "nameEs": "Antiplagas",
         "level": 1,
         "effect": "Grants protection against all elemental blights.",
-        "effectEs": "Grants protection against all elemental blights."
+        "effectEs": "Reduce la duración de todas las plagas elementales un 50 %."
       }
     ],
     "materials": [],
@@ -1353,7 +1353,7 @@
         "nameEs": "Antiplagas",
         "level": 2,
         "effect": "Grants protection against all elemental blights.",
-        "effectEs": "Grants protection against all elemental blights."
+        "effectEs": "Reduce la duración de todas las plagas elementales un 75 %."
       }
     ],
     "materials": [],
@@ -1370,7 +1370,7 @@
         "nameEs": "Antiplagas",
         "level": 3,
         "effect": "Grants protection against all elemental blights.",
-        "effectEs": "Grants protection against all elemental blights."
+        "effectEs": "Anula todas las plagas elementales."
       }
     ],
     "materials": [],
@@ -1387,7 +1387,7 @@
         "nameEs": "Antiveneno",
         "level": 1,
         "effect": "Reduces damage while poisoned.",
-        "effectEs": "Reduces damage while poisoned."
+        "effectEs": "Reduce la cantidad de veces que sufres daño por veneno."
       }
     ],
     "materials": [],
@@ -1404,7 +1404,7 @@
         "nameEs": "Antiveneno",
         "level": 2,
         "effect": "Reduces damage while poisoned.",
-        "effectEs": "Reduces damage while poisoned."
+        "effectEs": "Reduce mucho la cantidad de veces que sufres daño por veneno."
       }
     ],
     "materials": [],
@@ -1421,7 +1421,7 @@
         "nameEs": "Antiveneno",
         "level": 3,
         "effect": "Reduces damage while poisoned.",
-        "effectEs": "Reduces damage while poisoned."
+        "effectEs": "Previene el veneno."
       }
     ],
     "materials": [],
@@ -1438,7 +1438,7 @@
         "nameEs": "Antiparálisis",
         "level": 1,
         "effect": "Reduces the duration of paralysis.",
-        "effectEs": "Reduces the duration of paralysis."
+        "effectEs": "Reduce la duración de la parálisis un 30 %."
       }
     ],
     "materials": [],
@@ -1455,7 +1455,7 @@
         "nameEs": "Antiparálisis",
         "level": 2,
         "effect": "Reduces the duration of paralysis.",
-        "effectEs": "Reduces the duration of paralysis."
+        "effectEs": "Reduce la duración de la parálisis un 60 %."
       }
     ],
     "materials": [],
@@ -1472,7 +1472,7 @@
         "nameEs": "Antiparálisis",
         "level": 3,
         "effect": "Reduces the duration of paralysis.",
-        "effectEs": "Reduces the duration of paralysis."
+        "effectEs": "Previene la parálisis."
       }
     ],
     "materials": [],
@@ -1489,7 +1489,7 @@
         "nameEs": "Antisueño",
         "level": 1,
         "effect": "Reduces the duration of sleep.",
-        "effectEs": "Reduces the duration of sleep."
+        "effectEs": "Reduce la duración del sueño un 30 %."
       }
     ],
     "materials": [],
@@ -1506,7 +1506,7 @@
         "nameEs": "Antisueño",
         "level": 2,
         "effect": "Reduces the duration of sleep.",
-        "effectEs": "Reduces the duration of sleep."
+        "effectEs": "Reduce la duración del sueño un 60 %."
       }
     ],
     "materials": [],
@@ -1523,7 +1523,7 @@
         "nameEs": "Antisueño",
         "level": 3,
         "effect": "Reduces the duration of sleep.",
-        "effectEs": "Reduces the duration of sleep."
+        "effectEs": "Previene el sueño."
       }
     ],
     "materials": [],
@@ -1540,7 +1540,7 @@
         "nameEs": "Antiaturdimiento",
         "level": 1,
         "effect": "Reduces the duration of stun.",
-        "effectEs": "Reduces the duration of stun."
+        "effectEs": "Reduce la duración del aturdimiento un 30 %."
       }
     ],
     "materials": [],
@@ -1557,7 +1557,7 @@
         "nameEs": "Antiaturdimiento",
         "level": 2,
         "effect": "Reduces the duration of stun.",
-        "effectEs": "Reduces the duration of stun."
+        "effectEs": "Reduce la duración del aturdimiento un 60 %."
       }
     ],
     "materials": [],
@@ -1574,7 +1574,7 @@
         "nameEs": "Antiaturdimiento",
         "level": 3,
         "effect": "Reduces the duration of stun.",
-        "effectEs": "Reduces the duration of stun."
+        "effectEs": "Previene el aturdimiento."
       }
     ],
     "materials": [],
@@ -1591,7 +1591,7 @@
         "nameEs": "Antinitro",
         "level": 1,
         "effect": "Grants protection against blastblight.",
-        "effectEs": "Grants protection against blastblight."
+        "effectEs": "Ralentiza la plaga de nitro y reduce el daño por explosión."
       }
     ],
     "materials": [],
@@ -1608,7 +1608,7 @@
         "nameEs": "Antinitro",
         "level": 2,
         "effect": "Grants protection against blastblight.",
-        "effectEs": "Grants protection against blastblight."
+        "effectEs": "Ralentiza mucho la plaga de nitro y reduce mucho el daño por explosión."
       }
     ],
     "materials": [],
@@ -1625,7 +1625,7 @@
         "nameEs": "Antinitro",
         "level": 3,
         "effect": "Grants protection against blastblight.",
-        "effectEs": "Grants protection against blastblight."
+        "effectEs": "Previene la plaga de nitro."
       }
     ],
     "materials": [],
@@ -1642,7 +1642,7 @@
         "nameEs": "Botánica",
         "level": 1,
         "effect": "Increases the quantity of herbs and other consumable items you gather.",
-        "effectEs": "Increases the quantity of herbs and other consumable items you gather."
+        "effectEs": "Cada vez que extraes hierbas consigues una adicional."
       }
     ],
     "materials": [],
@@ -1659,7 +1659,7 @@
         "nameEs": "Botánica",
         "level": 2,
         "effect": "Increases the quantity of herbs and other consumable items you gather.",
-        "effectEs": "Increases the quantity of herbs and other consumable items you gather."
+        "effectEs": "Cada vez que extraes frutas, nueces o semillas consigues una extra adicional."
       }
     ],
     "materials": [],
@@ -1676,7 +1676,7 @@
         "nameEs": "Botánica",
         "level": 3,
         "effect": "Increases the quantity of herbs and other consumable items you gather.",
-        "effectEs": "Increases the quantity of herbs and other consumable items you gather."
+        "effectEs": "Cada vez que extraes insectos consigues uno extra adicional."
       }
     ],
     "materials": [],
@@ -1693,7 +1693,7 @@
         "nameEs": "Botánica",
         "level": 4,
         "effect": "Increases the quantity of herbs and other consumable items you gather.",
-        "effectEs": "Increases the quantity of herbs and other consumable items you gather."
+        "effectEs": "Cada vez que extraes hongos consigues uno extra adicional."
       }
     ],
     "materials": [],
@@ -1710,7 +1710,7 @@
         "nameEs": "Geología",
         "level": 1,
         "effect": "Increases the number of items you gain at gathering points.",
-        "effectEs": "Increases the number of items you gain at gathering points."
+        "effectEs": "Permite conseguir un recurso adicional de pilas de huesos."
       }
     ],
     "materials": [],
@@ -1727,7 +1727,7 @@
         "nameEs": "Geología",
         "level": 2,
         "effect": "Increases the number of items you gain at gathering points.",
-        "effectEs": "Increases the number of items you gain at gathering points."
+        "effectEs": "Añade un objeto extra al recolectar objetos especiales."
       }
     ],
     "materials": [],
@@ -1744,7 +1744,7 @@
         "nameEs": "Geología",
         "level": 3,
         "effect": "Increases the number of items you gain at gathering points.",
-        "effectEs": "Increases the number of items you gain at gathering points."
+        "effectEs": "Añade un objeto extra al recolectar en afloramientos mineros."
       }
     ],
     "materials": [],
@@ -1761,7 +1761,7 @@
         "nameEs": "Rompepartes",
         "level": 1,
         "effect": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
-        "effectEs": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike."
+        "effectEs": "Aumenta el daño en partes y el daño infligido cuando se cumplan las condiciones en un 10 %."
       }
     ],
     "materials": [],
@@ -1778,7 +1778,7 @@
         "nameEs": "Rompepartes",
         "level": 2,
         "effect": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
-        "effectEs": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike."
+        "effectEs": "Aumenta el daño en partes y el daño infligido cuando se cumplan las condiciones en un 20 %."
       }
     ],
     "materials": [],
@@ -1795,7 +1795,7 @@
         "nameEs": "Rompepartes",
         "level": 3,
         "effect": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
-        "effectEs": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike."
+        "effectEs": "Aumenta el daño en partes y el daño infligido cuando se cumplan las condiciones en un 30 %."
       }
     ],
     "materials": [],
@@ -1812,7 +1812,7 @@
         "nameEs": "Bombardero",
         "level": 1,
         "effect": "Increases the damage of explosive items.",
-        "effectEs": "Increases the damage of explosive items."
+        "effectEs": "Poder explosivo +10 %"
       }
     ],
     "materials": [],
@@ -1829,7 +1829,7 @@
         "nameEs": "Bombardero",
         "level": 2,
         "effect": "Increases the damage of explosive items.",
-        "effectEs": "Increases the damage of explosive items."
+        "effectEs": "Poder explosivo + 20%"
       }
     ],
     "materials": [],
@@ -1846,7 +1846,7 @@
         "nameEs": "Bombardero",
         "level": 3,
         "effect": "Increases the damage of explosive items.",
-        "effectEs": "Increases the damage of explosive items."
+        "effectEs": "Poder explosivo +30 %"
       }
     ],
     "materials": [],
@@ -1863,7 +1863,7 @@
         "nameEs": "Micología",
         "level": 1,
         "effect": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
-        "effectEs": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects."
+        "effectEs": "Permite digerir hongos azules y champiñones."
       }
     ],
     "materials": [],
@@ -1880,7 +1880,7 @@
         "nameEs": "Micología",
         "level": 2,
         "effect": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
-        "effectEs": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects."
+        "effectEs": "Adicionalmente, permite digerir nitrohongos y paralifungos."
       }
     ],
     "materials": [],
@@ -1897,7 +1897,7 @@
         "nameEs": "Micología",
         "level": 3,
         "effect": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
-        "effectEs": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects."
+        "effectEs": "Adicionalmente, te permite digerir mandrágoras, mancha del diablo y hongos excitantes."
       }
     ],
     "materials": [],
@@ -1914,7 +1914,7 @@
         "nameEs": "Duración de objetos",
         "level": 1,
         "effect": "Extends the duration of some item effects.",
-        "effectEs": "Extends the duration of some item effects."
+        "effectEs": "Duración del efecto de objetos +10 %."
       }
     ],
     "materials": [],
@@ -1931,7 +1931,7 @@
         "nameEs": "Duración de objetos",
         "level": 2,
         "effect": "Extends the duration of some item effects.",
-        "effectEs": "Extends the duration of some item effects."
+        "effectEs": "Duración del efecto de objetos +25 %."
       }
     ],
     "materials": [],
@@ -1948,7 +1948,7 @@
         "nameEs": "Duración de objetos",
         "level": 3,
         "effect": "Extends the duration of some item effects.",
-        "effectEs": "Extends the duration of some item effects."
+        "effectEs": "Duración del efecto de objetos +50 %."
       }
     ],
     "materials": [],
@@ -1965,7 +1965,7 @@
         "nameEs": "Efecto área",
         "level": 1,
         "effect": "Allows the effects of certain items to also affect nearby allies.",
-        "effectEs": "Allows the effects of certain items to also affect nearby allies."
+        "effectEs": "Los objetos afectan a los aliados cercanos con un 33 % de eficacia."
       }
     ],
     "materials": [],
@@ -1982,7 +1982,7 @@
         "nameEs": "Efecto área",
         "level": 2,
         "effect": "Allows the effects of certain items to also affect nearby allies.",
-        "effectEs": "Allows the effects of certain items to also affect nearby allies."
+        "effectEs": "Los objetos afectan a los aliados en un mayor radio con un 33 % de eficacia."
       }
     ],
     "materials": [],
@@ -1999,7 +1999,7 @@
         "nameEs": "Efecto área",
         "level": 3,
         "effect": "Allows the effects of certain items to also affect nearby allies.",
-        "effectEs": "Allows the effects of certain items to also affect nearby allies."
+        "effectEs": "Los objetos afectan a los aliados en un mayor radio con un 66 % de eficacia."
       }
     ],
     "materials": [],
@@ -2016,7 +2016,7 @@
         "nameEs": "Efecto área",
         "level": 4,
         "effect": "Allows the effects of certain items to also affect nearby allies.",
-        "effectEs": "Allows the effects of certain items to also affect nearby allies."
+        "effectEs": "Los objetos afectan a los aliados en un radio mucho más amplio con un 66 % de eficacia."
       }
     ],
     "materials": [],
@@ -2033,7 +2033,7 @@
         "nameEs": "Efecto área",
         "level": 5,
         "effect": "Allows the effects of certain items to also affect nearby allies.",
-        "effectEs": "Allows the effects of certain items to also affect nearby allies."
+        "effectEs": "Los objetos afectan a los aliados en un radio mucho más amplio con total eficacia."
       }
     ],
     "materials": [],
@@ -2050,7 +2050,7 @@
         "nameEs": "Comida gratis",
         "level": 1,
         "effect": "Gives you a predetermined chance of consuming a food or drink item for free.",
-        "effectEs": "Gives you a predetermined chance of consuming a food or drink item for free."
+        "effectEs": "10 % de probabilidad de activación."
       }
     ],
     "materials": [],
@@ -2067,7 +2067,7 @@
         "nameEs": "Comida gratis",
         "level": 2,
         "effect": "Gives you a predetermined chance of consuming a food or drink item for free.",
-        "effectEs": "Gives you a predetermined chance of consuming a food or drink item for free."
+        "effectEs": "25 % de probabilidad de activación."
       }
     ],
     "materials": [],
@@ -2084,7 +2084,7 @@
         "nameEs": "Comida gratis",
         "level": 3,
         "effect": "Gives you a predetermined chance of consuming a food or drink item for free.",
-        "effectEs": "Gives you a predetermined chance of consuming a food or drink item for free."
+        "effectEs": "45 % de probabilidad de activación."
       }
     ],
     "materials": [],
@@ -2101,7 +2101,7 @@
         "nameEs": "Heroicidad",
         "level": 1,
         "effect": "Increases attack power and defense when health drops to 35% or lower.",
-        "effectEs": "Increases attack power and defense when health drops to 35% or lower."
+        "effectEs": "Defensa +50 mientras esté activo."
       }
     ],
     "materials": [],
@@ -2118,7 +2118,7 @@
         "nameEs": "Heroicidad",
         "level": 2,
         "effect": "Increases attack power and defense when health drops to 35% or lower.",
-        "effectEs": "Increases attack power and defense when health drops to 35% or lower."
+        "effectEs": "Ataque +5 % y defensa +50 mientras esté activo."
       }
     ],
     "materials": [],
@@ -2135,7 +2135,7 @@
         "nameEs": "Heroicidad",
         "level": 3,
         "effect": "Increases attack power and defense when health drops to 35% or lower.",
-        "effectEs": "Increases attack power and defense when health drops to 35% or lower."
+        "effectEs": "Ataque +5 % y defensa +100 mientras esté activo."
       }
     ],
     "materials": [],
@@ -2152,7 +2152,7 @@
         "nameEs": "Heroicidad",
         "level": 4,
         "effect": "Increases attack power and defense when health drops to 35% or lower.",
-        "effectEs": "Increases attack power and defense when health drops to 35% or lower."
+        "effectEs": "Ataque +10 % y defensa +100 mientras esté activo."
       }
     ],
     "materials": [],
@@ -2169,7 +2169,7 @@
         "nameEs": "Firmeza",
         "level": 1,
         "effect": "Prevents knockbacks and other reactions to small damage.",
-        "effectEs": "Prevents knockbacks and other reactions to small damage."
+        "effectEs": "Previene los derribos."
       }
     ],
     "materials": [],
@@ -2186,7 +2186,7 @@
         "nameEs": "Firmeza",
         "level": 2,
         "effect": "Prevents knockbacks and other reactions to small damage.",
-        "effectEs": "Prevents knockbacks and other reactions to small damage."
+        "effectEs": "Previene los derribos. Los empujes hacia atrás se sustituyen por derribos."
       }
     ],
     "materials": [],
@@ -2203,7 +2203,7 @@
         "nameEs": "Firmeza",
         "level": 3,
         "effect": "Prevents knockbacks and other reactions to small damage.",
-        "effectEs": "Prevents knockbacks and other reactions to small damage."
+        "effectEs": "Previene ser derribado o empujado hacia atrás."
       }
     ],
     "materials": [],
@@ -2220,7 +2220,7 @@
         "nameEs": "Antihambre",
         "level": 1,
         "effect": "Reduces maximum stamina depletion over time.",
-        "effectEs": "Reduces maximum stamina depletion over time."
+        "effectEs": "Prolonga un 50 % el tiempo que tarda la barra de resistencia en reducirse."
       }
     ],
     "materials": [],
@@ -2237,7 +2237,7 @@
         "nameEs": "Antihambre",
         "level": 2,
         "effect": "Reduces maximum stamina depletion over time.",
-        "effectEs": "Reduces maximum stamina depletion over time."
+        "effectEs": "Prolonga un 100 % el tiempo que tarda la barra de resistencia en reducirse."
       }
     ],
     "materials": [],
@@ -2254,7 +2254,7 @@
         "nameEs": "Antihambre",
         "level": 3,
         "effect": "Reduces maximum stamina depletion over time.",
-        "effectEs": "Reduces maximum stamina depletion over time."
+        "effectEs": "Previene que tu barra de resistencia se reduzca."
       }
     ],
     "materials": [],
@@ -2271,7 +2271,7 @@
         "nameEs": "Venganza",
         "level": 1,
         "effect": "Temporarily increases attack power after being knocked back.",
-        "effectEs": "Temporarily increases attack power after being knocked back."
+        "effectEs": "Ataque +10 mientras esté activo."
       }
     ],
     "materials": [],
@@ -2288,7 +2288,7 @@
         "nameEs": "Venganza",
         "level": 2,
         "effect": "Temporarily increases attack power after being knocked back.",
-        "effectEs": "Temporarily increases attack power after being knocked back."
+        "effectEs": "Ataque +15 mientras esté activo. Extiende moderadamente el tiempo de efecto."
       }
     ],
     "materials": [],
@@ -2305,7 +2305,7 @@
         "nameEs": "Venganza",
         "level": 3,
         "effect": "Temporarily increases attack power after being knocked back.",
-        "effectEs": "Temporarily increases attack power after being knocked back."
+        "effectEs": "Ataque +25 mientras esté activo. Extiende el tiempo de efecto."
       }
     ],
     "materials": [],
@@ -2322,7 +2322,7 @@
         "nameEs": "Irrupción",
         "level": 1,
         "effect": "Increases attack power and affinity against large monsters affected by poison or paralysis.",
-        "effectEs": "Increases attack power and affinity against large monsters affected by poison or paralysis."
+        "effectEs": "Ataque +6 contra monstruos grandes afectados por veneno o parálisis."
       }
     ],
     "materials": [],
@@ -2339,7 +2339,7 @@
         "nameEs": "Irrupción",
         "level": 2,
         "effect": "Increases attack power and affinity against large monsters affected by poison or paralysis.",
-        "effectEs": "Increases attack power and affinity against large monsters affected by poison or paralysis."
+        "effectEs": "Ataque +8 y afinidad +5 % contra monstruos grandes afectados por veneno o parálisis."
       }
     ],
     "materials": [],
@@ -2356,7 +2356,7 @@
         "nameEs": "Irrupción",
         "level": 3,
         "effect": "Increases attack power and affinity against large monsters affected by poison or paralysis.",
-        "effectEs": "Increases attack power and affinity against large monsters affected by poison or paralysis."
+        "effectEs": "Ataque +10 y afinidad +10 % contra monstruos grandes afectados por veneno o parálisis."
       }
     ],
     "materials": [],
@@ -2373,7 +2373,7 @@
         "nameEs": "Coalescencia",
         "level": 1,
         "effect": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
-        "effectEs": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status."
+        "effectEs": "Mientras está activo, aumenta ligeramente el ataque elemental y los efectos de estado."
       }
     ],
     "materials": [],
@@ -2390,7 +2390,7 @@
         "nameEs": "Coalescencia",
         "level": 2,
         "effect": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
-        "effectEs": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status."
+        "effectEs": "Mientras está activo, aumenta el ataque elemental y los efectos de estado."
       }
     ],
     "materials": [],
@@ -2407,7 +2407,7 @@
         "nameEs": "Coalescencia",
         "level": 3,
         "effect": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
-        "effectEs": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status."
+        "effectEs": "Mientras está activo, aumenta mucho el ataque elemental y los efectos de estado."
       }
     ],
     "materials": [],
@@ -2424,7 +2424,7 @@
         "nameEs": "Ráfaga",
         "level": 1,
         "effect": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)",
-        "effectEs": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)"
+        "effectEs": "El primer golpe otorga un ligero aumento temporal de ataque y elemento, y otorga uno mayor luego de 5 impactos."
       }
     ],
     "materials": [],
@@ -2441,7 +2441,7 @@
         "nameEs": "Ráfaga",
         "level": 2,
         "effect": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)",
-        "effectEs": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)"
+        "effectEs": "Golpea 5 veces seguidas para bonus moderado."
       }
     ],
     "materials": [],
@@ -2458,7 +2458,7 @@
         "nameEs": "Ráfaga",
         "level": 3,
         "effect": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)",
-        "effectEs": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)"
+        "effectEs": "Golpea 5 veces seguidas para bonus más elevados."
       }
     ],
     "materials": [],
@@ -2475,7 +2475,7 @@
         "nameEs": "Subida de adrenalina",
         "level": 1,
         "effect": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
-        "effectEs": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks."
+        "effectEs": "Ataque +10 mientras esté activo."
       }
     ],
     "materials": [],
@@ -2492,7 +2492,7 @@
         "nameEs": "Subida de adrenalina",
         "level": 2,
         "effect": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
-        "effectEs": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks."
+        "effectEs": "Ataque +15 mientras esté activo."
       }
     ],
     "materials": [],
@@ -2509,7 +2509,7 @@
         "nameEs": "Subida de adrenalina",
         "level": 3,
         "effect": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
-        "effectEs": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks."
+        "effectEs": "Ataque +20 mientras esté activo."
       }
     ],
     "materials": [],
@@ -2526,7 +2526,7 @@
         "nameEs": "Emboscada",
         "level": 1,
         "effect": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
-        "effectEs": "Temporarily increases damage to large monsters with a successful Sneak Attack."
+        "effectEs": "Ataque +5 % mientras esté activo."
       }
     ],
     "materials": [],
@@ -2543,7 +2543,7 @@
         "nameEs": "Emboscada",
         "level": 2,
         "effect": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
-        "effectEs": "Temporarily increases damage to large monsters with a successful Sneak Attack."
+        "effectEs": "Ataque +10 % mientras esté activo."
       }
     ],
     "materials": [],
@@ -2560,7 +2560,7 @@
         "nameEs": "Emboscada",
         "level": 3,
         "effect": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
-        "effectEs": "Temporarily increases damage to large monsters with a successful Sneak Attack."
+        "effectEs": "Ataque +15 % mientras esté activo."
       }
     ],
     "materials": [],
@@ -2577,7 +2577,7 @@
         "nameEs": "Antisangrado",
         "level": 1,
         "effect": "Grants protection against bleeding.",
-        "effectEs": "Grants protection against bleeding."
+        "effectEs": "Reduce el daño recibido por el sangrado."
       }
     ],
     "materials": [],
@@ -2594,7 +2594,7 @@
         "nameEs": "Antisangrado",
         "level": 2,
         "effect": "Grants protection against bleeding.",
-        "effectEs": "Grants protection against bleeding."
+        "effectEs": "Reduce mucho el daño recibido por el sangrado."
       }
     ],
     "materials": [],
@@ -2611,7 +2611,7 @@
         "nameEs": "Antisangrado",
         "level": 3,
         "effect": "Grants protection against bleeding.",
-        "effectEs": "Grants protection against bleeding."
+        "effectEs": "Previene el sangrado."
       }
     ],
     "materials": [],
@@ -2628,7 +2628,7 @@
         "nameEs": "Piel de hierro",
         "level": 1,
         "effect": "Grants protection against defense down.",
-        "effectEs": "Grants protection against defense down."
+        "effectEs": "Reduce la duración de defensa reducida un 50 %."
       }
     ],
     "materials": [],
@@ -2645,7 +2645,7 @@
         "nameEs": "Piel de hierro",
         "level": 2,
         "effect": "Grants protection against defense down.",
-        "effectEs": "Grants protection against defense down."
+        "effectEs": "Reduce la duración de defensa reducida un 75 %."
       }
     ],
     "materials": [],
@@ -2662,7 +2662,7 @@
         "nameEs": "Piel de hierro",
         "level": 3,
         "effect": "Grants protection against defense down.",
-        "effectEs": "Grants protection against defense down."
+        "effectEs": "Previene la defensa reducida."
       }
     ],
     "materials": [],
@@ -2679,7 +2679,7 @@
         "nameEs": "Experto en supervivencia",
         "level": 1,
         "effect": "Extra health is recovered from environmental interactables.",
-        "effectEs": "Extra health is recovered from environmental interactables."
+        "effectEs": "Restablece 50 de salud."
       }
     ],
     "materials": [],
@@ -2696,7 +2696,7 @@
         "nameEs": "Experto en supervivencia",
         "level": 2,
         "effect": "Extra health is recovered from environmental interactables.",
-        "effectEs": "Extra health is recovered from environmental interactables."
+        "effectEs": "Restablece 80 de salud."
       }
     ],
     "materials": [],
@@ -2713,7 +2713,7 @@
         "nameEs": "Experto en supervivencia",
         "level": 3,
         "effect": "Extra health is recovered from environmental interactables.",
-        "effectEs": "Extra health is recovered from environmental interactables."
+        "effectEs": "Restablece 100 de salud."
       }
     ],
     "materials": [],
@@ -2730,7 +2730,7 @@
         "nameEs": "Experto en herramientas",
         "level": 1,
         "effect": "Reduces the recharge time for specialized tools.",
-        "effectEs": "Reduces the recharge time for specialized tools."
+        "effectEs": "Reduce el tiempo de recarga en un 10 %."
       }
     ],
     "materials": [],
@@ -2747,7 +2747,7 @@
         "nameEs": "Experto en herramientas",
         "level": 2,
         "effect": "Reduces the recharge time for specialized tools.",
-        "effectEs": "Reduces the recharge time for specialized tools."
+        "effectEs": "Reduce el tiempo de recarga en un 20 %."
       }
     ],
     "materials": [],
@@ -2764,7 +2764,7 @@
         "nameEs": "Experto en herramientas",
         "level": 3,
         "effect": "Reduces the recharge time for specialized tools.",
-        "effectEs": "Reduces the recharge time for specialized tools."
+        "effectEs": "Reduce el tiempo de recarga en un 30 %."
       }
     ],
     "materials": [],
@@ -2781,7 +2781,7 @@
         "nameEs": "Intimidador",
         "level": 1,
         "effect": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)",
-        "effectEs": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)"
+        "effectEs": "Disuade a los monstruos de atacarte, incluso si te vieron."
       }
     ],
     "materials": [],
@@ -2798,7 +2798,7 @@
         "nameEs": "Intimidador",
         "level": 2,
         "effect": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)",
-        "effectEs": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)"
+        "effectEs": "Disuade mucho a los monstruos de atacarte, incluso si te vieron."
       }
     ],
     "materials": [],
@@ -2815,7 +2815,7 @@
         "nameEs": "Intimidador",
         "level": 3,
         "effect": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)",
-        "effectEs": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)"
+        "effectEs": "Evita que los monstruos te ataquen, incluso si te vieron."
       }
     ],
     "materials": [],
@@ -2832,7 +2832,7 @@
         "nameEs": "Antiinmovilización",
         "level": 1,
         "effect": "Grants protection against webbed status and frostblight.",
-        "effectEs": "Grants protection against webbed status and frostblight."
+        "effectEs": "Permite que te recuperes rápidamente del estado enmarañado y la plaga de escarcha."
       }
     ],
     "materials": [],
@@ -2849,7 +2849,7 @@
         "nameEs": "Antiinmovilización",
         "level": 2,
         "effect": "Grants protection against webbed status and frostblight.",
-        "effectEs": "Grants protection against webbed status and frostblight."
+        "effectEs": "Permite que te recuperes muy rápidamente del estado enmarañado y la plaga de escarcha."
       }
     ],
     "materials": [],
@@ -2866,7 +2866,7 @@
         "nameEs": "Antiinmovilización",
         "level": 3,
         "effect": "Grants protection against webbed status and frostblight.",
-        "effectEs": "Grants protection against webbed status and frostblight."
+        "effectEs": "Previene el estado enmarañado y la plaga de escarcha."
       }
     ],
     "materials": [],
@@ -2883,7 +2883,7 @@
         "nameEs": "Desuello",
         "level": 1,
         "effect": "Makes it easier to inflict wounds. Can also deal extra non-elemental damage upon buildup. (Excludes some attacks.)",
-        "effectEs": "Makes it easier to inflict wounds. Can also deal extra non-elemental damage upon buildup. (Excludes some attacks.)"
+        "effectEs": "Hace que sea ligeramente más fácil infligir heridas. También inflige daño no elemental adicional."
       }
     ],
     "materials": [],
@@ -2900,7 +2900,7 @@
         "nameEs": "Desuello",
         "level": 2,
         "effect": "Makes it easier to inflict wounds. Can also deal extra non-elemental damage upon buildup. (Excludes some attacks.)",
-        "effectEs": "Makes it easier to inflict wounds. Can also deal extra non-elemental damage upon buildup. (Excludes some attacks.)"
+        "effectEs": "Hace que sea moderadamente más fácil infligir heridas. También inflige un poco más daño no elemental adicional."
       }
     ],
     "materials": [],
@@ -2917,7 +2917,7 @@
         "nameEs": "Absorción elemental",
         "level": 1,
         "effect": "After taking elemental damage, temporarily grants you element effects. (Cooldown after effect ends)",
-        "effectEs": "After taking elemental damage, temporarily grants you element effects. (Cooldown after effect ends)"
+        "effectEs": "Mientras está activa, aumenta ligeramente el ATQ elemental y la resistencia al elemento activador por 4."
       }
     ],
     "materials": [],
@@ -2934,7 +2934,7 @@
         "nameEs": "Absorción elemental",
         "level": 2,
         "effect": "After taking elemental damage, temporarily grants you element effects. (Cooldown after effect ends)",
-        "effectEs": "After taking elemental damage, temporarily grants you element effects. (Cooldown after effect ends)"
+        "effectEs": "Mientras está activa, aumenta ligeramente el ATQ elemental y la resistencia al elemento activador por 6."
       }
     ],
     "materials": [],
@@ -2951,7 +2951,7 @@
         "nameEs": "Convierte elemento",
         "level": 1,
         "effect": "After taking elemental damage, temporarily grants you dragon element effects. (Cooldown after effect ends.)",
-        "effectEs": "After taking elemental damage, temporarily grants you dragon element effects. (Cooldown after effect ends.)"
+        "effectEs": "Mientras está activo, inflige daño draco extra tras infligir suficiente daño elemental y aumenta ligeramente el ATQ draco."
       }
     ],
     "materials": [],
@@ -2968,7 +2968,7 @@
         "nameEs": "Convierte elemento",
         "level": 2,
         "effect": "After taking elemental damage, temporarily grants you dragon element effects. (Cooldown after effect ends.)",
-        "effectEs": "After taking elemental damage, temporarily grants you dragon element effects. (Cooldown after effect ends.)"
+        "effectEs": "Aumenta el daño por draco adicional y el ataque de draco."
       }
     ],
     "materials": [],
@@ -2985,7 +2985,7 @@
         "nameEs": "Antivirus",
         "level": 1,
         "effect": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured.",
-        "effectEs": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured."
+        "effectEs": "Al contraer la cólera, sube un poco el ritmo de consumo de la barra de infección. Afinidad +3 % al curarse."
       }
     ],
     "materials": [],
@@ -3002,7 +3002,7 @@
         "nameEs": "Antivirus",
         "level": 2,
         "effect": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured.",
-        "effectEs": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured."
+        "effectEs": "Al contraer la cólera, sube el ritmo de consumo de la barra de infección. Afinidad +6 % al curarse."
       }
     ],
     "materials": [],
@@ -3019,7 +3019,7 @@
         "nameEs": "Antivirus",
         "level": 3,
         "effect": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured.",
-        "effectEs": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured."
+        "effectEs": "Al contraer la cólera, sube mucho el consumo de la barra de infección. Afinidad +10 % al curarse."
       }
     ],
     "materials": [],
@@ -3036,7 +3036,7 @@
         "nameEs": "Recuperación",
         "level": 1,
         "effect": "Increases the amount recovered when restoring health.",
-        "effectEs": "Increases the amount recovered when restoring health."
+        "effectEs": "Aumenta ligeramente la recuperación."
       }
     ],
     "materials": [],
@@ -3053,7 +3053,7 @@
         "nameEs": "Experto en herramientas",
         "level": 4,
         "effect": "Reduces the recharge time for specialized tools.",
-        "effectEs": "Reduces the recharge time for specialized tools."
+        "effectEs": "Reduce el tiempo de recarga en un 40 %."
       }
     ],
     "materials": [],
@@ -3070,7 +3070,7 @@
         "nameEs": "Onigiri",
         "level": 1,
         "effect": "Increases the attack power of Akuma actions and stun damage.",
-        "effectEs": "Increases the attack power of Akuma actions and stun damage."
+        "effectEs": "Activa el efecto de la habilidad."
       }
     ],
     "materials": [],
