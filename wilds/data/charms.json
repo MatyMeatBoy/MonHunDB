@@ -14,7 +14,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Marathon Runner skill."
   },
   {
     "id": "marathon-charm-ii",
@@ -31,7 +32,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Marathon Runner skill."
   },
   {
     "id": "marathon-charm-iii",
@@ -48,7 +50,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Marathon Runner skill."
   },
   {
     "id": "fitness-charm-i",
@@ -65,7 +68,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Constitution skill."
   },
   {
     "id": "fitness-charm-ii",
@@ -82,7 +86,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Constitution skill."
   },
   {
     "id": "fitness-charm-iii",
@@ -99,7 +104,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Constitution skill."
   },
   {
     "id": "fitness-charm-iv",
@@ -116,7 +122,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Constitution skill."
   },
   {
     "id": "fitness-charm-v",
@@ -133,7 +140,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Constitution skill."
   },
   {
     "id": "sheathe-charm-i",
@@ -150,7 +158,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Quick Sheathe skill."
   },
   {
     "id": "sheathe-charm-ii",
@@ -167,7 +176,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Quick Sheathe skill."
   },
   {
     "id": "sheathe-charm-iii",
@@ -184,7 +194,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Quick Sheathe skill."
   },
   {
     "id": "challenger-charm-i",
@@ -201,7 +212,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Agitator skill."
   },
   {
     "id": "challenger-charm-ii",
@@ -218,7 +230,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Agitator skill."
   },
   {
     "id": "challenger-charm-iii",
@@ -235,7 +248,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Agitator skill."
   },
   {
     "id": "unscathed-charm-i",
@@ -252,7 +266,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Peak Performance skill."
   },
   {
     "id": "unscathed-charm-ii",
@@ -269,7 +284,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Peak Performance skill."
   },
   {
     "id": "unscathed-charm-iii",
@@ -286,7 +302,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Peak Performance skill."
   },
   {
     "id": "fury-charm-i",
@@ -303,7 +320,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Resentment skill."
   },
   {
     "id": "fury-charm-ii",
@@ -320,7 +338,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Resentment skill."
   },
   {
     "id": "fury-charm-iii",
@@ -337,7 +356,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Resentment skill."
   },
   {
     "id": "exploiter-charm-i",
@@ -354,7 +374,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Weakness Exploit skill."
   },
   {
     "id": "exploiter-charm-ii",
@@ -371,7 +392,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Weakness Exploit skill."
   },
   {
     "id": "power-charm-i",
@@ -388,7 +410,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Latent Power skill."
   },
   {
     "id": "power-charm-ii",
@@ -405,7 +428,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Latent Power skill."
   },
   {
     "id": "power-charm-iii",
@@ -422,7 +446,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Latent Power skill."
   },
   {
     "id": "mighty-charm-i",
@@ -439,7 +464,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Maximum Might skill."
   },
   {
     "id": "mighty-charm-ii",
@@ -456,7 +482,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Maximum Might skill."
   },
   {
     "id": "mighty-charm-iii",
@@ -473,7 +500,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Maximum Might skill."
   },
   {
     "id": "surge-charm-i",
@@ -490,7 +518,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Stamina Surge skill."
   },
   {
     "id": "surge-charm-ii",
@@ -507,7 +536,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Stamina Surge skill."
   },
   {
     "id": "surge-charm-iii",
@@ -524,7 +554,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Stamina Surge skill."
   },
   {
     "id": "defense-charm-i",
@@ -541,7 +572,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Defense Boost skill."
   },
   {
     "id": "defense-charm-ii",
@@ -558,7 +590,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Defense Boost skill."
   },
   {
     "id": "defense-charm-iii",
@@ -575,7 +608,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Defense Boost skill."
   },
   {
     "id": "defense-charm-iv",
@@ -592,7 +626,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Defense Boost skill."
   },
   {
     "id": "defense-charm-v",
@@ -609,7 +644,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Defense Boost skill."
   },
   {
     "id": "blessing-charm-i",
@@ -626,7 +662,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Divine Blessing skill."
   },
   {
     "id": "blessing-charm-ii",
@@ -643,7 +680,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Divine Blessing skill."
   },
   {
     "id": "blessing-charm-iii",
@@ -660,7 +698,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Divine Blessing skill."
   },
   {
     "id": "recovery-charm-i",
@@ -677,7 +716,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Recovery Up skill."
   },
   {
     "id": "recovery-charm-ii",
@@ -694,7 +734,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Recovery Up skill."
   },
   {
     "id": "recovery-charm-iii",
@@ -711,7 +752,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Recovery Up skill."
   },
   {
     "id": "speed-heal-charm-i",
@@ -728,7 +770,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Recovery Speed skill."
   },
   {
     "id": "speed-heal-charm-ii",
@@ -745,7 +788,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Recovery Speed skill."
   },
   {
     "id": "speed-heal-charm-iii",
@@ -762,7 +806,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Recovery Speed skill."
   },
   {
     "id": "gluttons-charm-i",
@@ -779,7 +824,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Speed Eating skill."
   },
   {
     "id": "gluttons-charm-ii",
@@ -796,7 +842,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Speed Eating skill."
   },
   {
     "id": "gluttons-charm-iii",
@@ -813,7 +860,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Speed Eating skill."
   },
   {
     "id": "earplugs-charm-i",
@@ -830,7 +878,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Earplugs skill."
   },
   {
     "id": "earplugs-charm-ii",
@@ -847,7 +896,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Earplugs skill."
   },
   {
     "id": "windproof-charm-i",
@@ -864,7 +914,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Windproof skill."
   },
   {
     "id": "windproof-charm-ii",
@@ -881,7 +932,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Windproof skill."
   },
   {
     "id": "windproof-charm-iii",
@@ -898,7 +950,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Windproof skill."
   },
   {
     "id": "tremor-charm-i",
@@ -915,7 +968,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Tremor Resistance skill."
   },
   {
     "id": "tremor-charm-ii",
@@ -932,7 +986,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Tremor Resistance skill."
   },
   {
     "id": "tremor-charm-iii",
@@ -949,7 +1004,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Tremor Resistance skill."
   },
   {
     "id": "evasion-charm-i",
@@ -966,7 +1022,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Evade Window skill."
   },
   {
     "id": "evasion-charm-ii",
@@ -983,7 +1040,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Evade Window skill."
   },
   {
     "id": "evasion-charm-iii",
@@ -1000,7 +1058,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Evade Window skill."
   },
   {
     "id": "evasion-charm-iv",
@@ -1017,7 +1076,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Evade Window skill."
   },
   {
     "id": "leaping-charm-i",
@@ -1034,7 +1094,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Evade Extender skill."
   },
   {
     "id": "leaping-charm-ii",
@@ -1051,7 +1112,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Evade Extender skill."
   },
   {
     "id": "leaping-charm-iii",
@@ -1068,7 +1130,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Evade Extender skill."
   },
   {
     "id": "fire-charm-i",
@@ -1085,7 +1148,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Fire Resistance skill."
   },
   {
     "id": "fire-charm-ii",
@@ -1102,7 +1166,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Fire Resistance skill."
   },
   {
     "id": "fire-charm-iii",
@@ -1119,7 +1184,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Fire Resistance skill."
   },
   {
     "id": "water-charm-i",
@@ -1136,7 +1202,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Water Resistance skill."
   },
   {
     "id": "water-charm-ii",
@@ -1153,7 +1220,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Water Resistance skill."
   },
   {
     "id": "water-charm-iii",
@@ -1170,7 +1238,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Water Resistance skill."
   },
   {
     "id": "thunder-charm-i",
@@ -1187,7 +1256,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Thunder Resistance skill."
   },
   {
     "id": "thunder-charm-ii",
@@ -1204,7 +1274,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Thunder Resistance skill."
   },
   {
     "id": "thunder-charm-iii",
@@ -1221,7 +1292,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Thunder Resistance skill."
   },
   {
     "id": "ice-charm-i",
@@ -1238,7 +1310,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Ice Resistance skill."
   },
   {
     "id": "ice-charm-ii",
@@ -1255,7 +1328,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Ice Resistance skill."
   },
   {
     "id": "ice-charm-iii",
@@ -1272,7 +1346,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Ice Resistance skill."
   },
   {
     "id": "dragon-charm-i",
@@ -1289,7 +1364,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Dragon Resistance skill."
   },
   {
     "id": "dragon-charm-ii",
@@ -1306,7 +1382,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Dragon Resistance skill."
   },
   {
     "id": "dragon-charm-iii",
@@ -1323,7 +1400,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Dragon Resistance skill."
   },
   {
     "id": "blight-charm-i",
@@ -1340,7 +1418,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Blight Resistance skill."
   },
   {
     "id": "blight-charm-ii",
@@ -1357,7 +1436,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Blight Resistance skill."
   },
   {
     "id": "blight-charm-iii",
@@ -1374,7 +1454,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Blight Resistance skill."
   },
   {
     "id": "poison-charm-i",
@@ -1391,7 +1472,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Poison Resistance skill."
   },
   {
     "id": "poison-charm-ii",
@@ -1408,7 +1490,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Poison Resistance skill."
   },
   {
     "id": "poison-charm-iii",
@@ -1425,7 +1508,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Poison Resistance skill."
   },
   {
     "id": "paralysis-charm-i",
@@ -1442,7 +1526,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Paralysis Resistance skill."
   },
   {
     "id": "paralysis-charm-ii",
@@ -1459,7 +1544,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Paralysis Resistance skill."
   },
   {
     "id": "paralysis-charm-iii",
@@ -1476,7 +1562,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Paralysis Resistance skill."
   },
   {
     "id": "sleep-charm-i",
@@ -1493,7 +1580,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Sleep Resistance skill."
   },
   {
     "id": "sleep-charm-ii",
@@ -1510,7 +1598,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Sleep Resistance skill."
   },
   {
     "id": "sleep-charm-iii",
@@ -1527,7 +1616,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Sleep Resistance skill."
   },
   {
     "id": "stun-charm-i",
@@ -1544,7 +1634,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Stun Resistance skill."
   },
   {
     "id": "stun-charm-ii",
@@ -1561,7 +1652,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Stun Resistance skill."
   },
   {
     "id": "stun-charm-iii",
@@ -1578,7 +1670,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Stun Resistance skill."
   },
   {
     "id": "blast-charm-i",
@@ -1595,7 +1688,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Blast Resistance skill."
   },
   {
     "id": "blast-charm-ii",
@@ -1612,7 +1706,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Blast Resistance skill."
   },
   {
     "id": "blast-charm-iii",
@@ -1629,7 +1724,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Blast Resistance skill."
   },
   {
     "id": "botany-charm-i",
@@ -1646,7 +1742,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Botanist skill."
   },
   {
     "id": "botany-charm-ii",
@@ -1663,7 +1760,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Botanist skill."
   },
   {
     "id": "botany-charm-iii",
@@ -1680,7 +1778,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Botanist skill."
   },
   {
     "id": "botany-charm-iv",
@@ -1697,7 +1796,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Botanist skill."
   },
   {
     "id": "geology-charm-i",
@@ -1714,7 +1814,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Geologist skill."
   },
   {
     "id": "geology-charm-ii",
@@ -1731,7 +1832,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Geologist skill."
   },
   {
     "id": "geology-charm-iii",
@@ -1748,7 +1850,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Geologist skill."
   },
   {
     "id": "breaker-charm-i",
@@ -1765,7 +1868,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Partbreaker skill."
   },
   {
     "id": "breaker-charm-ii",
@@ -1782,7 +1886,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Partbreaker skill."
   },
   {
     "id": "breaker-charm-iii",
@@ -1799,7 +1904,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Partbreaker skill."
   },
   {
     "id": "bombardier-charm-i",
@@ -1816,7 +1922,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Bombardier skill."
   },
   {
     "id": "bombardier-charm-ii",
@@ -1833,7 +1940,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Bombardier skill."
   },
   {
     "id": "bombardier-charm-iii",
@@ -1850,7 +1958,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Bombardier skill."
   },
   {
     "id": "mushroom-charm-i",
@@ -1867,7 +1976,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Mushroomancer skill."
   },
   {
     "id": "mushroom-charm-ii",
@@ -1884,7 +1994,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Mushroomancer skill."
   },
   {
     "id": "mushroom-charm-iii",
@@ -1901,7 +2012,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Mushroomancer skill."
   },
   {
     "id": "extension-charm-i",
@@ -1918,7 +2030,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Item Prolonger skill."
   },
   {
     "id": "extension-charm-ii",
@@ -1935,7 +2048,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Item Prolonger skill."
   },
   {
     "id": "extension-charm-iii",
@@ -1952,7 +2066,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Item Prolonger skill."
   },
   {
     "id": "friendship-charm-i",
@@ -1969,7 +2084,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Wide- Range skill."
   },
   {
     "id": "friendship-charm-ii",
@@ -1986,7 +2102,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Wide- Range skill."
   },
   {
     "id": "friendship-charm-iii",
@@ -2003,7 +2120,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Wide- Range skill."
   },
   {
     "id": "friendship-charm-iv",
@@ -2020,7 +2138,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Wide- Range skill."
   },
   {
     "id": "friendship-charm-v",
@@ -2037,7 +2156,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Wide- Range skill."
   },
   {
     "id": "light-eaters-charm-i",
@@ -2054,7 +2174,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Free Meal skill."
   },
   {
     "id": "light-eaters-charm-ii",
@@ -2071,7 +2192,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Free Meal skill."
   },
   {
     "id": "light-eaters-charm-iii",
@@ -2088,7 +2210,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Free Meal skill."
   },
   {
     "id": "grit-charm-i",
@@ -2105,7 +2228,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Heroics skill."
   },
   {
     "id": "grit-charm-ii",
@@ -2122,7 +2246,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Heroics skill."
   },
   {
     "id": "grit-charm-iii",
@@ -2139,7 +2264,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Heroics skill."
   },
   {
     "id": "grit-charm-iv",
@@ -2156,7 +2282,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Heroics skill."
   },
   {
     "id": "impact-charm-i",
@@ -2173,7 +2300,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Flinch Free skill."
   },
   {
     "id": "impact-charm-ii",
@@ -2190,7 +2318,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Flinch Free skill."
   },
   {
     "id": "impact-charm-iii",
@@ -2207,7 +2336,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Flinch Free skill."
   },
   {
     "id": "hungerless-charm-i",
@@ -2224,7 +2354,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Hunger Resistance skill."
   },
   {
     "id": "hungerless-charm-ii",
@@ -2241,7 +2372,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Hunger Resistance skill."
   },
   {
     "id": "hungerless-charm-iii",
@@ -2258,7 +2390,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Hunger Resistance skill."
   },
   {
     "id": "counter-charm-i",
@@ -2275,7 +2408,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Counterstrike skill."
   },
   {
     "id": "counter-charm-ii",
@@ -2292,7 +2426,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Counterstrike skill."
   },
   {
     "id": "counter-charm-iii",
@@ -2309,7 +2444,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Counterstrike skill."
   },
   {
     "id": "foray-charm-i",
@@ -2326,7 +2462,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Foray skill."
   },
   {
     "id": "foray-charm-ii",
@@ -2343,7 +2480,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Foray skill."
   },
   {
     "id": "foray-charm-iii",
@@ -2360,7 +2498,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Foray skill."
   },
   {
     "id": "phoenix-charm-i",
@@ -2377,7 +2516,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Coalescence skill."
   },
   {
     "id": "phoenix-charm-ii",
@@ -2394,7 +2534,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Coalescence skill."
   },
   {
     "id": "phoenix-charm-iii",
@@ -2411,7 +2552,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Coalescence skill."
   },
   {
     "id": "chain-charm-i",
@@ -2428,7 +2570,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Burst skill."
   },
   {
     "id": "chain-charm-ii",
@@ -2445,7 +2588,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Burst skill."
   },
   {
     "id": "chain-charm-iii",
@@ -2462,7 +2606,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Burst skill."
   },
   {
     "id": "counterattack-charm-i",
@@ -2479,7 +2624,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Adrenaline Rush skill."
   },
   {
     "id": "counterattack-charm-ii",
@@ -2496,7 +2642,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Adrenaline Rush skill."
   },
   {
     "id": "counterattack-charm-iii",
@@ -2513,7 +2660,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Adrenaline Rush skill."
   },
   {
     "id": "descent-charm-i",
@@ -2530,7 +2678,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Ambush skill."
   },
   {
     "id": "descent-charm-ii",
@@ -2547,7 +2696,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Ambush skill."
   },
   {
     "id": "descent-charm-iii",
@@ -2564,7 +2714,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Ambush skill."
   },
   {
     "id": "bleed-charm-i",
@@ -2581,7 +2732,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Bleeding Resistance skill."
   },
   {
     "id": "bleed-charm-ii",
@@ -2598,7 +2750,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Bleeding Resistance skill."
   },
   {
     "id": "bleed-charm-iii",
@@ -2615,7 +2768,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Bleeding Resistance skill."
   },
   {
     "id": "guard-charm-i",
@@ -2632,7 +2786,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Iron Skin skill."
   },
   {
     "id": "guard-charm-ii",
@@ -2649,7 +2804,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Iron Skin skill."
   },
   {
     "id": "guard-charm-iii",
@@ -2666,7 +2822,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Iron Skin skill."
   },
   {
     "id": "survival-charm-i",
@@ -2683,7 +2840,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Survival Expert skill."
   },
   {
     "id": "survival-charm-ii",
@@ -2700,7 +2858,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Survival Expert skill."
   },
   {
     "id": "survival-charm-iii",
@@ -2717,7 +2876,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Survival Expert skill."
   },
   {
     "id": "maintenance-charm-i",
@@ -2734,7 +2894,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Tool Specialist skill."
   },
   {
     "id": "maintenance-charm-ii",
@@ -2751,7 +2912,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Tool Specialist skill."
   },
   {
     "id": "maintenance-charm-iii",
@@ -2768,7 +2930,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Tool Specialist skill."
   },
   {
     "id": "intimidator-charm-i",
@@ -2785,7 +2948,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Intimidator skill."
   },
   {
     "id": "intimidator-charm-ii",
@@ -2802,7 +2966,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Intimidator skill."
   },
   {
     "id": "intimidator-charm-iii",
@@ -2819,7 +2984,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Intimidator skill."
   },
   {
     "id": "escape-charm-i",
@@ -2836,7 +3002,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Bind Resistance skill."
   },
   {
     "id": "escape-charm-ii",
@@ -2853,7 +3020,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Bind Resistance skill."
   },
   {
     "id": "escape-charm-iii",
@@ -2870,7 +3038,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Bind Resistance skill."
   },
   {
     "id": "chainblade-charm-i",
@@ -2887,7 +3056,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Flayer skill."
   },
   {
     "id": "chainblade-charm-ii",
@@ -2904,7 +3074,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Flayer skill."
   },
   {
     "id": "imbibe-charm-i",
@@ -2921,7 +3092,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Elemental Absorption skill."
   },
   {
     "id": "imbibe-charm-ii",
@@ -2938,7 +3110,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Elemental Absorption skill."
   },
   {
     "id": "convert-charm-i",
@@ -2955,7 +3128,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Convert Element skill."
   },
   {
     "id": "convert-charm-ii",
@@ -2972,7 +3146,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Convert Element skill."
   },
   {
     "id": "sanity-charm-i",
@@ -2989,7 +3164,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Antivirus skill."
   },
   {
     "id": "sanity-charm-ii",
@@ -3006,7 +3182,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Antivirus skill."
   },
   {
     "id": "sanity-charm-iii",
@@ -3023,7 +3200,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Antivirus skill."
   },
   {
     "id": "hope-charm",
@@ -3040,7 +3218,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Self- Improvement and Recovery Up skills."
   },
   {
     "id": "maintenance-charm-iv",
@@ -3057,7 +3236,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Tool Specialist skill."
   },
   {
     "id": "rice-ball-charm",
@@ -3074,7 +3254,8 @@
       }
     ],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A charm that grants the Rice Ball skill. (Arena Quests only.)"
   },
   {
     "id": "unknown-charm",
@@ -3083,7 +3264,8 @@
     "rarity": 0,
     "skills": [],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A talisman of indeterminable age. Said to draw out the holder's hidden strengths."
   },
   {
     "id": "historical-charm",
@@ -3092,7 +3274,8 @@
     "rarity": 0,
     "skills": [],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "An odd talisman that was written about in historical texts. Its glow contains the depths of the past."
   },
   {
     "id": "secret-charm",
@@ -3101,7 +3284,8 @@
     "rarity": 0,
     "skills": [],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A talisman containing untold secrets of history. The holder will one day see the world's abyss."
   },
   {
     "id": "golden-age-charm",
@@ -3110,6 +3294,7 @@
     "rarity": 0,
     "skills": [],
     "materials": [],
-    "decoSlots": []
+    "decoSlots": [],
+    "description": "A talisman inscribed with the wisdom of an advanced culture. Offers a glimpse into an era of legends."
   }
 ]

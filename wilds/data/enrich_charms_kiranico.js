@@ -34,6 +34,11 @@ function parseLocalizedLevels(html) {
   return out;
 }
 
+function parseMetaDescription(html) {
+  const m = html.match(/<meta name="description" content="([^"]*)"/i);
+  return m ? m[1].replace(/&#x27;/g, "'").replace(/&amp;/g, "&") : "";
+}
+
 async function fetchOne(url) {
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
@@ -56,6 +61,7 @@ async function main() {
       const enHtml = await fetchOne(`https://mhwilds.kiranico.com/data/charms/${charm.id}`);
       const enDecoded = decode(enHtml);
       const en = parseSkill(enHtml, "en");
+      const description = parseMetaDescription(enHtml);
       const esSkillSlug = enDecoded.match(/"es-419":"\/es-419\/data\/skills\/([^"\\]+)"/)?.[1];
       const esSkillHtml = esSkillSlug
         ? await fetchOne(`https://mhwilds.kiranico.com/es-419/data/skills/${esSkillSlug}`)
@@ -73,6 +79,7 @@ async function main() {
         }];
         done++;
       }
+      if (description) charm.description = description;
     }));
     console.log(`Enriched ${Math.min(i + 8, charms.length)}/${charms.length}`);
   }

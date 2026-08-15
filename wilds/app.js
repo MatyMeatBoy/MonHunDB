@@ -2867,6 +2867,7 @@ function showCharmDetail(id) {
       <h2>${trCharmName(charm)}</h2>
       ${charm.rarity ? `<span class="decoration-detail-slot">${ui("weaponsRarity")} ${charm.rarity}</span>` : ""}
     </div>
+    ${charm.description ? `<p class="gs-material-intro">${escapeXml(charm.description)}</p>` : ""}
     ${slotsHtml}
     <section class="block">
       <h3>${ui("decorationsSkillsHeading")}</h3>
