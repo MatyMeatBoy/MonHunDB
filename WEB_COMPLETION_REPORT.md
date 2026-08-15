@@ -1,6 +1,6 @@
 # Informe gráfico de completitud de MonHunDB
 
-**Auditoría:** 13 de agosto de 2026  
+**Auditoría:** 15 de agosto de 2026  
 **Criterio:** porcentajes calculados sobre los registros que ya existen en cada catálogo. Cuando no hay una lista maestra fiable, se marca como *no medido* en vez de inventar un total.
 
 ## Resumen visual
@@ -48,7 +48,7 @@
 | Habilidades de sets | `████████░░` **84,3% (134/159)** | **25 sets** |
 | Habilidades por pieza | `░░░░░░░░░░` **0% (0/690)** | **690 piezas** |
 | Materiales por pieza | `░░░░░░░░░░` **0,7% (5/690)** | **685 piezas** |
-| Datos reales de charms | `░░░░░░░░░░` **0% (0/185)** | **185 charms** |
+| Datos de habilidades de charms | `█████████░` **97,8% (181/185)** | **4 entradas especiales sin habilidad publicable** |
 | Visor 3D | **Pendiente** | No hay modelos locales detectados |
 
 > Las decoraciones de Wilds aparecen sin materiales de forja **a propósito**: la fuente confirmó que no se fabrican con partes de monstruo. No lo cuento como deuda.
@@ -58,7 +58,7 @@
 ```text
 Wilds: habilidades por pieza       100% pendiente  ██████████
 Wilds: materiales por pieza          99% pendiente  ██████████
-Wilds: charms (datos reales)        100% pendiente  ██████████
+Wilds: charms (habilidades)           2% pendiente  ░░░░░░░░░░
 MHFU: fotos de sets                  29% pendiente  ███░░░░░░░
 Rise: rareza de armas                 13% pendiente  █░░░░░░░░░
 MHFU: renders de piezas                3% pendiente  ░░░░░░░░░░

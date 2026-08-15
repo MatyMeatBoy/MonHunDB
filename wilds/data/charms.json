@@ -1,1667 +1,3115 @@
 [
- {
-  "id": "marathon-charm-i",
-  "name": "Marathon Charm I",
-  "nameEs": "Amuleto maratón I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "marathon-charm-ii",
-  "name": "Marathon Charm II",
-  "nameEs": "Amuleto maratón II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "marathon-charm-iii",
-  "name": "Marathon Charm III",
-  "nameEs": "Amuleto maratón III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "fitness-charm-i",
-  "name": "Fitness Charm I",
-  "nameEs": "Amuleto en forma I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "fitness-charm-ii",
-  "name": "Fitness Charm II",
-  "nameEs": "Amuleto en forma II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "fitness-charm-iii",
-  "name": "Fitness Charm III",
-  "nameEs": "Amuleto en forma III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "fitness-charm-iv",
-  "name": "Fitness Charm IV",
-  "nameEs": "Amuleto en forma IV",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "fitness-charm-v",
-  "name": "Fitness Charm V",
-  "nameEs": "Amuleto en forma V",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "sheathe-charm-i",
-  "name": "Sheathe Charm I",
-  "nameEs": "Amuleto envainado I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "sheathe-charm-ii",
-  "name": "Sheathe Charm II",
-  "nameEs": "Amuleto envainado II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "sheathe-charm-iii",
-  "name": "Sheathe Charm III",
-  "nameEs": "Amuleto envainado III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "challenger-charm-i",
-  "name": "Challenger Charm I",
-  "nameEs": "Amuleto desafío I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "challenger-charm-ii",
-  "name": "Challenger Charm II",
-  "nameEs": "Amuleto desafío II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "challenger-charm-iii",
-  "name": "Challenger Charm III",
-  "nameEs": "Amuleto desafío III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "unscathed-charm-i",
-  "name": "Unscathed Charm I",
-  "nameEs": "Amuleto ileso I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "unscathed-charm-ii",
-  "name": "Unscathed Charm II",
-  "nameEs": "Amuleto ileso II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "unscathed-charm-iii",
-  "name": "Unscathed Charm III",
-  "nameEs": "Amuleto ileso III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "fury-charm-i",
-  "name": "Fury Charm I",
-  "nameEs": "Amuleto furia I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "fury-charm-ii",
-  "name": "Fury Charm II",
-  "nameEs": "Amuleto furia II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "fury-charm-iii",
-  "name": "Fury Charm III",
-  "nameEs": "Amuleto furia III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "exploiter-charm-i",
-  "name": "Exploiter Charm I",
-  "nameEs": "Amuleto provecho I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "exploiter-charm-ii",
-  "name": "Exploiter Charm II",
-  "nameEs": "Amuleto provecho II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "power-charm-i",
-  "name": "Power Charm I",
-  "nameEs": "Amuleto de poder I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "power-charm-ii",
-  "name": "Power Charm II",
-  "nameEs": "Amuleto de poder II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "power-charm-iii",
-  "name": "Power Charm III",
-  "nameEs": "Amuleto de poder III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "mighty-charm-i",
-  "name": "Mighty Charm I",
-  "nameEs": "Amuleto potente I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "mighty-charm-ii",
-  "name": "Mighty Charm II",
-  "nameEs": "Amuleto potente II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "mighty-charm-iii",
-  "name": "Mighty Charm III",
-  "nameEs": "Amuleto potente III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "surge-charm-i",
-  "name": "Surge Charm I",
-  "nameEs": "Amuleto recarga I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "surge-charm-ii",
-  "name": "Surge Charm II",
-  "nameEs": "Amuleto recarga II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "surge-charm-iii",
-  "name": "Surge Charm III",
-  "nameEs": "Amuleto recarga III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "defense-charm-i",
-  "name": "Defense Charm I",
-  "nameEs": "Amuleto defensa I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "defense-charm-ii",
-  "name": "Defense Charm II",
-  "nameEs": "Amuleto defensa II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "defense-charm-iii",
-  "name": "Defense Charm III",
-  "nameEs": "Amuleto defensa III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "defense-charm-iv",
-  "name": "Defense Charm IV",
-  "nameEs": "Amuleto defensa IV",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "defense-charm-v",
-  "name": "Defense Charm V",
-  "nameEs": "Amuleto defensa V",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "blessing-charm-i",
-  "name": "Blessing Charm I",
-  "nameEs": "Amuleto bendito I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "blessing-charm-ii",
-  "name": "Blessing Charm II",
-  "nameEs": "Amuleto bendito II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "blessing-charm-iii",
-  "name": "Blessing Charm III",
-  "nameEs": "Amuleto bendito III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "recovery-charm-i",
-  "name": "Recovery Charm I",
-  "nameEs": "Amuleto recuperación I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "recovery-charm-ii",
-  "name": "Recovery Charm II",
-  "nameEs": "Amuleto recuperación II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "recovery-charm-iii",
-  "name": "Recovery Charm III",
-  "nameEs": "Amuleto recuperación III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "speed-heal-charm-i",
-  "name": "Speed Heal Charm I",
-  "nameEs": "Amuleto cura veloz I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "speed-heal-charm-ii",
-  "name": "Speed Heal Charm II",
-  "nameEs": "Amuleto cura veloz II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "speed-heal-charm-iii",
-  "name": "Speed Heal Charm III",
-  "nameEs": "Amuleto cura veloz III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "gluttons-charm-i",
-  "name": "Glutton&#x27;s Charm I",
-  "nameEs": "Amuleto gula I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "gluttons-charm-ii",
-  "name": "Glutton&#x27;s Charm II",
-  "nameEs": "Amuleto gula II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "gluttons-charm-iii",
-  "name": "Glutton&#x27;s Charm III",
-  "nameEs": "Amuleto gula III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "earplugs-charm-i",
-  "name": "Earplugs Charm I",
-  "nameEs": "Amuleto antirrugidos I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "earplugs-charm-ii",
-  "name": "Earplugs Charm II",
-  "nameEs": "Amuleto antirrugidos II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "windproof-charm-i",
-  "name": "Windproof Charm I",
-  "nameEs": "Amuleto antiviento I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "windproof-charm-ii",
-  "name": "Windproof Charm II",
-  "nameEs": "Amuleto antiviento II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "windproof-charm-iii",
-  "name": "Windproof Charm III",
-  "nameEs": "Amuleto antiviento III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "tremor-charm-i",
-  "name": "Tremor Charm I",
-  "nameEs": "Amuleto temblores I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "tremor-charm-ii",
-  "name": "Tremor Charm II",
-  "nameEs": "Amuleto temblores II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "tremor-charm-iii",
-  "name": "Tremor Charm III",
-  "nameEs": "Amuleto temblores III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "evasion-charm-i",
-  "name": "Evasion Charm I",
-  "nameEs": "Amuleto evasión I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "evasion-charm-ii",
-  "name": "Evasion Charm II",
-  "nameEs": "Amuleto evasión II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "evasion-charm-iii",
-  "name": "Evasion Charm III",
-  "nameEs": "Amuleto evasión III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "evasion-charm-iv",
-  "name": "Evasion Charm IV",
-  "nameEs": "Amuleto evasión IV",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "leaping-charm-i",
-  "name": "Leaping Charm I",
-  "nameEs": "Amuleto saltarín I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "leaping-charm-ii",
-  "name": "Leaping Charm II",
-  "nameEs": "Amuleto saltarín II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "leaping-charm-iii",
-  "name": "Leaping Charm III",
-  "nameEs": "Amuleto saltarín III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "fire-charm-i",
-  "name": "Fire Charm I",
-  "nameEs": "Amuleto fuego I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "fire-charm-ii",
-  "name": "Fire Charm II",
-  "nameEs": "Amuleto fuego II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "fire-charm-iii",
-  "name": "Fire Charm III",
-  "nameEs": "Amuleto fuego III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "water-charm-i",
-  "name": "Water Charm I",
-  "nameEs": "Amuleto agua I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "water-charm-ii",
-  "name": "Water Charm II",
-  "nameEs": "Amuleto agua II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "water-charm-iii",
-  "name": "Water Charm III",
-  "nameEs": "Amuleto agua III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "thunder-charm-i",
-  "name": "Thunder Charm I",
-  "nameEs": "Amuleto rayo I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "thunder-charm-ii",
-  "name": "Thunder Charm II",
-  "nameEs": "Amuleto rayo II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "thunder-charm-iii",
-  "name": "Thunder Charm III",
-  "nameEs": "Amuleto rayo III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "ice-charm-i",
-  "name": "Ice Charm I",
-  "nameEs": "Amuleto hielo I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "ice-charm-ii",
-  "name": "Ice Charm II",
-  "nameEs": "Amuleto hielo II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "ice-charm-iii",
-  "name": "Ice Charm III",
-  "nameEs": "Amuleto hielo III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "dragon-charm-i",
-  "name": "Dragon Charm I",
-  "nameEs": "Amuleto draco I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "dragon-charm-ii",
-  "name": "Dragon Charm II",
-  "nameEs": "Amuleto draco II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "dragon-charm-iii",
-  "name": "Dragon Charm III",
-  "nameEs": "Amuleto draco III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "blight-charm-i",
-  "name": "Blight Charm I",
-  "nameEs": "Amuleto plaga I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "blight-charm-ii",
-  "name": "Blight Charm II",
-  "nameEs": "Amuleto plaga II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "blight-charm-iii",
-  "name": "Blight Charm III",
-  "nameEs": "Amuleto plaga III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "poison-charm-i",
-  "name": "Poison Charm I",
-  "nameEs": "Amuleto veneno I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "poison-charm-ii",
-  "name": "Poison Charm II",
-  "nameEs": "Amuleto veneno II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "poison-charm-iii",
-  "name": "Poison Charm III",
-  "nameEs": "Amuleto veneno III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "paralysis-charm-i",
-  "name": "Paralysis Charm I",
-  "nameEs": "Amuleto antiparálisis I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "paralysis-charm-ii",
-  "name": "Paralysis Charm II",
-  "nameEs": "Amuleto antiparálisis II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "paralysis-charm-iii",
-  "name": "Paralysis Charm III",
-  "nameEs": "Amuleto antiparálisis III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "sleep-charm-i",
-  "name": "Sleep Charm I",
-  "nameEs": "Amuleto sueño I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "sleep-charm-ii",
-  "name": "Sleep Charm II",
-  "nameEs": "Amuleto sueño II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "sleep-charm-iii",
-  "name": "Sleep Charm III",
-  "nameEs": "Amuleto sueño III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "stun-charm-i",
-  "name": "Stun Charm I",
-  "nameEs": "Amuleto aturdidor I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "stun-charm-ii",
-  "name": "Stun Charm II",
-  "nameEs": "Amuleto aturdidor II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "stun-charm-iii",
-  "name": "Stun Charm III",
-  "nameEs": "Amuleto aturdidor III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "blast-charm-i",
-  "name": "Blast Charm I",
-  "nameEs": "Amuleto nitro I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "blast-charm-ii",
-  "name": "Blast Charm II",
-  "nameEs": "Amuleto nitro II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "blast-charm-iii",
-  "name": "Blast Charm III",
-  "nameEs": "Amuleto nitro III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "botany-charm-i",
-  "name": "Botany Charm I",
-  "nameEs": "Amuleto botánico I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "botany-charm-ii",
-  "name": "Botany Charm II",
-  "nameEs": "Amuleto botánico II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "botany-charm-iii",
-  "name": "Botany Charm III",
-  "nameEs": "Amuleto botánico III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "botany-charm-iv",
-  "name": "Botany Charm IV",
-  "nameEs": "Amuleto botánico IV",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "geology-charm-i",
-  "name": "Geology Charm I",
-  "nameEs": "Amuleto geólogo I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "geology-charm-ii",
-  "name": "Geology Charm II",
-  "nameEs": "Amuleto geólogo II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "geology-charm-iii",
-  "name": "Geology Charm III",
-  "nameEs": "Amuleto geólogo III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "breaker-charm-i",
-  "name": "Breaker Charm I",
-  "nameEs": "Amuleto destructor I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "breaker-charm-ii",
-  "name": "Breaker Charm II",
-  "nameEs": "Amuleto destructor II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "breaker-charm-iii",
-  "name": "Breaker Charm III",
-  "nameEs": "Amuleto destructor III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "bombardier-charm-i",
-  "name": "Bombardier Charm I",
-  "nameEs": "Amuleto bombardero I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "bombardier-charm-ii",
-  "name": "Bombardier Charm II",
-  "nameEs": "Amuleto bombardero II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "bombardier-charm-iii",
-  "name": "Bombardier Charm III",
-  "nameEs": "Amuleto bombardero III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "mushroom-charm-i",
-  "name": "Mushroom Charm I",
-  "nameEs": "Amuleto seta I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "mushroom-charm-ii",
-  "name": "Mushroom Charm II",
-  "nameEs": "Amuleto seta II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "mushroom-charm-iii",
-  "name": "Mushroom Charm III",
-  "nameEs": "Amuleto seta III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "extension-charm-i",
-  "name": "Extension Charm I",
-  "nameEs": "Amuleto extensión I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "extension-charm-ii",
-  "name": "Extension Charm II",
-  "nameEs": "Amuleto extensión II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "extension-charm-iii",
-  "name": "Extension Charm III",
-  "nameEs": "Amuleto extensión III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "friendship-charm-i",
-  "name": "Friendship Charm I",
-  "nameEs": "Amuleto amistad I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "friendship-charm-ii",
-  "name": "Friendship Charm II",
-  "nameEs": "Amuleto amistad II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "friendship-charm-iii",
-  "name": "Friendship Charm III",
-  "nameEs": "Amuleto amistad III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "friendship-charm-iv",
-  "name": "Friendship Charm IV",
-  "nameEs": "Amuleto amistad IV",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "friendship-charm-v",
-  "name": "Friendship Charm V",
-  "nameEs": "Amuleto amistad V",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "light-eaters-charm-i",
-  "name": "Light Eater&#x27;s Charm I",
-  "nameEs": "Amuleto frugal I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "light-eaters-charm-ii",
-  "name": "Light Eater&#x27;s Charm II",
-  "nameEs": "Amuleto frugal II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "light-eaters-charm-iii",
-  "name": "Light Eater&#x27;s Charm III",
-  "nameEs": "Amuleto frugal III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "grit-charm-i",
-  "name": "Grit Charm I",
-  "nameEs": "Amuleto abrasivo I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "grit-charm-ii",
-  "name": "Grit Charm II",
-  "nameEs": "Amuleto abrasivo II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "grit-charm-iii",
-  "name": "Grit Charm III",
-  "nameEs": "Amuleto abrasivo III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "grit-charm-iv",
-  "name": "Grit Charm IV",
-  "nameEs": "Amuleto abrasivo IV",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "impact-charm-i",
-  "name": "Impact Charm I",
-  "nameEs": "Amuleto impacto I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "impact-charm-ii",
-  "name": "Impact Charm II",
-  "nameEs": "Amuleto impacto II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "impact-charm-iii",
-  "name": "Impact Charm III",
-  "nameEs": "Amuleto impacto III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "hungerless-charm-i",
-  "name": "Hungerless Charm I",
-  "nameEs": "Amuleto antihambre I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "hungerless-charm-ii",
-  "name": "Hungerless Charm II",
-  "nameEs": "Amuleto antihambre II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "hungerless-charm-iii",
-  "name": "Hungerless Charm III",
-  "nameEs": "Amuleto antihambre III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "counter-charm-i",
-  "name": "Counter Charm I",
-  "nameEs": "Amuleto de contraataque I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "counter-charm-ii",
-  "name": "Counter Charm II",
-  "nameEs": "Amuleto de contraataque II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "counter-charm-iii",
-  "name": "Counter Charm III",
-  "nameEs": "Amuleto de contraataque III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "foray-charm-i",
-  "name": "Foray Charm I",
-  "nameEs": "Amuleto de irrupción I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "foray-charm-ii",
-  "name": "Foray Charm II",
-  "nameEs": "Amuleto de irrupción II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "foray-charm-iii",
-  "name": "Foray Charm III",
-  "nameEs": "Amuleto de irrupción III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "phoenix-charm-i",
-  "name": "Phoenix Charm I",
-  "nameEs": "Amuleto fénix I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "phoenix-charm-ii",
-  "name": "Phoenix Charm II",
-  "nameEs": "Amuleto fénix II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "phoenix-charm-iii",
-  "name": "Phoenix Charm III",
-  "nameEs": "Amuleto fénix III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "chain-charm-i",
-  "name": "Chain Charm I",
-  "nameEs": "Amuleto de serie I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "chain-charm-ii",
-  "name": "Chain Charm II",
-  "nameEs": "Amuleto de serie II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "chain-charm-iii",
-  "name": "Chain Charm III",
-  "nameEs": "Amuleto de serie III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "counterattack-charm-i",
-  "name": "Counterattack Charm I",
-  "nameEs": "Amuleto de contragolpe I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "counterattack-charm-ii",
-  "name": "Counterattack Charm II",
-  "nameEs": "Amuleto de contragolpe II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "counterattack-charm-iii",
-  "name": "Counterattack Charm III",
-  "nameEs": "Amuleto de contragolpe III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "descent-charm-i",
-  "name": "Descent Charm I",
-  "nameEs": "Amuleto de descenso I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "descent-charm-ii",
-  "name": "Descent Charm II",
-  "nameEs": "Amuleto de descenso II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "descent-charm-iii",
-  "name": "Descent Charm III",
-  "nameEs": "Amuleto de descenso III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "bleed-charm-i",
-  "name": "Bleed Charm I",
-  "nameEs": "Amuleto sangre I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "bleed-charm-ii",
-  "name": "Bleed Charm II",
-  "nameEs": "Amuleto sangre II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "bleed-charm-iii",
-  "name": "Bleed Charm III",
-  "nameEs": "Amuleto sangre III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "guard-charm-i",
-  "name": "Guard Charm I",
-  "nameEs": "Amuleto guarda I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "guard-charm-ii",
-  "name": "Guard Charm II",
-  "nameEs": "Amuleto guarda II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "guard-charm-iii",
-  "name": "Guard Charm III",
-  "nameEs": "Amuleto guarda III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "survival-charm-i",
-  "name": "Survival Charm I",
-  "nameEs": "Amuleto de supervivencia I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "survival-charm-ii",
-  "name": "Survival Charm II",
-  "nameEs": "Amuleto de supervivencia II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "survival-charm-iii",
-  "name": "Survival Charm III",
-  "nameEs": "Amuleto de supervivencia III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "maintenance-charm-i",
-  "name": "Maintenance Charm I",
-  "nameEs": "Amuleto reparador I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "maintenance-charm-ii",
-  "name": "Maintenance Charm II",
-  "nameEs": "Amuleto reparador II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "maintenance-charm-iii",
-  "name": "Maintenance Charm III",
-  "nameEs": "Amuleto reparador III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "intimidator-charm-i",
-  "name": "Intimidator Charm I",
-  "nameEs": "Amuleto intimidante I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "intimidator-charm-ii",
-  "name": "Intimidator Charm II",
-  "nameEs": "Amuleto intimidante II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "intimidator-charm-iii",
-  "name": "Intimidator Charm III",
-  "nameEs": "Amuleto intimidante III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "escape-charm-i",
-  "name": "Escape Charm I",
-  "nameEs": "Amuleto de escape I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "escape-charm-ii",
-  "name": "Escape Charm II",
-  "nameEs": "Amuleto de escape II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "escape-charm-iii",
-  "name": "Escape Charm III",
-  "nameEs": "Amuleto de escape III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "chainblade-charm-i",
-  "name": "Chainblade Charm I",
-  "nameEs": "Amuleto desollador I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "chainblade-charm-ii",
-  "name": "Chainblade Charm II",
-  "nameEs": "Amuleto desollador II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "imbibe-charm-i",
-  "name": "Imbibe Charm I",
-  "nameEs": "Amuleto de ósmosis I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "imbibe-charm-ii",
-  "name": "Imbibe Charm II",
-  "nameEs": "Amuleto de ósmosis II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "convert-charm-i",
-  "name": "Convert Charm I",
-  "nameEs": "Amuleto de conversión I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "convert-charm-ii",
-  "name": "Convert Charm II",
-  "nameEs": "Amuleto de conversión II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "sanity-charm-i",
-  "name": "Sanity Charm I",
-  "nameEs": "Amuleto de cordura I",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "sanity-charm-ii",
-  "name": "Sanity Charm II",
-  "nameEs": "Amuleto de cordura II",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "sanity-charm-iii",
-  "name": "Sanity Charm III",
-  "nameEs": "Amuleto de cordura III",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "hope-charm",
-  "name": "Hope Charm",
-  "nameEs": "Amuleto de esperanza",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "maintenance-charm-iv",
-  "name": "Maintenance Charm IV",
-  "nameEs": "Amuleto reparador IV",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "rice-ball-charm",
-  "name": "Rice Ball Charm",
-  "nameEs": "Talismán de onigiri",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "unknown-charm",
-  "name": "Unknown Charm",
-  "nameEs": "Amuleto desconocido",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "historical-charm",
-  "name": "Historical Charm",
-  "nameEs": "Amuleto histórico",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "secret-charm",
-  "name": "Secret Charm",
-  "nameEs": "Amuleto secreto",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- },
- {
-  "id": "golden-age-charm",
-  "name": "Golden Age Charm",
-  "nameEs": "Amuleto de edad dorada",
-  "rarity": 0,
-  "skills": [],
-  "materials": [],
-  "decoSlots": []
- }
+  {
+    "id": "marathon-charm-i",
+    "name": "Marathon Charm I",
+    "nameEs": "Amuleto maratón I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Marathon Runner",
+        "nameEs": "Corredor de fondo",
+        "level": 1,
+        "effect": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
+        "effectEs": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing)."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "marathon-charm-ii",
+    "name": "Marathon Charm II",
+    "nameEs": "Amuleto maratón II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Marathon Runner",
+        "nameEs": "Corredor de fondo",
+        "level": 2,
+        "effect": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
+        "effectEs": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing)."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "marathon-charm-iii",
+    "name": "Marathon Charm III",
+    "nameEs": "Amuleto maratón III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Marathon Runner",
+        "nameEs": "Corredor de fondo",
+        "level": 3,
+        "effect": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
+        "effectEs": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing)."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fitness-charm-i",
+    "name": "Fitness Charm I",
+    "nameEs": "Amuleto en forma I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Constitution",
+        "nameEs": "Constitución",
+        "level": 1,
+        "effect": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+        "effectEs": "Reduces stamina depletion when evading, blocking, or doing certain other actions."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fitness-charm-ii",
+    "name": "Fitness Charm II",
+    "nameEs": "Amuleto en forma II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Constitution",
+        "nameEs": "Constitución",
+        "level": 2,
+        "effect": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+        "effectEs": "Reduces stamina depletion when evading, blocking, or doing certain other actions."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fitness-charm-iii",
+    "name": "Fitness Charm III",
+    "nameEs": "Amuleto en forma III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Constitution",
+        "nameEs": "Constitución",
+        "level": 3,
+        "effect": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+        "effectEs": "Reduces stamina depletion when evading, blocking, or doing certain other actions."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fitness-charm-iv",
+    "name": "Fitness Charm IV",
+    "nameEs": "Amuleto en forma IV",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Constitution",
+        "nameEs": "Constitución",
+        "level": 4,
+        "effect": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+        "effectEs": "Reduces stamina depletion when evading, blocking, or doing certain other actions."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fitness-charm-v",
+    "name": "Fitness Charm V",
+    "nameEs": "Amuleto en forma V",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Constitution",
+        "nameEs": "Constitución",
+        "level": 5,
+        "effect": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+        "effectEs": "Reduces stamina depletion when evading, blocking, or doing certain other actions."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sheathe-charm-i",
+    "name": "Sheathe Charm I",
+    "nameEs": "Amuleto envainado I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Quick Sheathe",
+        "nameEs": "Envainado veloz",
+        "level": 1,
+        "effect": "Speeds up weapon sheathing.",
+        "effectEs": "Speeds up weapon sheathing."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sheathe-charm-ii",
+    "name": "Sheathe Charm II",
+    "nameEs": "Amuleto envainado II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Quick Sheathe",
+        "nameEs": "Envainado veloz",
+        "level": 2,
+        "effect": "Speeds up weapon sheathing.",
+        "effectEs": "Speeds up weapon sheathing."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sheathe-charm-iii",
+    "name": "Sheathe Charm III",
+    "nameEs": "Amuleto envainado III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Quick Sheathe",
+        "nameEs": "Envainado veloz",
+        "level": 3,
+        "effect": "Speeds up weapon sheathing.",
+        "effectEs": "Speeds up weapon sheathing."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "challenger-charm-i",
+    "name": "Challenger Charm I",
+    "nameEs": "Amuleto desafío I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Agitator",
+        "nameEs": "Instigación",
+        "level": 1,
+        "effect": "Increases attack power and affinity when large monsters become enraged.",
+        "effectEs": "Increases attack power and affinity when large monsters become enraged."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "challenger-charm-ii",
+    "name": "Challenger Charm II",
+    "nameEs": "Amuleto desafío II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Agitator",
+        "nameEs": "Instigación",
+        "level": 2,
+        "effect": "Increases attack power and affinity when large monsters become enraged.",
+        "effectEs": "Increases attack power and affinity when large monsters become enraged."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "challenger-charm-iii",
+    "name": "Challenger Charm III",
+    "nameEs": "Amuleto desafío III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Agitator",
+        "nameEs": "Instigación",
+        "level": 3,
+        "effect": "Increases attack power and affinity when large monsters become enraged.",
+        "effectEs": "Increases attack power and affinity when large monsters become enraged."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "unscathed-charm-i",
+    "name": "Unscathed Charm I",
+    "nameEs": "Amuleto ileso I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "nameEs": "Plena forma",
+        "level": 1,
+        "effect": "Increases attack when your health is full.",
+        "effectEs": "Increases attack when your health is full."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "unscathed-charm-ii",
+    "name": "Unscathed Charm II",
+    "nameEs": "Amuleto ileso II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "nameEs": "Plena forma",
+        "level": 2,
+        "effect": "Increases attack when your health is full.",
+        "effectEs": "Increases attack when your health is full."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "unscathed-charm-iii",
+    "name": "Unscathed Charm III",
+    "nameEs": "Amuleto ileso III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "nameEs": "Plena forma",
+        "level": 3,
+        "effect": "Increases attack when your health is full.",
+        "effectEs": "Increases attack when your health is full."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fury-charm-i",
+    "name": "Fury Charm I",
+    "nameEs": "Amuleto furia I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Resentment",
+        "nameEs": "Resentimiento",
+        "level": 1,
+        "effect": "Increases attack when you have recoverable damage (the red portion of your Health Gauge).",
+        "effectEs": "Increases attack when you have recoverable damage (the red portion of your Health Gauge)."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fury-charm-ii",
+    "name": "Fury Charm II",
+    "nameEs": "Amuleto furia II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Resentment",
+        "nameEs": "Resentimiento",
+        "level": 2,
+        "effect": "Increases attack when you have recoverable damage (the red portion of your Health Gauge).",
+        "effectEs": "Increases attack when you have recoverable damage (the red portion of your Health Gauge)."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fury-charm-iii",
+    "name": "Fury Charm III",
+    "nameEs": "Amuleto furia III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Resentment",
+        "nameEs": "Resentimiento",
+        "level": 3,
+        "effect": "Increases attack when you have recoverable damage (the red portion of your Health Gauge).",
+        "effectEs": "Increases attack when you have recoverable damage (the red portion of your Health Gauge)."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "exploiter-charm-i",
+    "name": "Exploiter Charm I",
+    "nameEs": "Amuleto provecho I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Weakness Exploit",
+        "nameEs": "Punto débil",
+        "level": 1,
+        "effect": "Increases the affinity of attacks that exploit a monster's weak  points and wounds.",
+        "effectEs": "Increases the affinity of attacks that exploit a monster's weak  points and wounds."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "exploiter-charm-ii",
+    "name": "Exploiter Charm II",
+    "nameEs": "Amuleto provecho II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Weakness Exploit",
+        "nameEs": "Punto débil",
+        "level": 2,
+        "effect": "Increases the affinity of attacks that exploit a monster's weak  points and wounds.",
+        "effectEs": "Increases the affinity of attacks that exploit a monster's weak  points and wounds."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "power-charm-i",
+    "name": "Power Charm I",
+    "nameEs": "Amuleto de poder I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Latent Power",
+        "nameEs": "Poder latente",
+        "level": 1,
+        "effect": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
+        "effectEs": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "power-charm-ii",
+    "name": "Power Charm II",
+    "nameEs": "Amuleto de poder II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Latent Power",
+        "nameEs": "Poder latente",
+        "level": 2,
+        "effect": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
+        "effectEs": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "power-charm-iii",
+    "name": "Power Charm III",
+    "nameEs": "Amuleto de poder III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Latent Power",
+        "nameEs": "Poder latente",
+        "level": 3,
+        "effect": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
+        "effectEs": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "mighty-charm-i",
+    "name": "Mighty Charm I",
+    "nameEs": "Amuleto potente I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Maximum Might",
+        "nameEs": "Poder máximo",
+        "level": 1,
+        "effect": "Increases affinity if stamina is kept full for a period of time.",
+        "effectEs": "Increases affinity if stamina is kept full for a period of time."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "mighty-charm-ii",
+    "name": "Mighty Charm II",
+    "nameEs": "Amuleto potente II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Maximum Might",
+        "nameEs": "Poder máximo",
+        "level": 2,
+        "effect": "Increases affinity if stamina is kept full for a period of time.",
+        "effectEs": "Increases affinity if stamina is kept full for a period of time."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "mighty-charm-iii",
+    "name": "Mighty Charm III",
+    "nameEs": "Amuleto potente III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Maximum Might",
+        "nameEs": "Poder máximo",
+        "level": 3,
+        "effect": "Increases affinity if stamina is kept full for a period of time.",
+        "effectEs": "Increases affinity if stamina is kept full for a period of time."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "surge-charm-i",
+    "name": "Surge Charm I",
+    "nameEs": "Amuleto recarga I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Stamina Surge",
+        "nameEs": "Aguante",
+        "level": 1,
+        "effect": "Speeds up stamina recovery.",
+        "effectEs": "Speeds up stamina recovery."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "surge-charm-ii",
+    "name": "Surge Charm II",
+    "nameEs": "Amuleto recarga II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Stamina Surge",
+        "nameEs": "Aguante",
+        "level": 2,
+        "effect": "Speeds up stamina recovery.",
+        "effectEs": "Speeds up stamina recovery."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "surge-charm-iii",
+    "name": "Surge Charm III",
+    "nameEs": "Amuleto recarga III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Stamina Surge",
+        "nameEs": "Aguante",
+        "level": 3,
+        "effect": "Speeds up stamina recovery.",
+        "effectEs": "Speeds up stamina recovery."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "defense-charm-i",
+    "name": "Defense Charm I",
+    "nameEs": "Amuleto defensa I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Defense Boost",
+        "nameEs": "Bonus de defensa",
+        "level": 1,
+        "effect": "Increases defense. Also improves resistances at higher levels.",
+        "effectEs": "Increases defense. Also improves resistances at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "defense-charm-ii",
+    "name": "Defense Charm II",
+    "nameEs": "Amuleto defensa II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Defense Boost",
+        "nameEs": "Bonus de defensa",
+        "level": 2,
+        "effect": "Increases defense. Also improves resistances at higher levels.",
+        "effectEs": "Increases defense. Also improves resistances at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "defense-charm-iii",
+    "name": "Defense Charm III",
+    "nameEs": "Amuleto defensa III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Defense Boost",
+        "nameEs": "Bonus de defensa",
+        "level": 3,
+        "effect": "Increases defense. Also improves resistances at higher levels.",
+        "effectEs": "Increases defense. Also improves resistances at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "defense-charm-iv",
+    "name": "Defense Charm IV",
+    "nameEs": "Amuleto defensa IV",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Defense Boost",
+        "nameEs": "Bonus de defensa",
+        "level": 4,
+        "effect": "Increases defense. Also improves resistances at higher levels.",
+        "effectEs": "Increases defense. Also improves resistances at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "defense-charm-v",
+    "name": "Defense Charm V",
+    "nameEs": "Amuleto defensa V",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Defense Boost",
+        "nameEs": "Bonus de defensa",
+        "level": 5,
+        "effect": "Increases defense. Also improves resistances at higher levels.",
+        "effectEs": "Increases defense. Also improves resistances at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blessing-charm-i",
+    "name": "Blessing Charm I",
+    "nameEs": "Amuleto bendito I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "nameEs": "Bendición divina",
+        "level": 1,
+        "effect": "Has a predetermined chance of reducing the damage you take.",
+        "effectEs": "Has a predetermined chance of reducing the damage you take."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blessing-charm-ii",
+    "name": "Blessing Charm II",
+    "nameEs": "Amuleto bendito II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "nameEs": "Bendición divina",
+        "level": 2,
+        "effect": "Has a predetermined chance of reducing the damage you take.",
+        "effectEs": "Has a predetermined chance of reducing the damage you take."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blessing-charm-iii",
+    "name": "Blessing Charm III",
+    "nameEs": "Amuleto bendito III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "nameEs": "Bendición divina",
+        "level": 3,
+        "effect": "Has a predetermined chance of reducing the damage you take.",
+        "effectEs": "Has a predetermined chance of reducing the damage you take."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "recovery-charm-i",
+    "name": "Recovery Charm I",
+    "nameEs": "Amuleto recuperación I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Recovery Up",
+        "nameEs": "Recuperación",
+        "level": 1,
+        "effect": "Increases the amount recovered when restoring health.",
+        "effectEs": "Increases the amount recovered when restoring health."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "recovery-charm-ii",
+    "name": "Recovery Charm II",
+    "nameEs": "Amuleto recuperación II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Recovery Up",
+        "nameEs": "Recuperación",
+        "level": 2,
+        "effect": "Increases the amount recovered when restoring health.",
+        "effectEs": "Increases the amount recovered when restoring health."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "recovery-charm-iii",
+    "name": "Recovery Charm III",
+    "nameEs": "Amuleto recuperación III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Recovery Up",
+        "nameEs": "Recuperación",
+        "level": 3,
+        "effect": "Increases the amount recovered when restoring health.",
+        "effectEs": "Increases the amount recovered when restoring health."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "speed-heal-charm-i",
+    "name": "Speed Heal Charm I",
+    "nameEs": "Amuleto cura veloz I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Recovery Speed",
+        "nameEs": "Recuperación rápida",
+        "level": 1,
+        "effect": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
+        "effectEs": "Speeds healing of recoverable damage (the red portion of the Health Gauge)."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "speed-heal-charm-ii",
+    "name": "Speed Heal Charm II",
+    "nameEs": "Amuleto cura veloz II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Recovery Speed",
+        "nameEs": "Recuperación rápida",
+        "level": 2,
+        "effect": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
+        "effectEs": "Speeds healing of recoverable damage (the red portion of the Health Gauge)."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "speed-heal-charm-iii",
+    "name": "Speed Heal Charm III",
+    "nameEs": "Amuleto cura veloz III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Recovery Speed",
+        "nameEs": "Recuperación rápida",
+        "level": 3,
+        "effect": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
+        "effectEs": "Speeds healing of recoverable damage (the red portion of the Health Gauge)."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "gluttons-charm-i",
+    "name": "Glutton&#x27;s Charm I",
+    "nameEs": "Amuleto gula I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Speed Eating",
+        "nameEs": "Ingesta rápida",
+        "level": 1,
+        "effect": "Increases meat-eating and item-consumption speed.",
+        "effectEs": "Increases meat-eating and item-consumption speed."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "gluttons-charm-ii",
+    "name": "Glutton&#x27;s Charm II",
+    "nameEs": "Amuleto gula II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Speed Eating",
+        "nameEs": "Ingesta rápida",
+        "level": 2,
+        "effect": "Increases meat-eating and item-consumption speed.",
+        "effectEs": "Increases meat-eating and item-consumption speed."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "gluttons-charm-iii",
+    "name": "Glutton&#x27;s Charm III",
+    "nameEs": "Amuleto gula III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Speed Eating",
+        "nameEs": "Ingesta rápida",
+        "level": 3,
+        "effect": "Increases meat-eating and item-consumption speed.",
+        "effectEs": "Increases meat-eating and item-consumption speed."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "earplugs-charm-i",
+    "name": "Earplugs Charm I",
+    "nameEs": "Amuleto antirrugidos I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Earplugs",
+        "nameEs": "Antirrugidos",
+        "level": 1,
+        "effect": "Grants protection from large monsters' roars.",
+        "effectEs": "Grants protection from large monsters' roars."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "earplugs-charm-ii",
+    "name": "Earplugs Charm II",
+    "nameEs": "Amuleto antirrugidos II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Earplugs",
+        "nameEs": "Antirrugidos",
+        "level": 2,
+        "effect": "Grants protection from large monsters' roars.",
+        "effectEs": "Grants protection from large monsters' roars."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "windproof-charm-i",
+    "name": "Windproof Charm I",
+    "nameEs": "Amuleto antiviento I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Windproof",
+        "nameEs": "Antiviento",
+        "level": 1,
+        "effect": "Grants protection against wind pressure.",
+        "effectEs": "Grants protection against wind pressure."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "windproof-charm-ii",
+    "name": "Windproof Charm II",
+    "nameEs": "Amuleto antiviento II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Windproof",
+        "nameEs": "Antiviento",
+        "level": 2,
+        "effect": "Grants protection against wind pressure.",
+        "effectEs": "Grants protection against wind pressure."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "windproof-charm-iii",
+    "name": "Windproof Charm III",
+    "nameEs": "Amuleto antiviento III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Windproof",
+        "nameEs": "Antiviento",
+        "level": 3,
+        "effect": "Grants protection against wind pressure.",
+        "effectEs": "Grants protection against wind pressure."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "tremor-charm-i",
+    "name": "Tremor Charm I",
+    "nameEs": "Amuleto temblores I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Tremor Resistance",
+        "nameEs": "Antitemblores",
+        "level": 1,
+        "effect": "Grants protection against ground tremors.",
+        "effectEs": "Grants protection against ground tremors."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "tremor-charm-ii",
+    "name": "Tremor Charm II",
+    "nameEs": "Amuleto temblores II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Tremor Resistance",
+        "nameEs": "Antitemblores",
+        "level": 2,
+        "effect": "Grants protection against ground tremors.",
+        "effectEs": "Grants protection against ground tremors."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "tremor-charm-iii",
+    "name": "Tremor Charm III",
+    "nameEs": "Amuleto temblores III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Tremor Resistance",
+        "nameEs": "Antitemblores",
+        "level": 3,
+        "effect": "Grants protection against ground tremors.",
+        "effectEs": "Grants protection against ground tremors."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "evasion-charm-i",
+    "name": "Evasion Charm I",
+    "nameEs": "Amuleto evasión I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Evade Window",
+        "nameEs": "Intervalo de evasión",
+        "level": 1,
+        "effect": "Extends the invulnerability period when evading.",
+        "effectEs": "Extends the invulnerability period when evading."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "evasion-charm-ii",
+    "name": "Evasion Charm II",
+    "nameEs": "Amuleto evasión II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Evade Window",
+        "nameEs": "Intervalo de evasión",
+        "level": 2,
+        "effect": "Extends the invulnerability period when evading.",
+        "effectEs": "Extends the invulnerability period when evading."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "evasion-charm-iii",
+    "name": "Evasion Charm III",
+    "nameEs": "Amuleto evasión III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Evade Window",
+        "nameEs": "Intervalo de evasión",
+        "level": 3,
+        "effect": "Extends the invulnerability period when evading.",
+        "effectEs": "Extends the invulnerability period when evading."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "evasion-charm-iv",
+    "name": "Evasion Charm IV",
+    "nameEs": "Amuleto evasión IV",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Evade Window",
+        "nameEs": "Intervalo de evasión",
+        "level": 4,
+        "effect": "Extends the invulnerability period when evading.",
+        "effectEs": "Extends the invulnerability period when evading."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "leaping-charm-i",
+    "name": "Leaping Charm I",
+    "nameEs": "Amuleto saltarín I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Evade Extender",
+        "nameEs": "Distancia evasiva",
+        "level": 1,
+        "effect": "Increases evade distance.",
+        "effectEs": "Increases evade distance."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "leaping-charm-ii",
+    "name": "Leaping Charm II",
+    "nameEs": "Amuleto saltarín II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Evade Extender",
+        "nameEs": "Distancia evasiva",
+        "level": 2,
+        "effect": "Increases evade distance.",
+        "effectEs": "Increases evade distance."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "leaping-charm-iii",
+    "name": "Leaping Charm III",
+    "nameEs": "Amuleto saltarín III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Evade Extender",
+        "nameEs": "Distancia evasiva",
+        "level": 3,
+        "effect": "Increases evade distance.",
+        "effectEs": "Increases evade distance."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fire-charm-i",
+    "name": "Fire Charm I",
+    "nameEs": "Amuleto fuego I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Fire Resistance",
+        "nameEs": "Antifuego",
+        "level": 1,
+        "effect": "Increases fire resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases fire resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fire-charm-ii",
+    "name": "Fire Charm II",
+    "nameEs": "Amuleto fuego II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Fire Resistance",
+        "nameEs": "Antifuego",
+        "level": 2,
+        "effect": "Increases fire resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases fire resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "fire-charm-iii",
+    "name": "Fire Charm III",
+    "nameEs": "Amuleto fuego III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Fire Resistance",
+        "nameEs": "Antifuego",
+        "level": 3,
+        "effect": "Increases fire resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases fire resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "water-charm-i",
+    "name": "Water Charm I",
+    "nameEs": "Amuleto agua I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Water Resistance",
+        "nameEs": "Antiagua",
+        "level": 1,
+        "effect": "Increases water resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases water resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "water-charm-ii",
+    "name": "Water Charm II",
+    "nameEs": "Amuleto agua II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Water Resistance",
+        "nameEs": "Antiagua",
+        "level": 2,
+        "effect": "Increases water resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases water resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "water-charm-iii",
+    "name": "Water Charm III",
+    "nameEs": "Amuleto agua III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Water Resistance",
+        "nameEs": "Antiagua",
+        "level": 3,
+        "effect": "Increases water resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases water resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "thunder-charm-i",
+    "name": "Thunder Charm I",
+    "nameEs": "Amuleto rayo I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Thunder Resistance",
+        "nameEs": "Antirrayo",
+        "level": 1,
+        "effect": "Increases thunder resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases thunder resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "thunder-charm-ii",
+    "name": "Thunder Charm II",
+    "nameEs": "Amuleto rayo II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Thunder Resistance",
+        "nameEs": "Antirrayo",
+        "level": 2,
+        "effect": "Increases thunder resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases thunder resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "thunder-charm-iii",
+    "name": "Thunder Charm III",
+    "nameEs": "Amuleto rayo III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Thunder Resistance",
+        "nameEs": "Antirrayo",
+        "level": 3,
+        "effect": "Increases thunder resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases thunder resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "ice-charm-i",
+    "name": "Ice Charm I",
+    "nameEs": "Amuleto hielo I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Ice Resistance",
+        "nameEs": "Antihielo",
+        "level": 1,
+        "effect": "Increases ice resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases ice resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "ice-charm-ii",
+    "name": "Ice Charm II",
+    "nameEs": "Amuleto hielo II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Ice Resistance",
+        "nameEs": "Antihielo",
+        "level": 2,
+        "effect": "Increases ice resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases ice resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "ice-charm-iii",
+    "name": "Ice Charm III",
+    "nameEs": "Amuleto hielo III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Ice Resistance",
+        "nameEs": "Antihielo",
+        "level": 3,
+        "effect": "Increases ice resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases ice resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "dragon-charm-i",
+    "name": "Dragon Charm I",
+    "nameEs": "Amuleto draco I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Dragon Resistance",
+        "nameEs": "Antidraco",
+        "level": 1,
+        "effect": "Increases dragon resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases dragon resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "dragon-charm-ii",
+    "name": "Dragon Charm II",
+    "nameEs": "Amuleto draco II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Dragon Resistance",
+        "nameEs": "Antidraco",
+        "level": 2,
+        "effect": "Increases dragon resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases dragon resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "dragon-charm-iii",
+    "name": "Dragon Charm III",
+    "nameEs": "Amuleto draco III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Dragon Resistance",
+        "nameEs": "Antidraco",
+        "level": 3,
+        "effect": "Increases dragon resistance. Also improves defense at higher levels.",
+        "effectEs": "Increases dragon resistance. Also improves defense at higher levels."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blight-charm-i",
+    "name": "Blight Charm I",
+    "nameEs": "Amuleto plaga I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Blight Resistance",
+        "nameEs": "Antiplagas",
+        "level": 1,
+        "effect": "Grants protection against all elemental blights.",
+        "effectEs": "Grants protection against all elemental blights."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blight-charm-ii",
+    "name": "Blight Charm II",
+    "nameEs": "Amuleto plaga II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Blight Resistance",
+        "nameEs": "Antiplagas",
+        "level": 2,
+        "effect": "Grants protection against all elemental blights.",
+        "effectEs": "Grants protection against all elemental blights."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blight-charm-iii",
+    "name": "Blight Charm III",
+    "nameEs": "Amuleto plaga III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Blight Resistance",
+        "nameEs": "Antiplagas",
+        "level": 3,
+        "effect": "Grants protection against all elemental blights.",
+        "effectEs": "Grants protection against all elemental blights."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "poison-charm-i",
+    "name": "Poison Charm I",
+    "nameEs": "Amuleto veneno I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Poison Resistance",
+        "nameEs": "Antiveneno",
+        "level": 1,
+        "effect": "Reduces damage while poisoned.",
+        "effectEs": "Reduces damage while poisoned."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "poison-charm-ii",
+    "name": "Poison Charm II",
+    "nameEs": "Amuleto veneno II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Poison Resistance",
+        "nameEs": "Antiveneno",
+        "level": 2,
+        "effect": "Reduces damage while poisoned.",
+        "effectEs": "Reduces damage while poisoned."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "poison-charm-iii",
+    "name": "Poison Charm III",
+    "nameEs": "Amuleto veneno III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Poison Resistance",
+        "nameEs": "Antiveneno",
+        "level": 3,
+        "effect": "Reduces damage while poisoned.",
+        "effectEs": "Reduces damage while poisoned."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "paralysis-charm-i",
+    "name": "Paralysis Charm I",
+    "nameEs": "Amuleto antiparálisis I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Paralysis Resistance",
+        "nameEs": "Antiparálisis",
+        "level": 1,
+        "effect": "Reduces the duration of paralysis.",
+        "effectEs": "Reduces the duration of paralysis."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "paralysis-charm-ii",
+    "name": "Paralysis Charm II",
+    "nameEs": "Amuleto antiparálisis II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Paralysis Resistance",
+        "nameEs": "Antiparálisis",
+        "level": 2,
+        "effect": "Reduces the duration of paralysis.",
+        "effectEs": "Reduces the duration of paralysis."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "paralysis-charm-iii",
+    "name": "Paralysis Charm III",
+    "nameEs": "Amuleto antiparálisis III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Paralysis Resistance",
+        "nameEs": "Antiparálisis",
+        "level": 3,
+        "effect": "Reduces the duration of paralysis.",
+        "effectEs": "Reduces the duration of paralysis."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sleep-charm-i",
+    "name": "Sleep Charm I",
+    "nameEs": "Amuleto sueño I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Sleep Resistance",
+        "nameEs": "Antisueño",
+        "level": 1,
+        "effect": "Reduces the duration of sleep.",
+        "effectEs": "Reduces the duration of sleep."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sleep-charm-ii",
+    "name": "Sleep Charm II",
+    "nameEs": "Amuleto sueño II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Sleep Resistance",
+        "nameEs": "Antisueño",
+        "level": 2,
+        "effect": "Reduces the duration of sleep.",
+        "effectEs": "Reduces the duration of sleep."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sleep-charm-iii",
+    "name": "Sleep Charm III",
+    "nameEs": "Amuleto sueño III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Sleep Resistance",
+        "nameEs": "Antisueño",
+        "level": 3,
+        "effect": "Reduces the duration of sleep.",
+        "effectEs": "Reduces the duration of sleep."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "stun-charm-i",
+    "name": "Stun Charm I",
+    "nameEs": "Amuleto aturdidor I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Stun Resistance",
+        "nameEs": "Antiaturdimiento",
+        "level": 1,
+        "effect": "Reduces the duration of stun.",
+        "effectEs": "Reduces the duration of stun."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "stun-charm-ii",
+    "name": "Stun Charm II",
+    "nameEs": "Amuleto aturdidor II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Stun Resistance",
+        "nameEs": "Antiaturdimiento",
+        "level": 2,
+        "effect": "Reduces the duration of stun.",
+        "effectEs": "Reduces the duration of stun."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "stun-charm-iii",
+    "name": "Stun Charm III",
+    "nameEs": "Amuleto aturdidor III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Stun Resistance",
+        "nameEs": "Antiaturdimiento",
+        "level": 3,
+        "effect": "Reduces the duration of stun.",
+        "effectEs": "Reduces the duration of stun."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blast-charm-i",
+    "name": "Blast Charm I",
+    "nameEs": "Amuleto nitro I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Blast Resistance",
+        "nameEs": "Antinitro",
+        "level": 1,
+        "effect": "Grants protection against blastblight.",
+        "effectEs": "Grants protection against blastblight."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blast-charm-ii",
+    "name": "Blast Charm II",
+    "nameEs": "Amuleto nitro II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Blast Resistance",
+        "nameEs": "Antinitro",
+        "level": 2,
+        "effect": "Grants protection against blastblight.",
+        "effectEs": "Grants protection against blastblight."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "blast-charm-iii",
+    "name": "Blast Charm III",
+    "nameEs": "Amuleto nitro III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Blast Resistance",
+        "nameEs": "Antinitro",
+        "level": 3,
+        "effect": "Grants protection against blastblight.",
+        "effectEs": "Grants protection against blastblight."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "botany-charm-i",
+    "name": "Botany Charm I",
+    "nameEs": "Amuleto botánico I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Botanist",
+        "nameEs": "Botánica",
+        "level": 1,
+        "effect": "Increases the quantity of herbs and other consumable items you gather.",
+        "effectEs": "Increases the quantity of herbs and other consumable items you gather."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "botany-charm-ii",
+    "name": "Botany Charm II",
+    "nameEs": "Amuleto botánico II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Botanist",
+        "nameEs": "Botánica",
+        "level": 2,
+        "effect": "Increases the quantity of herbs and other consumable items you gather.",
+        "effectEs": "Increases the quantity of herbs and other consumable items you gather."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "botany-charm-iii",
+    "name": "Botany Charm III",
+    "nameEs": "Amuleto botánico III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Botanist",
+        "nameEs": "Botánica",
+        "level": 3,
+        "effect": "Increases the quantity of herbs and other consumable items you gather.",
+        "effectEs": "Increases the quantity of herbs and other consumable items you gather."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "botany-charm-iv",
+    "name": "Botany Charm IV",
+    "nameEs": "Amuleto botánico IV",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Botanist",
+        "nameEs": "Botánica",
+        "level": 4,
+        "effect": "Increases the quantity of herbs and other consumable items you gather.",
+        "effectEs": "Increases the quantity of herbs and other consumable items you gather."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "geology-charm-i",
+    "name": "Geology Charm I",
+    "nameEs": "Amuleto geólogo I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Geologist",
+        "nameEs": "Geología",
+        "level": 1,
+        "effect": "Increases the number of items you gain at gathering points.",
+        "effectEs": "Increases the number of items you gain at gathering points."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "geology-charm-ii",
+    "name": "Geology Charm II",
+    "nameEs": "Amuleto geólogo II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Geologist",
+        "nameEs": "Geología",
+        "level": 2,
+        "effect": "Increases the number of items you gain at gathering points.",
+        "effectEs": "Increases the number of items you gain at gathering points."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "geology-charm-iii",
+    "name": "Geology Charm III",
+    "nameEs": "Amuleto geólogo III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Geologist",
+        "nameEs": "Geología",
+        "level": 3,
+        "effect": "Increases the number of items you gain at gathering points.",
+        "effectEs": "Increases the number of items you gain at gathering points."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "breaker-charm-i",
+    "name": "Breaker Charm I",
+    "nameEs": "Amuleto destructor I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Partbreaker",
+        "nameEs": "Rompepartes",
+        "level": 1,
+        "effect": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
+        "effectEs": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "breaker-charm-ii",
+    "name": "Breaker Charm II",
+    "nameEs": "Amuleto destructor II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Partbreaker",
+        "nameEs": "Rompepartes",
+        "level": 2,
+        "effect": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
+        "effectEs": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "breaker-charm-iii",
+    "name": "Breaker Charm III",
+    "nameEs": "Amuleto destructor III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Partbreaker",
+        "nameEs": "Rompepartes",
+        "level": 3,
+        "effect": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
+        "effectEs": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "bombardier-charm-i",
+    "name": "Bombardier Charm I",
+    "nameEs": "Amuleto bombardero I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Bombardier",
+        "nameEs": "Bombardero",
+        "level": 1,
+        "effect": "Increases the damage of explosive items.",
+        "effectEs": "Increases the damage of explosive items."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "bombardier-charm-ii",
+    "name": "Bombardier Charm II",
+    "nameEs": "Amuleto bombardero II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Bombardier",
+        "nameEs": "Bombardero",
+        "level": 2,
+        "effect": "Increases the damage of explosive items.",
+        "effectEs": "Increases the damage of explosive items."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "bombardier-charm-iii",
+    "name": "Bombardier Charm III",
+    "nameEs": "Amuleto bombardero III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Bombardier",
+        "nameEs": "Bombardero",
+        "level": 3,
+        "effect": "Increases the damage of explosive items.",
+        "effectEs": "Increases the damage of explosive items."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "mushroom-charm-i",
+    "name": "Mushroom Charm I",
+    "nameEs": "Amuleto seta I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Mushroomancer",
+        "nameEs": "Micología",
+        "level": 1,
+        "effect": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
+        "effectEs": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "mushroom-charm-ii",
+    "name": "Mushroom Charm II",
+    "nameEs": "Amuleto seta II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Mushroomancer",
+        "nameEs": "Micología",
+        "level": 2,
+        "effect": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
+        "effectEs": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "mushroom-charm-iii",
+    "name": "Mushroom Charm III",
+    "nameEs": "Amuleto seta III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Mushroomancer",
+        "nameEs": "Micología",
+        "level": 3,
+        "effect": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
+        "effectEs": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "extension-charm-i",
+    "name": "Extension Charm I",
+    "nameEs": "Amuleto extensión I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Item Prolonger",
+        "nameEs": "Duración de objetos",
+        "level": 1,
+        "effect": "Extends the duration of some item effects.",
+        "effectEs": "Extends the duration of some item effects."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "extension-charm-ii",
+    "name": "Extension Charm II",
+    "nameEs": "Amuleto extensión II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Item Prolonger",
+        "nameEs": "Duración de objetos",
+        "level": 2,
+        "effect": "Extends the duration of some item effects.",
+        "effectEs": "Extends the duration of some item effects."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "extension-charm-iii",
+    "name": "Extension Charm III",
+    "nameEs": "Amuleto extensión III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Item Prolonger",
+        "nameEs": "Duración de objetos",
+        "level": 3,
+        "effect": "Extends the duration of some item effects.",
+        "effectEs": "Extends the duration of some item effects."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "friendship-charm-i",
+    "name": "Friendship Charm I",
+    "nameEs": "Amuleto amistad I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Wide-Range",
+        "nameEs": "Efecto área",
+        "level": 1,
+        "effect": "Allows the effects of certain items to also affect nearby allies.",
+        "effectEs": "Allows the effects of certain items to also affect nearby allies."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "friendship-charm-ii",
+    "name": "Friendship Charm II",
+    "nameEs": "Amuleto amistad II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Wide-Range",
+        "nameEs": "Efecto área",
+        "level": 2,
+        "effect": "Allows the effects of certain items to also affect nearby allies.",
+        "effectEs": "Allows the effects of certain items to also affect nearby allies."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "friendship-charm-iii",
+    "name": "Friendship Charm III",
+    "nameEs": "Amuleto amistad III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Wide-Range",
+        "nameEs": "Efecto área",
+        "level": 3,
+        "effect": "Allows the effects of certain items to also affect nearby allies.",
+        "effectEs": "Allows the effects of certain items to also affect nearby allies."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "friendship-charm-iv",
+    "name": "Friendship Charm IV",
+    "nameEs": "Amuleto amistad IV",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Wide-Range",
+        "nameEs": "Efecto área",
+        "level": 4,
+        "effect": "Allows the effects of certain items to also affect nearby allies.",
+        "effectEs": "Allows the effects of certain items to also affect nearby allies."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "friendship-charm-v",
+    "name": "Friendship Charm V",
+    "nameEs": "Amuleto amistad V",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Wide-Range",
+        "nameEs": "Efecto área",
+        "level": 5,
+        "effect": "Allows the effects of certain items to also affect nearby allies.",
+        "effectEs": "Allows the effects of certain items to also affect nearby allies."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "light-eaters-charm-i",
+    "name": "Light Eater&#x27;s Charm I",
+    "nameEs": "Amuleto frugal I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Free Meal",
+        "nameEs": "Comida gratis",
+        "level": 1,
+        "effect": "Gives you a predetermined chance of consuming a food or drink item for free.",
+        "effectEs": "Gives you a predetermined chance of consuming a food or drink item for free."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "light-eaters-charm-ii",
+    "name": "Light Eater&#x27;s Charm II",
+    "nameEs": "Amuleto frugal II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Free Meal",
+        "nameEs": "Comida gratis",
+        "level": 2,
+        "effect": "Gives you a predetermined chance of consuming a food or drink item for free.",
+        "effectEs": "Gives you a predetermined chance of consuming a food or drink item for free."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "light-eaters-charm-iii",
+    "name": "Light Eater&#x27;s Charm III",
+    "nameEs": "Amuleto frugal III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Free Meal",
+        "nameEs": "Comida gratis",
+        "level": 3,
+        "effect": "Gives you a predetermined chance of consuming a food or drink item for free.",
+        "effectEs": "Gives you a predetermined chance of consuming a food or drink item for free."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "grit-charm-i",
+    "name": "Grit Charm I",
+    "nameEs": "Amuleto abrasivo I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Heroics",
+        "nameEs": "Heroicidad",
+        "level": 1,
+        "effect": "Increases attack power and defense when health drops to 35% or lower.",
+        "effectEs": "Increases attack power and defense when health drops to 35% or lower."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "grit-charm-ii",
+    "name": "Grit Charm II",
+    "nameEs": "Amuleto abrasivo II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Heroics",
+        "nameEs": "Heroicidad",
+        "level": 2,
+        "effect": "Increases attack power and defense when health drops to 35% or lower.",
+        "effectEs": "Increases attack power and defense when health drops to 35% or lower."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "grit-charm-iii",
+    "name": "Grit Charm III",
+    "nameEs": "Amuleto abrasivo III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Heroics",
+        "nameEs": "Heroicidad",
+        "level": 3,
+        "effect": "Increases attack power and defense when health drops to 35% or lower.",
+        "effectEs": "Increases attack power and defense when health drops to 35% or lower."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "grit-charm-iv",
+    "name": "Grit Charm IV",
+    "nameEs": "Amuleto abrasivo IV",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Heroics",
+        "nameEs": "Heroicidad",
+        "level": 4,
+        "effect": "Increases attack power and defense when health drops to 35% or lower.",
+        "effectEs": "Increases attack power and defense when health drops to 35% or lower."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "impact-charm-i",
+    "name": "Impact Charm I",
+    "nameEs": "Amuleto impacto I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Flinch Free",
+        "nameEs": "Firmeza",
+        "level": 1,
+        "effect": "Prevents knockbacks and other reactions to small damage.",
+        "effectEs": "Prevents knockbacks and other reactions to small damage."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "impact-charm-ii",
+    "name": "Impact Charm II",
+    "nameEs": "Amuleto impacto II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Flinch Free",
+        "nameEs": "Firmeza",
+        "level": 2,
+        "effect": "Prevents knockbacks and other reactions to small damage.",
+        "effectEs": "Prevents knockbacks and other reactions to small damage."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "impact-charm-iii",
+    "name": "Impact Charm III",
+    "nameEs": "Amuleto impacto III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Flinch Free",
+        "nameEs": "Firmeza",
+        "level": 3,
+        "effect": "Prevents knockbacks and other reactions to small damage.",
+        "effectEs": "Prevents knockbacks and other reactions to small damage."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "hungerless-charm-i",
+    "name": "Hungerless Charm I",
+    "nameEs": "Amuleto antihambre I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Hunger Resistance",
+        "nameEs": "Antihambre",
+        "level": 1,
+        "effect": "Reduces maximum stamina depletion over time.",
+        "effectEs": "Reduces maximum stamina depletion over time."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "hungerless-charm-ii",
+    "name": "Hungerless Charm II",
+    "nameEs": "Amuleto antihambre II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Hunger Resistance",
+        "nameEs": "Antihambre",
+        "level": 2,
+        "effect": "Reduces maximum stamina depletion over time.",
+        "effectEs": "Reduces maximum stamina depletion over time."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "hungerless-charm-iii",
+    "name": "Hungerless Charm III",
+    "nameEs": "Amuleto antihambre III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Hunger Resistance",
+        "nameEs": "Antihambre",
+        "level": 3,
+        "effect": "Reduces maximum stamina depletion over time.",
+        "effectEs": "Reduces maximum stamina depletion over time."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "counter-charm-i",
+    "name": "Counter Charm I",
+    "nameEs": "Amuleto de contraataque I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Counterstrike",
+        "nameEs": "Venganza",
+        "level": 1,
+        "effect": "Temporarily increases attack power after being knocked back.",
+        "effectEs": "Temporarily increases attack power after being knocked back."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "counter-charm-ii",
+    "name": "Counter Charm II",
+    "nameEs": "Amuleto de contraataque II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Counterstrike",
+        "nameEs": "Venganza",
+        "level": 2,
+        "effect": "Temporarily increases attack power after being knocked back.",
+        "effectEs": "Temporarily increases attack power after being knocked back."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "counter-charm-iii",
+    "name": "Counter Charm III",
+    "nameEs": "Amuleto de contraataque III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Counterstrike",
+        "nameEs": "Venganza",
+        "level": 3,
+        "effect": "Temporarily increases attack power after being knocked back.",
+        "effectEs": "Temporarily increases attack power after being knocked back."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "foray-charm-i",
+    "name": "Foray Charm I",
+    "nameEs": "Amuleto de irrupción I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Foray",
+        "nameEs": "Irrupción",
+        "level": 1,
+        "effect": "Increases attack power and affinity against large monsters affected by poison or paralysis.",
+        "effectEs": "Increases attack power and affinity against large monsters affected by poison or paralysis."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "foray-charm-ii",
+    "name": "Foray Charm II",
+    "nameEs": "Amuleto de irrupción II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Foray",
+        "nameEs": "Irrupción",
+        "level": 2,
+        "effect": "Increases attack power and affinity against large monsters affected by poison or paralysis.",
+        "effectEs": "Increases attack power and affinity against large monsters affected by poison or paralysis."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "foray-charm-iii",
+    "name": "Foray Charm III",
+    "nameEs": "Amuleto de irrupción III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Foray",
+        "nameEs": "Irrupción",
+        "level": 3,
+        "effect": "Increases attack power and affinity against large monsters affected by poison or paralysis.",
+        "effectEs": "Increases attack power and affinity against large monsters affected by poison or paralysis."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "phoenix-charm-i",
+    "name": "Phoenix Charm I",
+    "nameEs": "Amuleto fénix I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Coalescence",
+        "nameEs": "Coalescencia",
+        "level": 1,
+        "effect": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
+        "effectEs": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "phoenix-charm-ii",
+    "name": "Phoenix Charm II",
+    "nameEs": "Amuleto fénix II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Coalescence",
+        "nameEs": "Coalescencia",
+        "level": 2,
+        "effect": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
+        "effectEs": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "phoenix-charm-iii",
+    "name": "Phoenix Charm III",
+    "nameEs": "Amuleto fénix III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Coalescence",
+        "nameEs": "Coalescencia",
+        "level": 3,
+        "effect": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
+        "effectEs": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "chain-charm-i",
+    "name": "Chain Charm I",
+    "nameEs": "Amuleto de serie I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Burst",
+        "nameEs": "Ráfaga",
+        "level": 1,
+        "effect": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)",
+        "effectEs": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)"
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "chain-charm-ii",
+    "name": "Chain Charm II",
+    "nameEs": "Amuleto de serie II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Burst",
+        "nameEs": "Ráfaga",
+        "level": 2,
+        "effect": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)",
+        "effectEs": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)"
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "chain-charm-iii",
+    "name": "Chain Charm III",
+    "nameEs": "Amuleto de serie III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Burst",
+        "nameEs": "Ráfaga",
+        "level": 3,
+        "effect": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)",
+        "effectEs": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)"
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "counterattack-charm-i",
+    "name": "Counterattack Charm I",
+    "nameEs": "Amuleto de contragolpe I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Adrenaline Rush",
+        "nameEs": "Subida de adrenalina",
+        "level": 1,
+        "effect": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
+        "effectEs": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "counterattack-charm-ii",
+    "name": "Counterattack Charm II",
+    "nameEs": "Amuleto de contragolpe II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Adrenaline Rush",
+        "nameEs": "Subida de adrenalina",
+        "level": 2,
+        "effect": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
+        "effectEs": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "counterattack-charm-iii",
+    "name": "Counterattack Charm III",
+    "nameEs": "Amuleto de contragolpe III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Adrenaline Rush",
+        "nameEs": "Subida de adrenalina",
+        "level": 3,
+        "effect": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
+        "effectEs": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "descent-charm-i",
+    "name": "Descent Charm I",
+    "nameEs": "Amuleto de descenso I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Ambush",
+        "nameEs": "Emboscada",
+        "level": 1,
+        "effect": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
+        "effectEs": "Temporarily increases damage to large monsters with a successful Sneak Attack."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "descent-charm-ii",
+    "name": "Descent Charm II",
+    "nameEs": "Amuleto de descenso II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Ambush",
+        "nameEs": "Emboscada",
+        "level": 2,
+        "effect": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
+        "effectEs": "Temporarily increases damage to large monsters with a successful Sneak Attack."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "descent-charm-iii",
+    "name": "Descent Charm III",
+    "nameEs": "Amuleto de descenso III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Ambush",
+        "nameEs": "Emboscada",
+        "level": 3,
+        "effect": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
+        "effectEs": "Temporarily increases damage to large monsters with a successful Sneak Attack."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "bleed-charm-i",
+    "name": "Bleed Charm I",
+    "nameEs": "Amuleto sangre I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Bleeding Resistance",
+        "nameEs": "Antisangrado",
+        "level": 1,
+        "effect": "Grants protection against bleeding.",
+        "effectEs": "Grants protection against bleeding."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "bleed-charm-ii",
+    "name": "Bleed Charm II",
+    "nameEs": "Amuleto sangre II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Bleeding Resistance",
+        "nameEs": "Antisangrado",
+        "level": 2,
+        "effect": "Grants protection against bleeding.",
+        "effectEs": "Grants protection against bleeding."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "bleed-charm-iii",
+    "name": "Bleed Charm III",
+    "nameEs": "Amuleto sangre III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Bleeding Resistance",
+        "nameEs": "Antisangrado",
+        "level": 3,
+        "effect": "Grants protection against bleeding.",
+        "effectEs": "Grants protection against bleeding."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "guard-charm-i",
+    "name": "Guard Charm I",
+    "nameEs": "Amuleto guarda I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Iron Skin",
+        "nameEs": "Piel de hierro",
+        "level": 1,
+        "effect": "Grants protection against defense down.",
+        "effectEs": "Grants protection against defense down."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "guard-charm-ii",
+    "name": "Guard Charm II",
+    "nameEs": "Amuleto guarda II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Iron Skin",
+        "nameEs": "Piel de hierro",
+        "level": 2,
+        "effect": "Grants protection against defense down.",
+        "effectEs": "Grants protection against defense down."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "guard-charm-iii",
+    "name": "Guard Charm III",
+    "nameEs": "Amuleto guarda III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Iron Skin",
+        "nameEs": "Piel de hierro",
+        "level": 3,
+        "effect": "Grants protection against defense down.",
+        "effectEs": "Grants protection against defense down."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "survival-charm-i",
+    "name": "Survival Charm I",
+    "nameEs": "Amuleto de supervivencia I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Survival Expert",
+        "nameEs": "Experto en supervivencia",
+        "level": 1,
+        "effect": "Extra health is recovered from environmental interactables.",
+        "effectEs": "Extra health is recovered from environmental interactables."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "survival-charm-ii",
+    "name": "Survival Charm II",
+    "nameEs": "Amuleto de supervivencia II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Survival Expert",
+        "nameEs": "Experto en supervivencia",
+        "level": 2,
+        "effect": "Extra health is recovered from environmental interactables.",
+        "effectEs": "Extra health is recovered from environmental interactables."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "survival-charm-iii",
+    "name": "Survival Charm III",
+    "nameEs": "Amuleto de supervivencia III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Survival Expert",
+        "nameEs": "Experto en supervivencia",
+        "level": 3,
+        "effect": "Extra health is recovered from environmental interactables.",
+        "effectEs": "Extra health is recovered from environmental interactables."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "maintenance-charm-i",
+    "name": "Maintenance Charm I",
+    "nameEs": "Amuleto reparador I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Tool Specialist",
+        "nameEs": "Experto en herramientas",
+        "level": 1,
+        "effect": "Reduces the recharge time for specialized tools.",
+        "effectEs": "Reduces the recharge time for specialized tools."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "maintenance-charm-ii",
+    "name": "Maintenance Charm II",
+    "nameEs": "Amuleto reparador II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Tool Specialist",
+        "nameEs": "Experto en herramientas",
+        "level": 2,
+        "effect": "Reduces the recharge time for specialized tools.",
+        "effectEs": "Reduces the recharge time for specialized tools."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "maintenance-charm-iii",
+    "name": "Maintenance Charm III",
+    "nameEs": "Amuleto reparador III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Tool Specialist",
+        "nameEs": "Experto en herramientas",
+        "level": 3,
+        "effect": "Reduces the recharge time for specialized tools.",
+        "effectEs": "Reduces the recharge time for specialized tools."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "intimidator-charm-i",
+    "name": "Intimidator Charm I",
+    "nameEs": "Amuleto intimidante I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Intimidator",
+        "nameEs": "Intimidador",
+        "level": 1,
+        "effect": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)",
+        "effectEs": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)"
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "intimidator-charm-ii",
+    "name": "Intimidator Charm II",
+    "nameEs": "Amuleto intimidante II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Intimidator",
+        "nameEs": "Intimidador",
+        "level": 2,
+        "effect": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)",
+        "effectEs": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)"
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "intimidator-charm-iii",
+    "name": "Intimidator Charm III",
+    "nameEs": "Amuleto intimidante III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Intimidator",
+        "nameEs": "Intimidador",
+        "level": 3,
+        "effect": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)",
+        "effectEs": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)"
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "escape-charm-i",
+    "name": "Escape Charm I",
+    "nameEs": "Amuleto de escape I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Bind Resistance",
+        "nameEs": "Antiinmovilización",
+        "level": 1,
+        "effect": "Grants protection against webbed status and frostblight.",
+        "effectEs": "Grants protection against webbed status and frostblight."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "escape-charm-ii",
+    "name": "Escape Charm II",
+    "nameEs": "Amuleto de escape II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Bind Resistance",
+        "nameEs": "Antiinmovilización",
+        "level": 2,
+        "effect": "Grants protection against webbed status and frostblight.",
+        "effectEs": "Grants protection against webbed status and frostblight."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "escape-charm-iii",
+    "name": "Escape Charm III",
+    "nameEs": "Amuleto de escape III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Bind Resistance",
+        "nameEs": "Antiinmovilización",
+        "level": 3,
+        "effect": "Grants protection against webbed status and frostblight.",
+        "effectEs": "Grants protection against webbed status and frostblight."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "chainblade-charm-i",
+    "name": "Chainblade Charm I",
+    "nameEs": "Amuleto desollador I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Flayer",
+        "nameEs": "Desuello",
+        "level": 1,
+        "effect": "Makes it easier to inflict wounds. Can also deal extra non-elemental damage upon buildup. (Excludes some attacks.)",
+        "effectEs": "Makes it easier to inflict wounds. Can also deal extra non-elemental damage upon buildup. (Excludes some attacks.)"
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "chainblade-charm-ii",
+    "name": "Chainblade Charm II",
+    "nameEs": "Amuleto desollador II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Flayer",
+        "nameEs": "Desuello",
+        "level": 2,
+        "effect": "Makes it easier to inflict wounds. Can also deal extra non-elemental damage upon buildup. (Excludes some attacks.)",
+        "effectEs": "Makes it easier to inflict wounds. Can also deal extra non-elemental damage upon buildup. (Excludes some attacks.)"
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "imbibe-charm-i",
+    "name": "Imbibe Charm I",
+    "nameEs": "Amuleto de ósmosis I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Elemental Absorption",
+        "nameEs": "Absorción elemental",
+        "level": 1,
+        "effect": "After taking elemental damage, temporarily grants you element effects. (Cooldown after effect ends)",
+        "effectEs": "After taking elemental damage, temporarily grants you element effects. (Cooldown after effect ends)"
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "imbibe-charm-ii",
+    "name": "Imbibe Charm II",
+    "nameEs": "Amuleto de ósmosis II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Elemental Absorption",
+        "nameEs": "Absorción elemental",
+        "level": 2,
+        "effect": "After taking elemental damage, temporarily grants you element effects. (Cooldown after effect ends)",
+        "effectEs": "After taking elemental damage, temporarily grants you element effects. (Cooldown after effect ends)"
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "convert-charm-i",
+    "name": "Convert Charm I",
+    "nameEs": "Amuleto de conversión I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Convert Element",
+        "nameEs": "Convierte elemento",
+        "level": 1,
+        "effect": "After taking elemental damage, temporarily grants you dragon element effects. (Cooldown after effect ends.)",
+        "effectEs": "After taking elemental damage, temporarily grants you dragon element effects. (Cooldown after effect ends.)"
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "convert-charm-ii",
+    "name": "Convert Charm II",
+    "nameEs": "Amuleto de conversión II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Convert Element",
+        "nameEs": "Convierte elemento",
+        "level": 2,
+        "effect": "After taking elemental damage, temporarily grants you dragon element effects. (Cooldown after effect ends.)",
+        "effectEs": "After taking elemental damage, temporarily grants you dragon element effects. (Cooldown after effect ends.)"
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sanity-charm-i",
+    "name": "Sanity Charm I",
+    "nameEs": "Amuleto de cordura I",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Antivirus",
+        "nameEs": "Antivirus",
+        "level": 1,
+        "effect": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured.",
+        "effectEs": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sanity-charm-ii",
+    "name": "Sanity Charm II",
+    "nameEs": "Amuleto de cordura II",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Antivirus",
+        "nameEs": "Antivirus",
+        "level": 2,
+        "effect": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured.",
+        "effectEs": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "sanity-charm-iii",
+    "name": "Sanity Charm III",
+    "nameEs": "Amuleto de cordura III",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Antivirus",
+        "nameEs": "Antivirus",
+        "level": 3,
+        "effect": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured.",
+        "effectEs": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "hope-charm",
+    "name": "Hope Charm",
+    "nameEs": "Amuleto de esperanza",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Recovery Up",
+        "nameEs": "Recuperación",
+        "level": 1,
+        "effect": "Increases the amount recovered when restoring health.",
+        "effectEs": "Increases the amount recovered when restoring health."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "maintenance-charm-iv",
+    "name": "Maintenance Charm IV",
+    "nameEs": "Amuleto reparador IV",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Tool Specialist",
+        "nameEs": "Experto en herramientas",
+        "level": 4,
+        "effect": "Reduces the recharge time for specialized tools.",
+        "effectEs": "Reduces the recharge time for specialized tools."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "rice-ball-charm",
+    "name": "Rice Ball Charm",
+    "nameEs": "Talismán de onigiri",
+    "rarity": 0,
+    "skills": [
+      {
+        "name": "Rice Ball",
+        "nameEs": "Onigiri",
+        "level": 1,
+        "effect": "Increases the attack power of Akuma actions and stun damage.",
+        "effectEs": "Increases the attack power of Akuma actions and stun damage."
+      }
+    ],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "unknown-charm",
+    "name": "Unknown Charm",
+    "nameEs": "Amuleto desconocido",
+    "rarity": 0,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "historical-charm",
+    "name": "Historical Charm",
+    "nameEs": "Amuleto histórico",
+    "rarity": 0,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "secret-charm",
+    "name": "Secret Charm",
+    "nameEs": "Amuleto secreto",
+    "rarity": 0,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  },
+  {
+    "id": "golden-age-charm",
+    "name": "Golden Age Charm",
+    "nameEs": "Amuleto de edad dorada",
+    "rarity": 0,
+    "skills": [],
+    "materials": [],
+    "decoSlots": []
+  }
 ]

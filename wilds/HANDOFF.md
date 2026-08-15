@@ -46,7 +46,7 @@ Scrapeadas las Comparison Table embebidas (tabs) de las 14 páginas de tipo de a
 Ampliado esta sesión con Materials/Ingredients/Bowgun_Ammo/Special_Item-Other de Fextralife (antes solo `/Items`). Cobertura de íconos de materiales que aparecen en `monsters.json`: **252/286 (88%)**, con fallback automático de tier "+" (ítem base y su versión "+" comparten ícono).
 
 ### Charms — solo nombres, 185 entradas
-`data/charms.json` sigue siendo solo `{id, name, rarity:0, skills:[], materials:[], decoSlots:[]}`. La página `charms.html` ya funciona (patrón índice+detalle igual a Habilidades), pero sin datos reales todavía muestra "sin datos" en skills/materiales. **No se investigó fuente para esto todavía.**
+`data/charms.json` conserva el esquema `{id, name, rarity, skills, materials, decoSlots}`, pero ahora 181/185 talismanes tienen habilidad, nivel y efecto extraídos de sus fichas de Kiranico (inglés y nombre de habilidad en español). Los 4 registros restantes son entradas especiales sin habilidad publicable en la fuente. Materiales e íconos siguen vacíos porque Kiranico no los expone para estos talismanes.
 
 ---
 
@@ -68,7 +68,7 @@ Los nombres de sets/piezas con "Alpha"/"Beta" ahora usan los símbolos griegos *
 
 - 🔴 **Materiales por pieza de armadura** (solo hay a nivel de set) — si se necesita desglose, re-scrapear página individual de cada pieza.
 - 🔴 **Árbol de mejora de armas** (prevId/nextId) — sin esto el catálogo no puede mostrar "solo finales". Buscar otra fuente (quizás `monsterhunterwiki.org` tenga cadena de crafteo, no probado).
-- 🟡 **Talismanes**: sin ícono/skills/materiales — fuente no investigada.
+- 🟡 **Talismanes**: habilidades cubiertas en 181/185; quedan sin ícono/materiales y 4 entradas especiales sin habilidad en la fuente.
 - 🟡 **34/286 materiales** y **30/177 skills** sin ícono — las páginas ya scrapeadas no los cubren.
 - ✅ **"High Purrformance Barrel Puncher"** — verificado como entrada ajena al catálogo y descartado del dataset final.
 - 🟢 Todo lo demás (monstruos, decoraciones, sets de armadura, catálogo de armas) es usable y verificado en navegador sin errores de consola.
