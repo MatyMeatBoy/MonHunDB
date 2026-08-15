@@ -22,7 +22,7 @@
 | Fotos de sets de armadura | `██████████` **99,5% (403/405)** | **2 sets especiales/evento sin retrato Fandom fiable** |
 | Sets con fuente Fandom prioritaria | `███████░░░` **76,8% (311/405)** | El resto conserva GameFAQs/local cuando Fandom no tiene imagen real o no distingue el rango |
 | Renders de piezas de armadura | `██████████` **97,5% (2.156/2.211)** | **55 piezas** |
-| Materiales de monstruo | `█████████░` **98,8% (82/83 fichas)** | **1 ficha** |
+| Materiales de monstruo | `██████████` **100% documentado (82 con drops + Felyne sin drops)** | 0 sin clasificar |
 | Armas, adornos, objetos y habilidades | **Catálogo cargado** | Falta auditoría visual individual |
 
 ### Rise
@@ -59,10 +59,10 @@
 Wilds: habilidades por pieza         0% pendiente  ░░░░░░░░░░
 Wilds: materiales por pieza          99% pendiente  ██████████
 Wilds: charms (habilidades)           2% pendiente  ░░░░░░░░░░
-MHFU: fotos de sets                  29% pendiente  ███░░░░░░░
+MHFU: fotos de sets                   1% pendiente  ░░░░░░░░░░
 Rise: rareza de armas                  0% pendiente  ░░░░░░░░░░
 MHFU: renders de piezas                3% pendiente  ░░░░░░░░░░
-Wilds: materiales de sets              9% pendiente  ░░░░░░░░░░
+Wilds: materiales de sets              0% pendiente  ░░░░░░░░░░
 ``` 
 
 ## Lectura rápida
