@@ -46,7 +46,7 @@ Scrapeadas las Comparison Table embebidas (tabs) de las 14 páginas de tipo de a
 Ampliado esta sesión con Materials/Ingredients/Bowgun_Ammo/Special_Item-Other de Fextralife (antes solo `/Items`). Cobertura de íconos de materiales que aparecen en `monsters.json`: **252/286 (88%)**, con fallback automático de tier "+" (ítem base y su versión "+" comparten ícono).
 
 ### Charms — solo nombres, 185 entradas
-`data/charms.json` conserva el esquema `{id, name, rarity, skills, materials, decoSlots}`, pero ahora 181/185 talismanes tienen habilidad, nivel y efecto extraídos de sus fichas de Kiranico, con nombre y efecto en español. Los 4 registros restantes son entradas especiales sin habilidad publicable en la fuente. Materiales e íconos siguen vacíos porque Kiranico no los expone para estos talismanes.
+`data/charms.json` conserva el esquema `{id, name, rarity, skills, materials, decoSlots}`; las 185 fichas tienen ahora descripción de Kiranico, y 181/185 tienen además habilidad, nivel y efecto, con nombre y efecto en español. Los 4 registros restantes son entradas especiales sin habilidad publicable en la fuente. Materiales e íconos siguen vacíos porque Kiranico no los expone para estos talismanes.
 
 ---
 
