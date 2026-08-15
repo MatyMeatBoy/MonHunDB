@@ -46,7 +46,7 @@
 | Imágenes de sets de armadura | `██████████` **98,7% (157/159)** | **2 sets** |
 | Materiales de sets | `█████████░` **91,2% (145/159)** | **14 sets** |
 | Habilidades de sets | `██████████` **100% (159/159)** | **0 sets** |
-| Habilidades por pieza | `██████████` **97,1% (670/690)** | **20 piezas** |
+| Habilidades por pieza | `██████████` **100% (690/690)** | **0 piezas** |
 | Materiales por pieza | `░░░░░░░░░░` **0,7% (5/690)** | **685 piezas** |
 | Datos de habilidades de charms | `█████████░` **97,8% (181/185)** | **4 entradas especiales sin habilidad publicable** |
 | Visor 3D | **Pendiente** | No hay modelos locales detectados |
@@ -56,7 +56,7 @@
 ## Gráfico de deuda prioritaria
 
 ```text
-Wilds: habilidades por pieza        15% pendiente  ██░░░░░░░░
+Wilds: habilidades por pieza         0% pendiente  ░░░░░░░░░░
 Wilds: materiales por pieza          99% pendiente  ██████████
 Wilds: charms (habilidades)           2% pendiente  ░░░░░░░░░░
 MHFU: fotos de sets                  29% pendiente  ███░░░░░░░

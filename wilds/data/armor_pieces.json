@@ -20,7 +20,12 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Burst",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/66/Sororal_earrings-mhwilds-wiki-guide.png/100px-Sororal_earrings-mhwilds-wiki-guide.png",
     "setName": "Sororal α Set"
@@ -39,7 +44,20 @@
       "dragon": 3
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Stamina Surge",
+        "level": 2
+      },
+      {
+        "name": "Partbreaker",
+        "level": 1
+      },
+      {
+        "name": "Burst",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/40/Sororal_coat-mhwilds-wiki-guide.png/100px-Sororal_coat-mhwilds-wiki-guide.png",
     "setName": "Sororal α Set"
@@ -61,7 +79,20 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Evade Extender",
+        "level": 1
+      },
+      {
+        "name": "Partbreaker",
+        "level": 1
+      },
+      {
+        "name": "Burst",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/50/Sororal_vambraces-mhwilds-wiki-guide.png/100px-Sororal_vambraces-mhwilds-wiki-guide.png",
     "setName": "Sororal α Set"
@@ -80,7 +111,16 @@
       "dragon": 3
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Evade Extender",
+        "level": 2
+      },
+      {
+        "name": "Burst",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d1/Sororal_coil-mhwilds-wiki-guide.png/100px-Sororal_coil-mhwilds-wiki-guide.png",
     "setName": "Sororal α Set"
@@ -104,7 +144,16 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Stamina Surge",
+        "level": 1
+      },
+      {
+        "name": "Partbreaker",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2b/Sororal_boots-mhwilds-wiki-guide.png/100px-Sororal_boots-mhwilds-wiki-guide.png",
     "setName": "Sororal α Set"
@@ -130,7 +179,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Latent Power",
+        "level": 1
+      },
+      {
+        "name": "Constitution",
+        "level": 2
+      },
+      {
+        "name": "Adrenaline Rush",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/13/Azure_age_hair_alpha-mhwilds-wiki-guide.png/110px-Azure_age_hair_alpha-mhwilds-wiki-guide.png",
     "setName": "Azure Age α Set"
@@ -152,7 +214,20 @@
       3,
       3
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Quick Sheathe",
+        "level": 1
+      },
+      {
+        "name": "Latent Power",
+        "level": 1
+      },
+      {
+        "name": "Adrenaline Rush",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/63/Azure_age_haori_alpha-mhwilds-wiki-guide.png/110px-Azure_age_haori_alpha-mhwilds-wiki-guide.png",
     "setName": "Azure Age α Set"
@@ -174,7 +249,20 @@
       3,
       3
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Latent Power",
+        "level": 1
+      },
+      {
+        "name": "Constitution",
+        "level": 1
+      },
+      {
+        "name": "Adrenaline Rush",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6e/Azure_age_sleeve_alpha-mhwilds-wiki-guide.png/110px-Azure_age_sleeve_alpha-mhwilds-wiki-guide.png",
     "setName": "Azure Age α Set"
@@ -198,7 +286,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Quick Sheathe",
+        "level": 2
+      },
+      {
+        "name": "Latent Power",
+        "level": 1
+      },
+      {
+        "name": "Adrenaline Rush",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9d/Azure_age_obi_alpha-mhwilds-wiki-guide.png/110px-Azure_age_obi_alpha-mhwilds-wiki-guide.png",
     "setName": "Azure Age α Set"
@@ -222,7 +323,20 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Latent Power",
+        "level": 1
+      },
+      {
+        "name": "Constitution",
+        "level": 2
+      },
+      {
+        "name": "Adrenaline Rush",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d6/Azure_age_geta_alpha-mhwilds-wiki-guide.png/110px-Azure_age_geta_alpha-mhwilds-wiki-guide.png",
     "setName": "Azure Age α Set"
@@ -246,7 +360,16 @@
       2,
       2
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "level": 2
+      },
+      {
+        "name": "Item Prolonger",
+        "level": 3
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c8/Gala_suit_top_hat-mhwilds-wiki-guide.png/100px-Gala_suit_top_hat-mhwilds-wiki-guide.png",
     "setName": "Gala Suit α Set"
@@ -272,7 +395,16 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Divine Blessing",
+        "level": 1
+      },
+      {
+        "name": "Coalescence",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/20/Gala_suit_jacket-mhwilds-wiki-guide.png/100px-Gala_suit_jacket-mhwilds-wiki-guide.png",
     "setName": "Gala Suit α Set"
@@ -296,7 +428,16 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "level": 2
+      },
+      {
+        "name": "Maximum Might",
+        "level": 2
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/35/Gala_suit_cuffs-mhwilds-wiki-guide.png/100px-Gala_suit_cuffs-mhwilds-wiki-guide.png",
     "setName": "Gala Suit α Set"
@@ -320,7 +461,16 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "level": 2
+      },
+      {
+        "name": "Coalescence",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f6/Gala_suit_tail-mhwilds-wiki-guide.png/100px-Gala_suit_tail-mhwilds-wiki-guide.png",
     "setName": "Gala Suit α Set"
@@ -346,7 +496,16 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "level": 1
+      },
+      {
+        "name": "Maximum Might",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/30/Gala_suit_slacks-mhwilds-wiki-guide.png/100px-Gala_suit_slacks-mhwilds-wiki-guide.png",
     "setName": "Gala Suit α Set"
@@ -23446,7 +23605,16 @@
       "dragon": 0
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "level": 1
+      },
+      {
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d0/Duna_helm_helm_typea_mhwilds_wiki_guide_200px.png/110px-Duna_helm_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Uth Duna Set"
@@ -23468,7 +23636,12 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b5/Duna_mail_body_typea_mhwilds_wiki_guide_200px.png/110px-Duna_mail_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Uth Duna Set"
@@ -23490,7 +23663,12 @@
       1,
       1
     ],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Tool Specialist",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/ad/Duna_vambraces_arm_typea_mhwilds_wiki_guide_200px.png/110px-Duna_vambraces_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Uth Duna Set"
@@ -23509,7 +23687,16 @@
       "dragon": 0
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Tool Specialist",
+        "level": 1
+      },
+      {
+        "name": "Aquatic/Oilsilt Mobility",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/20/Duna_coil_waist_typea_mhwilds_wiki_guide_200px.png/110px-Duna_coil_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Uth Duna Set"
@@ -23528,7 +23715,12 @@
       "dragon": 0
     },
     "decoSlots": [],
-    "skills": [],
+    "skills": [
+      {
+        "name": "Peak Performance",
+        "level": 1
+      }
+    ],
     "materials": [],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/df/Duna_greaves_leg_typea_mhwilds_wiki_guide_200px.png/110px-Duna_greaves_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Uth Duna Set"
