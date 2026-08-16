@@ -2071,6 +2071,9 @@ body {
 .bow-stats .bow-stat-row:last-child { border-bottom: 0; }
 .bow-stat-row strong { min-width: 10rem; color: var(--text-muted); }
 .quest-key-badge { color: #55a9ff; text-shadow: 0 0 5px rgba(85,169,255,.55); margin-right: .35rem; font-size: 1.05em; }
+.quest-target-chip { display: inline-flex; align-items: center; gap: .35rem; }
+.quest-target-link { display: inline-flex; align-items: center; gap: .35rem; }
+.quest-target-icon { width: 1.55rem; height: 1.55rem; object-fit: contain; border-radius: 50%; vertical-align: middle; }
 
 .decoration-skills-list { grid-template-columns: 1fr; }
 .decoration-skill-effect { color: var(--text-dim); font-size: 0.85rem; text-align: right; }

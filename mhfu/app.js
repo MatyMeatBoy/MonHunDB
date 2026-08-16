@@ -4790,8 +4790,8 @@ function showQuestDetail(id) {
         <h3>${ui("questsMainMonsters")}</h3>
         <ul class="chips">
           ${qt.mainMonsters.map(m => monsters.some(x => x.name === m)
-            ? `<li class="chip"><button type="button" class="skill-name-link" data-monster-name="${escapeAttr(m)}">${escapeAttr(m)}</button></li>`
-            : `<li class="chip">${escapeAttr(m)}</li>`).join("")}
+            ? `<li class="chip quest-target-chip"><button type="button" class="skill-name-link quest-target-link" data-monster-name="${escapeAttr(m)}"><img class="quest-target-icon" src="${escapeAttr(iconPath(m))}" alt="" loading="lazy" onerror="this.hidden=true"> <span>${escapeAttr(trMonsterName(m))}</span></button></li>`
+            : `<li class="chip quest-target-chip"><img class="quest-target-icon" src="${escapeAttr(iconPath(m))}" alt="" loading="lazy" onerror="this.hidden=true"> <span>${escapeAttr(trMonsterName(m))}</span></li>`).join("")}
         </ul>
       </section>
     ` : ""}
