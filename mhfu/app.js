@@ -2123,7 +2123,7 @@ function bowStatsHtml(w) {
   if (w.type !== "Bow") return "";
   const data = bowStats[w.name] || bowStats[Object.keys(bowStats).find(n => n.toLowerCase() === w.name.toLowerCase())];
   if (!data) return "";
-  const chargeRows = (data.charge || []).map((charge, index) => `
+  const chargeRows = (data.charge || []).slice().sort((a, b) => Number(a.level) - Number(b.level)).map((charge, index) => `
     <div class="ammo-chip bow-charge-chip">
       ${weaponTypeIconTag("Bow")}
       <span class="ammo-chip-name">${lang === "es" ? `Carga ${index + 1}` : `Charge ${index + 1}`}</span>
@@ -2134,10 +2134,12 @@ function bowStatsHtml(w) {
     const label = lang === "es" ? trMaterial(itemKey) : coating;
     return `<div class="ammo-chip bow-coating-chip">${materialIconTag(itemKey)}<span class="ammo-chip-name">${escapeAttr(label)}</span></div>`;
   }).join("");
-  return `<section class="block bow-stats"><h3>${lang === "es" ? "Tipos de disparo" : "Shot types"}</h3>
-    <div class="ammo-grid">${chargeRows || `<p class="no-data">—</p>`}</div></section>
+  return `<div class="bow-stats-layout">
+    <section class="block bow-stats"><h3>${lang === "es" ? "Tipos de disparo" : "Shot types"}</h3>
+      <div class="ammo-grid">${chargeRows || `<p class="no-data">—</p>`}</div></section>
     <section class="block bow-stats"><h3>${lang === "es" ? "Viales compatibles" : "Usable coatings"}</h3>
-    <div class="ammo-grid">${coatingRows || `<p class="no-data">—</p>`}</div></section>`;
+      <div class="ammo-grid">${coatingRows || `<p class="no-data">—</p>`}</div></section>
+  </div>`;
 }
 function trWeaponType(type) {
   return lang === "es" && I18N.weaponTypes ? (I18N.weaponTypes[type] || type) : type;
