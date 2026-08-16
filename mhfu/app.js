@@ -3096,11 +3096,18 @@ function buildMapGatheringIndex() {
 function mapGatheringSourcesHtml(matKey) {
   const entries = mapGatheringItems.get(normalizeMaterialKey(matKey)) || [];
   if (!entries.length) return "";
-  const unique = [...new Map(entries.map(entry => [`${entry.map}|${entry.area}|${entry.type}|${entry.rank}`, entry])).values()];
+  const grouped = new Map();
+  for (const entry of entries) {
+    const key = `${entry.map}|${entry.area}|${entry.type}`;
+    const current = grouped.get(key) || { ...entry, ranks: [] };
+    if (!current.ranks.includes(entry.rank)) current.ranks.push(entry.rank);
+    grouped.set(key, current);
+  }
+  const unique = [...grouped.values()];
   const labels = { SnwyMntains: ["Snowy Mountains", "Montañas Nevadas"], "Forest & Hills": ["Forest and Hills", "Bosque y Colinas"], "Old Jungle": ["Old Jungle", "Jungla antigua"], Jungle: ["Jungle", "Jungla"], Desert: ["Desert", "Desierto"], "Old Desert": ["Old Desert", "Desierto antiguo"], Swamp: ["Swamp", "Pantano"], "Old Swamp": ["Old Swamp", "Pantano antiguo"], Volcano: ["Volcano", "Volcán"], "Old Volcano": ["Old Volcano", "Volcán antiguo"], "Great Forest": ["Great Forest", "Gran Bosque"], "Tower 1": ["Tower", "Torre"], "Tower 2": ["Tower 2", "Torre 2"], "Tower 3": ["Tower 3", "Torre 3"], Fortess: ["Fortress", "Fortaleza"], Town: ["Town", "Ciudad"], "Castle Schrade": ["Castle Schrade", "Castillo Schrade"], Battleground: ["Battleground", "Campo de batalla"], "Snowy Mountain Peak": ["Snowy Mountains Peak", "Cima de las Montañas Nevadas"], Arena: ["Arena", "Arena"], "Moat Arena": ["Moat Arena", "Arena del foso"] };
   const typeLabels = lang === "es" ? { Bugnet: "Red de insectos", Gather: "Recolección", Mining: "Minería", Fishing: "Pesca", Cat: "Gato", Summit: "Cima" } : {};
   return '<div class="mhfu-map-sources"><strong>' + ui("materialsMapDetail") + '</strong>' +
-    unique.map(entry => '<div><span class="mhfu-map-name">' + escapeAttr((labels[entry.map] || [entry.map])[lang === "es" ? 1 : 0]) + '</span> · ' + escapeAttr(typeLabels[entry.type] || entry.type) + ' · Área ' + entry.area + ' <small>' + escapeAttr(entry.rank) + '</small></div>').join("") +
+    unique.map(entry => '<div><span class="mhfu-map-name">' + escapeAttr((labels[entry.map] || [entry.map])[lang === "es" ? 1 : 0]) + '</span> · ' + escapeAttr(typeLabels[entry.type] || entry.type) + ' · ' + (lang === "es" ? 'Área ' : 'Area ') + entry.area + ' <small>' + escapeAttr(entry.ranks.join(' - ')) + '</small></div>').join("") +
     '</div>';
 }
 
