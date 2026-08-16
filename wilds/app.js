@@ -2848,7 +2848,7 @@ function showCharmDetail(id) {
           </span>
         </div>
       `).join("")
-    : `<p class="no-data">${ui("noDataYet")}</p>`;
+    : `<p class="no-data">${escapeAttr(charm.materialsStatus || ui("noDataYet"))}</p>`;
 
   const chain = charmChain(charm);
   const chainHtml = chain.length > 1 ? `

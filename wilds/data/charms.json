@@ -564,7 +564,9 @@
     ],
     "materials": [],
     "decoSlots": [],
-    "description": "A charm that grants the Resentment skill."
+    "description": "A charm that grants the Resentment skill.",
+    "materialsStatus": "No crafting recipe listed in the available sources",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "exploiter-charm-i",
@@ -1359,7 +1361,7 @@
   },
   {
     "id": "gluttons-charm-i",
-    "name": "Glutton&#x27;s Charm I",
+    "name": "Glutton's Charm I",
     "nameEs": "Amuleto gula I",
     "rarity": 0,
     "skills": [
@@ -1373,11 +1375,13 @@
     ],
     "materials": [],
     "decoSlots": [],
-    "description": "A charm that grants the Speed Eating skill."
+    "description": "A charm that grants the Speed Eating skill.",
+    "materialsStatus": "No crafting recipe listed in the available sources",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "gluttons-charm-ii",
-    "name": "Glutton&#x27;s Charm II",
+    "name": "Glutton's Charm II",
     "nameEs": "Amuleto gula II",
     "rarity": 0,
     "skills": [
@@ -1391,11 +1395,13 @@
     ],
     "materials": [],
     "decoSlots": [],
-    "description": "A charm that grants the Speed Eating skill."
+    "description": "A charm that grants the Speed Eating skill.",
+    "materialsStatus": "No crafting recipe listed in the available sources",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "gluttons-charm-iii",
-    "name": "Glutton&#x27;s Charm III",
+    "name": "Glutton's Charm III",
     "nameEs": "Amuleto gula III",
     "rarity": 0,
     "skills": [
@@ -1409,7 +1415,9 @@
     ],
     "materials": [],
     "decoSlots": [],
-    "description": "A charm that grants the Speed Eating skill."
+    "description": "A charm that grants the Speed Eating skill.",
+    "materialsStatus": "No crafting recipe listed in the available sources",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "earplugs-charm-i",
@@ -1460,9 +1468,27 @@
         "effectEs": "Anula el efecto de los rugidos más débiles y reduce el efecto de los rugidos fuertes."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Zoh Shia Stakeclaw",
+        "qty": 4
+      },
+      {
+        "material": "Blackember Mass",
+        "qty": 3
+      },
+      {
+        "material": "Zoh Shia Crystalscale",
+        "qty": 6
+      },
+      {
+        "material": "Faux Whitegleam Orb",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
-    "description": "A charm that grants the Earplugs skill."
+    "description": "A charm that grants the Earplugs skill.",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "windproof-charm-i",
@@ -2298,9 +2324,27 @@
         "effectEs": "Reduce la duración de todas las plagas elementales un 50 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Blangonga Pelt+",
+        "qty": 4
+      },
+      {
+        "material": "Guardian Fulgur Pelt+",
+        "qty": 4
+      },
+      {
+        "material": "Balahara Scale+",
+        "qty": 2
+      },
+      {
+        "material": "Hirabami Scale+",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
-    "description": "A charm that grants the Blight Resistance skill."
+    "description": "A charm that grants the Blight Resistance skill.",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "blight-charm-ii",
@@ -3499,7 +3543,7 @@
   },
   {
     "id": "light-eaters-charm-i",
-    "name": "Light Eater&#x27;s Charm I",
+    "name": "Light Eater's Charm I",
     "nameEs": "Amuleto frugal I",
     "rarity": 0,
     "skills": [
@@ -3513,11 +3557,13 @@
     ],
     "materials": [],
     "decoSlots": [],
-    "description": "A charm that grants the Free Meal skill."
+    "description": "A charm that grants the Free Meal skill.",
+    "materialsStatus": "No crafting recipe listed in the available sources",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "light-eaters-charm-ii",
-    "name": "Light Eater&#x27;s Charm II",
+    "name": "Light Eater's Charm II",
     "nameEs": "Amuleto frugal II",
     "rarity": 0,
     "skills": [
@@ -3531,11 +3577,13 @@
     ],
     "materials": [],
     "decoSlots": [],
-    "description": "A charm that grants the Free Meal skill."
+    "description": "A charm that grants the Free Meal skill.",
+    "materialsStatus": "No crafting recipe listed in the available sources",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "light-eaters-charm-iii",
-    "name": "Light Eater&#x27;s Charm III",
+    "name": "Light Eater's Charm III",
     "nameEs": "Amuleto frugal III",
     "rarity": 0,
     "skills": [
@@ -3549,7 +3597,9 @@
     ],
     "materials": [],
     "decoSlots": [],
-    "description": "A charm that grants the Free Meal skill."
+    "description": "A charm that grants the Free Meal skill.",
+    "materialsStatus": "No crafting recipe listed in the available sources",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "grit-charm-i",
@@ -4014,9 +4064,27 @@
         "effectEs": "Ataque +10 y afinidad +10 % contra monstruos grandes afectados por veneno o parálisis."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Lagiacrus Sapphire",
+        "qty": 2
+      },
+      {
+        "material": "Omega Data 1.0",
+        "qty": 3
+      },
+      {
+        "material": "Omega Lens",
+        "qty": 3
+      },
+      {
+        "material": "Omega Nodule",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
-    "description": "A charm that grants the Foray skill."
+    "description": "A charm that grants the Foray skill.",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "phoenix-charm-i",
@@ -4175,9 +4243,27 @@
         "effectEs": "Golpea 5 veces seguidas para bonus más elevados."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Seregios Dissenter",
+        "qty": 1
+      },
+      {
+        "material": "Omega Data 1.0",
+        "qty": 5
+      },
+      {
+        "material": "Omega Axle",
+        "qty": 3
+      },
+      {
+        "material": "Omega Nodule",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
-    "description": "A charm that grants the Burst skill."
+    "description": "A charm that grants the Burst skill.",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "counterattack-charm-i",
@@ -4992,9 +5078,27 @@
         "effectEs": "Aumenta el daño por draco adicional y el ataque de draco."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Zoh Shia Crystalhorn",
+        "qty": 4
+      },
+      {
+        "material": "Zoh Shia Crystaltail",
+        "qty": 2
+      },
+      {
+        "material": "Zoh Shia Layershell",
+        "qty": 6
+      },
+      {
+        "material": "Faux Whitegleam Orb",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
-    "description": "A charm that grants the Convert Element skill."
+    "description": "A charm that grants the Convert Element skill.",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "sanity-charm-i",
@@ -5097,7 +5201,9 @@
     ],
     "materials": [],
     "decoSlots": [],
-    "description": "A charm that grants the Self- Improvement and Recovery Up skills."
+    "description": "A charm that grants the Self- Improvement and Recovery Up skills.",
+    "materialsSource": "Fextralife Talismans",
+    "materialsStatus": "Recipe listed as N/A"
   },
   {
     "id": "maintenance-charm-iv",
@@ -5138,7 +5244,9 @@
     ],
     "materials": [],
     "decoSlots": [],
-    "description": "A charm that grants the Rice Ball skill. (Arena Quests only.)"
+    "description": "A charm that grants the Rice Ball skill. (Arena Quests only.)",
+    "materialsStatus": "No crafting recipe listed in the available sources",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "unknown-charm",
@@ -5148,7 +5256,9 @@
     "skills": [],
     "materials": [],
     "decoSlots": [],
-    "description": "A talisman of indeterminable age. Said to draw out the holder's hidden strengths."
+    "description": "A talisman of indeterminable age. Said to draw out the holder's hidden strengths.",
+    "materialsStatus": "No crafting recipe listed in the available sources",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "historical-charm",
@@ -5158,7 +5268,9 @@
     "skills": [],
     "materials": [],
     "decoSlots": [],
-    "description": "An odd talisman that was written about in historical texts. Its glow contains the depths of the past."
+    "description": "An odd talisman that was written about in historical texts. Its glow contains the depths of the past.",
+    "materialsStatus": "No crafting recipe listed in the available sources",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "secret-charm",
@@ -5168,7 +5280,9 @@
     "skills": [],
     "materials": [],
     "decoSlots": [],
-    "description": "A talisman containing untold secrets of history. The holder will one day see the world's abyss."
+    "description": "A talisman containing untold secrets of history. The holder will one day see the world's abyss.",
+    "materialsStatus": "No crafting recipe listed in the available sources",
+    "materialsSource": "Fextralife Talismans"
   },
   {
     "id": "golden-age-charm",
@@ -5178,6 +5292,8 @@
     "skills": [],
     "materials": [],
     "decoSlots": [],
-    "description": "A talisman inscribed with the wisdom of an advanced culture. Offers a glimpse into an era of legends."
+    "description": "A talisman inscribed with the wisdom of an advanced culture. Offers a glimpse into an era of legends.",
+    "materialsStatus": "No crafting recipe listed in the available sources",
+    "materialsSource": "Fextralife Talismans"
   }
 ]
