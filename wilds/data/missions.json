@@ -10,7 +10,8 @@
     "title": "Desert Trotters",
     "boardGroup": "Chapter 1 - 1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-back-to-camp",
@@ -23,7 +24,8 @@
     "title": "Back to Camp",
     "boardGroup": "Chapter 1 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-the-beginning",
@@ -36,7 +38,8 @@
     "title": "The Beginning",
     "boardGroup": "Chapter 1 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-village-of-whispering-winds",
@@ -49,7 +52,8 @@
     "title": "Village of Whispering Winds",
     "boardGroup": "Chapter 1 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-to-the-forest",
@@ -62,7 +66,8 @@
     "title": "To the Forest",
     "boardGroup": "Chapter 1 - 3",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-forest-findings",
@@ -75,7 +80,8 @@
     "title": "Forest Findings",
     "boardGroup": "Chapter 1 - 3",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-the-investigation-continues",
@@ -88,7 +94,8 @@
     "title": "The Investigation Continues",
     "boardGroup": "Chapter 1 - 4",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-a-hunters-pride",
@@ -101,7 +108,8 @@
     "title": "A Hunter's Pride",
     "boardGroup": "Chapter 1 - 4",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-pursuit-of-solitude",
@@ -114,7 +122,8 @@
     "title": "Pursuit of Solitude",
     "boardGroup": "Chapter 1 - 5",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-beyond-the-deluge",
@@ -127,7 +136,8 @@
     "title": "Beyond the Deluge",
     "boardGroup": "Chapter 1 - 5",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-the-whispering-forest",
@@ -140,7 +150,8 @@
     "title": "The Whispering Forest",
     "boardGroup": "Chapter 1 - -1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-spirit-in-the-moonlight",
@@ -153,7 +164,8 @@
     "title": "Spirit in the Moonlight",
     "boardGroup": "Chapter 1 - -1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-a-looming-shadow",
@@ -166,7 +178,8 @@
     "title": "A Looming Shadow",
     "boardGroup": "Chapter 2 - 1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-toward-fervent-fields",
@@ -179,7 +192,8 @@
     "title": "Toward Fervent Fields",
     "boardGroup": "Chapter 2 - 1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-an-unforeseen-storm",
@@ -192,7 +206,8 @@
     "title": "An Unforeseen Storm",
     "boardGroup": "Chapter 2 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-the-eye-of-the-storm",
@@ -205,7 +220,8 @@
     "title": "The Eye of the Storm",
     "boardGroup": "Chapter 2 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-a-desolate-destination",
@@ -218,7 +234,8 @@
     "title": "A Desolate Destination",
     "boardGroup": "Chapter 2 - 3",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-hopes-of-home",
@@ -231,7 +248,8 @@
     "title": "Hopes of Home",
     "boardGroup": "Chapter 2 - 3",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-a-disquieting-dawn",
@@ -244,7 +262,8 @@
     "title": "A Disquieting Dawn",
     "boardGroup": "Chapter 2 - 4",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-long-forgotten-flame",
@@ -257,7 +276,8 @@
     "title": "Long-forgotten Flame",
     "boardGroup": "Chapter 2 - 4",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-eriks-secret-request",
@@ -270,7 +290,8 @@
     "title": "Erik's Secret Request",
     "boardGroup": "Chapter 2 - -1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-trembling-blue-currents",
@@ -283,7 +304,8 @@
     "title": "Trembling Blue Currents",
     "boardGroup": "Chapter 2 - -1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-born-from-the-flame",
@@ -296,7 +318,8 @@
     "title": "Born from the Flame",
     "boardGroup": "Chapter 3 - 1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-the-faithful-keepers",
@@ -309,7 +332,8 @@
     "title": "The Faithful Keepers",
     "boardGroup": "Chapter 3 - 1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-indomitable-spirit",
@@ -322,7 +346,8 @@
     "title": "Indomitable Spirit",
     "boardGroup": "Chapter 3 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-nothing-frozen-nothing-gained",
@@ -335,7 +360,8 @@
     "title": "Nothing Frozen, Nothing Gained",
     "boardGroup": "Chapter 3 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-through-the-dusk",
@@ -348,7 +374,8 @@
     "title": "Through the Dusk",
     "boardGroup": "Chapter 3 - 3",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-a-path-forward",
@@ -361,7 +388,8 @@
     "title": "A Path Forward",
     "boardGroup": "Chapter 3 - 3",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-full-circle",
@@ -374,7 +402,8 @@
     "title": "Full Circle",
     "boardGroup": "Chapter 3 - 3",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-dawn-breaks",
@@ -387,7 +416,8 @@
     "title": "Dawn Breaks",
     "boardGroup": "Chapter 3 - 4",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-broken-chains",
@@ -400,7 +430,8 @@
     "title": "Broken Chains",
     "boardGroup": "Chapter 3 - 4",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-visions-of-hope",
@@ -413,7 +444,8 @@
     "title": "Visions of Hope",
     "boardGroup": "Chapter 3 - 5",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-monster-hunter",
@@ -426,7 +458,8 @@
     "title": "Monster Hunter",
     "boardGroup": "Chapter 3 - 5",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-kunafas-curious-quandary",
@@ -439,7 +472,8 @@
     "title": "Kunafa's Curious Quandary",
     "boardGroup": "Chapter 3 - -1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-clear-with-a-chance-of-sandstorm",
@@ -452,7 +486,8 @@
     "title": "Clear with a Chance of Sandstorm",
     "boardGroup": "Chapter 3 - -1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-a-visitor-from-the-west",
@@ -465,7 +500,8 @@
     "title": "A Visitor from the West",
     "boardGroup": "Chapter 4 - 1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-new-ecosystems",
@@ -478,7 +514,8 @@
     "title": "New Ecosystems",
     "boardGroup": "Chapter 4 - 1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-chasing-change",
@@ -491,7 +528,8 @@
     "title": "Chasing Change",
     "boardGroup": "Chapter 4 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-rendezvous",
@@ -504,7 +542,8 @@
     "title": "Rendezvous",
     "boardGroup": "Chapter 4 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-lurking-shadows",
@@ -517,7 +556,8 @@
     "title": "Lurking Shadows",
     "boardGroup": "Chapter 4 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-touring-history",
@@ -530,7 +570,8 @@
     "title": "Touring History",
     "boardGroup": "Chapter 4 - 3",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-to-wyverns-rest",
@@ -543,7 +584,8 @@
     "title": "To Wyvern's Rest",
     "boardGroup": "Chapter 4 - 3",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-wyvern-sparks-and-rose-thorns",
@@ -556,7 +598,8 @@
     "title": "Wyvern Sparks and Rose Thorns",
     "boardGroup": "Chapter 4 - 3",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-the-artifacts-words",
@@ -569,7 +612,8 @@
     "title": "The Artifact's Words",
     "boardGroup": "Chapter 4 - -1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-the-beacon-of-invasion",
@@ -582,7 +626,8 @@
     "title": "The Beacon of Invasion",
     "boardGroup": "Chapter 4 - -1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-premonitions",
@@ -595,7 +640,8 @@
     "title": "Premonitions",
     "boardGroup": "Chapter 5 - 1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-omens",
@@ -608,7 +654,8 @@
     "title": "Omens",
     "boardGroup": "Chapter 5 - 1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-storm-cold-vortex",
@@ -621,7 +668,8 @@
     "title": "Storm-cold Vortex",
     "boardGroup": "Chapter 5 - 1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-the-root-cause",
@@ -634,7 +682,8 @@
     "title": "The Root Cause",
     "boardGroup": "Chapter 5 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-a-torrent-of-energy",
@@ -647,7 +696,8 @@
     "title": "A Torrent of Energy",
     "boardGroup": "Chapter 5 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-a-world-turned-upside-down",
@@ -660,7 +710,8 @@
     "title": "A World Turned Upside Down",
     "boardGroup": "Chapter 5 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-a-break-in-the-clouds",
@@ -673,7 +724,8 @@
     "title": "A Break in the Clouds",
     "boardGroup": "Chapter 5 - 3",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-a-peak-predicament",
@@ -686,7 +738,8 @@
     "title": "A Peak Predicament",
     "boardGroup": "Chapter 5 - -1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-invader-from-the-stars",
@@ -699,7 +752,8 @@
     "title": "Invader from the Stars",
     "boardGroup": "Chapter 5 - -1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-links-in-a-chain",
@@ -712,7 +766,8 @@
     "title": "Links in a Chain",
     "boardGroup": "Chapter 6 - 1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-what-lies-ahead",
@@ -725,7 +780,8 @@
     "title": "What Lies Ahead",
     "boardGroup": "Chapter 6 - 1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-an-unexpected-summons",
@@ -738,7 +794,8 @@
     "title": "An Unexpected Summons",
     "boardGroup": "Chapter 6 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-a-first-cry",
@@ -751,7 +808,8 @@
     "title": "A First Cry",
     "boardGroup": "Chapter 6 - 2",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-an-ancient-resting-place",
@@ -764,7 +822,8 @@
     "title": "An Ancient Resting Place",
     "boardGroup": "Chapter 6 - -1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-healing-help",
@@ -777,7 +836,8 @@
     "title": "Healing Help",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-flash-course",
@@ -790,7 +850,8 @@
     "title": "Flash Course",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-a-gutsy-move",
@@ -803,7 +864,8 @@
     "title": "A Gutsy Move",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-rath-from-above-go",
@@ -816,7 +878,8 @@
     "title": "Rath-from-Above, Go!",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-purrfect-plundering",
@@ -829,7 +892,8 @@
     "title": "Purrfect Plundering",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-fishing-life-in-microcosm",
@@ -842,7 +906,8 @@
     "title": "Fishing: Life, in Microcosm",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-seeking-the-goldenfish",
@@ -855,7 +920,8 @@
     "title": "Seeking the Goldenfish",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-fishing-for-flavor",
@@ -868,7 +934,8 @@
     "title": "Fishing for Flavor",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-the-catch-of-a-lifetime",
@@ -881,7 +948,8 @@
     "title": "The Catch of a Lifetime!",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-razzle-dazzle",
@@ -894,7 +962,8 @@
     "title": "Razzle Dazzle",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-dareels-research-report",
@@ -907,7 +976,8 @@
     "title": "Dareel's Research Report",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-samins-research-report",
@@ -920,7 +990,8 @@
     "title": "Samin's Research Report",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-dareels-research-report-cont",
@@ -933,7 +1004,8 @@
     "title": "Dareel's Research Report (Cont.)",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-samins-research-report-cont",
@@ -946,7 +1018,8 @@
     "title": "Samin's Research Report (Cont.)",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-dareels-special-research-report",
@@ -959,7 +1032,8 @@
     "title": "Dareel's Special Research Report",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-samins-special-research-report",
@@ -972,7 +1046,8 @@
     "title": "Samin's Special Research Report",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-high-quality-materials",
@@ -985,7 +1060,8 @@
     "title": "High-Quality Materials",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-beware-the-gypceros",
@@ -998,7 +1074,8 @@
     "title": "Beware the Gypceros",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-smithys-seal-of-quality",
@@ -1011,7 +1088,8 @@
     "title": "Smithy's Seal of Quality",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-make-fluffy-dealings",
@@ -1024,7 +1102,8 @@
     "title": "Make Fluffy Dealings",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-aidas-apprehensions",
@@ -1037,7 +1116,8 @@
     "title": "Aida's Apprehensions",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-aberrant-atrocity",
@@ -1050,7 +1130,8 @@
     "title": "Aberrant Atrocity",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-secure-wounded-hollow",
@@ -1063,7 +1144,8 @@
     "title": "Secure Wounded Hollow",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-a-leviathans-temper",
@@ -1076,7 +1158,8 @@
     "title": "A Leviathan's Temper",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-forest-doshaguma",
@@ -1089,7 +1172,8 @@
     "title": "Forest Doshaguma",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-succulent-scraps",
@@ -1102,7 +1186,8 @@
     "title": "Succulent Scraps",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-what-we-protect",
@@ -1115,7 +1200,8 @@
     "title": "What We Protect",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-werners-test-run",
@@ -1128,7 +1214,8 @@
     "title": "Werner's Test Run",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-astonishing-adaptability",
@@ -1141,7 +1228,8 @@
     "title": "Astonishing Adaptability",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-as-gatekeeper",
@@ -1154,7 +1242,8 @@
     "title": "As Gatekeeper",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-continuing-conflict",
@@ -1167,7 +1256,8 @@
     "title": "Continuing Conflict",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-fur-damagings-are-dislikeworthy",
@@ -1180,7 +1270,8 @@
     "title": "Fur Damagings Are Dislikeworthy",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-troublemakers",
@@ -1193,7 +1284,8 @@
     "title": "Troublemakers",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-echoing-from-the-cliffs",
@@ -1206,7 +1298,8 @@
     "title": "Echoing from the Cliffs",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-the-struggle-to-survive",
@@ -1219,7 +1312,8 @@
     "title": "The Struggle to Survive",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-the-apple-of-her-eye",
@@ -1232,7 +1326,8 @@
     "title": "The Apple of Her Eye",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-ultimate-strength",
@@ -1245,7 +1340,8 @@
     "title": "Ultimate Strength",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-new-fashion-old-feelings",
@@ -1258,7 +1354,8 @@
     "title": "New Fashion, Old Feelings",
     "boardGroup": "Side Missions",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-awakening-the-past",
@@ -1271,7 +1368,8 @@
     "title": "Awakening the Past",
     "boardGroup": "Chapter 7 - -1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "missions-ghosts-pay-no-heed-to-tomorrow",
@@ -1284,7 +1382,8 @@
     "title": "Ghosts Pay No Heed to Tomorrow",
     "boardGroup": "Chapter 7 - -1",
     "questType": "story",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-hot-on-their-tails",
@@ -1299,7 +1398,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Quematrice"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-a-stage-of-rose-and-thorn",
@@ -1314,7 +1414,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Lala Barina"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-drive-off-the-congalala",
@@ -1329,7 +1430,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Congalala"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-balahara-of-the-sandsea",
@@ -1344,7 +1446,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Balahara"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-a-feast-in-the-deep",
@@ -1359,7 +1462,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Uth Duna"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-a-fuse-ignited",
@@ -1374,7 +1478,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Rompopolo"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-a-merciless-glare",
@@ -1389,7 +1494,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Rey Dau"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-the-quiet-cunning-assassin",
@@ -1404,7 +1510,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Nerscylla"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-fight-or-flight",
@@ -1419,7 +1526,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Hirabami"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-ajarakan-ablaze",
@@ -1434,7 +1542,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Ajarakan"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-an-ominous-encounter",
@@ -1449,7 +1558,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Guardian Doshaguma"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-the-ashen-king",
@@ -1464,7 +1574,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Guardian Rathalos"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-repel-the",
@@ -1479,7 +1590,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Guardian Arkveld"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-the-rimechain-trial",
@@ -1494,7 +1606,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Jin Dahaad"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-watcher-of-the-ancient-capital",
@@ -1509,7 +1622,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Guardian Ebony Odogaron"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-a-hunter-in-the-void",
@@ -1524,7 +1638,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Xu Wu"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-the-pale-dream-of-a-lone-shadow",
@@ -1539,7 +1654,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Guardian Arkveld"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-guardian-zoh-shia",
@@ -1554,7 +1670,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Zoh Shia"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-the-black-flame-quietly-manifests",
@@ -1569,7 +1686,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Nu Udra"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-pinnacle-of-the-pack",
@@ -1584,7 +1702,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Doshaguma"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-lured-by-abundance",
@@ -1599,7 +1718,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Yian Kut-Ku"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-frozen-lord-on-the-precipice",
@@ -1614,7 +1734,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Jin Dahaad"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-roaring-rey-dau",
@@ -1629,7 +1750,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Rey Dau"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-tide-overtaking-timber",
@@ -1644,7 +1766,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Uth Duna"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-scorching-the-earth-once-more",
@@ -1659,7 +1782,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Nu Udra"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-awaking-from-a-dream",
@@ -1674,7 +1798,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Arkveld"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-thundering-flowers",
@@ -1690,7 +1815,8 @@
     "mainMonsters": [
       "Guardian Fulgur Anjanath",
       "Lala Barina"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-investigating-the-frenzied-shadow",
@@ -1705,7 +1831,8 @@
     "questType": "assignment",
     "mainMonsters": [
       "Nerscylla"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-shrouded-in-black",
@@ -1721,7 +1848,8 @@
     "mainMonsters": [
       "Gore Magala",
       "Blangonga"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-beware-the-chatacabra",
@@ -1736,7 +1864,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Chatacabra"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-buggin-in-the-desert",
@@ -1749,7 +1878,8 @@
     "title": "Buggin' in the Desert",
     "boardGroup": "Optional Quests 1★",
     "questType": "optional",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-fire-starter",
@@ -1764,7 +1894,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Quematrice"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-the-desert-is-demanding",
@@ -1777,7 +1908,8 @@
     "title": "The Desert is Demanding",
     "boardGroup": "Optional Quests 1★",
     "questType": "optional",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-every-rose",
@@ -1792,7 +1924,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Lala Barina"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-tussle-in-pink",
@@ -1807,7 +1940,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Congalala"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-a-sharp-sort",
@@ -1820,7 +1954,8 @@
     "title": "A Sharp Sort",
     "boardGroup": "Optional Quests 1★",
     "questType": "optional",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-buggin-in-the-scarlet-forest",
@@ -1833,7 +1968,8 @@
     "title": "Buggin' in the Scarlet Forest",
     "boardGroup": "Optional Quests 1★",
     "questType": "optional",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-sand-sea-surges",
@@ -1848,7 +1984,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Balahara"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-forest-outlaw",
@@ -1863,7 +2000,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Doshaguma"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-veiled-by-the-tide",
@@ -1878,7 +2016,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Uth Duna"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-oilwell-basin-blast",
@@ -1893,7 +2032,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Rompopolo"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-march-of-the-kranodath",
@@ -1906,7 +2046,8 @@
     "title": "March of the Kranodath",
     "boardGroup": "Optional Quests 2★",
     "questType": "optional",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-sultan-of-the-sand",
@@ -1921,7 +2062,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Rey Dau"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-dance-of-shadows",
@@ -1936,7 +2078,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Nerscylla"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-fleet-flight",
@@ -1951,7 +2094,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Hirabami"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-buggin-in-the-cliffs",
@@ -1964,7 +2108,8 @@
     "title": "Buggin' in the Cliffs",
     "boardGroup": "Optional Quests 2★",
     "questType": "optional",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-scorching-simian",
@@ -1979,7 +2124,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Ajarakan"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-creeping-flames",
@@ -1994,7 +2140,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Nu Udra"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-pallid-beasts-lament",
@@ -2009,7 +2156,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Guardian Doshaguma"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-his-eternal-reign",
@@ -2024,7 +2172,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Guardian Rathalos"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-spread-those-wings",
@@ -2037,7 +2186,8 @@
     "title": "Spread Those Wings",
     "boardGroup": "Optional Quests 3★",
     "questType": "optional",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-red-eyes-in-the-night",
@@ -2052,7 +2202,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Guardian Ebony Odogaron"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-consumer-of-void",
@@ -2067,7 +2218,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Xu Wu"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-a-futile-fight",
@@ -2082,7 +2234,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Chatacabra"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-the-pursued-and-the-pursuer",
@@ -2097,7 +2250,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Quematrice"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-flower-of-eternal-rest",
@@ -2112,7 +2266,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Lala Barina"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-flippant-flatulence",
@@ -2127,7 +2282,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Congalala"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-the-desert-knows-not-the-sea",
@@ -2142,7 +2298,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Balahara"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-profusion-of-poison",
@@ -2157,7 +2314,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Rompopolo"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-the-nerscyllas-hunting-grounds",
@@ -2172,7 +2330,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Nerscylla"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-fleeting-victory",
@@ -2187,7 +2346,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Hirabami"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-all-hail-the-queen",
@@ -2202,7 +2362,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Rathian"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-mysterious-poison",
@@ -2217,7 +2378,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Gypceros"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-time-to-exorcise",
@@ -2230,7 +2392,8 @@
     "title": "Time to Exorcise",
     "boardGroup": "Optional Quests 4★",
     "questType": "optional",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-a-vow-to-remain",
@@ -2243,7 +2406,8 @@
     "title": "A Vow to Remain",
     "boardGroup": "Optional Quests 4★",
     "questType": "optional",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-a-sharp-squad",
@@ -2256,7 +2420,8 @@
     "title": "A Sharp Squad",
     "boardGroup": "Optional Quests 4★",
     "questType": "optional",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-vespoid-capriccio",
@@ -2269,7 +2434,8 @@
     "title": "Vespoid Capriccio",
     "boardGroup": "Optional Quests 4★",
     "questType": "optional",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-doshaguma-hunt",
@@ -2284,7 +2450,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Doshaguma"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-annihilating-anguish",
@@ -2299,7 +2466,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Ajarakan"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-battle-with-the-white-doshaguma",
@@ -2314,7 +2482,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Guardian Doshaguma"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-the-kings-triumphant-return",
@@ -2329,7 +2498,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Guardian Rathalos"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-white-wails",
@@ -2344,7 +2514,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Guardian Ebony Odogaron"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-opposition",
@@ -2359,7 +2530,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Xu Wu"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-guardian-fulgur-anjanath-hunt",
@@ -2374,7 +2546,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Guardian Fulgur Anjanath"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-armor-like-a-mountain",
@@ -2389,7 +2562,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Gravios"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-blangonga-excursion",
@@ -2404,7 +2578,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Blangonga"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-king-of-the-skies",
@@ -2419,7 +2594,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Rathalos"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-talk-about-hard-headed",
@@ -2432,7 +2608,8 @@
     "title": "Talk About Hard Headed!",
     "boardGroup": "Optional Quests 4★",
     "questType": "optional",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-dream-eaters",
@@ -2445,7 +2622,8 @@
     "title": "Dream Eaters",
     "boardGroup": "Optional Quests 4★",
     "questType": "optional",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-one-thick-veil",
@@ -2460,7 +2638,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Uth Duna"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-when-the-dust-settles",
@@ -2475,7 +2654,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Rey Dau"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-sinister-sneer",
@@ -2490,7 +2670,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Nu Udra"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-when-frost-falls",
@@ -2505,7 +2686,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Jin Dahaad"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-misty-depths",
@@ -2520,7 +2702,8 @@
     "questType": "optional",
     "mainMonsters": [
       "Gore Magala"
-    ]
+    ],
+    "giver": "Alma"
   },
   {
     "id": "quests-small-white-feathers",
@@ -2533,7 +2716,8 @@
     "title": "Small White Feathers",
     "boardGroup": "Optional Quests 5★",
     "questType": "optional",
-    "mainMonsters": []
+    "mainMonsters": [],
+    "giver": "Alma"
   },
   {
     "id": "quests-the-chains-of-life",
@@ -2548,6 +2732,7 @@
     "questType": "optional",
     "mainMonsters": [
       "Arkveld"
-    ]
+    ],
+    "giver": "Alma"
   }
 ]
