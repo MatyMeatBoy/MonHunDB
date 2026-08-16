@@ -1022,10 +1022,19 @@ body {
 }
 .skill-activation-table th:first-child,
 .skill-activation-table td:first-child {
-  width: 10rem;
+  width: 8.5rem;
   font-variant-numeric: tabular-nums;
 }
 .skill-activation-table tbody tr:last-child td { border-bottom: 0; }
+
+.skill-card-description {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  line-height: 1.35;
+  text-align: left;
+}
 
 .res-note {
   flex-basis: 100%;

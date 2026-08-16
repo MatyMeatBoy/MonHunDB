@@ -3202,6 +3202,7 @@ function renderSkillsIndex(query) {
         ${filtered.map(s => `
           <button type="button" class="decoration-card skill-card" data-skill-id="${s.id}">
             <span class="skill-card-top">${skillIconTag(s)}<span class="decoration-card-name">${trSkillName(s)}</span></span>
+            <span class="skill-card-description">${escapeAttr(lang === "es" ? (s.descEs || s.descEn) : s.descEn)}</span>
           </button>
         `).join("")}
       </div>
@@ -3229,6 +3230,7 @@ function showSkillDetail(idOrName) {
     <tr>
       <td>${formatSkillPoints(activation.points)}</td>
       <td>${escapeAttr(lang === "es" ? (activation.nameEs || activation.nameEn) : activation.nameEn)}</td>
+      <td>${escapeAttr(lang === "es" ? (activation.descEs || s.descEs || s.descEn) : (activation.descEn || s.descEn))}</td>
     </tr>
   `).join("");
 
@@ -3276,7 +3278,7 @@ function showSkillDetail(idOrName) {
     <section class="block">
       <h3>${ui("skillsLevelsHeading")}</h3>
       <table class="skill-activation-table">
-        <thead><tr><th>${ui("skillsPointsHeading")}</th><th>${ui("skillsActivatedHeading")}</th></tr></thead>
+        <thead><tr><th>${ui("skillsPointsHeading")}</th><th>${ui("skillsActivatedHeading")}</th><th>${ui("skillsEffectHeading")}</th></tr></thead>
         <tbody>${activationsHtml}</tbody>
       </table>
     </section>

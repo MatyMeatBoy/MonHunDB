@@ -43,6 +43,73 @@ const MHFU_SKILL_DESCRIPTIONS = {
   BombStrUp: { en: "Increases the damage dealt by bombs.", es: "Aumenta el daño infligido por las bombas." },
   Cooking: { en: "Changes the results of cooking and meal preparation.", es: "Modifica los resultados de cocinar y preparar comidas." },
   BBQ: { en: "Improves the timing and results of cooking meat.", es: "Mejora el tiempo y los resultados al cocinar carne." },
+  Antiseptic: { en: "Prevents or worsens the effects of being covered in foul stench.", es: "Previene o empeora los efectos de quedar cubierto de hedor." },
+  Fatigue: { en: "Changes how easily monsters become exhausted from your attacks.", es: "Modifica la facilidad con la que los monstruos se agotan por tus ataques." },
+  "Snow Res": { en: "Prevents or worsens movement penalties caused by deep snow.", es: "Previene o empeora las penalizaciones de movimiento por nieve profunda." },
+  "Quake Res": { en: "Prevents or worsens the stagger caused by strong ground tremors.", es: "Previene o empeora el tambaleo causado por temblores fuertes." },
+  HearProtct: { en: "Reduces or removes the opening caused by monster roars.", es: "Reduce o elimina la apertura que provocan los rugidos de monstruo." },
+  "Wind Press": { en: "Reduces or removes the stagger caused by a monster's wind pressure.", es: "Reduce o elimina el tambaleo causado por la presión de viento de un monstruo." },
+  "Anti-Theft": { en: "Prevents or increases the chance that a Felyne steals an item.", es: "Evita o aumenta la posibilidad de que un Felyne robe un objeto." },
+  ResistSts: { en: "Changes resistance to status ailments such as poison, sleep, paralysis and stun.", es: "Modifica la resistencia a estados como veneno, sueño, parálisis y aturdimiento." },
+  AntiFirDrg: { en: "Changes resistance to Fire Wyvern fireballs and similar attacks.", es: "Modifica la resistencia a bolas de fuego de wyverns de fuego y ataques similares." },
+  AntiDaora: { en: "Changes resistance to Kushala Daora's wind effects.", es: "Modifica la resistencia a los efectos de viento de Kushala Daora." },
+  AntiChamel: { en: "Changes resistance to Chameleos's theft and concealment effects.", es: "Modifica la resistencia a los efectos de robo y ocultación de Chameleos." },
+  Fencing: { en: "Prevents melee attacks from bouncing so weapon combos are not interrupted.", es: "Evita que los ataques cuerpo a cuerpo reboten y corten los combos." },
+  SwdShrpner: { en: "Changes whetstone speed and how much sharpness is restored.", es: "Modifica la velocidad de uso de la piedra de afilar y el filo restaurado." },
+  "Auto-Guard": { en: "Automatically blocks attacks when the equipped weapon can guard.", es: "Bloquea ataques automáticamente cuando el arma equipada permite defenderse." },
+  "Sword Draw": { en: "Makes draw attacks critical hits.", es: "Hace que los ataques al desenvainar sean golpes críticos." },
+  Edgemaster: { en: "Combines a sharpness benefit with an attack benefit.", es: "Combina una mejora de filo con una mejora de ataque." },
+  "NormalS Up": { en: "Changes damage dealt by Normal Shots.", es: "Modifica el daño de los Disparos Normales." },
+  "PierceS Up": { en: "Changes damage dealt by Pierce Shots.", es: "Modifica el daño de los Disparos Perforantes." },
+  "PelletS Up": { en: "Changes damage dealt by Pellet Shots.", es: "Modifica el daño de los Disparos de Perdigón." },
+  NormalSAdd: { en: "Adds or removes compatible Normal Shot ammunition.", es: "Añade o elimina munición compatible de Disparo Normal." },
+  PierceSAdd: { en: "Adds or removes compatible Pierce Shot ammunition.", es: "Añade o elimina munición compatible de Disparo Perforante." },
+  PelletSAdd: { en: "Adds or removes compatible Pellet Shot ammunition.", es: "Añade o elimina munición compatible de Disparo de Perdigón." },
+  CragSAdd: { en: "Adds or removes compatible Crag Shot ammunition.", es: "Añade o elimina munición compatible de Disparo Explosivo." },
+  ClustSAdd: { en: "Adds or removes compatible Clust Shot ammunition.", es: "Añade o elimina munición compatible de Disparo de Grupo." },
+  Reload: { en: "Changes bowgun reload speed.", es: "Modifica la velocidad de recarga de la ballesta." },
+  AutoReload: { en: "Automatically reloads a bowgun, with the corresponding recoil tradeoff.", es: "Recarga la ballesta automáticamente, con el coste de retroceso correspondiente." },
+  Recoil: { en: "Changes recoil after firing bowgun ammunition.", es: "Modifica el retroceso tras disparar munición de ballesta." },
+  Precision: { en: "Changes bowgun deviation and shot precision.", es: "Modifica la desviación de la ballesta y la precisión de los disparos." },
+  PoisonCAdd: { en: "Adds or removes compatible Poison Coatings for bows.", es: "Añade o elimina Revestimientos de Veneno compatibles para arcos." },
+  ParalyCAdd: { en: "Adds or removes compatible Paralysis Coatings for bows.", es: "Añade o elimina Revestimientos de Parálisis compatibles para arcos." },
+  SleepCAdd: { en: "Adds or removes compatible Sleep Coatings for bows.", es: "Añade o elimina Revestimientos de Sueño compatibles para arcos." },
+  PowerCAdd: { en: "Adds or removes compatible Power Coatings for bows.", es: "Añade o elimina Revestimientos de Poder compatibles para arcos." },
+  ClsRngCAdd: { en: "Adds or removes compatible Close-range Coatings for bows.", es: "Añade o elimina Revestimientos de Rango Corto compatibles para arcos." },
+  SteadyHand: { en: "Changes the handling and deviation of bowgun shots.", es: "Modifica el manejo y la desviación de los disparos de ballesta." },
+  "Spc Attack": { en: "Changes the power of a weapon's special attack property.", es: "Modifica la potencia de la propiedad de ataque especial del arma." },
+  ElementAtk: { en: "Changes elemental damage dealt by weapons.", es: "Modifica el daño elemental infligido por las armas." },
+  "Rec Speed": { en: "Changes how quickly the hunter recovers after being knocked down.", es: "Modifica la rapidez con la que el cazador se recupera tras caer." },
+  Protection: { en: "Changes the chance of reducing damage from an incoming hit.", es: "Modifica la probabilidad de reducir el daño de un golpe recibido." },
+  Gunnery: { en: "Changes the strength of ballistae, cannons and certain explosive attacks.", es: "Modifica la potencia de ballestas, cañones y ciertos ataques explosivos." },
+  Capacity: { en: "Changes weapon capacity, such as bowgun loading or bow coatings.", es: "Modifica la capacidad del arma, como la carga de ballesta o revestimientos del arco." },
+  ShortCharg: { en: "Changes the time required to charge a weapon attack.", es: "Modifica el tiempo necesario para cargar un ataque de arma." },
+  Guts: { en: "Can prevent a lethal hit when the hunter has enough health.", es: "Puede evitar un golpe letal cuando el cazador tiene suficiente salud." },
+  Fury: { en: "Changes the attack bonus gained when the hunter is enraged.", es: "Modifica el bonus de ataque obtenido cuando el cazador entra en furia." },
+  Map: { en: "Shows or hides the map at the start of a quest.", es: "Muestra u oculta el mapa al inicio de una misión." },
+  PsychicVis: { en: "Shows large monsters on the map for a period of time.", es: "Muestra temporalmente a los monstruos grandes en el mapa." },
+  HiSpdGathr: { en: "Increases the speed of carving, mining, gathering and bug catching.", es: "Aumenta la velocidad de carvear, minar, recolectar y capturar insectos." },
+  Backpackng: { en: "Improves movement and fall safety while carrying an egg.", es: "Mejora el movimiento y la seguridad al caer mientras llevas un huevo." },
+  Whim: { en: "Changes the chance that pickaxes, bugnets and flutes break.", es: "Modifica la posibilidad de que se rompan picos, redes de insectos y flautas." },
+  Terrain: { en: "Changes damage and movement penalties from hazardous terrain.", es: "Modifica el daño y las penalizaciones de movimiento por terreno peligroso." },
+  Constitutn: { en: "Changes the stamina cost of actions such as evading and blocking.", es: "Modifica el coste de resistencia de acciones como evadir y bloquear." },
+  Sneak: { en: "Changes how likely monsters are to notice and target the hunter.", es: "Modifica la probabilidad de que los monstruos detecten y ataquen al cazador." },
+  Fate: { en: "Changes the number and quality of quest rewards.", es: "Modifica la cantidad y calidad de las recompensas de misión." },
+  SpeedSetup: { en: "Changes the speed of placing traps and using certain field items.", es: "Modifica la velocidad al colocar trampas y usar ciertos objetos de campo." },
+  Tranquilzr: { en: "Changes the effectiveness of tranquilizers used for capture.", es: "Modifica la eficacia de los tranquilizantes usados para capturar." },
+  Perceive: { en: "Changes the information displayed about a monster's condition.", es: "Modifica la información mostrada sobre el estado de un monstruo." },
+  Recovery: { en: "Changes the amount of health restored by recovery items.", es: "Modifica la cantidad de salud restaurada por objetos de curación." },
+  Everlastng: { en: "Changes the duration of beneficial item effects.", es: "Modifica la duración de los efectos beneficiosos de objetos." },
+  Throw: { en: "Changes the range and handling of thrown items.", es: "Modifica el alcance y manejo de los objetos arrojados." },
+  Gluttony: { en: "Changes the effect and risk of eating food items.", es: "Modifica el efecto y el riesgo de comer objetos de comida." },
+  Horn: { en: "Changes the effectiveness of Hunting Horn melodies.", es: "Modifica la eficacia de las melodías de la Cornamusa." },
+  MixSucRate: { en: "Changes the success rate when combining items.", es: "Modifica la tasa de éxito al combinar objetos." },
+  "Shot Mix": { en: "Changes the result of combining ammunition.", es: "Modifica el resultado de combinar munición." },
+  Alchemy: { en: "Enables special alchemy combinations.", es: "Permite combinaciones especiales de alquimia." },
+  ComrdGuide: { en: "Changes the guidance and support provided by the Felyne companion.", es: "Modifica la guía y apoyo proporcionados por el camarada Felyne." },
+  ComradeAtk: { en: "Changes the attack strength of the Felyne companion.", es: "Modifica la fuerza de ataque del camarada Felyne." },
+  ComradeDef: { en: "Changes the defense of the Felyne companion.", es: "Modifica la defensa del camarada Felyne." },
+  "Torso Inc": { en: "Doubles the skill points on the torso armor piece.", es: "Duplica los puntos de habilidad de la pieza de torso." },
 };
 
 function skillDescription(pool) {
@@ -51,6 +118,34 @@ function skillDescription(pool) {
     en: "Describes the effects granted by this armor-skill point pool.",
     es: "Describe los efectos que activa este grupo de puntos de habilidad.",
   };
+}
+
+// Keep the explanation next to every signed threshold as well.  MHFU does
+// not use skill "levels": this tells the player what a particular +/− row
+// actually turns on, while the pool description explains the underlying
+// mechanic.
+function activationDescription(pool, tier, language) {
+  const desc = skillDescription(pool);
+  const name = language === "es"
+    ? (tier["name-es"] || tier.name)
+    : tier.name;
+
+  if (pool === "Gathering") {
+    const amount = Math.abs(tier.points) >= 15 ? 2 : 1;
+    if (tier.points > 0) {
+      return language === "es"
+        ? `Permite ${amount} recolecci${amount === 1 ? "ón" : "ones"} adicional${amount === 1 ? "" : "es"} en cada punto de recolección.`
+        : `Allows ${amount} additional gather${amount === 1 ? "" : "s"} at each gathering point.`;
+    }
+    return language === "es"
+      ? `Reduce en ${amount} la${amount === 1 ? "" : "s"} recolecci${amount === 1 ? "ón" : "ones"} disponible${amount === 1 ? "" : "s"} en cada punto.`
+      : `Removes ${amount} gather${amount === 1 ? "" : "s"} from each gathering point.`;
+  }
+
+  const pointText = `${tier.points > 0 ? "+" : ""}${tier.points}`;
+  return language === "es"
+    ? `Con ${pointText} puntos activa «${name}». ${desc.es}`
+    : `At ${pointText} points, activates “${name}”. ${desc.en}`;
 }
 
 // ---- decorations ----
@@ -110,6 +205,8 @@ const skills = [...pools.entries()].map(([pool, tiers], i) => {
       // is simply "Pool +N/-N", translate its pool even if its row lacks a
       // duplicate name-es field (Gathering +1/-1 are the key example).
       nameEs: t["name-es"] || (t.name.startsWith(pool) ? `${poolEs}${t.name.slice(pool.length)}` : t.name),
+      descEn: activationDescription(pool, t, "en"),
+      descEs: activationDescription(pool, t, "es"),
     })),
     colorIndex: i % 12,
   };

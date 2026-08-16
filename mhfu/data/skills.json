@@ -9,32 +9,44 @@
    {
     "points": 20,
     "nameEn": "Attack Up (Large)",
-    "nameEs": "Sub ataque (grande)"
+    "nameEs": "Sub ataque (grande)",
+    "descEn": "At +20 points, activates “Attack Up (Large)”. Increases or decreases the hunter's attack power.",
+    "descEs": "Con +20 puntos activa «Sub ataque (grande)». Aumenta o reduce el poder de ataque del cazador."
    },
    {
     "points": 15,
     "nameEn": "Attack Up (Medium)",
-    "nameEs": "Sub ataque (medio)"
+    "nameEs": "Sub ataque (medio)",
+    "descEn": "At +15 points, activates “Attack Up (Medium)”. Increases or decreases the hunter's attack power.",
+    "descEs": "Con +15 puntos activa «Sub ataque (medio)». Aumenta o reduce el poder de ataque del cazador."
    },
    {
     "points": 10,
     "nameEn": "Attack Up (Small)",
-    "nameEs": "Sub ataque (peq.)"
+    "nameEs": "Sub ataque (peq.)",
+    "descEn": "At +10 points, activates “Attack Up (Small)”. Increases or decreases the hunter's attack power.",
+    "descEs": "Con +10 puntos activa «Sub ataque (peq.)». Aumenta o reduce el poder de ataque del cazador."
    },
    {
     "points": -10,
     "nameEn": "Attack Down (Small)",
-    "nameEs": "Ataque abajo (peq.)"
+    "nameEs": "Ataque abajo (peq.)",
+    "descEn": "At -10 points, activates “Attack Down (Small)”. Increases or decreases the hunter's attack power.",
+    "descEs": "Con -10 puntos activa «Ataque abajo (peq.)». Aumenta o reduce el poder de ataque del cazador."
    },
    {
     "points": -15,
     "nameEn": "Attack Down (Medium)",
-    "nameEs": "Ataque abajo (medio)"
+    "nameEs": "Ataque abajo (medio)",
+    "descEn": "At -15 points, activates “Attack Down (Medium)”. Increases or decreases the hunter's attack power.",
+    "descEs": "Con -15 puntos activa «Ataque abajo (medio)». Aumenta o reduce el poder de ataque del cazador."
    },
    {
     "points": -20,
     "nameEn": "Attack Down (Large)",
-    "nameEs": "Ataque abajo (grande)"
+    "nameEs": "Ataque abajo (grande)",
+    "descEn": "At -20 points, activates “Attack Down (Large)”. Increases or decreases the hunter's attack power.",
+    "descEs": "Con -20 puntos activa «Ataque abajo (grande)». Aumenta o reduce el poder de ataque del cazador."
    }
   ],
   "colorIndex": 0
@@ -49,32 +61,44 @@
    {
     "points": 20,
     "nameEn": "Defense +40",
-    "nameEs": "Defensa +40"
+    "nameEs": "Defensa +40",
+    "descEn": "At +20 points, activates “Defense +40”. Increases or decreases the hunter's defense.",
+    "descEs": "Con +20 puntos activa «Defensa +40». Aumenta o reduce la defensa del cazador."
    },
    {
     "points": 15,
     "nameEn": "Defense +30",
-    "nameEs": "Defensa +30"
+    "nameEs": "Defensa +30",
+    "descEn": "At +15 points, activates “Defense +30”. Increases or decreases the hunter's defense.",
+    "descEs": "Con +15 puntos activa «Defensa +30». Aumenta o reduce la defensa del cazador."
    },
    {
     "points": 10,
     "nameEn": "Defense +20",
-    "nameEs": "Defensa +20"
+    "nameEs": "Defensa +20",
+    "descEn": "At +10 points, activates “Defense +20”. Increases or decreases the hunter's defense.",
+    "descEs": "Con +10 puntos activa «Defensa +20». Aumenta o reduce la defensa del cazador."
    },
    {
     "points": -10,
     "nameEn": "Defense -20",
-    "nameEs": "Defensa -20"
+    "nameEs": "Defensa -20",
+    "descEn": "At -10 points, activates “Defense -20”. Increases or decreases the hunter's defense.",
+    "descEs": "Con -10 puntos activa «Defensa -20». Aumenta o reduce la defensa del cazador."
    },
    {
     "points": -15,
     "nameEn": "Defense -30",
-    "nameEs": "Defensa -30"
+    "nameEs": "Defensa -30",
+    "descEn": "At -15 points, activates “Defense -30”. Increases or decreases the hunter's defense.",
+    "descEs": "Con -15 puntos activa «Defensa -30». Aumenta o reduce la defensa del cazador."
    },
    {
     "points": -20,
     "nameEn": "Defense -40",
-    "nameEs": "Defensa -40"
+    "nameEs": "Defensa -40",
+    "descEn": "At -20 points, activates “Defense -40”. Increases or decreases the hunter's defense.",
+    "descEs": "Con -20 puntos activa «Defensa -40». Aumenta o reduce la defensa del cazador."
    }
   ],
   "colorIndex": 1
@@ -89,32 +113,44 @@
    {
     "points": 20,
     "nameEn": "Health +50",
-    "nameEs": "Salud +50"
+    "nameEs": "Salud +50",
+    "descEn": "At +20 points, activates “Health +50”. Increases or decreases the hunter's maximum health.",
+    "descEs": "Con +20 puntos activa «Salud +50». Aumenta o reduce la salud máxima del cazador."
    },
    {
     "points": 15,
     "nameEn": "Health +30",
-    "nameEs": "Salud +30"
+    "nameEs": "Salud +30",
+    "descEn": "At +15 points, activates “Health +30”. Increases or decreases the hunter's maximum health.",
+    "descEs": "Con +15 puntos activa «Salud +30». Aumenta o reduce la salud máxima del cazador."
    },
    {
     "points": 10,
     "nameEn": "Health +20",
-    "nameEs": "Salud +20"
+    "nameEs": "Salud +20",
+    "descEn": "At +10 points, activates “Health +20”. Increases or decreases the hunter's maximum health.",
+    "descEs": "Con +10 puntos activa «Salud +20». Aumenta o reduce la salud máxima del cazador."
    },
    {
     "points": -10,
     "nameEn": "Health -10",
-    "nameEs": "Salud -10"
+    "nameEs": "Salud -10",
+    "descEn": "At -10 points, activates “Health -10”. Increases or decreases the hunter's maximum health.",
+    "descEs": "Con -10 puntos activa «Salud -10». Aumenta o reduce la salud máxima del cazador."
    },
    {
     "points": -15,
     "nameEn": "Health -20",
-    "nameEs": "Salud -20"
+    "nameEs": "Salud -20",
+    "descEn": "At -15 points, activates “Health -20”. Increases or decreases the hunter's maximum health.",
+    "descEs": "Con -15 puntos activa «Salud -20». Aumenta o reduce la salud máxima del cazador."
    },
    {
     "points": -20,
     "nameEn": "Health -30",
-    "nameEs": "Salud -30"
+    "nameEs": "Salud -30",
+    "descEn": "At -20 points, activates “Health -30”. Increases or decreases the hunter's maximum health.",
+    "descEs": "Con -20 puntos activa «Health -30». Aumenta o reduce la salud máxima del cazador."
    }
   ],
   "colorIndex": 2
@@ -129,32 +165,44 @@
    {
     "points": 20,
     "nameEn": "All Res +10",
-    "nameEs": "Res. todo +10"
+    "nameEs": "Res. todo +10",
+    "descEn": "At +20 points, activates “All Res +10”. Increases or decreases all elemental resistances.",
+    "descEs": "Con +20 puntos activa «Res. todo +10». Aumenta o reduce todas las resistencias elementales."
    },
    {
     "points": 15,
     "nameEn": "All Res +5",
-    "nameEs": "Res. todo +5"
+    "nameEs": "Res. todo +5",
+    "descEn": "At +15 points, activates “All Res +5”. Increases or decreases all elemental resistances.",
+    "descEs": "Con +15 puntos activa «Res. todo +5». Aumenta o reduce todas las resistencias elementales."
    },
    {
     "points": 10,
     "nameEn": "All Res +3",
-    "nameEs": "Res. todo +3"
+    "nameEs": "Res. todo +3",
+    "descEn": "At +10 points, activates “All Res +3”. Increases or decreases all elemental resistances.",
+    "descEs": "Con +10 puntos activa «Res. todo +3». Aumenta o reduce todas las resistencias elementales."
    },
    {
     "points": -10,
     "nameEn": "All Res -3",
-    "nameEs": "Res. todo -3"
+    "nameEs": "Res. todo -3",
+    "descEn": "At -10 points, activates “All Res -3”. Increases or decreases all elemental resistances.",
+    "descEs": "Con -10 puntos activa «Res. todo -3». Aumenta o reduce todas las resistencias elementales."
    },
    {
     "points": -15,
     "nameEn": "All Res -5",
-    "nameEs": "Res. todo -5"
+    "nameEs": "Res. todo -5",
+    "descEn": "At -15 points, activates “All Res -5”. Increases or decreases all elemental resistances.",
+    "descEs": "Con -15 puntos activa «Res. todo -5». Aumenta o reduce todas las resistencias elementales."
    },
    {
     "points": -20,
     "nameEn": "All Res -10",
-    "nameEs": "Res. todo -10"
+    "nameEs": "Res. todo -10",
+    "descEn": "At -20 points, activates “All Res -10”. Increases or decreases all elemental resistances.",
+    "descEs": "Con -20 puntos activa «Res. todo -10». Aumenta o reduce todas las resistencias elementales."
    }
   ],
   "colorIndex": 3
@@ -169,22 +217,30 @@
    {
     "points": 15,
     "nameEn": "Fire Res +10",
-    "nameEs": "Res. fuego +10"
+    "nameEs": "Res. fuego +10",
+    "descEn": "At +15 points, activates “Fire Res +10”. Changes resistance to fire damage.",
+    "descEs": "Con +15 puntos activa «Res. fuego +10». Modifica la resistencia al daño de fuego."
    },
    {
     "points": 10,
     "nameEn": "Fire Res +5",
-    "nameEs": "Res. fuego +5"
+    "nameEs": "Res. fuego +5",
+    "descEn": "At +10 points, activates “Fire Res +5”. Changes resistance to fire damage.",
+    "descEs": "Con +10 puntos activa «Res. fuego +5». Modifica la resistencia al daño de fuego."
    },
    {
     "points": -10,
     "nameEn": "Fire Res -5",
-    "nameEs": "Res. fuego -5"
+    "nameEs": "Res. fuego -5",
+    "descEn": "At -10 points, activates “Fire Res -5”. Changes resistance to fire damage.",
+    "descEs": "Con -10 puntos activa «Res. fuego -5». Modifica la resistencia al daño de fuego."
    },
    {
     "points": -15,
     "nameEn": "Fire Res -10",
-    "nameEs": "Res. fuego -10"
+    "nameEs": "Res. fuego -10",
+    "descEn": "At -15 points, activates “Fire Res -10”. Changes resistance to fire damage.",
+    "descEs": "Con -15 puntos activa «Res. fuego -10». Modifica la resistencia al daño de fuego."
    }
   ],
   "colorIndex": 4
@@ -199,22 +255,30 @@
    {
     "points": 15,
     "nameEn": "Water Res +10",
-    "nameEs": "Res. agua +10"
+    "nameEs": "Res. agua +10",
+    "descEn": "At +15 points, activates “Water Res +10”. Changes resistance to water damage.",
+    "descEs": "Con +15 puntos activa «Res. agua +10». Modifica la resistencia al daño de agua."
    },
    {
     "points": 10,
     "nameEn": "Water Res +5",
-    "nameEs": "Res. agua +5"
+    "nameEs": "Res. agua +5",
+    "descEn": "At +10 points, activates “Water Res +5”. Changes resistance to water damage.",
+    "descEs": "Con +10 puntos activa «Res. agua +5». Modifica la resistencia al daño de agua."
    },
    {
     "points": -10,
     "nameEn": "Water Res -5",
-    "nameEs": "Res. agua -5"
+    "nameEs": "Res. agua -5",
+    "descEn": "At -10 points, activates “Water Res -5”. Changes resistance to water damage.",
+    "descEs": "Con -10 puntos activa «Res. agua -5». Modifica la resistencia al daño de agua."
    },
    {
     "points": -15,
     "nameEn": "Water Res -10",
-    "nameEs": "Res. agua -10"
+    "nameEs": "Res. agua -10",
+    "descEn": "At -15 points, activates “Water Res -10”. Changes resistance to water damage.",
+    "descEs": "Con -15 puntos activa «Res. agua -10». Modifica la resistencia al daño de agua."
    }
   ],
   "colorIndex": 5
@@ -229,22 +293,30 @@
    {
     "points": 15,
     "nameEn": "Thunder Res +10",
-    "nameEs": "Res. trueno +10"
+    "nameEs": "Res. trueno +10",
+    "descEn": "At +15 points, activates “Thunder Res +10”. Changes resistance to thunder damage.",
+    "descEs": "Con +15 puntos activa «Res. trueno +10». Modifica la resistencia al daño de rayo."
    },
    {
     "points": 10,
     "nameEn": "Thunder Res +5",
-    "nameEs": "Res. trueno +5"
+    "nameEs": "Res. trueno +5",
+    "descEn": "At +10 points, activates “Thunder Res +5”. Changes resistance to thunder damage.",
+    "descEs": "Con +10 puntos activa «Res. trueno +5». Modifica la resistencia al daño de rayo."
    },
    {
     "points": -10,
     "nameEn": "Thunder Res -5",
-    "nameEs": "Res. trueno -5"
+    "nameEs": "Res. trueno -5",
+    "descEn": "At -10 points, activates “Thunder Res -5”. Changes resistance to thunder damage.",
+    "descEs": "Con -10 puntos activa «Res. trueno -5». Modifica la resistencia al daño de rayo."
    },
    {
     "points": -15,
     "nameEn": "Thunder Res -10",
-    "nameEs": "Res. trueno -10"
+    "nameEs": "Res. trueno -10",
+    "descEn": "At -15 points, activates “Thunder Res -10”. Changes resistance to thunder damage.",
+    "descEs": "Con -15 puntos activa «Res. trueno -10». Modifica la resistencia al daño de rayo."
    }
   ],
   "colorIndex": 6
@@ -259,22 +331,30 @@
    {
     "points": 15,
     "nameEn": "Ice Res +10",
-    "nameEs": "Res.hielo +10"
+    "nameEs": "Res.hielo +10",
+    "descEn": "At +15 points, activates “Ice Res +10”. Changes resistance to ice damage.",
+    "descEs": "Con +15 puntos activa «Res.hielo +10». Modifica la resistencia al daño de hielo."
    },
    {
     "points": 10,
     "nameEn": "Ice Res +5",
-    "nameEs": "Res. hielo +5"
+    "nameEs": "Res. hielo +5",
+    "descEn": "At +10 points, activates “Ice Res +5”. Changes resistance to ice damage.",
+    "descEs": "Con +10 puntos activa «Res. hielo +5». Modifica la resistencia al daño de hielo."
    },
    {
     "points": -10,
     "nameEn": "Ice Res -5",
-    "nameEs": "Res.hielo +5"
+    "nameEs": "Res.hielo +5",
+    "descEn": "At -10 points, activates “Ice Res -5”. Changes resistance to ice damage.",
+    "descEs": "Con -10 puntos activa «Res.hielo +5». Modifica la resistencia al daño de hielo."
    },
    {
     "points": -15,
     "nameEn": "Ice Res -10",
-    "nameEs": "Res.hielo +10"
+    "nameEs": "Res.hielo +10",
+    "descEn": "At -15 points, activates “Ice Res -10”. Changes resistance to ice damage.",
+    "descEs": "Con -15 puntos activa «Res.hielo +10». Modifica la resistencia al daño de hielo."
    }
   ],
   "colorIndex": 7
@@ -289,22 +369,30 @@
    {
     "points": 15,
     "nameEn": "Dragon Res +10",
-    "nameEs": "Res.dragón +10"
+    "nameEs": "Res.dragón +10",
+    "descEn": "At +15 points, activates “Dragon Res +10”. Changes resistance to dragon damage.",
+    "descEs": "Con +15 puntos activa «Res.dragón +10». Modifica la resistencia al daño de dragón."
    },
    {
     "points": 10,
     "nameEn": "Dragon Res +5",
-    "nameEs": "Res.dragón +5"
+    "nameEs": "Res.dragón +5",
+    "descEn": "At +10 points, activates “Dragon Res +5”. Changes resistance to dragon damage.",
+    "descEs": "Con +10 puntos activa «Res.dragón +5». Modifica la resistencia al daño de dragón."
    },
    {
     "points": -10,
     "nameEn": "Dragon Res -5",
-    "nameEs": "Res.dragón -5"
+    "nameEs": "Res.dragón -5",
+    "descEn": "At -10 points, activates “Dragon Res -5”. Changes resistance to dragon damage.",
+    "descEs": "Con -10 puntos activa «Res.dragón -5». Modifica la resistencia al daño de dragón."
    },
    {
     "points": -15,
     "nameEn": "Dragon Res -10",
-    "nameEs": "Res.dragón -10"
+    "nameEs": "Res.dragón -10",
+    "descEn": "At -15 points, activates “Dragon Res -10”. Changes resistance to dragon damage.",
+    "descEs": "Con -15 puntos activa «Res.dragón -10». Modifica la resistencia al daño de dragón."
    }
   ],
   "colorIndex": 8
@@ -319,17 +407,23 @@
    {
     "points": 15,
     "nameEn": "Faint Negated",
-    "nameEs": "Desmayo anulado"
+    "nameEs": "Desmayo anulado",
+    "descEn": "At +15 points, activates “Faint Negated”. Changes how easily the hunter faints after taking damage.",
+    "descEs": "Con +15 puntos activa «Desmayo anulado». Modifica la facilidad con la que el cazador se desmaya al recibir daño."
    },
    {
     "points": 10,
     "nameEn": "Faint Prob Halved",
-    "nameEs": "Desmayo Prob Halved"
+    "nameEs": "Desmayo Prob Halved",
+    "descEn": "At +10 points, activates “Faint Prob Halved”. Changes how easily the hunter faints after taking damage.",
+    "descEs": "Con +10 puntos activa «Faint Prob Halved». Modifica la facilidad con la que el cazador se desmaya al recibir daño."
    },
    {
     "points": -10,
     "nameEn": "Faint Duration(x2)",
-    "nameEs": "Desmayo Duration(x2)"
+    "nameEs": "Desmayo Duration(x2)",
+    "descEn": "At -10 points, activates “Faint Duration(x2)”. Changes how easily the hunter faints after taking damage.",
+    "descEs": "Con -10 puntos activa «Faint Duration(x2)». Modifica la facilidad con la que el cazador se desmaya al recibir daño."
    }
   ],
   "colorIndex": 9
@@ -344,17 +438,23 @@
    {
     "points": 15,
     "nameEn": "Poison Negated",
-    "nameEs": "Veneno anulado"
+    "nameEs": "Veneno anulado",
+    "descEn": "At +15 points, activates “Poison Negated”. Changes resistance to poison and its effects.",
+    "descEs": "Con +15 puntos activa «Veneno anulado». Modifica la resistencia al veneno y sus efectos."
    },
    {
     "points": 10,
     "nameEn": "Poison Dur Halved",
-    "nameEs": "Veneno Dur Halved"
+    "nameEs": "Veneno Dur Halved",
+    "descEn": "At +10 points, activates “Poison Dur Halved”. Changes resistance to poison and its effects.",
+    "descEs": "Con +10 puntos activa «Poison Dur Halved». Modifica la resistencia al veneno y sus efectos."
    },
    {
     "points": -10,
     "nameEn": "Poison Dur(x2)",
-    "nameEs": "Veneno Dur(x2)"
+    "nameEs": "Veneno Dur(x2)",
+    "descEn": "At -10 points, activates “Poison Dur(x2)”. Changes resistance to poison and its effects.",
+    "descEs": "Con -10 puntos activa «Poison Dur(x2)». Modifica la resistencia al veneno y sus efectos."
    }
   ],
   "colorIndex": 10
@@ -369,17 +469,23 @@
    {
     "points": 15,
     "nameEn": "Paralysis Negated",
-    "nameEs": "Parálisis anulada"
+    "nameEs": "Parálisis anulada",
+    "descEn": "At +15 points, activates “Paralysis Negated”. Changes resistance to paralysis and its effects.",
+    "descEs": "Con +15 puntos activa «Parálisis anulada». Modifica la resistencia a la parálisis y sus efectos."
    },
    {
     "points": 10,
     "nameEn": "Para Duration Halved",
-    "nameEs": "Para Duration Halved"
+    "nameEs": "Para Duration Halved",
+    "descEn": "At +10 points, activates “Para Duration Halved”. Changes resistance to paralysis and its effects.",
+    "descEs": "Con +10 puntos activa «Para Duration Halved». Modifica la resistencia a la parálisis y sus efectos."
    },
    {
     "points": -10,
     "nameEn": "Para Duration(x2)",
-    "nameEs": "Para Duration(x2)"
+    "nameEs": "Para Duration(x2)",
+    "descEn": "At -10 points, activates “Para Duration(x2)”. Changes resistance to paralysis and its effects.",
+    "descEs": "Con -10 puntos activa «Para Duration(x2)». Modifica la resistencia a la parálisis y sus efectos."
    }
   ],
   "colorIndex": 11
@@ -394,17 +500,23 @@
    {
     "points": 15,
     "nameEn": "Sleep Negated",
-    "nameEs": "Sueño anulado"
+    "nameEs": "Sueño anulado",
+    "descEn": "At +15 points, activates “Sleep Negated”. Changes resistance to sleep and its effects.",
+    "descEs": "Con +15 puntos activa «Sueño anulado». Modifica la resistencia al sueño y sus efectos."
    },
    {
     "points": 10,
     "nameEn": "Sleep Dur Halved",
-    "nameEs": "Sueño Dur Halved"
+    "nameEs": "Sueño Dur Halved",
+    "descEn": "At +10 points, activates “Sleep Dur Halved”. Changes resistance to sleep and its effects.",
+    "descEs": "Con +10 puntos activa «Sleep Dur Halved». Modifica la resistencia al sueño y sus efectos."
    },
    {
     "points": -10,
     "nameEn": "Sleep Duration(x2)",
-    "nameEs": "Sueño Duration(x2)"
+    "nameEs": "Sueño Duration(x2)",
+    "descEn": "At -10 points, activates “Sleep Duration(x2)”. Changes resistance to sleep and its effects.",
+    "descEs": "Con -10 puntos activa «Sleep Duration(x2)». Modifica la resistencia al sueño y sus efectos."
    }
   ],
   "colorIndex": 0
@@ -413,13 +525,15 @@
   "id": "mhfus14",
   "name": "Antiseptic",
   "nameEs": "Antisépt.",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Prevents or worsens the effects of being covered in foul stench.",
+  "descEs": "Previene o empeora los efectos de quedar cubierto de hedor.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Antiseptic",
-    "nameEs": "Antiséptico"
+    "nameEs": "Antiséptico",
+    "descEn": "At +10 points, activates “Antiseptic”. Prevents or worsens the effects of being covered in foul stench.",
+    "descEs": "Con +10 puntos activa «Antiséptico». Previene o empeora los efectos de quedar cubierto de hedor."
    }
   ],
   "colorIndex": 1
@@ -428,13 +542,15 @@
   "id": "mhfus15",
   "name": "Fatigue",
   "nameEs": "Fatiga",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes how easily monsters become exhausted from your attacks.",
+  "descEs": "Modifica la facilidad con la que los monstruos se agotan por tus ataques.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Fatigue Cancellation",
-    "nameEs": "Canc.fatiga"
+    "nameEs": "Canc.fatiga",
+    "descEn": "At +10 points, activates “Fatigue Cancellation”. Changes how easily monsters become exhausted from your attacks.",
+    "descEs": "Con +10 puntos activa «Canc.fatiga». Modifica la facilidad con la que los monstruos se agotan por tus ataques."
    }
   ],
   "colorIndex": 2
@@ -443,13 +559,15 @@
   "id": "mhfus16",
   "name": "Snow Res",
   "nameEs": "R.nieve",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Prevents or worsens movement penalties caused by deep snow.",
+  "descEs": "Previene o empeora las penalizaciones de movimiento por nieve profunda.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Snow Res",
-    "nameEs": "Resistencia nieve"
+    "nameEs": "Resistencia nieve",
+    "descEn": "At +10 points, activates “Snow Res”. Prevents or worsens movement penalties caused by deep snow.",
+    "descEs": "Con +10 puntos activa «Resistencia nieve». Previene o empeora las penalizaciones de movimiento por nieve profunda."
    }
   ],
   "colorIndex": 3
@@ -458,13 +576,15 @@
   "id": "mhfus17",
   "name": "Quake Res",
   "nameEs": "Anti-tembl.",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Prevents or worsens the stagger caused by strong ground tremors.",
+  "descEs": "Previene o empeora el tambaleo causado por temblores fuertes.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Quake Resistance",
-    "nameEs": "Anti-temblor"
+    "nameEs": "Anti-temblor",
+    "descEn": "At +10 points, activates “Quake Resistance”. Prevents or worsens the stagger caused by strong ground tremors.",
+    "descEs": "Con +10 puntos activa «Anti-temblor». Previene o empeora el tambaleo causado por temblores fuertes."
    }
   ],
   "colorIndex": 4
@@ -473,18 +593,22 @@
   "id": "mhfus18",
   "name": "HearProtct",
   "nameEs": "Prot.Oído",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Reduces or removes the opening caused by monster roars.",
+  "descEs": "Reduce o elimina la apertura que provocan los rugidos de monstruo.",
   "activations": [
    {
     "points": 15,
     "nameEn": "High Grade Earplug",
-    "nameEs": "Tapón oídos gran cal."
+    "nameEs": "Tapón oídos gran cal.",
+    "descEn": "At +15 points, activates “High Grade Earplug”. Reduces or removes the opening caused by monster roars.",
+    "descEs": "Con +15 puntos activa «Tapón oídos gran cal.». Reduce o elimina la apertura que provocan los rugidos de monstruo."
    },
    {
     "points": 10,
     "nameEn": "Earplug",
-    "nameEs": "Earplug"
+    "nameEs": "Earplug",
+    "descEn": "At +10 points, activates “Earplug”. Reduces or removes the opening caused by monster roars.",
+    "descEs": "Con +10 puntos activa «Earplug». Reduce o elimina la apertura que provocan los rugidos de monstruo."
    }
   ],
   "colorIndex": 5
@@ -493,23 +617,29 @@
   "id": "mhfus19",
   "name": "Wind Press",
   "nameEs": "Pres. viento (Presion al viento)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Reduces or removes the stagger caused by a monster's wind pressure.",
+  "descEs": "Reduce o elimina el tambaleo causado por la presión de viento de un monstruo.",
   "activations": [
    {
     "points": 20,
     "nameEn": "Dragon Wind Breaker",
-    "nameEs": "Anular viento dragón"
+    "nameEs": "Anular viento dragón",
+    "descEn": "At +20 points, activates “Dragon Wind Breaker”. Reduces or removes the stagger caused by a monster's wind pressure.",
+    "descEs": "Con +20 puntos activa «Anular viento dragón». Reduce o elimina el tambaleo causado por la presión de viento de un monstruo."
    },
    {
     "points": 15,
     "nameEn": "High Wind Res",
-    "nameEs": "High Wind Res"
+    "nameEs": "High Wind Res",
+    "descEn": "At +15 points, activates “High Wind Res”. Reduces or removes the stagger caused by a monster's wind pressure.",
+    "descEs": "Con +15 puntos activa «High Wind Res». Reduce o elimina el tambaleo causado por la presión de viento de un monstruo."
    },
    {
     "points": 10,
     "nameEn": "Low Wind Res",
-    "nameEs": "Low Wind Res"
+    "nameEs": "Low Wind Res",
+    "descEn": "At +10 points, activates “Low Wind Res”. Reduces or removes the stagger caused by a monster's wind pressure.",
+    "descEs": "Con +10 puntos activa «Low Wind Res». Reduce o elimina el tambaleo causado por la presión de viento de un monstruo."
    }
   ],
   "colorIndex": 6
@@ -518,13 +648,15 @@
   "id": "mhfus20",
   "name": "Anti-Theft",
   "nameEs": "Anti-Robo",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Prevents or increases the chance that a Felyne steals an item.",
+  "descEs": "Evita o aumenta la posibilidad de que un Felyne robe un objeto.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Steal No Effect",
-    "nameEs": "Robo sin efecto"
+    "nameEs": "Robo sin efecto",
+    "descEn": "At +10 points, activates “Steal No Effect”. Prevents or increases the chance that a Felyne steals an item.",
+    "descEs": "Con +10 puntos activa «Robo sin efecto». Evita o aumenta la posibilidad de que un Felyne robe un objeto."
    }
   ],
   "colorIndex": 7
@@ -533,13 +665,15 @@
   "id": "mhfus21",
   "name": "ResistSts",
   "nameEs": "EstResist",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes resistance to status ailments such as poison, sleep, paralysis and stun.",
+  "descEs": "Modifica la resistencia a estados como veneno, sueño, parálisis y aturdimiento.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Self-Defense",
-    "nameEs": "Auto-Defensa"
+    "nameEs": "Auto-Defensa",
+    "descEn": "At +10 points, activates “Self-Defense”. Changes resistance to status ailments such as poison, sleep, paralysis and stun.",
+    "descEs": "Con +10 puntos activa «Auto-Defensa». Modifica la resistencia a estados como veneno, sueño, parálisis y aturdimiento."
    }
   ],
   "colorIndex": 8
@@ -548,13 +682,15 @@
   "id": "mhfus22",
   "name": "AntiFirDrg",
   "nameEs": "AntiFueDrg",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes resistance to Fire Wyvern fireballs and similar attacks.",
+  "descEs": "Modifica la resistencia a bolas de fuego de wyverns de fuego y ataques similares.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Metallic Protection",
-    "nameEs": "Protección metálica"
+    "nameEs": "Protección metálica",
+    "descEn": "At +10 points, activates “Metallic Protection”. Changes resistance to Fire Wyvern fireballs and similar attacks.",
+    "descEs": "Con +10 puntos activa «Protección metálica». Modifica la resistencia a bolas de fuego de wyverns de fuego y ataques similares."
    }
   ],
   "colorIndex": 9
@@ -563,13 +699,15 @@
   "id": "mhfus23",
   "name": "AntiDaora",
   "nameEs": "Anti-Daora",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes resistance to Kushala Daora's wind effects.",
+  "descEs": "Modifica la resistencia a los efectos de viento de Kushala Daora.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Frosty Protection",
-    "nameEs": "Protección helada"
+    "nameEs": "Protección helada",
+    "descEn": "At +10 points, activates “Frosty Protection”. Changes resistance to Kushala Daora's wind effects.",
+    "descEs": "Con +10 puntos activa «Protección helada». Modifica la resistencia a los efectos de viento de Kushala Daora."
    }
   ],
   "colorIndex": 10
@@ -578,13 +716,15 @@
   "id": "mhfus24",
   "name": "AntiChamel",
   "nameEs": "Anti-Chamel",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes resistance to Chameleos's theft and concealment effects.",
+  "descEs": "Modifica la resistencia a los efectos de robo y ocultación de Chameleos.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Fiery Protection",
-    "nameEs": "Protección ardiente"
+    "nameEs": "Protección ardiente",
+    "descEn": "At +10 points, activates “Fiery Protection”. Changes resistance to Chameleos's theft and concealment effects.",
+    "descEs": "Con +10 puntos activa «Protección ardiente». Modifica la resistencia a los efectos de robo y ocultación de Chameleos."
    }
   ],
   "colorIndex": 11
@@ -599,7 +739,9 @@
    {
     "points": 10,
     "nameEn": "Sharpness +1",
-    "nameEs": "Sharpness +1"
+    "nameEs": "Sharpness +1",
+    "descEn": "At +10 points, activates “Sharpness +1”. Improves weapon sharpness and can add a higher sharpness level.",
+    "descEs": "Con +10 puntos activa «Sharpness +1». Mejora el afilado del arma y puede añadir un nivel superior de filo."
    }
   ],
   "colorIndex": 0
@@ -614,12 +756,16 @@
    {
     "points": 10,
     "nameEn": "Sharp Sword",
-    "nameEs": "Espada afilada"
+    "nameEs": "Espada afilada",
+    "descEn": "At +10 points, activates “Sharp Sword”. Changes the weapon's sharpness and sharpening speed.",
+    "descEs": "Con +10 puntos activa «Espada afilada». Modifica el filo del arma y la velocidad de afilado."
    },
    {
     "points": -10,
     "nameEn": "Blunt",
-    "nameEs": "Desafilado"
+    "nameEs": "Desafilado",
+    "descEn": "At -10 points, activates “Blunt”. Changes the weapon's sharpness and sharpening speed.",
+    "descEs": "Con -10 puntos activa «Desafilado». Modifica el filo del arma y la velocidad de afilado."
    }
   ],
   "colorIndex": 1
@@ -628,13 +774,15 @@
   "id": "mhfus27",
   "name": "Fencing",
   "nameEs": "Fencing",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Prevents melee attacks from bouncing so weapon combos are not interrupted.",
+  "descEs": "Evita que los ataques cuerpo a cuerpo reboten y corten los combos.",
   "activations": [
    {
     "points": 10,
     "nameEn": "ESP",
-    "nameEs": "ESP"
+    "nameEs": "ESP",
+    "descEn": "At +10 points, activates “ESP”. Prevents melee attacks from bouncing so weapon combos are not interrupted.",
+    "descEs": "Con +10 puntos activa «ESP». Evita que los ataques cuerpo a cuerpo reboten y corten los combos."
    }
   ],
   "colorIndex": 2
@@ -643,18 +791,22 @@
   "id": "mhfus28",
   "name": "SwdShrpner",
   "nameEs": "Afilador",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes whetstone speed and how much sharpness is restored.",
+  "descEs": "Modifica la velocidad de uso de la piedra de afilar y el filo restaurado.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Sharpening Skl Inc",
-    "nameEs": "Hab. Afilado aum."
+    "nameEs": "Hab. Afilado aum.",
+    "descEn": "At +10 points, activates “Sharpening Skl Inc”. Changes whetstone speed and how much sharpness is restored.",
+    "descEs": "Con +10 puntos activa «Hab. Afilado aum.». Modifica la velocidad de uso de la piedra de afilar y el filo restaurado."
    },
    {
     "points": -10,
     "nameEn": "Sharpening Skl Half",
-    "nameEs": "Hab. Afilado mitad"
+    "nameEs": "Hab. Afilado mitad",
+    "descEn": "At -10 points, activates “Sharpening Skl Half”. Changes whetstone speed and how much sharpness is restored.",
+    "descEs": "Con -10 puntos activa «Hab. Afilado mitad». Modifica la velocidad de uso de la piedra de afilar y el filo restaurado."
    }
   ],
   "colorIndex": 3
@@ -669,17 +821,23 @@
    {
     "points": 20,
     "nameEn": "Guard +2",
-    "nameEs": "Proteccion +2"
+    "nameEs": "Proteccion +2",
+    "descEn": "At +20 points, activates “Guard +2”. Reduces stamina loss and knockback while guarding.",
+    "descEs": "Con +20 puntos activa «Proteccion +2». Reduce la pérdida de resistencia y el retroceso al protegerse."
    },
    {
     "points": 10,
     "nameEn": "Guard +1",
-    "nameEs": "Proteccion +1"
+    "nameEs": "Proteccion +1",
+    "descEn": "At +10 points, activates “Guard +1”. Reduces stamina loss and knockback while guarding.",
+    "descEs": "Con +10 puntos activa «Proteccion +1». Reduce la pérdida de resistencia y el retroceso al protegerse."
    },
    {
     "points": -10,
     "nameEn": "Guard -1",
-    "nameEs": "Proteccion -1"
+    "nameEs": "Proteccion -1",
+    "descEn": "At -10 points, activates “Guard -1”. Reduces stamina loss and knockback while guarding.",
+    "descEs": "Con -10 puntos activa «Proteccion -1». Reduce la pérdida de resistencia y el retroceso al protegerse."
    }
   ],
   "colorIndex": 4
@@ -688,13 +846,15 @@
   "id": "mhfus30",
   "name": "Auto-Guard",
   "nameEs": "Auto-Guard",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Automatically blocks attacks when the equipped weapon can guard.",
+  "descEs": "Bloquea ataques automáticamente cuando el arma equipada permite defenderse.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Auto-Guard",
-    "nameEs": "Auto-Guard"
+    "nameEs": "Auto-Guard",
+    "descEn": "At +10 points, activates “Auto-Guard”. Automatically blocks attacks when the equipped weapon can guard.",
+    "descEs": "Con +10 puntos activa «Auto-Guard». Bloquea ataques automáticamente cuando el arma equipada permite defenderse."
    }
   ],
   "colorIndex": 5
@@ -703,13 +863,15 @@
   "id": "mhfus31",
   "name": "Sword Draw",
   "nameEs": "Sword Draw",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Makes draw attacks critical hits.",
+  "descEs": "Hace que los ataques al desenvainar sean golpes críticos.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Art of Unsheathing",
-    "nameEs": "Art of Unsheathing"
+    "nameEs": "Art of Unsheathing",
+    "descEn": "At +10 points, activates “Art of Unsheathing”. Makes draw attacks critical hits.",
+    "descEs": "Con +10 puntos activa «Art of Unsheathing». Hace que los ataques al desenvainar sean golpes críticos."
    }
   ],
   "colorIndex": 6
@@ -718,13 +880,15 @@
   "id": "mhfus32",
   "name": "Edgemaster",
   "nameEs": "Dsnf. Espada",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Combines a sharpness benefit with an attack benefit.",
+  "descEs": "Combina una mejora de filo con una mejora de ataque.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Stellar Hunter",
-    "nameEs": "Arte desenfundar"
+    "nameEs": "Arte desenfundar",
+    "descEn": "At +10 points, activates “Stellar Hunter”. Combines a sharpness benefit with an attack benefit.",
+    "descEs": "Con +10 puntos activa «Arte desenfundar». Combina una mejora de filo con una mejora de ataque."
    }
   ],
   "colorIndex": 7
@@ -733,13 +897,15 @@
   "id": "mhfus33",
   "name": "NormalS Up",
   "nameEs": "SubDNorm (Subir Daño Normal)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes damage dealt by Normal Shots.",
+  "descEs": "Modifica el daño de los Disparos Normales.",
   "activations": [
    {
     "points": 10,
     "nameEn": "NormalS/RapidBow Up",
-    "nameEs": "Dnormal/ArcRáp subir"
+    "nameEs": "Dnormal/ArcRáp subir",
+    "descEn": "At +10 points, activates “NormalS/RapidBow Up”. Changes damage dealt by Normal Shots.",
+    "descEs": "Con +10 puntos activa «Dnormal/ArcRáp subir». Modifica el daño de los Disparos Normales."
    }
   ],
   "colorIndex": 8
@@ -748,13 +914,15 @@
   "id": "mhfus34",
   "name": "PierceS Up",
   "nameEs": "SubirDPerf (Subir Daño Perforacion)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes damage dealt by Pierce Shots.",
+  "descEs": "Modifica el daño de los Disparos Perforantes.",
   "activations": [
    {
     "points": 10,
     "nameEn": "PierceS/PierceBow Up",
-    "nameEs": "Dperf/ArcPerf subir"
+    "nameEs": "Dperf/ArcPerf subir",
+    "descEn": "At +10 points, activates “PierceS/PierceBow Up”. Changes damage dealt by Pierce Shots.",
+    "descEs": "Con +10 puntos activa «Dperf/ArcPerf subir». Modifica el daño de los Disparos Perforantes."
    }
   ],
   "colorIndex": 9
@@ -763,13 +931,15 @@
   "id": "mhfus35",
   "name": "PelletS Up",
   "nameEs": "SubirDPerd (Subir Daño Perdigón)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes damage dealt by Pellet Shots.",
+  "descEs": "Modifica el daño de los Disparos de Perdigón.",
   "activations": [
    {
     "points": 10,
     "nameEn": "PelletS/ScattrBow Up",
-    "nameEs": "Dperd/ArcDspr subir"
+    "nameEs": "Dperd/ArcDspr subir",
+    "descEn": "At +10 points, activates “PelletS/ScattrBow Up”. Changes damage dealt by Pellet Shots.",
+    "descEs": "Con +10 puntos activa «Dperd/ArcDspr subir». Modifica el daño de los Disparos de Perdigón."
    }
   ],
   "colorIndex": 10
@@ -778,13 +948,15 @@
   "id": "mhfus36",
   "name": "NormalSAdd",
   "nameEs": "AñDNormal (Añadir Disparo Normal)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Adds or removes compatible Normal Shot ammunition.",
+  "descEs": "Añade o elimina munición compatible de Disparo Normal.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Normal S All LV Add",
-    "nameEs": "Añ.D.n.todos NV"
+    "nameEs": "Añ.D.n.todos NV",
+    "descEn": "At +10 points, activates “Normal S All LV Add”. Adds or removes compatible Normal Shot ammunition.",
+    "descEs": "Con +10 puntos activa «Añ.D.n.todos NV». Añade o elimina munición compatible de Disparo Normal."
    }
   ],
   "colorIndex": 11
@@ -793,18 +965,22 @@
   "id": "mhfus37",
   "name": "PierceSAdd",
   "nameEs": "AñDPerf (Añadir Disparo Perforante)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Adds or removes compatible Pierce Shot ammunition.",
+  "descEs": "Añade o elimina munición compatible de Disparo Perforante.",
   "activations": [
    {
     "points": 15,
     "nameEn": "Pierce S All LV Add",
-    "nameEs": "Añ.D.perf. todos NV"
+    "nameEs": "Añ.D.perf. todos NV",
+    "descEn": "At +15 points, activates “Pierce S All LV Add”. Adds or removes compatible Pierce Shot ammunition.",
+    "descEs": "Con +15 puntos activa «Añ.D.perf. todos NV». Añade o elimina munición compatible de Disparo Perforante."
    },
    {
     "points": 10,
     "nameEn": "Pierce S LV1 Add",
-    "nameEs": "Añadir d. Perf. NV1"
+    "nameEs": "Añadir d. Perf. NV1",
+    "descEn": "At +10 points, activates “Pierce S LV1 Add”. Adds or removes compatible Pierce Shot ammunition.",
+    "descEs": "Con +10 puntos activa «Añadir d. Perf. NV1». Añade o elimina munición compatible de Disparo Perforante."
    }
   ],
   "colorIndex": 0
@@ -813,18 +989,22 @@
   "id": "mhfus38",
   "name": "PelletSAdd",
   "nameEs": "AñDPerd (Añadir Disparo Perdigón)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Adds or removes compatible Pellet Shot ammunition.",
+  "descEs": "Añade o elimina munición compatible de Disparo de Perdigón.",
   "activations": [
    {
     "points": 15,
     "nameEn": "Pellet S All LV Add",
-    "nameEs": "Añ.D.Perd.todos  NV"
+    "nameEs": "Añ.D.Perd.todos  NV",
+    "descEn": "At +15 points, activates “Pellet S All LV Add”. Adds or removes compatible Pellet Shot ammunition.",
+    "descEs": "Con +15 puntos activa «Añ.D.Perd.todos  NV». Añade o elimina munición compatible de Disparo de Perdigón."
    },
    {
     "points": 10,
     "nameEn": "Pellet S LV 1 Add",
-    "nameEs": "Añadir d. perd. NV1"
+    "nameEs": "Añadir d. perd. NV1",
+    "descEn": "At +10 points, activates “Pellet S LV 1 Add”. Adds or removes compatible Pellet Shot ammunition.",
+    "descEs": "Con +10 puntos activa «Añadir d. perd. NV1». Añade o elimina munición compatible de Disparo de Perdigón."
    }
   ],
   "colorIndex": 1
@@ -833,18 +1013,22 @@
   "id": "mhfus39",
   "name": "CragSAdd",
   "nameEs": "AñDExpl (Añadir Disparo Explosivo)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Adds or removes compatible Crag Shot ammunition.",
+  "descEs": "Añade o elimina munición compatible de Disparo Explosivo.",
   "activations": [
    {
     "points": 15,
     "nameEn": "Crag S All LV Add",
-    "nameEs": "Añ.D.Expl.todos NV"
+    "nameEs": "Añ.D.Expl.todos NV",
+    "descEn": "At +15 points, activates “Crag S All LV Add”. Adds or removes compatible Crag Shot ammunition.",
+    "descEs": "Con +15 puntos activa «Añ.D.Expl.todos NV». Añade o elimina munición compatible de Disparo Explosivo."
    },
    {
     "points": 10,
     "nameEn": "Crag S LV 1 Add",
-    "nameEs": "Añadir d. expl. NV1"
+    "nameEs": "Añadir d. expl. NV1",
+    "descEn": "At +10 points, activates “Crag S LV 1 Add”. Adds or removes compatible Crag Shot ammunition.",
+    "descEs": "Con +10 puntos activa «Añadir d. expl. NV1». Añade o elimina munición compatible de Disparo Explosivo."
    }
   ],
   "colorIndex": 2
@@ -853,18 +1037,22 @@
   "id": "mhfus40",
   "name": "ClustSAdd",
   "nameEs": "AñDispGr (Añadir Disparo Grupo)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Adds or removes compatible Clust Shot ammunition.",
+  "descEs": "Añade o elimina munición compatible de Disparo de Grupo.",
   "activations": [
    {
     "points": 15,
     "nameEn": "Clust S All LV Add",
-    "nameEs": "Añ.D.grupo todos NV"
+    "nameEs": "Añ.D.grupo todos NV",
+    "descEn": "At +15 points, activates “Clust S All LV Add”. Adds or removes compatible Clust Shot ammunition.",
+    "descEs": "Con +15 puntos activa «Añ.D.grupo todos NV». Añade o elimina munición compatible de Disparo de Grupo."
    },
    {
     "points": 10,
     "nameEn": "Clust S LV 1 Add",
-    "nameEs": "Añadir D. grupo NV1"
+    "nameEs": "Añadir D. grupo NV1",
+    "descEn": "At +10 points, activates “Clust S LV 1 Add”. Adds or removes compatible Clust Shot ammunition.",
+    "descEs": "Con +10 puntos activa «Añadir D. grupo NV1». Añade o elimina munición compatible de Disparo de Grupo."
    }
   ],
   "colorIndex": 3
@@ -873,38 +1061,50 @@
   "id": "mhfus41",
   "name": "Reload",
   "nameEs": "Recargar",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes bowgun reload speed.",
+  "descEs": "Modifica la velocidad de recarga de la ballesta.",
   "activations": [
    {
     "points": 20,
     "nameEn": "Reloading Speed +3",
-    "nameEs": "Velocidad Recarga +3"
+    "nameEs": "Velocidad Recarga +3",
+    "descEn": "At +20 points, activates “Reloading Speed +3”. Changes bowgun reload speed.",
+    "descEs": "Con +20 puntos activa «Velocidad Recarga +3». Modifica la velocidad de recarga de la ballesta."
    },
    {
     "points": 15,
     "nameEn": "Reloading Speed +2",
-    "nameEs": "Velocidad Recarga +2"
+    "nameEs": "Velocidad Recarga +2",
+    "descEn": "At +15 points, activates “Reloading Speed +2”. Changes bowgun reload speed.",
+    "descEs": "Con +15 puntos activa «Velocidad Recarga +2». Modifica la velocidad de recarga de la ballesta."
    },
    {
     "points": 10,
     "nameEn": "Reloading Speed +1",
-    "nameEs": "Velocidad Recarga +1"
+    "nameEs": "Velocidad Recarga +1",
+    "descEn": "At +10 points, activates “Reloading Speed +1”. Changes bowgun reload speed.",
+    "descEs": "Con +10 puntos activa «Velocidad Recarga +1». Modifica la velocidad de recarga de la ballesta."
    },
    {
     "points": -10,
     "nameEn": "Reloading Speed -1",
-    "nameEs": "Recargaring Speed -1"
+    "nameEs": "Recargaring Speed -1",
+    "descEn": "At -10 points, activates “Reloading Speed -1”. Changes bowgun reload speed.",
+    "descEs": "Con -10 puntos activa «Reloading Speed -1». Modifica la velocidad de recarga de la ballesta."
    },
    {
     "points": -15,
     "nameEn": "Reloading Speed -2",
-    "nameEs": "Velocidad Recarga -2"
+    "nameEs": "Velocidad Recarga -2",
+    "descEn": "At -15 points, activates “Reloading Speed -2”. Changes bowgun reload speed.",
+    "descEs": "Con -15 puntos activa «Velocidad Recarga -2». Modifica la velocidad de recarga de la ballesta."
    },
    {
     "points": -20,
     "nameEn": "Reloading Speed -3",
-    "nameEs": "Velocidad Recarga -3"
+    "nameEs": "Velocidad Recarga -3",
+    "descEn": "At -20 points, activates “Reloading Speed -3”. Changes bowgun reload speed.",
+    "descEs": "Con -20 puntos activa «Velocidad Recarga -3». Modifica la velocidad de recarga de la ballesta."
    }
   ],
   "colorIndex": 4
@@ -913,13 +1113,15 @@
   "id": "mhfus42",
   "name": "AutoReload",
   "nameEs": "Autorecarg.",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Automatically reloads a bowgun, with the corresponding recoil tradeoff.",
+  "descEs": "Recarga la ballesta automáticamente, con el coste de retroceso correspondiente.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Auto Reload",
-    "nameEs": "Autorecarga"
+    "nameEs": "Autorecarga",
+    "descEn": "At +10 points, activates “Auto Reload”. Automatically reloads a bowgun, with the corresponding recoil tradeoff.",
+    "descEs": "Con +10 puntos activa «Autorecarga». Recarga la ballesta automáticamente, con el coste de retroceso correspondiente."
    }
   ],
   "colorIndex": 5
@@ -928,18 +1130,22 @@
   "id": "mhfus43",
   "name": "Recoil",
   "nameEs": "Retroceso",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes recoil after firing bowgun ammunition.",
+  "descEs": "Modifica el retroceso tras disparar munición de ballesta.",
   "activations": [
    {
     "points": 20,
     "nameEn": "Recoil Reduction +2",
-    "nameEs": "Reduc. Retroceso +2"
+    "nameEs": "Reduc. Retroceso +2",
+    "descEn": "At +20 points, activates “Recoil Reduction +2”. Changes recoil after firing bowgun ammunition.",
+    "descEs": "Con +20 puntos activa «Reduc. Retroceso +2». Modifica el retroceso tras disparar munición de ballesta."
    },
    {
     "points": 10,
     "nameEn": "Recoil Reduction +1",
-    "nameEs": "Reduc. Retroceso +1"
+    "nameEs": "Reduc. Retroceso +1",
+    "descEn": "At +10 points, activates “Recoil Reduction +1”. Changes recoil after firing bowgun ammunition.",
+    "descEs": "Con +10 puntos activa «Reduc. Retroceso +1». Modifica el retroceso tras disparar munición de ballesta."
    }
   ],
   "colorIndex": 6
@@ -948,18 +1154,22 @@
   "id": "mhfus44",
   "name": "Precision",
   "nameEs": "Precis. (Precision)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes bowgun deviation and shot precision.",
+  "descEs": "Modifica la desviación de la ballesta y la precisión de los disparos.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Shell Deviation Down",
-    "nameEs": "Desv.Proyectil -"
+    "nameEs": "Desv.Proyectil -",
+    "descEn": "At +10 points, activates “Shell Deviation Down”. Changes bowgun deviation and shot precision.",
+    "descEs": "Con +10 puntos activa «Desv.Proyectil -». Modifica la desviación de la ballesta y la precisión de los disparos."
    },
    {
     "points": -10,
     "nameEn": "Shell Deviation Up",
-    "nameEs": "Shell Deviation Up"
+    "nameEs": "Shell Deviation Up",
+    "descEn": "At -10 points, activates “Shell Deviation Up”. Changes bowgun deviation and shot precision.",
+    "descEs": "Con -10 puntos activa «Shell Deviation Up». Modifica la desviación de la ballesta y la precisión de los disparos."
    }
   ],
   "colorIndex": 7
@@ -968,13 +1178,15 @@
   "id": "mhfus45",
   "name": "PoisonCAdd",
   "nameEs": "Añ.Rev.ven",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Adds or removes compatible Poison Coatings for bows.",
+  "descEs": "Añade o elimina Revestimientos de Veneno compatibles para arcos.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Poison Coating Add",
-    "nameEs": "Añ.Rev.veneno"
+    "nameEs": "Añ.Rev.veneno",
+    "descEn": "At +10 points, activates “Poison Coating Add”. Adds or removes compatible Poison Coatings for bows.",
+    "descEs": "Con +10 puntos activa «Añ.Rev.veneno». Añade o elimina Revestimientos de Veneno compatibles para arcos."
    }
   ],
   "colorIndex": 8
@@ -983,13 +1195,15 @@
   "id": "mhfus46",
   "name": "ParalyCAdd",
   "nameEs": "Añ.Rev.cmb",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Adds or removes compatible Paralysis Coatings for bows.",
+  "descEs": "Añade o elimina Revestimientos de Parálisis compatibles para arcos.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Paralysis Coat Add",
-    "nameEs": "Añ.Rev.cmb"
+    "nameEs": "Añ.Rev.cmb",
+    "descEn": "At +10 points, activates “Paralysis Coat Add”. Adds or removes compatible Paralysis Coatings for bows.",
+    "descEs": "Con +10 puntos activa «Añ.Rev.cmb». Añade o elimina Revestimientos de Parálisis compatibles para arcos."
    }
   ],
   "colorIndex": 9
@@ -998,13 +1212,15 @@
   "id": "mhfus47",
   "name": "SleepCAdd",
   "nameEs": "Añ.Rev.sue",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Adds or removes compatible Sleep Coatings for bows.",
+  "descEs": "Añade o elimina Revestimientos de Sueño compatibles para arcos.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Sleep Coating Add",
-    "nameEs": "Añ.Rev.sueño"
+    "nameEs": "Añ.Rev.sueño",
+    "descEn": "At +10 points, activates “Sleep Coating Add”. Adds or removes compatible Sleep Coatings for bows.",
+    "descEs": "Con +10 puntos activa «Añ.Rev.sueño». Añade o elimina Revestimientos de Sueño compatibles para arcos."
    }
   ],
   "colorIndex": 10
@@ -1013,13 +1229,15 @@
   "id": "mhfus48",
   "name": "PowerCAdd",
   "nameEs": "Añ.Rev.ene",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Adds or removes compatible Power Coatings for bows.",
+  "descEs": "Añade o elimina Revestimientos de Poder compatibles para arcos.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Power Coating Add",
-    "nameEs": "Añadir Rev. energia"
+    "nameEs": "Añadir Rev. energia",
+    "descEn": "At +10 points, activates “Power Coating Add”. Adds or removes compatible Power Coatings for bows.",
+    "descEs": "Con +10 puntos activa «Añadir Rev. energia». Añade o elimina Revestimientos de Poder compatibles para arcos."
    }
   ],
   "colorIndex": 11
@@ -1028,13 +1246,15 @@
   "id": "mhfus49",
   "name": "ClsRngCAdd",
   "nameEs": "ClsRngCAdd",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Adds or removes compatible Close-range Coatings for bows.",
+  "descEs": "Añade o elimina Revestimientos de Rango Corto compatibles para arcos.",
   "activations": [
    {
     "points": 10,
     "nameEn": "ClsRngCAdd",
-    "nameEs": "ClsRngCAdd"
+    "nameEs": "ClsRngCAdd",
+    "descEn": "At +10 points, activates “ClsRngCAdd”. Adds or removes compatible Close-range Coatings for bows.",
+    "descEs": "Con +10 puntos activa «ClsRngCAdd». Añade o elimina Revestimientos de Rango Corto compatibles para arcos."
    }
   ],
   "colorIndex": 0
@@ -1043,13 +1263,15 @@
   "id": "mhfus50",
   "name": "SteadyHand",
   "nameEs": "Mano firme",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the handling and deviation of bowgun shots.",
+  "descEs": "Modifica el manejo y la desviación de los disparos de ballesta.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Straight & True",
-    "nameEs": "Firme y decidido"
+    "nameEs": "Firme y decidido",
+    "descEn": "At +10 points, activates “Straight & True”. Changes the handling and deviation of bowgun shots.",
+    "descEs": "Con +10 puntos activa «Firme y decidido». Modifica el manejo y la desviación de los disparos de ballesta."
    }
   ],
   "colorIndex": 1
@@ -1064,27 +1286,37 @@
    {
     "points": 20,
     "nameEn": "Reckless Abandon +3",
-    "nameEs": "Abandono Temerario +3"
+    "nameEs": "Abandono Temerario +3",
+    "descEn": "At +20 points, activates “Reckless Abandon +3”. Changes affinity, affecting the chance of a critical hit.",
+    "descEs": "Con +20 puntos activa «Abandono Temerario +3». Modifica la afinidad, que afecta a la probabilidad de golpe crítico."
    },
    {
     "points": 15,
     "nameEn": "Reckless Abandon +2",
-    "nameEs": "Abandono Temerario +2"
+    "nameEs": "Abandono Temerario +2",
+    "descEn": "At +15 points, activates “Reckless Abandon +2”. Changes affinity, affecting the chance of a critical hit.",
+    "descEs": "Con +15 puntos activa «Abandono Temerario +2». Modifica la afinidad, que afecta a la probabilidad de golpe crítico."
    },
    {
     "points": 10,
     "nameEn": "Reckless Abandon +1",
-    "nameEs": "Abandono Temerario +1"
+    "nameEs": "Abandono Temerario +1",
+    "descEn": "At +10 points, activates “Reckless Abandon +1”. Changes affinity, affecting the chance of a critical hit.",
+    "descEs": "Con +10 puntos activa «Abandono Temerario +1». Modifica la afinidad, que afecta a la probabilidad de golpe crítico."
    },
    {
     "points": -10,
     "nameEn": "Reckless Abandon -1",
-    "nameEs": "Reckless Abandon -1"
+    "nameEs": "Reckless Abandon -1",
+    "descEn": "At -10 points, activates “Reckless Abandon -1”. Changes affinity, affecting the chance of a critical hit.",
+    "descEs": "Con -10 puntos activa «Reckless Abandon -1». Modifica la afinidad, que afecta a la probabilidad de golpe crítico."
    },
    {
     "points": -15,
     "nameEn": "Reckless Abandon -2",
-    "nameEs": "Reckless Abandon -2"
+    "nameEs": "Reckless Abandon -2",
+    "descEn": "At -15 points, activates “Reckless Abandon -2”. Changes affinity, affecting the chance of a critical hit.",
+    "descEs": "Con -15 puntos activa «Reckless Abandon -2». Modifica la afinidad, que afecta a la probabilidad de golpe crítico."
    }
   ],
   "colorIndex": 2
@@ -1093,13 +1325,15 @@
   "id": "mhfus52",
   "name": "Spc Attack",
   "nameEs": "M.Espada",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the power of a weapon's special attack property.",
+  "descEs": "Modifica la potencia de la propiedad de ataque especial del arma.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Abnormal Sts Atk Up",
-    "nameEs": "Cazador estelar"
+    "nameEs": "Cazador estelar",
+    "descEn": "At +10 points, activates “Abnormal Sts Atk Up”. Changes the power of a weapon's special attack property.",
+    "descEs": "Con +10 puntos activa «Cazador estelar». Modifica la potencia de la propiedad de ataque especial del arma."
    }
   ],
   "colorIndex": 3
@@ -1108,13 +1342,15 @@
   "id": "mhfus53",
   "name": "ElementAtk",
   "nameEs": "Atq. Esp.",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes elemental damage dealt by weapons.",
+  "descEs": "Modifica el daño elemental infligido por las armas.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Element Attack Up",
-    "nameEs": "Subir atq. est. anormal"
+    "nameEs": "Subir atq. est. anormal",
+    "descEn": "At +10 points, activates “Element Attack Up”. Changes elemental damage dealt by weapons.",
+    "descEs": "Con +10 puntos activa «Subir atq. est. anormal». Modifica el daño elemental infligido por las armas."
    }
   ],
   "colorIndex": 4
@@ -1123,28 +1359,36 @@
   "id": "mhfus54",
   "name": "Rec Speed",
   "nameEs": "Vel.recup (Velocidad recuperacion)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes how quickly the hunter recovers after being knocked down.",
+  "descEs": "Modifica la rapidez con la que el cazador se recupera tras caer.",
   "activations": [
    {
     "points": 20,
     "nameEn": "Damage Rec Speed +2",
-    "nameEs": "Vel.recup. daño +2"
+    "nameEs": "Vel.recup. daño +2",
+    "descEn": "At +20 points, activates “Damage Rec Speed +2”. Changes how quickly the hunter recovers after being knocked down.",
+    "descEs": "Con +20 puntos activa «Vel.recup. daño +2». Modifica la rapidez con la que el cazador se recupera tras caer."
    },
    {
     "points": 10,
     "nameEn": "Damage Rec Speed +1",
-    "nameEs": "Vel.recup. daño +1"
+    "nameEs": "Vel.recup. daño +1",
+    "descEn": "At +10 points, activates “Damage Rec Speed +1”. Changes how quickly the hunter recovers after being knocked down.",
+    "descEs": "Con +10 puntos activa «Vel.recup. daño +1». Modifica la rapidez con la que el cazador se recupera tras caer."
    },
    {
     "points": -10,
     "nameEn": "Damage Rec Speed -1",
-    "nameEs": "Damage Rec Speed -1"
+    "nameEs": "Damage Rec Speed -1",
+    "descEn": "At -10 points, activates “Damage Rec Speed -1”. Changes how quickly the hunter recovers after being knocked down.",
+    "descEs": "Con -10 puntos activa «Damage Rec Speed -1». Modifica la rapidez con la que el cazador se recupera tras caer."
    },
    {
     "points": -20,
     "nameEn": "Damage Rec Speed -2",
-    "nameEs": "Damage Rec Speed -2"
+    "nameEs": "Damage Rec Speed -2",
+    "descEn": "At -20 points, activates “Damage Rec Speed -2”. Changes how quickly the hunter recovers after being knocked down.",
+    "descEs": "Con -20 puntos activa «Damage Rec Speed -2». Modifica la rapidez con la que el cazador se recupera tras caer."
    }
   ],
   "colorIndex": 5
@@ -1153,18 +1397,22 @@
   "id": "mhfus55",
   "name": "Protection",
   "nameEs": "Protección",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the chance of reducing damage from an incoming hit.",
+  "descEs": "Modifica la probabilidad de reducir el daño de un golpe recibido.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Divine Protection",
-    "nameEs": "Protección divina"
+    "nameEs": "Protección divina",
+    "descEn": "At +10 points, activates “Divine Protection”. Changes the chance of reducing damage from an incoming hit.",
+    "descEs": "Con +10 puntos activa «Protección divina». Modifica la probabilidad de reducir el daño de un golpe recibido."
    },
    {
     "points": -10,
     "nameEn": "Demonic Protection",
-    "nameEs": "Demonic Protection"
+    "nameEs": "Demonic Protection",
+    "descEn": "At -10 points, activates “Demonic Protection”. Changes the chance of reducing damage from an incoming hit.",
+    "descEs": "Con -10 puntos activa «Demonic Protection». Modifica la probabilidad de reducir el daño de un golpe recibido."
    }
   ],
   "colorIndex": 6
@@ -1179,7 +1427,9 @@
    {
     "points": 10,
     "nameEn": "Guard Inc",
-    "nameEs": "Guardia Inc"
+    "nameEs": "Guardia Inc",
+    "descEn": "At +10 points, activates “Guard Inc”. Allows guarding attacks that normally cannot be blocked.",
+    "descEs": "Con +10 puntos activa «Guardia Inc». Permite protegerse de ataques que normalmente no se pueden bloquear."
    }
   ],
   "colorIndex": 7
@@ -1194,12 +1444,16 @@
    {
     "points": 15,
     "nameEn": "Evade +2",
-    "nameEs": "Evasión +2"
+    "nameEs": "Evasión +2",
+    "descEn": "At +15 points, activates “Evade +2”. Extends the invulnerability window during an evade.",
+    "descEs": "Con +15 puntos activa «Evasión +2». Amplía la ventana de invulnerabilidad durante una evasión."
    },
    {
     "points": 10,
     "nameEn": "Evade +1",
-    "nameEs": "Evasión +1"
+    "nameEs": "Evasión +1",
+    "descEn": "At +10 points, activates “Evade +1”. Extends the invulnerability window during an evade.",
+    "descEs": "Con +10 puntos activa «Evade +1». Amplía la ventana de invulnerabilidad durante una evasión."
    }
   ],
   "colorIndex": 8
@@ -1214,7 +1468,9 @@
    {
     "points": 10,
     "nameEn": "Evade Distance Up",
-    "nameEs": "Sub. Dis. Evasion"
+    "nameEs": "Sub. Dis. Evasion",
+    "descEn": "At +10 points, activates “Evade Distance Up”. Changes the distance covered by evades.",
+    "descEs": "Con +10 puntos activa «Sub. Dis. Evasion». Modifica la distancia recorrida al evadir."
    }
   ],
   "colorIndex": 9
@@ -1229,17 +1485,23 @@
    {
     "points": 15,
     "nameEn": "Adrenaline +2",
-    "nameEs": "Adrenalina +2"
+    "nameEs": "Adrenalina +2",
+    "descEn": "At +15 points, activates “Adrenaline +2”. Activates stronger effects when the hunter's health is low.",
+    "descEs": "Con +15 puntos activa «Adrenalina +2». Activa efectos más fuertes cuando la salud del cazador es baja."
    },
    {
     "points": 10,
     "nameEn": "Adrenaline +1",
-    "nameEs": "Adrenaline +1"
+    "nameEs": "Adrenaline +1",
+    "descEn": "At +10 points, activates “Adrenaline +1”. Activates stronger effects when the hunter's health is low.",
+    "descEs": "Con +10 puntos activa «Adrenaline +1». Activa efectos más fuertes cuando la salud del cazador es baja."
    },
    {
     "points": -10,
     "nameEn": "Worry",
-    "nameEs": "Worry"
+    "nameEs": "Worry",
+    "descEn": "At -10 points, activates “Worry”. Activates stronger effects when the hunter's health is low.",
+    "descEs": "Con -10 puntos activa «Worry». Activa efectos más fuertes cuando la salud del cazador es baja."
    }
   ],
   "colorIndex": 10
@@ -1248,18 +1510,22 @@
   "id": "mhfus60",
   "name": "Gunnery",
   "nameEs": "Gunnery",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the strength of ballistae, cannons and certain explosive attacks.",
+  "descEs": "Modifica la potencia de ballestas, cañones y ciertos ataques explosivos.",
   "activations": [
    {
     "points": 15,
     "nameEn": "Gunnery King",
-    "nameEs": "Gunnery King"
+    "nameEs": "Gunnery King",
+    "descEn": "At +15 points, activates “Gunnery King”. Changes the strength of ballistae, cannons and certain explosive attacks.",
+    "descEs": "Con +15 puntos activa «Gunnery King». Modifica la potencia de ballestas, cañones y ciertos ataques explosivos."
    },
    {
     "points": 15,
     "nameEn": "Gunnery Master",
-    "nameEs": "Gunnery Master"
+    "nameEs": "Gunnery Master",
+    "descEn": "At +15 points, activates “Gunnery Master”. Changes the strength of ballistae, cannons and certain explosive attacks.",
+    "descEs": "Con +15 puntos activa «Gunnery Master». Modifica la potencia de ballestas, cañones y ciertos ataques explosivos."
    }
   ],
   "colorIndex": 11
@@ -1268,13 +1534,15 @@
   "id": "mhfus61",
   "name": "Capacity",
   "nameEs": "Cargam.",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes weapon capacity, such as bowgun loading or bow coatings.",
+  "descEs": "Modifica la capacidad del arma, como la carga de ballesta o revestimientos del arco.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Capacity Up",
-    "nameEs": "Capac.+"
+    "nameEs": "Capac.+",
+    "descEn": "At +10 points, activates “Capacity Up”. Changes weapon capacity, such as bowgun loading or bow coatings.",
+    "descEs": "Con +10 puntos activa «Capac.+». Modifica la capacidad del arma, como la carga de ballesta o revestimientos del arco."
    }
   ],
   "colorIndex": 0
@@ -1283,18 +1551,22 @@
   "id": "mhfus62",
   "name": "ShortCharg",
   "nameEs": "Carga Corta",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the time required to charge a weapon attack.",
+  "descEs": "Modifica el tiempo necesario para cargar un ataque de arma.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Focus",
-    "nameEs": "Concentracion"
+    "nameEs": "Concentracion",
+    "descEn": "At +10 points, activates “Focus”. Changes the time required to charge a weapon attack.",
+    "descEs": "Con +10 puntos activa «Concentracion». Modifica el tiempo necesario para cargar un ataque de arma."
    },
    {
     "points": -10,
     "nameEn": "Distracted",
-    "nameEs": "Distracted"
+    "nameEs": "Distracted",
+    "descEn": "At -10 points, activates “Distracted”. Changes the time required to charge a weapon attack.",
+    "descEs": "Con -10 puntos activa «Distracted». Modifica el tiempo necesario para cargar un ataque de arma."
    }
   ],
   "colorIndex": 1
@@ -1303,13 +1575,15 @@
   "id": "mhfus63",
   "name": "Guts",
   "nameEs": "Agallas",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Can prevent a lethal hit when the hunter has enough health.",
+  "descEs": "Puede evitar un golpe letal cuando el cazador tiene suficiente salud.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Guts",
-    "nameEs": "Agallas"
+    "nameEs": "Agallas",
+    "descEn": "At +10 points, activates “Guts”. Can prevent a lethal hit when the hunter has enough health.",
+    "descEs": "Con +10 puntos activa «Agallas». Puede evitar un golpe letal cuando el cazador tiene suficiente salud."
    }
   ],
   "colorIndex": 2
@@ -1318,13 +1592,15 @@
   "id": "mhfus64",
   "name": "Fury",
   "nameEs": "Furia",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the attack bonus gained when the hunter is enraged.",
+  "descEs": "Modifica el bonus de ataque obtenido cuando el cazador entra en furia.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Emboldened",
-    "nameEs": "Envalentonado"
+    "nameEs": "Envalentonado",
+    "descEn": "At +10 points, activates “Emboldened”. Changes the attack bonus gained when the hunter is enraged.",
+    "descEs": "Con +10 puntos activa «Envalentonado». Modifica el bonus de ataque obtenido cuando el cazador entra en furia."
    }
   ],
   "colorIndex": 3
@@ -1333,18 +1609,22 @@
   "id": "mhfus65",
   "name": "Map",
   "nameEs": "Mapa",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Shows or hides the map at the start of a quest.",
+  "descEs": "Muestra u oculta el mapa al inicio de una misión.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Farsight",
-    "nameEs": "Mapa"
+    "nameEs": "Mapa",
+    "descEn": "At +10 points, activates “Farsight”. Shows or hides the map at the start of a quest.",
+    "descEs": "Con +10 puntos activa «Mapa». Muestra u oculta el mapa al inicio de una misión."
    },
    {
     "points": -10,
     "nameEn": "Map Unavailable",
-    "nameEs": "Mapa Unavailable"
+    "nameEs": "Mapa Unavailable",
+    "descEn": "At -10 points, activates “Map Unavailable”. Shows or hides the map at the start of a quest.",
+    "descEs": "Con -10 puntos activa «Map Unavailable». Muestra u oculta el mapa al inicio de una misión."
    }
   ],
   "colorIndex": 4
@@ -1353,18 +1633,22 @@
   "id": "mhfus66",
   "name": "PsychicVis",
   "nameEs": "Vis. Psiquica (Vision Psiquica)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Shows large monsters on the map for a period of time.",
+  "descEs": "Muestra temporalmente a los monstruos grandes en el mapa.",
   "activations": [
    {
     "points": 15,
     "nameEn": "Autotracker",
-    "nameEs": "Autoseguimiento"
+    "nameEs": "Autoseguimiento",
+    "descEn": "At +15 points, activates “Autotracker”. Shows large monsters on the map for a period of time.",
+    "descEs": "Con +15 puntos activa «Autoseguimiento». Muestra temporalmente a los monstruos grandes en el mapa."
    },
    {
     "points": 10,
     "nameEn": "Detect",
-    "nameEs": "Detect"
+    "nameEs": "Detect",
+    "descEn": "At +10 points, activates “Detect”. Shows large monsters on the map for a period of time.",
+    "descEs": "Con +10 puntos activa «Detect». Muestra temporalmente a los monstruos grandes en el mapa."
    }
   ],
   "colorIndex": 5
@@ -1379,22 +1663,30 @@
    {
     "points": 15,
     "nameEn": "Gathering +2",
-    "nameEs": "Recogida +2"
+    "nameEs": "Recogida +2",
+    "descEn": "Allows 2 additional gathers at each gathering point.",
+    "descEs": "Permite 2 recolecciones adicionales en cada punto de recolección."
    },
    {
     "points": 10,
     "nameEn": "Gathering +1",
-    "nameEs": "Recogida +1"
+    "nameEs": "Recogida +1",
+    "descEn": "Allows 1 additional gather at each gathering point.",
+    "descEs": "Permite 1 recolección adicional en cada punto de recolección."
    },
    {
     "points": -10,
     "nameEn": "Gathering -1",
-    "nameEs": "Recogida -1"
+    "nameEs": "Recogida -1",
+    "descEn": "Removes 1 gather from each gathering point.",
+    "descEs": "Reduce en 1 la recolección disponible en cada punto."
    },
    {
     "points": -15,
     "nameEn": "Gathering -2",
-    "nameEs": "Recogida -2"
+    "nameEs": "Recogida -2",
+    "descEn": "Removes 2 gathers from each gathering point.",
+    "descEs": "Reduce en 2 las recolecciones disponibles en cada punto."
    }
   ],
   "colorIndex": 6
@@ -1409,12 +1701,16 @@
    {
     "points": 20,
     "nameEn": "Carving Celebrity",
-    "nameEs": "Carving Celebrity"
+    "nameEs": "Carving Celebrity",
+    "descEn": "At +20 points, activates “Carving Celebrity”. Affects the number of times materials can be carved from a monster.",
+    "descEs": "Con +20 puntos activa «Carving Celebrity». Afecta cuántas veces se pueden extraer materiales de un monstruo."
    },
    {
     "points": 10,
     "nameEn": "Carving Iron Man",
-    "nameEs": "Carving Iron Man"
+    "nameEs": "Carving Iron Man",
+    "descEn": "At +10 points, activates “Carving Iron Man”. Affects the number of times materials can be carved from a monster.",
+    "descEs": "Con +10 puntos activa «Carving Iron Man». Afecta cuántas veces se pueden extraer materiales de un monstruo."
    }
   ],
   "colorIndex": 7
@@ -1423,13 +1719,15 @@
   "id": "mhfus69",
   "name": "HiSpdGathr",
   "nameEs": "RecAltaVel (Recogida de alta velocidad)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Increases the speed of carving, mining, gathering and bug catching.",
+  "descEs": "Aumenta la velocidad de carvear, minar, recolectar y capturar insectos.",
   "activations": [
    {
     "points": 10,
     "nameEn": "High Speed Gathering",
-    "nameEs": "Recogida gran veloc."
+    "nameEs": "Recogida gran veloc.",
+    "descEn": "At +10 points, activates “High Speed Gathering”. Increases the speed of carving, mining, gathering and bug catching.",
+    "descEs": "Con +10 puntos activa «Recogida gran veloc.». Aumenta la velocidad de carvear, minar, recolectar y capturar insectos."
    }
   ],
   "colorIndex": 8
@@ -1438,13 +1736,15 @@
   "id": "mhfus70",
   "name": "Backpackng",
   "nameEs": "Mochilero",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Improves movement and fall safety while carrying an egg.",
+  "descEs": "Mejora el movimiento y la seguridad al caer mientras llevas un huevo.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Backpacking Expert",
-    "nameEs": "Experto mochilero"
+    "nameEs": "Experto mochilero",
+    "descEn": "At +10 points, activates “Backpacking Expert”. Improves movement and fall safety while carrying an egg.",
+    "descEs": "Con +10 puntos activa «Experto mochilero». Mejora el movimiento y la seguridad al caer mientras llevas un huevo."
    }
   ],
   "colorIndex": 9
@@ -1453,28 +1753,36 @@
   "id": "mhfus71",
   "name": "Whim",
   "nameEs": "Capricho",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the chance that pickaxes, bugnets and flutes break.",
+  "descEs": "Modifica la posibilidad de que se rompan picos, redes de insectos y flautas.",
   "activations": [
    {
     "points": 15,
     "nameEn": "Divine Whim",
-    "nameEs": "Capricho divino"
+    "nameEs": "Capricho divino",
+    "descEn": "At +15 points, activates “Divine Whim”. Changes the chance that pickaxes, bugnets and flutes break.",
+    "descEs": "Con +15 puntos activa «Capricho divino». Modifica la posibilidad de que se rompan picos, redes de insectos y flautas."
    },
    {
     "points": 10,
     "nameEn": "Spirit's Whim",
-    "nameEs": "Capricho de espiritu"
+    "nameEs": "Capricho de espiritu",
+    "descEn": "At +10 points, activates “Spirit's Whim”. Changes the chance that pickaxes, bugnets and flutes break.",
+    "descEs": "Con +10 puntos activa «Capricho de espiritu». Modifica la posibilidad de que se rompan picos, redes de insectos y flautas."
    },
    {
     "points": -10,
     "nameEn": "Spectre's Whim",
-    "nameEs": "Spectre's Whim"
+    "nameEs": "Spectre's Whim",
+    "descEn": "At -10 points, activates “Spectre's Whim”. Changes the chance that pickaxes, bugnets and flutes break.",
+    "descEs": "Con -10 puntos activa «Spectre's Whim». Modifica la posibilidad de que se rompan picos, redes de insectos y flautas."
    },
    {
     "points": -15,
     "nameEn": "Devil's Whim",
-    "nameEs": "Capricho de demonio"
+    "nameEs": "Capricho de demonio",
+    "descEn": "At -15 points, activates “Devil's Whim”. Changes the chance that pickaxes, bugnets and flutes break.",
+    "descEs": "Con -15 puntos activa «Capricho de demonio». Modifica la posibilidad de que se rompan picos, redes de insectos y flautas."
    }
   ],
   "colorIndex": 10
@@ -1489,7 +1797,9 @@
    {
     "points": 10,
     "nameEn": "Fishing Expert",
-    "nameEs": "Experto en pesca"
+    "nameEs": "Experto en pesca",
+    "descEn": "At +10 points, activates “Fishing Expert”. Improves fishing and reduces the chance of a fish escaping.",
+    "descEs": "Con +10 puntos activa «Experto en pesca». Mejora la pesca y reduce la posibilidad de que escape el pez."
    }
   ],
   "colorIndex": 11
@@ -1504,22 +1814,30 @@
    {
     "points": 15,
     "nameEn": "Heat Cancel (Hi)",
-    "nameEs": "Can. calor [alto]"
+    "nameEs": "Can. calor [alto]",
+    "descEn": "At +15 points, activates “Heat Cancel (Hi)”. Affects how quickly heat drains the hunter's health.",
+    "descEs": "Con +15 puntos activa «Can. calor [alto]». Afecta la velocidad a la que el calor reduce la salud."
    },
    {
     "points": 10,
     "nameEn": "Heat Cancel (Lo)",
-    "nameEs": "Can. calor [bajo]"
+    "nameEs": "Can. calor [bajo]",
+    "descEn": "At +10 points, activates “Heat Cancel (Lo)”. Affects how quickly heat drains the hunter's health.",
+    "descEs": "Con +10 puntos activa «Can. calor [bajo]». Afecta la velocidad a la que el calor reduce la salud."
    },
    {
     "points": -10,
     "nameEn": "Heat Inc (Lo)",
-    "nameEs": "Aum. calor [bajo]"
+    "nameEs": "Aum. calor [bajo]",
+    "descEn": "At -10 points, activates “Heat Inc (Lo)”. Affects how quickly heat drains the hunter's health.",
+    "descEs": "Con -10 puntos activa «Aum. calor [bajo]». Afecta la velocidad a la que el calor reduce la salud."
    },
    {
     "points": -15,
     "nameEn": "Heat Inc (Hi)",
-    "nameEs": "Heat Inc (Hi)"
+    "nameEs": "Heat Inc (Hi)",
+    "descEn": "At -15 points, activates “Heat Inc (Hi)”. Affects how quickly heat drains the hunter's health.",
+    "descEs": "Con -15 puntos activa «Heat Inc (Hi)». Afecta la velocidad a la que el calor reduce la salud."
    }
   ],
   "colorIndex": 0
@@ -1534,22 +1852,30 @@
    {
     "points": 15,
     "nameEn": "Cold Elimination(Hi)",
-    "nameEs": "Can.Frio [alto]"
+    "nameEs": "Can.Frio [alto]",
+    "descEn": "At +15 points, activates “Cold Elimination(Hi)”. Affects how quickly cold drains the hunter's stamina.",
+    "descEs": "Con +15 puntos activa «Can.Frio [alto]». Afecta la velocidad a la que el frío reduce la resistencia."
    },
    {
     "points": 10,
     "nameEn": "Cold Elimination(Lo)",
-    "nameEs": "Can.Frio [bajo]"
+    "nameEs": "Can.Frio [bajo]",
+    "descEn": "At +10 points, activates “Cold Elimination(Lo)”. Affects how quickly cold drains the hunter's stamina.",
+    "descEs": "Con +10 puntos activa «Can.Frio [bajo]». Afecta la velocidad a la que el frío reduce la resistencia."
    },
    {
     "points": -10,
     "nameEn": "Cold Increase (Lo)",
-    "nameEs": "Aum.Frío [bajo]"
+    "nameEs": "Aum.Frío [bajo]",
+    "descEn": "At -10 points, activates “Cold Increase (Lo)”. Affects how quickly cold drains the hunter's stamina.",
+    "descEs": "Con -10 puntos activa «Aum.Frío [bajo]». Afecta la velocidad a la que el frío reduce la resistencia."
    },
    {
     "points": -15,
     "nameEn": "Cold Increase (Hi)",
-    "nameEs": "Cold Increase (Hi)"
+    "nameEs": "Cold Increase (Hi)",
+    "descEn": "At -15 points, activates “Cold Increase (Hi)”. Affects how quickly cold drains the hunter's stamina.",
+    "descEs": "Con -15 puntos activa «Cold Increase (Hi)». Afecta la velocidad a la que el frío reduce la resistencia."
    }
   ],
   "colorIndex": 1
@@ -1558,28 +1884,36 @@
   "id": "mhfus75",
   "name": "Terrain",
   "nameEs": "Terreno",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes damage and movement penalties from hazardous terrain.",
+  "descEs": "Modifica el daño y las penalizaciones de movimiento por terreno peligroso.",
   "activations": [
    {
     "points": 15,
     "nameEn": "TerrainDamageNegate",
-    "nameEs": "Anular daño terreno"
+    "nameEs": "Anular daño terreno",
+    "descEn": "At +15 points, activates “TerrainDamageNegate”. Changes damage and movement penalties from hazardous terrain.",
+    "descEs": "Con +15 puntos activa «Anular daño terreno». Modifica el daño y las penalizaciones de movimiento por terreno peligroso."
    },
    {
     "points": 10,
     "nameEn": "TerrainDamageHalf",
-    "nameEs": "TerrenoDamageHalf"
+    "nameEs": "TerrenoDamageHalf",
+    "descEn": "At +10 points, activates “TerrainDamageHalf”. Changes damage and movement penalties from hazardous terrain.",
+    "descEs": "Con +10 puntos activa «TerrainDamageHalf». Modifica el daño y las penalizaciones de movimiento por terreno peligroso."
    },
    {
     "points": -10,
     "nameEn": "TerrainDamageInc(Lo)",
-    "nameEs": "TerrenoDamageInc(Lo)"
+    "nameEs": "TerrenoDamageInc(Lo)",
+    "descEn": "At -10 points, activates “TerrainDamageInc(Lo)”. Changes damage and movement penalties from hazardous terrain.",
+    "descEs": "Con -10 puntos activa «TerrainDamageInc(Lo)». Modifica el daño y las penalizaciones de movimiento por terreno peligroso."
    },
    {
     "points": -15,
     "nameEn": "TerrainDamageInc(Hi)",
-    "nameEs": "TerrenoDamageInc(Hi)"
+    "nameEs": "TerrenoDamageInc(Hi)",
+    "descEn": "At -15 points, activates “TerrainDamageInc(Hi)”. Changes damage and movement penalties from hazardous terrain.",
+    "descEs": "Con -15 puntos activa «TerrainDamageInc(Hi)». Modifica el daño y las penalizaciones de movimiento por terreno peligroso."
    }
   ],
   "colorIndex": 2
@@ -1594,12 +1928,16 @@
    {
     "points": 10,
     "nameEn": "Runner",
-    "nameEs": "Corredor"
+    "nameEs": "Corredor",
+    "descEn": "At +10 points, activates “Runner”. Changes stamina consumption and recovery.",
+    "descEs": "Con +10 puntos activa «Corredor». Modifica el consumo y la recuperación de resistencia."
    },
    {
     "points": -10,
     "nameEn": "Flat Footed",
-    "nameEs": "Flat Footed"
+    "nameEs": "Flat Footed",
+    "descEn": "At -10 points, activates “Flat Footed”. Changes stamina consumption and recovery.",
+    "descEs": "Con -10 puntos activa «Flat Footed». Modifica el consumo y la recuperación de resistencia."
    }
   ],
   "colorIndex": 3
@@ -1608,28 +1946,36 @@
   "id": "mhfus77",
   "name": "Constitutn",
   "nameEs": "Const. (Constitucion)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the stamina cost of actions such as evading and blocking.",
+  "descEs": "Modifica el coste de resistencia de acciones como evadir y bloquear.",
   "activations": [
    {
     "points": 15,
     "nameEn": "Constitution +2",
-    "nameEs": "Constitución +2"
+    "nameEs": "Constitución +2",
+    "descEn": "At +15 points, activates “Constitution +2”. Changes the stamina cost of actions such as evading and blocking.",
+    "descEs": "Con +15 puntos activa «Constitución +2». Modifica el coste de resistencia de acciones como evadir y bloquear."
    },
    {
     "points": 10,
     "nameEn": "Constitution +1",
-    "nameEs": "Constitution +1"
+    "nameEs": "Constitution +1",
+    "descEn": "At +10 points, activates “Constitution +1”. Changes the stamina cost of actions such as evading and blocking.",
+    "descEs": "Con +10 puntos activa «Constitution +1». Modifica el coste de resistencia de acciones como evadir y bloquear."
    },
    {
     "points": -10,
     "nameEn": "Constitution -1",
-    "nameEs": "Constitution -1"
+    "nameEs": "Constitution -1",
+    "descEn": "At -10 points, activates “Constitution -1”. Changes the stamina cost of actions such as evading and blocking.",
+    "descEs": "Con -10 puntos activa «Constitution -1». Modifica el coste de resistencia de acciones como evadir y bloquear."
    },
    {
     "points": -15,
     "nameEn": "Constitution -2",
-    "nameEs": "Constitution -2"
+    "nameEs": "Constitution -2",
+    "descEn": "At -15 points, activates “Constitution -2”. Changes the stamina cost of actions such as evading and blocking.",
+    "descEs": "Con -15 puntos activa «Constitution -2». Modifica el coste de resistencia de acciones como evadir y bloquear."
    }
   ],
   "colorIndex": 4
@@ -1644,22 +1990,30 @@
    {
     "points": 15,
     "nameEn": "Hunger Negated",
-    "nameEs": "Hambre anulada"
+    "nameEs": "Hambre anulada",
+    "descEn": "At +15 points, activates “Hunger Negated”. Affects the rate at which the hunter's stamina bar decreases.",
+    "descEs": "Con +15 puntos activa «Hambre anulada». Afecta la velocidad a la que disminuye la barra de resistencia."
    },
    {
     "points": 10,
     "nameEn": "Hunger Halved",
-    "nameEs": "Hambre a mitad"
+    "nameEs": "Hambre a mitad",
+    "descEn": "At +10 points, activates “Hunger Halved”. Affects the rate at which the hunter's stamina bar decreases.",
+    "descEs": "Con +10 puntos activa «Hambre a mitad». Afecta la velocidad a la que disminuye la barra de resistencia."
    },
    {
     "points": -10,
     "nameEn": "Hunger Increase (Lo)",
-    "nameEs": "Aumento hambre [ba]"
+    "nameEs": "Aumento hambre [ba]",
+    "descEn": "At -10 points, activates “Hunger Increase (Lo)”. Affects the rate at which the hunter's stamina bar decreases.",
+    "descEs": "Con -10 puntos activa «Aumento hambre [ba]». Afecta la velocidad a la que disminuye la barra de resistencia."
    },
    {
     "points": -15,
     "nameEn": "Hunger Increase (Hi)",
-    "nameEs": "Aumento hambre [al]"
+    "nameEs": "Aumento hambre [al]",
+    "descEn": "At -15 points, activates “Hunger Increase (Hi)”. Affects the rate at which the hunter's stamina bar decreases.",
+    "descEs": "Con -15 puntos activa «Aumento hambre [al]». Afecta la velocidad a la que disminuye la barra de resistencia."
    }
   ],
   "colorIndex": 5
@@ -1668,18 +2022,22 @@
   "id": "mhfus79",
   "name": "Sneak",
   "nameEs": "Sigilo",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes how likely monsters are to notice and target the hunter.",
+  "descEs": "Modifica la probabilidad de que los monstruos detecten y ataquen al cazador.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Stealth",
-    "nameEs": "Sigilo"
+    "nameEs": "Sigilo",
+    "descEn": "At +10 points, activates “Stealth”. Changes how likely monsters are to notice and target the hunter.",
+    "descEs": "Con +10 puntos activa «Sigilo». Modifica la probabilidad de que los monstruos detecten y ataquen al cazador."
    },
    {
     "points": -10,
     "nameEn": "Taunt",
-    "nameEs": "Taunt"
+    "nameEs": "Taunt",
+    "descEn": "At -10 points, activates “Taunt”. Changes how likely monsters are to notice and target the hunter.",
+    "descEs": "Con -10 puntos activa «Taunt». Modifica la probabilidad de que los monstruos detecten y ataquen al cazador."
    }
   ],
   "colorIndex": 6
@@ -1688,28 +2046,36 @@
   "id": "mhfus80",
   "name": "Fate",
   "nameEs": "Destino",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the number and quality of quest rewards.",
+  "descEs": "Modifica la cantidad y calidad de las recompensas de misión.",
   "activations": [
    {
     "points": 15,
     "nameEn": "Luck Booster",
-    "nameEs": "Impulso de suerte"
+    "nameEs": "Impulso de suerte",
+    "descEn": "At +15 points, activates “Luck Booster”. Changes the number and quality of quest rewards.",
+    "descEs": "Con +15 puntos activa «Impulso de suerte». Modifica la cantidad y calidad de las recompensas de misión."
    },
    {
     "points": 10,
     "nameEn": "Good Luck",
-    "nameEs": "Good Luck"
+    "nameEs": "Good Luck",
+    "descEn": "At +10 points, activates “Good Luck”. Changes the number and quality of quest rewards.",
+    "descEs": "Con +10 puntos activa «Good Luck». Modifica la cantidad y calidad de las recompensas de misión."
    },
    {
     "points": -10,
     "nameEn": "Bad Luck",
-    "nameEs": "Bad Luck"
+    "nameEs": "Bad Luck",
+    "descEn": "At -10 points, activates “Bad Luck”. Changes the number and quality of quest rewards.",
+    "descEs": "Con -10 puntos activa «Bad Luck». Modifica la cantidad y calidad de las recompensas de misión."
    },
    {
     "points": -20,
     "nameEn": "Calamity",
-    "nameEs": "Calamity"
+    "nameEs": "Calamity",
+    "descEn": "At -20 points, activates “Calamity”. Changes the number and quality of quest rewards.",
+    "descEs": "Con -20 puntos activa «Calamity». Modifica la cantidad y calidad de las recompensas de misión."
    }
   ],
   "colorIndex": 7
@@ -1718,13 +2084,15 @@
   "id": "mhfus81",
   "name": "SpeedSetup",
   "nameEs": "Confg.vel. (Configurar velocidad)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the speed of placing traps and using certain field items.",
+  "descEs": "Modifica la velocidad al colocar trampas y usar ciertos objetos de campo.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Trap Master",
-    "nameEs": "Maestro trampas"
+    "nameEs": "Maestro trampas",
+    "descEn": "At +10 points, activates “Trap Master”. Changes the speed of placing traps and using certain field items.",
+    "descEs": "Con +10 puntos activa «Maestro trampas». Modifica la velocidad al colocar trampas y usar ciertos objetos de campo."
    }
   ],
   "colorIndex": 8
@@ -1733,18 +2101,22 @@
   "id": "mhfus82",
   "name": "Tranquilzr",
   "nameEs": "Tranquil. (Tranquilizador)",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the effectiveness of tranquilizers used for capture.",
+  "descEs": "Modifica la eficacia de los tranquilizantes usados para capturar.",
   "activations": [
    {
     "points": 15,
     "nameEn": "Tranquilizing Celeb",
-    "nameEs": "Celebridad Tranquil."
+    "nameEs": "Celebridad Tranquil.",
+    "descEn": "At +15 points, activates “Tranquilizing Celeb”. Changes the effectiveness of tranquilizers used for capture.",
+    "descEs": "Con +15 puntos activa «Celebridad Tranquil.». Modifica la eficacia de los tranquilizantes usados para capturar."
    },
    {
     "points": 10,
     "nameEn": "Tranquilizing Whiz",
-    "nameEs": "Tranquilizing Whiz"
+    "nameEs": "Tranquilizing Whiz",
+    "descEn": "At +10 points, activates “Tranquilizing Whiz”. Changes the effectiveness of tranquilizers used for capture.",
+    "descEs": "Con +10 puntos activa «Tranquilizing Whiz». Modifica la eficacia de los tranquilizantes usados para capturar."
    }
   ],
   "colorIndex": 9
@@ -1753,13 +2125,15 @@
   "id": "mhfus83",
   "name": "Perceive",
   "nameEs": "Percepcion",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the information displayed about a monster's condition.",
+  "descEs": "Modifica la información mostrada sobre el estado de un monstruo.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Tranquilizing Guru",
-    "nameEs": "Gurú Tranquil."
+    "nameEs": "Gurú Tranquil.",
+    "descEn": "At +10 points, activates “Tranquilizing Guru”. Changes the information displayed about a monster's condition.",
+    "descEs": "Con +10 puntos activa «Gurú Tranquil.». Modifica la información mostrada sobre el estado de un monstruo."
    }
   ],
   "colorIndex": 10
@@ -1768,18 +2142,22 @@
   "id": "mhfus84",
   "name": "Recovery",
   "nameEs": "Recuperación",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the amount of health restored by recovery items.",
+  "descEs": "Modifica la cantidad de salud restaurada por objetos de curación.",
   "activations": [
    {
     "points": 10,
     "nameEn": "HealthRecItemsImprvd",
-    "nameEs": "ObjRecSaludMejorados"
+    "nameEs": "ObjRecSaludMejorados",
+    "descEn": "At +10 points, activates “HealthRecItemsImprvd”. Changes the amount of health restored by recovery items.",
+    "descEs": "Con +10 puntos activa «ObjRecSaludMejorados». Modifica la cantidad de salud restaurada por objetos de curación."
    },
    {
     "points": -10,
     "nameEn": "HealthRecItemsWeaknd",
-    "nameEs": "HealthRecItemsWeaknd"
+    "nameEs": "HealthRecItemsWeaknd",
+    "descEn": "At -10 points, activates “HealthRecItemsWeaknd”. Changes the amount of health restored by recovery items.",
+    "descEs": "Con -10 puntos activa «HealthRecItemsWeaknd». Modifica la cantidad de salud restaurada por objetos de curación."
    }
   ],
   "colorIndex": 11
@@ -1788,18 +2166,22 @@
   "id": "mhfus85",
   "name": "Everlastng",
   "nameEs": "Eterno",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the duration of beneficial item effects.",
+  "descEs": "Modifica la duración de los efectos beneficiosos de objetos.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Item Usage Improve",
-    "nameEs": "Mejora uso objetos"
+    "nameEs": "Mejora uso objetos",
+    "descEn": "At +10 points, activates “Item Usage Improve”. Changes the duration of beneficial item effects.",
+    "descEs": "Con +10 puntos activa «Mejora uso objetos». Modifica la duración de los efectos beneficiosos de objetos."
    },
    {
     "points": -10,
     "nameEn": "Item Usage Decline",
-    "nameEs": "Item Usage Decline"
+    "nameEs": "Item Usage Decline",
+    "descEn": "At -10 points, activates “Item Usage Decline”. Changes the duration of beneficial item effects.",
+    "descEs": "Con -10 puntos activa «Item Usage Decline». Modifica la duración de los efectos beneficiosos de objetos."
    }
   ],
   "colorIndex": 0
@@ -1814,12 +2196,16 @@
    {
     "points": 20,
     "nameEn": "Wide Area +2",
-    "nameEs": "Área amplia +2"
+    "nameEs": "Área amplia +2",
+    "descEn": "At +20 points, activates “Wide Area +2”. Shares the effects of certain consumable items with nearby hunters.",
+    "descEs": "Con +20 puntos activa «Área amplia +2». Comparte los efectos de ciertos consumibles con cazadores cercanos."
    },
    {
     "points": 10,
     "nameEn": "Wide Area +1",
-    "nameEs": "Área amplia +1"
+    "nameEs": "Área amplia +1",
+    "descEn": "At +10 points, activates “Wide Area +1”. Shares the effects of certain consumable items with nearby hunters.",
+    "descEs": "Con +10 puntos activa «Área amplia +1». Comparte los efectos de ciertos consumibles con cazadores cercanos."
    }
   ],
   "colorIndex": 1
@@ -1828,13 +2214,15 @@
   "id": "mhfus87",
   "name": "Throw",
   "nameEs": "Lanzamiento",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the range and handling of thrown items.",
+  "descEs": "Modifica el alcance y manejo de los objetos arrojados.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Throwing Skill Up",
-    "nameEs": "Subir lanzamiento"
+    "nameEs": "Subir lanzamiento",
+    "descEn": "At +10 points, activates “Throwing Skill Up”. Changes the range and handling of thrown items.",
+    "descEs": "Con +10 puntos activa «Subir lanzamiento». Modifica el alcance y manejo de los objetos arrojados."
    }
   ],
   "colorIndex": 2
@@ -1849,7 +2237,9 @@
    {
     "points": 10,
     "nameEn": "Bomber",
-    "nameEs": "Bomber"
+    "nameEs": "Bomber",
+    "descEn": "At +10 points, activates “Bomber”. Increases the damage dealt by bombs.",
+    "descEs": "Con +10 puntos activa «Bomber». Aumenta el daño infligido por las bombas."
    }
   ],
   "colorIndex": 3
@@ -1858,18 +2248,22 @@
   "id": "mhfus89",
   "name": "Gluttony",
   "nameEs": "Glotoneria",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the effect and risk of eating food items.",
+  "descEs": "Modifica el efecto y el riesgo de comer objetos de comida.",
   "activations": [
    {
     "points": 15,
     "nameEn": "Scavenger",
-    "nameEs": "Carroñero"
+    "nameEs": "Carroñero",
+    "descEn": "At +15 points, activates “Scavenger”. Changes the effect and risk of eating food items.",
+    "descEs": "Con +15 puntos activa «Carroñero». Modifica el efecto y el riesgo de comer objetos de comida."
    },
    {
     "points": 10,
     "nameEn": "Filled Up",
-    "nameEs": "Filled Up"
+    "nameEs": "Filled Up",
+    "descEn": "At +10 points, activates “Filled Up”. Changes the effect and risk of eating food items.",
+    "descEs": "Con +10 puntos activa «Filled Up». Modifica el efecto y el riesgo de comer objetos de comida."
    }
   ],
   "colorIndex": 4
@@ -1884,12 +2278,16 @@
    {
     "points": 10,
     "nameEn": "Quick Eating",
-    "nameEs": "Comer rapido"
+    "nameEs": "Comer rapido",
+    "descEn": "At +10 points, activates “Quick Eating”. Changes the results of cooking and meal preparation.",
+    "descEs": "Con +10 puntos activa «Comer rapido». Modifica los resultados de cocinar y preparar comidas."
    },
    {
     "points": -10,
     "nameEn": "Slow Life",
-    "nameEs": "Slow Life"
+    "nameEs": "Slow Life",
+    "descEn": "At -10 points, activates “Slow Life”. Changes the results of cooking and meal preparation.",
+    "descEs": "Con -10 puntos activa «Slow Life». Modifica los resultados de cocinar y preparar comidas."
    }
   ],
   "colorIndex": 5
@@ -1904,12 +2302,16 @@
    {
     "points": 10,
     "nameEn": "BBQ Celebrity",
-    "nameEs": "Celebridad barbacoa"
+    "nameEs": "Celebridad barbacoa",
+    "descEn": "At +10 points, activates “BBQ Celebrity”. Improves the timing and results of cooking meat.",
+    "descEs": "Con +10 puntos activa «Celebridad barbacoa». Mejora el tiempo y los resultados al cocinar carne."
    },
    {
     "points": -10,
     "nameEn": "So-Called BBQ King",
-    "nameEs": "So-Called BBQ King"
+    "nameEs": "So-Called BBQ King",
+    "descEn": "At -10 points, activates “So-Called BBQ King”. Improves the timing and results of cooking meat.",
+    "descEs": "Con -10 puntos activa «So-Called BBQ King». Mejora el tiempo y los resultados al cocinar carne."
    }
   ],
   "colorIndex": 6
@@ -1918,13 +2320,15 @@
   "id": "mhfus92",
   "name": "Horn",
   "nameEs": "Cuerno",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the effectiveness of Hunting Horn melodies.",
+  "descEs": "Modifica la eficacia de las melodías de la Cornamusa.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Flute Expert",
-    "nameEs": "Experto en flauta"
+    "nameEs": "Experto en flauta",
+    "descEn": "At +10 points, activates “Flute Expert”. Changes the effectiveness of Hunting Horn melodies.",
+    "descEs": "Con +10 puntos activa «Experto en flauta». Modifica la eficacia de las melodías de la Cornamusa."
    }
   ],
   "colorIndex": 7
@@ -1933,38 +2337,50 @@
   "id": "mhfus93",
   "name": "MixSucRate",
   "nameEs": "Índice éxito mixto",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the success rate when combining items.",
+  "descEs": "Modifica la tasa de éxito al combinar objetos.",
   "activations": [
    {
     "points": 20,
     "nameEn": "Combine Success +45%",
-    "nameEs": "Éxito combinac. +45%"
+    "nameEs": "Éxito combinac. +45%",
+    "descEn": "At +20 points, activates “Combine Success +45%”. Changes the success rate when combining items.",
+    "descEs": "Con +20 puntos activa «Éxito combinac. +45%». Modifica la tasa de éxito al combinar objetos."
    },
    {
     "points": 15,
     "nameEn": "Combine Success +25%",
-    "nameEs": "Éxito combinac. +25%"
+    "nameEs": "Éxito combinac. +25%",
+    "descEn": "At +15 points, activates “Combine Success +25%”. Changes the success rate when combining items.",
+    "descEs": "Con +15 puntos activa «Éxito combinac. +25%». Modifica la tasa de éxito al combinar objetos."
    },
    {
     "points": 10,
     "nameEn": "Combine Success +15%",
-    "nameEs": "Éxito combinac. +15%"
+    "nameEs": "Éxito combinac. +15%",
+    "descEn": "At +10 points, activates “Combine Success +15%”. Changes the success rate when combining items.",
+    "descEs": "Con +10 puntos activa «Éxito combinac. +15%». Modifica la tasa de éxito al combinar objetos."
    },
    {
     "points": -10,
     "nameEn": "Combine Success -5%",
-    "nameEs": "Combine Success -5%"
+    "nameEs": "Combine Success -5%",
+    "descEn": "At -10 points, activates “Combine Success -5%”. Changes the success rate when combining items.",
+    "descEs": "Con -10 puntos activa «Combine Success -5%». Modifica la tasa de éxito al combinar objetos."
    },
    {
     "points": -15,
     "nameEn": "Combine Success -10%",
-    "nameEs": "Combine Success -10%"
+    "nameEs": "Combine Success -10%",
+    "descEn": "At -15 points, activates “Combine Success -10%”. Changes the success rate when combining items.",
+    "descEs": "Con -15 puntos activa «Combine Success -10%». Modifica la tasa de éxito al combinar objetos."
    },
    {
     "points": -20,
     "nameEn": "Combine Success -15%",
-    "nameEs": "Combine Success -15%"
+    "nameEs": "Combine Success -15%",
+    "descEn": "At -20 points, activates “Combine Success -15%”. Changes the success rate when combining items.",
+    "descEs": "Con -20 puntos activa «Combine Success -15%». Modifica la tasa de éxito al combinar objetos."
    }
   ],
   "colorIndex": 8
@@ -1973,13 +2389,15 @@
   "id": "mhfus94",
   "name": "Shot Mix",
   "nameEs": "Disparo mixto",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the result of combining ammunition.",
+  "descEs": "Modifica el resultado de combinar munición.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Bullet Limit",
-    "nameEs": "Limite de balas"
+    "nameEs": "Limite de balas",
+    "descEn": "At +10 points, activates “Bullet Limit”. Changes the result of combining ammunition.",
+    "descEs": "Con +10 puntos activa «Limite de balas». Modifica el resultado de combinar munición."
    }
   ],
   "colorIndex": 9
@@ -1988,13 +2406,15 @@
   "id": "mhfus95",
   "name": "Alchemy",
   "nameEs": "Alquimia",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Enables special alchemy combinations.",
+  "descEs": "Permite combinaciones especiales de alquimia.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Alchemy",
-    "nameEs": "Alquimia"
+    "nameEs": "Alquimia",
+    "descEn": "At +10 points, activates “Alchemy”. Enables special alchemy combinations.",
+    "descEs": "Con +10 puntos activa «Alquimia». Permite combinaciones especiales de alquimia."
    }
   ],
   "colorIndex": 10
@@ -2003,18 +2423,22 @@
   "id": "mhfus96",
   "name": "ComrdGuide",
   "nameEs": "Guia Camarada",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the guidance and support provided by the Felyne companion.",
+  "descEs": "Modifica la guía y apoyo proporcionados por el camarada Felyne.",
   "activations": [
    {
     "points": 15,
     "nameEn": "ComradGuidance&Trade",
-    "nameEs": "Guíat+Comrc camrd"
+    "nameEs": "Guíat+Comrc camrd",
+    "descEn": "At +15 points, activates “ComradGuidance&Trade”. Changes the guidance and support provided by the Felyne companion.",
+    "descEs": "Con +15 puntos activa «Guíat+Comrc camrd». Modifica la guía y apoyo proporcionados por el camarada Felyne."
    },
    {
     "points": 10,
     "nameEn": "Comrade Guidance",
-    "nameEs": "Guía camarada"
+    "nameEs": "Guía camarada",
+    "descEn": "At +10 points, activates “Comrade Guidance”. Changes the guidance and support provided by the Felyne companion.",
+    "descEs": "Con +10 puntos activa «Guía camarada». Modifica la guía y apoyo proporcionados por el camarada Felyne."
    }
   ],
   "colorIndex": 11
@@ -2023,13 +2447,15 @@
   "id": "mhfus97",
   "name": "ComradeAtk",
   "nameEs": "ComradeAtk",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the attack strength of the Felyne companion.",
+  "descEs": "Modifica la fuerza de ataque del camarada Felyne.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Comrade Attack Up",
-    "nameEs": "Comrade Attack Up"
+    "nameEs": "Comrade Attack Up",
+    "descEn": "At +10 points, activates “Comrade Attack Up”. Changes the attack strength of the Felyne companion.",
+    "descEs": "Con +10 puntos activa «Comrade Attack Up». Modifica la fuerza de ataque del camarada Felyne."
    }
   ],
   "colorIndex": 0
@@ -2038,13 +2464,15 @@
   "id": "mhfus98",
   "name": "ComradeDef",
   "nameEs": "ComradeDef",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Changes the defense of the Felyne companion.",
+  "descEs": "Modifica la defensa del camarada Felyne.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Comrade Defense Up",
-    "nameEs": "Comrade Defense Up"
+    "nameEs": "Comrade Defense Up",
+    "descEn": "At +10 points, activates “Comrade Defense Up”. Changes the defense of the Felyne companion.",
+    "descEs": "Con +10 puntos activa «Comrade Defense Up». Modifica la defensa del camarada Felyne."
    }
   ],
   "colorIndex": 1
@@ -2053,13 +2481,15 @@
   "id": "mhfus99",
   "name": "Torso Inc",
   "nameEs": "Torso Inc",
-  "descEn": "Describes the effects granted by this armor-skill point pool.",
-  "descEs": "Describe los efectos que activa este grupo de puntos de habilidad.",
+  "descEn": "Doubles the skill points on the torso armor piece.",
+  "descEs": "Duplica los puntos de habilidad de la pieza de torso.",
   "activations": [
    {
     "points": 10,
     "nameEn": "Torso Inc",
-    "nameEs": "Torso Inc"
+    "nameEs": "Torso Inc",
+    "descEn": "At +10 points, activates “Torso Inc”. Doubles the skill points on the torso armor piece.",
+    "descEs": "Con +10 puntos activa «Torso Inc». Duplica los puntos de habilidad de la pieza de torso."
    }
   ],
   "colorIndex": 2
