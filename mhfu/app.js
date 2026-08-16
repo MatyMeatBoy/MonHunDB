@@ -141,6 +141,11 @@ let skillsByName = new Map();
 let items = [];
 let itemsByName = new Map();
 let gatheringSources = { rankTiers: [], pokkePoints: {}, farm: {}, treasureHunting: {} };
+let farmGuide = null;
+let farmGuideItems = new Map();
+let vendorSources = null;
+let mapGatheringItems = new Map();
+let veggieElderItems = new Map();
 let weapons = [];
 let armorPieces = [];
 let armorSets = [];
@@ -667,7 +672,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes, combinationsRes, gatheringSourcesRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes, combinationsRes, gatheringSourcesRes, farmGuideRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
@@ -681,6 +686,7 @@ async function init() {
       fetch("data/quests.json"),
       fetch("data/combinations.json"),
       fetch("data/gathering_sources.json"),
+      fetch("data/farm_guide.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
@@ -705,6 +711,20 @@ async function init() {
     quests = questsRes.ok ? await questsRes.json() : [];
     combinations = combinationsRes.ok ? await combinationsRes.json() : [];
     gatheringSources = gatheringSourcesRes.ok ? await gatheringSourcesRes.json() : gatheringSources;
+    buildMapGatheringIndex();
+    buildVeggieElderIndex();
+    farmGuide = farmGuideRes.ok ? await farmGuideRes.json() : null;
+    buildFarmGuideIndex();
+    const shop = gatheringSources.vendors?.peddlingGranny;
+    vendorSources = shop ? {
+      seller: "Peddling Granny",
+      note: "El inventario rota al terminar una misión y puede aparecer con descuento.",
+      inventories: Object.fromEntries([
+        ["Regular", shop.regular],
+        ["Discount", shop.discount],
+        ["DLC", shop.dlc],
+      ].map(([label, rows]) => [label, Object.fromEntries((rows || []).map(row => [row.name, row.price]))]))
+    } : null;
     if (weaponTreeRes.ok) initWeaponTree(await weaponTreeRes.json());
   } catch (err) {
     triggerLabelEl.textContent = ui("selectError");
@@ -3021,6 +3041,107 @@ function gatheringAccountItem(matKey) {
   }) || null;
 }
 
+function buildFarmGuideIndex() {
+  farmGuideItems = new Map();
+  if (!farmGuide) return;
+  const add = (name, node, detail) => {
+    const key = normalizeMaterialKey(name);
+    if (!key) return;
+    const existing = farmGuideItems.get(key) || [];
+    if (!existing.some(x => x.node === node)) existing.push({ node, detail });
+    farmGuideItems.set(key, existing);
+  };
+  const fieldItems = new Set();
+  for (const rows of Object.values(farmGuide.fieldRows?.seedCrops || {})) rows.forEach(row => fieldItems.add(row[0]));
+  (farmGuide.fieldRows?.additionalCrops || []).forEach(row => fieldItems.add(row[0]));
+  fieldItems.forEach(name => add(name, "Field Rows", "El rendimiento depende del nivel de campo y del cultivo."));
+  (farmGuide.insectThicket?.bushes || []).forEach(bush => bush.items.forEach(name => add(name, "Insect Thicket", farmGuide.insectThicket.note)));
+  Object.entries(farmGuide.insectThicket?.bugTree || {}).forEach(([hammer, names]) => names.forEach(name => add(name, "Bug Tree", hammer)));
+  Object.values(farmGuide.miningPoint?.levels || {}).flat().forEach(name => add(name, "Mining Point", "Se desbloquea con las mejoras del punto de minería."));
+  Object.values(farmGuide.miningPoint?.bombMining || {}).flat().forEach(name => add(name, "Bomb Mining", "Resultado posible según la bomba utilizada."));
+  (farmGuide.fishingPier?.items || []).forEach(name => add(name, "Fishing Pier", "La mejora del muelle cambia las probabilidades."));
+  (farmGuide.fishingPier?.castingMachine || []).forEach(row => add(row[0], "Casting Machine", `${row[1]} · ${row[2]}`));
+  Object.keys(farmGuide.beehive?.items || {}).forEach(name => add(name, "Beehive", "La producción mejora con Prototype, Production y Modified Beehive."));
+  Object.keys(farmGuide.mushroomTree?.items || {}).forEach(name => add(name, "Mushroom Tree", "La variedad y el rendimiento mejoran con el árbol +1/+2."));
+  (farmGuide.swordCave?.items || []).forEach(name => add(name, "Great Sword Cave", farmGuide.swordCave.note));
+}
+
+function buildMapGatheringIndex() {
+  mapGatheringItems = new Map();
+  const maps = gatheringSources.mapSources || [];
+  const rankLabels = { "low-rank": "Elder / Guild Low", "high-rank": "Nekoht / Guild High", "g-rank": "G Rank", training: "Training School", treasure: "Treasure Hunting", All: "All Ranks" };
+  const typeLabels = { bugnet: "Bugnet", gather: "Gather", mining: "Mining", fishing: "Fishing", cat: "Cat", summit: "Summit" };
+  for (const map of maps) {
+    for (const area of map.areas || []) {
+      for (const position of area.positions || []) {
+        for (const condition of ["low-rank", "high-rank", "g-rank", "training", "treasure", "All"]) {
+          const names = position.condition === condition ? position.materials || [] : [];
+          for (const name of names) {
+            const key = normalizeMaterialKey(name);
+            if (!key) continue;
+            const rows = mapGatheringItems.get(key) || [];
+            rows.push({ map: map.location, area: area.areanumber, type: typeLabels[position.type] || position.type, rank: rankLabels[condition] || condition });
+            mapGatheringItems.set(key, rows);
+          }
+        }
+      }
+    }
+  }
+}
+
+function mapGatheringSourcesHtml(matKey) {
+  const entries = mapGatheringItems.get(normalizeMaterialKey(matKey)) || [];
+  if (!entries.length) return "";
+  const unique = [...new Map(entries.map(entry => [`${entry.map}|${entry.area}|${entry.type}|${entry.rank}`, entry])).values()];
+  const labels = { SnwyMntains: "Snowy Mountains", "Forest & Hills": "Forest and Hills", "Old Jungle": "Old Jungle", Jungle: "Jungle", Desert: "Desert", "Old Desert": "Old Desert", Swamp: "Swamp", "Old Swamp": "Old Swamp", Volcano: "Volcano", "Old Volcano": "Old Volcano", "Great Forest": "Great Forest", "Tower 1": "Tower", "Tower 2": "Tower 2", "Tower 3": "Tower 3", Fortess: "Fortress", Town: "Town", "Castle Schrade": "Castle Schrade", Battleground: "Battleground", "Snowy Mountain Peak": "Snowy Mountains Peak", Arena: "Arena", "Moat Arena": "Moat Arena" };
+  return '<div class="mhfu-map-sources"><strong>' + ui("materialsMapDetail") + '</strong>' +
+    unique.map(entry => '<div><span class="mhfu-map-name">' + escapeAttr(labels[entry.map] || entry.map) + '</span> · ' + escapeAttr(entry.type) + ' · Área ' + entry.area + ' <small>' + escapeAttr(entry.rank) + '</small></div>').join("") +
+    '</div>';
+}
+
+function buildVeggieElderIndex() {
+  veggieElderItems = new Map();
+  for (const table of gatheringSources.veggieElder || []) {
+    for (const row of table.item || []) {
+      const key = normalizeMaterialKey(row.gain);
+      if (!key) continue;
+      const rows = veggieElderItems.get(key) || [];
+      rows.push({ location: table.location, give: row.give, chance: row.chance });
+      veggieElderItems.set(key, rows);
+    }
+  }
+}
+
+function veggieElderSourcesHtml(matKey) {
+  const entries = veggieElderItems.get(normalizeMaterialKey(matKey)) || [];
+  if (!entries.length) return "";
+  const unique = [...new Map(entries.map(entry => [`${entry.location}|${entry.give}|${entry.chance}`, entry])).values()];
+  return '<div class="mhfu-veggie-sources"><strong>' + ui("materialsVeggieElder") + '</strong>' +
+    unique.map(entry => '<div><span class="mhfu-map-name">' + escapeAttr(entry.location) + '</span> · entrega ' + escapeAttr(entry.give) + ' <small>' + (entry.chance != null ? `${entry.chance}%` : "") + '</small></div>').join("") +
+    '</div>';
+}
+
+function farmGuideSourcesHtml(matKey) {
+  const entries = farmGuideItems.get(normalizeMaterialKey(matKey)) || [];
+  if (!entries.length) return "";
+  return '<div class="mhfu-farm-sources"><strong>' + ui("materialsFarmGuide") + '</strong>' +
+    entries.map(entry => '<div><span class="mhfu-farm-node">' + escapeAttr(entry.node) + '</span> <small>' + escapeAttr(entry.detail || "") + '</small></div>').join("") +
+    '</div>';
+}
+
+function vendorSourcesHtml(matKey) {
+  const wanted = normalizeMaterialKey(matKey);
+  if (!vendorSources?.inventories) return "";
+  const matches = Object.entries(vendorSources.inventories)
+    .filter(([, inventory]) => Object.keys(inventory).some(name => normalizeMaterialKey(name) === wanted))
+    .map(([inventory, values]) => {
+      const name = Object.keys(values).find(item => normalizeMaterialKey(item) === wanted);
+      return `${inventory}: ${values[name].toLocaleString(lang === "es" ? "es-ES" : "en-US")}z`;
+    });
+  if (!matches.length) return "";
+  return '<div class="mhfu-vendor-source"><strong>' + escapeAttr(vendorSources.seller) + '</strong><span>' + matches.map(escapeAttr).join(" · ") + '</span><small>' + escapeAttr(vendorSources.note || "") + '</small></div>';
+}
+
 function gatheringRankHint(matKey) {
   const note = materialObtainNotes[matKey]?.en || materialObtainNotes[matKey]?.es || "";
   const text = normalizeSearch(note);
@@ -3052,13 +3173,17 @@ function gatheringSourcesHtml(matKey) {
       escapeAttr(gatheringSources.farm.note) + '</p>'
     : "";
   const mapNote = sourceInfo?.maps ? '<p class="mhfu-gathering-note"><strong>' + ui("materialsMapSources") + ':</strong> ' + escapeAttr(sourceInfo.maps) + '</p>' : "";
+  const mapDetail = mapGatheringSourcesHtml(matKey);
   const nodeNote = sourceInfo?.farmNode ? '<p class="mhfu-gathering-note"><strong>' + ui("materialsFarmNode") + ':</strong> ' + escapeAttr(sourceInfo.farmNode) + (sourceInfo.farmRequirement ? ' — ' + escapeAttr(sourceInfo.farmRequirement) : '') + '</p>' : "";
+  const farmGuideNote = farmGuideSourcesHtml(matKey);
+  const vendorNote = vendorSourcesHtml(matKey);
+  const veggieNote = veggieElderSourcesHtml(matKey);
   const rankNote = rankIds.length
     ? '<p class="mhfu-gathering-note">' + ui("materialsGatheringRankHint") + '</p>'
     : "";
   const noteHtml = note ? '<p class="mhfu-gathering-note">' + escapeAttr(note) + '</p>' : "";
-  const body = accountHtml || farmNote || mapNote || nodeNote || rankNote || noteHtml
-    ? accountHtml + farmNote + mapNote + nodeNote + rankNote + noteHtml
+  const body = accountHtml || farmNote || mapNote || mapDetail || nodeNote || farmGuideNote || vendorNote || veggieNote || rankNote || noteHtml
+    ? accountHtml + farmNote + mapNote + mapDetail + nodeNote + farmGuideNote + vendorNote + veggieNote + rankNote + noteHtml
     : '<p class="no-data">' + ui("materialsGatheringNoData") + '</p>';
   return '<section class="block mhfu-gathering-block"><h3>' +
     ui("materialsGatheringHeading") + '</h3><div class="mhfu-rank-chips">' +
@@ -4380,6 +4505,15 @@ function questStars(qt) {
   return difficulty >= 1 && difficulty <= 9 && questMode(qt) === "hub" ? `${difficulty}★` : "";
 }
 
+function questGroupLabel(qt) {
+  const category = questCategory(qt);
+  const stars = questStars(qt);
+  // Elder quests are stored with the shared "Elder Hall" rank and keep the
+  // star tier in difficulty. Group them exactly like the other quest lists.
+  if (category === "elder" && stars) return `${qt.rank} ${stars}`;
+  return qt.rank || ui("questsCategoryOther");
+}
+
 function questTypeInfo(qt) {
   const text = normalizeSearch(`${qt?.name || ""} ${qt?.goalCondition || ""} ${qt?.details || ""}`);
   if (/\bcaptur\w*/.test(text)) return { key: "capture", label: ui("questsTypeCapture"), color: "gray" };
@@ -4535,8 +4669,9 @@ function renderQuestsIndex(query) {
 
   const byRank = new Map();
   for (const qt of filtered) {
-    if (!byRank.has(qt.rank)) byRank.set(qt.rank, []);
-    byRank.get(qt.rank).push(qt);
+    const group = questGroupLabel(qt);
+    if (!byRank.has(group)) byRank.set(group, []);
+    byRank.get(group).push(qt);
   }
 
   questsIndexEl.innerHTML = [...byRank.keys()].map(rank => `

@@ -1851,6 +1851,17 @@ body {
 }
 .mhfu-rank-chip.active { border-color: var(--accent); color: var(--accent); background: rgba(124,154,92,.12); }
 .mhfu-gathering-note { margin: .45rem 0 0; color: var(--text-dim); font-size: .82rem; }
+.mhfu-farm-sources { margin-top: .55rem; padding: .55rem .7rem; border: 1px solid var(--border); border-radius: 6px; background: var(--bg-panel-alt); font-size: .82rem; }
+.mhfu-farm-sources > strong { display: block; margin-bottom: .25rem; color: var(--accent); }
+.mhfu-farm-sources > div { margin-top: .22rem; color: var(--text-dim); }
+.mhfu-farm-node { color: var(--text); font-weight: 600; }
+.mhfu-vendor-source { margin-top: .55rem; padding: .55rem .7rem; border: 1px solid var(--border); border-radius: 6px; background: var(--bg-panel-alt); font-size: .82rem; }
+.mhfu-vendor-source strong { display: block; color: var(--accent); }
+.mhfu-vendor-source span, .mhfu-vendor-source small { display: block; margin-top: .2rem; color: var(--text-dim); }
+.mhfu-map-sources, .mhfu-veggie-sources { margin-top: .55rem; padding: .55rem .7rem; border: 1px solid var(--border); border-radius: 6px; background: var(--bg-panel-alt); font-size: .82rem; }
+.mhfu-map-sources strong, .mhfu-veggie-sources strong { display: block; color: var(--accent); margin-bottom: .25rem; }
+.mhfu-map-sources > div, .mhfu-veggie-sources > div { margin-top: .2rem; color: var(--text-dim); }
+.mhfu-map-name { color: var(--text); font-weight: 600; }
 .mhfu-account-item {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);

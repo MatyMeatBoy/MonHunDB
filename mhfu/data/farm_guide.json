@@ -1,0 +1,52 @@
+{
+  "game": "MHFU",
+  "title": "Guía de la Granja Pokke",
+  "source": "https://gamefaqs.gamespot.com/psp/943356-monster-hunter-freedom-unite/faqs/78652/farm",
+  "note": "Los rendimientos dependen del nivel del nodo, la semilla o el objeto usado y el rango de la misión. Las tablas se conservan como referencia para la futura sección de guías.",
+  "fieldRows": {
+    "levels": [
+      {"level":1,"regularYield":[1,2,3],"regularChance":[5,45,50],"additionalYield":[1,2],"additionalChance":[80,20]},
+      {"level":2,"regularYield":[4,5,6],"regularChance":[15,70,15],"additionalYield":[1,2,3],"additionalChance":[5,70,25]},
+      {"level":3,"regularYield":[7,8,9],"regularChance":[5,70,25],"additionalYield":[2,3],"additionalChance":[30,70]}
+    ],
+    "seedCrops": {
+      "Red Seed":[["Sunset Herb","3/1","8%/4%"],["Fire Herb","4/1","10%/11%"],["Felvine","4/1","5%/8%"],["Cactus Flower","2/1","6%/8%"],["Hot Pepper","4/1","6%/6%"],["Dosbiscus","2/1","1%/3%"],["Bomberry","4/2","10%/6%"],["Red Seed","1","20%"]],
+      "Green Seed":[["Sunset Herb","2","5%"],["Ivy","3/1","11%/5%"],["Sap Plant","4/1","12%/10%"],["Dosbiscus","2/1","2%/4%"],["Dragon Seed","2","5%"],["Scatternut","10/5","6%/3%"],["Green Seed","1","20%"]],
+      "Yellow Seed":[["Herb","3","10%"],["Antidote Herb","3","10%"],["Sap Plant","2","4%"],["Felvine","2","4%"],["Cactus Flower","1","5%"],["Dosbiscus","1","10%"],["Giant Corn","1","8%"],["Power Seed","1","7%"],["Armor Seed","1","7%"],["Needleberry","10","10%"],["Yellow Seed","1","20%"]]
+    },
+    "additionalCrops":[["Huskberry","10/5","4%/13%"],["Cricket","3/1","1%/3%"],["Worm","1","10%"],["Frog","1","1%"],["Herb","4/1","6%/12%"],["Fire Herb","4/1","3%/6%"],["Sap Plant","4/1","3%/6%"],["Dosbiscus","1","3%"],["Paintberry","4/1","3%/5%"],["Dragon Seed","2","3%"],["Scatternut","8/4","3%/7%"],["Bomberry","4/2","2%/4%"],["Insect Husk","1","2%"]]
+  },
+  "insectThicket": {
+    "note": "Cada mejora añade un arbusto; los insectos se desbloquean también por rango.",
+    "bushes": [
+      {"name":"Bush 1","items":["Spider Web","Cricket","Worm","Firefly","Mega Fishing Fly","Insect Husk","Yambug","Bughopper","Godbug","Bitterbug","Flashbug","Thunderbug","Carpenterbug","Killer Beetle","Hercudrome","King Scarab"]},
+      {"name":"Bush 2","items":["Rare Scarab","Emperor Cricket","PhantomButterfly","Rainbow Insect","Great Hornfly","Great Ladybug","Vespoid Shell","Vespoid Carapace","Vespoid Wing","Vespoid InnrWng","Vspoid Razorwing","Hornetaur Shell","Hornetaur Crapce","Hornetaur Wing","HornetaurInnrWng","Hornet Razorwing"]}
+    ],
+    "bugTree": {
+      "White Hammer":["Godbug","Bitterbug","Flashbug","Carpenterbug","King Scarab","Killer Beetle","Hercudrome","Rare Scarab","Vespoid Wing","Vespoid Shell","Hornetaur Wing","Hornetaur Shell","Huskberry","Power Seed","Armor Seed","Scatternut"],
+      "Black Hammer":["Mega Fishing Fly","Yambug","Bughopper","Godbug","Bitterbug","Flashbug","Thunderbug","Carpenterbug","King Scarab","Killer Beetle","Hercudrome","Rare Scarab","Rainbow Insect","Great Hornfly","Great Ladybug","Vespoid Wing","Vespoid Shell","Vespoid InnrWing","Hornetaur Wing","Hornetaur Shell","HornetaurInnrWing","Huskberry","Power Seed","Armor Seed"],
+      "Gold Hammer":["Insect Husk","Yambug","Bughopper","Thunderbug","Emperor Cricket","Rare Scarab","Rainbow Insect","Great Hornfly","Great Ladybug","Vespoid Wing","Vespoid Shell","Vespoid InnrWing","Vespoid RazorWing","Hornetaur Wing","Hornetaur Shell","Hornetaur Crapce","HornetaurInnrWing","Hornetaur RazorWing","Power Seed","Armor Seed","Phantom Butterfly"]
+    }
+  },
+  "miningPoint": {
+    "levels": {
+      "Initial":["Whetstone","Stone","Disk Stone","Iron Ore","Earth Crystal","Machalite Ore"],
+      "+1":["Whetstone","Stone","Disk Stone","Iron Ore","Earth Crystal","Machalite Ore","Dragonite Ore","Carbalite Ore","Union Ore","Eltalite Ore","Mellanje Ore","Lightcrystal","Novacrystal"],
+      "+2":["Whetstone","Stone","Disk Stone","Iron Ore","Earth Crystal","Machalite Ore","Dragonite Ore","Carbalite Ore","Union Ore","Eltalite Ore","Mellanje Ore","Lightcrystal","Novacrystal"],
+      "+3":["Whetstone","Stone","Disk Stone","Iron Ore","Earth Crystal","Machalite Ore","Dragonite Ore","Carbalite Ore","Union Ore","Eltalite Ore","Mellanje Ore","Lightcrystal","Novacrystal"],
+      "+4":["Purecrystal","Ice Crystal","Rainbow Ore","Armor Stone","Armor Sphere","Armor Sphere+","Hrd Armor Sphere","Hvy Armor Sphere","Ryl Armor Sphere","Suiko Jewel","Akito Jewel","BattlefieldJewel","LapisLazuliJewel"]
+    },
+    "bombMining": {
+      "Small Barrel Bomb":["Rainbow Ore","Machalite Ore"],"Small Barrel Bomb+":["Armor Stone","Union Ore","Dragonite Ore","Lightcrystal"],"Bounce Bomb":["Earth Crystal","Machalite Ore","Battlefield Jewel","Rainbow Ore"],"Bounce Bomb+":["Lightcrystal","Earth Crystal","Union Ore","Dragonite Ore","Armor Stone","Iron Ore"],"Large Barrel Bomb":["Disk Stone","Dragonite Ore","Iron Ore","Armor Sphere","Eltalite Ore","Machalite Ore"],"Large Barrel Bomb+":["Earth Crystal","Dragonite Ore","Rainbow Ore","Ice Crystal","Iron Ore","Eltalite Ore","Machalite Ore","Ryl Armor Sphere","Mellanje Ore","Lightcrystal","Pure Crystal","Tru Armor Sphere","Armor Sphere+","Armor Stone","Hrd Armor Sphere","Carbalite Ore"]
+    }
+  },
+  "fishingPier": {
+    "levels":["Initial","+1","+2"],
+    "items":["Knife Mackerel","Sushifish","Sleepyfish","Pin Tuna","Rumblefish","Scatterfish","Burst Arrowana","Bomb Arrowana","Small Goldenfish","Springnight Carp"],
+    "castingMachine":[["Knife Mackerel","3/1","3%/5%"],["Sushifish","3/1","2%/3%"],["Sleepyfish","1","4%"],["Pin Tuna","2/1","7%/4%"],["Rumblefish","2/1","7%/4%"],["Scatterfish","1","10%"],["Burst Arrowana","1","10%"],["Bomb Arrowana","1","10%"],["Small Goldenfish","1","9%"],["Ancient Fish","1","4%"],["Springnight Carp","1","5%"],["Speartuna","1","2%"],["Tailed Frog","1","5%"],["Plesioth Scale","1","4%"],["Grn Plesioth Scl","1","2%"]]
+  },
+  "beehive": {"levels":["Prototype Beehive","Production Beehive","Modified Beehive"],"yield":["2–3","3–4","5–6"],"items":{"Insect Husk":["10%","5%","-"],"Honey":["88%","90%","95%"],"Snakebee Larva":["2%","5%","5%"]}},
+  "mushroomTree": {"levels":["Base","+1","+2"],"yield":["3–4","5–6","7–8"],"items":{"Blue Mushroom":["40%","30%","28%"],"Parashroom":["26%","12%","11%"],"Toadstool":["32%","18%","15%"],"Chaos Mushroom":["2%","2%","3%"],"Nitroshroom":["-","28%","27%"],"Exciteshroom":["-","10%","10%"],"Dragon Toadstool":["-","-","6%"]}},
+  "swordCave": {"cost":["Elder Dragon Bone","Elder Dragon Bone"],"items":["Dark Piece","Dark Stone"],"note":"Se puede extraer dos o tres veces por sesión; una extracción siempre da Dark Piece y las restantes tienen 60% Dark Piece / 40% Dark Stone."},
+  "exclusiveItems":["Dosbiscus","Giant Corn","Springnight Carp","Tailed Frog","Chaos Mushroom"]
+}
