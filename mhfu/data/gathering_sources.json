@@ -379,14 +379,25 @@
   }
  },
  "treasureHunting": {
+  "source": "https://monsterhunter.fandom.com/es/wiki/MHFU:_Caza_del_Tesoro",
   "npc": "Treshi",
   "location": "Sala de reuniones",
+  "timeLimitMinutes": 20,
   "scoreToPokkePointsPercent": 10,
   "delivery": "Los tesoros se entregan directamente a Treshi en el campamento, no en la caja roja.",
   "trainingSchool": "Training School es un modo separado de entrenamiento de un jugador; su puntuación también convierte el 10% en Puntos Pokke.",
   "crowns": {
    "silver": 20000,
    "gold": 30000
+  },
+  "mapCrowns": {
+   "Snowy Mountains": { "silver": 20000, "gold": 30000 },
+   "Jungle": { "silver": 30000, "gold": 40000 },
+   "Desert": { "silver": 30000, "gold": 40000 },
+   "Swamp": { "silver": 30000, "gold": 40000 },
+   "Forest & Hills": { "silver": 30000, "gold": 40000 },
+   "Volcano": { "silver": 40000, "gold": 50000 },
+   "Great Forest": { "silver": 40000, "gold": 50000 }
   },
   "firstMap": "Snowy Mountains",
   "mapsUnlockAsProgress": true,
