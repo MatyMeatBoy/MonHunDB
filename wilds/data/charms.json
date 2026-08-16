@@ -13,7 +13,24 @@
         "effectEs": "Reduce el consumo continuo de resistencia un 15 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Doshaguma Fur",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Doshaguma Claw",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Doshaguma Fang",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Seikret Feather",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Marathon Runner skill."
   },
@@ -31,7 +48,16 @@
         "effectEs": "Reduce el consumo continuo de resistencia un 30 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Gypceros Head",
+        "qty": 3
+      },
+      {
+        "material": "Bird Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Marathon Runner skill."
   },
@@ -49,7 +75,12 @@
         "effectEs": "Reduce el consumo continuo de resistencia un 50 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Fulgur Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Marathon Runner skill."
   },
@@ -67,7 +98,24 @@
         "effectEs": "Reduce el consumo fijo de resistencia un 10 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Ajarakan Scale",
+        "qty": 2
+      },
+      {
+        "material": "Ajarakan Jewel",
+        "qty": 1
+      },
+      {
+        "material": "Ajarakan Ridge",
+        "qty": 1
+      },
+      {
+        "material": "Kranodath Skull",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Constitution skill."
   },
@@ -85,7 +133,20 @@
         "effectEs": "Reduce el consumo fijo de resistencia un 20 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Kut-Ku Wing",
+        "qty": 4
+      },
+      {
+        "material": "Kut-Ku Ear",
+        "qty": 3
+      },
+      {
+        "material": "Carbalite Ore",
+        "qty": 5
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Constitution skill."
   },
@@ -103,7 +164,12 @@
         "effectEs": "Reduce el consumo fijo de resistencia un 30 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Beast Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Constitution skill."
   },
@@ -121,7 +187,20 @@
         "effectEs": "Reduce el consumo fijo de resistencia un 40 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Gore Magala Tail",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Ebony Gem",
+        "qty": 1
+      },
+      {
+        "material": "Gore Magala Nyctgem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Constitution skill."
   },
@@ -139,7 +218,16 @@
         "effectEs": "Reduce el consumo fijo de resistencia un 50 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 5
+      },
+      {
+        "material": "Mizutsune Water Orb",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Constitution skill."
   },
@@ -157,7 +245,24 @@
         "effectEs": "Aumenta ligeramente la velocidad al envainar."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hirabami Tail Claw",
+        "qty": 1
+      },
+      {
+        "material": "Balahara Scale",
+        "qty": 2
+      },
+      {
+        "material": "Balahara Skull",
+        "qty": 1
+      },
+      {
+        "material": "Dragonite Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Quick Sheathe skill."
   },
@@ -175,7 +280,12 @@
         "effectEs": "Aumenta la velocidad al envainar."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Ajarakan Marrow",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Quick Sheathe skill."
   },
@@ -193,7 +303,16 @@
         "effectEs": "Aumenta mucho la velocidad al envainar."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Rathalos Wing",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Fulgur Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Quick Sheathe skill."
   },
@@ -211,7 +330,16 @@
         "effectEs": "Ataque +4 y afinidad +3 % mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rathian Webbing",
+        "qty": 3
+      },
+      {
+        "material": "Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Agitator skill."
   },
@@ -229,7 +357,24 @@
         "effectEs": "Ataque +8 y afinidad +5 % mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 5
+      },
+      {
+        "material": "Hunter Symbol II",
+        "qty": 3
+      },
+      {
+        "material": "Uth Duna Watergem",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Rathalos Ruby",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Agitator skill."
   },
@@ -247,7 +392,16 @@
         "effectEs": "Ataque +12 y afinidad +7 % mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Wartorn Dragongem",
+        "qty": 1
+      },
+      {
+        "material": "Gogmazios Shredders",
+        "qty": 6
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Agitator skill."
   },
@@ -265,7 +419,12 @@
         "effectEs": "Ataque +3 mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Beast Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Peak Performance skill."
   },
@@ -283,7 +442,24 @@
         "effectEs": "Ataque +6 mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 5
+      },
+      {
+        "material": "Hunter Symbol II",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Icegem",
+        "qty": 1
+      },
+      {
+        "material": "Gravios Medulla",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Peak Performance skill."
   },
@@ -301,7 +477,12 @@
         "effectEs": "Ataque +10 mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Uth Duna Watergem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Peak Performance skill."
   },
@@ -319,7 +500,16 @@
         "effectEs": "Ataque +5 mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nerscylla Carapace",
+        "qty": 6
+      },
+      {
+        "material": "Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Resentment skill."
   },
@@ -337,7 +527,24 @@
         "effectEs": "Ataque +10 mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 5
+      },
+      {
+        "material": "Hunter Symbol II",
+        "qty": 3
+      },
+      {
+        "material": "Nu Udra Flamegem",
+        "qty": 1
+      },
+      {
+        "material": "Ajarakan Medulla",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Resentment skill."
   },
@@ -373,7 +580,20 @@
         "effectEs": "Los ataques a puntos débiles tienen afinidad +5 %, más un 3 % adicional sobre heridas."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rathian Carapace",
+        "qty": 6
+      },
+      {
+        "material": "Chatacabra Carapace",
+        "qty": 4
+      },
+      {
+        "material": "Rathian Ruby",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Weakness Exploit skill."
   },
@@ -391,7 +611,24 @@
         "effectEs": "Los ataques a puntos débiles tienen afinidad +10 %, más un 5 % adicional sobre heridas."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 5
+      },
+      {
+        "material": "Hunter Symbol II",
+        "qty": 3
+      },
+      {
+        "material": "Arkveld Gem",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Rathalos Ruby",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Weakness Exploit skill."
   },
@@ -409,7 +646,12 @@
         "effectEs": "Mientras está activo, afinidad +10 % y reduce el gasto de resistencia un 30 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Latent Power skill."
   },
@@ -427,7 +669,24 @@
         "effectEs": "Mientras está activo, afinidad +20 % y reduce el gasto de resistencia un 30 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 5
+      },
+      {
+        "material": "Hunter Symbol II",
+        "qty": 3
+      },
+      {
+        "material": "Rey Dau Boltgem",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Fulgur Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Latent Power skill."
   },
@@ -445,7 +704,20 @@
         "effectEs": "Mientras está activo, afinidad +30 % y reduce el gasto de resistencia un 50 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Bolthorn",
+        "qty": 4
+      },
+      {
+        "material": "Arkveld Gem",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Certificate Gamma",
+        "qty": 3
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Latent Power skill."
   },
@@ -463,7 +735,20 @@
         "effectEs": "Afinidad +10 % mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nerscylla Shear",
+        "qty": 3
+      },
+      {
+        "material": "Gypceros Head",
+        "qty": 3
+      },
+      {
+        "material": "Bird Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Maximum Might skill."
   },
@@ -481,7 +766,24 @@
         "effectEs": "Afinidad +20 % mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 5
+      },
+      {
+        "material": "Hunter Symbol II",
+        "qty": 3
+      },
+      {
+        "material": "Xu Wu Umbragem",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Boltgem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Maximum Might skill."
   },
@@ -499,7 +801,24 @@
         "effectEs": "Afinidad +30 % mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Gore Magala Nyctgem",
+        "qty": 1
+      },
+      {
+        "material": "Uth Duna Watergem",
+        "qty": 1
+      },
+      {
+        "material": "Ajarakan Carapace",
+        "qty": 5
+      },
+      {
+        "material": "SF6 Ticket",
+        "qty": 3
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Maximum Might skill."
   },
@@ -517,7 +836,24 @@
         "effectEs": "Velocidad de recuperación de resistencia +10 %"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Xu Wu Hide",
+        "qty": 2
+      },
+      {
+        "material": "Xu Wu Claw",
+        "qty": 1
+      },
+      {
+        "material": "Nu Udra Hide",
+        "qty": 1
+      },
+      {
+        "material": "Xu Wu Cerebrospinal Fluid",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Stamina Surge skill."
   },
@@ -535,7 +871,20 @@
         "effectEs": "Velocidad de recuperación de resistencia +30 %"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Gypceros Tail",
+        "qty": 2
+      },
+      {
+        "material": "Lightcrystal",
+        "qty": 2
+      },
+      {
+        "material": "Bird Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Stamina Surge skill."
   },
@@ -553,7 +902,12 @@
         "effectEs": "Velocidad de recuperación de resistencia +50 %"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Xu Wu Umbragem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Stamina Surge skill."
   },
@@ -571,7 +925,24 @@
         "effectEs": "Defensa +5"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Doshaguma Claw",
+        "qty": 1
+      },
+      {
+        "material": "Balahara Shell",
+        "qty": 2
+      },
+      {
+        "material": "Balahara Skull",
+        "qty": 1
+      },
+      {
+        "material": "Machalite Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Defense Boost skill."
   },
@@ -589,7 +960,24 @@
         "effectEs": "Defensa +10"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Doshaguma Hide",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Doshaguma Claw",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Doshaguma Fang",
+        "qty": 1
+      },
+      {
+        "material": "Dragonite Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Defense Boost skill."
   },
@@ -607,7 +995,12 @@
         "effectEs": "Defensa +5 % Bonus: +10"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Stone",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Defense Boost skill."
   },
@@ -625,7 +1018,16 @@
         "effectEs": "Defensa +5 % Bonus: +20 Resistencias elementales +3"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Gravios Carapace",
+        "qty": 2
+      },
+      {
+        "material": "Gravios Wing",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Defense Boost skill."
   },
@@ -643,7 +1045,20 @@
         "effectEs": "Defensa +8 % Bonus: +20 Resistencias elementales +3"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Gravios Skull",
+        "qty": 2
+      },
+      {
+        "material": "Hunter Symbol II",
+        "qty": 3
+      },
+      {
+        "material": "Rey Dau Certificate Gamma",
+        "qty": 3
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Defense Boost skill."
   },
@@ -661,7 +1076,24 @@
         "effectEs": "Al activarse, reduce el daño recibido un 15 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Chatacabra Scale",
+        "qty": 2
+      },
+      {
+        "material": "Quematrice Scale",
+        "qty": 1
+      },
+      {
+        "material": "Lala Barina Mucus",
+        "qty": 1
+      },
+      {
+        "material": "Earth Crystal",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Divine Blessing skill."
   },
@@ -679,7 +1111,24 @@
         "effectEs": "Al activarse, reduce el daño recibido un 30 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hirabami Hide",
+        "qty": 1
+      },
+      {
+        "material": "Hirabami Webbing",
+        "qty": 1
+      },
+      {
+        "material": "Uth Duna Tentacle",
+        "qty": 2
+      },
+      {
+        "material": "Dragonite Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Divine Blessing skill."
   },
@@ -697,7 +1146,16 @@
         "effectEs": "Al activarse, reduce el daño recibido un 50 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Novacrystal",
+        "qty": 1
+      },
+      {
+        "material": "Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Divine Blessing skill."
   },
@@ -715,7 +1173,24 @@
         "effectEs": "Aumenta ligeramente la recuperación."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Lala Barina Floret",
+        "qty": 2
+      },
+      {
+        "material": "Lala Barina Mucus",
+        "qty": 1
+      },
+      {
+        "material": "Congalala Pelt",
+        "qty": 1
+      },
+      {
+        "material": "Sturdy Bone",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Recovery Up skill."
   },
@@ -733,7 +1208,24 @@
         "effectEs": "Aumenta moderadamente la recuperación."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nerscylla Claw",
+        "qty": 2
+      },
+      {
+        "material": "Nerscylla Chelicera",
+        "qty": 1
+      },
+      {
+        "material": "Spotted Poison Hide",
+        "qty": 1
+      },
+      {
+        "material": "Charred Oilbone",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Recovery Up skill."
   },
@@ -751,7 +1243,16 @@
         "effectEs": "Aumenta mucho la recuperación."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Giant Beak",
+        "qty": 3
+      },
+      {
+        "material": "Bird Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Recovery Up skill."
   },
@@ -769,7 +1270,24 @@
         "effectEs": "Duplica la velocidad a la que se cura el daño recuperable."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Doshaguma Hide",
+        "qty": 2
+      },
+      {
+        "material": "Doshaguma Fang",
+        "qty": 1
+      },
+      {
+        "material": "Chatacabra Hide",
+        "qty": 1
+      },
+      {
+        "material": "Brute Bone",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Recovery Speed skill."
   },
@@ -787,7 +1305,24 @@
         "effectEs": "Triplica la velocidad a la que se cura el daño recuperable."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hirabami Hide",
+        "qty": 2
+      },
+      {
+        "material": "Hirabami Webbing",
+        "qty": 1
+      },
+      {
+        "material": "Lala Barina Certificate",
+        "qty": 1
+      },
+      {
+        "material": "Frozen Icebone",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Recovery Speed skill."
   },
@@ -805,7 +1340,20 @@
         "effectEs": "Cuadruplica la velocidad a la que se cura el daño recuperable."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Gypceros Wing",
+        "qty": 4
+      },
+      {
+        "material": "Gypceros Tail",
+        "qty": 1
+      },
+      {
+        "material": "Dragonbone Relic",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Recovery Speed skill."
   },
@@ -877,7 +1425,24 @@
         "effectEs": "Reduce el efecto de los rugidos más débiles."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rathalos Carapace",
+        "qty": 6
+      },
+      {
+        "material": "Rathalos Wing",
+        "qty": 4
+      },
+      {
+        "material": "Kut-Ku Ear",
+        "qty": 2
+      },
+      {
+        "material": "Rathalos Ruby",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Earplugs skill."
   },
@@ -913,7 +1478,24 @@
         "effectEs": "Anula las ráfagas de viento menores y reduce a la mitad el efecto de las ráfagas de viento mayores."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Doshaguma Hide",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Doshaguma Fang",
+        "qty": 1
+      },
+      {
+        "material": "Congalala Pelt",
+        "qty": 1
+      },
+      {
+        "material": "Dragonite Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Windproof skill."
   },
@@ -931,7 +1513,24 @@
         "effectEs": "Anula las ráfagas de viento menores y mayores y reduce a la mitad el efecto de las ráfagas de draco."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Kut-Ku Carapace",
+        "qty": 6
+      },
+      {
+        "material": "Kut-Ku Wing",
+        "qty": 4
+      },
+      {
+        "material": "Giant Beak",
+        "qty": 2
+      },
+      {
+        "material": "Bird Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Windproof skill."
   },
@@ -949,7 +1548,20 @@
         "effectEs": "Anula todos los tipos de ráfagas de viento."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Rathalos Carapace",
+        "qty": 6
+      },
+      {
+        "material": "Guardian Rathalos Wing",
+        "qty": 4
+      },
+      {
+        "material": "Rathian Ruby",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Windproof skill."
   },
@@ -967,7 +1579,24 @@
         "effectEs": "Anula temblores de tierra muy menores y reduce el efecto de los temblores menores a la mitad."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Ajarakan Shell",
+        "qty": 2
+      },
+      {
+        "material": "Ajarakan Ridge",
+        "qty": 1
+      },
+      {
+        "material": "Congalala Claw",
+        "qty": 1
+      },
+      {
+        "material": "Dragonite Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Tremor Resistance skill."
   },
@@ -985,7 +1614,20 @@
         "effectEs": "Anula los temblores de tierra menores y reduce mucho el efecto de los temblores de tierra mayores."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Balahara Carapace",
+        "qty": 4
+      },
+      {
+        "material": "Chatacabra Carapace",
+        "qty": 4
+      },
+      {
+        "material": "Carbalite Ore",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Tremor Resistance skill."
   },
@@ -1003,7 +1645,12 @@
         "effectEs": "Anula todos los temblores de tierra."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Stone",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Tremor Resistance skill."
   },
@@ -1021,7 +1668,24 @@
         "effectEs": "Alarga muy ligeramente el momento de invulnerabilidad al evadir."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hirabami Scale",
+        "qty": 2
+      },
+      {
+        "material": "Hirabami Tail Claw",
+        "qty": 1
+      },
+      {
+        "material": "Doshaguma Claw",
+        "qty": 1
+      },
+      {
+        "material": "Icium",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Evade Window skill."
   },
@@ -1039,7 +1703,12 @@
         "effectEs": "Alarga ligeramente el momento de invulnerabilidad al evadir."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Stone",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Evade Window skill."
   },
@@ -1057,7 +1726,16 @@
         "effectEs": "Alarga el momento de invulnerabilidad al hacer una evasión."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rathalos Wing",
+        "qty": 4
+      },
+      {
+        "material": "Rathalos Ruby",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Evade Window skill."
   },
@@ -1075,7 +1753,16 @@
         "effectEs": "Alarga mucho el momento de invulnerabilidad al hacer una evasión."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 5
+      },
+      {
+        "material": "Mizutsune Water Orb",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Evade Window skill."
   },
@@ -1093,7 +1780,24 @@
         "effectEs": "Aumenta ligeramente la distancia a la que evades."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Balahara Shell",
+        "qty": 2
+      },
+      {
+        "material": "Balahara Skull",
+        "qty": 1
+      },
+      {
+        "material": "Nerscylla Claw",
+        "qty": 1
+      },
+      {
+        "material": "Dragonite Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Evade Extender skill."
   },
@@ -1111,7 +1815,16 @@
         "effectEs": "Aumenta la distancia a la que evades."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Balahara Carapace",
+        "qty": 6
+      },
+      {
+        "material": "Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Evade Extender skill."
   },
@@ -1129,7 +1842,20 @@
         "effectEs": "Aumenta mucho la distancia a la que evades."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rathalos Carapace",
+        "qty": 6
+      },
+      {
+        "material": "Rathalos Wing",
+        "qty": 4
+      },
+      {
+        "material": "Rathalos Ruby",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Evade Extender skill."
   },
@@ -1147,7 +1873,12 @@
         "effectEs": "Antifuego +6"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Iron Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Fire Resistance skill."
   },
@@ -1165,7 +1896,12 @@
         "effectEs": "Antifuego +12"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Stone",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Fire Resistance skill."
   },
@@ -1183,7 +1919,12 @@
         "effectEs": "Antifuego +20 Defensa +10"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Stone",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Fire Resistance skill."
   },
@@ -1201,7 +1942,20 @@
         "effectEs": "Antiagua +6"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Balahara Scale",
+        "qty": 2
+      },
+      {
+        "material": "Balahara Skull",
+        "qty": 1
+      },
+      {
+        "material": "Earth Crystal",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Water Resistance skill."
   },
@@ -1219,7 +1973,24 @@
         "effectEs": "Antiagua +12"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Uth Duna Scale",
+        "qty": 2
+      },
+      {
+        "material": "Uth Duna Cilia",
+        "qty": 1
+      },
+      {
+        "material": "Piragill Fin",
+        "qty": 2
+      },
+      {
+        "material": "Icium",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Water Resistance skill."
   },
@@ -1237,7 +2008,12 @@
         "effectEs": "Antiagua +20 Defensa +10"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Gracium",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Water Resistance skill."
   },
@@ -1255,7 +2031,20 @@
         "effectEs": "Antirrayo +6"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rompopolo Hide",
+        "qty": 2
+      },
+      {
+        "material": "Spotted Poison Hide",
+        "qty": 1
+      },
+      {
+        "material": "Earth Crystal",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Thunder Resistance skill."
   },
@@ -1273,7 +2062,24 @@
         "effectEs": "Antirrayo +12"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Scale",
+        "qty": 2
+      },
+      {
+        "material": "Rey Dau Wingtalon",
+        "qty": 1
+      },
+      {
+        "material": "Bulaqchi Shell",
+        "qty": 2
+      },
+      {
+        "material": "Machalite Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Thunder Resistance skill."
   },
@@ -1291,7 +2097,12 @@
         "effectEs": "Antirrayo +20 Defensa +10"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Lightcrystal",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Thunder Resistance skill."
   },
@@ -1309,7 +2120,20 @@
         "effectEs": "Antihielo +6"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Congalala Pelt",
+        "qty": 2
+      },
+      {
+        "material": "Congalala Fang",
+        "qty": 1
+      },
+      {
+        "material": "Earth Crystal",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Ice Resistance skill."
   },
@@ -1327,7 +2151,24 @@
         "effectEs": "Antihielo +12"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hirabami Scale",
+        "qty": 2
+      },
+      {
+        "material": "Hirabami Webbing",
+        "qty": 1
+      },
+      {
+        "material": "Comaqchi Shell",
+        "qty": 2
+      },
+      {
+        "material": "Icium",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Ice Resistance skill."
   },
@@ -1345,7 +2186,12 @@
         "effectEs": "Antihielo +20 Defensa +10"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Gracium",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Ice Resistance skill."
   },
@@ -1363,7 +2209,20 @@
         "effectEs": "Antidraco +6"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Lala Barina Shell",
+        "qty": 2
+      },
+      {
+        "material": "Lala Barina Mucus",
+        "qty": 1
+      },
+      {
+        "material": "Earth Crystal",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Dragon Resistance skill."
   },
@@ -1381,7 +2240,12 @@
         "effectEs": "Antidraco +12"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Stone",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Dragon Resistance skill."
   },
@@ -1399,7 +2263,24 @@
         "effectEs": "Antidraco +20 Defensa +10"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nerscylla Carapace",
+        "qty": 4
+      },
+      {
+        "material": "Nerscylla Shear",
+        "qty": 2
+      },
+      {
+        "material": "Vespoid Carapace",
+        "qty": 2
+      },
+      {
+        "material": "Novacrystal",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Dragon Resistance skill."
   },
@@ -1435,7 +2316,20 @@
         "effectEs": "Reduce la duración de todas las plagas elementales un 75 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "White Arkveld Pelt",
+        "qty": 4
+      },
+      {
+        "material": "Novacrystal",
+        "qty": 1
+      },
+      {
+        "material": "Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Blight Resistance skill."
   },
@@ -1453,7 +2347,20 @@
         "effectEs": "Anula todas las plagas elementales."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nu Udra Flamegem",
+        "qty": 1
+      },
+      {
+        "material": "Gogmazios Certificate S",
+        "qty": 1
+      },
+      {
+        "material": "Gogmazios Fortalice",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Blight Resistance skill."
   },
@@ -1471,7 +2378,20 @@
         "effectEs": "Reduce la cantidad de veces que sufres daño por veneno."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rompopolo Claw",
+        "qty": 2
+      },
+      {
+        "material": "Rompopolo Beak",
+        "qty": 1
+      },
+      {
+        "material": "Monster Fluid",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Poison Resistance skill."
   },
@@ -1489,7 +2409,24 @@
         "effectEs": "Reduce mucho la cantidad de veces que sufres daño por veneno."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nerscylla Shell",
+        "qty": 2
+      },
+      {
+        "material": "Nerscylla Spike",
+        "qty": 1
+      },
+      {
+        "material": "Bulaqchi Shell",
+        "qty": 2
+      },
+      {
+        "material": "Sturdy Bone",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Poison Resistance skill."
   },
@@ -1507,7 +2444,20 @@
         "effectEs": "Previene el veneno."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Kut-Ku Carapace",
+        "qty": 3
+      },
+      {
+        "material": "Vespoid Carapace",
+        "qty": 3
+      },
+      {
+        "material": "Quality Bone",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Poison Resistance skill."
   },
@@ -1525,7 +2475,20 @@
         "effectEs": "Reduce la duración de la parálisis un 30 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Lala Barina Floret",
+        "qty": 2
+      },
+      {
+        "material": "Lala Barina Mucus",
+        "qty": 1
+      },
+      {
+        "material": "Vespoid Shell",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Paralysis Resistance skill."
   },
@@ -1543,7 +2506,24 @@
         "effectEs": "Reduce la duración de la parálisis un 60 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nerscylla Claw",
+        "qty": 2
+      },
+      {
+        "material": "Lala Barina Shell",
+        "qty": 1
+      },
+      {
+        "material": "Vespoid Wing",
+        "qty": 2
+      },
+      {
+        "material": "Charred Oilbone",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Paralysis Resistance skill."
   },
@@ -1561,7 +2541,16 @@
         "effectEs": "Previene la parálisis."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Vespoid Carapace",
+        "qty": 3
+      },
+      {
+        "material": "Colossal Bone",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Paralysis Resistance skill."
   },
@@ -1579,7 +2568,20 @@
         "effectEs": "Reduce la duración del sueño un 30 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Congalala Claw",
+        "qty": 2
+      },
+      {
+        "material": "Congalala Pelt",
+        "qty": 1
+      },
+      {
+        "material": "Bulaqchi Shell",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Sleep Resistance skill."
   },
@@ -1597,7 +2599,24 @@
         "effectEs": "Reduce la duración del sueño un 60 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nerscylla Claw",
+        "qty": 3
+      },
+      {
+        "material": "Nerscylla Chelicera",
+        "qty": 2
+      },
+      {
+        "material": "Comaqchi Shell",
+        "qty": 3
+      },
+      {
+        "material": "Frozen Icebone",
+        "qty": 3
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Sleep Resistance skill."
   },
@@ -1615,7 +2634,20 @@
         "effectEs": "Previene el sueño."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nerscylla Shear",
+        "qty": 2
+      },
+      {
+        "material": "Comaqchi Carapace",
+        "qty": 3
+      },
+      {
+        "material": "Quality Bone",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Sleep Resistance skill."
   },
@@ -1633,7 +2665,20 @@
         "effectEs": "Reduce la duración del aturdimiento un 30 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Balahara Skull",
+        "qty": 2
+      },
+      {
+        "material": "Balahara Shell",
+        "qty": 1
+      },
+      {
+        "material": "Talioth Scale",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Stun Resistance skill."
   },
@@ -1651,7 +2696,24 @@
         "effectEs": "Reduce la duración del aturdimiento un 60 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Ajarakan Ridge",
+        "qty": 2
+      },
+      {
+        "material": "Ajarakan Shell",
+        "qty": 2
+      },
+      {
+        "material": "Kranodath Skull",
+        "qty": 2
+      },
+      {
+        "material": "Sturdy Bone",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Stun Resistance skill."
   },
@@ -1669,7 +2731,16 @@
         "effectEs": "Previene el aturdimiento."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Balahara Carapace",
+        "qty": 3
+      },
+      {
+        "material": "Dragonbone Relic",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Stun Resistance skill."
   },
@@ -1687,7 +2758,20 @@
         "effectEs": "Ralentiza la plaga de nitro y reduce el daño por explosión."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Quematrice Hide",
+        "qty": 2
+      },
+      {
+        "material": "Quematrice Igniter",
+        "qty": 1
+      },
+      {
+        "material": "Wingdrake Hide",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Blast Resistance skill."
   },
@@ -1705,7 +2789,12 @@
         "effectEs": "Ralentiza mucho la plaga de nitro y reduce mucho el daño por explosión."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Stone",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Blast Resistance skill."
   },
@@ -1723,7 +2812,12 @@
         "effectEs": "Previene la plaga de nitro."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Stone",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Blast Resistance skill."
   },
@@ -1741,7 +2835,20 @@
         "effectEs": "Cada vez que extraes hierbas consigues una adicional."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Congalala Claw",
+        "qty": 2
+      },
+      {
+        "material": "Congalala Fang",
+        "qty": 1
+      },
+      {
+        "material": "Conga Pelt",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Botanist skill."
   },
@@ -1759,7 +2866,24 @@
         "effectEs": "Cada vez que extraes frutas, nueces o semillas consigues una extra adicional."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nerscylla Claw",
+        "qty": 2
+      },
+      {
+        "material": "Congalala Pelt",
+        "qty": 1
+      },
+      {
+        "material": "Herbivore Shell",
+        "qty": 2
+      },
+      {
+        "material": "Brute Bone",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Botanist skill."
   },
@@ -1777,7 +2901,12 @@
         "effectEs": "Cada vez que extraes insectos consigues uno extra adicional."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Rathalos Scale",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Botanist skill."
   },
@@ -1795,7 +2924,12 @@
         "effectEs": "Cada vez que extraes hongos consigues uno extra adicional."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Dragonbone Relic",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Botanist skill."
   },
@@ -1813,7 +2947,20 @@
         "effectEs": "Permite conseguir un recurso adicional de pilas de huesos."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Balahara Scale",
+        "qty": 2
+      },
+      {
+        "material": "Balahara Shell",
+        "qty": 1
+      },
+      {
+        "material": "Sturdy Bone",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Geologist skill."
   },
@@ -1831,7 +2978,24 @@
         "effectEs": "Añade un objeto extra al recolectar objetos especiales."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rompopolo Claw",
+        "qty": 2
+      },
+      {
+        "material": "Rompopolo Beak",
+        "qty": 2
+      },
+      {
+        "material": "Machalite Ore",
+        "qty": 2
+      },
+      {
+        "material": "Dragonite Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Geologist skill."
   },
@@ -1849,7 +3013,16 @@
         "effectEs": "Añade un objeto extra al recolectar en afloramientos mineros."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Novacrystal",
+        "qty": 1
+      },
+      {
+        "material": "Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Geologist skill."
   },
@@ -1867,7 +3040,16 @@
         "effectEs": "Aumenta el daño en partes y el daño infligido cuando se cumplan las condiciones en un 10 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Chatacabra Carapace",
+        "qty": 4
+      },
+      {
+        "material": "Beast Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Partbreaker skill."
   },
@@ -1885,7 +3067,16 @@
         "effectEs": "Aumenta el daño en partes y el daño infligido cuando se cumplan las condiciones en un 20 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Bolthorn",
+        "qty": 3
+      },
+      {
+        "material": "Ajarakan Medulla",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Partbreaker skill."
   },
@@ -1903,7 +3094,20 @@
         "effectEs": "Aumenta el daño en partes y el daño infligido cuando se cumplan las condiciones en un 30 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Wyvern Gem",
+        "qty": 1
+      },
+      {
+        "material": "Heavy Drakesbone Oil",
+        "qty": 8
+      },
+      {
+        "material": "Gogmazios Lacerator",
+        "qty": 3
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Partbreaker skill."
   },
@@ -1921,7 +3125,12 @@
         "effectEs": "Poder explosivo +10 %"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Stone",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Bombardier skill."
   },
@@ -1939,7 +3148,12 @@
         "effectEs": "Poder explosivo + 20%"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Stone",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Bombardier skill."
   },
@@ -1957,7 +3171,16 @@
         "effectEs": "Poder explosivo +30 %"
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Inferno Sac",
+        "qty": 2
+      },
+      {
+        "material": "Beast Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Bombardier skill."
   },
@@ -1975,7 +3198,24 @@
         "effectEs": "Permite digerir hongos azules y champiñones."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nerscylla Chelicera",
+        "qty": 1
+      },
+      {
+        "material": "Congalala Claw",
+        "qty": 2
+      },
+      {
+        "material": "Conga Pelt",
+        "qty": 1
+      },
+      {
+        "material": "Charred Oilbone",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Mushroomancer skill."
   },
@@ -1993,7 +3233,12 @@
         "effectEs": "Adicionalmente, permite digerir nitrohongos y paralifungos."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Beast Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Mushroomancer skill."
   },
@@ -2011,7 +3256,24 @@
         "effectEs": "Adicionalmente, te permite digerir mandrágoras, mancha del diablo y hongos excitantes."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 5
+      },
+      {
+        "material": "Hunter Symbol II",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Fulgur Gem",
+        "qty": 1
+      },
+      {
+        "material": "Uth Duna Watergem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Mushroomancer skill."
   },
@@ -2029,7 +3291,12 @@
         "effectEs": "Duración del efecto de objetos +10 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Iron Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Item Prolonger skill."
   },
@@ -2047,7 +3314,24 @@
         "effectEs": "Duración del efecto de objetos +25 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Spotted Poison Hide",
+        "qty": 2
+      },
+      {
+        "material": "Doshaguma Hide",
+        "qty": 1
+      },
+      {
+        "material": "Bulaqchi Shell",
+        "qty": 2
+      },
+      {
+        "material": "Dragonite Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Item Prolonger skill."
   },
@@ -2065,7 +3349,12 @@
         "effectEs": "Duración del efecto de objetos +50 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Novacrystal",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Item Prolonger skill."
   },
@@ -2083,7 +3372,24 @@
         "effectEs": "Los objetos afectan a los aliados cercanos con un 33 % de eficacia."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rompopolo Hide",
+        "qty": 2
+      },
+      {
+        "material": "Spotted Poison Hide",
+        "qty": 1
+      },
+      {
+        "material": "Wingdrake Hide",
+        "qty": 1
+      },
+      {
+        "material": "Earth Crystal",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Wide- Range skill."
   },
@@ -2101,7 +3407,24 @@
         "effectEs": "Los objetos afectan a los aliados en un mayor radio con un 33 % de eficacia."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hirabami Hide",
+        "qty": 2
+      },
+      {
+        "material": "Hirabami Tail Claw",
+        "qty": 1
+      },
+      {
+        "material": "Herbivore Shell",
+        "qty": 2
+      },
+      {
+        "material": "Machalite Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Wide- Range skill."
   },
@@ -2119,7 +3442,12 @@
         "effectEs": "Los objetos afectan a los aliados en un mayor radio con un 66 % de eficacia."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Rathalos Scale",
+        "qty": 3
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Wide- Range skill."
   },
@@ -2137,7 +3465,12 @@
         "effectEs": "Los objetos afectan a los aliados en un radio mucho más amplio con un 66 % de eficacia."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Wide- Range skill."
   },
@@ -2155,7 +3488,12 @@
         "effectEs": "Los objetos afectan a los aliados en un radio mucho más amplio con total eficacia."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Lagiacrus Shockspike",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Wide- Range skill."
   },
@@ -2227,7 +3565,24 @@
         "effectEs": "Defensa +50 mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Doshaguma Fur",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Doshaguma Claw",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Seikret Feather",
+        "qty": 2
+      },
+      {
+        "material": "Dragonite Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Heroics skill."
   },
@@ -2245,7 +3600,12 @@
         "effectEs": "Ataque +5 % y defensa +50 mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Stone",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Heroics skill."
   },
@@ -2263,7 +3623,20 @@
         "effectEs": "Ataque +5 % y defensa +100 mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Bolthorn",
+        "qty": 3
+      },
+      {
+        "material": "Xu Wu Umbragem",
+        "qty": 1
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 3
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Heroics skill."
   },
@@ -2281,7 +3654,24 @@
         "effectEs": "Ataque +10 % y defensa +100 mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Seregios Airblade",
+        "qty": 6
+      },
+      {
+        "material": "Seregios Breacher",
+        "qty": 3
+      },
+      {
+        "material": "Seregios Dissenter",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Boltgem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Heroics skill."
   },
@@ -2299,7 +3689,12 @@
         "effectEs": "Previene los derribos."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Iron Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Flinch Free skill."
   },
@@ -2317,7 +3712,24 @@
         "effectEs": "Previene los derribos. Los empujes hacia atrás se sustituyen por derribos."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Rathalos Shell",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Rathalos Webbing",
+        "qty": 1
+      },
+      {
+        "material": "Piragill Fin",
+        "qty": 2
+      },
+      {
+        "material": "Machalite Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Flinch Free skill."
   },
@@ -2335,7 +3747,12 @@
         "effectEs": "Previene ser derribado o empujado hacia atrás."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Dragonbone Relic",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Flinch Free skill."
   },
@@ -2353,7 +3770,20 @@
         "effectEs": "Prolonga un 50 % el tiempo que tarda la barra de resistencia en reducirse."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Balahara Scale",
+        "qty": 2
+      },
+      {
+        "material": "Balahara Tail",
+        "qty": 1
+      },
+      {
+        "material": "Sharp Fang",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Hunger Resistance skill."
   },
@@ -2371,7 +3801,24 @@
         "effectEs": "Prolonga un 100 % el tiempo que tarda la barra de resistencia en reducirse."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hirabami Scale",
+        "qty": 2
+      },
+      {
+        "material": "Hirabami Webbing",
+        "qty": 1
+      },
+      {
+        "material": "Talioth Scale",
+        "qty": 2
+      },
+      {
+        "material": "Frozen Icebone",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Hunger Resistance skill."
   },
@@ -2389,7 +3836,16 @@
         "effectEs": "Previene que tu barra de resistencia se reduzca."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Chatacabra Carapace",
+        "qty": 2
+      },
+      {
+        "material": "Dragonbone Relic",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Hunger Resistance skill."
   },
@@ -2407,7 +3863,20 @@
         "effectEs": "Ataque +10 mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rathian Webbing",
+        "qty": 3
+      },
+      {
+        "material": "Gypceros Head",
+        "qty": 3
+      },
+      {
+        "material": "Bird Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Counterstrike skill."
   },
@@ -2425,7 +3894,16 @@
         "effectEs": "Ataque +15 mientras esté activo. Extiende moderadamente el tiempo de efecto."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Blangonga Whisker",
+        "qty": 3
+      },
+      {
+        "material": "Beast Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Counterstrike skill."
   },
@@ -2443,7 +3921,20 @@
         "effectEs": "Ataque +25 mientras esté activo. Extiende el tiempo de efecto."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Rathalos Wing",
+        "qty": 4
+      },
+      {
+        "material": "Rathalos Ruby",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Counterstrike skill."
   },
@@ -2461,7 +3952,24 @@
         "effectEs": "Ataque +6 contra monstruos grandes afectados por veneno o parálisis."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Spotted Poison Hide",
+        "qty": 2
+      },
+      {
+        "material": "Lala Barina Floret",
+        "qty": 1
+      },
+      {
+        "material": "Vespoid Wing",
+        "qty": 2
+      },
+      {
+        "material": "Earth Crystal",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Foray skill."
   },
@@ -2479,7 +3987,16 @@
         "effectEs": "Ataque +8 y afinidad +5 % contra monstruos grandes afectados por veneno o parálisis."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol II",
+        "qty": 3
+      },
+      {
+        "material": "Rathian Ruby",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Foray skill."
   },
@@ -2515,7 +4032,16 @@
         "effectEs": "Mientras está activo, aumenta ligeramente el ataque elemental y los efectos de estado."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Rathalos Wing",
+        "qty": 4
+      },
+      {
+        "material": "Beast Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Coalescence skill."
   },
@@ -2533,7 +4059,12 @@
         "effectEs": "Mientras está activo, aumenta el ataque elemental y los efectos de estado."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Gore Magala Nyctgem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Coalescence skill."
   },
@@ -2551,7 +4082,20 @@
         "effectEs": "Mientras está activo, aumenta mucho el ataque elemental y los efectos de estado."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Jin Dahaad Horn",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Icegem",
+        "qty": 1
+      },
+      {
+        "material": "Jin Dahaad Iceplate",
+        "qty": 6
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Coalescence skill."
   },
@@ -2569,7 +4113,16 @@
         "effectEs": "El primer golpe otorga un ligero aumento temporal de ataque y elemento, y otorga uno mayor luego de 5 impactos."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nerscylla Shear",
+        "qty": 3
+      },
+      {
+        "material": "Beast Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Burst skill."
   },
@@ -2587,7 +4140,24 @@
         "effectEs": "Golpea 5 veces seguidas para bonus moderado."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 5
+      },
+      {
+        "material": "Hunter Symbol II",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Ebony Gem",
+        "qty": 1
+      },
+      {
+        "material": "Nu Udra Flamegem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Burst skill."
   },
@@ -2623,7 +4193,12 @@
         "effectEs": "Ataque +10 mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Wyvern Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Adrenaline Rush skill."
   },
@@ -2641,7 +4216,24 @@
         "effectEs": "Ataque +15 mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 5
+      },
+      {
+        "material": "Hunter Symbol II",
+        "qty": 3
+      },
+      {
+        "material": "Rathalos Ruby",
+        "qty": 1
+      },
+      {
+        "material": "Gore Magala Nyctgem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Adrenaline Rush skill."
   },
@@ -2659,7 +4251,20 @@
         "effectEs": "Ataque +20 mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Seregios Carver",
+        "qty": 4
+      },
+      {
+        "material": "Seregios Impaler",
+        "qty": 2
+      },
+      {
+        "material": "Arkveld Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Adrenaline Rush skill."
   },
@@ -2677,7 +4282,12 @@
         "effectEs": "Ataque +5 % mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Stone",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Ambush skill."
   },
@@ -2695,7 +4305,12 @@
         "effectEs": "Ataque +10 % mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Xu Wu Umbragem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Ambush skill."
   },
@@ -2713,7 +4328,16 @@
         "effectEs": "Ataque +15 % mientras esté activo."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nu Udra Flamegem",
+        "qty": 1
+      },
+      {
+        "material": "Nu Udra Certificate Gamma",
+        "qty": 3
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Ambush skill."
   },
@@ -2731,7 +4355,12 @@
         "effectEs": "Reduce el daño recibido por el sangrado."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Iron Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Bleeding Resistance skill."
   },
@@ -2749,7 +4378,12 @@
         "effectEs": "Reduce mucho el daño recibido por el sangrado."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Carbalite Ore",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Bleeding Resistance skill."
   },
@@ -2767,7 +4401,12 @@
         "effectEs": "Previene el sangrado."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Beast Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Bleeding Resistance skill."
   },
@@ -2785,7 +4424,12 @@
         "effectEs": "Reduce la duración de defensa reducida un 50 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Iron Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Iron Skin skill."
   },
@@ -2803,7 +4447,12 @@
         "effectEs": "Reduce la duración de defensa reducida un 75 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Carbalite Ore",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Iron Skin skill."
   },
@@ -2821,7 +4470,12 @@
         "effectEs": "Previene la defensa reducida."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Beast Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Iron Skin skill."
   },
@@ -2839,7 +4493,20 @@
         "effectEs": "Restablece 50 de salud."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Lala Barina Floret",
+        "qty": 2
+      },
+      {
+        "material": "Lala Barina Shell",
+        "qty": 1
+      },
+      {
+        "material": "Vespoid Shell",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Survival Expert skill."
   },
@@ -2857,7 +4524,20 @@
         "effectEs": "Restablece 80 de salud."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Lala Barina Carapace",
+        "qty": 3
+      },
+      {
+        "material": "Herbivore Carapace",
+        "qty": 4
+      },
+      {
+        "material": "Carbalite Ore",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Survival Expert skill."
   },
@@ -2875,7 +4555,16 @@
         "effectEs": "Restablece 100 de salud."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Vespoid Innerwing",
+        "qty": 3
+      },
+      {
+        "material": "Dragonbone Relic",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Survival Expert skill."
   },
@@ -2893,7 +4582,24 @@
         "effectEs": "Reduce el tiempo de recarga en un 10 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Uth Duna Scale",
+        "qty": 2
+      },
+      {
+        "material": "Uth Duna Cilia",
+        "qty": 1
+      },
+      {
+        "material": "Piragill Fin",
+        "qty": 2
+      },
+      {
+        "material": "Machalite Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Tool Specialist skill."
   },
@@ -2911,7 +4617,20 @@
         "effectEs": "Reduce el tiempo de recarga en un 20 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Gravios Carapace",
+        "qty": 6
+      },
+      {
+        "material": "Gravios Skull",
+        "qty": 3
+      },
+      {
+        "material": "Gravios Medulla",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Tool Specialist skill."
   },
@@ -2929,7 +4648,16 @@
         "effectEs": "Reduce el tiempo de recarga en un 30 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 3
+      },
+      {
+        "material": "Uth Duna Watergem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Tool Specialist skill."
   },
@@ -2947,7 +4675,12 @@
         "effectEs": "Disuade a los monstruos de atacarte, incluso si te vieron."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Iron Ore",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Intimidator skill."
   },
@@ -2965,7 +4698,20 @@
         "effectEs": "Disuade mucho a los monstruos de atacarte, incluso si te vieron."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rathian Webbing",
+        "qty": 3
+      },
+      {
+        "material": "Monster Broth",
+        "qty": 3
+      },
+      {
+        "material": "Carbalite Ore",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Intimidator skill."
   },
@@ -2983,7 +4729,12 @@
         "effectEs": "Evita que los monstruos te ataquen, incluso si te vieron."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Stone",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Intimidator skill."
   },
@@ -3001,7 +4752,24 @@
         "effectEs": "Permite que te recuperes rápidamente del estado enmarañado y la plaga de escarcha."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nerscylla Shell",
+        "qty": 2
+      },
+      {
+        "material": "Nerscylla Claw",
+        "qty": 1
+      },
+      {
+        "material": "Vespoid Shell",
+        "qty": 1
+      },
+      {
+        "material": "Earth Crystal",
+        "qty": 2
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Bind Resistance skill."
   },
@@ -3019,7 +4787,12 @@
         "effectEs": "Permite que te recuperes muy rápidamente del estado enmarañado y la plaga de escarcha."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Carbalite Ore",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Bind Resistance skill."
   },
@@ -3037,7 +4810,16 @@
         "effectEs": "Previene el estado enmarañado y la plaga de escarcha."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Jin Dahaad Iceplate",
+        "qty": 4
+      },
+      {
+        "material": "Freezer Sac",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Bind Resistance skill."
   },
@@ -3055,7 +4837,24 @@
         "effectEs": "Hace que sea ligeramente más fácil infligir heridas. También inflige daño no elemental adicional."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Blood",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Scale",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Pelt",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Seikret Feather",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Flayer skill."
   },
@@ -3073,7 +4872,24 @@
         "effectEs": "Hace que sea moderadamente más fácil infligir heridas. También inflige un poco más daño no elemental adicional."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 5
+      },
+      {
+        "material": "Arkveld Armorplate",
+        "qty": 5
+      },
+      {
+        "material": "Arkveld Calloushell",
+        "qty": 3
+      },
+      {
+        "material": "Arkveld Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Flayer skill."
   },
@@ -3091,7 +4907,24 @@
         "effectEs": "Mientras está activa, aumenta ligeramente el ATQ elemental y la resistencia al elemento activador por 4."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 5
+      },
+      {
+        "material": "White Arkveld Pelt",
+        "qty": 4
+      },
+      {
+        "material": "Arkveld Tail",
+        "qty": 2
+      },
+      {
+        "material": "Arkveld Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Elemental Absorption skill."
   },
@@ -3109,7 +4942,12 @@
         "effectEs": "Mientras está activa, aumenta ligeramente el ATQ elemental y la resistencia al elemento activador por 6."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Lagiacrus Shockspike",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Elemental Absorption skill."
   },
@@ -3127,7 +4965,16 @@
         "effectEs": "Mientras está activo, inflige daño draco extra tras infligir suficiente daño elemental y aumenta ligeramente el ATQ draco."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Hunter Symbol III",
+        "qty": 5
+      },
+      {
+        "material": "Arkveld Gem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Convert Element skill."
   },
@@ -3163,7 +5010,20 @@
         "effectEs": "Al contraer la cólera, sube un poco el ritmo de consumo de la barra de infección. Afinidad +3 % al curarse."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Frenzy Shard",
+        "qty": 5
+      },
+      {
+        "material": "Nerscylla Shear",
+        "qty": 2
+      },
+      {
+        "material": "Carbalite Ore",
+        "qty": 4
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Antivirus skill."
   },
@@ -3181,7 +5041,20 @@
         "effectEs": "Al contraer la cólera, sube el ritmo de consumo de la barra de infección. Afinidad +6 % al curarse."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Frenzy Crystal",
+        "qty": 5
+      },
+      {
+        "material": "Blangonga Whisker",
+        "qty": 3
+      },
+      {
+        "material": "Novacrystal",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Antivirus skill."
   },
@@ -3199,7 +5072,12 @@
         "effectEs": "Al contraer la cólera, sube mucho el consumo de la barra de infección. Afinidad +10 % al curarse."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Gore Magala Nyctgem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Antivirus skill."
   },
@@ -3235,7 +5113,12 @@
         "effectEs": "Reduce el tiempo de recarga en un 40 %."
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Jin Dahaad Icegem",
+        "qty": 1
+      }
+    ],
     "decoSlots": [],
     "description": "A charm that grants the Tool Specialist skill."
   },

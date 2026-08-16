@@ -27,7 +27,7 @@ const slug = name => name.replace(/['’]/g, "").replace(/[^a-z0-9]+/gi, "_").re
     for (const match of section.matchAll(itemPattern)) {
       const material = itemNames.find(name => norm(name) === norm(match[1]));
       if (!material || seen.has(material)) continue;
-      seen.add(material); materials.push({ material, qty: Number(match[2]) });
+      seen.add(material); materials.push({ material, qty: Number(match[match.length - 1]) });
     }
     if (materials.length) { charm.materials = materials; updated++; }
   }
