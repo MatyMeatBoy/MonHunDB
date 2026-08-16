@@ -2391,6 +2391,11 @@ function showArmorPieceDetail(id) {
   window.scrollTo(0, 0);
   const p = armorPieces.find(x => x.id === id);
   if (!p) return;
+  const parentSet = armorSets.find(set => (set.pieces || []).some(ref => ref.id === p.id));
+  const hasPieceMaterials = Array.isArray(p.materials) && p.materials.length > 0;
+  const displayedPiece = hasPieceMaterials || !parentSet?.materials?.length
+    ? p
+    : { ...p, materials: parentSet.materials };
   armorIndexEl.hidden = true;
   armorSetDetailEl.hidden = false;
   armorSetDetailEl.innerHTML = `
@@ -2408,7 +2413,8 @@ function showArmorPieceDetail(id) {
     </section>
     <section class="block">
       <h3>${ui("armorMaterialsHeading")}</h3>
-      <div class="decoration-materials-blocks">${armorPieceMaterialsHtml(p)}</div>
+      ${!hasPieceMaterials && parentSet?.materials?.length ? `<p class="material-plus-tier-note">${ui("armorSetMaterialsFallbackNote")} (${escapeXml(parentSet.name)})</p>` : ""}
+      <div class="decoration-materials-blocks">${armorPieceMaterialsHtml(displayedPiece)}</div>
     </section>
   `;
   armorSetDetailEl.querySelectorAll(".gs-source-row").forEach(btn => {
