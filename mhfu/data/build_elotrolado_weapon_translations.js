@@ -31,8 +31,10 @@ for (const file of fs.readdirSync(CACHE).filter(file => file.endsWith(".html")))
     // description, so it can safely separate otherwise identical entries.
     const sharpnessHtml = segment.match(/margin-top:0px;?">([\s\S]*?)margin-bottom:-1px/i)?.[1] || "";
     const sharpness = [...sharpnessHtml.matchAll(/width:(\d+)px/gi)].map(match => Number(match[1]) / 2);
+    const slotPattern = segment.match(/<td>\s*([O-]{3})\s*<\/td>/)?.[1] || null;
+    const slots = slotPattern ? [...slotPattern].filter(slot => slot === "O").length : null;
     if (!nameEs || !attack || nameEs === "dummy") continue;
-    records.push({ file, type, nameEs, attack, element, affinity, defense, sharpness });
+    records.push({ file, type, nameEs, attack, element, affinity, defense, sharpness, slots });
   }
 }
 const translations = {}, ambiguous = [], unmatched = [];
@@ -56,6 +58,10 @@ for (const record of records) {
       w.sharpness.every((value, index) => Number(value) === record.sharpness[index])
     );
     if (sharpnessMatches.length) candidates = sharpnessMatches;
+  }
+  if (candidates.length > 1 && record.slots !== null) {
+    const slotMatches = candidates.filter(w => (w.decoSlots || []).length === record.slots);
+    if (slotMatches.length) candidates = slotMatches;
   }
   if (candidates.length === 1) {
     const [weapon] = candidates;

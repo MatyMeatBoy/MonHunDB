@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-16T06:09:35.213Z",
+  "generatedAt": "2026-08-16T06:10:07.123Z",
   "source": "https://www.elotrolado.net/wiki/Especial:Buscar?fulltext=Search&search=Monster+Hunter+Freedom+Unite",
-  "matchedWeapons": 1123,
+  "matchedWeapons": 1164,
   "translations": {
     "TarnishdGreatSwd G": "G.Esp.Deslustrada G",
     "Ravager Blade G": "Hoja devastadora G",
@@ -9,6 +9,7 @@
     "Sentinel G": "Centinela G",
     "Red Stripe G": "Raya roja G",
     "GoldnSerpentblade G": "Hoja serp. oro G",
+    "Great Serpentblade G": "Gran hoja serp. G",
     "Cat's Soul G": "Alma de gato G",
     "PoisnSerpentblade G": "Hoja serp. venen. G",
     "Great Pincer G": "Gran tenaza G",
@@ -41,6 +42,7 @@
     "Tormentor G": "Atormentadora G",
     "Crimson Scythe G": "Guadaña carmesí G",
     "Frost Ripper G": "Destrip. Helado G",
+    "Imperial Sword G": "Espada imperial G",
     "Daimyo Cutter G": "Cortador Daimyo G",
     "Blango Destructor G": "Derribador Blango G",
     "WyvernBlade\"Maple\"G": "Hoja Wyv. \"Arce\" G",
@@ -57,6 +59,7 @@
     "Growling Wyvern": "Wyvern aullador",
     "Roaring Wyvern": "Wyvern rugiente",
     "SanctionedDrillLance": "LanzaPerfAprob",
+    "Gravedigger": "Sepulturero",
     "Knight Lance": "Lanza de caballero",
     "Knight Spear": "Venablo de caballero",
     "Babel Spear": "Venablo de Babel",
@@ -147,6 +150,7 @@
     "Hard Bone Lance+": "Lanza hueso duro+",
     "Barbarian Tusk": "Colmillo bárbaro",
     "Giant Tusk": "Colmillo gigante",
+    "Brutal Tusk": "Colmillo brutal",
     "Heavy Bone Gunlance": "Lan. Pist. hueso pes",
     "Hard Bone Cannon": "Cañón hueso duro",
     "Demon Lance": "Lanza demoníaca",
@@ -170,7 +174,9 @@
     "Rising Tempest": "Tormenta creciente",
     "Bone Claw Lance": "Lanz. Garra hueso",
     "Bone Claw Lance+": "Lanz. Garra hueso+",
+    "Blade Stinger": "Hoja punzante",
     "Ceanataur Stinger": "Punzadora Ceanataur",
+    "Ceanataur Piercer": "Perforadora Cean.",
     "Carmine Stinger": "Punzadora carmín",
     "Shish Kabob Stick": "Bastón Shish Kabob",
     "Shell Claw Lance": "Lanza garra concha",
@@ -229,6 +235,7 @@
     "Daora's Regulus": "Regulus Daora",
     "Weathered Spear": "Venablo estropeado",
     "Matenro": "Matenro",
+    "Sky Scraper": "Rascacielos",
     "Teostra's Howl": "Aullido de Teostra",
     "Teostra's Roar": "Rugido de Teostra",
     "Teostra's Fire": "Fuego de Teostra",
@@ -255,6 +262,7 @@
     "AkantorNoirGunlance": "LnzaPistAkantorNg",
     "Pop Corn": "Pop Corn",
     "Large Pop Corn": "Pop Corn XL",
+    "EldrDrgnGLanceEmblem": "Alea Jacta Est",
     "UkanlosBlazeGunlance": "LanzaPistola",
     "War Hammer": "Martillo de guerra",
     "War Hammer+": "Martillo de guerra+",
@@ -354,6 +362,7 @@
     "Crow Shamisen": "Shamisen Cuervo",
     "Dynamic Hammer": "Martillo dinámico",
     "Violence Hammer": "Martillo violencia",
+    "Mysterious Jaw": "Mandíbula misteriosa",
     "Venom Monster": "Monstruo de veneno",
     "Death Venom Hammer": "Mart. ven. muerte",
     "Purple Mace": "Maza morada",
@@ -368,11 +377,13 @@
     "Blood Flute+": "Flauta de sangre +",
     "Brute Flute": "Flauta bruta",
     "Purse Bop": "Sopapo",
+    "Khezu Thunder": "Trueno Khezu",
     "Skullcrusher": "Rompecráneos",
     "Skullcrusher+": "Rompecráneos+",
     "Diablos Maul": "Derribo Diablos",
     "Finishing Hammer": "Martillo final",
     "Dragonhead Hammer": "Martillo cab. drag.",
+    "Ancient Relic": "Reliquia antigua",
     "Shell Castanet": "Castañuela concha",
     "Shell Castanet+": "Castañuela concha+",
     "Bi-Colored Castanet": "Castañuela bi-color",
@@ -388,6 +399,7 @@
     "Conehead Hammer": "Martillo cónico",
     "Conehead Hammer+": "Martillo cónico+",
     "Great Cone": "Gran cono",
+    "Desert Cone": "Cono desierto",
     "Magnitude": "Magnitud",
     "Bull Hammer": "Martillo Bull",
     "Bull Head Hammer": "Mart. cab. toro",
@@ -437,6 +449,7 @@
     "Striped Striker": "Ariete a rayas",
     "Tigrex Hammer+": "Martillo Tigrex+",
     "Hidden Breaker": "Rompedor oculto",
+    "Deep Darkhammer": "Martillo oscur. prof",
     "Black Hammer": "Martillo negro",
     "Fatalis Buster": "Vengadora Fatalis",
     "Fatalis Demolisher": "Demoledor Fatalis",
@@ -446,12 +459,14 @@
     "Dragonbreaker": "Rompedragones",
     "Dragon Demolisher": "Destructor de dragón",
     "Claw of Doom": "Garra de destino",
+    "Black Belt Hammer": "Martillo cint. negro",
     "Expert Hammer": "Martillo experto",
     "Warrior's Hammer": "Martillo guerrero",
     "Cactus Creamer": "Martillo Cactus",
     "Green Monster": "Monstruo verde",
     "Polytan": "Polytan",
     "Polytan G": "Polytan+",
+    "True Polytan G": "Polytan G",
     "Amezari Hammer": "Mart. langosta rojo",
     "Amezari Hammer+": "Mart. langosta rojo+",
     "Amezari Impact": "Coloso Amezari",
@@ -480,6 +495,10 @@
     "Hunter's Power BowIV": "Arco poder cazad. IV",
     "Icicle Bow I": "Arco carámbano I",
     "Icicle Bow II": "Arco carámbano II",
+    "Wild Bow III": "Arco salvaje III",
+    "Wild Bow IV": "Arco salvaje IV",
+    "Wild Power Bow I": "Arco poder salvaj.I",
+    "Wild Power Bow II": "Arco poder salvaj.I",
     "Blango Fur Bow I": "Arco piel Blango I",
     "Blango Fur Bow II": "Arco piel Blango II",
     "Blango Fur Bow III": "Arco piel Blango II",
@@ -491,17 +510,24 @@
     "Blue Kut-Ku Stave I": "Arco Kut-Ku azul I",
     "Blue Kut-Ku Stave II": "Arco Kut-Ku azul II",
     "BlueKut-KuStave III": "Arco Kut-Ku azul III",
+    "Wing Bow I": "Arco ala I",
+    "Wing Bow III": "Arco ala III",
     "Wing Bow IV": "Arco ala IV",
     "Defect Swordfish Bow": "Arco pez espada defc",
+    "Whole Swordfish Bow": "Arco pez espada comp",
+    "PerfectSwordfishBow": "Arco pez espada perf",
     "Daimyo's Warbow I": "Arco guerra DaimyoI",
     "Daimyo's Warbow II": "Arco guerra DaimyoII",
     "Daimyo's Warbow III": "Arco gue. DaimyoIII",
     "Daimyo's Warbow IV": "Arco guerra DaimyoIV",
     "Grt Purple Emperor I": "Gr Emperador prp I",
     "GrtPurpleEmperor II": "Gr Emperador prp II",
+    "Blue Blade Bow III": "Arco hoja azul III",
     "Showroom Model": "Modelo exposición",
     "Carmine Bow": "Arco carmín",
     "Eraser": "Eliminador",
+    "Khezu Bow II": "Arco Khezu II",
+    "Heartshot Bow III": "Arco tir. cor. III",
     "Prominence Bow I": "Arco prominencia I",
     "Prominence Bow II": "Arco prominencia II",
     "Prominence Bow III": "Arco prominencia II",
@@ -520,6 +546,7 @@
     "Dragonhead Harp III": "Arpa cab. dragón III",
     "Icy Steel Bow": "Arco acero gélido",
     "Daora's Sagittarii": "Sagitario Daora",
+    "Black Bow II": "Arco dragón Tierra",
     "Dragon Bow Mountain": "Arco dragón Mont.",
     "Dragon Bow Chaos": "Arco dragón Caos",
     "Akantor Bow": "Arco Akantor",
@@ -530,6 +557,7 @@
     "Glorious Victory I": "Victoria gloriosa I",
     "Glorious Victory II": "Victoria gloriosa II",
     "Ukanlos Bow": "Arco Ukanlos",
+    "Wild Bow G": "Arco salvaje G",
     "Blango Fur Bow G": "Arco piel Blango G",
     "Kut-Ku Stave G": "Arco Kut-Ku azul G",
     "Daimyo's Warbow G": "Arco guerra DaimyoG",
@@ -541,15 +569,18 @@
     "Deadly Poison G": "Veneno mortal G",
     "Velocidrome Bite G": "Morded. Velocid. G",
     "Poison Battleaxe G": "Hacha guerra venen.G",
+    "Thunderbane G": "Pesadilla eléctr. G",
     "Sandman Finsword G": "Espada aleta nana G",
     "Spiked Bat G": "Bate con púas G",
     "Kirin Bolt G": "Flecha de Kirin G",
     "Kirin Bolt+ G": "Flecha de Kirin+ G",
+    "Kirin Bolt Indora G": "Fle. Kirin Indora G",
     "Djinn G": "Djinn G",
     "Catburglar G": "Ladrón gato G",
     "Eternal Strife G": "Lucha eterna G",
     "Odyssey G": "Odisea G",
     "Osteon Pick G": "Pico Osteon G",
+    "Serpent Bite G": "Hacha guerra venen.G",
     "Millennium Knife G": "Cuchillo milenio G",
     "Hi Frost Edge G": "Filo helado máx. G",
     "Deadly Battleaxe G": "Hacha guerra letal G",
@@ -566,6 +597,7 @@
     "ShiningWyvernBlade G": "Hoja Wyvern brill. G",
     "Bone Scythe G": "Guadañas de hueso G",
     "Worn Blades G": "Hojas desgastadas G",
+    "Velociprey Claws G": "Garras Veloci. máx.G",
     "White Death G": "Muerte blanca G",
     "Dual Tomahawk G": "Tomahawk doble G",
     "Insector G": "Insectors G",
@@ -595,6 +627,7 @@
     "Odyssey Blade": "Hoja Odisea",
     "Master Odyssey": "Odisea maestra",
     "Heavy Bang": "Gran explosión",
+    "Master Bang": "Explosión maestra",
     "Thunderblade Vajra": "Hoja eléc. Vajra",
     "Thunderblade Vajra+": "Hoja eléc. Vajra +",
     "Serpent Bite": "Mordedura serpiente",
@@ -602,6 +635,7 @@
     "Hurricane": "Huracanes",
     "Cyclone": "Ciclones",
     "Tornado Tomahawks": "Tomahawks Tornado",
+    "Typhoon": "Tifón",
     "Firestorm": "Tormenta fuego",
     "Volcanic Storm": "Tormenta volcánica",
     "Prototype Saw-Slicer": "Corta-sierras proto.",
@@ -722,6 +756,7 @@
     "Flame Syphos": "Syphos de llamas",
     "Black Doom Flame": "Llama dest. negro",
     "Red Divine Flame": "Llama divina roja",
+    "Bone Scythe": "Guadañas de hueso",
     "Bone Scythe+": "Guadañas de hueso+",
     "Chief Scythe": "Guadañas jefe",
     "Bladed Edge": "Filos cortantes",
@@ -832,6 +867,7 @@
     "Igneous Sword": "Espada ígnea",
     "Liquid Fire Blade": "Hoja fuego líquido",
     "Divine Fire Blade": "Hoja fuego divino",
+    "GrtDemnHalberdRaksha": "GranAlabDemRaksha",
     "Bronze Coin": "Moneda de bronce",
     "Gaoren Coin": "Moneda Gaoren",
     "Gaoren Cleaver": "Cuch. carnic. Gaoren",
@@ -843,6 +879,7 @@
     "Edelweiss Ice Blade+": "Hoja hie. Edelweiss+",
     "Khezu Shock Sword": "Esp. choque Khezu",
     "Khezu Shock Blade": "Hoja choque Khezu",
+    "Khezu Shock Full+": "Choque Khezu+",
     "Cat's Soul": "Alma de gato",
     "Cat's Curse": "Maldición de gato",
     "Cat's King": "Rey de gato",
@@ -996,7 +1033,9 @@
     "Tigrex Supreme Sword": "Espada supr. Tigrex",
     "Hidden Blaze": "Fuego oculto",
     "Darkness Darkblade": "Espada oscuridad osc",
+    "Black Belt Blade": "Hoja cint. negro",
     "Expert Blade": "Hoja experta",
+    "Warrior's Blade": "Hoja de guerrero",
     "Frozen Tuna": "Atún congelado",
     "Crystallized Tuna": "Atún cristalizado",
     "Tarnished Great Swd": "G. Esp. deslustrada",
@@ -1055,6 +1094,7 @@
     "Crimson War Pike G": "Pica guerra carm. G",
     "Diablo Spear G": "Venablo Diablos G",
     "Native Spear G": "Venablo nativo G",
+    "Black Belt Lance G": "Lanza cint. negro G",
     "Undertaker G": "Funeraria G",
     "Knight Spear G": "Venablo caballero G",
     "Hard Bone Lance G": "Lanza hueso duro G",
@@ -1105,6 +1145,7 @@
     "Cactus Creamer G": "Martillo Cactus G",
     "White Cat Hammer G": "Martillo gato bl G",
     "Black Cat Hammer G": "Martillo gato ng G",
+    "Black Belt Hammer G": "Mart.cint.negro G",
     "Breath Core Hammer G": "Martillo aliento G",
     "Great Demon Hammer G": "Gran Mar. dem. G",
     "TwoStarSilverPot G": "Paella plata 2 G",
@@ -1144,6 +1185,7 @@
         6,
         3
       ],
+      "slots": null,
       "candidates": [
         "Buster Blade G",
         "Bone Blade G",
@@ -1166,31 +1208,11 @@
         6,
         3
       ],
+      "slots": null,
       "candidates": [
         "Buster Blade G",
         "Bone Blade G",
         "Wyvern Agito G"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_GSLS_G.html",
-      "type": "Great Sword",
-      "nameEs": "Gran hoja serp. G",
-      "attack": 1248,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        5,
-        3,
-        9,
-        14,
-        6,
-        3
-      ],
-      "candidates": [
-        "Teostra del Sol",
-        "Great Serpentblade G"
       ]
     },
     {
@@ -1209,6 +1231,7 @@
         6,
         3
       ],
+      "slots": null,
       "candidates": [
         "Teostra del Sol",
         "Great Serpentblade G",
@@ -1231,6 +1254,7 @@
         6,
         2
       ],
+      "slots": null,
       "candidates": [
         "Warrior's Blade",
         "Carbalite Sword G"
@@ -1252,52 +1276,11 @@
         6,
         3
       ],
+      "slots": null,
       "candidates": [
         "Buster Blade G",
         "Bone Blade G",
         "Wyvern Agito G"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_GSLS_G.html",
-      "type": "Long Sword",
-      "nameEs": "Espada imperial G",
-      "attack": 1248,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [
-        5,
-        3,
-        9,
-        14,
-        6,
-        3
-      ],
-      "candidates": [
-        "WyvrnBlade\"Camellia\"",
-        "Imperial Sword G"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Lanza_y_LanzaPistola.html",
-      "type": "Lance",
-      "nameEs": "Sepulturero",
-      "attack": 644,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        5,
-        5,
-        9,
-        13,
-        5,
-        3
-      ],
-      "candidates": [
-        "Gravedigger",
-        "Iron Lance G"
       ]
     },
     {
@@ -1316,30 +1299,10 @@
         5,
         3
       ],
+      "slots": null,
       "candidates": [
         "Iron Gunlance",
         "Snow Gunlance"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Lanza_y_LanzaPistola.html",
-      "type": "Lance",
-      "nameEs": "Colmillo brutal",
-      "attack": 598,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [
-        11,
-        8,
-        5,
-        8,
-        5,
-        3
-      ],
-      "candidates": [
-        "Brutal Tusk",
-        "True Blk Dragon Spr+"
       ]
     },
     {
@@ -1359,48 +1322,10 @@
         5,
         1
       ],
+      "slots": null,
       "candidates": [
         "Paralyzer",
         "Crimson Lance"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Lanza_y_LanzaPistola.html",
-      "type": "Lance",
-      "nameEs": "Hoja punzante",
-      "attack": 345,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        5,
-        5,
-        9,
-        11
-      ],
-      "candidates": [
-        "Blade Stinger",
-        "Spear of Prominence"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Lanza_y_LanzaPistola.html",
-      "type": "Lance",
-      "nameEs": "Perforadora Cean.",
-      "attack": 460,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [
-        3,
-        7,
-        4,
-        16,
-        5
-      ],
-      "candidates": [
-        "White Catastrophe",
-        "Ceanataur Piercer"
       ]
     },
     {
@@ -1415,6 +1340,7 @@
         16,
         4
       ],
+      "slots": null,
       "candidates": [
         "Long Tusk",
         "Red Tail",
@@ -1434,32 +1360,12 @@
         16,
         4
       ],
+      "slots": null,
       "candidates": [
         "Trident",
         "Venom Lance",
         "Dark Spear",
         "Worn Spear"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Lanza_y_LanzaPistola.html",
-      "type": "Lance",
-      "nameEs": "Rascacielos",
-      "attack": 598,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [
-        16,
-        5,
-        4,
-        9,
-        4,
-        2
-      ],
-      "candidates": [
-        "ThunderbugShockLance",
-        "Sky Scraper"
       ]
     },
     {
@@ -1478,35 +1384,10 @@
         4,
         2
       ],
+      "slots": null,
       "candidates": [
         "Sea God Leviathan",
         "Tigrex Gunlance"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Lanza_y_LanzaPistola.html",
-      "type": "Gunlance",
-      "nameEs": "Alea Jacta Est",
-      "attack": 598,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        7,
-        5,
-        5,
-        16,
-        5,
-        2,
-        0
-      ],
-      "candidates": [
-        "Volcano Gunlance",
-        "Large Pop Corn",
-        "Hard Bone Cannon",
-        "EldrDrgnGLanceEmblem",
-        "Blizzard Gunlance G",
-        "Marine Fisher G"
       ]
     },
     {
@@ -1523,6 +1404,7 @@
         17,
         3
       ],
+      "slots": null,
       "candidates": [
         "Iron Striker+",
         "Gold Cat Hammer"
@@ -1543,6 +1425,7 @@
         12,
         5
       ],
+      "slots": null,
       "candidates": [
         "Devil Masher+",
         "Ceanataur Head Axe"
@@ -1562,6 +1445,7 @@
         3,
         1
       ],
+      "slots": null,
       "candidates": [
         "Spiked Hammer",
         "White Cat Stamp"
@@ -1581,6 +1465,7 @@
         3,
         6
       ],
+      "slots": null,
       "candidates": [
         "Gunhammer Prototype",
         "Spiked Hammer+"
@@ -1598,30 +1483,10 @@
         8,
         7
       ],
+      "slots": null,
       "candidates": [
         "War Hammer+",
         "Bone Club"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Martillo_y_CuernoDeCaza.html",
-      "type": "Hammer",
-      "nameEs": "Mandíbula misteriosa",
-      "attack": 1144,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [
-        19,
-        2,
-        5,
-        7,
-        4,
-        3
-      ],
-      "candidates": [
-        "Mysterious Jaw",
-        "Tigrex Hammer"
       ]
     },
     {
@@ -1640,70 +1505,10 @@
         4,
         3
       ],
+      "slots": null,
       "candidates": [
         "Purse Bop+",
         "True Polytan G"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Martillo_y_CuernoDeCaza.html",
-      "type": "Hammer",
-      "nameEs": "Trueno Khezu",
-      "attack": 1456,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        9,
-        2,
-        13,
-        7,
-        5,
-        4
-      ],
-      "candidates": [
-        "Khezu Thunder",
-        "War Hammer G"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Martillo_y_CuernoDeCaza.html",
-      "type": "Hammer",
-      "nameEs": "Reliquia antigua",
-      "attack": 988,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        5,
-        4,
-        14,
-        7
-      ],
-      "candidates": [
-        "King Lobster Hammer",
-        "Ancient Relic"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Martillo_y_CuernoDeCaza.html",
-      "type": "Hammer",
-      "nameEs": "Cono desierto",
-      "attack": 1456,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [
-        3,
-        2,
-        17,
-        12,
-        4,
-        2
-      ],
-      "candidates": [
-        "Desert Cone",
-        "Iron Striker G"
       ]
     },
     {
@@ -1717,6 +1522,7 @@
       "sharpness": [
         15
       ],
+      "slots": null,
       "candidates": [
         "Rusted Hammer",
         "War Mace",
@@ -1737,6 +1543,7 @@
         19,
         1
       ],
+      "slots": null,
       "candidates": [
         "Crystal Hammer",
         "Kut-Ku Jaw",
@@ -1762,97 +1569,10 @@
         4,
         3
       ],
+      "slots": null,
       "candidates": [
         "Mysterious Jaw",
         "Tigrex Hammer"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Martillo_y_CuernoDeCaza.html",
-      "type": "Hammer",
-      "nameEs": "Martillo oscur. prof",
-      "attack": 1248,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [
-        3,
-        2,
-        17,
-        12,
-        4,
-        5,
-        2
-      ],
-      "candidates": [
-        "The Great Divider",
-        "Deep Darkhammer"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Martillo_y_CuernoDeCaza.html",
-      "type": "Hammer",
-      "nameEs": "Martillo cint. negro",
-      "attack": 780,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        8,
-        7,
-        7,
-        3
-      ],
-      "candidates": [
-        "Jadite Mace",
-        "Black Belt Hammer"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Martillo_y_CuernoDeCaza.html",
-      "type": "Hammer",
-      "nameEs": "Polytan G",
-      "attack": 1144,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        5,
-        4,
-        14,
-        10,
-        4,
-        3
-      ],
-      "candidates": [
-        "Purse Bop+",
-        "True Polytan G"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Martillo_y_CuernoDeCaza.html",
-      "type": "Hunting Horn",
-      "nameEs": "Flau. mad. dra. anc.",
-      "attack": 988,
-      "element": {
-        "type": "paralysis",
-        "value": 240
-      },
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        19,
-        2,
-        5,
-        7,
-        4,
-        3
-      ],
-      "candidates": [
-        "Velociprey Balloon",
-        "Blood Flute",
-        "Volcanic Rock",
-        "Gold Recorder"
       ]
     },
     {
@@ -1864,6 +1584,7 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Hunter's Bow I",
         "Blango Fur Bow I"
@@ -1878,6 +1599,7 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Hunter's Bow II",
         "Blango Fur Bow II",
@@ -1893,6 +1615,7 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Hunter's Bow III",
         "Kut-Ku Stave II",
@@ -1909,6 +1632,7 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Hunter's Bow IV",
         "Blango Fur Bow III",
@@ -1925,11 +1649,10 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 2,
       "candidates": [
-        "Hunter's Bow IV",
         "Blango Fur Bow III",
-        "Wild Bow I",
-        "Daimyo's Warbow II"
+        "Wild Bow I"
       ]
     },
     {
@@ -1941,78 +1664,13 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": 2,
       "candidates": [
         "Abominable Bow I",
         "Blue Kut-Ku Stave I",
         "Wild Bow II",
         "Daimyo's Warbow IV",
-        "Sonic Bow III",
-        "Dragon Bow Halo",
-        "Dragon Bow Earth",
-        "Black Bow II"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco salvaje III",
-      "attack": 216,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "candidates": [
-        "Wild Bow III",
-        "Prominence Bow II",
-        "Queen Blaster II"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco salvaje IV",
-      "attack": 228,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "candidates": [
-        "Icicle Bow I",
-        "Wild Bow IV",
-        "Wing Bow I"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco poder salvaj.I",
-      "attack": 240,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "candidates": [
-        "Blue Kut-Ku Stave II",
-        "Wild Power Bow I",
-        "Sonic Bow IV",
-        "Wing Bow II",
-        "Courageous Hope"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco poder salvaj.I",
-      "attack": 252,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "candidates": [
-        "Wild Power Bow II",
-        "Grt Purple Emperor I",
-        "Prominence Bow III",
-        "Khezu Bow I"
+        "Sonic Bow III"
       ]
     },
     {
@@ -2024,6 +1682,7 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Jungle Bow I",
         "Midnight Bow",
@@ -2039,6 +1698,7 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Crow Bow",
         "Jungle Bow II",
@@ -2060,12 +1720,10 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 2,
       "candidates": [
         "Abominable Bow II",
-        "Prominence Bow IV",
-        "PerfectSwordfishBow",
-        "Dragon Bow Mountain",
-        "Khezu Bow II"
+        "Prominence Bow IV"
       ]
     },
     {
@@ -2077,6 +1735,7 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Wolf Bow",
         "Wing Bow IV"
@@ -2091,6 +1750,7 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Crow Bow",
         "Jungle Bow II",
@@ -2103,80 +1763,16 @@
     {
       "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
       "type": "Bow",
-      "nameEs": "Arco ala I",
-      "attack": 228,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "candidates": [
-        "Icicle Bow I",
-        "Wild Bow IV",
-        "Wing Bow I"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
       "nameEs": "Arco ala II",
       "attack": 240,
       "element": null,
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 1,
       "candidates": [
-        "Blue Kut-Ku Stave II",
-        "Wild Power Bow I",
-        "Sonic Bow IV",
         "Wing Bow II",
         "Courageous Hope"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco ala III",
-      "attack": 312,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "candidates": [
-        "Carmine Bow",
-        "Wing Bow III"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco pez espada comp",
-      "attack": 204,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "candidates": [
-        "Prominence Bow I",
-        "Blue Blade Bow I",
-        "Queen Blaster I",
-        "Whole Swordfish Bow"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco pez espada perf",
-      "attack": 288,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "candidates": [
-        "Abominable Bow II",
-        "Prominence Bow IV",
-        "PerfectSwordfishBow",
-        "Dragon Bow Mountain",
-        "Khezu Bow II"
       ]
     },
     {
@@ -2188,6 +1784,7 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Prominence Bow I",
         "Blue Blade Bow I",
@@ -2204,27 +1801,12 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Icicle Bow II",
         "Blue Blade Bow II",
         "Queen Blaster III",
         "Courageous Wish"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco hoja azul III",
-      "attack": 360,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "candidates": [
-        "Blue Blade Bow III",
-        "Queen Blaster V",
-        "Dragon Bow Chaos",
-        "Wild Power Bow G"
       ]
     },
     {
@@ -2236,8 +1818,8 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 1,
       "candidates": [
-        "Hunter's Bow III",
         "Kut-Ku Stave II",
         "Daimyo's Warbow I",
         "Sonic Bow I"
@@ -2252,12 +1834,11 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 2,
       "candidates": [
         "Blango Fur Bow IV",
-        "Kut-Ku Stave III",
         "Daimyo's Warbow III",
-        "Sonic Bow II",
-        "Black Bow I"
+        "Sonic Bow II"
       ]
     },
     {
@@ -2269,14 +1850,13 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 2,
       "candidates": [
         "Abominable Bow I",
         "Blue Kut-Ku Stave I",
         "Wild Bow II",
         "Daimyo's Warbow IV",
-        "Sonic Bow III",
-        "Dragon Bow Earth",
-        "Black Bow II"
+        "Sonic Bow III"
       ]
     },
     {
@@ -2288,12 +1868,10 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 2,
       "candidates": [
         "Blue Kut-Ku Stave II",
-        "Wild Power Bow I",
-        "Sonic Bow IV",
-        "Wing Bow II",
-        "Courageous Hope"
+        "Sonic Bow IV"
       ]
     },
     {
@@ -2305,28 +1883,10 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 1,
       "candidates": [
-        "Wild Power Bow II",
         "Grt Purple Emperor I",
-        "Prominence Bow III",
         "Khezu Bow I"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco Khezu II",
-      "attack": 288,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "candidates": [
-        "Abominable Bow II",
-        "Prominence Bow IV",
-        "PerfectSwordfishBow",
-        "Dragon Bow Mountain",
-        "Khezu Bow II"
       ]
     },
     {
@@ -2338,11 +1898,10 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 1,
       "candidates": [
         "Prominence Bow I",
-        "Blue Blade Bow I",
-        "Queen Blaster I",
-        "Whole Swordfish Bow"
+        "Queen Blaster I"
       ]
     },
     {
@@ -2354,6 +1913,7 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Wild Bow III",
         "Prominence Bow II",
@@ -2369,9 +1929,8 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 2,
       "candidates": [
-        "Icicle Bow II",
-        "Blue Blade Bow II",
         "Queen Blaster III",
         "Courageous Wish"
       ]
@@ -2385,11 +1944,10 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 2,
       "candidates": [
         "Queen Blaster IV",
-        "Glorious Victory II",
-        "Courageous Dream",
-        "Wild Bow G"
+        "Courageous Dream"
       ]
     },
     {
@@ -2401,10 +1959,9 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 2,
       "candidates": [
-        "Blue Blade Bow III",
         "Queen Blaster V",
-        "Dragon Bow Chaos",
         "Wild Power Bow G"
       ]
     },
@@ -2417,6 +1974,7 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Blue Kut-Ku Stave II",
         "Wild Power Bow I",
@@ -2436,32 +1994,10 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": 1,
       "candidates": [
-        "Icicle Bow II",
-        "Tiger Arrow I",
-        "Blue Blade Bow II",
-        "Queen Blaster III",
         "Heartshot Bow II",
-        "Courageous Wish",
         "Icy Steel Bow"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco tir. cor. III",
-      "attack": 336,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [],
-      "candidates": [
-        "Queen Blaster IV",
-        "Heartshot Bow III",
-        "Glorious Victory II",
-        "Courageous Dream",
-        "BeastKingThunderbow",
-        "Wild Bow G"
       ]
     },
     {
@@ -2473,6 +2009,7 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Icicle Bow II",
         "Tiger Arrow I",
@@ -2492,6 +2029,7 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "BlueKut-KuStave III",
         "Tiger Arrow II",
@@ -2512,6 +2050,7 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Tigrex Whisker",
         "Carmine Bow",
@@ -2528,6 +2067,7 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Wild Power Bow II",
         "Grt Purple Emperor I",
@@ -2546,6 +2086,7 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Jungle Bow I",
         "Midnight Bow",
@@ -2561,14 +2102,9 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": 1,
       "candidates": [
-        "Abominable Bow I",
-        "Blue Kut-Ku Stave I",
-        "Wild Bow II",
-        "Daimyo's Warbow IV",
-        "Sonic Bow III",
         "Dragon Bow Halo",
-        "Dragon Bow Earth",
         "Black Bow II"
       ]
     },
@@ -2581,11 +2117,8 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": 1,
       "candidates": [
-        "Blue Kut-Ku Stave II",
-        "Wild Power Bow I",
-        "Sonic Bow IV",
-        "Heartshot Bow I",
         "Dragon Bow Solar",
         "Wing Bow II",
         "Courageous Hope"
@@ -2600,6 +2133,7 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "GrtPurpleEmperor II",
         "Prominence Bow V",
@@ -2618,6 +2152,7 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "GrtPurpleEmperor II",
         "Prominence Bow V",
@@ -2634,45 +2169,12 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": null,
       "candidates": [
         "Queen Blaster IV",
         "Glorious Victory II",
         "Courageous Dream",
         "Wild Bow G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco dragón Tierra",
-      "attack": 192,
-      "element": {
-        "type": "dragon",
-        "value": 120
-      },
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "candidates": [
-        "Dragon Bow Earth",
-        "Black Bow II"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco negro II",
-      "attack": 192,
-      "element": {
-        "type": "dragon",
-        "value": 120
-      },
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "candidates": [
-        "Dragon Bow Earth",
-        "Black Bow II"
       ]
     },
     {
@@ -2684,30 +2186,10 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 3,
       "candidates": [
-        "BlueKut-KuStave III",
-        "Glorious Victory I",
         "Hunter's Bow G",
-        "Blango Fur Bow G",
-        "Kut-Ku Stave G",
-        "Daimyo's Warbow G",
-        "Sonic Bow G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos_G.html",
-      "type": "Bow",
-      "nameEs": "Arco salvaje G",
-      "attack": 336,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "candidates": [
-        "Queen Blaster IV",
-        "Glorious Victory II",
-        "Courageous Dream",
-        "Wild Bow G"
+        "Blango Fur Bow G"
       ]
     },
     {
@@ -2719,10 +2201,9 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 2,
       "candidates": [
-        "Blue Blade Bow III",
         "Queen Blaster V",
-        "Dragon Bow Chaos",
         "Wild Power Bow G"
       ]
     },
@@ -2735,12 +2216,9 @@
       "affinity": 0,
       "defense": 0,
       "sharpness": [],
+      "slots": 2,
       "candidates": [
         "BlueKut-KuStave III",
-        "Glorious Victory I",
-        "Hunter's Bow G",
-        "Blango Fur Bow G",
-        "Kut-Ku Stave G",
         "Daimyo's Warbow G",
         "Sonic Bow G"
       ]
@@ -2754,11 +2232,8 @@
       "affinity": null,
       "defense": 0,
       "sharpness": [],
+      "slots": 1,
       "candidates": [
-        "Abominable Bow II",
-        "Prominence Bow IV",
-        "PerfectSwordfishBow",
-        "Dragon Bow Mountain",
         "Khezu Bow II",
         "Dragon Bow Solar G"
       ]
@@ -2779,6 +2254,7 @@
         6,
         1
       ],
+      "slots": null,
       "candidates": [
         "Chief Kris G",
         "Snake Bite G"
@@ -2800,31 +2276,10 @@
         6,
         1
       ],
+      "slots": null,
       "candidates": [
         "Chief Kris G",
         "Snake Bite G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_de_las_Espadas_con_Escudo_y_Espadas_Dobles_G.html",
-      "type": "Sword & Shield",
-      "nameEs": "Pesadilla eléctr. G",
-      "attack": 364,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        5,
-        3,
-        13,
-        12,
-        6,
-        1
-      ],
-      "candidates": [
-        "Poison Battleaxe G",
-        "Thunderbane G",
-        "Serpent Bite G"
       ]
     },
     {
@@ -2843,77 +2298,11 @@
         6,
         1
       ],
+      "slots": null,
       "candidates": [
         "Master Bang",
         "Velocidrome Bite G",
         "Monoblos Club G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_de_las_Espadas_con_Escudo_y_Espadas_Dobles_G.html",
-      "type": "Sword & Shield",
-      "nameEs": "Fle. Kirin Indora G",
-      "attack": 350,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        5,
-        3,
-        13,
-        12,
-        6,
-        1
-      ],
-      "candidates": [
-        "Kirin Bolt Indora G",
-        "Deadly Battleaxe G",
-        "Eternal Treasure G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_de_las_Espadas_con_Escudo_y_Espadas_Dobles_G.html",
-      "type": "Sword & Shield",
-      "nameEs": "Hacha guerra venen.G",
-      "attack": 364,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        5,
-        3,
-        13,
-        12,
-        6,
-        1
-      ],
-      "candidates": [
-        "Poison Battleaxe G",
-        "Thunderbane G",
-        "Serpent Bite G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_de_las_Espadas_con_Escudo_y_Espadas_Dobles_G.html",
-      "type": "Dual Blades",
-      "nameEs": "Garras Veloci. máx.G",
-      "attack": 364,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        7,
-        3,
-        8,
-        13,
-        5,
-        4,
-        0
-      ],
-      "candidates": [
-        "Velociprey Claws G",
-        "Holy Saber G",
-        "CrimsonLotusBlades G"
       ]
     },
     {
@@ -2930,53 +2319,10 @@
         9,
         6
       ],
+      "slots": null,
       "candidates": [
         "Assassin's Dagger",
         "Viper Bite"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Espadas_con_Escudo_y_Espadas_Duales.html",
-      "type": "Sword & Shield",
-      "nameEs": "Explosión maestra",
-      "attack": 378,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [
-        13,
-        1,
-        3,
-        16,
-        6,
-        1
-      ],
-      "candidates": [
-        "Master Bang",
-        "Velocidrome Bite G",
-        "Monoblos Club G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Espadas_con_Escudo_y_Espadas_Duales.html",
-      "type": "Dual Blades",
-      "nameEs": "Tifón",
-      "attack": 378,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        7,
-        3,
-        8,
-        13,
-        5,
-        4
-      ],
-      "candidates": [
-        "Final Battleaxe",
-        "Azure Dual Swords",
-        "Typhoon"
       ]
     },
     {
@@ -2993,6 +2339,7 @@
         3,
         3
       ],
+      "slots": null,
       "candidates": [
         "Weary Finsword",
         "Iron Chefblade"
@@ -3012,27 +2359,10 @@
         9,
         9
       ],
+      "slots": 1,
       "candidates": [
         "Sandman Spike",
         "Steel Ice Dagger+"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Espadas_con_Escudo_y_Espadas_Duales.html",
-      "type": "Dual Blades",
-      "nameEs": "Guadañas de hueso",
-      "attack": 98,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        3,
-        7,
-        10
-      ],
-      "candidates": [
-        "Bone Scythe",
-        "Giaprey Claws"
       ]
     },
     {
@@ -3046,6 +2376,7 @@
       "sharpness": [
         15
       ],
+      "slots": null,
       "candidates": [
         "Snake Bite",
         "Hydra Bite",
@@ -3070,6 +2401,7 @@
         10,
         1
       ],
+      "slots": null,
       "candidates": [
         "Princess Rapier+",
         "Rex Talon"
@@ -3091,6 +2423,7 @@
         5,
         1
       ],
+      "slots": null,
       "candidates": [
         "Golden Falchion+",
         "Tigrex Sword"
@@ -3114,6 +2447,7 @@
         13,
         4
       ],
+      "slots": null,
       "candidates": [
         "Master Sabers",
         "Glacial Medusa",
@@ -3135,6 +2469,7 @@
         7,
         1
       ],
+      "slots": null,
       "candidates": [
         "Dual Chameleos",
         "Rex Slicers"
@@ -3156,6 +2491,7 @@
         4,
         2
       ],
+      "slots": null,
       "candidates": [
         "Master Sabers",
         "Glacial Medusa",
@@ -3174,6 +2510,7 @@
         12,
         3
       ],
+      "slots": null,
       "candidates": [
         "Dual Tomahawk",
         "Snow Venom",
@@ -3198,6 +2535,7 @@
         7,
         3
       ],
+      "slots": null,
       "candidates": [
         "Red Rippers",
         "Crow Tessen",
@@ -3227,6 +2565,7 @@
         11,
         6
       ],
+      "slots": null,
       "candidates": [
         "Centenarian Dagger",
         "Demon Halberd"
@@ -3247,31 +2586,10 @@
         7,
         1
       ],
+      "slots": null,
       "candidates": [
         "Frost Ripper",
         "Great Demon Halberd"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Grandes_Espadas_y_Espadas_Largas.html",
-      "type": "Long Sword",
-      "nameEs": "GranAlabDemRaksha",
-      "attack": 1248,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [
-        18,
-        2,
-        7,
-        7,
-        4,
-        2
-      ],
-      "candidates": [
-        "GrtDemnHalberdRaksha",
-        "Blango Destroyer G",
-        "Frost Ripper G"
       ]
     },
     {
@@ -3289,30 +2607,10 @@
         14,
         4
       ],
+      "slots": 1,
       "candidates": [
         "Khezu Shock Full",
         "Plesioth Wave Sword"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Grandes_Espadas_y_Espadas_Largas.html",
-      "type": "Great Sword",
-      "nameEs": "Choque Khezu+",
-      "attack": 1200,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        8,
-        3,
-        11,
-        10,
-        6,
-        2
-      ],
-      "candidates": [
-        "Khezu Shock Full+",
-        "Rathalos Firesword G"
       ]
     },
     {
@@ -3330,6 +2628,7 @@
         9,
         5
       ],
+      "slots": 1,
       "candidates": [
         "Smolder Dragonsword",
         "True Devil Slicer"
@@ -3351,6 +2650,7 @@
         4,
         3
       ],
+      "slots": 1,
       "candidates": [
         "Wailing Cleaver Shin",
         "WyvernBlade\"Holly\"G"
@@ -3370,6 +2670,7 @@
         11,
         8
       ],
+      "slots": 1,
       "candidates": [
         "Enforcer's Axe",
         "Cat's Soul G"
@@ -3390,6 +2691,7 @@
         14,
         4
       ],
+      "slots": null,
       "candidates": [
         "King Thundersword",
         "King Teostra Blade"
@@ -3411,6 +2713,7 @@
         6,
         3
       ],
+      "slots": null,
       "candidates": [
         "ImperialThundersword",
         "GoldnSerpentblade G"
@@ -3430,6 +2733,7 @@
         9,
         8
       ],
+      "slots": null,
       "candidates": [
         "Ceanataur Blade",
         "Black Belt Blade"
@@ -3449,6 +2753,7 @@
         9,
         13
       ],
+      "slots": null,
       "candidates": [
         "Golden Serpentblade",
         "Blue Claw Blade"
@@ -3469,49 +2774,10 @@
         7,
         1
       ],
+      "slots": null,
       "candidates": [
         "Slaughter",
         "Tiger Agito"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Grandes_Espadas_y_Espadas_Largas.html",
-      "type": "Great Sword",
-      "nameEs": "Hoja cint. negro",
-      "attack": 720,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        5,
-        3,
-        9,
-        8
-      ],
-      "candidates": [
-        "Ceanataur Blade",
-        "Black Belt Blade"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Grandes_Espadas_y_Espadas_Largas.html",
-      "type": "Great Sword",
-      "nameEs": "Hoja de guerrero",
-      "attack": 1344,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        8,
-        3,
-        11,
-        10,
-        6,
-        2
-      ],
-      "candidates": [
-        "Warrior's Blade",
-        "Carbalite Sword G"
       ]
     },
     {
@@ -3526,6 +2792,7 @@
         18,
         2
       ],
+      "slots": null,
       "candidates": [
         "Rusted Great Sword",
         "Bone Slasher"
@@ -3547,6 +2814,7 @@
         4,
         2
       ],
+      "slots": null,
       "candidates": [
         "Big Menacing Scythe",
         "Tigrex Katana"
@@ -3568,30 +2836,10 @@
         5,
         3
       ],
+      "slots": null,
       "candidates": [
         "Gravedigger",
         "Iron Lance G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Lanza_y_Lanza_Pistola_G.html",
-      "type": "Lance",
-      "nameEs": "Lanza cint. negro G",
-      "attack": 621,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        5,
-        5,
-        9,
-        13,
-        5,
-        3
-      ],
-      "candidates": [
-        "Aquarius",
-        "Black Belt Lance G"
       ]
     },
     {
@@ -3610,6 +2858,7 @@
         5,
         4
       ],
+      "slots": null,
       "candidates": [
         "Khezu Thunder",
         "War Hammer G"
@@ -3631,6 +2880,7 @@
         4,
         3
       ],
+      "slots": null,
       "candidates": [
         "Atlas Hammer G",
         "Kut-Ku Jaw G",
@@ -3653,32 +2903,11 @@
         4,
         3
       ],
+      "slots": null,
       "candidates": [
         "Atlas Hammer G",
         "Kut-Ku Jaw G",
         "Hard Bone Hammer G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Martillo_y_Cuerno_de_Caza_G.html",
-      "type": "Hammer",
-      "nameEs": "Mart.cint.negro G",
-      "attack": 1352,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        8,
-        7,
-        7,
-        11,
-        5,
-        2
-      ],
-      "candidates": [
-        "Super Nova",
-        "Black Belt Hammer G",
-        "Torment(Purgatory) G"
       ]
     },
     {
@@ -3697,6 +2926,7 @@
         4,
         3
       ],
+      "slots": null,
       "candidates": [
         "Atlas Hammer G",
         "Kut-Ku Jaw G",
