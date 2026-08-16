@@ -599,6 +599,13 @@ body {
   display: flex;
   gap: 0.5rem;
 }
+.news-item-image img {
+  width: 72px;
+  height: 76px;
+  object-fit: contain;
+  background: var(--bg-panel-alt);
+  border-radius: 6px;
+}
 
 .news-preview-svg {
   width: 72px;
