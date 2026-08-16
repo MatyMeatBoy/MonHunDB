@@ -1,3 +1,38 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Misiones — Monster Hunter Rise</title><link rel="icon" href="../favicon.webp"><link rel="stylesheet" href="style.css"></head>
-<body><header class="topbar"><a class="brand-home" href="index.html"><img class="brand-monhundb" src="../wordmark_monhundb.png" alt="MonHunDB"></a><div class="header-left"><a class="header-icon-btn header-icon-btn--label" href="index.html">← Rise</a><a class="header-icon-btn header-icon-btn--label" href="quests.html">★ Misiones</a></div></header>
-<main class="page-view"><section class="block"><h1>Misiones de Monster Hunter Rise</h1><p class="muted">Aldea, gremio, eventos, seguidores, arena, entrenamiento y anomalías.</p><div class="toolbar"><input id="q" class="monster-search" placeholder="Buscar misión…"><select id="category"><option value="">Todas las categorías</option></select><select id="stars"><option value="">Todas las estrellas</option></select></div></section><section id="list" class="cards-grid"></section></main><script src="quests.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Misiones — Monster Hunter Rise: Sunbreak</title>
+<link rel="icon" type="image/webp" href="../favicon.webp" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="quests">
+  <header class="topbar">
+    <a class="brand-home" href="../index.html" title="MonHunDB"><img class="brand-monhundb" src="../wordmark_monhundb.png" alt="MonHunDB"><img class="header-logo" src="data/images/logo_mhrise.png" alt="Monster Hunter Rise"></a>
+    <div class="header-left">
+      <a class="header-icon-btn header-icon-btn--label" href="decorations.html">Adornos</a>
+      <a class="header-icon-btn header-icon-btn--label" href="weapons.html">Armas</a>
+      <a class="header-icon-btn header-icon-btn--label" href="armor.html">Armaduras</a>
+      <a class="header-icon-btn header-icon-btn--label" href="materials.html">Materiales</a>
+      <a class="header-icon-btn header-icon-btn--label" href="skills.html">Habilidades</a>
+      <a class="header-icon-btn header-icon-btn--label" href="quests.html">Misiones</a>
+    </div>
+    <div class="header-right"><a class="header-icon-btn header-icon-btn--label" href="index.html">← Inicio Rise</a></div>
+  </header>
+  <main class="decorations-view rise-quests-view">
+    <div class="decorations-toolbar">
+      <div class="quests-mode-toggle" role="tablist" aria-label="Modo de misiones">
+        <button type="button" class="quest-filter-btn active" data-mode="single">Aldea / Un jugador</button>
+        <button type="button" class="quest-filter-btn" data-mode="hub">Sala de reuniones</button>
+      </div>
+      <div id="quest-categories" class="quests-source-filter"></div>
+      <input type="search" id="quest-search" class="monster-search" placeholder="Buscar misión o monstruo…" autocomplete="off" />
+    </div>
+    <div id="quest-index" class="decorations-index"></div>
+    <div id="quest-detail" class="decoration-detail" hidden></div>
+  </main>
+  <script src="data/i18n.js"></script>
+  <script src="quests.js"></script>
+</body>
+</html>
