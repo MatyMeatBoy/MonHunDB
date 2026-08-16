@@ -3069,8 +3069,12 @@ function buildFarmGuideIndex() {
 function buildMapGatheringIndex() {
   mapGatheringItems = new Map();
   const maps = gatheringSources.mapSources || [];
-  const rankLabels = { "low-rank": "Elder / Guild Low", "high-rank": "Nekoht / Guild High", "g-rank": "G Rank", training: "Training School", treasure: "Treasure Hunting", All: "All Ranks" };
-  const typeLabels = { bugnet: "Bugnet", gather: "Gather", mining: "Mining", fishing: "Fishing", cat: "Cat", summit: "Summit" };
+  const rankLabels = lang === "es"
+    ? { "low-rank": "Elder / Gremio bajo", "high-rank": "Nekoht / Gremio alto", "g-rank": "Rango G", training: "Escuela de Entrenamiento", treasure: "Caza del Tesoro", All: "Todos los rangos" }
+    : { "low-rank": "Elder / Guild Low", "high-rank": "Nekoht / Guild High", "g-rank": "G Rank", training: "Training School", treasure: "Treasure Hunting", All: "All Ranks" };
+  const typeLabels = lang === "es"
+    ? { bugnet: "Red de insectos", gather: "Recolección", mining: "Minería", fishing: "Pesca", cat: "Gato", summit: "Cima" }
+    : { bugnet: "Bugnet", gather: "Gather", mining: "Mining", fishing: "Fishing", cat: "Cat", summit: "Summit" };
   for (const map of maps) {
     for (const area of map.areas || []) {
       for (const position of area.positions || []) {
@@ -3117,8 +3121,9 @@ function veggieElderSourcesHtml(matKey) {
   const entries = veggieElderItems.get(normalizeMaterialKey(matKey)) || [];
   if (!entries.length) return "";
   const unique = [...new Map(entries.map(entry => [`${entry.location}|${entry.give}|${entry.chance}`, entry])).values()];
+  const locations = { "All Areas": ["All Areas", "Todas las zonas"], SnwyMntains: ["Snowy Mountains", "Montañas Nevadas"], Jungle: ["Jungle", "Jungla"], Desert: ["Desert", "Desierto"], Swamp: ["Swamp", "Pantano"], "Forest & Hills": ["Forest and Hills", "Bosque y Colinas"], "Old Jungle": ["Old Jungle", "Jungla antigua"], "Old Swamp": ["Old Swamp", "Pantano antiguo"] };
   return '<div class="mhfu-veggie-sources"><strong>' + ui("materialsVeggieElder") + '</strong>' +
-    unique.map(entry => '<div><span class="mhfu-map-name">' + escapeAttr(entry.location) + '</span> · entrega ' + escapeAttr(entry.give) + ' <small>' + (entry.chance != null ? `${entry.chance}%` : "") + '</small></div>').join("") +
+    unique.map(entry => '<div><span class="mhfu-map-name">' + escapeAttr((locations[entry.location] || [entry.location, entry.location])[lang === "es" ? 1 : 0]) + '</span> · ' + (lang === "es" ? "Entrega" : "Trade") + ': ' + escapeAttr(entry.give) + ' <small>' + (entry.chance != null ? `${entry.chance}%` : "") + '</small></div>').join("") +
     '</div>';
 }
 
@@ -4623,12 +4628,12 @@ function renderQuestGuide() {
     <div class="mhfu-guide-grid">
       <div class="mhfu-guide-card">
         <h4>${ui("questsGuideRanks")}</h4><div class="mhfu-rank-chips">${tiers}</div>
-        <p>${escapeAttr(lang === "es" ? "Training School es entrenamiento de un jugador; Treasure Hunting es la actividad especial de Treshi en la sala." : "Training School is single-player training; Treasure Hunting is Treshi's special activity in the hall.")}</p>
+        <p>${escapeAttr(lang === "es" ? "La Escuela de Entrenamiento es un modo de un jugador; la Caza del Tesoro es la actividad especial de Treshi en la sala." : "Training School is single-player training; Treasure Hunting is Treshi's special activity in the hall.")}</p>
       </div>
       <div class="mhfu-guide-card">
         <h4>${ui("questsGuidePoints")}</h4>
-        <p>${escapeAttr(lang === "es" ? "Training School y Treasure Hunting convierten el 10% de la puntuación en Puntos Pokke." : "Training School and Treasure Hunting convert 10% of the score into Pokke Points.")}</p>
-        <p>${escapeAttr(lang === "es" ? `Coronas de Treasure Hunting: plata ${treasure.crowns?.silver?.toLocaleString("es-ES") || "20.000"} pts · oro ${treasure.crowns?.gold?.toLocaleString("es-ES") || "30.000"} pts.` : `Treasure Hunting crowns: silver ${treasure.crowns?.silver?.toLocaleString() || "20,000"} pts · gold ${treasure.crowns?.gold?.toLocaleString() || "30,000"} pts.`)}</p>
+        <p>${escapeAttr(lang === "es" ? "La Escuela de Entrenamiento y la Caza del Tesoro convierten el 10% de la puntuación en Puntos Pokke." : "Training School and Treasure Hunting convert 10% of the score into Pokke Points.")}</p>
+        <p>${escapeAttr(lang === "es" ? `Coronas de Caza del Tesoro: plata ${treasure.crowns?.silver?.toLocaleString("es-ES") || "20.000"} pts · oro ${treasure.crowns?.gold?.toLocaleString("es-ES") || "30.000"} pts.` : `Treasure Hunting crowns: silver ${treasure.crowns?.silver?.toLocaleString() || "20,000"} pts · gold ${treasure.crowns?.gold?.toLocaleString() || "30,000"} pts.`)}</p>
         <p>${escapeAttr(treasure.delivery || "")}</p>
         <p>${escapeAttr(points.accountItemsNote || "")}</p>
       </div>
