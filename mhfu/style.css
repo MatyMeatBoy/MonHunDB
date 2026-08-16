@@ -299,6 +299,20 @@ body {
   color: var(--accent);
 }
 
+/* Keep the current section visible in the top navigation. */
+body[data-page="decorations"] .header-icon-btn[href="decorations"],
+body[data-page="weapons"] .header-icon-btn[href="weapons"],
+body[data-page="armor"] .header-icon-btn[href="armor"],
+body[data-page="materials"] .header-icon-btn[href="materials"],
+body[data-page="skills"] .header-icon-btn[href="skills"],
+body[data-page="quests"] .header-icon-btn[href="quests"] {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, var(--bg-panel));
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 55%, transparent),
+    0 0 12px color-mix(in srgb, var(--accent) 32%, transparent);
+}
+
 .header-icon-btn--label {
   width: auto;
   height: auto;
