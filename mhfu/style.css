@@ -2066,6 +2066,9 @@ body {
   white-space: nowrap;
 }
 .ammo-chip-capacity { font-weight: 600; color: var(--accent); flex: 0 0 auto; }
+/* Weapon-type glyphs normally fill their square filter buttons.  In bow
+   charge rows they sit inside a flexible ammo chip, so constrain only them. */
+.bow-charge-chip .weapon-type-icon { width: 22px; height: 22px; flex: 0 0 22px; }
 
 .quest-stars--key { color: #55a9ff; text-shadow: 0 0 5px rgba(85,169,255,.55); }
 .quest-stars--detail.quest-stars--key { border-color: rgba(85,169,255,.72); }
