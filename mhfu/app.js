@@ -663,6 +663,14 @@ async function loadMaterialTranslations() {
   try {
     const res = await fetch("data/kiranico_item_translations.json");
     if (res.ok) I18N.materials = await res.json();
+    // MHGU Kiranico is used only as a translation dictionary.  Its catalog is
+    // never merged into the MHFU item list; the generated file contains keys
+    // only for items that already exist in mhfu/data/items.json.
+    const mhguRes = await fetch("data/mhgu_item_translations.json");
+    if (mhguRes.ok) {
+      const mhgu = await mhguRes.json();
+      Object.assign(I18N.materials, mhgu.translations || {});
+    }
   } catch (e) {
     console.warn("No se pudieron cargar las traducciones de materiales", e);
   }

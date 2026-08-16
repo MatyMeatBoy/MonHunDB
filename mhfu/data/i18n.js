@@ -849,6 +849,84 @@ const MHFU_MATERIAL_NAME_ES = {
   "Wyvern Skull Shl": "Cráneo de wyvern",
 };
 
+// MHFU stores many high-rank materials with a trailing "+" but the old item
+// export did not carry their Spanish display name.  Keep the compact in-game
+// keys here and derive ordinary variants from the translated base material.
+const MHFU_PLUS_NAME_ES = {
+  "CarapaceonBrain+": "Cerebro de Carapaceon+",
+  "TerritorialDung+": "Excremento territorial+",
+  "Crab Pearl+": "Perla de cangrejo+",
+  "SpecRemobraSkin+": "Piel especial de Remobra+",
+  "ShakalakaTreasr+": "Tesoro de Shakalaka+",
+  "OrangeHypnoPelt+": "Piel naranja de Hypnocatrice+",
+  "Blue Kut-Ku Scl+": "Escama de Yian Kut-Ku Azul+",
+  "SpecRubberyHide+": "Piel gomosa especial+",
+  "HrdBlangongaPlt+": "Piel dura de Blangonga+",
+  "C.BlangongaPelt+": "Piel de Blangonga Cobre+",
+  "HrdCongalalaPlt+": "Piel dura de Congalala+",
+  "HrdCongalalaClw+": "Garra dura de Congalala+",
+  "E.CongalalaPelt+": "Piel de Congalala Esmeralda+",
+  "Blk Rajang Pelt+": "Piel de Rajang Negro+",
+  "GoldRajangPelt+": "Piel de Rajang Dorado+",
+  "SpecPlesiothFin+": "Aleta especial de Plesioth+",
+  "Grn Plsioth Scl+": "Escama de Plesioth Verde+",
+  "Grn Plsioth Fin+": "Aleta de Plesioth Verde+",
+  "SpecGrnPlesioFn+": "Aleta especial de Plesioth Verde+",
+  "SpecLavasioFin+": "Aleta especial de Lavasioth+",
+  "Pnk Rathian Scl+": "Escama de Rathian Rosa+",
+  "Gld Rathian Scl+": "Escama de Rathian Dorada+",
+  "Azre Rthlos Scl+": "Escama de Rathalos Celeste+",
+  "Slvr Rthlos Scl+": "Escama de Rathalos Plateado+",
+  "BlackNargaPelt+": "Piel de Nargacuga Negro+",
+  "DaoraDragonScal+": "Escama de dragón de Daora+",
+  "SpecChameleHide+": "Piel especial de Chameleos+",
+  "Fire Drgn Scl+": "Escama de dragón de fuego+",
+  "Elder Thnk You+": "Agradecimiento del anciano+",
+  "VeggieElderTckt+": "Ticket del Veggie Elder+",
+  "Steadfast Jewel+": "Joya firme+",
+  "Paralysis Jewel+": "Joya paralizante+",
+  "Antidote Jewel+": "Joya antídoto+",
+  "SnowblowerJewel+": "Joya Ventisca+",
+  "StrongShotJewel+": "Joya Disparo potente+",
+  "Pierce Jewel+": "Joya Perforación+",
+  "Pellet Jewel+": "Joya Perdigón+",
+  "SpecialAtkJewel+": "Joya Ataque especial+",
+  "Element Jewel+": "Joya Elemental+",
+  "Cure All Jewel+": "Joya Curatodo+",
+  "Dragonrock+": "Roca dragón+",
+};
+
+const MHFU_PLUS_SUFFIX_ES = [
+  ["Barrel-Bomb", "Bomba barril"], ["Bounce Bomb", "Bomba rebote"],
+  ["Armor Sphere", "Esfera de armadura"], ["Gourmet Fish", "Pez gourmet"],
+  [" Scale", " Escama"], [" Scle", " Escama"], [" Hide", " Piel"],
+  [" Skin", " Piel"], [" Pelt", " Piel"], [" Claw", " Garra"],
+  [" Clw", " Garra"], [" Fang", " Colmillo"], [" Fin", " Aleta"],
+  [" Spike", " Espina"], [" Bezoar", " Bezoar"], [" Horn", " Cuerno"],
+  [" Jewel", " Joya"], ["Ticket", "Ticket"], ["Dragonmoss", "Musgo de dragón"],
+  ["Dragonwood", "Madera de dragón"], ["Pearl", "Perla"], ["Fish", "Pez"]
+];
+
+function translateMhfUPlusMaterial(name) {
+  const key = normalizeMaterialKey(name);
+  if (!key.endsWith("+")) return "";
+  if (MHFU_PLUS_NAME_ES[key]) return MHFU_PLUS_NAME_ES[key];
+  const base = key.slice(0, -1).trim();
+  const baseItem = typeof itemsByName !== "undefined" && (itemsByName.get(base) || itemsByName.get(key));
+  if (baseItem?.nameEs) return `${baseItem.nameEs}+`;
+  for (const [suffix, translatedSuffix] of MHFU_PLUS_SUFFIX_ES) {
+    if (base.endsWith(suffix)) {
+      const prefix = base.slice(0, -suffix.length).trim();
+      if (!prefix) return `${translatedSuffix.trim()}+`;
+      if (/^(?:Scale|Scle|Hide|Skin|Pelt|Claw|Clw|Fang|Fin|Spike|Bezoar|Horn)$/i.test(suffix.trim())) {
+        return `${translatedSuffix.trim()} de ${prefix}+`;
+      }
+      return `${prefix}${translatedSuffix}+`;
+    }
+  }
+  return `${base}+`;
+}
+
 function t(dict, key) {
   if (key === null || key === undefined) return key;
   return dict[key] || key;
@@ -884,5 +962,7 @@ function translateMaterial(name) {
     const it = itemsByName.get(name) || itemsByName.get(key);
     if (it && it.nameEs) return it.nameEs;
   }
+  const plusTranslation = translateMhfUPlusMaterial(key);
+  if (plusTranslation && plusTranslation !== key) return plusTranslation;
   return name;
 }
