@@ -41,7 +41,7 @@
 
 | Recurso | Completo | Falta |
 |---|---:|---:|
-| Renders de monstruos locales | `█████████░` **98,1% (52/53)** | **1 render** |
+| Renders de monstruos locales | `██████████` **100% (53/53)** | 0 |
 | Íconos de objetos | `██████████` **100% de objetos identificables (768/768)** | 7 entradas especiales sin ID de objeto |
 | Imágenes de sets de armadura | `██████████` **100% (159/159)** | 0 |
 | Materiales de sets | `██████████` **100% documentado (156 con materiales + 3 solo zenny)** | 0 sin fuente |
