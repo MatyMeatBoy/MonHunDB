@@ -193,7 +193,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Scale+",
+        "qty": 3
+      },
+      {
+        "material": "Lagiacrus Hide+",
+        "qty": 3
+      },
+      {
+        "material": "Lagiacrus Sapphire",
+        "qty": 1
+      },
+      {
+        "material": "Azure Stargem",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/13/Azure_age_hair_alpha-mhwilds-wiki-guide.png/110px-Azure_age_hair_alpha-mhwilds-wiki-guide.png",
     "setName": "Azure Age α Set"
   },
@@ -228,7 +245,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Carapace",
+        "qty": 5
+      },
+      {
+        "material": "Lagiacrus Scale+",
+        "qty": 5
+      },
+      {
+        "material": "Lagiacrus Horn+",
+        "qty": 3
+      },
+      {
+        "material": "Azure Stargem",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/63/Azure_age_haori_alpha-mhwilds-wiki-guide.png/110px-Azure_age_haori_alpha-mhwilds-wiki-guide.png",
     "setName": "Azure Age α Set"
   },
@@ -263,7 +297,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Bolthorn",
+        "qty": 3
+      },
+      {
+        "material": "Rey Dau Fulgurtalon",
+        "qty": 4
+      },
+      {
+        "material": "Lagiacrus Tail",
+        "qty": 2
+      },
+      {
+        "material": "Azure Stargem",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/6/6e/Azure_age_sleeve_alpha-mhwilds-wiki-guide.png/110px-Azure_age_sleeve_alpha-mhwilds-wiki-guide.png",
     "setName": "Azure Age α Set"
   },
@@ -300,7 +351,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Scale+",
+        "qty": 3
+      },
+      {
+        "material": "Rey Dau Boltgem",
+        "qty": 1
+      },
+      {
+        "material": "Lagiacrus Hide+",
+        "qty": 1
+      },
+      {
+        "material": "Azure Stargem",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/9d/Azure_age_obi_alpha-mhwilds-wiki-guide.png/110px-Azure_age_obi_alpha-mhwilds-wiki-guide.png",
     "setName": "Azure Age α Set"
   },
@@ -337,7 +405,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Tail",
+        "qty": 2
+      },
+      {
+        "material": "Lagiacrus Claw+",
+        "qty": 4
+      },
+      {
+        "material": "Lagiacrus Shockspike",
+        "qty": 3
+      },
+      {
+        "material": "Azure Stargem",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d6/Azure_age_geta_alpha-mhwilds-wiki-guide.png/110px-Azure_age_geta_alpha-mhwilds-wiki-guide.png",
     "setName": "Azure Age α Set"
   },
@@ -370,7 +455,24 @@
         "level": 3
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Gypceros Head",
+        "qty": 1
+      },
+      {
+        "material": "Novacrystal",
+        "qty": 1
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Gala Suit Ticket",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c8/Gala_suit_top_hat-mhwilds-wiki-guide.png/100px-Gala_suit_top_hat-mhwilds-wiki-guide.png",
     "setName": "Gala Suit α Set"
   },
@@ -405,7 +507,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Plate",
+        "qty": 1
+      },
+      {
+        "material": "Gypceros Wing",
+        "qty": 3
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Gala Suit Ticket",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/20/Gala_suit_jacket-mhwilds-wiki-guide.png/100px-Gala_suit_jacket-mhwilds-wiki-guide.png",
     "setName": "Gala Suit α Set"
   },
@@ -438,7 +557,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Boltgem",
+        "qty": 1
+      },
+      {
+        "material": "Gypceros Tail",
+        "qty": 2
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Gala Suit Ticket",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/35/Gala_suit_cuffs-mhwilds-wiki-guide.png/100px-Gala_suit_cuffs-mhwilds-wiki-guide.png",
     "setName": "Gala Suit α Set"
   },
@@ -471,7 +607,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rubbery Hide+",
+        "qty": 4
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Fulgurtalon",
+        "qty": 3
+      },
+      {
+        "material": "Gala Suit Ticket",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f6/Gala_suit_tail-mhwilds-wiki-guide.png/100px-Gala_suit_tail-mhwilds-wiki-guide.png",
     "setName": "Gala Suit α Set"
   },
@@ -506,7 +659,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Scale+",
+        "qty": 4
+      },
+      {
+        "material": "Lightcrystal",
+        "qty": 2
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Gala Suit Ticket",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/30/Gala_suit_slacks-mhwilds-wiki-guide.png/100px-Gala_suit_slacks-mhwilds-wiki-guide.png",
     "setName": "Gala Suit α Set"
   },
@@ -535,7 +705,24 @@
         "level": 3
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Arkveld Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Arkveld Horn+",
+        "qty": 3
+      },
+      {
+        "material": "Arkveld Gem",
+        "qty": 1
+      },
+      {
+        "material": "Arkveld Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ec/Arkvulcan_helm_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_helm_gamma-mhwilds-wiki-guide.png",
     "setName": "Arkveld Gamma Set"
   },
@@ -568,7 +755,24 @@
         "level": 3
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Arkveld Armorplate",
+        "qty": 6
+      },
+      {
+        "material": "White Arkveld Pelt",
+        "qty": 3
+      },
+      {
+        "material": "Arkveld Tail",
+        "qty": 2
+      },
+      {
+        "material": "Arkveld Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/15/Arkvulcan_mail_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_mail_gamma-mhwilds-wiki-guide.png",
     "setName": "Arkveld Gamma Set"
   },
@@ -601,7 +805,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Arkveld Horn+",
+        "qty": 3
+      },
+      {
+        "material": "Arkveld Tail",
+        "qty": 3
+      },
+      {
+        "material": "Dragonbone Relic",
+        "qty": 2
+      },
+      {
+        "material": "Arkveld Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4b/Arkvulcan_vambraces_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_vambraces_gamma-mhwilds-wiki-guide.png",
     "setName": "Arkveld Gamma Set"
   },
@@ -636,7 +857,24 @@
         "level": 3
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Wyvern Gem",
+        "qty": 2
+      },
+      {
+        "material": "Arkveld Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Arkveld Armorplate",
+        "qty": 4
+      },
+      {
+        "material": "Arkveld Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/93/Arkvulcan_coil_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_coil_gamma-mhwilds-wiki-guide.png",
     "setName": "Arkveld Gamma Set"
   },
@@ -669,7 +907,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "White Arkveld Pelt",
+        "qty": 4
+      },
+      {
+        "material": "Arkveld Gem",
+        "qty": 1
+      },
+      {
+        "material": "Arkveld Calloushell",
+        "qty": 3
+      },
+      {
+        "material": "Arkveld Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5a/Arkvulcan_greaves_gamma-mhwilds-wiki-guide.png/100px-Arkvulcan_greaves_gamma-mhwilds-wiki-guide.png",
     "setName": "Arkveld Gamma Set"
   },
@@ -706,7 +961,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Jin Dahaad Horn",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Icegem",
+        "qty": 1
+      },
+      {
+        "material": "Jin Dahaad Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Jin Dahaad Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d7/Dahaad_shardhelm_gamma_typea_mhwilds_fextralife_wiki_guide.png/110px-Dahaad_shardhelm_gamma_typea_mhwilds_fextralife_wiki_guide.png",
     "setName": "Dahaad Gamma Set",
     "nameEs": "Yelmo esquirla Dahaad γ"
@@ -744,7 +1016,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Jin Dahaad Claw+",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Tail",
+        "qty": 2
+      },
+      {
+        "material": "Jin Dahaad Carapace",
+        "qty": 6
+      },
+      {
+        "material": "Jin Dahaad Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/09/Dahaad_shardmail_gamma_typea_mhwilds_fextralife_wiki_guide.png/110px-Dahaad_shardmail_gamma_typea_mhwilds_fextralife_wiki_guide.png",
     "setName": "Dahaad Gamma Set",
     "nameEs": "Cota esquirla Dahaad γ"
@@ -784,7 +1073,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Gracium",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Horn",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Tail",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/86/Dahaad_shardbraces_gamma_typea_mhwilds_fextralife_wiki_guide.png/110px-Dahaad_shardbraces_gamma_typea_mhwilds_fextralife_wiki_guide.png",
     "setName": "Dahaad Gamma Set",
     "nameEs": "Brazales esquirla Dahaad γ"
@@ -824,7 +1130,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Jin Dahaad Claw+",
+        "qty": 4
+      },
+      {
+        "material": "Jin Dahaad Iceplate",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Icegem",
+        "qty": 1
+      },
+      {
+        "material": "Jin Dahaad Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/eb/Dahaad_shardcoil_gamma_typea_mhwilds_fextralife_wiki_guide.png/110px-Dahaad_shardcoil_gamma_typea_mhwilds_fextralife_wiki_guide.png",
     "setName": "Dahaad Gamma Set",
     "nameEs": "Faja esquirla Dahaad γ"
@@ -864,7 +1187,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Wyvern Gem",
+        "qty": 2
+      },
+      {
+        "material": "Jin Dahaad Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Jin Dahaad Carapace",
+        "qty": 4
+      },
+      {
+        "material": "Jin Dahaad Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/14/Dahaad_shardgreaves_gamma_typea_mhwilds_fextralife_wiki_guide.png/110px-Dahaad_shardgreaves_gamma_typea_mhwilds_fextralife_wiki_guide.png",
     "setName": "Dahaad Gamma Set",
     "nameEs": "Grebas esquirla Dahaad γ"
@@ -1816,7 +2156,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Omega Data 1.0",
+        "qty": 1
+      },
+      {
+        "material": "Omega Screw",
+        "qty": 6
+      },
+      {
+        "material": "Omega Spring",
+        "qty": 3
+      },
+      {
+        "material": "Omega Pedal",
+        "qty": 3
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/08/Bale_burgeonet_alpha_monster_hunter_wilds_wiki_guide_200px.png/110px-Bale_burgeonet_alpha_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Bale α Set",
     "nameEs": "Borgoñota aterradora α"
@@ -1852,7 +2209,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Novacrystal",
+        "qty": 2
+      },
+      {
+        "material": "Omega Data 1.0",
+        "qty": 1
+      },
+      {
+        "material": "Omega Spring",
+        "qty": 5
+      },
+      {
+        "material": "Omega Pedal",
+        "qty": 3
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/5a/Bale_cuirass_alpha_monster_hunter_wilds_wiki_guide_200px.png/110px-Bale_cuirass_alpha_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Bale α Set",
     "nameEs": "Pechera aterradora α"
@@ -1892,7 +2266,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Omega Data 1.0",
+        "qty": 1
+      },
+      {
+        "material": "Omega Screw",
+        "qty": 4
+      },
+      {
+        "material": "Omega Lens",
+        "qty": 3
+      },
+      {
+        "material": "Omega Nodule",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/30/Bale_gauntlets_alpha_monster_hunter_wilds_wiki_guide_200px.png/110px-Bale_gauntlets_alpha_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Bale α Set",
     "nameEs": "Brazales aterradores α"
@@ -1932,7 +2323,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Omega Data 1.0",
+        "qty": 1
+      },
+      {
+        "material": "Omega Spring",
+        "qty": 4
+      },
+      {
+        "material": "Omega Axle",
+        "qty": 3
+      },
+      {
+        "material": "Omega Nodule",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/25/Bale_flanchard_alpha_monster_hunter_wilds_wiki_guide_200px.png/110px-Bale_flanchard_alpha_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Bale α Set",
     "nameEs": "Cincho aterrador α"
@@ -1968,7 +2376,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Omega Data 1.0",
+        "qty": 1
+      },
+      {
+        "material": "Omega Screw",
+        "qty": 5
+      },
+      {
+        "material": "Omega Lens",
+        "qty": 2
+      },
+      {
+        "material": "Omega Axle",
+        "qty": 2
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/85/Bale_sollerets_alpha_monster_hunter_wilds_wiki_guide_200px.png/110px-Bale_sollerets_alpha_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Bale α Set",
     "nameEs": "Escarpe aterrador α"
@@ -2008,7 +2433,24 @@
         "level": 3
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Firecell Stone",
+        "qty": 2
+      },
+      {
+        "material": "Nu Udra Tentacle+",
+        "qty": 2
+      },
+      {
+        "material": "Nu Udra Horn+",
+        "qty": 2
+      },
+      {
+        "material": "Nu Udra Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7f/Udra_mirehelm2_gamma-monster-hunter-wilds-wiki-guide-200px.png/85px-Udra_mirehelm2_gamma-monster-hunter-wilds-wiki-guide-200px.png",
     "setName": "Nu Udra Gamma Set",
     "nameEs": "Yelmo fangoso Udra γ"
@@ -2046,7 +2488,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Beast Gem",
+        "qty": 2
+      },
+      {
+        "material": "Nu Udra Spike+",
+        "qty": 3
+      },
+      {
+        "material": "Nu Udra Hide+",
+        "qty": 5
+      },
+      {
+        "material": "Nu Udra Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/71/Udra_miremail2_gamma-monster-hunter-wilds-wiki-guide-200px.png/85px-Udra_miremail2_gamma-monster-hunter-wilds-wiki-guide-200px.png",
     "setName": "Nu Udra Gamma Set",
     "nameEs": "Cota fangosa Udra γ"
@@ -2086,7 +2545,24 @@
         "level": 3
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nu Udra Flamegem",
+        "qty": 1
+      },
+      {
+        "material": "Nu Udra Oilmucus+",
+        "qty": 4
+      },
+      {
+        "material": "Nu Udra Hide+",
+        "qty": 3
+      },
+      {
+        "material": "Nu Udra Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f9/Udra_mirebraces2_gamma-monster-hunter-wilds-wiki-guide-200px.png/85px-Udra_mirebraces2_gamma-monster-hunter-wilds-wiki-guide-200px.png",
     "setName": "Nu Udra Gamma Set",
     "nameEs": "Brazales fangosos Udra γ"
@@ -2126,7 +2602,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nu Udra Flamegem",
+        "qty": 1
+      },
+      {
+        "material": "Nu Udra Tentacle+",
+        "qty": 3
+      },
+      {
+        "material": "Nu Udra Hide+",
+        "qty": 5
+      },
+      {
+        "material": "Nu Udra Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/89/Udra_mirecoil2_gamma-monster-hunter-wilds-wiki-guide-200px.png/85px-Udra_mirecoil2_gamma-monster-hunter-wilds-wiki-guide-200px.png",
     "setName": "Nu Udra Gamma Set",
     "nameEs": "Faja fangosa Udra γ"
@@ -2170,7 +2663,24 @@
         "level": 3
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Nu Udra Cerebrospinal Fluid",
+        "qty": 2
+      },
+      {
+        "material": "Nu Udra Oilmucus+",
+        "qty": 4
+      },
+      {
+        "material": "Nu Udra Spike+",
+        "qty": 6
+      },
+      {
+        "material": "Nu Udra Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/5/56/Udra_miregreaves2_gamma-monster-hunter-wilds-wiki-guide-200px.png/85px-Udra_miregreaves2_gamma-monster-hunter-wilds-wiki-guide-200px.png",
     "setName": "Nu Udra Gamma Set",
     "nameEs": "Grebas fangosas Udra γ"
@@ -6547,7 +7057,16 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Scale",
+        "qty": 1
+      },
+      {
+        "material": "Icium",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/4c/Chainmail_headgear_a_helm_typea_mhwilds_wiki_guide_200px.png/110px-Chainmail_headgear_a_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Chainmail α Set",
     "nameEs": "Yelmo de malla α"
@@ -6579,7 +7098,12 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Scale",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/3/32/Chainmail_armor_a_body_typea_mhwilds_wiki_guide_200px.png/110px-Chainmail_armor_a_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Chainmail α Set",
     "nameEs": "Cota de malla α"
@@ -6611,7 +7135,16 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Scale",
+        "qty": 1
+      },
+      {
+        "material": "Icium",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ef/Chainmail_gloves_a_arm_typea_mhwilds_wiki_guide_200px.png/110px-Chainmail_gloves_a_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Chainmail α Set",
     "nameEs": "Guantes de malla α"
@@ -6643,7 +7176,12 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Scale",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/05/Chainmail_belt_a_waist_typea_mhwilds_wiki_guide_200px.png/110px-Chainmail_belt_a_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Chainmail α Set",
     "nameEs": "Cinturón de malla α"
@@ -6673,7 +7211,16 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Scale",
+        "qty": 1
+      },
+      {
+        "material": "Icium",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/74/Chainmail_pants_a_leg_typea_mhwilds_wiki_guide_200px.png/110px-Chainmail_pants_a_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Chainmail α Set",
     "nameEs": "Pantalones de malla α"
@@ -13332,7 +13879,16 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Sturdy Bone",
+        "qty": 2
+      },
+      {
+        "material": "Iron Ore",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/af/Hope_mask_a_helm_typea_mhwilds_wiki_guide_200px.png/110px-Hope_mask_a_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Hope α Set",
     "nameEs": "Máscara de esperanza α"
@@ -13362,7 +13918,16 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Sturdy Bone",
+        "qty": 1
+      },
+      {
+        "material": "Earth Crystal",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/aa/Hope_mail_a_body_typea_mhwilds_wiki_guide_200px.png/110px-Hope_mail_a_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Hope α Set",
     "nameEs": "Cota de esperanza α"
@@ -13392,7 +13957,16 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Sturdy Bone",
+        "qty": 2
+      },
+      {
+        "material": "Earth Crystal",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/87/Hope_vambraces_a_arm_typea_mhwilds_wiki_guide_200px.png/110px-Hope_vambraces_a_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Hope α Set",
     "nameEs": "Brazales de esperanza α"
@@ -13424,7 +13998,16 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Sturdy Bone",
+        "qty": 1
+      },
+      {
+        "material": "Iron Ore",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/4/41/Hope_coil_a_waist_typea_mhwilds_wiki_guide_200px.png/110px-Hope_coil_a_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Hope α Set",
     "nameEs": "Faja de esperanza α"
@@ -13452,7 +14035,12 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Sturdy Bone",
+        "qty": 3
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2f/Hope_greaves_a_leg_typea_mhwilds_wiki_guide_200px.png/110px-Hope_greaves_a_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Hope α Set",
     "nameEs": "Grebas de esperanza α"
@@ -14744,7 +15332,12 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Pelt",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/d/d9/Leather_headgear_a_helm_typea_mhwilds_wiki_guide_200px.png/110px-Leather_headgear_a_helm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Leather α Set",
     "nameEs": "Lentes de cuero α"
@@ -14776,7 +15369,16 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Machalite Ore",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Pelt",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/8d/Leather_mail_a_body_typea_mhwilds_wiki_guide_200px.png/110px-Leather_mail_a_body_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Leather α Set",
     "nameEs": "Cota de cuero α"
@@ -14808,7 +15410,16 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Machalite Ore",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Pelt",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/ff/Leather_gloves_a_arm_typea_mhwilds_wiki_guide_200px.png/110px-Leather_gloves_a_arm_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Leather α Set",
     "nameEs": "Guantes de cuero α"
@@ -14838,7 +15449,12 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Guardian Pelt",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c1/Leather_belt_a_waist_typea_mhwilds_wiki_guide_200px.png/110px-Leather_belt_a_waist_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Leather α Set",
     "nameEs": "Cinturón de cuero α"
@@ -14870,7 +15486,16 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Machalite Ore",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Pelt",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c0/Leather_pants_a_leg_typea_mhwilds_wiki_guide_200px.png/110px-Leather_pants_a_leg_typea_mhwilds_wiki_guide_200px.png",
     "setName": "Leather α Set",
     "nameEs": "Pantalones de cuero α"
@@ -18217,7 +18842,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Wyvern Gem",
+        "qty": 2
+      },
+      {
+        "material": "Rey Dau Scale+",
+        "qty": 5
+      },
+      {
+        "material": "Rey Dau Bolthorn",
+        "qty": 3
+      },
+      {
+        "material": "Rey Dau Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/1b/Rey-sandhelm-gamma-type-a-head-armor-monster-hunter-wilds-wiki-guide.png/110px-Rey-sandhelm-gamma-type-a-head-armor-monster-hunter-wilds-wiki-guide.png",
     "setName": "Rey Dau Gamma Set",
     "nameEs": "Yelmo de arena de Rey γ"
@@ -18253,7 +18895,24 @@
         "level": 3
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Carapace",
+        "qty": 6
+      },
+      {
+        "material": "Rey Dau Plate",
+        "qty": 2
+      },
+      {
+        "material": "Rey Dau Fulgurtalon",
+        "qty": 3
+      },
+      {
+        "material": "Rey Dau Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/f9/Rey-sandmail-gamma-type-a-chest-armor-monster-hunter-wilds-wiki-guide.png/110px-Rey-sandmail-gamma-type-a-chest-armor-monster-hunter-wilds-wiki-guide.png",
     "setName": "Rey Dau Gamma Set",
     "nameEs": "Cota de arena de Rey γ"
@@ -18291,7 +18950,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Scale+",
+        "qty": 3
+      },
+      {
+        "material": "Rey Dau Boltgem",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Fulgurtalon",
+        "qty": 4
+      },
+      {
+        "material": "Rey Dau Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/f/ff/Rey-sandbraces-type-a-arms-armor-monster-hunter-wilds-wiki-guide.png/110px-Rey-sandbraces-type-a-arms-armor-monster-hunter-wilds-wiki-guide.png",
     "setName": "Rey Dau Gamma Set",
     "nameEs": "Brazales de arena de Rey γ"
@@ -18328,7 +19004,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Carapace",
+        "qty": 5
+      },
+      {
+        "material": "Rey Dau Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Rey Dau Fulgurtalon",
+        "qty": 2
+      },
+      {
+        "material": "Rey Dau Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/0/0d/Rey-sandcoil-gamma-type-a-waist-armor-monster-hunter-wilds-wiki-guide.png/110px-Rey-sandcoil-gamma-type-a-waist-armor-monster-hunter-wilds-wiki-guide.png",
     "setName": "Rey Dau Gamma Set",
     "nameEs": "Faja de arena de Rey γ"
@@ -18368,7 +19061,24 @@
         "level": 3
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Rey Dau Tail",
+        "qty": 2
+      },
+      {
+        "material": "Rey Dau Bolthorn",
+        "qty": 2
+      },
+      {
+        "material": "Novacrystal",
+        "qty": 2
+      },
+      {
+        "material": "Rey Dau Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a4/Rey-sandgreaves-gamma-type-a-leg-armor-monster-hunter-wilds-wiki-guide.png/110px-Rey-sandgreaves-gamma-type-a-leg-armor-monster-hunter-wilds-wiki-guide.png",
     "setName": "Rey Dau Gamma Set",
     "nameEs": "Grebas de arena de Rey γ"
@@ -24264,7 +24974,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Wyvern Gem",
+        "qty": 2
+      },
+      {
+        "material": "Uth Duna Cilia+",
+        "qty": 3
+      },
+      {
+        "material": "Uth Duna Scale+",
+        "qty": 5
+      },
+      {
+        "material": "Uth Duna Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c8/Duna_wildhelm_gamma_type_a_head_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Duna_wildhelm_gamma_type_a_head_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Uth Duna Gamma Set",
     "nameEs": "Yelmo salvaje Duna γ"
@@ -24301,7 +25028,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Uth Duna Plate",
+        "qty": 2
+      },
+      {
+        "material": "Uth Duna Claw+",
+        "qty": 3
+      },
+      {
+        "material": "Uth Duna Hide+",
+        "qty": 6
+      },
+      {
+        "material": "Uth Duna Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/1/12/Duna_wildmail_gamma_type_a_body_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Duna_wildmail_gamma_type_a_body_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Uth Duna Gamma Set",
     "nameEs": "Cota salvaje Duna γ"
@@ -24341,7 +25085,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Uth Duna Claw+",
+        "qty": 2
+      },
+      {
+        "material": "Uth Duna Hide+",
+        "qty": 5
+      },
+      {
+        "material": "Uth Duna Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Uth Duna Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/c/c2/Duna_wildbraces_gamma_type_a_arm_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Duna_wildbraces_gamma_type_a_arm_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Uth Duna Gamma Set",
     "nameEs": "Brazales salvajes Duna γ"
@@ -24379,7 +25140,24 @@
         "level": 2
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Uth Duna Watergem",
+        "qty": 1
+      },
+      {
+        "material": "Uth Duna Claw+",
+        "qty": 4
+      },
+      {
+        "material": "Uth Duna Scale+",
+        "qty": 3
+      },
+      {
+        "material": "Uth Duna Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/88/Duna_wildcoil_gamma_type_a_waist_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Duna_wildcoil_gamma_type_a_waist_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Uth Duna Gamma Set",
     "nameEs": "Faja salvaje Duna γ"
@@ -24423,7 +25201,24 @@
         "level": 1
       }
     ],
-    "materials": [],
+    "materials": [
+      {
+        "material": "Dragonbone Relic",
+        "qty": 2
+      },
+      {
+        "material": "Uth Duna Tentacle+",
+        "qty": 2
+      },
+      {
+        "material": "Uth Duna Cilia+",
+        "qty": 2
+      },
+      {
+        "material": "Uth Duna Certificate γ",
+        "qty": 1
+      }
+    ],
     "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/e3/Duna_wildgreaves_gamma_type_a_leg_armor_monster_hunter_wilds_wiki_guide_200px.png/110px-Duna_wildgreaves_gamma_type_a_leg_armor_monster_hunter_wilds_wiki_guide_200px.png",
     "setName": "Uth Duna Gamma Set",
     "nameEs": "Grebas salvajes Duna γ"

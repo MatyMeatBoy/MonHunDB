@@ -1,6 +1,7 @@
 // Fills the Wilds set-level forging materials that Kiranico does not expose.
 // The source tables list materials per piece; this script preserves those rows
-// as one aggregate set list (duplicates are intentionally retained).
+// as one aggregate set list and copies each row to armor_pieces.json when names
+// match (duplicates are intentionally retained in the set aggregate).
 const fs = require('fs');
 const sources = [
   ['Azure Age α Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/584418'],
@@ -19,23 +20,36 @@ const sources = [
   ['Uth Duna γ Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/536399']
 ];
 const sets = JSON.parse(fs.readFileSync(__dirname + '/armor_sets.json', 'utf8'));
+const pieces = JSON.parse(fs.readFileSync(__dirname + '/armor_pieces.json', 'utf8'));
 const byName = new Map(sets.map(set => [set.name, set]));
+const byPieceName = new Map(pieces.map(piece => [piece.name, piece]));
+const normalizePieceName = name => name.replace(/^Arkvulcan /, 'Arkveld ');
 
 async function main() {
   const updated = [];
   for (const [name, url] of sources) {
     const set = byName.get(name);
-    if (!set || set.materials?.length) continue;
+    if (!set) continue;
     const html = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' } }).then(r => r.text());
     const marker = html.indexOf('Forging Materials</h2>');
     if (marker < 0) throw new Error(`No forging table: ${name}`);
     const end = html.indexOf('<h2', marker + 10);
     const section = html.slice(marker, end < 0 ? undefined : end);
     const materials = [];
+    const pieceUpdates = [];
     for (const row of section.matchAll(/<tr>[\s\S]*?<\/tr>/g)) {
-      for (const match of row[0].matchAll(/<a class='a-link'[^>]*>([\s\S]*?)<\/a>\s*(?:×|&times;)\s*(\d+)/g)) {
+      const rowHtml = row[0];
+      const pieceMatch = rowHtml.match(/<b class='a-bold'>([^<]+)<\/b>/);
+      const rowMaterials = [];
+      for (const match of rowHtml.matchAll(/<a class='a-link'[^>]*>([\s\S]*?)<\/a>\s*(?:×|&times;)\s*(\d+)/g)) {
         const material = match[1].replace(/<[^>]+>/g, '').trim();
-        materials.push({ material, qty: Number(match[2]) });
+        const entry = { material, qty: Number(match[2]) };
+        materials.push(entry);
+        rowMaterials.push(entry);
+      }
+      if (pieceMatch && rowMaterials.length) {
+        const piece = byPieceName.get(normalizePieceName(pieceMatch[1].trim()));
+        if (piece && !piece.materials?.length) { piece.materials = rowMaterials; pieceUpdates.push(piece.name); }
       }
     }
     // Basic LR starter sets can be forged for zenny alone; an empty list is
@@ -44,9 +58,10 @@ async function main() {
     set.materialsSource = url;
     set.materialsNote = materials.length ? undefined : 'Only zenny cost listed by source';
     if (!materials.length) delete set.materialsNote;
-    updated.push({ name, count: materials.length, source: url });
+    updated.push({ name, count: materials.length, pieceUpdates: pieceUpdates.length, source: url });
   }
   fs.writeFileSync(__dirname + '/armor_sets.json', JSON.stringify(sets, null, 2) + '\n');
-  console.log(JSON.stringify({ updated, remaining: sets.filter(s => !s.materials && !s.materialsSource).map(s => s.name) }, null, 2));
+  fs.writeFileSync(__dirname + '/armor_pieces.json', JSON.stringify(pieces, null, 2) + '\n');
+  console.log(JSON.stringify({ updated, pieceMaterials: pieces.filter(p => p.materials?.length).length, remaining: sets.filter(s => !s.materials && !s.materialsSource).map(s => s.name) }, null, 2));
 }
 main().catch(error => { console.error(error); process.exit(1); });
