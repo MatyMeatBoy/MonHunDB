@@ -2088,20 +2088,33 @@ function ammoTableHtml(w) {
   `;
 }
 const BOW_SHOT_ES = { Rapid: "Rápido", Scatter: "Disperso", Pierce: "Perforante" };
-const BOW_COATING_ES = {
-  "Power Coating": "Vial de poder", "Poison Coating": "Vial de veneno",
-  "Paralysis Coating": "Vial paralizante", "Sleep Coating": "Vial de sueño",
-  "Paint Coating": "Vial de pintura", "Close Range Coating": "Vial de corto alcance"
+// The wiki names are readable English labels; two of the MHFU catalogue
+// keys are compact, so use the canonical local item key for their icon and
+// translated in-game name.
+const BOW_COATING_ITEM = {
+  "Power Coating": "Power Coating", "Poison Coating": "Poison Coating",
+  "Paralysis Coating": "ParalysisCoating", "Sleep Coating": "Sleep Coating",
+  "Paint Coating": "Paint Coating", "Close Range Coating": "CloseRngCoating"
 };
 function bowStatsHtml(w) {
   if (w.type !== "Bow") return "";
   const data = bowStats[w.name] || bowStats[Object.keys(bowStats).find(n => n.toLowerCase() === w.name.toLowerCase())];
   if (!data) return "";
-  const shots = (data.charge || []).map(c => `${lang === "es" ? (BOW_SHOT_ES[c.name] || c.name) : c.name} ${c.level}`).join(" · ");
-  const coatings = (data.coatings || []).map(c => lang === "es" ? (BOW_COATING_ES[c] || c) : c).join(" · ");
-  return `<section class="block bow-stats"><h3>${lang === "es" ? "Disparos y viales" : "Shots and coatings"}</h3>
-    <div class="bow-stat-row"><strong>${lang === "es" ? "Tipos de disparo" : "Shot types"}</strong><span>${escapeAttr(shots || "—")}</span></div>
-    <div class="bow-stat-row"><strong>${lang === "es" ? "Viales compatibles" : "Usable coatings"}</strong><span>${escapeAttr(coatings || "—")}</span></div></section>`;
+  const chargeRows = (data.charge || []).map((charge, index) => `
+    <div class="ammo-chip bow-charge-chip">
+      ${weaponTypeIconTag("Bow")}
+      <span class="ammo-chip-name">${lang === "es" ? `Carga ${index + 1}` : `Charge ${index + 1}`}</span>
+      <span class="ammo-chip-capacity">${escapeAttr(lang === "es" ? (BOW_SHOT_ES[charge.name] || charge.name) : charge.name)} ${charge.level}</span>
+    </div>`).join("");
+  const coatingRows = (data.coatings || []).map(coating => {
+    const itemKey = BOW_COATING_ITEM[coating] || coating;
+    const label = lang === "es" ? trMaterial(itemKey) : coating;
+    return `<div class="ammo-chip bow-coating-chip">${materialIconTag(itemKey)}<span class="ammo-chip-name">${escapeAttr(label)}</span></div>`;
+  }).join("");
+  return `<section class="block bow-stats"><h3>${lang === "es" ? "Tipos de disparo" : "Shot types"}</h3>
+    <div class="ammo-grid">${chargeRows || `<p class="no-data">—</p>`}</div></section>
+    <section class="block bow-stats"><h3>${lang === "es" ? "Viales compatibles" : "Usable coatings"}</h3>
+    <div class="ammo-grid">${coatingRows || `<p class="no-data">—</p>`}</div></section>`;
 }
 function trWeaponType(type) {
   return lang === "es" && I18N.weaponTypes ? (I18N.weaponTypes[type] || type) : type;
