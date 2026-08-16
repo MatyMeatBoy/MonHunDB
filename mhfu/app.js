@@ -3152,8 +3152,8 @@ function buildMapGatheringIndex() {
     ? { "low-rank": "Elder / Gremio bajo", "high-rank": "Nekoht / Gremio alto", "g-rank": "Rango G", training: "Escuela de Entrenamiento", treasure: "Caza del Tesoro", All: "Todos los rangos" }
     : { "low-rank": "Elder / Guild Low", "high-rank": "Nekoht / Guild High", "g-rank": "G Rank", training: "Training School", treasure: "Treasure Hunting", All: "All Ranks" };
   const typeLabels = lang === "es"
-    ? { bugnet: "Red de insectos", gather: "Recolección", mining: "Minería", fishing: "Pesca", cat: "Gato", summit: "Cima" }
-    : { bugnet: "Bugnet", gather: "Gather", mining: "Mining", fishing: "Fishing", cat: "Cat", summit: "Summit" };
+    ? { bugnet: "Red de insectos", gather: "Recolección", collecting: "Recolección", mining: "Minería", fishing: "Pesca", cat: "Gato", summit: "Cima" }
+    : { bugnet: "Bugnet", gather: "Gather", collecting: "Collecting", mining: "Mining", fishing: "Fishing", cat: "Cat", summit: "Summit" };
   for (const map of maps) {
     for (const area of map.areas || []) {
       for (const position of area.positions || []) {
@@ -3184,7 +3184,7 @@ function mapGatheringSourcesHtml(matKey) {
   }
   const unique = [...grouped.values()];
   const labels = { SnwyMntains: ["Snowy Mountains", "Montañas Nevadas"], "Forest & Hills": ["Forest and Hills", "Bosque y Colinas"], "Old Jungle": ["Old Jungle", "Jungla antigua"], Jungle: ["Jungle", "Jungla"], Desert: ["Desert", "Desierto"], "Old Desert": ["Old Desert", "Desierto antiguo"], Swamp: ["Swamp", "Pantano"], "Old Swamp": ["Old Swamp", "Pantano antiguo"], Volcano: ["Volcano", "Volcán"], "Old Volcano": ["Old Volcano", "Volcán antiguo"], "Great Forest": ["Great Forest", "Gran Bosque"], "Tower 1": ["Tower", "Torre"], "Tower 2": ["Tower 2", "Torre 2"], "Tower 3": ["Tower 3", "Torre 3"], Fortess: ["Fortress", "Fortaleza"], Town: ["Town", "Ciudad"], "Castle Schrade": ["Castle Schrade", "Castillo Schrade"], Battleground: ["Battleground", "Campo de batalla"], "Snowy Mountain Peak": ["Snowy Mountains Peak", "Cima de las Montañas Nevadas"], Arena: ["Arena", "Arena"], "Moat Arena": ["Moat Arena", "Arena del foso"] };
-  const typeLabels = lang === "es" ? { Bugnet: "Red de insectos", Gather: "Recolección", Mining: "Minería", Fishing: "Pesca", Cat: "Gato", Summit: "Cima" } : {};
+  const typeLabels = lang === "es" ? { Bugnet: "Red de insectos", Gather: "Recolección", collecting: "Recolección", Collecting: "Recolección", Mining: "Minería", Fishing: "Pesca", Cat: "Gato", Summit: "Cima" } : {};
   return '<div class="mhfu-map-sources"><strong>' + ui("materialsMapDetail") + '</strong>' +
     unique.map(entry => '<div><span class="mhfu-map-name">' + escapeAttr((labels[entry.map] || [entry.map])[lang === "es" ? 1 : 0]) + '</span> · ' + escapeAttr(typeLabels[entry.type] || entry.type) + ' · ' + (lang === "es" ? 'Área ' : 'Area ') + entry.area + ' <small>' + escapeAttr(entry.ranks.join(' - ')) + '</small></div>').join("") +
     '</div>';
