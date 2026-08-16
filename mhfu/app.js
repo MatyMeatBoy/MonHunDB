@@ -1601,6 +1601,7 @@ function runGlobalSearch(query) {
   ).slice(0, 8);
   const questMatches = (quests || []).filter(quest =>
     normalizeSearch(quest.name || "").includes(q) ||
+    normalizeSearch(quest.nameEs || "").includes(q) ||
     normalizeSearch(quest.goalCondition || "").includes(q) ||
     (quest.mainMonsters || []).some(monster => normalizeSearch(monster).includes(q) || normalizeSearch(trMonsterName(monster)).includes(q))
   ).slice(0, 8);
@@ -1776,7 +1777,7 @@ function runGlobalSearch(query) {
     html += questMatches.map(quest => `
       <button type="button" class="gs-monster-row" data-quest-id="${escapeAttr(quest.id)}">
         ${quest.mainMonsters?.[0] ? `<img src="${iconPath(quest.mainMonsters[0])}" alt="" loading="lazy">` : `<span class="material-icon material-icon--placeholder"></span>`}
-        <span>${escapeAttr(quest.name)} <span class="gs-source-rank">${escapeAttr(quest.rank)}</span></span>
+        <span>${escapeAttr(lang === "es" && quest.nameEs ? quest.nameEs : quest.name)} <span class="gs-source-rank">${escapeAttr(quest.rank)}</span></span>
       </button>
     `).join("");
     html += `</div>`;
@@ -4814,7 +4815,7 @@ function renderQuestsIndex(query) {
   const q = normalizeSearch((query || "").trim());
   const modeFiltered = quests.filter(qt => questMode(qt) === questsMode && (!questsCategory || questCategory(qt) === questsCategory));
   const filtered = !q ? modeFiltered : modeFiltered.filter(qt =>
-    [qt.name, qt.goalCondition, qt.details, qt.client, qt.location, ...(qt.mainMonsters || [])].filter(Boolean).some(value => normalizeSearch(value).includes(q)));
+    [qt.name, qt.nameEs, qt.goalCondition, qt.details, qt.client, qt.location, ...(qt.mainMonsters || [])].filter(Boolean).some(value => normalizeSearch(value).includes(q)));
 
   if (!filtered.length) {
     questsIndexEl.innerHTML = `<p class="no-data">${ui("questsNoResults")}</p>`;
@@ -4836,7 +4837,7 @@ function renderQuestsIndex(query) {
           <button type="button" class="decoration-card quest-card" data-id="${qt.id}">
             ${questTicketIconTag(qt, true)}
             <span class="quest-card-copy">
-              <span class="decoration-card-name">${escapeAttr(qt.name)}</span>
+              <span class="decoration-card-name">${escapeAttr(lang === "es" && qt.nameEs ? qt.nameEs : qt.name)}</span>
               ${questGoalTag(qt, true)}
               <span class="decoration-card-skill">${questStars(qt) ? `<span class="quest-stars${isKeyQuest(qt) ? " quest-stars--key" : ""}"${isKeyQuest(qt) ? ` title="${escapeAttr(lang === "es" ? "Misión clave" : "Key quest")}"` : ""}>${questStars(qt)}</span> ` : ""}${escapeAttr(questClient(qt) || "—")} · ${escapeAttr(questTypeInfo(qt).label)}</span>
             </span>
@@ -4863,7 +4864,7 @@ function showQuestDetail(id) {
     <a class="decorations-back" href="quests">${ui("questsBack")}</a>
     <div class="decoration-detail-header">
       ${questTicketIconTag(qt)}
-      <h2>${escapeAttr(qt.name)}</h2>
+      <h2>${escapeAttr(lang === "es" && qt.nameEs ? qt.nameEs : qt.name)}</h2>
       <span class="decoration-detail-slot">${escapeAttr(qt.rank)}</span>
     </div>
     <p class="quest-type-line"><span class="quest-type-badge quest-type-badge--${type.color}">${escapeAttr(type.label)}</span>${questStars(qt) ? ` <span class="quest-stars quest-stars--detail${isKeyQuest(qt) ? " quest-stars--key" : ""}"${isKeyQuest(qt) ? ` title="${escapeAttr(lang === "es" ? "Misión clave" : "Key quest")}"` : ""}>${questStars(qt)}</span>` : ""}</p>
