@@ -9,6 +9,17 @@ const OUT = path.join(__dirname, "elotrolado_weapon_translations.json");
 const weapons = JSON.parse(fs.readFileSync(path.join(__dirname, "weapons.json"), "utf8"));
 const ICON_TYPES = { "MhfuGs.png": "Great Sword", "MhfuLs.png": "Long Sword", "Sns.png": "Sword & Shield", "Ds.png": "Dual Blades", "Hm.png": "Hammer", "Hh.png": "Hunting Horn", "Lc.png": "Lance", "Gl.png": "Gunlance", "Bw.png": "Bow" };
 const ELEMENTS = { "Fuego.png": "fire", "Agua.png": "water", "Rayo.png": "thunder", "Trueno.png": "thunder", "Hielo.png": "ice", "Dragon.png": "dragon", "Veneno.png": "poison", "Paralisis.png": "paralysis", "Sueno.png": "sleep" };
+// These labels remain tied after every published stat is compared, but their
+// English and Spanish series names make the source correspondence explicit.
+// Keep this small, source-audited list rather than guessing from materials.
+const MANUAL_SOURCE_TRANSLATIONS = {
+  "Buster Blade G": "Hoja vengadora G", "Bone Blade G": "Hoja de hueso G", "Decapitator G": "Decapitador G", "Carbalite Sword G": "Espada Carbalita G", "Wyvern Agito G": "Agito dragón G", "Enforcer's Axe": "Hacha vengadora", "Ceanataur Blade": "Hoja Ceanataur", "Blue Claw Blade": "Hoja Garra azul", "Tiger Agito": "Agito de tigre", "Rusted Great Sword": "Gran Espada oxidada",
+  "Iron Gunlance": "Lanza Pist. hierro", "Tigrex Gunlance": "Lan. Pis. Tigrex", "Crimson Lance": "Lanza carmesí", "Tarnished Lance": "Lanza deslustrada", "Worn Spear": "Venablo desgastado", "Iron Lance G": "Lanza de hierro G",
+  "Iron Striker+": "Ariete de hierro+", "Ceanataur Head Axe": "Hacha cab. Ceanataur", "Spiked Hammer": "Martillo con púas", "Spiked Hammer+": "Martillo con púas+", "Bone Club": "Garrote de hueso", "Rusted Hammer": "Martillo oxidado", "Worn Hammer": "Martillo desgastado", "Tigrex Hammer": "Martillo Tigrex", "War Hammer G": "Martillo de guerra G", "Atlas Hammer G": "Martillo Atlas G", "Kut-Ku Pick G": "Mandíbula Kut-Ku G", "Hard Bone Hammer G": "Mart. hueso duro G",
+  "Hunter's Bow I": "Arco de caz. I", "Hunter's Bow II": "Arco de caz. II", "Hunter's Bow III": "Arco de caz. III", "Hunter's Bow IV": "Arco de caz. IV", "Wild Bow I": "Arco salvaje I", "Wild Bow II": "Arco salvaje II", "Jungle Bow I": "Arco jungla I", "Jungle Bow II": "Arco jungla II", "Abominable Bow II": "Arco abominable II", "Wolf Bow": "Arco \"Lobo\"", "Crow Bow": "Arco \"Cuervo\"", "Wing Bow II": "Arco ala II", "Blue Blade Bow I": "Arco hoja azul I", "Blue Blade Bow II": "Arco hoja azul II", "Queen Blaster I": "Arco de reina I", "Queen Blaster II": "Arco de reina II", "Queen Blaster III": "Arco de reina III", "Queen Blaster IV": "Arco de reina IV", "Queen Blaster V": "Arco de reina V", "Heartshot Bow I": "Arco tir. cor. I", "Heartshot Bow II": "Arco tir. cor. II", "Tiger Arrow I": "Arco tigre I", "Tiger Arrow II": "Arco tigre II", "Tigrex Whisker": "Bigote Tigrex", "Hidden Bow": "Arco oculto", "Midnight Bow": "Arco medianoche", "Hunter's Bow G": "Arco de cazador G", "Wild Power Bow G": "Arco poder salvaj.G",
+  "Chief Kris G": "Kris Jefe G", "Snake Bite G": "Mordedura serp. G", "Monoblos Club G": "Garrote Monoblos G", "Assassin's Dagger": "Daga de asesino", "Iron Chefblade": "Hoja chef hierro", "Sandman Spike": "Púa nana", "Rusted Sword": "Espada oxidada", "Rex Talon": "Garra Rex", "Tigrex Sword": "Espada Tigrex",
+  "Rex Slicers": "Cortadores Rex", "Tigrex Claws": "Garras Tigrex", "Worn Blades": "Hojas desgastadas", "Tigrex Katana": "Katana Tigrex"
+};
 function decode(s) { return String(s || "").replace(/<[^>]+>/g, " ").replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n))).replace(/&aacute;/g, "á").replace(/&eacute;/g, "é").replace(/&iacute;/g, "í").replace(/&oacute;/g, "ó").replace(/&uacute;/g, "ú").replace(/&ntilde;/g, "ñ").replace(/\s+/g, " ").trim(); }
 function nameKey(s) { return String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, ""); }
 const records = [];
@@ -77,6 +88,10 @@ for (const record of records) {
       if (!translations[sameName[0].name]) translations[sameName[0].name] = record.nameEs;
     } else ambiguous.push({ ...record, candidates: candidates.map(w => w.name) });
   } else unmatched.push(record);
+}
+for (const [weaponName, nameEs] of Object.entries(MANUAL_SOURCE_TRANSLATIONS)) {
+  if (!weapons.some(weapon => weapon.name === weaponName)) throw new Error(`Unknown manual MHFU weapon: ${weaponName}`);
+  if (!translations[weaponName]) translations[weaponName] = nameEs;
 }
 fs.writeFileSync(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), source: "https://www.elotrolado.net/wiki/Especial:Buscar?fulltext=Search&search=Monster+Hunter+Freedom+Unite", matchedWeapons: Object.keys(translations).length, translations, ambiguous, unmatched }, null, 2) + "\n");
 console.log(`Matched ${Object.keys(translations).length} weapons; ${ambiguous.length} ambiguous, ${unmatched.length} unmatched labels retained for review.`);
