@@ -1,0 +1,1482 @@
+[
+  {
+    "id": "missions-desert-trotters",
+    "model": "missions",
+    "slug": "desert-trotters",
+    "name": "Desert Trotters",
+    "nameEs": "Desert Trotters",
+    "source": "https://mhwilds.kiranico.com/data/missions/desert-trotters"
+  },
+  {
+    "id": "missions-back-to-camp",
+    "model": "missions",
+    "slug": "back-to-camp",
+    "name": "Back to Camp",
+    "nameEs": "Back to Camp",
+    "source": "https://mhwilds.kiranico.com/data/missions/back-to-camp"
+  },
+  {
+    "id": "missions-the-beginning",
+    "model": "missions",
+    "slug": "the-beginning",
+    "name": "The Beginning",
+    "nameEs": "The Beginning",
+    "source": "https://mhwilds.kiranico.com/data/missions/the-beginning"
+  },
+  {
+    "id": "missions-village-of-whispering-winds",
+    "model": "missions",
+    "slug": "village-of-whispering-winds",
+    "name": "Village of Whispering Winds",
+    "nameEs": "Village of Whispering Winds",
+    "source": "https://mhwilds.kiranico.com/data/missions/village-of-whispering-winds"
+  },
+  {
+    "id": "missions-to-the-forest",
+    "model": "missions",
+    "slug": "to-the-forest",
+    "name": "To the Forest",
+    "nameEs": "To the Forest",
+    "source": "https://mhwilds.kiranico.com/data/missions/to-the-forest"
+  },
+  {
+    "id": "missions-forest-findings",
+    "model": "missions",
+    "slug": "forest-findings",
+    "name": "Forest Findings",
+    "nameEs": "Forest Findings",
+    "source": "https://mhwilds.kiranico.com/data/missions/forest-findings"
+  },
+  {
+    "id": "missions-the-investigation-continues",
+    "model": "missions",
+    "slug": "the-investigation-continues",
+    "name": "The Investigation Continues",
+    "nameEs": "The Investigation Continues",
+    "source": "https://mhwilds.kiranico.com/data/missions/the-investigation-continues"
+  },
+  {
+    "id": "missions-a-hunters-pride",
+    "model": "missions",
+    "slug": "a-hunters-pride",
+    "name": "A Hunter's Pride",
+    "nameEs": "A Hunter's Pride",
+    "source": "https://mhwilds.kiranico.com/data/missions/a-hunters-pride"
+  },
+  {
+    "id": "missions-pursuit-of-solitude",
+    "model": "missions",
+    "slug": "pursuit-of-solitude",
+    "name": "Pursuit of Solitude",
+    "nameEs": "Pursuit of Solitude",
+    "source": "https://mhwilds.kiranico.com/data/missions/pursuit-of-solitude"
+  },
+  {
+    "id": "missions-beyond-the-deluge",
+    "model": "missions",
+    "slug": "beyond-the-deluge",
+    "name": "Beyond the Deluge",
+    "nameEs": "Beyond the Deluge",
+    "source": "https://mhwilds.kiranico.com/data/missions/beyond-the-deluge"
+  },
+  {
+    "id": "missions-the-whispering-forest",
+    "model": "missions",
+    "slug": "the-whispering-forest",
+    "name": "The Whispering Forest",
+    "nameEs": "The Whispering Forest",
+    "source": "https://mhwilds.kiranico.com/data/missions/the-whispering-forest"
+  },
+  {
+    "id": "missions-spirit-in-the-moonlight",
+    "model": "missions",
+    "slug": "spirit-in-the-moonlight",
+    "name": "Spirit in the Moonlight",
+    "nameEs": "Spirit in the Moonlight",
+    "source": "https://mhwilds.kiranico.com/data/missions/spirit-in-the-moonlight"
+  },
+  {
+    "id": "missions-a-looming-shadow",
+    "model": "missions",
+    "slug": "a-looming-shadow",
+    "name": "A Looming Shadow",
+    "nameEs": "A Looming Shadow",
+    "source": "https://mhwilds.kiranico.com/data/missions/a-looming-shadow"
+  },
+  {
+    "id": "missions-toward-fervent-fields",
+    "model": "missions",
+    "slug": "toward-fervent-fields",
+    "name": "Toward Fervent Fields",
+    "nameEs": "Toward Fervent Fields",
+    "source": "https://mhwilds.kiranico.com/data/missions/toward-fervent-fields"
+  },
+  {
+    "id": "missions-an-unforeseen-storm",
+    "model": "missions",
+    "slug": "an-unforeseen-storm",
+    "name": "An Unforeseen Storm",
+    "nameEs": "An Unforeseen Storm",
+    "source": "https://mhwilds.kiranico.com/data/missions/an-unforeseen-storm"
+  },
+  {
+    "id": "missions-the-eye-of-the-storm",
+    "model": "missions",
+    "slug": "the-eye-of-the-storm",
+    "name": "The Eye of the Storm",
+    "nameEs": "The Eye of the Storm",
+    "source": "https://mhwilds.kiranico.com/data/missions/the-eye-of-the-storm"
+  },
+  {
+    "id": "missions-a-desolate-destination",
+    "model": "missions",
+    "slug": "a-desolate-destination",
+    "name": "A Desolate Destination",
+    "nameEs": "A Desolate Destination",
+    "source": "https://mhwilds.kiranico.com/data/missions/a-desolate-destination"
+  },
+  {
+    "id": "missions-hopes-of-home",
+    "model": "missions",
+    "slug": "hopes-of-home",
+    "name": "Hopes of Home",
+    "nameEs": "Hopes of Home",
+    "source": "https://mhwilds.kiranico.com/data/missions/hopes-of-home"
+  },
+  {
+    "id": "missions-a-disquieting-dawn",
+    "model": "missions",
+    "slug": "a-disquieting-dawn",
+    "name": "A Disquieting Dawn",
+    "nameEs": "A Disquieting Dawn",
+    "source": "https://mhwilds.kiranico.com/data/missions/a-disquieting-dawn"
+  },
+  {
+    "id": "missions-long-forgotten-flame",
+    "model": "missions",
+    "slug": "long-forgotten-flame",
+    "name": "Long-forgotten Flame",
+    "nameEs": "Long-forgotten Flame",
+    "source": "https://mhwilds.kiranico.com/data/missions/long-forgotten-flame"
+  },
+  {
+    "id": "missions-eriks-secret-request",
+    "model": "missions",
+    "slug": "eriks-secret-request",
+    "name": "Erik's Secret Request",
+    "nameEs": "Erik's Secret Request",
+    "source": "https://mhwilds.kiranico.com/data/missions/eriks-secret-request"
+  },
+  {
+    "id": "missions-trembling-blue-currents",
+    "model": "missions",
+    "slug": "trembling-blue-currents",
+    "name": "Trembling Blue Currents",
+    "nameEs": "Trembling Blue Currents",
+    "source": "https://mhwilds.kiranico.com/data/missions/trembling-blue-currents"
+  },
+  {
+    "id": "missions-born-from-the-flame",
+    "model": "missions",
+    "slug": "born-from-the-flame",
+    "name": "Born from the Flame",
+    "nameEs": "Born from the Flame",
+    "source": "https://mhwilds.kiranico.com/data/missions/born-from-the-flame"
+  },
+  {
+    "id": "missions-the-faithful-keepers",
+    "model": "missions",
+    "slug": "the-faithful-keepers",
+    "name": "The Faithful Keepers",
+    "nameEs": "The Faithful Keepers",
+    "source": "https://mhwilds.kiranico.com/data/missions/the-faithful-keepers"
+  },
+  {
+    "id": "missions-indomitable-spirit",
+    "model": "missions",
+    "slug": "indomitable-spirit",
+    "name": "Indomitable Spirit",
+    "nameEs": "Indomitable Spirit",
+    "source": "https://mhwilds.kiranico.com/data/missions/indomitable-spirit"
+  },
+  {
+    "id": "missions-nothing-frozen-nothing-gained",
+    "model": "missions",
+    "slug": "nothing-frozen-nothing-gained",
+    "name": "Nothing Frozen, Nothing Gained",
+    "nameEs": "Nothing Frozen, Nothing Gained",
+    "source": "https://mhwilds.kiranico.com/data/missions/nothing-frozen-nothing-gained"
+  },
+  {
+    "id": "missions-through-the-dusk",
+    "model": "missions",
+    "slug": "through-the-dusk",
+    "name": "Through the Dusk",
+    "nameEs": "Through the Dusk",
+    "source": "https://mhwilds.kiranico.com/data/missions/through-the-dusk"
+  },
+  {
+    "id": "missions-a-path-forward",
+    "model": "missions",
+    "slug": "a-path-forward",
+    "name": "A Path Forward",
+    "nameEs": "A Path Forward",
+    "source": "https://mhwilds.kiranico.com/data/missions/a-path-forward"
+  },
+  {
+    "id": "missions-full-circle",
+    "model": "missions",
+    "slug": "full-circle",
+    "name": "Full Circle",
+    "nameEs": "Full Circle",
+    "source": "https://mhwilds.kiranico.com/data/missions/full-circle"
+  },
+  {
+    "id": "missions-dawn-breaks",
+    "model": "missions",
+    "slug": "dawn-breaks",
+    "name": "Dawn Breaks",
+    "nameEs": "Dawn Breaks",
+    "source": "https://mhwilds.kiranico.com/data/missions/dawn-breaks"
+  },
+  {
+    "id": "missions-broken-chains",
+    "model": "missions",
+    "slug": "broken-chains",
+    "name": "Broken Chains",
+    "nameEs": "Broken Chains",
+    "source": "https://mhwilds.kiranico.com/data/missions/broken-chains"
+  },
+  {
+    "id": "missions-visions-of-hope",
+    "model": "missions",
+    "slug": "visions-of-hope",
+    "name": "Visions of Hope",
+    "nameEs": "Visions of Hope",
+    "source": "https://mhwilds.kiranico.com/data/missions/visions-of-hope"
+  },
+  {
+    "id": "missions-monster-hunter",
+    "model": "missions",
+    "slug": "monster-hunter",
+    "name": "Monster Hunter",
+    "nameEs": "Monster Hunter",
+    "source": "https://mhwilds.kiranico.com/data/missions/monster-hunter"
+  },
+  {
+    "id": "missions-kunafas-curious-quandary",
+    "model": "missions",
+    "slug": "kunafas-curious-quandary",
+    "name": "Kunafa's Curious Quandary",
+    "nameEs": "Kunafa's Curious Quandary",
+    "source": "https://mhwilds.kiranico.com/data/missions/kunafas-curious-quandary"
+  },
+  {
+    "id": "missions-clear-with-a-chance-of-sandstorm",
+    "model": "missions",
+    "slug": "clear-with-a-chance-of-sandstorm",
+    "name": "Clear with a Chance of Sandstorm",
+    "nameEs": "Clear with a Chance of Sandstorm",
+    "source": "https://mhwilds.kiranico.com/data/missions/clear-with-a-chance-of-sandstorm"
+  },
+  {
+    "id": "missions-a-visitor-from-the-west",
+    "model": "missions",
+    "slug": "a-visitor-from-the-west",
+    "name": "A Visitor from the West",
+    "nameEs": "A Visitor from the West",
+    "source": "https://mhwilds.kiranico.com/data/missions/a-visitor-from-the-west"
+  },
+  {
+    "id": "missions-new-ecosystems",
+    "model": "missions",
+    "slug": "new-ecosystems",
+    "name": "New Ecosystems",
+    "nameEs": "New Ecosystems",
+    "source": "https://mhwilds.kiranico.com/data/missions/new-ecosystems"
+  },
+  {
+    "id": "missions-chasing-change",
+    "model": "missions",
+    "slug": "chasing-change",
+    "name": "Chasing Change",
+    "nameEs": "Chasing Change",
+    "source": "https://mhwilds.kiranico.com/data/missions/chasing-change"
+  },
+  {
+    "id": "missions-rendezvous",
+    "model": "missions",
+    "slug": "rendezvous",
+    "name": "Rendezvous",
+    "nameEs": "Rendezvous",
+    "source": "https://mhwilds.kiranico.com/data/missions/rendezvous"
+  },
+  {
+    "id": "missions-lurking-shadows",
+    "model": "missions",
+    "slug": "lurking-shadows",
+    "name": "Lurking Shadows",
+    "nameEs": "Lurking Shadows",
+    "source": "https://mhwilds.kiranico.com/data/missions/lurking-shadows"
+  },
+  {
+    "id": "missions-touring-history",
+    "model": "missions",
+    "slug": "touring-history",
+    "name": "Touring History",
+    "nameEs": "Touring History",
+    "source": "https://mhwilds.kiranico.com/data/missions/touring-history"
+  },
+  {
+    "id": "missions-to-wyverns-rest",
+    "model": "missions",
+    "slug": "to-wyverns-rest",
+    "name": "To Wyvern's Rest",
+    "nameEs": "To Wyvern's Rest",
+    "source": "https://mhwilds.kiranico.com/data/missions/to-wyverns-rest"
+  },
+  {
+    "id": "missions-wyvern-sparks-and-rose-thorns",
+    "model": "missions",
+    "slug": "wyvern-sparks-and-rose-thorns",
+    "name": "Wyvern Sparks and Rose Thorns",
+    "nameEs": "Wyvern Sparks and Rose Thorns",
+    "source": "https://mhwilds.kiranico.com/data/missions/wyvern-sparks-and-rose-thorns"
+  },
+  {
+    "id": "missions-the-artifacts-words",
+    "model": "missions",
+    "slug": "the-artifacts-words",
+    "name": "The Artifact's Words",
+    "nameEs": "The Artifact's Words",
+    "source": "https://mhwilds.kiranico.com/data/missions/the-artifacts-words"
+  },
+  {
+    "id": "missions-the-beacon-of-invasion",
+    "model": "missions",
+    "slug": "the-beacon-of-invasion",
+    "name": "The Beacon of Invasion",
+    "nameEs": "The Beacon of Invasion",
+    "source": "https://mhwilds.kiranico.com/data/missions/the-beacon-of-invasion"
+  },
+  {
+    "id": "missions-premonitions",
+    "model": "missions",
+    "slug": "premonitions",
+    "name": "Premonitions",
+    "nameEs": "Premonitions",
+    "source": "https://mhwilds.kiranico.com/data/missions/premonitions"
+  },
+  {
+    "id": "missions-omens",
+    "model": "missions",
+    "slug": "omens",
+    "name": "Omens",
+    "nameEs": "Omens",
+    "source": "https://mhwilds.kiranico.com/data/missions/omens"
+  },
+  {
+    "id": "missions-storm-cold-vortex",
+    "model": "missions",
+    "slug": "storm-cold-vortex",
+    "name": "Storm-cold Vortex",
+    "nameEs": "Storm-cold Vortex",
+    "source": "https://mhwilds.kiranico.com/data/missions/storm-cold-vortex"
+  },
+  {
+    "id": "missions-the-root-cause",
+    "model": "missions",
+    "slug": "the-root-cause",
+    "name": "The Root Cause",
+    "nameEs": "The Root Cause",
+    "source": "https://mhwilds.kiranico.com/data/missions/the-root-cause"
+  },
+  {
+    "id": "missions-a-torrent-of-energy",
+    "model": "missions",
+    "slug": "a-torrent-of-energy",
+    "name": "A Torrent of Energy",
+    "nameEs": "A Torrent of Energy",
+    "source": "https://mhwilds.kiranico.com/data/missions/a-torrent-of-energy"
+  },
+  {
+    "id": "missions-a-world-turned-upside-down",
+    "model": "missions",
+    "slug": "a-world-turned-upside-down",
+    "name": "A World Turned Upside Down",
+    "nameEs": "A World Turned Upside Down",
+    "source": "https://mhwilds.kiranico.com/data/missions/a-world-turned-upside-down"
+  },
+  {
+    "id": "missions-a-break-in-the-clouds",
+    "model": "missions",
+    "slug": "a-break-in-the-clouds",
+    "name": "A Break in the Clouds",
+    "nameEs": "A Break in the Clouds",
+    "source": "https://mhwilds.kiranico.com/data/missions/a-break-in-the-clouds"
+  },
+  {
+    "id": "missions-a-peak-predicament",
+    "model": "missions",
+    "slug": "a-peak-predicament",
+    "name": "A Peak Predicament",
+    "nameEs": "A Peak Predicament",
+    "source": "https://mhwilds.kiranico.com/data/missions/a-peak-predicament"
+  },
+  {
+    "id": "missions-invader-from-the-stars",
+    "model": "missions",
+    "slug": "invader-from-the-stars",
+    "name": "Invader from the Stars",
+    "nameEs": "Invader from the Stars",
+    "source": "https://mhwilds.kiranico.com/data/missions/invader-from-the-stars"
+  },
+  {
+    "id": "missions-links-in-a-chain",
+    "model": "missions",
+    "slug": "links-in-a-chain",
+    "name": "Links in a Chain",
+    "nameEs": "Links in a Chain",
+    "source": "https://mhwilds.kiranico.com/data/missions/links-in-a-chain"
+  },
+  {
+    "id": "missions-what-lies-ahead",
+    "model": "missions",
+    "slug": "what-lies-ahead",
+    "name": "What Lies Ahead",
+    "nameEs": "What Lies Ahead",
+    "source": "https://mhwilds.kiranico.com/data/missions/what-lies-ahead"
+  },
+  {
+    "id": "missions-an-unexpected-summons",
+    "model": "missions",
+    "slug": "an-unexpected-summons",
+    "name": "An Unexpected Summons",
+    "nameEs": "An Unexpected Summons",
+    "source": "https://mhwilds.kiranico.com/data/missions/an-unexpected-summons"
+  },
+  {
+    "id": "missions-a-first-cry",
+    "model": "missions",
+    "slug": "a-first-cry",
+    "name": "A First Cry",
+    "nameEs": "A First Cry",
+    "source": "https://mhwilds.kiranico.com/data/missions/a-first-cry"
+  },
+  {
+    "id": "missions-an-ancient-resting-place",
+    "model": "missions",
+    "slug": "an-ancient-resting-place",
+    "name": "An Ancient Resting Place",
+    "nameEs": "An Ancient Resting Place",
+    "source": "https://mhwilds.kiranico.com/data/missions/an-ancient-resting-place"
+  },
+  {
+    "id": "missions-healing-help",
+    "model": "missions",
+    "slug": "healing-help",
+    "name": "Healing Help",
+    "nameEs": "Healing Help",
+    "source": "https://mhwilds.kiranico.com/data/missions/healing-help"
+  },
+  {
+    "id": "missions-flash-course",
+    "model": "missions",
+    "slug": "flash-course",
+    "name": "Flash Course",
+    "nameEs": "Flash Course",
+    "source": "https://mhwilds.kiranico.com/data/missions/flash-course"
+  },
+  {
+    "id": "missions-a-gutsy-move",
+    "model": "missions",
+    "slug": "a-gutsy-move",
+    "name": "A Gutsy Move",
+    "nameEs": "A Gutsy Move",
+    "source": "https://mhwilds.kiranico.com/data/missions/a-gutsy-move"
+  },
+  {
+    "id": "missions-rath-from-above-go",
+    "model": "missions",
+    "slug": "rath-from-above-go",
+    "name": "Rath-from-Above, Go!",
+    "nameEs": "Rath-from-Above, Go!",
+    "source": "https://mhwilds.kiranico.com/data/missions/rath-from-above-go"
+  },
+  {
+    "id": "missions-purrfect-plundering",
+    "model": "missions",
+    "slug": "purrfect-plundering",
+    "name": "Purrfect Plundering",
+    "nameEs": "Purrfect Plundering",
+    "source": "https://mhwilds.kiranico.com/data/missions/purrfect-plundering"
+  },
+  {
+    "id": "missions-fishing-life-in-microcosm",
+    "model": "missions",
+    "slug": "fishing-life-in-microcosm",
+    "name": "Fishing: Life, in Microcosm",
+    "nameEs": "Fishing: Life, in Microcosm",
+    "source": "https://mhwilds.kiranico.com/data/missions/fishing-life-in-microcosm"
+  },
+  {
+    "id": "missions-seeking-the-goldenfish",
+    "model": "missions",
+    "slug": "seeking-the-goldenfish",
+    "name": "Seeking the Goldenfish",
+    "nameEs": "Seeking the Goldenfish",
+    "source": "https://mhwilds.kiranico.com/data/missions/seeking-the-goldenfish"
+  },
+  {
+    "id": "missions-fishing-for-flavor",
+    "model": "missions",
+    "slug": "fishing-for-flavor",
+    "name": "Fishing for Flavor",
+    "nameEs": "Fishing for Flavor",
+    "source": "https://mhwilds.kiranico.com/data/missions/fishing-for-flavor"
+  },
+  {
+    "id": "missions-the-catch-of-a-lifetime",
+    "model": "missions",
+    "slug": "the-catch-of-a-lifetime",
+    "name": "The Catch of a Lifetime!",
+    "nameEs": "The Catch of a Lifetime!",
+    "source": "https://mhwilds.kiranico.com/data/missions/the-catch-of-a-lifetime"
+  },
+  {
+    "id": "missions-razzle-dazzle",
+    "model": "missions",
+    "slug": "razzle-dazzle",
+    "name": "Razzle Dazzle",
+    "nameEs": "Razzle Dazzle",
+    "source": "https://mhwilds.kiranico.com/data/missions/razzle-dazzle"
+  },
+  {
+    "id": "missions-dareels-research-report",
+    "model": "missions",
+    "slug": "dareels-research-report",
+    "name": "Dareel's Research Report",
+    "nameEs": "Dareel's Research Report",
+    "source": "https://mhwilds.kiranico.com/data/missions/dareels-research-report"
+  },
+  {
+    "id": "missions-samins-research-report",
+    "model": "missions",
+    "slug": "samins-research-report",
+    "name": "Samin's Research Report",
+    "nameEs": "Samin's Research Report",
+    "source": "https://mhwilds.kiranico.com/data/missions/samins-research-report"
+  },
+  {
+    "id": "missions-dareels-research-report-cont",
+    "model": "missions",
+    "slug": "dareels-research-report-cont",
+    "name": "Dareel's Research Report (Cont.)",
+    "nameEs": "Dareel's Research Report (Cont.)",
+    "source": "https://mhwilds.kiranico.com/data/missions/dareels-research-report-cont"
+  },
+  {
+    "id": "missions-samins-research-report-cont",
+    "model": "missions",
+    "slug": "samins-research-report-cont",
+    "name": "Samin's Research Report (Cont.)",
+    "nameEs": "Samin's Research Report (Cont.)",
+    "source": "https://mhwilds.kiranico.com/data/missions/samins-research-report-cont"
+  },
+  {
+    "id": "missions-dareels-special-research-report",
+    "model": "missions",
+    "slug": "dareels-special-research-report",
+    "name": "Dareel's Special Research Report",
+    "nameEs": "Dareel's Special Research Report",
+    "source": "https://mhwilds.kiranico.com/data/missions/dareels-special-research-report"
+  },
+  {
+    "id": "missions-samins-special-research-report",
+    "model": "missions",
+    "slug": "samins-special-research-report",
+    "name": "Samin's Special Research Report",
+    "nameEs": "Samin's Special Research Report",
+    "source": "https://mhwilds.kiranico.com/data/missions/samins-special-research-report"
+  },
+  {
+    "id": "missions-high-quality-materials",
+    "model": "missions",
+    "slug": "high-quality-materials",
+    "name": "High-Quality Materials",
+    "nameEs": "High-Quality Materials",
+    "source": "https://mhwilds.kiranico.com/data/missions/high-quality-materials"
+  },
+  {
+    "id": "missions-beware-the-gypceros",
+    "model": "missions",
+    "slug": "beware-the-gypceros",
+    "name": "Beware the Gypceros",
+    "nameEs": "Beware the Gypceros",
+    "source": "https://mhwilds.kiranico.com/data/missions/beware-the-gypceros"
+  },
+  {
+    "id": "missions-smithys-seal-of-quality",
+    "model": "missions",
+    "slug": "smithys-seal-of-quality",
+    "name": "Smithy's Seal of Quality",
+    "nameEs": "Smithy's Seal of Quality",
+    "source": "https://mhwilds.kiranico.com/data/missions/smithys-seal-of-quality"
+  },
+  {
+    "id": "missions-make-fluffy-dealings",
+    "model": "missions",
+    "slug": "make-fluffy-dealings",
+    "name": "Make Fluffy Dealings",
+    "nameEs": "Make Fluffy Dealings",
+    "source": "https://mhwilds.kiranico.com/data/missions/make-fluffy-dealings"
+  },
+  {
+    "id": "missions-aidas-apprehensions",
+    "model": "missions",
+    "slug": "aidas-apprehensions",
+    "name": "Aida's Apprehensions",
+    "nameEs": "Aida's Apprehensions",
+    "source": "https://mhwilds.kiranico.com/data/missions/aidas-apprehensions"
+  },
+  {
+    "id": "missions-aberrant-atrocity",
+    "model": "missions",
+    "slug": "aberrant-atrocity",
+    "name": "Aberrant Atrocity",
+    "nameEs": "Aberrant Atrocity",
+    "source": "https://mhwilds.kiranico.com/data/missions/aberrant-atrocity"
+  },
+  {
+    "id": "missions-secure-wounded-hollow",
+    "model": "missions",
+    "slug": "secure-wounded-hollow",
+    "name": "Secure Wounded Hollow",
+    "nameEs": "Secure Wounded Hollow",
+    "source": "https://mhwilds.kiranico.com/data/missions/secure-wounded-hollow"
+  },
+  {
+    "id": "missions-a-leviathans-temper",
+    "model": "missions",
+    "slug": "a-leviathans-temper",
+    "name": "A Leviathan's Temper",
+    "nameEs": "A Leviathan's Temper",
+    "source": "https://mhwilds.kiranico.com/data/missions/a-leviathans-temper"
+  },
+  {
+    "id": "missions-forest-doshaguma",
+    "model": "missions",
+    "slug": "forest-doshaguma",
+    "name": "Forest Doshaguma",
+    "nameEs": "Forest Doshaguma",
+    "source": "https://mhwilds.kiranico.com/data/missions/forest-doshaguma"
+  },
+  {
+    "id": "missions-succulent-scraps",
+    "model": "missions",
+    "slug": "succulent-scraps",
+    "name": "Succulent Scraps",
+    "nameEs": "Succulent Scraps",
+    "source": "https://mhwilds.kiranico.com/data/missions/succulent-scraps"
+  },
+  {
+    "id": "missions-what-we-protect",
+    "model": "missions",
+    "slug": "what-we-protect",
+    "name": "What We Protect",
+    "nameEs": "What We Protect",
+    "source": "https://mhwilds.kiranico.com/data/missions/what-we-protect"
+  },
+  {
+    "id": "missions-werners-test-run",
+    "model": "missions",
+    "slug": "werners-test-run",
+    "name": "Werner's Test Run",
+    "nameEs": "Werner's Test Run",
+    "source": "https://mhwilds.kiranico.com/data/missions/werners-test-run"
+  },
+  {
+    "id": "missions-astonishing-adaptability",
+    "model": "missions",
+    "slug": "astonishing-adaptability",
+    "name": "Astonishing Adaptability",
+    "nameEs": "Astonishing Adaptability",
+    "source": "https://mhwilds.kiranico.com/data/missions/astonishing-adaptability"
+  },
+  {
+    "id": "missions-as-gatekeeper",
+    "model": "missions",
+    "slug": "as-gatekeeper",
+    "name": "As Gatekeeper",
+    "nameEs": "As Gatekeeper",
+    "source": "https://mhwilds.kiranico.com/data/missions/as-gatekeeper"
+  },
+  {
+    "id": "missions-continuing-conflict",
+    "model": "missions",
+    "slug": "continuing-conflict",
+    "name": "Continuing Conflict",
+    "nameEs": "Continuing Conflict",
+    "source": "https://mhwilds.kiranico.com/data/missions/continuing-conflict"
+  },
+  {
+    "id": "missions-fur-damagings-are-dislikeworthy",
+    "model": "missions",
+    "slug": "fur-damagings-are-dislikeworthy",
+    "name": "Fur Damagings Are Dislikeworthy",
+    "nameEs": "Fur Damagings Are Dislikeworthy",
+    "source": "https://mhwilds.kiranico.com/data/missions/fur-damagings-are-dislikeworthy"
+  },
+  {
+    "id": "missions-troublemakers",
+    "model": "missions",
+    "slug": "troublemakers",
+    "name": "Troublemakers",
+    "nameEs": "Troublemakers",
+    "source": "https://mhwilds.kiranico.com/data/missions/troublemakers"
+  },
+  {
+    "id": "missions-echoing-from-the-cliffs",
+    "model": "missions",
+    "slug": "echoing-from-the-cliffs",
+    "name": "Echoing from the Cliffs",
+    "nameEs": "Echoing from the Cliffs",
+    "source": "https://mhwilds.kiranico.com/data/missions/echoing-from-the-cliffs"
+  },
+  {
+    "id": "missions-the-struggle-to-survive",
+    "model": "missions",
+    "slug": "the-struggle-to-survive",
+    "name": "The Struggle to Survive",
+    "nameEs": "The Struggle to Survive",
+    "source": "https://mhwilds.kiranico.com/data/missions/the-struggle-to-survive"
+  },
+  {
+    "id": "missions-the-apple-of-her-eye",
+    "model": "missions",
+    "slug": "the-apple-of-her-eye",
+    "name": "The Apple of Her Eye",
+    "nameEs": "The Apple of Her Eye",
+    "source": "https://mhwilds.kiranico.com/data/missions/the-apple-of-her-eye"
+  },
+  {
+    "id": "missions-ultimate-strength",
+    "model": "missions",
+    "slug": "ultimate-strength",
+    "name": "Ultimate Strength",
+    "nameEs": "Ultimate Strength",
+    "source": "https://mhwilds.kiranico.com/data/missions/ultimate-strength"
+  },
+  {
+    "id": "missions-new-fashion-old-feelings",
+    "model": "missions",
+    "slug": "new-fashion-old-feelings",
+    "name": "New Fashion, Old Feelings",
+    "nameEs": "New Fashion, Old Feelings",
+    "source": "https://mhwilds.kiranico.com/data/missions/new-fashion-old-feelings"
+  },
+  {
+    "id": "missions-awakening-the-past",
+    "model": "missions",
+    "slug": "awakening-the-past",
+    "name": "Awakening the Past",
+    "nameEs": "Awakening the Past",
+    "source": "https://mhwilds.kiranico.com/data/missions/awakening-the-past"
+  },
+  {
+    "id": "missions-ghosts-pay-no-heed-to-tomorrow",
+    "model": "missions",
+    "slug": "ghosts-pay-no-heed-to-tomorrow",
+    "name": "Ghosts Pay No Heed to Tomorrow",
+    "nameEs": "Ghosts Pay No Heed to Tomorrow",
+    "source": "https://mhwilds.kiranico.com/data/missions/ghosts-pay-no-heed-to-tomorrow"
+  },
+  {
+    "id": "quests-hot-on-their-tails",
+    "model": "quests",
+    "slug": "hot-on-their-tails",
+    "name": "[Assignments 1★] Hot on Their Tails",
+    "nameEs": "[Assignments 1★] Hot on Their Tails",
+    "source": "https://mhwilds.kiranico.com/data/quests/hot-on-their-tails"
+  },
+  {
+    "id": "quests-a-stage-of-rose-and-thorn",
+    "model": "quests",
+    "slug": "a-stage-of-rose-and-thorn",
+    "name": "[Assignments 1★] A Stage of Rose and Thorn",
+    "nameEs": "[Assignments 1★] A Stage of Rose and Thorn",
+    "source": "https://mhwilds.kiranico.com/data/quests/a-stage-of-rose-and-thorn"
+  },
+  {
+    "id": "quests-drive-off-the-congalala",
+    "model": "quests",
+    "slug": "drive-off-the-congalala",
+    "name": "[Assignments 1★] Drive Off the Congalala!",
+    "nameEs": "[Assignments 1★] Drive Off the Congalala!",
+    "source": "https://mhwilds.kiranico.com/data/quests/drive-off-the-congalala"
+  },
+  {
+    "id": "quests-balahara-of-the-sandsea",
+    "model": "quests",
+    "slug": "balahara-of-the-sandsea",
+    "name": "[Assignments 1★] Balahara of the Sandsea",
+    "nameEs": "[Assignments 1★] Balahara of the Sandsea",
+    "source": "https://mhwilds.kiranico.com/data/quests/balahara-of-the-sandsea"
+  },
+  {
+    "id": "quests-a-feast-in-the-deep",
+    "model": "quests",
+    "slug": "a-feast-in-the-deep",
+    "name": "[Assignments 2★] A Feast in the Deep",
+    "nameEs": "[Assignments 2★] A Feast in the Deep",
+    "source": "https://mhwilds.kiranico.com/data/quests/a-feast-in-the-deep"
+  },
+  {
+    "id": "quests-a-fuse-ignited",
+    "model": "quests",
+    "slug": "a-fuse-ignited",
+    "name": "[Assignments 2★] A Fuse Ignited",
+    "nameEs": "[Assignments 2★] A Fuse Ignited",
+    "source": "https://mhwilds.kiranico.com/data/quests/a-fuse-ignited"
+  },
+  {
+    "id": "quests-a-merciless-glare",
+    "model": "quests",
+    "slug": "a-merciless-glare",
+    "name": "[Assignments 2★] A Merciless Glare",
+    "nameEs": "[Assignments 2★] A Merciless Glare",
+    "source": "https://mhwilds.kiranico.com/data/quests/a-merciless-glare"
+  },
+  {
+    "id": "quests-the-quiet-cunning-assassin",
+    "model": "quests",
+    "slug": "the-quiet-cunning-assassin",
+    "name": "[Assignments 2★] The Quiet, Cunning Assassin",
+    "nameEs": "[Assignments 2★] The Quiet, Cunning Assassin",
+    "source": "https://mhwilds.kiranico.com/data/quests/the-quiet-cunning-assassin"
+  },
+  {
+    "id": "quests-fight-or-flight",
+    "model": "quests",
+    "slug": "fight-or-flight",
+    "name": "[Assignments 2★] Fight or Flight",
+    "nameEs": "[Assignments 2★] Fight or Flight",
+    "source": "https://mhwilds.kiranico.com/data/quests/fight-or-flight"
+  },
+  {
+    "id": "quests-ajarakan-ablaze",
+    "model": "quests",
+    "slug": "ajarakan-ablaze",
+    "name": "[Assignments 2★] Ajarakan Ablaze",
+    "nameEs": "[Assignments 2★] Ajarakan Ablaze",
+    "source": "https://mhwilds.kiranico.com/data/quests/ajarakan-ablaze"
+  },
+  {
+    "id": "quests-an-ominous-encounter",
+    "model": "quests",
+    "slug": "an-ominous-encounter",
+    "name": "[Assignments 3★] An Ominous Encounter",
+    "nameEs": "[Assignments 3★] An Ominous Encounter",
+    "source": "https://mhwilds.kiranico.com/data/quests/an-ominous-encounter"
+  },
+  {
+    "id": "quests-the-ashen-king",
+    "model": "quests",
+    "slug": "the-ashen-king",
+    "name": "[Assignments 3★] The Ashen King",
+    "nameEs": "[Assignments 3★] The Ashen King",
+    "source": "https://mhwilds.kiranico.com/data/quests/the-ashen-king"
+  },
+  {
+    "id": "quests-repel-the",
+    "model": "quests",
+    "slug": "repel-the",
+    "name": "[Assignments 3★] Repel the",
+    "nameEs": "[Assignments 3★] Repel the",
+    "source": "https://mhwilds.kiranico.com/data/quests/repel-the"
+  },
+  {
+    "id": "quests-the-rimechain-trial",
+    "model": "quests",
+    "slug": "the-rimechain-trial",
+    "name": "[Assignments 3★] The Rimechain Trial",
+    "nameEs": "[Assignments 3★] The Rimechain Trial",
+    "source": "https://mhwilds.kiranico.com/data/quests/the-rimechain-trial"
+  },
+  {
+    "id": "quests-watcher-of-the-ancient-capital",
+    "model": "quests",
+    "slug": "watcher-of-the-ancient-capital",
+    "name": "[Assignments 3★] Watcher of the Ancient Capital",
+    "nameEs": "[Assignments 3★] Watcher of the Ancient Capital",
+    "source": "https://mhwilds.kiranico.com/data/quests/watcher-of-the-ancient-capital"
+  },
+  {
+    "id": "quests-a-hunter-in-the-void",
+    "model": "quests",
+    "slug": "a-hunter-in-the-void",
+    "name": "[Assignments 3★] A Hunter in the Void",
+    "nameEs": "[Assignments 3★] A Hunter in the Void",
+    "source": "https://mhwilds.kiranico.com/data/quests/a-hunter-in-the-void"
+  },
+  {
+    "id": "quests-the-pale-dream-of-a-lone-shadow",
+    "model": "quests",
+    "slug": "the-pale-dream-of-a-lone-shadow",
+    "name": "[Assignments 3★] The Pale Dream of a Lone Shadow",
+    "nameEs": "[Assignments 3★] The Pale Dream of a Lone Shadow",
+    "source": "https://mhwilds.kiranico.com/data/quests/the-pale-dream-of-a-lone-shadow"
+  },
+  {
+    "id": "quests-guardian-zoh-shia",
+    "model": "quests",
+    "slug": "guardian-zoh-shia",
+    "name": "[Assignments 3★] Guardian Zoh Shia",
+    "nameEs": "[Assignments 3★] Guardian Zoh Shia",
+    "source": "https://mhwilds.kiranico.com/data/quests/guardian-zoh-shia"
+  },
+  {
+    "id": "quests-the-black-flame-quietly-manifests",
+    "model": "quests",
+    "slug": "the-black-flame-quietly-manifests",
+    "name": "[Assignments 3★] The Black Flame Quietly Manifests",
+    "nameEs": "[Assignments 3★] The Black Flame Quietly Manifests",
+    "source": "https://mhwilds.kiranico.com/data/quests/the-black-flame-quietly-manifests"
+  },
+  {
+    "id": "quests-pinnacle-of-the-pack",
+    "model": "quests",
+    "slug": "pinnacle-of-the-pack",
+    "name": "[Assignments 1★] Pinnacle of the Pack",
+    "nameEs": "[Assignments 1★] Pinnacle of the Pack",
+    "source": "https://mhwilds.kiranico.com/data/quests/pinnacle-of-the-pack"
+  },
+  {
+    "id": "quests-lured-by-abundance",
+    "model": "quests",
+    "slug": "lured-by-abundance",
+    "name": "[Assignments 4★] Lured by Abundance",
+    "nameEs": "[Assignments 4★] Lured by Abundance",
+    "source": "https://mhwilds.kiranico.com/data/quests/lured-by-abundance"
+  },
+  {
+    "id": "quests-frozen-lord-on-the-precipice",
+    "model": "quests",
+    "slug": "frozen-lord-on-the-precipice",
+    "name": "[Assignments 6★] Frozen Lord on the Precipice",
+    "nameEs": "[Assignments 6★] Frozen Lord on the Precipice",
+    "source": "https://mhwilds.kiranico.com/data/quests/frozen-lord-on-the-precipice"
+  },
+  {
+    "id": "quests-roaring-rey-dau",
+    "model": "quests",
+    "slug": "roaring-rey-dau",
+    "name": "[Assignments 6★] Roaring Rey Dau",
+    "nameEs": "[Assignments 6★] Roaring Rey Dau",
+    "source": "https://mhwilds.kiranico.com/data/quests/roaring-rey-dau"
+  },
+  {
+    "id": "quests-tide-overtaking-timber",
+    "model": "quests",
+    "slug": "tide-overtaking-timber",
+    "name": "[Assignments 6★] Tide Overtaking Timber",
+    "nameEs": "[Assignments 6★] Tide Overtaking Timber",
+    "source": "https://mhwilds.kiranico.com/data/quests/tide-overtaking-timber"
+  },
+  {
+    "id": "quests-scorching-the-earth-once-more",
+    "model": "quests",
+    "slug": "scorching-the-earth-once-more",
+    "name": "[Assignments 6★] Scorching the Earth Once More",
+    "nameEs": "[Assignments 6★] Scorching the Earth Once More",
+    "source": "https://mhwilds.kiranico.com/data/quests/scorching-the-earth-once-more"
+  },
+  {
+    "id": "quests-awaking-from-a-dream",
+    "model": "quests",
+    "slug": "awaking-from-a-dream",
+    "name": "[Assignments 7★] Awaking From a Dream",
+    "nameEs": "[Assignments 7★] Awaking From a Dream",
+    "source": "https://mhwilds.kiranico.com/data/quests/awaking-from-a-dream"
+  },
+  {
+    "id": "quests-thundering-flowers",
+    "model": "quests",
+    "slug": "thundering-flowers",
+    "name": "[Assignments 5★] Thundering Flowers",
+    "nameEs": "[Assignments 5★] Thundering Flowers",
+    "source": "https://mhwilds.kiranico.com/data/quests/thundering-flowers"
+  },
+  {
+    "id": "quests-investigating-the-frenzied-shadow",
+    "model": "quests",
+    "slug": "investigating-the-frenzied-shadow",
+    "name": "[Assignments 4★] Investigating the Frenzied Shadow",
+    "nameEs": "[Assignments 4★] Investigating the Frenzied Shadow",
+    "source": "https://mhwilds.kiranico.com/data/quests/investigating-the-frenzied-shadow"
+  },
+  {
+    "id": "quests-shrouded-in-black",
+    "model": "quests",
+    "slug": "shrouded-in-black",
+    "name": "[Assignments 6★] Shrouded in Black",
+    "nameEs": "[Assignments 6★] Shrouded in Black",
+    "source": "https://mhwilds.kiranico.com/data/quests/shrouded-in-black"
+  },
+  {
+    "id": "quests-beware-the-chatacabra",
+    "model": "quests",
+    "slug": "beware-the-chatacabra",
+    "name": "[Optional Quests 1★] Beware the Chatacabra",
+    "nameEs": "[Optional Quests 1★] Beware the Chatacabra",
+    "source": "https://mhwilds.kiranico.com/data/quests/beware-the-chatacabra"
+  },
+  {
+    "id": "quests-buggin-in-the-desert",
+    "model": "quests",
+    "slug": "buggin-in-the-desert",
+    "name": "[Optional Quests 1★] Buggin' in the Desert",
+    "nameEs": "[Optional Quests 1★] Buggin' in the Desert",
+    "source": "https://mhwilds.kiranico.com/data/quests/buggin-in-the-desert"
+  },
+  {
+    "id": "quests-fire-starter",
+    "model": "quests",
+    "slug": "fire-starter",
+    "name": "[Optional Quests 1★] Fire Starter",
+    "nameEs": "[Optional Quests 1★] Fire Starter",
+    "source": "https://mhwilds.kiranico.com/data/quests/fire-starter"
+  },
+  {
+    "id": "quests-the-desert-is-demanding",
+    "model": "quests",
+    "slug": "the-desert-is-demanding",
+    "name": "[Optional Quests 1★] The Desert is Demanding",
+    "nameEs": "[Optional Quests 1★] The Desert is Demanding",
+    "source": "https://mhwilds.kiranico.com/data/quests/the-desert-is-demanding"
+  },
+  {
+    "id": "quests-every-rose",
+    "model": "quests",
+    "slug": "every-rose",
+    "name": "[Optional Quests 1★] Every Rose...",
+    "nameEs": "[Optional Quests 1★] Every Rose...",
+    "source": "https://mhwilds.kiranico.com/data/quests/every-rose"
+  },
+  {
+    "id": "quests-tussle-in-pink",
+    "model": "quests",
+    "slug": "tussle-in-pink",
+    "name": "[Optional Quests 1★] Tussle in Pink",
+    "nameEs": "[Optional Quests 1★] Tussle in Pink",
+    "source": "https://mhwilds.kiranico.com/data/quests/tussle-in-pink"
+  },
+  {
+    "id": "quests-a-sharp-sort",
+    "model": "quests",
+    "slug": "a-sharp-sort",
+    "name": "[Optional Quests 1★] A Sharp Sort",
+    "nameEs": "[Optional Quests 1★] A Sharp Sort",
+    "source": "https://mhwilds.kiranico.com/data/quests/a-sharp-sort"
+  },
+  {
+    "id": "quests-buggin-in-the-scarlet-forest",
+    "model": "quests",
+    "slug": "buggin-in-the-scarlet-forest",
+    "name": "[Optional Quests 1★] Buggin' in the Scarlet Forest",
+    "nameEs": "[Optional Quests 1★] Buggin' in the Scarlet Forest",
+    "source": "https://mhwilds.kiranico.com/data/quests/buggin-in-the-scarlet-forest"
+  },
+  {
+    "id": "quests-sand-sea-surges",
+    "model": "quests",
+    "slug": "sand-sea-surges",
+    "name": "[Optional Quests 1★] Sand Sea Surges",
+    "nameEs": "[Optional Quests 1★] Sand Sea Surges",
+    "source": "https://mhwilds.kiranico.com/data/quests/sand-sea-surges"
+  },
+  {
+    "id": "quests-forest-outlaw",
+    "model": "quests",
+    "slug": "forest-outlaw",
+    "name": "[Optional Quests 1★] Forest Outlaw",
+    "nameEs": "[Optional Quests 1★] Forest Outlaw",
+    "source": "https://mhwilds.kiranico.com/data/quests/forest-outlaw"
+  },
+  {
+    "id": "quests-veiled-by-the-tide",
+    "model": "quests",
+    "slug": "veiled-by-the-tide",
+    "name": "[Optional Quests 2★] Veiled by the Tide",
+    "nameEs": "[Optional Quests 2★] Veiled by the Tide",
+    "source": "https://mhwilds.kiranico.com/data/quests/veiled-by-the-tide"
+  },
+  {
+    "id": "quests-oilwell-basin-blast",
+    "model": "quests",
+    "slug": "oilwell-basin-blast",
+    "name": "[Optional Quests 2★] Oilwell Basin Blast",
+    "nameEs": "[Optional Quests 2★] Oilwell Basin Blast",
+    "source": "https://mhwilds.kiranico.com/data/quests/oilwell-basin-blast"
+  },
+  {
+    "id": "quests-march-of-the-kranodath",
+    "model": "quests",
+    "slug": "march-of-the-kranodath",
+    "name": "[Optional Quests 2★] March of the Kranodath",
+    "nameEs": "[Optional Quests 2★] March of the Kranodath",
+    "source": "https://mhwilds.kiranico.com/data/quests/march-of-the-kranodath"
+  },
+  {
+    "id": "quests-sultan-of-the-sand",
+    "model": "quests",
+    "slug": "sultan-of-the-sand",
+    "name": "[Optional Quests 2★] Sultan of the Sand",
+    "nameEs": "[Optional Quests 2★] Sultan of the Sand",
+    "source": "https://mhwilds.kiranico.com/data/quests/sultan-of-the-sand"
+  },
+  {
+    "id": "quests-dance-of-shadows",
+    "model": "quests",
+    "slug": "dance-of-shadows",
+    "name": "[Optional Quests 2★] Dance of Shadows",
+    "nameEs": "[Optional Quests 2★] Dance of Shadows",
+    "source": "https://mhwilds.kiranico.com/data/quests/dance-of-shadows"
+  },
+  {
+    "id": "quests-fleet-flight",
+    "model": "quests",
+    "slug": "fleet-flight",
+    "name": "[Optional Quests 2★] Fleet Flight",
+    "nameEs": "[Optional Quests 2★] Fleet Flight",
+    "source": "https://mhwilds.kiranico.com/data/quests/fleet-flight"
+  },
+  {
+    "id": "quests-buggin-in-the-cliffs",
+    "model": "quests",
+    "slug": "buggin-in-the-cliffs",
+    "name": "[Optional Quests 2★] Buggin' in the Cliffs",
+    "nameEs": "[Optional Quests 2★] Buggin' in the Cliffs",
+    "source": "https://mhwilds.kiranico.com/data/quests/buggin-in-the-cliffs"
+  },
+  {
+    "id": "quests-scorching-simian",
+    "model": "quests",
+    "slug": "scorching-simian",
+    "name": "[Optional Quests 2★] Scorching Simian",
+    "nameEs": "[Optional Quests 2★] Scorching Simian",
+    "source": "https://mhwilds.kiranico.com/data/quests/scorching-simian"
+  },
+  {
+    "id": "quests-creeping-flames",
+    "model": "quests",
+    "slug": "creeping-flames",
+    "name": "[Optional Quests 3★] Creeping Flames",
+    "nameEs": "[Optional Quests 3★] Creeping Flames",
+    "source": "https://mhwilds.kiranico.com/data/quests/creeping-flames"
+  },
+  {
+    "id": "quests-pallid-beasts-lament",
+    "model": "quests",
+    "slug": "pallid-beasts-lament",
+    "name": "[Optional Quests 3★] Pallid Beast's Lament",
+    "nameEs": "[Optional Quests 3★] Pallid Beast's Lament",
+    "source": "https://mhwilds.kiranico.com/data/quests/pallid-beasts-lament"
+  },
+  {
+    "id": "quests-his-eternal-reign",
+    "model": "quests",
+    "slug": "his-eternal-reign",
+    "name": "[Optional Quests 3★] His Eternal Reign",
+    "nameEs": "[Optional Quests 3★] His Eternal Reign",
+    "source": "https://mhwilds.kiranico.com/data/quests/his-eternal-reign"
+  },
+  {
+    "id": "quests-spread-those-wings",
+    "model": "quests",
+    "slug": "spread-those-wings",
+    "name": "[Optional Quests 3★] Spread Those Wings",
+    "nameEs": "[Optional Quests 3★] Spread Those Wings",
+    "source": "https://mhwilds.kiranico.com/data/quests/spread-those-wings"
+  },
+  {
+    "id": "quests-red-eyes-in-the-night",
+    "model": "quests",
+    "slug": "red-eyes-in-the-night",
+    "name": "[Optional Quests 3★] Red Eyes in the Night",
+    "nameEs": "[Optional Quests 3★] Red Eyes in the Night",
+    "source": "https://mhwilds.kiranico.com/data/quests/red-eyes-in-the-night"
+  },
+  {
+    "id": "quests-consumer-of-void",
+    "model": "quests",
+    "slug": "consumer-of-void",
+    "name": "[Optional Quests 3★] Consumer of Void",
+    "nameEs": "[Optional Quests 3★] Consumer of Void",
+    "source": "https://mhwilds.kiranico.com/data/quests/consumer-of-void"
+  },
+  {
+    "id": "quests-a-futile-fight",
+    "model": "quests",
+    "slug": "a-futile-fight",
+    "name": "[Optional Quests 4★] A Futile Fight",
+    "nameEs": "[Optional Quests 4★] A Futile Fight",
+    "source": "https://mhwilds.kiranico.com/data/quests/a-futile-fight"
+  },
+  {
+    "id": "quests-the-pursued-and-the-pursuer",
+    "model": "quests",
+    "slug": "the-pursued-and-the-pursuer",
+    "name": "[Optional Quests 4★] The Pursued and the Pursuer",
+    "nameEs": "[Optional Quests 4★] The Pursued and the Pursuer",
+    "source": "https://mhwilds.kiranico.com/data/quests/the-pursued-and-the-pursuer"
+  },
+  {
+    "id": "quests-flower-of-eternal-rest",
+    "model": "quests",
+    "slug": "flower-of-eternal-rest",
+    "name": "[Optional Quests 4★] Flower of Eternal Rest",
+    "nameEs": "[Optional Quests 4★] Flower of Eternal Rest",
+    "source": "https://mhwilds.kiranico.com/data/quests/flower-of-eternal-rest"
+  },
+  {
+    "id": "quests-flippant-flatulence",
+    "model": "quests",
+    "slug": "flippant-flatulence",
+    "name": "[Optional Quests 4★] Flippant Flatulence",
+    "nameEs": "[Optional Quests 4★] Flippant Flatulence",
+    "source": "https://mhwilds.kiranico.com/data/quests/flippant-flatulence"
+  },
+  {
+    "id": "quests-the-desert-knows-not-the-sea",
+    "model": "quests",
+    "slug": "the-desert-knows-not-the-sea",
+    "name": "[Optional Quests 4★] The Desert Knows Not the Sea",
+    "nameEs": "[Optional Quests 4★] The Desert Knows Not the Sea",
+    "source": "https://mhwilds.kiranico.com/data/quests/the-desert-knows-not-the-sea"
+  },
+  {
+    "id": "quests-profusion-of-poison",
+    "model": "quests",
+    "slug": "profusion-of-poison",
+    "name": "[Optional Quests 4★] Profusion of Poison",
+    "nameEs": "[Optional Quests 4★] Profusion of Poison",
+    "source": "https://mhwilds.kiranico.com/data/quests/profusion-of-poison"
+  },
+  {
+    "id": "quests-the-nerscyllas-hunting-grounds",
+    "model": "quests",
+    "slug": "the-nerscyllas-hunting-grounds",
+    "name": "[Optional Quests 4★] The Nerscylla's Hunting Grounds",
+    "nameEs": "[Optional Quests 4★] The Nerscylla's Hunting Grounds",
+    "source": "https://mhwilds.kiranico.com/data/quests/the-nerscyllas-hunting-grounds"
+  },
+  {
+    "id": "quests-fleeting-victory",
+    "model": "quests",
+    "slug": "fleeting-victory",
+    "name": "[Optional Quests 4★] Fleeting Victory",
+    "nameEs": "[Optional Quests 4★] Fleeting Victory",
+    "source": "https://mhwilds.kiranico.com/data/quests/fleeting-victory"
+  },
+  {
+    "id": "quests-all-hail-the-queen",
+    "model": "quests",
+    "slug": "all-hail-the-queen",
+    "name": "[Optional Quests 4★] All Hail the Queen",
+    "nameEs": "[Optional Quests 4★] All Hail the Queen",
+    "source": "https://mhwilds.kiranico.com/data/quests/all-hail-the-queen"
+  },
+  {
+    "id": "quests-mysterious-poison",
+    "model": "quests",
+    "slug": "mysterious-poison",
+    "name": "[Optional Quests 4★] Mysterious Poison",
+    "nameEs": "[Optional Quests 4★] Mysterious Poison",
+    "source": "https://mhwilds.kiranico.com/data/quests/mysterious-poison"
+  },
+  {
+    "id": "quests-time-to-exorcise",
+    "model": "quests",
+    "slug": "time-to-exorcise",
+    "name": "[Optional Quests 4★] Time to Exorcise",
+    "nameEs": "[Optional Quests 4★] Time to Exorcise",
+    "source": "https://mhwilds.kiranico.com/data/quests/time-to-exorcise"
+  },
+  {
+    "id": "quests-a-vow-to-remain",
+    "model": "quests",
+    "slug": "a-vow-to-remain",
+    "name": "[Optional Quests 4★] A Vow to Remain",
+    "nameEs": "[Optional Quests 4★] A Vow to Remain",
+    "source": "https://mhwilds.kiranico.com/data/quests/a-vow-to-remain"
+  },
+  {
+    "id": "quests-a-sharp-squad",
+    "model": "quests",
+    "slug": "a-sharp-squad",
+    "name": "[Optional Quests 4★] A Sharp Squad",
+    "nameEs": "[Optional Quests 4★] A Sharp Squad",
+    "source": "https://mhwilds.kiranico.com/data/quests/a-sharp-squad"
+  },
+  {
+    "id": "quests-vespoid-capriccio",
+    "model": "quests",
+    "slug": "vespoid-capriccio",
+    "name": "[Optional Quests 4★] Vespoid Capriccio",
+    "nameEs": "[Optional Quests 4★] Vespoid Capriccio",
+    "source": "https://mhwilds.kiranico.com/data/quests/vespoid-capriccio"
+  },
+  {
+    "id": "quests-doshaguma-hunt",
+    "model": "quests",
+    "slug": "doshaguma-hunt",
+    "name": "[Optional Quests 5★] Doshaguma Hunt",
+    "nameEs": "[Optional Quests 5★] Doshaguma Hunt",
+    "source": "https://mhwilds.kiranico.com/data/quests/doshaguma-hunt"
+  },
+  {
+    "id": "quests-annihilating-anguish",
+    "model": "quests",
+    "slug": "annihilating-anguish",
+    "name": "[Optional Quests 5★] Annihilating Anguish",
+    "nameEs": "[Optional Quests 5★] Annihilating Anguish",
+    "source": "https://mhwilds.kiranico.com/data/quests/annihilating-anguish"
+  },
+  {
+    "id": "quests-battle-with-the-white-doshaguma",
+    "model": "quests",
+    "slug": "battle-with-the-white-doshaguma",
+    "name": "[Optional Quests 5★] Battle with the White Doshaguma!",
+    "nameEs": "[Optional Quests 5★] Battle with the White Doshaguma!",
+    "source": "https://mhwilds.kiranico.com/data/quests/battle-with-the-white-doshaguma"
+  },
+  {
+    "id": "quests-the-kings-triumphant-return",
+    "model": "quests",
+    "slug": "the-kings-triumphant-return",
+    "name": "[Optional Quests 5★] The King's Triumphant Return",
+    "nameEs": "[Optional Quests 5★] The King's Triumphant Return",
+    "source": "https://mhwilds.kiranico.com/data/quests/the-kings-triumphant-return"
+  },
+  {
+    "id": "quests-white-wails",
+    "model": "quests",
+    "slug": "white-wails",
+    "name": "[Optional Quests 5★] White Wails",
+    "nameEs": "[Optional Quests 5★] White Wails",
+    "source": "https://mhwilds.kiranico.com/data/quests/white-wails"
+  },
+  {
+    "id": "quests-opposition",
+    "model": "quests",
+    "slug": "opposition",
+    "name": "[Optional Quests 5★] Opposition",
+    "nameEs": "[Optional Quests 5★] Opposition",
+    "source": "https://mhwilds.kiranico.com/data/quests/opposition"
+  },
+  {
+    "id": "quests-guardian-fulgur-anjanath-hunt",
+    "model": "quests",
+    "slug": "guardian-fulgur-anjanath-hunt",
+    "name": "[Optional Quests 5★] Guardian Fulgur Anjanath Hunt",
+    "nameEs": "[Optional Quests 5★] Guardian Fulgur Anjanath Hunt",
+    "source": "https://mhwilds.kiranico.com/data/quests/guardian-fulgur-anjanath-hunt"
+  },
+  {
+    "id": "quests-armor-like-a-mountain",
+    "model": "quests",
+    "slug": "armor-like-a-mountain",
+    "name": "[Optional Quests 5★] Armor Like a Mountain",
+    "nameEs": "[Optional Quests 5★] Armor Like a Mountain",
+    "source": "https://mhwilds.kiranico.com/data/quests/armor-like-a-mountain"
+  },
+  {
+    "id": "quests-blangonga-excursion",
+    "model": "quests",
+    "slug": "blangonga-excursion",
+    "name": "[Optional Quests 5★] Blangonga Excursion",
+    "nameEs": "[Optional Quests 5★] Blangonga Excursion",
+    "source": "https://mhwilds.kiranico.com/data/quests/blangonga-excursion"
+  },
+  {
+    "id": "quests-king-of-the-skies",
+    "model": "quests",
+    "slug": "king-of-the-skies",
+    "name": "[Optional Quests 5★] King of the Skies",
+    "nameEs": "[Optional Quests 5★] King of the Skies",
+    "source": "https://mhwilds.kiranico.com/data/quests/king-of-the-skies"
+  },
+  {
+    "id": "quests-talk-about-hard-headed",
+    "model": "quests",
+    "slug": "talk-about-hard-headed",
+    "name": "[Optional Quests 4★] Talk About Hard Headed!",
+    "nameEs": "[Optional Quests 4★] Talk About Hard Headed!",
+    "source": "https://mhwilds.kiranico.com/data/quests/talk-about-hard-headed"
+  },
+  {
+    "id": "quests-dream-eaters",
+    "model": "quests",
+    "slug": "dream-eaters",
+    "name": "[Optional Quests 4★] Dream Eaters",
+    "nameEs": "[Optional Quests 4★] Dream Eaters",
+    "source": "https://mhwilds.kiranico.com/data/quests/dream-eaters"
+  },
+  {
+    "id": "quests-one-thick-veil",
+    "model": "quests",
+    "slug": "one-thick-veil",
+    "name": "[Optional Quests 6★] One Thick Veil!",
+    "nameEs": "[Optional Quests 6★] One Thick Veil!",
+    "source": "https://mhwilds.kiranico.com/data/quests/one-thick-veil"
+  },
+  {
+    "id": "quests-when-the-dust-settles",
+    "model": "quests",
+    "slug": "when-the-dust-settles",
+    "name": "[Optional Quests 6★] When the Dust Settles...",
+    "nameEs": "[Optional Quests 6★] When the Dust Settles...",
+    "source": "https://mhwilds.kiranico.com/data/quests/when-the-dust-settles"
+  },
+  {
+    "id": "quests-sinister-sneer",
+    "model": "quests",
+    "slug": "sinister-sneer",
+    "name": "[Optional Quests 6★] Sinister Sneer",
+    "nameEs": "[Optional Quests 6★] Sinister Sneer",
+    "source": "https://mhwilds.kiranico.com/data/quests/sinister-sneer"
+  },
+  {
+    "id": "quests-when-frost-falls",
+    "model": "quests",
+    "slug": "when-frost-falls",
+    "name": "[Optional Quests 6★] When Frost Falls",
+    "nameEs": "[Optional Quests 6★] When Frost Falls",
+    "source": "https://mhwilds.kiranico.com/data/quests/when-frost-falls"
+  },
+  {
+    "id": "quests-misty-depths",
+    "model": "quests",
+    "slug": "misty-depths",
+    "name": "[Optional Quests 6★] Misty Depths",
+    "nameEs": "[Optional Quests 6★] Misty Depths",
+    "source": "https://mhwilds.kiranico.com/data/quests/misty-depths"
+  },
+  {
+    "id": "quests-small-white-feathers",
+    "model": "quests",
+    "slug": "small-white-feathers",
+    "name": "[Optional Quests 5★] Small White Feathers",
+    "nameEs": "[Optional Quests 5★] Small White Feathers",
+    "source": "https://mhwilds.kiranico.com/data/quests/small-white-feathers"
+  },
+  {
+    "id": "quests-the-chains-of-life",
+    "model": "quests",
+    "slug": "the-chains-of-life",
+    "name": "[Optional Quests 7★] The Chains of Life",
+    "nameEs": "[Optional Quests 7★] The Chains of Life",
+    "source": "https://mhwilds.kiranico.com/data/quests/the-chains-of-life"
+  }
+]

@@ -1,0 +1,7680 @@
+[
+  {
+    "id": "1584486077",
+    "category": "arena",
+    "stars": 8,
+    "name": "Misión de desafío 7",
+    "nameEs": "8★ Misión de desafío 7",
+    "details": [
+      "Fuente infernal",
+      "8★ Misión de desafío 7"
+    ]
+  },
+  {
+    "id": "41496884",
+    "category": "arena",
+    "stars": 8,
+    "name": "Arena 06",
+    "nameEs": "8★ Arena 06",
+    "details": [
+      "Grutas de lava",
+      "8★ Arena 06"
+    ]
+  },
+  {
+    "id": "1570760348",
+    "category": "arena",
+    "stars": 7,
+    "name": "Misión de desafío 6",
+    "nameEs": "7★ Misión de desafío 6",
+    "details": [
+      "Islas heladas",
+      "7★ Misión de desafío 6"
+    ]
+  },
+  {
+    "id": "1556526847",
+    "category": "arena",
+    "stars": 7,
+    "name": "Misión de desafío 5",
+    "nameEs": "7★ Misión de desafío 5",
+    "details": [
+      "Arena",
+      "7★ Misión de desafío 5"
+    ]
+  },
+  {
+    "id": "1408059102",
+    "category": "arena",
+    "stars": 7,
+    "name": "Misión de desafío 4",
+    "nameEs": "7★ Misión de desafío 4",
+    "details": [
+      "Arena",
+      "7★ Misión de desafío 4"
+    ]
+  },
+  {
+    "id": "1360271161",
+    "category": "arena",
+    "stars": 7,
+    "name": "Misión de desafío 3",
+    "nameEs": "7★ Misión de desafío 3",
+    "details": [
+      "Arena",
+      "7★ Misión de desafío 3"
+    ]
+  },
+  {
+    "id": "27771159",
+    "category": "arena",
+    "stars": 7,
+    "name": "Arena 05",
+    "nameEs": "7★ Arena 05",
+    "details": [
+      "Arena",
+      "7★ Arena 05"
+    ]
+  },
+  {
+    "id": "1345496856",
+    "category": "arena",
+    "stars": 6,
+    "name": "Misión de desafío 2",
+    "nameEs": "6★ Misión de desafío 2",
+    "details": [
+      "Arena",
+      "6★ Misión de desafío 2"
+    ]
+  },
+  {
+    "id": "47009771",
+    "category": "arena",
+    "stars": 6,
+    "name": "Arena RM 06",
+    "nameEs": "6★ Arena RM 06",
+    "details": [
+      "Arena",
+      "6★ Arena RM 06"
+    ]
+  },
+  {
+    "id": "918852979",
+    "category": "arena",
+    "stars": 6,
+    "name": "Arena 04",
+    "nameEs": "6★ Arena 04",
+    "details": [
+      "Arena",
+      "6★ Arena 04"
+    ]
+  },
+  {
+    "id": "937563127",
+    "category": "arena",
+    "stars": 4,
+    "name": "Arena RM 05",
+    "nameEs": "4★ Arena RM 05",
+    "details": [
+      "Arena",
+      "4★ Arena RM 05"
+    ]
+  },
+  {
+    "id": "990291923",
+    "category": "arena",
+    "stars": 4,
+    "name": "Arena RM 04",
+    "nameEs": "4★ Arena RM 04",
+    "details": [
+      "Arena",
+      "4★ Arena RM 04"
+    ]
+  },
+  {
+    "id": "672887871",
+    "category": "arena",
+    "stars": 3,
+    "name": "Arena RM 03",
+    "nameEs": "3★ Arena RM 03",
+    "details": [
+      "Arena",
+      "3★ Arena RM 03"
+    ]
+  },
+  {
+    "id": "1544728967",
+    "category": "arena",
+    "stars": 3,
+    "name": "Arena 03",
+    "nameEs": "3★ Arena 03",
+    "details": [
+      "Bosque inundado",
+      "3★ Arena 03"
+    ]
+  },
+  {
+    "id": "1465481083",
+    "category": "arena",
+    "stars": 2,
+    "name": "Misión de desafío 1",
+    "nameEs": "2★ Misión de desafío 1",
+    "details": [
+      "Arena",
+      "2★ Misión de desafío 1"
+    ]
+  },
+  {
+    "id": "1563965467",
+    "category": "arena",
+    "stars": 2,
+    "name": "Arena RM 02",
+    "nameEs": "2★ Arena RM 02",
+    "details": [
+      "Arena",
+      "2★ Arena RM 02"
+    ]
+  },
+  {
+    "id": "1094141411",
+    "category": "arena",
+    "stars": 2,
+    "name": "Arena 02",
+    "nameEs": "2★ Arena 02",
+    "details": [
+      "Arena",
+      "2★ Arena 02"
+    ]
+  },
+  {
+    "id": "1113377895",
+    "category": "arena",
+    "stars": 1,
+    "name": "Arena RM 01",
+    "nameEs": "1★ Arena RM 01",
+    "details": [
+      "Arena",
+      "1★ Arena RM 01"
+    ]
+  },
+  {
+    "id": "1985219023",
+    "category": "arena",
+    "stars": 1,
+    "name": "Arena 01",
+    "nameEs": "1★ Arena 01",
+    "details": [
+      "Arena",
+      "1★ Arena 01"
+    ]
+  },
+  {
+    "id": "1114987411",
+    "category": "event",
+    "stars": 8,
+    "name": "Vuelve el vendaval de Ibushi",
+    "nameEs": "8★ Vuelve el vendaval de Ibushi",
+    "details": [
+      "Palacio coralino",
+      "8★ Vuelve el vendaval de Ibushi"
+    ]
+  },
+  {
+    "id": "2143091105",
+    "category": "event",
+    "stars": 8,
+    "name": "Un Frenesí de los de antes",
+    "nameEs": "8★ Un Frenesí de los de antes",
+    "details": [
+      "Fortaleza roja",
+      "8★ Un Frenesí de los de antes"
+    ]
+  },
+  {
+    "id": "1489597690",
+    "category": "event",
+    "stars": 8,
+    "name": "Tempestad en el desierto",
+    "nameEs": "8★ Tempestad en el desierto",
+    "details": [
+      "Llanos arenosos",
+      "8★ Tempestad en el desierto"
+    ]
+  },
+  {
+    "id": "1158669343",
+    "category": "event",
+    "stars": 8,
+    "name": "SF: examen final",
+    "nameEs": "8★ SF: examen final",
+    "details": [
+      "Templo olvidado",
+      "8★ SF: examen final"
+    ]
+  },
+  {
+    "id": "1277688657",
+    "category": "event",
+    "stars": 8,
+    "name": "Problemas en el Paraíso",
+    "nameEs": "8★ Problemas en el Paraíso",
+    "details": [
+      "Templo olvidado",
+      "8★ Problemas en el Paraíso"
+    ]
+  },
+  {
+    "id": "1129221040",
+    "category": "event",
+    "stars": 8,
+    "name": "Narwa nubla de nuevo",
+    "nameEs": "8★ Narwa nubla de nuevo",
+    "details": [
+      "Palacio coralino",
+      "8★ Narwa nubla de nuevo"
+    ]
+  },
+  {
+    "id": "1932061122",
+    "category": "event",
+    "stars": 8,
+    "name": "Mordiscos heladores",
+    "nameEs": "8★ Mordiscos heladores",
+    "details": [
+      "Islas heladas",
+      "8★ Mordiscos heladores"
+    ]
+  },
+  {
+    "id": "1429046733",
+    "category": "event",
+    "stars": 8,
+    "name": "Las cosas no son como eran",
+    "nameEs": "8★ Las cosas no son como eran",
+    "details": [
+      "Bosque inundado",
+      "8★ Las cosas no son como eran"
+    ]
+  },
+  {
+    "id": "1609565381",
+    "category": "event",
+    "stars": 8,
+    "name": "Fulgurante filo de hielo",
+    "nameEs": "8★ Fulgurante filo de hielo",
+    "details": [
+      "Islas heladas",
+      "8★ Fulgurante filo de hielo"
+    ]
+  },
+  {
+    "id": "1710450906",
+    "category": "event",
+    "stars": 8,
+    "name": "Frenesí: Rajang enfurecido",
+    "nameEs": "8★ Frenesí: Rajang enfurecido",
+    "details": [
+      "Fortaleza roja",
+      "8★ Frenesí: Rajang enfurecido"
+    ]
+  },
+  {
+    "id": "1503831195",
+    "category": "event",
+    "stars": 8,
+    "name": "Frenesí: marcha encantadora",
+    "nameEs": "8★ Frenesí: marcha encantadora",
+    "details": [
+      "Fortaleza roja",
+      "8★ Frenesí: marcha encantadora"
+    ]
+  },
+  {
+    "id": "1144435838",
+    "category": "event",
+    "stars": 8,
+    "name": "Frenesí: caza nocturna",
+    "nameEs": "8★ Frenesí: caza nocturna",
+    "details": [
+      "Fortaleza roja",
+      "8★ Frenesí: caza nocturna"
+    ]
+  },
+  {
+    "id": "1339202327",
+    "category": "event",
+    "stars": 8,
+    "name": "Fogosa alma combatiente",
+    "nameEs": "8★ Fogosa alma combatiente",
+    "details": [
+      "Grutas de lava",
+      "8★ Fogosa alma combatiente"
+    ]
+  },
+  {
+    "id": "1085979613",
+    "category": "event",
+    "stars": 8,
+    "name": "Flor blanca del desierto",
+    "nameEs": "8★ Flor blanca del desierto",
+    "details": [
+      "Llanos arenosos",
+      "8★ Flor blanca del desierto"
+    ]
+  },
+  {
+    "id": "1889868399",
+    "category": "event",
+    "stars": 8,
+    "name": "Especial de Rajang",
+    "nameEs": "8★ Especial de Rajang",
+    "details": [
+      "Arena",
+      "8★ Especial de Rajang"
+    ]
+  },
+  {
+    "id": "1399600486",
+    "category": "event",
+    "stars": 8,
+    "name": "Engaño en el Bosque inundado",
+    "nameEs": "8★ Engaño en el Bosque inundado",
+    "details": [
+      "Bosque inundado",
+      "8★ Engaño en el Bosque inundado"
+    ]
+  },
+  {
+    "id": "1205949500",
+    "category": "event",
+    "stars": 8,
+    "name": "Enfrentamiento abrasador",
+    "nameEs": "8★ Enfrentamiento abrasador",
+    "details": [
+      "Llanos arenosos",
+      "8★ Enfrentamiento abrasador"
+    ]
+  },
+  {
+    "id": "1844230205",
+    "category": "event",
+    "stars": 8,
+    "name": "Emergencia de Zinogre Apex",
+    "nameEs": "8★ Emergencia de Zinogre Apex",
+    "details": [
+      "Bosque inundado",
+      "8★ Emergencia de Zinogre Apex"
+    ]
+  },
+  {
+    "id": "1619491001",
+    "category": "event",
+    "stars": 8,
+    "name": "Emergencia de Rathian Apex",
+    "nameEs": "8★ Emergencia de Rathian Apex",
+    "details": [
+      "Grutas de lava",
+      "8★ Emergencia de Rathian Apex"
+    ]
+  },
+  {
+    "id": "1647450239",
+    "category": "event",
+    "stars": 8,
+    "name": "Emergencia de Rathalos Apex",
+    "nameEs": "8★ Emergencia de Rathalos Apex",
+    "details": [
+      "Templo olvidado",
+      "8★ Emergencia de Rathalos Apex"
+    ]
+  },
+  {
+    "id": "1633200222",
+    "category": "event",
+    "stars": 8,
+    "name": "Emergencia de Mizutsune Apex",
+    "nameEs": "8★ Emergencia de Mizutsune Apex",
+    "details": [
+      "Templo olvidado",
+      "8★ Emergencia de Mizutsune Apex"
+    ]
+  },
+  {
+    "id": "1661683740",
+    "category": "event",
+    "stars": 8,
+    "name": "Emergencia de Diablos Apex",
+    "nameEs": "8★ Emergencia de Diablos Apex",
+    "details": [
+      "Llanos arenosos",
+      "8★ Emergencia de Diablos Apex"
+    ]
+  },
+  {
+    "id": "1739458712",
+    "category": "event",
+    "stars": 8,
+    "name": "Emergencia de Arzuros Apex",
+    "nameEs": "8★ Emergencia de Arzuros Apex",
+    "details": [
+      "Bosque inundado",
+      "8★ Emergencia de Arzuros Apex"
+    ]
+  },
+  {
+    "id": "1904101900",
+    "category": "event",
+    "stars": 8,
+    "name": "El corazón de un Apex",
+    "nameEs": "8★ El corazón de un Apex",
+    "details": [
+      "Fuente infernal",
+      "8★ El corazón de un Apex"
+    ]
+  },
+  {
+    "id": "1872715763",
+    "category": "event",
+    "stars": 8,
+    "name": "El ataque de los osos (USJ)",
+    "nameEs": "8★ El ataque de los osos (USJ)",
+    "details": [
+      "Fortaleza roja",
+      "8★ El ataque de los osos (USJ)"
+    ]
+  },
+  {
+    "id": "1752207248",
+    "category": "event",
+    "stars": 8,
+    "name": "Desafío en el templo (USJ)",
+    "nameEs": "8★ Desafío en el templo (USJ)",
+    "details": [
+      "Templo olvidado",
+      "8★ Desafío en el templo (USJ)"
+    ]
+  },
+  {
+    "id": "1518605496",
+    "category": "event",
+    "stars": 8,
+    "name": "Dango estrepitoso",
+    "nameEs": "8★ Dango estrepitoso",
+    "details": [
+      "Islas heladas",
+      "8★ Dango estrepitoso"
+    ]
+  },
+  {
+    "id": "1562301732",
+    "category": "event",
+    "stars": 8,
+    "name": "Corazón heroico",
+    "nameEs": "8★ Corazón heroico",
+    "details": [
+      "Arena",
+      "8★ Corazón heroico"
+    ]
+  },
+  {
+    "id": "1532839001",
+    "category": "event",
+    "stars": 8,
+    "name": "Corazón de rivalidad",
+    "nameEs": "8★ Corazón de rivalidad",
+    "details": [
+      "Bosque inundado",
+      "8★ Corazón de rivalidad"
+    ]
+  },
+  {
+    "id": "1100213234",
+    "category": "event",
+    "stars": 8,
+    "name": "Corazón de poder",
+    "nameEs": "8★ Corazón de poder",
+    "details": [
+      "Fuente infernal",
+      "8★ Corazón de poder"
+    ]
+  },
+  {
+    "id": "2023106886",
+    "category": "event",
+    "stars": 8,
+    "name": "Banquete de princesas",
+    "nameEs": "8★ Banquete de princesas",
+    "details": [
+      "Fuente infernal",
+      "8★ Banquete de princesas"
+    ]
+  },
+  {
+    "id": "1219218228",
+    "category": "event",
+    "stars": 8,
+    "name": "Avanzada: Nacidos en el Paraíso",
+    "nameEs": "8★ Avanzada: Nacidos en el Paraíso",
+    "details": [
+      "Palacio coralino",
+      "8★ Avanzada: Nacidos en el Paraíso"
+    ]
+  },
+  {
+    "id": "1233992405",
+    "category": "event",
+    "stars": 8,
+    "name": "Avanzada: calamidad carmesí",
+    "nameEs": "8★ Avanzada: calamidad carmesí",
+    "details": [
+      "Fuente infernal",
+      "8★ Avanzada: calamidad carmesí"
+    ]
+  },
+  {
+    "id": "1324952438",
+    "category": "event",
+    "stars": 8,
+    "name": "Ardid de Diablos",
+    "nameEs": "8★ Ardid de Diablos",
+    "details": [
+      "Llanos arenosos",
+      "8★ Ardid de Diablos"
+    ]
+  },
+  {
+    "id": "1384826177",
+    "category": "event",
+    "stars": 8,
+    "name": "Almudron, víctima de la moda",
+    "nameEs": "8★ Almudron, víctima de la moda",
+    "details": [
+      "Llanos arenosos",
+      "8★ Almudron, víctima de la moda"
+    ]
+  },
+  {
+    "id": "1858465746",
+    "category": "event",
+    "stars": 8,
+    "name": "Acechador sombrío",
+    "nameEs": "8★ Acechador sombrío",
+    "details": [
+      "Bosque inundado",
+      "8★ Acechador sombrío"
+    ]
+  },
+  {
+    "id": "2051066116",
+    "category": "event",
+    "stars": 7,
+    "name": "Zin y Yang",
+    "nameEs": "7★ Zin y Yang",
+    "details": [
+      "Arena",
+      "7★ Zin y Yang"
+    ]
+  },
+  {
+    "id": "2037356903",
+    "category": "event",
+    "stars": 7,
+    "name": "Todo por un autógrafo",
+    "nameEs": "7★ Todo por un autógrafo",
+    "details": [
+      "Grutas de lava",
+      "7★ Todo por un autógrafo"
+    ]
+  },
+  {
+    "id": "1725225211",
+    "category": "event",
+    "stars": 7,
+    "name": "Recuerdos del pasado",
+    "nameEs": "7★ Recuerdos del pasado",
+    "details": [
+      "Templo olvidado",
+      "7★ Recuerdos del pasado"
+    ]
+  },
+  {
+    "id": "1995078313",
+    "category": "event",
+    "stars": 7,
+    "name": "Los kunai son lo mejor",
+    "nameEs": "7★ Los kunai son lo mejor",
+    "details": [
+      "Llanos arenosos",
+      "7★ Los kunai son lo mejor"
+    ]
+  },
+  {
+    "id": "1414813228",
+    "category": "event",
+    "stars": 7,
+    "name": "La bestia sombría",
+    "nameEs": "7★ La bestia sombría",
+    "details": [
+      "Templo olvidado",
+      "7★ La bestia sombría"
+    ]
+  },
+  {
+    "id": "1548051719",
+    "category": "event",
+    "stars": 7,
+    "name": "Frenesí: carnaval de cenagal",
+    "nameEs": "7★ Frenesí: carnaval de cenagal",
+    "details": [
+      "Fortaleza roja",
+      "7★ Frenesí: carnaval de cenagal"
+    ]
+  },
+  {
+    "id": "1370592672",
+    "category": "event",
+    "stars": 7,
+    "name": "El mejor entre los mejores",
+    "nameEs": "7★ El mejor entre los mejores",
+    "details": [
+      "Arena",
+      "7★ El mejor entre los mejores"
+    ]
+  },
+  {
+    "id": "1443296738",
+    "category": "event",
+    "stars": 7,
+    "name": "El baile del Somnacanth",
+    "nameEs": "7★ El baile del Somnacanth",
+    "details": [
+      "Islas heladas",
+      "7★ El baile del Somnacanth"
+    ]
+  },
+  {
+    "id": "1666292655",
+    "category": "event",
+    "stars": 6,
+    "name": "Un vestido de muerte",
+    "nameEs": "6★ Un vestido de muerte",
+    "details": [
+      "Bastión",
+      "6★ Un vestido de muerte"
+    ]
+  },
+  {
+    "id": "279964186",
+    "category": "event",
+    "stars": 6,
+    "name": "Un cuchillo en la oscuridad",
+    "nameEs": "6★ Un cuchillo en la oscuridad",
+    "details": [
+      "Arena olvidada",
+      "6★ Un cuchillo en la oscuridad ▣"
+    ]
+  },
+  {
+    "id": "1829518189",
+    "category": "event",
+    "stars": 6,
+    "name": "Sombra de tormenta arenosa",
+    "nameEs": "6★ Sombra de tormenta arenosa",
+    "details": [
+      "Llanos arenosos",
+      "6★ Sombra de tormenta arenosa"
+    ]
+  },
+  {
+    "id": "262287342",
+    "category": "event",
+    "stars": 6,
+    "name": "Práctica constante",
+    "nameEs": "6★ Práctica constante",
+    "details": [
+      "Bastión",
+      "6★ Práctica constante ▣"
+    ]
+  },
+  {
+    "id": "115320982",
+    "category": "event",
+    "stars": 6,
+    "name": "Peligro: superconductor",
+    "nameEs": "6★ Peligro: superconductor",
+    "details": [
+      "Bosque inundado",
+      "6★ Peligro: superconductor ▣"
+    ]
+  },
+  {
+    "id": "67533041",
+    "category": "event",
+    "stars": 6,
+    "name": "Peligro: melodía caótica",
+    "nameEs": "6★ Peligro: melodía caótica",
+    "details": [
+      "Fuente infernal",
+      "6★ Peligro: melodía caótica ▣"
+    ]
+  },
+  {
+    "id": "52320267",
+    "category": "event",
+    "stars": 6,
+    "name": "Peligro: majadería simiesca",
+    "nameEs": "6★ Peligro: majadería simiesca",
+    "details": [
+      "Arena",
+      "6★ Peligro: majadería simiesca ▣"
+    ]
+  },
+  {
+    "id": "518953407",
+    "category": "event",
+    "stars": 6,
+    "name": "Peligro: golpe legendario",
+    "nameEs": "6★ Peligro: golpe legendario",
+    "details": [
+      "Arena olvidada",
+      "6★ Peligro: golpe legendario"
+    ]
+  },
+  {
+    "id": "441178419",
+    "category": "event",
+    "stars": 6,
+    "name": "Peligro: el carnaval de las bufonadas",
+    "nameEs": "6★ Peligro: el carnaval de las bufonadas",
+    "details": [
+      "Fuente infernal",
+      "6★ Peligro: el carnaval de las bufonadas"
+    ]
+  },
+  {
+    "id": "471148958",
+    "category": "event",
+    "stars": 6,
+    "name": "Peligro: baile desastroso",
+    "nameEs": "6★ Peligro: baile desastroso",
+    "details": [
+      "Fuente infernal",
+      "6★ Peligro: baile desastroso"
+    ]
+  },
+  {
+    "id": "157077420",
+    "category": "event",
+    "stars": 6,
+    "name": "Peligro: alerta de invierno",
+    "nameEs": "6★ Peligro: alerta de invierno",
+    "details": [
+      "Arena olvidada",
+      "6★ Peligro: alerta de invierno ▣"
+    ]
+  },
+  {
+    "id": "234326056",
+    "category": "event",
+    "stars": 6,
+    "name": "Peligro: ¡¡¡Lunagarooon!!!",
+    "nameEs": "6★ Peligro: ¡¡¡Lunagarooon!!!",
+    "details": [
+      "Arena olvidada",
+      "6★ Peligro: ¡¡¡Lunagarooon!!! ▣"
+    ]
+  },
+  {
+    "id": "38070378",
+    "category": "event",
+    "stars": 6,
+    "name": "Peligro: ¡¡¡Garangooolm!!!",
+    "nameEs": "6★ Peligro: ¡¡¡Garangooolm!!!",
+    "details": [
+      "Arena olvidada",
+      "6★ Peligro: ¡¡¡Garangooolm!!! ▣"
+    ]
+  },
+  {
+    "id": "412694909",
+    "category": "event",
+    "stars": 6,
+    "name": "Pelea de comida",
+    "nameEs": "6★ Pelea de comida",
+    "details": [
+      "Grutas de lava",
+      "6★ Pelea de comida"
+    ]
+  },
+  {
+    "id": "533186908",
+    "category": "event",
+    "stars": 6,
+    "name": "La danza de los cerezos",
+    "nameEs": "6★ La danza de los cerezos",
+    "details": [
+      "Templo olvidado",
+      "6★ La danza de los cerezos"
+    ]
+  },
+  {
+    "id": "307923416",
+    "category": "event",
+    "stars": 6,
+    "name": "La arena iluminada",
+    "nameEs": "6★ La arena iluminada",
+    "details": [
+      "Arena olvidada",
+      "6★ La arena iluminada ▣"
+    ]
+  },
+  {
+    "id": "9062484",
+    "category": "event",
+    "stars": 6,
+    "name": "Inmortalizando bichos raros",
+    "nameEs": "6★ Inmortalizando bichos raros",
+    "details": [
+      "Arena olvidada",
+      "6★ Inmortalizando bichos raros ▣"
+    ]
+  },
+  {
+    "id": "142319503",
+    "category": "event",
+    "stars": 6,
+    "name": "Indumentaria prenupcial",
+    "nameEs": "6★ Indumentaria prenupcial",
+    "details": [
+      "Islas heladas",
+      "6★ Indumentaria prenupcial ▣"
+    ]
+  },
+  {
+    "id": "728950287",
+    "category": "event",
+    "stars": 6,
+    "name": "Fuente de sabiduría",
+    "nameEs": "6★ Fuente de sabiduría",
+    "details": [
+      "Grutas de lava",
+      "6★ Fuente de sabiduría"
+    ]
+  },
+  {
+    "id": "293689915",
+    "category": "event",
+    "stars": 6,
+    "name": "Entrada explosiva",
+    "nameEs": "6★ Entrada explosiva",
+    "details": [
+      "Fuente infernal",
+      "6★ Entrada explosiva"
+    ]
+  },
+  {
+    "id": "1785297633",
+    "category": "event",
+    "stars": 6,
+    "name": "Enfriando las grutas",
+    "nameEs": "6★ Enfriando las grutas",
+    "details": [
+      "Grutas de lava",
+      "6★ Enfriando las grutas"
+    ]
+  },
+  {
+    "id": "1248225994",
+    "category": "event",
+    "stars": 6,
+    "name": "El amigo del bombardero azul",
+    "nameEs": "6★ El amigo del bombardero azul",
+    "details": [
+      "Arena",
+      "6★ El amigo del bombardero azul"
+    ]
+  },
+  {
+    "id": "1814743884",
+    "category": "event",
+    "stars": 6,
+    "name": "Dos musculosos bajo la luna",
+    "nameEs": "6★ Dos musculosos bajo la luna",
+    "details": [
+      "Arena olvidada",
+      "6★ Dos musculosos bajo la luna"
+    ]
+  },
+  {
+    "id": "1652042638",
+    "category": "event",
+    "stars": 6,
+    "name": "Dos estrellas destructoras",
+    "nameEs": "6★ Dos estrellas destructoras",
+    "details": [
+      "Arena",
+      "6★ Dos estrellas destructoras"
+    ]
+  },
+  {
+    "id": "1757338403",
+    "category": "event",
+    "stars": 6,
+    "name": "Doble amenaza: vorágine de furia",
+    "nameEs": "6★ Doble amenaza: vorágine de furia",
+    "details": [
+      "Bosque inundado",
+      "6★ Doble amenaza: vorágine de furia"
+    ]
+  },
+  {
+    "id": "1638333417",
+    "category": "event",
+    "stars": 6,
+    "name": "Doble amenaza: Retorno rojo",
+    "nameEs": "6★ Doble amenaza: Retorno rojo",
+    "details": [
+      "Bastión",
+      "6★ Doble amenaza: Retorno rojo"
+    ]
+  },
+  {
+    "id": "1799531142",
+    "category": "event",
+    "stars": 6,
+    "name": "Doble amenaza: luz y oscuridad",
+    "nameEs": "6★ Doble amenaza: luz y oscuridad",
+    "details": [
+      "Arena",
+      "6★ Doble amenaza: luz y oscuridad"
+    ]
+  },
+  {
+    "id": "23312501",
+    "category": "event",
+    "stars": 6,
+    "name": "Doble amenaza: empacho de hermosura",
+    "nameEs": "6★ Doble amenaza: empacho de hermosura",
+    "details": [
+      "Bastión",
+      "6★ Doble amenaza: empacho de hermosura ▣"
+    ]
+  },
+  {
+    "id": "455936208",
+    "category": "event",
+    "stars": 6,
+    "name": "Doble amenaza: dupla bestial",
+    "nameEs": "6★ Doble amenaza: dupla bestial",
+    "details": [
+      "Arena olvidada",
+      "6★ Doble amenaza: dupla bestial"
+    ]
+  },
+  {
+    "id": "1695740938",
+    "category": "event",
+    "stars": 6,
+    "name": "Doble amenaza: desolación total",
+    "nameEs": "6★ Doble amenaza: desolación total",
+    "details": [
+      "Arena",
+      "6★ Doble amenaza: desolación total"
+    ]
+  },
+  {
+    "id": "1744053291",
+    "category": "event",
+    "stars": 6,
+    "name": "Doble amenaza: canto de oro y plata",
+    "nameEs": "6★ Doble amenaza: canto de oro y plata",
+    "details": [
+      "Arena olvidada",
+      "6★ Doble amenaza: canto de oro y plata"
+    ]
+  },
+  {
+    "id": "1624083400",
+    "category": "event",
+    "stars": 6,
+    "name": "Doble amenaza: ¡Vaya espectáculo!",
+    "nameEs": "6★ Doble amenaza: ¡Vaya espectáculo!",
+    "details": [
+      "Grutas de lava",
+      "6★ Doble amenaza: ¡Vaya espectáculo!"
+    ]
+  },
+  {
+    "id": "426928402",
+    "category": "event",
+    "stars": 6,
+    "name": "Desastre deslumbrante",
+    "nameEs": "6★ Desastre deslumbrante",
+    "details": [
+      "Arena",
+      "6★ Desastre deslumbrante"
+    ]
+  },
+  {
+    "id": "129046711",
+    "category": "event",
+    "stars": 6,
+    "name": "Cometa con rumbo de colisión",
+    "nameEs": "6★ Cometa con rumbo de colisión",
+    "details": [
+      "La Jungla",
+      "6★ Cometa con rumbo de colisión ▣"
+    ]
+  },
+  {
+    "id": "1262476011",
+    "category": "event",
+    "stars": 6,
+    "name": "Caballero de armadura rota",
+    "nameEs": "6★ Caballero de armadura rota",
+    "details": [
+      "Grutas de lava",
+      "6★ Caballero de armadura rota"
+    ]
+  },
+  {
+    "id": "248053705",
+    "category": "event",
+    "stars": 6,
+    "name": "Batalla fundamental",
+    "nameEs": "6★ Batalla fundamental",
+    "details": [
+      "Templo olvidado",
+      "6★ Batalla fundamental ▣"
+    ]
+  },
+  {
+    "id": "322173433",
+    "category": "event",
+    "stars": 6,
+    "name": "Avanzada: festival masacrado",
+    "nameEs": "6★ Avanzada: festival masacrado",
+    "details": [
+      "Fuente infernal",
+      "6★ Avanzada: festival masacrado"
+    ]
+  },
+  {
+    "id": "2009311822",
+    "category": "event",
+    "stars": 6,
+    "name": "Aguas turbulentas",
+    "nameEs": "6★ Aguas turbulentas",
+    "details": [
+      "Fuente infernal",
+      "6★ Aguas turbulentas"
+    ]
+  },
+  {
+    "id": "1918351917",
+    "category": "event",
+    "stars": 6,
+    "name": "¿Tienes un pañuelo?",
+    "nameEs": "6★ ¿Tienes un pañuelo?",
+    "details": [
+      "Arena",
+      "6★ ¿Tienes un pañuelo?"
+    ]
+  },
+  {
+    "id": "399948389",
+    "category": "event",
+    "stars": 6,
+    "name": "¿Querías caldo? ¡Pues toma tres tazas!",
+    "nameEs": "6★ ¿Querías caldo? ¡Pues toma tres tazas!",
+    "details": [
+      "Bastión",
+      "6★ ¿Querías caldo? ¡Pues toma tres tazas!"
+    ]
+  },
+  {
+    "id": "385698372",
+    "category": "event",
+    "stars": 6,
+    "name": "¿Cómo brilla...?",
+    "nameEs": "6★ ¿Cómo brilla...?",
+    "details": [
+      "Grutas de lava",
+      "6★ ¿Cómo brilla...?"
+    ]
+  },
+  {
+    "id": "1877306114",
+    "category": "event",
+    "stars": 6,
+    "name": "¡Necesito un descanso reparador!",
+    "nameEs": "6★ ¡Necesito un descanso reparador!",
+    "details": [
+      "Templo olvidado",
+      "6★ ¡Necesito un descanso reparador!"
+    ]
+  },
+  {
+    "id": "1771047616",
+    "category": "event",
+    "stars": 6,
+    "name": "¡Fuera de mi escenario!",
+    "nameEs": "6★ ¡Fuera de mi escenario!",
+    "details": [
+      "Islas heladas",
+      "6★ ¡Fuera de mi escenario!"
+    ]
+  },
+  {
+    "id": "337910439",
+    "category": "event",
+    "stars": 6,
+    "name": "¡Caballeros, mostrad vuestra valía!",
+    "nameEs": "6★ ¡Caballeros, mostrad vuestra valía!",
+    "details": [
+      "Arena",
+      "6★ ¡Caballeros, mostrad vuestra valía!"
+    ]
+  },
+  {
+    "id": "276180875",
+    "category": "event",
+    "stars": 5,
+    "name": "Tres al rojo vivo",
+    "nameEs": "5★ Tres al rojo vivo",
+    "details": [
+      "Grutas de lava",
+      "5★ Tres al rojo vivo"
+    ]
+  },
+  {
+    "id": "1795745847",
+    "category": "event",
+    "stars": 5,
+    "name": "Pinzas y puñetazos",
+    "nameEs": "5★ Pinzas y puñetazos",
+    "details": [
+      "Arena",
+      "5★ Pinzas y puñetazos"
+    ]
+  },
+  {
+    "id": "1782036502",
+    "category": "event",
+    "stars": 5,
+    "name": "Pánico en el bosque inundado",
+    "nameEs": "5★ Pánico en el bosque inundado",
+    "details": [
+      "Bosque inundado",
+      "5★ Pánico en el bosque inundado"
+    ]
+  },
+  {
+    "id": "2128316800",
+    "category": "event",
+    "stars": 5,
+    "name": "Luchando contra el dolor",
+    "nameEs": "5★ Luchando contra el dolor",
+    "details": [
+      "Fuente infernal",
+      "5★ Luchando contra el dolor"
+    ]
+  },
+  {
+    "id": "381390837",
+    "category": "event",
+    "stars": 5,
+    "name": "Los tres terribles",
+    "nameEs": "5★ Los tres terribles",
+    "details": [
+      "La Jungla",
+      "5★ Los tres terribles"
+    ]
+  },
+  {
+    "id": "290430888",
+    "category": "event",
+    "stars": 5,
+    "name": "Fiesta de disfraces de camaradas",
+    "nameEs": "5★ Fiesta de disfraces de camaradas",
+    "details": [
+      "Templo olvidado",
+      "5★ Fiesta de disfraces de camaradas"
+    ]
+  },
+  {
+    "id": "367157204",
+    "category": "event",
+    "stars": 5,
+    "name": "El rugido del eclipse oscuro",
+    "nameEs": "5★ El rugido del eclipse oscuro",
+    "details": [
+      "Arena",
+      "5★ El rugido del eclipse oscuro"
+    ]
+  },
+  {
+    "id": "2080528867",
+    "category": "event",
+    "stars": 5,
+    "name": "El cruel trío Aknosom",
+    "nameEs": "5★ El cruel trío Aknosom",
+    "details": [
+      "Templo olvidado",
+      "5★ El cruel trío Aknosom"
+    ]
+  },
+  {
+    "id": "1947273864",
+    "category": "event",
+    "stars": 5,
+    "name": "Deseo de volar",
+    "nameEs": "5★ Deseo de volar",
+    "details": [
+      "Bosque inundado",
+      "5★ Deseo de volar"
+    ]
+  },
+  {
+    "id": "515170092",
+    "category": "event",
+    "stars": 5,
+    "name": "Bailando bajo la lluvia",
+    "nameEs": "5★ Bailando bajo la lluvia",
+    "details": [
+      "La Jungla",
+      "5★ Bailando bajo la lluvia ▣"
+    ]
+  },
+  {
+    "id": "396165098",
+    "category": "event",
+    "stars": 5,
+    "name": "¡A por ese Rajang, oé!",
+    "nameEs": "5★ ¡A por ese Rajang, oé!",
+    "details": [
+      "Arena",
+      "5★ ¡A por ese Rajang, oé!"
+    ]
+  },
+  {
+    "id": "107750324",
+    "category": "event",
+    "stars": 4,
+    "name": "Vecinos ruidosos",
+    "nameEs": "4★ Vecinos ruidosos",
+    "details": [
+      "Arena olvidada",
+      "4★ Vecinos ruidosos"
+    ]
+  },
+  {
+    "id": "405650451",
+    "category": "event",
+    "stars": 4,
+    "name": "Vals prohibido",
+    "nameEs": "4★ Vals prohibido",
+    "details": [
+      "Arena",
+      "4★ Vals prohibido"
+    ]
+  },
+  {
+    "id": "92992407",
+    "category": "event",
+    "stars": 4,
+    "name": "Un regalo enigmiáutico",
+    "nameEs": "4★ Un regalo enigmiáutico",
+    "details": [
+      "Bosque inundado",
+      "4★ Un regalo enigmiáutico"
+    ]
+  },
+  {
+    "id": "122000213",
+    "category": "event",
+    "stars": 4,
+    "name": "Tangana sobre tangana",
+    "nameEs": "4★ Tangana sobre tangana",
+    "details": [
+      "Arena",
+      "4★ Tangana sobre tangana"
+    ]
+  },
+  {
+    "id": "1356342659",
+    "category": "event",
+    "stars": 4,
+    "name": "Sombrilla en la brisa helada",
+    "nameEs": "4★ Sombrilla en la brisa helada",
+    "details": [
+      "Islas heladas",
+      "4★ Sombrilla en la brisa helada"
+    ]
+  },
+  {
+    "id": "525618290",
+    "category": "event",
+    "stars": 4,
+    "name": "Llamarada de inspiración",
+    "nameEs": "4★ Llamarada de inspiración",
+    "details": [
+      "Arena",
+      "4★ Llamarada de inspiración"
+    ]
+  },
+  {
+    "id": "49296235",
+    "category": "event",
+    "stars": 4,
+    "name": "Investigato privado",
+    "nameEs": "4★ Investigato privado",
+    "details": [
+      "Islas heladas",
+      "4★ Investigato privado"
+    ]
+  },
+  {
+    "id": "467162065",
+    "category": "event",
+    "stars": 4,
+    "name": "El que no corre, vuela",
+    "nameEs": "4★ El que no corre, vuela",
+    "details": [
+      "Llanos arenosos",
+      "4★ El que no corre, vuela"
+    ]
+  },
+  {
+    "id": "2065316133",
+    "category": "event",
+    "stars": 4,
+    "name": "El pequeño Lagombi Alud",
+    "nameEs": "4★ El pequeño Lagombi Alud",
+    "details": [
+      "Arena",
+      "4★ El pequeño Lagombi Alud"
+    ]
+  },
+  {
+    "id": "63529736",
+    "category": "event",
+    "stars": 4,
+    "name": "Crecimiento salvaje",
+    "nameEs": "4★ Crecimiento salvaje",
+    "details": [
+      "Llanos arenosos",
+      "4★ Crecimiento salvaje ▣"
+    ]
+  },
+  {
+    "id": "78742518",
+    "category": "event",
+    "stars": 4,
+    "name": "Colmillos heladores",
+    "nameEs": "4★ Colmillos heladores",
+    "details": [
+      "Arena olvidada",
+      "4★ Colmillos heladores"
+    ]
+  },
+  {
+    "id": "419884080",
+    "category": "event",
+    "stars": 4,
+    "name": "A puñetazo limpio",
+    "nameEs": "4★ A puñetazo limpio",
+    "details": [
+      "Templo olvidado",
+      "4★ A puñetazo limpio"
+    ]
+  },
+  {
+    "id": "208212062",
+    "category": "event",
+    "stars": 3,
+    "name": "Pequeños inconvenientes",
+    "nameEs": "3★ Pequeños inconvenientes",
+    "details": [
+      "Bastión",
+      "3★ Pequeños inconvenientes"
+    ]
+  },
+  {
+    "id": "222445695",
+    "category": "event",
+    "stars": 3,
+    "name": "Otro gran gesto",
+    "nameEs": "3★ Otro gran gesto",
+    "details": [
+      "Arena",
+      "3★ Otro gran gesto"
+    ]
+  },
+  {
+    "id": "1500060168",
+    "category": "event",
+    "stars": 3,
+    "name": "El más fuerte de los fuertes",
+    "nameEs": "3★ El más fuerte de los fuertes",
+    "details": [
+      "Arena",
+      "3★ El más fuerte de los fuertes"
+    ]
+  },
+  {
+    "id": "831366330",
+    "category": "event",
+    "stars": 2,
+    "name": "Un gran gesto",
+    "nameEs": "2★ Un gran gesto",
+    "details": [
+      "Templo olvidado",
+      "2★ Un gran gesto"
+    ]
+  },
+  {
+    "id": "845616219",
+    "category": "event",
+    "stars": 2,
+    "name": "El crepitante Jyuratodus",
+    "nameEs": "2★ El crepitante Jyuratodus",
+    "details": [
+      "Bosque inundado",
+      "2★ El crepitante Jyuratodus"
+    ]
+  },
+  {
+    "id": "1174202863",
+    "category": "event",
+    "stars": 2,
+    "name": "¡Hay que recoger rápido!",
+    "nameEs": "2★ ¡Hay que recoger rápido!",
+    "details": [
+      "Templo olvidado",
+      "2★ ¡Hay que recoger rápido!"
+    ]
+  },
+  {
+    "id": "1528543694",
+    "category": "event",
+    "stars": 2,
+    "name": "¡¿Sol naciente?!",
+    "nameEs": "2★ ¡¿Sol naciente?!",
+    "details": [
+      "Templo olvidado",
+      "2★ ¡¿Sol naciente?!"
+    ]
+  },
+  {
+    "id": "648177798",
+    "category": "event",
+    "stars": 1,
+    "name": "Daimyo con perlas",
+    "nameEs": "1★ Daimyo con perlas",
+    "details": [
+      "Arena",
+      "1★ Daimyo con perlas"
+    ]
+  },
+  {
+    "id": "542967876",
+    "category": "event",
+    "stars": 1,
+    "name": "Cosecha afortunada",
+    "nameEs": "1★ Cosecha afortunada",
+    "details": [
+      "Arena",
+      "1★ Cosecha afortunada"
+    ]
+  },
+  {
+    "id": "1514293801",
+    "category": "event",
+    "stars": 1,
+    "name": "¿Wyverns pájaro de la ruina?",
+    "nameEs": "1★ ¿Wyverns pájaro de la ruina?",
+    "details": [
+      "Arena",
+      "1★ ¿Wyverns pájaro de la ruina?"
+    ]
+  },
+  {
+    "id": "662427815",
+    "category": "event",
+    "stars": 1,
+    "name": "¡Enseñamos a los novatos!",
+    "nameEs": "1★ ¡Enseñamos a los novatos!",
+    "details": [
+      "Arena",
+      "1★ ¡Enseñamos a los novatos!"
+    ]
+  },
+  {
+    "id": "1527984235",
+    "category": "follower",
+    "stars": 6,
+    "name": "Volverá a salir el sol",
+    "nameEs": "6★ Volverá a salir el sol",
+    "details": [
+      "Fuente infernal",
+      "6★ Volverá a salir el sol"
+    ]
+  },
+  {
+    "id": "1513734218",
+    "category": "follower",
+    "stars": 6,
+    "name": "Una prueba de osadía",
+    "nameEs": "6★ Una prueba de osadía",
+    "details": [
+      "El abismo cavernoso",
+      "6★ Una prueba de osadía"
+    ]
+  },
+  {
+    "id": "1173643272",
+    "category": "follower",
+    "stars": 6,
+    "name": "Presagio de destrucción",
+    "nameEs": "6★ Presagio de destrucción",
+    "details": [
+      "Bastión",
+      "6★ Presagio de destrucción ▣"
+    ]
+  },
+  {
+    "id": "552480757",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación Rathian Dorada",
+    "nameEs": "6★ Operación Rathian Dorada",
+    "details": [
+      "La Jungla",
+      "6★ Operación Rathian Dorada"
+    ]
+  },
+  {
+    "id": "566730730",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación Rathalos Plateado",
+    "nameEs": "6★ Operación Rathalos Plateado",
+    "details": [
+      "Bastión",
+      "6★ Operación Rathalos Plateado"
+    ]
+  },
+  {
+    "id": "1027766492",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación rabiosa",
+    "nameEs": "6★ Operación rabiosa",
+    "details": [
+      "Llanos arenosos",
+      "6★ Operación rabiosa"
+    ]
+  },
+  {
+    "id": "865589534",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación pelo dorado furioso",
+    "nameEs": "6★ Operación pelo dorado furioso",
+    "details": [
+      "Grutas de lava",
+      "6★ Operación pelo dorado furioso"
+    ]
+  },
+  {
+    "id": "580439947",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación Nargacuga Lunar",
+    "nameEs": "6★ Operación Nargacuga Lunar",
+    "details": [
+      "Arena olvidada",
+      "6★ Operación Nargacuga Lunar"
+    ]
+  },
+  {
+    "id": "743141193",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación Mizutsune Violeta",
+    "nameEs": "6★ Operación Mizutsune Violeta",
+    "details": [
+      "Arena olvidada",
+      "6★ Operación Mizutsune Violeta"
+    ]
+  },
+  {
+    "id": "837106008",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación Magnamalo doble",
+    "nameEs": "6★ Operación Magnamalo doble",
+    "details": [
+      "Grutas de lava",
+      "6★ Operación Magnamalo doble"
+    ]
+  },
+  {
+    "id": "1013516607",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación Jungla neblinosa",
+    "nameEs": "6★ Operación Jungla neblinosa",
+    "details": [
+      "La Jungla",
+      "6★ Operación Jungla neblinosa"
+    ]
+  },
+  {
+    "id": "956110994",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación ira explosiva",
+    "nameEs": "6★ Operación ira explosiva",
+    "details": [
+      "Islas heladas",
+      "6★ Operación ira explosiva"
+    ]
+  },
+  {
+    "id": "609900566",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación furia",
+    "nameEs": "6★ Operación furia",
+    "details": [
+      "Templo olvidado",
+      "6★ Operación furia"
+    ]
+  },
+  {
+    "id": "594689960",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación Espinas Llameante",
+    "nameEs": "6★ Operación Espinas Llameante",
+    "details": [
+      "Bastión",
+      "6★ Operación Espinas Llameante"
+    ]
+  },
+  {
+    "id": "970344627",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación dominio",
+    "nameEs": "6★ Operación dominio",
+    "details": [
+      "Templo olvidado",
+      "6★ Operación dominio"
+    ]
+  },
+  {
+    "id": "851339641",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación danza de cuchillas",
+    "nameEs": "6★ Operación danza de cuchillas",
+    "details": [
+      "Bastión",
+      "6★ Operación danza de cuchillas"
+    ]
+  },
+  {
+    "id": "922995131",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación Chameleos",
+    "nameEs": "6★ Operación Chameleos",
+    "details": [
+      "La Jungla",
+      "6★ Operación Chameleos"
+    ]
+  },
+  {
+    "id": "638910420",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación Bazelgeuse Magma",
+    "nameEs": "6★ Operación Bazelgeuse Magma",
+    "details": [
+      "Islas heladas",
+      "6★ Operación Bazelgeuse Magma"
+    ]
+  },
+  {
+    "id": "998303857",
+    "category": "follower",
+    "stars": 6,
+    "name": "Operación astro de la Jungla",
+    "nameEs": "6★ Operación astro de la Jungla",
+    "details": [
+      "La Jungla",
+      "6★ Operación astro de la Jungla"
+    ]
+  },
+  {
+    "id": "173631086",
+    "category": "follower",
+    "stars": 6,
+    "name": "La cólera nunca muere",
+    "nameEs": "6★ La cólera nunca muere",
+    "details": [
+      "Grutas de lava",
+      "6★ La cólera nunca muere"
+    ]
+  },
+  {
+    "id": "1042000125",
+    "category": "follower",
+    "stars": 6,
+    "name": "Guerra territorial",
+    "nameEs": "6★ Guerra territorial",
+    "details": [
+      "Bosque inundado",
+      "6★ Guerra territorial"
+    ]
+  },
+  {
+    "id": "145671848",
+    "category": "follower",
+    "stars": 6,
+    "name": "Gatitos al rojo vivo",
+    "nameEs": "6★ Gatitos al rojo vivo",
+    "details": [
+      "Grutas de lava",
+      "6★ Gatitos al rojo vivo"
+    ]
+  },
+  {
+    "id": "624134199",
+    "category": "follower",
+    "stars": 6,
+    "name": "Avanzada: cazando monstruos",
+    "nameEs": "6★ Avanzada: cazando monstruos",
+    "details": [
+      "Bastión",
+      "6★ Avanzada: cazando monstruos"
+    ]
+  },
+  {
+    "id": "159397449",
+    "category": "follower",
+    "stars": 6,
+    "name": "Auténtica cacería",
+    "nameEs": "6★ Auténtica cacería",
+    "details": [
+      "Bastión",
+      "6★ Auténtica cacería"
+    ]
+  },
+  {
+    "id": "265655947",
+    "category": "follower",
+    "stars": 6,
+    "name": "Amenaza invisible",
+    "nameEs": "6★ Amenaza invisible",
+    "details": [
+      "La Jungla",
+      "6★ Amenaza invisible"
+    ]
+  },
+  {
+    "id": "1331598422",
+    "category": "follower",
+    "stars": 5,
+    "name": "Testimonio a la luz de la luna",
+    "nameEs": "5★ Testimonio a la luz de la luna",
+    "details": [
+      "Bastión",
+      "5★ Testimonio a la luz de la luna"
+    ]
+  },
+  {
+    "id": "973224489",
+    "category": "follower",
+    "stars": 5,
+    "name": "Rachas de aire fresco",
+    "nameEs": "5★ Rachas de aire fresco",
+    "details": [
+      "Islas heladas",
+      "5★ Rachas de aire fresco"
+    ]
+  },
+  {
+    "id": "653905316",
+    "category": "follower",
+    "stars": 5,
+    "name": "Peligros del oscuro desierto",
+    "nameEs": "5★ Peligros del oscuro desierto",
+    "details": [
+      "Llanos arenosos",
+      "5★ Peligros del oscuro desierto"
+    ]
+  },
+  {
+    "id": "668155205",
+    "category": "follower",
+    "stars": 5,
+    "name": "Operación zona magmática",
+    "nameEs": "5★ Operación zona magmática",
+    "details": [
+      "Grutas de lava",
+      "5★ Operación zona magmática"
+    ]
+  },
+  {
+    "id": "709909523",
+    "category": "follower",
+    "stars": 5,
+    "name": "Operación Teostra",
+    "nameEs": "5★ Operación Teostra",
+    "details": [
+      "Bastión",
+      "5★ Operación Teostra"
+    ]
+  },
+  {
+    "id": "606117255",
+    "category": "follower",
+    "stars": 5,
+    "name": "Operación Rajang",
+    "nameEs": "5★ Operación Rajang",
+    "details": [
+      "La Jungla",
+      "5★ Operación Rajang"
+    ]
+  },
+  {
+    "id": "548695418",
+    "category": "follower",
+    "stars": 5,
+    "name": "Operación ogro sangriento",
+    "nameEs": "5★ Operación ogro sangriento",
+    "details": [
+      "Bastión",
+      "5★ Operación ogro sangriento"
+    ]
+  },
+  {
+    "id": "577178936",
+    "category": "follower",
+    "stars": 5,
+    "name": "Operación morador llameante",
+    "nameEs": "5★ Operación morador llameante",
+    "details": [
+      "Grutas de lava",
+      "5★ Operación morador llameante"
+    ]
+  },
+  {
+    "id": "787160223",
+    "category": "follower",
+    "stars": 5,
+    "name": "Operación Llanos arenosos",
+    "nameEs": "5★ Operación Llanos arenosos",
+    "details": [
+      "Llanos arenosos",
+      "5★ Operación Llanos arenosos"
+    ]
+  },
+  {
+    "id": "681950301",
+    "category": "follower",
+    "stars": 5,
+    "name": "Operación Kushala Daora",
+    "nameEs": "5★ Operación Kushala Daora",
+    "details": [
+      "Islas heladas",
+      "5★ Operación Kushala Daora"
+    ]
+  },
+  {
+    "id": "739355902",
+    "category": "follower",
+    "stars": 5,
+    "name": "Operación Garangolm doble",
+    "nameEs": "5★ Operación Garangolm doble",
+    "details": [
+      "Bosque inundado",
+      "5★ Operación Garangolm doble"
+    ]
+  },
+  {
+    "id": "801918140",
+    "category": "follower",
+    "stars": 5,
+    "name": "Operación cuento de la sirena",
+    "nameEs": "5★ Operación cuento de la sirena",
+    "details": [
+      "Islas heladas",
+      "5★ Operación cuento de la sirena"
+    ]
+  },
+  {
+    "id": "696183922",
+    "category": "follower",
+    "stars": 5,
+    "name": "Operación Bazelgeuse",
+    "nameEs": "5★ Operación Bazelgeuse",
+    "details": [
+      "La Jungla",
+      "5★ Operación Bazelgeuse"
+    ]
+  },
+  {
+    "id": "562945307",
+    "category": "follower",
+    "stars": 5,
+    "name": "Operación acechante nocturno",
+    "nameEs": "5★ Operación acechante nocturno",
+    "details": [
+      "Bastión",
+      "5★ Operación acechante nocturno"
+    ]
+  },
+  {
+    "id": "590904537",
+    "category": "follower",
+    "stars": 5,
+    "name": "Operación a prueba de rayos",
+    "nameEs": "5★ Operación a prueba de rayos",
+    "details": [
+      "Templo olvidado",
+      "5★ Operación a prueba de rayos"
+    ]
+  },
+  {
+    "id": "945265259",
+    "category": "follower",
+    "stars": 5,
+    "name": "Fuego contra fuego",
+    "nameEs": "5★ Fuego contra fuego",
+    "details": [
+      "La Jungla",
+      "5★ Fuego contra fuego"
+    ]
+  },
+  {
+    "id": "1036225204",
+    "category": "follower",
+    "stars": 5,
+    "name": "Esa llama sigue viva",
+    "nameEs": "5★ Esa llama sigue viva",
+    "details": [
+      "Bastión",
+      "5★ Esa llama sigue viva"
+    ]
+  },
+  {
+    "id": "1050999381",
+    "category": "follower",
+    "stars": 5,
+    "name": "En primera fila",
+    "nameEs": "5★ En primera fila",
+    "details": [
+      "Llanos arenosos",
+      "5★ En primera fila"
+    ]
+  },
+  {
+    "id": "958974472",
+    "category": "follower",
+    "stars": 5,
+    "name": "El fuego interior",
+    "nameEs": "5★ El fuego interior",
+    "details": [
+      "Bastión",
+      "5★ El fuego interior"
+    ]
+  },
+  {
+    "id": "1021991575",
+    "category": "follower",
+    "stars": 5,
+    "name": "Coge al Rajang por los cuernos",
+    "nameEs": "5★ Coge al Rajang por los cuernos",
+    "details": [
+      "La Jungla",
+      "5★ Coge al Rajang por los cuernos"
+    ]
+  },
+  {
+    "id": "1065232970",
+    "category": "follower",
+    "stars": 5,
+    "name": "Arde el cielo, vibra la tierra",
+    "nameEs": "5★ Arde el cielo, vibra la tierra",
+    "details": [
+      "Grutas de lava",
+      "5★ Arde el cielo, vibra la tierra"
+    ]
+  },
+  {
+    "id": "791072309",
+    "category": "follower",
+    "stars": 4,
+    "name": "Un picnic movidito",
+    "nameEs": "4★ Un picnic movidito",
+    "details": [
+      "Bastión",
+      "4★ Un picnic movidito"
+    ]
+  },
+  {
+    "id": "718368203",
+    "category": "follower",
+    "stars": 4,
+    "name": "Rompiendo el hielo",
+    "nameEs": "4★ Rompiendo el hielo",
+    "details": [
+      "Templo olvidado",
+      "4★ Rompiendo el hielo"
+    ]
+  },
+  {
+    "id": "1601495167",
+    "category": "follower",
+    "stars": 4,
+    "name": "Pesquisa en el Bosque inundado",
+    "nameEs": "4★ Pesquisa en el Bosque inundado",
+    "details": [
+      "Bosque inundado",
+      "4★ Pesquisa en el Bosque inundado"
+    ]
+  },
+  {
+    "id": "1348272421",
+    "category": "follower",
+    "stars": 4,
+    "name": "Operación Zinogre",
+    "nameEs": "4★ Operación Zinogre",
+    "details": [
+      "Bosque inundado",
+      "4★ Operación Zinogre"
+    ]
+  },
+  {
+    "id": "1586737246",
+    "category": "follower",
+    "stars": 4,
+    "name": "Operación Tigrex",
+    "nameEs": "4★ Operación Tigrex",
+    "details": [
+      "Bastión",
+      "4★ Operación Tigrex"
+    ]
+  },
+  {
+    "id": "1467732228",
+    "category": "follower",
+    "stars": 4,
+    "name": "Operación Seregios",
+    "nameEs": "4★ Operación Seregios",
+    "details": [
+      "Llanos arenosos",
+      "4★ Operación Seregios"
+    ]
+  },
+  {
+    "id": "1453482343",
+    "category": "follower",
+    "stars": 4,
+    "name": "Operación rescate gélido",
+    "nameEs": "4★ Operación rescate gélido",
+    "details": [
+      "Islas heladas",
+      "4★ Operación rescate gélido"
+    ]
+  },
+  {
+    "id": "706646400",
+    "category": "follower",
+    "stars": 4,
+    "name": "Operación Rathalos",
+    "nameEs": "4★ Operación Rathalos",
+    "details": [
+      "Bastión",
+      "4★ Operación Rathalos"
+    ]
+  },
+  {
+    "id": "1481527324",
+    "category": "follower",
+    "stars": 4,
+    "name": "Operación Rakna-Kadaki Pira",
+    "nameEs": "4★ Operación Rakna-Kadaki Pira",
+    "details": [
+      "Grutas de lava",
+      "4★ Operación Rakna-Kadaki Pira"
+    ]
+  },
+  {
+    "id": "692396515",
+    "category": "follower",
+    "stars": 4,
+    "name": "Operación Mizutsune",
+    "nameEs": "4★ Operación Mizutsune",
+    "details": [
+      "La Jungla",
+      "4★ Operación Mizutsune"
+    ]
+  },
+  {
+    "id": "1572487353",
+    "category": "follower",
+    "stars": 4,
+    "name": "Operación Lunagaron",
+    "nameEs": "4★ Operación Lunagaron",
+    "details": [
+      "Templo olvidado",
+      "4★ Operación Lunagaron"
+    ]
+  },
+  {
+    "id": "1558253720",
+    "category": "follower",
+    "stars": 4,
+    "name": "Operación Gore Magala",
+    "nameEs": "4★ Operación Gore Magala",
+    "details": [
+      "Templo olvidado",
+      "4★ Operación Gore Magala"
+    ]
+  },
+  {
+    "id": "1425523105",
+    "category": "follower",
+    "stars": 4,
+    "name": "Operación fuego púrpura",
+    "nameEs": "4★ Operación fuego púrpura",
+    "details": [
+      "Grutas de lava",
+      "4★ Operación fuego púrpura"
+    ]
+  },
+  {
+    "id": "1376755963",
+    "category": "follower",
+    "stars": 4,
+    "name": "Operación Espinas",
+    "nameEs": "4★ Operación Espinas",
+    "details": [
+      "Bastión",
+      "4★ Operación Espinas"
+    ]
+  },
+  {
+    "id": "1362522330",
+    "category": "follower",
+    "stars": 4,
+    "name": "Operación Astalos",
+    "nameEs": "4★ Operación Astalos",
+    "details": [
+      "La Jungla",
+      "4★ Operación Astalos"
+    ]
+  },
+  {
+    "id": "1439248710",
+    "category": "follower",
+    "stars": 4,
+    "name": "Operación arenosa",
+    "nameEs": "4★ Operación arenosa",
+    "details": [
+      "Llanos arenosos",
+      "4★ Operación arenosa"
+    ]
+  },
+  {
+    "id": "732618216",
+    "category": "follower",
+    "stars": 4,
+    "name": "Invasor desconocido",
+    "nameEs": "4★ Invasor desconocido",
+    "details": [
+      "Templo olvidado",
+      "4★ Invasor desconocido"
+    ]
+  },
+  {
+    "id": "585129616",
+    "category": "follower",
+    "stars": 4,
+    "name": "Instructor destructor",
+    "nameEs": "4★ Instructor destructor",
+    "details": [
+      "Bastión",
+      "4★ Instructor destructor"
+    ]
+  },
+  {
+    "id": "776838676",
+    "category": "follower",
+    "stars": 4,
+    "name": "Flores de cerezo en pugna",
+    "nameEs": "4★ Flores de cerezo en pugna",
+    "details": [
+      "La Jungla",
+      "4★ Flores de cerezo en pugna"
+    ]
+  },
+  {
+    "id": "599363249",
+    "category": "follower",
+    "stars": 4,
+    "name": "Estómago atronador",
+    "nameEs": "4★ Estómago atronador",
+    "details": [
+      "La Jungla",
+      "4★ Estómago atronador"
+    ]
+  },
+  {
+    "id": "537849587",
+    "category": "follower",
+    "stars": 4,
+    "name": "Espinosa velada nocturna",
+    "nameEs": "4★ Espinosa velada nocturna",
+    "details": [
+      "Bastión",
+      "4★ Espinosa velada nocturna"
+    ]
+  },
+  {
+    "id": "2087934130",
+    "category": "follower",
+    "stars": 4,
+    "name": "El lobo gélido y la luna roja",
+    "nameEs": "4★ El lobo gélido y la luna roja",
+    "details": [
+      "Bastión",
+      "4★ El lobo gélido y la luna roja"
+    ]
+  },
+  {
+    "id": "762588791",
+    "category": "follower",
+    "stars": 4,
+    "name": "Desenpolva las botas de caza",
+    "nameEs": "4★ Desenpolva las botas de caza",
+    "details": [
+      "Llanos arenosos",
+      "4★ Desenpolva las botas de caza"
+    ]
+  },
+  {
+    "id": "747830870",
+    "category": "follower",
+    "stars": 4,
+    "name": "Banquete en el bosque",
+    "nameEs": "4★ Banquete en el bosque",
+    "details": [
+      "Bosque inundado",
+      "4★ Banquete en el bosque"
+    ]
+  },
+  {
+    "id": "704134698",
+    "category": "follower",
+    "stars": 4,
+    "name": "¡Qué pacha, hacha!",
+    "nameEs": "4★ ¡Qué pacha, hacha!",
+    "details": [
+      "Bosque inundado",
+      "4★ ¡Qué pacha, hacha!"
+    ]
+  },
+  {
+    "id": "1547407889",
+    "category": "follower",
+    "stars": 3,
+    "name": "Una pasión que te derrite",
+    "nameEs": "3★ Una pasión que te derrite",
+    "details": [
+      "Islas heladas",
+      "3★ Una pasión que te derrite"
+    ]
+  },
+  {
+    "id": "1398940272",
+    "category": "follower",
+    "stars": 3,
+    "name": "Una dura lección",
+    "nameEs": "3★ Una dura lección",
+    "details": [
+      "Bosque inundado",
+      "3★ Una dura lección"
+    ]
+  },
+  {
+    "id": "1609970135",
+    "category": "follower",
+    "stars": 3,
+    "name": "Rencor consagrado",
+    "nameEs": "3★ Rencor consagrado",
+    "details": [
+      "Templo olvidado",
+      "3★ Rencor consagrado"
+    ]
+  },
+  {
+    "id": "1562165814",
+    "category": "follower",
+    "stars": 3,
+    "name": "Regreso embarrado",
+    "nameEs": "3★ Regreso embarrado",
+    "details": [
+      "Bosque inundado",
+      "3★ Regreso embarrado"
+    ]
+  },
+  {
+    "id": "1074111716",
+    "category": "follower",
+    "stars": 3,
+    "name": "Operación Somnacanth Aurora",
+    "nameEs": "3★ Operación Somnacanth Aurora",
+    "details": [
+      "Islas heladas",
+      "3★ Operación Somnacanth Aurora"
+    ]
+  },
+  {
+    "id": "1165088001",
+    "category": "follower",
+    "stars": 3,
+    "name": "Operación Shogun Ceanataur",
+    "nameEs": "3★ Operación Shogun Ceanataur",
+    "details": [
+      "Bosque inundado",
+      "3★ Operación Shogun Ceanataur"
+    ]
+  },
+  {
+    "id": "1121916037",
+    "category": "follower",
+    "stars": 3,
+    "name": "Operación salvar el Bastión",
+    "nameEs": "3★ Operación salvar el Bastión",
+    "details": [
+      "Bastión",
+      "3★ Operación salvar el Bastión"
+    ]
+  },
+  {
+    "id": "1150838112",
+    "category": "follower",
+    "stars": 3,
+    "name": "Operación persecución total",
+    "nameEs": "3★ Operación persecución total",
+    "details": [
+      "Llanos arenosos",
+      "3★ Operación persecución total"
+    ]
+  },
+  {
+    "id": "1179321638",
+    "category": "follower",
+    "stars": 3,
+    "name": "Operación Nargacuga",
+    "nameEs": "3★ Operación Nargacuga",
+    "details": [
+      "La Jungla",
+      "3★ Operación Nargacuga"
+    ]
+  },
+  {
+    "id": "1135625402",
+    "category": "follower",
+    "stars": 3,
+    "name": "Operación Magnamalo",
+    "nameEs": "3★ Operación Magnamalo",
+    "details": [
+      "Templo olvidado",
+      "3★ Operación Magnamalo"
+    ]
+  },
+  {
+    "id": "1477744013",
+    "category": "follower",
+    "stars": 3,
+    "name": "Operación Garangolm",
+    "nameEs": "3★ Operación Garangolm",
+    "details": [
+      "Bosque inundado",
+      "3★ Operación Garangolm"
+    ]
+  },
+  {
+    "id": "1284093019",
+    "category": "follower",
+    "stars": 3,
+    "name": "Operación doble Basarios",
+    "nameEs": "3★ Operación doble Basarios",
+    "details": [
+      "Llanos arenosos",
+      "3★ Operación doble Basarios"
+    ]
+  },
+  {
+    "id": "1539781955",
+    "category": "follower",
+    "stars": 3,
+    "name": "Operación ciénaga sospechosa",
+    "nameEs": "3★ Operación ciénaga sospechosa",
+    "details": [
+      "Bosque inundado",
+      "3★ Operación ciénaga sospechosa"
+    ]
+  },
+  {
+    "id": "1525532066",
+    "category": "follower",
+    "stars": 3,
+    "name": "Operación bulla en la Jungla",
+    "nameEs": "3★ Operación bulla en la Jungla",
+    "details": [
+      "La Jungla",
+      "3★ Operación bulla en la Jungla"
+    ]
+  },
+  {
+    "id": "1582953935",
+    "category": "follower",
+    "stars": 3,
+    "name": "Operación Barioth",
+    "nameEs": "3★ Operación Barioth",
+    "details": [
+      "Islas heladas",
+      "3★ Operación Barioth"
+    ]
+  },
+  {
+    "id": "1597187564",
+    "category": "follower",
+    "stars": 3,
+    "name": "Operación Almudron",
+    "nameEs": "3★ Operación Almudron",
+    "details": [
+      "Bosque inundado",
+      "3★ Operación Almudron"
+    ]
+  },
+  {
+    "id": "1194095815",
+    "category": "follower",
+    "stars": 3,
+    "name": "Operación a bajo cero",
+    "nameEs": "3★ Operación a bajo cero",
+    "details": [
+      "Islas heladas",
+      "3★ Operación a bajo cero"
+    ]
+  },
+  {
+    "id": "1637346462",
+    "category": "follower",
+    "stars": 3,
+    "name": "Frenesí pedregoso",
+    "nameEs": "3★ Frenesí pedregoso",
+    "details": [
+      "Bastión",
+      "3★ Frenesí pedregoso"
+    ]
+  },
+  {
+    "id": "1370981042",
+    "category": "follower",
+    "stars": 3,
+    "name": "Expedición con las hermanas",
+    "nameEs": "3★ Expedición con las hermanas",
+    "details": [
+      "Islas heladas",
+      "3★ Expedición con las hermanas"
+    ]
+  },
+  {
+    "id": "1443160828",
+    "category": "follower",
+    "stars": 3,
+    "name": "En lo profundo de la Jungla",
+    "nameEs": "3★ En lo profundo de la Jungla",
+    "details": [
+      "La Jungla",
+      "3★ En lo profundo de la Jungla"
+    ]
+  },
+  {
+    "id": "1356747421",
+    "category": "follower",
+    "stars": 3,
+    "name": "Cazando con rabia",
+    "nameEs": "3★ Cazando con rabia",
+    "details": [
+      "Bastión",
+      "3★ Cazando con rabia"
+    ]
+  },
+  {
+    "id": "1428402911",
+    "category": "follower",
+    "stars": 3,
+    "name": "Cab. blanco vs. cab. nuevo",
+    "nameEs": "3★ Cab. blanco vs. cab. nuevo",
+    "details": [
+      "Islas heladas",
+      "3★ Cab. blanco vs. cab. nuevo"
+    ]
+  },
+  {
+    "id": "1384706643",
+    "category": "follower",
+    "stars": 3,
+    "name": "Basarios rocachón",
+    "nameEs": "3★ Basarios rocachón",
+    "details": [
+      "Llanos arenosos",
+      "3★ Basarios rocachón"
+    ]
+  },
+  {
+    "id": "1294555625",
+    "category": "follower",
+    "stars": 2,
+    "name": "Operación Tobi-Kadachi",
+    "nameEs": "2★ Operación Tobi-Kadachi",
+    "details": [
+      "Templo olvidado",
+      "2★ Operación Tobi-Kadachi"
+    ]
+  },
+  {
+    "id": "1132378667",
+    "category": "follower",
+    "stars": 2,
+    "name": "Operación Rathian",
+    "nameEs": "2★ Operación Rathian",
+    "details": [
+      "Llanos arenosos",
+      "2★ Operación Rathian"
+    ]
+  },
+  {
+    "id": "1308789134",
+    "category": "follower",
+    "stars": 2,
+    "name": "Operación Khezu",
+    "nameEs": "2★ Operación Khezu",
+    "details": [
+      "Islas heladas",
+      "2★ Operación Khezu"
+    ]
+  },
+  {
+    "id": "1222375855",
+    "category": "follower",
+    "stars": 2,
+    "name": "Operación Bishaten Sanguina",
+    "nameEs": "2★ Operación Bishaten Sanguina",
+    "details": [
+      "Llanos arenosos",
+      "2★ Operación Bishaten Sanguina"
+    ]
+  },
+  {
+    "id": "1280829896",
+    "category": "follower",
+    "stars": 2,
+    "name": "Operación Bishaten",
+    "nameEs": "2★ Operación Bishaten",
+    "details": [
+      "Bosque inundado",
+      "2★ Operación Bishaten"
+    ]
+  },
+  {
+    "id": "1237133644",
+    "category": "follower",
+    "stars": 2,
+    "name": "Operación Anjanath",
+    "nameEs": "2★ Operación Anjanath",
+    "details": [
+      "La Jungla",
+      "2★ Operación Anjanath"
+    ]
+  },
+  {
+    "id": "1528411864",
+    "category": "follower",
+    "stars": 2,
+    "name": "Fruta contra balas",
+    "nameEs": "2★ Fruta contra balas",
+    "details": [
+      "Bosque inundado",
+      "2★ Fruta contra balas"
+    ]
+  },
+  {
+    "id": "380940538",
+    "category": "follower",
+    "stars": 2,
+    "name": "El templo del Tengu escarlata",
+    "nameEs": "2★ El templo del Tengu escarlata",
+    "details": [
+      "Templo olvidado",
+      "2★ El templo del Tengu escarlata"
+    ]
+  },
+  {
+    "id": "1514161979",
+    "category": "follower",
+    "stars": 2,
+    "name": "De audiencia con la reina",
+    "nameEs": "2★ De audiencia con la reina",
+    "details": [
+      "Llanos arenosos",
+      "2★ De audiencia con la reina"
+    ]
+  },
+  {
+    "id": "1173546745",
+    "category": "follower",
+    "stars": 2,
+    "name": "Centelleo nocturno",
+    "nameEs": "2★ Centelleo nocturno",
+    "details": [
+      "Templo olvidado",
+      "2★ Centelleo nocturno"
+    ]
+  },
+  {
+    "id": "881384389",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Vieja ilusión",
+    "nameEs": "8★ Vieja ilusión",
+    "details": [
+      "Templo olvidado",
+      "8★ Vieja ilusión"
+    ]
+  },
+  {
+    "id": "595794345",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Sofoque el fuego a la furia",
+    "nameEs": "8★ Sofoque el fuego a la furia",
+    "details": [
+      "Islas heladas",
+      "8★ Sofoque el fuego a la furia"
+    ]
+  },
+  {
+    "id": "714799331",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Lluvia mortal",
+    "nameEs": "8★ Lluvia mortal",
+    "details": [
+      "Llanos arenosos",
+      "8★ Lluvia mortal"
+    ]
+  },
+  {
+    "id": "581544328",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Llamarada entre bestias",
+    "nameEs": "8★ Llamarada entre bestias",
+    "details": [
+      "Grutas de lava",
+      "8★ Llamarada entre bestias"
+    ]
+  },
+  {
+    "id": "895618042",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "La tormenta de acero",
+    "nameEs": "8★ La tormenta de acero",
+    "details": [
+      "Islas heladas",
+      "8★ La tormenta de acero"
+    ]
+  },
+  {
+    "id": "1385435098",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "La grácil Rathian Apex",
+    "nameEs": "8★ La grácil Rathian Apex",
+    "details": [
+      "Bosque inundado",
+      "8★ La grácil Rathian Apex"
+    ]
+  },
+  {
+    "id": "924625848",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "La creadora",
+    "nameEs": "8★ La creadora",
+    "details": [
+      "Palacio coralino",
+      "8★ La creadora"
+    ]
+  },
+  {
+    "id": "1548136344",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El temible Rathalos Apex",
+    "nameEs": "8★ El temible Rathalos Apex",
+    "details": [
+      "Grutas de lava",
+      "8★ El temible Rathalos Apex"
+    ]
+  },
+  {
+    "id": "729557120",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El regreso del Bazelgeuse",
+    "nameEs": "8★ El regreso del Bazelgeuse",
+    "details": [
+      "Templo olvidado",
+      "8★ El regreso del Bazelgeuse"
+    ]
+  },
+  {
+    "id": "1414895777",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El regreso del Bazelgeuse",
+    "nameEs": "8★ El regreso del Bazelgeuse",
+    "details": [
+      "Islas heladas",
+      "8★ El regreso del Bazelgeuse"
+    ]
+  },
+  {
+    "id": "1442855015",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El regreso del Bazelgeuse",
+    "nameEs": "8★ El regreso del Bazelgeuse",
+    "details": [
+      "Bosque inundado",
+      "8★ El regreso del Bazelgeuse"
+    ]
+  },
+  {
+    "id": "1356425220",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El regreso del Bazelgeuse",
+    "nameEs": "8★ El regreso del Bazelgeuse",
+    "details": [
+      "Grutas de lava",
+      "8★ El regreso del Bazelgeuse"
+    ]
+  },
+  {
+    "id": "1399685115",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El Mizutsune Apex y el jefe",
+    "nameEs": "8★ El Mizutsune Apex y el jefe",
+    "details": [
+      "Islas heladas",
+      "8★ El Mizutsune Apex y el jefe"
+    ]
+  },
+  {
+    "id": "1370675237",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El hostil Arzuros Apex",
+    "nameEs": "8★ El hostil Arzuros Apex",
+    "details": [
+      "Templo olvidado",
+      "8★ El hostil Arzuros Apex"
+    ]
+  },
+  {
+    "id": "909867931",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El emperador de las llamas",
+    "nameEs": "8★ El emperador de las llamas",
+    "details": [
+      "Grutas de lava",
+      "8★ El emperador de las llamas"
+    ]
+  },
+  {
+    "id": "1609650014",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El electrizante Zinogre Apex",
+    "nameEs": "8★ El electrizante Zinogre Apex",
+    "details": [
+      "Templo olvidado",
+      "8★ El electrizante Zinogre Apex"
+    ]
+  },
+  {
+    "id": "1561862073",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El devastador Diablos Apex",
+    "nameEs": "8★ El devastador Diablos Apex",
+    "details": [
+      "Llanos arenosos",
+      "8★ El devastador Diablos Apex"
+    ]
+  },
+  {
+    "id": "1277234730",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El desafío de Utsushi, parte 5",
+    "nameEs": "8★ El desafío de Utsushi, parte 5",
+    "details": [
+      "Grutas de lava",
+      "8★ El desafío de Utsushi, parte 5"
+    ]
+  },
+  {
+    "id": "1129307701",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El desafío de Utsushi, parte 4",
+    "nameEs": "8★ El desafío de Utsushi, parte 4",
+    "details": [
+      "Llanos arenosos",
+      "8★ El desafío de Utsushi, parte 4"
+    ]
+  },
+  {
+    "id": "1115057684",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El desafío de Utsushi, parte 3",
+    "nameEs": "8★ El desafío de Utsushi, parte 3",
+    "details": [
+      "Templo olvidado",
+      "8★ El desafío de Utsushi, parte 3"
+    ]
+  },
+  {
+    "id": "1100824183",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El desafío de Utsushi, parte 2",
+    "nameEs": "8★ El desafío de Utsushi, parte 2",
+    "details": [
+      "Islas heladas",
+      "8★ El desafío de Utsushi, parte 2"
+    ]
+  },
+  {
+    "id": "1086049878",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El desafío de Utsushi, parte 1",
+    "nameEs": "8★ El desafío de Utsushi, parte 1",
+    "details": [
+      "Bosque inundado",
+      "8★ El desafío de Utsushi, parte 1"
+    ]
+  },
+  {
+    "id": "838212441",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "El brillo carmesí",
+    "nameEs": "8★ El brillo carmesí",
+    "details": [
+      "Templo olvidado",
+      "8★ El brillo carmesí"
+    ]
+  },
+  {
+    "id": "1518690109",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Avanzada: tormenta y fuego",
+    "nameEs": "8★ Avanzada: tormenta y fuego",
+    "details": [
+      "Llanos arenosos",
+      "8★ Avanzada: tormenta y fuego"
+    ]
+  },
+  {
+    "id": "1158229648",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Avanzada: muestra de poder",
+    "nameEs": "8★ Avanzada: muestra de poder",
+    "details": [
+      "Fuente infernal",
+      "8★ Avanzada: muestra de poder"
+    ]
+  },
+  {
+    "id": "1503915804",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Avanzada: monstruos en tinta",
+    "nameEs": "8★ Avanzada: monstruos en tinta",
+    "details": [
+      "Islas heladas",
+      "8★ Avanzada: monstruos en tinta"
+    ]
+  },
+  {
+    "id": "1206034097",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Avanzada: los coronados Apex",
+    "nameEs": "8★ Avanzada: los coronados Apex",
+    "details": [
+      "Fuente infernal",
+      "8★ Avanzada: los coronados Apex"
+    ]
+  },
+  {
+    "id": "1144520435",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Avanzada: el cometa caído",
+    "nameEs": "8★ Avanzada: el cometa caído",
+    "details": [
+      "Grutas de lava",
+      "8★ Avanzada: el cometa caído"
+    ]
+  },
+  {
+    "id": "1489682303",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Avanzada: calamidades duales",
+    "nameEs": "8★ Avanzada: calamidades duales",
+    "details": [
+      "Templo olvidado",
+      "8★ Avanzada: calamidades duales"
+    ]
+  },
+  {
+    "id": "1532923602",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Avanzada: ¿adónde iría?",
+    "nameEs": "8★ Avanzada: ¿adónde iría?",
+    "details": [
+      "Bosque inundado",
+      "8★ Avanzada: ¿adónde iría?"
+    ]
+  },
+  {
+    "id": "759019887",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Astro funesto del más allá",
+    "nameEs": "8★ Astro funesto del más allá",
+    "details": [
+      "Islas heladas",
+      "8★ Astro funesto del más allá"
+    ]
+  },
+  {
+    "id": "773253388",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Astro funesto del más allá",
+    "nameEs": "8★ Astro funesto del más allá",
+    "details": [
+      "Llanos arenosos",
+      "8★ Astro funesto del más allá"
+    ]
+  },
+  {
+    "id": "686315821",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Astro funesto del más allá",
+    "nameEs": "8★ Astro funesto del más allá",
+    "details": [
+      "Bosque inundado",
+      "8★ Astro funesto del más allá"
+    ]
+  },
+  {
+    "id": "700549314",
+    "category": "hub_high",
+    "stars": 8,
+    "name": "Astro funesto del más allá",
+    "nameEs": "8★ Astro funesto del más allá",
+    "details": [
+      "Grutas de lava",
+      "8★ Astro funesto del más allá"
+    ]
+  },
+  {
+    "id": "553585098",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "Torbellino en el escenario",
+    "nameEs": "7★ Torbellino en el escenario",
+    "details": [
+      "Arena",
+      "7★ Torbellino en el escenario"
+    ]
+  },
+  {
+    "id": "999410294",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "Tablas escarchadas",
+    "nameEs": "7★ Tablas escarchadas",
+    "details": [
+      "Islas heladas",
+      "7★ Tablas escarchadas"
+    ]
+  },
+  {
+    "id": "1043630834",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "Rugido estridente",
+    "nameEs": "7★ Rugido estridente",
+    "details": [
+      "Llanos arenosos",
+      "7★ Rugido estridente"
+    ]
+  },
+  {
+    "id": "640014805",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "Retos a los cuatro vientos",
+    "nameEs": "7★ Retos a los cuatro vientos",
+    "details": [
+      "Grutas de lava",
+      "7★ Retos a los cuatro vientos"
+    ]
+  },
+  {
+    "id": "1028872925",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "Perturbaciones subterráneas",
+    "nameEs": "7★ Perturbaciones subterráneas",
+    "details": [
+      "Llanos arenosos",
+      "7★ Perturbaciones subterráneas"
+    ]
+  },
+  {
+    "id": "625764916",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "Ojo con los brutos",
+    "nameEs": "7★ Ojo con los brutos",
+    "details": [
+      "Bosque inundado",
+      "7★ Ojo con los brutos"
+    ]
+  },
+  {
+    "id": "611006999",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "Luché, perdí, me cabreé",
+    "nameEs": "7★ Luché, perdí, me cabreé",
+    "details": [
+      "Llanos arenosos",
+      "7★ Luché, perdí, me cabreé"
+    ]
+  },
+  {
+    "id": "1014623036",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "Invitación embarrada",
+    "nameEs": "7★ Invitación embarrada",
+    "details": [
+      "Bosque inundado",
+      "7★ Invitación embarrada"
+    ]
+  },
+  {
+    "id": "971451056",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "Fuego, brasas y dango",
+    "nameEs": "7★ Fuego, brasas y dango",
+    "details": [
+      "Grutas de lava",
+      "7★ Fuego, brasas y dango"
+    ]
+  },
+  {
+    "id": "1057880723",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "El mal que se avecina",
+    "nameEs": "7★ El mal que se avecina",
+    "details": [
+      "Grutas de lava",
+      "7★ El mal que se avecina"
+    ]
+  },
+  {
+    "id": "182322183",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "El fuego no sirve de nada",
+    "nameEs": "7★ El fuego no sirve de nada",
+    "details": [
+      "Grutas de lava",
+      "7★ El fuego no sirve de nada"
+    ]
+  },
+  {
+    "id": "196572196",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "Diosa del trueno",
+    "nameEs": "7★ Diosa del trueno",
+    "details": [
+      "Palacio coralino",
+      "7★ Diosa del trueno"
+    ]
+  },
+  {
+    "id": "567310827",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "Cuarteto de cuernos",
+    "nameEs": "7★ Cuarteto de cuernos",
+    "details": [
+      "Llanos arenosos",
+      "7★ Cuarteto de cuernos"
+    ]
+  },
+  {
+    "id": "985176657",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "Conmoción en el templo",
+    "nameEs": "7★ Conmoción en el templo",
+    "details": [
+      "Templo olvidado",
+      "7★ Conmoción en el templo"
+    ]
+  },
+  {
+    "id": "866171679",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "Ataviado de fuego infernal",
+    "nameEs": "7★ Ataviado de fuego infernal",
+    "details": [
+      "Templo olvidado",
+      "7★ Ataviado de fuego infernal"
+    ]
+  },
+  {
+    "id": "852446078",
+    "category": "hub_high",
+    "stars": 7,
+    "name": "¡Viene a por ti!",
+    "nameEs": "7★ ¡Viene a por ti!",
+    "details": [
+      "Islas heladas",
+      "7★ ¡Viene a por ti!"
+    ]
+  },
+  {
+    "id": "953432064",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Una danza cautivadora",
+    "nameEs": "6★ Una danza cautivadora",
+    "details": [
+      "Templo olvidado",
+      "6★ Una danza cautivadora"
+    ]
+  },
+  {
+    "id": "1072875619",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Un recorrido por las grutas",
+    "nameEs": "6★ Un recorrido por las grutas",
+    "details": [
+      "Grutas de lava",
+      "6★ Un recorrido por las grutas"
+    ]
+  },
+  {
+    "id": "683056722",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Sintoniza con el arco",
+    "nameEs": "6★ Sintoniza con el arco",
+    "details": [
+      "Templo olvidado",
+      "6★ Sintoniza con el arco"
+    ]
+  },
+  {
+    "id": "549801851",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Ojos rojos en la noche",
+    "nameEs": "6★ Ojos rojos en la noche",
+    "details": [
+      "Bosque inundado",
+      "6★ Ojos rojos en la noche"
+    ]
+  },
+  {
+    "id": "697290355",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Limpia las Grutas de lava",
+    "nameEs": "6★ Limpia las Grutas de lava",
+    "details": [
+      "Grutas de lava",
+      "6★ Limpia las Grutas de lava"
+    ]
+  },
+  {
+    "id": "803024573",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Invoca el glaive insecto",
+    "nameEs": "6★ Invoca el glaive insecto",
+    "details": [
+      "Islas heladas",
+      "6★ Invoca el glaive insecto"
+    ]
+  },
+  {
+    "id": "981917638",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Fogonazos y nubes rugientes",
+    "nameEs": "6★ Fogonazos y nubes rugientes",
+    "details": [
+      "Templo olvidado",
+      "6★ Fogonazos y nubes rugientes"
+    ]
+  },
+  {
+    "id": "995626983",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Elegía somnífera",
+    "nameEs": "6★ Elegía somnífera",
+    "details": [
+      "Grutas de lava",
+      "6★ Elegía somnífera"
+    ]
+  },
+  {
+    "id": "711015952",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Duelo en la Arena",
+    "nameEs": "6★ Duelo en la Arena",
+    "details": [
+      "Arena",
+      "6★ Duelo en la Arena"
+    ]
+  },
+  {
+    "id": "788266652",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Domina la lanza pistola",
+    "nameEs": "6★ Domina la lanza pistola",
+    "details": [
+      "Islas heladas",
+      "6★ Domina la lanza pistola"
+    ]
+  },
+  {
+    "id": "967665697",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Dios del viento",
+    "nameEs": "6★ Dios del viento",
+    "details": [
+      "Templo olvidado",
+      "6★ Dios del viento"
+    ]
+  },
+  {
+    "id": "592010974",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Dale a la espada larga",
+    "nameEs": "6★ Dale a la espada larga",
+    "details": [
+      "Bosque inundado",
+      "6★ Dale a la espada larga"
+    ]
+  },
+  {
+    "id": "564051736",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Cielos rojos en la noche",
+    "nameEs": "6★ Cielos rojos en la noche",
+    "details": [
+      "Grutas de lava",
+      "6★ Cielos rojos en la noche"
+    ]
+  },
+  {
+    "id": "740462335",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Analiza las espadas dobles",
+    "nameEs": "6★ Analiza las espadas dobles",
+    "details": [
+      "Llanos arenosos",
+      "6★ Analiza las espadas dobles"
+    ]
+  },
+  {
+    "id": "621457317",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Amenaza aérea",
+    "nameEs": "6★ Amenaza aérea",
+    "details": [
+      "Bosque inundado",
+      "6★ Amenaza aérea"
+    ]
+  },
+  {
+    "id": "607223684",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "Afilando colmillos de ámbar",
+    "nameEs": "6★ Afilando colmillos de ámbar",
+    "details": [
+      "Islas heladas",
+      "6★ Afilando colmillos de ámbar"
+    ]
+  },
+  {
+    "id": "578285369",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "¡Hazlo por los dango!",
+    "nameEs": "6★ ¡Hazlo por los dango!",
+    "details": [
+      "Bosque inundado",
+      "6★ ¡Hazlo por los dango!"
+    ]
+  },
+  {
+    "id": "669785946",
+    "category": "hub_high",
+    "stars": 6,
+    "name": "¡Anjanath al acecho!",
+    "nameEs": "6★ ¡Anjanath al acecho!",
+    "details": [
+      "Grutas de lava",
+      "6★ ¡Anjanath al acecho!"
+    ]
+  },
+  {
+    "id": "588749903",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Un recorrido por los llanos",
+    "nameEs": "5★ Un recorrido por los llanos",
+    "details": [
+      "Llanos arenosos",
+      "5★ Un recorrido por los llanos"
+    ]
+  },
+  {
+    "id": "770231404",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Un recorrido por el bosque",
+    "nameEs": "5★ Un recorrido por el bosque",
+    "details": [
+      "Bosque inundado",
+      "5★ Un recorrido por el bosque"
+    ]
+  },
+  {
+    "id": "1602601596",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Sombras sobre la escarcha",
+    "nameEs": "5★ Sombras sobre la escarcha",
+    "details": [
+      "Islas heladas",
+      "5★ Sombras sobre la escarcha"
+    ]
+  },
+  {
+    "id": "1440355143",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Problema minero",
+    "nameEs": "5★ Problema minero",
+    "details": [
+      "Llanos arenosos",
+      "5★ Problema minero"
+    ]
+  },
+  {
+    "id": "1377338104",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Probando el hacha cargada",
+    "nameEs": "5★ Probando el hacha cargada",
+    "details": [
+      "Bosque inundado",
+      "5★ Probando el hacha cargada"
+    ]
+  },
+  {
+    "id": "693502944",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Ojo con las bolas de bolos",
+    "nameEs": "5★ Ojo con las bolas de bolos",
+    "details": [
+      "Llanos arenosos",
+      "5★ Ojo con las bolas de bolos"
+    ]
+  },
+  {
+    "id": "1573593790",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Mala reseña",
+    "nameEs": "5★ Mala reseña",
+    "details": [
+      "Llanos arenosos",
+      "5★ Mala reseña"
+    ]
+  },
+  {
+    "id": "798714914",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Juego sucio en el bosque",
+    "nameEs": "5★ Juego sucio en el bosque",
+    "details": [
+      "Bosque inundado",
+      "5★ Juego sucio en el bosque"
+    ]
+  },
+  {
+    "id": "707752833",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Fruta podrida",
+    "nameEs": "5★ Fruta podrida",
+    "details": [
+      "Bosque inundado",
+      "5★ Fruta podrida"
+    ]
+  },
+  {
+    "id": "1588367967",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Fiasco en el Bosque inundado",
+    "nameEs": "5★ Fiasco en el Bosque inundado",
+    "details": [
+      "Bosque inundado",
+      "5★ Fiasco en el Bosque inundado"
+    ]
+  },
+  {
+    "id": "1454588772",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Encandilado por la reina",
+    "nameEs": "5★ Encandilado por la reina",
+    "details": [
+      "Templo olvidado",
+      "5★ Encandilado por la reina"
+    ]
+  },
+  {
+    "id": "784481293",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "El pantano turbulento",
+    "nameEs": "5★ El pantano turbulento",
+    "details": [
+      "Bosque inundado",
+      "5★ El pantano turbulento"
+    ]
+  },
+  {
+    "id": "1363628763",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Dale a la lanza",
+    "nameEs": "5★ Dale a la lanza",
+    "details": [
+      "Llanos arenosos",
+      "5★ Dale a la lanza"
+    ]
+  },
+  {
+    "id": "1469362949",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Blande la gran espada",
+    "nameEs": "5★ Blande la gran espada",
+    "details": [
+      "Templo olvidado",
+      "5★ Blande la gran espada"
+    ]
+  },
+  {
+    "id": "679269315",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Alzándose del fango",
+    "nameEs": "5★ Alzándose del fango",
+    "details": [
+      "Llanos arenosos",
+      "5★ Alzándose del fango"
+    ]
+  },
+  {
+    "id": "1559360153",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Afina la ballesta pesada",
+    "nameEs": "5★ Afina la ballesta pesada",
+    "details": [
+      "Arena",
+      "5★ Afina la ballesta pesada"
+    ]
+  },
+  {
+    "id": "1349378874",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "Afina el martillo",
+    "nameEs": "5★ Afina el martillo",
+    "details": [
+      "Llanos arenosos",
+      "5★ Afina el martillo"
+    ]
+  },
+  {
+    "id": "721462182",
+    "category": "hub_high",
+    "stars": 5,
+    "name": "¡Largo, Pukei!",
+    "nameEs": "5★ ¡Largo, Pukei!",
+    "details": [
+      "Templo olvidado",
+      "5★ ¡Largo, Pukei!"
+    ]
+  },
+  {
+    "id": "1540364096",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Vestir veneno",
+    "nameEs": "4★ Vestir veneno",
+    "details": [
+      "Templo olvidado",
+      "4★ Vestir veneno"
+    ]
+  },
+  {
+    "id": "1555574798",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Vendaval turbulento",
+    "nameEs": "4★ Vendaval turbulento",
+    "details": [
+      "Templo olvidado",
+      "4★ Vendaval turbulento"
+    ]
+  },
+  {
+    "id": "1584060364",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Vadeando a través del hielo",
+    "nameEs": "4★ Vadeando a través del hielo",
+    "details": [
+      "Islas heladas",
+      "4★ Vadeando a través del hielo"
+    ]
+  },
+  {
+    "id": "1359843400",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Un recorrido por las islas",
+    "nameEs": "4★ Un recorrido por las islas",
+    "details": [
+      "Islas heladas",
+      "4★ Un recorrido por las islas"
+    ]
+  },
+  {
+    "id": "1345593515",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Un recorrido por el templo",
+    "nameEs": "4★ Un recorrido por el templo",
+    "details": [
+      "Templo olvidado",
+      "4★ Un recorrido por el templo"
+    ]
+  },
+  {
+    "id": "1180428071",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Todo por los dango de huevo",
+    "nameEs": "4★ Todo por los dango de huevo",
+    "details": [
+      "Templo olvidado",
+      "4★ Todo por los dango de huevo"
+    ]
+  },
+  {
+    "id": "1285199448",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Perdido y encontrado",
+    "nameEs": "4★ Perdido y encontrado",
+    "details": [
+      "Templo olvidado",
+      "4★ Perdido y encontrado"
+    ]
+  },
+  {
+    "id": "1136731835",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Lecciones de ballesta ligera",
+    "nameEs": "4★ Lecciones de ballesta ligera",
+    "details": [
+      "Arena",
+      "4★ Lecciones de ballesta ligera"
+    ]
+  },
+  {
+    "id": "1151944545",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "La noche del Khezu",
+    "nameEs": "4★ La noche del Khezu",
+    "details": [
+      "Islas heladas",
+      "4★ La noche del Khezu"
+    ]
+  },
+  {
+    "id": "1195202244",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Estudia espada y escudo",
+    "nameEs": "4★ Estudia espada y escudo",
+    "details": [
+      "Islas heladas",
+      "4★ Estudia espada y escudo"
+    ]
+  },
+  {
+    "id": "1123022490",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Estudia el hacha espada",
+    "nameEs": "4★ Estudia el hacha espada",
+    "details": [
+      "Islas heladas",
+      "4★ Estudia el hacha espada"
+    ]
+  },
+  {
+    "id": "1598818285",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "El ligero Aknosom",
+    "nameEs": "4★ El ligero Aknosom",
+    "details": [
+      "Templo olvidado",
+      "4★ El ligero Aknosom"
+    ]
+  },
+  {
+    "id": "1407631465",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "El Apex azul",
+    "nameEs": "4★ El Apex azul",
+    "details": [
+      "Templo olvidado",
+      "4★ El Apex azul"
+    ]
+  },
+  {
+    "id": "1569808431",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Divina comedia",
+    "nameEs": "4★ Divina comedia",
+    "details": [
+      "Templo olvidado",
+      "4★ Divina comedia"
+    ]
+  },
+  {
+    "id": "1526638499",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Bicho mono también muerde",
+    "nameEs": "4★ Bicho mono también muerde",
+    "details": [
+      "Islas heladas",
+      "4★ Bicho mono también muerde"
+    ]
+  },
+  {
+    "id": "1299433081",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Azules, redondos y monos",
+    "nameEs": "4★ Azules, redondos y monos",
+    "details": [
+      "Templo olvidado",
+      "4★ Azules, redondos y monos"
+    ]
+  },
+  {
+    "id": "1478850434",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Arena de las Islas heladas",
+    "nameEs": "4★ Arena de las Islas heladas",
+    "details": [
+      "Islas heladas",
+      "4★ Arena de las Islas heladas"
+    ]
+  },
+  {
+    "id": "1075218149",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "Afina la cornamusa",
+    "nameEs": "4★ Afina la cornamusa",
+    "details": [
+      "Templo olvidado",
+      "4★ Afina la cornamusa"
+    ]
+  },
+  {
+    "id": "1166194438",
+    "category": "hub_high",
+    "stars": 4,
+    "name": "¡Pensad en los dango!",
+    "nameEs": "4★ ¡Pensad en los dango!",
+    "details": [
+      "Islas heladas",
+      "4★ ¡Pensad en los dango!"
+    ]
+  },
+  {
+    "id": "1162409143",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Un recorrido por las grutas",
+    "nameEs": "3★ Un recorrido por las grutas",
+    "details": [
+      "Grutas de lava",
+      "3★ Un recorrido por las grutas"
+    ]
+  },
+  {
+    "id": "1238240077",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Trueno y luna vacilante",
+    "nameEs": "3★ Trueno y luna vacilante",
+    "details": [
+      "Bosque inundado",
+      "3★ Trueno y luna vacilante"
+    ]
+  },
+  {
+    "id": "1133470760",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Tierra y barro",
+    "nameEs": "3★ Tierra y barro",
+    "details": [
+      "Llanos arenosos",
+      "3★ Tierra y barro"
+    ]
+  },
+  {
+    "id": "1176642644",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Fuego infernal",
+    "nameEs": "3★ Fuego infernal",
+    "details": [
+      "Grutas de lava",
+      "3★ Fuego infernal"
+    ]
+  },
+  {
+    "id": "1309895567",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Embelesado por un Mizutsune",
+    "nameEs": "3★ Embelesado por un Mizutsune",
+    "details": [
+      "Bosque inundado",
+      "3★ Embelesado por un Mizutsune"
+    ]
+  },
+  {
+    "id": "1119237131",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "El wyvern saltarín",
+    "nameEs": "3★ El wyvern saltarín",
+    "details": [
+      "Templo olvidado",
+      "3★ El wyvern saltarín"
+    ]
+  },
+  {
+    "id": "1104987242",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "El bravucón de la ventisca",
+    "nameEs": "3★ El bravucón de la ventisca",
+    "details": [
+      "Islas heladas",
+      "3★ El bravucón de la ventisca"
+    ]
+  },
+  {
+    "id": "1894115975",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Desastrosamente bello",
+    "nameEs": "3★ Desastrosamente bello",
+    "details": [
+      "Arena",
+      "3★ Desastrosamente bello"
+    ]
+  },
+  {
+    "id": "1951537952",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Cuernos puntiagudos más allá",
+    "nameEs": "3★ Cuernos puntiagudos más allá",
+    "details": [
+      "Llanos arenosos",
+      "3★ Cuernos puntiagudos más allá"
+    ]
+  },
+  {
+    "id": "1965771457",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Cara a cara, cola a cola",
+    "nameEs": "3★ Cara a cara, cola a cola",
+    "details": [
+      "Templo olvidado",
+      "3★ Cara a cara, cola a cola"
+    ]
+  },
+  {
+    "id": "1980545766",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Caos bestial",
+    "nameEs": "3★ Caos bestial",
+    "details": [
+      "Islas heladas",
+      "3★ Caos bestial"
+    ]
+  },
+  {
+    "id": "1224006572",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Campeón de las cavernas",
+    "nameEs": "3★ Campeón de las cavernas",
+    "details": [
+      "Grutas de lava",
+      "3★ Campeón de las cavernas"
+    ]
+  },
+  {
+    "id": "1252490082",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Caballero blanco vs. cazador",
+    "nameEs": "3★ Caballero blanco vs. cazador",
+    "details": [
+      "Islas heladas",
+      "3★ Caballero blanco vs. cazador"
+    ]
+  },
+  {
+    "id": "1090229365",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Atraer el sueño",
+    "nameEs": "3★ Atraer el sueño",
+    "details": [
+      "Bosque inundado",
+      "3★ Atraer el sueño"
+    ]
+  },
+  {
+    "id": "1295662062",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Astros gemelos en el ocaso",
+    "nameEs": "3★ Astros gemelos en el ocaso",
+    "details": [
+      "Templo olvidado",
+      "3★ Astros gemelos en el ocaso"
+    ]
+  },
+  {
+    "id": "1266199299",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Amigo en aprietos",
+    "nameEs": "3★ Amigo en aprietos",
+    "details": [
+      "Grutas de lava",
+      "3★ Amigo en aprietos"
+    ]
+  },
+  {
+    "id": "1281412041",
+    "category": "hub_low",
+    "stars": 3,
+    "name": "Abusón de las grutas",
+    "nameEs": "3★ Abusón de las grutas",
+    "details": [
+      "Grutas de lava",
+      "3★ Abusón de las grutas"
+    ]
+  },
+  {
+    "id": "1918816202",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "Una sombra pálida",
+    "nameEs": "2★ Una sombra pálida",
+    "details": [
+      "Islas heladas",
+      "2★ Una sombra pálida"
+    ]
+  },
+  {
+    "id": "1248704659",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "Un recorrido por los llanos",
+    "nameEs": "2★ Un recorrido por los llanos",
+    "details": [
+      "Llanos arenosos",
+      "2★ Un recorrido por los llanos"
+    ]
+  },
+  {
+    "id": "1262938288",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "Un recorrido por el bosque",
+    "nameEs": "2★ Un recorrido por el bosque",
+    "details": [
+      "Bosque inundado",
+      "2★ Un recorrido por el bosque"
+    ]
+  },
+  {
+    "id": "2065780418",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "Se avecina el Frenesí",
+    "nameEs": "2★ Se avecina el Frenesí",
+    "details": [
+      "Templo olvidado",
+      "2★ Se avecina el Frenesí"
+    ]
+  },
+  {
+    "id": "1932541931",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "Reinventando la rueda",
+    "nameEs": "2★ Reinventando la rueda",
+    "details": [
+      "Llanos arenosos",
+      "2★ Reinventando la rueda"
+    ]
+  },
+  {
+    "id": "2023587695",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "Pieles y más pieles",
+    "nameEs": "2★ Pieles y más pieles",
+    "details": [
+      "Bosque inundado",
+      "2★ Pieles y más pieles"
+    ]
+  },
+  {
+    "id": "2037821196",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "La rana y la liebre",
+    "nameEs": "2★ La rana y la liebre",
+    "details": [
+      "Islas heladas",
+      "2★ La rana y la liebre"
+    ]
+  },
+  {
+    "id": "2009790487",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "Intensa observación Pukei",
+    "nameEs": "2★ Intensa observación Pukei",
+    "details": [
+      "Llanos arenosos",
+      "2★ Intensa observación Pukei"
+    ]
+  },
+  {
+    "id": "2051546925",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "Elementos opuestos",
+    "nameEs": "2★ Elementos opuestos",
+    "details": [
+      "Bosque inundado",
+      "2★ Elementos opuestos"
+    ]
+  },
+  {
+    "id": "2128797609",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "El camino a la realeza",
+    "nameEs": "2★ El camino a la realeza",
+    "details": [
+      "Bosque inundado",
+      "2★ El camino a la realeza"
+    ]
+  },
+  {
+    "id": "1890330676",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "El Bosque inundado se anega",
+    "nameEs": "2★ El Bosque inundado se anega",
+    "details": [
+      "Bosque inundado",
+      "2★ El Bosque inundado se anega"
+    ]
+  },
+  {
+    "id": "1904582613",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "El Barroth cabezota",
+    "nameEs": "2★ El Barroth cabezota",
+    "details": [
+      "Llanos arenosos",
+      "2★ El Barroth cabezota"
+    ]
+  },
+  {
+    "id": "1947752529",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "Dos gotas de agua",
+    "nameEs": "2★ Dos gotas de agua",
+    "details": [
+      "Templo olvidado",
+      "2★ Dos gotas de agua"
+    ]
+  },
+  {
+    "id": "1995540598",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "Cola anillada",
+    "nameEs": "2★ Cola anillada",
+    "details": [
+      "Bosque inundado",
+      "2★ Cola anillada"
+    ]
+  },
+  {
+    "id": "2080993160",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "¡Un Basarios detrás de ti!",
+    "nameEs": "2★ ¡Un Basarios detrás de ti!",
+    "details": [
+      "Llanos arenosos",
+      "2★ ¡Un Basarios detrás de ti!"
+    ]
+  },
+  {
+    "id": "2143555406",
+    "category": "hub_low",
+    "stars": 2,
+    "name": "¡Kestodon a patadas!",
+    "nameEs": "2★ ¡Kestodon a patadas!",
+    "details": [
+      "Llanos arenosos",
+      "2★ ¡Kestodon a patadas!"
+    ]
+  },
+  {
+    "id": "1616167927",
+    "category": "hub_low",
+    "stars": 1,
+    "name": "Wroggi recorrerruinas",
+    "nameEs": "1★ Wroggi recorrerruinas",
+    "details": [
+      "Templo olvidado",
+      "1★ Wroggi recorrerruinas"
+    ]
+  },
+  {
+    "id": "1826149290",
+    "category": "hub_low",
+    "stars": 1,
+    "name": "Vándalos candentes",
+    "nameEs": "1★ Vándalos candentes",
+    "details": [
+      "Islas heladas",
+      "1★ Vándalos candentes"
+    ]
+  },
+  {
+    "id": "2019277980",
+    "category": "hub_low",
+    "stars": 1,
+    "name": "Un recorrido por las islas",
+    "nameEs": "1★ Un recorrido por las islas",
+    "details": [
+      "Islas heladas",
+      "1★ Un recorrido por las islas"
+    ]
+  },
+  {
+    "id": "2139245823",
+    "category": "hub_low",
+    "stars": 1,
+    "name": "Un recorrido por el templo",
+    "nameEs": "1★ Un recorrido por el templo",
+    "details": [
+      "Templo olvidado",
+      "1★ Un recorrido por el templo"
+    ]
+  },
+  {
+    "id": "1707146256",
+    "category": "hub_low",
+    "stars": 1,
+    "name": "Salto en las Islas heladas",
+    "nameEs": "1★ Salto en las Islas heladas",
+    "details": [
+      "Islas heladas",
+      "1★ Salto en las Islas heladas"
+    ]
+  },
+  {
+    "id": "1735627734",
+    "category": "hub_low",
+    "stars": 1,
+    "name": "Ojo con las bolas de nieve",
+    "nameEs": "1★ Ojo con las bolas de nieve",
+    "details": [
+      "Islas heladas",
+      "1★ Ojo con las bolas de nieve"
+    ]
+  },
+  {
+    "id": "1644651445",
+    "category": "hub_low",
+    "stars": 1,
+    "name": "Noches en calma",
+    "nameEs": "1★ Noches en calma",
+    "details": [
+      "Templo olvidado",
+      "1★ Noches en calma"
+    ]
+  },
+  {
+    "id": "2048285778",
+    "category": "hub_low",
+    "stars": 1,
+    "name": "Monstruo sospechoso",
+    "nameEs": "1★ Monstruo sospechoso",
+    "details": [
+      "Templo olvidado",
+      "1★ Monstruo sospechoso"
+    ]
+  },
+  {
+    "id": "1721379889",
+    "category": "hub_low",
+    "stars": 1,
+    "name": "Gran Baggi en Islas heladas",
+    "nameEs": "1★ Gran Baggi en Islas heladas",
+    "details": [
+      "Islas heladas",
+      "1★ Gran Baggi en Islas heladas"
+    ]
+  },
+  {
+    "id": "1693420659",
+    "category": "hub_low",
+    "stars": 1,
+    "name": "Cansado y emplumado",
+    "nameEs": "1★ Cansado y emplumado",
+    "details": [
+      "Templo olvidado",
+      "1★ Cansado y emplumado"
+    ]
+  },
+  {
+    "id": "1630417812",
+    "category": "hub_low",
+    "stars": 1,
+    "name": "¿De quién es esta miel?",
+    "nameEs": "1★ ¿De quién es esta miel?",
+    "details": [
+      "Templo olvidado",
+      "1★ ¿De quién es esta miel?"
+    ]
+  },
+  {
+    "id": "871682546",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Vergüenza Bazelgeuse",
+    "nameEs": "6★ Vergüenza Bazelgeuse",
+    "details": [
+      "Islas heladas",
+      "6★ Vergüenza Bazelgeuse"
+    ]
+  },
+  {
+    "id": "1267547075",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Valstrax Carmesí elevado",
+    "nameEs": "6★ Valstrax Carmesí elevado",
+    "details": [
+      "Llanos arenosos",
+      "6★ Valstrax Carmesí elevado"
+    ]
+  },
+  {
+    "id": "1419360004",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Un único rayo de luna",
+    "nameEs": "6★ Un único rayo de luna",
+    "details": [
+      "Arena olvidada",
+      "6★ Un único rayo de luna"
+    ]
+  },
+  {
+    "id": "1894415175",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Un secreto con mucho jugo",
+    "nameEs": "6★ Un secreto con mucho jugo",
+    "details": [
+      "Bastión",
+      "6★ Un secreto con mucho jugo"
+    ]
+  },
+  {
+    "id": "672507809",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Trío señorial",
+    "nameEs": "6★ Trío señorial",
+    "details": [
+      "Bastión",
+      "6★ Trío señorial"
+    ]
+  },
+  {
+    "id": "1252774946",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Teostra elevado",
+    "nameEs": "6★ Teostra elevado",
+    "details": [
+      "Llanos arenosos",
+      "6★ Teostra elevado"
+    ]
+  },
+  {
+    "id": "1952869344",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Shagaru Magala elevado",
+    "nameEs": "6★ Shagaru Magala elevado",
+    "details": [
+      "Arena olvidada",
+      "6★ Shagaru Magala elevado"
+    ]
+  },
+  {
+    "id": "886895288",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Represalias",
+    "nameEs": "6★ Represalias",
+    "details": [
+      "Palacio coralino",
+      "6★ Represalias"
+    ]
+  },
+  {
+    "id": "1062343030",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Prueba de aplomo y pasión",
+    "nameEs": "6★ Prueba de aplomo y pasión",
+    "details": [
+      "Templo olvidado",
+      "6★ Prueba de aplomo y pasión"
+    ]
+  },
+  {
+    "id": "901128793",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Perforando el cielo",
+    "nameEs": "6★ Perforando el cielo",
+    "details": [
+      "Islas heladas",
+      "6★ Perforando el cielo"
+    ]
+  },
+  {
+    "id": "1653045591",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Peligro: plaga primordial",
+    "nameEs": "6★ Peligro: plaga primordial",
+    "details": [
+      "Arena olvidada",
+      "6★ Peligro: plaga primordial ▣"
+    ]
+  },
+  {
+    "id": "1624562065",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Peligro: la sombra difusa",
+    "nameEs": "6★ Peligro: la sombra difusa",
+    "details": [
+      "Arena olvidada",
+      "6★ Peligro: la sombra difusa"
+    ]
+  },
+  {
+    "id": "1034383792",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Neblina misteriosa",
+    "nameEs": "6★ Neblina misteriosa",
+    "details": [
+      "Templo olvidado",
+      "6★ Neblina misteriosa"
+    ]
+  },
+  {
+    "id": "942358807",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Locura desmedida",
+    "nameEs": "6★ Locura desmedida",
+    "details": [
+      "Templo olvidado",
+      "6★ Locura desmedida"
+    ]
+  },
+  {
+    "id": "957133108",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Locura desmedida",
+    "nameEs": "6★ Locura desmedida",
+    "details": [
+      "Llanos arenosos",
+      "6★ Locura desmedida"
+    ]
+  },
+  {
+    "id": "1004921045",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Locura desmedida",
+    "nameEs": "6★ Locura desmedida",
+    "details": [
+      "La Jungla",
+      "6★ Locura desmedida"
+    ]
+  },
+  {
+    "id": "616517834",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Locura desmedida",
+    "nameEs": "6★ Locura desmedida",
+    "details": [
+      "Bosque inundado",
+      "6★ Locura desmedida"
+    ]
+  },
+  {
+    "id": "630227179",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Locura desmedida",
+    "nameEs": "6★ Locura desmedida",
+    "details": [
+      "Bastión",
+      "6★ Locura desmedida"
+    ]
+  },
+  {
+    "id": "644477064",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Locura desmedida",
+    "nameEs": "6★ Locura desmedida",
+    "details": [
+      "Grutas de lava",
+      "6★ Locura desmedida"
+    ]
+  },
+  {
+    "id": "1552598655",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Lo que yace en la Torre",
+    "nameEs": "6★ Lo que yace en la Torre",
+    "details": [
+      "Arena olvidada",
+      "6★ Lo que yace en la Torre"
+    ]
+  },
+  {
+    "id": "734021479",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Lluvia de fuego",
+    "nameEs": "6★ Lluvia de fuego",
+    "details": [
+      "Grutas de lava",
+      "6★ Lluvia de fuego"
+    ]
+  },
+  {
+    "id": "1567372828",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Llamarada tenue y misteriosa",
+    "nameEs": "6★ Llamarada tenue y misteriosa",
+    "details": [
+      "Fuente infernal",
+      "6★ Llamarada tenue y misteriosa"
+    ]
+  },
+  {
+    "id": "153244410",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "La reencarnación del diablo",
+    "nameEs": "6★ La reencarnación del diablo",
+    "details": [
+      "El abismo cavernoso",
+      "6★ La reencarnación del diablo"
+    ]
+  },
+  {
+    "id": "1133769960",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "La leyenda resucitada",
+    "nameEs": "6★ La leyenda resucitada",
+    "details": [
+      "Bastión",
+      "6★ La leyenda resucitada ▣"
+    ]
+  },
+  {
+    "id": "792491904",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "La danza de la ardiente llama",
+    "nameEs": "6★ La danza de la ardiente llama",
+    "details": [
+      "Bastión",
+      "6★ La danza de la ardiente llama"
+    ]
+  },
+  {
+    "id": "1238524941",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Kushala Daora elevado",
+    "nameEs": "6★ Kushala Daora elevado",
+    "details": [
+      "La Jungla",
+      "6★ Kushala Daora elevado"
+    ]
+  },
+  {
+    "id": "1020133779",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Jugando con fuego",
+    "nameEs": "6★ Jugando con fuego",
+    "details": [
+      "La Jungla",
+      "6★ Jugando con fuego"
+    ]
+  },
+  {
+    "id": "1433593637",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Explora lo inexplorado",
+    "nameEs": "6★ Explora lo inexplorado",
+    "details": [
+      "Arena olvidada",
+      "6★ Explora lo inexplorado"
+    ]
+  },
+  {
+    "id": "915378814",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Estrella apocalíptica",
+    "nameEs": "6★ Estrella apocalíptica",
+    "details": [
+      "Bastión",
+      "6★ Estrella apocalíptica"
+    ]
+  },
+  {
+    "id": "1448367834",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "El depredador invisible",
+    "nameEs": "6★ El depredador invisible",
+    "details": [
+      "Arena olvidada",
+      "6★ El depredador invisible"
+    ]
+  },
+  {
+    "id": "809120316",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Divinidad escalofriante - continuación",
+    "nameEs": "6★ Divinidad escalofriante - continuación",
+    "details": [
+      "Palacio coralino",
+      "6★ Divinidad escalofriante - continuación"
+    ]
+  },
+  {
+    "id": "201032347",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Divinidad escalofriante",
+    "nameEs": "6★ Divinidad escalofriante",
+    "details": [
+      "Palacio coralino",
+      "6★ Divinidad escalofriante"
+    ]
+  },
+  {
+    "id": "1048093009",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Devolviendo el brillo",
+    "nameEs": "6★ Devolviendo el brillo",
+    "details": [
+      "Grutas de lava",
+      "6★ Devolviendo el brillo"
+    ]
+  },
+  {
+    "id": "1523152272",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Descenso al caos",
+    "nameEs": "6★ Descenso al caos",
+    "details": [
+      "Templo olvidado",
+      "6★ Descenso al caos"
+    ]
+  },
+  {
+    "id": "1967119233",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Deidad de dragón destructiva",
+    "nameEs": "6★ Deidad de dragón destructiva",
+    "details": [
+      "Fuente infernal",
+      "6★ Deidad de dragón destructiva"
+    ]
+  },
+  {
+    "id": "1638795702",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Deidad de dragón destructiva",
+    "nameEs": "6★ Deidad de dragón destructiva",
+    "details": [
+      "Fuente infernal",
+      "6★ Deidad de dragón destructiva"
+    ]
+  },
+  {
+    "id": "929088031",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "De vuelta por venganza",
+    "nameEs": "6★ De vuelta por venganza",
+    "details": [
+      "Bastión",
+      "6★ De vuelta por venganza"
+    ]
+  },
+  {
+    "id": "720312134",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Cuarteto de bestias",
+    "nameEs": "6★ Cuarteto de bestias",
+    "details": [
+      "Arena",
+      "6★ Cuarteto de bestias"
+    ]
+  },
+  {
+    "id": "1177990420",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Choque de espadas en la escarcha",
+    "nameEs": "6★ Choque de espadas en la escarcha",
+    "details": [
+      "Islas heladas",
+      "6★ Choque de espadas en la escarcha"
+    ]
+  },
+  {
+    "id": "1224291436",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Chameleos elevado",
+    "nameEs": "6★ Chameleos elevado",
+    "details": [
+      "Templo olvidado",
+      "6★ Chameleos elevado"
+    ]
+  },
+  {
+    "id": "777717731",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Caos desbocado",
+    "nameEs": "6★ Caos desbocado",
+    "details": [
+      "Arena",
+      "6★ Caos desbocado"
+    ]
+  },
+  {
+    "id": "658710697",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Brillo misterioso",
+    "nameEs": "6★ Brillo misterioso",
+    "details": [
+      "Templo olvidado",
+      "6★ Brillo misterioso"
+    ]
+  },
+  {
+    "id": "539267150",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Brillo misterioso",
+    "nameEs": "6★ Brillo misterioso",
+    "details": [
+      "Islas heladas",
+      "6★ Brillo misterioso"
+    ]
+  },
+  {
+    "id": "587055215",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Brillo misterioso",
+    "nameEs": "6★ Brillo misterioso",
+    "details": [
+      "Llanos arenosos",
+      "6★ Brillo misterioso"
+    ]
+  },
+  {
+    "id": "601305100",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Brillo misterioso",
+    "nameEs": "6★ Brillo misterioso",
+    "details": [
+      "La Jungla",
+      "6★ Brillo misterioso"
+    ]
+  },
+  {
+    "id": "749232173",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Brillo misterioso",
+    "nameEs": "6★ Brillo misterioso",
+    "details": [
+      "Bosque inundado",
+      "6★ Brillo misterioso"
+    ]
+  },
+  {
+    "id": "763484098",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Brillo misterioso",
+    "nameEs": "6★ Brillo misterioso",
+    "details": [
+      "Grutas de lava",
+      "6★ Brillo misterioso"
+    ]
+  },
+  {
+    "id": "1908648804",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzado: oda a la ferocidad",
+    "nameEs": "6★ Avanzado: oda a la ferocidad",
+    "details": [
+      "Templo olvidado",
+      "6★ Avanzado: oda a la ferocidad"
+    ]
+  },
+  {
+    "id": "1581606461",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzada: trío tóxico",
+    "nameEs": "6★ Avanzada: trío tóxico",
+    "details": [
+      "Arena olvidada",
+      "6★ Avanzada: trío tóxico"
+    ]
+  },
+  {
+    "id": "1119519947",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzada: trabas comerciales",
+    "nameEs": "6★ Avanzada: trabas comerciales",
+    "details": [
+      "Bastión",
+      "6★ Avanzada: trabas comerciales"
+    ]
+  },
+  {
+    "id": "1462601467",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzada: todo por el oro",
+    "nameEs": "6★ Avanzada: todo por el oro",
+    "details": [
+      "La Jungla",
+      "6★ Avanzada: todo por el oro"
+    ]
+  },
+  {
+    "id": "1342633624",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzada: soberano de los cielos",
+    "nameEs": "6★ Avanzada: soberano de los cielos",
+    "details": [
+      "Templo olvidado",
+      "6★ Avanzada: soberano de los cielos"
+    ]
+  },
+  {
+    "id": "1149506902",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzada: siesta del Espinas",
+    "nameEs": "6★ Avanzada: siesta del Espinas",
+    "details": [
+      "Bastión",
+      "6★ Avanzada: siesta del Espinas"
+    ]
+  },
+  {
+    "id": "1105286442",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzada: la llama eterna",
+    "nameEs": "6★ Avanzada: la llama eterna",
+    "details": [
+      "Arena",
+      "6★ Avanzada: la llama eterna"
+    ]
+  },
+  {
+    "id": "1282745481",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzada: infiltrados en la plaga",
+    "nameEs": "6★ Avanzada: infiltrados en la plaga",
+    "details": [
+      "Bastión",
+      "6★ Avanzada: infiltrados en la plaga"
+    ]
+  },
+  {
+    "id": "1163740535",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzada: fiesta escarlata",
+    "nameEs": "6★ Avanzada: fiesta escarlata",
+    "details": [
+      "Arena olvidada",
+      "6★ Avanzada: fiesta escarlata"
+    ]
+  },
+  {
+    "id": "1296995502",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzada: equipo perverso",
+    "nameEs": "6★ Avanzada: equipo perverso",
+    "details": [
+      "La Jungla",
+      "6★ Avanzada: equipo perverso"
+    ]
+  },
+  {
+    "id": "1404147294",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzada: en busca de la verdad",
+    "nameEs": "6★ Avanzada: en busca de la verdad",
+    "details": [
+      "Grutas de lava",
+      "6★ Avanzada: en busca de la verdad"
+    ]
+  },
+  {
+    "id": "1311229007",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzada: caminar resuelto",
+    "nameEs": "6★ Avanzada: caminar resuelto",
+    "details": [
+      "Grutas de lava",
+      "6★ Avanzada: caminar resuelto"
+    ]
+  },
+  {
+    "id": "1508902387",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzada: brillo plateado",
+    "nameEs": "6★ Avanzada: brillo plateado",
+    "details": [
+      "Grutas de lava",
+      "6★ Avanzada: brillo plateado"
+    ]
+  },
+  {
+    "id": "1537385905",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzada: ardor en la Jungla",
+    "nameEs": "6★ Avanzada: ardor en la Jungla",
+    "details": [
+      "La Jungla",
+      "6★ Avanzada: ardor en la Jungla"
+    ]
+  },
+  {
+    "id": "1595856338",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "Avanzada: al filo de la locura",
+    "nameEs": "6★ Avanzada: al filo de la locura",
+    "details": [
+      "Arena",
+      "6★ Avanzada: al filo de la locura"
+    ]
+  },
+  {
+    "id": "823353821",
+    "category": "hub_master",
+    "stars": 6,
+    "name": "¿El combate definitivo?",
+    "nameEs": "6★ ¿El combate definitivo?",
+    "details": [
+      "Bosque inundado",
+      "6★ ¿El combate definitivo?"
+    ]
+  },
+  {
+    "id": "1386636334",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "Uno duro y uno suave",
+    "nameEs": "5★ Uno duro y uno suave",
+    "details": [
+      "Islas heladas",
+      "5★ Uno duro y uno suave"
+    ]
+  },
+  {
+    "id": "1400884175",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "Una vida llena de altibajos",
+    "nameEs": "5★ Una vida llena de altibajos",
+    "details": [
+      "Llanos arenosos",
+      "5★ Una vida llena de altibajos"
+    ]
+  },
+  {
+    "id": "654927326",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "Tormenta de Kushala Daora",
+    "nameEs": "5★ Tormenta de Kushala Daora",
+    "details": [
+      "Bastión",
+      "5★ Tormenta de Kushala Daora"
+    ]
+  },
+  {
+    "id": "1044833990",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "Sustos sísmicos",
+    "nameEs": "5★ Sustos sísmicos",
+    "details": [
+      "Llanos arenosos",
+      "5★ Sustos sísmicos"
+    ]
+  },
+  {
+    "id": "640693817",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "Sin dejar rastro",
+    "nameEs": "5★ Sin dejar rastro",
+    "details": [
+      "La Jungla",
+      "5★ Sin dejar rastro"
+    ]
+  },
+  {
+    "id": "972129924",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "Pronóstico de Bazelgeuse",
+    "nameEs": "5★ Pronóstico de Bazelgeuse",
+    "details": [
+      "Islas heladas",
+      "5★ Pronóstico de Bazelgeuse"
+    ]
+  },
+  {
+    "id": "597521853",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "Más brillo que el sol",
+    "nameEs": "5★ Más brillo que el sol",
+    "details": [
+      "Llanos arenosos",
+      "5★ Más brillo que el sol"
+    ]
+  },
+  {
+    "id": "626968088",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "Más allá del silencio",
+    "nameEs": "5★ Más allá del silencio",
+    "details": [
+      "Bosque inundado",
+      "5★ Más allá del silencio"
+    ]
+  },
+  {
+    "id": "1372402697",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "Luna carmesí",
+    "nameEs": "5★ Luna carmesí",
+    "details": [
+      "Bastión",
+      "5★ Luna carmesí"
+    ]
+  },
+  {
+    "id": "126247885",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "La reunión de los Qurio",
+    "nameEs": "5★ La reunión de los Qurio",
+    "details": [
+      "Bastión",
+      "5★ La reunión de los Qurio"
+    ]
+  },
+  {
+    "id": "1001137754",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "Filo envuelto en oscuridad",
+    "nameEs": "5★ Filo envuelto en oscuridad",
+    "details": [
+      "Templo olvidado",
+      "5★ Filo envuelto en oscuridad"
+    ]
+  },
+  {
+    "id": "583271836",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "Emperador de las llamas",
+    "nameEs": "5★ Emperador de las llamas",
+    "details": [
+      "Grutas de lava",
+      "5★ Emperador de las llamas"
+    ]
+  },
+  {
+    "id": "568514047",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "El dictador glacial",
+    "nameEs": "5★ El dictador glacial",
+    "details": [
+      "Islas heladas",
+      "5★ El dictador glacial"
+    ]
+  },
+  {
+    "id": "986379941",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "El bosque del mal",
+    "nameEs": "5★ El bosque del mal",
+    "details": [
+      "La Jungla",
+      "5★ El bosque del mal"
+    ]
+  },
+  {
+    "id": "1678708643",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "Con el poder de la amistad...",
+    "nameEs": "5★ Con el poder de la amistad...",
+    "details": [
+      "Bastión",
+      "5★ Con el poder de la amistad..."
+    ]
+  },
+  {
+    "id": "745973074",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "Bombas y mamporros",
+    "nameEs": "5★ Bombas y mamporros",
+    "details": [
+      "La Jungla",
+      "5★ Bombas y mamporros"
+    ]
+  },
+  {
+    "id": "112016428",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "Blancura en la negrura",
+    "nameEs": "5★ Blancura en la negrura",
+    "details": [
+      "Bastión",
+      "5★ Blancura en la negrura"
+    ]
+  },
+  {
+    "id": "1058559719",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "¡Merezco una revancha!",
+    "nameEs": "5★ ¡Merezco una revancha!",
+    "details": [
+      "Grutas de lava",
+      "5★ ¡Merezco una revancha!"
+    ]
+  },
+  {
+    "id": "2067128194",
+    "category": "hub_master",
+    "stars": 5,
+    "name": "¡Estadísticas sobre estados!",
+    "nameEs": "5★ ¡Estadísticas sobre estados!",
+    "details": [
+      "La Jungla",
+      "5★ ¡Estadísticas sobre estados!"
+    ]
+  },
+  {
+    "id": "1098239944",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Una petición de tu superior",
+    "nameEs": "4★ Una petición de tu superior",
+    "details": [
+      "Grutas de lava",
+      "4★ Una petición de tu superior"
+    ]
+  },
+  {
+    "id": "122462578",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Un recorrido por las grutas",
+    "nameEs": "4★ Un recorrido por las grutas",
+    "details": [
+      "Grutas de lava",
+      "4★ Un recorrido por las grutas"
+    ]
+  },
+  {
+    "id": "1353857433",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Trío de alborotadores, 2.ª parte",
+    "nameEs": "4★ Trío de alborotadores, 2.ª parte",
+    "details": [
+      "Templo olvidado",
+      "4★ Trío de alborotadores, 2.ª parte"
+    ]
+  },
+  {
+    "id": "1141409908",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Trilogía wyvérnida",
+    "nameEs": "4★ Trilogía wyvérnida",
+    "details": [
+      "Llanos arenosos",
+      "4★ Trilogía wyvérnida"
+    ]
+  },
+  {
+    "id": "593210146",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Seguridad del Bastión",
+    "nameEs": "4★ Seguridad del Bastión",
+    "details": [
+      "Bastión",
+      "4★ Seguridad del Bastión"
+    ]
+  },
+  {
+    "id": "756435680",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Remolino despótico",
+    "nameEs": "4★ Remolino despótico",
+    "details": [
+      "Llanos arenosos",
+      "4★ Remolino despótico"
+    ]
+  },
+  {
+    "id": "1112489961",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Pugna por el poder",
+    "nameEs": "4★ Pugna por el poder",
+    "details": [
+      "Grutas de lava",
+      "4★ Pugna por el poder"
+    ]
+  },
+  {
+    "id": "1501870225",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Poder absoluto",
+    "nameEs": "4★ Poder absoluto",
+    "details": [
+      "Bastión",
+      "4★ Poder absoluto"
+    ]
+  },
+  {
+    "id": "683731622",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Pinzas contra piro",
+    "nameEs": "4★ Pinzas contra piro",
+    "details": [
+      "Grutas de lava",
+      "4★ Pinzas contra piro"
+    ]
+  },
+  {
+    "id": "1126199182",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Pasiones cavernosas",
+    "nameEs": "4★ Pasiones cavernosas",
+    "details": [
+      "Grutas de lava",
+      "4★ Pasiones cavernosas"
+    ]
+  },
+  {
+    "id": "1189214229",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Operación rescate de camaradas",
+    "nameEs": "4★ Operación rescate de camaradas",
+    "details": [
+      "Bastión",
+      "4★ Operación rescate de camaradas"
+    ]
+  },
+  {
+    "id": "726989317",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Mil escamas de terror",
+    "nameEs": "4★ Mil escamas de terror",
+    "details": [
+      "Llanos arenosos",
+      "4★ Mil escamas de terror"
+    ]
+  },
+  {
+    "id": "1607080147",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Mil cortes y aplastamiento",
+    "nameEs": "4★ Mil cortes y aplastamiento",
+    "details": [
+      "Bastión",
+      "4★ Mil cortes y aplastamiento"
+    ]
+  },
+  {
+    "id": "1308221359",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Luna aulladora",
+    "nameEs": "4★ Luna aulladora",
+    "details": [
+      "Bastión",
+      "4★ Luna aulladora"
+    ]
+  },
+  {
+    "id": "1412311610",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Lodo caliente en el ojo",
+    "nameEs": "4★ Lodo caliente en el ojo",
+    "details": [
+      "Grutas de lava",
+      "4★ Lodo caliente en el ojo"
+    ]
+  },
+  {
+    "id": "712215140",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Lobo trueno sacrílego",
+    "nameEs": "4★ Lobo trueno sacrílego",
+    "details": [
+      "Templo olvidado",
+      "4★ Lobo trueno sacrílego"
+    ]
+  },
+  {
+    "id": "1749705710",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Frío ineludible",
+    "nameEs": "4★ Frío ineludible",
+    "details": [
+      "Islas heladas",
+      "4★ Frío ineludible"
+    ]
+  },
+  {
+    "id": "882585641",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Espinas dormido en la Jungla",
+    "nameEs": "4★ Espinas dormido en la Jungla",
+    "details": [
+      "La Jungla",
+      "4★ Espinas dormido en la Jungla"
+    ]
+  },
+  {
+    "id": "197246984",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "En busca del doctor",
+    "nameEs": "4★ En busca del doctor",
+    "details": [
+      "La Jungla",
+      "4★ En busca del doctor"
+    ]
+  },
+  {
+    "id": "1763955599",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Eléctricamente grácil",
+    "nameEs": "4★ Eléctricamente grácil",
+    "details": [
+      "Templo olvidado",
+      "4★ Eléctricamente grácil"
+    ]
+  },
+  {
+    "id": "804240001",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "El rey del castillo ruinoso",
+    "nameEs": "4★ El rey del castillo ruinoso",
+    "details": [
+      "Bastión",
+      "4★ El rey del castillo ruinoso"
+    ]
+  },
+  {
+    "id": "1368091070",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "El lamento de los Temnoceran",
+    "nameEs": "4★ El lamento de los Temnoceran",
+    "details": [
+      "Grutas de lava",
+      "4★ El lamento de los Temnoceran"
+    ]
+  },
+  {
+    "id": "742202051",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "El atractivo del Mizutsune",
+    "nameEs": "4★ El atractivo del Mizutsune",
+    "details": [
+      "La Jungla",
+      "4★ El atractivo del Mizutsune"
+    ]
+  },
+  {
+    "id": "1397098876",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Dos chispas en la oscuridad",
+    "nameEs": "4★ Dos chispas en la oscuridad",
+    "details": [
+      "La Jungla",
+      "4★ Dos chispas en la oscuridad"
+    ]
+  },
+  {
+    "id": "1592830258",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Con el jade y el zafiro",
+    "nameEs": "4★ Con el jade y el zafiro",
+    "details": [
+      "Bosque inundado",
+      "4★ Con el jade y el zafiro"
+    ]
+  },
+  {
+    "id": "1426561499",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Caballero blanco o blindaje",
+    "nameEs": "4★ Caballero blanco o blindaje",
+    "details": [
+      "Islas heladas",
+      "4★ Caballero blanco o blindaje"
+    ]
+  },
+  {
+    "id": "1487096048",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "Alas negras como la noche",
+    "nameEs": "4★ Alas negras como la noche",
+    "details": [
+      "Bastión",
+      "4★ Alas negras como la noche"
+    ]
+  },
+  {
+    "id": "1530353751",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "¿Horror en el Bastión?",
+    "nameEs": "4★ ¿Horror en el Bastión?",
+    "details": [
+      "Bastión",
+      "4★ ¿Horror en el Bastión?"
+    ]
+  },
+  {
+    "id": "1516103862",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "¡Se pira a ver al Rakna!",
+    "nameEs": "4★ ¡Se pira a ver al Rakna!",
+    "details": [
+      "Grutas de lava",
+      "4★ ¡Se pira a ver al Rakna!"
+    ]
+  },
+  {
+    "id": "1084004395",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "¡Quiero algo esponjosito!",
+    "nameEs": "4★ ¡Quiero algo esponjosito!",
+    "details": [
+      "Islas heladas",
+      "4★ ¡Quiero algo esponjosito!"
+    ]
+  },
+  {
+    "id": "1382865247",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "¡No me espantéis la comida!",
+    "nameEs": "4★ ¡No me espantéis la comida!",
+    "details": [
+      "Bosque inundado",
+      "4★ ¡No me espantéis la comida!"
+    ]
+  },
+  {
+    "id": "1545566493",
+    "category": "hub_master",
+    "stars": 4,
+    "name": "¡En equipo con Monju!",
+    "nameEs": "4★ ¡En equipo con Monju!",
+    "details": [
+      "Llanos arenosos",
+      "4★ ¡En equipo con Monju!"
+    ]
+  },
+  {
+    "id": "1512320551",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Una leyenda de dos titanes",
+    "nameEs": "3★ Una leyenda de dos titanes",
+    "details": [
+      "Bosque inundado",
+      "3★ Una leyenda de dos titanes"
+    ]
+  },
+  {
+    "id": "1199664571",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Una aguda observación",
+    "nameEs": "3★ Una aguda observación",
+    "details": [
+      "Templo olvidado",
+      "3★ Una aguda observación"
+    ]
+  },
+  {
+    "id": "878802270",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Un recorrido por el Bastión",
+    "nameEs": "3★ Un recorrido por el Bastión",
+    "details": [
+      "Bastión",
+      "3★ Un recorrido por el Bastión"
+    ]
+  },
+  {
+    "id": "954635284",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Un ambiente ineficiente",
+    "nameEs": "3★ Un ambiente ineficiente",
+    "details": [
+      "Islas heladas",
+      "3★ Un ambiente ineficiente"
+    ]
+  },
+  {
+    "id": "1974545463",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Trío de alborotadores",
+    "nameEs": "3★ Trío de alborotadores",
+    "details": [
+      "Bosque inundado",
+      "3★ Trío de alborotadores"
+    ]
+  },
+  {
+    "id": "1094454649",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Tratamiento de calor y frío",
+    "nameEs": "3★ Tratamiento de calor y frío",
+    "details": [
+      "Bastión",
+      "3★ Tratamiento de calor y frío"
+    ]
+  },
+  {
+    "id": "1108704542",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Tras los pasos de su mentor",
+    "nameEs": "3★ Tras los pasos de su mentor",
+    "details": [
+      "Templo olvidado",
+      "3★ Tras los pasos de su mentor"
+    ]
+  },
+  {
+    "id": "1603296832",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Sombras en la Jungla",
+    "nameEs": "3★ Sombras en la Jungla",
+    "details": [
+      "La Jungla",
+      "3★ Sombras en la Jungla"
+    ]
+  },
+  {
+    "id": "1575337602",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Regalo de Goss Harag",
+    "nameEs": "3★ Regalo de Goss Harag",
+    "details": [
+      "Bastión",
+      "3★ Regalo de Goss Harag"
+    ]
+  },
+  {
+    "id": "1212935347",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Que sea solo esta vez",
+    "nameEs": "3★ Que sea solo esta vez",
+    "details": [
+      "Bosque inundado",
+      "3★ Que sea solo esta vez"
+    ]
+  },
+  {
+    "id": "1497562630",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Purgando el odio",
+    "nameEs": "3★ Purgando el odio",
+    "details": [
+      "Islas heladas",
+      "3★ Purgando el odio"
+    ]
+  },
+  {
+    "id": "1350074126",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Ponle freno al veneno",
+    "nameEs": "3★ Ponle freno al veneno",
+    "details": [
+      "Bosque inundado",
+      "3★ Ponle freno al veneno"
+    ]
+  },
+  {
+    "id": "1157471684",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Piedra, papel, pinzas",
+    "nameEs": "3★ Piedra, papel, pinzas",
+    "details": [
+      "Arena",
+      "3★ Piedra, papel, pinzas"
+    ]
+  },
+  {
+    "id": "1483312737",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Nido de arañas en la arena",
+    "nameEs": "3★ Nido de arañas en la arena",
+    "details": [
+      "Llanos arenosos",
+      "3★ Nido de arañas en la arena"
+    ]
+  },
+  {
+    "id": "1304435932",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Monstruo desbocado",
+    "nameEs": "3★ Monstruo desbocado",
+    "details": [
+      "Bastión",
+      "3★ Monstruo desbocado"
+    ]
+  },
+  {
+    "id": "1589571235",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Molestias nocturnas",
+    "nameEs": "3★ Molestias nocturnas",
+    "details": [
+      "La Jungla",
+      "3★ Molestias nocturnas"
+    ]
+  },
+  {
+    "id": "1364307759",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "La prueba del Almudron",
+    "nameEs": "3★ La prueba del Almudron",
+    "details": [
+      "Llanos arenosos",
+      "3★ La prueba del Almudron"
+    ]
+  },
+  {
+    "id": "493828042",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Estudios de la hambruna",
+    "nameEs": "3★ Estudios de la hambruna",
+    "details": [
+      "Llanos arenosos",
+      "3★ Estudios de la hambruna"
+    ]
+  },
+  {
+    "id": "1241943153",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Confección de ropa invernal",
+    "nameEs": "3★ Confección de ropa invernal",
+    "details": [
+      "Islas heladas",
+      "3★ Confección de ropa invernal"
+    ]
+  },
+  {
+    "id": "1378557644",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Canción triste del Ceanataur",
+    "nameEs": "3★ Canción triste del Ceanataur",
+    "details": [
+      "Bosque inundado",
+      "3★ Canción triste del Ceanataur"
+    ]
+  },
+  {
+    "id": "1393315565",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Caballero blanco sobre hielo",
+    "nameEs": "3★ Caballero blanco sobre hielo",
+    "details": [
+      "Bastión",
+      "3★ Caballero blanco sobre hielo"
+    ]
+  },
+  {
+    "id": "2003026933",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Búsqueda en el desierto",
+    "nameEs": "3★ Búsqueda en el desierto",
+    "details": [
+      "Llanos arenosos",
+      "3★ Búsqueda en el desierto"
+    ]
+  },
+  {
+    "id": "507537387",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "Aplacando la ferocidad",
+    "nameEs": "3★ Aplacando la ferocidad",
+    "details": [
+      "Templo olvidado",
+      "3★ Aplacando la ferocidad"
+    ]
+  },
+  {
+    "id": "1988793300",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "¿La madre de las medicinas?",
+    "nameEs": "3★ ¿La madre de las medicinas?",
+    "details": [
+      "La Jungla",
+      "3★ ¿La madre de las medicinas?"
+    ]
+  },
+  {
+    "id": "1079696728",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "¿Blandito o circulitos?",
+    "nameEs": "3★ ¿Blandito o circulitos?",
+    "details": [
+      "Bastión",
+      "3★ ¿Blandito o circulitos?"
+    ]
+  },
+  {
+    "id": "1290710335",
+    "category": "hub_master",
+    "stars": 3,
+    "name": "¡Impidamos un frío futuro!",
+    "nameEs": "3★ ¡Impidamos un frío futuro!",
+    "details": [
+      "Islas heladas",
+      "3★ ¡Impidamos un frío futuro!"
+    ]
+  },
+  {
+    "id": "1941835993",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Una síntesis destartalada",
+    "nameEs": "2★ Una síntesis destartalada",
+    "details": [
+      "Bosque inundado",
+      "2★ Una síntesis destartalada"
+    ]
+  },
+  {
+    "id": "965097914",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Un recorrido por el bosque",
+    "nameEs": "2★ Un recorrido por el bosque",
+    "details": [
+      "Bosque inundado",
+      "2★ Un recorrido por el bosque"
+    ]
+  },
+  {
+    "id": "1075909321",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Somnífero Somnacanth",
+    "nameEs": "2★ Somnífero Somnacanth",
+    "details": [
+      "Islas heladas",
+      "2★ Somnífero Somnacanth"
+    ]
+  },
+  {
+    "id": "1167917930",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Que te den, Bishaten",
+    "nameEs": "2★ Que te den, Bishaten",
+    "details": [
+      "La Jungla",
+      "2★ Que te den, Bishaten"
+    ]
+  },
+  {
+    "id": "1286922924",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Qué loca, esta roca",
+    "nameEs": "2★ Qué loca, esta roca",
+    "details": [
+      "Llanos arenosos",
+      "2★ Qué loca, esta roca"
+    ]
+  },
+  {
+    "id": "771446896",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Por provocar al Anjanath",
+    "nameEs": "2★ Por provocar al Anjanath",
+    "details": [
+      "Bosque inundado",
+      "2★ Por provocar al Anjanath"
+    ]
+  },
+  {
+    "id": "1256952257",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Plaga botánica",
+    "nameEs": "2★ Plaga botánica",
+    "details": [
+      "Bosque inundado",
+      "2★ Plaga botánica"
+    ]
+  },
+  {
+    "id": "42204118",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Pánico pelapiñas",
+    "nameEs": "2★ Pánico pelapiñas",
+    "details": [
+      "Llanos arenosos",
+      "2★ Pánico pelapiñas"
+    ]
+  },
+  {
+    "id": "1271710182",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Morrongorramo de despedida",
+    "nameEs": "2★ Morrongorramo de despedida",
+    "details": [
+      "La Jungla",
+      "2★ Morrongorramo de despedida"
+    ]
+  },
+  {
+    "id": "1301172813",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Menudo marrón",
+    "nameEs": "2★ Menudo marrón",
+    "details": [
+      "Bosque inundado",
+      "2★ Menudo marrón"
+    ]
+  },
+  {
+    "id": "1315406434",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Haya paz en el templo",
+    "nameEs": "2★ Haya paz en el templo",
+    "details": [
+      "Templo olvidado",
+      "2★ Haya paz en el templo"
+    ]
+  },
+  {
+    "id": "1123697390",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Gotas de veneno en la arena",
+    "nameEs": "2★ Gotas de veneno en la arena",
+    "details": [
+      "Llanos arenosos",
+      "2★ Gotas de veneno en la arena"
+    ]
+  },
+  {
+    "id": "1329132035",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Espectáculo monstruoso",
+    "nameEs": "2★ Espectáculo monstruoso",
+    "details": [
+      "Arena",
+      "2★ Espectáculo monstruoso"
+    ]
+  },
+  {
+    "id": "1182167819",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "El jardín de la reina",
+    "nameEs": "2★ El jardín de la reina",
+    "details": [
+      "La Jungla",
+      "2★ El jardín de la reina"
+    ]
+  },
+  {
+    "id": "1196401448",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "El devorador de alabastro",
+    "nameEs": "2★ El devorador de alabastro",
+    "details": [
+      "Islas heladas",
+      "2★ El devorador de alabastro"
+    ]
+  },
+  {
+    "id": "1137947279",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Bronca en la Jungla",
+    "nameEs": "2★ Bronca en la Jungla",
+    "details": [
+      "La Jungla",
+      "2★ Bronca en la Jungla"
+    ]
+  },
+  {
+    "id": "2090287358",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Asalto del Tengu escarlata",
+    "nameEs": "2★ Asalto del Tengu escarlata",
+    "details": [
+      "Templo olvidado",
+      "2★ Asalto del Tengu escarlata"
+    ]
+  },
+  {
+    "id": "2046591090",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "Alborozo de wyverns pájaro",
+    "nameEs": "2★ Alborozo de wyverns pájaro",
+    "details": [
+      "Templo olvidado",
+      "2★ Alborozo de wyverns pájaro"
+    ]
+  },
+  {
+    "id": "1985007941",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "A escondidas en la arena",
+    "nameEs": "2★ A escondidas en la arena",
+    "details": [
+      "Llanos arenosos",
+      "2★ A escondidas en la arena"
+    ]
+  },
+  {
+    "id": "56962039",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "♪♪ ¡A que no te atreves! ♪♪",
+    "nameEs": "2★ ♪♪ ¡A que no te atreves! ♪♪",
+    "details": [
+      "Templo olvidado",
+      "2★ ♪♪ ¡A que no te atreves! ♪♪"
+    ]
+  },
+  {
+    "id": "1999241594",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "¿Ronquido o zumbido? 2.ª parte",
+    "nameEs": "2★ ¿Ronquido o zumbido? 2.ª parte",
+    "details": [
+      "Islas heladas",
+      "2★ ¿Ronquido o zumbido? 2.ª parte"
+    ]
+  },
+  {
+    "id": "1971282340",
+    "category": "hub_master",
+    "stars": 2,
+    "name": "¡A las ricas khezufrutas!",
+    "nameEs": "2★ ¡A las ricas khezufrutas!",
+    "details": [
+      "Islas heladas",
+      "2★ ¡A las ricas khezufrutas!"
+    ]
+  },
+  {
+    "id": "676687172",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "Un recorrido por los llanos",
+    "nameEs": "1★ Un recorrido por los llanos",
+    "details": [
+      "Llanos arenosos",
+      "1★ Un recorrido por los llanos"
+    ]
+  },
+  {
+    "id": "796671399",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "Un recorrido por las islas",
+    "nameEs": "1★ Un recorrido por las islas",
+    "details": [
+      "Islas heladas",
+      "1★ Un recorrido por las islas"
+    ]
+  },
+  {
+    "id": "690937189",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "Un recorrido por la Jungla",
+    "nameEs": "1★ Un recorrido por la Jungla",
+    "details": [
+      "La Jungla",
+      "1★ Un recorrido por la Jungla"
+    ]
+  },
+  {
+    "id": "781897094",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "Un recorrido por el templo",
+    "nameEs": "1★ Un recorrido por el templo",
+    "details": [
+      "Templo olvidado",
+      "1★ Un recorrido por el templo"
+    ]
+  },
+  {
+    "id": "1267402519",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "Tocado y hundido",
+    "nameEs": "1★ Tocado y hundido",
+    "details": [
+      "La Jungla",
+      "1★ Tocado y hundido"
+    ]
+  },
+  {
+    "id": "1981748938",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "Siesta molesta en el templo",
+    "nameEs": "1★ Siesta molesta en el templo",
+    "details": [
+      "Templo olvidado",
+      "1★ Siesta molesta en el templo"
+    ]
+  },
+  {
+    "id": "1967498965",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "Realmente esponjoso",
+    "nameEs": "1★ Realmente esponjoso",
+    "details": [
+      "La Jungla",
+      "1★ Realmente esponjoso"
+    ]
+  },
+  {
+    "id": "2086504047",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "Podría ser peor...",
+    "nameEs": "1★ Podría ser peor...",
+    "details": [
+      "Islas heladas",
+      "1★ Podría ser peor..."
+    ]
+  },
+  {
+    "id": "1923278505",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "No lo ha bicho venir",
+    "nameEs": "1★ No lo ha bicho venir",
+    "details": [
+      "La Jungla",
+      "1★ No lo ha bicho venir"
+    ]
+  },
+  {
+    "id": "1953265460",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "Necesito un cazador, ¡ya!",
+    "nameEs": "1★ Necesito un cazador, ¡ya!",
+    "details": [
+      "La Jungla",
+      "1★ Necesito un cazador, ¡ya!"
+    ]
+  },
+  {
+    "id": "1253169014",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "Invitado indeseado",
+    "nameEs": "1★ Invitado indeseado",
+    "details": [
+      "Templo olvidado",
+      "1★ Invitado indeseado"
+    ]
+  },
+  {
+    "id": "2100753932",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "El rodillo rojo",
+    "nameEs": "1★ El rodillo rojo",
+    "details": [
+      "Llanos arenosos",
+      "1★ El rodillo rojo"
+    ]
+  },
+  {
+    "id": "1816126649",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "El libro de Jungla",
+    "nameEs": "1★ El libro de Jungla",
+    "details": [
+      "La Jungla",
+      "1★ El libro de Jungla"
+    ]
+  },
+  {
+    "id": "1667675288",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "El bueno, el feo y el Lagombi",
+    "nameEs": "1★ El bueno, el feo y el Lagombi",
+    "details": [
+      "Islas heladas",
+      "1★ El bueno, el feo y el Lagombi"
+    ]
+  },
+  {
+    "id": "1938052686",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "Cosecha wyverna",
+    "nameEs": "1★ Cosecha wyverna",
+    "details": [
+      "Templo olvidado",
+      "1★ Cosecha wyverna"
+    ]
+  },
+  {
+    "id": "1361046620",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "Bloqueo de Tetranadon",
+    "nameEs": "1★ Bloqueo de Tetranadon",
+    "details": [
+      "La Jungla",
+      "1★ Bloqueo de Tetranadon"
+    ]
+  },
+  {
+    "id": "933267506",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "Avituallamiento acorazado",
+    "nameEs": "1★ Avituallamiento acorazado",
+    "details": [
+      "La Jungla",
+      "1★ Avituallamiento acorazado"
+    ]
+  },
+  {
+    "id": "2028049858",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "[TÍTULO ELIMINADO]",
+    "nameEs": "1★ [TÍTULO ELIMINADO]",
+    "details": [
+      "La Jungla",
+      "1★ [TÍTULO ELIMINADO]"
+    ]
+  },
+  {
+    "id": "2042283491",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "¿BRRRR más ZZZzzz es igual a...?",
+    "nameEs": "1★ ¿BRRRR más ZZZzzz es igual a...?",
+    "details": [
+      "Islas heladas",
+      "1★ ¿BRRRR más ZZZzzz es igual a...?"
+    ]
+  },
+  {
+    "id": "2114463277",
+    "category": "hub_master",
+    "stars": 1,
+    "name": "¡Esta cola traerá cola!",
+    "nameEs": "1★ ¡Esta cola traerá cola!",
+    "details": [
+      "Llanos arenosos",
+      "1★ ¡Esta cola traerá cola!"
+    ]
+  },
+  {
+    "id": "1607607718",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio de Anomalía: Teostra",
+    "nameEs": "6★ Estudio de Anomalía: Teostra",
+    "details": [
+      "Grutas de lava",
+      "6★ Estudio de Anomalía: Teostra"
+    ]
+  },
+  {
+    "id": "1879817710",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio de Anomalía: Rajang",
+    "nameEs": "6★ Estudio de Anomalía: Rajang",
+    "details": [
+      "Bastión",
+      "6★ Estudio de Anomalía: Rajang"
+    ]
+  },
+  {
+    "id": "1971826187",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio de Anomalía: Espinas",
+    "nameEs": "6★ Estudio de Anomalía: Espinas",
+    "details": [
+      "La Jungla",
+      "6★ Estudio de Anomalía: Espinas"
+    ]
+  },
+  {
+    "id": "1624957320",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Zinogre",
+    "nameEs": "6★ Estudio Anomalía: Zinogre",
+    "details": [
+      "La Jungla",
+      "6★ Estudio Anomalía: Zinogre"
+    ]
+  },
+  {
+    "id": "832254586",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Volvidon",
+    "nameEs": "6★ Estudio Anomalía: Volvidon",
+    "details": [
+      "Grutas de lava",
+      "6★ Estudio Anomalía: Volvidon"
+    ]
+  },
+  {
+    "id": "774472167",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Valstrax Carmesí",
+    "nameEs": "6★ Estudio Anomalía: Valstrax Carmesí",
+    "details": [
+      "Templo olvidado",
+      "6★ Estudio Anomalía: Valstrax Carmesí"
+    ]
+  },
+  {
+    "id": "498547324",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Tobi-Kadachi",
+    "nameEs": "6★ Estudio Anomalía: Tobi-Kadachi",
+    "details": [
+      "La Jungla",
+      "6★ Estudio Anomalía: Tobi-Kadachi"
+    ]
+  },
+  {
+    "id": "1668215151",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Tigrex",
+    "nameEs": "6★ Estudio Anomalía: Tigrex",
+    "details": [
+      "Llanos arenosos",
+      "6★ Estudio Anomalía: Tigrex"
+    ]
+  },
+  {
+    "id": "46911064",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Tetranadon",
+    "nameEs": "6★ Estudio Anomalía: Tetranadon",
+    "details": [
+      "Templo olvidado",
+      "6★ Estudio Anomalía: Tetranadon"
+    ]
+  },
+  {
+    "id": "1754428944",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Somnacanth Aurora",
+    "nameEs": "6★ Estudio Anomalía: Somnacanth Aurora",
+    "details": [
+      "Islas heladas",
+      "6★ Estudio Anomalía: Somnacanth Aurora"
+    ]
+  },
+  {
+    "id": "526506546",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Somnacanth",
+    "nameEs": "6★ Estudio Anomalía: Somnacanth",
+    "details": [
+      "Bosque inundado",
+      "6★ Estudio Anomalía: Somnacanth"
+    ]
+  },
+  {
+    "id": "80681398",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Shogun Ceanataur",
+    "nameEs": "6★ Estudio Anomalía: Shogun Ceanataur",
+    "details": [
+      "Bosque inundado",
+      "6★ Estudio Anomalía: Shogun Ceanataur"
+    ]
+  },
+  {
+    "id": "788722052",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Shagaru Magala",
+    "nameEs": "6★ Estudio Anomalía: Shagaru Magala",
+    "details": [
+      "Bastión",
+      "6★ Estudio Anomalía: Shagaru Magala"
+    ]
+  },
+  {
+    "id": "1639731625",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Seregios",
+    "nameEs": "6★ Estudio Anomalía: Seregios",
+    "details": [
+      "Bastión",
+      "6★ Estudio Anomalía: Seregios"
+    ]
+  },
+  {
+    "id": "512256541",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Rathian",
+    "nameEs": "6★ Estudio Anomalía: Rathian",
+    "details": [
+      "La Jungla",
+      "6★ Estudio Anomalía: Rathian"
+    ]
+  },
+  {
+    "id": "1697137098",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Rathalos",
+    "nameEs": "6★ Estudio Anomalía: Rathalos",
+    "details": [
+      "Grutas de lava",
+      "6★ Estudio Anomalía: Rathalos"
+    ]
+  },
+  {
+    "id": "1797670391",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Rakna-Kadaki",
+    "nameEs": "6★ Estudio Anomalía: Rakna-Kadaki",
+    "details": [
+      "Grutas de lava",
+      "6★ Estudio Anomalía: Rakna-Kadaki"
+    ]
+  },
+  {
+    "id": "469084561",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Pukei-Pukei",
+    "nameEs": "6★ Estudio Anomalía: Pukei-Pukei",
+    "details": [
+      "Llanos arenosos",
+      "6★ Estudio Anomalía: Pukei-Pukei"
+    ]
+  },
+  {
+    "id": "369079700",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Nargacuga",
+    "nameEs": "6★ Estudio Anomalía: Nargacuga",
+    "details": [
+      "La Jungla",
+      "6★ Estudio Anomalía: Nargacuga"
+    ]
+  },
+  {
+    "id": "2071831092",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Mizutsune",
+    "nameEs": "6★ Estudio Anomalía: Mizutsune",
+    "details": [
+      "Templo olvidado",
+      "6★ Estudio Anomalía: Mizutsune"
+    ]
+  },
+  {
+    "id": "1783436758",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Magnamalo",
+    "nameEs": "6★ Estudio Anomalía: Magnamalo",
+    "details": [
+      "Templo olvidado",
+      "6★ Estudio Anomalía: Magnamalo"
+    ]
+  },
+  {
+    "id": "2057597463",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Lunagaron",
+    "nameEs": "6★ Estudio Anomalía: Lunagaron",
+    "details": [
+      "Islas heladas",
+      "6★ Estudio Anomalía: Lunagaron"
+    ]
+  },
+  {
+    "id": "61685369",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Ludroth Real",
+    "nameEs": "6★ Estudio Anomalía: Ludroth Real",
+    "details": [
+      "Bosque inundado",
+      "6★ Estudio Anomalía: Ludroth Real"
+    ]
+  },
+  {
+    "id": "861262392",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Lagombi",
+    "nameEs": "6★ Estudio Anomalía: Lagombi",
+    "details": [
+      "Islas heladas",
+      "6★ Estudio Anomalía: Lagombi"
+    ]
+  },
+  {
+    "id": "1593374081",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Kushala Daora",
+    "nameEs": "6★ Estudio Anomalía: Kushala Daora",
+    "details": [
+      "Islas heladas",
+      "6★ Estudio Anomalía: Kushala Daora"
+    ]
+  },
+  {
+    "id": "847012379",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Kulu-Ya-Ku",
+    "nameEs": "6★ Estudio Anomalía: Kulu-Ya-Ku",
+    "details": [
+      "Llanos arenosos",
+      "6★ Estudio Anomalía: Kulu-Ya-Ku"
+    ]
+  },
+  {
+    "id": "165916050",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Khezu",
+    "nameEs": "6★ Estudio Anomalía: Khezu",
+    "details": [
+      "Islas heladas",
+      "6★ Estudio Anomalía: Khezu"
+    ]
+  },
+  {
+    "id": "406522323",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Jyuratodus",
+    "nameEs": "6★ Estudio Anomalía: Jyuratodus",
+    "details": [
+      "Bosque inundado",
+      "6★ Estudio Anomalía: Jyuratodus"
+    ]
+  },
+  {
+    "id": "818004549",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Gran Wroggi",
+    "nameEs": "6★ Estudio Anomalía: Gran Wroggi",
+    "details": [
+      "Grutas de lava",
+      "6★ Estudio Anomalía: Gran Wroggi"
+    ]
+  },
+  {
+    "id": "890708615",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Gran Izuchi",
+    "nameEs": "6★ Estudio Anomalía: Gran Izuchi",
+    "details": [
+      "Templo olvidado",
+      "6★ Estudio Anomalía: Gran Izuchi"
+    ]
+  },
+  {
+    "id": "937988772",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Gran Baggi",
+    "nameEs": "6★ Estudio Anomalía: Gran Baggi",
+    "details": [
+      "Islas heladas",
+      "6★ Estudio Anomalía: Gran Baggi"
+    ]
+  },
+  {
+    "id": "1768662577",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Goss Harag",
+    "nameEs": "6★ Estudio Anomalía: Goss Harag",
+    "details": [
+      "Islas heladas",
+      "6★ Estudio Anomalía: Goss Harag"
+    ]
+  },
+  {
+    "id": "1874396787",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Garangolm",
+    "nameEs": "6★ Estudio Anomalía: Garangolm",
+    "details": [
+      "Bastión",
+      "6★ Estudio Anomalía: Garangolm"
+    ]
+  },
+  {
+    "id": "1683427797",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Diablos",
+    "nameEs": "6★ Estudio Anomalía: Diablos",
+    "details": [
+      "Llanos arenosos",
+      "6★ Estudio Anomalía: Diablos"
+    ]
+  },
+  {
+    "id": "210136606",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Daimyo Hermitaur",
+    "nameEs": "6★ Estudio Anomalía: Daimyo Hermitaur",
+    "details": [
+      "La Jungla",
+      "6★ Estudio Anomalía: Daimyo Hermitaur"
+    ]
+  },
+  {
+    "id": "1546094048",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Chameleos",
+    "nameEs": "6★ Estudio Anomalía: Chameleos",
+    "details": [
+      "Bosque inundado",
+      "6★ Estudio Anomalía: Chameleos"
+    ]
+  },
+  {
+    "id": "484297311",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Bishaten Sanguina",
+    "nameEs": "6★ Estudio Anomalía: Bishaten Sanguina",
+    "details": [
+      "Bastión",
+      "6★ Estudio Anomalía: Bishaten Sanguina"
+    ]
+  },
+  {
+    "id": "252345853",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Bishaten",
+    "nameEs": "6★ Estudio Anomalía: Bishaten",
+    "details": [
+      "Templo olvidado",
+      "6★ Estudio Anomalía: Bishaten"
+    ]
+  },
+  {
+    "id": "238095836",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Basarios",
+    "nameEs": "6★ Estudio Anomalía: Basarios",
+    "details": [
+      "Grutas de lava",
+      "6★ Estudio Anomalía: Basarios"
+    ]
+  },
+  {
+    "id": "224386623",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Barroth",
+    "nameEs": "6★ Estudio Anomalía: Barroth",
+    "details": [
+      "Llanos arenosos",
+      "6★ Estudio Anomalía: Barroth"
+    ]
+  },
+  {
+    "id": "382789045",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Barioth",
+    "nameEs": "6★ Estudio Anomalía: Barioth",
+    "details": [
+      "Bastión",
+      "6★ Estudio Anomalía: Barioth"
+    ]
+  },
+  {
+    "id": "1711387115",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Astalos",
+    "nameEs": "6★ Estudio Anomalía: Astalos",
+    "details": [
+      "Bosque inundado",
+      "6★ Estudio Anomalía: Astalos"
+    ]
+  },
+  {
+    "id": "876475110",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Arzuros",
+    "nameEs": "6★ Estudio Anomalía: Arzuros",
+    "details": [
+      "Bastión",
+      "6★ Estudio Anomalía: Arzuros"
+    ]
+  },
+  {
+    "id": "421296624",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Anjanath",
+    "nameEs": "6★ Estudio Anomalía: Anjanath",
+    "details": [
+      "Bastión",
+      "6★ Estudio Anomalía: Anjanath"
+    ]
+  },
+  {
+    "id": "1653965134",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Almudron Magma",
+    "nameEs": "6★ Estudio Anomalía: Almudron Magma",
+    "details": [
+      "Grutas de lava",
+      "6★ Estudio Anomalía: Almudron Magma"
+    ]
+  },
+  {
+    "id": "397039018",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Almudron",
+    "nameEs": "6★ Estudio Anomalía: Almudron",
+    "details": [
+      "Bosque inundado",
+      "6★ Estudio Anomalía: Almudron"
+    ]
+  },
+  {
+    "id": "32677563",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Estudio Anomalía: Aknosom",
+    "nameEs": "6★ Estudio Anomalía: Aknosom",
+    "details": [
+      "Templo olvidado",
+      "6★ Estudio Anomalía: Aknosom"
+    ]
+  },
+  {
+    "id": "1928129935",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Est. de Anomalía: Bazelgeuse",
+    "nameEs": "6★ Est. de Anomalía: Bazelgeuse",
+    "details": [
+      "Islas heladas",
+      "6★ Est. de Anomalía: Bazelgeuse"
+    ]
+  },
+  {
+    "id": "1304975779",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Est. Anomalía: Rathian Dorada",
+    "nameEs": "6★ Est. Anomalía: Rathian Dorada",
+    "details": [
+      "Bosque inundado",
+      "6★ Est. Anomalía: Rathian Dorada"
+    ]
+  },
+  {
+    "id": "1319209280",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Est. Anomalía: Rathalos Plateado",
+    "nameEs": "6★ Est. Anomalía: Rathalos Plateado",
+    "details": [
+      "Templo olvidado",
+      "6★ Est. Anomalía: Rathalos Plateado"
+    ]
+  },
+  {
+    "id": "1080236591",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Est. Anomalía: Rajang Rabioso",
+    "nameEs": "6★ Est. Anomalía: Rajang Rabioso",
+    "details": [
+      "Grutas de lava",
+      "6★ Est. Anomalía: Rajang Rabioso"
+    ]
+  },
+  {
+    "id": "1094994380",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Est. Anomalía: Magnamalo humillado",
+    "nameEs": "6★ Est. Anomalía: Magnamalo humillado",
+    "details": [
+      "Bastión",
+      "6★ Est. Anomalía: Magnamalo humillado"
+    ]
+  },
+  {
+    "id": "1397642691",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Est. Anomalía: Gore Magala caótico",
+    "nameEs": "6★ Est. Anomalía: Gore Magala caótico",
+    "details": [
+      "La Jungla",
+      "6★ Est. Anomalía: Gore Magala caótico"
+    ]
+  },
+  {
+    "id": "1985551912",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Est. Anomalía: Gore Magala",
+    "nameEs": "6★ Est. Anomalía: Gore Magala",
+    "details": [
+      "Templo olvidado",
+      "6★ Est. Anomalía: Gore Magala"
+    ]
+  },
+  {
+    "id": "1291250050",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Est. Anomalía: Espinas Llameante",
+    "nameEs": "6★ Est. Anomalía: Espinas Llameante",
+    "details": [
+      "Bastión",
+      "6★ Est. Anomalía: Espinas Llameante"
+    ]
+  },
+  {
+    "id": "1213999366",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Est. Anomalía: Bazelgeuse Magma",
+    "nameEs": "6★ Est. Anomalía: Bazelgeuse Magma",
+    "details": [
+      "Llanos arenosos",
+      "6★ Est. Anomalía: Bazelgeuse Magma"
+    ]
+  },
+  {
+    "id": "1999785417",
+    "category": "mystery",
+    "stars": 6,
+    "name": "Est. Anom.: Rakna-Kadaki Pira",
+    "nameEs": "6★ Est. Anom.: Rakna-Kadaki Pira",
+    "details": [
+      "Grutas de lava",
+      "6★ Est. Anom.: Rakna-Kadaki Pira"
+    ]
+  },
+  {
+    "id": "1495697783",
+    "category": "training",
+    "stars": 1,
+    "name": "Intercambio de habilidades",
+    "nameEs": "1★ Intercambio de habilidades",
+    "details": [
+      "Arena",
+      "1★ Intercambio de habilidades"
+    ]
+  },
+  {
+    "id": "748044951",
+    "category": "village",
+    "stars": 6,
+    "name": "Voz atronadora",
+    "nameEs": "6★ Voz atronadora",
+    "details": [
+      "Islas heladas",
+      "6★ Voz atronadora"
+    ]
+  },
+  {
+    "id": "537031472",
+    "category": "village",
+    "stars": 6,
+    "name": "Test de licencia especial 3",
+    "nameEs": "6★ Test de licencia especial 3",
+    "details": [
+      "Templo olvidado",
+      "6★ Test de licencia especial 3"
+    ]
+  },
+  {
+    "id": "776004181",
+    "category": "village",
+    "stars": 6,
+    "name": "Prueba de valor",
+    "nameEs": "6★ Prueba de valor",
+    "details": [
+      "Templo olvidado",
+      "6★ Prueba de valor"
+    ]
+  },
+  {
+    "id": "656999187",
+    "category": "village",
+    "stars": 6,
+    "name": "Ermitaño del pantano",
+    "nameEs": "6★ Ermitaño del pantano",
+    "details": [
+      "Templo olvidado",
+      "6★ Ermitaño del pantano"
+    ]
+  },
+  {
+    "id": "703824491",
+    "category": "village",
+    "stars": 6,
+    "name": "El rey azota la tierra",
+    "nameEs": "6★ El rey azota la tierra",
+    "details": [
+      "Grutas de lava",
+      "6★ El rey azota la tierra"
+    ]
+  },
+  {
+    "id": "762294964",
+    "category": "village",
+    "stars": 6,
+    "name": "Deseo retorcido",
+    "nameEs": "6★ Deseo retorcido",
+    "details": [
+      "Llanos arenosos",
+      "6★ Deseo retorcido"
+    ]
+  },
+  {
+    "id": "790254154",
+    "category": "village",
+    "stars": 6,
+    "name": "Como un relámpago",
+    "nameEs": "6★ Como un relámpago",
+    "details": [
+      "Bosque inundado",
+      "6★ Como un relámpago"
+    ]
+  },
+  {
+    "id": "584819409",
+    "category": "village",
+    "stars": 6,
+    "name": "Avanzada: gala de veteranos",
+    "nameEs": "6★ Avanzada: gala de veteranos",
+    "details": [
+      "Arena",
+      "6★ Avanzada: gala de veteranos"
+    ]
+  },
+  {
+    "id": "599593718",
+    "category": "village",
+    "stars": 6,
+    "name": "Abominable bestia nival",
+    "nameEs": "6★ Abominable bestia nival",
+    "details": [
+      "Islas heladas",
+      "6★ Abominable bestia nival"
+    ]
+  },
+  {
+    "id": "1475901245",
+    "category": "village",
+    "stars": 5,
+    "name": "Wyvern como el viento",
+    "nameEs": "5★ Wyvern como el viento",
+    "details": [
+      "Templo olvidado",
+      "5★ Wyvern como el viento"
+    ]
+  },
+  {
+    "id": "1428621084",
+    "category": "village",
+    "stars": 5,
+    "name": "Test de licencia especial 2",
+    "nameEs": "5★ Test de licencia especial 2",
+    "details": [
+      "Templo olvidado",
+      "5★ Test de licencia especial 2"
+    ]
+  },
+  {
+    "id": "1370167027",
+    "category": "village",
+    "stars": 5,
+    "name": "Rastreador nocturno",
+    "nameEs": "5★ Rastreador nocturno",
+    "details": [
+      "Llanos arenosos",
+      "5★ Rastreador nocturno"
+    ]
+  },
+  {
+    "id": "1609139732",
+    "category": "village",
+    "stars": 5,
+    "name": "Molestias indiscretas",
+    "nameEs": "5★ Molestias indiscretas",
+    "details": [
+      "Llanos arenosos",
+      "5★ Molestias indiscretas"
+    ]
+  },
+  {
+    "id": "1489172021",
+    "category": "village",
+    "stars": 5,
+    "name": "Lo más intenso del lugar",
+    "nameEs": "5★ Lo más intenso del lugar",
+    "details": [
+      "Grutas de lava",
+      "5★ Lo más intenso del lugar"
+    ]
+  },
+  {
+    "id": "1355917010",
+    "category": "village",
+    "stars": 5,
+    "name": "Epifanía electrizante",
+    "nameEs": "5★ Epifanía electrizante",
+    "details": [
+      "Templo olvidado",
+      "5★ Epifanía electrizante"
+    ]
+  },
+  {
+    "id": "1547626070",
+    "category": "village",
+    "stars": 5,
+    "name": "El ingrediente secreto",
+    "nameEs": "5★ El ingrediente secreto",
+    "details": [
+      "Islas heladas",
+      "5★ El ingrediente secreto"
+    ]
+  },
+  {
+    "id": "1384924816",
+    "category": "village",
+    "stars": 5,
+    "name": "Bailando a la luz de la luna",
+    "nameEs": "5★ Bailando a la luz de la luna",
+    "details": [
+      "Bosque inundado",
+      "5★ Bailando a la luz de la luna"
+    ]
+  },
+  {
+    "id": "1414387583",
+    "category": "village",
+    "stars": 5,
+    "name": "Antiguas atrocidades",
+    "nameEs": "5★ Antiguas atrocidades",
+    "details": [
+      "Templo olvidado",
+      "5★ Antiguas atrocidades"
+    ]
+  },
+  {
+    "id": "1561351799",
+    "category": "village",
+    "stars": 5,
+    "name": "¿Ronquido o zumbido?",
+    "nameEs": "5★ ¿Ronquido o zumbido?",
+    "details": [
+      "Islas heladas",
+      "5★ ¿Ronquido o zumbido?"
+    ]
+  },
+  {
+    "id": "1399174833",
+    "category": "village",
+    "stars": 5,
+    "name": "¡Alerta por Rathalos!",
+    "nameEs": "5★ ¡Alerta por Rathalos!",
+    "details": [
+      "Grutas de lava",
+      "5★ ¡Alerta por Rathalos!"
+    ]
+  },
+  {
+    "id": "1499634523",
+    "category": "village",
+    "stars": 4,
+    "name": "Un recorrido por las grutas",
+    "nameEs": "4★ Un recorrido por las grutas",
+    "details": [
+      "Grutas de lava",
+      "4★ Un recorrido por las grutas"
+    ]
+  },
+  {
+    "id": "1307032081",
+    "category": "village",
+    "stars": 4,
+    "name": "Un proyecto venenoso",
+    "nameEs": "4★ Un proyecto venenoso",
+    "details": [
+      "Bosque inundado",
+      "4★ Un proyecto venenoso"
+    ]
+  },
+  {
+    "id": "1229781397",
+    "category": "village",
+    "stars": 4,
+    "name": "Todos contra todos",
+    "nameEs": "4★ Todos contra todos",
+    "details": [
+      "Arena",
+      "4★ Todos contra todos"
+    ]
+  },
+  {
+    "id": "1528642329",
+    "category": "village",
+    "stars": 4,
+    "name": "Test de licencia especial 1",
+    "nameEs": "4★ Test de licencia especial 1",
+    "details": [
+      "Templo olvidado",
+      "4★ Test de licencia especial 1"
+    ]
+  },
+  {
+    "id": "1081768605",
+    "category": "village",
+    "stars": 4,
+    "name": "Sombra voladora",
+    "nameEs": "4★ Sombra voladora",
+    "details": [
+      "Bosque inundado",
+      "4★ Sombra voladora"
+    ]
+  },
+  {
+    "id": "1125010032",
+    "category": "village",
+    "stars": 4,
+    "name": "Recuperando los ingredientes",
+    "nameEs": "4★ Recuperando los ingredientes",
+    "details": [
+      "Grutas de lava",
+      "4★ Recuperando los ingredientes"
+    ]
+  },
+  {
+    "id": "1188027103",
+    "category": "village",
+    "stars": 4,
+    "name": "Nevada furiosa",
+    "nameEs": "4★ Nevada furiosa",
+    "details": [
+      "Islas heladas",
+      "4★ Nevada furiosa"
+    ]
+  },
+  {
+    "id": "1096002226",
+    "category": "village",
+    "stars": 4,
+    "name": "Melodía abrasadora",
+    "nameEs": "4★ Melodía abrasadora",
+    "details": [
+      "Grutas de lava",
+      "4★ Melodía abrasadora"
+    ]
+  },
+  {
+    "id": "1320741430",
+    "category": "village",
+    "stars": 4,
+    "name": "Marchando un hígado",
+    "nameEs": "4★ Marchando un hígado",
+    "details": [
+      "Llanos arenosos",
+      "4★ Marchando un hígado"
+    ]
+  },
+  {
+    "id": "1110776403",
+    "category": "village",
+    "stars": 4,
+    "name": "Las rocas lloran de noche",
+    "nameEs": "4★ Las rocas lloran de noche",
+    "details": [
+      "Grutas de lava",
+      "4★ Las rocas lloran de noche"
+    ]
+  },
+  {
+    "id": "1173777214",
+    "category": "village",
+    "stars": 4,
+    "name": "Lacrimosa infernal",
+    "nameEs": "4★ Lacrimosa infernal",
+    "details": [
+      "Islas heladas",
+      "4★ Lacrimosa infernal"
+    ]
+  },
+  {
+    "id": "1201736444",
+    "category": "village",
+    "stars": 4,
+    "name": "La procesión de la reina",
+    "nameEs": "4★ La procesión de la reina",
+    "details": [
+      "Llanos arenosos",
+      "4★ La procesión de la reina"
+    ]
+  },
+  {
+    "id": "1513868152",
+    "category": "village",
+    "stars": 4,
+    "name": "Guardián de las montañas",
+    "nameEs": "4★ Guardián de las montañas",
+    "details": [
+      "Templo olvidado",
+      "4★ Guardián de las montañas"
+    ]
+  },
+  {
+    "id": "1334991319",
+    "category": "village",
+    "stars": 4,
+    "name": "Como para fundir hierro",
+    "nameEs": "4★ Como para fundir hierro",
+    "details": [
+      "Grutas de lava",
+      "4★ Como para fundir hierro"
+    ]
+  },
+  {
+    "id": "1215007220",
+    "category": "village",
+    "stars": 4,
+    "name": "Amor de hija",
+    "nameEs": "4★ Amor de hija",
+    "details": [
+      "Grutas de lava",
+      "4★ Amor de hija"
+    ]
+  },
+  {
+    "id": "2106088912",
+    "category": "village",
+    "stars": 3,
+    "name": "Vientos del pasado",
+    "nameEs": "3★ Vientos del pasado",
+    "details": [
+      "Bosque inundado",
+      "3★ Vientos del pasado"
+    ]
+  },
+  {
+    "id": "1317482407",
+    "category": "village",
+    "stars": 3,
+    "name": "Un recorrido por los llanos",
+    "nameEs": "3★ Un recorrido por los llanos",
+    "details": [
+      "Llanos arenosos",
+      "3★ Un recorrido por los llanos"
+    ]
+  },
+  {
+    "id": "1331208004",
+    "category": "village",
+    "stars": 3,
+    "name": "Un recorrido por el bosque",
+    "nameEs": "3★ Un recorrido por el bosque",
+    "details": [
+      "Bosque inundado",
+      "3★ Un recorrido por el bosque"
+    ]
+  },
+  {
+    "id": "1959124696",
+    "category": "village",
+    "stars": 3,
+    "name": "Tiene huevos la cosa",
+    "nameEs": "3★ Tiene huevos la cosa",
+    "details": [
+      "Llanos arenosos",
+      "3★ Tiene huevos la cosa"
+    ]
+  },
+  {
+    "id": "1987083934",
+    "category": "village",
+    "stars": 3,
+    "name": "Señor odioso, bestia nociva",
+    "nameEs": "3★ Señor odioso, bestia nociva",
+    "details": [
+      "Bosque inundado",
+      "3★ Señor odioso, bestia nociva"
+    ]
+  },
+  {
+    "id": "1225473818",
+    "category": "village",
+    "stars": 3,
+    "name": "Se avecina el Frenesí",
+    "nameEs": "3★ Se avecina el Frenesí",
+    "details": [
+      "Templo olvidado",
+      "3★ Se avecina el Frenesí"
+    ]
+  },
+  {
+    "id": "1973358329",
+    "category": "village",
+    "stars": 3,
+    "name": "Pelea sucia",
+    "nameEs": "3★ Pelea sucia",
+    "details": [
+      "Llanos arenosos",
+      "3★ Pelea sucia"
+    ]
+  },
+  {
+    "id": "2001317567",
+    "category": "village",
+    "stars": 3,
+    "name": "Oasis esponjoso",
+    "nameEs": "3★ Oasis esponjoso",
+    "details": [
+      "Bosque inundado",
+      "3★ Oasis esponjoso"
+    ]
+  },
+  {
+    "id": "2120322545",
+    "category": "village",
+    "stars": 3,
+    "name": "Las damas del lago",
+    "nameEs": "3★ Las damas del lago",
+    "details": [
+      "Bosque inundado",
+      "3★ Las damas del lago"
+    ]
+  },
+  {
+    "id": "1211223909",
+    "category": "village",
+    "stars": 3,
+    "name": "Frenesí emplumado",
+    "nameEs": "3★ Frenesí emplumado",
+    "details": [
+      "Templo olvidado",
+      "3★ Frenesí emplumado"
+    ]
+  },
+  {
+    "id": "1943911954",
+    "category": "village",
+    "stars": 3,
+    "name": "Dieta de cactus",
+    "nameEs": "3★ Dieta de cactus",
+    "details": [
+      "Llanos arenosos",
+      "3★ Dieta de cactus"
+    ]
+  },
+  {
+    "id": "2092363315",
+    "category": "village",
+    "stars": 3,
+    "name": "Cábala arenosa",
+    "nameEs": "3★ Cábala arenosa",
+    "details": [
+      "Llanos arenosos",
+      "3★ Cábala arenosa"
+    ]
+  },
+  {
+    "id": "1273786171",
+    "category": "village",
+    "stars": 3,
+    "name": "Anfibio insaciable",
+    "nameEs": "3★ Anfibio insaciable",
+    "details": [
+      "Islas heladas",
+      "3★ Anfibio insaciable"
+    ]
+  },
+  {
+    "id": "1896107645",
+    "category": "village",
+    "stars": 3,
+    "name": "Amenaza sin rostro",
+    "nameEs": "3★ Amenaza sin rostro",
+    "details": [
+      "Islas heladas",
+      "3★ Amenaza sin rostro"
+    ]
+  },
+  {
+    "id": "1881349724",
+    "category": "village",
+    "stars": 3,
+    "name": "A por la mercancía perdida",
+    "nameEs": "3★ A por la mercancía perdida",
+    "details": [
+      "Templo olvidado",
+      "3★ A por la mercancía perdida"
+    ]
+  },
+  {
+    "id": "1939600259",
+    "category": "village",
+    "stars": 2,
+    "name": "Un recorrido por las islas",
+    "nameEs": "2★ Un recorrido por las islas",
+    "details": [
+      "Islas heladas",
+      "2★ Un recorrido por las islas"
+    ]
+  },
+  {
+    "id": "2117059430",
+    "category": "village",
+    "stars": 2,
+    "name": "Rollizos y jugosos",
+    "nameEs": "2★ Rollizos y jugosos",
+    "details": [
+      "Islas heladas",
+      "2★ Rollizos y jugosos"
+    ]
+  },
+  {
+    "id": "2130785031",
+    "category": "village",
+    "stars": 2,
+    "name": "Paraíso escarchado",
+    "nameEs": "2★ Paraíso escarchado",
+    "details": [
+      "Islas heladas",
+      "2★ Paraíso escarchado"
+    ]
+  },
+  {
+    "id": "1684959899",
+    "category": "village",
+    "stars": 2,
+    "name": "No está tan rico...",
+    "nameEs": "2★ No está tan rico...",
+    "details": [
+      "Islas heladas",
+      "2★ No está tan rico..."
+    ]
+  },
+  {
+    "id": "2044355364",
+    "category": "village",
+    "stars": 2,
+    "name": "Helado y con sueño",
+    "nameEs": "2★ Helado y con sueño",
+    "details": [
+      "Islas heladas",
+      "2★ Helado y con sueño"
+    ]
+  },
+  {
+    "id": "2088575904",
+    "category": "village",
+    "stars": 2,
+    "name": "Gran Izuchi, gran dolor",
+    "nameEs": "2★ Gran Izuchi, gran dolor",
+    "details": [
+      "Templo olvidado",
+      "2★ Gran Izuchi, gran dolor"
+    ]
+  },
+  {
+    "id": "2102825793",
+    "category": "village",
+    "stars": 2,
+    "name": "Glotón grisáceo",
+    "nameEs": "2★ Glotón grisáceo",
+    "details": [
+      "Templo olvidado",
+      "2★ Glotón grisáceo"
+    ]
+  },
+  {
+    "id": "2058605253",
+    "category": "village",
+    "stars": 2,
+    "name": "Conejo rabioso",
+    "nameEs": "2★ Conejo rabioso",
+    "details": [
+      "Islas heladas",
+      "2★ Conejo rabioso"
+    ]
+  },
+  {
+    "id": "2073363194",
+    "category": "village",
+    "stars": 2,
+    "name": "Asco de bichos",
+    "nameEs": "2★ Asco de bichos",
+    "details": [
+      "Templo olvidado",
+      "2★ Asco de bichos"
+    ]
+  },
+  {
+    "id": "1622706159",
+    "category": "village",
+    "stars": 1,
+    "name": "Un recorrido por el templo",
+    "nameEs": "1★ Un recorrido por el templo",
+    "details": [
+      "Templo olvidado",
+      "1★ Un recorrido por el templo"
+    ]
+  },
+  {
+    "id": "1651189677",
+    "category": "village",
+    "stars": 1,
+    "name": "Frustraciones fúngicas",
+    "nameEs": "1★ Frustraciones fúngicas",
+    "details": [
+      "Templo olvidado",
+      "1★ Frustraciones fúngicas"
+    ]
+  },
+  {
+    "id": "1665963842",
+    "category": "village",
+    "stars": 1,
+    "name": "Forajidos en el templo",
+    "nameEs": "1★ Forajidos en el templo",
+    "details": [
+      "Templo olvidado",
+      "1★ Forajidos en el templo"
+    ]
+  },
+  {
+    "id": "1636956044",
+    "category": "village",
+    "stars": 1,
+    "name": "Farolillos regordetes",
+    "nameEs": "1★ Farolillos regordetes",
+    "details": [
+      "Templo olvidado",
+      "1★ Farolillos regordetes"
+    ]
+  },
+  {
+    "id": "1814415203",
+    "category": "village",
+    "stars": 1,
+    "name": "Ayuda con mantenimiento",
+    "nameEs": "1★ Ayuda con mantenimiento",
+    "details": [
+      "Templo olvidado",
+      "1★ Ayuda con mantenimiento"
+    ]
+  }
+]
