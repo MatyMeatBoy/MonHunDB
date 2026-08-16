@@ -26,8 +26,13 @@ for (const file of fs.readdirSync(CACHE).filter(file => file.endsWith(".html")))
     const element = elementMatch && ELEMENTS[elementMatch[1]] ? { type: ELEMENTS[elementMatch[1]], value: Number(elementMatch[2]) } : null;
     const affinity = Number(segment.match(/<td>\s*(-?\d+)%\s*<\/td>/i)?.[1]);
     const defense = Number(segment.match(/alt="Def\.png"[^>]*>\s*\+?(\d+)/i)?.[1] || 0);
+    // The first sharpness bar is the normal sharpness; EOL encodes every
+    // in-game point as two CSS pixels.  It is a direct stat, unlike a recipe
+    // description, so it can safely separate otherwise identical entries.
+    const sharpnessHtml = segment.match(/margin-top:0px;?">([\s\S]*?)margin-bottom:-1px/i)?.[1] || "";
+    const sharpness = [...sharpnessHtml.matchAll(/width:(\d+)px/gi)].map(match => Number(match[1]) / 2);
     if (!nameEs || !attack || nameEs === "dummy") continue;
-    records.push({ file, type, nameEs, attack, element, affinity, defense });
+    records.push({ file, type, nameEs, attack, element, affinity, defense, sharpness });
   }
 }
 const translations = {}, ambiguous = [], unmatched = [];
@@ -44,6 +49,13 @@ for (const record of records) {
   if (candidates.length > 1) {
     const defenseMatches = candidates.filter(w => Number(w.defense || 0) === record.defense);
     if (defenseMatches.length) candidates = defenseMatches;
+  }
+  if (candidates.length > 1 && record.sharpness.length >= 3) {
+    const sharpnessMatches = candidates.filter(w =>
+      (w.sharpness || []).length === record.sharpness.length &&
+      w.sharpness.every((value, index) => Number(value) === record.sharpness[index])
+    );
+    if (sharpnessMatches.length) candidates = sharpnessMatches;
   }
   if (candidates.length === 1) {
     const [weapon] = candidates;
