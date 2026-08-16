@@ -24,8 +24,10 @@ for (const file of fs.readdirSync(CACHE).filter(file => file.endsWith(".html")))
     const attack = Number(segment.match(/<td>(\d+)z[\s\S]*?<\/td>\s*<td>(\d+)/i)?.[2]);
     const elementMatch = segment.match(/alt="([^"]+)"\s*\/?>\s*(\d+)/i);
     const element = elementMatch && ELEMENTS[elementMatch[1]] ? { type: ELEMENTS[elementMatch[1]], value: Number(elementMatch[2]) } : null;
+    const affinity = Number(segment.match(/<td>\s*(-?\d+)%\s*<\/td>/i)?.[1]);
+    const defense = Number(segment.match(/alt="Def\.png"[^>]*>\s*\+?(\d+)/i)?.[1] || 0);
     if (!nameEs || !attack || nameEs === "dummy") continue;
-    records.push({ file, type, nameEs, attack, element });
+    records.push({ file, type, nameEs, attack, element, affinity, defense });
   }
 }
 const translations = {}, ambiguous = [], unmatched = [];
@@ -34,6 +36,14 @@ for (const record of records) {
   if (record.element) {
     const elemental = candidates.filter(w => (w.elements || []).some(e => e.type === record.element.type && Number(e.value) === record.element.value));
     if (elemental.length) candidates = elemental;
+  }
+  if (candidates.length > 1 && Number.isFinite(record.affinity)) {
+    const affinityMatches = candidates.filter(w => Number(w.affinity || 0) === record.affinity);
+    if (affinityMatches.length) candidates = affinityMatches;
+  }
+  if (candidates.length > 1) {
+    const defenseMatches = candidates.filter(w => Number(w.defense || 0) === record.defense);
+    if (defenseMatches.length) candidates = defenseMatches;
   }
   if (candidates.length === 1) {
     const [weapon] = candidates;
