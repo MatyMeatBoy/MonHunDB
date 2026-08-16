@@ -1465,6 +1465,8 @@ const MHFU_MATERIAL_NAME_ES = {
   // "Escarabajo brillante" is a distinct MHFU insect. Do not let the
   // same-named MH4U lookup overwrite this native MHFU material.
   "Killer Beetle": "Escar. asesino",
+  // MHGU calls this a worker bug, but the native MHFU name is Carpenterbug.
+  "Carpenterbug": "Bicho carpintero",
 };
 
 // MHFU stores many high-rank materials with a trailing "+" but the old item
