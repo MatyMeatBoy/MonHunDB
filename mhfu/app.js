@@ -3007,6 +3007,38 @@ const MHFU_ITEM_CATEGORY_LABELS = {
 function itemCategoryLabel(category) {
   return MHFU_ITEM_CATEGORY_LABELS[category]?.[lang] || category;
 }
+function localizedItemDescription(item) {
+  if (lang !== "es" || !item) return item?.description || "";
+  if (item.descriptionEs) return item.descriptionEs;
+  const n = String(item.name || "").toLowerCase();
+  const c = item.category;
+  if (n === "potion") return "Recupera una pequeña cantidad de salud.";
+  if (n === "mega potion") return "Recupera una cantidad moderada de salud.";
+  if (n === "max potion") return "Restaura toda la salud y aumenta temporalmente la salud máxima.";
+  if (n === "ancient potion") return "Restaura toda la salud y la resistencia, y aumenta sus máximos.";
+  if (n.includes("antidote")) return "Cura el estado de envenenamiento.";
+  if (n.includes("demondrug") || n.includes("might seed") || n.includes("power pill")) return "Aumenta temporalmente el ataque.";
+  if (n.includes("armorskin") || n.includes("adamant seed") || n.includes("armor pill")) return "Aumenta temporalmente la defensa.";
+  if (n.includes("immunizer") || n.includes("nutrient")) return "Mejora temporalmente la recuperación o la salud máxima.";
+  if (n.includes("hot drink")) return "Protege temporalmente contra el frío.";
+  if (n.includes("cool drink")) return "Protege temporalmente contra el calor.";
+  if (n.includes("energy drink")) return "Recupera resistencia y evita quedarse dormido.";
+  if (n.includes("psychoserum")) return "Muestra temporalmente la posición del monstruo.";
+  if (n.includes("cleanser")) return "Elimina ciertos estados alterados y efectos negativos.";
+  if (n.includes("flash bomb")) return "Ciega temporalmente a los monstruos cercanos.";
+  if (n.includes("sonic bomb")) return "Emite un sonido intenso que afecta a ciertos monstruos.";
+  if (n.includes("smoke bomb")) return "Crea una nube que dificulta que los monstruos te detecten.";
+  if (n.includes("dung bomb")) return "Hace huir a un monstruo de la zona si funciona.";
+  if (n.includes("barrel bomb") || n.includes("bomb")) return "Explota al activarse e inflige daño en el área.";
+  if (n.includes("shock trap")) return "Inmoviliza temporalmente a un monstruo en el suelo.";
+  if (n.includes("pitfall trap")) return "Atrapa temporalmente a un monstruo en un agujero.";
+  if (c === "meat") return "Restaura resistencia cuando se consume; algunos tipos producen efectos adicionales.";
+  if (c === "fish") return "Alimento consumible con un efecto propio al usarlo.";
+  if (c === "herb") return "Material consumible o de combinación con propiedades de recuperación o estado.";
+  if (c === "seed") return "Semilla consumible que produce un efecto temporal.";
+  if (c === "bottle") return "Frasco usado para aplicar o transportar un efecto consumible.";
+  return item.description || "";
+}
 function renderMaterialsIndex(query) {
   if (!materialIndex) buildMaterialIndex();
   const q = normalizeSearch((query || "").trim());
@@ -3310,7 +3342,7 @@ function showMaterialDetail(matKey) {
   const range = ANOMALY_LEVEL_RANGE[key];
   const rangeStr = range ? (range.max ? `${range.min}-${range.max}` : `${range.min}+`) : null;
   const itemDescription = catalogMaterial?.description
-    ? `<section class="block material-description-block"><h3>${ui("materialsDescriptionHeading")}</h3><p class="material-description">${escapeAttr(catalogMaterial.descriptionEs || catalogMaterial.description)}</p></section>`
+    ? `<section class="block material-description-block"><h3>${ui("materialsDescriptionHeading")}</h3><p class="material-description">${escapeAttr(localizedItemDescription(catalogMaterial))}</p></section>`
     : "";
 
   let sourcesHtml = sources.length ? `
