@@ -100,6 +100,7 @@ const questDetailEl = document.getElementById("quest-detail");
 const questsSourceFilterEl = document.getElementById("quests-source-filter");
 const mhfuQuestGuideBodyEl = document.getElementById("mhfu-quest-guide-body");
 let quests = [];
+let keyQuestNames = new Set();
 let questsMode = "single";
 let questsSource = "";
 let questsCategory = "";
@@ -147,6 +148,7 @@ let vendorSources = null;
 let mapGatheringItems = new Map();
 let veggieElderItems = new Map();
 let weapons = [];
+let bowStats = {};
 let armorPieces = [];
 let armorSets = [];
 // "all" | "B" (Blademaster-exclusive) | "G" (Gunner-exclusive) | "BG" (Hibrido,
@@ -685,7 +687,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes, eventQuestsRes, combinationsRes, gatheringSourcesRes, farmGuideRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes, eventQuestsRes, combinationsRes, gatheringSourcesRes, farmGuideRes, bowStatsRes, keyQuestsRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
@@ -701,6 +703,8 @@ async function init() {
       fetch("data/combinations.json"),
       fetch("data/gathering_sources.json"),
       fetch("data/farm_guide.json"),
+      fetch("data/bow_stats.json"),
+      fetch("data/key_quests.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
@@ -715,6 +719,7 @@ async function init() {
     decorations = decorationsRes.ok ? await decorationsRes.json() : [];
     materialObtainNotes = obtainNotesRes.ok ? await obtainNotesRes.json() : {};
     weapons = weaponsRes.ok ? await weaponsRes.json() : [];
+    bowStats = bowStatsRes.ok ? (await bowStatsRes.json()).bows || {} : {};
     armorPieces = armorPiecesRes.ok ? await armorPiecesRes.json() : [];
     armorSets = armorSetsRes.ok ? await armorSetsRes.json() : [];
     skills = skillsRes.ok ? await skillsRes.json() : [];
@@ -724,6 +729,7 @@ async function init() {
     itemsByName = new Map(items.map(it => [it.name, it]));
     quests = questsRes.ok ? await questsRes.json() : [];
     if (eventQuestsRes.ok) quests = quests.concat(await eventQuestsRes.json());
+    if (keyQuestsRes.ok) keyQuestNames = new Set((await keyQuestsRes.json()).names || []);
     combinations = combinationsRes.ok ? await combinationsRes.json() : [];
     gatheringSources = gatheringSourcesRes.ok ? await gatheringSourcesRes.json() : gatheringSources;
     buildMapGatheringIndex();
@@ -2081,6 +2087,22 @@ function ammoTableHtml(w) {
     </section>
   `;
 }
+const BOW_SHOT_ES = { Rapid: "Rápido", Scatter: "Disperso", Pierce: "Perforante" };
+const BOW_COATING_ES = {
+  "Power Coating": "Vial de poder", "Poison Coating": "Vial de veneno",
+  "Paralysis Coating": "Vial paralizante", "Sleep Coating": "Vial de sueño",
+  "Paint Coating": "Vial de pintura", "Close Range Coating": "Vial de corto alcance"
+};
+function bowStatsHtml(w) {
+  if (w.type !== "Bow") return "";
+  const data = bowStats[w.name] || bowStats[Object.keys(bowStats).find(n => n.toLowerCase() === w.name.toLowerCase())];
+  if (!data) return "";
+  const shots = (data.charge || []).map(c => `${lang === "es" ? (BOW_SHOT_ES[c.name] || c.name) : c.name} ${c.level}`).join(" · ");
+  const coatings = (data.coatings || []).map(c => lang === "es" ? (BOW_COATING_ES[c] || c) : c).join(" · ");
+  return `<section class="block bow-stats"><h3>${lang === "es" ? "Disparos y viales" : "Shots and coatings"}</h3>
+    <div class="bow-stat-row"><strong>${lang === "es" ? "Tipos de disparo" : "Shot types"}</strong><span>${escapeAttr(shots || "—")}</span></div>
+    <div class="bow-stat-row"><strong>${lang === "es" ? "Viales compatibles" : "Usable coatings"}</strong><span>${escapeAttr(coatings || "—")}</span></div></section>`;
+}
 function trWeaponType(type) {
   return lang === "es" && I18N.weaponTypes ? (I18N.weaponTypes[type] || type) : type;
 }
@@ -2488,6 +2510,7 @@ function showWeaponDetail(id) {
       </ul>
     </section>
     ${ammoTableHtml(w)}
+    ${bowStatsHtml(w)}
     ${treeHtml}
     ${chainHtml}
     <section class="block">
@@ -4568,6 +4591,10 @@ function questTicketIconTag(qt, compact = false) {
   const cls = compact ? " quest-ticket-icon--compact" : "";
   return `<span class="quest-ticket-icon quest-ticket-icon--${type.color}${cls}" title="${escapeAttr(type.label)}" aria-label="${escapeAttr(type.label)}"><span class="quest-ticket-icon__paper"></span><span class="quest-ticket-icon__seam"></span><span class="quest-ticket-icon__fold"></span></span>`;
 }
+function questKeyBadge(qt) {
+  if (!keyQuestNames.has(qt?.name)) return "";
+  return `<span class="quest-key-badge" title="${escapeAttr(lang === "es" ? "Misión clave" : "Key quest")}" aria-label="${escapeAttr(lang === "es" ? "Misión clave" : "Key quest")}">★</span>`;
+}
 
 function questMonsterIconsTag(qt, interactive = false) {
   const names = [...new Set((qt?.mainMonsters || []).filter(Boolean))];
@@ -4719,11 +4746,11 @@ function renderQuestsIndex(query) {
     <div class="decorations-slot-group">
       <h3 class="decorations-slot-heading">${escapeAttr(rank)}</h3>
       <div class="decorations-grid">
-        ${byRank.get(rank).map(qt => `
+        ${byRank.get(rank).sort((a, b) => Number(keyQuestNames.has(b.name)) - Number(keyQuestNames.has(a.name))).map(qt => `
           <button type="button" class="decoration-card quest-card" data-id="${qt.id}">
             ${questTicketIconTag(qt, true)}
             <span class="quest-card-copy">
-              <span class="decoration-card-name">${escapeAttr(qt.name)}</span>
+              <span class="decoration-card-name">${questKeyBadge(qt)}${escapeAttr(qt.name)}</span>
               ${questGoalTag(qt, true)}
               <span class="decoration-card-skill">${questStars(qt) ? `<span class="quest-stars">${questStars(qt)}</span> ` : ""}${escapeAttr(questClient(qt) || "—")} · ${escapeAttr(questTypeInfo(qt).label)}</span>
             </span>

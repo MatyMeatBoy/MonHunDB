@@ -42,8 +42,30 @@ function parseList(html, locale) {
   const exact = new Map(source.map(row => [key(row.en), row]));
   const translations = {};
   for (const item of mhfuItems) {
-    const row = exact.get(key(item.name));
-    if (row && row.en === item.name && row.es && row.es !== row.en) translations[item.name] = row.es;
+    let row = exact.get(key(item.name));
+    let value = row?.es;
+    // MH4U sometimes only exposes the upgraded `+` row while MHFU keeps both
+    // names. Reuse that official term for the existing MHFU base name, but
+    // remove only the suffix; no new MHFU item is created.
+    if (!row && !item.name.endsWith("+")) {
+      row = exact.get(key(`${item.name}+`));
+      value = row?.es?.replace(/\s*\+\s*$/, "");
+    }
+    // Older MHFU extraction uses shorter names for several Akantor/Gaoren
+    // parts; match them to the later Kiranico terminology without adding any
+    // new item to the MHFU catalog.
+    if (!row) {
+      const aliases = {
+        "Akantor Fang": "Akantor Tallfang", "Akantor Claw": "Akantor Hardclaw",
+        "Hard Akantor Claw": "Akantor Shredtalon", "Akantor Shell": "Akantor Carapace",
+        "HvyGaorenShell": "Gaoren Carapace", "HvnlyGaorenShell": "Gaoren Carapace",
+        "Hard Gaoren Claw": "Gaoren Claw+"
+      };
+      const alias = aliases[item.name];
+      if (alias) row = exact.get(key(alias));
+      value = row?.es;
+    }
+    if (row && value && value !== item.name) translations[item.name] = value;
   }
   fs.writeFileSync(MHFU_OUT, JSON.stringify({ source: URLS, generatedAt: new Date().toISOString(), matchedItems: Object.keys(translations).length, translations }, null, 2) + "\n");
   console.log(`Saved ${source.length} MH4U source names and ${Object.keys(translations).length} exact MHFU matches.`);

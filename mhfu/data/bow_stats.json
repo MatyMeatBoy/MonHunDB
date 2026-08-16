@@ -1,0 +1,3110 @@
+{
+  "generatedAt": "2026-08-16T05:11:50.065Z",
+  "source": "https://monsterhunter.fandom.com/api.php?action=parse&page=MHFU%3A_Bow_Weapon_Tree&prop=wikitext&format=json",
+  "coatings": [
+    "Power Coating",
+    "Poison Coating",
+    "Paralysis Coating",
+    "Sleep Coating",
+    "Paint Coating",
+    "Close Range Coating"
+  ],
+  "bows": {
+    "Hunter's Bow I": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 1
+        },
+        {
+          "name": "Rapid",
+          "level": 1
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Hunter's Bow II": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 1
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Hunter's Bow III": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 1
+        },
+        {
+          "name": "Scatter",
+          "level": 1
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Hunter's Bow IV": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 1
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Icicle Bow I": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Icicle Bow II": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Wild Bow I": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 1
+        },
+        {
+          "name": "Pierce",
+          "level": 1
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Wild Bow II": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 1
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Wild Bow III": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 1
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Wild Bow IV": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 1
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Wild Power Bow I": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Wild Power Bow II": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Jungle Bow I": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Jungle Bow II": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Blango Fur Bow I": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 1
+        },
+        {
+          "name": "Scatter",
+          "level": 1
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Blango Fur Bow II": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 1
+        },
+        {
+          "name": "Pierce",
+          "level": 1
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Blango Fur Bow III": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 1
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Blango Fur Bow IV": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Abominable Bow I": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Abominable Bow II": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Kut-Ku Stave I": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 1
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Kut-Ku Stave II": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Kut-Ku Stave III": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Blue Kut-Ku Stave I": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Blue Kut-Ku Stave II": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Wolf Bow": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Paralysis Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Crow Bow": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Paralysis Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Wing Bow I": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Wing Bow II": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Wing Bow III": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Wing Bow IV": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Defect Swordfish Bow": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 1
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Whole Swordfish Bow": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Daimyo's Warbow I": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 1
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Daimyo's Warbow II": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Daimyo's Warbow III": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Daimyo's Warbow IV": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Blue Blade Bow I": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Blue Blade Bow II": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Blue Blade Bow III": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Showroom Model": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Carmine Bow": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Eraser": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Sonic Bow I": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Sonic Bow II": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Sonic Bow III": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Khezu Bow I": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Khezu Bow II": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Queen Blaster I": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Queen Blaster II": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Queen Blaster III": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Queen Blaster IV": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Queen Blaster V": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Heartshot Bow I": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Heartshot Bow II": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Heartshot Bow III": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Prominence Bow I": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 1
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Prominence Bow II": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Prominence Bow III": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Prominence Bow IV": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Prominence Bow V": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Courageous Hope": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Courageous Wish": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Courageous Dream": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Diablos Horn Bow I": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        }
+      ],
+      "coatings": [
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Diablos Horn Bow II": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Gale Horn Bow": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "DiablosKingHornBow": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Tiger Arrow I": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Tiger Arrow II": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Tigrex Whisker": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Tigrex Whisker+": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Hidden Bow": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Midnight Bow": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Dragonhead Harp I": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 1
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Dragonhead Harp II": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 1
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Dragonhead Harp III": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 5
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 1
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Dragon Bow Halo": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Dragon Bow Solar": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Dragon Bow Earth": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 1
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Dragon Bow Mountain": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Dragon Bow Chaos": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Beast Thunderbow": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "BeastKingThunderbow": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Icy Steel Bow": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Daora's Sagittarii": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Akantor Bow": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Akantor Chaos Bow": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paralysis Coating",
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Black Bow I": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Black Bow II": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Exterminator Bow I": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Exterminator Bow II": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Glorious Victory I": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 1
+        },
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        }
+      ],
+      "coatings": [
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Glorious Victory II": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Ukanlos Bow": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Hunter's Bow G": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Wild Bow G": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Wild Power Bow G": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Blango Fur Bow G": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Kut-Ku Stave G": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Sleep Coating",
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Sonic Bow G": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Poison Coating",
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Diablos Horn Bow G": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Dragon Bow Solar G": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        },
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Poison Coating",
+        "Paralysis Coating",
+        "Sleep Coating",
+        "Paint Coating",
+        "Close Range Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Black Bow G": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Power Coating",
+        "Close Range Coating",
+        "Paint Coating"
+      ],
+      "source": "MHFU: Bow Weapon Tree"
+    },
+    "Hunter's Power BowI": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 1
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paint Coating"
+      ],
+      "source": "MHFU DB + Fandom"
+    },
+    "Hunter's Power BowII": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paint Coating"
+      ],
+      "source": "MHFU DB + Fandom"
+    },
+    "Hunter's PowerBowIII": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 2
+        },
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paint Coating"
+      ],
+      "source": "MHFU DB + Fandom"
+    },
+    "Hunter's Power BowIV": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Paint Coating"
+      ],
+      "source": "MHFU DB + Fandom"
+    },
+    "BlueKut-KuStave III": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paint Coating"
+      ],
+      "source": "MHFU DB + Fandom"
+    },
+    "Grt Purple Emperor I": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Paint Coating"
+      ],
+      "source": "MHFU DB + Fandom"
+    },
+    "GrtPurpleEmperor II": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Paint Coating"
+      ],
+      "source": "MHFU DB + Fandom"
+    },
+    "Sonic Bow IV": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Paint Coating"
+      ],
+      "source": "MHFU DB + Fandom"
+    },
+    "AncientDragonwoodBow": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paint Coating"
+      ],
+      "source": "MHFU DB + Fandom"
+    },
+    "PerfectSwordfishBow": {
+      "charge": [
+        {
+          "name": "Rapid",
+          "level": 3
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        },
+        {
+          "name": "Rapid",
+          "level": 4
+        }
+      ],
+      "coatings": [
+        "Paint Coating"
+      ],
+      "source": "MHFU DB + Fandom"
+    },
+    "Diasorte Arrow": {
+      "charge": [
+        {
+          "name": "Pierce",
+          "level": 3
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 5
+        },
+        {
+          "name": "Scatter",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Paint Coating"
+      ],
+      "source": "MHFU DB + Fandom"
+    },
+    "Daimyo's Warbow G": {
+      "charge": [
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Scatter",
+          "level": 4
+        },
+        {
+          "name": "Pierce",
+          "level": 4
+        },
+        {
+          "name": "Rapid",
+          "level": 5
+        }
+      ],
+      "coatings": [
+        "Paint Coating"
+      ],
+      "source": "MHFU DB + Fandom"
+    }
+  }
+}
