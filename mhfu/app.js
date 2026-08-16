@@ -784,7 +784,8 @@ const ICON_OVERRIDES = {
   Bulldrome: "data/images/icons/bulldrome.svg",
   "Lao-Shan Lung": "data/images/icons/lao-shan-lung.png",
   "Ashen Lao-Shan Lung": "data/images/icons/ashen-lao-shan-lung.png",
-  "Ash Lao-Shan Lung": "data/images/icons/ashen-lao-shan-lung.png"
+  "Ash Lao-Shan Lung": "data/images/icons/ashen-lao-shan-lung.png",
+  "Terra Shogun Ceanataur": "data/images/icons/terra-s-ceanataur.png"
 };
 function iconPath(name) {
   return iconManifest[name] || ICON_OVERRIDES[name] || `data/images/icons/${slugify(name)}.png`;
