@@ -8,7 +8,7 @@ const CACHE = path.join(__dirname, "sources", "elotrolado_mhfu");
 const OUT = path.join(__dirname, "elotrolado_weapon_translations.json");
 const weapons = JSON.parse(fs.readFileSync(path.join(__dirname, "weapons.json"), "utf8"));
 const ICON_TYPES = { "MhfuGs.png": "Great Sword", "MhfuLs.png": "Long Sword", "Sns.png": "Sword & Shield", "Ds.png": "Dual Blades", "Hm.png": "Hammer", "Hh.png": "Hunting Horn", "Lc.png": "Lance", "Gl.png": "Gunlance", "Bw.png": "Bow" };
-const ELEMENTS = { "Fuego.png": "fire", "Agua.png": "water", "Rayo.png": "thunder", "Hielo.png": "ice", "Dragon.png": "dragon", "Veneno.png": "poison", "Paralisis.png": "paralysis", "Sueno.png": "sleep" };
+const ELEMENTS = { "Fuego.png": "fire", "Agua.png": "water", "Rayo.png": "thunder", "Trueno.png": "thunder", "Hielo.png": "ice", "Dragon.png": "dragon", "Veneno.png": "poison", "Paralisis.png": "paralysis", "Sueno.png": "sleep" };
 function decode(s) { return String(s || "").replace(/<[^>]+>/g, " ").replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n))).replace(/&aacute;/g, "á").replace(/&eacute;/g, "é").replace(/&iacute;/g, "í").replace(/&oacute;/g, "ó").replace(/&uacute;/g, "ú").replace(/&ntilde;/g, "ñ").replace(/\s+/g, " ").trim(); }
 function nameKey(s) { return String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, ""); }
 const records = [];

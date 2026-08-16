@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-16T06:10:07.123Z",
+  "generatedAt": "2026-08-16T06:10:52.749Z",
   "source": "https://www.elotrolado.net/wiki/Especial:Buscar?fulltext=Search&search=Monster+Hunter+Freedom+Unite",
-  "matchedWeapons": 1164,
+  "matchedWeapons": 1185,
   "translations": {
     "TarnishdGreatSwd G": "G.Esp.Deslustrada G",
     "Ravager Blade G": "Hoja devastadora G",
@@ -377,6 +377,7 @@
     "Blood Flute+": "Flauta de sangre +",
     "Brute Flute": "Flauta bruta",
     "Purse Bop": "Sopapo",
+    "Purse Bop+": "Sopapo+",
     "Khezu Thunder": "Trueno Khezu",
     "Skullcrusher": "Rompecráneos",
     "Skullcrusher+": "Rompecráneos+",
@@ -526,6 +527,11 @@
     "Showroom Model": "Modelo exposición",
     "Carmine Bow": "Arco carmín",
     "Eraser": "Eliminador",
+    "Sonic Bow I": "Arco sónico I",
+    "Sonic Bow II": "Arco sónico II",
+    "Sonic Bow III": "Arco sónico III",
+    "Sonic Bow IV": "Arco sónico IV",
+    "Khezu Bow I": "Arco Khezu I",
     "Khezu Bow II": "Arco Khezu II",
     "Heartshot Bow III": "Arco tir. cor. III",
     "Prominence Bow I": "Arco prominencia I",
@@ -544,6 +550,11 @@
     "Dragonhead Harp I": "Arpa cab. Dragón I",
     "Dragonhead Harp II": "Arpa cab. dragón II",
     "Dragonhead Harp III": "Arpa cab. dragón III",
+    "Dragon Bow Halo": "Arco dragón Halo",
+    "Dragon Bow Solar": "Arco dragón Sol",
+    "AncientDragonwoodBow": "Arco mad dragón anc",
+    "Beast Thunderbow": "Arco trn bestia",
+    "BeastKingThunderbow": "Arco trn rey bestia",
     "Icy Steel Bow": "Arco acero gélido",
     "Daora's Sagittarii": "Sagitario Daora",
     "Black Bow II": "Arco dragón Tierra",
@@ -561,7 +572,9 @@
     "Blango Fur Bow G": "Arco piel Blango G",
     "Kut-Ku Stave G": "Arco Kut-Ku azul G",
     "Daimyo's Warbow G": "Arco guerra DaimyoG",
+    "Sonic Bow G": "Arco sónico G",
     "Diablos Horn Bow G": "Arco cu. Diablos G",
+    "Dragon Bow Solar G": "Arco dragón Sol G",
     "Black Bow G": "Arco negro G",
     "Hunter's Dagger G": "Daga de cazador G",
     "Tarnished Sword G": "Espada deslust. G",
@@ -867,6 +880,8 @@
     "Igneous Sword": "Espada ígnea",
     "Liquid Fire Blade": "Hoja fuego líquido",
     "Divine Fire Blade": "Hoja fuego divino",
+    "Demon Halberd": "Alabarda demoníaca",
+    "Great Demon Halberd": "Gran ala. demon.",
     "GrtDemnHalberdRaksha": "GranAlabDemRaksha",
     "Bronze Coin": "Moneda de bronce",
     "Gaoren Coin": "Moneda Gaoren",
@@ -879,6 +894,7 @@
     "Edelweiss Ice Blade+": "Hoja hie. Edelweiss+",
     "Khezu Shock Sword": "Esp. choque Khezu",
     "Khezu Shock Blade": "Hoja choque Khezu",
+    "Khezu Shock Full": "Choque Khezu",
     "Khezu Shock Full+": "Choque Khezu+",
     "Cat's Soul": "Alma de gato",
     "Cat's Curse": "Maldición de gato",
@@ -896,7 +912,9 @@
     "Iron Katana \"Gospel\"": "Kat. hierro \"Gospel\"",
     "Eager Cleaver": "Cuch. carnic. imp.",
     "Devil Slicer": "Cortador demoníaco",
+    "True Devil Slicer": "Corta. demon. auten.",
     "Wailing Cleaver": "Cuch. carnic. llanto",
+    "Wailing Cleaver Shin": "Cuch carn llan. Shin",
     "Saber": "Sable",
     "Lion Dance Saber": "Sable baile león",
     "Lion King Saber": "Sable rey león",
@@ -960,6 +978,8 @@
     "Gaelic Flame": "Llama gaélica",
     "Last Gaelic Flame": "Llama gaélica final",
     "Kirin Thundersword": "Espada eléctr. Kirin",
+    "King Thundersword": "Espada eléctr. Rey",
+    "ImperialThundersword": "Espada eléctrica Imp",
     "Sword of the Diablos": "Espada de Diablos",
     "Diablo Destroyer": "Destructor Diablos",
     "King Atillart Sword": "Espada rey Atillart",
@@ -1147,6 +1167,7 @@
     "Black Cat Hammer G": "Martillo gato ng G",
     "Black Belt Hammer G": "Mart.cint.negro G",
     "Breath Core Hammer G": "Martillo aliento G",
+    "Original Polytan G": "Martillo Porytan G",
     "Great Demon Hammer G": "Gran Mar. dem. G",
     "TwoStarSilverPot G": "Paella plata 2 G",
     "Great Cone G": "Gran cono G",
@@ -1492,28 +1513,6 @@
     {
       "file": "MHFU_Arbol_Martillo_y_CuernoDeCaza.html",
       "type": "Hammer",
-      "nameEs": "Sopapo+",
-      "attack": 1144,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        5,
-        4,
-        14,
-        10,
-        4,
-        3
-      ],
-      "slots": null,
-      "candidates": [
-        "Purse Bop+",
-        "True Polytan G"
-      ]
-    },
-    {
-      "file": "MHFU_Arbol_Martillo_y_CuernoDeCaza.html",
-      "type": "Hammer",
       "nameEs": "Martillo oxidado",
       "attack": 468,
       "element": null,
@@ -1812,86 +1811,6 @@
     {
       "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
       "type": "Bow",
-      "nameEs": "Arco sónico I",
-      "attack": 144,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "slots": 1,
-      "candidates": [
-        "Kut-Ku Stave II",
-        "Daimyo's Warbow I",
-        "Sonic Bow I"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco sónico II",
-      "attack": 180,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "slots": 2,
-      "candidates": [
-        "Blango Fur Bow IV",
-        "Daimyo's Warbow III",
-        "Sonic Bow II"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco sónico III",
-      "attack": 192,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "slots": 2,
-      "candidates": [
-        "Abominable Bow I",
-        "Blue Kut-Ku Stave I",
-        "Wild Bow II",
-        "Daimyo's Warbow IV",
-        "Sonic Bow III"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco sónico IV",
-      "attack": 240,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "slots": 2,
-      "candidates": [
-        "Blue Kut-Ku Stave II",
-        "Sonic Bow IV"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco Khezu I",
-      "attack": 252,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "slots": 1,
-      "candidates": [
-        "Grt Purple Emperor I",
-        "Khezu Bow I"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
       "nameEs": "Arco de reina I",
       "attack": 204,
       "element": null,
@@ -2094,90 +2013,6 @@
       ]
     },
     {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco dragón Halo",
-      "attack": 192,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [],
-      "slots": 1,
-      "candidates": [
-        "Dragon Bow Halo",
-        "Black Bow II"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco dragón Sol",
-      "attack": 240,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [],
-      "slots": 1,
-      "candidates": [
-        "Dragon Bow Solar",
-        "Wing Bow II",
-        "Courageous Hope"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco mad dragón anc",
-      "attack": 300,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [],
-      "slots": null,
-      "candidates": [
-        "GrtPurpleEmperor II",
-        "Prominence Bow V",
-        "AncientDragonwoodBow",
-        "Daora's Sagittarii",
-        "Beast Thunderbow",
-        "Black Bow G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco trn bestia",
-      "attack": 300,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "slots": null,
-      "candidates": [
-        "GrtPurpleEmperor II",
-        "Prominence Bow V",
-        "Beast Thunderbow",
-        "Black Bow G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos.html",
-      "type": "Bow",
-      "nameEs": "Arco trn rey bestia",
-      "attack": 336,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "slots": null,
-      "candidates": [
-        "Queen Blaster IV",
-        "Glorious Victory II",
-        "Courageous Dream",
-        "Wild Bow G"
-      ]
-    },
-    {
       "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos_G.html",
       "type": "Bow",
       "nameEs": "Arco de cazador G",
@@ -2205,37 +2040,6 @@
       "candidates": [
         "Queen Blaster V",
         "Wild Power Bow G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos_G.html",
-      "type": "Bow",
-      "nameEs": "Arco sónico G",
-      "attack": 276,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [],
-      "slots": 2,
-      "candidates": [
-        "BlueKut-KuStave III",
-        "Daimyo's Warbow G",
-        "Sonic Bow G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Arcos_G.html",
-      "type": "Bow",
-      "nameEs": "Arco dragón Sol G",
-      "attack": 288,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [],
-      "slots": 1,
-      "candidates": [
-        "Khezu Bow II",
-        "Dragon Bow Solar G"
       ]
     },
     {
@@ -2553,111 +2357,6 @@
     },
     {
       "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Grandes_Espadas_y_Espadas_Largas.html",
-      "type": "Long Sword",
-      "nameEs": "Alabarda demoníaca",
-      "attack": 864,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [
-        9,
-        4,
-        11,
-        6
-      ],
-      "slots": null,
-      "candidates": [
-        "Centenarian Dagger",
-        "Demon Halberd"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Grandes_Espadas_y_Espadas_Largas.html",
-      "type": "Long Sword",
-      "nameEs": "Gran ala. demon.",
-      "attack": 912,
-      "element": null,
-      "affinity": null,
-      "defense": 0,
-      "sharpness": [
-        18,
-        2,
-        7,
-        7,
-        1
-      ],
-      "slots": null,
-      "candidates": [
-        "Frost Ripper",
-        "Great Demon Halberd"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Grandes_Espadas_y_Espadas_Largas.html",
-      "type": "Great Sword",
-      "nameEs": "Choque Khezu",
-      "attack": 1056,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        5,
-        3,
-        9,
-        14,
-        4
-      ],
-      "slots": 1,
-      "candidates": [
-        "Khezu Shock Full",
-        "Plesioth Wave Sword"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Grandes_Espadas_y_Espadas_Largas.html",
-      "type": "Long Sword",
-      "nameEs": "Corta. demon. auten.",
-      "attack": 816,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        16,
-        3,
-        2,
-        9,
-        5
-      ],
-      "slots": 1,
-      "candidates": [
-        "Smolder Dragonsword",
-        "True Devil Slicer"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Grandes_Espadas_y_Espadas_Largas.html",
-      "type": "Long Sword",
-      "nameEs": "Cuch carn llan. Shin",
-      "attack": 1200,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        13,
-        1,
-        6,
-        13,
-        4,
-        3
-      ],
-      "slots": 1,
-      "candidates": [
-        "Wailing Cleaver Shin",
-        "WyvernBlade\"Holly\"G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Grandes_Espadas_y_Espadas_Largas.html",
       "type": "Great Sword",
       "nameEs": "Hacha vengadora",
       "attack": 1104,
@@ -2674,49 +2373,6 @@
       "candidates": [
         "Enforcer's Axe",
         "Cat's Soul G"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Grandes_Espadas_y_Espadas_Largas.html",
-      "type": "Great Sword",
-      "nameEs": "Espada eléctr. Rey",
-      "attack": 816,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        5,
-        3,
-        9,
-        14,
-        4
-      ],
-      "slots": null,
-      "candidates": [
-        "King Thundersword",
-        "King Teostra Blade"
-      ]
-    },
-    {
-      "file": "Monster_Hunter_Freedom_Unite_C3_81rbol_Grandes_Espadas_y_Espadas_Largas.html",
-      "type": "Great Sword",
-      "nameEs": "Espada eléctrica Imp",
-      "attack": 1152,
-      "element": null,
-      "affinity": 0,
-      "defense": 0,
-      "sharpness": [
-        5,
-        3,
-        9,
-        14,
-        6,
-        3
-      ],
-      "slots": null,
-      "candidates": [
-        "ImperialThundersword",
-        "GoldnSerpentblade G"
       ]
     },
     {
