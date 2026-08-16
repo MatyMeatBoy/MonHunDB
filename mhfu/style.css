@@ -1881,6 +1881,9 @@ body {
 .mhfu-map-sources strong, .mhfu-veggie-sources strong { display: block; color: var(--accent); margin-bottom: .25rem; }
 .mhfu-map-sources > div, .mhfu-veggie-sources > div { margin-top: .2rem; color: var(--text-dim); }
 .mhfu-map-name { color: var(--text); font-weight: 600; }
+.mhfu-map-rank-group { margin: .5rem 0 .65rem; }
+.mhfu-map-rank-group h4 { margin: 0 0 .22rem; color: var(--accent); font-size: .8rem; }
+.mhfu-map-rank-group > div { margin-top: .2rem; color: var(--text-dim); }
 .mhfu-account-item {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);

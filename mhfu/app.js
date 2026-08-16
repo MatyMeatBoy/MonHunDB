@@ -3185,14 +3185,11 @@ function buildFarmGuideIndex() {
 function buildMapGatheringIndex() {
   mapGatheringItems = new Map();
   const maps = gatheringSources.mapSources || [];
-  const rankLabels = lang === "es"
-    ? { "low-rank": "Elder / Gremio bajo", "high-rank": "Nekoht / Gremio alto", "g-rank": "Rango G", training: "Escuela de Entrenamiento", treasure: "Caza del Tesoro", All: "Todos los rangos" }
-    : { "low-rank": "Elder / Guild Low", "high-rank": "Nekoht / Guild High", "g-rank": "G Rank", training: "Training School", treasure: "Treasure Hunting", All: "All Ranks" };
-  const typeLabels = lang === "es"
-    ? { bugnet: "Red de insectos", gather: "Recolección", collecting: "Recolección", mining: "Minería", fishing: "Pesca", cat: "Gato", summit: "Cima" }
-    : { bugnet: "Bugnet", gather: "Gather", collecting: "Collecting", mining: "Mining", fishing: "Fishing", cat: "Cat", summit: "Summit" };
   for (const map of maps) {
     for (const area of map.areas || []) {
+      // -1 is an extractor placeholder repeated by the source, not an MHFU
+      // map zone. It must never surface as a collectible area.
+      if (!Number.isInteger(area.areanumber) || area.areanumber < 0) continue;
       for (const position of area.positions || []) {
         for (const condition of ["low-rank", "high-rank", "g-rank", "training", "treasure", "All"]) {
           const names = position.condition === condition ? position.materials || [] : [];
@@ -3200,7 +3197,7 @@ function buildMapGatheringIndex() {
             const key = normalizeMaterialKey(name);
             if (!key) continue;
             const rows = mapGatheringItems.get(key) || [];
-            rows.push({ map: map.location, area: area.areanumber, type: typeLabels[position.type] || position.type, rank: rankLabels[condition] || condition });
+            rows.push({ map: map.location, area: area.areanumber, type: position.type, rank: condition });
             mapGatheringItems.set(key, rows);
           }
         }
@@ -3212,18 +3209,37 @@ function buildMapGatheringIndex() {
 function mapGatheringSourcesHtml(matKey) {
   const entries = mapGatheringItems.get(normalizeMaterialKey(matKey)) || [];
   if (!entries.length) return "";
+  const rankOrder = ["low-rank", "high-rank", "g-rank", "training", "treasure", "All"];
+  const rankLabels = lang === "es"
+    ? { "low-rank": "Rango bajo", "high-rank": "Rango alto", "g-rank": "Rango G", training: "Escuela de Entrenamiento", treasure: "Caza del Tesoro", All: "Todos los rangos" }
+    : { "low-rank": "Low Rank", "high-rank": "High Rank", "g-rank": "G Rank", training: "Training School", treasure: "Treasure Hunting", All: "All Ranks" };
   const grouped = new Map();
   for (const entry of entries) {
-    const key = `${entry.map}|${entry.area}|${entry.type}`;
-    const current = grouped.get(key) || { ...entry, ranks: [] };
-    if (!current.ranks.includes(entry.rank)) current.ranks.push(entry.rank);
+    const key = `${entry.rank}|${entry.map}|${entry.type}`;
+    const current = grouped.get(key) || { ...entry, areas: new Set() };
+    current.areas.add(entry.area);
     grouped.set(key, current);
   }
-  const unique = [...grouped.values()];
+  const unique = [...grouped.values()].sort((a, b) =>
+    rankOrder.indexOf(a.rank) - rankOrder.indexOf(b.rank) ||
+    String(a.map).localeCompare(String(b.map)) ||
+    String(a.type).localeCompare(String(b.type))
+  );
   const labels = { SnwyMntains: ["Snowy Mountains", "Montañas Nevadas"], "Forest & Hills": ["Forest and Hills", "Bosque y Colinas"], "Old Jungle": ["Old Jungle", "Jungla antigua"], Jungle: ["Jungle", "Jungla"], Desert: ["Desert", "Desierto"], "Old Desert": ["Old Desert", "Desierto antiguo"], Swamp: ["Swamp", "Pantano"], "Old Swamp": ["Old Swamp", "Pantano antiguo"], Volcano: ["Volcano", "Volcán"], "Old Volcano": ["Old Volcano", "Volcán antiguo"], "Great Forest": ["Great Forest", "Gran Bosque"], "Tower 1": ["Tower", "Torre"], "Tower 2": ["Tower 2", "Torre 2"], "Tower 3": ["Tower 3", "Torre 3"], Fortess: ["Fortress", "Fortaleza"], Town: ["Town", "Ciudad"], "Castle Schrade": ["Castle Schrade", "Castillo Schrade"], Battleground: ["Battleground", "Campo de batalla"], "Snowy Mountain Peak": ["Snowy Mountains Peak", "Cima de las Montañas Nevadas"], Arena: ["Arena", "Arena"], "Moat Arena": ["Moat Arena", "Arena del foso"] };
-  const typeLabels = lang === "es" ? { Bugnet: "Red de insectos", Gather: "Recolección", collecting: "Recolección", Collecting: "Recolección", Mining: "Minería", Fishing: "Pesca", Cat: "Gato", Summit: "Cima" } : {};
+  const typeLabels = lang === "es"
+    ? { bugnet: "Red de insectos", gather: "Recolección", collecting: "Recolección", mining: "Minería", fishing: "Pesca", cat: "Gato", summit: "Cima" }
+    : { bugnet: "Bugnet", gather: "Gather", collecting: "Collecting", mining: "Mining", fishing: "Fishing", cat: "Cat", summit: "Summit" };
+  const byRank = new Map(rankOrder.map(rank => [rank, []]));
+  unique.forEach(entry => byRank.get(entry.rank)?.push(entry));
   return '<div class="mhfu-map-sources"><strong>' + ui("materialsMapDetail") + '</strong>' +
-    unique.map(entry => '<div><span class="mhfu-map-name">' + escapeAttr((labels[entry.map] || [entry.map])[lang === "es" ? 1 : 0]) + '</span> · ' + escapeAttr(typeLabels[entry.type] || entry.type) + ' · ' + (lang === "es" ? 'Área ' : 'Area ') + entry.area + ' <small>' + escapeAttr(entry.ranks.join(' - ')) + '</small></div>').join("") +
+    rankOrder.map(rank => {
+      const rows = byRank.get(rank) || [];
+      if (!rows.length) return '';
+      return '<section class="mhfu-map-rank-group"><h4>' + escapeAttr(rankLabels[rank]) + '</h4>' + rows.map(entry => {
+        const areas = [...entry.areas].sort((a, b) => a - b).map(area => (lang === "es" ? 'Área ' : 'Area ') + area).join(' · ');
+        return '<div><span class="mhfu-map-name">' + escapeAttr((labels[entry.map] || [entry.map])[lang === "es" ? 1 : 0]) + '</span> · ' + escapeAttr(typeLabels[entry.type] || entry.type) + ' · ' + escapeAttr(areas) + '</div>';
+      }).join('') + '</section>';
+    }).join('') +
     '</div>';
 }
 
