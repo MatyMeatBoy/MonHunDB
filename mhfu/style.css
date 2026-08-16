@@ -1841,6 +1841,12 @@ body {
 .quest-item-link .item-mask-icon { width: 24px; height: 24px; flex: 0 0 auto; }
 
 .mhfu-gathering-block { margin-top: .85rem; }
+.mhfu-gathering-summary { margin: .25rem 0 .45rem; color: var(--text-dim); font-size: .84rem; }
+.mhfu-gathering-summary strong { color: var(--text); }
+.mhfu-gathering-details { border-top: 1px solid var(--border); padding-top: .35rem; }
+.mhfu-gathering-details > summary { cursor: pointer; color: var(--accent); font-size: .82rem; user-select: none; }
+.mhfu-gathering-details > summary:hover { color: var(--text); }
+.mhfu-gathering-detail-body { padding-top: .2rem; }
 .mhfu-rank-chips { display: flex; flex-wrap: wrap; gap: .35rem; margin: .35rem 0 .7rem; }
 .mhfu-rank-chip {
   padding: .2rem .5rem;

@@ -3191,9 +3191,18 @@ function gatheringSourcesHtml(matKey) {
   const body = accountHtml || farmNote || mapNote || mapDetail || nodeNote || farmGuideNote || vendorNote || veggieNote || rankNote || noteHtml
     ? accountHtml + farmNote + mapNote + mapDetail + nodeNote + farmGuideNote + vendorNote + veggieNote + rankNote + noteHtml
     : '<p class="no-data">' + ui("materialsGatheringNoData") + '</p>';
+  const summarySources = [];
+  if (accountHtml || farmNote || nodeNote || farmGuideNote) summarySources.push(ui("materialsPokkeFarm"));
+  if (mapNote || mapDetail) summarySources.push(ui("materialsMapSources"));
+  if (vendorNote) summarySources.push(lang === "es" ? "Vendedora ambulante" : "Peddling Granny");
+  if (veggieNote) summarySources.push(ui("materialsVeggieElder"));
+  if (noteHtml && !summarySources.length) summarySources.push(lang === "es" ? "Notas de obtención" : "Obtain notes");
+  const summary = summarySources.length
+    ? '<p class="mhfu-gathering-summary"><strong>' + ui("materialsGatheringSummary") + ':</strong> ' + escapeAttr([...new Set(summarySources)].join(" · ")) + '</p>'
+    : '';
+  const details = '<details class="mhfu-gathering-details"><summary>' + ui("materialsGatheringDetails") + '</summary><div class="mhfu-gathering-detail-body"><div class="mhfu-rank-chips">' + tiers + '</div>' + body + '</div></details>';
   return '<section class="block mhfu-gathering-block"><h3>' +
-    ui("materialsGatheringHeading") + '</h3><div class="mhfu-rank-chips">' +
-    tiers + '</div>' + body + '</section>';
+    ui("materialsGatheringHeading") + '</h3>' + summary + details + '</section>';
 }
 
 function showMaterialDetail(matKey) {
