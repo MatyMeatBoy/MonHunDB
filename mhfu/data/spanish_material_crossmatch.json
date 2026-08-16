@@ -1,0 +1,1923 @@
+{
+  "generatedAt": "2026-08-16T00:28:22.239Z",
+  "sources": {
+    "combinations": "https://www.elotrolado.net/wiki/MHFU_Combinaciones",
+    "wyvernDrops": "https://www.elotrolado.net/wiki/Monster_Hunter_Freedom_Unite_-_Tabla_de_Objetos_por_Wyvern"
+  },
+  "sourceTerms": 586,
+  "matchedItems": 55,
+  "matches": [
+    {
+      "english": "Union Ore",
+      "spanish": "Mineral de unión",
+      "occurrences": 19,
+      "updated": false
+    },
+    {
+      "english": "Mellanje Ore",
+      "spanish": "Min. Mellanje",
+      "occurrences": 10,
+      "updated": false
+    },
+    {
+      "english": "Coma Sac",
+      "spanish": "Bolsa de coma",
+      "occurrences": 10,
+      "updated": false
+    },
+    {
+      "english": "Wyvern Fang",
+      "spanish": "Colmillo Wyvern",
+      "occurrences": 6,
+      "updated": false
+    },
+    {
+      "english": "Wyvern Stone",
+      "spanish": "Piedra de Wyvern",
+      "occurrences": 28,
+      "updated": false
+    },
+    {
+      "english": "Kelbi Horn",
+      "spanish": "Cuerno de Kelbi",
+      "occurrences": 5,
+      "updated": false
+    },
+    {
+      "english": "Giaprey Scale",
+      "spanish": "Escama Giaprey",
+      "occurrences": 10,
+      "updated": false
+    },
+    {
+      "english": "Genprey Fang",
+      "spanish": "Colmillo Genprey",
+      "occurrences": 6,
+      "updated": false
+    },
+    {
+      "english": "Genprey Scale",
+      "spanish": "Escama Genprey",
+      "occurrences": 9,
+      "updated": false
+    },
+    {
+      "english": "Ioprey Fang",
+      "spanish": "Colmillo Ioprey",
+      "occurrences": 5,
+      "updated": false
+    },
+    {
+      "english": "Ioprey Scale",
+      "spanish": "Escama Ioprey",
+      "occurrences": 9,
+      "updated": false
+    },
+    {
+      "english": "Hypno Fang",
+      "spanish": "Colmillo Hypno",
+      "occurrences": 2,
+      "updated": false
+    },
+    {
+      "english": "Kut-Ku Scale",
+      "spanish": "Escama Kut-Ku",
+      "occurrences": 10,
+      "updated": false
+    },
+    {
+      "english": "Kut-Ku Shell",
+      "spanish": "Concha Kut-Ku",
+      "occurrences": 4,
+      "updated": false
+    },
+    {
+      "english": "Garuga Shell",
+      "spanish": "Concha de Garuga",
+      "occurrences": 6,
+      "updated": false
+    },
+    {
+      "english": "Garuga Wing",
+      "spanish": "Ala de Garuga",
+      "occurrences": 14,
+      "updated": false
+    },
+    {
+      "english": "Rajang Horn",
+      "spanish": "Cuerno Rajang",
+      "occurrences": 7,
+      "updated": false
+    },
+    {
+      "english": "Rajang Fang",
+      "spanish": "Colmillo Rajang",
+      "occurrences": 10,
+      "updated": false
+    },
+    {
+      "english": "Piscine Fang",
+      "spanish": "Colmillo Piscine",
+      "occurrences": 12,
+      "updated": false
+    },
+    {
+      "english": "Plesioth Scale",
+      "spanish": "Escama Plesioth",
+      "occurrences": 17,
+      "updated": false
+    },
+    {
+      "english": "Cephalos Scale",
+      "spanish": "Escama Cephalos",
+      "occurrences": 12,
+      "updated": false
+    },
+    {
+      "english": "Rathian Scale",
+      "spanish": "Escama Rathian",
+      "occurrences": 18,
+      "updated": false
+    },
+    {
+      "english": "Rathian Plate",
+      "spanish": "Placa de Rathian",
+      "occurrences": 24,
+      "updated": false
+    },
+    {
+      "english": "Rathian Shell",
+      "spanish": "Concha Rathian",
+      "occurrences": 8,
+      "updated": false
+    },
+    {
+      "english": "Rathalos Scale",
+      "spanish": "Escama Rathalos",
+      "occurrences": 17,
+      "updated": false
+    },
+    {
+      "english": "Rathalos Plate",
+      "spanish": "Placa Rathalos",
+      "occurrences": 26,
+      "updated": false
+    },
+    {
+      "english": "Rathalos Shell",
+      "spanish": "Concha Rathalos",
+      "occurrences": 8,
+      "updated": false
+    },
+    {
+      "english": "Rathalos Wing",
+      "spanish": "Ala de Rathalos",
+      "occurrences": 7,
+      "updated": false
+    },
+    {
+      "english": "Basarios Shell",
+      "spanish": "Concha Basarios",
+      "occurrences": 6,
+      "updated": false
+    },
+    {
+      "english": "Basarios Wing",
+      "spanish": "Ala de Basarios",
+      "occurrences": 8,
+      "updated": false
+    },
+    {
+      "english": "Tigrex Shell",
+      "spanish": "Concha de Tigrex",
+      "occurrences": 8,
+      "updated": false
+    },
+    {
+      "english": "Tigrex Fang",
+      "spanish": "Colmillo Tigrex",
+      "occurrences": 8,
+      "updated": false
+    },
+    {
+      "english": "Gravios Shell",
+      "spanish": "Concha Gravios",
+      "occurrences": 12,
+      "updated": false
+    },
+    {
+      "english": "Diablos Shell",
+      "spanish": "Concha Diablos",
+      "occurrences": 10,
+      "updated": false
+    },
+    {
+      "english": "Blos Fang",
+      "spanish": "Colmillo de Blos",
+      "occurrences": 22,
+      "updated": false
+    },
+    {
+      "english": "Vespoid Shell",
+      "spanish": "Concha Vespoid",
+      "occurrences": 2,
+      "updated": false
+    },
+    {
+      "english": "Vespoid Wing",
+      "spanish": "Ala de Vespoid",
+      "occurrences": 5,
+      "updated": false
+    },
+    {
+      "english": "Hornetaur Shell",
+      "spanish": "Concha Hornetaur",
+      "occurrences": 2,
+      "updated": false
+    },
+    {
+      "english": "Hornetaur Wing",
+      "spanish": "Ala de Hornetaur",
+      "occurrences": 4,
+      "updated": false
+    },
+    {
+      "english": "Monoblos Shell",
+      "spanish": "Concha Monoblos",
+      "occurrences": 2,
+      "updated": false
+    },
+    {
+      "english": "Kirin Horn",
+      "spanish": "Cuerno de Kirin",
+      "occurrences": 4,
+      "updated": false
+    },
+    {
+      "english": "Gaoren Shell",
+      "spanish": "Concha de Gaoren",
+      "occurrences": 4,
+      "updated": false
+    },
+    {
+      "english": "Daora Shell",
+      "spanish": "Concha de Daora",
+      "occurrences": 8,
+      "updated": false
+    },
+    {
+      "english": "Daora Horn",
+      "spanish": "Cuerno de Daora",
+      "occurrences": 4,
+      "updated": false
+    },
+    {
+      "english": "Chameleos Horn",
+      "spanish": "Cuerno Chameleos",
+      "occurrences": 4,
+      "updated": false
+    },
+    {
+      "english": "Lunastra Shell",
+      "spanish": "Concha Lunastra",
+      "occurrences": 6,
+      "updated": false
+    },
+    {
+      "english": "Lunastra Horn",
+      "spanish": "Cuerno Lunastra",
+      "occurrences": 4,
+      "updated": false
+    },
+    {
+      "english": "Teostra Shell",
+      "spanish": "Concha Teostra",
+      "occurrences": 8,
+      "updated": false
+    },
+    {
+      "english": "Teostra Horn",
+      "spanish": "Cuerno Teostra",
+      "occurrences": 8,
+      "updated": false
+    },
+    {
+      "english": "Fatalis Horn",
+      "spanish": "Cuerno Fatalis",
+      "occurrences": 8,
+      "updated": false
+    },
+    {
+      "english": "Fatalis Shell",
+      "spanish": "Concha Fatalis",
+      "occurrences": 2,
+      "updated": false
+    },
+    {
+      "english": "Akantor Scale",
+      "spanish": "Escama Akantor",
+      "occurrences": 8,
+      "updated": false
+    },
+    {
+      "english": "Akantor Shell",
+      "spanish": "Concha Akantor",
+      "occurrences": 10,
+      "updated": false
+    },
+    {
+      "english": "Ukanlos Stone",
+      "spanish": "Piedra Ukanlos",
+      "occurrences": 6,
+      "updated": false
+    },
+    {
+      "english": "Shakalaka Stone",
+      "spanish": "Piedra Shakalaka",
+      "occurrences": 1,
+      "updated": false
+    }
+  ],
+  "unmatchedSourceTerms": [
+    {
+      "name": "Bicho amargo",
+      "count": 5
+    },
+    {
+      "name": "Filete al punto",
+      "count": 3
+    },
+    {
+      "name": "Baya tropical",
+      "count": 1
+    },
+    {
+      "name": "Material 1",
+      "count": 1
+    },
+    {
+      "name": "Material 2",
+      "count": 1
+    },
+    {
+      "name": "Lágrimas Wyvern",
+      "count": 138
+    },
+    {
+      "name": "Sollozos Wyvern",
+      "count": 104
+    },
+    {
+      "name": "Boñiga territ.",
+      "count": 56
+    },
+    {
+      "name": "Sangre dr. anc.",
+      "count": 54
+    },
+    {
+      "name": "Rubí de Rathalos",
+      "count": 40
+    },
+    {
+      "name": "Rubí de Rathian",
+      "count": 38
+    },
+    {
+      "name": "Púa de Rathian",
+      "count": 34
+    },
+    {
+      "name": "Piel Rajang dor.",
+      "count": 31
+    },
+    {
+      "name": "Con. cr. Wyvern",
+      "count": 28
+    },
+    {
+      "name": "Perla cangrejo",
+      "count": 28
+    },
+    {
+      "name": "Perla negra",
+      "count": 28
+    },
+    {
+      "name": "Tesoro de dragón",
+      "count": 26
+    },
+    {
+      "name": "Bolsa de llama",
+      "count": 24
+    },
+    {
+      "name": "Bolsa lanzallam.",
+      "count": 24
+    },
+    {
+      "name": "EscRathalosCielo",
+      "count": 24
+    },
+    {
+      "name": "EscRathianCielo",
+      "count": 24
+    },
+    {
+      "name": "Fil. Khezu pál.",
+      "count": 24
+    },
+    {
+      "name": "Méd. Wyv. fuego",
+      "count": 23
+    },
+    {
+      "name": "Bolsa infernal",
+      "count": 22
+    },
+    {
+      "name": "Joya DragTierrGr",
+      "count": 22
+    },
+    {
+      "name": "Pinz. Ceanataur",
+      "count": 22
+    },
+    {
+      "name": "Al. Plesioth v.",
+      "count": 20
+    },
+    {
+      "name": "Aleta Plesioth",
+      "count": 20
+    },
+    {
+      "name": "H. dragón viejo",
+      "count": 20
+    },
+    {
+      "name": "Joya de Daora",
+      "count": 20
+    },
+    {
+      "name": "Perla negr. gig.",
+      "count": 20
+    },
+    {
+      "name": "Piedra Wyvern g.",
+      "count": 20
+    },
+    {
+      "name": "Piel Blangonga",
+      "count": 20
+    },
+    {
+      "name": "Sesos Carapac.",
+      "count": 20
+    },
+    {
+      "name": "Bolsa de toxinas",
+      "count": 19
+    },
+    {
+      "name": "Cabeza Gypceros",
+      "count": 18
+    },
+    {
+      "name": "Concha Lao-Shan",
+      "count": 18
+    },
+    {
+      "name": "Escama Lao-Shan",
+      "count": 18
+    },
+    {
+      "name": "Joya dr. fuego",
+      "count": 18
+    },
+    {
+      "name": "Rubí Lao-Shan",
+      "count": 18
+    },
+    {
+      "name": "Esc. Rthls. ce.",
+      "count": 17
+    },
+    {
+      "name": "Aleta Cephalos",
+      "count": 16
+    },
+    {
+      "name": "Concha Lang. pq.",
+      "count": 16
+    },
+    {
+      "name": "Concha Lao-S ce.",
+      "count": 16
+    },
+    {
+      "name": "ConPesLao-Shan",
+      "count": 16
+    },
+    {
+      "name": "Corazón Monoblos",
+      "count": 16
+    },
+    {
+      "name": "Esc. dr. fuego",
+      "count": 16
+    },
+    {
+      "name": "Esc. Plesioth v.",
+      "count": 16
+    },
+    {
+      "name": "Gran conc. Lang.",
+      "count": 16
+    },
+    {
+      "name": "Hueso pálido",
+      "count": 16
+    },
+    {
+      "name": "Pico espléndido",
+      "count": 16
+    },
+    {
+      "name": "Piel Congalala",
+      "count": 16
+    },
+    {
+      "name": "Tes. drag. ant.",
+      "count": 16
+    },
+    {
+      "name": "Cuerno majest.",
+      "count": 15
+    },
+    {
+      "name": "Hueso bruto",
+      "count": 15
+    },
+    {
+      "name": "Piel Narga ngr",
+      "count": 15
+    },
+    {
+      "name": "Bolsa ven mortal",
+      "count": 14
+    },
+    {
+      "name": "C. crán. Tigrex",
+      "count": 14
+    },
+    {
+      "name": "Capar. Lao-Shan",
+      "count": 14
+    },
+    {
+      "name": "Cincha dr. fuego",
+      "count": 14
+    },
+    {
+      "name": "Cincha Rathalos",
+      "count": 14
+    },
+    {
+      "name": "Con. Gravios n.",
+      "count": 14
+    },
+    {
+      "name": "CuerDuroFatalis",
+      "count": 14
+    },
+    {
+      "name": "Hypno Bezoar",
+      "count": 14
+    },
+    {
+      "name": "Oreja de Kut-Ku",
+      "count": 14
+    },
+    {
+      "name": "PeloHypnoNarnja",
+      "count": 14
+    },
+    {
+      "name": "Piel gomosa",
+      "count": 14
+    },
+    {
+      "name": "Bolsa de veneno",
+      "count": 13
+    },
+    {
+      "name": "Conch. Ceanat.",
+      "count": 13
+    },
+    {
+      "name": "Hueso masivo",
+      "count": 13
+    },
+    {
+      "name": "Bolsa de trueno",
+      "count": 12
+    },
+    {
+      "name": "C. crán. Gravios",
+      "count": 12
+    },
+    {
+      "name": "CabGypcerosDura",
+      "count": 12
+    },
+    {
+      "name": "Cap. Gravios n.",
+      "count": 12
+    },
+    {
+      "name": "Cap. Hermitaur",
+      "count": 12
+    },
+    {
+      "name": "Caparaz. Gravios",
+      "count": 12
+    },
+    {
+      "name": "Cerebro Narga",
+      "count": 12
+    },
+    {
+      "name": "CorteEspKhezu",
+      "count": 12
+    },
+    {
+      "name": "Esc. drg. Daora",
+      "count": 12
+    },
+    {
+      "name": "Escama Garuga+",
+      "count": 12
+    },
+    {
+      "name": "Espina Rathian",
+      "count": 12
+    },
+    {
+      "name": "Pico gigante",
+      "count": 12
+    },
+    {
+      "name": "Piel Bulldrome",
+      "count": 12
+    },
+    {
+      "name": "Cap. Ceanataur",
+      "count": 11
+    },
+    {
+      "name": "Colm. Blangonga",
+      "count": 11
+    },
+    {
+      "name": "P. Rajang negro",
+      "count": 11
+    },
+    {
+      "name": "Cabeza Bullfango",
+      "count": 10
+    },
+    {
+      "name": "Cap. Blos negro",
+      "count": 10
+    },
+    {
+      "name": "Caparaz. Diablos",
+      "count": 10
+    },
+    {
+      "name": "Con. Hermitaur",
+      "count": 10
+    },
+    {
+      "name": "ConPesUkanlos",
+      "count": 10
+    },
+    {
+      "name": "Esc Rathian gr.",
+      "count": 10
+    },
+    {
+      "name": "Escama de Garuga",
+      "count": 10
+    },
+    {
+      "name": "EscLao-ShanPes",
+      "count": 10
+    },
+    {
+      "name": "EscRathianRsaGr",
+      "count": 10
+    },
+    {
+      "name": "H. monstr. gr.",
+      "count": 10
+    },
+    {
+      "name": "Hueso gigante",
+      "count": 10
+    },
+    {
+      "name": "Joya Chameleos",
+      "count": 10
+    },
+    {
+      "name": "No hay partes rompibles",
+      "count": 10
+    },
+    {
+      "name": "Or. Kut-Ku larga",
+      "count": 10
+    },
+    {
+      "name": "OrjaKut-KuSuerte",
+      "count": 10
+    },
+    {
+      "name": "Piel BlangCobr+",
+      "count": 10
+    },
+    {
+      "name": "Pinzas de Gaoren",
+      "count": 10
+    },
+    {
+      "name": "AlaRathalosFrte",
+      "count": 9
+    },
+    {
+      "name": "ConPesCeanataur",
+      "count": 9
+    },
+    {
+      "name": "Es. Rathi. ro.+",
+      "count": 9
+    },
+    {
+      "name": "Es. Rathi. rosa",
+      "count": 9
+    },
+    {
+      "name": "Esc. Rathian do.",
+      "count": 9
+    },
+    {
+      "name": "Esc. Rthls. pl.+",
+      "count": 9
+    },
+    {
+      "name": "Esc. Velociprey",
+      "count": 9
+    },
+    {
+      "name": "Escama de Tigrex",
+      "count": 9
+    },
+    {
+      "name": "Escama Tigrex +",
+      "count": 9
+    },
+    {
+      "name": "EscRathalosDura",
+      "count": 9
+    },
+    {
+      "name": "EscRathalosPlGr",
+      "count": 9
+    },
+    {
+      "name": "EscRathCelGr",
+      "count": 9
+    },
+    {
+      "name": "EscRathianDorGru",
+      "count": 9
+    },
+    {
+      "name": "Ala Gypceros pur",
+      "count": 8
+    },
+    {
+      "name": "AletaPlesVrdEsp+",
+      "count": 8
+    },
+    {
+      "name": "AletPlesiothEsp+",
+      "count": 8
+    },
+    {
+      "name": "Caldo monstruo",
+      "count": 8
+    },
+    {
+      "name": "Cap. Rathian ro.",
+      "count": 8
+    },
+    {
+      "name": "Cap. Rthls. ce.",
+      "count": 8
+    },
+    {
+      "name": "Cap. Rthls. pl.",
+      "count": 8
+    },
+    {
+      "name": "Capar. Rathalos",
+      "count": 8
+    },
+    {
+      "name": "Capar. Teostra",
+      "count": 8
+    },
+    {
+      "name": "Caparaz. Rathian",
+      "count": 8
+    },
+    {
+      "name": "Caparazón Daora",
+      "count": 8
+    },
+    {
+      "name": "Cincha de Kut-Ku",
+      "count": 8
+    },
+    {
+      "name": "Colm. Bulldrome",
+      "count": 8
+    },
+    {
+      "name": "ColPesRajang",
+      "count": 8
+    },
+    {
+      "name": "Con. Rathian do.",
+      "count": 8
+    },
+    {
+      "name": "Con. Rathian ro.",
+      "count": 8
+    },
+    {
+      "name": "Concha Blos n.",
+      "count": 8
+    },
+    {
+      "name": "ConD.HermitaurCz",
+      "count": 8
+    },
+    {
+      "name": "ConGranLangosta",
+      "count": 8
+    },
+    {
+      "name": "ConGraviosNgCiel",
+      "count": 8
+    },
+    {
+      "name": "ConPesFatalis",
+      "count": 8
+    },
+    {
+      "name": "ConPesGravios",
+      "count": 8
+    },
+    {
+      "name": "ConPesGraviosNgr",
+      "count": 8
+    },
+    {
+      "name": "ConPesHermitaur",
+      "count": 8
+    },
+    {
+      "name": "ConPesRathalos",
+      "count": 8
+    },
+    {
+      "name": "ConPesRathian",
+      "count": 8
+    },
+    {
+      "name": "ConPesRthlsCel",
+      "count": 8
+    },
+    {
+      "name": "ConPesRthlsGris",
+      "count": 8
+    },
+    {
+      "name": "CorRathianDorPes",
+      "count": 8
+    },
+    {
+      "name": "Crza. Rthls. ce.",
+      "count": 8
+    },
+    {
+      "name": "Cuerno encarnado",
+      "count": 8
+    },
+    {
+      "name": "Esc Plesioth gr.",
+      "count": 8
+    },
+    {
+      "name": "Esc. Garuga grsa",
+      "count": 8
+    },
+    {
+      "name": "Escama Narga+",
+      "count": 8
+    },
+    {
+      "name": "EscGruFatalis",
+      "count": 8
+    },
+    {
+      "name": "EscLao-ShanCielo",
+      "count": 8
+    },
+    {
+      "name": "EscPlesiothVrdGr",
+      "count": 8
+    },
+    {
+      "name": "Fl. Wyv. fuego",
+      "count": 8
+    },
+    {
+      "name": "Heren. Shakalaka",
+      "count": 8
+    },
+    {
+      "name": "Hígado blanco",
+      "count": 8
+    },
+    {
+      "name": "Hueso sólido",
+      "count": 8
+    },
+    {
+      "name": "Joya campo bat.",
+      "count": 8
+    },
+    {
+      "name": "Joya lapislázuli",
+      "count": 8
+    },
+    {
+      "name": "Lágrima Basarios",
+      "count": 8
+    },
+    {
+      "name": "Or.larga Garuga",
+      "count": 8
+    },
+    {
+      "name": "Pata Ceanataur",
+      "count": 8
+    },
+    {
+      "name": "PataCeanataurPes",
+      "count": 8
+    },
+    {
+      "name": "Pico rejuvenec.",
+      "count": 8
+    },
+    {
+      "name": "Piedra ant. gr.",
+      "count": 8
+    },
+    {
+      "name": "Piedra ant. peq.",
+      "count": 8
+    },
+    {
+      "name": "Piedra antigua",
+      "count": 8
+    },
+    {
+      "name": "Piedra pla. ant",
+      "count": 8
+    },
+    {
+      "name": "Piel Chameleos",
+      "count": 8
+    },
+    {
+      "name": "Piel de Kirin",
+      "count": 8
+    },
+    {
+      "name": "Piel gomosa pura",
+      "count": 8
+    },
+    {
+      "name": "PielCongaEsm+",
+      "count": 8
+    },
+    {
+      "name": "PielRajangNegro",
+      "count": 8
+    },
+    {
+      "name": "Tr. cer. Gravios",
+      "count": 8
+    },
+    {
+      "name": "Vara piedra ant.",
+      "count": 8
+    },
+    {
+      "name": "Ala Rthls. ce.",
+      "count": 7
+    },
+    {
+      "name": "Colm. Congalala",
+      "count": 7
+    },
+    {
+      "name": "Crin de Garuga",
+      "count": 7
+    },
+    {
+      "name": "CueroPielPelagus",
+      "count": 7
+    },
+    {
+      "name": "EscGrKut-KuAzul",
+      "count": 7
+    },
+    {
+      "name": "EscTigrexGr",
+      "count": 7
+    },
+    {
+      "name": "GarD.HermitaurCz",
+      "count": 7
+    },
+    {
+      "name": "HuesoWyvernTieGr",
+      "count": 7
+    },
+    {
+      "name": "Pelo Blangonga",
+      "count": 7
+    },
+    {
+      "name": "Piel de Genprey+",
+      "count": 7
+    },
+    {
+      "name": "Piel de Ioprey+",
+      "count": 7
+    },
+    {
+      "name": "Polvo dr. fuego",
+      "count": 7
+    },
+    {
+      "name": "Ala cuch. Narga",
+      "count": 6
+    },
+    {
+      "name": "Ala Garuga frte",
+      "count": 6
+    },
+    {
+      "name": "Ala Rathalos pl.",
+      "count": 6
+    },
+    {
+      "name": "Ala seduct. dura",
+      "count": 6
+    },
+    {
+      "name": "AlaGypPurDura",
+      "count": 6
+    },
+    {
+      "name": "AletaLavasEsp+",
+      "count": 6
+    },
+    {
+      "name": "Bolsa de rayo",
+      "count": 6
+    },
+    {
+      "name": "Bolsa eléctrica",
+      "count": 6
+    },
+    {
+      "name": "Bolsa parálisis",
+      "count": 6
+    },
+    {
+      "name": "Cab. Velocidrome",
+      "count": 6
+    },
+    {
+      "name": "Cap. Monoblos",
+      "count": 6
+    },
+    {
+      "name": "Cap. Monoblos bl",
+      "count": 6
+    },
+    {
+      "name": "Capar. Basarios",
+      "count": 6
+    },
+    {
+      "name": "Caparazón Garuga",
+      "count": 6
+    },
+    {
+      "name": "Caparazón Tigrex",
+      "count": 6
+    },
+    {
+      "name": "Cincha seductora",
+      "count": 6
+    },
+    {
+      "name": "ColmBlangoCobr",
+      "count": 6
+    },
+    {
+      "name": "ColmlloPelagusLg",
+      "count": 6
+    },
+    {
+      "name": "Colum. Blos n.",
+      "count": 6
+    },
+    {
+      "name": "Columna Diablos",
+      "count": 6
+    },
+    {
+      "name": "ConPesBasarios",
+      "count": 6
+    },
+    {
+      "name": "ConPesBlosNgr",
+      "count": 6
+    },
+    {
+      "name": "ConPesDiablos",
+      "count": 6
+    },
+    {
+      "name": "ConPesLavasioth",
+      "count": 6
+    },
+    {
+      "name": "ConPesRathianRsa",
+      "count": 6
+    },
+    {
+      "name": "ConPesTigrex",
+      "count": 6
+    },
+    {
+      "name": "Cráneo Gendrome",
+      "count": 6
+    },
+    {
+      "name": "Cráneo Giadrome",
+      "count": 6
+    },
+    {
+      "name": "Cráneo Iodrome",
+      "count": 6
+    },
+    {
+      "name": "Cuerno Lao-Shan",
+      "count": 6
+    },
+    {
+      "name": "CueroColaNarga",
+      "count": 6
+    },
+    {
+      "name": "Es. Cphls. coral",
+      "count": 6
+    },
+    {
+      "name": "Esc. Kut-Ku az.+",
+      "count": 6
+    },
+    {
+      "name": "EscamaNargaCielo",
+      "count": 6
+    },
+    {
+      "name": "EscamaNargaGru",
+      "count": 6
+    },
+    {
+      "name": "EscDragDaoraGr",
+      "count": 6
+    },
+    {
+      "name": "EscGrsaLavasioth",
+      "count": 6
+    },
+    {
+      "name": "EscTigrexCielo",
+      "count": 6
+    },
+    {
+      "name": "EspPesBlosNeg",
+      "count": 6
+    },
+    {
+      "name": "EspPesDiablos",
+      "count": 6
+    },
+    {
+      "name": "Garr. Hermit.+",
+      "count": 6
+    },
+    {
+      "name": "GrraDuraWyvFuego",
+      "count": 6
+    },
+    {
+      "name": "Hierba de dragón",
+      "count": 6
+    },
+    {
+      "name": "Ojo malvado Fat.",
+      "count": 6
+    },
+    {
+      "name": "Pico afilado",
+      "count": 6
+    },
+    {
+      "name": "Piel blanda",
+      "count": 6
+    },
+    {
+      "name": "Piel crema Khezu",
+      "count": 6
+    },
+    {
+      "name": "Piel de Blango",
+      "count": 6
+    },
+    {
+      "name": "Piel de Conga",
+      "count": 6
+    },
+    {
+      "name": "Piel de Gendrome",
+      "count": 6
+    },
+    {
+      "name": "Piel de Giadrome",
+      "count": 6
+    },
+    {
+      "name": "Piel de Iodrome",
+      "count": 6
+    },
+    {
+      "name": "Piel de Remobra",
+      "count": 6
+    },
+    {
+      "name": "Piel gomosa Esp+",
+      "count": 6
+    },
+    {
+      "name": "Piel Khezu Curt.",
+      "count": 6
+    },
+    {
+      "name": "Piel seductora",
+      "count": 6
+    },
+    {
+      "name": "Piel Velocidrome",
+      "count": 6
+    },
+    {
+      "name": "Piel vibrante",
+      "count": 6
+    },
+    {
+      "name": "PielDuBlangonga+",
+      "count": 6
+    },
+    {
+      "name": "PielDuCongalala+",
+      "count": 6
+    },
+    {
+      "name": "SubEscUkanlos",
+      "count": 6
+    },
+    {
+      "name": "Tesoro Shakalaka",
+      "count": 6
+    },
+    {
+      "name": "Tórax Blos n.",
+      "count": 6
+    },
+    {
+      "name": "Tórax de Diablos",
+      "count": 6
+    },
+    {
+      "name": "AlaCuchNargaFrte",
+      "count": 5
+    },
+    {
+      "name": "AletaUkanlosFue",
+      "count": 5
+    },
+    {
+      "name": "Colm. Nargacuga+",
+      "count": 5
+    },
+    {
+      "name": "ColPesBlangonga",
+      "count": 5
+    },
+    {
+      "name": "ColPesLavasioth",
+      "count": 5
+    },
+    {
+      "name": "ColPesTigrex",
+      "count": 5
+    },
+    {
+      "name": "ConTerraCeanatr",
+      "count": 5
+    },
+    {
+      "name": "Cu. Ret. Blos n.",
+      "count": 5
+    },
+    {
+      "name": "Cuerno retorcido",
+      "count": 5
+    },
+    {
+      "name": "Esc. Kut-Ku azul",
+      "count": 5
+    },
+    {
+      "name": "EscGruesaKut-Ku",
+      "count": 5
+    },
+    {
+      "name": "Garr. Ceanat.+",
+      "count": 5
+    },
+    {
+      "name": "GarTerraCeanat.",
+      "count": 5
+    },
+    {
+      "name": "Oreja de Garuga",
+      "count": 5
+    },
+    {
+      "name": "Abdomen Vespoid",
+      "count": 4
+    },
+    {
+      "name": "Al. Cphls. coral",
+      "count": 4
+    },
+    {
+      "name": "Ala Kut-Ku dura",
+      "count": 4
+    },
+    {
+      "name": "AlaBasariosDura",
+      "count": 4
+    },
+    {
+      "name": "Astas de Anteka",
+      "count": 4
+    },
+    {
+      "name": "Bolsa secreta",
+      "count": 4
+    },
+    {
+      "name": "Cabeza Hornetaur",
+      "count": 4
+    },
+    {
+      "name": "Cap. Kut-Ku azul",
+      "count": 4
+    },
+    {
+      "name": "Cap. Lunastra",
+      "count": 4
+    },
+    {
+      "name": "Capar. de Gaoren",
+      "count": 4
+    },
+    {
+      "name": "Caparazón Kut-Ku",
+      "count": 4
+    },
+    {
+      "name": "Cincha Chameleos",
+      "count": 4
+    },
+    {
+      "name": "Cincha de Daora",
+      "count": 4
+    },
+    {
+      "name": "Colm. de Akantor",
+      "count": 4
+    },
+    {
+      "name": "ColPesNargacuga",
+      "count": 4
+    },
+    {
+      "name": "Con. Ceanat. pq.",
+      "count": 4
+    },
+    {
+      "name": "Con. Garuga dura",
+      "count": 4
+    },
+    {
+      "name": "Con. Hermit. pq.",
+      "count": 4
+    },
+    {
+      "name": "Con. Kut-Ku azul",
+      "count": 4
+    },
+    {
+      "name": "Con. pes Kut-Ku",
+      "count": 4
+    },
+    {
+      "name": "ConFatalisBlDur",
+      "count": 4
+    },
+    {
+      "name": "ConGaorenCielo",
+      "count": 4
+    },
+    {
+      "name": "ConPesDaora",
+      "count": 4
+    },
+    {
+      "name": "ConPesFatalisCar",
+      "count": 4
+    },
+    {
+      "name": "ConPesTeostra",
+      "count": 4
+    },
+    {
+      "name": "CorPesKut-KuAzul",
+      "count": 4
+    },
+    {
+      "name": "Cráneo Remobra",
+      "count": 4
+    },
+    {
+      "name": "Crin de Kirin",
+      "count": 4
+    },
+    {
+      "name": "Crin de Lunastra",
+      "count": 4
+    },
+    {
+      "name": "Crin de Teostra",
+      "count": 4
+    },
+    {
+      "name": "Crno Rajang duro",
+      "count": 4
+    },
+    {
+      "name": "Cu. Ca. Fatalis",
+      "count": 4
+    },
+    {
+      "name": "CuerColBlangCobr",
+      "count": 4
+    },
+    {
+      "name": "CuernFatalisBlDu",
+      "count": 4
+    },
+    {
+      "name": "Cuerno Lao-S ce.",
+      "count": 4
+    },
+    {
+      "name": "CueroColaBlango",
+      "count": 4
+    },
+    {
+      "name": "CueroColaBlosNeg",
+      "count": 4
+    },
+    {
+      "name": "CueroColaDiablos",
+      "count": 4
+    },
+    {
+      "name": "Esc. drag. podr.",
+      "count": 4
+    },
+    {
+      "name": "EscDragónFuegoGr",
+      "count": 4
+    },
+    {
+      "name": "EscFatalisCarGr",
+      "count": 4
+    },
+    {
+      "name": "EscGrFatalisBl",
+      "count": 4
+    },
+    {
+      "name": "EspRathianDor",
+      "count": 4
+    },
+    {
+      "name": "FluidYamaTsukami",
+      "count": 4
+    },
+    {
+      "name": "G. Velocidrome",
+      "count": 4
+    },
+    {
+      "name": "Gar Hypno gr cal",
+      "count": 4
+    },
+    {
+      "name": "GarDragónFuegoDu",
+      "count": 4
+    },
+    {
+      "name": "Huevo de oro",
+      "count": 4
+    },
+    {
+      "name": "Huevo de plata",
+      "count": 4
+    },
+    {
+      "name": "Lengua de Popo",
+      "count": 4
+    },
+    {
+      "name": "MaderaDragónAnc",
+      "count": 4
+    },
+    {
+      "name": "MandPalaUkanlos",
+      "count": 4
+    },
+    {
+      "name": "Musgo de dragón",
+      "count": 4
+    },
+    {
+      "name": "Ojo dem. Fatalis",
+      "count": 4
+    },
+    {
+      "name": "Pico Hypno",
+      "count": 4
+    },
+    {
+      "name": "Piedra ox. gr.",
+      "count": 4
+    },
+    {
+      "name": "Piedra ox. peq.",
+      "count": 4
+    },
+    {
+      "name": "Piedra ox. plana",
+      "count": 4
+    },
+    {
+      "name": "Piedra oxidada",
+      "count": 4
+    },
+    {
+      "name": "Piel alta calid.",
+      "count": 4
+    },
+    {
+      "name": "Piel Bullfango",
+      "count": 4
+    },
+    {
+      "name": "Piel de Anteka",
+      "count": 4
+    },
+    {
+      "name": "Piel de Kelbi",
+      "count": 4
+    },
+    {
+      "name": "Piel de Mosswine",
+      "count": 4
+    },
+    {
+      "name": "Piel rayada",
+      "count": 4
+    },
+    {
+      "name": "Piel YamaTsukami",
+      "count": 4
+    },
+    {
+      "name": "PlmaColaArcoIris",
+      "count": 4
+    },
+    {
+      "name": "Púa Cola Narga",
+      "count": 4
+    },
+    {
+      "name": "Púa de Akantor",
+      "count": 4
+    },
+    {
+      "name": "Púa de Chameleos",
+      "count": 4
+    },
+    {
+      "name": "Sello hue. zarpa",
+      "count": 4
+    },
+    {
+      "name": "Sin Recompensa",
+      "count": 4
+    },
+    {
+      "name": "TesoroShakalaka+",
+      "count": 4
+    },
+    {
+      "name": "Tórax Monobl bl",
+      "count": 4
+    },
+    {
+      "name": "Tórax Monoblos",
+      "count": 4
+    },
+    {
+      "name": "Vara piedra ox.",
+      "count": 4
+    },
+    {
+      "name": "Vid Felyne",
+      "count": 4
+    },
+    {
+      "name": "Zumo Bicho eléc.",
+      "count": 4
+    },
+    {
+      "name": "GrraDuCongalala+",
+      "count": 3
+    },
+    {
+      "name": "Muslo Giadrome",
+      "count": 3
+    },
+    {
+      "name": "Piel Garuga plt",
+      "count": 3
+    },
+    {
+      "name": "PúaColaNargaDur",
+      "count": 3
+    },
+    {
+      "name": "Ala Daora dura",
+      "count": 2
+    },
+    {
+      "name": "Ala dura Fatalis",
+      "count": 2
+    },
+    {
+      "name": "Ala int. Hornet.",
+      "count": 2
+    },
+    {
+      "name": "Ala int. Vespoid",
+      "count": 2
+    },
+    {
+      "name": "AlaChameleosDura",
+      "count": 2
+    },
+    {
+      "name": "AlaFatalisBlFuer",
+      "count": 2
+    },
+    {
+      "name": "AlaFatalisCarDu",
+      "count": 2
+    },
+    {
+      "name": "Atún gastrónomo",
+      "count": 2
+    },
+    {
+      "name": "Atún glotón",
+      "count": 2
+    },
+    {
+      "name": "Cap. Hornetaur",
+      "count": 2
+    },
+    {
+      "name": "Caparaz. Vespoid",
+      "count": 2
+    },
+    {
+      "name": "ColPesGaoren",
+      "count": 2
+    },
+    {
+      "name": "ColPesPiscine",
+      "count": 2
+    },
+    {
+      "name": "Columna Gaoren",
+      "count": 2
+    },
+    {
+      "name": "Concha Mon. bl.",
+      "count": 2
+    },
+    {
+      "name": "ConPesGaoren",
+      "count": 2
+    },
+    {
+      "name": "Cor. Reina Vesp.",
+      "count": 2
+    },
+    {
+      "name": "Crán. Gravios n.",
+      "count": 2
+    },
+    {
+      "name": "Cresta Vibrante",
+      "count": 2
+    },
+    {
+      "name": "Crin platino",
+      "count": 2
+    },
+    {
+      "name": "Cu. Fatalis bl.",
+      "count": 2
+    },
+    {
+      "name": "CueChameleosDuro",
+      "count": 2
+    },
+    {
+      "name": "CueFatalisCarDu",
+      "count": 2
+    },
+    {
+      "name": "CuerNegroCurvSol",
+      "count": 2
+    },
+    {
+      "name": "Cuerno Kirin ce.",
+      "count": 2
+    },
+    {
+      "name": "Cuerno Mon. bl.",
+      "count": 2
+    },
+    {
+      "name": "Cuerno sólido",
+      "count": 2
+    },
+    {
+      "name": "CuernoDaoraDuro",
+      "count": 2
+    },
+    {
+      "name": "CuernoPlatAltaCa",
+      "count": 2
+    },
+    {
+      "name": "CuernoRojoAltaCa",
+      "count": 2
+    },
+    {
+      "name": "Cuero cola Daora",
+      "count": 2
+    },
+    {
+      "name": "CueroColaChamele",
+      "count": 2
+    },
+    {
+      "name": "CueroColaKirinTr",
+      "count": 2
+    },
+    {
+      "name": "CueroColaTeostra",
+      "count": 2
+    },
+    {
+      "name": "CueTeostraDuro",
+      "count": 2
+    },
+    {
+      "name": "Desconocido",
+      "count": 2
+    },
+    {
+      "name": "Esencia monstruo",
+      "count": 2
+    },
+    {
+      "name": "Filt YamaTsukami",
+      "count": 2
+    },
+    {
+      "name": "Madera dragón +",
+      "count": 2
+    },
+    {
+      "name": "MusgoDragónAnc",
+      "count": 2
+    },
+    {
+      "name": "No se recibe nada",
+      "count": 2
+    },
+    {
+      "name": "Ojo de Fatalis",
+      "count": 2
+    },
+    {
+      "name": "Piel Kirin Espc+",
+      "count": 2
+    },
+    {
+      "name": "PielChameleEsp+",
+      "count": 2
+    },
+    {
+      "name": "Púa Lunastra",
+      "count": 2
+    },
+    {
+      "name": "Seta selecta",
+      "count": 2
+    },
+    {
+      "name": "Cuantos",
+      "count": 1
+    },
+    {
+      "name": "Pieza",
+      "count": 1
+    }
+  ]
+}

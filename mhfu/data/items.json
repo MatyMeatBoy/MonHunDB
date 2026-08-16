@@ -3218,7 +3218,7 @@
  {
   "id": "mhfui269",
   "name": "Coma Sac",
-  "nameEs": null,
+  "nameEs": "Bolsa de coma",
   "category": "bag",
   "iconId": null,
   "color": null,
@@ -3554,7 +3554,7 @@
  {
   "id": "mhfui297",
   "name": "Wyvern Stone",
-  "nameEs": null,
+  "nameEs": "Piedra de Wyvern",
   "category": "ball",
   "iconId": null,
   "color": null,
@@ -4034,7 +4034,7 @@
  {
   "id": "mhfui337",
   "name": "Giaprey Scale",
-  "nameEs": null,
+  "nameEs": "Escama Giaprey",
   "category": "scale",
   "iconId": null,
   "color": null,
@@ -4250,7 +4250,7 @@
  {
   "id": "mhfui355",
   "name": "Genprey Scale",
-  "nameEs": null,
+  "nameEs": "Escama Genprey",
   "category": "scale",
   "iconId": null,
   "color": null,
@@ -4346,7 +4346,7 @@
  {
   "id": "mhfui363",
   "name": "Ioprey Scale",
-  "nameEs": null,
+  "nameEs": "Escama Ioprey",
   "category": "scale",
   "iconId": null,
   "color": null,
@@ -4502,7 +4502,7 @@
  {
   "id": "mhfui376",
   "name": "Hypno Fang",
-  "nameEs": null,
+  "nameEs": "Colmillo Hypno",
   "category": "bone",
   "iconId": null,
   "color": null,
@@ -4538,7 +4538,7 @@
  {
   "id": "mhfui379",
   "name": "Kut-Ku Scale",
-  "nameEs": null,
+  "nameEs": "Escama Kut-Ku",
   "category": "scale",
   "iconId": null,
   "color": null,
@@ -4574,7 +4574,7 @@
  {
   "id": "mhfui382",
   "name": "Kut-Ku Shell",
-  "nameEs": null,
+  "nameEs": "Concha Kut-Ku",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -4898,7 +4898,7 @@
  {
   "id": "mhfui409",
   "name": "Garuga Shell",
-  "nameEs": null,
+  "nameEs": "Concha de Garuga",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -4982,7 +4982,7 @@
  {
   "id": "mhfui416",
   "name": "Garuga Wing",
-  "nameEs": null,
+  "nameEs": "Ala de Garuga",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -5426,7 +5426,7 @@
  {
   "id": "mhfui453",
   "name": "Rajang Horn",
-  "nameEs": null,
+  "nameEs": "Cuerno Rajang",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -5450,7 +5450,7 @@
  {
   "id": "mhfui455",
   "name": "Rajang Fang",
-  "nameEs": null,
+  "nameEs": "Colmillo Rajang",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -5558,7 +5558,7 @@
  {
   "id": "mhfui464",
   "name": "Piscine Fang",
-  "nameEs": null,
+  "nameEs": "Colmillo Piscine",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -5582,7 +5582,7 @@
  {
   "id": "mhfui466",
   "name": "Plesioth Scale",
-  "nameEs": null,
+  "nameEs": "Escama Plesioth",
   "category": "scale",
   "iconId": null,
   "color": null,
@@ -5726,7 +5726,7 @@
  {
   "id": "mhfui478",
   "name": "Cephalos Scale",
-  "nameEs": null,
+  "nameEs": "Escama Cephalos",
   "category": "scale",
   "iconId": null,
   "color": null,
@@ -6158,7 +6158,7 @@
  {
   "id": "mhfui514",
   "name": "Rathian Scale",
-  "nameEs": null,
+  "nameEs": "Escama Rathian",
   "category": "scale",
   "iconId": null,
   "color": null,
@@ -6194,7 +6194,7 @@
  {
   "id": "mhfui517",
   "name": "Rathian Plate",
-  "nameEs": null,
+  "nameEs": "Placa de Rathian",
   "category": "scale",
   "iconId": null,
   "color": null,
@@ -6230,7 +6230,7 @@
  {
   "id": "mhfui520",
   "name": "Rathian Shell",
-  "nameEs": null,
+  "nameEs": "Concha Rathian",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -6494,7 +6494,7 @@
  {
   "id": "mhfui542",
   "name": "Rathalos Scale",
-  "nameEs": null,
+  "nameEs": "Escama Rathalos",
   "category": "scale",
   "iconId": null,
   "color": null,
@@ -6530,7 +6530,7 @@
  {
   "id": "mhfui545",
   "name": "Rathalos Plate",
-  "nameEs": null,
+  "nameEs": "Placa Rathalos",
   "category": "scale",
   "iconId": null,
   "color": null,
@@ -6566,7 +6566,7 @@
  {
   "id": "mhfui548",
   "name": "Rathalos Shell",
-  "nameEs": null,
+  "nameEs": "Concha Rathalos",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -6638,7 +6638,7 @@
  {
   "id": "mhfui554",
   "name": "Rathalos Wing",
-  "nameEs": null,
+  "nameEs": "Ala de Rathalos",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -6962,7 +6962,7 @@
  {
   "id": "mhfui581",
   "name": "Basarios Shell",
-  "nameEs": null,
+  "nameEs": "Concha Basarios",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -6998,7 +6998,7 @@
  {
   "id": "mhfui584",
   "name": "Basarios Wing",
-  "nameEs": null,
+  "nameEs": "Ala de Basarios",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -7082,7 +7082,7 @@
  {
   "id": "mhfui591",
   "name": "Tigrex Shell",
-  "nameEs": null,
+  "nameEs": "Concha de Tigrex",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -7178,7 +7178,7 @@
  {
   "id": "mhfui599",
   "name": "Tigrex Fang",
-  "nameEs": null,
+  "nameEs": "Colmillo Tigrex",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -7394,7 +7394,7 @@
  {
   "id": "mhfui617",
   "name": "Gravios Shell",
-  "nameEs": null,
+  "nameEs": "Concha Gravios",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -7562,7 +7562,7 @@
  {
   "id": "mhfui631",
   "name": "Diablos Shell",
-  "nameEs": null,
+  "nameEs": "Concha Diablos",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -7658,7 +7658,7 @@
  {
   "id": "mhfui639",
   "name": "Blos Fang",
-  "nameEs": null,
+  "nameEs": "Colmillo de Blos",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -7814,7 +7814,7 @@
  {
   "id": "mhfui652",
   "name": "Vespoid Shell",
-  "nameEs": null,
+  "nameEs": "Concha Vespoid",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -7874,7 +7874,7 @@
  {
   "id": "mhfui657",
   "name": "Hornetaur Shell",
-  "nameEs": null,
+  "nameEs": "Concha Hornetaur",
   "category": "insect",
   "iconId": null,
   "color": null,
@@ -7910,7 +7910,7 @@
  {
   "id": "mhfui660",
   "name": "Hornetaur Wing",
-  "nameEs": null,
+  "nameEs": "Ala de Hornetaur",
   "category": "honey",
   "iconId": null,
   "color": null,
@@ -7970,7 +7970,7 @@
  {
   "id": "mhfui665",
   "name": "Monoblos Shell",
-  "nameEs": null,
+  "nameEs": "Concha Monoblos",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -8102,7 +8102,7 @@
  {
   "id": "mhfui676",
   "name": "Kirin Horn",
-  "nameEs": null,
+  "nameEs": "Cuerno de Kirin",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -8366,7 +8366,7 @@
  {
   "id": "mhfui698",
   "name": "Gaoren Shell",
-  "nameEs": null,
+  "nameEs": "Concha de Gaoren",
   "category": "carapaceon-shell",
   "iconId": null,
   "color": null,
@@ -8486,7 +8486,7 @@
  {
   "id": "mhfui708",
   "name": "Daora Shell",
-  "nameEs": null,
+  "nameEs": "Concha de Daora",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -8582,7 +8582,7 @@
  {
   "id": "mhfui716",
   "name": "Daora Horn",
-  "nameEs": null,
+  "nameEs": "Cuerno de Daora",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -8702,7 +8702,7 @@
  {
   "id": "mhfui726",
   "name": "Chameleos Horn",
-  "nameEs": null,
+  "nameEs": "Cuerno Chameleos",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -8918,7 +8918,7 @@
  {
   "id": "mhfui744",
   "name": "Lunastra Shell",
-  "nameEs": null,
+  "nameEs": "Concha Lunastra",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -8966,7 +8966,7 @@
  {
   "id": "mhfui748",
   "name": "Lunastra Horn",
-  "nameEs": null,
+  "nameEs": "Cuerno Lunastra",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -8990,7 +8990,7 @@
  {
   "id": "mhfui750",
   "name": "Teostra Shell",
-  "nameEs": null,
+  "nameEs": "Concha Teostra",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -9062,7 +9062,7 @@
  {
   "id": "mhfui756",
   "name": "Teostra Horn",
-  "nameEs": null,
+  "nameEs": "Cuerno Teostra",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -9230,7 +9230,7 @@
  {
   "id": "mhfui770",
   "name": "Fatalis Horn",
-  "nameEs": null,
+  "nameEs": "Cuerno Fatalis",
   "category": "fang",
   "iconId": null,
   "color": null,
@@ -9278,7 +9278,7 @@
  {
   "id": "mhfui774",
   "name": "Fatalis Shell",
-  "nameEs": null,
+  "nameEs": "Concha Fatalis",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -9554,7 +9554,7 @@
  {
   "id": "mhfui797",
   "name": "Akantor Scale",
-  "nameEs": null,
+  "nameEs": "Escama Akantor",
   "category": "scale",
   "iconId": null,
   "color": null,
@@ -9566,7 +9566,7 @@
  {
   "id": "mhfui798",
   "name": "Akantor Shell",
-  "nameEs": null,
+  "nameEs": "Concha Akantor",
   "category": "monster",
   "iconId": null,
   "color": null,
@@ -9698,7 +9698,7 @@
  {
   "id": "mhfui809",
   "name": "Ukanlos Stone",
-  "nameEs": null,
+  "nameEs": "Piedra Ukanlos",
   "category": "hvnly-scale",
   "iconId": null,
   "color": null,
@@ -12841,8 +12841,8 @@
  },
  {
   "id": "mhfui1071",
-    "name": "Gathering Jewel",
-    "nameEs": "Joya de recogida",
+  "name": "Gathering Jewel",
+  "nameEs": "Joya de recogida",
   "category": "jewel",
   "iconId": null,
   "color": null,
