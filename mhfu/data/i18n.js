@@ -1462,6 +1462,9 @@ const MHFU_MATERIAL_NAME_ES = {
   "Garuga Jewel": "Joya de Garuga",
   "Mezeporter Topaz": "Topacio Mezeporter",
   "Pharr Yellowtail": "Farr cola amarilla",
+  // "Escarabajo brillante" is a distinct MHFU insect. Do not let the
+  // same-named MH4U lookup overwrite this native MHFU material.
+  "Killer Beetle": "Escar. asesino",
 };
 
 // MHFU stores many high-rank materials with a trailing "+" but the old item

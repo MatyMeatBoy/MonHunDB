@@ -3185,19 +3185,24 @@ function buildFarmGuideIndex() {
 function buildMapGatheringIndex() {
   mapGatheringItems = new Map();
   const maps = gatheringSources.mapSources || [];
+  const fishNames = new Set(items.filter(item => item.category === "fish").map(item => item.name));
   for (const map of maps) {
     for (const area of map.areas || []) {
-      // -1 is an extractor placeholder repeated by the source, not an MHFU
-      // map zone. It must never surface as a collectible area.
-      if (!Number.isInteger(area.areanumber) || area.areanumber < 0) continue;
+      if (!Number.isInteger(area.areanumber)) continue;
       for (const position of area.positions || []) {
         for (const condition of ["low-rank", "high-rank", "g-rank", "training", "treasure", "All"]) {
           const names = position.condition === condition ? position.materials || [] : [];
+          // A few fishing spots were parsed as generic collecting nodes. If
+          // the node only yields fish, its in-game interaction is fishing.
+          const fishLike = name => fishNames.has(name) || /(?:fish|tuna|arrowana|drome|ambrjk|aji|yellowtail|bonito)/i.test(name);
+          const type = position.type === "collecting" && names.length && names.every(fishLike)
+            ? "fishing"
+            : position.type;
           for (const name of names) {
             const key = normalizeMaterialKey(name);
             if (!key) continue;
             const rows = mapGatheringItems.get(key) || [];
-            rows.push({ map: map.location, area: area.areanumber, type: position.type, rank: condition });
+            rows.push({ map: map.location, area: area.areanumber, type, rank: condition });
             mapGatheringItems.set(key, rows);
           }
         }
@@ -3236,7 +3241,11 @@ function mapGatheringSourcesHtml(matKey) {
       const rows = byRank.get(rank) || [];
       if (!rows.length) return '';
       return '<section class="mhfu-map-rank-group"><h4>' + escapeAttr(rankLabels[rank]) + '</h4>' + rows.map(entry => {
-        const areas = [...entry.areas].sort((a, b) => a - b).map(area => (lang === "es" ? 'Área ' : 'Area ') + area).join(' · ');
+        const areas = [...entry.areas].sort((a, b) => a - b).map(area => {
+          if (area === 0) return lang === "es" ? "Campamento" : "Base Camp";
+          if (area < 0) return lang === "es" ? "Zona secreta" : "Secret Area";
+          return (lang === "es" ? 'Área ' : 'Area ') + area;
+        }).join(' · ');
         return '<div><span class="mhfu-map-name">' + escapeAttr((labels[entry.map] || [entry.map])[lang === "es" ? 1 : 0]) + '</span> · ' + escapeAttr(typeLabels[entry.type] || entry.type) + ' · ' + escapeAttr(areas) + '</div>';
       }).join('') + '</section>';
     }).join('') +
