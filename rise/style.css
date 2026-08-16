@@ -1694,3 +1694,4 @@ body {
   cursor: help;
 }
 .page-view{max-width:1200px;margin:0 auto;padding:1.5rem}.toolbar{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1rem}.toolbar select,.toolbar input{min-height:2.4rem;padding:.4rem .7rem;border:1px solid var(--border,#777);border-radius:.35rem;background:var(--surface,#fff);color:inherit}.cards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin-top:1rem}.card{padding:1rem;border:1px solid var(--border,#777);border-radius:.5rem;background:var(--surface,#fff)}.card h2{font-size:1.05rem;margin:.35rem 0 .6rem}.card-kicker{font-size:.78rem;color:var(--accent,#b8860b);font-weight:700}.muted{opacity:.75}.card p{font-size:.88rem;line-height:1.35}
+.bow-stats-layout{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.9rem}.bow-stats-layout h4{margin:.25rem 0 .5rem}@media(max-width:700px){.bow-stats-layout{grid-template-columns:1fr}}

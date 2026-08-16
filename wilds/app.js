@@ -1659,6 +1659,15 @@ function ammoTableHtml(w) {
     </section>
   `;
 }
+const BOW_SHOT_REFERENCE = ["Rapid", "Spread", "Pierce"];
+const BOW_COATING_REFERENCE = ["Close-range", "Power", "Poison", "Paralysis", "Sleep", "Blast", "Exhaust"];
+function projectileReferenceHtml(w) {
+  if (w.type !== "Bow") return "";
+  const title = lang === "es" ? "Tipos de disparo y viales del arco" : "Bow shot types and coatings";
+  const shots = BOW_SHOT_REFERENCE.map((x, i) => `<div class="ammo-chip"><span class="ammo-chip-name">${escapeAttr(lang === "es" ? ["Rápido", "Disperso", "Perforante"][i] : x)}</span></div>`).join("");
+  const coatings = BOW_COATING_REFERENCE.map(x => `<div class="ammo-chip bow-coating-chip"><span class="ammo-chip-name">${escapeAttr(x)}</span></div>`).join("");
+  return `<section class="block bow-stats"><h3>${title}</h3><div class="bow-stats-layout"><div><h4>${lang === "es" ? "Tipos de disparo" : "Shot types"}</h4><div class="ammo-grid">${shots}</div></div><div><h4>${lang === "es" ? "Viales compatibles" : "Usable coatings"}</h4><div class="ammo-grid">${coatings}</div></div></div><p class="muted">${lang === "es" ? "Referencia general; la capacidad y compatibilidad específica pertenecen a cada arma." : "General reference; capacity and exact compatibility belong to each weapon."}</p></section>`;
+}
 function weaponIconTag(w) {
   return w.icon
     ? `<img class="material-icon" src="${w.icon}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`
@@ -1983,6 +1992,7 @@ function showWeaponDetail(id) {
       </ul>
     </section>
     ${ammoTableHtml(w)}
+    ${projectileReferenceHtml(w)}
     ${chainHtml}
     <section class="block">
       <h3>${ui("weaponsMaterialsHeading")}</h3>
