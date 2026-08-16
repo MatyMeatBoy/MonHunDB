@@ -27,6 +27,9 @@ const PAGES = [
   "Monster_Hunter_Freedom_Unite_-_Combinaciones",
   "Monster_Hunter_Freedom_Unite_-_Granja",
 ];
+const EXTRA_SOURCES = [
+  "https://www.elotrolado.net/hilo_hilo-oficial-monster-hunter-freedom-2-7_937584",
+];
 
 function decode(value) {
   return String(value || "")
@@ -56,6 +59,15 @@ async function page(slug) {
   fs.writeFileSync(file, html);
   return html;
 }
+async function externalPage(url) {
+  const file = path.join(CACHE, `external_${Buffer.from(url).toString("base64url")}.html`);
+  if (fs.existsSync(file)) return fs.readFileSync(file, "utf8");
+  const res = await fetch(url, { headers: { "user-agent": "MonHunDB-Scraperino/1.0" } });
+  if (!res.ok) throw new Error(`${res.status} ${url}`);
+  const html = await res.text();
+  fs.writeFileSync(file, html);
+  return html;
+}
 (async () => {
   const terms = new Map(), weapons = new Map();
   for (const slug of PAGES) {
@@ -69,7 +81,16 @@ async function page(slug) {
     // Weapon labels live in colored spans next to their weapon-type icon.
     for (const span of html.matchAll(/<span[^>]*color:#[0-9a-f]{6}[^>]*>([\s\S]*?)<\/span>/gi)) add(weapons, span[1], slug, "weapon-tree");
   }
+  for (const url of EXTRA_SOURCES) {
+    const html = await externalPage(url);
+    for (const row of html.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)) {
+      for (const cell of [...row[1].matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/gi)]) add(terms, cell[1], url, "forum-table");
+    }
+    // The guide is written as preformatted exchange rows rather than HTML
+    // tables, so retain its short text lines as potential source terms.
+    for (const line of plain(html).split(/\s{2,}|\|/)) add(terms, line, url, "forum-guide");
+  }
   const sort = map => [...map.values()].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "es"));
-  fs.writeFileSync(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), sources: PAGES.map(s => `https://www.elotrolado.net/wiki/${s}`), terms: sort(terms), weaponTerms: sort(weapons) }, null, 2) + "\n");
-  console.log(`Collected ${terms.size} table terms and ${weapons.size} weapon-tree labels from ${PAGES.length} ElOtroLado pages.`);
+  fs.writeFileSync(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), sources: [...PAGES.map(s => `https://www.elotrolado.net/wiki/${s}`), ...EXTRA_SOURCES], terms: sort(terms), weaponTerms: sort(weapons) }, null, 2) + "\n");
+  console.log(`Collected ${terms.size} table terms and ${weapons.size} weapon-tree labels from ${PAGES.length + EXTRA_SOURCES.length} ElOtroLado sources.`);
 })();
