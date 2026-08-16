@@ -821,6 +821,23 @@ I18N.materials = {};
 // example Med Monster Bone was read as "Hiedra"). These overrides cover the
 // bone/skull crafting family, which is especially common in the early game.
 const MHFU_MATERIAL_NAME_ES = {
+  // Cross-matched from the published Spanish weapon recipes on ElOtroLado.
+  // These are existing MHFU item keys only; no catalogue entries are added.
+  "Thunderbug Jelly": "Gel. Bicho eléc.",
+  "StoutWarpedHorn": "Cuerno sólido",
+  "Top-GrdRedHorn": "CuernoRojoAltaCa",
+  "Top-GrdPlatHorn": "CuernoPlatAltaCa",
+  "Amezari Carapace": "Gr.con.Lang.roja",
+  "VespoidQn'sCrown": "Cor. Reina Vesp.",
+  "Ancient StoneRod": "Vara piedra ant.",
+  "AncientFlatstone": "Piedra pla. ant",
+  "Flat Ruststone": "Piedra ox. plana",
+  "Large Ruststone": "Piedra ox. gr.",
+  "Sm Ancient Stone": "Piedra ant. peq.",
+  "Lg Ancient Stone": "Piedra ant. gr.",
+  "Mystery Bone": "Hueso misterioso",
+  "High Qualty Pelt": "Piel de alta calidad",
+  "Pur Rubbery Hide": "Piel gomosa pura",
   "Sm Monster Bone": "Hueso monstruo pequeño",
   "Med Monster Bone": "Hueso monstruo mediano",
   "Lg Monster Bone": "Hueso monstruo grande",
