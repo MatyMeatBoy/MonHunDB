@@ -3027,10 +3027,8 @@ function renderMaterialsIndex(query) {
   }
   for (const list of extraByCategory.values()) list.sort((a, b) => trMaterial(a).localeCompare(trMaterial(b)));
 
-  const accountNames = (gatheringSources.pokkePoints?.accountItems || []).map(entry => entry.name)
-    .filter(name => !items.some(item => normalizeMaterialKey(item.name) === normalizeMaterialKey(name)))
-    .filter(name => !q || [name, trMaterial(name)].some(label => normalizeSearch(label || "").includes(q)));
-  if (accountNames.length) extraByCategory.set("account", accountNames);
+  // Account/Pokke-point entries remain in the data for the future guide, but
+  // their catalog section is intentionally hidden for now.
 
   if (!filtered.length && !extraByCategory.size) {
     materialsIndexEl.innerHTML = `<p class="no-data">${ui("materialsNoResults")}</p>`;
@@ -3310,6 +3308,9 @@ function showMaterialDetail(matKey) {
 
   const range = ANOMALY_LEVEL_RANGE[key];
   const rangeStr = range ? (range.max ? `${range.min}-${range.max}` : `${range.min}+`) : null;
+  const itemDescription = catalogMaterial?.description
+    ? `<section class="block material-description-block"><h3>${ui("materialsDescriptionHeading")}</h3><p class="material-description">${escapeAttr(catalogMaterial.descriptionEs || catalogMaterial.description)}</p></section>`
+    : "";
 
   let sourcesHtml = sources.length ? `
     ${isPlusTierFallback ? `<p class="material-plus-tier-note">${ui("materialsPlusTierNote")}</p>` : ""}
@@ -3332,6 +3333,7 @@ function showMaterialDetail(matKey) {
       <h2>${trMaterial(matKey)}</h2>
       ${rangeStr ? `<span class="decoration-detail-slot">${ui("materialsAnomalyLevel")(rangeStr)}</span>` : ""}
     </div>
+    ${itemDescription}
     <section class="block">
       <h3>${ui("materialsSourcesHeading")}</h3>
       <div class="decoration-materials-blocks">${sourcesHtml}</div>
