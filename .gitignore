@@ -18,6 +18,9 @@ rise/data/weapon_tree_raw_fandom/
 # Weapon icon fallback scraper cache (resumable, not served)
 rise/data/weapon_icon_fallback_cache/
 
+# Fextralife individual Wilds armor pages (rebuildable scraper cache)
+wilds/data/armor_piece_pages_raw/
+
 # scratch screenshots
 weapon_tree_kamura.png
 

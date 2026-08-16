@@ -66,10 +66,10 @@ Los nombres de sets/piezas con "Alpha"/"Beta" ahora usan los símbolos griegos *
 
 ## 4. Lo que falta (para retomar)
 
-- 🔴 **Materiales por pieza de armadura** (solo hay a nivel de set) — si se necesita desglose, re-scrapear página individual de cada pieza.
+- 🟡 **Materiales por pieza de armadura** — Fextralife individual ya permite 406/690 piezas; quedan 284 sin desglose publicado o sin enlace utilizable.
 - 🟢 **Habilidades por pieza**: 690/690 piezas completadas. Las cinco piezas de `Arkveld γ` se completaron desde Game8 mediante `data/enrich_arkveld_gamma_game8.js`; las 20 piezas especiales restantes (`Sororal`, `Azure Age`, `Gala Suit` y `Duna`) se completaron desde sus tablas individuales de Game8 mediante `data/enrich_special_armor_skills_game8.js`. Los resúmenes de set quedaron completos: 159/159, reconstruyendo los que no tenían resumen únicamente desde sus piezas ya matcheadas. También se normalizaron nombres `Diver's` y Guardian que venían abreviados o con entidades HTML literales.
 - 🟢 **Materiales de sets**: 159/159 documentados desde tablas de forja de Game8 mediante `data/enrich_armor_set_materials_game8.js`; 156 tienen materiales y los tres sets iniciales (`Chainmail`, `Hope`, `Leather`) están confirmados como coste únicamente en zenny por la fuente.
-- 🟢 **Materiales por pieza**: 60/690 piezas ahora tienen desglose individual recuperado desde las filas de forja de esas mismas páginas Game8; las piezas restantes conservan `materials: []` y el visor muestra, cuando existe, el agregado del set claramente etiquetado.
+- 🟢 **Materiales por pieza**: 406/690 piezas tienen desglose individual recuperado, combinando Game8 y el scraper doble de páginas individuales Fextralife; las restantes conservan `materials: []` y el visor muestra, cuando existe, el agregado del set claramente etiquetado.
 - 🔴 **Árbol de mejora de armas** (prevId/nextId) — sin esto el catálogo no puede mostrar "solo finales". Buscar otra fuente (quizás `monsterhunterwiki.org` tenga cadena de crafteo, no probado).
 - 🟡 **Talismanes**: habilidades cubiertas en 181/185; quedan sin ícono/materiales y 4 entradas especiales sin habilidad en la fuente.
 - 🟡 **34/286 materiales** y **30/177 skills** sin ícono — las páginas ya scrapeadas no los cubren.
