@@ -5,7 +5,9 @@
     "slug": "desert-trotters",
     "name": "Desert Trotters",
     "nameEs": "Desert Trotters",
-    "source": "https://mhwilds.kiranico.com/data/missions/desert-trotters"
+    "source": "https://mhwilds.kiranico.com/data/missions/desert-trotters",
+    "description": "Beyond an uninhabited expanse to the far east known as the Forbidden Lands. The Hunter joins the expedition team aboard a sandship. Their mission: to aid the Keepers, and investigate the unidentified monster that destroyed the people's village, known as the White Wraith.",
+    "title": "Desert Trotters"
   },
   {
     "id": "missions-back-to-camp",
@@ -13,7 +15,9 @@
     "slug": "back-to-camp",
     "name": "Back to Camp",
     "nameEs": "Back to Camp",
-    "source": "https://mhwilds.kiranico.com/data/missions/back-to-camp"
+    "source": "https://mhwilds.kiranico.com/data/missions/back-to-camp",
+    "description": "After her rescue, the young girl, Nona, explains that her brother lured away a Chatacabra to protect her. The Hunter slays the monster and escorts the young man, Y'sai, back to Base Camp.",
+    "title": "Back to Camp"
   },
   {
     "id": "missions-the-beginning",
@@ -21,7 +25,9 @@
     "slug": "the-beginning",
     "name": "The Beginning",
     "nameEs": "The Beginning",
-    "source": "https://mhwilds.kiranico.com/data/missions/the-beginning"
+    "source": "https://mhwilds.kiranico.com/data/missions/the-beginning",
+    "description": "Since the underground passage Nata escaped through collapsed, the expedition team must seek a path to the Keepers' village topside. For now, the Hunter is tasked with escorting Nona and Y'sai home to their village while the others finish setting up Base Camp.",
+    "title": "The Beginning"
   },
   {
     "id": "missions-village-of-whispering-winds",
@@ -29,7 +35,9 @@
     "slug": "village-of-whispering-winds",
     "name": "Village of Whispering Winds",
     "nameEs": "Village of Whispering Winds",
-    "source": "https://mhwilds.kiranico.com/data/missions/village-of-whispering-winds"
+    "source": "https://mhwilds.kiranico.com/data/missions/village-of-whispering-winds",
+    "description": "Since the underground passage Nata escaped through collapsed, the expedition team must seek a path to the Keepers' village topside. For now, the Hunter is tasked with escorting Nona and Y'sai home to their village while the others finish setting up Base Camp.",
+    "title": "Village of Whispering Winds"
   },
   {
     "id": "missions-to-the-forest",
@@ -37,7 +45,9 @@
     "slug": "to-the-forest",
     "name": "To the Forest",
     "nameEs": "To the Forest",
-    "source": "https://mhwilds.kiranico.com/data/missions/to-the-forest"
+    "source": "https://mhwilds.kiranico.com/data/missions/to-the-forest",
+    "description": "The Avis Unit canvasses Kunafa, but find no leads on the Keepers. Instead, they learn from the village Elder that large monsters known as Doshaguma are encroaching on the human settlement. Concerned, the Hunter makes for the forest to investigate.",
+    "title": "To the Forest"
   },
   {
     "id": "missions-forest-findings",
@@ -45,7 +55,9 @@
     "slug": "forest-findings",
     "name": "Forest Findings",
     "nameEs": "Forest Findings",
-    "source": "https://mhwilds.kiranico.com/data/missions/forest-findings"
+    "source": "https://mhwilds.kiranico.com/data/missions/forest-findings",
+    "description": "The Avis Unit canvasses Kunafa, but find no leads on the Keepers. Instead, they learn from the village Elder that large monsters known as Doshaguma are encroaching on the human settlement. Concerned, the Hunter and company make for the forest to investigate.",
+    "title": "Forest Findings"
   },
   {
     "id": "missions-the-investigation-continues",
@@ -53,7 +65,9 @@
     "slug": "the-investigation-continues",
     "name": "The Investigation Continues",
     "nameEs": "The Investigation Continues",
-    "source": "https://mhwilds.kiranico.com/data/missions/the-investigation-continues"
+    "source": "https://mhwilds.kiranico.com/data/missions/the-investigation-continues",
+    "description": "With the Congalala defeated at the Wudwuds' request, the Hunter succeeds in reclaiming the Pop-up Camp, allowing the Doshaguma investigation to continue.",
+    "title": "The Investigation Continues"
   },
   {
     "id": "missions-a-hunters-pride",
@@ -61,7 +75,9 @@
     "slug": "a-hunters-pride",
     "name": "A Hunter's Pride",
     "nameEs": "A Hunter's Pride",
-    "source": "https://mhwilds.kiranico.com/data/missions/a-hunters-pride"
+    "source": "https://mhwilds.kiranico.com/data/missions/a-hunters-pride",
+    "description": "The Hunter's investigation in the woods reveals that the Doshaguma have overcome their fear of humans and formed a pack, led by an alpha. It's only a matter of time before they descend on Kunafa. The Avis Unit races back to warn the village.",
+    "title": "A Hunter's Pride"
   },
   {
     "id": "missions-pursuit-of-solitude",
@@ -69,7 +85,9 @@
     "slug": "pursuit-of-solitude",
     "name": "Pursuit of Solitude",
     "nameEs": "Pursuit of Solitude",
-    "source": "https://mhwilds.kiranico.com/data/missions/pursuit-of-solitude"
+    "source": "https://mhwilds.kiranico.com/data/missions/pursuit-of-solitude",
+    "description": "After the Hunter drives the Doshaguma pack away from Kunafa and hunts its alpha, the village Elder grants the expedition team free access to the village. The Avis Unit now rides to the forest to hear Olivia's progress on the search for the White Wraith.",
+    "title": "Pursuit of Solitude"
   },
   {
     "id": "missions-beyond-the-deluge",
@@ -77,7 +95,9 @@
     "slug": "beyond-the-deluge",
     "name": "Beyond the Deluge",
     "nameEs": "Beyond the Deluge",
-    "source": "https://mhwilds.kiranico.com/data/missions/beyond-the-deluge"
+    "source": "https://mhwilds.kiranico.com/data/missions/beyond-the-deluge",
+    "description": "The Avis Unit learns that Olivia and Erik's investigation into the White Wraith has brought them into the remotest reaches of the forest. Eager to hear their report and deliver Seikret for the pair's use, they ride through the rain into the forest's depths...",
+    "title": "Beyond the Deluge"
   },
   {
     "id": "missions-the-whispering-forest",
@@ -85,7 +105,9 @@
     "slug": "the-whispering-forest",
     "name": "The Whispering Forest",
     "nameEs": "The Whispering Forest",
-    "source": "https://mhwilds.kiranico.com/data/missions/the-whispering-forest"
+    "source": "https://mhwilds.kiranico.com/data/missions/the-whispering-forest",
+    "description": "Rubrum Unit's handler Kanya has a message for the Hunter, so the group heads to the Scarlet Forest Base Camp to hear what she has to say.",
+    "title": "The Whispering Forest"
   },
   {
     "id": "missions-spirit-in-the-moonlight",
@@ -93,7 +115,9 @@
     "slug": "spirit-in-the-moonlight",
     "name": "Spirit in the Moonlight",
     "nameEs": "Spirit in the Moonlight",
-    "source": "https://mhwilds.kiranico.com/data/missions/spirit-in-the-moonlight"
+    "source": "https://mhwilds.kiranico.com/data/missions/spirit-in-the-moonlight",
+    "description": "Rubrum Unit's Kanya reports that the Wudwuds' major source of food—fish— has been disrupted, likely by a monster. The group goes to speak with Mastangler to see what's wrong, and stumble upon something unexpected.",
+    "title": "Spirit in the Moonlight"
   },
   {
     "id": "missions-a-looming-shadow",
@@ -101,7 +125,9 @@
     "slug": "a-looming-shadow",
     "name": "A Looming Shadow",
     "nameEs": "A Looming Shadow",
-    "source": "https://mhwilds.kiranico.com/data/missions/a-looming-shadow"
+    "source": "https://mhwilds.kiranico.com/data/missions/a-looming-shadow",
+    "description": "Nata confirms that the monster they saw through the downpour was their target— the White Wraith. The boy's long- suppressed rage boils to the surface and erupts. With the weather cleared and the monster nowhere in sight, the Avis Unit makes for the forest in search of its trail.",
+    "title": "A Looming Shadow"
   },
   {
     "id": "missions-toward-fervent-fields",
@@ -109,7 +135,9 @@
     "slug": "toward-fervent-fields",
     "name": "Toward Fervent Fields",
     "nameEs": "Toward Fervent Fields",
-    "source": "https://mhwilds.kiranico.com/data/missions/toward-fervent-fields"
+    "source": "https://mhwilds.kiranico.com/data/missions/toward-fervent-fields",
+    "description": "Zatoh tells of a land where the earth bleeds oil and its artisans who practice ancient crafting techniques. The Avis Unit sets out to meet the three tribes he spoke of to learn their ways and—with any luck—to hear word of the Keepers.",
+    "title": "Toward Fervent Fields"
   },
   {
     "id": "missions-an-unforeseen-storm",
@@ -117,7 +145,9 @@
     "slug": "an-unforeseen-storm",
     "name": "An Unforeseen Storm",
     "nameEs": "An Unforeseen Storm",
-    "source": "https://mhwilds.kiranico.com/data/missions/an-unforeseen-storm"
+    "source": "https://mhwilds.kiranico.com/data/missions/an-unforeseen-storm",
+    "description": "Zatoh receives word from Kunafa that an unseasonable sandstorm is bound for the village and hastens back to his home. Suspecting that the White Wraith may be in the storm's wake, the Hunter and company set out for its epicenter.",
+    "title": "An Unforeseen Storm"
   },
   {
     "id": "missions-the-eye-of-the-storm",
@@ -125,7 +155,9 @@
     "slug": "the-eye-of-the-storm",
     "name": "The Eye of the Storm",
     "nameEs": "The Eye of the Storm",
-    "source": "https://mhwilds.kiranico.com/data/missions/the-eye-of-the-storm"
+    "source": "https://mhwilds.kiranico.com/data/missions/the-eye-of-the-storm",
+    "description": "Suspecting that the White Wraith might appear at the heart of the sandstorm, the Hunter's unit hurries to the Wind's Gasp...",
+    "title": "The Eye of the Storm"
   },
   {
     "id": "missions-a-desolate-destination",
@@ -133,7 +165,9 @@
     "slug": "a-desolate-destination",
     "name": "A Desolate Destination",
     "nameEs": "A Desolate Destination",
-    "source": "https://mhwilds.kiranico.com/data/missions/a-desolate-destination"
+    "source": "https://mhwilds.kiranico.com/data/missions/a-desolate-destination",
+    "description": "At the Wind's Gasp, the Hunter and company witness the White Wraith draining some form of energy from another monster before taking flight. They return to Azuz in pursuit.",
+    "title": "A Desolate Destination"
   },
   {
     "id": "missions-hopes-of-home",
@@ -141,7 +175,9 @@
     "slug": "hopes-of-home",
     "name": "Hopes of Home",
     "nameEs": "Hopes of Home",
-    "source": "https://mhwilds.kiranico.com/data/missions/hopes-of-home"
+    "source": "https://mhwilds.kiranico.com/data/missions/hopes-of-home",
+    "description": "The people of Azuz lead the way to what appears to be an underground passage. Nata recognizes it immediately—beyond it lies the Keepers' village. The boy's heart soars at the prospect of seeing his home once more.",
+    "title": "Hopes of Home"
   },
   {
     "id": "missions-a-disquieting-dawn",
@@ -149,7 +185,9 @@
     "slug": "a-disquieting-dawn",
     "name": "A Disquieting Dawn",
     "nameEs": "A Disquieting Dawn",
-    "source": "https://mhwilds.kiranico.com/data/missions/a-disquieting-dawn"
+    "source": "https://mhwilds.kiranico.com/data/missions/a-disquieting-dawn",
+    "description": "Suspecting that the Landspine is a man-made structure closely tied to the strange energy they've witnessed, the Hunter and company make for Azuz to attempt to dissuade Werner from moving forward with its repair.",
+    "title": "A Disquieting Dawn"
   },
   {
     "id": "missions-long-forgotten-flame",
@@ -157,7 +195,9 @@
     "slug": "long-forgotten-flame",
     "name": "Long-forgotten Flame",
     "nameEs": "Long-forgotten Flame",
-    "source": "https://mhwilds.kiranico.com/data/missions/long-forgotten-flame"
+    "source": "https://mhwilds.kiranico.com/data/missions/long-forgotten-flame",
+    "description": "Perhaps due to the recent repairs to the Landspine, a sudden Firespring hits Azuz. The sudden change stokes the Everforge into an uncontrollable frenzy. The fury of nearby Ajarakan is equally sparked, and the Hunter springs into action to protect the village.",
+    "title": "Long-forgotten Flame"
   },
   {
     "id": "missions-eriks-secret-request",
@@ -165,7 +205,9 @@
     "slug": "eriks-secret-request",
     "name": "Erik's Secret Request",
     "nameEs": "Erik's Secret Request",
-    "source": "https://mhwilds.kiranico.com/data/missions/eriks-secret-request"
+    "source": "https://mhwilds.kiranico.com/data/missions/eriks-secret-request",
+    "description": "Erik has sent word that there's something strange happening in the Scarlet Forest, so the group heads for the Base Camp there to hear him out.",
+    "title": "Erik's Secret Request"
   },
   {
     "id": "missions-trembling-blue-currents",
@@ -173,7 +215,9 @@
     "slug": "trembling-blue-currents",
     "name": "Trembling Blue Currents",
     "nameEs": "Trembling Blue Currents",
-    "source": "https://mhwilds.kiranico.com/data/missions/trembling-blue-currents"
+    "source": "https://mhwilds.kiranico.com/data/missions/trembling-blue-currents",
+    "description": "According to reports from the Sandfolk, Flameborn, and Wudwuds, a recently agitated Rathalos has become an extreme threat. Erik insists that every action has a reason, and understanding it is paramount. Thus, the Hunter joins him to investigate what has the King of the Skies so worked up.",
+    "title": "Trembling Blue Currents"
   },
   {
     "id": "missions-born-from-the-flame",
@@ -181,7 +225,9 @@
     "slug": "born-from-the-flame",
     "name": "Born from the Flame",
     "nameEs": "Born from the Flame",
-    "source": "https://mhwilds.kiranico.com/data/missions/born-from-the-flame"
+    "source": "https://mhwilds.kiranico.com/data/missions/born-from-the-flame",
+    "description": "With the threat to Azuz abated, the expedition team reflects on their recent discoveries: the suspected man-made Landspine, and the likelihood that the region's unique ecological cycle derives from it. They return to the first Base Camp to discuss their next steps.",
+    "title": "Born from the Flame"
   },
   {
     "id": "missions-the-faithful-keepers",
@@ -189,7 +235,9 @@
     "slug": "the-faithful-keepers",
     "name": "The Faithful Keepers",
     "nameEs": "The Faithful Keepers",
-    "source": "https://mhwilds.kiranico.com/data/missions/the-faithful-keepers"
+    "source": "https://mhwilds.kiranico.com/data/missions/the-faithful-keepers",
+    "description": "After the events in Azuz, it has become clear that the Landspine is likely an artificial structure from which the region derives its unique ecological cycle. With the ice that blocked the underground passage now melted, the Avis Unit once again makes for the Keepers' village.",
+    "title": "The Faithful Keepers"
   },
   {
     "id": "missions-indomitable-spirit",
@@ -197,7 +245,9 @@
     "slug": "indomitable-spirit",
     "name": "Indomitable Spirit",
     "nameEs": "Indomitable Spirit",
-    "source": "https://mhwilds.kiranico.com/data/missions/indomitable-spirit"
+    "source": "https://mhwilds.kiranico.com/data/missions/indomitable-spirit",
+    "description": "The Hunter repels the White Wraith—the Guardian Arkveld. But Tasheen expresses shock upon learning that a monster with no need to feed was engaging in predation. He claims the so-called Allhearken may have answers, therein deciding the unit's next destination.",
+    "title": "Indomitable Spirit"
   },
   {
     "id": "missions-nothing-frozen-nothing-gained",
@@ -205,7 +255,9 @@
     "slug": "nothing-frozen-nothing-gained",
     "name": "Nothing Frozen, Nothing Gained",
     "nameEs": "Nothing Frozen, Nothing Gained",
-    "source": "https://mhwilds.kiranico.com/data/missions/nothing-frozen-nothing-gained"
+    "source": "https://mhwilds.kiranico.com/data/missions/nothing-frozen-nothing-gained",
+    "description": "The path to the Allhearken lies beyond a perilous region inhabited by enormous monsters, but the Hunter and company press on toward the road less traveled.",
+    "title": "Nothing Frozen, Nothing Gained"
   },
   {
     "id": "missions-through-the-dusk",
@@ -213,7 +265,9 @@
     "slug": "through-the-dusk",
     "name": "Through the Dusk",
     "nameEs": "Through the Dusk",
-    "source": "https://mhwilds.kiranico.com/data/missions/through-the-dusk"
+    "source": "https://mhwilds.kiranico.com/data/missions/through-the-dusk",
+    "description": "After surviving the journey thanks to the combined efforts of the Hunter and Olivia, the party arrives at the home of the Allhearken.",
+    "title": "Through the Dusk"
   },
   {
     "id": "missions-a-path-forward",
@@ -221,7 +275,9 @@
     "slug": "a-path-forward",
     "name": "A Path Forward",
     "nameEs": "A Path Forward",
-    "source": "https://mhwilds.kiranico.com/data/missions/a-path-forward"
+    "source": "https://mhwilds.kiranico.com/data/missions/a-path-forward",
+    "description": "The Allhearken bids Nata to see for himself just what it is that Arkveld seeks to become. But to understand Arkveld, one must first understand the Guardians. The Avis Unit pursues Arkveld, resolved to find those answers.",
+    "title": "A Path Forward"
   },
   {
     "id": "missions-full-circle",
@@ -229,7 +285,9 @@
     "slug": "full-circle",
     "name": "Full Circle",
     "nameEs": "Full Circle",
-    "source": "https://mhwilds.kiranico.com/data/missions/full-circle"
+    "source": "https://mhwilds.kiranico.com/data/missions/full-circle",
+    "description": "The Allhearken bids Nata to see for himself just what it is that Arkveld seeks to become. But to understand Arkveld, one must first understand the Guardians. The Avis Unit pursues Arkveld, resolved to find those answers.",
+    "title": "Full Circle"
   },
   {
     "id": "missions-dawn-breaks",
@@ -237,7 +295,9 @@
     "slug": "dawn-breaks",
     "name": "Dawn Breaks",
     "nameEs": "Dawn Breaks",
-    "source": "https://mhwilds.kiranico.com/data/missions/dawn-breaks"
+    "source": "https://mhwilds.kiranico.com/data/missions/dawn-breaks",
+    "description": "The Hunter learns of the immutable link between the Guardians and the surrounding lifeforms. The Avis Unit speculates that Arkveld too, has found a way back into the greater ecosystem.",
+    "title": "Dawn Breaks"
   },
   {
     "id": "missions-broken-chains",
@@ -245,7 +305,9 @@
     "slug": "broken-chains",
     "name": "Broken Chains",
     "nameEs": "Broken Chains",
-    "source": "https://mhwilds.kiranico.com/data/missions/broken-chains"
+    "source": "https://mhwilds.kiranico.com/data/missions/broken-chains",
+    "description": "The Hunter learns of the immutable link between the Guardians and the surrounding lifeforms, as Nata embraces the hope that Arkveld has slipped the Keepers' chains.",
+    "title": "Broken Chains"
   },
   {
     "id": "missions-visions-of-hope",
@@ -253,7 +315,9 @@
     "slug": "visions-of-hope",
     "name": "Visions of Hope",
     "nameEs": "Visions of Hope",
-    "source": "https://mhwilds.kiranico.com/data/missions/visions-of-hope"
+    "source": "https://mhwilds.kiranico.com/data/missions/visions-of-hope",
+    "description": "Within the Dragontorch lurks Zoh Shia, Wyveria's secret weapon and ultimate Guardian. Stopping the torch would ensure the monster's demise—and the collapse of the entire ecosystem. Nata resolves to fulfill his duty as a Keeper as the Hunter stands beside him.",
+    "title": "Visions of Hope"
   },
   {
     "id": "missions-monster-hunter",
@@ -261,7 +325,9 @@
     "slug": "monster-hunter",
     "name": "Monster Hunter",
     "nameEs": "Monster Hunter",
-    "source": "https://mhwilds.kiranico.com/data/missions/monster-hunter"
+    "source": "https://mhwilds.kiranico.com/data/missions/monster-hunter",
+    "description": "Within the Dragontorch lurks Zoh Shia, Wyveria's secret weapon and ultimate Guardian. As Nata hesitates to fulfill his duty, the Hunter steps up and offers him a different solution. The time to slay Zoh Shia has arrived.",
+    "title": "Monster Hunter"
   },
   {
     "id": "missions-kunafas-curious-quandary",
@@ -269,7 +335,9 @@
     "slug": "kunafas-curious-quandary",
     "name": "Kunafa's Curious Quandary",
     "nameEs": "Kunafa's Curious Quandary",
-    "source": "https://mhwilds.kiranico.com/data/missions/kunafas-curious-quandary"
+    "source": "https://mhwilds.kiranico.com/data/missions/kunafas-curious-quandary",
+    "description": "There's been a concerning rumor circulating around Kunafa lately that has the villagers on edge. It might be worth looking into.",
+    "title": "Kunafa's Curious Quandary"
   },
   {
     "id": "missions-clear-with-a-chance-of-sandstorm",
@@ -277,7 +345,9 @@
     "slug": "clear-with-a-chance-of-sandstorm",
     "name": "Clear with a Chance of Sandstorm",
     "nameEs": "Clear with a Chance of Sandstorm",
-    "source": "https://mhwilds.kiranico.com/data/missions/clear-with-a-chance-of-sandstorm"
+    "source": "https://mhwilds.kiranico.com/data/missions/clear-with-a-chance-of-sandstorm",
+    "description": "Young Nemmo and Vuno decided to do the Seikret rider's trial on their own. Nona and the Hunter set out to the plateau in the plains to stop them, when a Seregios suddenly appears and makes off with a Seikret. Nona mounts up to give chase, with the Hunter hot on their trail.",
+    "title": "Clear with a Chance of Sandstorm"
   },
   {
     "id": "missions-a-visitor-from-the-west",
@@ -285,7 +355,9 @@
     "slug": "a-visitor-from-the-west",
     "name": "A Visitor from the West",
     "nameEs": "A Visitor from the West",
-    "source": "https://mhwilds.kiranico.com/data/missions/a-visitor-from-the-west"
+    "source": "https://mhwilds.kiranico.com/data/missions/a-visitor-from-the-west",
+    "description": "In light of the expedition team's resounding success, the Guild discusses further relations with the Eastlands, allowing the hunter and company to reunite with a certain accomplished veteran.",
+    "title": "A Visitor from the West"
   },
   {
     "id": "missions-new-ecosystems",
@@ -293,7 +365,9 @@
     "slug": "new-ecosystems",
     "name": "New Ecosystems",
     "nameEs": "New Ecosystems",
-    "source": "https://mhwilds.kiranico.com/data/missions/new-ecosystems"
+    "source": "https://mhwilds.kiranico.com/data/missions/new-ecosystems",
+    "description": "Free of Zoh Shia's influence, the energy from the Dragontorch has put the entire Eastlands into a season of Plenty. The Avis Unit has been deployed to the Scarlet Forest to investigate. Excited for new discoveries, they advance further into the forest.",
+    "title": "New Ecosystems"
   },
   {
     "id": "missions-chasing-change",
@@ -301,7 +375,9 @@
     "slug": "chasing-change",
     "name": "Chasing Change",
     "nameEs": "Chasing Change",
-    "source": "https://mhwilds.kiranico.com/data/missions/chasing-change"
+    "source": "https://mhwilds.kiranico.com/data/missions/chasing-change",
+    "description": "Through their investigation of the forest, Avis Unit has proven that the Eastlands' ecosystem is reverting to its natural state. Fabius asks the group to continue their investigation, but leaves the destination up to them.",
+    "title": "Chasing Change"
   },
   {
     "id": "missions-rendezvous",
@@ -309,7 +385,9 @@
     "slug": "rendezvous",
     "name": "Rendezvous",
     "nameEs": "Rendezvous",
-    "source": "https://mhwilds.kiranico.com/data/missions/rendezvous"
+    "source": "https://mhwilds.kiranico.com/data/missions/rendezvous",
+    "description": "New changes have hit the Wounded Hollow, an area near Suja that has been plagued by monsters since ancient times. After a council with Fabius and the Allhearken to establish their new objectives, the group departs to investigate the valley.",
+    "title": "Rendezvous"
   },
   {
     "id": "missions-lurking-shadows",
@@ -317,7 +395,9 @@
     "slug": "lurking-shadows",
     "name": "Lurking Shadows",
     "nameEs": "Lurking Shadows",
-    "source": "https://mhwilds.kiranico.com/data/missions/lurking-shadows"
+    "source": "https://mhwilds.kiranico.com/data/missions/lurking-shadows",
+    "description": "New changes have hit the Wounded Hollow, an area near Suja that has been plagued by monsters since ancient times. After a council with Fabius and the Allhearken to establish their new objectives, the group departs to investigate the valley.",
+    "title": "Lurking Shadows"
   },
   {
     "id": "missions-touring-history",
@@ -325,7 +405,9 @@
     "slug": "touring-history",
     "name": "Touring History",
     "nameEs": "Touring History",
-    "source": "https://mhwilds.kiranico.com/data/missions/touring-history"
+    "source": "https://mhwilds.kiranico.com/data/missions/touring-history",
+    "description": "After discovering a Frenzied Nerscylla in the Wounded Hollow, Fabius returns to the Academy to conduct a full analysis. Meanwhile, assuring the Allhearken that they'll monitor the situation, Avis Unit returns to their investigation.",
+    "title": "Touring History"
   },
   {
     "id": "missions-to-wyverns-rest",
@@ -333,7 +415,9 @@
     "slug": "to-wyverns-rest",
     "name": "To Wyvern's Rest",
     "nameEs": "To Wyvern's Rest",
-    "source": "https://mhwilds.kiranico.com/data/missions/to-wyverns-rest"
+    "source": "https://mhwilds.kiranico.com/data/missions/to-wyverns-rest",
+    "description": "Olivia summons Avis Unit after encountering something of interest at Wyvern's Rest. This is the first time the group will set foot in the area since slaying Zoh Shia.",
+    "title": "To Wyvern's Rest"
   },
   {
     "id": "missions-wyvern-sparks-and-rose-thorns",
@@ -341,7 +425,9 @@
     "slug": "wyvern-sparks-and-rose-thorns",
     "name": "Wyvern Sparks and Rose Thorns",
     "nameEs": "Wyvern Sparks and Rose Thorns",
-    "source": "https://mhwilds.kiranico.com/data/missions/wyvern-sparks-and-rose-thorns"
+    "source": "https://mhwilds.kiranico.com/data/missions/wyvern-sparks-and-rose-thorns",
+    "description": "A Lala Barina was spotted in the Ruins of Wyveria, mysteriously far from its natural habitat. Under the assumption that it must possess abnormal traits, the potential harm to the region cannot be ignored. The Hunter departs to investigate at Olivia's behest.",
+    "title": "Wyvern Sparks and Rose Thorns"
   },
   {
     "id": "missions-the-artifacts-words",
@@ -349,7 +435,9 @@
     "slug": "the-artifacts-words",
     "name": "The Artifact's Words",
     "nameEs": "The Artifact's Words",
-    "source": "https://mhwilds.kiranico.com/data/missions/the-artifacts-words"
+    "source": "https://mhwilds.kiranico.com/data/missions/the-artifacts-words",
+    "description": "It seems that Rove has discovered a \"talking artifact.\" The Hunter heads to the Iceshard Cliffs to hear more about it straight from the eloquent Wudwud's mouth.",
+    "title": "The Artifact's Words"
   },
   {
     "id": "missions-the-beacon-of-invasion",
@@ -357,7 +445,9 @@
     "slug": "the-beacon-of-invasion",
     "name": "The Beacon of Invasion",
     "nameEs": "The Beacon of Invasion",
-    "source": "https://mhwilds.kiranico.com/data/missions/the-beacon-of-invasion"
+    "source": "https://mhwilds.kiranico.com/data/missions/the-beacon-of-invasion",
+    "description": "The talking artifact speaks: \"Initiate invasion and subjugation.\" With these words, strange events begin to unfold in the Iceshard Cliffs—things the Hunter has never seen before.",
+    "title": "The Beacon of Invasion"
   },
   {
     "id": "missions-premonitions",
@@ -365,7 +455,9 @@
     "slug": "premonitions",
     "name": "Premonitions",
     "nameEs": "Premonitions",
-    "source": "https://mhwilds.kiranico.com/data/missions/premonitions"
+    "source": "https://mhwilds.kiranico.com/data/missions/premonitions",
+    "description": "The appearance of a tempered monster attests to the major influence the Dragontorch's energy has on the region. Adding the Ruins of Wyveria to their list, Avis Unit once again sets out to investigate each area.",
+    "title": "Premonitions"
   },
   {
     "id": "missions-omens",
@@ -373,7 +465,9 @@
     "slug": "omens",
     "name": "Omens",
     "nameEs": "Omens",
-    "source": "https://mhwilds.kiranico.com/data/missions/omens"
+    "source": "https://mhwilds.kiranico.com/data/missions/omens",
+    "description": "Avis Unit receives another summons from Olivia, who is stationed at the Ruins of Wyveria. It appears to be especially urgent, so the Hunter sets off for the Base Camp there.",
+    "title": "Omens"
   },
   {
     "id": "missions-storm-cold-vortex",
@@ -381,7 +475,9 @@
     "slug": "storm-cold-vortex",
     "name": "Storm-cold Vortex",
     "nameEs": "Storm-cold Vortex",
-    "source": "https://mhwilds.kiranico.com/data/missions/storm-cold-vortex"
+    "source": "https://mhwilds.kiranico.com/data/missions/storm-cold-vortex",
+    "description": "A tip from Nata clued the Hunter in on a frozen section of the Wyrmway. The cause seems related to the unending blizzards in the Iceshard Cliffs and the Jin Dahaad that resides there. The group ventures there, hoping to find a way to fix the flow of energy.",
+    "title": "Storm-cold Vortex"
   },
   {
     "id": "missions-the-root-cause",
@@ -389,7 +485,9 @@
     "slug": "the-root-cause",
     "name": "The Root Cause",
     "nameEs": "The Root Cause",
-    "source": "https://mhwilds.kiranico.com/data/missions/the-root-cause"
+    "source": "https://mhwilds.kiranico.com/data/missions/the-root-cause",
+    "description": "The energy spilling from the Dragontorch seems to be the source of all the anomalies, which leaves only one place for Avis Unit to go: the Ruins of Wyveria, where the Dragontorch lies.",
+    "title": "The Root Cause"
   },
   {
     "id": "missions-a-torrent-of-energy",
@@ -397,7 +495,9 @@
     "slug": "a-torrent-of-energy",
     "name": "A Torrent of Energy",
     "nameEs": "A Torrent of Energy",
-    "source": "https://mhwilds.kiranico.com/data/missions/a-torrent-of-energy"
+    "source": "https://mhwilds.kiranico.com/data/missions/a-torrent-of-energy",
+    "description": "Upon slaying the Jin Dahaad, the Landspine returns to its normal state. However, the Dragontorch continues to emit excessive amounts of energy. With this problem on their minds, Avis Unit continues to investigate the regions.",
+    "title": "A Torrent of Energy"
   },
   {
     "id": "missions-a-world-turned-upside-down",
@@ -405,7 +505,9 @@
     "slug": "a-world-turned-upside-down",
     "name": "A World Turned Upside Down",
     "nameEs": "A World Turned Upside Down",
-    "source": "https://mhwilds.kiranico.com/data/missions/a-world-turned-upside-down"
+    "source": "https://mhwilds.kiranico.com/data/missions/a-world-turned-upside-down",
+    "description": "On top of a presumed connection between the excess energy from the Dragontorch and extreme weather conditions, Fabius reports that a Gore Magala is in the Eastlands. To address these simultaneous incidents, the Hunter has been tasked to go around and investigate each problem.",
+    "title": "A World Turned Upside Down"
   },
   {
     "id": "missions-a-break-in-the-clouds",
@@ -413,7 +515,9 @@
     "slug": "a-break-in-the-clouds",
     "name": "A Break in the Clouds",
     "nameEs": "A Break in the Clouds",
-    "source": "https://mhwilds.kiranico.com/data/missions/a-break-in-the-clouds"
+    "source": "https://mhwilds.kiranico.com/data/missions/a-break-in-the-clouds",
+    "description": "Thanks to the team's efforts, the Dragontorch has stopped producing excessive amounts of energy. This has put an end to the anomalies, bringing a sense of normalcy back to the Eastlands. Avis Unit heads back out to experience the diverse ecosystems of each region.",
+    "title": "A Break in the Clouds"
   },
   {
     "id": "missions-a-peak-predicament",
@@ -421,7 +525,9 @@
     "slug": "a-peak-predicament",
     "name": "A Peak Predicament",
     "nameEs": "A Peak Predicament",
-    "source": "https://mhwilds.kiranico.com/data/missions/a-peak-predicament"
+    "source": "https://mhwilds.kiranico.com/data/missions/a-peak-predicament",
+    "description": "Omega and Alpha theorize that Omega Planetes is heading for Jin Dahaad, and so the group sets off for Rimechain Peak.",
+    "title": "A Peak Predicament"
   },
   {
     "id": "missions-invader-from-the-stars",
@@ -429,7 +535,9 @@
     "slug": "invader-from-the-stars",
     "name": "Invader from the Stars",
     "nameEs": "Invader from the Stars",
-    "source": "https://mhwilds.kiranico.com/data/missions/invader-from-the-stars"
+    "source": "https://mhwilds.kiranico.com/data/missions/invader-from-the-stars",
+    "description": "Omega Planetes appears from the mist, setting its sights on the one preventing it from finishing off Jin Dahaad.",
+    "title": "Invader from the Stars"
   },
   {
     "id": "missions-links-in-a-chain",
@@ -437,7 +545,9 @@
     "slug": "links-in-a-chain",
     "name": "Links in a Chain",
     "nameEs": "Links in a Chain",
-    "source": "https://mhwilds.kiranico.com/data/missions/links-in-a-chain"
+    "source": "https://mhwilds.kiranico.com/data/missions/links-in-a-chain",
+    "description": "Nata, who has been supporting the Guild as an apprentice since the defeat of Zoh Shia, has a report for the Hunter. The group goes to hear what he has to say.",
+    "title": "Links in a Chain"
   },
   {
     "id": "missions-what-lies-ahead",
@@ -445,7 +555,9 @@
     "slug": "what-lies-ahead",
     "name": "What Lies Ahead",
     "nameEs": "What Lies Ahead",
-    "source": "https://mhwilds.kiranico.com/data/missions/what-lies-ahead"
+    "source": "https://mhwilds.kiranico.com/data/missions/what-lies-ahead",
+    "description": "Against all odds, Arkveld has been reborn. While symbolizing the indomitability of nature, its very characteristics have ironically made it a force that cannot be ignored. Deducing that it will appear next at the Rey Dau's nest, the Hunter sets off.",
+    "title": "What Lies Ahead"
   },
   {
     "id": "missions-an-unexpected-summons",
@@ -453,7 +565,9 @@
     "slug": "an-unexpected-summons",
     "name": "An Unexpected Summons",
     "nameEs": "An Unexpected Summons",
-    "source": "https://mhwilds.kiranico.com/data/missions/an-unexpected-summons"
+    "source": "https://mhwilds.kiranico.com/data/missions/an-unexpected-summons",
+    "description": "The Avis Unit receives a request for assistance from an unexpected source: Werner. He requests urgent support, so the group heads to Suja to see how they can help.",
+    "title": "An Unexpected Summons"
   },
   {
     "id": "missions-a-first-cry",
@@ -461,7 +575,9 @@
     "slug": "a-first-cry",
     "name": "A First Cry",
     "nameEs": "A First Cry",
-    "source": "https://mhwilds.kiranico.com/data/missions/a-first-cry"
+    "source": "https://mhwilds.kiranico.com/data/missions/a-first-cry",
+    "description": "The Dragontorch that was blocked off following Zoh Shia's defeat is now mysteriously surrounded by cocoons. The group discovers that Zoh Shia has somehow been reborn and resolves to deal with the threat once more.",
+    "title": "A First Cry"
   },
   {
     "id": "missions-an-ancient-resting-place",
@@ -469,7 +585,9 @@
     "slug": "an-ancient-resting-place",
     "name": "An Ancient Resting Place",
     "nameEs": "An Ancient Resting Place",
-    "source": "https://mhwilds.kiranico.com/data/missions/an-ancient-resting-place"
+    "source": "https://mhwilds.kiranico.com/data/missions/an-ancient-resting-place",
+    "description": "An expanse has been discovered deep beneath Azuz. To investigate this ancient space—which even the Flameborn have no memory of—Avis and Astrum Units head underground.",
+    "title": "An Ancient Resting Place"
   },
   {
     "id": "missions-healing-help",
@@ -477,7 +595,9 @@
     "slug": "healing-help",
     "name": "Healing Help",
     "nameEs": "Healing Help",
-    "source": "https://mhwilds.kiranico.com/data/missions/healing-help"
+    "source": "https://mhwilds.kiranico.com/data/missions/healing-help",
+    "description": "Your Palico has requested that you capture Vigorwasps to help them test out their idea on a new recovery support move. It's sure to assist you in future hunts, so accept and help your Palico help you!",
+    "title": "Healing Help"
   },
   {
     "id": "missions-flash-course",
@@ -485,7 +605,9 @@
     "slug": "flash-course",
     "name": "Flash Course",
     "nameEs": "Flash Course",
-    "source": "https://mhwilds.kiranico.com/data/missions/flash-course"
+    "source": "https://mhwilds.kiranico.com/data/missions/flash-course",
+    "description": "Your Palico has requested that you capture Flashflies. This time, the words \"spark of inspiration\" were taken literally with an idea for a support move that'll blind monsters. Ready your capture net and capture the shining bugs to shed some light on your hunts!",
+    "title": "Flash Course"
   },
   {
     "id": "missions-a-gutsy-move",
@@ -493,7 +615,9 @@
     "slug": "a-gutsy-move",
     "name": "A Gutsy Move",
     "nameEs": "A Gutsy Move",
-    "source": "https://mhwilds.kiranico.com/data/missions/a-gutsy-move"
+    "source": "https://mhwilds.kiranico.com/data/missions/a-gutsy-move",
+    "description": "Your Palico has requested that you capture Giant Vigorwasps. After much research and deliberation, your Palico finally found a solution to help you out even after you've been knocked flat. This one will really invigorate you!",
+    "title": "A Gutsy Move"
   },
   {
     "id": "missions-rath-from-above-go",
@@ -501,7 +625,9 @@
     "slug": "rath-from-above-go",
     "name": "Rath-from-Above, Go!",
     "nameEs": "Rath-from-Above, Go!",
-    "source": "https://mhwilds.kiranico.com/data/missions/rath-from-above-go"
+    "source": "https://mhwilds.kiranico.com/data/missions/rath-from-above-go",
+    "description": "Your Palico has requested that you hunt a Quematrice. Their confidence is really overflowing this time... What could they be up to? Well, if you want to know what they've got cooking, you better get out there!",
+    "title": "Rath-from-Above, Go!"
   },
   {
     "id": "missions-purrfect-plundering",
@@ -509,7 +635,9 @@
     "slug": "purrfect-plundering",
     "name": "Purrfect Plundering",
     "nameEs": "Purrfect Plundering",
-    "source": "https://mhwilds.kiranico.com/data/missions/purrfect-plundering"
+    "source": "https://mhwilds.kiranico.com/data/missions/purrfect-plundering",
+    "description": "Your Palico has requested that you hunt a Guardian Ebony Odogaron. They said there's a new support move they want to try out. What is it? The best way to learn is by doing, so get out there!",
+    "title": "Purrfect Plundering"
   },
   {
     "id": "missions-fishing-life-in-microcosm",
@@ -517,7 +645,9 @@
     "slug": "fishing-life-in-microcosm",
     "name": "Fishing: Life, in Microcosm",
     "nameEs": "Fishing: Life, in Microcosm",
-    "source": "https://mhwilds.kiranico.com/data/missions/fishing-life-in-microcosm"
+    "source": "https://mhwilds.kiranico.com/data/missions/fishing-life-in-microcosm",
+    "description": "A fishing request from Kanya. As she preaches, \"No Fishing, No Life.\" Well...whether you agree or not, fishing is indeed a part of a hunter's lifestyle. When the fancy strikes, go drop a line and report to Kanya after you snag your first catch.",
+    "title": "Fishing: Life, in Microcosm"
   },
   {
     "id": "missions-seeking-the-goldenfish",
@@ -525,7 +655,9 @@
     "slug": "seeking-the-goldenfish",
     "name": "Seeking the Goldenfish",
     "nameEs": "Seeking the Goldenfish",
-    "source": "https://mhwilds.kiranico.com/data/missions/seeking-the-goldenfish"
+    "source": "https://mhwilds.kiranico.com/data/missions/seeking-the-goldenfish",
+    "description": "Kanya, your unexpectedly appointed fisherfellow, has asked you to catch a Goldenfish. She's given you a special lure for it, so go put it to good use. You should be able to find this fish in dark pools, far from the light of the sun.",
+    "title": "Seeking the Goldenfish"
   },
   {
     "id": "missions-fishing-for-flavor",
@@ -533,7 +665,9 @@
     "slug": "fishing-for-flavor",
     "name": "Fishing for Flavor",
     "nameEs": "Fishing for Flavor",
-    "source": "https://mhwilds.kiranico.com/data/missions/fishing-for-flavor"
+    "source": "https://mhwilds.kiranico.com/data/missions/fishing-for-flavor",
+    "description": "Kanya has asked you to catch a Gravid Bowfin, known for its highly nutritious eggs. Catching a fish for this masterful fisherfellow could be a great way to show your appreciation!",
+    "title": "Fishing for Flavor"
   },
   {
     "id": "missions-the-catch-of-a-lifetime",
@@ -541,7 +675,9 @@
     "slug": "the-catch-of-a-lifetime",
     "name": "The Catch of a Lifetime!",
     "nameEs": "The Catch of a Lifetime!",
-    "source": "https://mhwilds.kiranico.com/data/missions/the-catch-of-a-lifetime"
+    "source": "https://mhwilds.kiranico.com/data/missions/the-catch-of-a-lifetime",
+    "description": "Kanya has asked you to catch a whopper. While they say to use big bait for a big fish, it seems this one requires a bit more  technique to reel in. They always say, \"The true worth of a fisher is to be measured by the whopper they pursue,\" so go to the Scarlet Forest and prove yours.",
+    "title": "The Catch of a Lifetime!"
   },
   {
     "id": "missions-razzle-dazzle",
@@ -549,7 +685,9 @@
     "slug": "razzle-dazzle",
     "name": "Razzle Dazzle",
     "nameEs": "Razzle Dazzle",
-    "source": "https://mhwilds.kiranico.com/data/missions/razzle-dazzle"
+    "source": "https://mhwilds.kiranico.com/data/missions/razzle-dazzle",
+    "description": "A fishing request from Kanya. This time she wants you to catch an Escunite, some of which bear a dazzling shimmer. Apparently not even your experienced fisherfellow has glimpsed one before, so get out there and hook one to share in the joy of a new discovery.",
+    "title": "Razzle Dazzle"
   },
   {
     "id": "missions-dareels-research-report",
@@ -557,7 +695,9 @@
     "slug": "dareels-research-report",
     "name": "Dareel's Research Report",
     "nameEs": "Dareel's Research Report",
-    "source": "https://mhwilds.kiranico.com/data/missions/dareels-research-report"
+    "source": "https://mhwilds.kiranico.com/data/missions/dareels-research-report",
+    "description": "Dareel has asked you to catch one of the Tracktail Lizards that live in the Windward Plains. Apparently, it is particularly dire that he get it for his investigation on endemic life.",
+    "title": "Dareel's Research Report"
   },
   {
     "id": "missions-samins-research-report",
@@ -565,7 +705,9 @@
     "slug": "samins-research-report",
     "name": "Samin's Research Report",
     "nameEs": "Samin's Research Report",
-    "source": "https://mhwilds.kiranico.com/data/missions/samins-research-report"
+    "source": "https://mhwilds.kiranico.com/data/missions/samins-research-report",
+    "description": "Samin has asked you to catch a Dapperwing, which lives in the Scarlet Forest. According to him, it isn't sporting of you to only help Dareel.",
+    "title": "Samin's Research Report"
   },
   {
     "id": "missions-dareels-research-report-cont",
@@ -573,7 +715,9 @@
     "slug": "dareels-research-report-cont",
     "name": "Dareel's Research Report (Cont.)",
     "nameEs": "Dareel's Research Report (Cont.)",
-    "source": "https://mhwilds.kiranico.com/data/missions/dareels-research-report-cont"
+    "source": "https://mhwilds.kiranico.com/data/missions/dareels-research-report-cont",
+    "description": "As a second request, Dareel has asked you to catch an Ember Rufflizard from Oilwell Basin. Although it seems he has ulterior motives behind the request, it might be best to just help him out.",
+    "title": "Dareel's Research Report (Cont.)"
   },
   {
     "id": "missions-samins-research-report-cont",
@@ -581,7 +725,9 @@
     "slug": "samins-research-report-cont",
     "name": "Samin's Research Report (Cont.)",
     "nameEs": "Samin's Research Report (Cont.)",
-    "source": "https://mhwilds.kiranico.com/data/missions/samins-research-report-cont"
+    "source": "https://mhwilds.kiranico.com/data/missions/samins-research-report-cont",
+    "description": "For Samin's follow-up request, he has asked you to find a Rime Beetle in the Iceshard Cliffs. He has firmly asserted that \"THIS one is a proper investigation request.\" The more we know about endemic life the better, so let's lend him a hand.",
+    "title": "Samin's Research Report (Cont.)"
   },
   {
     "id": "missions-dareels-special-research-report",
@@ -589,7 +735,9 @@
     "slug": "dareels-special-research-report",
     "name": "Dareel's Special Research Report",
     "nameEs": "Dareel's Special Research Report",
-    "source": "https://mhwilds.kiranico.com/data/missions/dareels-special-research-report"
+    "source": "https://mhwilds.kiranico.com/data/missions/dareels-special-research-report",
+    "description": "Now Dareel wants you to catch a rare Pillopod—also known as a Gillopod— from the Ruins of Wyveria. It seems this specimen blends in with normal Pillopods, but could be the result of a mutation.",
+    "title": "Dareel's Special Research Report"
   },
   {
     "id": "missions-samins-special-research-report",
@@ -597,7 +745,9 @@
     "slug": "samins-special-research-report",
     "name": "Samin's Special Research Report",
     "nameEs": "Samin's Special Research Report",
-    "source": "https://mhwilds.kiranico.com/data/missions/samins-special-research-report"
+    "source": "https://mhwilds.kiranico.com/data/missions/samins-special-research-report",
+    "description": "Now Samin wants you to catch a Sandstar at the Windward Plains. Apparently it only appears at night and is quick to flee when spotted. Might be a tricky catch, but he seems actually serious this time.",
+    "title": "Samin's Special Research Report"
   },
   {
     "id": "missions-high-quality-materials",
@@ -605,7 +755,9 @@
     "slug": "high-quality-materials",
     "name": "High-Quality Materials",
     "nameEs": "High-Quality Materials",
-    "source": "https://mhwilds.kiranico.com/data/missions/high-quality-materials"
+    "source": "https://mhwilds.kiranico.com/data/missions/high-quality-materials",
+    "description": "Gemma has asked you to fetch high- quality monster materials. She seems pretty fired up about something, but said there's no rush. Bring some back for her whenever you find time.",
+    "title": "High-Quality Materials"
   },
   {
     "id": "missions-beware-the-gypceros",
@@ -613,7 +765,9 @@
     "slug": "beware-the-gypceros",
     "name": "Beware the Gypceros",
     "nameEs": "Beware the Gypceros",
-    "source": "https://mhwilds.kiranico.com/data/missions/beware-the-gypceros"
+    "source": "https://mhwilds.kiranico.com/data/missions/beware-the-gypceros",
+    "description": "It was found that the monster wreaking havoc near Kunafa was a Gypceros. According to some information from Zatoh, the Gypceros in the Windward Plains only become active during the Fallow. Go and investigate when the opportunity to strike comes.",
+    "title": "Beware the Gypceros"
   },
   {
     "id": "missions-smithys-seal-of-quality",
@@ -621,7 +775,9 @@
     "slug": "smithys-seal-of-quality",
     "name": "Smithy's Seal of Quality",
     "nameEs": "Smithy's Seal of Quality",
-    "source": "https://mhwilds.kiranico.com/data/missions/smithys-seal-of-quality"
+    "source": "https://mhwilds.kiranico.com/data/missions/smithys-seal-of-quality",
+    "description": "Gemma has invented a new hunting tool and is dying to get out on the field to test it out. It's sure to live up to expectations as always, so go and see what the hype is all about.",
+    "title": "Smithy's Seal of Quality"
   },
   {
     "id": "missions-make-fluffy-dealings",
@@ -629,7 +785,9 @@
     "slug": "make-fluffy-dealings",
     "name": "Make Fluffy Dealings",
     "nameEs": "Make Fluffy Dealings",
-    "source": "https://mhwilds.kiranico.com/data/missions/make-fluffy-dealings"
+    "source": "https://mhwilds.kiranico.com/data/missions/make-fluffy-dealings",
+    "description": "According to Plumpeach, the change in the forest has allowed her beloved pink fur to grow strong and lush. If you accept and bring her Congalala fur, she will trade you something that may be of use in the future.",
+    "title": "Make Fluffy Dealings"
   },
   {
     "id": "missions-aidas-apprehensions",
@@ -637,7 +795,9 @@
     "slug": "aidas-apprehensions",
     "name": "Aida's Apprehensions",
     "nameEs": "Aida's Apprehensions",
-    "source": "https://mhwilds.kiranico.com/data/missions/aidas-apprehensions"
+    "source": "https://mhwilds.kiranico.com/data/missions/aidas-apprehensions",
+    "description": "According to Aida, a Bonefolk child ran into a Rompopolo and was injured. It appears that cases such as this have been increasing, affecting both Azuz, and the surrounding ecosystem. It can no longer be ignored. Deal with the situation quickly before anyone else gets hurt.",
+    "title": "Aida's Apprehensions"
   },
   {
     "id": "missions-aberrant-atrocity",
@@ -645,7 +805,9 @@
     "slug": "aberrant-atrocity",
     "name": "Aberrant Atrocity",
     "nameEs": "Aberrant Atrocity",
-    "source": "https://mhwilds.kiranico.com/data/missions/aberrant-atrocity"
+    "source": "https://mhwilds.kiranico.com/data/missions/aberrant-atrocity",
+    "description": "It is suspected that the monster that attacked Rove in Iceshard Cliffs is a Yian Kut-Ku. Moreover, it appears to be more ferocious as a result of being away from its natural habitat. This matter must be investigated.",
+    "title": "Aberrant Atrocity"
   },
   {
     "id": "missions-secure-wounded-hollow",
@@ -653,7 +815,9 @@
     "slug": "secure-wounded-hollow",
     "name": "Secure Wounded Hollow",
     "nameEs": "Secure Wounded Hollow",
-    "source": "https://mhwilds.kiranico.com/data/missions/secure-wounded-hollow"
+    "source": "https://mhwilds.kiranico.com/data/missions/secure-wounded-hollow",
+    "description": "Cobb says two Hirabami have been spotted in Wounded Hollow. They are a big threat to the safety of the nearby Keepers and must be dealt with. Make use of the fence that Gemma has repaired while on the hunt.",
+    "title": "Secure Wounded Hollow"
   },
   {
     "id": "missions-a-leviathans-temper",
@@ -661,7 +825,9 @@
     "slug": "a-leviathans-temper",
     "name": "A Leviathan's Temper",
     "nameEs": "A Leviathan's Temper",
-    "source": "https://mhwilds.kiranico.com/data/missions/a-leviathans-temper"
+    "source": "https://mhwilds.kiranico.com/data/missions/a-leviathans-temper",
+    "description": "Based on Y'sai reports regarding the Vanguard's injuries, it appears to be the work of a Tempered Balahara. It must be hunted before anyone else gets hurt.",
+    "title": "A Leviathan's Temper"
   },
   {
     "id": "missions-forest-doshaguma",
@@ -669,7 +835,9 @@
     "slug": "forest-doshaguma",
     "name": "Forest Doshaguma",
     "nameEs": "Forest Doshaguma",
-    "source": "https://mhwilds.kiranico.com/data/missions/forest-doshaguma"
+    "source": "https://mhwilds.kiranico.com/data/missions/forest-doshaguma",
+    "description": "Erik insists that you capture a Doshaguma from the Scarlet Forest that is \"absolutely vital to the expansion of his comparative analysis of typical representations and alpha variants in the species.\" Go catch him one before he gets tempted to do it himself.",
+    "title": "Forest Doshaguma"
   },
   {
     "id": "missions-succulent-scraps",
@@ -677,7 +845,9 @@
     "slug": "succulent-scraps",
     "name": "Succulent Scraps",
     "nameEs": "Succulent Scraps",
-    "source": "https://mhwilds.kiranico.com/data/missions/succulent-scraps"
+    "source": "https://mhwilds.kiranico.com/data/missions/succulent-scraps",
+    "description": "Dogard has reported that an unattended scrap pile of Oricalcite nearby attracted the attention of what is assumed to be a Gravios. It must be hunted before it brings any more harm to the village.",
+    "title": "Succulent Scraps"
   },
   {
     "id": "missions-what-we-protect",
@@ -685,7 +855,9 @@
     "slug": "what-we-protect",
     "name": "What We Protect",
     "nameEs": "What We Protect",
-    "source": "https://mhwilds.kiranico.com/data/missions/what-we-protect"
+    "source": "https://mhwilds.kiranico.com/data/missions/what-we-protect",
+    "description": "Alma received a report that a survey team investigating relics in the Iceshard Cliffs accidentally entered a Blangonga's territory, sending it into a rage. It has become a danger too great to leave alone and must be hunted.",
+    "title": "What We Protect"
   },
   {
     "id": "missions-werners-test-run",
@@ -693,7 +865,9 @@
     "slug": "werners-test-run",
     "name": "Werner's Test Run",
     "nameEs": "Werner's Test Run",
-    "source": "https://mhwilds.kiranico.com/data/missions/werners-test-run"
+    "source": "https://mhwilds.kiranico.com/data/missions/werners-test-run",
+    "description": "Werner claims to have created \"a good one\" this time. He apparently created something that utilizes the properties of Wyvern Milk. Take him along on a quest so he can test out the prototype.",
+    "title": "Werner's Test Run"
   },
   {
     "id": "missions-astonishing-adaptability",
@@ -701,7 +875,9 @@
     "slug": "astonishing-adaptability",
     "name": "Astonishing Adaptability",
     "nameEs": "Astonishing Adaptability",
-    "source": "https://mhwilds.kiranico.com/data/missions/astonishing-adaptability"
+    "source": "https://mhwilds.kiranico.com/data/missions/astonishing-adaptability",
+    "description": "Tasheen says a Xu Wu invaded the village, kidnapping a Keeper named Soshi. As this is an unprecedented event, the Guild decided to look into the matter immediately. While the reason for the attack is unknown, the Xu Wu must be hunted to ensure future safety.",
+    "title": "Astonishing Adaptability"
   },
   {
     "id": "missions-as-gatekeeper",
@@ -709,7 +885,9 @@
     "slug": "as-gatekeeper",
     "name": "As Gatekeeper",
     "nameEs": "As Gatekeeper",
-    "source": "https://mhwilds.kiranico.com/data/missions/as-gatekeeper"
+    "source": "https://mhwilds.kiranico.com/data/missions/as-gatekeeper",
+    "description": "Rex has reported two Ajarakan that have been spotted rampaging within Wounded Hollow. He has sent out a request for backup as his current priorities have left his hands tied. Make use of the fence as needed.",
+    "title": "As Gatekeeper"
   },
   {
     "id": "missions-continuing-conflict",
@@ -717,7 +895,9 @@
     "slug": "continuing-conflict",
     "name": "Continuing Conflict",
     "nameEs": "Continuing Conflict",
-    "source": "https://mhwilds.kiranico.com/data/missions/continuing-conflict"
+    "source": "https://mhwilds.kiranico.com/data/missions/continuing-conflict",
+    "description": "Murtabak reported two monsters fighting near Kunafa. It has been going on for days, and if left alone, could pose a  danger to the villagers. Go investigate, and take the necessary measures to ensure the safety of the village.",
+    "title": "Continuing Conflict"
   },
   {
     "id": "missions-fur-damagings-are-dislikeworthy",
@@ -725,7 +905,9 @@
     "slug": "fur-damagings-are-dislikeworthy",
     "name": "Fur Damagings Are Dislikeworthy",
     "nameEs": "Fur Damagings Are Dislikeworthy",
-    "source": "https://mhwilds.kiranico.com/data/missions/fur-damagings-are-dislikeworthy"
+    "source": "https://mhwilds.kiranico.com/data/missions/fur-damagings-are-dislikeworthy",
+    "description": "Plumpeach has submitted a fur request. A Lala Barina and Congalala have been fighting in the Scarlet Forest, causing her great distress. \"The fur is paying damagings! The ragings must be quelled!\" A prompt hunt is requested to restore peace to us all.",
+    "title": "Fur Damagings Are Dislikeworthy"
   },
   {
     "id": "missions-troublemakers",
@@ -733,7 +915,9 @@
     "slug": "troublemakers",
     "name": "Troublemakers",
     "nameEs": "Troublemakers",
-    "source": "https://mhwilds.kiranico.com/data/missions/troublemakers"
+    "source": "https://mhwilds.kiranico.com/data/missions/troublemakers",
+    "description": "Sabar says that monsters in the Oilwell Basin are impeding the miners' work. Judging from the available information, it appears to be particularly dangerous Gravios and Ajarakan. They are likely different from normal, so proceed with extra caution.",
+    "title": "Troublemakers"
   },
   {
     "id": "missions-echoing-from-the-cliffs",
@@ -741,7 +925,9 @@
     "slug": "echoing-from-the-cliffs",
     "name": "Echoing from the Cliffs",
     "nameEs": "Echoing from the Cliffs",
-    "source": "https://mhwilds.kiranico.com/data/missions/echoing-from-the-cliffs"
+    "source": "https://mhwilds.kiranico.com/data/missions/echoing-from-the-cliffs",
+    "description": "According to Apar, some monsters have been raging in the Iceshard Cliffs, which is forcing the smaller monsters to run toward Suja. Head to the cliffs to hunt the Hirabami and Blangonga at its center.",
+    "title": "Echoing from the Cliffs"
   },
   {
     "id": "missions-the-struggle-to-survive",
@@ -749,7 +935,9 @@
     "slug": "the-struggle-to-survive",
     "name": "The Struggle to Survive",
     "nameEs": "The Struggle to Survive",
-    "source": "https://mhwilds.kiranico.com/data/missions/the-struggle-to-survive"
+    "source": "https://mhwilds.kiranico.com/data/missions/the-struggle-to-survive",
+    "description": "Rysher thinks he may have spotted a tempered monster in the Ruins of Wyveria. It seems the first sightings were a Xu Wu and a Guardian Ebony Odogaron. Go conduct an investigation to gauge the level of threat.",
+    "title": "The Struggle to Survive"
   },
   {
     "id": "missions-the-apple-of-her-eye",
@@ -757,7 +945,9 @@
     "slug": "the-apple-of-her-eye",
     "name": "The Apple of Her Eye",
     "nameEs": "The Apple of Her Eye",
-    "source": "https://mhwilds.kiranico.com/data/missions/the-apple-of-her-eye"
+    "source": "https://mhwilds.kiranico.com/data/missions/the-apple-of-her-eye",
+    "description": "Alma lost her beloved glasses while investigating the Scarlet Forest. Perhaps the Wudwuds who were around know something.",
+    "title": "The Apple of Her Eye"
   },
   {
     "id": "missions-ultimate-strength",
@@ -765,7 +955,9 @@
     "slug": "ultimate-strength",
     "name": "Ultimate Strength",
     "nameEs": "Ultimate Strength",
-    "source": "https://mhwilds.kiranico.com/data/missions/ultimate-strength"
+    "source": "https://mhwilds.kiranico.com/data/missions/ultimate-strength",
+    "description": "Vespae Unit handler Quinn reports that there has been a significant decrease in sightings of tempered monsters in the Oilwell Basin. Search the middle and upper strata of the Oilwell Basin to see if you can find out what's going on.",
+    "title": "Ultimate Strength"
   },
   {
     "id": "missions-new-fashion-old-feelings",
@@ -773,7 +965,9 @@
     "slug": "new-fashion-old-feelings",
     "name": "New Fashion, Old Feelings",
     "nameEs": "New Fashion, Old Feelings",
-    "source": "https://mhwilds.kiranico.com/data/missions/new-fashion-old-feelings"
+    "source": "https://mhwilds.kiranico.com/data/missions/new-fashion-old-feelings",
+    "description": "Gemma calls upon the Hunter to help her put together a friendly fashion contest between the other units. Once each smithy decks their hunter out in the chosen Layered Armor, it's time to roll out the red carpet for \"Project Fashion Hunter: Busting Down the Door to Progress\"!",
+    "title": "New Fashion, Old Feelings"
   },
   {
     "id": "missions-awakening-the-past",
@@ -781,7 +975,9 @@
     "slug": "awakening-the-past",
     "name": "Awakening the Past",
     "nameEs": "Awakening the Past",
-    "source": "https://mhwilds.kiranico.com/data/missions/awakening-the-past"
+    "source": "https://mhwilds.kiranico.com/data/missions/awakening-the-past",
+    "description": "Laying dormant in the ancient expanse was Gogmazios, a creature categorized as an elder dragon. To defeat it, Werner proposes reactivating and using the ancient weapon that has been lodged in Gogmazios's back.",
+    "title": "Awakening the Past"
   },
   {
     "id": "missions-ghosts-pay-no-heed-to-tomorrow",
@@ -789,7 +985,9 @@
     "slug": "ghosts-pay-no-heed-to-tomorrow",
     "name": "Ghosts Pay No Heed to Tomorrow",
     "nameEs": "Ghosts Pay No Heed to Tomorrow",
-    "source": "https://mhwilds.kiranico.com/data/missions/ghosts-pay-no-heed-to-tomorrow"
+    "source": "https://mhwilds.kiranico.com/data/missions/ghosts-pay-no-heed-to-tomorrow",
+    "description": "Gogmazios has vanished like a ghost. Seizing this opportunity, the smithing team sets off to repair the Wyvern Milk energy nexus needed to operate an ancient weapon. Fearing for their safety, the Guild must nonetheless mobilize all its resources for the hard battle to come.",
+    "title": "Ghosts Pay No Heed to Tomorrow"
   },
   {
     "id": "quests-hot-on-their-tails",
@@ -797,7 +995,9 @@
     "slug": "hot-on-their-tails",
     "name": "[Assignments 1★] Hot on Their Tails",
     "nameEs": "[Assignments 1★] Hot on Their Tails",
-    "source": "https://mhwilds.kiranico.com/data/quests/hot-on-their-tails"
+    "source": "https://mhwilds.kiranico.com/data/quests/hot-on-their-tails",
+    "description": "We've spotted an SOS Flare from the Support Team and have confirmed that a Quematrice is after their goods. At this rate, the monster will follow that tasty meat straight to Base Camp! You have to stop them!",
+    "title": "Hot on Their Tails"
   },
   {
     "id": "quests-a-stage-of-rose-and-thorn",
@@ -805,7 +1005,9 @@
     "slug": "a-stage-of-rose-and-thorn",
     "name": "[Assignments 1★] A Stage of Rose and Thorn",
     "nameEs": "[Assignments 1★] A Stage of Rose and Thorn",
-    "source": "https://mhwilds.kiranico.com/data/quests/a-stage-of-rose-and-thorn"
+    "source": "https://mhwilds.kiranico.com/data/quests/a-stage-of-rose-and-thorn",
+    "description": "Erik of the Astrum Unit was rescued after being captured by a Lala Barina. It is likely to retaliate over the loss of its prey. Please go hunt them to avoid further victims.",
+    "title": "A Stage of Rose and Thorn"
   },
   {
     "id": "quests-drive-off-the-congalala",
@@ -813,7 +1015,9 @@
     "slug": "drive-off-the-congalala",
     "name": "[Assignments 1★] Drive Off the Congalala!",
     "nameEs": "[Assignments 1★] Drive Off the Congalala!",
-    "source": "https://mhwilds.kiranico.com/data/quests/drive-off-the-congalala"
+    "source": "https://mhwilds.kiranico.com/data/quests/drive-off-the-congalala",
+    "description": "Big creature is dis-dressing honey mountain. Yes yes, pink fur is prettyful—but smoke has the stink. BIG stink. You drive creature away, we give you puny hovel!",
+    "title": "Drive Off the Congalala!"
   },
   {
     "id": "quests-balahara-of-the-sandsea",
@@ -821,7 +1025,9 @@
     "slug": "balahara-of-the-sandsea",
     "name": "[Assignments 1★] Balahara of the Sandsea",
     "nameEs": "[Assignments 1★] Balahara of the Sandsea",
-    "source": "https://mhwilds.kiranico.com/data/quests/balahara-of-the-sandsea"
+    "source": "https://mhwilds.kiranico.com/data/quests/balahara-of-the-sandsea",
+    "description": "The Vanguard leader was injured by Balahara while fleeing. The monsters unfortunately picked up his scent, which will lead them straight to Kunafa. Please go hunt them, for everyone's safety.",
+    "title": "Balahara of the Sandsea"
   },
   {
     "id": "quests-a-feast-in-the-deep",
@@ -829,7 +1035,9 @@
     "slug": "a-feast-in-the-deep",
     "name": "[Assignments 2★] A Feast in the Deep",
     "nameEs": "[Assignments 2★] A Feast in the Deep",
-    "source": "https://mhwilds.kiranico.com/data/quests/a-feast-in-the-deep"
+    "source": "https://mhwilds.kiranico.com/data/quests/a-feast-in-the-deep",
+    "description": "Spotted unknown monster beneath the water during investigation. Was careless. Fought to protect crew, but  became target. Identifiable by its water-like veils. Requesting assistance to drive off the monster.",
+    "title": "A Feast in the Deep"
   },
   {
     "id": "quests-a-fuse-ignited",
@@ -837,7 +1045,9 @@
     "slug": "a-fuse-ignited",
     "name": "[Assignments 2★] A Fuse Ignited",
     "nameEs": "[Assignments 2★] A Fuse Ignited",
-    "source": "https://mhwilds.kiranico.com/data/quests/a-fuse-ignited"
+    "source": "https://mhwilds.kiranico.com/data/quests/a-fuse-ignited",
+    "description": "It's highly likely that a girl of the Oilfolk has wandered into monster territory. Please go hunt the Rompopolo, for everyone's safety.",
+    "title": "A Fuse Ignited"
   },
   {
     "id": "quests-a-merciless-glare",
@@ -845,7 +1055,9 @@
     "slug": "a-merciless-glare",
     "name": "[Assignments 2★] A Merciless Glare",
     "nameEs": "[Assignments 2★] A Merciless Glare",
-    "source": "https://mhwilds.kiranico.com/data/quests/a-merciless-glare"
+    "source": "https://mhwilds.kiranico.com/data/quests/a-merciless-glare",
+    "description": "A monster—suspected to be the desert's apex predator— and the White Wraith have been spotted atop Wind's Gasp. The apex predator began to rampage in the wake of the White Wraith's absence. The monster must be slain for the safety of the village.",
+    "title": "A Merciless Glare"
   },
   {
     "id": "quests-the-quiet-cunning-assassin",
@@ -853,7 +1065,9 @@
     "slug": "the-quiet-cunning-assassin",
     "name": "[Assignments 2★] The Quiet, Cunning Assassin",
     "nameEs": "[Assignments 2★] The Quiet, Cunning Assassin",
-    "source": "https://mhwilds.kiranico.com/data/quests/the-quiet-cunning-assassin"
+    "source": "https://mhwilds.kiranico.com/data/quests/the-quiet-cunning-assassin",
+    "description": "It's that giant spider. So this is my death... Nay, life would be preferred. Oh, has a new death come for me? Or is it my salvation? I shall leave it to fate.",
+    "title": "The Quiet, Cunning Assassin"
   },
   {
     "id": "quests-fight-or-flight",
@@ -861,7 +1075,9 @@
     "slug": "fight-or-flight",
     "name": "[Assignments 2★] Fight or Flight",
     "nameEs": "[Assignments 2★] Fight or Flight",
-    "source": "https://mhwilds.kiranico.com/data/quests/fight-or-flight"
+    "source": "https://mhwilds.kiranico.com/data/quests/fight-or-flight",
+    "description": "Avis Unit member Nata has come down with a fever. Hunt the Hirabami to clear the path to Azuz in order to get him back safely.",
+    "title": "Fight or Flight"
   },
   {
     "id": "quests-ajarakan-ablaze",
@@ -869,7 +1085,9 @@
     "slug": "ajarakan-ablaze",
     "name": "[Assignments 2★] Ajarakan Ablaze",
     "nameEs": "[Assignments 2★] Ajarakan Ablaze",
-    "source": "https://mhwilds.kiranico.com/data/quests/ajarakan-ablaze"
+    "source": "https://mhwilds.kiranico.com/data/quests/ajarakan-ablaze",
+    "description": "Mending the Landspine has caused Inclemency to occur in Oilwell Basin and now a number of Ajarakan are attacking Azuz. Please go hunt them to ensure the village's safety.",
+    "title": "Ajarakan Ablaze"
   },
   {
     "id": "quests-an-ominous-encounter",
@@ -877,7 +1095,9 @@
     "slug": "an-ominous-encounter",
     "name": "[Assignments 3★] An Ominous Encounter",
     "nameEs": "[Assignments 3★] An Ominous Encounter",
-    "source": "https://mhwilds.kiranico.com/data/quests/an-ominous-encounter"
+    "source": "https://mhwilds.kiranico.com/data/quests/an-ominous-encounter",
+    "description": "We encountered a white Doshaguma while searching the Keepers' Vigil. That is, it looked like a Doshaguma, but its behavior was...strange. Was it really a Doshaguma?",
+    "title": "An Ominous Encounter"
   },
   {
     "id": "quests-the-ashen-king",
@@ -885,7 +1105,9 @@
     "slug": "the-ashen-king",
     "name": "[Assignments 3★] The Ashen King",
     "nameEs": "[Assignments 3★] The Ashen King",
-    "source": "https://mhwilds.kiranico.com/data/quests/the-ashen-king"
+    "source": "https://mhwilds.kiranico.com/data/quests/the-ashen-king",
+    "description": "It was a Rathalos, king of the skies, that attacked the door we suspect leads to the Village of the Keepers! It appears to have similar characteristics to the white Doshaguma we found previously. Slay this monster before it brings harm to the Keepers.",
+    "title": "The Ashen King"
   },
   {
     "id": "quests-repel-the",
@@ -893,7 +1115,9 @@
     "slug": "repel-the",
     "name": "[Assignments 3★] Repel the",
     "nameEs": "[Assignments 3★] Repel the",
-    "source": "https://mhwilds.kiranico.com/data/quests/repel-the"
+    "source": "https://mhwilds.kiranico.com/data/quests/repel-the",
+    "description": "The White Wraith, Guardian Arkveld. The mysteries surrounding this monster run deep. For now, we must prioritize the search and rescue of two missing Keepers. Guardian Arkveld must be driven off.",
+    "title": "Repel the"
   },
   {
     "id": "quests-the-rimechain-trial",
@@ -901,7 +1125,9 @@
     "slug": "the-rimechain-trial",
     "name": "[Assignments 3★] The Rimechain Trial",
     "nameEs": "[Assignments 3★] The Rimechain Trial",
-    "source": "https://mhwilds.kiranico.com/data/quests/the-rimechain-trial"
+    "source": "https://mhwilds.kiranico.com/data/quests/the-rimechain-trial",
+    "description": "We must get to Suja and locate the Allhearken, but a huge monster freezing the peaks of the mountain is blocking the path. It must be driven off to ensure the safety of all.",
+    "title": "The Rimechain Trial"
   },
   {
     "id": "quests-watcher-of-the-ancient-capital",
@@ -909,7 +1135,9 @@
     "slug": "watcher-of-the-ancient-capital",
     "name": "[Assignments 3★] Watcher of the Ancient Capital",
     "nameEs": "[Assignments 3★] Watcher of the Ancient Capital",
-    "source": "https://mhwilds.kiranico.com/data/quests/watcher-of-the-ancient-capital"
+    "source": "https://mhwilds.kiranico.com/data/quests/watcher-of-the-ancient-capital",
+    "description": "While surveying the ecology within Wyveria, we encountered an extremely territorial Guardian Ebony Odogaron. Fleeing or hiding from this beast is not an option. The Guild requests that you slay it to ensure the safety of the area.",
+    "title": "Watcher of the Ancient Capital"
   },
   {
     "id": "quests-a-hunter-in-the-void",
@@ -917,7 +1145,9 @@
     "slug": "a-hunter-in-the-void",
     "name": "[Assignments 3★] A Hunter in the Void",
     "nameEs": "[Assignments 3★] A Hunter in the Void",
-    "source": "https://mhwilds.kiranico.com/data/quests/a-hunter-in-the-void"
+    "source": "https://mhwilds.kiranico.com/data/quests/a-hunter-in-the-void",
+    "description": "Wyveria is home to a monster that preys upon Guardians. Please go hunt this monster for everyone's safety and our continued research of this ecosystem.",
+    "title": "A Hunter in the Void"
   },
   {
     "id": "quests-the-pale-dream-of-a-lone-shadow",
@@ -925,7 +1155,9 @@
     "slug": "the-pale-dream-of-a-lone-shadow",
     "name": "[Assignments 3★] The Pale Dream of a Lone Shadow",
     "nameEs": "[Assignments 3★] The Pale Dream of a Lone Shadow",
-    "source": "https://mhwilds.kiranico.com/data/quests/the-pale-dream-of-a-lone-shadow"
+    "source": "https://mhwilds.kiranico.com/data/quests/the-pale-dream-of-a-lone-shadow",
+    "description": "Now that the Guardian Arkveld has learned how to feed, it has gone berserk and is attacking everything in sight. It must be slain in order to restore balance to the ecosystem.",
+    "title": "The Pale Dream of a Lone Shadow"
   },
   {
     "id": "quests-guardian-zoh-shia",
@@ -933,7 +1165,9 @@
     "slug": "guardian-zoh-shia",
     "name": "[Assignments 3★] Guardian Zoh Shia",
     "nameEs": "[Assignments 3★] Guardian Zoh Shia",
-    "source": "https://mhwilds.kiranico.com/data/quests/guardian-zoh-shia"
+    "source": "https://mhwilds.kiranico.com/data/quests/guardian-zoh-shia",
+    "description": "The Guardian that has slept for eons in the thrall of the Dragontorch now teeters on the edge of awakening. The time to slay Zoh Shia has come.",
+    "title": "Guardian Zoh Shia"
   },
   {
     "id": "quests-the-black-flame-quietly-manifests",
@@ -941,7 +1175,9 @@
     "slug": "the-black-flame-quietly-manifests",
     "name": "[Assignments 3★] The Black Flame Quietly Manifests",
     "nameEs": "[Assignments 3★] The Black Flame Quietly Manifests",
-    "source": "https://mhwilds.kiranico.com/data/quests/the-black-flame-quietly-manifests"
+    "source": "https://mhwilds.kiranico.com/data/quests/the-black-flame-quietly-manifests",
+    "description": "Inclemency has caused havoc in the Everforge, summoning a monster clad in dark flames from the depths of Oilwell Basin. Please hunt this monster to ensure the village's safety.",
+    "title": "The Black Flame Quietly Manifests"
   },
   {
     "id": "quests-pinnacle-of-the-pack",
@@ -949,7 +1185,9 @@
     "slug": "pinnacle-of-the-pack",
     "name": "[Assignments 1★] Pinnacle of the Pack",
     "nameEs": "[Assignments 1★] Pinnacle of the Pack",
-    "source": "https://mhwilds.kiranico.com/data/quests/pinnacle-of-the-pack"
+    "source": "https://mhwilds.kiranico.com/data/quests/pinnacle-of-the-pack",
+    "description": "A pack of Doshaguma is closing in on Kunafa. Hunt the alpha and the rest should scatter. Please—for everyone's safety.",
+    "title": "Pinnacle of the Pack"
   },
   {
     "id": "quests-lured-by-abundance",
@@ -957,7 +1195,9 @@
     "slug": "lured-by-abundance",
     "name": "[Assignments 4★] Lured by Abundance",
     "nameEs": "[Assignments 4★] Lured by Abundance",
-    "source": "https://mhwilds.kiranico.com/data/quests/lured-by-abundance"
+    "source": "https://mhwilds.kiranico.com/data/quests/lured-by-abundance",
+    "description": "A group of Yian Kut-Ku has been sighted in the Scarlet Forest that has entered the season of Plenty. Unfortunately, one was hit by a Wudwud paintball, and now they're all on alert. Please capture the specified monster for the sake of our investigation.",
+    "title": "Lured by Abundance"
   },
   {
     "id": "quests-frozen-lord-on-the-precipice",
@@ -965,7 +1205,9 @@
     "slug": "frozen-lord-on-the-precipice",
     "name": "[Assignments 6★] Frozen Lord on the Precipice",
     "nameEs": "[Assignments 6★] Frozen Lord on the Precipice",
-    "source": "https://mhwilds.kiranico.com/data/quests/frozen-lord-on-the-precipice"
+    "source": "https://mhwilds.kiranico.com/data/quests/frozen-lord-on-the-precipice",
+    "description": "Jin Dahaad activity has been confirmed as the cause of the frozen Wyrmway in Oilwell Basin. According to Nata's report, we're lucky to have discovered this before the damage spread further. Slay it before it starts affecting other areas.",
+    "title": "Frozen Lord on the Precipice"
   },
   {
     "id": "quests-roaring-rey-dau",
@@ -973,7 +1215,9 @@
     "slug": "roaring-rey-dau",
     "name": "[Assignments 6★] Roaring Rey Dau",
     "nameEs": "[Assignments 6★] Roaring Rey Dau",
-    "source": "https://mhwilds.kiranico.com/data/quests/roaring-rey-dau"
+    "source": "https://mhwilds.kiranico.com/data/quests/roaring-rey-dau",
+    "description": "We sighted a Rey Dau on a plateau not far out. Even from afar, its fury was clear to see. It was terrifying... So we decided to evacuate the village, before anything happened.",
+    "title": "Roaring Rey Dau"
   },
   {
     "id": "quests-tide-overtaking-timber",
@@ -981,7 +1225,9 @@
     "slug": "tide-overtaking-timber",
     "name": "[Assignments 6★] Tide Overtaking Timber",
     "nameEs": "[Assignments 6★] Tide Overtaking Timber",
-    "source": "https://mhwilds.kiranico.com/data/quests/tide-overtaking-timber"
+    "source": "https://mhwilds.kiranico.com/data/quests/tide-overtaking-timber",
+    "description": "Big rain fall, fall, fall. Water go WHOOSH! Whole forest BIG wettings! Lord of forest, different. Big angry! More water go WHOOSH! Tim work together. Copper-ate!",
+    "title": "Tide Overtaking Timber"
   },
   {
     "id": "quests-scorching-the-earth-once-more",
@@ -989,7 +1235,9 @@
     "slug": "scorching-the-earth-once-more",
     "name": "[Assignments 6★] Scorching the Earth Once More",
     "nameEs": "[Assignments 6★] Scorching the Earth Once More",
-    "source": "https://mhwilds.kiranico.com/data/quests/scorching-the-earth-once-more"
+    "source": "https://mhwilds.kiranico.com/data/quests/scorching-the-earth-once-more",
+    "description": "That thing... The Black Flame. It's just outside the village. By swallowing the valley's fire, it's grown far hotter than before—and I'm afraid it's something we simply cannot handle.",
+    "title": "Scorching the Earth Once More"
   },
   {
     "id": "quests-awaking-from-a-dream",
@@ -997,7 +1245,9 @@
     "slug": "awaking-from-a-dream",
     "name": "[Assignments 7★] Awaking From a Dream",
     "nameEs": "[Assignments 7★] Awaking From a Dream",
-    "source": "https://mhwilds.kiranico.com/data/quests/awaking-from-a-dream"
+    "source": "https://mhwilds.kiranico.com/data/quests/awaking-from-a-dream",
+    "description": "For the safety of the surrounding regions, you have been authorized to slay Arkveld. Based on all the reports of destruction caused by this monster, it is of the utmost threat. Approach with extreme caution.",
+    "title": "Awaking From a Dream"
   },
   {
     "id": "quests-thundering-flowers",
@@ -1005,7 +1255,9 @@
     "slug": "thundering-flowers",
     "name": "[Assignments 5★] Thundering Flowers",
     "nameEs": "[Assignments 5★] Thundering Flowers",
-    "source": "https://mhwilds.kiranico.com/data/quests/thundering-flowers"
+    "source": "https://mhwilds.kiranico.com/data/quests/thundering-flowers",
+    "description": "A tempered Lala Barina has caused a Guardian Fulgur Anjanath to emerge from its cocoon. Is this a natural occurrence here in Wyveria, I wonder? Whatever the case may be, the Guild's mission is clear: hunt both monsters.",
+    "title": "Thundering Flowers"
   },
   {
     "id": "quests-investigating-the-frenzied-shadow",
@@ -1013,7 +1265,9 @@
     "slug": "investigating-the-frenzied-shadow",
     "name": "[Assignments 4★] Investigating the Frenzied Shadow",
     "nameEs": "[Assignments 4★] Investigating the Frenzied Shadow",
-    "source": "https://mhwilds.kiranico.com/data/quests/investigating-the-frenzied-shadow"
+    "source": "https://mhwilds.kiranico.com/data/quests/investigating-the-frenzied-shadow",
+    "description": "There's been a sighting of a Nerscylla thought to be infected with the Frenzy in Wounded Hollow. Please hunt it quickly before it endangers other areas of the Forbidden Lands.",
+    "title": "Investigating the Frenzied Shadow"
   },
   {
     "id": "quests-shrouded-in-black",
@@ -1021,7 +1275,9 @@
     "slug": "shrouded-in-black",
     "name": "[Assignments 6★] Shrouded in Black",
     "nameEs": "[Assignments 6★] Shrouded in Black",
-    "source": "https://mhwilds.kiranico.com/data/quests/shrouded-in-black"
+    "source": "https://mhwilds.kiranico.com/data/quests/shrouded-in-black",
+    "description": "Gore Magala was found inhabiting in the Iceshard Cliffs. We were able to corner it with the help of Rex and Cobb, but as its existence could prove calamitous to the native environment, we must neutralize it.",
+    "title": "Shrouded in Black"
   },
   {
     "id": "quests-beware-the-chatacabra",
@@ -1029,7 +1285,9 @@
     "slug": "beware-the-chatacabra",
     "name": "[Optional Quests 1★] Beware the Chatacabra",
     "nameEs": "[Optional Quests 1★] Beware the Chatacabra",
-    "source": "https://mhwilds.kiranico.com/data/quests/beware-the-chatacabra"
+    "source": "https://mhwilds.kiranico.com/data/quests/beware-the-chatacabra",
+    "description": "",
+    "title": "Beware the Chatacabra"
   },
   {
     "id": "quests-buggin-in-the-desert",
@@ -1037,7 +1295,9 @@
     "slug": "buggin-in-the-desert",
     "name": "[Optional Quests 1★] Buggin' in the Desert",
     "nameEs": "[Optional Quests 1★] Buggin' in the Desert",
-    "source": "https://mhwilds.kiranico.com/data/quests/buggin-in-the-desert"
+    "source": "https://mhwilds.kiranico.com/data/quests/buggin-in-the-desert",
+    "description": "",
+    "title": "Buggin' in the Desert"
   },
   {
     "id": "quests-fire-starter",
@@ -1045,7 +1305,9 @@
     "slug": "fire-starter",
     "name": "[Optional Quests 1★] Fire Starter",
     "nameEs": "[Optional Quests 1★] Fire Starter",
-    "source": "https://mhwilds.kiranico.com/data/quests/fire-starter"
+    "source": "https://mhwilds.kiranico.com/data/quests/fire-starter",
+    "description": "",
+    "title": "Fire Starter"
   },
   {
     "id": "quests-the-desert-is-demanding",
@@ -1053,7 +1315,9 @@
     "slug": "the-desert-is-demanding",
     "name": "[Optional Quests 1★] The Desert is Demanding",
     "nameEs": "[Optional Quests 1★] The Desert is Demanding",
-    "source": "https://mhwilds.kiranico.com/data/quests/the-desert-is-demanding"
+    "source": "https://mhwilds.kiranico.com/data/quests/the-desert-is-demanding",
+    "description": "",
+    "title": "The Desert is Demanding"
   },
   {
     "id": "quests-every-rose",
@@ -1061,7 +1325,9 @@
     "slug": "every-rose",
     "name": "[Optional Quests 1★] Every Rose...",
     "nameEs": "[Optional Quests 1★] Every Rose...",
-    "source": "https://mhwilds.kiranico.com/data/quests/every-rose"
+    "source": "https://mhwilds.kiranico.com/data/quests/every-rose",
+    "description": "",
+    "title": "Every Rose..."
   },
   {
     "id": "quests-tussle-in-pink",
@@ -1069,7 +1335,9 @@
     "slug": "tussle-in-pink",
     "name": "[Optional Quests 1★] Tussle in Pink",
     "nameEs": "[Optional Quests 1★] Tussle in Pink",
-    "source": "https://mhwilds.kiranico.com/data/quests/tussle-in-pink"
+    "source": "https://mhwilds.kiranico.com/data/quests/tussle-in-pink",
+    "description": "",
+    "title": "Tussle in Pink"
   },
   {
     "id": "quests-a-sharp-sort",
@@ -1077,7 +1345,9 @@
     "slug": "a-sharp-sort",
     "name": "[Optional Quests 1★] A Sharp Sort",
     "nameEs": "[Optional Quests 1★] A Sharp Sort",
-    "source": "https://mhwilds.kiranico.com/data/quests/a-sharp-sort"
+    "source": "https://mhwilds.kiranico.com/data/quests/a-sharp-sort",
+    "description": "",
+    "title": "A Sharp Sort"
   },
   {
     "id": "quests-buggin-in-the-scarlet-forest",
@@ -1085,7 +1355,9 @@
     "slug": "buggin-in-the-scarlet-forest",
     "name": "[Optional Quests 1★] Buggin' in the Scarlet Forest",
     "nameEs": "[Optional Quests 1★] Buggin' in the Scarlet Forest",
-    "source": "https://mhwilds.kiranico.com/data/quests/buggin-in-the-scarlet-forest"
+    "source": "https://mhwilds.kiranico.com/data/quests/buggin-in-the-scarlet-forest",
+    "description": "",
+    "title": "Buggin' in the Scarlet Forest"
   },
   {
     "id": "quests-sand-sea-surges",
@@ -1093,7 +1365,9 @@
     "slug": "sand-sea-surges",
     "name": "[Optional Quests 1★] Sand Sea Surges",
     "nameEs": "[Optional Quests 1★] Sand Sea Surges",
-    "source": "https://mhwilds.kiranico.com/data/quests/sand-sea-surges"
+    "source": "https://mhwilds.kiranico.com/data/quests/sand-sea-surges",
+    "description": "",
+    "title": "Sand Sea Surges"
   },
   {
     "id": "quests-forest-outlaw",
@@ -1101,7 +1375,9 @@
     "slug": "forest-outlaw",
     "name": "[Optional Quests 1★] Forest Outlaw",
     "nameEs": "[Optional Quests 1★] Forest Outlaw",
-    "source": "https://mhwilds.kiranico.com/data/quests/forest-outlaw"
+    "source": "https://mhwilds.kiranico.com/data/quests/forest-outlaw",
+    "description": "",
+    "title": "Forest Outlaw"
   },
   {
     "id": "quests-veiled-by-the-tide",
@@ -1109,7 +1385,9 @@
     "slug": "veiled-by-the-tide",
     "name": "[Optional Quests 2★] Veiled by the Tide",
     "nameEs": "[Optional Quests 2★] Veiled by the Tide",
-    "source": "https://mhwilds.kiranico.com/data/quests/veiled-by-the-tide"
+    "source": "https://mhwilds.kiranico.com/data/quests/veiled-by-the-tide",
+    "description": "",
+    "title": "Veiled by the Tide"
   },
   {
     "id": "quests-oilwell-basin-blast",
@@ -1117,7 +1395,9 @@
     "slug": "oilwell-basin-blast",
     "name": "[Optional Quests 2★] Oilwell Basin Blast",
     "nameEs": "[Optional Quests 2★] Oilwell Basin Blast",
-    "source": "https://mhwilds.kiranico.com/data/quests/oilwell-basin-blast"
+    "source": "https://mhwilds.kiranico.com/data/quests/oilwell-basin-blast",
+    "description": "",
+    "title": "Oilwell Basin Blast"
   },
   {
     "id": "quests-march-of-the-kranodath",
@@ -1125,7 +1405,9 @@
     "slug": "march-of-the-kranodath",
     "name": "[Optional Quests 2★] March of the Kranodath",
     "nameEs": "[Optional Quests 2★] March of the Kranodath",
-    "source": "https://mhwilds.kiranico.com/data/quests/march-of-the-kranodath"
+    "source": "https://mhwilds.kiranico.com/data/quests/march-of-the-kranodath",
+    "description": "",
+    "title": "March of the Kranodath"
   },
   {
     "id": "quests-sultan-of-the-sand",
@@ -1133,7 +1415,9 @@
     "slug": "sultan-of-the-sand",
     "name": "[Optional Quests 2★] Sultan of the Sand",
     "nameEs": "[Optional Quests 2★] Sultan of the Sand",
-    "source": "https://mhwilds.kiranico.com/data/quests/sultan-of-the-sand"
+    "source": "https://mhwilds.kiranico.com/data/quests/sultan-of-the-sand",
+    "description": "",
+    "title": "Sultan of the Sand"
   },
   {
     "id": "quests-dance-of-shadows",
@@ -1141,7 +1425,9 @@
     "slug": "dance-of-shadows",
     "name": "[Optional Quests 2★] Dance of Shadows",
     "nameEs": "[Optional Quests 2★] Dance of Shadows",
-    "source": "https://mhwilds.kiranico.com/data/quests/dance-of-shadows"
+    "source": "https://mhwilds.kiranico.com/data/quests/dance-of-shadows",
+    "description": "",
+    "title": "Dance of Shadows"
   },
   {
     "id": "quests-fleet-flight",
@@ -1149,7 +1435,9 @@
     "slug": "fleet-flight",
     "name": "[Optional Quests 2★] Fleet Flight",
     "nameEs": "[Optional Quests 2★] Fleet Flight",
-    "source": "https://mhwilds.kiranico.com/data/quests/fleet-flight"
+    "source": "https://mhwilds.kiranico.com/data/quests/fleet-flight",
+    "description": "",
+    "title": "Fleet Flight"
   },
   {
     "id": "quests-buggin-in-the-cliffs",
@@ -1157,7 +1445,9 @@
     "slug": "buggin-in-the-cliffs",
     "name": "[Optional Quests 2★] Buggin' in the Cliffs",
     "nameEs": "[Optional Quests 2★] Buggin' in the Cliffs",
-    "source": "https://mhwilds.kiranico.com/data/quests/buggin-in-the-cliffs"
+    "source": "https://mhwilds.kiranico.com/data/quests/buggin-in-the-cliffs",
+    "description": "",
+    "title": "Buggin' in the Cliffs"
   },
   {
     "id": "quests-scorching-simian",
@@ -1165,7 +1455,9 @@
     "slug": "scorching-simian",
     "name": "[Optional Quests 2★] Scorching Simian",
     "nameEs": "[Optional Quests 2★] Scorching Simian",
-    "source": "https://mhwilds.kiranico.com/data/quests/scorching-simian"
+    "source": "https://mhwilds.kiranico.com/data/quests/scorching-simian",
+    "description": "",
+    "title": "Scorching Simian"
   },
   {
     "id": "quests-creeping-flames",
@@ -1173,7 +1465,9 @@
     "slug": "creeping-flames",
     "name": "[Optional Quests 3★] Creeping Flames",
     "nameEs": "[Optional Quests 3★] Creeping Flames",
-    "source": "https://mhwilds.kiranico.com/data/quests/creeping-flames"
+    "source": "https://mhwilds.kiranico.com/data/quests/creeping-flames",
+    "description": "",
+    "title": "Creeping Flames"
   },
   {
     "id": "quests-pallid-beasts-lament",
@@ -1181,7 +1475,9 @@
     "slug": "pallid-beasts-lament",
     "name": "[Optional Quests 3★] Pallid Beast's Lament",
     "nameEs": "[Optional Quests 3★] Pallid Beast's Lament",
-    "source": "https://mhwilds.kiranico.com/data/quests/pallid-beasts-lament"
+    "source": "https://mhwilds.kiranico.com/data/quests/pallid-beasts-lament",
+    "description": "",
+    "title": "Pallid Beast's Lament"
   },
   {
     "id": "quests-his-eternal-reign",
@@ -1189,7 +1485,9 @@
     "slug": "his-eternal-reign",
     "name": "[Optional Quests 3★] His Eternal Reign",
     "nameEs": "[Optional Quests 3★] His Eternal Reign",
-    "source": "https://mhwilds.kiranico.com/data/quests/his-eternal-reign"
+    "source": "https://mhwilds.kiranico.com/data/quests/his-eternal-reign",
+    "description": "",
+    "title": "His Eternal Reign"
   },
   {
     "id": "quests-spread-those-wings",
@@ -1197,7 +1495,9 @@
     "slug": "spread-those-wings",
     "name": "[Optional Quests 3★] Spread Those Wings",
     "nameEs": "[Optional Quests 3★] Spread Those Wings",
-    "source": "https://mhwilds.kiranico.com/data/quests/spread-those-wings"
+    "source": "https://mhwilds.kiranico.com/data/quests/spread-those-wings",
+    "description": "",
+    "title": "Spread Those Wings"
   },
   {
     "id": "quests-red-eyes-in-the-night",
@@ -1205,7 +1505,9 @@
     "slug": "red-eyes-in-the-night",
     "name": "[Optional Quests 3★] Red Eyes in the Night",
     "nameEs": "[Optional Quests 3★] Red Eyes in the Night",
-    "source": "https://mhwilds.kiranico.com/data/quests/red-eyes-in-the-night"
+    "source": "https://mhwilds.kiranico.com/data/quests/red-eyes-in-the-night",
+    "description": "",
+    "title": "Red Eyes in the Night"
   },
   {
     "id": "quests-consumer-of-void",
@@ -1213,7 +1515,9 @@
     "slug": "consumer-of-void",
     "name": "[Optional Quests 3★] Consumer of Void",
     "nameEs": "[Optional Quests 3★] Consumer of Void",
-    "source": "https://mhwilds.kiranico.com/data/quests/consumer-of-void"
+    "source": "https://mhwilds.kiranico.com/data/quests/consumer-of-void",
+    "description": "",
+    "title": "Consumer of Void"
   },
   {
     "id": "quests-a-futile-fight",
@@ -1221,7 +1525,9 @@
     "slug": "a-futile-fight",
     "name": "[Optional Quests 4★] A Futile Fight",
     "nameEs": "[Optional Quests 4★] A Futile Fight",
-    "source": "https://mhwilds.kiranico.com/data/quests/a-futile-fight"
+    "source": "https://mhwilds.kiranico.com/data/quests/a-futile-fight",
+    "description": "",
+    "title": "A Futile Fight"
   },
   {
     "id": "quests-the-pursued-and-the-pursuer",
@@ -1229,7 +1535,9 @@
     "slug": "the-pursued-and-the-pursuer",
     "name": "[Optional Quests 4★] The Pursued and the Pursuer",
     "nameEs": "[Optional Quests 4★] The Pursued and the Pursuer",
-    "source": "https://mhwilds.kiranico.com/data/quests/the-pursued-and-the-pursuer"
+    "source": "https://mhwilds.kiranico.com/data/quests/the-pursued-and-the-pursuer",
+    "description": "",
+    "title": "The Pursued and the Pursuer"
   },
   {
     "id": "quests-flower-of-eternal-rest",
@@ -1237,7 +1545,9 @@
     "slug": "flower-of-eternal-rest",
     "name": "[Optional Quests 4★] Flower of Eternal Rest",
     "nameEs": "[Optional Quests 4★] Flower of Eternal Rest",
-    "source": "https://mhwilds.kiranico.com/data/quests/flower-of-eternal-rest"
+    "source": "https://mhwilds.kiranico.com/data/quests/flower-of-eternal-rest",
+    "description": "",
+    "title": "Flower of Eternal Rest"
   },
   {
     "id": "quests-flippant-flatulence",
@@ -1245,7 +1555,9 @@
     "slug": "flippant-flatulence",
     "name": "[Optional Quests 4★] Flippant Flatulence",
     "nameEs": "[Optional Quests 4★] Flippant Flatulence",
-    "source": "https://mhwilds.kiranico.com/data/quests/flippant-flatulence"
+    "source": "https://mhwilds.kiranico.com/data/quests/flippant-flatulence",
+    "description": "",
+    "title": "Flippant Flatulence"
   },
   {
     "id": "quests-the-desert-knows-not-the-sea",
@@ -1253,7 +1565,9 @@
     "slug": "the-desert-knows-not-the-sea",
     "name": "[Optional Quests 4★] The Desert Knows Not the Sea",
     "nameEs": "[Optional Quests 4★] The Desert Knows Not the Sea",
-    "source": "https://mhwilds.kiranico.com/data/quests/the-desert-knows-not-the-sea"
+    "source": "https://mhwilds.kiranico.com/data/quests/the-desert-knows-not-the-sea",
+    "description": "",
+    "title": "The Desert Knows Not the Sea"
   },
   {
     "id": "quests-profusion-of-poison",
@@ -1261,7 +1575,9 @@
     "slug": "profusion-of-poison",
     "name": "[Optional Quests 4★] Profusion of Poison",
     "nameEs": "[Optional Quests 4★] Profusion of Poison",
-    "source": "https://mhwilds.kiranico.com/data/quests/profusion-of-poison"
+    "source": "https://mhwilds.kiranico.com/data/quests/profusion-of-poison",
+    "description": "",
+    "title": "Profusion of Poison"
   },
   {
     "id": "quests-the-nerscyllas-hunting-grounds",
@@ -1269,7 +1585,9 @@
     "slug": "the-nerscyllas-hunting-grounds",
     "name": "[Optional Quests 4★] The Nerscylla's Hunting Grounds",
     "nameEs": "[Optional Quests 4★] The Nerscylla's Hunting Grounds",
-    "source": "https://mhwilds.kiranico.com/data/quests/the-nerscyllas-hunting-grounds"
+    "source": "https://mhwilds.kiranico.com/data/quests/the-nerscyllas-hunting-grounds",
+    "description": "",
+    "title": "The Nerscylla's Hunting Grounds"
   },
   {
     "id": "quests-fleeting-victory",
@@ -1277,7 +1595,9 @@
     "slug": "fleeting-victory",
     "name": "[Optional Quests 4★] Fleeting Victory",
     "nameEs": "[Optional Quests 4★] Fleeting Victory",
-    "source": "https://mhwilds.kiranico.com/data/quests/fleeting-victory"
+    "source": "https://mhwilds.kiranico.com/data/quests/fleeting-victory",
+    "description": "",
+    "title": "Fleeting Victory"
   },
   {
     "id": "quests-all-hail-the-queen",
@@ -1285,7 +1605,9 @@
     "slug": "all-hail-the-queen",
     "name": "[Optional Quests 4★] All Hail the Queen",
     "nameEs": "[Optional Quests 4★] All Hail the Queen",
-    "source": "https://mhwilds.kiranico.com/data/quests/all-hail-the-queen"
+    "source": "https://mhwilds.kiranico.com/data/quests/all-hail-the-queen",
+    "description": "",
+    "title": "All Hail the Queen"
   },
   {
     "id": "quests-mysterious-poison",
@@ -1293,7 +1615,9 @@
     "slug": "mysterious-poison",
     "name": "[Optional Quests 4★] Mysterious Poison",
     "nameEs": "[Optional Quests 4★] Mysterious Poison",
-    "source": "https://mhwilds.kiranico.com/data/quests/mysterious-poison"
+    "source": "https://mhwilds.kiranico.com/data/quests/mysterious-poison",
+    "description": "",
+    "title": "Mysterious Poison"
   },
   {
     "id": "quests-time-to-exorcise",
@@ -1301,7 +1625,9 @@
     "slug": "time-to-exorcise",
     "name": "[Optional Quests 4★] Time to Exorcise",
     "nameEs": "[Optional Quests 4★] Time to Exorcise",
-    "source": "https://mhwilds.kiranico.com/data/quests/time-to-exorcise"
+    "source": "https://mhwilds.kiranico.com/data/quests/time-to-exorcise",
+    "description": "",
+    "title": "Time to Exorcise"
   },
   {
     "id": "quests-a-vow-to-remain",
@@ -1309,7 +1635,9 @@
     "slug": "a-vow-to-remain",
     "name": "[Optional Quests 4★] A Vow to Remain",
     "nameEs": "[Optional Quests 4★] A Vow to Remain",
-    "source": "https://mhwilds.kiranico.com/data/quests/a-vow-to-remain"
+    "source": "https://mhwilds.kiranico.com/data/quests/a-vow-to-remain",
+    "description": "",
+    "title": "A Vow to Remain"
   },
   {
     "id": "quests-a-sharp-squad",
@@ -1317,7 +1645,9 @@
     "slug": "a-sharp-squad",
     "name": "[Optional Quests 4★] A Sharp Squad",
     "nameEs": "[Optional Quests 4★] A Sharp Squad",
-    "source": "https://mhwilds.kiranico.com/data/quests/a-sharp-squad"
+    "source": "https://mhwilds.kiranico.com/data/quests/a-sharp-squad",
+    "description": "",
+    "title": "A Sharp Squad"
   },
   {
     "id": "quests-vespoid-capriccio",
@@ -1325,7 +1655,9 @@
     "slug": "vespoid-capriccio",
     "name": "[Optional Quests 4★] Vespoid Capriccio",
     "nameEs": "[Optional Quests 4★] Vespoid Capriccio",
-    "source": "https://mhwilds.kiranico.com/data/quests/vespoid-capriccio"
+    "source": "https://mhwilds.kiranico.com/data/quests/vespoid-capriccio",
+    "description": "",
+    "title": "Vespoid Capriccio"
   },
   {
     "id": "quests-doshaguma-hunt",
@@ -1333,7 +1665,9 @@
     "slug": "doshaguma-hunt",
     "name": "[Optional Quests 5★] Doshaguma Hunt",
     "nameEs": "[Optional Quests 5★] Doshaguma Hunt",
-    "source": "https://mhwilds.kiranico.com/data/quests/doshaguma-hunt"
+    "source": "https://mhwilds.kiranico.com/data/quests/doshaguma-hunt",
+    "description": "",
+    "title": "Doshaguma Hunt"
   },
   {
     "id": "quests-annihilating-anguish",
@@ -1341,7 +1675,9 @@
     "slug": "annihilating-anguish",
     "name": "[Optional Quests 5★] Annihilating Anguish",
     "nameEs": "[Optional Quests 5★] Annihilating Anguish",
-    "source": "https://mhwilds.kiranico.com/data/quests/annihilating-anguish"
+    "source": "https://mhwilds.kiranico.com/data/quests/annihilating-anguish",
+    "description": "",
+    "title": "Annihilating Anguish"
   },
   {
     "id": "quests-battle-with-the-white-doshaguma",
@@ -1349,7 +1685,9 @@
     "slug": "battle-with-the-white-doshaguma",
     "name": "[Optional Quests 5★] Battle with the White Doshaguma!",
     "nameEs": "[Optional Quests 5★] Battle with the White Doshaguma!",
-    "source": "https://mhwilds.kiranico.com/data/quests/battle-with-the-white-doshaguma"
+    "source": "https://mhwilds.kiranico.com/data/quests/battle-with-the-white-doshaguma",
+    "description": "",
+    "title": "Battle with the White Doshaguma!"
   },
   {
     "id": "quests-the-kings-triumphant-return",
@@ -1357,7 +1695,9 @@
     "slug": "the-kings-triumphant-return",
     "name": "[Optional Quests 5★] The King's Triumphant Return",
     "nameEs": "[Optional Quests 5★] The King's Triumphant Return",
-    "source": "https://mhwilds.kiranico.com/data/quests/the-kings-triumphant-return"
+    "source": "https://mhwilds.kiranico.com/data/quests/the-kings-triumphant-return",
+    "description": "",
+    "title": "The King's Triumphant Return"
   },
   {
     "id": "quests-white-wails",
@@ -1365,7 +1705,9 @@
     "slug": "white-wails",
     "name": "[Optional Quests 5★] White Wails",
     "nameEs": "[Optional Quests 5★] White Wails",
-    "source": "https://mhwilds.kiranico.com/data/quests/white-wails"
+    "source": "https://mhwilds.kiranico.com/data/quests/white-wails",
+    "description": "",
+    "title": "White Wails"
   },
   {
     "id": "quests-opposition",
@@ -1373,7 +1715,9 @@
     "slug": "opposition",
     "name": "[Optional Quests 5★] Opposition",
     "nameEs": "[Optional Quests 5★] Opposition",
-    "source": "https://mhwilds.kiranico.com/data/quests/opposition"
+    "source": "https://mhwilds.kiranico.com/data/quests/opposition",
+    "description": "",
+    "title": "Opposition"
   },
   {
     "id": "quests-guardian-fulgur-anjanath-hunt",
@@ -1381,7 +1725,9 @@
     "slug": "guardian-fulgur-anjanath-hunt",
     "name": "[Optional Quests 5★] Guardian Fulgur Anjanath Hunt",
     "nameEs": "[Optional Quests 5★] Guardian Fulgur Anjanath Hunt",
-    "source": "https://mhwilds.kiranico.com/data/quests/guardian-fulgur-anjanath-hunt"
+    "source": "https://mhwilds.kiranico.com/data/quests/guardian-fulgur-anjanath-hunt",
+    "description": "",
+    "title": "Guardian Fulgur Anjanath Hunt"
   },
   {
     "id": "quests-armor-like-a-mountain",
@@ -1389,7 +1735,9 @@
     "slug": "armor-like-a-mountain",
     "name": "[Optional Quests 5★] Armor Like a Mountain",
     "nameEs": "[Optional Quests 5★] Armor Like a Mountain",
-    "source": "https://mhwilds.kiranico.com/data/quests/armor-like-a-mountain"
+    "source": "https://mhwilds.kiranico.com/data/quests/armor-like-a-mountain",
+    "description": "",
+    "title": "Armor Like a Mountain"
   },
   {
     "id": "quests-blangonga-excursion",
@@ -1397,7 +1745,9 @@
     "slug": "blangonga-excursion",
     "name": "[Optional Quests 5★] Blangonga Excursion",
     "nameEs": "[Optional Quests 5★] Blangonga Excursion",
-    "source": "https://mhwilds.kiranico.com/data/quests/blangonga-excursion"
+    "source": "https://mhwilds.kiranico.com/data/quests/blangonga-excursion",
+    "description": "",
+    "title": "Blangonga Excursion"
   },
   {
     "id": "quests-king-of-the-skies",
@@ -1405,7 +1755,9 @@
     "slug": "king-of-the-skies",
     "name": "[Optional Quests 5★] King of the Skies",
     "nameEs": "[Optional Quests 5★] King of the Skies",
-    "source": "https://mhwilds.kiranico.com/data/quests/king-of-the-skies"
+    "source": "https://mhwilds.kiranico.com/data/quests/king-of-the-skies",
+    "description": "",
+    "title": "King of the Skies"
   },
   {
     "id": "quests-talk-about-hard-headed",
@@ -1413,7 +1765,9 @@
     "slug": "talk-about-hard-headed",
     "name": "[Optional Quests 4★] Talk About Hard Headed!",
     "nameEs": "[Optional Quests 4★] Talk About Hard Headed!",
-    "source": "https://mhwilds.kiranico.com/data/quests/talk-about-hard-headed"
+    "source": "https://mhwilds.kiranico.com/data/quests/talk-about-hard-headed",
+    "description": "",
+    "title": "Talk About Hard Headed!"
   },
   {
     "id": "quests-dream-eaters",
@@ -1421,7 +1775,9 @@
     "slug": "dream-eaters",
     "name": "[Optional Quests 4★] Dream Eaters",
     "nameEs": "[Optional Quests 4★] Dream Eaters",
-    "source": "https://mhwilds.kiranico.com/data/quests/dream-eaters"
+    "source": "https://mhwilds.kiranico.com/data/quests/dream-eaters",
+    "description": "",
+    "title": "Dream Eaters"
   },
   {
     "id": "quests-one-thick-veil",
@@ -1429,7 +1785,9 @@
     "slug": "one-thick-veil",
     "name": "[Optional Quests 6★] One Thick Veil!",
     "nameEs": "[Optional Quests 6★] One Thick Veil!",
-    "source": "https://mhwilds.kiranico.com/data/quests/one-thick-veil"
+    "source": "https://mhwilds.kiranico.com/data/quests/one-thick-veil",
+    "description": "",
+    "title": "One Thick Veil!"
   },
   {
     "id": "quests-when-the-dust-settles",
@@ -1437,7 +1795,9 @@
     "slug": "when-the-dust-settles",
     "name": "[Optional Quests 6★] When the Dust Settles...",
     "nameEs": "[Optional Quests 6★] When the Dust Settles...",
-    "source": "https://mhwilds.kiranico.com/data/quests/when-the-dust-settles"
+    "source": "https://mhwilds.kiranico.com/data/quests/when-the-dust-settles",
+    "description": "",
+    "title": "When the Dust Settles..."
   },
   {
     "id": "quests-sinister-sneer",
@@ -1445,7 +1805,9 @@
     "slug": "sinister-sneer",
     "name": "[Optional Quests 6★] Sinister Sneer",
     "nameEs": "[Optional Quests 6★] Sinister Sneer",
-    "source": "https://mhwilds.kiranico.com/data/quests/sinister-sneer"
+    "source": "https://mhwilds.kiranico.com/data/quests/sinister-sneer",
+    "description": "",
+    "title": "Sinister Sneer"
   },
   {
     "id": "quests-when-frost-falls",
@@ -1453,7 +1815,9 @@
     "slug": "when-frost-falls",
     "name": "[Optional Quests 6★] When Frost Falls",
     "nameEs": "[Optional Quests 6★] When Frost Falls",
-    "source": "https://mhwilds.kiranico.com/data/quests/when-frost-falls"
+    "source": "https://mhwilds.kiranico.com/data/quests/when-frost-falls",
+    "description": "",
+    "title": "When Frost Falls"
   },
   {
     "id": "quests-misty-depths",
@@ -1461,7 +1825,9 @@
     "slug": "misty-depths",
     "name": "[Optional Quests 6★] Misty Depths",
     "nameEs": "[Optional Quests 6★] Misty Depths",
-    "source": "https://mhwilds.kiranico.com/data/quests/misty-depths"
+    "source": "https://mhwilds.kiranico.com/data/quests/misty-depths",
+    "description": "",
+    "title": "Misty Depths"
   },
   {
     "id": "quests-small-white-feathers",
@@ -1469,7 +1835,9 @@
     "slug": "small-white-feathers",
     "name": "[Optional Quests 5★] Small White Feathers",
     "nameEs": "[Optional Quests 5★] Small White Feathers",
-    "source": "https://mhwilds.kiranico.com/data/quests/small-white-feathers"
+    "source": "https://mhwilds.kiranico.com/data/quests/small-white-feathers",
+    "description": "",
+    "title": "Small White Feathers"
   },
   {
     "id": "quests-the-chains-of-life",
@@ -1477,6 +1845,8 @@
     "slug": "the-chains-of-life",
     "name": "[Optional Quests 7★] The Chains of Life",
     "nameEs": "[Optional Quests 7★] The Chains of Life",
-    "source": "https://mhwilds.kiranico.com/data/quests/the-chains-of-life"
+    "source": "https://mhwilds.kiranico.com/data/quests/the-chains-of-life",
+    "description": "",
+    "title": "The Chains of Life"
   }
 ]

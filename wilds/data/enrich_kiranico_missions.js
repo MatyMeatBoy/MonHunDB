@@ -1,0 +1,4 @@
+const fs=require('fs'),path=require('path'); const file=path.join(__dirname,'missions.json'); const rows=JSON.parse(fs.readFileSync(file,'utf8'));
+const decode=s=>s.replace(/&#x27;|&#039;/g,"'").replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#x2F;/g,'/');
+async function one(x){const html=await (await fetch(x.source)).text(); const d=html.match(/<meta name="description" content="([^"]*)"/i); const title=html.match(/<title>([^<]*)<\/title>/i); return {...x,description:d?decode(d[1]):'',title: title?decode(title[1].replace(/\s*\|.*$/,'')):x.name};}
+async function main(){for(let i=0;i<rows.length;i+=8){const out=await Promise.all(rows.slice(i,i+8).map(x=>one(x).catch(()=>x))); rows.splice(i,8,...out); if((i+8)%40===0)console.log(`Enriched ${Math.min(i+8,rows.length)}/${rows.length}`)} fs.writeFileSync(file,JSON.stringify(rows,null,2)+'\n','utf8'); console.log(`Enriched ${rows.length} Wilds entries`)} main().catch(e=>{console.error(e);process.exitCode=1});
