@@ -1,0 +1,39 @@
+/* Build high-confidence MHFU weapon translations from ElOtroLado weapon trees.
+ * A Spanish label is accepted only when its weapon type + displayed attack
+ * identifies exactly one existing local weapon. This is translation-only. */
+const fs = require("fs");
+const path = require("path");
+const ROOT = path.resolve(__dirname, "../..");
+const CACHE = path.join(__dirname, "sources", "elotrolado_mhfu");
+const OUT = path.join(__dirname, "elotrolado_weapon_translations.json");
+const weapons = JSON.parse(fs.readFileSync(path.join(__dirname, "weapons.json"), "utf8"));
+const ICON_TYPES = { "MhfuGs.png": "Great Sword", "MhfuLs.png": "Long Sword", "Sns.png": "Sword & Shield", "Ds.png": "Dual Blades", "Hm.png": "Hammer", "Hh.png": "Hunting Horn", "Lc.png": "Lance", "Gl.png": "Gunlance", "Bw.png": "Bow" };
+function decode(s) { return String(s || "").replace(/<[^>]+>/g, " ").replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n))).replace(/&aacute;/g, "á").replace(/&eacute;/g, "é").replace(/&iacute;/g, "í").replace(/&oacute;/g, "ó").replace(/&uacute;/g, "ú").replace(/&ntilde;/g, "ñ").replace(/\s+/g, " ").trim(); }
+const records = [];
+for (const file of fs.readdirSync(CACHE).filter(file => file.endsWith(".html"))) {
+  const html = fs.readFileSync(path.join(CACHE, file), "utf8");
+  const re = /<img[^>]+alt="([^"]+)"[^>]*>\s*<span[^>]*color:#[0-9a-f]{6}[^>]*>([\s\S]*?)<\/span>/gi;
+  const matches = [...html.matchAll(re)];
+  for (let i = 0; i < matches.length; i++) {
+    const icon = matches[i][1], type = ICON_TYPES[icon];
+    if (!type) continue;
+    const nameEs = decode(matches[i][2]);
+    const segment = html.slice(matches[i].index + matches[i][0].length, matches[i + 1]?.index || html.length);
+    const attack = Number(segment.match(/<td>(\d+)z[\s\S]*?<\/td>\s*<td>(\d+)/i)?.[2]);
+    if (!nameEs || !attack || nameEs === "dummy") continue;
+    records.push({ file, type, nameEs, attack });
+  }
+}
+const translations = {}, ambiguous = [], unmatched = [];
+for (const record of records) {
+  const candidates = weapons.filter(w => w.type === record.type && Number(w.attack) === record.attack);
+  if (candidates.length === 1) {
+    const [weapon] = candidates;
+    // Identical local weapon can appear in normal/G pages; preserve first
+    // label because both pages use the same official Spanish name.
+    if (!translations[weapon.name]) translations[weapon.name] = record.nameEs;
+  } else if (candidates.length) ambiguous.push({ ...record, candidates: candidates.map(w => w.name) });
+  else unmatched.push(record);
+}
+fs.writeFileSync(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), source: "https://www.elotrolado.net/wiki/Especial:Buscar?fulltext=Search&search=Monster+Hunter+Freedom+Unite", matchedWeapons: Object.keys(translations).length, translations, ambiguous, unmatched }, null, 2) + "\n");
+console.log(`Matched ${Object.keys(translations).length} weapons; ${ambiguous.length} ambiguous, ${unmatched.length} unmatched labels retained for review.`);

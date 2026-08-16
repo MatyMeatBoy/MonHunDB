@@ -149,6 +149,7 @@ let mapGatheringItems = new Map();
 let veggieElderItems = new Map();
 let weapons = [];
 let bowStats = {};
+let elotroladoWeaponTranslations = {};
 let armorPieces = [];
 let armorSets = [];
 // "all" | "B" (Blademaster-exclusive) | "G" (Gunner-exclusive) | "BG" (Hibrido,
@@ -687,7 +688,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes, eventQuestsRes, combinationsRes, gatheringSourcesRes, farmGuideRes, bowStatsRes, keyQuestsRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes, eventQuestsRes, combinationsRes, gatheringSourcesRes, farmGuideRes, bowStatsRes, keyQuestsRes, weaponTranslationsRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
@@ -705,6 +706,7 @@ async function init() {
       fetch("data/farm_guide.json"),
       fetch("data/bow_stats.json"),
       fetch("data/key_quests.json"),
+      fetch("data/elotrolado_weapon_translations.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
@@ -720,6 +722,7 @@ async function init() {
     materialObtainNotes = obtainNotesRes.ok ? await obtainNotesRes.json() : {};
     weapons = weaponsRes.ok ? await weaponsRes.json() : [];
     bowStats = bowStatsRes.ok ? (await bowStatsRes.json()).bows || {} : {};
+    elotroladoWeaponTranslations = weaponTranslationsRes.ok ? (await weaponTranslationsRes.json()).translations || {} : {};
     armorPieces = armorPiecesRes.ok ? await armorPiecesRes.json() : [];
     armorSets = armorSetsRes.ok ? await armorSetsRes.json() : [];
     skills = skillsRes.ok ? await skillsRes.json() : [];
@@ -2000,7 +2003,7 @@ const MHFU_WEAPON_NAME_ES = {
   "Large Bone": "Hueso grande",
 };
 function trWeaponName(w) {
-  return lang === "es" ? (w.nameEs || MHFU_WEAPON_NAME_ES[w.name] || w.name) : w.name;
+  return lang === "es" ? (w.nameEs || elotroladoWeaponTranslations[w.name] || MHFU_WEAPON_NAME_ES[w.name] || w.name) : w.name;
 }
 // mhfu/data/weapons.json already carries real sharpness/sharpnessArtisan
 // (from the mhfu-db-main community extraction this file was built from --
