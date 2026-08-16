@@ -11833,39 +11833,88 @@
     "localImage": "data/images/armor_sets_full/guardian-arkveld-alpha-set.png",
     "materials": [
       {
-        "material": "Guardian Doshaguma Claw",
-        "qty": 2
+        "material": "Arkveld Scale+",
+        "qty": 6
       },
       {
-        "material": "Guardian Rathalos Webbing",
-        "qty": 2
-      },
-      {
-        "material": "Guardian Ebony Claw",
-        "qty": 2
-      },
-      {
-        "material": "Guardian Scale",
-        "qty": 3
-      },
-      {
-        "material": "Guardian Seikret Feather",
-        "qty": 2
-      },
-      {
-        "material": "Tough Guardian Bone",
-        "qty": 3
-      },
-      {
-        "material": "Guardian Blood",
+        "material": "Guardian Pelt+",
         "qty": 5
       },
       {
-        "material": "Guardian Pelt",
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Uth Duna Watergem",
+        "qty": 1
+      },
+      {
+        "material": "White Arkveld Pelt",
         "qty": 3
+      },
+      {
+        "material": "Arkveld Gem",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Blood+",
+        "qty": 3
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Arkveld Armorplate",
+        "qty": 6
+      },
+      {
+        "material": "White Arkveld Pelt",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Icegem",
+        "qty": 1
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Boltgem",
+        "qty": 1
+      },
+      {
+        "material": "Arkveld Scale+",
+        "qty": 4
+      },
+      {
+        "material": "Arkveld Calloushell",
+        "qty": 4
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Arkveld Armorplate",
+        "qty": 4
+      },
+      {
+        "material": "Guardian Scale+",
+        "qty": 5
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Nu Udra Flamegem",
+        "qty": 1
       }
     ],
-    "nameEs": "Arkveld Guardián α Set"
+    "nameEs": "Arkveld Guardián α Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/502047"
   },
   {
     "name": "Guardian Arkveld β Set",
@@ -12042,39 +12091,88 @@
     "localImage": "data/images/armor_sets_full/guardian-arkveld-beta-set.png",
     "materials": [
       {
-        "material": "Guardian Doshaguma Claw",
-        "qty": 2
+        "material": "Arkveld Scale+",
+        "qty": 6
       },
       {
-        "material": "Guardian Rathalos Webbing",
-        "qty": 2
-      },
-      {
-        "material": "Guardian Ebony Claw",
-        "qty": 2
-      },
-      {
-        "material": "Guardian Scale",
-        "qty": 3
-      },
-      {
-        "material": "Guardian Seikret Feather",
-        "qty": 2
-      },
-      {
-        "material": "Tough Guardian Bone",
-        "qty": 3
-      },
-      {
-        "material": "Guardian Blood",
+        "material": "Guardian Pelt+",
         "qty": 5
       },
       {
-        "material": "Guardian Pelt",
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Uth Duna Watergem",
+        "qty": 1
+      },
+      {
+        "material": "White Arkveld Pelt",
         "qty": 3
+      },
+      {
+        "material": "Arkveld Gem",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Blood+",
+        "qty": 3
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Arkveld Armorplate",
+        "qty": 6
+      },
+      {
+        "material": "White Arkveld Pelt",
+        "qty": 3
+      },
+      {
+        "material": "Jin Dahaad Icegem",
+        "qty": 1
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Rey Dau Boltgem",
+        "qty": 1
+      },
+      {
+        "material": "Arkveld Scale+",
+        "qty": 4
+      },
+      {
+        "material": "Arkveld Calloushell",
+        "qty": 4
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Arkveld Armorplate",
+        "qty": 4
+      },
+      {
+        "material": "Guardian Scale+",
+        "qty": 5
+      },
+      {
+        "material": "Hunter Symbol III",
+        "qty": 1
+      },
+      {
+        "material": "Nu Udra Flamegem",
+        "qty": 1
       }
     ],
-    "nameEs": "Arkveld Guardián β Set"
+    "nameEs": "Arkveld Guardián β Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/502048"
   },
   {
     "name": "Guardian Doshaguma α Set",
@@ -12240,35 +12338,84 @@
     "localImage": "data/images/armor_sets_full/guardian-doshaguma-alpha-set.png",
     "materials": [
       {
-        "material": "Guardian Doshaguma Fur",
-        "qty": 6
+        "material": "Guardian Blood+",
+        "qty": 2
       },
       {
-        "material": "Guardian Doshaguma Hide",
+        "material": "G. Doshaguma Certificate S",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Doshaguma Claw+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Doshaguma Fang+",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Pelt+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Doshaguma Fur+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Doshaguma Fang+",
+        "qty": 2
+      },
+      {
+        "material": "Beast Gem",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Doshaguma Fur+",
+        "qty": 5
+      },
+      {
+        "material": "G. Doshaguma Certificate S",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Doshaguma Fang+",
+        "qty": 3
+      },
+      {
+        "material": "Stoutbone",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Doshaguma Fur+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Doshaguma Hide+",
         "qty": 4
       },
       {
-        "material": "Guardian Doshaguma Claw",
-        "qty": 3
+        "material": "Guardian Doshaguma Claw+",
+        "qty": 2
       },
       {
-        "material": "Guardian Doshaguma Fang",
-        "qty": 3
+        "material": "Guardian Seikret Feather+",
+        "qty": 2
       },
       {
-        "material": "G. Doshaguma Certificate",
+        "material": "Guardian Doshaguma Hide+",
+        "qty": 5
+      },
+      {
+        "material": "G. Doshaguma Certificate S",
         "qty": 1
       },
       {
-        "material": "Guardian Blood",
-        "qty": 1
-      },
-      {
-        "material": "Guardian Pelt",
-        "qty": 1
+        "material": "Guardian Doshaguma Claw+",
+        "qty": 2
       }
     ],
-    "nameEs": "Doshaguma Guardián α Set"
+    "nameEs": "Doshaguma Guardián α Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501941"
   },
   {
     "name": "Guardian Doshaguma β Set",
@@ -12427,35 +12574,84 @@
     "localImage": "data/images/armor_sets_full/guardian-doshaguma-beta-set.png",
     "materials": [
       {
-        "material": "Guardian Doshaguma Fur",
-        "qty": 6
+        "material": "Guardian Blood+",
+        "qty": 2
       },
       {
-        "material": "Guardian Doshaguma Hide",
+        "material": "G. Doshaguma Certificate S",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Doshaguma Claw+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Doshaguma Fang+",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Pelt+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Doshaguma Fur+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Doshaguma Fang+",
+        "qty": 2
+      },
+      {
+        "material": "Beast Gem",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Doshaguma Fur+",
+        "qty": 5
+      },
+      {
+        "material": "G. Doshaguma Certificate S",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Doshaguma Fang+",
+        "qty": 3
+      },
+      {
+        "material": "Stoutbone",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Doshaguma Fur+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Doshaguma Hide+",
         "qty": 4
       },
       {
-        "material": "Guardian Doshaguma Claw",
-        "qty": 3
+        "material": "Guardian Doshaguma Claw+",
+        "qty": 2
       },
       {
-        "material": "Guardian Doshaguma Fang",
-        "qty": 3
+        "material": "Guardian Seikret Feather+",
+        "qty": 2
       },
       {
-        "material": "G. Doshaguma Certificate",
+        "material": "Guardian Doshaguma Hide+",
+        "qty": 5
+      },
+      {
+        "material": "G. Doshaguma Certificate S",
         "qty": 1
       },
       {
-        "material": "Guardian Blood",
-        "qty": 1
-      },
-      {
-        "material": "Guardian Pelt",
-        "qty": 1
+        "material": "Guardian Doshaguma Claw+",
+        "qty": 2
       }
     ],
-    "nameEs": "Doshaguma Guardián β Set"
+    "nameEs": "Doshaguma Guardián β Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501942"
   },
   {
     "name": "Guardian Ebony α Set",
@@ -12601,19 +12797,47 @@
     "localImage": "data/images/armor_sets_full/guardian-ebony-alpha-set.png",
     "materials": [
       {
-        "material": "Guardian Ebony Scale",
-        "qty": 4
-      },
-      {
-        "material": "Guardian Ebony Sinew",
-        "qty": 4
-      },
-      {
-        "material": "Guardian Ebony Claw",
+        "material": "Guardian Ebony Fang+",
         "qty": 3
       },
       {
-        "material": "Guardian Ebony Fang",
+        "material": "Guardian Ebony Claw+",
+        "qty": 4
+      },
+      {
+        "material": "Guardian Ebony Sinew+",
+        "qty": 6
+      },
+      {
+        "material": "Guardian Ebony Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Guardian Scale+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Ebony Claw+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Ebony Scale+",
+        "qty": 5
+      },
+      {
+        "material": "G. Ebony Odogaron Certificate S",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Ebony Gem",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Ebony Claw+",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Ebony Scale+",
         "qty": 3
       },
       {
@@ -12625,11 +12849,32 @@
         "qty": 1
       },
       {
-        "material": "G. Ebony Odogaron Certificate",
+        "material": "G. Ebony Odogaron Certificate S",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Ebony Fang+",
+        "qty": 2
+      },
+      {
+        "material": "Tough Guardian Bone",
+        "qty": 2
+      },
+      {
+        "material": "G. Ebony Odogaron Certificate S",
         "qty": 1
+      },
+      {
+        "material": "Guardian Ebony Fang+",
+        "qty": 4
+      },
+      {
+        "material": "Guardian Ebony Sinew+",
+        "qty": 5
       }
     ],
-    "nameEs": "Ébano Guardián α Set"
+    "nameEs": "Ébano Guardián α Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/502026"
   },
   {
     "name": "Guardian Ebony β Set",
@@ -12787,19 +13032,47 @@
     "localImage": "data/images/armor_sets_full/guardian-ebony-beta-set.png",
     "materials": [
       {
-        "material": "Guardian Ebony Scale",
-        "qty": 4
-      },
-      {
-        "material": "Guardian Ebony Sinew",
-        "qty": 4
-      },
-      {
-        "material": "Guardian Ebony Claw",
+        "material": "Guardian Ebony Fang+",
         "qty": 3
       },
       {
-        "material": "Guardian Ebony Fang",
+        "material": "Guardian Ebony Claw+",
+        "qty": 4
+      },
+      {
+        "material": "Guardian Ebony Sinew+",
+        "qty": 6
+      },
+      {
+        "material": "Guardian Ebony Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Guardian Scale+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Ebony Claw+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Ebony Scale+",
+        "qty": 5
+      },
+      {
+        "material": "G. Ebony Odogaron Certificate S",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Ebony Gem",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Ebony Claw+",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Ebony Scale+",
         "qty": 3
       },
       {
@@ -12811,11 +13084,32 @@
         "qty": 1
       },
       {
-        "material": "G. Ebony Odogaron Certificate",
+        "material": "G. Ebony Odogaron Certificate S",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Ebony Fang+",
+        "qty": 2
+      },
+      {
+        "material": "Tough Guardian Bone",
+        "qty": 2
+      },
+      {
+        "material": "G. Ebony Odogaron Certificate S",
         "qty": 1
+      },
+      {
+        "material": "Guardian Ebony Fang+",
+        "qty": 4
+      },
+      {
+        "material": "Guardian Ebony Sinew+",
+        "qty": 5
       }
     ],
-    "nameEs": "Ébano Guardián β Set"
+    "nameEs": "Ébano Guardián β Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/502027"
   },
   {
     "name": "Guardian Fulgur α Set",
@@ -12968,35 +13262,15 @@
     "localImage": "data/images/armor_sets_full/guardian-fulgur-alpha-set.png",
     "materials": [
       {
-        "material": "Wyvern Gem",
+        "material": "Guardian Fulgur Certificate S",
         "qty": 1
-      },
-      {
-        "material": "Guardian Fulgur Scale+",
-        "qty": 14
       },
       {
         "material": "Guardian Fulgur Pelt+",
-        "qty": 11
-      },
-      {
-        "material": "Guardian Fulgur Fang+",
-        "qty": 9
+        "qty": 5
       },
       {
         "material": "Guardian Fulgur Nosebone+",
-        "qty": 8
-      },
-      {
-        "material": "Guardian Fulgur Tail",
-        "qty": 2
-      },
-      {
-        "material": "Guardian Fulgur Gem",
-        "qty": 1
-      },
-      {
-        "material": "Guardian Fulgur Certificate S",
         "qty": 4
       },
       {
@@ -13004,27 +13278,68 @@
         "qty": 3
       },
       {
-        "material": "Guardian Blood+",
+        "material": "Wyvern Gem",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Fulgur Certificate S",
         "qty": 2
+      },
+      {
+        "material": "Guardian Fulgur Fang+",
+        "qty": 4
+      },
+      {
+        "material": "Guardian Fulgur Nosebone+",
+        "qty": 4
+      },
+      {
+        "material": "Guardian Fulgur Scale+",
+        "qty": 5
+      },
+      {
+        "material": "Guardian Fulgur Fang+",
+        "qty": 3
       },
       {
         "material": "Guardian Pelt+",
         "qty": 3
       },
       {
-        "material": "Guardian Fulgur Gem",
-        "qty": 10
-      },
-      {
         "material": "Guardian Fulgur Certificate S",
-        "qty": 15
+        "qty": 1
       },
       {
-        "material": "Hunter Symbol II",
-        "qty": 5
+        "material": "Guardian Fulgur Scale+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Fulgur Fang+",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Fulgur Gem",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Fulgur Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Guardian Fulgur Pelt+",
+        "qty": 6
+      },
+      {
+        "material": "Guardian Fulgur Tail",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Blood+",
+        "qty": 2
       }
     ],
-    "nameEs": "Fulgúreo Guardián α Set"
+    "nameEs": "Fulgúreo Guardián α Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501939"
   },
   {
     "name": "Guardian Fulgur β Set",
@@ -13193,35 +13508,15 @@
     "localImage": "data/images/armor_sets_full/guardian-fulgur-beta-set.png",
     "materials": [
       {
-        "material": "Wyvern Gem",
+        "material": "Guardian Fulgur Certificate S",
         "qty": 1
-      },
-      {
-        "material": "Guardian Fulgur Scale+",
-        "qty": 14
       },
       {
         "material": "Guardian Fulgur Pelt+",
-        "qty": 11
-      },
-      {
-        "material": "Guardian Fulgur Fang+",
-        "qty": 9
+        "qty": 5
       },
       {
         "material": "Guardian Fulgur Nosebone+",
-        "qty": 8
-      },
-      {
-        "material": "Guardian Fulgur Tail",
-        "qty": 2
-      },
-      {
-        "material": "Guardian Fulgur Gem",
-        "qty": 1
-      },
-      {
-        "material": "Guardian Fulgur Certificate S",
         "qty": 4
       },
       {
@@ -13229,27 +13524,68 @@
         "qty": 3
       },
       {
-        "material": "Guardian Blood+",
+        "material": "Wyvern Gem",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Fulgur Certificate S",
         "qty": 2
+      },
+      {
+        "material": "Guardian Fulgur Fang+",
+        "qty": 4
+      },
+      {
+        "material": "Guardian Fulgur Nosebone+",
+        "qty": 4
+      },
+      {
+        "material": "Guardian Fulgur Scale+",
+        "qty": 5
+      },
+      {
+        "material": "Guardian Fulgur Fang+",
+        "qty": 3
       },
       {
         "material": "Guardian Pelt+",
         "qty": 3
       },
       {
-        "material": "Guardian Fulgur Gem",
-        "qty": 10
-      },
-      {
         "material": "Guardian Fulgur Certificate S",
-        "qty": 15
+        "qty": 1
       },
       {
-        "material": "Hunter Symbol II",
-        "qty": 5
+        "material": "Guardian Fulgur Scale+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Fulgur Fang+",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Fulgur Gem",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Fulgur Scale+",
+        "qty": 6
+      },
+      {
+        "material": "Guardian Fulgur Pelt+",
+        "qty": 6
+      },
+      {
+        "material": "Guardian Fulgur Tail",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Blood+",
+        "qty": 2
       }
     ],
-    "nameEs": "Fulgúreo Guardián β Set"
+    "nameEs": "Fulgúreo Guardián β Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501940"
   },
   {
     "name": "Guardian Rathalos α Set",
@@ -13409,35 +13745,84 @@
     "localImage": "data/images/armor_sets_full/guardian-rathalos-alpha-set.png",
     "materials": [
       {
-        "material": "Guardian Rathalos Scale",
-        "qty": 6
-      },
-      {
-        "material": "Guardian Rathalos Shell",
-        "qty": 5
-      },
-      {
-        "material": "Guardian Rathalos Webbing",
-        "qty": 3
-      },
-      {
-        "material": "Guardian Rathalos Tail",
-        "qty": 2
+        "material": "Novacrystal",
+        "qty": 1
       },
       {
         "material": "G. Rathalos Certificate",
         "qty": 1
       },
       {
-        "material": "Guardian Scale",
+        "material": "Guardian Rathalos Wing",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Rathalos Carapace",
+        "qty": 5
+      },
+      {
+        "material": "Guardian Rathalos Wing",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Scale+",
+        "qty": 3
+      },
+      {
+        "material": "Guardian Rathalos Scale+",
+        "qty": 5
+      },
+      {
+        "material": "Guardian Rathalos Carapace",
+        "qty": 5
+      },
+      {
+        "material": "Guardian Rathalos Scale+",
+        "qty": 6
+      },
+      {
+        "material": "G. Rathalos Certificate S",
         "qty": 1
+      },
+      {
+        "material": "Guardian Rathalos Ruby",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Rathalos Tail",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Rathalos Wing",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Rathalos Carapace",
+        "qty": 6
+      },
+      {
+        "material": "Guardian Rathalos Scale+",
+        "qty": 6
       },
       {
         "material": "Guardian Rathalos Plate",
         "qty": 1
+      },
+      {
+        "material": "Inferno Sac",
+        "qty": 5
+      },
+      {
+        "material": "Guardian Rathalos Wing",
+        "qty": 2
+      },
+      {
+        "material": "G. Rathalos Certificate S",
+        "qty": 2
       }
     ],
-    "nameEs": "Rathalos Guardián α Set"
+    "nameEs": "Rathalos Guardián α Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501944"
   },
   {
     "name": "Guardian Rathalos β Set",
@@ -13598,35 +13983,84 @@
     "localImage": "data/images/armor_sets_full/guardian-rathalos-beta-set.png",
     "materials": [
       {
-        "material": "Guardian Rathalos Scale",
-        "qty": 6
+        "material": "Novacrystal",
+        "qty": 1
       },
       {
-        "material": "Guardian Rathalos Shell",
+        "material": "Guardian Rathalos Wing",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Rathalos Carapace",
         "qty": 5
       },
       {
-        "material": "Guardian Rathalos Webbing",
+        "material": "G. Rathalos Certificate S",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Rathalos Wing",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Scale+",
         "qty": 3
+      },
+      {
+        "material": "Guardian Rathalos Scale+",
+        "qty": 5
+      },
+      {
+        "material": "Guardian Rathalos Carapace",
+        "qty": 5
+      },
+      {
+        "material": "Guardian Rathalos Scale+",
+        "qty": 6
+      },
+      {
+        "material": "G. Rathalos Certificate S",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Rathalos Ruby",
+        "qty": 1
       },
       {
         "material": "Guardian Rathalos Tail",
         "qty": 2
       },
       {
-        "material": "G. Rathalos Certificate",
-        "qty": 1
+        "material": "Guardian Rathalos Wing",
+        "qty": 2
       },
       {
-        "material": "Guardian Scale",
-        "qty": 1
+        "material": "Guardian Rathalos Carapace",
+        "qty": 6
+      },
+      {
+        "material": "Guardian Rathalos Scale+",
+        "qty": 6
       },
       {
         "material": "Guardian Rathalos Plate",
         "qty": 1
+      },
+      {
+        "material": "Inferno Sac",
+        "qty": 5
+      },
+      {
+        "material": "Guardian Rathalos Wing",
+        "qty": 2
+      },
+      {
+        "material": "G. Rathalos Certificate S",
+        "qty": 2
       }
     ],
-    "nameEs": "Rathalos Guardián β Set"
+    "nameEs": "Rathalos Guardián β Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501946"
   },
   {
     "name": "Guardian Seikret α Set",
@@ -13682,15 +14116,16 @@
     "localImage": "data/images/armor_sets_full/guardian-seikret-alpha-set.png",
     "materials": [
       {
-        "material": "Guardian Seikret Feather",
-        "qty": 2
+        "material": "Tough Guardian Bone",
+        "qty": 4
       },
       {
-        "material": "Tough Guardian Bone",
-        "qty": 1
+        "material": "Guardian Seikret Feather+",
+        "qty": 4
       }
     ],
-    "nameEs": "Seikret Guardián α Set"
+    "nameEs": "Seikret Guardián α Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501936"
   },
   {
     "name": "Guardian Seikret β Set",
@@ -13749,15 +14184,16 @@
     "localImage": "data/images/armor_sets_full/guardian-seikret-beta-set.png",
     "materials": [
       {
-        "material": "Guardian Seikret Feather",
-        "qty": 2
+        "material": "Tough Guardian Bone",
+        "qty": 4
       },
       {
-        "material": "Tough Guardian Bone",
-        "qty": 1
+        "material": "Guardian Seikret Feather+",
+        "qty": 4
       }
     ],
-    "nameEs": "Seikret Guardián β Set"
+    "nameEs": "Seikret Guardián β Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501937"
   },
   {
     "name": "Guild Ace α Set",
@@ -24120,23 +24556,15 @@
     "localImage": "data/images/armor_sets_full/guardian-arkveld-set.png",
     "materials": [
       {
-        "material": "Guardian Doshaguma Claw",
-        "qty": 2
-      },
-      {
-        "material": "Guardian Rathalos Webbing",
-        "qty": 2
-      },
-      {
-        "material": "Guardian Ebony Claw",
-        "qty": 2
+        "material": "Guardian Blood",
+        "qty": 1
       },
       {
         "material": "Guardian Scale",
-        "qty": 3
+        "qty": 1
       },
       {
-        "material": "Guardian Seikret Feather",
+        "material": "Guardian Rathalos Webbing",
         "qty": 2
       },
       {
@@ -24145,14 +24573,47 @@
       },
       {
         "material": "Guardian Blood",
-        "qty": 5
+        "qty": 1
+      },
+      {
+        "material": "Guardian Ebony Claw",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Seikret Feather",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Blood",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Scale",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Blood",
+        "qty": 1
       },
       {
         "material": "Guardian Pelt",
-        "qty": 3
+        "qty": 1
+      },
+      {
+        "material": "Guardian Doshaguma Claw",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Blood",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Pelt",
+        "qty": 2
       }
     ],
-    "nameEs": "Arkveld Guardián Set"
+    "nameEs": "Arkveld Guardián Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501385"
   },
   {
     "name": "Guardian Doshaguma Set",
@@ -24287,22 +24748,30 @@
     "materials": [
       {
         "material": "Guardian Doshaguma Fur",
-        "qty": 6
+        "qty": 2
       },
       {
         "material": "Guardian Doshaguma Hide",
-        "qty": 4
-      },
-      {
-        "material": "Guardian Doshaguma Claw",
-        "qty": 3
+        "qty": 2
       },
       {
         "material": "Guardian Doshaguma Fang",
-        "qty": 3
+        "qty": 1
       },
       {
-        "material": "G. Doshaguma Certificate",
+        "material": "Guardian Doshaguma Fur",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Doshaguma Claw",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Doshaguma Hide",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Doshaguma Fang",
         "qty": 1
       },
       {
@@ -24310,11 +24779,32 @@
         "qty": 1
       },
       {
+        "material": "Guardian Doshaguma Fur",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Doshaguma Claw",
+        "qty": 1
+      },
+      {
+        "material": "G. Doshaguma Certificate",
+        "qty": 1
+      },
+      {
         "material": "Guardian Pelt",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Doshaguma Fang",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Doshaguma Claw",
         "qty": 1
       }
     ],
-    "nameEs": "Doshaguma Guardián Set"
+    "nameEs": "Doshaguma Guardián Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501380"
   },
   {
     "name": "Guardian Ebony Set",
@@ -24448,35 +24938,64 @@
     "localImage": "data/images/armor_sets_full/guardian-ebony-set.png",
     "materials": [
       {
-        "material": "Guardian Ebony Scale",
-        "qty": 4
-      },
-      {
-        "material": "Guardian Ebony Sinew",
-        "qty": 4
-      },
-      {
         "material": "Guardian Ebony Claw",
-        "qty": 3
+        "qty": 1
       },
       {
         "material": "Guardian Ebony Fang",
-        "qty": 3
+        "qty": 1
       },
       {
         "material": "Guardian Ebony Tail",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Ebony Fang",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Ebony Sinew",
         "qty": 2
+      },
+      {
+        "material": "Guardian Ebony Fang",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Ebony Sinew",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Ebony Scale",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Ebony Claw",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Ebony Tail",
+        "qty": 1
+      },
+      {
+        "material": "G. Ebony Odogaron Certificate",
+        "qty": 1
       },
       {
         "material": "Guardian Ebony Plate",
         "qty": 1
       },
       {
-        "material": "G. Ebony Odogaron Certificate",
+        "material": "Guardian Ebony Claw",
         "qty": 1
+      },
+      {
+        "material": "Guardian Ebony Scale",
+        "qty": 2
       }
     ],
-    "nameEs": "Ébano Guardián Set"
+    "nameEs": "Ébano Guardián Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501382"
   },
   {
     "name": "Guardian Rathalos Set",
@@ -24610,23 +25129,47 @@
     "localImage": "data/images/armor_sets_full/guardian-rathalos-set.png",
     "materials": [
       {
+        "material": "G. Rathalos Certificate",
+        "qty": 1
+      },
+      {
         "material": "Guardian Rathalos Scale",
-        "qty": 6
-      },
-      {
-        "material": "Guardian Rathalos Shell",
-        "qty": 5
-      },
-      {
-        "material": "Guardian Rathalos Webbing",
-        "qty": 3
-      },
-      {
-        "material": "Guardian Rathalos Tail",
         "qty": 2
       },
       {
-        "material": "G. Rathalos Certificate",
+        "material": "Guardian Rathalos Shell",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Rathalos Plate",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Rathalos Shell",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Rathalos Webbing",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Rathalos Scale",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Rathalos Shell",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Rathalos Tail",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Rathalos Scale",
+        "qty": 2
+      },
+      {
+        "material": "Guardian Rathalos Webbing",
         "qty": 1
       },
       {
@@ -24634,11 +25177,16 @@
         "qty": 1
       },
       {
-        "material": "Guardian Rathalos Plate",
+        "material": "Guardian Rathalos Webbing",
+        "qty": 1
+      },
+      {
+        "material": "Guardian Rathalos Tail",
         "qty": 1
       }
     ],
-    "nameEs": "Rathalos Guardián Set"
+    "nameEs": "Rathalos Guardián Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501381"
   },
   {
     "name": "Guardian Seikret Set",
@@ -24699,7 +25247,8 @@
         "qty": 1
       }
     ],
-    "nameEs": "Seikret Guardián Set"
+    "nameEs": "Seikret Guardián Set",
+    "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501376"
   },
   {
     "name": "Hirabami Set",

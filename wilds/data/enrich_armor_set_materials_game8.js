@@ -18,12 +18,29 @@ const sources = [
   ['Hope Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/483472'],
   ['Leather Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/501358'],
   ['Uth Duna γ Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/536399']
+  ,['Guardian Arkveld Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/501385']
+  ,['Guardian Arkveld α Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/502047']
+  ,['Guardian Arkveld β Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/502048']
+  ,['Guardian Doshaguma Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/501380']
+  ,['Guardian Doshaguma α Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/501941']
+  ,['Guardian Doshaguma β Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/501942']
+  ,['Guardian Ebony Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/501382']
+  ,['Guardian Ebony α Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/502026']
+  ,['Guardian Ebony β Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/502027']
+  ,['Guardian Rathalos Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/501381']
+  ,['Guardian Rathalos α Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/501944']
+  ,['Guardian Rathalos β Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/501946']
+  ,['Guardian Fulgur α Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/501939']
+  ,['Guardian Fulgur β Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/501940']
+  ,['Guardian Seikret α Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/501936']
+  ,['Guardian Seikret β Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/501937']
+  ,['Guardian Seikret Set', 'https://game8.co/games/Monster-Hunter-Wilds/archives/501376']
 ];
 const sets = JSON.parse(fs.readFileSync(__dirname + '/armor_sets.json', 'utf8'));
 const pieces = JSON.parse(fs.readFileSync(__dirname + '/armor_pieces.json', 'utf8'));
 const byName = new Map(sets.map(set => [set.name, set]));
 const byPieceName = new Map(pieces.map(piece => [piece.name, piece]));
-const normalizePieceName = name => name.replace(/^Arkvulcan /, 'Arkveld ');
+const normalizePieceName = name => name.replace(/^Arkvulcan /, 'Arkveld ').replace(/^G\. /, 'Guardian ');
 
 async function main() {
   const updated = [];

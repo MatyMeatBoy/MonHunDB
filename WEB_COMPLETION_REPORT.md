@@ -47,7 +47,7 @@
 | Materiales de sets | `██████████` **100% documentado (156 con materiales + 3 solo zenny)** | 0 sin fuente |
 | Habilidades de sets | `██████████` **100% (159/159)** | **0 sets** |
 | Habilidades por pieza | `██████████` **100% (690/690)** | **0 piezas** |
-| Materiales por pieza | `██████░░░░` **58,8% (406/690)** | **284 piezas** |
+| Materiales por pieza | `██████████` **97,8% (675/690)** | **15 piezas** |
 | Datos de habilidades de charms | `█████████░` **97,8% (181/185)** | **4 entradas especiales sin habilidad publicable** |
 | Visor 3D | **Pendiente** | No hay modelos locales detectados |
 
@@ -57,7 +57,7 @@
 
 ```text
 Wilds: habilidades por pieza         0% pendiente  ░░░░░░░░░░
-Wilds: materiales por pieza          41% pendiente  ████░░░░░░
+Wilds: materiales por pieza           2% pendiente  ░░░░░░░░░░
 Wilds: charms (habilidades)           2% pendiente  ░░░░░░░░░░
 MHFU: fotos de sets                   1% pendiente  ░░░░░░░░░░
 Rise: rareza de armas                  0% pendiente  ░░░░░░░░░░
