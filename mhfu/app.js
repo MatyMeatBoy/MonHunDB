@@ -3299,6 +3299,7 @@ function showMaterialDetail(matKey) {
   }
   if (!materialIndex) buildMaterialIndex();
   const key = normalizeMaterialKey(matKey);
+  const catalogMaterial = items.find(item => normalizeMaterialKey(item.name) === key);
   const { sources, isPlusTierFallback } = getMaterialSources(matKey);
   const hasCombination = combinations.some(combo =>
     [combo.name, combo.materialA, combo.materialB].some(name => normalizeMaterialKey(name) === key)
