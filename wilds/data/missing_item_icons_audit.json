@@ -1,0 +1,36 @@
+{
+  "totalMissing": 7,
+  "byStatus": {
+    "special-entry-without-item-id": 7
+  },
+  "entries": [
+    {
+      "name": "Mutated Armament",
+      "status": "special-entry-without-item-id"
+    },
+    {
+      "name": "Assisted Combo: Akuma",
+      "status": "special-entry-without-item-id"
+    },
+    {
+      "name": "Gou Hadoken",
+      "status": "special-entry-without-item-id"
+    },
+    {
+      "name": "Drive Impact",
+      "status": "special-entry-without-item-id"
+    },
+    {
+      "name": "Bladescale Pod",
+      "status": "special-entry-without-item-id"
+    },
+    {
+      "name": "Shield Generator",
+      "status": "special-entry-without-item-id"
+    },
+    {
+      "name": "The Blackest Night",
+      "status": "special-entry-without-item-id"
+    }
+  ]
+}

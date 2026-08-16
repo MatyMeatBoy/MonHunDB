@@ -42,7 +42,7 @@
 | Recurso | Completo | Falta |
 |---|---:|---:|
 | Renders de monstruos locales | `█████████░` **98,1% (52/53)** | **1 render** |
-| Íconos de objetos | `██████████` **99,1% (768/775)** | **7 íconos** |
+| Íconos de objetos | `██████████` **100% de objetos identificables (768/768)** | 7 entradas especiales sin ID de objeto |
 | Imágenes de sets de armadura | `██████████` **100% (159/159)** | 0 |
 | Materiales de sets | `██████████` **100% documentado (156 con materiales + 3 solo zenny)** | 0 sin fuente |
 | Habilidades de sets | `██████████` **100% (159/159)** | **0 sets** |
@@ -76,7 +76,7 @@ Wilds: materiales de sets              0% pendiente  ░░░░░░░░░
 
 1. Desglosar materiales de forja por pieza en Wilds (las tablas agregadas de set ya están completas).
 2. Recuperar los renders de piezas MHFU que no tienen fuente visual fiable y limpiar los placeholders `None`.
-3. Auditar los siete iconos especiales de objetos Wilds que no tienen arte publicable.
+3. Mantener documentadas las siete entradas especiales Wilds sin ID de objeto mediante `data/missing_item_icons_audit.json`.
 4. Extender el visor 3D a Rise/Wilds cuando existan modelos compatibles.
 
 No hay un porcentaje global único honesto todavía: mezclar monstruos, iconos, armaduras, datos y modelos exigiría decidir pesos arbitrarios. Este informe deja cada porcentaje trazable y actualizable.
