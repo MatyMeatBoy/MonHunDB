@@ -671,6 +671,11 @@ async function loadMaterialTranslations() {
       const mhgu = await mhguRes.json();
       Object.assign(I18N.materials, mhgu.translations || {});
     }
+    const mh4uRes = await fetch("data/mh4u_item_translations.json");
+    if (mh4uRes.ok) {
+      const mh4u = await mh4uRes.json();
+      Object.assign(I18N.materials, mh4u.translations || {});
+    }
   } catch (e) {
     console.warn("No se pudieron cargar las traducciones de materiales", e);
   }
