@@ -29,6 +29,9 @@ const PAGES = [
 ];
 const EXTRA_SOURCES = [
   "https://www.elotrolado.net/hilo_hilo-oficial-monster-hunter-freedom-2-7_937584",
+  "https://monster-hunter-united.blogspot.com/2010/06/anciano-veggimontanas-nevadas.html",
+  "https://monster-hunter-united.blogspot.com/2010/05/granja.html",
+  "https://www.mundogamers.com/foros/26775-monster-hunter-freedom-2-a-84.html",
 ];
 
 function decode(value) {
@@ -92,5 +95,5 @@ async function externalPage(url) {
   }
   const sort = map => [...map.values()].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "es"));
   fs.writeFileSync(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), sources: [...PAGES.map(s => `https://www.elotrolado.net/wiki/${s}`), ...EXTRA_SOURCES], terms: sort(terms), weaponTerms: sort(weapons) }, null, 2) + "\n");
-  console.log(`Collected ${terms.size} table terms and ${weapons.size} weapon-tree labels from ${PAGES.length + EXTRA_SOURCES.length} ElOtroLado sources.`);
+  console.log(`Collected ${terms.size} Spanish terms and ${weapons.size} weapon-tree labels from ${PAGES.length + EXTRA_SOURCES.length} sources.`);
 })();
