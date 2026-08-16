@@ -3372,8 +3372,8 @@ const NEWS = [
     textKey: "newsV06Text",
     bulletsKey: "newsV06Bullets",
     imageHtml: () => `
-      ${itemMaskIconTag("010", 4, "news-item-icon")}
-      ${itemMaskIconTag("021", 7, "news-item-icon")}
+      <img src="data/images/gaismagorm.png" alt="" loading="lazy">
+      <img src="data/images/malzeno.png" alt="" loading="lazy">
     `,
   },
   {

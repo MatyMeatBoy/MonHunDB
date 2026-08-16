@@ -3613,7 +3613,10 @@ const NEWS = [
     titleKey: "newsWildsV03Title",
     textKey: "newsWildsV03Text",
     bulletsKey: "newsWildsV03Bullets",
-    imageHtml: () => `<img src="data/images/rey-dau.webp" alt="" loading="lazy">`,
+    imageHtml: () => `
+      <img src="data/images/icon-gore-magala.webp" alt="" loading="lazy">
+      <img src="data/images/icon-guardian-arkveld.webp" alt="" loading="lazy">
+    `,
   },
   {
     id: "v02",
