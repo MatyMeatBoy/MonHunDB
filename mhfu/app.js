@@ -100,7 +100,7 @@ const questDetailEl = document.getElementById("quest-detail");
 const questsSourceFilterEl = document.getElementById("quests-source-filter");
 const mhfuQuestGuideBodyEl = document.getElementById("mhfu-quest-guide-body");
 let quests = [];
-let keyQuestNames = new Set();
+let keyQuestGroups = {};
 let questsMode = "single";
 let questsSource = "";
 let questsCategory = "";
@@ -729,7 +729,7 @@ async function init() {
     itemsByName = new Map(items.map(it => [it.name, it]));
     quests = questsRes.ok ? await questsRes.json() : [];
     if (eventQuestsRes.ok) quests = quests.concat(await eventQuestsRes.json());
-    if (keyQuestsRes.ok) keyQuestNames = new Set((await keyQuestsRes.json()).names || []);
+    if (keyQuestsRes.ok) keyQuestGroups = (await keyQuestsRes.json()).groups || {};
     combinations = combinationsRes.ok ? await combinationsRes.json() : [];
     gatheringSources = gatheringSourcesRes.ok ? await gatheringSourcesRes.json() : gatheringSources;
     buildMapGatheringIndex();
@@ -4560,6 +4560,15 @@ function questStars(qt) {
     const star = Number(qt?.difficulty);
     return star >= 1 && star <= 9 ? `${star}★` : "";
   }
+  // The extracted Gathering Hall source is split by rank bands, while its
+  // difficulty value is the actual star tier. Keep each multiplayer tier
+  // distinct (including G1–G3) instead of showing every band as one list.
+  if (category === "guild") {
+    const star = Number(qt?.difficulty);
+    if (star >= 1 && star <= 8) return `${star}★`;
+    if (star >= 9 && star <= 11) return `G${star - 8}★`;
+    return "";
+  }
   const rankMatch = String(qt?.rank || "").match(/(\d)★/);
   if (rankMatch) return `${rankMatch[1]}★`;
   // Group Training Hall entries do not include the star in their rank
@@ -4574,7 +4583,7 @@ function questGroupLabel(qt) {
   if (category === "event") return qt.rank || ui("questsCategoryEvent");
   // Elder quests are stored with the shared "Elder Hall" rank and keep the
   // star tier in difficulty. Group them exactly like the other quest lists.
-  if (category === "elder" && stars) return `${qt.rank} ${stars}`;
+  if ((category === "elder" || category === "nekoht" || category === "guild") && stars) return `${questCategoryLabel(category)} ${stars}`;
   return qt.rank || ui("questsCategoryOther");
 }
 
@@ -4591,9 +4600,9 @@ function questTicketIconTag(qt, compact = false) {
   const cls = compact ? " quest-ticket-icon--compact" : "";
   return `<span class="quest-ticket-icon quest-ticket-icon--${type.color}${cls}" title="${escapeAttr(type.label)}" aria-label="${escapeAttr(type.label)}"><span class="quest-ticket-icon__paper"></span><span class="quest-ticket-icon__seam"></span><span class="quest-ticket-icon__fold"></span></span>`;
 }
-function questKeyBadge(qt) {
-  if (!keyQuestNames.has(qt?.name)) return "";
-  return `<span class="quest-key-badge" title="${escapeAttr(lang === "es" ? "Misión clave" : "Key quest")}" aria-label="${escapeAttr(lang === "es" ? "Misión clave" : "Key quest")}">★</span>`;
+function isKeyQuest(qt) {
+  const group = `${questCategory(qt)}:${Number(qt?.difficulty)}`;
+  return (keyQuestGroups[group] || []).includes(qt?.name);
 }
 
 function questMonsterIconsTag(qt, interactive = false) {
@@ -4746,13 +4755,13 @@ function renderQuestsIndex(query) {
     <div class="decorations-slot-group">
       <h3 class="decorations-slot-heading">${escapeAttr(rank)}</h3>
       <div class="decorations-grid">
-        ${byRank.get(rank).sort((a, b) => Number(keyQuestNames.has(b.name)) - Number(keyQuestNames.has(a.name))).map(qt => `
+        ${byRank.get(rank).sort((a, b) => Number(isKeyQuest(b)) - Number(isKeyQuest(a))).map(qt => `
           <button type="button" class="decoration-card quest-card" data-id="${qt.id}">
             ${questTicketIconTag(qt, true)}
             <span class="quest-card-copy">
-              <span class="decoration-card-name">${questKeyBadge(qt)}${escapeAttr(qt.name)}</span>
+              <span class="decoration-card-name">${escapeAttr(qt.name)}</span>
               ${questGoalTag(qt, true)}
-              <span class="decoration-card-skill">${questStars(qt) ? `<span class="quest-stars">${questStars(qt)}</span> ` : ""}${escapeAttr(questClient(qt) || "—")} · ${escapeAttr(questTypeInfo(qt).label)}</span>
+              <span class="decoration-card-skill">${questStars(qt) ? `<span class="quest-stars${isKeyQuest(qt) ? " quest-stars--key" : ""}"${isKeyQuest(qt) ? ` title="${escapeAttr(lang === "es" ? "Misión clave" : "Key quest")}"` : ""}>${questStars(qt)}</span> ` : ""}${escapeAttr(questClient(qt) || "—")} · ${escapeAttr(questTypeInfo(qt).label)}</span>
             </span>
           </button>
         `).join("")}
@@ -4780,7 +4789,7 @@ function showQuestDetail(id) {
       <h2>${escapeAttr(qt.name)}</h2>
       <span class="decoration-detail-slot">${escapeAttr(qt.rank)}</span>
     </div>
-    <p class="quest-type-line"><span class="quest-type-badge quest-type-badge--${type.color}">${escapeAttr(type.label)}</span>${questStars(qt) ? ` <span class="quest-stars quest-stars--detail">${questStars(qt)}</span>` : ""}</p>
+    <p class="quest-type-line"><span class="quest-type-badge quest-type-badge--${type.color}">${escapeAttr(type.label)}</span>${questStars(qt) ? ` <span class="quest-stars quest-stars--detail${isKeyQuest(qt) ? " quest-stars--key" : ""}"${isKeyQuest(qt) ? ` title="${escapeAttr(lang === "es" ? "Misión clave" : "Key quest")}"` : ""}>${questStars(qt)}</span>` : ""}</p>
     <p class="gs-material-intro">${ui("questsClient")}: ${escapeAttr(questClient(qt) || "—")}</p>
     <p class="gs-material-intro">${ui("questsLocation")}: ${escapeAttr(qt.location || "—")}</p>
     <p class="gs-material-intro quest-goal-detail"><span>${ui("questsGoal")}: ${escapeAttr(qt.goalCondition || "—")}</span>${questMonsterIconsTag(qt, true)}</p>

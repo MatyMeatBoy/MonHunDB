@@ -1,21 +1,23 @@
 {
-  "source": "MHFU quest progression guides and Monster Hunter Wiki",
-  "names": [
-    "Giadrome Assault", "The Land Shark", "The Lurking Desert Giant", "The Mischief-maker",
-    "Master of the Giant Lake", "Evening Hermitaur Sonata", "Pincer through the Sky", "Trouble in the Forest", "The Ioprey Leader",
-    "The Runaway Diablos", "Valor in the Swamp Zone", "The King's Domain", "The Queen's Descent",
-    "Blango Slaying Tactics", "The Subterranean Glutton", "Aim for the Jungle Crab", "The Purple Poison Menace",
-    "The Ruler of the Snow", "The Red and Green Wyverns", "The Cherry Blossom Rathian", "The Legendary Kirin",
-    "Two Roars in the Snow", "The Poison Siege", "Absolute Power", "The Tigrex's Roar",
-    "Land of the Tremors", "The Rajang in the Snow", "The Elder Dragon of Wind", "The Frozen Dictator", "The Elder Dragon of Mist",
-    "The King's Domain", "The Queen's Descent", "The Ruler of the Snow", "The Approaching Gaoren",
-    "Trapped by Yian Kut-Ku", "Giant Crab of the Old Jungle", "Daimyo of Sengoku Fame", "Wag the Dog!", "Old Jungle Lightning",
-    "Red Shadow in the Snow", "The Floating Dragon", "Dark-Shelled Ceanataur", "At Birds' Hill...", "A King, Robed in Smoke",
-    "Her Eternal Majesty", "The Cherry Blossom Rathian", "The Yian Garuga Twins", "Copper Sands", "Wild Monk of the Dunes",
-    "Basarios Season", "Operation Tropical Storm", "Three Walls", "The King's Domain", "Explore the Unexplored",
-    "A Single Beam of Moonlight", "The Dragon of Steel", "The Elder Dragon of Wind", "Emperor of Flame", "Towards the Silence",
-    "The Burning Dunes", "Stealing in the Old Swamp!", "Target: Basarios", "Old Jungle Lightning", "Red Shadow in the Snow",
-    "Congalalas' Assault", "The Sleepy Great Forest", "Elegy for a Lone Wolf", "A Shogun Tastes Like...?", "Bl-Bl-Blangongas!",
-    "Operation Desert Winds", "The Empress's Blazing Throne", "Attack of the Wind Dragon", "The Approaching Gaoren", "Rise to the Summit"
-  ]
+  "source": ["https://monsterhunterwiki.org/wiki/MHFU/Quests/Village_Quests", "https://monsterhunterwiki.org/wiki/MHFU/Quests/Guild_Hall_Quests", "https://rentry.co/mhfu_info"],
+  "groups": {
+    "elder:1": ["Hunt the Carnivore!", "Sinking Feeling", "Slay the Blangos!"],
+    "elder:2": ["Reckless Bulldrome Hunter", "Jungle Menace", "Rarest of the Rare Beasts", "Liver of Legend!"],
+    "elder:3": ["Blango Slaying Tactics", "The Lurking Desert Giant", "Gypceros: Venomous Terror", "A Killing from Mushrooms"],
+    "elder:4": ["Battle of the Blos", "Basarios: Unseen Peril", "Commander in the Flames", "More Coal Please"],
+    "elder:5": ["The Poison Siege", "The Runaway Diablos", "Ultimate Crab Dinner", "Terror of the Gravios"],
+    "elder:6": ["Pink Dance in the Jungle", "Four Horns", "Attack of the Rathalos"],
+    "nekoht:7": ["Bullfangos in the Night", "Target: Basarios", "Old Jungle Lightning", "Congalalas' Assault"],
+    "nekoht:8": ["The Sleepy Great Forest", "Elegy for a Lone Wolf", "A Shogun Tastes Like...?", "Bl-Bl-Blangongas!"],
+    "nekoht:9": ["Land of the Tremors", "Explore the Unexplored", "A Single Beam of Moonlight", "Fire Ring, Lunar Ring", "Attack of the Rajang"],
+    "guild:3": ["Giadrome Assault", "The Land Shark", "The Lurking Desert Giant", "The Mischief-maker"],
+    "guild:4": ["Master of the Giant Lake", "Evening Hermitaur Sonata", "Pincer through the Sky", "Trouble in the Forest", "The Ioprey Leader"],
+    "guild:5": ["The Runaway Diablos", "Valor in the Swamp Zone", "The King's Domain", "The Queen's Descent"],
+    "guild:6": ["The Poison Fanged Duo", "Ultimate Crab Dinner", "Trapped by Yian Kut-Ku", "Conga Counterattack!"],
+    "guild:7": ["Two Roars in the Snow", "Red Shadow in the Swampland", "The Underwater Terror", "Eliminate the Rathalos!", "Basarios: Unseen Peril"],
+    "guild:8": ["The Fierce Black Horn", "Black Rock in the Swamp", "Blue Sky, Pink Earth", "Deny the Silver Rathalos", "Find the Golden Phantom"],
+    "guild:9": ["Daimyo of Sengoku Fame", "Old Jungle Lightning", "Eyes in the Underground Lake", "Pelagus Pride", "Old Swamp, Shrouded in Mist"],
+    "guild:10": ["Lavasioth Sighting!", "Under the Gaze of Heaven", "A King, Robed in Smoke", "Her Eternal Majesty", "Wild Monk of the Dunes"],
+    "guild:11": ["Absolute Power", "Black Phalanges", "Armored Supremacy", "Explore the Unexplored", "A Single Beam of Moonlight"]
+  }
 }
