@@ -672,7 +672,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes, combinationsRes, gatheringSourcesRes, farmGuideRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes, eventQuestsRes, combinationsRes, gatheringSourcesRes, farmGuideRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
@@ -684,6 +684,7 @@ async function init() {
       fetch("data/weapon_tree.json"),
       fetch("data/items.json"),
       fetch("data/quests.json"),
+      fetch("data/event_quests.json"),
       fetch("data/combinations.json"),
       fetch("data/gathering_sources.json"),
       fetch("data/farm_guide.json"),
@@ -709,6 +710,7 @@ async function init() {
     items = itemsRes.ok ? await itemsRes.json() : [];
     itemsByName = new Map(items.map(it => [it.name, it]));
     quests = questsRes.ok ? await questsRes.json() : [];
+    if (eventQuestsRes.ok) quests = quests.concat(await eventQuestsRes.json());
     combinations = combinationsRes.ok ? await combinationsRes.json() : [];
     gatheringSources = gatheringSourcesRes.ok ? await gatheringSourcesRes.json() : gatheringSources;
     buildMapGatheringIndex();
@@ -4490,7 +4492,7 @@ function navQuest(id) {
 
 function questMode(qt) {
   const rank = normalizeSearch(qt?.rank || "");
-  return rank.includes("guild hall") || rank.includes("training hall (group)") ? "hub" : "single";
+  return rank.includes("guild hall") || rank.includes("training hall (group)") || rank.includes("event ") ? "hub" : "single";
 }
 
 function questCategory(qt) {
@@ -4500,11 +4502,12 @@ function questCategory(qt) {
   if (rank.includes("treasure hunt")) return "treasure";
   if (rank.includes("training hall")) return "training";
   if (rank.includes("guild hall")) return "guild";
+  if (rank.includes("event ")) return "event";
   return "other";
 }
 
 function questCategoryLabel(category) {
-  const keys = { elder: "questsCategoryElder", nekoht: "questsCategoryNekoht", treasure: "questsCategoryTreasure", training: "questsCategoryTraining", guild: "questsCategoryGuild", other: "questsCategoryOther" };
+  const keys = { elder: "questsCategoryElder", nekoht: "questsCategoryNekoht", treasure: "questsCategoryTreasure", training: "questsCategoryTraining", guild: "questsCategoryGuild", event: "questsCategoryEvent", other: "questsCategoryOther" };
   return ui(keys[category] || keys.other);
 }
 
@@ -4515,6 +4518,7 @@ function questClient(qt) {
 
 function questStars(qt) {
   const category = questCategory(qt);
+  if (category === "event" && /^Event G/i.test(String(qt?.rank || ""))) return "";
   if (category === "elder" || category === "nekoht") {
     const star = Number(qt?.difficulty);
     return star >= 1 && star <= 9 ? `${star}★` : "";
@@ -4530,6 +4534,7 @@ function questStars(qt) {
 function questGroupLabel(qt) {
   const category = questCategory(qt);
   const stars = questStars(qt);
+  if (category === "event") return qt.rank || ui("questsCategoryEvent");
   // Elder quests are stored with the shared "Elder Hall" rank and keep the
   // star tier in difficulty. Group them exactly like the other quest lists.
   if (category === "elder" && stars) return `${qt.rank} ${stars}`;
