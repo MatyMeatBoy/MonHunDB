@@ -25,6 +25,7 @@ const PAGES = [
   "Monster_Hunter_Freedom_Unite_-_%C3%81rbol_Arcos_G",
   "Monster_Hunter_Freedom_Unite_-_Tabla_de_Objetos_por_Wyvern",
   "Monster_Hunter_Freedom_Unite_-_Combinaciones",
+  "Monster_Hunter_Freedom_Unite_-_Granja",
 ];
 
 function decode(value) {

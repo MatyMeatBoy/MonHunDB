@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T05:31:33.713Z",
+  "generatedAt": "2026-08-16T05:39:03.206Z",
   "sources": [
     "https://www.elotrolado.net/wiki/Monster_Hunter_Freedom_Unite_-_%C3%81rbol_Grandes_Espadas_y_Espadas_Largas",
     "https://www.elotrolado.net/wiki/MHFU_Arbol_GSLS_G",
@@ -12,7 +12,8 @@
     "https://www.elotrolado.net/wiki/Monster_Hunter_Freedom_Unite_-_%C3%81rbol_Arcos",
     "https://www.elotrolado.net/wiki/Monster_Hunter_Freedom_Unite_-_%C3%81rbol_Arcos_G",
     "https://www.elotrolado.net/wiki/Monster_Hunter_Freedom_Unite_-_Tabla_de_Objetos_por_Wyvern",
-    "https://www.elotrolado.net/wiki/Monster_Hunter_Freedom_Unite_-_Combinaciones"
+    "https://www.elotrolado.net/wiki/Monster_Hunter_Freedom_Unite_-_Combinaciones",
+    "https://www.elotrolado.net/wiki/Monster_Hunter_Freedom_Unite_-_Granja"
   ],
   "terms": [
     {
@@ -4908,6 +4909,16 @@
       ]
     },
     {
+      "name": "4 * Anciana o 5 * Gremio",
+      "count": 3,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "5040z",
       "count": 3,
       "pages": [
@@ -5645,6 +5656,16 @@
       "count": 3,
       "pages": [
         "MHFU_Arbol_Lanza_y_LanzaPistola"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Disponible al principio",
+      "count": 3,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -6560,6 +6581,16 @@
       ]
     },
     {
+      "name": "5 * Anciana o 4 * Gremio",
+      "count": 2,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "52000z",
       "count": 2,
       "pages": [
@@ -6704,6 +6735,16 @@
       "count": 2,
       "pages": [
         "Monster_Hunter_Freedom_Unite_-_%C3%81rbol_Grandes_Espadas_y_Espadas_Largas"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Arbol de Bichos",
+      "count": 2,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -7621,6 +7662,16 @@
       ]
     },
     {
+      "name": "Cueva de la Espada",
+      "count": 2,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "Dentro de la boca (x3)",
       "count": 2,
       "pages": [
@@ -7991,6 +8042,16 @@
       ]
     },
     {
+      "name": "Hilera Campo",
+      "count": 2,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "Hoja Wyvern \"Plata\"",
       "count": 2,
       "pages": [
@@ -8131,6 +8192,26 @@
       ]
     },
     {
+      "name": "Maquina Lanza Redes",
+      "count": 2,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Matorral Insectos",
+      "count": 2,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "Megadroga demon.",
       "count": 2,
       "pages": [
@@ -8196,6 +8277,36 @@
       "count": 2,
       "pages": [
         "Monster_Hunter_Freedom_Unite_-_Tabla_de_Objetos_por_Wyvern"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Mineria",
+      "count": 2,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Mineria Bomba",
+      "count": 2,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Muelle Pesca",
+      "count": 2,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -8613,6 +8724,16 @@
       ]
     },
     {
+      "name": "Popo",
+      "count": 2,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "Púa de Akantor",
       "count": 2,
       "pages": [
@@ -9004,6 +9125,16 @@
       ]
     },
     {
+      "name": ", Requiere: Matorral Insectos +3 y Rango G",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "*: puede dejar caer objetos que explotan, recogelos bajo tu propio riesgo",
       "count": 1,
       "pages": [
@@ -9184,6 +9315,16 @@
       ]
     },
     {
+      "name": "2 * Anciana",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "2080z",
       "count": 1,
       "pages": [
@@ -9314,6 +9455,16 @@
       ]
     },
     {
+      "name": "3 * Anciana o Descarga",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "300z",
       "count": 1,
       "pages": [
@@ -9388,6 +9539,16 @@
       "count": 1,
       "pages": [
         "Monster_Hunter_Freedom_Unite_-_%C3%81rbol_Arcos"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "4 * Anciana o 5 * Gremio, Requiere: Muelle Pesca +1",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -9544,6 +9705,26 @@
       ]
     },
     {
+      "name": "6 * Anciana o 5 * Gremio, Requiere: Matorral Insectos +1",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "6 * Anciana o 5 * Gremio, Requiere: Mineria +1",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "6150z",
       "count": 1,
       "pages": [
@@ -9624,6 +9805,16 @@
       ]
     },
     {
+      "name": "7 * Anciana o 5 * Gremio, Requiere: Muelle Pesca +2",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "7700z",
       "count": 1,
       "pages": [
@@ -9648,6 +9839,26 @@
       "count": 1,
       "pages": [
         "Monster_Hunter_Freedom_Unite_-_%C3%81rbol_Arcos"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "8 * Anciana o 7 * Gremio, Requiere: Matorral Insectos +2",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "8 * Anciana o 7 * Gremio, Requiere: Mineria +2",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -11018,6 +11229,46 @@
       "count": 1,
       "pages": [
         "MHFU_Arbol_Lanza_y_LanzaPistola"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Arbol de Setas",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Arbol de Setas +1",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Arbol de Setas +2",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Arbol Setas",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -12728,6 +12979,26 @@
       "count": 1,
       "pages": [
         "MHFU_Arbol_Lanza_y_LanzaPistola"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Bote de Trenya",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Bote Trenya",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -14454,6 +14725,46 @@
       ]
     },
     {
+      "name": "Colmena",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Colmena Modificada",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Colmena Productiva",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Colmena Prototipo",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "Colmillo bárbaro G",
       "count": 1,
       "pages": [
@@ -14908,6 +15219,26 @@
       "count": 1,
       "pages": [
         "Monster_Hunter_Freedom_Unite_-_Tabla_de_Objetos_por_Wyvern"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Como desbloquear la mejora",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "con suerte encontraremos una boñiga",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -16018,6 +16349,16 @@
       "count": 1,
       "pages": [
         "MHFU_Arbol_Martillo_y_CuernoDeCaza"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Contenido 1 Introducción 2 Mejoras de la granja 3 Trenya 4 La espada de la cueva",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -19748,6 +20089,36 @@
       "count": 1,
       "pages": [
         "MHFU_Arbol_Lanza_y_LanzaPistola"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Disponible al principio y Arbol de Setas",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Disponible al principio y Arbol de Setas +1",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Disponible al principio y Hilera Campo +1",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -25194,6 +25565,26 @@
       ]
     },
     {
+      "name": "Hilera Campo +1",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Hilera Campo +2",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "Hiperabsorción",
       "count": 1,
       "pages": [
@@ -28144,6 +28535,16 @@
       ]
     },
     {
+      "name": "Lanzando una red pescaremos muchos peces",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "LanzaPerfAprob (Wyvern atronador)",
       "count": 1,
       "pages": [
@@ -29644,6 +30045,46 @@
       ]
     },
     {
+      "name": "Matorral Insectos +1",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Matorral Insectos +2",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Matorral Insectos +3",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Matorral Insectos +4",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "Maza de guerra",
       "count": 1,
       "pages": [
@@ -29748,6 +30189,16 @@
       "count": 1,
       "pages": [
         "MHFU_Arbol_Martillo_y_CuernoDeCaza"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Mediante huesos ancianos obtendremos otros materiales",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -33284,6 +33735,46 @@
       ]
     },
     {
+      "name": "Mineria +1",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Mineria +2",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Mineria +3",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Mineria +4",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "Modelo exposición (Arco Ceanataur Aut.)",
       "count": 1,
       "pages": [
@@ -33478,6 +33969,26 @@
       "count": 1,
       "pages": [
         "Monster_Hunter_Freedom_Unite_-_Tabla_de_Objetos_por_Wyvern"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Muelle Pesca +1",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Muelle Pesca +2",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -34044,6 +34555,16 @@
       ]
     },
     {
+      "name": "pagando 300z usaremos un martillo y conseguiremos varios insectos",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "Par demoníaco llamas (Hojas Dragón celeste)",
       "count": 1,
       "pages": [
@@ -34278,6 +34799,16 @@
       "count": 1,
       "pages": [
         "Monster_Hunter_Freedom_Unite_-_%C3%81rbol_Arcos"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "permiter enviar a Trenya a por materiales",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -36364,6 +36895,66 @@
       ]
     },
     {
+      "name": "podremos cazar insectos o partes de ellos",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "podremos cultivar semillas y algunas plantas",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "podremos obtener varios minerales",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "podremos pescar algunos peces",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "podremos recoger setas",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "podremos recolectar miel y algo mas",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "Polvo dr. fuego× 2 Tr. cer. Gravios× 1 Mineral de unión× 3",
       "count": 1,
       "pages": [
@@ -36608,6 +37199,16 @@
       "count": 1,
       "pages": [
         "Monster_Hunter_Freedom_Unite_-_%C3%81rbol_Espadas_con_Escudo_y_Espadas_Duales"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Puntos",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -36984,6 +37585,16 @@
       ]
     },
     {
+      "name": "Renovación",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
       "name": "Rép. Hoja héroe (Réplica Hoja héroe)",
       "count": 1,
       "pages": [
@@ -37038,6 +37649,36 @@
       "count": 1,
       "pages": [
         "Monster_Hunter_Freedom_Unite_-_%C3%81rbol_Espadas_con_Escudo_y_Espadas_Duales"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Requiere: Colmena Productiva",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Requiere: Colmena Prototipo",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Requiere: Mineria+3 y Rango G",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"
@@ -39258,6 +39899,16 @@
       "count": 1,
       "pages": [
         "Monster_Hunter_Freedom_Unite_-_%C3%81rbol_Espadas_con_Escudo_y_Espadas_Duales"
+      ],
+      "kinds": [
+        "table"
+      ]
+    },
+    {
+      "name": "Usando explosivos conseguiremos varios minerales",
+      "count": 1,
+      "pages": [
+        "Monster_Hunter_Freedom_Unite_-_Granja"
       ],
       "kinds": [
         "table"

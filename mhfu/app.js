@@ -535,6 +535,26 @@ function trMonsterName(name) {
 function trMaterial(name) {
   return lang === "es" ? translateMaterial(name) : name;
 }
+// Spanish MHFU terminology from ElOtroLado's Pokke Farm page.  Source data
+// keeps its English machine keys, so translate only at rendering time.
+const MHFU_FARM_TERM_ES = {
+  "Great Sword Cave": "Cueva de la Espada", "Sword Cave": "Cueva de la Espada",
+  "Casting Machine": "Máquina Lanza Redes", "Field Row": "Hilera Campo",
+  "Fishing Pier": "Muelle Pesca", "Mining Point": "Minería",
+  "Bomb Mining": "Minería Bomba", "Insect Thicket": "Matorral Insectos",
+  "Bug Tree": "Árbol de Bichos", "Mushroom Tree": "Árbol de Setas",
+  "Prototype Beehive": "Colmena Prototipo", "Production Beehive": "Colmena Productiva",
+  "Modified Beehive": "Colmena Modificada", "Trenya's Boat": "Bote de Trenya",
+  "Initial": "Inicial", "Base": "Base"
+};
+function trFarmTerm(value) {
+  if (lang !== "es" || !value) return value;
+  let translated = String(value);
+  for (const [en, es] of Object.entries(MHFU_FARM_TERM_ES).sort((a, b) => b[0].length - a[0].length)) {
+    translated = translated.replaceAll(en, es);
+  }
+  return translated;
+}
 
 // Anomaly Research level RANGE (EX1-EX9 tier chain) each "(Anomaly)"/
 // "(Anomaly Quests)" material actually requires -- Fextralife's material
@@ -3246,7 +3266,7 @@ function gatheringSourcesHtml(matKey) {
     : "";
   const mapNote = sourceInfo?.maps ? '<p class="mhfu-gathering-note"><strong>' + ui("materialsMapSources") + ':</strong> ' + escapeAttr(sourceInfo.maps) + '</p>' : "";
   const mapDetail = mapGatheringSourcesHtml(matKey);
-  const nodeNote = sourceInfo?.farmNode ? '<p class="mhfu-gathering-note"><strong>' + ui("materialsFarmNode") + ':</strong> ' + escapeAttr(sourceInfo.farmNode) + (sourceInfo.farmRequirement ? ' — ' + escapeAttr(sourceInfo.farmRequirement) : '') + '</p>' : "";
+  const nodeNote = sourceInfo?.farmNode ? '<p class="mhfu-gathering-note"><strong>' + ui("materialsFarmNode") + ':</strong> ' + escapeAttr(trFarmTerm(sourceInfo.farmNode)) + (sourceInfo.farmRequirement ? ' — ' + escapeAttr(trFarmTerm(sourceInfo.farmRequirement)) : '') + '</p>' : "";
   const farmGuideNote = farmGuideSourcesHtml(matKey);
   const vendorNote = vendorSourcesHtml(matKey);
   const veggieNote = veggieElderSourcesHtml(matKey);
@@ -4732,7 +4752,7 @@ function renderQuestGuide() {
         <h4>${ui("questsGuideFarm")}</h4>
         <p>${escapeAttr(farm.note || "")}</p>
         <div class="mhfu-farm-table"><div class="mhfu-farm-row mhfu-farm-row--head"><span>${ui("questsGuideUpgrade")}</span><span>${ui("questsGuideCost")}</span><span>${ui("questsGuideUnlock")}</span></div>
-        ${(farm.upgrades || []).map(u => `<div class="mhfu-farm-row"><span>${escapeAttr(u.name)}</span><span>${u.cost ? `${u.cost.toLocaleString()} Pts` : "—"}</span><span>${escapeAttr(u.unlock)}</span></div>`).join("")}</div>
+        ${(farm.upgrades || []).map(u => `<div class="mhfu-farm-row"><span>${escapeAttr(trFarmTerm(u.name))}</span><span>${u.cost ? `${u.cost.toLocaleString()} Pts` : "—"}</span><span>${escapeAttr(trFarmTerm(u.unlock))}</span></div>`).join("")}</div>
       </div>
     </div>`;
 }
