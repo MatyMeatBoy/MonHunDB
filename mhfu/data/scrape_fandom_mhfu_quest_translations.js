@@ -49,10 +49,15 @@ function candidates(source) {
   if (source.mainMonsters.length) list = list.filter(quest => source.mainMonsters.some(monster => quest.mainMonsters.includes(monster)));
   return list;
 }
+function relaxedCandidates(source) {
+  if (!source.mainMonsters.length) return [];
+  return quests.filter(quest => quest.rank === source.rank && quest.timeLimit === source.time && quest.contractFee === source.fee && quest.reward === source.reward && source.mainMonsters.some(monster => quest.mainMonsters.includes(monster)));
+}
 (async () => {
   let matched = 0;
   for (const page of pages) for (const source of rows(await getPage(page), page)) {
-    const list = candidates(source);
+    const strict = candidates(source);
+    const list = strict.length ? strict : relaxedCandidates(source);
     if (list.length !== 1) continue;
     if (!list[0].nameEs) { list[0].nameEs = source.name; matched++; }
   }
