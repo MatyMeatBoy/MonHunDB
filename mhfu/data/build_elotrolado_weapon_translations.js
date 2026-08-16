@@ -8,6 +8,7 @@ const CACHE = path.join(__dirname, "sources", "elotrolado_mhfu");
 const OUT = path.join(__dirname, "elotrolado_weapon_translations.json");
 const weapons = JSON.parse(fs.readFileSync(path.join(__dirname, "weapons.json"), "utf8"));
 const ICON_TYPES = { "MhfuGs.png": "Great Sword", "MhfuLs.png": "Long Sword", "Sns.png": "Sword & Shield", "Ds.png": "Dual Blades", "Hm.png": "Hammer", "Hh.png": "Hunting Horn", "Lc.png": "Lance", "Gl.png": "Gunlance", "Bw.png": "Bow" };
+const ELEMENTS = { "Fuego.png": "fire", "Agua.png": "water", "Rayo.png": "thunder", "Hielo.png": "ice", "Dragon.png": "dragon", "Veneno.png": "poison", "Paralisis.png": "paralysis", "Sueno.png": "sleep" };
 function decode(s) { return String(s || "").replace(/<[^>]+>/g, " ").replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n))).replace(/&aacute;/g, "á").replace(/&eacute;/g, "é").replace(/&iacute;/g, "í").replace(/&oacute;/g, "ó").replace(/&uacute;/g, "ú").replace(/&ntilde;/g, "ñ").replace(/\s+/g, " ").trim(); }
 const records = [];
 for (const file of fs.readdirSync(CACHE).filter(file => file.endsWith(".html"))) {
@@ -20,13 +21,19 @@ for (const file of fs.readdirSync(CACHE).filter(file => file.endsWith(".html")))
     const nameEs = decode(matches[i][2]);
     const segment = html.slice(matches[i].index + matches[i][0].length, matches[i + 1]?.index || html.length);
     const attack = Number(segment.match(/<td>(\d+)z[\s\S]*?<\/td>\s*<td>(\d+)/i)?.[2]);
+    const elementMatch = segment.match(/alt="([^"]+)"\s*\/?>\s*(\d+)/i);
+    const element = elementMatch && ELEMENTS[elementMatch[1]] ? { type: ELEMENTS[elementMatch[1]], value: Number(elementMatch[2]) } : null;
     if (!nameEs || !attack || nameEs === "dummy") continue;
-    records.push({ file, type, nameEs, attack });
+    records.push({ file, type, nameEs, attack, element });
   }
 }
 const translations = {}, ambiguous = [], unmatched = [];
 for (const record of records) {
-  const candidates = weapons.filter(w => w.type === record.type && Number(w.attack) === record.attack);
+  let candidates = weapons.filter(w => w.type === record.type && Number(w.attack) === record.attack);
+  if (record.element) {
+    const elemental = candidates.filter(w => (w.elements || []).some(e => e.type === record.element.type && Number(e.value) === record.element.value));
+    if (elemental.length) candidates = elemental;
+  }
   if (candidates.length === 1) {
     const [weapon] = candidates;
     // Identical local weapon can appear in normal/G pages; preserve first
