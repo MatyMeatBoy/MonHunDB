@@ -2979,7 +2979,11 @@ function renderMaterialsIndex(query) {
   for (const it of items) {
     if (isDuplicateDecorationItem(it)) continue;
     if (materialIndex.has(normalizeMaterialKey(it.name))) continue; // already shown above
-    if (q && !normalizeSearch(it.name).includes(q) && !normalizeSearch(it.nameEs || "").includes(q)) continue;
+    // Catalog-only items (coins, tickets, supply items…) are not in
+    // materialIndex. Search their English source name, optional native ES
+    // field, and the loaded MHFU/MHGU/MH4U translation just like monster
+    // materials, otherwise names such as "Moneda Congalala" disappear.
+    if (q && ![it.name, it.nameEs, trMaterial(it.name)].some(name => normalizeSearch(name || "").includes(q))) continue;
     if (!extraByCategory.has(it.category)) extraByCategory.set(it.category, []);
     extraByCategory.get(it.category).push(it.name);
   }
@@ -2987,7 +2991,7 @@ function renderMaterialsIndex(query) {
 
   const accountNames = (gatheringSources.pokkePoints?.accountItems || []).map(entry => entry.name)
     .filter(name => !items.some(item => normalizeMaterialKey(item.name) === normalizeMaterialKey(name)))
-    .filter(name => !q || normalizeSearch(name).includes(q));
+    .filter(name => !q || [name, trMaterial(name)].some(label => normalizeSearch(label || "").includes(q)));
   if (accountNames.length) extraByCategory.set("account", accountNames);
 
   if (!filtered.length && !extraByCategory.size) {
