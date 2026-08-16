@@ -21,7 +21,7 @@
 |---|---:|---:|
 | Fotos de sets de armadura | `██████████` **99,5% (403/405)** | **2 sets especiales/evento sin retrato Fandom fiable** |
 | Sets con fuente Fandom prioritaria | `███████░░░` **76,8% (311/405)** | El resto conserva GameFAQs/local cuando Fandom no tiene imagen real o no distingue el rango |
-| Renders de piezas de armadura | `██████████` **97,5% (2.156/2.211)** | **55 piezas** |
+| Renders de piezas de armadura | `██████████` **97,5% (2.156/2.211)** | **55 entradas clasificadas: 20 placeholders, 14 piercings especiales, 21 piezas parciales** |
 | Materiales de monstruo | `██████████` **100% documentado (82 con drops + Felyne sin drops)** | 0 sin clasificar |
 | Armas, adornos, objetos y habilidades | **Catálogo cargado** | Falta auditoría visual individual |
 

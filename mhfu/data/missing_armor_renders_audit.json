@@ -1,0 +1,285 @@
+{
+  "totalMissing": 55,
+  "byStatus": {
+    "special-piercing-without-source": 14,
+    "invalid-placeholder": 20,
+    "partial-source-entry": 21
+  },
+  "entries": [
+    {
+      "id": "mhfua438",
+      "name": "Silence Piercing",
+      "status": "special-piercing-without-source"
+    },
+    {
+      "id": "mhfua439",
+      "name": "Piercing of Rage",
+      "status": "special-piercing-without-source"
+    },
+    {
+      "id": "mhfua440",
+      "name": "Demon Edge Piercing",
+      "status": "special-piercing-without-source"
+    },
+    {
+      "id": "mhfua441",
+      "name": "Blast Piercing",
+      "status": "special-piercing-without-source"
+    },
+    {
+      "id": "mhfua442",
+      "name": "Piercing of Mastery",
+      "status": "special-piercing-without-source"
+    },
+    {
+      "id": "mhfua443",
+      "name": "Piercing of Pursuit",
+      "status": "special-piercing-without-source"
+    },
+    {
+      "id": "mhfua444",
+      "name": "Kirin Piercing",
+      "status": "special-piercing-without-source"
+    },
+    {
+      "id": "mhfua445",
+      "name": "Piercing of Might",
+      "status": "special-piercing-without-source"
+    },
+    {
+      "id": "mhfua446",
+      "name": "Piercing of Fate",
+      "status": "special-piercing-without-source"
+    },
+    {
+      "id": "mhfua447",
+      "name": "Echo Piercing",
+      "status": "special-piercing-without-source"
+    },
+    {
+      "id": "mhfua448",
+      "name": "Sword Saint Piercing",
+      "status": "special-piercing-without-source"
+    },
+    {
+      "id": "mhfua449",
+      "name": "Barrage Piercing",
+      "status": "special-piercing-without-source"
+    },
+    {
+      "id": "mhfua450",
+      "name": "Ambitious Piercing",
+      "status": "special-piercing-without-source"
+    },
+    {
+      "id": "mhfua451",
+      "name": "Hawkeye Piercing",
+      "status": "special-piercing-without-source"
+    },
+    {
+      "id": "mhfuaY1",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY2",
+      "name": "Steel Tasset",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY3",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY4",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY5",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY6",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY7",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY8",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY9",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY10",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY11",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY12",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY13",
+      "name": "Healer Hood",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY14",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY15",
+      "name": "Black Scales",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY16",
+      "name": "Kushala Cruz",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY17",
+      "name": "Kushala Snare",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY18",
+      "name": "Kirin Leg Guarda",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY19",
+      "name": "GuardianSpiritRaiment",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY20",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY21",
+      "name": "Steel S Mail",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY22",
+      "name": "Steel S Vambraces",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY23",
+      "name": "Steel S Tasset",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY24",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY25",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY26",
+      "name": "Steel U Mail",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY27",
+      "name": "Steel U Vambraces",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY28",
+      "name": "Steel U Tasset",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY29",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY30",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY31",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY32",
+      "name": "Red GuildGuardTights",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY33",
+      "name": "Puppet Master Gloves",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY34",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY35",
+      "name": "None",
+      "status": "invalid-placeholder"
+    },
+    {
+      "id": "mhfuaY36",
+      "name": "Healer Hood U",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY37",
+      "name": "Chakra Armlet",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY38",
+      "name": "BlackBeltVambraces X",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY39",
+      "name": "ExtrvgantSleevesShin",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY40",
+      "name": "BorealisTasset Kyoku",
+      "status": "partial-source-entry"
+    },
+    {
+      "id": "mhfuaY41",
+      "name": "Fatalis Scales Z",
+      "status": "partial-source-entry"
+    }
+  ]
+}
