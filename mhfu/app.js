@@ -3017,6 +3017,7 @@ function localizedItemDescription(item) {
   if (item.descriptionEs) return item.descriptionEs;
   const n = String(item.name || "").toLowerCase();
   const c = item.category;
+  if (MHFU_ITEM_DESCRIPTION_ES[item.name]) return MHFU_ITEM_DESCRIPTION_ES[item.name];
   if (n === "potion") return "Recupera una pequeña cantidad de salud.";
   if (n === "mega potion") return "Recupera una cantidad moderada de salud.";
   if (n === "max potion") return "Restaura toda la salud y aumenta temporalmente la salud máxima.";
@@ -3042,7 +3043,7 @@ function localizedItemDescription(item) {
   if (c === "herb") return "Material consumible o de combinación con propiedades de recuperación o estado.";
   if (c === "seed") return "Semilla consumible que produce un efecto temporal.";
   if (c === "bottle") return "Frasco usado para aplicar o transportar un efecto consumible.";
-  return item.description || "";
+  return MHFU_ITEM_DESCRIPTION_CATEGORY_ES[c] || item.description || "";
 }
 function renderMaterialsIndex(query) {
   if (!materialIndex) buildMaterialIndex();
@@ -3336,9 +3337,9 @@ function gatheringSourcesHtml(matKey) {
     ? '<p class="mhfu-gathering-note">' + ui("materialsGatheringRankHint") + '</p>'
     : "";
   const noteHtml = note ? '<p class="mhfu-gathering-note">' + escapeAttr(note) + '</p>' : "";
-  const body = accountHtml || farmNote || mapNote || mapDetail || nodeNote || farmGuideNote || vendorNote || veggieNote || rankNote || noteHtml
-    ? accountHtml + farmNote + mapNote + mapDetail + nodeNote + farmGuideNote + vendorNote + veggieNote + rankNote + noteHtml
-    : '<p class="no-data">' + ui("materialsGatheringNoData") + '</p>';
+  const hasContent = accountHtml || farmNote || mapNote || mapDetail || nodeNote || farmGuideNote || vendorNote || veggieNote || rankNote || noteHtml;
+  if (!hasContent) return "";
+  const body = accountHtml + farmNote + mapNote + mapDetail + nodeNote + farmGuideNote + vendorNote + veggieNote + rankNote + noteHtml;
   const summarySources = [];
   if (accountHtml || farmNote || nodeNote || farmGuideNote) summarySources.push(ui("materialsPokkeFarm"));
   if (mapNote || mapDetail) summarySources.push(ui("materialsMapSources"));
