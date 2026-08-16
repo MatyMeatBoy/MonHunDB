@@ -1273,6 +1273,19 @@ body {
   display: inline-block;
 }
 
+.arrowana-icon {
+  display: inline-block;
+  background: currentColor;
+  -webkit-mask: center / contain no-repeat url("data/images/items/bomb-arrowana.png");
+  mask: center / contain no-repeat url("data/images/items/bomb-arrowana.png");
+}
+.arrowana-icon--bomb { color: #a765d8; }
+.arrowana-icon--burst {
+  color: #62b879;
+  -webkit-mask-image: url("data/images/items/burst-arrowana.png");
+  mask-image: url("data/images/items/burst-arrowana.png");
+}
+
 /* Hitzones */
 .hz-legend {
   display: flex;

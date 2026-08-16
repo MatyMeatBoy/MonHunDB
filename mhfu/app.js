@@ -941,6 +941,10 @@ function itemMaskIconTag(iconId, colorIndex, sizeClass) {
 }
 
 function materialIconTag(name) {
+  // MHFU's Arrowana variants share one fish silhouette, but the item UI
+  // distinguishes them by color: Bomb is violet and Burst is green.
+  if (name === "Bomb Arrowana") return '<span class="material-icon arrowana-icon arrowana-icon--bomb" role="img" aria-label="Bomb Arrowana"></span>';
+  if (name === "Burst Arrowana") return '<span class="material-icon arrowana-icon arrowana-icon--burst" role="img" aria-label="Burst Arrowana"></span>';
   const mh = materialMhriceIcons[name] || materialMhriceIcons[normalizeMaterialKey(name)];
   if (mh) return itemMaskIconTag(mh.iconId, mh.color, "material-icon");
   // manifest keys were built without a space before "+" (ex. "Narwa Claw+"),
