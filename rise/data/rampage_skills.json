@@ -1,0 +1,1962 @@
+[
+  {
+    "id": "rampage-1",
+    "nameEs": "Bonus ataque I",
+    "effectEs": "Ataque +4",
+    "name": "Bonus ataque I",
+    "effect": "Ataque +4"
+  },
+  {
+    "id": "rampage-2",
+    "nameEs": "Bonus ataque II",
+    "effectEs": "Ataque +6",
+    "name": "Bonus ataque II",
+    "effect": "Ataque +6"
+  },
+  {
+    "id": "rampage-3",
+    "nameEs": "Bonus ataque III",
+    "effectEs": "Ataque +8",
+    "name": "Bonus ataque III",
+    "effect": "Ataque +8"
+  },
+  {
+    "id": "rampage-4",
+    "nameEs": "Bonus ataque IV",
+    "effectEs": "Ataque +10",
+    "name": "Bonus ataque IV",
+    "effect": "Ataque +10"
+  },
+  {
+    "id": "rampage-5",
+    "nameEs": "Aumento de ataque",
+    "effectEs": "Ataque +20 Afinidad -30 %",
+    "name": "Aumento de ataque",
+    "effect": "Ataque +20 Afinidad -30 %"
+  },
+  {
+    "id": "rampage-6",
+    "nameEs": "Bonus no elemental",
+    "effectEs": "Ataque +10 si el arma incrementada no tiene elemento.",
+    "name": "Bonus no elemental",
+    "effect": "Ataque +10 si el arma incrementada no tiene elemento."
+  },
+  {
+    "id": "rampage-7",
+    "nameEs": "Bonus elemental I",
+    "effectEs": "Elemento del arma +5",
+    "name": "Bonus elemental I",
+    "effect": "Elemento del arma +5"
+  },
+  {
+    "id": "rampage-8",
+    "nameEs": "Bonus elemental II",
+    "effectEs": "Elemento del arma +7",
+    "name": "Bonus elemental II",
+    "effect": "Elemento del arma +7"
+  },
+  {
+    "id": "rampage-9",
+    "nameEs": "Bonus elemental III",
+    "effectEs": "Elemento del arma +10",
+    "name": "Bonus elemental III",
+    "effect": "Elemento del arma +10"
+  },
+  {
+    "id": "rampage-10",
+    "nameEs": "Aumento elemental",
+    "effectEs": "Elemento del arma +10 Ataque -15",
+    "name": "Aumento elemental",
+    "effect": "Elemento del arma +10 Ataque -15"
+  },
+  {
+    "id": "rampage-11",
+    "nameEs": "Bonus afinidad I",
+    "effectEs": "Afinidad +4 %",
+    "name": "Bonus afinidad I",
+    "effect": "Afinidad +4 %"
+  },
+  {
+    "id": "rampage-12",
+    "nameEs": "Bonus afinidad II",
+    "effectEs": "Afinidad +6 %",
+    "name": "Bonus afinidad II",
+    "effect": "Afinidad +6 %"
+  },
+  {
+    "id": "rampage-13",
+    "nameEs": "Bonus afinidad III",
+    "effectEs": "Afinidad +8 %",
+    "name": "Bonus afinidad III",
+    "effect": "Afinidad +8 %"
+  },
+  {
+    "id": "rampage-14",
+    "nameEs": "Bonus afinidad IV",
+    "effectEs": "Afinidad +10 %",
+    "name": "Bonus afinidad IV",
+    "effect": "Afinidad +10 %"
+  },
+  {
+    "id": "rampage-15",
+    "nameEs": "Aumento de afinidad",
+    "effectEs": "Afinidad +20 % Ataque -10",
+    "name": "Aumento de afinidad",
+    "effect": "Afinidad +20 % Ataque -10"
+  },
+  {
+    "id": "rampage-16",
+    "nameEs": "Bonus defensa I",
+    "effectEs": "Bonus de defensa +10",
+    "name": "Bonus defensa I",
+    "effect": "Bonus de defensa +10"
+  },
+  {
+    "id": "rampage-17",
+    "nameEs": "Bonus defensa II",
+    "effectEs": "Bonus de defensa +20",
+    "name": "Bonus defensa II",
+    "effect": "Bonus de defensa +20"
+  },
+  {
+    "id": "rampage-18",
+    "nameEs": "Bonus defensa III",
+    "effectEs": "Bonus de defensa +30",
+    "name": "Bonus defensa III",
+    "effect": "Bonus de defensa +30"
+  },
+  {
+    "id": "rampage-19",
+    "nameEs": "Bonus fuego I",
+    "effectEs": "Potencia de ataques de fuego +4",
+    "name": "Bonus fuego I",
+    "effect": "Potencia de ataques de fuego +4"
+  },
+  {
+    "id": "rampage-20",
+    "nameEs": "Bonus fuego II",
+    "effectEs": "Potencia de ataques de fuego +6",
+    "name": "Bonus fuego II",
+    "effect": "Potencia de ataques de fuego +6"
+  },
+  {
+    "id": "rampage-21",
+    "nameEs": "Bonus fuego III",
+    "effectEs": "Potencia de ataques de fuego +8",
+    "name": "Bonus fuego III",
+    "effect": "Potencia de ataques de fuego +8"
+  },
+  {
+    "id": "rampage-22",
+    "nameEs": "Bonus fuego IV",
+    "effectEs": "Potencia de ataques de fuego +10",
+    "name": "Bonus fuego IV",
+    "effect": "Potencia de ataques de fuego +10"
+  },
+  {
+    "id": "rampage-23",
+    "nameEs": "Bonus agua I",
+    "effectEs": "Potencia de ataques de agua +4",
+    "name": "Bonus agua I",
+    "effect": "Potencia de ataques de agua +4"
+  },
+  {
+    "id": "rampage-24",
+    "nameEs": "Bonus agua II",
+    "effectEs": "Potencia de ataques de agua +6",
+    "name": "Bonus agua II",
+    "effect": "Potencia de ataques de agua +6"
+  },
+  {
+    "id": "rampage-25",
+    "nameEs": "Bonus agua III",
+    "effectEs": "Potencia de ataques de agua +8",
+    "name": "Bonus agua III",
+    "effect": "Potencia de ataques de agua +8"
+  },
+  {
+    "id": "rampage-26",
+    "nameEs": "Bonus agua IV",
+    "effectEs": "Potencia de ataques de agua +10",
+    "name": "Bonus agua IV",
+    "effect": "Potencia de ataques de agua +10"
+  },
+  {
+    "id": "rampage-27",
+    "nameEs": "Bonus rayo I",
+    "effectEs": "Potencia de ataques de rayo +4",
+    "name": "Bonus rayo I",
+    "effect": "Potencia de ataques de rayo +4"
+  },
+  {
+    "id": "rampage-28",
+    "nameEs": "Bonus rayo II",
+    "effectEs": "Potencia de ataques de rayo +6",
+    "name": "Bonus rayo II",
+    "effect": "Potencia de ataques de rayo +6"
+  },
+  {
+    "id": "rampage-29",
+    "nameEs": "Bonus rayo III",
+    "effectEs": "Potencia de ataques de rayo +8",
+    "name": "Bonus rayo III",
+    "effect": "Potencia de ataques de rayo +8"
+  },
+  {
+    "id": "rampage-30",
+    "nameEs": "Bonus rayo IV",
+    "effectEs": "Potencia de ataques de rayo +10",
+    "name": "Bonus rayo IV",
+    "effect": "Potencia de ataques de rayo +10"
+  },
+  {
+    "id": "rampage-31",
+    "nameEs": "Bonus hielo I",
+    "effectEs": "Potencia de ataques de hielo +4",
+    "name": "Bonus hielo I",
+    "effect": "Potencia de ataques de hielo +4"
+  },
+  {
+    "id": "rampage-32",
+    "nameEs": "Bonus hielo II",
+    "effectEs": "Potencia de ataques de hielo +6",
+    "name": "Bonus hielo II",
+    "effect": "Potencia de ataques de hielo +6"
+  },
+  {
+    "id": "rampage-33",
+    "nameEs": "Bonus hielo III",
+    "effectEs": "Potencia de ataques de hielo +8",
+    "name": "Bonus hielo III",
+    "effect": "Potencia de ataques de hielo +8"
+  },
+  {
+    "id": "rampage-34",
+    "nameEs": "Bonus hielo IV",
+    "effectEs": "Potencia de ataques de hielo +10",
+    "name": "Bonus hielo IV",
+    "effect": "Potencia de ataques de hielo +10"
+  },
+  {
+    "id": "rampage-35",
+    "nameEs": "Bonus draco I",
+    "effectEs": "Potencia de ataques draco +4",
+    "name": "Bonus draco I",
+    "effect": "Potencia de ataques draco +4"
+  },
+  {
+    "id": "rampage-36",
+    "nameEs": "Bonus draco II",
+    "effectEs": "Potencia de ataques draco +6",
+    "name": "Bonus draco II",
+    "effect": "Potencia de ataques draco +6"
+  },
+  {
+    "id": "rampage-37",
+    "nameEs": "Bonus draco III",
+    "effectEs": "Potencia de ataques draco +8",
+    "name": "Bonus draco III",
+    "effect": "Potencia de ataques draco +8"
+  },
+  {
+    "id": "rampage-38",
+    "nameEs": "Bonus draco IV",
+    "effectEs": "Potencia de ataques draco +10",
+    "name": "Bonus draco IV",
+    "effect": "Potencia de ataques draco +10"
+  },
+  {
+    "id": "rampage-39",
+    "nameEs": "Bonus veneno I",
+    "effectEs": "Acumulaci&oacute;n de veneno +3",
+    "name": "Bonus veneno I",
+    "effect": "Acumulaci&oacute;n de veneno +3"
+  },
+  {
+    "id": "rampage-40",
+    "nameEs": "Bonus veneno II",
+    "effectEs": "Acumulaci&oacute;n de veneno +5",
+    "name": "Bonus veneno II",
+    "effect": "Acumulaci&oacute;n de veneno +5"
+  },
+  {
+    "id": "rampage-41",
+    "nameEs": "Bonus veneno III",
+    "effectEs": "Acumulaci&oacute;n de veneno +7",
+    "name": "Bonus veneno III",
+    "effect": "Acumulaci&oacute;n de veneno +7"
+  },
+  {
+    "id": "rampage-42",
+    "nameEs": "Bonus par&aacute;lisis I",
+    "effectEs": "Acumulaci&oacute;n de par&aacute;lisis +2",
+    "name": "Bonus par&aacute;lisis I",
+    "effect": "Acumulaci&oacute;n de par&aacute;lisis +2"
+  },
+  {
+    "id": "rampage-43",
+    "nameEs": "Bonus par&aacute;lisis II",
+    "effectEs": "Acumulaci&oacute;n de par&aacute;lisis +4",
+    "name": "Bonus par&aacute;lisis II",
+    "effect": "Acumulaci&oacute;n de par&aacute;lisis +4"
+  },
+  {
+    "id": "rampage-44",
+    "nameEs": "Bonus par&aacute;lisis III",
+    "effectEs": "Acumulaci&oacute;n de par&aacute;lisis +6",
+    "name": "Bonus par&aacute;lisis III",
+    "effect": "Acumulaci&oacute;n de par&aacute;lisis +6"
+  },
+  {
+    "id": "rampage-45",
+    "nameEs": "Bonus sue&ntilde;o I",
+    "effectEs": "Acumulaci&oacute;n de sue&ntilde;o +2",
+    "name": "Bonus sue&ntilde;o I",
+    "effect": "Acumulaci&oacute;n de sue&ntilde;o +2"
+  },
+  {
+    "id": "rampage-46",
+    "nameEs": "Bonus sue&ntilde;o II",
+    "effectEs": "Acumulaci&oacute;n de sue&ntilde;o +4",
+    "name": "Bonus sue&ntilde;o II",
+    "effect": "Acumulaci&oacute;n de sue&ntilde;o +4"
+  },
+  {
+    "id": "rampage-47",
+    "nameEs": "Bonus sue&ntilde;o III",
+    "effectEs": "Acumulaci&oacute;n de sue&ntilde;o +6",
+    "name": "Bonus sue&ntilde;o III",
+    "effect": "Acumulaci&oacute;n de sue&ntilde;o +6"
+  },
+  {
+    "id": "rampage-48",
+    "nameEs": "Bonus nitro I",
+    "effectEs": "Acumulaci&oacute;n de nitro +3",
+    "name": "Bonus nitro I",
+    "effect": "Acumulaci&oacute;n de nitro +3"
+  },
+  {
+    "id": "rampage-49",
+    "nameEs": "Bonus nitro II",
+    "effectEs": "Acumulaci&oacute;n de nitro +5",
+    "name": "Bonus nitro II",
+    "effect": "Acumulaci&oacute;n de nitro +5"
+  },
+  {
+    "id": "rampage-50",
+    "nameEs": "Bonus nitro III",
+    "effectEs": "Acumulaci&oacute;n de nitro +7",
+    "name": "Bonus nitro III",
+    "effect": "Acumulaci&oacute;n de nitro +7"
+  },
+  {
+    "id": "rampage-51",
+    "nameEs": "Fuego I",
+    "effectEs": "Cambia el elemento del arma a fuego y suma +10 a su valor.",
+    "name": "Fuego I",
+    "effect": "Cambia el elemento del arma a fuego y suma +10 a su valor."
+  },
+  {
+    "id": "rampage-52",
+    "nameEs": "Fuego II",
+    "effectEs": "Cambia el elemento del arma a fuego y suma +15 a su valor.",
+    "name": "Fuego II",
+    "effect": "Cambia el elemento del arma a fuego y suma +15 a su valor."
+  },
+  {
+    "id": "rampage-53",
+    "nameEs": "Fuego III",
+    "effectEs": "Cambia el elemento del arma a fuego y suma +20 a su valor, pero reduce el ataque en 5.",
+    "name": "Fuego III",
+    "effect": "Cambia el elemento del arma a fuego y suma +20 a su valor, pero reduce el ataque en 5."
+  },
+  {
+    "id": "rampage-54",
+    "nameEs": "Fuego IV",
+    "effectEs": "Cambia el elemento del arma a fuego y suma +30 a su valor, pero reduce el ataque en 10.",
+    "name": "Fuego IV",
+    "effect": "Cambia el elemento del arma a fuego y suma +30 a su valor, pero reduce el ataque en 10."
+  },
+  {
+    "id": "rampage-55",
+    "nameEs": "Agua I",
+    "effectEs": "Cambia el elemento del arma a agua y suma +10 a su valor.",
+    "name": "Agua I",
+    "effect": "Cambia el elemento del arma a agua y suma +10 a su valor."
+  },
+  {
+    "id": "rampage-56",
+    "nameEs": "Agua II",
+    "effectEs": "Cambia el elemento del arma a agua y suma +15 a su valor.",
+    "name": "Agua II",
+    "effect": "Cambia el elemento del arma a agua y suma +15 a su valor."
+  },
+  {
+    "id": "rampage-57",
+    "nameEs": "Agua III",
+    "effectEs": "Cambia el elemento del arma a agua y suma +20 a su valor, pero reduce el ataque en 5.",
+    "name": "Agua III",
+    "effect": "Cambia el elemento del arma a agua y suma +20 a su valor, pero reduce el ataque en 5."
+  },
+  {
+    "id": "rampage-58",
+    "nameEs": "Agua IV",
+    "effectEs": "Cambia el elemento del arma a agua y suma +30 a su valor, pero reduce el ataque en 10.",
+    "name": "Agua IV",
+    "effect": "Cambia el elemento del arma a agua y suma +30 a su valor, pero reduce el ataque en 10."
+  },
+  {
+    "id": "rampage-59",
+    "nameEs": "Rayo I",
+    "effectEs": "Cambia el elemento del arma a rayo y suma +10 a su valor.",
+    "name": "Rayo I",
+    "effect": "Cambia el elemento del arma a rayo y suma +10 a su valor."
+  },
+  {
+    "id": "rampage-60",
+    "nameEs": "Rayo II",
+    "effectEs": "Cambia el elemento del arma a rayo y suma +15 a su valor.",
+    "name": "Rayo II",
+    "effect": "Cambia el elemento del arma a rayo y suma +15 a su valor."
+  },
+  {
+    "id": "rampage-61",
+    "nameEs": "Rayo III",
+    "effectEs": "Cambia el elemento del arma a rayo y suma +20 a su valor, pero reduce el ataque en 5.",
+    "name": "Rayo III",
+    "effect": "Cambia el elemento del arma a rayo y suma +20 a su valor, pero reduce el ataque en 5."
+  },
+  {
+    "id": "rampage-62",
+    "nameEs": "Rayo IV",
+    "effectEs": "Cambia el elemento del arma a rayo y suma +30 a su valor, pero reduce el ataque en 10.",
+    "name": "Rayo IV",
+    "effect": "Cambia el elemento del arma a rayo y suma +30 a su valor, pero reduce el ataque en 10."
+  },
+  {
+    "id": "rampage-63",
+    "nameEs": "Hielo I",
+    "effectEs": "Cambia el elemento del arma a hielo y suma +10 a su valor.",
+    "name": "Hielo I",
+    "effect": "Cambia el elemento del arma a hielo y suma +10 a su valor."
+  },
+  {
+    "id": "rampage-64",
+    "nameEs": "Hielo II",
+    "effectEs": "Cambia el elemento del arma a hielo y suma +15 a su valor.",
+    "name": "Hielo II",
+    "effect": "Cambia el elemento del arma a hielo y suma +15 a su valor."
+  },
+  {
+    "id": "rampage-65",
+    "nameEs": "Hielo III",
+    "effectEs": "Cambia el elemento del arma a hielo y suma +20 a su valor, pero reduce el ataque en 5.",
+    "name": "Hielo III",
+    "effect": "Cambia el elemento del arma a hielo y suma +20 a su valor, pero reduce el ataque en 5."
+  },
+  {
+    "id": "rampage-66",
+    "nameEs": "Hielo IV",
+    "effectEs": "Cambia el elemento del arma a hielo y suma +30 a su valor, pero reduce el ataque en 10.",
+    "name": "Hielo IV",
+    "effect": "Cambia el elemento del arma a hielo y suma +30 a su valor, pero reduce el ataque en 10."
+  },
+  {
+    "id": "rampage-67",
+    "nameEs": "Draco I",
+    "effectEs": "Cambia el elemento del arma a draco y suma +10 a su valor.",
+    "name": "Draco I",
+    "effect": "Cambia el elemento del arma a draco y suma +10 a su valor."
+  },
+  {
+    "id": "rampage-68",
+    "nameEs": "Draco II",
+    "effectEs": "Cambia el elemento del arma a draco y suma +15 a su valor.",
+    "name": "Draco II",
+    "effect": "Cambia el elemento del arma a draco y suma +15 a su valor."
+  },
+  {
+    "id": "rampage-69",
+    "nameEs": "Draco III",
+    "effectEs": "Cambia el elemento del arma a draco y suma +20 a su valor, pero reduce el ataque en 5.",
+    "name": "Draco III",
+    "effect": "Cambia el elemento del arma a draco y suma +20 a su valor, pero reduce el ataque en 5."
+  },
+  {
+    "id": "rampage-70",
+    "nameEs": "Draco IV",
+    "effectEs": "Cambia el elemento del arma a draco y suma +30 a su valor, pero reduce el ataque en 10.",
+    "name": "Draco IV",
+    "effect": "Cambia el elemento del arma a draco y suma +30 a su valor, pero reduce el ataque en 10."
+  },
+  {
+    "id": "rampage-71",
+    "nameEs": "Veneno I",
+    "effectEs": "Cambia el elemento del arma a veneno y suma +10 a su valor.",
+    "name": "Veneno I",
+    "effect": "Cambia el elemento del arma a veneno y suma +10 a su valor."
+  },
+  {
+    "id": "rampage-72",
+    "nameEs": "Veneno II",
+    "effectEs": "Cambia el elemento del arma a veneno y suma +20 a su valor, pero reduce el ataque en 10.",
+    "name": "Veneno II",
+    "effect": "Cambia el elemento del arma a veneno y suma +20 a su valor, pero reduce el ataque en 10."
+  },
+  {
+    "id": "rampage-73",
+    "nameEs": "Veneno III",
+    "effectEs": "Cambia el elemento del arma a veneno y suma +30 a su valor, pero reduce el ataque en 20.",
+    "name": "Veneno III",
+    "effect": "Cambia el elemento del arma a veneno y suma +30 a su valor, pero reduce el ataque en 20."
+  },
+  {
+    "id": "rampage-74",
+    "nameEs": "Par&aacute;lisis I",
+    "effectEs": "Cambia el elemento del arma a par&aacute;lisis y suma +10 a su valor.",
+    "name": "Par&aacute;lisis I",
+    "effect": "Cambia el elemento del arma a par&aacute;lisis y suma +10 a su valor."
+  },
+  {
+    "id": "rampage-75",
+    "nameEs": "Par&aacute;lisis II",
+    "effectEs": "Cambia el elemento del arma a par&aacute;lisis y suma +15 a su valor, pero reduce el ataque en 10.",
+    "name": "Par&aacute;lisis II",
+    "effect": "Cambia el elemento del arma a par&aacute;lisis y suma +15 a su valor, pero reduce el ataque en 10."
+  },
+  {
+    "id": "rampage-76",
+    "nameEs": "Par&aacute;lisis III",
+    "effectEs": "Cambia el elemento del arma a par&aacute;lisis y suma +20 a su valor, pero reduce el ataque en 20.",
+    "name": "Par&aacute;lisis III",
+    "effect": "Cambia el elemento del arma a par&aacute;lisis y suma +20 a su valor, pero reduce el ataque en 20."
+  },
+  {
+    "id": "rampage-77",
+    "nameEs": "Sue&ntilde;o I",
+    "effectEs": "Cambia el elemento del arma a sue&ntilde;o y suma +10 a su valor.",
+    "name": "Sue&ntilde;o I",
+    "effect": "Cambia el elemento del arma a sue&ntilde;o y suma +10 a su valor."
+  },
+  {
+    "id": "rampage-78",
+    "nameEs": "Sue&ntilde;o II",
+    "effectEs": "Cambia el elemento del arma a sue&ntilde;o y suma +12 a su valor, pero reduce el ataque en 10.",
+    "name": "Sue&ntilde;o II",
+    "effect": "Cambia el elemento del arma a sue&ntilde;o y suma +12 a su valor, pero reduce el ataque en 10."
+  },
+  {
+    "id": "rampage-79",
+    "nameEs": "Sue&ntilde;o III",
+    "effectEs": "Cambia el elemento del arma a sue&ntilde;o y suma +15 a su valor, pero reduce el ataque en 20.",
+    "name": "Sue&ntilde;o III",
+    "effect": "Cambia el elemento del arma a sue&ntilde;o y suma +15 a su valor, pero reduce el ataque en 20."
+  },
+  {
+    "id": "rampage-80",
+    "nameEs": "Nitro I",
+    "effectEs": "Cambia el elemento del arma a nitro y suma +10 a su valor.",
+    "name": "Nitro I",
+    "effect": "Cambia el elemento del arma a nitro y suma +10 a su valor."
+  },
+  {
+    "id": "rampage-81",
+    "nameEs": "Nitro II",
+    "effectEs": "Cambia el elemento del arma a nitro y suma +15 a su valor, pero reduce el ataque en 10.",
+    "name": "Nitro II",
+    "effect": "Cambia el elemento del arma a nitro y suma +15 a su valor, pero reduce el ataque en 10."
+  },
+  {
+    "id": "rampage-82",
+    "nameEs": "Nitro III",
+    "effectEs": "Cambia el elemento del arma a nitro y suma +20 a su valor, pero reduce el ataque en 20.",
+    "name": "Nitro III",
+    "effect": "Cambia el elemento del arma a nitro y suma +20 a su valor, pero reduce el ataque en 20."
+  },
+  {
+    "id": "rampage-83",
+    "nameEs": "Tipo de afilado I",
+    "effectEs": "Cambia el afilado de las armas incrementadas.",
+    "name": "Tipo de afilado I",
+    "effect": "Cambia el afilado de las armas incrementadas."
+  },
+  {
+    "id": "rampage-84",
+    "nameEs": "Tipo de afilado II",
+    "effectEs": "Cambia el afilado de las armas incrementadas.",
+    "name": "Tipo de afilado II",
+    "effect": "Cambia el afilado de las armas incrementadas."
+  },
+  {
+    "id": "rampage-85",
+    "nameEs": "Tipo de afilado III",
+    "effectEs": "Cambia el afilado de las armas incrementadas, pero reduce en 10 el ataque.",
+    "name": "Tipo de afilado III",
+    "effect": "Cambia el afilado de las armas incrementadas, pero reduce en 10 el ataque."
+  },
+  {
+    "id": "rampage-86",
+    "nameEs": "Tipo de afilado IV",
+    "effectEs": "Cambia el afilado de las armas incrementadas, pero reduce en 20 el ataque.",
+    "name": "Tipo de afilado IV",
+    "effect": "Cambia el afilado de las armas incrementadas, pero reduce en 20 el ataque."
+  },
+  {
+    "id": "rampage-87",
+    "nameEs": "Secundario: fuego I",
+    "effectEs": "Cambia a fuego el subelemento de un arma que no sea de fuego y suma +10 a su valor.",
+    "name": "Secundario: fuego I",
+    "effect": "Cambia a fuego el subelemento de un arma que no sea de fuego y suma +10 a su valor."
+  },
+  {
+    "id": "rampage-88",
+    "nameEs": "Secundario: fuego II",
+    "effectEs": "Cambia a fuego el subelemento de un arma que no sea de fuego y suma +20 a su valor y +5 al elemento principal.",
+    "name": "Secundario: fuego II",
+    "effect": "Cambia a fuego el subelemento de un arma que no sea de fuego y suma +20 a su valor y +5 al elemento principal."
+  },
+  {
+    "id": "rampage-89",
+    "nameEs": "Secund.: fuego III",
+    "effectEs": "Cambia a fuego el subelemento de un arma que no sea de fuego y suma +30 a su valor y +10 al elemento principal.",
+    "name": "Secund.: fuego III",
+    "effect": "Cambia a fuego el subelemento de un arma que no sea de fuego y suma +30 a su valor y +10 al elemento principal."
+  },
+  {
+    "id": "rampage-90",
+    "nameEs": "Secundario: agua I",
+    "effectEs": "Cambia a agua el subelemento de un arma que no sea de agua y suma +10 a su valor.",
+    "name": "Secundario: agua I",
+    "effect": "Cambia a agua el subelemento de un arma que no sea de agua y suma +10 a su valor."
+  },
+  {
+    "id": "rampage-91",
+    "nameEs": "Secundario: agua II",
+    "effectEs": "Cambia a agua el subelemento de un arma que no sea de agua y suma +20 a su valor y +5 al elemento principal.",
+    "name": "Secundario: agua II",
+    "effect": "Cambia a agua el subelemento de un arma que no sea de agua y suma +20 a su valor y +5 al elemento principal."
+  },
+  {
+    "id": "rampage-92",
+    "nameEs": "Secundario: agua III",
+    "effectEs": "Cambia a agua el subelemento de un arma que no sea de agua y suma +30 a su valor y +10 al elemento principal.",
+    "name": "Secundario: agua III",
+    "effect": "Cambia a agua el subelemento de un arma que no sea de agua y suma +30 a su valor y +10 al elemento principal."
+  },
+  {
+    "id": "rampage-93",
+    "nameEs": "Secundario: rayo I",
+    "effectEs": "Cambia a rayo el subelemento de un arma que no sea de rayo y suma +10 a su valor.",
+    "name": "Secundario: rayo I",
+    "effect": "Cambia a rayo el subelemento de un arma que no sea de rayo y suma +10 a su valor."
+  },
+  {
+    "id": "rampage-94",
+    "nameEs": "Secundario: rayo II",
+    "effectEs": "Cambia a rayo el subelemento de un arma que no sea de rayo y suma +20 a su valor y +5 al elemento principal.",
+    "name": "Secundario: rayo II",
+    "effect": "Cambia a rayo el subelemento de un arma que no sea de rayo y suma +20 a su valor y +5 al elemento principal."
+  },
+  {
+    "id": "rampage-95",
+    "nameEs": "Secundario: rayo III",
+    "effectEs": "Cambia a rayo el subelemento de un arma que no sea de rayo y suma +30 a su valor y +10 al elemento principal.",
+    "name": "Secundario: rayo III",
+    "effect": "Cambia a rayo el subelemento de un arma que no sea de rayo y suma +30 a su valor y +10 al elemento principal."
+  },
+  {
+    "id": "rampage-96",
+    "nameEs": "Secundario: hielo I",
+    "effectEs": "Cambia a hielo el subelemento de un arma que no sea de hielo y suma +10 a su valor.",
+    "name": "Secundario: hielo I",
+    "effect": "Cambia a hielo el subelemento de un arma que no sea de hielo y suma +10 a su valor."
+  },
+  {
+    "id": "rampage-97",
+    "nameEs": "Secundario: hielo II",
+    "effectEs": "Cambia a hielo el subelemento de un arma que no sea de hielo y suma +20 a su valor y +5 al elemento principal.",
+    "name": "Secundario: hielo II",
+    "effect": "Cambia a hielo el subelemento de un arma que no sea de hielo y suma +20 a su valor y +5 al elemento principal."
+  },
+  {
+    "id": "rampage-98",
+    "nameEs": "Secund.: hielo III",
+    "effectEs": "Cambia a hielo el subelemento de un arma que no sea de hielo y suma +30 a su valor y +10 al elemento principal.",
+    "name": "Secund.: hielo III",
+    "effect": "Cambia a hielo el subelemento de un arma que no sea de hielo y suma +30 a su valor y +10 al elemento principal."
+  },
+  {
+    "id": "rampage-99",
+    "nameEs": "Secundario: draco I",
+    "effectEs": "Cambia a draco el subelemento de un arma que no sea de draco y suma +10 a su valor.",
+    "name": "Secundario: draco I",
+    "effect": "Cambia a draco el subelemento de un arma que no sea de draco y suma +10 a su valor."
+  },
+  {
+    "id": "rampage-100",
+    "nameEs": "Secundario: draco II",
+    "effectEs": "Cambia a draco el subelemento de un arma que no sea de draco y suma +20 a su valor y +5 al elemento principal.",
+    "name": "Secundario: draco II",
+    "effect": "Cambia a draco el subelemento de un arma que no sea de draco y suma +20 a su valor y +5 al elemento principal."
+  },
+  {
+    "id": "rampage-101",
+    "nameEs": "Secund.: draco III",
+    "effectEs": "Cambia a draco el subelemento de un arma que no sea de draco y suma +30 a su valor y +10 al elemento principal.",
+    "name": "Secund.: draco III",
+    "effect": "Cambia a draco el subelemento de un arma que no sea de draco y suma +30 a su valor y +10 al elemento principal."
+  },
+  {
+    "id": "rampage-102",
+    "nameEs": "Bonus derribawyverns",
+    "effectEs": "Sube en 1 el nivel de da&ntilde;o del derribawyverns.",
+    "name": "Bonus derribawyverns",
+    "effect": "Sube en 1 el nivel de da&ntilde;o del derribawyverns."
+  },
+  {
+    "id": "rampage-103",
+    "nameEs": "Munici&oacute;n: normal I",
+    "effectEs": "Cambia el tipo de munici&oacute;n a normal y el nivel de munici&oacute;n a 3.",
+    "name": "Munici&oacute;n: normal I",
+    "effect": "Cambia el tipo de munici&oacute;n a normal y el nivel de munici&oacute;n a 3."
+  },
+  {
+    "id": "rampage-104",
+    "nameEs": "Munici&oacute;n: normal II",
+    "effectEs": "Cambia el tipo de munici&oacute;n a normal y el nivel de munici&oacute;n a 4.",
+    "name": "Munici&oacute;n: normal II",
+    "effect": "Cambia el tipo de munici&oacute;n a normal y el nivel de munici&oacute;n a 4."
+  },
+  {
+    "id": "rampage-105",
+    "nameEs": "Munici&oacute;n: normal III",
+    "effectEs": "Cambia el tipo de munici&oacute;n a normal y el nivel de munici&oacute;n a 5.",
+    "name": "Munici&oacute;n: normal III",
+    "effect": "Cambia el tipo de munici&oacute;n a normal y el nivel de munici&oacute;n a 5."
+  },
+  {
+    "id": "rampage-106",
+    "nameEs": "Munici&oacute;n: larga I",
+    "effectEs": "Cambia el tipo de munici&oacute;n a larga y el nivel de munici&oacute;n a 3.",
+    "name": "Munici&oacute;n: larga I",
+    "effect": "Cambia el tipo de munici&oacute;n a larga y el nivel de munici&oacute;n a 3."
+  },
+  {
+    "id": "rampage-107",
+    "nameEs": "Munici&oacute;n: larga II",
+    "effectEs": "Cambia el tipo de munici&oacute;n a larga y el nivel de munici&oacute;n a 4.",
+    "name": "Munici&oacute;n: larga II",
+    "effect": "Cambia el tipo de munici&oacute;n a larga y el nivel de munici&oacute;n a 4."
+  },
+  {
+    "id": "rampage-108",
+    "nameEs": "Munici&oacute;n: larga III",
+    "effectEs": "Cambia el tipo de munici&oacute;n a larga y el nivel de munici&oacute;n a 5.",
+    "name": "Munici&oacute;n: larga III",
+    "effect": "Cambia el tipo de munici&oacute;n a larga y el nivel de munici&oacute;n a 5."
+  },
+  {
+    "id": "rampage-109",
+    "nameEs": "Munici&oacute;n: &aacute;rea I",
+    "effectEs": "Cambia el tipo de munici&oacute;n a &aacute;rea y el nivel de munici&oacute;n a 3.",
+    "name": "Munici&oacute;n: &aacute;rea I",
+    "effect": "Cambia el tipo de munici&oacute;n a &aacute;rea y el nivel de munici&oacute;n a 3."
+  },
+  {
+    "id": "rampage-110",
+    "nameEs": "Munici&oacute;n: &aacute;rea II",
+    "effectEs": "Cambia el tipo de munici&oacute;n a &aacute;rea y el nivel de munici&oacute;n a 4.",
+    "name": "Munici&oacute;n: &aacute;rea II",
+    "effect": "Cambia el tipo de munici&oacute;n a &aacute;rea y el nivel de munici&oacute;n a 4."
+  },
+  {
+    "id": "rampage-111",
+    "nameEs": "Munici&oacute;n: &aacute;rea III",
+    "effectEs": "Cambia el tipo de munici&oacute;n a &aacute;rea y el nivel de munici&oacute;n a 5.",
+    "name": "Munici&oacute;n: &aacute;rea III",
+    "effect": "Cambia el tipo de munici&oacute;n a &aacute;rea y el nivel de munici&oacute;n a 5."
+  },
+  {
+    "id": "rampage-112",
+    "nameEs": "Melod&iacute;a ofensiva I",
+    "effectEs": "Permite tocar melod&iacute;as centradas en el ataque.",
+    "name": "Melod&iacute;a ofensiva I",
+    "effect": "Permite tocar melod&iacute;as centradas en el ataque."
+  },
+  {
+    "id": "rampage-113",
+    "nameEs": "Melod&iacute;a ofensiva II",
+    "effectEs": "Permite tocar melod&iacute;as centradas en el ataque.",
+    "name": "Melod&iacute;a ofensiva II",
+    "effect": "Permite tocar melod&iacute;as centradas en el ataque."
+  },
+  {
+    "id": "rampage-114",
+    "nameEs": "Melod&iacute;a defensiva I",
+    "effectEs": "Permite tocar melod&iacute;as centradas en la defensa.",
+    "name": "Melod&iacute;a defensiva I",
+    "effect": "Permite tocar melod&iacute;as centradas en la defensa."
+  },
+  {
+    "id": "rampage-115",
+    "nameEs": "Melod&iacute;a defensiva II",
+    "effectEs": "Permite tocar melod&iacute;as centradas en la defensa.",
+    "name": "Melod&iacute;a defensiva II",
+    "effect": "Permite tocar melod&iacute;as centradas en la defensa."
+  },
+  {
+    "id": "rampage-116",
+    "nameEs": "Melod&iacute;a curativa I",
+    "effectEs": "Permite tocar melod&iacute;as centradas en curar.",
+    "name": "Melod&iacute;a curativa I",
+    "effect": "Permite tocar melod&iacute;as centradas en curar."
+  },
+  {
+    "id": "rampage-117",
+    "nameEs": "Melod&iacute;a curativa II",
+    "effectEs": "Permite tocar melod&iacute;as centradas en curar.",
+    "name": "Melod&iacute;a curativa II",
+    "effect": "Permite tocar melod&iacute;as centradas en curar."
+  },
+  {
+    "id": "rampage-118",
+    "nameEs": "Melod&iacute;a de dureza I",
+    "effectEs": "Permite tocar melod&iacute;as que anulan estados alterados.",
+    "name": "Melod&iacute;a de dureza I",
+    "effect": "Permite tocar melod&iacute;as que anulan estados alterados."
+  },
+  {
+    "id": "rampage-119",
+    "nameEs": "Melod&iacute;a de dureza II",
+    "effectEs": "Permite tocar melod&iacute;as que anulan estados alterados.",
+    "name": "Melod&iacute;a de dureza II",
+    "effect": "Permite tocar melod&iacute;as que anulan estados alterados."
+  },
+  {
+    "id": "rampage-120",
+    "nameEs": "Bonus vial equipado",
+    "effectEs": "Elemento del vial +10",
+    "name": "Bonus vial equipado",
+    "effect": "Elemento del vial +10"
+  },
+  {
+    "id": "rampage-121",
+    "nameEs": "Vial: potencia",
+    "effectEs": "Cambia el vial equipado a vial de potencia, pero reduce en 10 el ataque.",
+    "name": "Vial: potencia",
+    "effect": "Cambia el vial equipado a vial de potencia, pero reduce en 10 el ataque."
+  },
+  {
+    "id": "rampage-122",
+    "nameEs": "Vial: elemental",
+    "effectEs": "Cambia el vial equipado a vial elemental.",
+    "name": "Vial: elemental",
+    "effect": "Cambia el vial equipado a vial elemental."
+  },
+  {
+    "id": "rampage-123",
+    "nameEs": "Vial: veneno I",
+    "effectEs": "Cambia el vial equipado a vial de veneno y a&ntilde;ade +20 al elemento del vial.",
+    "name": "Vial: veneno I",
+    "effect": "Cambia el vial equipado a vial de veneno y a&ntilde;ade +20 al elemento del vial."
+  },
+  {
+    "id": "rampage-124",
+    "nameEs": "Vial: veneno II",
+    "effectEs": "Cambia el vial equipado a vial de veneno y a&ntilde;ade +25 al elemento del vial.",
+    "name": "Vial: veneno II",
+    "effect": "Cambia el vial equipado a vial de veneno y a&ntilde;ade +25 al elemento del vial."
+  },
+  {
+    "id": "rampage-125",
+    "nameEs": "Vial: veneno III",
+    "effectEs": "Cambia el vial equipado a vial de veneno y a&ntilde;ade +30 al elemento del vial.",
+    "name": "Vial: veneno III",
+    "effect": "Cambia el vial equipado a vial de veneno y a&ntilde;ade +30 al elemento del vial."
+  },
+  {
+    "id": "rampage-126",
+    "nameEs": "Vial: par&aacute;lisis I",
+    "effectEs": "Cambia el vial equipado a vial de par&aacute;lisis y a&ntilde;ade +15 al elemento del vial.",
+    "name": "Vial: par&aacute;lisis I",
+    "effect": "Cambia el vial equipado a vial de par&aacute;lisis y a&ntilde;ade +15 al elemento del vial."
+  },
+  {
+    "id": "rampage-127",
+    "nameEs": "Vial: par&aacute;lisis II",
+    "effectEs": "Cambia el vial equipado a vial de par&aacute;lisis y a&ntilde;ade +20 al elemento del vial.",
+    "name": "Vial: par&aacute;lisis II",
+    "effect": "Cambia el vial equipado a vial de par&aacute;lisis y a&ntilde;ade +20 al elemento del vial."
+  },
+  {
+    "id": "rampage-128",
+    "nameEs": "Vial: par&aacute;lisis III",
+    "effectEs": "Cambia el vial equipado a vial de par&aacute;lisis y a&ntilde;ade +25 al elemento del vial.",
+    "name": "Vial: par&aacute;lisis III",
+    "effect": "Cambia el vial equipado a vial de par&aacute;lisis y a&ntilde;ade +25 al elemento del vial."
+  },
+  {
+    "id": "rampage-129",
+    "nameEs": "Vial: draco I",
+    "effectEs": "Cambia el vial equipado a vial de draco y a&ntilde;ade +20 al elemento del vial.",
+    "name": "Vial: draco I",
+    "effect": "Cambia el vial equipado a vial de draco y a&ntilde;ade +20 al elemento del vial."
+  },
+  {
+    "id": "rampage-130",
+    "nameEs": "Vial: draco II",
+    "effectEs": "Cambia el vial equipado a vial de draco y a&ntilde;ade +25 al elemento del vial.",
+    "name": "Vial: draco II",
+    "effect": "Cambia el vial equipado a vial de draco y a&ntilde;ade +25 al elemento del vial."
+  },
+  {
+    "id": "rampage-131",
+    "nameEs": "Vial: draco III",
+    "effectEs": "Cambia el vial equipado a vial de draco y a&ntilde;ade +30 al elemento del vial.",
+    "name": "Vial: draco III",
+    "effect": "Cambia el vial equipado a vial de draco y a&ntilde;ade +30 al elemento del vial."
+  },
+  {
+    "id": "rampage-132",
+    "nameEs": "Vial: fatiga I",
+    "effectEs": "Cambia el vial equipado a vial de fatiga y a&ntilde;ade +20 al ataque elemental del vial.",
+    "name": "Vial: fatiga I",
+    "effect": "Cambia el vial equipado a vial de fatiga y a&ntilde;ade +20 al ataque elemental del vial."
+  },
+  {
+    "id": "rampage-133",
+    "nameEs": "Vial: fatiga II",
+    "effectEs": "Cambia el vial equipado a vial de fatiga y a&ntilde;ade +30 al ataque elemental del vial.",
+    "name": "Vial: fatiga II",
+    "effect": "Cambia el vial equipado a vial de fatiga y a&ntilde;ade +30 al ataque elemental del vial."
+  },
+  {
+    "id": "rampage-134",
+    "nameEs": "Vial: fatiga III",
+    "effectEs": "Cambia el vial equipado a vial de fatiga y a&ntilde;ade +40 al ataque elemental del vial.",
+    "name": "Vial: fatiga III",
+    "effect": "Cambia el vial equipado a vial de fatiga y a&ntilde;ade +40 al ataque elemental del vial."
+  },
+  {
+    "id": "rampage-135",
+    "nameEs": "Bonus nv. kinsecto",
+    "effectEs": "Aumenta el nivel de kinsecto en 1.",
+    "name": "Bonus nv. kinsecto",
+    "effect": "Aumenta el nivel de kinsecto en 1."
+  },
+  {
+    "id": "rampage-136",
+    "nameEs": "Bonus nv. kinsecto I",
+    "effectEs": "Sube a 4 el nivel de kinsecto.",
+    "name": "Bonus nv. kinsecto I",
+    "effect": "Sube a 4 el nivel de kinsecto."
+  },
+  {
+    "id": "rampage-137",
+    "nameEs": "Bon. nv. kinsecto II",
+    "effectEs": "Sube a 5 el nivel de kinsecto.",
+    "name": "Bon. nv. kinsecto II",
+    "effect": "Sube a 5 el nivel de kinsecto."
+  },
+  {
+    "id": "rampage-138",
+    "nameEs": "B. nv. kinsecto III",
+    "effectEs": "Sube a 6 el nivel de kinsecto, pero reduce el ataque en 10.",
+    "name": "B. nv. kinsecto III",
+    "effect": "Sube a 6 el nivel de kinsecto, pero reduce el ataque en 10."
+  },
+  {
+    "id": "rampage-139",
+    "nameEs": "Bonus nivel kinsecto IV",
+    "effectEs": "Sube a 7 el nivel de kinsecto, pero reduce el ataque en 20.",
+    "name": "Bonus nivel kinsecto IV",
+    "effect": "Sube a 7 el nivel de kinsecto, pero reduce el ataque en 20."
+  },
+  {
+    "id": "rampage-140",
+    "nameEs": "Bonus cadencia",
+    "effectEs": "Reduce la cadencia en 1.",
+    "name": "Bonus cadencia",
+    "effect": "Reduce la cadencia en 1."
+  },
+  {
+    "id": "rampage-141",
+    "nameEs": "Aumento de cadencia",
+    "effectEs": "Disminuye la cadencia en 2 y aumenta el desv&iacute;o en 1.",
+    "name": "Aumento de cadencia",
+    "effect": "Disminuye la cadencia en 2 y aumenta el desv&iacute;o en 1."
+  },
+  {
+    "id": "rampage-142",
+    "nameEs": "Bonus vel. recarga",
+    "effectEs": "Aumenta la velocidad de recarga en 1.",
+    "name": "Bonus vel. recarga",
+    "effect": "Aumenta la velocidad de recarga en 1."
+  },
+  {
+    "id": "rampage-143",
+    "nameEs": "Aumento vel. recarga",
+    "effectEs": "Aumenta la velocidad de recarga en 2 y la cadencia en 1.",
+    "name": "Aumento vel. recarga",
+    "effect": "Aumenta la velocidad de recarga en 2 y la cadencia en 1."
+  },
+  {
+    "id": "rampage-144",
+    "nameEs": "Bonus estabilidad",
+    "effectEs": "Disminuye el desv&iacute;o en 1.",
+    "name": "Bonus estabilidad",
+    "effect": "Disminuye el desv&iacute;o en 1."
+  },
+  {
+    "id": "rampage-145",
+    "nameEs": "Aumento estabilidad",
+    "effectEs": "Disminuye el desv&iacute;o en 2 y la velocidad de recarga en 1.",
+    "name": "Aumento estabilidad",
+    "effect": "Disminuye el desv&iacute;o en 2 y la velocidad de recarga en 1."
+  },
+  {
+    "id": "rampage-146",
+    "nameEs": "Efecto normal I",
+    "effectEs": "Permite cargar munici&oacute;n de nivel 2 y aumenta la capacidad de munici&oacute;n.",
+    "name": "Efecto normal I",
+    "effect": "Permite cargar munici&oacute;n de nivel 2 y aumenta la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-147",
+    "nameEs": "Efecto normal II",
+    "effectEs": "Permite cargar cualquier nivel de munici&oacute;n y aumenta la capacidad de munici&oacute;n.",
+    "name": "Efecto normal II",
+    "effect": "Permite cargar cualquier nivel de munici&oacute;n y aumenta la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-148",
+    "nameEs": "Efecto perforante I",
+    "effectEs": "Permite cargar D perforante nv1 y nv2, y aumenta la capacidad de munici&oacute;n.",
+    "name": "Efecto perforante I",
+    "effect": "Permite cargar D perforante nv1 y nv2, y aumenta la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-149",
+    "nameEs": "Efecto perforante II",
+    "effectEs": "Permite cargar cualquier munici&oacute;n perforante y aumenta la capacidad de munici&oacute;n.",
+    "name": "Efecto perforante II",
+    "effect": "Permite cargar cualquier munici&oacute;n perforante y aumenta la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-150",
+    "nameEs": "Efecto abanico I",
+    "effectEs": "Permite cargar D abanico nv1 y nv2, y aumenta la capacidad de munici&oacute;n.",
+    "name": "Efecto abanico I",
+    "effect": "Permite cargar D abanico nv1 y nv2, y aumenta la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-151",
+    "nameEs": "Efecto abanico II",
+    "effectEs": "Permite cargar cualquier nivel de D abanico y aumenta la capacidad de munici&oacute;n.",
+    "name": "Efecto abanico II",
+    "effect": "Permite cargar cualquier nivel de D abanico y aumenta la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-152",
+    "nameEs": "Efecto metralla I",
+    "effectEs": "Permite cargar D metralla nv1 y nv2, y aumenta la capacidad de munici&oacute;n.",
+    "name": "Efecto metralla I",
+    "effect": "Permite cargar D metralla nv1 y nv2, y aumenta la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-153",
+    "nameEs": "Efecto metralla II",
+    "effectEs": "Permite cargar cualquier munici&oacute;n de metralla y aumenta la capacidad de munici&oacute;n.",
+    "name": "Efecto metralla II",
+    "effect": "Permite cargar cualquier munici&oacute;n de metralla y aumenta la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-154",
+    "nameEs": "Efecto explosivo I",
+    "effectEs": "Permite cargar D explosivo nv1 y nv2, y aumenta la capacidad de munici&oacute;n.",
+    "name": "Efecto explosivo I",
+    "effect": "Permite cargar D explosivo nv1 y nv2, y aumenta la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-155",
+    "nameEs": "Efecto explosivo II",
+    "effectEs": "Permite cargar cualquier nivel de D explosivo y aumenta la capacidad de munici&oacute;n.",
+    "name": "Efecto explosivo II",
+    "effect": "Permite cargar cualquier nivel de D explosivo y aumenta la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-156",
+    "nameEs": "Efecto racimo I",
+    "effectEs": "Permite cargar D racimo nv1 y nv2, y aumenta la capacidad de munici&oacute;n.",
+    "name": "Efecto racimo I",
+    "effect": "Permite cargar D racimo nv1 y nv2, y aumenta la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-157",
+    "nameEs": "Efecto racimo II",
+    "effectEs": "Permite cargar cualquier nivel de D racimo y aumenta la capacidad de munici&oacute;n.",
+    "name": "Efecto racimo II",
+    "effect": "Permite cargar cualquier nivel de D racimo y aumenta la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-158",
+    "nameEs": "A&ntilde;ade: D normal nv1",
+    "effectEs": "Aumenta la capacidad de munici&oacute;n del arma para munici&oacute;n normal.",
+    "name": "A&ntilde;ade: D normal nv1",
+    "effect": "Aumenta la capacidad de munici&oacute;n del arma para munici&oacute;n normal."
+  },
+  {
+    "id": "rampage-159",
+    "nameEs": "A&ntilde;ade: D normal nv2",
+    "effectEs": "Aumenta la capacidad de munici&oacute;n del arma para munici&oacute;n normal.",
+    "name": "A&ntilde;ade: D normal nv2",
+    "effect": "Aumenta la capacidad de munici&oacute;n del arma para munici&oacute;n normal."
+  },
+  {
+    "id": "rampage-160",
+    "nameEs": "Efecto perforante I",
+    "effectEs": "Permite cargar D perforante y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto perforante I",
+    "effect": "Permite cargar D perforante y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-161",
+    "nameEs": "Efecto perforante II",
+    "effectEs": "Permite cargar D perforante y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto perforante II",
+    "effect": "Permite cargar D perforante y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-162",
+    "nameEs": "Efecto abanico I",
+    "effectEs": "Permite cargar D abanico y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto abanico I",
+    "effect": "Permite cargar D abanico y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-163",
+    "nameEs": "Efecto abanico II",
+    "effectEs": "Permite cargar D abanico y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto abanico II",
+    "effect": "Permite cargar D abanico y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-164",
+    "nameEs": "Efecto metralla I",
+    "effectEs": "Permite cargar D metralla y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto metralla I",
+    "effect": "Permite cargar D metralla y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-165",
+    "nameEs": "Efecto metralla II",
+    "effectEs": "Permite cargar D metralla y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto metralla II",
+    "effect": "Permite cargar D metralla y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-166",
+    "nameEs": "Ef. expl./racimo I",
+    "effectEs": "Permite cargar D explosivo y D racimo, y cambia la capacidad de munici&oacute;n.",
+    "name": "Ef. expl./racimo I",
+    "effect": "Permite cargar D explosivo y D racimo, y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-167",
+    "nameEs": "Ef. explosivo/racimo II",
+    "effectEs": "Permite cargar D explosivo y D racimo, y cambia la capacidad de munici&oacute;n.",
+    "name": "Ef. explosivo/racimo II",
+    "effect": "Permite cargar D explosivo y D racimo, y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-168",
+    "nameEs": "Efecto fuego I",
+    "effectEs": "Permite cargar D fuego y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto fuego I",
+    "effect": "Permite cargar D fuego y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-169",
+    "nameEs": "Efecto fuego II",
+    "effectEs": "Permite cargar D fuego y D fuego perforante, y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto fuego II",
+    "effect": "Permite cargar D fuego y D fuego perforante, y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-170",
+    "nameEs": "Efecto agua I",
+    "effectEs": "Permite cargar D agua y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto agua I",
+    "effect": "Permite cargar D agua y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-171",
+    "nameEs": "Efecto agua II",
+    "effectEs": "Permite cargar D agua y D agua perforante, y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto agua II",
+    "effect": "Permite cargar D agua y D agua perforante, y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-172",
+    "nameEs": "Efecto rayo I",
+    "effectEs": "Permite cargar D rayo y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto rayo I",
+    "effect": "Permite cargar D rayo y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-173",
+    "nameEs": "Efecto rayo II",
+    "effectEs": "Permite cargar D rayo y D rayo perforante, y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto rayo II",
+    "effect": "Permite cargar D rayo y D rayo perforante, y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-174",
+    "nameEs": "Efecto hielo I",
+    "effectEs": "Permite cargar D hielo y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto hielo I",
+    "effect": "Permite cargar D hielo y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-175",
+    "nameEs": "Efecto hielo II",
+    "effectEs": "Permite cargar D hielo y D hielo perforante, y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto hielo II",
+    "effect": "Permite cargar D hielo y D hielo perforante, y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-176",
+    "nameEs": "Efecto draco I",
+    "effectEs": "Permite cargar D draco y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto draco I",
+    "effect": "Permite cargar D draco y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-177",
+    "nameEs": "Efecto draco II",
+    "effectEs": "Permite cargar D draco y D draco perforante, y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto draco II",
+    "effect": "Permite cargar D draco y D draco perforante, y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-178",
+    "nameEs": "Efecto par&aacute;lisis I",
+    "effectEs": "Permite cargar D paralizante y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto par&aacute;lisis I",
+    "effect": "Permite cargar D paralizante y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-179",
+    "nameEs": "Efecto par&aacute;lisis II",
+    "effectEs": "Permite cargar D paralizante y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto par&aacute;lisis II",
+    "effect": "Permite cargar D paralizante y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-180",
+    "nameEs": "Efecto sue&ntilde;o I",
+    "effectEs": "Permite cargar D sue&ntilde;o y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto sue&ntilde;o I",
+    "effect": "Permite cargar D sue&ntilde;o y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-181",
+    "nameEs": "Efecto sue&ntilde;o II",
+    "effectEs": "Permite cargar D sue&ntilde;o y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto sue&ntilde;o II",
+    "effect": "Permite cargar D sue&ntilde;o y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-182",
+    "nameEs": "Efecto veneno I",
+    "effectEs": "Permite cargar D veneno, D armadura, D recuperaci&oacute;n y D demonio, y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto veneno I",
+    "effect": "Permite cargar D veneno, D armadura, D recuperaci&oacute;n y D demonio, y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-183",
+    "nameEs": "Efecto veneno II",
+    "effectEs": "Permite cargar D veneno, D armadura, D recuperaci&oacute;n y D demonio, y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto veneno II",
+    "effect": "Permite cargar D veneno, D armadura, D recuperaci&oacute;n y D demonio, y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-184",
+    "nameEs": "Efecto fatiga I",
+    "effectEs": "Permite cargar D veneno, D armadura, D recuperaci&oacute;n y D demonio, y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto fatiga I",
+    "effect": "Permite cargar D veneno, D armadura, D recuperaci&oacute;n y D demonio, y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-185",
+    "nameEs": "Efecto fatiga II",
+    "effectEs": "Permite cargar D veneno, D armadura, D recuperaci&oacute;n y D demonio, y cambia la capacidad de munici&oacute;n.",
+    "name": "Efecto fatiga II",
+    "effect": "Permite cargar D veneno, D armadura, D recuperaci&oacute;n y D demonio, y cambia la capacidad de munici&oacute;n."
+  },
+  {
+    "id": "rampage-186",
+    "nameEs": "Esp.: coraje wyvern",
+    "effectEs": "Cambia la munici&oacute;n especial a coraje wyvern.",
+    "name": "Esp.: coraje wyvern",
+    "effect": "Cambia la munici&oacute;n especial a coraje wyvern."
+  },
+  {
+    "id": "rampage-187",
+    "nameEs": "Esp.: tirador wyvern",
+    "effectEs": "Cambia la munici&oacute;n especial a tirador wyvern.",
+    "name": "Esp.: tirador wyvern",
+    "effect": "Cambia la munici&oacute;n especial a tirador wyvern."
+  },
+  {
+    "id": "rampage-188",
+    "nameEs": "Fuego r&aacute;pido normal",
+    "effectEs": "Permite el fuego r&aacute;pido de D normal nv1 y nv2 que puedas cargar.",
+    "name": "Fuego r&aacute;pido normal",
+    "effect": "Permite el fuego r&aacute;pido de D normal nv1 y nv2 que puedas cargar."
+  },
+  {
+    "id": "rampage-189",
+    "nameEs": "Fuego r&aacute;pido perfor.",
+    "effectEs": "Permite el fuego r&aacute;pido de D perforante nv1 y nv2 que puedas cargar.",
+    "name": "Fuego r&aacute;pido perfor.",
+    "effect": "Permite el fuego r&aacute;pido de D perforante nv1 y nv2 que puedas cargar."
+  },
+  {
+    "id": "rampage-190",
+    "nameEs": "Fuego r&aacute;pido (abanico)",
+    "effectEs": "Permite el fuego r&aacute;pido de D abanico nv1 y nv2 que puedas cargar.",
+    "name": "Fuego r&aacute;pido (abanico)",
+    "effect": "Permite el fuego r&aacute;pido de D abanico nv1 y nv2 que puedas cargar."
+  },
+  {
+    "id": "rampage-191",
+    "nameEs": "Fuego r&aacute;pido (metralla)",
+    "effectEs": "Permite el fuego r&aacute;pido de D metralla nv1 y nv2 que puedas cargar.",
+    "name": "Fuego r&aacute;pido (metralla)",
+    "effect": "Permite el fuego r&aacute;pido de D metralla nv1 y nv2 que puedas cargar."
+  },
+  {
+    "id": "rampage-192",
+    "nameEs": "Fuego r&aacute;pido (explosivo)",
+    "effectEs": "Permite el fuego r&aacute;pido de D explosivo nv1.",
+    "name": "Fuego r&aacute;pido (explosivo)",
+    "effect": "Permite el fuego r&aacute;pido de D explosivo nv1."
+  },
+  {
+    "id": "rampage-193",
+    "nameEs": "Fuego r&aacute;pido fuego",
+    "effectEs": "Permite el fuego r&aacute;pido de D fuego y D fuego perforante.",
+    "name": "Fuego r&aacute;pido fuego",
+    "effect": "Permite el fuego r&aacute;pido de D fuego y D fuego perforante."
+  },
+  {
+    "id": "rampage-194",
+    "nameEs": "Fuego r&aacute;pido agua",
+    "effectEs": "Permite el fuego r&aacute;pido de D agua y D agua perforante.",
+    "name": "Fuego r&aacute;pido agua",
+    "effect": "Permite el fuego r&aacute;pido de D agua y D agua perforante."
+  },
+  {
+    "id": "rampage-195",
+    "nameEs": "Fuego r&aacute;pido rayo",
+    "effectEs": "Permite el fuego r&aacute;pido de D rayo y D rayo perforante.",
+    "name": "Fuego r&aacute;pido rayo",
+    "effect": "Permite el fuego r&aacute;pido de D rayo y D rayo perforante."
+  },
+  {
+    "id": "rampage-196",
+    "nameEs": "Fuego r&aacute;pido hielo",
+    "effectEs": "Permite el fuego r&aacute;pido de D hielo y D hielo perforante.",
+    "name": "Fuego r&aacute;pido hielo",
+    "effect": "Permite el fuego r&aacute;pido de D hielo y D hielo perforante."
+  },
+  {
+    "id": "rampage-197",
+    "nameEs": "Fuego r&aacute;pido draco",
+    "effectEs": "Permite el fuego r&aacute;pido de D draco y D draco perforante.",
+    "name": "Fuego r&aacute;pido draco",
+    "effect": "Permite el fuego r&aacute;pido de D draco y D draco perforante."
+  },
+  {
+    "id": "rampage-198",
+    "nameEs": "Bonus vial de veneno",
+    "effectEs": "Fortalece el vial de veneno si se pueden aplicar viales al arma.",
+    "name": "Bonus vial de veneno",
+    "effect": "Fortalece el vial de veneno si se pueden aplicar viales al arma."
+  },
+  {
+    "id": "rampage-199",
+    "nameEs": "Bonus vial paraliz.",
+    "effectEs": "Fortalece el vial de par&aacute;lisis si se pueden aplicar viales al arma.",
+    "name": "Bonus vial paraliz.",
+    "effect": "Fortalece el vial de par&aacute;lisis si se pueden aplicar viales al arma."
+  },
+  {
+    "id": "rampage-200",
+    "nameEs": "Bonus vial de sue&ntilde;o",
+    "effectEs": "Fortalece el vial de sue&ntilde;o si se pueden aplicar viales al arma.",
+    "name": "Bonus vial de sue&ntilde;o",
+    "effect": "Fortalece el vial de sue&ntilde;o si se pueden aplicar viales al arma."
+  },
+  {
+    "id": "rampage-201",
+    "nameEs": "Bonus vial quemarropa",
+    "effectEs": "Fortalece el vial quemarropa, pero reduce el ataque en 5.",
+    "name": "Bonus vial quemarropa",
+    "effect": "Fortalece el vial quemarropa, pero reduce el ataque en 5."
+  },
+  {
+    "id": "rampage-202",
+    "nameEs": "Usar vial potencia",
+    "effectEs": "Permite aplicar viales de potencia.",
+    "name": "Usar vial potencia",
+    "effect": "Permite aplicar viales de potencia."
+  },
+  {
+    "id": "rampage-203",
+    "nameEs": "Usar vial veneno I",
+    "effectEs": "Permite aplicar viales de veneno.",
+    "name": "Usar vial veneno I",
+    "effect": "Permite aplicar viales de veneno."
+  },
+  {
+    "id": "rampage-204",
+    "nameEs": "Usar vial veneno II",
+    "effectEs": "Permite aplicar viales de veneno y los mejora, pero reduce el ataque en 5.",
+    "name": "Usar vial veneno II",
+    "effect": "Permite aplicar viales de veneno y los mejora, pero reduce el ataque en 5."
+  },
+  {
+    "id": "rampage-205",
+    "nameEs": "Usar vial paraliz. I",
+    "effectEs": "Permite aplicar viales paralizantes.",
+    "name": "Usar vial paraliz. I",
+    "effect": "Permite aplicar viales paralizantes."
+  },
+  {
+    "id": "rampage-206",
+    "nameEs": "Usar vial paral. II",
+    "effectEs": "Permite aplicar viales paralizantes y los mejora, pero reduce el ataque en 10.",
+    "name": "Usar vial paral. II",
+    "effect": "Permite aplicar viales paralizantes y los mejora, pero reduce el ataque en 10."
+  },
+  {
+    "id": "rampage-207",
+    "nameEs": "Usar vial de sue&ntilde;o I",
+    "effectEs": "Permite aplicar viales de sue&ntilde;o.",
+    "name": "Usar vial de sue&ntilde;o I",
+    "effect": "Permite aplicar viales de sue&ntilde;o."
+  },
+  {
+    "id": "rampage-208",
+    "nameEs": "Usar vial sue&ntilde;o II",
+    "effectEs": "Permite aplicar viales de sue&ntilde;o y los mejora, pero reduce el ataque en 10.",
+    "name": "Usar vial sue&ntilde;o II",
+    "effect": "Permite aplicar viales de sue&ntilde;o y los mejora, pero reduce el ataque en 10."
+  },
+  {
+    "id": "rampage-209",
+    "nameEs": "Usar vial de nitro",
+    "effectEs": "Permite aplicar viales de nitro.",
+    "name": "Usar vial de nitro",
+    "effect": "Permite aplicar viales de nitro."
+  },
+  {
+    "id": "rampage-210",
+    "nameEs": "Usar vial de fatiga",
+    "effectEs": "Permite aplicar viales de fatiga y confiere +10 de ataque.",
+    "name": "Usar vial de fatiga",
+    "effect": "Permite aplicar viales de fatiga y confiere +10 de ataque."
+  },
+  {
+    "id": "rampage-211",
+    "nameEs": "Disparo: r&aacute;pido",
+    "effectEs": "Modifica el arma para hacer ataques cargados r&aacute;pidos.",
+    "name": "Disparo: r&aacute;pido",
+    "effect": "Modifica el arma para hacer ataques cargados r&aacute;pidos."
+  },
+  {
+    "id": "rampage-212",
+    "nameEs": "Disparo: perforante",
+    "effectEs": "Modifica el arma para hacer ataques cargados perforantes.",
+    "name": "Disparo: perforante",
+    "effect": "Modifica el arma para hacer ataques cargados perforantes."
+  },
+  {
+    "id": "rampage-213",
+    "nameEs": "Disparo: abanico",
+    "effectEs": "Modifica el arma para hacer ataques cargados en abanico.",
+    "name": "Disparo: abanico",
+    "effect": "Modifica el arma para hacer ataques cargados en abanico."
+  },
+  {
+    "id": "rampage-214",
+    "nameEs": "Disparo: carga",
+    "effectEs": "Modifica el nivel de carga de las flechas para los ataques cargados.",
+    "name": "Disparo: carga",
+    "effect": "Modifica el nivel de carga de las flechas para los ataques cargados."
+  },
+  {
+    "id": "rampage-215",
+    "nameEs": "Disparo: veloz",
+    "effectEs": "Modifica el arma para hacer ataques cargados poco convencionales.",
+    "name": "Disparo: veloz",
+    "effect": "Modifica el arma para hacer ataques cargados poco convencionales."
+  },
+  {
+    "id": "rampage-216",
+    "nameEs": "T. parab.: recuper.",
+    "effectEs": "Cambia el tipo de disparo a recuperaci&oacute;n.",
+    "name": "T. parab.: recuper.",
+    "effect": "Cambia el tipo de disparo a recuperaci&oacute;n."
+  },
+  {
+    "id": "rampage-217",
+    "nameEs": "T. parab.: afinidad",
+    "effectEs": "Cambia el tipo de disparo a afinidad.",
+    "name": "T. parab.: afinidad",
+    "effect": "Cambia el tipo de disparo a afinidad."
+  },
+  {
+    "id": "rampage-218",
+    "nameEs": "T. par.: antimpacto",
+    "effectEs": "Cambia el tipo de disparo a antimpacto.",
+    "name": "T. par.: antimpacto",
+    "effect": "Cambia el tipo de disparo a antimpacto."
+  },
+  {
+    "id": "rampage-219",
+    "nameEs": "Golpe desafilador",
+    "effectEs": "Da cierta probabilidad de mejorar tu poder de ataque cuando la barra de afilado est&aacute; en verde o menos.",
+    "name": "Golpe desafilador",
+    "effect": "Da cierta probabilidad de mejorar tu poder de ataque cuando la barra de afilado est&aacute; en verde o menos."
+  },
+  {
+    "id": "rampage-220",
+    "nameEs": "Golpe brutal",
+    "effectEs": "Puede aumentar el da&ntilde;o con un ataque de afinidad negativa.",
+    "name": "Golpe brutal",
+    "effect": "Puede aumentar el da&ntilde;o con un ataque de afinidad negativa."
+  },
+  {
+    "id": "rampage-221",
+    "nameEs": "Aprovechar elemento",
+    "effectEs": "Aumenta el da&ntilde;o cuando aprovechas la debilidad elemental de un enemigo.",
+    "name": "Aprovechar elemento",
+    "effect": "Aumenta el da&ntilde;o cuando aprovechas la debilidad elemental de un enemigo."
+  },
+  {
+    "id": "rampage-222",
+    "nameEs": "Bonus cordoamarre",
+    "effectEs": "Aumenta el da&ntilde;o al atacar con cordoamarres.",
+    "name": "Bonus cordoamarre",
+    "effect": "Aumenta el da&ntilde;o al atacar con cordoamarres."
+  },
+  {
+    "id": "rampage-223",
+    "nameEs": "Mueledefensas I",
+    "effectEs": "El afilado no se ve afectado cuando te proteges.",
+    "name": "Mueledefensas I",
+    "effect": "El afilado no se ve afectado cuando te proteges."
+  },
+  {
+    "id": "rampage-224",
+    "nameEs": "Mueledefensas II",
+    "effectEs": "Recuperas un ciclo de afilado cuando te proteges.",
+    "name": "Mueledefensas II",
+    "effect": "Recuperas un ciclo de afilado cuando te proteges."
+  },
+  {
+    "id": "rampage-225",
+    "nameEs": "Modo v&aacute;ndalo",
+    "effectEs": "Atacar en modo demon&iacute;aco har&aacute; que todos los golpes sean cr&iacute;ticos, pero dobla el desafilado.",
+    "name": "Modo v&aacute;ndalo",
+    "effect": "Atacar en modo demon&iacute;aco har&aacute; que todos los golpes sean cr&iacute;ticos, pero dobla el desafilado."
+  },
+  {
+    "id": "rampage-226",
+    "nameEs": "Volumen m&aacute;ximo",
+    "effectEs": "Aumenta el &aacute;rea de efecto de una actuaci&oacute;n una vez se ha activado.",
+    "name": "Volumen m&aacute;ximo",
+    "effect": "Aumenta el &aacute;rea de efecto de una actuaci&oacute;n una vez se ha activado."
+  },
+  {
+    "id": "rampage-227",
+    "nameEs": "Bonus cambio viales",
+    "effectEs": "Confiere efectos especiales a los viales cuando ejecutas ataques de mutaci&oacute;n.",
+    "name": "Bonus cambio viales",
+    "effect": "Confiere efectos especiales a los viales cuando ejecutas ataques de mutaci&oacute;n."
+  },
+  {
+    "id": "rampage-228",
+    "nameEs": "Tiro parab. duradero",
+    "effectEs": "Prolonga el efecto del tiro parab&oacute;lico del arco.",
+    "name": "Tiro parab. duradero",
+    "effect": "Prolonga el efecto del tiro parab&oacute;lico del arco."
+  },
+  {
+    "id": "rampage-229",
+    "nameEs": "Jinete maestro",
+    "effectEs": "Aumenta el da&ntilde;o infligido por una montura wyvern y aumenta el temporizador de montura wyvern",
+    "name": "Jinete maestro",
+    "effect": "Aumenta el da&ntilde;o infligido por una montura wyvern y aumenta el temporizador de montura wyvern"
+  },
+  {
+    "id": "rampage-230",
+    "nameEs": "Aprovechar wyvern",
+    "effectEs": "Mayor da&ntilde;o a wyverns de tipo p&aacute;jaro, volador, brutal, nadador y de colmillos, as&iacute; como a leviatanes.",
+    "name": "Aprovechar wyvern",
+    "effect": "Mayor da&ntilde;o a wyverns de tipo p&aacute;jaro, volador, brutal, nadador y de colmillos, as&iacute; como a leviatanes."
+  },
+  {
+    "id": "rampage-231",
+    "nameEs": "Aprovechar mons. p.",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos peque&ntilde;os.",
+    "name": "Aprovechar mons. p.",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos peque&ntilde;os."
+  },
+  {
+    "id": "rampage-232",
+    "nameEs": "Especie antia&eacute;rea",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos voladores.",
+    "name": "Especie antia&eacute;rea",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos voladores."
+  },
+  {
+    "id": "rampage-233",
+    "nameEs": "Especie antiacu&aacute;tica",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos acu&aacute;ticos.",
+    "name": "Especie antiacu&aacute;tica",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos acu&aacute;ticos."
+  },
+  {
+    "id": "rampage-234",
+    "nameEs": "Aprovechar pl. fuego",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de fuego.",
+    "name": "Aprovechar pl. fuego",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de fuego."
+  },
+  {
+    "id": "rampage-235",
+    "nameEs": "Aprovechar pl. agua",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de agua.",
+    "name": "Aprovechar pl. agua",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de agua."
+  },
+  {
+    "id": "rampage-236",
+    "nameEs": "Aprovechar pl. rayo",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de rayo.",
+    "name": "Aprovechar pl. rayo",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de rayo."
+  },
+  {
+    "id": "rampage-237",
+    "nameEs": "Aprovechar pl. hielo",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de hielo.",
+    "name": "Aprovechar pl. hielo",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de hielo."
+  },
+  {
+    "id": "rampage-238",
+    "nameEs": "Alma de Magnamalo",
+    "effectEs": "Mejora el ataque cuando tengas el estado de fuego infernal.",
+    "name": "Alma de Magnamalo",
+    "effect": "Mejora el ataque cuando tengas el estado de fuego infernal."
+  },
+  {
+    "id": "rampage-239",
+    "nameEs": "Alma de Valstrax",
+    "effectEs": "Aumenta un 20 % el ataque elemental de draco bajo los efectos de la plaga draco.",
+    "name": "Alma de Valstrax",
+    "effect": "Aumenta un 20 % el ataque elemental de draco bajo los efectos de la plaga draco."
+  },
+  {
+    "id": "rampage-240",
+    "nameEs": "Alma de Chameleos",
+    "effectEs": "Al acertar con un ataque hay una posibilidad de aumentar la salud, resistencia, ataque o defensa.",
+    "name": "Alma de Chameleos",
+    "effect": "Al acertar con un ataque hay una posibilidad de aumentar la salud, resistencia, ataque o defensa."
+  },
+  {
+    "id": "rampage-241",
+    "nameEs": "Alma Kushala Daora",
+    "effectEs": "Aumenta gradualmente la afinidad al atacar enemigos de forma continuada.",
+    "name": "Alma Kushala Daora",
+    "effect": "Aumenta gradualmente la afinidad al atacar enemigos de forma continuada."
+  },
+  {
+    "id": "rampage-242",
+    "nameEs": "Alma de Teostra",
+    "effectEs": "Aumenta el da&ntilde;o causado por las explosiones de nitro.",
+    "name": "Alma de Teostra",
+    "effect": "Aumenta el da&ntilde;o causado por las explosiones de nitro."
+  },
+  {
+    "id": "rampage-243",
+    "nameEs": "Alma de Ibushi",
+    "effectEs": "Mejora la funcionalidad del arma por cada parte de armadura de Narwa que te equipes.",
+    "name": "Alma de Ibushi",
+    "effect": "Mejora la funcionalidad del arma por cada parte de armadura de Narwa que te equipes."
+  },
+  {
+    "id": "rampage-244",
+    "nameEs": "Alma de Narwa",
+    "effectEs": "Mejora la funcionalidad del arma por cada parte de armadura de Ibushi que te equipes.",
+    "name": "Alma de Narwa",
+    "effect": "Mejora la funcionalidad del arma por cada parte de armadura de Ibushi que te equipes."
+  },
+  {
+    "id": "rampage-245",
+    "nameEs": "Camaradas unidos",
+    "effectEs": "Aumenta la defensa y el ataque de los camaradas Felyne y Canyne.",
+    "name": "Camaradas unidos",
+    "effect": "Aumenta la defensa y el ataque de los camaradas Felyne y Canyne."
+  },
+  {
+    "id": "rampage-246",
+    "nameEs": "Animave duplicada",
+    "effectEs": "A veces aumenta los efectos de las animaves.",
+    "name": "Animave duplicada",
+    "effect": "A veces aumenta los efectos de las animaves."
+  },
+  {
+    "id": "rampage-247",
+    "nameEs": "Golpe brutal",
+    "effectEs": "Puede aumentar el da&ntilde;o con un ataque de afinidad negativa.",
+    "name": "Golpe brutal",
+    "effect": "Puede aumentar el da&ntilde;o con un ataque de afinidad negativa."
+  },
+  {
+    "id": "rampage-248",
+    "nameEs": "Aprovechar elemento",
+    "effectEs": "Aumenta un poco el da&ntilde;o cuando aprovechas la debilidad elemental de un enemigo.",
+    "name": "Aprovechar elemento",
+    "effect": "Aumenta un poco el da&ntilde;o cuando aprovechas la debilidad elemental de un enemigo."
+  },
+  {
+    "id": "rampage-249",
+    "nameEs": "Mueledefensas I",
+    "effectEs": "El afilado no se ve afectado cuando te proteges.",
+    "name": "Mueledefensas I",
+    "effect": "El afilado no se ve afectado cuando te proteges."
+  },
+  {
+    "id": "rampage-250",
+    "nameEs": "Mueledefensas II",
+    "effectEs": "Recuperas un ciclo de afilado cuando te proteges.",
+    "name": "Mueledefensas II",
+    "effect": "Recuperas un ciclo de afilado cuando te proteges."
+  },
+  {
+    "id": "rampage-251",
+    "nameEs": "Modo v&aacute;ndalo",
+    "effectEs": "Atacar en modo demon&iacute;aco aumenta la afinidad, pero redobla el desafilado.",
+    "name": "Modo v&aacute;ndalo",
+    "effect": "Atacar en modo demon&iacute;aco aumenta la afinidad, pero redobla el desafilado."
+  },
+  {
+    "id": "rampage-252",
+    "nameEs": "Volumen m&aacute;ximo",
+    "effectEs": "Aumenta el &aacute;rea de efecto de una actuaci&oacute;n una vez se ha activado.",
+    "name": "Volumen m&aacute;ximo",
+    "effect": "Aumenta el &aacute;rea de efecto de una actuaci&oacute;n una vez se ha activado."
+  },
+  {
+    "id": "rampage-253",
+    "nameEs": "Bonus cambio viales",
+    "effectEs": "Confiere efectos especiales a los viales cuando ejecutas ataques de mutaci&oacute;n.",
+    "name": "Bonus cambio viales",
+    "effect": "Confiere efectos especiales a los viales cuando ejecutas ataques de mutaci&oacute;n."
+  },
+  {
+    "id": "rampage-254",
+    "nameEs": "Tiro parab. duradero",
+    "effectEs": "Prolonga el efecto del tiro parab&oacute;lico del arco.",
+    "name": "Tiro parab. duradero",
+    "effect": "Prolonga el efecto del tiro parab&oacute;lico del arco."
+  },
+  {
+    "id": "rampage-255",
+    "nameEs": "Aprovechar wyvern",
+    "effectEs": "Mayor da&ntilde;o a wyverns de tipo p&aacute;jaro, volador, brutal, nadador y de colmillos, as&iacute; como a leviatanes.",
+    "name": "Aprovechar wyvern",
+    "effect": "Mayor da&ntilde;o a wyverns de tipo p&aacute;jaro, volador, brutal, nadador y de colmillos, as&iacute; como a leviatanes."
+  },
+  {
+    "id": "rampage-256",
+    "nameEs": "Especie antia&eacute;rea",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos voladores.",
+    "name": "Especie antia&eacute;rea",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos voladores."
+  },
+  {
+    "id": "rampage-257",
+    "nameEs": "Especie antiacu&aacute;tica",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos acu&aacute;ticos.",
+    "name": "Especie antiacu&aacute;tica",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos acu&aacute;ticos."
+  },
+  {
+    "id": "rampage-258",
+    "nameEs": "Aprovechar mons. p.",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos peque&ntilde;os.",
+    "name": "Aprovechar mons. p.",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos peque&ntilde;os."
+  },
+  {
+    "id": "rampage-259",
+    "nameEs": "Aprovechar pl. fuego",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de fuego.",
+    "name": "Aprovechar pl. fuego",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de fuego."
+  },
+  {
+    "id": "rampage-260",
+    "nameEs": "Aprovechar pl. agua",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de agua.",
+    "name": "Aprovechar pl. agua",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de agua."
+  },
+  {
+    "id": "rampage-261",
+    "nameEs": "Aprovechar pl. rayo",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de rayo.",
+    "name": "Aprovechar pl. rayo",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de rayo."
+  },
+  {
+    "id": "rampage-262",
+    "nameEs": "Aprovechar pl. hielo",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de hielo.",
+    "name": "Aprovechar pl. hielo",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos afectados por plaga de hielo."
+  },
+  {
+    "id": "rampage-263",
+    "nameEs": "Alma de Magnamalo",
+    "effectEs": "Aumenta el ataque bajo los efectos de la plaga de fuego infernal.",
+    "name": "Alma de Magnamalo",
+    "effect": "Aumenta el ataque bajo los efectos de la plaga de fuego infernal."
+  },
+  {
+    "id": "rampage-264",
+    "nameEs": "Alma de Valstrax",
+    "effectEs": "Aumenta un 20 % el ataque elemental de draco bajo los efectos de la plaga draco.",
+    "name": "Alma de Valstrax",
+    "effect": "Aumenta un 20 % el ataque elemental de draco bajo los efectos de la plaga draco."
+  },
+  {
+    "id": "rampage-265",
+    "nameEs": "Alma de Chameleos",
+    "effectEs": "Cada golpe tiene peque&ntilde;as opciones de dar salud, resistencia, ataque o defensa que aumentan cada vez.",
+    "name": "Alma de Chameleos",
+    "effect": "Cada golpe tiene peque&ntilde;as opciones de dar salud, resistencia, ataque o defensa que aumentan cada vez."
+  },
+  {
+    "id": "rampage-266",
+    "nameEs": "Alma Kushala Daora",
+    "effectEs": "Aumenta gradualmente la afinidad al atacar enemigos de forma continuada en poco tiempo.",
+    "name": "Alma Kushala Daora",
+    "effect": "Aumenta gradualmente la afinidad al atacar enemigos de forma continuada en poco tiempo."
+  },
+  {
+    "id": "rampage-267",
+    "nameEs": "Alma de Teostra",
+    "effectEs": "Aumenta un poco el da&ntilde;o causado por las explosiones de nitro.",
+    "name": "Alma de Teostra",
+    "effect": "Aumenta un poco el da&ntilde;o causado por las explosiones de nitro."
+  },
+  {
+    "id": "rampage-268",
+    "nameEs": "Alma de Ibushi",
+    "effectEs": "Aumenta mucho la defensa del arma por cada parte de armadura de Narwa equipada.",
+    "name": "Alma de Ibushi",
+    "effect": "Aumenta mucho la defensa del arma por cada parte de armadura de Narwa equipada."
+  },
+  {
+    "id": "rampage-269",
+    "nameEs": "Alma de Narwa",
+    "effectEs": "Aumenta un poco la afinidad del arma por cada parte de armadura de Ibushi equipada.",
+    "name": "Alma de Narwa",
+    "effect": "Aumenta un poco la afinidad del arma por cada parte de armadura de Ibushi equipada."
+  },
+  {
+    "id": "rampage-270",
+    "nameEs": "Camaradas unidos",
+    "effectEs": "Aumenta la defensa y el ataque de los camaradas Felyne y Canyne.",
+    "name": "Camaradas unidos",
+    "effect": "Aumenta la defensa y el ataque de los camaradas Felyne y Canyne."
+  },
+  {
+    "id": "rampage-271",
+    "nameEs": "Animave duplicada",
+    "effectEs": "A veces aumenta los efectos de las animaves.",
+    "name": "Animave duplicada",
+    "effect": "A veces aumenta los efectos de las animaves."
+  },
+  {
+    "id": "rampage-272",
+    "nameEs": "Bonus derribawyverns",
+    "effectEs": "Sube 1 nivel el da&ntilde;o del ca&ntilde;&oacute;n de sierpe y prolonga las descargas del ca&ntilde;&oacute;n eruptivo.",
+    "name": "Bonus derribawyverns",
+    "effect": "Sube 1 nivel el da&ntilde;o del ca&ntilde;&oacute;n de sierpe y prolonga las descargas del ca&ntilde;&oacute;n eruptivo."
+  },
+  {
+    "id": "rampage-273",
+    "nameEs": "Aprovechar colmillos",
+    "effectEs": "Aumenta el da&ntilde;o causado a monstruos con colmillos.",
+    "name": "Aprovechar colmillos",
+    "effect": "Aumenta el da&ntilde;o causado a monstruos con colmillos."
+  },
+  {
+    "id": "rampage-274",
+    "nameEs": "Coraz&oacute;n sangriento",
+    "effectEs": "Durante la plaga sangrienta, el ataque aumenta en funci&oacute;n de la vitalidad repuesta al ejecutarlo. El efecto acaba a la vez que la plaga.",
+    "name": "Coraz&oacute;n sangriento",
+    "effect": "Durante la plaga sangrienta, el ataque aumenta en funci&oacute;n de la vitalidad repuesta al ejecutarlo. El efecto acaba a la vez que la plaga."
+  },
+  {
+    "id": "rampage-275",
+    "nameEs": "Cord&oacute;ptero combatiente",
+    "effectEs": "Aumenta en 30 segundos el tiempo que puedes mantener un cord&oacute;ptero.",
+    "name": "Cord&oacute;ptero combatiente",
+    "effect": "Aumenta en 30 segundos el tiempo que puedes mantener un cord&oacute;ptero."
+  },
+  {
+    "id": "rampage-276",
+    "nameEs": "Automejora",
+    "effectEs": "El ataque y la defensa aumentan con el tiempo al realizar una misi&oacute;n (el m&aacute;ximo se alcanza pasados 20 minutos).",
+    "name": "Automejora",
+    "effect": "El ataque y la defensa aumentan con el tiempo al realizar una misi&oacute;n (el m&aacute;ximo se alcanza pasados 20 minutos)."
+  },
+  {
+    "id": "rampage-277",
+    "nameEs": "M&aacute;s carga",
+    "effectEs": "Aumenta tu capacidad de provocar aturdimiento al golpear a un monstruo con un ataque cargado.",
+    "name": "M&aacute;s carga",
+    "effect": "Aumenta tu capacidad de provocar aturdimiento al golpear a un monstruo con un ataque cargado."
+  },
+  {
+    "id": "rampage-278",
+    "nameEs": "Furia demon&iacute;aca",
+    "effectEs": "Al golpear a monstruos en modo demon&iacute;aco, el consumo de resistencia causado por dicho modo ser&aacute; anulado brevemente.",
+    "name": "Furia demon&iacute;aca",
+    "effect": "Al golpear a monstruos en modo demon&iacute;aco, el consumo de resistencia causado por dicho modo ser&aacute; anulado brevemente."
+  },
+  {
+    "id": "rampage-279",
+    "nameEs": "Supercarga kinsecto",
+    "effectEs": "Aumenta el da&ntilde;o de kinsecto en detrimento de un mayor consumo de resistencia.",
+    "name": "Supercarga kinsecto",
+    "effect": "Aumenta el da&ntilde;o de kinsecto en detrimento de un mayor consumo de resistencia."
+  },
+  {
+    "id": "rampage-280",
+    "nameEs": "Golpe de guardia",
+    "effectEs": "Inflige da&ntilde;o contundente a un monstruo al bloquear un ataque con la habilidad intercambiable Guardia, sin excesivo riesgo de derribo.",
+    "name": "Golpe de guardia",
+    "effect": "Inflige da&ntilde;o contundente a un monstruo al bloquear un ataque con la habilidad intercambiable Guardia, sin excesivo riesgo de derribo."
+  }
+]

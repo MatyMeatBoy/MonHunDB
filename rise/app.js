@@ -122,8 +122,12 @@ const skillsBackEl = document.getElementById("skills-back");
 const skillsSearchEl = document.getElementById("skills-search");
 const skillsIndexEl = document.getElementById("skills-index");
 const skillDetailEl = document.getElementById("skill-detail");
+const rampageToggleEl = document.getElementById("rampage-toggle");
+const rampageIndexEl = document.getElementById("rampage-index");
 let skills = [];
 let skillsByName = new Map();
+let rampageSkills = [];
+let rampageMode = false;
 // Full MHRice item catalog (potions/bombs/ammo/etc, 1764 items) -- extends
 // the "Materiales" section beyond just monster-drop materials into a real
 // Materiales/Items catalog. See data/items.json + data/_mhrice_items_raw.json.
@@ -364,7 +368,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, combinationsRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, combinationsRes, rampageSkillsRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
@@ -376,6 +380,7 @@ async function init() {
       fetch("data/weapon_tree.json"),
       fetch("data/items.json"),
       fetch("data/combinations.json"),
+      fetch("data/rampage_skills.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
@@ -397,6 +402,7 @@ async function init() {
     skillsByName = new Map(skills.filter(s => s.name).map(s => [s.name, s]));
     items = itemsRes.ok ? await itemsRes.json() : [];
     combinations = combinationsRes.ok ? await combinationsRes.json() : [];
+    rampageSkills = rampageSkillsRes.ok ? await rampageSkillsRes.json() : [];
     itemsByName = new Map(items.map(it => [it.name, it]));
     if (weaponTreeRes.ok) initWeaponTree(await weaponTreeRes.json());
   } catch (err) {
@@ -2432,12 +2438,16 @@ function showSkillsView() {
   skillsViewEl.hidden = false;
   skillDetailEl.hidden = true;
   skillsIndexEl.hidden = false;
+  rampageIndexEl.hidden = true;
+  rampageMode = false;
+  rampageToggleEl?.classList.remove("active");
   skillsSearchEl.value = "";
   window.scrollTo(0,0);
   renderSkillsIndex("");
 }
 
 function renderSkillsIndex(query) {
+  if (rampageMode) return renderRampageSkillsIndex(query);
   const q = normalizeSearch((query || "").trim());
   const sorted = [...skills].sort((a, b) => trSkillName(a).localeCompare(trSkillName(b)));
   const filtered = !q ? sorted : sorted.filter(s =>
@@ -2463,6 +2473,14 @@ function renderSkillsIndex(query) {
   skillsIndexEl.querySelectorAll("[data-skill-id]").forEach(btn => {
     btn.addEventListener("click", () => navSkill(btn.dataset.skillId));
   });
+}
+
+function renderRampageSkillsIndex(query) {
+  const q = normalizeSearch((query || "").trim());
+  const filtered = rampageSkills.filter(skill => !q || [skill.name, skill.nameEs, skill.effect, skill.effectEs].some(value => normalizeSearch(value).includes(q)));
+  skillsIndexEl.hidden = true;
+  rampageIndexEl.hidden = false;
+  rampageIndexEl.innerHTML = filtered.length ? `<div class="decorations-slot-group"><div class="decorations-grid">${filtered.map(skill => `<article class="decoration-card skill-card"><span class="skill-card-top"><span class="skill-icon"></span><span class="decoration-card-name">${escapeAttr(lang === "es" ? skill.nameEs : skill.name)}</span></span><span class="skill-card-description">${escapeAttr(lang === "es" ? skill.effectEs : skill.effect)}</span></article>`).join("")}</div></div>` : `<p class="no-data">${ui("skillsNoResults")}</p>`;
 }
 
 function showSkillDetail(idOrName) {
@@ -2538,6 +2556,7 @@ function showSkillDetail(idOrName) {
 
 function bootSkills() {
   skillsSearchEl.addEventListener("input", () => renderSkillsIndex(skillsSearchEl.value));
+  rampageToggleEl?.addEventListener("click", () => { rampageMode = !rampageMode; rampageToggleEl.classList.toggle("active", rampageMode); renderSkillsIndex(skillsSearchEl.value); });
   const params = new URLSearchParams(location.search);
   const skillId = params.get("skill");
   if (skillId && skills.some(s => s.id === skillId || s.name === skillId)) {
