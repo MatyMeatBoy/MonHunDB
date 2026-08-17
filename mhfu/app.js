@@ -2596,6 +2596,18 @@ function trArmorPart(part) {
   const key = "armorPart" + part.charAt(0).toUpperCase() + part.slice(1);
   return I18N.ui[lang][key] || part;
 }
+function armorGalleryVariantLabel(set) {
+  const gender = /\(Male\)/i.test(set.name) ? "M" : /\(Female\)/i.test(set.name) ? "F" : "";
+  const base = set.name
+    .replace(/\s+Set\s*\((?:Male|Female)\)\s*$/i, "")
+    .replace(/\s+Set\s*$/i, "")
+    .replace(/\s*\((?:Male|Female)\)\s*$/i, "")
+    .trim();
+  return gender ? `${base} (${gender})` : base;
+}
+function armorGalleryLabel(sets) {
+  return [...new Set(sets.map(armorGalleryVariantLabel))].join(" / ");
+}
 function armorIconTag(p) {
   const src = p.iconM ? `data/images/armor/${p.id}_m.webp` : (p.iconF ? `data/images/armor/${p.id}_f.webp` : null);
   const fallbackSrc = armorFextraIcons[p.id] ? `data/images/armor_fextra/${p.id}.png` : null;
@@ -2707,9 +2719,12 @@ function renderArmorIndex(query) {
     if (seenGalleryGroups.has(group)) return false;
     seenGalleryGroups.add(group);
     return true;
-  });
+  }).map(s => ({
+    ...s,
+    galleryLabel: armorGalleryLabel(setMatchesFiltered.filter(v => (v.galleryGroup || v.name) === (s.galleryGroup || s.name)))
+  }));
   const allSets = [
-    ...gallerySetMatches.map(s => ({ name: s.name, image: s.localImage || s.image, galleryGroup: s.galleryGroup || s.name, rank: setRank(s.pieces.map(r => armorPieces.find(x => x.id === r.id)).filter(Boolean)), isSet: true })),
+    ...gallerySetMatches.map(s => ({ name: s.galleryLabel || s.name, setName: s.name, image: s.localImage || s.image, galleryGroup: s.galleryGroup || s.name, rank: setRank(s.pieces.map(r => armorPieces.find(x => x.id === r.id)).filter(Boolean)), isSet: true })),
     ...impliedFiltered.filter(g => !explicitNames.has(armorSetDisplayName(g.prefix))).map(g => ({ name: armorSetDisplayName(g.prefix), image: armorSetImg(armorSetDisplayName(g.prefix)), rank: setRank(g.pieces), isImplied: true })),
   ];
 
@@ -2731,7 +2746,7 @@ function renderArmorIndex(query) {
       <h3 class="decorations-slot-heading">${r.label}</h3>
       <div class="decorations-grid">
         ${items.map(s => `
-          <button type="button" class="decoration-card armor-set-card" data-${s.isSet ? "set" : "implied"}="${s.isSet ? s.name : s.name.replace(/\s+Set$/, "")}">
+          <button type="button" class="decoration-card armor-set-card" data-${s.isSet ? "set" : "implied"}="${s.isSet ? s.setName : s.name.replace(/\s+Set$/, "")}">
             <img class="armor-set-thumb" src="${s.image}" alt="" loading="lazy" onerror="this.style.display='none'">
             <span class="decoration-card-name">${s.name}</span>
           </button>
@@ -2838,7 +2853,7 @@ function showArmorSetDetail(setName) {
 
   const displayName = set ? set.name : armorSetDisplayName((impliedGroup || partialGroup).prefix);
   const variants = set && set.galleryGroup ? armorSets.filter(s => s.galleryGroup === set.galleryGroup) : [];
-  const variantHtml = variants.length > 1 ? `<div class="armor-variant-switcher"><span>Variantes:</span>${variants.map(v => `<button type="button" data-variant-set="${v.name}"${v.name === set.name ? " disabled" : ""}>${v.name}</button>`).join("")}</div>` : "";
+  const variantHtml = variants.length > 1 ? `<div class="armor-variant-switcher"><span>Variantes:</span>${variants.map(v => `<button type="button" data-variant-set="${v.name}"${v.name === set.name ? " disabled" : ""}>${armorGalleryVariantLabel(v)}</button>`).join("")}</div>` : "";
   armorSetDetailEl.innerHTML = `
     <a class="decorations-back" href="armor">${ui("armorBack")}</a>
     <div class="armor-set-detail-header">
