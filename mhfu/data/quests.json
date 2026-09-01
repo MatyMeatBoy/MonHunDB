@@ -5636,7 +5636,7 @@
     "timeLimit": 35,
     "location": "Fortress",
     "mainMonsters": [
-      "Ash Lao-Shan Lung",
+      "Ashen Lao-Shan Lung",
       "Ioprey"
     ],
     "goalCondition": "Defend the Fortress from Lao-Shan Lung",

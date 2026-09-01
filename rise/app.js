@@ -403,7 +403,11 @@ async function init() {
     items = itemsRes.ok ? await itemsRes.json() : [];
     combinations = combinationsRes.ok ? await combinationsRes.json() : [];
     rampageSkills = rampageSkillsRes.ok ? await rampageSkillsRes.json() : [];
-    itemsByName = new Map(items.map(it => [it.name, it]));
+    // Keep both the source spelling and the normalized material spelling.
+    // Some sources encode apostrophes as HTML entities while quest/recipe data
+    // uses a normal apostrophe; without this second key those entries cannot
+    // open their item record or reuse its Spanish name/icon.
+    itemsByName = new Map(items.flatMap(it => [[it.name, it], [normalizeMaterialKey(it.name), it]]));
     if (weaponTreeRes.ok) initWeaponTree(await weaponTreeRes.json());
   } catch (err) {
     triggerLabelEl.textContent = ui("selectError");

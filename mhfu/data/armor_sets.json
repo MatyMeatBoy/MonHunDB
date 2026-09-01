@@ -17572,106 +17572,106 @@
   "image": null,
   "pieces": [
    {
-    "id": "mhfuaX64",
-    "name": "Hunter Guards",
+    "id": "mhfua893",
+    "name": "Hunter's Guards",
     "part": "arms",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX65",
-    "name": "Hunter Guards S",
+    "id": "mhfua1034",
+    "name": "Hunter's Guards S",
     "part": "arms",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX66",
-    "name": "Hunter Guards U",
+    "id": "mhfua1097",
+    "name": "Hunter's Guards U",
     "part": "arms",
     "variant": "U",
     "rank": 1
    },
    {
-    "id": "mhfuaX67",
-    "name": "Hunter Greaves",
+    "id": "mhfua1742",
+    "name": "Hunter's Greaves",
     "part": "legs",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX68",
-    "name": "Hunter Leggings",
+    "id": "mhfua1743",
+    "name": "Hunter's Leggings",
     "part": "legs",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX69",
-    "name": "Hunter Greaves S",
+    "id": "mhfua1889",
+    "name": "Hunter's Greaves S",
     "part": "legs",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX70",
-    "name": "Hunter Leggings S",
+    "id": "mhfua1890",
+    "name": "Hunter's Leggings S",
     "part": "legs",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX71",
-    "name": "Hunter Greaves U",
+    "id": "mhfua1951",
+    "name": "Hunter's Greaves U",
     "part": "legs",
     "variant": "U",
     "rank": 1
    },
    {
-    "id": "mhfuaX72",
-    "name": "Hunter Leggings U",
+    "id": "mhfua1952",
+    "name": "Hunter's Leggings U",
     "part": "legs",
     "variant": "U",
     "rank": 1
    },
    {
-    "id": "mhfuaX73",
-    "name": "Hunter Tasset",
+    "id": "mhfua1320",
+    "name": "Hunter's Tasset",
     "part": "waist",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX74",
-    "name": "Hunter Tasset S",
+    "id": "mhfua1458",
+    "name": "Hunter's Tasset S",
     "part": "waist",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX75",
-    "name": "Hunter Tasset U",
+    "id": "mhfua1521",
+    "name": "Hunter's Tasset U",
     "part": "waist",
     "variant": "U",
     "rank": 1
    },
    {
-    "id": "mhfuaX76",
-    "name": "Hunter Coat",
+    "id": "mhfua1321",
+    "name": "Hunter's Coat",
     "part": "waist",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX77",
-    "name": "Hunter Coat S",
+    "id": "mhfua1459",
+    "name": "Hunter's Coat S",
     "part": "waist",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX78",
-    "name": "Hunter Coat U",
+    "id": "mhfua1522",
+    "name": "Hunter's Coat U",
     "part": "waist",
     "variant": "U",
     "rank": 1
@@ -17705,22 +17705,22 @@
     "rank": 2
    },
    {
-    "id": "mhfuaX81",
-    "name": "Hunter Vambraces",
+    "id": "mhfua892",
+    "name": "Hunter's Vambraces",
     "part": "arms",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX82",
-    "name": "Hunter Vambraces S",
+    "id": "mhfua1033",
+    "name": "Hunter's Vambraces S",
     "part": "arms",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX83",
-    "name": "Hunter Vambraces U",
+    "id": "mhfua1096",
+    "name": "Hunter's Vambraces U",
     "part": "arms",
     "variant": "U",
     "rank": 1
@@ -17733,211 +17733,211 @@
   "image": "data/images/armor_sets_fandom/hypno-s-bm.png",
   "pieces": [
    {
-    "id": "mhfuaX84",
-    "name": "Hypnoc Guards",
+    "id": "mhfua988",
+    "name": "Hypno Guards",
     "part": "arms",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX85",
-    "name": "Hypnoc Guards S",
+    "id": "mhfua1069",
+    "name": "Hypno Guards S",
     "part": "arms",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX86",
-    "name": "Hypnoc Guards X",
+    "id": "mhfua1219",
+    "name": "Hypno Guards X",
     "part": "arms",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX87",
-    "name": "Hypnoc Helm",
+    "id": "mhfua112",
+    "name": "Hypno Helm",
     "part": "head",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX88",
-    "name": "Hypnoc Cap",
+    "id": "mhfua113",
+    "name": "Hypno Cap",
     "part": "head",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX89",
-    "name": "Hypnoc Helm S",
+    "id": "mhfua192",
+    "name": "Hypno Helm S",
     "part": "head",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX90",
-    "name": "Hypnoc Cap S",
+    "id": "mhfua193",
+    "name": "Hypno Cap S",
     "part": "head",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX91",
-    "name": "Hypnoc Helm X",
+    "id": "mhfua343",
+    "name": "Hypno Helm X",
     "part": "head",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX92",
-    "name": "Hypnoc Cap X",
+    "id": "mhfua344",
+    "name": "Hypno Cap X",
     "part": "head",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX93",
-    "name": "Hypnoc Greaves",
+    "id": "mhfua1841",
+    "name": "Hypno Greaves",
     "part": "legs",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX94",
-    "name": "Hypnoc Leggings",
+    "id": "mhfua1842",
+    "name": "Hypno Leggings",
     "part": "legs",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX95",
-    "name": "Hypnoc Greaves S",
+    "id": "mhfua1923",
+    "name": "Hypno Greaves S",
     "part": "legs",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX96",
-    "name": "Hypnoc Leggings S",
+    "id": "mhfua1924",
+    "name": "Hypno Leggings S",
     "part": "legs",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX97",
-    "name": "Hypnoc Greaves X",
+    "id": "mhfua2074",
+    "name": "Hypno Greaves X",
     "part": "legs",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX98",
-    "name": "Hypnoc Leggings X",
+    "id": "mhfua2075",
+    "name": "Hypno Leggings X",
     "part": "legs",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX99",
-    "name": "Hypnoc Mail",
+    "id": "mhfua555",
+    "name": "Hypno Mail",
     "part": "chest",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX100",
-    "name": "Hypnoc Vest",
+    "id": "mhfua556",
+    "name": "Hypno Vest",
     "part": "chest",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX101",
-    "name": "Hypnoc Mail S",
+    "id": "mhfua636",
+    "name": "Hypno Mail S",
     "part": "chest",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX102",
-    "name": "Hypnoc Vest S",
+    "id": "mhfua637",
+    "name": "Hypno Vest S",
     "part": "chest",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX103",
-    "name": "Hypnoc Mail X",
+    "id": "mhfua789",
+    "name": "Hypno Mail X",
     "part": "chest",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX104",
-    "name": "Hypnoc Vest X",
+    "id": "mhfua790",
+    "name": "Hypno Vest X",
     "part": "chest",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX105",
-    "name": "Hypnoc Tasset",
+    "id": "mhfua1410",
+    "name": "Hypno Tasset",
     "part": "waist",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX106",
-    "name": "Hypnoc Tasset S",
+    "id": "mhfua1493",
+    "name": "Hypno Tasset S",
     "part": "waist",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX107",
-    "name": "Hypnoc Tasset X",
+    "id": "mhfua1642",
+    "name": "Hypno Tasset X",
     "part": "waist",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX108",
-    "name": "Hypnoc Coat",
+    "id": "mhfua1411",
+    "name": "Hypno Coat",
     "part": "waist",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX109",
-    "name": "Hypnoc Coat S",
+    "id": "mhfua1494",
+    "name": "Hypno Coat S",
     "part": "waist",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX110",
-    "name": "Hypnoc Coat X",
+    "id": "mhfua1643",
+    "name": "Hypno Coat X",
     "part": "waist",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX111",
-    "name": "Hypnoc Vambraces",
+    "id": "mhfua987",
+    "name": "Hypno Vambraces",
     "part": "arms",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX112",
-    "name": "Hypnoc Vambraces S",
+    "id": "mhfua1068",
+    "name": "Hypno Vambraces S",
     "part": "arms",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX113",
-    "name": "Hypnoc Vambraces X",
+    "id": "mhfua1218",
+    "name": "Hypno Vambraces X",
     "part": "arms",
     "variant": "X",
     "rank": 2
@@ -17948,7 +17948,9 @@
  {
   "name": "Jolly Roger Set",
   "image": null,
-  "aliases": ["Pirate J"],
+  "aliases": [
+   "Pirate J"
+  ],
   "pieces": [
    {
     "id": "mhfuaX114",
@@ -18028,141 +18030,141 @@
   "image": "data/images/armor_sets_fandom/narga-s-bm.png",
   "pieces": [
    {
-    "id": "mhfuaX128",
-    "name": "Naruga Guards S",
+    "id": "mhfua1085",
+    "name": "Narga Guards S",
     "part": "arms",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX129",
-    "name": "Naruga Guards X",
+    "id": "mhfua1235",
+    "name": "Narga Guards X",
     "part": "arms",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX130",
-    "name": "Naruga Helm S",
+    "id": "mhfua208",
+    "name": "Narga Helm S",
     "part": "head",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX131",
-    "name": "Naruga Cap S",
+    "id": "mhfua209",
+    "name": "Narga Cap S",
     "part": "head",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX132",
-    "name": "Naruga Helm X",
+    "id": "mhfua359",
+    "name": "Narga Helm X",
     "part": "head",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX133",
-    "name": "Naruga Cap X",
+    "id": "mhfua360",
+    "name": "Narga Cap X",
     "part": "head",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX134",
-    "name": "Naruga Greaves S",
+    "id": "mhfua1939",
+    "name": "Narga Greaves S",
     "part": "legs",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX135",
-    "name": "Naruga Leggings S",
+    "id": "mhfua1940",
+    "name": "Narga Leggings S",
     "part": "legs",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX136",
-    "name": "Naruga Greaves X",
+    "id": "mhfua2090",
+    "name": "Narga Greaves X",
     "part": "legs",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX137",
-    "name": "Naruga Leggings X",
+    "id": "mhfua2091",
+    "name": "Narga Leggings X",
     "part": "legs",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX138",
-    "name": "Naruga Mail S",
+    "id": "mhfua652",
+    "name": "Narga Mail S",
     "part": "chest",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX139",
-    "name": "Naruga Vest S",
+    "id": "mhfua653",
+    "name": "Narga Vest S",
     "part": "chest",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX140",
-    "name": "Naruga Mail X",
+    "id": "mhfua805",
+    "name": "Narga Mail X",
     "part": "chest",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX141",
-    "name": "Naruga Vest X",
+    "id": "mhfua806",
+    "name": "Narga Vest X",
     "part": "chest",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX142",
-    "name": "Naruga Tasset S",
+    "id": "mhfua1509",
+    "name": "Narga Tasset S",
     "part": "waist",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX143",
-    "name": "Naruga Tasset X",
+    "id": "mhfua1658",
+    "name": "Narga Tasset X",
     "part": "waist",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX144",
-    "name": "Naruga Coat S",
+    "id": "mhfua1510",
+    "name": "Narga Coat S",
     "part": "waist",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX145",
-    "name": "Naruga Coat X",
+    "id": "mhfua1659",
+    "name": "Narga Coat X",
     "part": "waist",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX146",
-    "name": "Naruga Vambraces S",
+    "id": "mhfua1084",
+    "name": "Narga Vambraces S",
     "part": "arms",
     "variant": "S",
     "rank": 1
    },
    {
-    "id": "mhfuaX147",
-    "name": "Naruga Vambraces X",
+    "id": "mhfua1234",
+    "name": "Narga Vambraces X",
     "part": "arms",
     "variant": "X",
     "rank": 2
@@ -18175,64 +18177,64 @@
   "image": "data/images/armor_sets/red-lobster.jpg",
   "pieces": [
    {
-    "id": "mhfuaX151",
-    "name": "Red Lobster Guards",
+    "id": "mhfua933",
+    "name": "Lobster Guards",
     "part": "arms",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX152",
-    "name": "Red Lobster Helm",
+    "id": "mhfua45",
+    "name": "Lobster Helm",
     "part": "head",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX153",
-    "name": "Red Lobster Cap",
+    "id": "mhfua46",
+    "name": "Lobster Cap",
     "part": "head",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX154",
-    "name": "Red Lobster Greaves",
+    "id": "mhfua1784",
+    "name": "Lobster Greaves",
     "part": "legs",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX155",
-    "name": "Red Lobster Mail",
+    "id": "mhfua497",
+    "name": "Lobster Mail",
     "part": "chest",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX156",
-    "name": "Red Lobster Vest",
+    "id": "mhfua498",
+    "name": "Lobster Vest",
     "part": "chest",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX157",
-    "name": "Red Lobster Tasset",
+    "id": "mhfua1360",
+    "name": "Lobster Coil",
     "part": "waist",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX158",
-    "name": "Red Lobster Braces",
+    "id": "mhfua932",
+    "name": "Lobster Vambraces",
     "part": "arms",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX159",
-    "name": "Red Lobster Coat",
+    "id": "mhfua1361",
+    "name": "Lobster Coat",
     "part": "waist",
     "variant": "-",
     "rank": 0
@@ -18245,29 +18247,29 @@
   "image": "data/images/armor_sets/true-carnage.png",
   "pieces": [
    {
-    "id": "mhfuaX171",
-    "name": "True Carnage Mask",
+    "id": "mhfua413",
+    "name": "Carnage Mask Shin",
     "part": "head",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX172",
-    "name": "True Carnage Boots",
+    "id": "mhfua2146",
+    "name": "Carnage Boots Shin",
     "part": "legs",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX173",
-    "name": "True Carnage Raiment",
+    "id": "mhfua862",
+    "name": "Carnage Raiment Shin",
     "part": "chest",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX174",
-    "name": "True Carnage Wrap",
+    "id": "mhfua1712",
+    "name": "Carnage Wrap Shin",
     "part": "waist",
     "variant": "-",
     "rank": 2
@@ -18280,29 +18282,29 @@
   "image": "data/images/armor_sets_fandom/golden.png",
   "pieces": [
    {
-    "id": "mhfuaX178",
-    "name": "True Golden Hakama",
+    "id": "mhfua2125",
+    "name": "Golden Hakama Shin",
     "part": "legs",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX179",
-    "name": "True Golden Haori",
+    "id": "mhfua841",
+    "name": "Golden Haori Shin",
     "part": "chest",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX180",
-    "name": "True Golden Kote",
+    "id": "mhfua1267",
+    "name": "Golden Kote Shin",
     "part": "arms",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX181",
-    "name": "True Golden Obi",
+    "id": "mhfua1691",
+    "name": "Golden Obi Shin",
     "part": "waist",
     "variant": "-",
     "rank": 2
@@ -18315,36 +18317,36 @@
   "image": "data/images/armor_sets_fandom/true-indra.png",
   "pieces": [
    {
-    "id": "mhfuaX183",
-    "name": "True Indra Gloves",
+    "id": "mhfua1283",
+    "name": "Indra Gloves Shin",
     "part": "arms",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX184",
-    "name": "True Indra Helm",
+    "id": "mhfua408",
+    "name": "Indra Helm Shin",
     "part": "head",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX185",
-    "name": "True Indra Leggings",
+    "id": "mhfua2141",
+    "name": "Indra Leggings Shin",
     "part": "legs",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX186",
-    "name": "True Indra Vest",
+    "id": "mhfua857",
+    "name": "Indra Vest Shin",
     "part": "chest",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX187",
-    "name": "True Indra Wrap",
+    "id": "mhfua1707",
+    "name": "Indra Wrap Shin",
     "part": "waist",
     "variant": "-",
     "rank": 2
@@ -18357,29 +18359,29 @@
   "image": "data/images/armor_sets_fandom/true-mizuha.png",
   "pieces": [
    {
-    "id": "mhfuaX188",
-    "name": "True Mizuha Sleeves",
+    "id": "mhfua1275",
+    "name": "Mizuha Sleeves Shin",
     "part": "arms",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX189",
-    "name": "True Mizuha Cap",
+    "id": "mhfua400",
+    "name": "Mizuha Cap Shin",
     "part": "head",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX190",
-    "name": "True Mizuha Sash",
+    "id": "mhfua1699",
+    "name": "Mizuha Sash Shin",
     "part": "waist",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX191",
-    "name": "True Mizuha Guards",
+    "id": "mhfua849",
+    "name": "Mizuha Guards Shin",
     "part": "chest",
     "variant": "-",
     "rank": 2
@@ -18392,29 +18394,29 @@
   "image": "data/images/armor_sets_fandom/steadfast.png",
   "pieces": [
    {
-    "id": "mhfuaX194",
-    "name": "True SteadfastGuards",
+    "id": "mhfua1284",
+    "name": "SteadfastGuardsShin",
     "part": "arms",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX195",
-    "name": "True Steadfast Helm",
+    "id": "mhfua409",
+    "name": "Steadfast Helm Shin",
     "part": "head",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX196",
-    "name": "True Steadfast Boots",
+    "id": "mhfua2142",
+    "name": "Steadfast Boots Shin",
     "part": "legs",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX197",
-    "name": "True Steadfast Coat",
+    "id": "mhfua1708",
+    "name": "Steadfast Coat Shin",
     "part": "waist",
     "variant": "-",
     "rank": 2
@@ -18427,71 +18429,71 @@
   "image": "data/images/armor_sets_fandom/ucamulbas.png",
   "pieces": [
    {
-    "id": "mhfuaX210",
-    "name": "Ucamulbas Gauntlets",
+    "id": "mhfua1292",
+    "name": "DarkUkanlosGauntlet",
     "part": "arms",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX211",
-    "name": "Ucamulbas Mask",
+    "id": "mhfua416",
+    "name": "Dark Ukanlos Mask",
     "part": "head",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX212",
-    "name": "Ucamulbas Boots",
+    "id": "mhfua2150",
+    "name": "Dark Ukanlos Boots",
     "part": "legs",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX213",
-    "name": "Ucamulbas Plate",
+    "id": "mhfua866",
+    "name": "Dark Ukanlos Plate",
     "part": "chest",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX214",
-    "name": "Ucamulbas Sash",
+    "id": "mhfua1716",
+    "name": "Dark Ukanlos Sash",
     "part": "waist",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX215",
-    "name": "Ucamulbas Aegis",
+    "id": "mhfua865",
+    "name": "Dark Ukanlos Aegis",
     "part": "chest",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX216",
-    "name": "Ucamulbas Cincture",
+    "id": "mhfua1715",
+    "name": "DarkUkanlosCincture",
     "part": "waist",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX217",
-    "name": "Ucamulbas Claw",
+    "id": "mhfua1291",
+    "name": "Dark Ukanlos Claw",
     "part": "arms",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX218",
-    "name": "Ucamulbas Fangs",
+    "id": "mhfua417",
+    "name": "Dark Ukanlos Fangs",
     "part": "head",
     "variant": "-",
     "rank": 2
    },
    {
-    "id": "mhfuaX219",
-    "name": "Ucamulbas Hessian",
+    "id": "mhfua2149",
+    "name": "Dark Ukanlos Hessian",
     "part": "legs",
     "variant": "-",
     "rank": 2
@@ -18504,141 +18506,141 @@
   "image": "data/images/armor_sets_fandom/volganos.png",
   "pieces": [
    {
-    "id": "mhfuaX220",
-    "name": "Volganos Guards",
+    "id": "mhfua998",
+    "name": "Lava Guards",
     "part": "arms",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX221",
-    "name": "Volganos Guards X",
+    "id": "mhfua1237",
+    "name": "Lava Guards X",
     "part": "arms",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX222",
-    "name": "Volganos Helm",
+    "id": "mhfua122",
+    "name": "Lava Helm",
     "part": "head",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX223",
-    "name": "Volganos Cap",
+    "id": "mhfua123",
+    "name": "Lava Cap",
     "part": "head",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX224",
-    "name": "Volganos Helm X",
+    "id": "mhfua361",
+    "name": "Lava Helm X",
     "part": "head",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX225",
-    "name": "Volganos Cap X",
+    "id": "mhfua362",
+    "name": "Lava Cap X",
     "part": "head",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX226",
-    "name": "Volganos Greaves",
+    "id": "mhfua1851",
+    "name": "Lava Greaves",
     "part": "legs",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX227",
-    "name": "Volganos Leggings",
+    "id": "mhfua1852",
+    "name": "Lava Leggings",
     "part": "legs",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX228",
-    "name": "Volganos Greaves X",
+    "id": "mhfua2092",
+    "name": "Lava Greaves X",
     "part": "legs",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX229",
-    "name": "Volganos Leggings X",
+    "id": "mhfua2093",
+    "name": "Lava Leggings X",
     "part": "legs",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX230",
-    "name": "Volganos Mail",
+    "id": "mhfua565",
+    "name": "Lava Mail",
     "part": "chest",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX231",
-    "name": "Volganos Vest",
+    "id": "mhfua566",
+    "name": "Lava Vest",
     "part": "chest",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX232",
-    "name": "Volganos Mail X",
+    "id": "mhfua807",
+    "name": "Lava Mail X",
     "part": "chest",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX233",
-    "name": "Volganos Vest X",
+    "id": "mhfua808",
+    "name": "Lava Vest X",
     "part": "chest",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX234",
-    "name": "Volganos Tasset",
+    "id": "mhfua1420",
+    "name": "Lava Tasset",
     "part": "waist",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX235",
-    "name": "Volganos Tasset X",
+    "id": "mhfua1660",
+    "name": "Lava Tasset X",
     "part": "waist",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX236",
-    "name": "Volganos Coat",
+    "id": "mhfua1421",
+    "name": "Lava Coat",
     "part": "waist",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX237",
-    "name": "Volganos Coat X",
+    "id": "mhfua1661",
+    "name": "Lava Coat X",
     "part": "waist",
     "variant": "X",
     "rank": 2
    },
    {
-    "id": "mhfuaX238",
-    "name": "Volganos Vambraces",
+    "id": "mhfua997",
+    "name": "Lava Vambraces",
     "part": "arms",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX239",
-    "name": "Volganos Vambraces X",
+    "id": "mhfua1236",
+    "name": "Lava Vambraces X",
     "part": "arms",
     "variant": "X",
     "rank": 2
@@ -18651,29 +18653,29 @@
   "image": "data/images/armor_sets/wht-fatalis.jpg",
   "pieces": [
    {
-    "id": "mhfuaX240",
-    "name": "Wht Fatalis Fist Z",
+    "id": "mhfua1312",
+    "name": "White Fatalis Fist Z",
     "part": "arms",
     "variant": "Z",
     "rank": 2
    },
    {
-    "id": "mhfuaX241",
-    "name": "Wht Fatalis Feet Z",
+    "id": "mhfua2169",
+    "name": "White Fatalis Feet Z",
     "part": "legs",
     "variant": "Z",
     "rank": 2
    },
    {
-    "id": "mhfuaX242",
-    "name": "Wht Fatalis Legs Z",
+    "id": "mhfua2170",
+    "name": "White Fatalis Legs Z",
     "part": "legs",
     "variant": "Z",
     "rank": 2
    },
    {
-    "id": "mhfuaX243",
-    "name": "Wht Fatalis Claw Z",
+    "id": "mhfua1311",
+    "name": "White Fatalis Claw Z",
     "part": "arms",
     "variant": "Z",
     "rank": 2

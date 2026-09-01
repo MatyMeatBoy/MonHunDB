@@ -110,8 +110,8 @@ def main():
         "Godbug": ("Gather with a bug net in insect spots; also available from the Pokke Farm insect thicket.", "Recolecta con red en puntos de insectos; también aparece en la zona de insectos de la Granja Pokke."),
         "Hornetaur Head": ("Poison Hornetaurs so they remain carveable; also obtainable from Jungle Trenya at 500 points.", "Envenena a los Hornetaur para poder tallarlos; también con Trenya en Jungla por 500 puntos."),
         "HvnlyBlkGraviShl": ("Black Gravios: G-Rank body carve or quest reward.", "Gravios Negro: carveo del cuerpo o recompensa de misión de rango G."),
-        "Lao-Shan's Scale+": ("High-Rank/G-Rank Lao-Shan Lung body or tail carve and quest rewards.", "Lao-Shan Lung de rango alto/G: carveo de cuerpo o cola y recompensas de misión."),
-        "Lao-Shan'sHvyShel": ("G-Rank Lao-Shan Lung: body carve or quest reward.", "Lao-Shan Lung de rango G: carveo del cuerpo o recompensa de misión."),
+        "Lao-Shan Scale+": ("High-Rank/G-Rank Lao-Shan Lung body or tail carve and quest rewards.", "Lao-Shan Lung de rango alto/G: carveo de cuerpo o cola y recompensas de misión."),
+        "Lao-Shan'sHvyShl": ("G-Rank Lao-Shan Lung: body carve or quest reward.", "Lao-Shan Lung de rango G: carveo del cuerpo o recompensa de misión."),
         "Lost Umbrella": ("Rare gathering item in Marshlands area 1; it can also appear as a quest reward.", "Objeto raro de recolección en el área 1 del Pantano; también puede salir como recompensa de misión."),
         "StoutBlkTwstdHrn": ("G-Rank Black Diablos: break both horns and claim the quest reward.", "Diablos Negro de rango G: rompe ambos cuernos y recoge la recompensa de misión."),
     }

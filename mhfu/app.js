@@ -684,8 +684,6 @@ function applyUiStrings() {
 
 async function loadMaterialTranslations() {
   try {
-    const res = await fetch("data/kiranico_item_translations.json");
-    if (res.ok) I18N.materials = await res.json();
     // MHGU Kiranico is used only as a translation dictionary.  Its catalog is
     // never merged into the MHFU item list; the generated file contains keys
     // only for items that already exist in mhfu/data/items.json.
@@ -710,7 +708,9 @@ async function init() {
   try {
     const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes, eventQuestsRes, combinationsRes, gatheringSourcesRes, farmGuideRes, bowStatsRes, keyQuestsRes, weaponTranslationsRes] = await Promise.all([
       fetch("data/monsters.json"),
-      fetch("data/small_monsters.json"),
+      // MHFU keeps all of its monsters in monsters.json; unlike Rise/Wilds
+      // there is no separate small_monsters.json to request.
+      Promise.resolve({ ok: false }),
       fetch("data/decorations.json"),
       fetch("data/material_obtain_notes.json"),
       fetch("data/weapons.json"),
@@ -728,12 +728,8 @@ async function init() {
       fetch("data/key_quests.json"),
       fetch("data/elotrolado_weapon_translations.json"),
       loadMaterialTranslations(),
-      loadIconManifest(),
       loadStatusIconManifest(),
       loadMaterialIconManifest(),
-      loadMhriceIconMaps(),
-      loadArmorFextraIcons(),
-      loadWeaponGame8Icons(),
     ]);
     if (!monstersRes.ok) throw new Error("HTTP " + monstersRes.status);
     monsters = await monstersRes.json();
@@ -749,7 +745,10 @@ async function init() {
     weaponsById = new Map(weapons.map(w => [w.id, w]));
     skillsByName = new Map(skills.filter(s => s.name).map(s => [s.name, s]));
     items = itemsRes.ok ? await itemsRes.json() : [];
-    itemsByName = new Map(items.map(it => [it.name, it]));
+    // Store a canonical lookup key beside the original catalog name so every
+    // recipe/material reference reaches the same item, even if its source
+    // has a small spelling difference such as spacing before a "+" tier.
+    itemsByName = new Map(items.flatMap(it => [[it.name, it], [normalizeMaterialKey(it.name), it]]));
     quests = questsRes.ok ? await questsRes.json() : [];
     if (eventQuestsRes.ok) quests = quests.concat(await eventQuestsRes.json());
     if (keyQuestsRes.ok) keyQuestGroups = (await keyQuestsRes.json()).groups || {};
@@ -2681,7 +2680,12 @@ function showArmorView() {
 
 function renderArmorIndex(query) {
   const q = normalizeSearch((query || "").trim());
-  const setMatches = !q ? armorSets : armorSets.filter(s => normalizeSearch(s.name).includes(q));
+  // A couple of legacy Fandom-only records have an image but no matching
+  // MHFU piece records at all.  Do not expose a card that would open to an
+  // empty set; partial sets remain visible as long as at least one real piece
+  // is available.
+  const setMatches = (!q ? armorSets : armorSets.filter(s => normalizeSearch(s.name).includes(q)))
+    .filter(s => s.pieces.some(ref => armorPieces.some(piece => piece.id === ref.id)));
   const implied = buildImpliedArmorGroups().filter(g => !q || normalizeSearch(g.prefix).includes(q))
     .filter(g => g.pieces.some(p => p.materials && p.materials.length && p.defense));
   const usedIds = getArmorSetPieceIds();
@@ -2721,10 +2725,11 @@ function renderArmorIndex(query) {
     return true;
   }).map(s => ({
     ...s,
+    resolvedPieces: s.pieces.map(ref => armorPieces.find(piece => piece.id === ref.id)).filter(Boolean),
     galleryLabel: armorGalleryLabel(setMatchesFiltered.filter(v => (v.galleryGroup || v.name) === (s.galleryGroup || s.name)))
   }));
   const allSets = [
-    ...gallerySetMatches.map(s => ({ name: s.galleryLabel || s.name, setName: s.name, image: s.localImage || s.image, galleryGroup: s.galleryGroup || s.name, rank: setRank(s.pieces.map(r => armorPieces.find(x => x.id === r.id)).filter(Boolean)), isSet: true })),
+    ...gallerySetMatches.map(s => ({ name: s.galleryLabel || s.name, setName: s.name, image: s.localImage || s.image, pieces: s.resolvedPieces, galleryGroup: s.galleryGroup || s.name, rank: setRank(s.resolvedPieces), isSet: true })),
     ...impliedFiltered.filter(g => !explicitNames.has(armorSetDisplayName(g.prefix))).map(g => ({ name: armorSetDisplayName(g.prefix), image: armorSetImg(armorSetDisplayName(g.prefix)), rank: setRank(g.pieces), isImplied: true })),
   ];
 
@@ -2747,7 +2752,7 @@ function renderArmorIndex(query) {
       <div class="decorations-grid">
         ${items.map(s => `
           <button type="button" class="decoration-card armor-set-card" data-${s.isSet ? "set" : "implied"}="${s.isSet ? s.setName : s.name.replace(/\s+Set$/, "")}">
-            <img class="armor-set-thumb" src="${s.image}" alt="" loading="lazy" onerror="this.style.display='none'">
+            ${s.image ? `<img class="armor-set-thumb" src="${s.image}" alt="" loading="lazy" onerror="this.style.display='none'">` : armorIconTag(s.pieces[0])}
             <span class="decoration-card-name">${s.name}</span>
           </button>
         `).join("")}
