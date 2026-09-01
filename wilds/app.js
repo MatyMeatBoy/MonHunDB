@@ -925,6 +925,9 @@ const ARMOR_SET_IMG_OVERRIDES = {
   "S. Studded Set": "", "S. Studded S Set": "", "S. Studded X Set": "",
   "Pukei-Pukei X Set": "pukei-pukei-x", "Pukei-Pukei Set": "pukei", "Pukei-Pukei S Set": "pukei-s",
   "Tobi-Kadachi Set": "tobi-kadachi-x", "Tobi-Kadachi S Set": "tobi-kadachi-x", "Tobi-Kadachi X Set": "tobi-kadachi-x",
+  // The implicit piece prefixes differ from the downloaded full-set files.
+  "Duna Set": "data/images/armor_sets_full/uth-duna-set.png",
+  "Barina Set": "data/images/armor_sets_full/lala-barina-set.png",
 };
 const ARMOR_SET_DISPLAY_MAP = { "S. Studded": "Shell Studded", "Squire's": "Knight Squire", "Scholar's": "Scholar", "Golm": "Garangolm", "Rakna": "Rakna-Kadaki", "Artillery Corps": "Royal Artillery Corps", "Chaotic": "Chaotic Gore Magala", "Gore": "Gore Magala", "Hoplite's": "Heavy Knight", "Professor's": "Professor", "Regios": "Seregios", "Outpost HQ": "Base Commander", "Ibushi's": "Ibushi", "Ibushi's Pure": "Ibushi - Pure", "Narwa's": "Narwa", "Narwa's Pure": "Narwa - Pure", "Lecturer": "Lecture", "Lecturer's": "Lecture", "Divine Ire": "Grand Divine Ire", "Channeler's": "Channeler", "Channeler's (Spring)": "Channeler (Spring)", "Medium's": "Medium", "Medium's (Light)": "Medium (Light)", "Charité": "Charite" };
 function armorSetDisplayName(prefix) {
@@ -936,7 +939,7 @@ function armorSetDisplayName(prefix) {
 }
 function armorSetImg(name) {
   const override = ARMOR_SET_IMG_OVERRIDES[name];
-  if (override) return `data/images/armor_sets/${override}.png`;
+  if (override) return override.includes('/') ? override : `data/images/armor_sets/${override}.png`;
   // S and X variants reuse the base (vanilla) image: "X Set" -> try x file,
   // else fall back to the base file
   const m = name.match(/^(.+?)\s+([SX]) Set$/);
@@ -1669,8 +1672,11 @@ function projectileReferenceHtml(w) {
   return `<section class="block bow-stats"><h3>${title}</h3><div class="bow-stats-layout"><div><h4>${lang === "es" ? "Tipos de disparo" : "Shot types"}</h4><div class="ammo-grid">${shots}</div></div><div><h4>${lang === "es" ? "Viales compatibles" : "Usable coatings"}</h4><div class="ammo-grid">${coatings}</div></div></div><p class="muted">${lang === "es" ? "Referencia general; la capacidad y compatibilidad específica pertenecen a cada arma." : "General reference; capacity and exact compatibility belong to each weapon."}</p></section>`;
 }
 function weaponIconTag(w) {
-  return w.icon
-    ? `<img class="material-icon" src="${w.icon}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`
+  // Fextralife filenames keep "%27" as a literal filename component.
+  // Encode its percent once more so static servers resolve that real file.
+  const src = w.icon && w.icon.replace(/%/g, '%25');
+  return src
+    ? `<img class="material-icon" src="${src}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`
     : `<span class="material-icon material-icon--placeholder"></span>`;
 }
 // Words that don't identify a weapon family (they appear in almost every
