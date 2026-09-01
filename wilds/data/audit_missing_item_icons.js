@@ -1,7 +1,8 @@
 // Classifies Wilds catalog entries without an item icon. No data is guessed.
 const fs = require('fs');
 const items = JSON.parse(fs.readFileSync(__dirname + '/items_wilds.json', 'utf8'));
-const missing = items.filter(item => !item.icon).map(item => ({
+const manifest = JSON.parse(fs.readFileSync(__dirname + '/item_icon_manifest.json', 'utf8'));
+const missing = items.filter(item => !item.icon && !manifest[item.name]).map(item => ({
   name: item.name,
   status: item.id == null ? 'special-entry-without-item-id' : 'item-without-icon'
 }));

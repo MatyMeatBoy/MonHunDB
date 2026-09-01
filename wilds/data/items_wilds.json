@@ -2967,15 +2967,6 @@
   "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
  },
  {
-  "name": "Assisted Combo: Akuma"
- },
- {
-  "name": "Gou Hadoken"
- },
- {
-  "name": "Drive Impact"
- },
- {
   "name": "Barrel Bowling Voucher",
   "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.png"
  },
@@ -3041,12 +3032,6 @@
  },
  {
   "name": "Bladescale Pod"
- },
- {
-  "name": "Shield Generator"
- },
- {
-  "name": "The Blackest Night"
  },
  {
   "name": "Pom Motif",
