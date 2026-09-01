@@ -918,7 +918,10 @@ function buildPartialArmorGroups() {
   }
   const partial = [];
   for (const [prefix, pieces] of buckets) {
-    if (pieces.length >= 2 && pieces.length < 5 && new Set(pieces.map(x => x.part)).size >= 2 && prefix) {
+    // Variants can add rows without filling every armor slot. Classify a
+    // partial set by its distinct slots, never by its raw row count.
+    const partCount = new Set(pieces.map(x => x.part)).size;
+    if (pieces.length >= 2 && partCount >= 2 && partCount < 5 && prefix) {
       partial.push({ prefix, pieces });
     }
   }

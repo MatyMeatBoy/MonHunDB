@@ -1342,7 +1342,10 @@ function buildPartialArmorGroups() {
   }
   const partial = [];
   for (const [prefix, pieces] of buckets) {
-    if (pieces.length >= 2 && pieces.length < 5 && new Set(pieces.map(x => x.part)).size >= 2 && prefix) {
+    // Count distinct slots, not rows: a Blademaster/Gunner or M/F variant
+    // can legitimately provide more than five rows while still lacking a slot.
+    const partCount = new Set(pieces.map(x => x.part)).size;
+    if (pieces.length >= 2 && partCount >= 2 && partCount < 5 && prefix) {
       partial.push({ prefix, pieces });
     }
   }
