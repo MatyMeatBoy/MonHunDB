@@ -739,7 +739,9 @@ async function init() {
     weapons = weaponsRes.ok ? await weaponsRes.json() : [];
     bowStats = bowStatsRes.ok ? (await bowStatsRes.json()).bows || {} : {};
     elotroladoWeaponTranslations = weaponTranslationsRes.ok ? (await weaponTranslationsRes.json()).translations || {} : {};
-    armorPieces = armorPiecesRes.ok ? await armorPiecesRes.json() : [];
+    // Empty cells from the legacy armor table were serialized as a fake
+    // "None" armor record. It is neither an equippable piece nor a set.
+    armorPieces = armorPiecesRes.ok ? (await armorPiecesRes.json()).filter(piece => piece.name && piece.name !== "None") : [];
     armorSets = armorSetsRes.ok ? await armorSetsRes.json() : [];
     skills = skillsRes.ok ? await skillsRes.json() : [];
     weaponsById = new Map(weapons.map(w => [w.id, w]));

@@ -44,9 +44,19 @@ function canonicalName(setName, name) {
 }
 
 let fixed = 0;
+let removedInvalidPlaceholders = 0;
 const unresolved = [];
 for (const set of sets) {
-  for (const ref of set.pieces || []) {
+  // The legacy source occasionally emitted a table's empty cell as a real
+  // `{ name: "None" }` reference. It is not an armor piece and must never be
+  // rendered as one; leave the set visibly partial until a documented source
+  // supplies the missing slot.
+  set.pieces = (set.pieces || []).filter(ref => {
+    if (ref?.name !== 'None') return true;
+    removedInvalidPlaceholders += 1;
+    return false;
+  });
+  for (const ref of set.pieces) {
     if (byId.has(ref.id)) continue;
     const target = byName.get(canonicalName(set.name, ref.name));
     if (!target) {
@@ -61,5 +71,5 @@ for (const set of sets) {
 // armor_sets.json historically uses one-space indentation; preserve it so
 // this mechanical repair remains a compact, reviewable data diff.
 fs.writeFileSync(setsPath, JSON.stringify(sets, null, 1) + '\n');
-console.log(`Repaired ${fixed} references; ${unresolved.length} remain unverified.`);
+console.log(`Repaired ${fixed} references; removed ${removedInvalidPlaceholders} invalid placeholders; ${unresolved.length} remain unverified.`);
 if (unresolved.length) console.log(unresolved.join('\n'));

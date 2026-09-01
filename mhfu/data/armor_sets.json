@@ -896,13 +896,6 @@
   "image": "data/images/armor_sets/steel.jpg",
   "pieces": [
    {
-    "id": "mhfuaY1",
-    "name": "None",
-    "part": "head",
-    "variant": null,
-    "rank": 1
-   },
-   {
     "id": "mhfua479",
     "name": "Steel Mail",
     "part": "chest",
@@ -934,13 +927,6 @@
     "id": "mhfuaY2",
     "name": "Steel Tasset",
     "part": "waist",
-    "variant": null,
-    "rank": 1
-   },
-   {
-    "id": "mhfuaY3",
-    "name": "None",
-    "part": "legs",
     "variant": null,
     "rank": 1
    }
@@ -1572,13 +1558,6 @@
     "rank": 1
    },
    {
-    "id": "mhfuaY4",
-    "name": "None",
-    "part": "waist",
-    "variant": null,
-    "rank": 1
-   },
-   {
     "id": "mhfua1782",
     "name": "Plesioth Greaves",
     "part": "legs",
@@ -1610,13 +1589,6 @@
     "id": "mhfua931",
     "name": "Plesioth Guards",
     "part": "arms",
-    "variant": null,
-    "rank": 1
-   },
-   {
-    "id": "mhfuaY5",
-    "name": "None",
-    "part": "waist",
     "variant": null,
     "rank": 1
    },
@@ -1997,13 +1969,6 @@
     "rank": 1
    },
    {
-    "id": "mhfuaY6",
-    "name": "None",
-    "part": "waist",
-    "variant": null,
-    "rank": 1
-   },
-   {
     "id": "mhfua1792",
     "name": "Plesioth Greaves D",
     "part": "legs",
@@ -2036,13 +2001,6 @@
     "id": "mhfua941",
     "name": "Plesioth Guards D",
     "part": "arms",
-    "variant": null,
-    "rank": 1
-   },
-   {
-    "id": "mhfuaY7",
-    "name": "None",
-    "part": "waist",
     "variant": null,
     "rank": 1
    },
@@ -3151,13 +3109,6 @@
     "rank": 1
    },
    {
-    "id": "mhfuaY8",
-    "name": "None",
-    "part": "waist",
-    "variant": null,
-    "rank": 1
-   },
-   {
     "id": "mhfua1819",
     "name": "Giaprey Feet",
     "part": "legs",
@@ -3193,13 +3144,6 @@
     "rank": 1
    },
    {
-    "id": "mhfuaY9",
-    "name": "None",
-    "part": "waist",
-    "variant": null,
-    "rank": 1
-   },
-   {
     "id": "mhfua1820",
     "name": "Velociprey Feet",
     "part": "legs",
@@ -3228,23 +3172,9 @@
     "rank": 1
    },
    {
-    "id": "mhfuaY10",
-    "name": "None",
-    "part": "arms",
-    "variant": null,
-    "rank": 1
-   },
-   {
     "id": "mhfua1393",
     "name": "Bistro Apron",
     "part": "waist",
-    "variant": null,
-    "rank": 1
-   },
-   {
-    "id": "mhfuaY11",
-    "name": "None",
-    "part": "legs",
     "variant": null,
     "rank": 1
    }
@@ -3274,13 +3204,6 @@
     "id": "mhfua969",
     "name": "Genprey Gloves",
     "part": "arms",
-    "variant": null,
-    "rank": 1
-   },
-   {
-    "id": "mhfuaY12",
-    "name": "None",
-    "part": "waist",
     "variant": null,
     "rank": 1
    },
@@ -3772,13 +3695,6 @@
     "id": "mhfua981",
     "name": "Ioprey Gloves",
     "part": "arms",
-    "variant": null,
-    "rank": 1
-   },
-   {
-    "id": "mhfuaY14",
-    "name": "None",
-    "part": "waist",
     "variant": null,
     "rank": 1
    },
@@ -6352,13 +6268,6 @@
   "image": "data/images/armor_sets_fandom/auto/steel-s-armor-blade.png",
   "pieces": [
    {
-    "id": "mhfuaY20",
-    "name": "None",
-    "part": "head",
-    "variant": null,
-    "rank": 2
-   },
-   {
     "id": "mhfuaY21",
     "name": "Steel S Mail",
     "part": "chest",
@@ -6376,13 +6285,6 @@
     "id": "mhfuaY23",
     "name": "Steel S Tasset",
     "part": "waist",
-    "variant": null,
-    "rank": 2
-   },
-   {
-    "id": "mhfuaY24",
-    "name": "None",
-    "part": "legs",
     "variant": null,
     "rank": 2
    }
@@ -8887,13 +8789,6 @@
   "image": "data/images/armor_sets_fandom/auto/steel-u-armor-blade.png",
   "pieces": [
    {
-    "id": "mhfuaY25",
-    "name": "None",
-    "part": "head",
-    "variant": null,
-    "rank": 2
-   },
-   {
     "id": "mhfuaY26",
     "name": "Steel U Mail",
     "part": "chest",
@@ -8911,13 +8806,6 @@
     "id": "mhfuaY28",
     "name": "Steel U Tasset",
     "part": "waist",
-    "variant": null,
-    "rank": 2
-   },
-   {
-    "id": "mhfuaY29",
-    "name": "None",
-    "part": "legs",
     "variant": null,
     "rank": 2
    }
@@ -9811,13 +9699,6 @@
     "rank": 2
    },
    {
-    "id": "mhfuaY30",
-    "name": "None",
-    "part": "waist",
-    "variant": null,
-    "rank": 2
-   },
-   {
     "id": "mhfua1983",
     "name": "Plesioth Greaves U",
     "part": "legs",
@@ -9850,13 +9731,6 @@
     "id": "mhfua1130",
     "name": "Plesioth Guards U",
     "part": "arms",
-    "variant": null,
-    "rank": 2
-   },
-   {
-    "id": "mhfuaY31",
-    "name": "None",
-    "part": "waist",
     "variant": null,
     "rank": 2
    },
@@ -11741,23 +11615,9 @@
     "rank": 3
    },
    {
-    "id": "mhfuaY34",
-    "name": "None",
-    "part": "arms",
-    "variant": null,
-    "rank": 3
-   },
-   {
     "id": "mhfua1603",
     "name": "Bistro Apron U",
     "part": "waist",
-    "variant": null,
-    "rank": 3
-   },
-   {
-    "id": "mhfuaY35",
-    "name": "None",
-    "part": "legs",
     "variant": null,
     "rank": 3
    }
