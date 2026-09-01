@@ -6,6 +6,7 @@
 <title data-i18n="titleMonster">Bestiario — Monster Hunter Rise: Sunbreak</title>
 <link rel="icon" type="image/webp" href="../favicon.webp" />
 <link rel="stylesheet" href="style.css" />
+<script type="module" src="https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
 </head>
 <body data-page="monster">
   <header class="topbar">
@@ -79,6 +80,27 @@
           </div>
         </div>
       </div>
+
+      <section class="block model3d-block" data-block="model3d" hidden>
+        <h3>Modelo 3D <span class="beta-badge">BETA</span></h3>
+        <div class="model3d-variant-toggle" hidden></div>
+        <div class="model3d-stage">
+          <model-viewer
+            class="monster-model3d"
+            camera-controls
+            disable-pan
+            interaction-policy="allow-when-focused"
+            tabindex="0"
+            camera-orbit="0deg 75deg 75%"
+            touch-action="pan-y"
+            auto-rotate
+            rotation-per-second="18deg"
+            shadow-intensity="0.6"
+            exposure="1.1"
+            field-of-view="25deg"
+          ></model-viewer>
+        </div>
+      </section>
 
       <section class="block" data-block="inflicts">
         <h3 data-i18n="inflicts">Daño que inflige</h3>

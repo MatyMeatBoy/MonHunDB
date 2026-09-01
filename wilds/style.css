@@ -789,6 +789,45 @@ body[data-page="missions"] .header-icon-btn[href^="missions"] {
   .monster-render { width: 68px; height: 68px; }
 }
 
+.model3d-block h3 { display: flex; align-items: center; gap: 0.5rem; }
+.beta-badge {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #1a1714;
+  background: var(--accent);
+  border-radius: 4px;
+  padding: 0.1rem 0.4rem;
+  text-transform: uppercase;
+}
+.model3d-stage { position: relative; overflow: hidden; border-radius: 8px; background: var(--bg-panel-alt); }
+.monster-model3d {
+  width: 100%;
+  height: 46vh;
+  min-height: 300px;
+  background: var(--bg-panel-alt);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.model3d-variant-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 0.6rem;
+}
+.model3d-variant-btn {
+  padding: 0.35rem 0.7rem;
+  background: var(--bg-panel-alt);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+.model3d-variant-btn:hover { border-color: var(--accent); }
+.model3d-variant-btn.active { background: var(--accent); border-color: var(--accent); color: #1a1714; font-weight: 600; }
+.model3d-note { font-size: 0.78rem; color: var(--text-dim); margin: 0.5rem 0 0; }
+
 .monster-name {
   margin: 0;
   font-size: 1.8rem;

@@ -2666,6 +2666,16 @@ function starString(stars, max = 3) {
   return out;
 }
 
+// Real in-game 3D model per monster, same technique as MHFU's viewer
+// (extracted via RE-Mesh-Editor + Blender, exported to glTF, compressed
+// with gltf-transform -- Draco geometry + WebP textures capped at 1024px).
+// Aknosom is the first one here; add more the same way as they're
+// extracted. A monster with multiple real distinct model states would use
+// { variants: [...] } same as MHFU's Rajang/Ceanataur, but none here yet.
+const MONSTER_3D_MODELS = {
+  "Aknosom": "data/models/aknosom.glb",
+};
+
 function renderMonster(name) {
   const monster = monsters.find(m => m.name === name);
   if (!monster) return;
@@ -2675,6 +2685,45 @@ function renderMonster(name) {
 
   node.querySelector(".monster-name").textContent = trMonsterName(monster.name);
   node.querySelector(".monster-species").textContent = trSpecies(monster.species || "");
+
+  const model3dBlock = node.querySelector('[data-block="model3d"]');
+  const modelEntry = MONSTER_3D_MODELS[monster.name];
+  const variantToggle = model3dBlock.querySelector(".model3d-variant-toggle");
+  if (modelEntry) {
+    model3dBlock.hidden = false;
+    const mv = model3dBlock.querySelector(".monster-model3d");
+    mv.setAttribute("alt", `Modelo 3D de ${trMonsterName(monster.name)}`);
+    // model-viewer still catches the wheel while merely hovered in some
+    // browsers. Stop it before it reaches the component unless the user has
+    // explicitly focused the viewer with a click, so ordinary page scrolling
+    // is never hijacked by the model.
+    model3dBlock.addEventListener("wheel", event => {
+      if (document.activeElement !== mv) event.stopImmediatePropagation();
+    }, { capture: true });
+    mv.addEventListener("pointerdown", () => mv.focus());
+
+    if (modelEntry.variants) {
+      variantToggle.hidden = false;
+      variantToggle.innerHTML = modelEntry.variants.map((v, i) =>
+        `<button type="button" class="model3d-variant-btn${i === 0 ? " active" : ""}" data-path="${v.path}">${escapeAttr(v.label)}</button>`
+      ).join("");
+      variantToggle.querySelectorAll(".model3d-variant-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          variantToggle.querySelectorAll(".model3d-variant-btn").forEach(b => b.classList.toggle("active", b === btn));
+          mv.setAttribute("src", btn.dataset.path);
+        });
+      });
+      mv.setAttribute("src", modelEntry.variants[0].path);
+    } else {
+      variantToggle.hidden = true;
+      variantToggle.innerHTML = "";
+      mv.setAttribute("src", modelEntry);
+    }
+  } else {
+    model3dBlock.hidden = true;
+    variantToggle.hidden = true;
+    variantToggle.innerHTML = "";
+  }
 
   const mhElementEl = node.querySelector('[data-mh="element"] .mh-info-value');
   const mainEls = monster.attackElements || [];
