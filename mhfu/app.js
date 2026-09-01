@@ -2659,7 +2659,10 @@ function armorIconTag(p) {
   const fallbackSrc = armorFextraIcons[p.id] ? `data/images/armor_fextra/${p.id}.png` : null;
   if (!src) {
     if (fallbackSrc) return `<img class="material-icon" src="${fallbackSrc}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`;
-    return `<span class="material-icon material-icon--placeholder"></span>`;
+    // Piercings and a few legacy partial records have no documented portrait.
+    // Keep the card legible with an authentic in-game armor glyph instead of
+    // presenting a blank slot or pretending it is a specific set render.
+    return `<img class="material-icon" src="data/images/items/armor-s.png" alt="" loading="lazy">`;
   }
   const onerror = fallbackSrc
     ? `if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${fallbackSrc}';}else{this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}));}`
