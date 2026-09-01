@@ -3020,14 +3020,18 @@ function renderCombinationsIndex(query) {
 // like before; items.json entries NOT already covered (potions/bombs/ammo/
 // etc -- no monster source) get grouped by their MHRice category underneath.
 const MHFU_ITEM_CATEGORY_LABELS = {
+  "armor-stone": { es: "Piedras de armadura", en: "Armor stones" }, bait: { es: "Cebos", en: "Baits" }, barrel: { es: "Barriles", en: "Barrels" },
+  "bbq-spit": { es: "Asadores", en: "BBQ spits" }, binoculars: { es: "Prismáticos", en: "Binoculars" }, boomerang: { es: "Bumeranes", en: "Boomerangs" },
   bag: { es: "Bolsas y objetos", en: "Pouches & items" }, ball: { es: "Bolas", en: "Balls" }, bomb: { es: "Bombas", en: "Bombs" },
   bone: { es: "Huesos", en: "Bones" }, book: { es: "Libros", en: "Books" }, bottle: { es: "Frascos", en: "Bottles" },
+  bugnet: { es: "Redes para bichos", en: "Bug nets" }, coin: { es: "Monedas", en: "Coins" }, dung: { es: "Estiércol", en: "Dung" },
+  "empty-bottle": { es: "Frascos vacíos", en: "Empty bottles" }, flute: { es: "Flautas", en: "Flutes" }, "hvnly-scale": { es: "Escamas celestiales", en: "Heavenly scales" },
   "carapaceon-shell": { es: "Caparazones", en: "Carapaceon shells" }, egg: { es: "Huevos", en: "Eggs" }, fang: { es: "Colmillos", en: "Fangs" },
   fish: { es: "Peces", en: "Fish" }, herb: { es: "Hierbas", en: "Herbs" }, honey: { es: "Miel", en: "Honey" }, husk: { es: "Cáscaras", en: "Husks" },
   insect: { es: "Insectos", en: "Insects" }, jewel: { es: "Joyas", en: "Jewels" }, knife: { es: "Cuchillos", en: "Knives" }, map: { es: "Mapas", en: "Maps" },
   meat: { es: "Carne", en: "Meat" }, monster: { es: "Partes de monstruo", en: "Monster parts" }, mushroom: { es: "Setas", en: "Mushrooms" },
   ore: { es: "Minerales", en: "Ores" }, pelt: { es: "Pieles", en: "Pelts" }, pickaxe: { es: "Picos", en: "Pickaxes" }, scale: { es: "Escamas", en: "Scales" },
-  seed: { es: "Semillas", en: "Seeds" }, shell: { es: "Conchas", en: "Shells" }, ticket: { es: "Tickets", en: "Tickets" }, account: { es: "Cuenta / Puntos Pokke", en: "Account / Pokke Points" }, unknown: { es: "Objetos especiales", en: "Special items" },
+  seed: { es: "Semillas", en: "Seeds" }, shell: { es: "Conchas", en: "Shells" }, smoke: { es: "Humo", en: "Smoke" }, ticket: { es: "Tickets", en: "Tickets" }, tool: { es: "Herramientas", en: "Tools" }, trap: { es: "Trampas", en: "Traps" }, web: { es: "Telarañas", en: "Webs" }, whetstone: { es: "Piedras de afilar", en: "Whetstones" }, account: { es: "Cuenta / Puntos Pokke", en: "Account / Pokke Points" }, unknown: { es: "Objetos especiales", en: "Special items" },
 };
 function itemCategoryLabel(category) {
   return MHFU_ITEM_CATEGORY_LABELS[category]?.[lang] || category;
