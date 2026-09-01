@@ -3691,7 +3691,7 @@ function buildSelector() {
         btn.dataset.name = it.name;
         btn.dataset.search = normalizeSearch(it.name + " " + trMonsterName(it.name));
         btn.setAttribute("role", "option");
-        btn.innerHTML = `${isVariant ? '<span class="variant-dash">â€”</span>' : ""}<img src="${iconPath(it.name)}" alt="" loading="lazy" onerror="this.classList.add('icon-missing')"><span>${trMonsterName(it.name)}</span>`;
+        btn.innerHTML = `${isVariant ? '<span class="variant-dash">—</span>' : ""}<img src="${iconPath(it.name)}" alt="" loading="lazy" onerror="this.classList.add('icon-missing')"><span>${trMonsterName(it.name)}</span>`;
         btn.addEventListener("click", () => selectMonster(it.name));
         groupEl.appendChild(btn);
       });
