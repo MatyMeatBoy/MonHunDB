@@ -2594,7 +2594,11 @@ function bootMaterials() {
   materialsModeToggleEl?.querySelectorAll("button").forEach(b => b.addEventListener("click", () => { materialsMode = b.dataset.materialsMode; materialDetailEl.hidden = true; materialsIndexEl.hidden = false; renderMaterialsMode(materialsSearchEl.value); }));
   const params = new URLSearchParams(location.search);
   const matKey = params.get("mat");
-  if (matKey && materialIndex && materialIndex.has(normalizeMaterialKey(matKey))) {
+  const normalizedMatKey = normalizeMaterialKey(matKey || "");
+  // Event and utility items live in the icon catalog rather than a monster
+  // reward table. Their links should still open a detail view.
+  const catalogMaterial = Object.keys(itemIconManifest).some(key => normalizeMaterialKey(key) === normalizedMatKey);
+  if (matKey && materialIndex && (materialIndex.has(normalizedMatKey) || catalogMaterial)) {
     showMaterialsView();
     showMaterialDetail(matKey);
   } else {

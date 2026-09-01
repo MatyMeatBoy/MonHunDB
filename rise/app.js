@@ -2414,7 +2414,11 @@ function bootMaterials() {
   materialsModeToggleEl?.querySelectorAll("button").forEach(b => b.addEventListener("click", () => { materialsMode = b.dataset.materialsMode; materialDetailEl.hidden = true; materialsIndexEl.hidden = false; renderMaterialsMode(materialsSearchEl.value); }));
   const params = new URLSearchParams(location.search);
   const matKey = params.get("mat");
-  if (matKey && materialIndex && materialIndex.has(normalizeMaterialKey(matKey))) {
+  const normalizedMatKey = normalizeMaterialKey(matKey || "");
+  // Consumables, ammunition and other catalog items can be valid even when
+  // they have no monster-drop row. Keep their material links navigable.
+  const catalogMaterial = itemsByName.has(matKey) || itemsByName.has(normalizedMatKey);
+  if (matKey && materialIndex && (materialIndex.has(normalizedMatKey) || catalogMaterial)) {
     showMaterialsView();
     showMaterialDetail(matKey);
   } else {
