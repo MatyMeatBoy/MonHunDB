@@ -3969,10 +3969,6 @@
     ],
     "materials": [
       {
-        "material": "7000",
-        "qty": 1
-      },
-      {
         "material": "Lagiacrus Hide+",
         "qty": 5
       },
@@ -4036,10 +4032,6 @@
       }
     ],
     "materials": [
-      {
-        "material": "7000",
-        "qty": 1
-      },
       {
         "material": "Lagiacrus Hide+",
         "qty": 6
@@ -4170,10 +4162,6 @@
       }
     ],
     "materials": [
-      {
-        "material": "7000",
-        "qty": 1
-      },
       {
         "material": "Lagiacrus Certificate S",
         "qty": 2
@@ -4362,7 +4350,7 @@
         "qty": 6
       },
       {
-        "material": "Lagiacrus Shockspik",
+        "material": "Lagiacrus Shockspike",
         "qty": 3
       },
       {
@@ -7145,7 +7133,11 @@
         "qty": 5
       },
       {
-        "material": "Frenzy Crystal x 1 Dragonbone Relic",
+        "material": "Frenzy Crystal",
+        "qty": 1
+      },
+      {
+        "material": "Dragonbone Relic",
         "qty": 1
       }
     ],
@@ -17276,7 +17268,7 @@
     ],
     "materials": [
       {
-        "material": "Hunter symbol_iii",
+        "material": "Hunter Symbol III",
         "qty": 1
       },
       {
@@ -17376,7 +17368,7 @@
     ],
     "materials": [
       {
-        "material": "Hunter symbol_iii",
+        "material": "Hunter Symbol III",
         "qty": 1
       },
       {
@@ -20654,7 +20646,11 @@
         "qty": 1
       },
       {
-        "material": "Lala Barina Carapace x 3 Lala Barina Claw+",
+        "material": "Lala Barina Carapace",
+        "qty": 3
+      },
+      {
+        "material": "Lala Barina Claw+",
         "qty": 2
       }
     ],
@@ -22059,7 +22055,11 @@
         "qty": 3
       },
       {
-        "material": "Nerscylla Claw+ x 3 Nerscylla Shear",
+        "material": "Nerscylla Claw+",
+        "qty": 3
+      },
+      {
+        "material": "Nerscylla Shear",
         "qty": 1
       },
       {
