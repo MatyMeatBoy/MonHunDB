@@ -421,7 +421,7 @@
         ]
       }
     ],
-    "image": "data/images/altaroth.png",
+    "image": "data/images/altaroth.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -786,7 +786,7 @@
         ]
       }
     ],
-    "image": "data/images/anteka.png",
+    "image": "data/images/anteka.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -1116,7 +1116,7 @@
         ]
       }
     ],
-    "image": "data/images/baggi.png",
+    "image": "data/images/baggi.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -1477,7 +1477,7 @@
         ]
       }
     ],
-    "image": "data/images/bnahabra.png",
+    "image": "data/images/bnahabra.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -1739,7 +1739,7 @@
         ]
       }
     ],
-    "image": "data/images/boggi.png",
+    "image": "data/images/boggi.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -2049,7 +2049,7 @@
         ]
       }
     ],
-    "image": "data/images/bombadgy.png",
+    "image": "data/images/bombadgy.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -2406,7 +2406,7 @@
         ]
       }
     ],
-    "image": "data/images/bullfango.png",
+    "image": "data/images/bullfango.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -2686,7 +2686,7 @@
         ]
       }
     ],
-    "image": "data/images/gowngoat.png",
+    "image": "data/images/gowngoat.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -2945,7 +2945,7 @@
         ]
       }
     ],
-    "image": "data/images/ceanataur.png",
+    "image": "data/images/ceanataur.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -3267,7 +3267,7 @@
         ]
       }
     ],
-    "image": "data/images/delex.png",
+    "image": "data/images/delex.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -3592,7 +3592,7 @@
         ]
       }
     ],
-    "image": "data/images/felyne.png",
+    "image": "data/images/felyne.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -3932,7 +3932,7 @@
         ]
       }
     ],
-    "image": "data/images/gajau.png",
+    "image": "data/images/gajau.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -4382,7 +4382,7 @@
         ]
       }
     ],
-    "image": "data/images/gargwa.png",
+    "image": "data/images/gargwa.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -4636,7 +4636,7 @@
         ]
       }
     ],
-    "image": "data/images/hermitaur.png",
+    "image": "data/images/hermitaur.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -4903,7 +4903,7 @@
         ]
       }
     ],
-    "image": "data/images/hornetaur.png",
+    "image": "data/images/hornetaur.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -5228,7 +5228,7 @@
         ]
       }
     ],
-    "image": "data/images/izuchi.png",
+    "image": "data/images/izuchi.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -5580,7 +5580,7 @@
         ]
       }
     ],
-    "image": "data/images/jaggi.png",
+    "image": "data/images/jaggi.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -5932,7 +5932,7 @@
         ]
       }
     ],
-    "image": "data/images/jaggia.png",
+    "image": "data/images/jaggia.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -6260,7 +6260,7 @@
         ]
       }
     ],
-    "image": "data/images/jagras.png",
+    "image": "data/images/jagras.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -6639,7 +6639,7 @@
         ]
       }
     ],
-    "image": "data/images/kelbi.png",
+    "image": "data/images/kelbi.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -6946,7 +6946,7 @@
         ]
       }
     ],
-    "image": "data/images/kestodon.png",
+    "image": "data/images/kestodon.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -7302,7 +7302,7 @@
         ]
       }
     ],
-    "image": "data/images/ludroth.png",
+    "image": "data/images/ludroth.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -7632,7 +7632,7 @@
         ]
       }
     ],
-    "image": "data/images/melynx.png",
+    "image": "data/images/melynx.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -7978,7 +7978,7 @@
         ]
       }
     ],
-    "image": "data/images/popo.png",
+    "image": "data/images/popo.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -8257,7 +8257,7 @@
         ]
       }
     ],
-    "image": "data/images/pyrantula.png",
+    "image": "data/images/pyrantula.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -8582,7 +8582,7 @@
         ]
       }
     ],
-    "image": "data/images/rachnoid.png",
+    "image": "data/images/rachnoid.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -8921,7 +8921,7 @@
         ]
       }
     ],
-    "image": "data/images/remobra.png",
+    "image": "data/images/remobra.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -9295,7 +9295,7 @@
         ]
       }
     ],
-    "image": "data/images/rhenoplos.png",
+    "image": "data/images/rhenoplos.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -9660,7 +9660,7 @@
         ]
       }
     ],
-    "image": "data/images/slagtoth.png",
+    "image": "data/images/slagtoth.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -9993,7 +9993,7 @@
         ]
       }
     ],
-    "image": "data/images/uroktor.png",
+    "image": "data/images/uroktor.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -10260,7 +10260,7 @@
         ]
       }
     ],
-    "image": "data/images/velociprey.png",
+    "image": "data/images/velociprey.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -10522,7 +10522,7 @@
         ]
       }
     ],
-    "image": "data/images/vespoid.png",
+    "image": "data/images/vespoid.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -10842,7 +10842,7 @@
         ]
       }
     ],
-    "image": "data/images/wroggi.png",
+    "image": "data/images/wroggi.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [
@@ -11201,7 +11201,7 @@
         ]
       }
     ],
-    "image": "data/images/zamite.png",
+    "image": "data/images/zamite.webp",
     "attackElements": [],
     "isSmall": true,
     "partBreaks": [

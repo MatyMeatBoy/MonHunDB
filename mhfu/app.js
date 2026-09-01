@@ -825,13 +825,13 @@ let iconManifest = {};
 // icon from Monster Hunter Wiki (monsterhunterwiki.org), the user's pick.
 const ICON_OVERRIDES = {
   Bulldrome: "data/images/icons/bulldrome.svg",
-  "Lao-Shan Lung": "data/images/icons/lao-shan-lung.png",
-  "Ashen Lao-Shan Lung": "data/images/icons/ashen-lao-shan-lung.png",
-  "Ash Lao-Shan Lung": "data/images/icons/ashen-lao-shan-lung.png",
-  "Terra Shogun Ceanataur": "data/images/icons/terra-s-ceanataur.png"
+  "Lao-Shan Lung": "data/images/icons/lao-shan-lung.webp",
+  "Ashen Lao-Shan Lung": "data/images/icons/ashen-lao-shan-lung.webp",
+  "Ash Lao-Shan Lung": "data/images/icons/ashen-lao-shan-lung.webp",
+  "Terra Shogun Ceanataur": "data/images/icons/terra-s-ceanataur.webp"
 };
 function iconPath(name) {
-  return iconManifest[name] || ICON_OVERRIDES[name] || `data/images/icons/${slugify(name)}.png`;
+  return iconManifest[name] || ICON_OVERRIDES[name] || `data/images/icons/${slugify(name)}.webp`;
 }
 function slugify(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
@@ -1321,13 +1321,13 @@ function armorSetDisplayName(prefix) {
 }
 function armorSetImg(name) {
   const override = ARMOR_SET_IMG_OVERRIDES[name];
-  if (override) return `data/images/armor_sets/${override}.png`;
+  if (override) return `data/images/armor_sets/${override}.webp`;
   // every rank-tier variant (S/U/X/Z/G/Haku/Ten/Kyoku/SZ) reuses the base
   // (vanilla) portrait -- only the base tier was scraped, same as Rise
   // reusing one image across S/X.
   const m = name.match(/^(.+?)\s+(S|U|X|Z|G|Haku|Ten|Kyoku|SZ) Set$/);
   const base = (m ? m[1] : name).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").replace(/-set$/, "");
-  return `data/images/armor_sets/${base}.png`;
+  return `data/images/armor_sets/${base}.webp`;
 }
 
 let impliedArmorGroupsCache = null;
@@ -2212,7 +2212,7 @@ const WEAPON_TYPE_ICON = {
 const WEAPON_TYPE_ORDER = Object.keys(WEAPON_TYPE_ICON);
 function weaponTypeIconTag(type) {
   const slug = WEAPON_TYPE_ICON[type];
-  return slug ? `<img class="weapon-type-icon" src="data/images/weapon_types/${slug}.png" alt="${escapeAttr(trWeaponType(type))}" loading="lazy">` : "";
+  return slug ? `<img class="weapon-type-icon" src="data/images/weapon_types/${slug}.webp" alt="${escapeAttr(trWeaponType(type))}" loading="lazy">` : "";
 }
 let weaponsTypeFilter = "all";
 function renderWeaponsTypeFilter() {
@@ -2656,7 +2656,7 @@ function armorGalleryLabel(sets) {
 }
 function armorIconTag(p) {
   const src = p.iconM ? `data/images/armor/${p.id}_m.webp` : (p.iconF ? `data/images/armor/${p.id}_f.webp` : null);
-  const fallbackSrc = armorFextraIcons[p.id] ? `data/images/armor_fextra/${p.id}.png` : null;
+  const fallbackSrc = armorFextraIcons[p.id] ? `data/images/armor_fextra/${p.id}.webp` : null;
   if (!src) {
     if (fallbackSrc) return `<img class="material-icon" src="${fallbackSrc}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`;
     // Piercings and a few legacy partial records have no documented portrait.
@@ -4454,9 +4454,9 @@ let hzSilhouetteStat = "sever";
 // stun already have icons via elementIconTag()/statusIconTag(), only these
 // 3 needed their own local files
 const HZ_PHYS_ICONS = {
-  sever: "data/images/icons/dmg-sever.png",
-  blunt: "data/images/icons/dmg-blunt.png",
-  projectile: "data/images/icons/dmg-projectile.png",
+  sever: "data/images/icons/dmg-sever.webp",
+  blunt: "data/images/icons/dmg-blunt.webp",
+  projectile: "data/images/icons/dmg-projectile.webp",
 };
 function hzStatIconTag(key) {
   if (HZ_PHYS_ICONS[key]) return `<img class="status-icon" src="${HZ_PHYS_ICONS[key]}" alt="" loading="lazy">`;
@@ -4562,8 +4562,8 @@ const NEWS = [
     textKey: "newsV02Text",
     bulletsKey: "newsV02Bullets",
     imageHtml: () => `
-      <img src="data/images/armor_sets/basarios.png" alt="" loading="lazy" onerror="this.remove()">
-      <img src="data/images/armor_sets_gamefaqs/74198-161.jpg" alt="" loading="lazy" onerror="this.remove()">
+      <img src="data/images/armor_sets/basarios.webp" alt="" loading="lazy" onerror="this.remove()">
+      <img src="data/images/armor_sets_gamefaqs/74198-161.webp" alt="" loading="lazy" onerror="this.remove()">
     `,
   },
   {

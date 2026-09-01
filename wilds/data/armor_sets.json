@@ -149,7 +149,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/sororal-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/sororal-alpha-set.webp",
     "materials": [
       {
         "material": "Rathian Webbing",
@@ -406,7 +406,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/azure-age-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/azure-age-alpha-set.webp",
     "materials": [
       {
         "material": "Rey Dau Scale+",
@@ -728,7 +728,7 @@
       }
     ],
     "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/583632",
-    "localImage": "data/images/armor_sets_full/gala-suit-alpha-set.png"
+    "localImage": "data/images/armor_sets_full/gala-suit-alpha-set.webp"
   },
   {
     "name": "Arkveld γ Set",
@@ -884,7 +884,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/arkveld-gamma-set.png",
+    "localImage": "data/images/armor_sets_full/arkveld-gamma-set.webp",
     "materials": [
       {
         "material": "Arkveld Scale+",
@@ -1132,7 +1132,7 @@
       2,
       1
     ],
-    "localImage": "data/images/armor_sets_full/dahaad-gamma-set.png",
+    "localImage": "data/images/armor_sets_full/dahaad-gamma-set.webp",
     "nameEs": "Dahaad γ Set",
     "materials": [
       {
@@ -1410,7 +1410,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/gogmazios-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/gogmazios-alpha-set.webp",
     "materials": [
       {
         "material": "Gogmazios Certificate S",
@@ -1657,7 +1657,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/gogmazios-beta-set.png",
+    "localImage": "data/images/armor_sets_full/gogmazios-beta-set.webp",
     "materials": [
       {
         "material": "Gogmazios Certificate S",
@@ -1841,7 +1841,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/harvest-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/harvest-alpha-set.webp",
     "materials": [
       {
         "material": "Earth Crystal",
@@ -2057,7 +2057,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/dreamwalker-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/dreamwalker-alpha-set.webp",
     "materials": [
       {
         "material": "Frozen Icebone",
@@ -2169,7 +2169,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/gelidron-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/gelidron-alpha-set.webp",
     "materials": [
       {
         "material": "Rubbery Hide+",
@@ -2355,7 +2355,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/bale-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/bale-alpha-set.webp",
     "materials": [
       {
         "material": "Omega Data 1.0",
@@ -2612,7 +2612,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/nu-udra-gamma-set.png",
+    "localImage": "data/images/armor_sets_full/nu-udra-gamma-set.webp",
     "nameEs": "Nu Udra γ Set",
     "materials": [
       {
@@ -2813,7 +2813,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/akuma-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/akuma-alpha-set.webp",
     "materials": [
       {
         "material": "Ajarakan Scale+",
@@ -3022,7 +3022,7 @@
       2,
       2
     ],
-    "localImage": "data/images/armor_sets_full/omega-attire-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/omega-attire-alpha-set.webp",
     "materials": [
       {
         "material": "Arkveld Gem",
@@ -3243,7 +3243,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/diver-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/diver-alpha-set.webp",
     "materials": [
       {
         "material": "Rompopolo Hide+",
@@ -3443,7 +3443,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/afi-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/afi-alpha-set.webp",
     "materials": [
       {
         "material": "Dragonite Ore",
@@ -3655,7 +3655,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/lagiacrus-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/lagiacrus-alpha-set.webp",
     "materials": [
       {
         "material": "Lightcrystal",
@@ -3878,7 +3878,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/lagiacrus-beta-set.png",
+    "localImage": "data/images/armor_sets_full/lagiacrus-beta-set.webp",
     "materials": [
       {
         "material": "Lightcrystal",
@@ -4092,7 +4092,7 @@
       2,
       1
     ],
-    "localImage": "data/images/armor_sets_full/seregios-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/seregios-alpha-set.webp",
     "materials": [
       {
         "material": "Dragonbone Relic",
@@ -4312,7 +4312,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/seregios-beta-set.png",
+    "localImage": "data/images/armor_sets_full/seregios-beta-set.webp",
     "materials": [
       {
         "material": "Dragonbone Relic",
@@ -4511,7 +4511,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/blossom-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/blossom-alpha-set.webp",
     "materials": [
       {
         "material": "Great Hornfly",
@@ -4730,7 +4730,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/ceremonial-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/ceremonial-alpha-set.webp",
     "materials": [
       {
         "material": "Lightcrystal",
@@ -4908,7 +4908,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/ajarakan-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/ajarakan-alpha-set.webp",
     "materials": [
       {
         "material": "Ajarakan Scale",
@@ -5099,7 +5099,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/ajarakan-beta-set.png",
+    "localImage": "data/images/armor_sets_full/ajarakan-beta-set.webp",
     "materials": [
       {
         "material": "Ajarakan Scale",
@@ -5279,7 +5279,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/alloy-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/alloy-alpha-set.webp",
     "materials": [
       {
         "material": "Iron Ore",
@@ -5455,7 +5455,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/arkveld-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/arkveld-alpha-set.webp",
     "materials": [
       {
         "material": "Wyvern Gem",
@@ -5678,7 +5678,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/arkveld-beta-set.png",
+    "localImage": "data/images/armor_sets_full/arkveld-beta-set.webp",
     "materials": [
       {
         "material": "Wyvern Gem",
@@ -5905,7 +5905,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/artian-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/artian-alpha-set.webp",
     "materials": [
       {
         "material": "Earth Crystal",
@@ -6066,7 +6066,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/azuz-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/azuz-alpha-set.webp",
     "materials": [
       {
         "material": "Firestone",
@@ -6243,7 +6243,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/balahara-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/balahara-alpha-set.webp",
     "materials": [
       {
         "material": "Balahara Shell",
@@ -6432,7 +6432,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/balahara-beta-set.png",
+    "localImage": "data/images/armor_sets_full/balahara-beta-set.webp",
     "materials": [
       {
         "material": "Balahara Shell",
@@ -6646,7 +6646,7 @@
       2,
       2
     ],
-    "localImage": "data/images/armor_sets_full/battle-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/battle-alpha-set.webp",
     "materials": [
       {
         "material": "Colossal Bone",
@@ -6842,7 +6842,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/blango-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/blango-alpha-set.webp",
     "materials": [
       {
         "material": "Beast Gem",
@@ -7055,7 +7055,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/blango-beta-set.png",
+    "localImage": "data/images/armor_sets_full/blango-beta-set.webp",
     "materials": [
       {
         "material": "Beast Gem",
@@ -7259,7 +7259,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/bone-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/bone-alpha-set.webp",
     "materials": [
       {
         "material": "Mystery Bone",
@@ -7326,7 +7326,7 @@
       2,
       2
     ],
-    "localImage": "data/images/armor_sets_full/bulaqchi-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/bulaqchi-alpha-set.webp",
     "materials": [
       {
         "material": "Bulaqchi Shell",
@@ -7387,7 +7387,7 @@
       2,
       1
     ],
-    "localImage": "data/images/armor_sets_full/bulaqchi-beta-set.png",
+    "localImage": "data/images/armor_sets_full/bulaqchi-beta-set.webp",
     "materials": [
       {
         "material": "Bulaqchi Shell",
@@ -7553,7 +7553,7 @@
       2,
       2
     ],
-    "localImage": "data/images/armor_sets_full/butterfly-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/butterfly-alpha-set.webp",
     "materials": [
       {
         "material": "Great Hornfly",
@@ -7729,7 +7729,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/chainmail-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/chainmail-alpha-set.webp",
     "nameEs": "Malla α Set",
     "materials": [
       {
@@ -7908,7 +7908,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/chatacabra-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/chatacabra-alpha-set.webp",
     "materials": [
       {
         "material": "Mystery Bone",
@@ -8099,7 +8099,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/chatacabra-beta-set.png",
+    "localImage": "data/images/armor_sets_full/chatacabra-beta-set.webp",
     "materials": [
       {
         "material": "Mystery Bone",
@@ -8301,7 +8301,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/clerk-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/clerk-alpha-set.webp",
     "materials": [
       {
         "material": "Doshaguma Hide+",
@@ -8394,7 +8394,7 @@
       "dragon": 3
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/comaqchi-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/comaqchi-alpha-set.webp",
     "materials": [
       {
         "material": "Comaqchi Shell",
@@ -8455,7 +8455,7 @@
       2,
       1
     ],
-    "localImage": "data/images/armor_sets_full/comaqchi-beta-set.png",
+    "localImage": "data/images/armor_sets_full/comaqchi-beta-set.webp",
     "materials": [
       {
         "material": "Comaqchi Shell",
@@ -8621,7 +8621,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/commission-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/commission-alpha-set.webp",
     "materials": [
       {
         "material": "Carbalite Ore",
@@ -8827,7 +8827,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/conga-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/conga-alpha-set.webp",
     "materials": [
       {
         "material": "Machalite Ore",
@@ -9007,7 +9007,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/conga-beta-set.png",
+    "localImage": "data/images/armor_sets_full/conga-beta-set.webp",
     "materials": [
       {
         "material": "Machalite Ore",
@@ -9199,7 +9199,7 @@
       1,
       3
     ],
-    "localImage": "data/images/armor_sets_full/dahaad-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/dahaad-alpha-set.webp",
     "materials": [
       {
         "material": "Wyvern Gem",
@@ -9433,7 +9433,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/dahaad-beta-set.png",
+    "localImage": "data/images/armor_sets_full/dahaad-beta-set.webp",
     "materials": [
       {
         "material": "Wyvern Gem",
@@ -9659,7 +9659,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/damascus-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/damascus-alpha-set.webp",
     "materials": [
       {
         "material": "Beast Gem",
@@ -9883,7 +9883,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/death-stench-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/death-stench-alpha-set.webp",
     "materials": [
       {
         "material": "Colossal Bone",
@@ -10078,7 +10078,7 @@
       2,
       1
     ],
-    "localImage": "data/images/armor_sets_full/dober-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/dober-alpha-set.webp",
     "materials": [
       {
         "material": "Colossal Bone",
@@ -10310,7 +10310,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/doshaguma-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/doshaguma-alpha-set.webp",
     "materials": [
       {
         "material": "Doshaguma Hide",
@@ -10520,7 +10520,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/doshaguma-beta-set.png",
+    "localImage": "data/images/armor_sets_full/doshaguma-beta-set.webp",
     "materials": [
       {
         "material": "Doshaguma Hide",
@@ -10601,7 +10601,7 @@
       "dragon": 0
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/dragonking-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/dragonking-alpha-set.webp",
     "materials": [
       {
         "material": "Wyvern Gem",
@@ -10678,7 +10678,7 @@
     "decoSlots": [
       1
     ],
-    "localImage": "data/images/armor_sets_full/expedition-headgear-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/expedition-headgear-alpha-set.webp",
     "materials": [
       {
         "material": "Rathian Scale+",
@@ -10769,7 +10769,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/gajau-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/gajau-alpha-set.webp",
     "materials": [
       {
         "material": "Gajau Hide",
@@ -10944,7 +10944,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/gore-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/gore-alpha-set.webp",
     "materials": [
       {
         "material": "Wyvern Gem",
@@ -11180,7 +11180,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/gore-beta-set.png",
+    "localImage": "data/images/armor_sets_full/gore-beta-set.webp",
     "materials": [
       {
         "material": "Wyvern Gem",
@@ -11399,7 +11399,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/gravios-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/gravios-alpha-set.webp",
     "materials": [
       {
         "material": "Wyvern Gem",
@@ -11625,7 +11625,7 @@
       2,
       1
     ],
-    "localImage": "data/images/armor_sets_full/gravios-beta-set.png",
+    "localImage": "data/images/armor_sets_full/gravios-beta-set.webp",
     "materials": [
       {
         "material": "Wyvern Gem",
@@ -11830,7 +11830,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-arkveld-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-arkveld-alpha-set.webp",
     "materials": [
       {
         "material": "Arkveld Scale+",
@@ -12088,7 +12088,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-arkveld-beta-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-arkveld-beta-set.webp",
     "materials": [
       {
         "material": "Arkveld Scale+",
@@ -12335,7 +12335,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-doshaguma-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-doshaguma-alpha-set.webp",
     "materials": [
       {
         "material": "Guardian Blood+",
@@ -12571,7 +12571,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-doshaguma-beta-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-doshaguma-beta-set.webp",
     "materials": [
       {
         "material": "Guardian Blood+",
@@ -12794,7 +12794,7 @@
       2,
       2
     ],
-    "localImage": "data/images/armor_sets_full/guardian-ebony-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-ebony-alpha-set.webp",
     "materials": [
       {
         "material": "Guardian Ebony Fang+",
@@ -13029,7 +13029,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-ebony-beta-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-ebony-beta-set.webp",
     "materials": [
       {
         "material": "Guardian Ebony Fang+",
@@ -13259,7 +13259,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-fulgur-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-fulgur-alpha-set.webp",
     "materials": [
       {
         "material": "Guardian Fulgur Certificate S",
@@ -13505,7 +13505,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-fulgur-beta-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-fulgur-beta-set.webp",
     "materials": [
       {
         "material": "Guardian Fulgur Certificate S",
@@ -13742,7 +13742,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-rathalos-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-rathalos-alpha-set.webp",
     "materials": [
       {
         "material": "Novacrystal",
@@ -13980,7 +13980,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-rathalos-beta-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-rathalos-beta-set.webp",
     "materials": [
       {
         "material": "Novacrystal",
@@ -14113,7 +14113,7 @@
     "decoSlots": [
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-seikret-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-seikret-alpha-set.webp",
     "materials": [
       {
         "material": "Tough Guardian Bone",
@@ -14181,7 +14181,7 @@
       2,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-seikret-beta-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-seikret-beta-set.webp",
     "materials": [
       {
         "material": "Tough Guardian Bone",
@@ -14336,7 +14336,7 @@
       3,
       3
     ],
-    "localImage": "data/images/armor_sets_full/guild-ace-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/guild-ace-alpha-set.webp",
     "materials": [
       {
         "material": "Carbalite Ore",
@@ -14544,7 +14544,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guild-cross-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/guild-cross-alpha-set.webp",
     "materials": [
       {
         "material": "Rathian Scale+",
@@ -14738,7 +14738,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/gypceros-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/gypceros-alpha-set.webp",
     "materials": [
       {
         "material": "Rubbery Hide+",
@@ -14934,7 +14934,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/gypceros-beta-set.png",
+    "localImage": "data/images/armor_sets_full/gypceros-beta-set.webp",
     "materials": [
       {
         "material": "Rubbery Hide+",
@@ -15156,7 +15156,7 @@
       2,
       2
     ],
-    "localImage": "data/images/armor_sets_full/high-metal-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/high-metal-alpha-set.webp",
     "materials": [
       {
         "material": "Carbalite Ore",
@@ -15326,7 +15326,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/hirabami-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/hirabami-alpha-set.webp",
     "materials": [
       {
         "material": "Hirabami Scale",
@@ -15506,7 +15506,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/hirabami-beta-set.png",
+    "localImage": "data/images/armor_sets_full/hirabami-beta-set.webp",
     "materials": [
       {
         "material": "Hirabami Scale",
@@ -15694,7 +15694,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/hope-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/hope-alpha-set.webp",
     "nameEs": "Esperanza α Set",
     "materials": [
       {
@@ -15894,7 +15894,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/ingot-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/ingot-alpha-set.webp",
     "materials": [
       {
         "material": "Machalite Ore",
@@ -16080,7 +16080,7 @@
       2,
       2
     ],
-    "localImage": "data/images/armor_sets_full/king-beetle-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/king-beetle-alpha-set.webp",
     "materials": [
       {
         "material": "Great Hornfly",
@@ -16156,7 +16156,7 @@
       "dragon": 0
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/kranodath-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/kranodath-alpha-set.webp",
     "materials": [
       {
         "material": "Kranodath Skull",
@@ -16217,7 +16217,7 @@
     "decoSlots": [
       2
     ],
-    "localImage": "data/images/armor_sets_full/kranodath-beta-set.png",
+    "localImage": "data/images/armor_sets_full/kranodath-beta-set.webp",
     "materials": [
       {
         "material": "Kranodath Skull",
@@ -16360,7 +16360,7 @@
       2,
       2
     ],
-    "localImage": "data/images/armor_sets_full/kunafa-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/kunafa-alpha-set.webp",
     "materials": [
       {
         "material": "Acute Fang",
@@ -16534,7 +16534,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/kut-ku-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/kut-ku-alpha-set.webp",
     "materials": [
       {
         "material": "Kut-Ku Scale+",
@@ -16740,7 +16740,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/kut-ku-beta-set.png",
+    "localImage": "data/images/armor_sets_full/kut-ku-beta-set.webp",
     "materials": [
       {
         "material": "Kut-Ku Scale+",
@@ -16926,7 +16926,7 @@
     "decoSlots": [
       2
     ],
-    "localImage": "data/images/armor_sets_full/lala-barina-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/lala-barina-alpha-set.webp",
     "materials": [
       {
         "material": "Lala Barina Shell",
@@ -17120,7 +17120,7 @@
       2,
       2
     ],
-    "localImage": "data/images/armor_sets_full/lala-barina-beta-set.png",
+    "localImage": "data/images/armor_sets_full/lala-barina-beta-set.webp",
     "materials": [
       {
         "material": "Lala Barina Shell",
@@ -17297,7 +17297,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/leather-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/leather-alpha-set.webp",
     "nameEs": "Cuero α Set",
     "materials": [
       {
@@ -17516,7 +17516,7 @@
       2,
       2
     ],
-    "localImage": "data/images/armor_sets_full/melahoa-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/melahoa-alpha-set.webp",
     "materials": [
       {
         "material": "Guardian Seikret Feather+",
@@ -17606,7 +17606,7 @@
     "decoSlots": [
       1
     ],
-    "localImage": "data/images/armor_sets_full/mimiphyta-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/mimiphyta-alpha-set.webp",
     "materials": [
       {
         "material": "Congalala Pelt+",
@@ -17799,7 +17799,7 @@
       2,
       3
     ],
-    "localImage": "data/images/armor_sets_full/mizutsune-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/mizutsune-alpha-set.webp",
     "materials": [
       {
         "material": "Wyvern Gem",
@@ -18025,7 +18025,7 @@
       2,
       1
     ],
-    "localImage": "data/images/armor_sets_full/mizutsune-beta-set.png",
+    "localImage": "data/images/armor_sets_full/mizutsune-beta-set.webp",
     "materials": [
       {
         "material": "Wyvern Gem",
@@ -18223,7 +18223,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/nerscylla-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/nerscylla-alpha-set.webp",
     "materials": [
       {
         "material": "Nerscylla Shell",
@@ -18409,7 +18409,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/nerscylla-beta-set.png",
+    "localImage": "data/images/armor_sets_full/nerscylla-beta-set.webp",
     "materials": [
       {
         "material": "Nerscylla Shell",
@@ -18602,7 +18602,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/numinous-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/numinous-alpha-set.webp",
     "materials": [
       {
         "material": "Arkveld Gem",
@@ -18837,7 +18837,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/numinous-beta-set.png",
+    "localImage": "data/images/armor_sets_full/numinous-beta-set.webp",
     "materials": [
       {
         "material": "Arkveld Gem",
@@ -19065,7 +19065,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/nu-udra-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/nu-udra-alpha-set.webp",
     "materials": [
       {
         "material": "Nu Udra Hide",
@@ -19286,7 +19286,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/nu-udra-beta-set.png",
+    "localImage": "data/images/armor_sets_full/nu-udra-beta-set.webp",
     "materials": [
       {
         "material": "Nu Udra Hide",
@@ -19382,7 +19382,7 @@
       "dragon": 1
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/piragill-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/piragill-alpha-set.webp",
     "materials": [
       {
         "material": "Machalite Ore",
@@ -19443,7 +19443,7 @@
     "decoSlots": [
       2
     ],
-    "localImage": "data/images/armor_sets_full/piragill-beta-set.png",
+    "localImage": "data/images/armor_sets_full/piragill-beta-set.webp",
     "materials": [
       {
         "material": "Machalite Ore",
@@ -19600,7 +19600,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/quematrice-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/quematrice-alpha-set.webp",
     "materials": [
       {
         "material": "Iron Ore",
@@ -19783,7 +19783,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/quematrice-beta-set.png",
+    "localImage": "data/images/armor_sets_full/quematrice-beta-set.webp",
     "materials": [
       {
         "material": "Iron Ore",
@@ -19959,7 +19959,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/rathalos-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/rathalos-alpha-set.webp",
     "materials": [
       {
         "material": "Dragonbone Relic",
@@ -20183,7 +20183,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/rathalos-beta-set.png",
+    "localImage": "data/images/armor_sets_full/rathalos-beta-set.webp",
     "materials": [
       {
         "material": "Dragonbone Relic",
@@ -20381,7 +20381,7 @@
     "decoSlots": [
       2
     ],
-    "localImage": "data/images/armor_sets_full/rathian-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/rathian-alpha-set.webp",
     "materials": [
       {
         "material": "Dragonbone Relic",
@@ -20588,7 +20588,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/rathian-beta-set.png",
+    "localImage": "data/images/armor_sets_full/rathian-beta-set.webp",
     "materials": [
       {
         "material": "Dragonbone Relic",
@@ -20801,7 +20801,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/rey-dau-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/rey-dau-alpha-set.webp",
     "materials": [
       {
         "material": "Wingdrake Hide",
@@ -21022,7 +21022,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/rey-dau-beta-set.png",
+    "localImage": "data/images/armor_sets_full/rey-dau-beta-set.webp",
     "materials": [
       {
         "material": "Wingdrake Hide",
@@ -21232,7 +21232,7 @@
       3,
       1
     ],
-    "localImage": "data/images/armor_sets_full/rey-dau-gamma-set.png",
+    "localImage": "data/images/armor_sets_full/rey-dau-gamma-set.webp",
     "nameEs": "Rey Dau γ Set",
     "materials": [
       {
@@ -21462,7 +21462,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/rompopolo-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/rompopolo-alpha-set.webp",
     "materials": [
       {
         "material": "Dragonite Ore",
@@ -21647,7 +21647,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/rompopolo-beta-set.png",
+    "localImage": "data/images/armor_sets_full/rompopolo-beta-set.webp",
     "materials": [
       {
         "material": "Dragonite Ore",
@@ -21762,7 +21762,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/sild-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/sild-alpha-set.webp",
     "materials": [
       {
         "material": "Guardian Seikret Feather+",
@@ -21846,7 +21846,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/suja-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/suja-alpha-set.webp",
     "materials": [
       {
         "material": "Fucium Ore",
@@ -21918,7 +21918,7 @@
       "dragon": 2
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/talioth-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/talioth-alpha-set.webp",
     "materials": [
       {
         "material": "Talioth Scale",
@@ -21982,7 +21982,7 @@
       2,
       1
     ],
-    "localImage": "data/images/armor_sets_full/talioth-beta-set.png",
+    "localImage": "data/images/armor_sets_full/talioth-beta-set.webp",
     "materials": [
       {
         "material": "Talioth Scale",
@@ -22161,7 +22161,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/uth-duna-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/uth-duna-alpha-set.webp",
     "materials": [
       {
         "material": "Uth Duna Scale",
@@ -22376,7 +22376,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/uth-duna-beta-set.png",
+    "localImage": "data/images/armor_sets_full/uth-duna-beta-set.webp",
     "materials": [
       {
         "material": "Uth Duna Scale",
@@ -22565,7 +22565,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/vespoid-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/vespoid-alpha-set.webp",
     "materials": [
       {
         "material": "Mystery Bone",
@@ -22734,7 +22734,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/vespoid-beta-set.png",
+    "localImage": "data/images/armor_sets_full/vespoid-beta-set.webp",
     "materials": [
       {
         "material": "Mystery Bone",
@@ -22906,7 +22906,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/xu-wu-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/xu-wu-alpha-set.webp",
     "materials": [
       {
         "material": "Xu Wu Hide",
@@ -23108,7 +23108,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/xu-wu-beta-set.png",
+    "localImage": "data/images/armor_sets_full/xu-wu-beta-set.webp",
     "materials": [
       {
         "material": "Xu Wu Hide",
@@ -23273,7 +23273,7 @@
       "dragon": 0
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/ajarakan-set.png",
+    "localImage": "data/images/armor_sets_full/ajarakan-set.webp",
     "materials": [
       {
         "material": "Ajarakan Scale",
@@ -23418,7 +23418,7 @@
       "dragon": 5
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/alloy-set.png",
+    "localImage": "data/images/armor_sets_full/alloy-set.webp",
     "materials": [
       {
         "material": "Iron Ore",
@@ -23555,7 +23555,7 @@
       "dragon": 5
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/balahara-set.png",
+    "localImage": "data/images/armor_sets_full/balahara-set.webp",
     "materials": [
       {
         "material": "Balahara Shell",
@@ -23700,7 +23700,7 @@
       "dragon": 10
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/bone-set.png",
+    "localImage": "data/images/armor_sets_full/bone-set.webp",
     "materials": [
       {
         "material": "Mystery Bone",
@@ -23753,7 +23753,7 @@
       "dragon": 4
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/bulaqchi-set.png",
+    "localImage": "data/images/armor_sets_full/bulaqchi-set.webp",
     "materials": [
       {
         "material": "Bulaqchi Shell",
@@ -23874,7 +23874,7 @@
       "dragon": 0
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/chainmail-set.png",
+    "localImage": "data/images/armor_sets_full/chainmail-set.webp",
     "nameEs": "Malla Set",
     "materials": [],
     "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501359"
@@ -23991,7 +23991,7 @@
       "dragon": 5
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/chatacabra-set.png",
+    "localImage": "data/images/armor_sets_full/chatacabra-set.webp",
     "materials": [
       {
         "material": "Mystery Bone",
@@ -24068,7 +24068,7 @@
       "dragon": 3
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/comaqchi-set.png",
+    "localImage": "data/images/armor_sets_full/comaqchi-set.webp",
     "materials": [
       {
         "material": "Comaqchi Shell",
@@ -24189,7 +24189,7 @@
       "dragon": 10
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/conga-set.png",
+    "localImage": "data/images/armor_sets_full/conga-set.webp",
     "materials": [
       {
         "material": "Machalite Ore",
@@ -24334,7 +24334,7 @@
       "dragon": 20
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/doshaguma-set.png",
+    "localImage": "data/images/armor_sets_full/doshaguma-set.webp",
     "materials": [
       {
         "material": "Doshaguma Hide",
@@ -24414,7 +24414,7 @@
       "dragon": 0
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/gajau-set.png",
+    "localImage": "data/images/armor_sets_full/gajau-set.webp",
     "materials": [
       {
         "material": "Gajau Hide",
@@ -24553,7 +24553,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-arkveld-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-arkveld-set.webp",
     "materials": [
       {
         "material": "Guardian Blood",
@@ -24744,7 +24744,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-doshaguma-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-doshaguma-set.webp",
     "materials": [
       {
         "material": "Guardian Doshaguma Fur",
@@ -24935,7 +24935,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-ebony-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-ebony-set.webp",
     "materials": [
       {
         "material": "Guardian Ebony Claw",
@@ -25126,7 +25126,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-rathalos-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-rathalos-set.webp",
     "materials": [
       {
         "material": "G. Rathalos Certificate",
@@ -25236,7 +25236,7 @@
     "decoSlots": [
       1
     ],
-    "localImage": "data/images/armor_sets_full/guardian-seikret-set.png",
+    "localImage": "data/images/armor_sets_full/guardian-seikret-set.webp",
     "materials": [
       {
         "material": "Guardian Seikret Feather",
@@ -25370,7 +25370,7 @@
       "dragon": 0
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/hirabami-set.png",
+    "localImage": "data/images/armor_sets_full/hirabami-set.webp",
     "materials": [
       {
         "material": "Hirabami Scale",
@@ -25515,7 +25515,7 @@
       "dragon": 0
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/hope-set.png",
+    "localImage": "data/images/armor_sets_full/hope-set.webp",
     "nameEs": "Esperanza Set",
     "materials": [],
     "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/483472"
@@ -25640,7 +25640,7 @@
       "dragon": 0
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/ingot-set.png",
+    "localImage": "data/images/armor_sets_full/ingot-set.webp",
     "materials": [
       {
         "material": "Machalite Ore",
@@ -25704,7 +25704,7 @@
       "dragon": 0
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/kranodath-set.png",
+    "localImage": "data/images/armor_sets_full/kranodath-set.webp",
     "materials": [
       {
         "material": "Kranodath Skull",
@@ -25829,7 +25829,7 @@
       "dragon": 15
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/lala-barina-set.png",
+    "localImage": "data/images/armor_sets_full/lala-barina-set.webp",
     "materials": [
       {
         "material": "Lala Barina Shell",
@@ -25974,7 +25974,7 @@
       "dragon": 0
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/leather-set.png",
+    "localImage": "data/images/armor_sets_full/leather-set.webp",
     "nameEs": "Cuero Set",
     "materials": [],
     "materialsSource": "https://game8.co/games/Monster-Hunter-Wilds/archives/501358"
@@ -26107,7 +26107,7 @@
       "dragon": 10
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/nerscylla-set.png",
+    "localImage": "data/images/armor_sets_full/nerscylla-set.webp",
     "materials": [
       {
         "material": "Nerscylla Shell",
@@ -26269,7 +26269,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/nu-udra-set.png",
+    "localImage": "data/images/armor_sets_full/nu-udra-set.webp",
     "materials": [
       {
         "material": "Nu Udra Hide",
@@ -26361,7 +26361,7 @@
       "dragon": 1
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/piragill-set.png",
+    "localImage": "data/images/armor_sets_full/piragill-set.webp",
     "materials": [
       {
         "material": "Machalite Ore",
@@ -26486,7 +26486,7 @@
       "dragon": 0
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/quematrice-set.png",
+    "localImage": "data/images/armor_sets_full/quematrice-set.webp",
     "materials": [
       {
         "material": "Iron Ore",
@@ -26640,7 +26640,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/rey-dau-set.png",
+    "localImage": "data/images/armor_sets_full/rey-dau-set.webp",
     "materials": [
       {
         "material": "Wingdrake Hide",
@@ -26801,7 +26801,7 @@
       "dragon": 5
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/rompopolo-set.png",
+    "localImage": "data/images/armor_sets_full/rompopolo-set.webp",
     "materials": [
       {
         "material": "Dragonite Ore",
@@ -26877,7 +26877,7 @@
       "dragon": 2
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/talioth-set.png",
+    "localImage": "data/images/armor_sets_full/talioth-set.webp",
     "materials": [
       {
         "material": "Talioth Scale",
@@ -27015,7 +27015,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/uth-duna-set.png",
+    "localImage": "data/images/armor_sets_full/uth-duna-set.webp",
     "materials": [
       {
         "material": "Uth Duna Scale",
@@ -27172,7 +27172,7 @@
       "dragon": 10
     },
     "decoSlots": [],
-    "localImage": "data/images/armor_sets_full/vespoid-set.png",
+    "localImage": "data/images/armor_sets_full/vespoid-set.webp",
     "materials": [
       {
         "material": "Mystery Bone",
@@ -27322,7 +27322,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/xu-wu-set.png",
+    "localImage": "data/images/armor_sets_full/xu-wu-set.webp",
     "materials": [
       {
         "material": "Xu Wu Hide",
@@ -27546,7 +27546,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/orion-alpha-set.png",
+    "localImage": "data/images/armor_sets_full/orion-alpha-set.webp",
     "materials": [
       {
         "material": "Beast Gem",
@@ -27743,7 +27743,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/uth-duna-gamma-set.png",
+    "localImage": "data/images/armor_sets_full/uth-duna-gamma-set.webp",
     "nameEs": "Uth Duna γ Set",
     "materials": [
       {
@@ -27975,6 +27975,6 @@
       }
     ],
     "nameEs": "Marea Sakura α Set",
-    "localImage": "data/images/armor_sets_full/sakuratide-alpha-set.png"
+    "localImage": "data/images/armor_sets_full/sakuratide-alpha-set.webp"
   }
 ]

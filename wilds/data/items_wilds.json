@@ -1,3084 +1,3084 @@
 [
- {
-  "name": "Adamant Seed",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Orange.png"
- },
- {
-  "name": "Ancient Potion",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pill_Icon_Yellow.png"
- },
- {
-  "name": "Antidote",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Vial_Icon_Blue.png"
- },
- {
-  "name": "Armorcharm",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Orange.png"
- },
- {
-  "name": "Armorskin",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Drug_Icon_Orange.png"
- },
- {
-  "name": "Blue Mushroom",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Blue.png"
- },
- {
-  "name": "Charred Lizard",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Gray.png"
- },
- {
-  "name": "Cleanser",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Vial_Icon_Light_Blue.png"
- },
- {
-  "name": "Cool Drink",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Vial_Icon_White.png"
- },
- {
-  "name": "Dash Juice",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Drug_Icon_Yellow.png"
- },
- {
-  "name": "Demon Powder",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Red.png"
- },
- {
-  "name": "Deodorant",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_Light_Blue.png"
- },
- {
-  "name": "Dust of Life",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Tan.png"
- },
- {
-  "name": "Energy Drink",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Vial_Icon_Lemon.png"
- },
- {
-  "name": "Devil's Blight",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Rose.png"
- },
- {
-  "name": "Great Sushifish Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Orange.png"
- },
- {
-  "name": "Hardshell Powder",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Orange.png"
- },
- {
-  "name": "Herbal Medicine",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pill_Icon_Blue.png"
- },
- {
-  "name": "Herbal Powder",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Blue.png"
- },
- {
-  "name": "Hot Drink",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Vial_Icon_Vermilion.png"
- },
- {
-  "name": "Lifepowder",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Tan.png"
- },
- {
-  "name": "Max Potion",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pill_Icon_Yellow.png"
- },
- {
-  "name": "Mega Armorskin",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Drug_Icon_Orange.png"
- },
- {
-  "name": "Mega Demondrug",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Drug_Icon_Red.png"
- },
- {
-  "name": "Mega Potion",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Medicine_Icon_Green.png"
- },
- {
-  "name": "Might Pill",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pill_Icon_Red.png"
- },
- {
-  "name": "Might Seed",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Red.png"
- },
- {
-  "name": "Exciteshroom",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Moss.png"
- },
- {
-  "name": "Nulberry",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Blue.png"
- },
- {
-  "name": "Potion",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Medicine_Icon_Green.png"
- },
- {
-  "name": "Powercharm",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Red.png"
- },
- {
-  "name": "Ration",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Brown.png"
- },
- {
-  "name": "Sushifish Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Orange.png"
- },
- {
-  "name": "Well-done Steak",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Orange.png"
- },
- {
-  "name": "Whetfish Fin Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.png"
- },
- {
-  "name": "Whetfish Fin",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.png"
- },
- {
-  "name": "Mandragora",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Orange.png"
- },
- {
-  "name": "Nitroshroom",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Red.png"
- },
- {
-  "name": "Parashroom",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Lemon.png"
- },
- {
-  "name": "Honey",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Orange.png"
- },
- {
-  "name": "Herb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Green.png"
- },
- {
-  "name": "Antidote Herb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Blue.png"
- },
- {
-  "name": "Fire Herb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Red.png"
- },
- {
-  "name": "Flowfern",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Dark_Blue.png"
- },
- {
-  "name": "Snow Herb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_White.png"
- },
- {
-  "name": "Sleep Herb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Light_Blue.png"
- },
- {
-  "name": "Ivy",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Moss.png"
- },
- {
-  "name": "Smokenut",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_White.png"
- },
- {
-  "name": "Dragonfell Berry",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Rose.png"
- },
- {
-  "name": "Hot Pepper",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Vermilion.png"
- },
- {
-  "name": "Gloamgrass Bud",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Tan.png"
- },
- {
-  "name": "Chillshroom",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_White.png"
- },
- {
-  "name": "Spider Web",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Spiderweb_Icon_White.png"
- },
- {
-  "name": "Trap Tool",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Box_Icon_White.png"
- },
- {
-  "name": "Dung",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Dung_Icon_Brown.png"
- },
- {
-  "name": "Rolled-up Dung",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Dung_Icon_Brown.png"
- },
- {
-  "name": "Blastnut",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Husk_Icon_Vermilion.png"
- },
- {
-  "name": "Dragonstrike Nut",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Husk_Icon_Brown.png"
- },
- {
-  "name": "Slashberry",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Husk_Icon_White.png"
- },
- {
-  "name": "Bomberry",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Husk_Icon_Rose.png"
- },
- {
-  "name": "Bitterbug Broth",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Blue.png"
- },
- {
-  "name": "Flashbug Phosphor",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Yellow.png"
- },
- {
-  "name": "Godbug Essence",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_White.png"
- },
- {
-  "name": "Thunderbug Capacitor",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Lemon.png"
- },
- {
-  "name": "Gunpowderfish Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Gray.png"
- },
- {
-  "name": "Burst Arowana Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Green.png"
- },
- {
-  "name": "Bomb Arowana Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Purple.png"
- },
- {
-  "name": "Dash Extract",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Yellow.png"
- },
- {
-  "name": "Nourishing Extract",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_White.png"
- },
- {
-  "name": "Armor Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Sticky_Icon_Orange.png"
- },
- {
-  "name": "Cluster Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Cluster_Icon_Rose.png"
- },
- {
-  "name": "Demon Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Sticky_Icon_Red.png"
- },
- {
-  "name": "Dragon Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Pierce_Icon_Rose.png"
- },
- {
-  "name": "Exhaust Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Icon_Emerald.png"
- },
- {
-  "name": "Flaming Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Pierce_Icon_Red.png"
- },
- {
-  "name": "Freeze Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Pierce_Icon_White.png"
- },
- {
-  "name": "Paralysis Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Icon_Lemon.png"
- },
- {
-  "name": "Poison Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Icon_Purple.png"
- },
- {
-  "name": "Recover Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Sticky_Icon_Green.png"
- },
- {
-  "name": "Sleep Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Icon_Light_Blue.png"
- },
- {
-  "name": "Slicing Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Sticky_Icon_White.png"
- },
- {
-  "name": "Sticky Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Sticky_Icon_Vermilion.png"
- },
- {
-  "name": "Thunder Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Pierce_Icon_Yellow.png"
- },
- {
-  "name": "Tranq Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Icon_Pink.png"
- },
- {
-  "name": "Tranq Blade",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Knife_Icon_Pink.png"
- },
- {
-  "name": "Water Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Pierce_Icon_Dark_Blue.png"
- },
- {
-  "name": "Wyvern Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Cluster_Icon_Brown.png"
- },
- {
-  "name": "Gunpowder",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Vermilion.png"
- },
- {
-  "name": "Net",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Spiderweb_Icon_Moss.png"
- },
- {
-  "name": "Barrel Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Yellow.png"
- },
- {
-  "name": "Bomb Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Vermilion.png"
- },
- {
-  "name": "Dragon Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Rose.png"
- },
- {
-  "name": "Dung Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Brown.png"
- },
- {
-  "name": "EZ Flash Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Yellow.png"
- },
- {
-  "name": "EZ Pitfall Trap",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Trap_Icon_Moss.png"
- },
- {
-  "name": "Flash Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Yellow.png"
- },
- {
-  "name": "Toadstool",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Purple.png"
- },
- {
-  "name": "Large Barrel Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Vermilion.png"
- },
- {
-  "name": "Large Dung Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Brown.png"
- },
- {
-  "name": "Luring Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Red.png"
- },
- {
-  "name": "Mega Barrel Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Vermilion.png"
- },
- {
-  "name": "Pitfall Trap",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Trap_Icon_Moss.png"
- },
- {
-  "name": "Poison Smoke Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_Purple.png"
- },
- {
-  "name": "Puddle Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Dark_Blue.png"
- },
- {
-  "name": "Raw Meat",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Red.png"
- },
- {
-  "name": "Screamer Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Gray.png"
- },
- {
-  "name": "Shock Trap",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Trap_Icon_Lemon.png"
- },
- {
-  "name": "Torch Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Red.png"
- },
- {
-  "name": "Tranq Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_Pink.png"
- },
- {
-  "name": "Airy Egg",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Eggs_Icon_Tan.png"
- },
- {
-  "name": "Ancient Fossil",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Gray.png"
- },
- {
-  "name": "Ancient Orb - Armor",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Decoration_Icon_Light_Blue.png"
- },
- {
-  "name": "Ancient Weapon Fragment",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Weapon_Shard_Icon_Red.png"
- },
- {
-  "name": "Ancient Wyvern Coin",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Coin_Icon_Brown.png"
- },
- {
-  "name": "Antimite",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Purple.png"
- },
- {
-  "name": "Antimite Mass",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Dark_Purple.png"
- },
- {
-  "name": "Auric Oil",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Yellow.png"
- },
- {
-  "name": "Bulky Treasure",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Tan.png"
- },
- {
-  "name": "Chaliceweed",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Light_Green.png"
- },
- {
-  "name": "Cloudy Crystal",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.png"
- },
- {
-  "name": "Damaged Weapon Shard",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Weapon_Shard_Icon_White.png"
- },
- {
-  "name": "Dreamspell Catalog",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Purple.png"
- },
- {
-  "name": "Delishroom",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Mushroom_Icon_White.png"
- },
- {
-  "name": "Dragonscale Vase",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Yellow.png"
- },
- {
-  "name": "Drifting Sea Pot",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Emerald.png"
- },
- {
-  "name": "Droolshroom",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Mushroom_Icon_White.png"
- },
- {
-  "name": "Eastern Honey",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Orange.png"
- },
- {
-  "name": "Fine Antimite",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Purple.png"
- },
- {
-  "name": "Fine Scarlet Amber",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Red.png"
- },
- {
-  "name": "Fine Windward Aloe",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Light_Green.png"
- },
- {
-  "name": "Fluffy Egg",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Eggs_Icon_Tan.png"
- },
- {
-  "name": "Fossilized Fire Opal",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Orange.png"
- },
- {
-  "name": "Fossilized Opal",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Orange.png"
- },
- {
-  "name": "Fulgurite Shard",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Blue.png"
- },
- {
-  "name": "Gajau Hide",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.png"
- },
- {
-  "name": "Genesis Opal",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Vermilion.png"
- },
- {
-  "name": "Gilded Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.png"
- },
- {
-  "name": "Glowing Orb - Armor",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Decoration_Icon_Blue.png"
- },
- {
-  "name": "Glowing Stone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Charm_Icon_Purple.png"
- },
- {
-  "name": "Gobletweed",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Light_Green.png"
- },
- {
-  "name": "Golden Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.png"
- },
- {
-  "name": "Great Windward Aloe",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Moss.png"
- },
- {
-  "name": "Hirabami Molting",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Purple.png"
- },
- {
-  "name": "Jeweled Mullet Roe",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Fish_Icon_Orange.png"
- },
- {
-  "name": "Krano Copper",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Yellow.png"
- },
- {
-  "name": "Krano Pyrite",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Yellow.png"
- },
- {
-  "name": "Kunafa Cheese",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Cheese_Icon_Tan.png"
- },
- {
-  "name": "Large Goldenscale Vase",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Lemon.png"
- },
- {
-  "name": "Mature Wyveria Lantern",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Pink.png"
- },
- {
-  "name": "Milky Cocoon Web",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Spiderweb_Icon_White.png"
- },
- {
-  "name": "Monster Chili",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Vermilion.png"
- },
- {
-  "name": "Mud Shrimp",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Shrimp_Icon_Pink.png"
- },
- {
-  "name": "Mystery Orb - Armor",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Decoration_Icon_White.png"
- },
- {
-  "name": "Mystery Orb - Sword",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Decoration_Icon_White.png"
- },
- {
-  "name": "Nightflower Pollen",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Violet.png"
- },
- {
-  "name": "Old Weapon Shard - Blade",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Relic_Blade_Icon_Rare_8.png"
- },
- {
-  "name": "Old Weapon Shard - Tube",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Relic_Tube_Icon_Rare_8.png"
- },
- {
-  "name": "Old Weapon Shard - Disc",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Relic_Disc_Icon_Rare_8.png"
- },
- {
-  "name": "Old Weapon Shard - Device",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Relic_Device_Icon_Rare_8.png"
- },
- {
-  "name": "Origin Wylk Gem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_White.png"
- },
- {
-  "name": "Platinum Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Royal Sea Pot",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Emerald.png"
- },
- {
-  "name": "Rusted Weapon Shard",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Weapon_Shard_Icon_Pink.png"
- },
- {
-  "name": "Sandpepper",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Green.png"
- },
- {
-  "name": "Scarlet Amber Shard",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Red.png"
- },
- {
-  "name": "Sharp Kunafa Cheese",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Cheese_Icon_Tan.png"
- },
- {
-  "name": "Shiny Treasure",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Brown.png"
- },
- {
-  "name": "Sild Garlic",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Garlic_Icon_Tan.png"
- },
- {
-  "name": "Sparkly Treasure",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Brown.png"
- },
- {
-  "name": "Specialty Sild Garlic",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Garlic_Icon_Tan.png"
- },
- {
-  "name": "Thundering Fulgurite",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Dark_Blue.png"
- },
- {
-  "name": "Time-honed Wylk Gem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Light_Blue.png"
- },
- {
-  "name": "Truffle Du Conga",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Gray.png"
- },
- {
-  "name": "Turbid Shrimp",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Shrimp_Icon_Pink.png"
- },
- {
-  "name": "Wild Herb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Moss.png"
- },
- {
-  "name": "Wild Seed Oil",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Light_Green.png"
- },
- {
-  "name": "Windward Aloe",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Light_Green.png"
- },
- {
-  "name": "Wylk Gem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.png"
- },
- {
-  "name": "Wylk Pebble",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.png"
- },
- {
-  "name": "Wyveria Lantern",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Pink.png"
- },
- {
-  "name": "Wyvernscale Vase",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Yellow.png"
- },
- {
-  "name": "Ajarakan Jewel Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Vermilion.png"
- },
- {
-  "name": "Acute Fang",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Orange.png"
- },
- {
-  "name": "Advanced Armor Sphere",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Armor_Sphere_Icon_Orange.png"
- },
- {
-  "name": "Ajarakan Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Vermilion.png"
- },
- {
-  "name": "Ajarakan Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Vermilion.png"
- },
- {
-  "name": "Ajarakan Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Vermilion.png"
- },
- {
-  "name": "Ajarakan Jewel",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Vermilion.png"
- },
- {
-  "name": "Ajarakan Marrow",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Vermilion.png"
- },
- {
-  "name": "Ajarakan Ridge Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Vermilion.png"
- },
- {
-  "name": "Ajarakan Ridge",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Vermilion.png"
- },
- {
-  "name": "Ajarakan Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Vermilion.png"
- },
- {
-  "name": "Ajarakan Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Vermilion.png"
- },
- {
-  "name": "Ajarakan Shell",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Vermilion.png"
- },
- {
-  "name": "Ajarakan Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Vermilion.png"
- },
- {
-  "name": "Aqua Sac",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Blue.png"
- },
- {
-  "name": "Argecite",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.png"
- },
- {
-  "name": "Arkveld Armorplate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.png"
- },
- {
-  "name": "Arkveld Calloushell",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_White.png"
- },
- {
-  "name": "Arkveld Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Arkveld Gem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_White.png"
- },
- {
-  "name": "Arkveld Horn Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Arkveld Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Arkveld Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_White.png"
- },
- {
-  "name": "Armor Sphere Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Armor_Sphere_Icon_Green.png"
- },
- {
-  "name": "Armor Sphere",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Armor_Sphere_Icon_Blue.png"
- },
- {
-  "name": "Azuz Tanned Leather",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.png"
- },
- {
-  "name": "Balahara Black Pearl",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Gray.png"
- },
- {
-  "name": "Balahara Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Gray.png"
- },
- {
-  "name": "Balahara Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.png"
- },
- {
-  "name": "Balahara Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.png"
- },
- {
-  "name": "Balahara Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Gray.png"
- },
- {
-  "name": "Balahara Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Gray.png"
- },
- {
-  "name": "Balahara Shell",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Gray.png"
- },
- {
-  "name": "Balahara Skull Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Gray.png"
- },
- {
-  "name": "Balahara Skull",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Gray.png"
- },
- {
-  "name": "Balahara Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Gray.png"
- },
- {
-  "name": "Beast Gem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Orange.png"
- },
- {
-  "name": "Bird Wyvern Gem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Blue.png"
- },
- {
-  "name": "Blangonga Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Blangonga Fang Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Blangonga Pelt Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Blangonga Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_White.png"
- },
- {
-  "name": "Blangonga Whisker",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.png"
- },
- {
-  "name": "Blango Pelt Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Bulaqchi Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Yellow.png"
- },
- {
-  "name": "Bulaqchi Shell",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Yellow.png"
- },
- {
-  "name": "Carbalite Ore",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Purple.png"
- },
- {
-  "name": "Charred Oilbone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Gray.png"
- },
- {
-  "name": "Chatacabra Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Green.png"
- },
- {
-  "name": "Chatacabra Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Green.png"
- },
- {
-  "name": "Chatacabra Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Green.png"
- },
- {
-  "name": "Chatacabra Hide Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Green.png"
- },
- {
-  "name": "Chatacabra Hide",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Green.png"
- },
- {
-  "name": "Chatacabra Jaw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Green.png"
- },
- {
-  "name": "Chatacabra Jaw",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Green.png"
- },
- {
-  "name": "Chatacabra Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Green.png"
- },
- {
-  "name": "Chatacabra Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Green.png"
- },
- {
-  "name": "Chatacabra Shell",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Green.png"
- },
- {
-  "name": "Colossal Bone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_White.png"
- },
- {
-  "name": "Comaqchi Shell",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Pink.png"
- },
- {
-  "name": "Comaqchi Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Pink.png"
- },
- {
-  "name": "Coma Sac",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Light_Blue.png"
- },
- {
-  "name": "Commission Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Tan.png"
- },
- {
-  "name": "Congalala Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Pink.png"
- },
- {
-  "name": "Congalala Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Pink.png"
- },
- {
-  "name": "Congalala Claw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Pink.png"
- },
- {
-  "name": "Congalala Claw",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Pink.png"
- },
- {
-  "name": "Congalala Fang Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Pink.png"
- },
- {
-  "name": "Congalala Fang",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Pink.png"
- },
- {
-  "name": "Congalala Pelt Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.png"
- },
- {
-  "name": "Congalala Pelt",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.png"
- },
- {
-  "name": "Conga Pelt Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.png"
- },
- {
-  "name": "Crushed Crystal",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.png"
- },
- {
-  "name": "Dalthydon Wool",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Tan.png"
- },
- {
-  "name": "Doshaguma Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Brown.png"
- },
- {
-  "name": "Doshaguma Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Brown.png"
- },
- {
-  "name": "Doshaguma Sketch",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Brown.png"
- },
- {
-  "name": "Doshaguma Claw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.png"
- },
- {
-  "name": "Doshaguma Claw",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.png"
- },
- {
-  "name": "Doshaguma Fang Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.png"
- },
- {
-  "name": "Doshaguma Fang",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.png"
- },
- {
-  "name": "Doshaguma Fur Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.png"
- },
- {
-  "name": "Doshaguma Fur",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.png"
- },
- {
-  "name": "Doshaguma Hide Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.png"
- },
- {
-  "name": "Doshaguma Hide",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.png"
- },
- {
-  "name": "Dragonbone Relic",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Tan.png"
- },
- {
-  "name": "Dragonite Ore",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Green.png"
- },
- {
-  "name": "Drearisite",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Gray.png"
- },
- {
-  "name": "Drearisite Scraps",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Gray.png"
- },
- {
-  "name": "Dreamspell Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Purple.png"
- },
- {
-  "name": "Dreamspell Voucher",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Orange.png"
- },
- {
-  "name": "Earth Crystal",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.png"
- },
- {
-  "name": "Firecell Stone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Orange.png"
- },
- {
-  "name": "Firestone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Vermilion.png"
- },
- {
-  "name": "Freezer Sac",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_White.png"
- },
- {
-  "name": "Frenzy Crystal",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Crystal_Icon_Purple.png"
- },
- {
-  "name": "Frenzy Shard",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Crystal_Icon_Purple.png"
- },
- {
-  "name": "Frost Sac",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_White.png"
- },
- {
-  "name": "Frozen Icebone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_White.png"
- },
- {
-  "name": "Fucium Ore",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Pink.png"
- },
- {
-  "name": "Giant Beak",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Pink.png"
- },
- {
-  "name": "Golden Corneum Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Yellow.png"
- },
- {
-  "name": "Golden Corneum",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Yellow.png"
- },
- {
-  "name": "Gold Relic Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.png"
- },
- {
-  "name": "Gore Magala Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Gray.png"
- },
- {
-  "name": "Gore Magala Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.png"
- },
- {
-  "name": "Gore Magala Nyctgem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Gray.png"
- },
- {
-  "name": "Gore Magala Ripclaw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Gray.png"
- },
- {
-  "name": "Gore Magala Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Gray.png"
- },
- {
-  "name": "Gore Magala Wing Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_Gray.png"
- },
- {
-  "name": "Gracium",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Blue.png"
- },
- {
-  "name": "Gravios Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.png"
- },
- {
-  "name": "Gravios Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Gravios Medulla",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Red.png"
- },
- {
-  "name": "Gravios Pleura Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.png"
- },
- {
-  "name": "Gravios Skull",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_White.png"
- },
- {
-  "name": "Gravios Wing",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_White.png"
- },
- {
-  "name": "Great Hibiscus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Red.png"
- },
- {
-  "name": "Great Hornfly",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Yellow.png"
- },
- {
-  "name": "Great Stoutbone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_White.png"
- },
- {
-  "name": "Guardian Blood Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_White.png"
- },
- {
-  "name": "Guardian Blood",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_White.png"
- },
- {
-  "name": "Guardian Doshaguma Claw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Guardian Doshaguma Claw",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Guardian Doshaguma Fang",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Guardian Doshaguma Fur Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Guardian Doshaguma Fur",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Guardian Doshaguma Hide Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Guardian Doshaguma Hide",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Claw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Claw",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Fang Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Fang",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Gem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Plate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Plate_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Sinew Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Sinew",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.png"
- },
- {
-  "name": "Guardian Ebony Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_White.png"
- },
- {
-  "name": "Guardian Fulgur Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Guardian Fulgur Fang Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Guardian Fulgur Nosebone Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_White.png"
- },
- {
-  "name": "Guardian Fulgur Pelt Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Guardian Fulgur Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Guardian Fulgur Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_White.png"
- },
- {
-  "name": "Guardian Pelt Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Guardian Pelt",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Guardian Rathalos Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.png"
- },
- {
-  "name": "Guardian Rathalos Plate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Plate_Icon_White.png"
- },
- {
-  "name": "Guardian Rathalos Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Guardian Rathalos Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Guardian Rathalos Shell",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.png"
- },
- {
-  "name": "Guardian Rathalos Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_White.png"
- },
- {
-  "name": "Guardian Rathalos Webbing",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_White.png"
- },
- {
-  "name": "Guardian Rathalos Wing",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_White.png"
- },
- {
-  "name": "Guardian Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Guardian Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Guardian Seikret Feather Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Green.png"
- },
- {
-  "name": "Guardian Seikret Feather",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Green.png"
- },
- {
-  "name": "Gypceros Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Blue.png"
- },
- {
-  "name": "Gypceros Head",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Blue.png"
- },
- {
-  "name": "Gypceros Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Blue.png"
- },
- {
-  "name": "Gypceros Wing",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_Blue.png"
- },
- {
-  "name": "G Doshaguma Certificate",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a2/G_doshaguma_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_doshaguma_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
- },
- {
-  "name": "G Doshaguma Certificate S",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2d/G_doshaguma_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_doshaguma_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
- },
- {
-  "name": "G Ebony Odogaron Certificate",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ed/G_ebony_odogaron_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_ebony_odogaron_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
- },
- {
-  "name": "G Ebony Odogaron Certificate S",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2c/G_ebony_odogaron_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_ebony_odogaron_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
- },
- {
-  "name": "G Rathalos Certificate",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/22/G_rathalos_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_rathalos_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
- },
- {
-  "name": "G Rathalos Certificate S",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7e/G_rathalos_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_rathalos_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
- },
- {
-  "name": "Harvest Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Orange.png"
- },
- {
-  "name": "Hard Armor Sphere",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Armor_Sphere_Icon_Purple.png"
- },
- {
-  "name": "Heavy Armor Sphere",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Armor_Sphere_Icon_Red.png"
- },
- {
-  "name": "Herbivore Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Brown.png"
- },
- {
-  "name": "Herbivore Shell",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Brown.png"
- },
- {
-  "name": "Hirabami Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Purple.png"
- },
- {
-  "name": "Hirabami Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Purple.png"
- },
- {
-  "name": "Hirabami Hide Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Purple.png"
- },
- {
-  "name": "Hirabami Hide",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Purple.png"
- },
- {
-  "name": "Hirabami Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Purple.png"
- },
- {
-  "name": "Hirabami Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Purple.png"
- },
- {
-  "name": "Hirabami Tail Claw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Purple.png"
- },
- {
-  "name": "Hirabami Tail Claw",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Purple.png"
- },
- {
-  "name": "Hirabami Webbing Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Purple.png"
- },
- {
-  "name": "Hirabami Webbing",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Purple.png"
- },
- {
-  "name": "Hunter Symbol I",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Tan.png"
- },
- {
-  "name": "Hunter Symbol II",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.png"
- },
- {
-  "name": "Hunter Symbol III",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Lemon.png"
- },
- {
-  "name": "Icium",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.png"
- },
- {
-  "name": "Inferno Sac",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Red.png"
- },
- {
-  "name": "Iron Ore",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Gray.png"
- },
- {
-  "name": "Jin Dahaad Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Brown.png"
- },
- {
-  "name": "Jin Dahaad Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Brown.png"
- },
- {
-  "name": "Jin Dahaad Claw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.png"
- },
- {
-  "name": "Jin Dahaad Horn",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.png"
- },
- {
-  "name": "Jin Dahaad Icegem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Light_Blue.png"
- },
- {
-  "name": "Jin Dahaad Certificate Gamma",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/82/Jin_dahaad_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Jin_dahaad_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png"
- },
- {
-  "name": "Gogmazios Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Blue.png"
- },
- {
-  "name": "Gogmazios Rampart",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Blue.png"
- },
- {
-  "name": "Gogmazios Fiberwing",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_Blue.png"
- },
- {
-  "name": "Heavy Drakesbone Oil",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Blue.png"
- },
- {
-  "name": "Gogmazios Fortalice",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Blue.png"
- },
- {
-  "name": "Gogmazios Shredders",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Blue.png"
- },
- {
-  "name": "Gogmazios Lacerator",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Blue.png"
- },
- {
-  "name": "Gogmazios Thorntail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Blue.png"
- },
- {
-  "name": "Wartorn Dragongem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Red.png"
- },
- {
-  "name": "Jin Dahaad Iceplate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Brown.png"
- },
- {
-  "name": "Jin Dahaad Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Brown.png"
- },
- {
-  "name": "Jin Dahaad Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Brown.png"
- },
- {
-  "name": "Kranodath Skull Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Purple.png"
- },
- {
-  "name": "Kranodath Skull",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Purple.png"
- },
- {
-  "name": "Kut-Ku Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Pink.png"
- },
- {
-  "name": "Kut-Ku Ear",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Pink.png"
- },
- {
-  "name": "Kut-Ku Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Pink.png"
- },
- {
-  "name": "Kut-Ku Wing",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_Pink.png"
- },
- {
-  "name": "Lagiacrus Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Light_Blue.png"
- },
- {
-  "name": "Lagiacrus Claw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Light_Blue.png"
- },
- {
-  "name": "Lagiacrus Hide Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Light_Blue.png"
- },
- {
-  "name": "Lagiacrus Horn Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Light_Blue.png"
- },
- {
-  "name": "Lagiacrus Sapphire",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Light_Blue.png"
- },
- {
-  "name": "Lagiacrus Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Light_Blue.png"
- },
- {
-  "name": "Lagiacrus Shockspike",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Light_Blue.png"
- },
- {
-  "name": "Lagiacrus Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Light_Blue.png"
- },
- {
-  "name": "Lala Barina Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Gray.png"
- },
- {
-  "name": "Lala Barina Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Rose.png"
- },
- {
-  "name": "Lala Barina Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Rose.png"
- },
- {
-  "name": "Lala Barina Claw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Rose.png"
- },
- {
-  "name": "Lala Barina Claw",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Rose.png"
- },
- {
-  "name": "Lala Barina Floret Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Lala Barina Floret",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Lala Barina Mucus Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Rose.png"
- },
- {
-  "name": "Lala Barina Mucus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Rose.png"
- },
- {
-  "name": "Lala Barina Shell",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Gray.png"
- },
- {
-  "name": "Lala Barina Stinger Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.png"
- },
- {
-  "name": "Lala Barina Stinger",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.png"
- },
- {
-  "name": "Lightcrystal",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Gray.png"
- },
- {
-  "name": "Lumenhymn Catalog",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Lumenhymn Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Machalite Ore",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Blue.png"
- },
- {
-  "name": "Mimiphyta Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Monster Broth",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Blue.png"
- },
- {
-  "name": "Monster Fluid",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Light_Blue.png"
- },
- {
-  "name": "Monster Hardbone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Red.png"
- },
- {
-  "name": "Monster Keenbone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Pink.png"
- },
- {
-  "name": "Mystery Bone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Gray.png"
- },
- {
-  "name": "Nerscylla Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.png"
- },
- {
-  "name": "Nerscylla Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Nerscylla Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Nerscylla Chelicera",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Nerscylla Claw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Nerscylla Claw",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Nerscylla Shear",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Nerscylla Shell",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.png"
- },
- {
-  "name": "Nerscylla Spike Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.png"
- },
- {
-  "name": "Nerscylla Spike",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.png"
- },
- {
-  "name": "Novacrystal",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.png"
- },
- {
-  "name": "Nu Udra Cerebrospinal Fluid",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Light_Blue.png"
- },
- {
-  "name": "Nu Udra Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.png"
- },
- {
-  "name": "Nu Udra Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.png"
- },
- {
-  "name": "Nu Udra Certificate Gamma",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/99/Nu_udra_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Nu_udra_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png"
- },
- {
-  "name": "Nu Udra Flamegem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Red.png"
- },
- {
-  "name": "Nu Udra Hide Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Gray.png"
- },
- {
-  "name": "Nu Udra Hide",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Gray.png"
- },
- {
-  "name": "Nu Udra Horn Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Nu Udra Horn",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Nu Udra Oilmucus Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Gray.png"
- },
- {
-  "name": "Nu Udra Oilmucus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Gray.png"
- },
- {
-  "name": "Nu Udra Spike Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Nu Udra Spike",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Nu Udra Tentacle Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.png"
- },
- {
-  "name": "Nu Udra Tentacle",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.png"
- },
- {
-  "name": "Oricalcite",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Purple.png"
- },
- {
-  "name": "Pinnacle Coin",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Coin_Icon_Yellow.png"
- },
- {
-  "name": "Rathian Coin",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Coin_Icon_Green.png"
- },
- {
-  "name": "Chata Coin",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Coin_Icon_White.png"
- },
- {
-  "name": "Piragill Fin Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Red.png"
- },
- {
-  "name": "Piragill Fin",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Red.png"
- },
- {
-  "name": "Poison Sac",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Purple.png"
- },
- {
-  "name": "Quality Bone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Yellow.png"
- },
- {
-  "name": "Quematrice Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Blue.png"
- },
- {
-  "name": "Quematrice Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Blue.png"
- },
- {
-  "name": "Quematrice Crest Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Red.png"
- },
- {
-  "name": "Quematrice Crest",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Red.png"
- },
- {
-  "name": "Quematrice Hide Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Blue.png"
- },
- {
-  "name": "Quematrice Hide",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Blue.png"
- },
- {
-  "name": "Quematrice Igniter Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Red.png"
- },
- {
-  "name": "Quematrice Igniter",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Red.png"
- },
- {
-  "name": "Quematrice Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Blue.png"
- },
- {
-  "name": "Quematrice Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Blue.png"
- },
- {
-  "name": "Quematrice Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Blue.png"
- },
- {
-  "name": "Rathalos Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Red.png"
- },
- {
-  "name": "Rathalos Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Red.png"
- },
- {
-  "name": "Rathalos Ruby",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Red.png"
- },
- {
-  "name": "Rathalos Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Red.png"
- },
- {
-  "name": "Rathalos Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Red.png"
- },
- {
-  "name": "Rathalos Wing",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_Red.png"
- },
- {
-  "name": "Rathian Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Green.png"
- },
- {
-  "name": "Rathian Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Green.png"
- },
- {
-  "name": "Rathian Ruby",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Green.png"
- },
- {
-  "name": "Rathian Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Green.png"
- },
- {
-  "name": "Rathian Spike Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Green.png"
- },
- {
-  "name": "Rathian Webbing",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_Green.png"
- },
- {
-  "name": "Rath Medulla",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Red.png"
- },
- {
-  "name": "Rey Dau Boltgem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Yellow.png"
- },
- {
-  "name": "Rey Dau Bolthorn",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Rey Dau Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Yellow.png"
- },
- {
-  "name": "Rey Dau Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.png"
- },
- {
-  "name": "Rey Dau Certificate Gamma",
-  "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b4/Rey_dau_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Rey_dau_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png"
- },
- {
-  "name": "Rey Dau Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.png"
- },
- {
-  "name": "Rey Dau Fulgurtalon",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Blue.png"
- },
- {
-  "name": "Rey Dau Plate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Plate_Icon_Yellow.png"
- },
- {
-  "name": "Rey Dau Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.png"
- },
- {
-  "name": "Rey Dau Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.png"
- },
- {
-  "name": "Rey Dau Shell",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Yellow.png"
- },
- {
-  "name": "Rey Dau Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Yellow.png"
- },
- {
-  "name": "Rey Dau Thunderhorn",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Rompopolo Beak Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Dark_Blue.png"
- },
- {
-  "name": "Rompopolo Beak",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Dark_Blue.png"
- },
- {
-  "name": "Rompopolo Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Dark_Blue.png"
- },
- {
-  "name": "Rompopolo Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Dark_Blue.png"
- },
- {
-  "name": "Rompopolo Claw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Dark_Blue.png"
- },
- {
-  "name": "Rompopolo Claw",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Dark_Blue.png"
- },
- {
-  "name": "Rompopolo Hide Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Blue.png"
- },
- {
-  "name": "Rompopolo Hide",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Blue.png"
- },
- {
-  "name": "Rubbery Hide Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Blue.png"
- },
- {
-  "name": "Rubbery Hide",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Blue.png"
- },
- {
-  "name": "Scarred Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Tan.png"
- },
- {
-  "name": "Seregios Airblade",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.png"
- },
- {
-  "name": "Seregios Breacher",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Seregios Carver",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Seregios Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.png"
- },
- {
-  "name": "Seregios Dissenter",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Plate_Icon_Yellow.png"
- },
- {
-  "name": "Seregios Impaler",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Yellow.png"
- },
- {
-  "name": "Seregios Scraper",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Seregios Slavescale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.png"
- },
- {
-  "name": "SF6 Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Purple.png"
- },
- {
-  "name": "Sharp Fang",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Orange.png"
- },
- {
-  "name": "Sild Cotton",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Sinister Cloth",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Gray.png"
- },
- {
-  "name": "Skull Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Speartuna Fin",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.png"
- },
- {
-  "name": "Specklite",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Light_Blue.png"
- },
- {
-  "name": "Spotted Poison Hide Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Blue.png"
- },
- {
-  "name": "Spotted Poison Hide",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Blue.png"
- },
- {
-  "name": "Steel Melding Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.png"
- },
- {
-  "name": "Stoutbone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Gray.png"
- },
- {
-  "name": "Sturdy Bone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_White.png"
- },
- {
-  "name": "Suja Textiles",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Blue.png"
- },
- {
-  "name": "Songbird Sketch",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Light_Blue.png"
- },
- {
-  "name": "Talioth Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Orange.png"
- },
- {
-  "name": "Talioth Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Orange.png"
- },
- {
-  "name": "Thunder Sac",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Yellow.png"
- },
- {
-  "name": "Torrent Sac",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Blue.png"
- },
- {
-  "name": "Tough Guardian Bone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Light_Blue.png"
- },
- {
-  "name": "Toxin Sac",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Purple.png"
- },
- {
-  "name": "Uth Duna Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Violet.png"
- },
- {
-  "name": "Uth Duna Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Violet.png"
- },
- {
-  "name": "Uth Duna Cilia Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.png"
- },
- {
-  "name": "Uth Duna Cilia",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.png"
- },
- {
-  "name": "Uth Duna Claw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Violet.png"
- },
- {
-  "name": "Uth Duna Claw",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Violet.png"
- },
- {
-  "name": "Uth Duna Hide Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Violet.png"
- },
- {
-  "name": "Uth Duna Hide",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Violet.png"
- },
- {
-  "name": "Uth Duna Plate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Plate_Icon_Violet.png"
- },
- {
-  "name": "Uth Duna Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Violet.png"
- },
- {
-  "name": "Uth Duna Scale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Violet.png"
- },
- {
-  "name": "Uth Duna Tentacle Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Pink.png"
- },
- {
-  "name": "Uth Duna Tentacle",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Pink.png"
- },
- {
-  "name": "Uth Duna Watergem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Violet.png"
- },
- {
-  "name": "Vespoid Carapace",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Yellow.png"
- },
- {
-  "name": "Vespoid Innerwing",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Yellow.png"
- },
- {
-  "name": "Vespoid Shell",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Yellow.png"
- },
- {
-  "name": "Vespoid Wing",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Yellow.png"
- },
- {
-  "name": "Vibrant Pelt Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Yellow.png"
- },
- {
-  "name": "Vibrant Pelt",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Yellow.png"
- },
- {
-  "name": "Well-done Steak Recipe Book",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Book_Icon_Orange.png"
- },
- {
-  "name": "White Arkveld Pelt",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.png"
- },
- {
-  "name": "Wingdrake Hide Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Tan.png"
- },
- {
-  "name": "Wingdrake Hide",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Tan.png"
- },
- {
-  "name": "Worn Pickaxe",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pickaxe_Icon.webp"
- },
- {
-  "name": "Wyverian Bloodstone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Red.png"
- },
- {
-  "name": "Wyverian Bloodstone Chunk",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Red.png"
- },
- {
-  "name": "Wyverian Bloodstone (L)",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Red.png"
- },
- {
-  "name": "Wyverian Bloodstone (S)",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Red.png"
- },
- {
-  "name": "Wyverian Bloodstone Shard",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Red.png"
- },
- {
-  "name": "Wyvern Gem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Light_Blue.png"
- },
- {
-  "name": "Xu Wu Cerebrospinal Fluid",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Gray.png"
- },
- {
-  "name": "Xu Wu Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.png"
- },
- {
-  "name": "Xu Wu Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.png"
- },
- {
-  "name": "Xu Wu Claw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Xu Wu Claw",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Xu Wu Fang Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Xu Wu Fang",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.png"
- },
- {
-  "name": "Xu Wu Hide Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Gray.png"
- },
- {
-  "name": "Xu Wu Hide",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Gray.png"
- },
- {
-  "name": "Xu Wu Tentacle Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.png"
- },
- {
-  "name": "Xu Wu Umbragem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Gray.png"
- },
- {
-  "name": "Yian Kut-Ku Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Pink.png"
- },
- {
-  "name": "Ajarakan Medulla",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Vermilion.png"
- },
- {
-  "name": "Brute Bone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_White.png"
- },
- {
-  "name": "Conga Pelt",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.png"
- },
- {
-  "name": "Flame Sac",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Red.png"
- },
- {
-  "name": "Gore Magala Feeler Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Gray.png"
- },
- {
-  "name": "Gore Magala Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Gray.png"
- },
- {
-  "name": "Guardian Doshaguma Fang Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Guardian Fulgur Gem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_White.png"
- },
- {
-  "name": "Guardian Rathalos Ruby",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_White.png"
- },
- {
-  "name": "Rey Dau Wingtalon",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Blue.png"
- },
- {
-  "name": "Sleep Sac",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Light_Blue.png"
- },
- {
-  "name": "Xu Wu Tentacle",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.png"
- },
- {
-  "name": "Mizutsune Fin Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Pink.png"
- },
- {
-  "name": "Mizutsune Claw Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Dark_Purple.png"
- },
- {
-  "name": "Mizutsune Purplefur Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Purple.png"
- },
- {
-  "name": "Mizutsune Tail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Dark_Purple.png"
- },
- {
-  "name": "Mizutsune Scale Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Bubblefoam Plus",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Purple.png"
- },
- {
-  "name": "Mizutsune Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Dark_Purple.png"
- },
- {
-  "name": "Mizutsune Water Orb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Dark_Purple.png"
- },
- {
-  "name": "Zoh Shia Stakeclaw",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Blackember Mass",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Gray.png"
- },
- {
-  "name": "Zoh Shia Crystalhorn",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.png"
- },
- {
-  "name": "Zoh Shia Crystaltail",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_White.png"
- },
- {
-  "name": "Zoh Shia Crystalscale",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.png"
- },
- {
-  "name": "Zoh Shia Layershell",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.png"
- },
- {
-  "name": "Zoh Shia Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Faux Whitegleam Orb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_White.png"
- },
- {
-  "name": "Royal Felyne Emblem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Coin_Icon_Blue.png"
- },
- {
-  "name": "Gala Suit Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.png"
- },
- {
-  "name": "Azure Stargem",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Blue.png"
- },
- {
-  "name": "Blossom Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Pink.png"
- },
- {
-  "name": "Blossomdance Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Pink.png"
- },
- {
-  "name": "Flamefete Catalog",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Blue.png"
- },
- {
-  "name": "Necklace Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Light_Blue.png"
- },
- {
-  "name": "Omega Data 1.0",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.png"
- },
- {
-  "name": "Omega Data 2.0",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.png"
- },
- {
-  "name": "Omega Screw",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Gray.png"
- },
- {
-  "name": "Omega Spring",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Gray.png"
- },
- {
-  "name": "Omega Pedal",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Gray.png"
- },
- {
-  "name": "Omega Lens",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Gray.png"
- },
- {
-  "name": "Omega Axle",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Gray.png"
- },
- {
-  "name": "Omega Nodule",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Gray.png"
- },
- {
-  "name": "Orion Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Large Barrel",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Barrel_Icon_Vermilion.png"
- },
- {
-  "name": "Azuz Meal Voucher",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Vermilion.png"
- },
- {
-  "name": "Golden Egg",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Egg_Icon_Yellow.png"
- },
- {
-  "name": "Kunafa Meal Voucher",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Tan.png"
- },
- {
-  "name": "Pick-a-Meal Voucher",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Yellow.png"
- },
- {
-  "name": "Silver Egg",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Egg_Icon_White.png"
- },
- {
-  "name": "Rare Steak",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Tan.png"
- },
- {
-  "name": "Burnt Meat",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Gray.png"
- },
- {
-  "name": "Stone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Gray.png"
- },
- {
-  "name": "Capture Net",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Capture_Net_Icon_White.png"
- },
- {
-  "name": "Whetstone",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Whetstone_Icon_Yellow.png"
- },
- {
-  "name": "Binoculars",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Binoculars_Icon_White.png"
- },
- {
-  "name": "Camping Kit",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Tent_Icon_White.png"
- },
- {
-  "name": "Portable BBQ Grill",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Spit_Icon_Red.png"
- },
- {
-  "name": "Normal Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Icon_White.png"
- },
- {
-  "name": "Pierce Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Pierce_Icon_Blue.png"
- },
- {
-  "name": "Spread Ammo",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Spread_Icon_Moss.png"
- },
- {
-  "name": "Thorngrass Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Orange.png"
- },
- {
-  "name": "Burst Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Green.png"
- },
- {
-  "name": "Bleeding Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Moss.png"
- },
- {
-  "name": "Farcaster",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_Green.png"
- },
- {
-  "name": "First-aid Med",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Medicine_Icon_Green.png"
- },
- {
-  "name": "EZ Ration",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Brown.png"
- },
- {
-  "name": "EZ Shock Trap",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Trap_Icon_Lemon.png"
- },
- {
-  "name": "Poison Knife",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Knife_Icon_Purple.png"
- },
- {
-  "name": "Paralysis Knife",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Knife_Icon_Lemon.png"
- },
- {
-  "name": "Sleep Knife",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Knife_Icon_Light_Blue.png"
- },
- {
-  "name": "Smoke Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_White.png"
- },
- {
-  "name": "Grounding Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Yellow.png"
- },
- {
-  "name": "Ghillie Mantle",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Cape_Icon_Green.png"
- },
- {
-  "name": "Fishing Rod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_White.png"
- },
- {
-  "name": "Immunizer",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Drug_Icon_Tan.png"
- },
- {
-  "name": "Demondrug",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Drug_Icon_Red.png"
- },
- {
-  "name": "Adamant Pill",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pill_Icon_Orange.png"
- },
- {
-  "name": "Throwing Knife",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Knife_Icon_White.png"
- },
- {
-  "name": "Poison Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Purple.png"
- },
- {
-  "name": "Para Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Lemon.png"
- },
- {
-  "name": "Drugged Meat",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Light_Blue.png"
- },
- {
-  "name": "Brightmoss",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Pink.png"
- },
- {
-  "name": "Piercing Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Blue.png"
- },
- {
-  "name": "Paint Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Pink.png"
- },
- {
-  "name": "First-aid Med+",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Medicine_Icon_Green.png"
- },
- {
-  "name": "EZ Max Potion",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pill_Icon_Tan.png"
- },
- {
-  "name": "EZ Lifepowder",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Tan.png"
- },
- {
-  "name": "EZ Herbal Powder",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Blue.png"
- },
- {
-  "name": "EZ Demon Powder",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Red.png"
- },
- {
-  "name": "EZ Hardshell Powder",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Orange.png"
- },
- {
-  "name": "EZ Dust of Life",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Tan.png"
- },
- {
-  "name": "EZ Tranq Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_Pink.png"
- },
- {
-  "name": "EZ Dung Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Brown.png"
- },
- {
-  "name": "EZ Sonic Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Gray.png"
- },
- {
-  "name": "Tinged Meat",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Lemon.png"
- },
- {
-  "name": "EZ Large Barrel Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Vermilion.png"
- },
- {
-  "name": "EZ Farcaster",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_Green.png"
- },
- {
-  "name": "Poisoned Meat",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Purple.png"
- },
- {
-  "name": "Fiery Sandpepper",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Green.png"
- },
- {
-  "name": "Pure Fulgurite",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Blue.png"
- },
- {
-  "name": "Eternal Scarlet Amber",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Rose.png"
- },
- {
-  "name": "Queensbloom Pollen",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Pink.png"
- },
- {
-  "name": "Wyvernsprout",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Corpse_Icon_Brown.png"
- },
- {
-  "name": "Thunder Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Yellow.png"
- },
- {
-  "name": "Frost Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_White.png"
- },
- {
-  "name": "Fresh Honey",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Orange.png"
- },
- {
-  "name": "Frostburst",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_White.png"
- },
- {
-  "name": "G. Doshaguma Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "G. Doshaguma Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "G. Rathalos Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Equipped Mantles",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Cape_Icon_White.png"
- },
- {
-  "name": "G. Rathalos Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "G. Ebony Odogaron Certificate",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "G. Ebony Odogaron Certificate S",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "EZ Large Dung Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Brown.png"
- },
- {
-  "name": "Heavy Blunt Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Tan.png"
- },
- {
-  "name": "Heavy Slicing Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_White.png"
- },
- {
-  "name": "Heavy Explosion Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Orange.png"
- },
- {
-  "name": "Basic Material",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pouch_Icon_White.png"
- },
- {
-  "name": "Valuable Material",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pouch_Icon_Orange.png"
- },
- {
-  "name": "Heavy Piercing Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Blue.png"
- },
- {
-  "name": "Coruscating Crystal",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.png"
- },
- {
-  "name": "Glowing Orb - Sword",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Decoration_Icon_Brown.png"
- },
- {
-  "name": "Ancient Orb - Sword",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Decoration_Icon_Lemon.png"
- },
- {
-  "name": "Rocksteady Mantle",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Cape_Icon_Gray.png"
- },
- {
-  "name": "Mending Mantle",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Cape_Icon_Light_Green.png"
- },
- {
-  "name": "Evasion Mantle",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Cape_Icon_White.png"
- },
- {
-  "name": "Corrupted Mantle",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Cape_Icon_Dark_Purple.png"
- },
- {
-  "name": "Wyvern Egg",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Egg_Icon_White.png"
- },
- {
-  "name": "Wild Jerky",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Pink.png"
- },
- {
-  "name": "Wudwud Treasure",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Green.png"
- },
- {
-  "name": "Catalyst",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Moss.png"
- },
- {
-  "name": "Small Barrel",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Barrel_Icon_Yellow.png"
- },
- {
-  "name": "Silver Melding Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Steel Relic Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.png"
- },
- {
-  "name": "Silver Relic Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Steel Egg",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Egg_Icon_Gray.png"
- },
- {
-  "name": "Gold Melding Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.png"
- },
- {
-  "name": "Common Wood Minnow",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_Brown.png"
- },
- {
-  "name": "Golden Bughead",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_Lemon.png"
- },
- {
-  "name": "Emerald Jitterbait",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_Moss.png"
- },
- {
-  "name": "Tuff Joint Bait",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_Vermilion.png"
- },
- {
-  "name": "Duster Rig",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_Light_Blue.png"
- },
- {
-  "name": "Tentacle Jig",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_Rose.png"
- },
- {
-  "name": "Close-range Coating",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_White.png"
- },
- {
-  "name": "Power Coating",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Red.png"
- },
- {
-  "name": "Pierce Coating",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Blue.png"
- },
- {
-  "name": "Paralysis Coating",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Lemon.png"
- },
- {
-  "name": "Poison Coating",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Purple.png"
- },
- {
-  "name": "Sleep Coating",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Light_Blue.png"
- },
- {
-  "name": "Blast Coating",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Vermilion.png"
- },
- {
-  "name": "Exhaust Coating",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Emerald.png"
- },
- {
-  "name": "Expedition Headgear Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Mutated Armament"
- },
- {
-  "name": "Rey Dau Certificate γ",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.png"
- },
- {
-  "name": "Uth Duna Certificate γ",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Violet.png"
- },
- {
-  "name": "Nu Udra Certificate γ",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Red.png"
- },
- {
-  "name": "Jin Dahaad Certificate γ",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Light_Blue.png"
- },
- {
-  "name": "Blossomdance Catalog",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Pink.png"
- },
- {
-  "name": "Flamefete Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Rose.png"
- },
- {
-  "name": "Diving Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Blue.png"
- },
- {
-  "name": "Felyne Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Barrel Bowling Voucher",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.png"
- },
- {
-  "name": "Blossomdance Voucher",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Pink.png"
- },
- {
-  "name": "Flamefete Voucher",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Blue.png"
- },
- {
-  "name": "Lumenhymn Voucher",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_White.png"
- },
- {
-  "name": "Amstrigian Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Sealed Dragon Cloth",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pouch_Icon_Red.png"
- },
- {
-  "name": "Toe Bean Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Wudwud Likey-like",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Tan.png"
- },
- {
-  "name": "Felyne Wanted Poster",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.png"
- },
- {
-  "name": "Blossom Barrel Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Pink.png"
- },
- {
-  "name": "Beach Barrel Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Blue.png"
- },
- {
-  "name": "Spectral Barrel Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Purple.png"
- },
- {
-  "name": "Wudwud Barrel Bomb",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Tan.png"
- },
- {
-  "name": "Sild Meal Voucher",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Emerald.png"
- },
- {
-  "name": "Suja Meal Voucher",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Light_Green.png"
- },
- {
-  "name": "Helix Piercing Pod",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Light_Blue.png"
- },
- {
-  "name": "Bladescale Pod"
- },
- {
-  "name": "Pom Motif",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pom_Motif_Icon.webp"
- },
- {
-  "name": "Wing Motif",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Motif_Icon.webp"
- },
- {
-  "name": "Mog of the Ages",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Mog_of_the_Ages_Icon.webp"
- },
- {
-  "name": "Compact Anti-Wyvern Gun",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Red.png"
- },
- {
-  "name": "Soul of the Pictomancer",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Soul_of_the_Pictomancer_Icon.webp"
- },
- {
-  "name": "Silver Talisman Ticket",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Secret Stash",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Green.png"
- },
- {
-  "name": "Round Acorn",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Green.png"
- },
- {
-  "name": "Pawprint Stamp",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- },
- {
-  "name": "Insect Husk",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Gray.png"
- },
- {
-  "name": "Felyne Fur Ruby",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Gray.png"
- },
- {
-  "name": "Arkveld Certificate γ",
-  "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.png"
- }
+  {
+    "name": "Adamant Seed",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Orange.webp"
+  },
+  {
+    "name": "Ancient Potion",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pill_Icon_Yellow.webp"
+  },
+  {
+    "name": "Antidote",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Vial_Icon_Blue.webp"
+  },
+  {
+    "name": "Armorcharm",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Orange.webp"
+  },
+  {
+    "name": "Armorskin",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Drug_Icon_Orange.webp"
+  },
+  {
+    "name": "Blue Mushroom",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Blue.webp"
+  },
+  {
+    "name": "Charred Lizard",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Gray.webp"
+  },
+  {
+    "name": "Cleanser",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Vial_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Cool Drink",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Vial_Icon_White.webp"
+  },
+  {
+    "name": "Dash Juice",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Drug_Icon_Yellow.webp"
+  },
+  {
+    "name": "Demon Powder",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Red.webp"
+  },
+  {
+    "name": "Deodorant",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Dust of Life",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Tan.webp"
+  },
+  {
+    "name": "Energy Drink",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Vial_Icon_Lemon.webp"
+  },
+  {
+    "name": "Devil's Blight",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Rose.webp"
+  },
+  {
+    "name": "Great Sushifish Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Orange.webp"
+  },
+  {
+    "name": "Hardshell Powder",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Orange.webp"
+  },
+  {
+    "name": "Herbal Medicine",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pill_Icon_Blue.webp"
+  },
+  {
+    "name": "Herbal Powder",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Blue.webp"
+  },
+  {
+    "name": "Hot Drink",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Vial_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Lifepowder",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Tan.webp"
+  },
+  {
+    "name": "Max Potion",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pill_Icon_Yellow.webp"
+  },
+  {
+    "name": "Mega Armorskin",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Drug_Icon_Orange.webp"
+  },
+  {
+    "name": "Mega Demondrug",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Drug_Icon_Red.webp"
+  },
+  {
+    "name": "Mega Potion",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Medicine_Icon_Green.webp"
+  },
+  {
+    "name": "Might Pill",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pill_Icon_Red.webp"
+  },
+  {
+    "name": "Might Seed",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Red.webp"
+  },
+  {
+    "name": "Exciteshroom",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Moss.webp"
+  },
+  {
+    "name": "Nulberry",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Blue.webp"
+  },
+  {
+    "name": "Potion",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Medicine_Icon_Green.webp"
+  },
+  {
+    "name": "Powercharm",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Red.webp"
+  },
+  {
+    "name": "Ration",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Brown.webp"
+  },
+  {
+    "name": "Sushifish Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Orange.webp"
+  },
+  {
+    "name": "Well-done Steak",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Orange.webp"
+  },
+  {
+    "name": "Whetfish Fin Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.webp"
+  },
+  {
+    "name": "Whetfish Fin",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.webp"
+  },
+  {
+    "name": "Mandragora",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Orange.webp"
+  },
+  {
+    "name": "Nitroshroom",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Red.webp"
+  },
+  {
+    "name": "Parashroom",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Lemon.webp"
+  },
+  {
+    "name": "Honey",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Orange.webp"
+  },
+  {
+    "name": "Herb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Green.webp"
+  },
+  {
+    "name": "Antidote Herb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Blue.webp"
+  },
+  {
+    "name": "Fire Herb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Red.webp"
+  },
+  {
+    "name": "Flowfern",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Dark_Blue.webp"
+  },
+  {
+    "name": "Snow Herb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_White.webp"
+  },
+  {
+    "name": "Sleep Herb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Ivy",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Moss.webp"
+  },
+  {
+    "name": "Smokenut",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_White.webp"
+  },
+  {
+    "name": "Dragonfell Berry",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Rose.webp"
+  },
+  {
+    "name": "Hot Pepper",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Gloamgrass Bud",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Tan.webp"
+  },
+  {
+    "name": "Chillshroom",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_White.webp"
+  },
+  {
+    "name": "Spider Web",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Spiderweb_Icon_White.webp"
+  },
+  {
+    "name": "Trap Tool",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Box_Icon_White.webp"
+  },
+  {
+    "name": "Dung",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Dung_Icon_Brown.webp"
+  },
+  {
+    "name": "Rolled-up Dung",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Dung_Icon_Brown.webp"
+  },
+  {
+    "name": "Blastnut",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Husk_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Dragonstrike Nut",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Husk_Icon_Brown.webp"
+  },
+  {
+    "name": "Slashberry",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Husk_Icon_White.webp"
+  },
+  {
+    "name": "Bomberry",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Husk_Icon_Rose.webp"
+  },
+  {
+    "name": "Bitterbug Broth",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Blue.webp"
+  },
+  {
+    "name": "Flashbug Phosphor",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Yellow.webp"
+  },
+  {
+    "name": "Godbug Essence",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_White.webp"
+  },
+  {
+    "name": "Thunderbug Capacitor",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Lemon.webp"
+  },
+  {
+    "name": "Gunpowderfish Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Gray.webp"
+  },
+  {
+    "name": "Burst Arowana Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Green.webp"
+  },
+  {
+    "name": "Bomb Arowana Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Purple.webp"
+  },
+  {
+    "name": "Dash Extract",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Yellow.webp"
+  },
+  {
+    "name": "Nourishing Extract",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_White.webp"
+  },
+  {
+    "name": "Armor Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Sticky_Icon_Orange.webp"
+  },
+  {
+    "name": "Cluster Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Cluster_Icon_Rose.webp"
+  },
+  {
+    "name": "Demon Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Sticky_Icon_Red.webp"
+  },
+  {
+    "name": "Dragon Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Pierce_Icon_Rose.webp"
+  },
+  {
+    "name": "Exhaust Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Icon_Emerald.webp"
+  },
+  {
+    "name": "Flaming Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Pierce_Icon_Red.webp"
+  },
+  {
+    "name": "Freeze Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Pierce_Icon_White.webp"
+  },
+  {
+    "name": "Paralysis Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Icon_Lemon.webp"
+  },
+  {
+    "name": "Poison Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Icon_Purple.webp"
+  },
+  {
+    "name": "Recover Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Sticky_Icon_Green.webp"
+  },
+  {
+    "name": "Sleep Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Slicing Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Sticky_Icon_White.webp"
+  },
+  {
+    "name": "Sticky Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Sticky_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Thunder Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Pierce_Icon_Yellow.webp"
+  },
+  {
+    "name": "Tranq Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Icon_Pink.webp"
+  },
+  {
+    "name": "Tranq Blade",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Knife_Icon_Pink.webp"
+  },
+  {
+    "name": "Water Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Pierce_Icon_Dark_Blue.webp"
+  },
+  {
+    "name": "Wyvern Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Cluster_Icon_Brown.webp"
+  },
+  {
+    "name": "Gunpowder",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Net",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Spiderweb_Icon_Moss.webp"
+  },
+  {
+    "name": "Barrel Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Yellow.webp"
+  },
+  {
+    "name": "Bomb Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Dragon Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Rose.webp"
+  },
+  {
+    "name": "Dung Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Brown.webp"
+  },
+  {
+    "name": "EZ Flash Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Yellow.webp"
+  },
+  {
+    "name": "EZ Pitfall Trap",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Trap_Icon_Moss.webp"
+  },
+  {
+    "name": "Flash Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Yellow.webp"
+  },
+  {
+    "name": "Toadstool",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Purple.webp"
+  },
+  {
+    "name": "Large Barrel Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Large Dung Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Brown.webp"
+  },
+  {
+    "name": "Luring Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Red.webp"
+  },
+  {
+    "name": "Mega Barrel Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Pitfall Trap",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Trap_Icon_Moss.webp"
+  },
+  {
+    "name": "Poison Smoke Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_Purple.webp"
+  },
+  {
+    "name": "Puddle Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Dark_Blue.webp"
+  },
+  {
+    "name": "Raw Meat",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Red.webp"
+  },
+  {
+    "name": "Screamer Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Gray.webp"
+  },
+  {
+    "name": "Shock Trap",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Trap_Icon_Lemon.webp"
+  },
+  {
+    "name": "Torch Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Red.webp"
+  },
+  {
+    "name": "Tranq Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_Pink.webp"
+  },
+  {
+    "name": "Airy Egg",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Eggs_Icon_Tan.webp"
+  },
+  {
+    "name": "Ancient Fossil",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Gray.webp"
+  },
+  {
+    "name": "Ancient Orb - Armor",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Decoration_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Ancient Weapon Fragment",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Weapon_Shard_Icon_Red.webp"
+  },
+  {
+    "name": "Ancient Wyvern Coin",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Coin_Icon_Brown.webp"
+  },
+  {
+    "name": "Antimite",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Purple.webp"
+  },
+  {
+    "name": "Antimite Mass",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Dark_Purple.webp"
+  },
+  {
+    "name": "Auric Oil",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Yellow.webp"
+  },
+  {
+    "name": "Bulky Treasure",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Tan.webp"
+  },
+  {
+    "name": "Chaliceweed",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Light_Green.webp"
+  },
+  {
+    "name": "Cloudy Crystal",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.webp"
+  },
+  {
+    "name": "Damaged Weapon Shard",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Weapon_Shard_Icon_White.webp"
+  },
+  {
+    "name": "Dreamspell Catalog",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Purple.webp"
+  },
+  {
+    "name": "Delishroom",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Mushroom_Icon_White.webp"
+  },
+  {
+    "name": "Dragonscale Vase",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Yellow.webp"
+  },
+  {
+    "name": "Drifting Sea Pot",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Emerald.webp"
+  },
+  {
+    "name": "Droolshroom",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Mushroom_Icon_White.webp"
+  },
+  {
+    "name": "Eastern Honey",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Orange.webp"
+  },
+  {
+    "name": "Fine Antimite",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Purple.webp"
+  },
+  {
+    "name": "Fine Scarlet Amber",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Red.webp"
+  },
+  {
+    "name": "Fine Windward Aloe",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Light_Green.webp"
+  },
+  {
+    "name": "Fluffy Egg",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Eggs_Icon_Tan.webp"
+  },
+  {
+    "name": "Fossilized Fire Opal",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Orange.webp"
+  },
+  {
+    "name": "Fossilized Opal",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Orange.webp"
+  },
+  {
+    "name": "Fulgurite Shard",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Blue.webp"
+  },
+  {
+    "name": "Gajau Hide",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.webp"
+  },
+  {
+    "name": "Genesis Opal",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Gilded Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.webp"
+  },
+  {
+    "name": "Glowing Orb - Armor",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Decoration_Icon_Blue.webp"
+  },
+  {
+    "name": "Glowing Stone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Charm_Icon_Purple.webp"
+  },
+  {
+    "name": "Gobletweed",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Light_Green.webp"
+  },
+  {
+    "name": "Golden Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.webp"
+  },
+  {
+    "name": "Great Windward Aloe",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Moss.webp"
+  },
+  {
+    "name": "Hirabami Molting",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Purple.webp"
+  },
+  {
+    "name": "Jeweled Mullet Roe",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Fish_Icon_Orange.webp"
+  },
+  {
+    "name": "Krano Copper",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Yellow.webp"
+  },
+  {
+    "name": "Krano Pyrite",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Yellow.webp"
+  },
+  {
+    "name": "Kunafa Cheese",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Cheese_Icon_Tan.webp"
+  },
+  {
+    "name": "Large Goldenscale Vase",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Lemon.webp"
+  },
+  {
+    "name": "Mature Wyveria Lantern",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Pink.webp"
+  },
+  {
+    "name": "Milky Cocoon Web",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Spiderweb_Icon_White.webp"
+  },
+  {
+    "name": "Monster Chili",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Mud Shrimp",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Shrimp_Icon_Pink.webp"
+  },
+  {
+    "name": "Mystery Orb - Armor",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Decoration_Icon_White.webp"
+  },
+  {
+    "name": "Mystery Orb - Sword",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Decoration_Icon_White.webp"
+  },
+  {
+    "name": "Nightflower Pollen",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Violet.webp"
+  },
+  {
+    "name": "Old Weapon Shard - Blade",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Relic_Blade_Icon_Rare_8.webp"
+  },
+  {
+    "name": "Old Weapon Shard - Tube",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Relic_Tube_Icon_Rare_8.webp"
+  },
+  {
+    "name": "Old Weapon Shard - Disc",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Relic_Disc_Icon_Rare_8.webp"
+  },
+  {
+    "name": "Old Weapon Shard - Device",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Relic_Device_Icon_Rare_8.webp"
+  },
+  {
+    "name": "Origin Wylk Gem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_White.webp"
+  },
+  {
+    "name": "Platinum Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.webp"
+  },
+  {
+    "name": "Royal Sea Pot",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Emerald.webp"
+  },
+  {
+    "name": "Rusted Weapon Shard",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Weapon_Shard_Icon_Pink.webp"
+  },
+  {
+    "name": "Sandpepper",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Green.webp"
+  },
+  {
+    "name": "Scarlet Amber Shard",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Red.webp"
+  },
+  {
+    "name": "Sharp Kunafa Cheese",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Cheese_Icon_Tan.webp"
+  },
+  {
+    "name": "Shiny Treasure",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Brown.webp"
+  },
+  {
+    "name": "Sild Garlic",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Garlic_Icon_Tan.webp"
+  },
+  {
+    "name": "Sparkly Treasure",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Brown.webp"
+  },
+  {
+    "name": "Specialty Sild Garlic",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Garlic_Icon_Tan.webp"
+  },
+  {
+    "name": "Thundering Fulgurite",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Dark_Blue.webp"
+  },
+  {
+    "name": "Time-honed Wylk Gem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Truffle Du Conga",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Mushroom_Icon_Gray.webp"
+  },
+  {
+    "name": "Turbid Shrimp",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ingredient_Shrimp_Icon_Pink.webp"
+  },
+  {
+    "name": "Wild Herb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Moss.webp"
+  },
+  {
+    "name": "Wild Seed Oil",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Light_Green.webp"
+  },
+  {
+    "name": "Windward Aloe",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Light_Green.webp"
+  },
+  {
+    "name": "Wylk Gem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.webp"
+  },
+  {
+    "name": "Wylk Pebble",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.webp"
+  },
+  {
+    "name": "Wyveria Lantern",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Pink.webp"
+  },
+  {
+    "name": "Wyvernscale Vase",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Yellow.webp"
+  },
+  {
+    "name": "Ajarakan Jewel Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Acute Fang",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Orange.webp"
+  },
+  {
+    "name": "Advanced Armor Sphere",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Armor_Sphere_Icon_Orange.webp"
+  },
+  {
+    "name": "Ajarakan Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Ajarakan Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Ajarakan Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Ajarakan Jewel",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Ajarakan Marrow",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Ajarakan Ridge Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Ajarakan Ridge",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Ajarakan Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Ajarakan Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Ajarakan Shell",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Ajarakan Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Aqua Sac",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Blue.webp"
+  },
+  {
+    "name": "Argecite",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.webp"
+  },
+  {
+    "name": "Arkveld Armorplate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.webp"
+  },
+  {
+    "name": "Arkveld Calloushell",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_White.webp"
+  },
+  {
+    "name": "Arkveld Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Arkveld Gem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_White.webp"
+  },
+  {
+    "name": "Arkveld Horn Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Arkveld Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.webp"
+  },
+  {
+    "name": "Arkveld Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_White.webp"
+  },
+  {
+    "name": "Armor Sphere Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Armor_Sphere_Icon_Green.webp"
+  },
+  {
+    "name": "Armor Sphere",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Armor_Sphere_Icon_Blue.webp"
+  },
+  {
+    "name": "Azuz Tanned Leather",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.webp"
+  },
+  {
+    "name": "Balahara Black Pearl",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Gray.webp"
+  },
+  {
+    "name": "Balahara Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Gray.webp"
+  },
+  {
+    "name": "Balahara Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.webp"
+  },
+  {
+    "name": "Balahara Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.webp"
+  },
+  {
+    "name": "Balahara Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Gray.webp"
+  },
+  {
+    "name": "Balahara Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Gray.webp"
+  },
+  {
+    "name": "Balahara Shell",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Gray.webp"
+  },
+  {
+    "name": "Balahara Skull Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Gray.webp"
+  },
+  {
+    "name": "Balahara Skull",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Gray.webp"
+  },
+  {
+    "name": "Balahara Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Gray.webp"
+  },
+  {
+    "name": "Beast Gem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Orange.webp"
+  },
+  {
+    "name": "Bird Wyvern Gem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Blue.webp"
+  },
+  {
+    "name": "Blangonga Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Blangonga Fang Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Blangonga Pelt Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.webp"
+  },
+  {
+    "name": "Blangonga Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_White.webp"
+  },
+  {
+    "name": "Blangonga Whisker",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.webp"
+  },
+  {
+    "name": "Blango Pelt Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.webp"
+  },
+  {
+    "name": "Bulaqchi Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Yellow.webp"
+  },
+  {
+    "name": "Bulaqchi Shell",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Yellow.webp"
+  },
+  {
+    "name": "Carbalite Ore",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Purple.webp"
+  },
+  {
+    "name": "Charred Oilbone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Gray.webp"
+  },
+  {
+    "name": "Chatacabra Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Green.webp"
+  },
+  {
+    "name": "Chatacabra Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Green.webp"
+  },
+  {
+    "name": "Chatacabra Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Green.webp"
+  },
+  {
+    "name": "Chatacabra Hide Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Green.webp"
+  },
+  {
+    "name": "Chatacabra Hide",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Green.webp"
+  },
+  {
+    "name": "Chatacabra Jaw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Green.webp"
+  },
+  {
+    "name": "Chatacabra Jaw",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Green.webp"
+  },
+  {
+    "name": "Chatacabra Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Green.webp"
+  },
+  {
+    "name": "Chatacabra Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Green.webp"
+  },
+  {
+    "name": "Chatacabra Shell",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Green.webp"
+  },
+  {
+    "name": "Colossal Bone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_White.webp"
+  },
+  {
+    "name": "Comaqchi Shell",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Pink.webp"
+  },
+  {
+    "name": "Comaqchi Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Pink.webp"
+  },
+  {
+    "name": "Coma Sac",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Commission Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Tan.webp"
+  },
+  {
+    "name": "Congalala Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Pink.webp"
+  },
+  {
+    "name": "Congalala Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Pink.webp"
+  },
+  {
+    "name": "Congalala Claw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Pink.webp"
+  },
+  {
+    "name": "Congalala Claw",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Pink.webp"
+  },
+  {
+    "name": "Congalala Fang Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Pink.webp"
+  },
+  {
+    "name": "Congalala Fang",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Pink.webp"
+  },
+  {
+    "name": "Congalala Pelt Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.webp"
+  },
+  {
+    "name": "Congalala Pelt",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.webp"
+  },
+  {
+    "name": "Conga Pelt Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.webp"
+  },
+  {
+    "name": "Crushed Crystal",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.webp"
+  },
+  {
+    "name": "Dalthydon Wool",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Tan.webp"
+  },
+  {
+    "name": "Doshaguma Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Brown.webp"
+  },
+  {
+    "name": "Doshaguma Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Brown.webp"
+  },
+  {
+    "name": "Doshaguma Sketch",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Brown.webp"
+  },
+  {
+    "name": "Doshaguma Claw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.webp"
+  },
+  {
+    "name": "Doshaguma Claw",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.webp"
+  },
+  {
+    "name": "Doshaguma Fang Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.webp"
+  },
+  {
+    "name": "Doshaguma Fang",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.webp"
+  },
+  {
+    "name": "Doshaguma Fur Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.webp"
+  },
+  {
+    "name": "Doshaguma Fur",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.webp"
+  },
+  {
+    "name": "Doshaguma Hide Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.webp"
+  },
+  {
+    "name": "Doshaguma Hide",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Brown.webp"
+  },
+  {
+    "name": "Dragonbone Relic",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Tan.webp"
+  },
+  {
+    "name": "Dragonite Ore",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Green.webp"
+  },
+  {
+    "name": "Drearisite",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Gray.webp"
+  },
+  {
+    "name": "Drearisite Scraps",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Gray.webp"
+  },
+  {
+    "name": "Dreamspell Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Purple.webp"
+  },
+  {
+    "name": "Dreamspell Voucher",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Orange.webp"
+  },
+  {
+    "name": "Earth Crystal",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.webp"
+  },
+  {
+    "name": "Firecell Stone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Orange.webp"
+  },
+  {
+    "name": "Firestone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Freezer Sac",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_White.webp"
+  },
+  {
+    "name": "Frenzy Crystal",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Crystal_Icon_Purple.webp"
+  },
+  {
+    "name": "Frenzy Shard",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Crystal_Icon_Purple.webp"
+  },
+  {
+    "name": "Frost Sac",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_White.webp"
+  },
+  {
+    "name": "Frozen Icebone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_White.webp"
+  },
+  {
+    "name": "Fucium Ore",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Pink.webp"
+  },
+  {
+    "name": "Giant Beak",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Pink.webp"
+  },
+  {
+    "name": "Golden Corneum Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Yellow.webp"
+  },
+  {
+    "name": "Golden Corneum",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Yellow.webp"
+  },
+  {
+    "name": "Gold Relic Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.webp"
+  },
+  {
+    "name": "Gore Magala Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Gray.webp"
+  },
+  {
+    "name": "Gore Magala Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.webp"
+  },
+  {
+    "name": "Gore Magala Nyctgem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Gray.webp"
+  },
+  {
+    "name": "Gore Magala Ripclaw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Gray.webp"
+  },
+  {
+    "name": "Gore Magala Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Gray.webp"
+  },
+  {
+    "name": "Gore Magala Wing Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_Gray.webp"
+  },
+  {
+    "name": "Gracium",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Blue.webp"
+  },
+  {
+    "name": "Gravios Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.webp"
+  },
+  {
+    "name": "Gravios Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Gravios Medulla",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Red.webp"
+  },
+  {
+    "name": "Gravios Pleura Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.webp"
+  },
+  {
+    "name": "Gravios Skull",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_White.webp"
+  },
+  {
+    "name": "Gravios Wing",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_White.webp"
+  },
+  {
+    "name": "Great Hibiscus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Herb_Icon_Red.webp"
+  },
+  {
+    "name": "Great Hornfly",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Yellow.webp"
+  },
+  {
+    "name": "Great Stoutbone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Blood Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Blood",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Doshaguma Claw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Doshaguma Claw",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Doshaguma Fang",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Doshaguma Fur Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Doshaguma Fur",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Doshaguma Hide Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Doshaguma Hide",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Ebony Claw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Ebony Claw",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Ebony Fang Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Ebony Fang",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Ebony Gem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Ebony Plate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Plate_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Ebony Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Ebony Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Ebony Sinew Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Ebony Sinew",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Ebony Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Fulgur Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Fulgur Fang Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Fulgur Nosebone Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Fulgur Pelt Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Fulgur Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Fulgur Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Pelt Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Pelt",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Rathalos Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Rathalos Plate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Plate_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Rathalos Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Rathalos Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Rathalos Shell",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Rathalos Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Rathalos Webbing",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Rathalos Wing",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Seikret Feather Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Green.webp"
+  },
+  {
+    "name": "Guardian Seikret Feather",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Green.webp"
+  },
+  {
+    "name": "Gypceros Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Blue.webp"
+  },
+  {
+    "name": "Gypceros Head",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Blue.webp"
+  },
+  {
+    "name": "Gypceros Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Blue.webp"
+  },
+  {
+    "name": "Gypceros Wing",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_Blue.webp"
+  },
+  {
+    "name": "G Doshaguma Certificate",
+    "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/a/a2/G_doshaguma_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_doshaguma_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  },
+  {
+    "name": "G Doshaguma Certificate S",
+    "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2d/G_doshaguma_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_doshaguma_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  },
+  {
+    "name": "G Ebony Odogaron Certificate",
+    "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/e/ed/G_ebony_odogaron_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_ebony_odogaron_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  },
+  {
+    "name": "G Ebony Odogaron Certificate S",
+    "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/2c/G_ebony_odogaron_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_ebony_odogaron_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  },
+  {
+    "name": "G Rathalos Certificate",
+    "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/2/22/G_rathalos_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_rathalos_certificate_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  },
+  {
+    "name": "G Rathalos Certificate S",
+    "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/7/7e/G_rathalos_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png/20px-G_rathalos_certificate_s_item_equipment_material_mhwilds_wiki_guide_25px.png"
+  },
+  {
+    "name": "Harvest Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Orange.webp"
+  },
+  {
+    "name": "Hard Armor Sphere",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Armor_Sphere_Icon_Purple.webp"
+  },
+  {
+    "name": "Heavy Armor Sphere",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Armor_Sphere_Icon_Red.webp"
+  },
+  {
+    "name": "Herbivore Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Brown.webp"
+  },
+  {
+    "name": "Herbivore Shell",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Brown.webp"
+  },
+  {
+    "name": "Hirabami Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Purple.webp"
+  },
+  {
+    "name": "Hirabami Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Purple.webp"
+  },
+  {
+    "name": "Hirabami Hide Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Purple.webp"
+  },
+  {
+    "name": "Hirabami Hide",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Purple.webp"
+  },
+  {
+    "name": "Hirabami Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Purple.webp"
+  },
+  {
+    "name": "Hirabami Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Purple.webp"
+  },
+  {
+    "name": "Hirabami Tail Claw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Purple.webp"
+  },
+  {
+    "name": "Hirabami Tail Claw",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Purple.webp"
+  },
+  {
+    "name": "Hirabami Webbing Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Purple.webp"
+  },
+  {
+    "name": "Hirabami Webbing",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Purple.webp"
+  },
+  {
+    "name": "Hunter Symbol I",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Tan.webp"
+  },
+  {
+    "name": "Hunter Symbol II",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.webp"
+  },
+  {
+    "name": "Hunter Symbol III",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Lemon.webp"
+  },
+  {
+    "name": "Icium",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.webp"
+  },
+  {
+    "name": "Inferno Sac",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Red.webp"
+  },
+  {
+    "name": "Iron Ore",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Gray.webp"
+  },
+  {
+    "name": "Jin Dahaad Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Brown.webp"
+  },
+  {
+    "name": "Jin Dahaad Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Brown.webp"
+  },
+  {
+    "name": "Jin Dahaad Claw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.webp"
+  },
+  {
+    "name": "Jin Dahaad Horn",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Brown.webp"
+  },
+  {
+    "name": "Jin Dahaad Icegem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Jin Dahaad Certificate Gamma",
+    "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/8/82/Jin_dahaad_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Jin_dahaad_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  },
+  {
+    "name": "Gogmazios Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Blue.webp"
+  },
+  {
+    "name": "Gogmazios Rampart",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Blue.webp"
+  },
+  {
+    "name": "Gogmazios Fiberwing",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_Blue.webp"
+  },
+  {
+    "name": "Heavy Drakesbone Oil",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Blue.webp"
+  },
+  {
+    "name": "Gogmazios Fortalice",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Blue.webp"
+  },
+  {
+    "name": "Gogmazios Shredders",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Blue.webp"
+  },
+  {
+    "name": "Gogmazios Lacerator",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Blue.webp"
+  },
+  {
+    "name": "Gogmazios Thorntail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Blue.webp"
+  },
+  {
+    "name": "Wartorn Dragongem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Red.webp"
+  },
+  {
+    "name": "Jin Dahaad Iceplate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Brown.webp"
+  },
+  {
+    "name": "Jin Dahaad Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Brown.webp"
+  },
+  {
+    "name": "Jin Dahaad Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Brown.webp"
+  },
+  {
+    "name": "Kranodath Skull Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Purple.webp"
+  },
+  {
+    "name": "Kranodath Skull",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Purple.webp"
+  },
+  {
+    "name": "Kut-Ku Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Pink.webp"
+  },
+  {
+    "name": "Kut-Ku Ear",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Pink.webp"
+  },
+  {
+    "name": "Kut-Ku Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Pink.webp"
+  },
+  {
+    "name": "Kut-Ku Wing",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_Pink.webp"
+  },
+  {
+    "name": "Lagiacrus Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Lagiacrus Claw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Lagiacrus Hide Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Lagiacrus Horn Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Lagiacrus Sapphire",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Lagiacrus Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Lagiacrus Shockspike",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Lagiacrus Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Lala Barina Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Gray.webp"
+  },
+  {
+    "name": "Lala Barina Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Rose.webp"
+  },
+  {
+    "name": "Lala Barina Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Rose.webp"
+  },
+  {
+    "name": "Lala Barina Claw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Rose.webp"
+  },
+  {
+    "name": "Lala Barina Claw",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Rose.webp"
+  },
+  {
+    "name": "Lala Barina Floret Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.webp"
+  },
+  {
+    "name": "Lala Barina Floret",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.webp"
+  },
+  {
+    "name": "Lala Barina Mucus Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Rose.webp"
+  },
+  {
+    "name": "Lala Barina Mucus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Rose.webp"
+  },
+  {
+    "name": "Lala Barina Shell",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Gray.webp"
+  },
+  {
+    "name": "Lala Barina Stinger Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.webp"
+  },
+  {
+    "name": "Lala Barina Stinger",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.webp"
+  },
+  {
+    "name": "Lightcrystal",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Gray.webp"
+  },
+  {
+    "name": "Lumenhymn Catalog",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Lumenhymn Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Machalite Ore",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Blue.webp"
+  },
+  {
+    "name": "Mimiphyta Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Monster Broth",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Blue.webp"
+  },
+  {
+    "name": "Monster Fluid",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Monster Hardbone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Red.webp"
+  },
+  {
+    "name": "Monster Keenbone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Pink.webp"
+  },
+  {
+    "name": "Mystery Bone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Gray.webp"
+  },
+  {
+    "name": "Nerscylla Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.webp"
+  },
+  {
+    "name": "Nerscylla Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Nerscylla Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Nerscylla Chelicera",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Nerscylla Claw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Nerscylla Claw",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Nerscylla Shear",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Nerscylla Shell",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.webp"
+  },
+  {
+    "name": "Nerscylla Spike Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.webp"
+  },
+  {
+    "name": "Nerscylla Spike",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.webp"
+  },
+  {
+    "name": "Novacrystal",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.webp"
+  },
+  {
+    "name": "Nu Udra Cerebrospinal Fluid",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Nu Udra Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.webp"
+  },
+  {
+    "name": "Nu Udra Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.webp"
+  },
+  {
+    "name": "Nu Udra Certificate Gamma",
+    "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/9/99/Nu_udra_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Nu_udra_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  },
+  {
+    "name": "Nu Udra Flamegem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Red.webp"
+  },
+  {
+    "name": "Nu Udra Hide Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Gray.webp"
+  },
+  {
+    "name": "Nu Udra Hide",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Gray.webp"
+  },
+  {
+    "name": "Nu Udra Horn Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.webp"
+  },
+  {
+    "name": "Nu Udra Horn",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.webp"
+  },
+  {
+    "name": "Nu Udra Oilmucus Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Gray.webp"
+  },
+  {
+    "name": "Nu Udra Oilmucus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Gray.webp"
+  },
+  {
+    "name": "Nu Udra Spike Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.webp"
+  },
+  {
+    "name": "Nu Udra Spike",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.webp"
+  },
+  {
+    "name": "Nu Udra Tentacle Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.webp"
+  },
+  {
+    "name": "Nu Udra Tentacle",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.webp"
+  },
+  {
+    "name": "Oricalcite",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Purple.webp"
+  },
+  {
+    "name": "Pinnacle Coin",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Coin_Icon_Yellow.webp"
+  },
+  {
+    "name": "Rathian Coin",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Coin_Icon_Green.webp"
+  },
+  {
+    "name": "Chata Coin",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Coin_Icon_White.webp"
+  },
+  {
+    "name": "Piragill Fin Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Red.webp"
+  },
+  {
+    "name": "Piragill Fin",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Red.webp"
+  },
+  {
+    "name": "Poison Sac",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Purple.webp"
+  },
+  {
+    "name": "Quality Bone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Yellow.webp"
+  },
+  {
+    "name": "Quematrice Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Blue.webp"
+  },
+  {
+    "name": "Quematrice Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Blue.webp"
+  },
+  {
+    "name": "Quematrice Crest Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Red.webp"
+  },
+  {
+    "name": "Quematrice Crest",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Red.webp"
+  },
+  {
+    "name": "Quematrice Hide Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Blue.webp"
+  },
+  {
+    "name": "Quematrice Hide",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Blue.webp"
+  },
+  {
+    "name": "Quematrice Igniter Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Red.webp"
+  },
+  {
+    "name": "Quematrice Igniter",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Red.webp"
+  },
+  {
+    "name": "Quematrice Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Blue.webp"
+  },
+  {
+    "name": "Quematrice Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Blue.webp"
+  },
+  {
+    "name": "Quematrice Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Blue.webp"
+  },
+  {
+    "name": "Rathalos Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Red.webp"
+  },
+  {
+    "name": "Rathalos Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Red.webp"
+  },
+  {
+    "name": "Rathalos Ruby",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Red.webp"
+  },
+  {
+    "name": "Rathalos Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Red.webp"
+  },
+  {
+    "name": "Rathalos Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Red.webp"
+  },
+  {
+    "name": "Rathalos Wing",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_Red.webp"
+  },
+  {
+    "name": "Rathian Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Green.webp"
+  },
+  {
+    "name": "Rathian Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Green.webp"
+  },
+  {
+    "name": "Rathian Ruby",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Green.webp"
+  },
+  {
+    "name": "Rathian Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Green.webp"
+  },
+  {
+    "name": "Rathian Spike Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Green.webp"
+  },
+  {
+    "name": "Rathian Webbing",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Icon_Green.webp"
+  },
+  {
+    "name": "Rath Medulla",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Red.webp"
+  },
+  {
+    "name": "Rey Dau Boltgem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Yellow.webp"
+  },
+  {
+    "name": "Rey Dau Bolthorn",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.webp"
+  },
+  {
+    "name": "Rey Dau Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Yellow.webp"
+  },
+  {
+    "name": "Rey Dau Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.webp"
+  },
+  {
+    "name": "Rey Dau Certificate Gamma",
+    "icon": "https://static0.fextralifeimages.com/file/monsterhunterwilds/thumb/b/b4/Rey_dau_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png/20px-Rey_dau_certificate_gamma_item_equipment_material_mhwilds_wiki_guide_85px.png"
+  },
+  {
+    "name": "Rey Dau Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.webp"
+  },
+  {
+    "name": "Rey Dau Fulgurtalon",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Blue.webp"
+  },
+  {
+    "name": "Rey Dau Plate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Plate_Icon_Yellow.webp"
+  },
+  {
+    "name": "Rey Dau Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.webp"
+  },
+  {
+    "name": "Rey Dau Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.webp"
+  },
+  {
+    "name": "Rey Dau Shell",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Yellow.webp"
+  },
+  {
+    "name": "Rey Dau Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Yellow.webp"
+  },
+  {
+    "name": "Rey Dau Thunderhorn",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.webp"
+  },
+  {
+    "name": "Rompopolo Beak Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Dark_Blue.webp"
+  },
+  {
+    "name": "Rompopolo Beak",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Head_Icon_Dark_Blue.webp"
+  },
+  {
+    "name": "Rompopolo Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Dark_Blue.webp"
+  },
+  {
+    "name": "Rompopolo Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Dark_Blue.webp"
+  },
+  {
+    "name": "Rompopolo Claw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Dark_Blue.webp"
+  },
+  {
+    "name": "Rompopolo Claw",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Dark_Blue.webp"
+  },
+  {
+    "name": "Rompopolo Hide Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Blue.webp"
+  },
+  {
+    "name": "Rompopolo Hide",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Blue.webp"
+  },
+  {
+    "name": "Rubbery Hide Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Blue.webp"
+  },
+  {
+    "name": "Rubbery Hide",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Blue.webp"
+  },
+  {
+    "name": "Scarred Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Tan.webp"
+  },
+  {
+    "name": "Seregios Airblade",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.webp"
+  },
+  {
+    "name": "Seregios Breacher",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.webp"
+  },
+  {
+    "name": "Seregios Carver",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.webp"
+  },
+  {
+    "name": "Seregios Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.webp"
+  },
+  {
+    "name": "Seregios Dissenter",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Plate_Icon_Yellow.webp"
+  },
+  {
+    "name": "Seregios Impaler",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Yellow.webp"
+  },
+  {
+    "name": "Seregios Scraper",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.webp"
+  },
+  {
+    "name": "Seregios Slavescale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Yellow.webp"
+  },
+  {
+    "name": "SF6 Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Purple.webp"
+  },
+  {
+    "name": "Sharp Fang",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Orange.webp"
+  },
+  {
+    "name": "Sild Cotton",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.webp"
+  },
+  {
+    "name": "Sinister Cloth",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Gray.webp"
+  },
+  {
+    "name": "Skull Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Speartuna Fin",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_White.webp"
+  },
+  {
+    "name": "Specklite",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Spotted Poison Hide Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Blue.webp"
+  },
+  {
+    "name": "Spotted Poison Hide",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Blue.webp"
+  },
+  {
+    "name": "Steel Melding Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.webp"
+  },
+  {
+    "name": "Stoutbone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Gray.webp"
+  },
+  {
+    "name": "Sturdy Bone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_White.webp"
+  },
+  {
+    "name": "Suja Textiles",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Blue.webp"
+  },
+  {
+    "name": "Songbird Sketch",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Talioth Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Orange.webp"
+  },
+  {
+    "name": "Talioth Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Orange.webp"
+  },
+  {
+    "name": "Thunder Sac",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Yellow.webp"
+  },
+  {
+    "name": "Torrent Sac",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Blue.webp"
+  },
+  {
+    "name": "Tough Guardian Bone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Toxin Sac",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Purple.webp"
+  },
+  {
+    "name": "Uth Duna Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Violet.webp"
+  },
+  {
+    "name": "Uth Duna Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Violet.webp"
+  },
+  {
+    "name": "Uth Duna Cilia Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.webp"
+  },
+  {
+    "name": "Uth Duna Cilia",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.webp"
+  },
+  {
+    "name": "Uth Duna Claw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Violet.webp"
+  },
+  {
+    "name": "Uth Duna Claw",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Violet.webp"
+  },
+  {
+    "name": "Uth Duna Hide Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Violet.webp"
+  },
+  {
+    "name": "Uth Duna Hide",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Violet.webp"
+  },
+  {
+    "name": "Uth Duna Plate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Plate_Icon_Violet.webp"
+  },
+  {
+    "name": "Uth Duna Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Violet.webp"
+  },
+  {
+    "name": "Uth Duna Scale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_Violet.webp"
+  },
+  {
+    "name": "Uth Duna Tentacle Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Pink.webp"
+  },
+  {
+    "name": "Uth Duna Tentacle",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Pink.webp"
+  },
+  {
+    "name": "Uth Duna Watergem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Violet.webp"
+  },
+  {
+    "name": "Vespoid Carapace",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Yellow.webp"
+  },
+  {
+    "name": "Vespoid Innerwing",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Yellow.webp"
+  },
+  {
+    "name": "Vespoid Shell",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Yellow.webp"
+  },
+  {
+    "name": "Vespoid Wing",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Yellow.webp"
+  },
+  {
+    "name": "Vibrant Pelt Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Yellow.webp"
+  },
+  {
+    "name": "Vibrant Pelt",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Yellow.webp"
+  },
+  {
+    "name": "Well-done Steak Recipe Book",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Book_Icon_Orange.webp"
+  },
+  {
+    "name": "White Arkveld Pelt",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_White.webp"
+  },
+  {
+    "name": "Wingdrake Hide Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Tan.webp"
+  },
+  {
+    "name": "Wingdrake Hide",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Tan.webp"
+  },
+  {
+    "name": "Worn Pickaxe",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pickaxe_Icon.webp"
+  },
+  {
+    "name": "Wyverian Bloodstone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Red.webp"
+  },
+  {
+    "name": "Wyverian Bloodstone Chunk",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Red.webp"
+  },
+  {
+    "name": "Wyverian Bloodstone (L)",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Red.webp"
+  },
+  {
+    "name": "Wyverian Bloodstone (S)",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Red.webp"
+  },
+  {
+    "name": "Wyverian Bloodstone Shard",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Red.webp"
+  },
+  {
+    "name": "Wyvern Gem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Xu Wu Cerebrospinal Fluid",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Gray.webp"
+  },
+  {
+    "name": "Xu Wu Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.webp"
+  },
+  {
+    "name": "Xu Wu Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.webp"
+  },
+  {
+    "name": "Xu Wu Claw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.webp"
+  },
+  {
+    "name": "Xu Wu Claw",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.webp"
+  },
+  {
+    "name": "Xu Wu Fang Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.webp"
+  },
+  {
+    "name": "Xu Wu Fang",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Yellow.webp"
+  },
+  {
+    "name": "Xu Wu Hide Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Gray.webp"
+  },
+  {
+    "name": "Xu Wu Hide",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Gray.webp"
+  },
+  {
+    "name": "Xu Wu Tentacle Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.webp"
+  },
+  {
+    "name": "Xu Wu Umbragem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Gray.webp"
+  },
+  {
+    "name": "Yian Kut-Ku Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Pink.webp"
+  },
+  {
+    "name": "Ajarakan Medulla",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Brute Bone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_White.webp"
+  },
+  {
+    "name": "Conga Pelt",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Pink.webp"
+  },
+  {
+    "name": "Flame Sac",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Red.webp"
+  },
+  {
+    "name": "Gore Magala Feeler Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Gray.webp"
+  },
+  {
+    "name": "Gore Magala Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Gray.webp"
+  },
+  {
+    "name": "Guardian Doshaguma Fang Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Fulgur Gem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_White.webp"
+  },
+  {
+    "name": "Guardian Rathalos Ruby",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_White.webp"
+  },
+  {
+    "name": "Rey Dau Wingtalon",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Blue.webp"
+  },
+  {
+    "name": "Sleep Sac",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Xu Wu Tentacle",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Gray.webp"
+  },
+  {
+    "name": "Mizutsune Fin Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Monster_Part_Icon_Pink.webp"
+  },
+  {
+    "name": "Mizutsune Claw Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Dark_Purple.webp"
+  },
+  {
+    "name": "Mizutsune Purplefur Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Hide_Icon_Dark_Purple.webp"
+  },
+  {
+    "name": "Mizutsune Tail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_Dark_Purple.webp"
+  },
+  {
+    "name": "Mizutsune Scale Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.webp"
+  },
+  {
+    "name": "Bubblefoam Plus",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Chemical_Icon_Purple.webp"
+  },
+  {
+    "name": "Mizutsune Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Dark_Purple.webp"
+  },
+  {
+    "name": "Mizutsune Water Orb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Dark_Purple.webp"
+  },
+  {
+    "name": "Zoh Shia Stakeclaw",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Blackember Mass",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Gray.webp"
+  },
+  {
+    "name": "Zoh Shia Crystalhorn",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_White.webp"
+  },
+  {
+    "name": "Zoh Shia Crystaltail",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tail_Icon_White.webp"
+  },
+  {
+    "name": "Zoh Shia Crystalscale",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Scale_Icon_White.webp"
+  },
+  {
+    "name": "Zoh Shia Layershell",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_White.webp"
+  },
+  {
+    "name": "Zoh Shia Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Faux Whitegleam Orb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_White.webp"
+  },
+  {
+    "name": "Royal Felyne Emblem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Coin_Icon_Blue.webp"
+  },
+  {
+    "name": "Gala Suit Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.webp"
+  },
+  {
+    "name": "Azure Stargem",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Blue.webp"
+  },
+  {
+    "name": "Blossom Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Pink.webp"
+  },
+  {
+    "name": "Blossomdance Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Pink.webp"
+  },
+  {
+    "name": "Flamefete Catalog",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Blue.webp"
+  },
+  {
+    "name": "Necklace Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Omega Data 1.0",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.webp"
+  },
+  {
+    "name": "Omega Data 2.0",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.webp"
+  },
+  {
+    "name": "Omega Screw",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Gray.webp"
+  },
+  {
+    "name": "Omega Spring",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Claw_Icon_Gray.webp"
+  },
+  {
+    "name": "Omega Pedal",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Gray.webp"
+  },
+  {
+    "name": "Omega Lens",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bone_Icon_Gray.webp"
+  },
+  {
+    "name": "Omega Axle",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Shell_Icon_Gray.webp"
+  },
+  {
+    "name": "Omega Nodule",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Gray.webp"
+  },
+  {
+    "name": "Orion Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Large Barrel",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Barrel_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Azuz Meal Voucher",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Golden Egg",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Egg_Icon_Yellow.webp"
+  },
+  {
+    "name": "Kunafa Meal Voucher",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Tan.webp"
+  },
+  {
+    "name": "Pick-a-Meal Voucher",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Yellow.webp"
+  },
+  {
+    "name": "Silver Egg",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Egg_Icon_White.webp"
+  },
+  {
+    "name": "Rare Steak",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Tan.webp"
+  },
+  {
+    "name": "Burnt Meat",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Gray.webp"
+  },
+  {
+    "name": "Stone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Gray.webp"
+  },
+  {
+    "name": "Capture Net",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Capture_Net_Icon_White.webp"
+  },
+  {
+    "name": "Whetstone",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Whetstone_Icon_Yellow.webp"
+  },
+  {
+    "name": "Binoculars",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Binoculars_Icon_White.webp"
+  },
+  {
+    "name": "Camping Kit",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Tent_Icon_White.webp"
+  },
+  {
+    "name": "Portable BBQ Grill",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Spit_Icon_Red.webp"
+  },
+  {
+    "name": "Normal Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Icon_White.webp"
+  },
+  {
+    "name": "Pierce Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Pierce_Icon_Blue.webp"
+  },
+  {
+    "name": "Spread Ammo",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ammo_Spread_Icon_Moss.webp"
+  },
+  {
+    "name": "Thorngrass Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Orange.webp"
+  },
+  {
+    "name": "Burst Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Green.webp"
+  },
+  {
+    "name": "Bleeding Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Moss.webp"
+  },
+  {
+    "name": "Farcaster",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_Green.webp"
+  },
+  {
+    "name": "First-aid Med",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Medicine_Icon_Green.webp"
+  },
+  {
+    "name": "EZ Ration",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Brown.webp"
+  },
+  {
+    "name": "EZ Shock Trap",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Trap_Icon_Lemon.webp"
+  },
+  {
+    "name": "Poison Knife",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Knife_Icon_Purple.webp"
+  },
+  {
+    "name": "Paralysis Knife",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Knife_Icon_Lemon.webp"
+  },
+  {
+    "name": "Sleep Knife",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Knife_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Smoke Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_White.webp"
+  },
+  {
+    "name": "Grounding Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Yellow.webp"
+  },
+  {
+    "name": "Ghillie Mantle",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Cape_Icon_Green.webp"
+  },
+  {
+    "name": "Fishing Rod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_White.webp"
+  },
+  {
+    "name": "Immunizer",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Drug_Icon_Tan.webp"
+  },
+  {
+    "name": "Demondrug",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Drug_Icon_Red.webp"
+  },
+  {
+    "name": "Adamant Pill",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pill_Icon_Orange.webp"
+  },
+  {
+    "name": "Throwing Knife",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Knife_Icon_White.webp"
+  },
+  {
+    "name": "Poison Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Purple.webp"
+  },
+  {
+    "name": "Para Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Lemon.webp"
+  },
+  {
+    "name": "Drugged Meat",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Brightmoss",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Pink.webp"
+  },
+  {
+    "name": "Piercing Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Blue.webp"
+  },
+  {
+    "name": "Paint Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Pink.webp"
+  },
+  {
+    "name": "First-aid Med+",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Medicine_Icon_Green.webp"
+  },
+  {
+    "name": "EZ Max Potion",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pill_Icon_Tan.webp"
+  },
+  {
+    "name": "EZ Lifepowder",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Tan.webp"
+  },
+  {
+    "name": "EZ Herbal Powder",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Blue.webp"
+  },
+  {
+    "name": "EZ Demon Powder",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Red.webp"
+  },
+  {
+    "name": "EZ Hardshell Powder",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Orange.webp"
+  },
+  {
+    "name": "EZ Dust of Life",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Tan.webp"
+  },
+  {
+    "name": "EZ Tranq Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_Pink.webp"
+  },
+  {
+    "name": "EZ Dung Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Brown.webp"
+  },
+  {
+    "name": "EZ Sonic Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Gray.webp"
+  },
+  {
+    "name": "Tinged Meat",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Lemon.webp"
+  },
+  {
+    "name": "EZ Large Barrel Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Vermilion.webp"
+  },
+  {
+    "name": "EZ Farcaster",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Smoke_Bomb_Icon_Green.webp"
+  },
+  {
+    "name": "Poisoned Meat",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Purple.webp"
+  },
+  {
+    "name": "Fiery Sandpepper",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Green.webp"
+  },
+  {
+    "name": "Pure Fulgurite",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Blue.webp"
+  },
+  {
+    "name": "Eternal Scarlet Amber",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_Rose.webp"
+  },
+  {
+    "name": "Queensbloom Pollen",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Pink.webp"
+  },
+  {
+    "name": "Wyvernsprout",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Corpse_Icon_Brown.webp"
+  },
+  {
+    "name": "Thunder Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Yellow.webp"
+  },
+  {
+    "name": "Frost Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_White.webp"
+  },
+  {
+    "name": "Fresh Honey",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Webbing_Icon_Orange.webp"
+  },
+  {
+    "name": "Frostburst",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_White.webp"
+  },
+  {
+    "name": "G. Doshaguma Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "G. Doshaguma Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "G. Rathalos Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Equipped Mantles",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Cape_Icon_White.webp"
+  },
+  {
+    "name": "G. Rathalos Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "G. Ebony Odogaron Certificate",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "G. Ebony Odogaron Certificate S",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "EZ Large Dung Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Brown.webp"
+  },
+  {
+    "name": "Heavy Blunt Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Tan.webp"
+  },
+  {
+    "name": "Heavy Slicing Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_White.webp"
+  },
+  {
+    "name": "Heavy Explosion Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Orange.webp"
+  },
+  {
+    "name": "Basic Material",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pouch_Icon_White.webp"
+  },
+  {
+    "name": "Valuable Material",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pouch_Icon_Orange.webp"
+  },
+  {
+    "name": "Heavy Piercing Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Blue.webp"
+  },
+  {
+    "name": "Coruscating Crystal",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ore_Icon_White.webp"
+  },
+  {
+    "name": "Glowing Orb - Sword",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Decoration_Icon_Brown.webp"
+  },
+  {
+    "name": "Ancient Orb - Sword",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Decoration_Icon_Lemon.webp"
+  },
+  {
+    "name": "Rocksteady Mantle",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Cape_Icon_Gray.webp"
+  },
+  {
+    "name": "Mending Mantle",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Cape_Icon_Light_Green.webp"
+  },
+  {
+    "name": "Evasion Mantle",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Cape_Icon_White.webp"
+  },
+  {
+    "name": "Corrupted Mantle",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Cape_Icon_Dark_Purple.webp"
+  },
+  {
+    "name": "Wyvern Egg",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Egg_Icon_White.webp"
+  },
+  {
+    "name": "Wild Jerky",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meat_Icon_Pink.webp"
+  },
+  {
+    "name": "Wudwud Treasure",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Green.webp"
+  },
+  {
+    "name": "Catalyst",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Sac_Icon_Moss.webp"
+  },
+  {
+    "name": "Small Barrel",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Barrel_Icon_Yellow.webp"
+  },
+  {
+    "name": "Silver Melding Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Steel Relic Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.webp"
+  },
+  {
+    "name": "Silver Relic Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Steel Egg",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Egg_Icon_Gray.webp"
+  },
+  {
+    "name": "Gold Melding Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.webp"
+  },
+  {
+    "name": "Common Wood Minnow",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_Brown.webp"
+  },
+  {
+    "name": "Golden Bughead",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_Lemon.webp"
+  },
+  {
+    "name": "Emerald Jitterbait",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_Moss.webp"
+  },
+  {
+    "name": "Tuff Joint Bait",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Duster Rig",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Tentacle Jig",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bait_Icon_Rose.webp"
+  },
+  {
+    "name": "Close-range Coating",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_White.webp"
+  },
+  {
+    "name": "Power Coating",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Red.webp"
+  },
+  {
+    "name": "Pierce Coating",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Blue.webp"
+  },
+  {
+    "name": "Paralysis Coating",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Lemon.webp"
+  },
+  {
+    "name": "Poison Coating",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Purple.webp"
+  },
+  {
+    "name": "Sleep Coating",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Blast Coating",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Vermilion.webp"
+  },
+  {
+    "name": "Exhaust Coating",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Coating_Icon_Emerald.webp"
+  },
+  {
+    "name": "Expedition Headgear Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Mutated Armament"
+  },
+  {
+    "name": "Rey Dau Certificate γ",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.webp"
+  },
+  {
+    "name": "Uth Duna Certificate γ",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Violet.webp"
+  },
+  {
+    "name": "Nu Udra Certificate γ",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Red.webp"
+  },
+  {
+    "name": "Jin Dahaad Certificate γ",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Blossomdance Catalog",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Pink.webp"
+  },
+  {
+    "name": "Flamefete Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Rose.webp"
+  },
+  {
+    "name": "Diving Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Blue.webp"
+  },
+  {
+    "name": "Felyne Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Barrel Bowling Voucher",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Yellow.webp"
+  },
+  {
+    "name": "Blossomdance Voucher",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Pink.webp"
+  },
+  {
+    "name": "Flamefete Voucher",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Blue.webp"
+  },
+  {
+    "name": "Lumenhymn Voucher",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Amstrigian Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Sealed Dragon Cloth",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pouch_Icon_Red.webp"
+  },
+  {
+    "name": "Toe Bean Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Wudwud Likey-like",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Question_Mark_Icon_Tan.webp"
+  },
+  {
+    "name": "Felyne Wanted Poster",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_Gray.webp"
+  },
+  {
+    "name": "Blossom Barrel Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Pink.webp"
+  },
+  {
+    "name": "Beach Barrel Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Blue.webp"
+  },
+  {
+    "name": "Spectral Barrel Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Purple.webp"
+  },
+  {
+    "name": "Wudwud Barrel Bomb",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bomb_Icon_Tan.webp"
+  },
+  {
+    "name": "Sild Meal Voucher",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Emerald.webp"
+  },
+  {
+    "name": "Suja Meal Voucher",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Meal_Ticket_Icon_Light_Green.webp"
+  },
+  {
+    "name": "Helix Piercing Pod",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Light_Blue.webp"
+  },
+  {
+    "name": "Bladescale Pod"
+  },
+  {
+    "name": "Pom Motif",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pom_Motif_Icon.webp"
+  },
+  {
+    "name": "Wing Motif",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Wing_Motif_Icon.webp"
+  },
+  {
+    "name": "Mog of the Ages",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Mog_of_the_Ages_Icon.webp"
+  },
+  {
+    "name": "Compact Anti-Wyvern Gun",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Pod_Icon_Red.webp"
+  },
+  {
+    "name": "Soul of the Pictomancer",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Soul_of_the_Pictomancer_Icon.webp"
+  },
+  {
+    "name": "Silver Talisman Ticket",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Secret Stash",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Green.webp"
+  },
+  {
+    "name": "Round Acorn",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Seed_Icon_Green.webp"
+  },
+  {
+    "name": "Pawprint Stamp",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  },
+  {
+    "name": "Insect Husk",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Bug_Icon_Gray.webp"
+  },
+  {
+    "name": "Felyne Fur Ruby",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ball_Icon_Gray.webp"
+  },
+  {
+    "name": "Arkveld Certificate γ",
+    "icon": "data/images/items_mhwikiorg/MHWilds-Ticket_Icon_White.webp"
+  }
 ]

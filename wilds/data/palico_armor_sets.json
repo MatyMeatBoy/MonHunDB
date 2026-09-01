@@ -1,2488 +1,2488 @@
 [
- {
-  "slug": "Athos_Alpha_Set",
-  "name": "Athos Alpha Set",
-  "rarity": 8,
-  "defense": 100,
-  "resistances": {
-   "fire": 4,
-   "water": 4,
-   "thunder": 4,
-   "ice": 4,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Athos_Alpha_Set.png",
-  "weapon": {
-   "name": "Athos's Hinge Blade α",
-   "nameEs": "Espada giratoria Athos α",
-   "icon": "data/images/palico_weapons/19.webp"
-  },
-  "pieces": [
-   {
-    "part": "chest",
-    "name": "Athos's Scar α",
-    "nameEs": "Cicatriz de Athos F α",
-    "icon": "data/images/palico_pieces/42.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Afi_Alpha_Set",
-  "name": "Felyne Afi Alpha Set",
-  "rarity": 5,
-  "defense": 52,
-  "resistances": {
-   "fire": 4,
-   "water": -6,
-   "thunder": 4,
-   "ice": 4,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Felyne_Afi_Alpha_Set.png",
-  "pieces": [
-   {
-    "part": "chest",
-    "name": "Felyne Afi Firemane α",
-    "nameEs": "Crin ígnea afi F α",
-    "icon": null
-   }
-  ]
- },
- {
-  "slug": "Felyne_Ajarakan_Alpha_Set",
-  "name": "Felyne Ajarakan Alpha Set",
-  "rarity": 6,
-  "defense": 76,
-  "resistances": {
-   "fire": 6,
-   "water": -6,
-   "thunder": 2,
-   "ice": -4,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Ajarakan_Alpha_Set.png",
-  "weapon": {
-   "name": "F Ajarakan Staff α",
-   "nameEs": "Vara de Ajarakan F α",
-   "icon": "data/images/palico_weapons/61.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Ajarakan Helm α",
-    "nameEs": "Yelmo de Ajarakan F α",
-    "icon": "data/images/palico_pieces/76.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Ajarakan Mail α",
-    "nameEs": "Cota de Ajarakan F α",
-    "icon": "data/images/palico_pieces/77.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Ajarakan_Set",
-  "name": "Felyne Ajarakan Set",
-  "rarity": 3,
-  "defense": 28,
-  "resistances": {
-   "fire": 6,
-   "water": -6,
-   "thunder": 2,
-   "ice": -4,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Ajarakan_Set.png",
-  "weapon": {
-   "name": "F Ajarakan Staff",
-   "nameEs": "Vara de Ajarakan F",
-   "icon": "data/images/palico_weapons/26.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Ajarakan Helm",
-    "nameEs": "Yelmo de Ajarakan F",
-    "icon": "data/images/palico_pieces/28.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Ajarakan Mail",
-    "nameEs": "Cota de Ajarakan F",
-    "icon": "data/images/palico_pieces/29.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Alloy_Alpha_Set",
-  "name": "Felyne Alloy Alpha Set",
-  "rarity": 5,
-  "defense": 52,
-  "resistances": {
-   "fire": -4,
-   "water": 2,
-   "thunder": -4,
-   "ice": -4,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Alloy_Alpha_Set.png",
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Alloy Helm α",
-    "nameEs": "Yelmo de aleación F α",
-    "icon": "data/images/palico_pieces/48.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Alloy Mail α",
-    "nameEs": "Cota de aleación F α",
-    "icon": "data/images/palico_pieces/49.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Alloy_Set",
-  "name": "Felyne Alloy Set",
-  "rarity": 1,
-  "defense": 12,
-  "resistances": {
-   "fire": -4,
-   "water": 2,
-   "thunder": -4,
-   "ice": -4,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Alloy_Set.png",
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Alloy Helm",
-    "nameEs": "Yelmo de aleación F",
-    "icon": "data/images/palico_pieces/8.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Alloy Mail",
-    "nameEs": "Cota de aleación F",
-    "icon": "data/images/palico_pieces/9.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Aloha_Alpha_Set",
-  "name": "Felyne Aloha Alpha Set",
-  "rarity": 5,
-  "defense": 52,
-  "resistances": {
-   "fire": 2,
-   "water": 8,
-   "thunder": 2,
-   "ice": 2,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Aloha_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Aloha Ukulele α",
-   "nameEs": "Ukelele hawaiano F α",
-   "icon": null
-  },
-  "pieces": [
-   {
-    "part": "chest",
-    "name": "Felyne Aloha Straw Hat α",
-    "nameEs": "Sombrero hawaiano F α",
-    "icon": null
-   }
-  ]
- },
- {
-  "slug": "Felyne_Arkveld_Alpha_Set",
-  "name": "Felyne Arkveld Alpha Set",
-  "rarity": 8,
-  "defense": 108,
-  "resistances": {
-   "fire": 4,
-   "water": 0,
-   "thunder": -2,
-   "ice": 0,
-   "dragon": -6
-  },
-  "image": "data/images/palico_armor/Felyne_Arkveld_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Arkveld Sword α",
-   "nameEs": "Espada de Arkveld F α",
-   "icon": "data/images/palico_weapons/43.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Arkveld Helm α",
-    "nameEs": "Yelmo de Arkveld F α",
-    "icon": "data/images/palico_pieces/104.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Arkveld Mail α",
-    "nameEs": "Cota de Arkveld F α",
-    "icon": "data/images/palico_pieces/105.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Arkveld_Gamma_Set",
-  "name": "Felyne Arkveld Gamma Set",
-  "rarity": 8,
-  "defense": 132,
-  "resistances": {
-   "fire": 4,
-   "water": 0,
-   "thunder": -2,
-   "ice": 0,
-   "dragon": -6
-  },
-  "image": "data/images/palico_armor/Felyne_Arkveld_Gamma_Set.png"
- },
- {
-  "slug": "Felyne_Artian_Alpha_Set",
-  "name": "Felyne Artian Alpha Set",
-  "rarity": 6,
-  "defense": 68,
-  "resistances": {
-   "fire": 2,
-   "water": -4,
-   "thunder": -4,
-   "ice": 4,
-   "dragon": 6
-  },
-  "image": "data/images/palico_armor/Felyne_Artian_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Artian Disc α",
-   "nameEs": "Disco artiano F α",
-   "icon": "data/images/palico_weapons/54.webp"
-  },
-  "pieces": [
-   {
-    "part": "chest",
-    "name": "Felyne Artian Core α",
-    "nameEs": "Núcleo artiano F α",
-    "icon": "data/images/palico_pieces/120.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Azure_Era_Alpha_Set",
-  "name": "Felyne Azure Era Alpha Set",
-  "rarity": 8,
-  "defense": 120,
-  "resistances": {
-   "fire": 4,
-   "water": 8,
-   "thunder": 0,
-   "ice": 0,
-   "dragon": 6
-  },
-  "image": "data/images/palico_armor/Felyne_Azure_Era_Alpha_Set.png"
- },
- {
-  "slug": "Felyne_Azuz_Alpha_Set",
-  "name": "Felyne Azuz Alpha Set",
-  "rarity": 6,
-  "defense": 68,
-  "resistances": {
-   "fire": 8,
-   "water": 2,
-   "thunder": 2,
-   "ice": 2,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Azuz_Alpha_Set.png",
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Azuz Head α",
-    "nameEs": "Cabeza de Azuz F α",
-    "icon": "data/images/palico_pieces/114.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Azuz Body α",
-    "nameEs": "Cuerpo de Azuz F α",
-    "icon": "data/images/palico_pieces/115.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Balahara_Alpha_Set",
-  "name": "Felyne Balahara Alpha Set",
-  "rarity": 5,
-  "defense": 60,
-  "resistances": {
-   "fire": -2,
-   "water": 4,
-   "thunder": -6,
-   "ice": 2,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Balahara_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Balahara Drill α",
-   "nameEs": "Taladro de Balahara F α",
-   "icon": "data/images/palico_weapons/9.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Balahara Helm α",
-    "nameEs": "Yelmo de Balahara F α",
-    "icon": "data/images/palico_pieces/64.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Balahara Mech α",
-    "nameEs": "Robot Balahara F α",
-    "icon": "data/images/palico_pieces/65.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Balahara_Set",
-  "name": "Felyne Balahara Set",
-  "rarity": 2,
-  "defense": 20,
-  "resistances": {
-   "fire": -2,
-   "water": 4,
-   "thunder": -6,
-   "ice": 2,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Balahara_Set.png",
-  "weapon": {
-   "name": "Felyne Balahara Drill",
-   "nameEs": "Taladro de Balahara F",
-   "icon": "data/images/palico_weapons/47.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Balahara Helm",
-    "nameEs": "Yelmo de Balahara F",
-    "icon": "data/images/palico_pieces/14.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Balahara Mech",
-    "nameEs": "Robot Balahara F",
-    "icon": "data/images/palico_pieces/15.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Blango_Alpha_Set",
-  "name": "Felyne Blango Alpha Set",
-  "rarity": 6,
-  "defense": 76,
-  "resistances": {
-   "fire": -8,
-   "water": 2,
-   "thunder": 0,
-   "ice": 8,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Blango_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Blango Banana α",
-   "nameEs": "Plátano de Blango F α",
-   "icon": "data/images/palico_weapons/51.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Blango Head α",
-    "nameEs": "Cabeza de Blango F α",
-    "icon": "data/images/palico_pieces/86.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Blango Body α",
-    "nameEs": "Cuerpo de Blango F α",
-    "icon": "data/images/palico_pieces/87.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Bone_Alpha_Set",
-  "name": "Felyne Bone Alpha Set",
-  "rarity": 5,
-  "defense": 44,
-  "resistances": {
-   "fire": 4,
-   "water": 0,
-   "thunder": 4,
-   "ice": 0,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Felyne_Bone_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Bone Hammer α",
-   "nameEs": "Martillo de hueso F α",
-   "icon": "data/images/palico_weapons/49.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Bone Helm α",
-    "nameEs": "Yelmo de hueso F α",
-    "icon": "data/images/palico_pieces/46.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Bone Mail α",
-    "nameEs": "Cota de hueso F α",
-    "icon": "data/images/palico_pieces/47.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Bone_Set",
-  "name": "Felyne Bone Set",
-  "rarity": 1,
-  "defense": 4,
-  "resistances": {
-   "fire": 4,
-   "water": 0,
-   "thunder": 4,
-   "ice": 0,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Felyne_Bone_Set.png",
-  "weapon": {
-   "name": "Felyne Bone Hammer",
-   "nameEs": "Martillo de hueso F",
-   "icon": "data/images/palico_weapons/70.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Bone Helm",
-    "nameEs": "Yelmo de hueso F",
-    "icon": "data/images/palico_pieces/2.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Bone Mail",
-    "nameEs": "Cota de hueso F",
-    "icon": "data/images/palico_pieces/3.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Butterfly_Alpha_Set",
-  "name": "Felyne Butterfly Alpha Set",
-  "rarity": 5,
-  "defense": 52,
-  "resistances": {
-   "fire": 2,
-   "water": 2,
-   "thunder": 8,
-   "ice": 2,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Butterfly_Alpha_Set.png",
-  "weapon": {
-   "name": "Twinflight Butterflies α",
-   "nameEs": "Mariposas gemelas α",
-   "icon": null
-  },
-  "pieces": [
-   {
-    "part": "chest",
-    "name": "F Butterfly Hat α",
-    "nameEs": "Sombrero de mariposa F α",
-    "icon": "data/images/palico_pieces/146.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Chatacabra_Alpha_Set",
-  "name": "Felyne Chatacabra Alpha Set",
-  "rarity": 5,
-  "defense": 52,
-  "resistances": {
-   "fire": 2,
-   "water": 4,
-   "thunder": -6,
-   "ice": -2,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Chatacabra_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Chata Clobberer α",
-   "nameEs": "Mazo Chata F α",
-   "icon": "data/images/palico_weapons/2.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Cabra Hood α",
-    "nameEs": "Capucha Chatacabra F α",
-    "icon": "data/images/palico_pieces/50.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Cabra Jumpsuit α",
-    "nameEs": "Mono Chatacabra F α",
-    "icon": "data/images/palico_pieces/51.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Chatacabra_Set",
-  "name": "Felyne Chatacabra Set",
-  "rarity": 1,
-  "defense": 12,
-  "resistances": {
-   "fire": 2,
-   "water": 4,
-   "thunder": -6,
-   "ice": -2,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Chatacabra_Set.png",
-  "weapon": {
-   "name": "Felyne Chata Clobberer",
-   "nameEs": "Mazo Chata F",
-   "icon": "data/images/palico_weapons/3.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Cabra Hood",
-    "nameEs": "Capucha Chatacabra F",
-    "icon": "data/images/palico_pieces/4.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Cabra Jumpsuit",
-    "nameEs": "Mono Chatacabra F",
-    "icon": "data/images/palico_pieces/5.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Conga_Alpha_Set",
-  "name": "Felyne Conga Alpha Set",
-  "rarity": 5,
-  "defense": 52,
-  "resistances": {
-   "fire": -6,
-   "water": 2,
-   "thunder": 2,
-   "ice": -2,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Felyne_Conga_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Conga Tambourine α",
-   "nameEs": "Pandereta de Conga F α",
-   "icon": "data/images/palico_weapons/18.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Conga Head α",
-    "nameEs": "Cabeza de Conga F α",
-    "icon": "data/images/palico_pieces/56.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Conga Fete α",
-    "nameEs": "Fiesta de Conga F α",
-    "icon": "data/images/palico_pieces/57.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Conga_Set",
-  "name": "Felyne Conga Set",
-  "rarity": 2,
-  "defense": 16,
-  "resistances": {
-   "fire": -6,
-   "water": 2,
-   "thunder": 2,
-   "ice": -2,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Felyne_Conga_Set.png",
-  "weapon": {
-   "name": "Felyne Conga Tambourine",
-   "nameEs": "Pandereta de Conga F",
-   "icon": "data/images/palico_weapons/44.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Conga Head",
-    "nameEs": "Cabeza de Conga F",
-    "icon": "data/images/palico_pieces/12.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Conga Fete",
-    "nameEs": "Fiesta de Conga F",
-    "icon": "data/images/palico_pieces/13.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Dahaad_Alpha_Set",
-  "name": "Felyne Dahaad Alpha Set",
-  "rarity": 7,
-  "defense": 100,
-  "resistances": {
-   "fire": -8,
-   "water": 4,
-   "thunder": -2,
-   "ice": 10,
-   "dragon": -2
-  },
-  "image": "data/images/palico_armor/Felyne_Dahaad_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Dahaad Mace α",
-   "nameEs": "Maza Dahaad F α",
-   "icon": "data/images/palico_weapons/45.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Dahaad Corona α",
-    "nameEs": "Corona Dahaad F α",
-    "icon": "data/images/palico_pieces/92.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Dahaad Gown α",
-    "nameEs": "Atuendo Dahaad F α",
-    "icon": "data/images/palico_pieces/93.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Dahaad_Gamma_Set",
-  "name": "Felyne Dahaad Gamma Set",
-  "rarity": 8,
-  "defense": 132,
-  "resistances": {
-   "fire": -6,
-   "water": 4,
-   "thunder": -2,
-   "ice": 4,
-   "dragon": -2
-  },
-  "image": "data/images/palico_armor/Felyne_Dahaad_Gamma_Set.png",
-  "weapon": {
-   "name": "Felyne Dahaad Mace γ",
-   "nameEs": "Maza Dahaad F γ",
-   "icon": null
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Dahaad Corona γ",
-    "nameEs": "Corona Dahaad F γ",
-    "icon": null
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Dahaad Gown γ",
-    "nameEs": "Atuendo Dahaad F γ",
-    "icon": null
-   }
-  ]
- },
- {
-  "slug": "Felyne_Death_Stench_Alpha_Set",
-  "name": "Felyne Death Stench Alpha Set",
-  "rarity": 6,
-  "defense": 68,
-  "resistances": {
-   "fire": 6,
-   "water": 4,
-   "thunder": -4,
-   "ice": 6,
-   "dragon": 8
-  },
-  "image": "data/images/palico_armor/Felyne_Death_Stench_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Deathgear Scythe α",
-   "nameEs": "Guadaña letal F α",
-   "icon": "data/images/palico_weapons/66.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Deathgear Hood α",
-    "nameEs": "Capucha de muerte F α",
-    "icon": "data/images/palico_pieces/106.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Deathgear Cowl α",
-    "nameEs": "Túnica de muerte F α",
-    "icon": "data/images/palico_pieces/107.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Doshaguma_Alpha_Set",
-  "name": "Felyne Doshaguma Alpha Set",
-  "rarity": 6,
-  "defense": 76,
-  "resistances": {
-   "fire": -6,
-   "water": 4,
-   "thunder": -2,
-   "ice": -2,
-   "dragon": 8
-  },
-  "image": "data/images/palico_armor/Felyne_Doshaguma_Alpha_Set.png",
-  "weapon": {
-   "name": "F Doshaguma Knuckle α",
-   "nameEs": "Nudillos Doshaguma F α",
-   "icon": "data/images/palico_weapons/68.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Doshaguma Helm α",
-    "nameEs": "Yelmo Doshaguma F α",
-    "icon": "data/images/palico_pieces/74.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Doshaguma Mail α",
-    "nameEs": "Cota Doshaguma F α",
-    "icon": "data/images/palico_pieces/75.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Doshaguma_Set",
-  "name": "Felyne Doshaguma Set",
-  "rarity": 2,
-  "defense": 20,
-  "resistances": {
-   "fire": -6,
-   "water": 4,
-   "thunder": -2,
-   "ice": -2,
-   "dragon": 8
-  },
-  "image": "data/images/palico_armor/Felyne_Doshaguma_Set.png",
-  "weapon": {
-   "name": "F Doshaguma Knuckle",
-   "nameEs": "Nudillos Doshaguma F",
-   "icon": "data/images/palico_weapons/6.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Doshaguma Helm",
-    "nameEs": "Yelmo Doshaguma F",
-    "icon": "data/images/palico_pieces/16.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Doshaguma Mail",
-    "nameEs": "Cota Doshaguma F",
-    "icon": "data/images/palico_pieces/17.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Duffel_Set",
-  "name": "Felyne Duffel Set",
-  "rarity": 1,
-  "defense": 4,
-  "resistances": {
-   "fire": 0,
-   "water": 0,
-   "thunder": 4,
-   "ice": 4,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Duffel_Set.png",
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Duffel Hood",
-    "nameEs": "Capucha lanuda F",
-    "icon": "data/images/palico_pieces/124.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Duffel Coat",
-    "nameEs": "Abrigo lanudo F",
-    "icon": "data/images/palico_pieces/125.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_G_Ark_Alpha_Set",
-  "name": "Felyne G Ark Alpha Set",
-  "rarity": 8,
-  "defense": 112,
-  "resistances": {
-   "fire": 4,
-   "water": 0,
-   "thunder": -2,
-   "ice": 0,
-   "dragon": -8
-  },
-  "image": "data/images/palico_armor/Felyne_G_Ark_Alpha_Set.png",
-  "weapon": {
-   "name": "F Guardian Ark Sword α",
-   "nameEs": "Espada de Arkveld G. F α",
-   "icon": "data/images/palico_weapons/62.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Guardian Ark Helm α",
-    "nameEs": "Yelmo de Arkveld G. F α",
-    "icon": "data/images/palico_pieces/102.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Guardian Ark Mail α",
-    "nameEs": "Cota de Arkveld G. F α",
-    "icon": "data/images/palico_pieces/103.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_G_Ark_Set",
-  "name": "Felyne G Ark Set",
-  "rarity": 4,
-  "defense": 44,
-  "resistances": {
-   "fire": 4,
-   "water": 0,
-   "thunder": -2,
-   "ice": 0,
-   "dragon": -8
-  },
-  "image": "data/images/palico_armor/Felyne_G_Ark_Set.png",
-  "weapon": {
-   "name": "F Guardian Ark Sword",
-   "nameEs": "Espada de Arkveld G. F",
-   "icon": "data/images/palico_weapons/12.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Guardian Ark Helm",
-    "nameEs": "Yelmo de Arkveld G. F",
-    "icon": "data/images/palico_pieces/40.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Guardian Ark Mail",
-    "nameEs": "Cota de Arkveld G. F",
-    "icon": "data/images/palico_pieces/41.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_G_Doshaguma_Alpha_Set",
-  "name": "Felyne G Doshaguma Alpha Set",
-  "rarity": 6,
-  "defense": 76,
-  "resistances": {
-   "fire": -6,
-   "water": 4,
-   "thunder": -2,
-   "ice": -4,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Felyne_G_Doshaguma_Alpha_Set.png",
-  "weapon": {
-   "name": "F Guardian Dosha Knuckle α",
-   "nameEs": "Nudillos Doshaguma G. F α",
-   "icon": "data/images/palico_weapons/4.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Guardian Dosha Helm α",
-    "nameEs": "Yelmo Doshaguma G. F α",
-    "icon": "data/images/palico_pieces/78.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Guardian Dosha Mail α",
-    "nameEs": "Cota Doshaguma G. F α",
-    "icon": "data/images/palico_pieces/79.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_G_Doshaguma_Set",
-  "name": "Felyne G Doshaguma Set",
-  "rarity": 4,
-  "defense": 36,
-  "resistances": {
-   "fire": -6,
-   "water": 4,
-   "thunder": -2,
-   "ice": -4,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Felyne_G_Doshaguma_Set.png",
-  "weapon": {
-   "name": "F Guardian Dosha Knuckle",
-   "nameEs": "Nudillos Doshaguma G. F",
-   "icon": "data/images/palico_weapons/63.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Guardian Dosha Helm",
-    "nameEs": "Yelmo Doshaguma G. F",
-    "icon": "data/images/palico_pieces/32.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Guardian Dosha Mail",
-    "nameEs": "Cota Doshaguma G. F",
-    "icon": "data/images/palico_pieces/33.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_G_Ebony_Alpha_Set",
-  "name": "Felyne G Ebony Alpha Set",
-  "rarity": 6,
-  "defense": 76,
-  "resistances": {
-   "fire": -4,
-   "water": -6,
-   "thunder": -4,
-   "ice": -4,
-   "dragon": 8
-  },
-  "image": "data/images/palico_armor/Felyne_G_Ebony_Alpha_Set.png",
-  "weapon": {
-   "name": "F Guardian Ebony Sickle α",
-   "nameEs": "Hoz de Ébano G. F α",
-   "icon": "data/images/palico_weapons/69.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Guardian Ebony Helm α",
-    "nameEs": "Yelmo de Ébano G. F α",
-    "icon": "data/images/palico_pieces/82.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Guardian Ebony Mail α",
-    "nameEs": "Cota de Ébano G. F α",
-    "icon": "data/images/palico_pieces/83.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_G_Ebony_Set",
-  "name": "Felyne G Ebony Set",
-  "rarity": 4,
-  "defense": 36,
-  "resistances": {
-   "fire": -4,
-   "water": -6,
-   "thunder": -4,
-   "ice": -4,
-   "dragon": 8
-  },
-  "image": "data/images/palico_armor/Felyne_G_Ebony_Set.png",
-  "weapon": {
-   "name": "F Guardian Ebony Sickle",
-   "nameEs": "Hoz de Ébano G. F",
-   "icon": "data/images/palico_weapons/14.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Guardian Ebony Helm",
-    "nameEs": "Yelmo de Ébano G. F",
-    "icon": "data/images/palico_pieces/36.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Guardian Ebony Mail",
-    "nameEs": "Cota de Ébano G. F",
-    "icon": "data/images/palico_pieces/37.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_G_Fulgur_Alpha_Set",
-  "name": "Felyne G Fulgur Alpha Set",
-  "rarity": 6,
-  "defense": 76,
-  "resistances": {
-   "fire": -2,
-   "water": -2,
-   "thunder": 4,
-   "ice": -6,
-   "dragon": -4
-  },
-  "image": "data/images/palico_armor/Felyne_G_Fulgur_Alpha_Set.png",
-  "weapon": {
-   "name": "F Guardian Fulgur Maul α",
-   "nameEs": "Mazo Fulgúreo G. F α",
-   "icon": "data/images/palico_weapons/50.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Guardian Fulgur Helm α",
-    "nameEs": "Yelmo Fulgúreo G. F α",
-    "icon": "data/images/palico_pieces/72.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Guardian Fulgur Mail α",
-    "nameEs": "Cota Fulgúrea G. F α",
-    "icon": "data/images/palico_pieces/73.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_G_Rathalos_Alpha_Set",
-  "name": "Felyne G Rathalos Alpha Set",
-  "rarity": 6,
-  "defense": 76,
-  "resistances": {
-   "fire": 6,
-   "water": 2,
-   "thunder": -4,
-   "ice": 2,
-   "dragon": -10
-  },
-  "image": "data/images/palico_armor/Felyne_G_Rathalos_Alpha_Set.png",
-  "weapon": {
-   "name": "F Guardian Rath Blade α",
-   "nameEs": "Filo de Rath G. F α",
-   "icon": "data/images/palico_weapons/55.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Guardian Rath Helm α",
-    "nameEs": "Yelmo de Rath G. F α",
-    "icon": "data/images/palico_pieces/80.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Guardian Rath Mail α",
-    "nameEs": "Cota de Rath G. F α",
-    "icon": "data/images/palico_pieces/81.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_G_Rathalos_Set",
-  "name": "Felyne G Rathalos Set",
-  "rarity": 4,
-  "defense": 36,
-  "resistances": {
-   "fire": 6,
-   "water": 2,
-   "thunder": -4,
-   "ice": 2,
-   "dragon": -10
-  },
-  "image": "data/images/palico_armor/Felyne_G_Rathalos_Set.png",
-  "weapon": {
-   "name": "F Guardian Rath Blade",
-   "nameEs": "Filo de Rath G. F",
-   "icon": "data/images/palico_weapons/58.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Guardian Rath Helm",
-    "nameEs": "Yelmo de Rath G. F",
-    "icon": "data/images/palico_pieces/34.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Guardian Rath Mail",
-    "nameEs": "Cota de Rath G. F",
-    "icon": "data/images/palico_pieces/35.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Ghost_Alpha_Set",
-  "name": "Felyne Ghost Alpha Set",
-  "rarity": 5,
-  "defense": 52,
-  "resistances": {
-   "fire": 8,
-   "water": 2,
-   "thunder": 2,
-   "ice": 2,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Ghost_Alpha_Set.png",
-  "pieces": [
-   {
-    "part": "chest",
-    "name": "Felyne Ghost Garb α",
-    "nameEs": "Atuendo fantasmal F α",
-    "icon": null
-   }
-  ]
- },
- {
-  "slug": "Felyne_Gog_Alpha_Set",
-  "name": "Felyne Gog Alpha Set",
-  "rarity": 8,
-  "defense": 132,
-  "resistances": {
-   "fire": -8,
-   "water": 6,
-   "thunder": 0,
-   "ice": 6,
-   "dragon": -10
-  },
-  "image": "data/images/palico_armor/Felyne_Gog_Alpha_Set.png",
-  "pieces": [
-   {
-    "part": "chest",
-    "name": "Felyne Gog Burden α",
-    "nameEs": "Carga Gog F α",
-    "icon": null
-   }
-  ]
- },
- {
-  "slug": "Felyne_Gore_Alpha_Set",
-  "name": "Felyne Gore Alpha Set",
-  "rarity": 7,
-  "defense": 100,
-  "resistances": {
-   "fire": -4,
-   "water": 6,
-   "thunder": -2,
-   "ice": 4,
-   "dragon": -2
-  },
-  "image": "data/images/palico_armor/Felyne_Gore_Alpha_Set.png",
-  "pieces": [
-   {
-    "part": "chest",
-    "name": "Felyne Gore Horror α",
-    "nameEs": "Terror Gore F α",
-    "icon": "data/images/palico_pieces/100.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Gravios_Alpha_Set",
-  "name": "Felyne Gravios Alpha Set",
-  "rarity": 6,
-  "defense": 84,
-  "resistances": {
-   "fire": 8,
-   "water": -6,
-   "thunder": 2,
-   "ice": 0,
-   "dragon": -4
-  },
-  "image": "data/images/palico_armor/Felyne_Gravios_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Grav Bazooka α",
-   "nameEs": "Bazuca de Gravios F α",
-   "icon": "data/images/palico_weapons/67.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Grav Mask α",
-    "nameEs": "Máscara de Grav F α",
-    "icon": "data/images/palico_pieces/90.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Grav Armor α",
-    "nameEs": "Armadura de Grav F α",
-    "icon": "data/images/palico_pieces/91.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Gypceros_Alpha_Set",
-  "name": "Felyne Gypceros Alpha Set",
-  "rarity": 5,
-  "defense": 52,
-  "resistances": {
-   "fire": -8,
-   "water": 6,
-   "thunder": 8,
-   "ice": -2,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Gypceros_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Gypceros Glare α",
-   "nameEs": "Mirada de Gypceros F α",
-   "icon": "data/images/palico_weapons/23.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Gypceros Crest α",
-    "nameEs": "Cresta de Gypceros F α",
-    "icon": "data/images/palico_pieces/60.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Gypceros Tunic α",
-    "nameEs": "Túnica de Gypceros F α",
-    "icon": "data/images/palico_pieces/61.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Hirabami_Alpha_Set",
-  "name": "Felyne Hirabami Alpha Set",
-  "rarity": 5,
-  "defense": 60,
-  "resistances": {
-   "fire": -6,
-   "water": 4,
-   "thunder": -4,
-   "ice": 6,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Hirabami_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Hirabami Fan α",
-   "nameEs": "Abanico de Hirabami F α",
-   "icon": "data/images/palico_weapons/11.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Hirabami Cap α",
-    "nameEs": "Gorro de Hirabami F α",
-    "icon": "data/images/palico_pieces/68.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Hirabami Robe α",
-    "nameEs": "Túnica de Hirabami F α",
-    "icon": "data/images/palico_pieces/69.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Hirabami_Set",
-  "name": "Felyne Hirabami Set",
-  "rarity": 3,
-  "defense": 28,
-  "resistances": {
-   "fire": -6,
-   "water": 4,
-   "thunder": -4,
-   "ice": 6,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Hirabami_Set.png",
-  "weapon": {
-   "name": "Felyne Hirabami Fan",
-   "nameEs": "Abanico de Hirabami F",
-   "icon": "data/images/palico_weapons/17.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Hirabami Cap",
-    "nameEs": "Gorro de Hirabami F",
-    "icon": "data/images/palico_pieces/26.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Hirabami Robe",
-    "nameEs": "Túnica de Hirabami F",
-    "icon": "data/images/palico_pieces/27.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Hope_Alpha_Set",
-  "name": "Felyne Hope Alpha Set",
-  "rarity": 5,
-  "defense": 44,
-  "resistances": {
-   "fire": 2,
-   "water": 0,
-   "thunder": 2,
-   "ice": 0,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Hope_Alpha_Set.png",
-  "weapon": {
-   "name": "F Hope Hammer α",
-   "nameEs": "Mazo de esperanza F α",
-   "icon": "data/images/palico_weapons/57.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Hope Helm α",
-    "nameEs": "Yelmo de esperanza F α",
-    "icon": "data/images/palico_pieces/44.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Hope Suit α",
-    "nameEs": "Traje de esperanza F α",
-    "icon": "data/images/palico_pieces/45.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Hope_Set",
-  "name": "Felyne Hope Set",
-  "rarity": 1,
-  "defense": 4,
-  "resistances": {
-   "fire": 2,
-   "water": 0,
-   "thunder": 2,
-   "ice": 0,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Hope_Set.png",
-  "weapon": {
-   "name": "Felyne Hope Hammer",
-   "nameEs": "Mazo de esperanza F",
-   "icon": "data/images/palico_weapons/1.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Hope Helm",
-    "nameEs": "Yelmo de esperanza F",
-    "icon": "data/images/palico_pieces/0.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Hope Suit",
-    "nameEs": "Traje de esperanza F",
-    "icon": "data/images/palico_pieces/1.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Hymstrigian_Set",
-  "name": "Felyne Hymstrigian Set",
-  "rarity": 6,
-  "defense": 76,
-  "resistances": {
-   "fire": -4,
-   "water": 4,
-   "thunder": 2,
-   "ice": -4,
-   "dragon": 6
-  },
-  "image": "data/images/palico_armor/Felyne_Hymstrigian_Set.png"
- },
- {
-  "slug": "Felyne_Kunafa_Alpha_Set",
-  "name": "Felyne Kunafa Alpha Set",
-  "rarity": 6,
-  "defense": 68,
-  "resistances": {
-   "fire": 2,
-   "water": 2,
-   "thunder": 8,
-   "ice": 2,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Kunafa_Alpha_Set.png",
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Kunafa Hood α",
-    "nameEs": "Capucha de Kunafa F α",
-    "icon": "data/images/palico_pieces/110.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Kunafa Suit α",
-    "nameEs": "Traje de Kunafa F α",
-    "icon": "data/images/palico_pieces/111.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Lagiacrus_Alpha_Set",
-  "name": "Felyne Lagiacrus Alpha Set",
-  "rarity": 7,
-  "defense": 375,
-  "resistances": {
-   "fire": -6,
-   "water": 4,
-   "thunder": 8,
-   "ice": -2,
-   "dragon": -4
-  },
-  "image": "data/images/palico_armor/Felyne_Lagiacrus_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Lagia Anchor α",
-   "nameEs": "Ancla Lagia F α",
-   "icon": null
-  },
-  "pieces": [
-   {
-    "part": "chest",
-    "name": "Felyne Lagia Tricorne α",
-    "nameEs": "Tricornio de Lagia F α",
-    "icon": null
-   }
-  ]
- },
- {
-  "slug": "Felyne_Lala_Barina_Alpha_Set",
-  "name": "Felyne Lala Barina Alpha Set",
-  "rarity": 5,
-  "defense": 52,
-  "resistances": {
-   "fire": -6,
-   "water": 6,
-   "thunder": 0,
-   "ice": 0,
-   "dragon": 6
-  },
-  "image": "data/images/palico_armor/Felyne_Lala_Barina_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Barina Needle α",
-   "nameEs": "Púa de Lala Barina F α",
-   "icon": "data/images/palico_weapons/7.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Barina Wig α",
-    "nameEs": "Peluca de Barina F α",
-    "icon": "data/images/palico_pieces/54.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Barina Dress α",
-    "nameEs": "Vestido de Barina F α",
-    "icon": "data/images/palico_pieces/55.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Lala_Barina_Set",
-  "name": "Felyne Lala Barina Set",
-  "rarity": 1,
-  "defense": 16,
-  "resistances": {
-   "fire": -6,
-   "water": 6,
-   "thunder": 0,
-   "ice": 0,
-   "dragon": 6
-  },
-  "image": "data/images/palico_armor/Felyne_Lala_Barina_Set.png",
-  "weapon": {
-   "name": "Felyne Barina Needle",
-   "nameEs": "Púa de Lala Barina F",
-   "icon": "data/images/palico_weapons/5.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Barina Wig",
-    "nameEs": "Peluca de Barina F",
-    "icon": "data/images/palico_pieces/10.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Barina Dress",
-    "nameEs": "Vestido de Barina F",
-    "icon": "data/images/palico_pieces/11.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Leather_Set",
-  "name": "Felyne Leather Set",
-  "rarity": 1,
-  "defense": 4,
-  "resistances": {
-   "fire": 4,
-   "water": 0,
-   "thunder": 0,
-   "ice": 0,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Leather_Set.png",
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Leather Cap",
-    "nameEs": "Cubrecabeza cuero F",
-    "icon": "data/images/palico_pieces/122.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Leather Vest",
-    "nameEs": "Chaleco de cuero F",
-    "icon": "data/images/palico_pieces/123.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Mizutsune_Alpha_Set",
-  "name": "Felyne Mizutsune Alpha Set",
-  "rarity": 6,
-  "defense": 351,
-  "resistances": {
-   "fire": 0,
-   "water": 4,
-   "thunder": -6,
-   "ice": 2,
-   "dragon": -2
-  },
-  "image": "data/images/palico_armor/Felyne_Mizutsune_Alpha_Set.png",
-  "weapon": {
-   "name": "F Mizutsune Parasol α",
-   "nameEs": "Paraguas Mizutsune F α",
-   "icon": "data/images/palico_weapons/41.webp"
-  },
-  "pieces": [
-   {
-    "part": "chest",
-    "name": "F Mizutsune Kasa α",
-    "nameEs": "Kasa Mizutsune F α",
-    "icon": "data/images/palico_pieces/126.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Nerscylla_Alpha_Set",
-  "name": "Felyne Nerscylla Alpha Set",
-  "rarity": 5,
-  "defense": 60,
-  "resistances": {
-   "fire": -4,
-   "water": 4,
-   "thunder": -4,
-   "ice": 2,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Felyne_Nerscylla_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Nerscylla Wedge α",
-   "nameEs": "Cuña de Nerscylla F α",
-   "icon": "data/images/palico_weapons/52.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Scylla Mask α",
-    "nameEs": "Máscara de Scylla F α",
-    "icon": "data/images/palico_pieces/66.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Scylla Mail α",
-    "nameEs": "Cota de Scylla F α",
-    "icon": "data/images/palico_pieces/67.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Nerscylla_Set",
-  "name": "Felyne Nerscylla Set",
-  "rarity": 3,
-  "defense": 28,
-  "resistances": {
-   "fire": -4,
-   "water": 4,
-   "thunder": -4,
-   "ice": 2,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Felyne_Nerscylla_Set.png",
-  "weapon": {
-   "name": "Felyne Nerscylla Wedge",
-   "nameEs": "Cuña de Nerscylla F",
-   "icon": "data/images/palico_weapons/8.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Scylla Mask",
-    "nameEs": "Máscara de Scylla F",
-    "icon": "data/images/palico_pieces/24.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Scylla Mail",
-    "nameEs": "Cota de Scylla F",
-    "icon": "data/images/palico_pieces/25.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Nu_Udra_Alpha_Set",
-  "name": "Felyne Nu Udra Alpha Set",
-  "rarity": 7,
-  "defense": 100,
-  "resistances": {
-   "fire": 10,
-   "water": -8,
-   "thunder": 0,
-   "ice": 2,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Nu_Udra_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Udra Vessel α",
-   "nameEs": "Recipiente de Udra F α",
-   "icon": "data/images/palico_weapons/46.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Udra Head α",
-    "nameEs": "Cabeza de Udra F α",
-    "icon": "data/images/palico_pieces/98.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Udra Tentacles α",
-    "nameEs": "Tentáculos de Udra F α",
-    "icon": "data/images/palico_pieces/99.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Nu_Udra_Set",
-  "name": "Felyne Nu Udra Set",
-  "rarity": 4,
-  "defense": 36,
-  "resistances": {
-   "fire": 10,
-   "water": -8,
-   "thunder": 0,
-   "ice": 2,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Nu_Udra_Set.png",
-  "weapon": {
-   "name": "Felyne Udra Vessel",
-   "nameEs": "Recipiente de Udra F",
-   "icon": "data/images/palico_weapons/48.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Udra Head",
-    "nameEs": "Cabeza de Udra F",
-    "icon": "data/images/palico_pieces/30.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Udra Tentacles",
-    "nameEs": "Tentáculos de Udra F",
-    "icon": "data/images/palico_pieces/31.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Numinous_Alpha_Set",
-  "name": "Felyne Numinous Alpha Set",
-  "rarity": 8,
-  "defense": 395,
-  "resistances": {
-   "fire": -4,
-   "water": 4,
-   "thunder": 4,
-   "ice": 0,
-   "dragon": -8
-  },
-  "image": "data/images/palico_armor/Felyne_Numinous_Alpha_Set.png",
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Numinous Crown α",
-    "nameEs": "Corona espiritual F α",
-    "icon": "data/images/palico_pieces/128.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Numinous Robe α",
-    "nameEs": "Túnica espiritual F α",
-    "icon": "data/images/palico_pieces/129.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Quematrice_Alpha_Set",
-  "name": "Felyne Quematrice Alpha Set",
-  "rarity": 5,
-  "defense": 52,
-  "resistances": {
-   "fire": 4,
-   "water": -6,
-   "thunder": 0,
-   "ice": -2,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Quematrice_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Matrice Spear α",
-   "nameEs": "Pica Matrice F α",
-   "icon": "data/images/palico_weapons/22.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Quema Helm α",
-    "nameEs": "Yelmo Quema F α",
-    "icon": "data/images/palico_pieces/52.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Quema Mail α",
-    "nameEs": "Cota Quema F α",
-    "icon": "data/images/palico_pieces/53.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Quematrice_Set",
-  "name": "Felyne Quematrice Set",
-  "rarity": 1,
-  "defense": 12,
-  "resistances": {
-   "fire": 4,
-   "water": -6,
-   "thunder": 0,
-   "ice": -2,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Quematrice_Set.png",
-  "weapon": {
-   "name": "Felyne Matrice Spear",
-   "nameEs": "Pica Matrice F",
-   "icon": "data/images/palico_weapons/15.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Quema Helm",
-    "nameEs": "Yelmo Quema F",
-    "icon": "data/images/palico_pieces/6.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Quema Mail",
-    "nameEs": "Cota Quema F",
-    "icon": "data/images/palico_pieces/7.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Rathalos_Alpha_Set",
-  "name": "Felyne Rathalos Alpha Set",
-  "rarity": 6,
-  "defense": 76,
-  "resistances": {
-   "fire": 6,
-   "water": 2,
-   "thunder": -4,
-   "ice": 2,
-   "dragon": -6
-  },
-  "image": "data/images/palico_armor/Felyne_Rathalos_Alpha_Set.png"
- },
- {
-  "slug": "Felyne_Rathian_Alpha_Set",
-  "name": "Felyne Rathian Alpha Set",
-  "rarity": 5,
-  "defense": 60,
-  "resistances": {
-   "fire": 4,
-   "water": 0,
-   "thunder": -4,
-   "ice": 0,
-   "dragon": -6
-  },
-  "image": "data/images/palico_armor/Felyne_Rathian_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Rathian Rapier α",
-   "nameEs": "Estoque Rathian F α",
-   "icon": "data/images/palico_weapons/72.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Rathian Tiara α",
-    "nameEs": "Tiara de Rathian F α",
-    "icon": "data/images/palico_pieces/70.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Rathian Mail α",
-    "nameEs": "Cota de Rathian F α",
-    "icon": "data/images/palico_pieces/71.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Rey_Dau_Alpha_Set",
-  "name": "Felyne Rey Dau Alpha Set",
-  "rarity": 7,
-  "defense": 100,
-  "resistances": {
-   "fire": 0,
-   "water": -4,
-   "thunder": 8,
-   "ice": -6,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Rey_Dau_Alpha_Set.png",
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Dau Helm α",
-    "nameEs": "Yelmo Dau F α",
-    "icon": "data/images/palico_pieces/94.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Dau Armor α",
-    "nameEs": "Armadura Dau F α",
-    "icon": "data/images/palico_pieces/95.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Rey_Dau_Gamma_Set",
-  "name": "Felyne Rey Dau Gamma Set",
-  "rarity": 8,
-  "defense": 120,
-  "resistances": {
-   "fire": 0,
-   "water": -4,
-   "thunder": 8,
-   "ice": -6,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Rey_Dau_Gamma_Set.png",
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Dau Helm γ",
-    "nameEs": "Yelmo Dau F γ",
-    "icon": "data/images/palico_pieces/136.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Dau Armor γ",
-    "nameEs": "Armadura Dau F γ",
-    "icon": "data/images/palico_pieces/137.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Rey_Dau_Set",
-  "name": "Felyne Rey Dau Set",
-  "rarity": 4,
-  "defense": 36,
-  "resistances": {
-   "fire": 0,
-   "water": -4,
-   "thunder": 8,
-   "ice": -6,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Rey_Dau_Set.png",
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Dau Helm",
-    "nameEs": "Yelmo Dau F",
-    "icon": "data/images/palico_pieces/22.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Dau Armor",
-    "nameEs": "Armadura Dau F",
-    "icon": "data/images/palico_pieces/23.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Rompopolo_Alpha_Set",
-  "name": "Felyne Rompopolo Alpha Set",
-  "rarity": 5,
-  "defense": 52,
-  "resistances": {
-   "fire": 0,
-   "water": -6,
-   "thunder": 0,
-   "ice": 0,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Rompopolo_Alpha_Set.png",
-  "weapon": {
-   "name": "F Rompopolo Blaster α",
-   "nameEs": "Ráfaga de Rompopolo F α",
-   "icon": "data/images/palico_weapons/13.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Rompopolo Brain α",
-    "nameEs": "Cerebro de Rompopolo F α",
-    "icon": "data/images/palico_pieces/62.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Rompopolo Suit α",
-    "nameEs": "Traje de Rompopolo F α",
-    "icon": "data/images/palico_pieces/63.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Rompopolo_Set",
-  "name": "Felyne Rompopolo Set",
-  "rarity": 3,
-  "defense": 28,
-  "resistances": {
-   "fire": 0,
-   "water": -6,
-   "thunder": 0,
-   "ice": 0,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Rompopolo_Set.png",
-  "weapon": {
-   "name": "F Rompopolo Blaster",
-   "nameEs": "Ráfaga de Rompopolo F",
-   "icon": "data/images/palico_weapons/65.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "F Rompopolo Brain",
-    "nameEs": "Cerebro de Rompopolo F",
-    "icon": "data/images/palico_pieces/20.webp"
-   },
-   {
-    "part": "chest",
-    "name": "F Rompopolo Suit",
-    "nameEs": "Traje de Rompopolo F",
-    "icon": "data/images/palico_pieces/21.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Seregios_Alpha_Set",
-  "name": "Felyne Seregios Alpha Set",
-  "rarity": 7,
-  "defense": 375,
-  "resistances": {
-   "fire": 8,
-   "water": 0,
-   "thunder": -6,
-   "ice": -4,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Seregios_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Seregios Edge α",
-   "nameEs": "Hoja de Seregios F α",
-   "icon": null
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Seregios Helm α",
-    "nameEs": "Casco de Seregios F α",
-    "icon": null
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Seregios Mail α",
-    "nameEs": "Cota de Seregios F α",
-    "icon": null
-   }
-  ]
- },
- {
-  "slug": "Felyne_Sild_Alpha_Set",
-  "name": "Felyne Sild Alpha Set",
-  "rarity": 6,
-  "defense": 68,
-  "resistances": {
-   "fire": 2,
-   "water": 2,
-   "thunder": 2,
-   "ice": 2,
-   "dragon": 8
-  },
-  "image": "data/images/palico_armor/Felyne_Sild_Alpha_Set.png",
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Sild Hood α",
-    "nameEs": "Capucha de Sild F α",
-    "icon": "data/images/palico_pieces/118.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Sild Suit α",
-    "nameEs": "Traje de Sild F α",
-    "icon": "data/images/palico_pieces/119.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Snowcat_Alpha_Set",
-  "name": "Felyne Snowcat Alpha Set",
-  "rarity": 8,
-  "defense": 120,
-  "resistances": {
-   "fire": 2,
-   "water": 2,
-   "thunder": 2,
-   "ice": 8,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Snowcat_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Snowcat Bell α",
-   "nameEs": "Campana gato nival F α",
-   "icon": null
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Snowcat Head α",
-    "nameEs": "Cabeza gato nival F α",
-    "icon": null
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Snowcat Suit α",
-    "nameEs": "Traje gato nival F α",
-    "icon": null
-   }
-  ]
- },
- {
-  "slug": "Felyne_Star_Alpha_Set",
-  "name": "Felyne Star Alpha Set",
-  "rarity": 8,
-  "defense": 120,
-  "resistances": {
-   "fire": 2,
-   "water": 2,
-   "thunder": 2,
-   "ice": 2,
-   "dragon": 8
-  },
-  "image": "data/images/palico_armor/Felyne_Star_Alpha_Set.png"
- },
- {
-  "slug": "Felyne_Suja_Alpha_Set",
-  "name": "Felyne Suja Alpha Set",
-  "rarity": 6,
-  "defense": 68,
-  "resistances": {
-   "fire": 2,
-   "water": 2,
-   "thunder": 2,
-   "ice": 8,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Felyne_Suja_Alpha_Set.png",
-  "pieces": [
-   {
-    "part": "chest",
-    "name": "Felyne Suja Frog α",
-    "nameEs": "Rana de Suja F α",
-    "icon": "data/images/palico_pieces/116.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Nu_Udra_Gamma_Set",
-  "name": "Felyne Udra Gamma Set",
-  "rarity": 8,
-  "defense": 132,
-  "resistances": {
-   "fire": 10,
-   "water": -8,
-   "thunder": 0,
-   "ice": 2,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Nu_Udra_Gamma_Set.png",
-  "weapon": {
-   "name": "Felyne Udra Vessel γ",
-   "nameEs": "Recipiente de Udra F γ",
-   "icon": null
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Udra Head γ",
-    "nameEs": "Cabeza de Udra F γ",
-    "icon": null
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Udra Tentacles γ",
-    "nameEs": "Tentáculos de Udra F γ",
-    "icon": null
-   }
-  ]
- },
- {
-  "slug": "Felyne_Udra_Gamma_Set",
-  "name": "Felyne Udra Gamma Set",
-  "rarity": 8,
-  "defense": 132,
-  "resistances": {
-   "fire": 10,
-   "water": -8,
-   "thunder": 0,
-   "ice": 2,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Udra_Gamma_Set.png"
- },
- {
-  "slug": "Felyne_Uth_Duna_Alpha_Set",
-  "name": "Felyne Uth Duna Alpha Set",
-  "rarity": 7,
-  "defense": 100,
-  "resistances": {
-   "fire": -2,
-   "water": 8,
-   "thunder": -6,
-   "ice": 0,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Uth_Duna_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Duna Spear α",
-   "nameEs": "Lanza de Duna F α",
-   "icon": "data/images/palico_weapons/59.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Duna Mask α",
-    "nameEs": "Máscara de Duna F α",
-    "icon": "data/images/palico_pieces/96.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Duna Cape α",
-    "nameEs": "Capa de Duna F α",
-    "icon": "data/images/palico_pieces/97.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Uth_Duna_Gamma_Set",
-  "name": "Felyne Uth Duna Gamma Set",
-  "rarity": 8,
-  "defense": 120,
-  "resistances": {
-   "fire": -2,
-   "water": 8,
-   "thunder": -6,
-   "ice": 0,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Uth_Duna_Gamma_Set.png",
-  "weapon": {
-   "name": "Felyne Duna Spear γ",
-   "nameEs": "Lanza de Duna F γ",
-   "icon": null
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Duna Mask γ",
-    "nameEs": "Máscara de Duna F γ",
-    "icon": null
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Duna Cape γ",
-    "nameEs": "Capa de Duna F γ",
-    "icon": null
-   }
-  ]
- },
- {
-  "slug": "Felyne_Uth_Duna_Set",
-  "name": "Felyne Uth Duna Set",
-  "rarity": 4,
-  "defense": 36,
-  "resistances": {
-   "fire": -2,
-   "water": 8,
-   "thunder": -6,
-   "ice": 0,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Felyne_Uth_Duna_Set.png",
-  "weapon": {
-   "name": "Felyne Duna Spear",
-   "nameEs": "Lanza de Duna F",
-   "icon": "data/images/palico_weapons/0.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Duna Mask",
-    "nameEs": "Máscara de Duna F",
-    "icon": "data/images/palico_pieces/18.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Duna Cape",
-    "nameEs": "Capa de Duna F",
-    "icon": "data/images/palico_pieces/19.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Xu_Wu_Alpha_Set",
-  "name": "Felyne Xu Wu Alpha Set",
-  "rarity": 6,
-  "defense": 76,
-  "resistances": {
-   "fire": 2,
-   "water": 2,
-   "thunder": 2,
-   "ice": -6,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Felyne_Xu_Wu_Alpha_Set.png",
-  "weapon": {
-   "name": "Felyne Xu Wu Orb α",
-   "nameEs": "Orbe de Xu Wu F α",
-   "icon": "data/images/palico_weapons/60.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Xu Wu Veil α",
-    "nameEs": "Velo de Xu Wu F α",
-    "icon": "data/images/palico_pieces/84.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Xu Wu Suit α",
-    "nameEs": "Traje de Xu Wu F α",
-    "icon": "data/images/palico_pieces/85.webp"
-   }
-  ]
- },
- {
-  "slug": "Felyne_Xu_Wu_Set",
-  "name": "Felyne Xu Wu Set",
-  "rarity": 4,
-  "defense": 36,
-  "resistances": {
-   "fire": 2,
-   "water": 2,
-   "thunder": 2,
-   "ice": -6,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Felyne_Xu_Wu_Set.png",
-  "weapon": {
-   "name": "Felyne Xu Wu Orb",
-   "nameEs": "Orbe de Xu Wu F",
-   "icon": "data/images/palico_weapons/71.webp"
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Felyne Xu Wu Veil",
-    "nameEs": "Velo de Xu Wu F",
-    "icon": "data/images/palico_pieces/38.webp"
-   },
-   {
-    "part": "chest",
-    "name": "Felyne Xu Wu Suit",
-    "nameEs": "Traje de Xu Wu F",
-    "icon": "data/images/palico_pieces/39.webp"
-   }
-  ]
- },
- {
-  "slug": "Meowrionette_Alpha_Set",
-  "name": "Meowrionette Alpha Set",
-  "rarity": 5,
-  "defense": 52,
-  "resistances": {
-   "fire": -6,
-   "water": 4,
-   "thunder": 4,
-   "ice": 4,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Meowrionette_Alpha_Set.png",
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Meowrionette Head α",
-    "nameEs": "Cabeza de miaurioneta α",
-    "icon": null
-   },
-   {
-    "part": "chest",
-    "name": "Meowrionette Body α",
-    "nameEs": "Cuerpo de miaurioneta α",
-    "icon": null
-   }
-  ]
- },
- {
-  "slug": "Morbol_Seedling_Alpha_Set",
-  "name": "Morbol Seedling Alpha Set",
-  "rarity": 8,
-  "defense": 60,
-  "resistances": {
-   "fire": 0,
-   "water": 0,
-   "thunder": 0,
-   "ice": 0,
-   "dragon": 0
-  },
-  "image": "data/images/palico_armor/Morbol_Seedling_Alpha_Set.png",
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Morbol Seedling Head α",
-    "nameEs": "Cabeza de cría de molbol α",
-    "icon": null
-   },
-   {
-    "part": "chest",
-    "name": "Morbol Seedling Body α",
-    "nameEs": "Cuerpo de cría de molbol α",
-    "icon": null
-   }
-  ]
- },
- {
-  "slug": "Rudy_Costume_Alpha_Set",
-  "name": "Rudy Costume Alpha Set",
-  "rarity": 5,
-  "defense": 52,
-  "resistances": {
-   "fire": 2,
-   "water": 2,
-   "thunder": 2,
-   "ice": 2,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Rudy_Costume_Alpha_Set.png"
- },
- {
-  "slug": "Thief_Alpha_Set",
-  "name": "Thief Alpha Set",
-  "rarity": 8,
-  "defense": 120,
-  "resistances": {
-   "fire": 4,
-   "water": 4,
-   "thunder": 4,
-   "ice": 4,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Thief_Alpha_Set.png",
-  "pieces": [
-   {
-    "part": "chest",
-    "name": "Thief's Thievin' Scarf α",
-    "nameEs": "Bandana hurtador huraño α",
-    "icon": null
-   }
-  ]
- },
- {
-  "slug": "Wacky_Wudwud_Alpha_Set",
-  "name": "Wacky Wudwud Alpha Set",
-  "rarity": 6,
-  "defense": 64,
-  "resistances": {
-   "fire": 4,
-   "water": 4,
-   "thunder": 4,
-   "ice": 4,
-   "dragon": 4
-  },
-  "image": "data/images/palico_armor/Wacky_Wudwud_Alpha_Set.png",
-  "weapon": {
-   "name": "Wudwud Spiky-Pokey α",
-   "nameEs": "Pinchito Wudwud α",
-   "icon": null
-  },
-  "pieces": [
-   {
-    "part": "head",
-    "name": "Wudwud Mask α",
-    "nameEs": "Máscara de Wudwud α",
-    "icon": null
-   },
-   {
-    "part": "chest",
-    "name": "Wudwud Body α",
-    "nameEs": "Cuerpo de Wudwud α",
-    "icon": null
-   }
-  ]
- },
- {
-  "slug": "Wudwud_Guise_Alpha_Set",
-  "name": "Wudwud Guise Alpha Set",
-  "rarity": 6,
-  "defense": 68,
-  "resistances": {
-   "fire": 2,
-   "water": 8,
-   "thunder": 2,
-   "ice": 2,
-   "dragon": 2
-  },
-  "image": "data/images/palico_armor/Wudwud_Guise_Alpha_Set.png"
- }
+  {
+    "slug": "Athos_Alpha_Set",
+    "name": "Athos Alpha Set",
+    "rarity": 8,
+    "defense": 100,
+    "resistances": {
+      "fire": 4,
+      "water": 4,
+      "thunder": 4,
+      "ice": 4,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Athos_Alpha_Set.webp",
+    "weapon": {
+      "name": "Athos's Hinge Blade α",
+      "nameEs": "Espada giratoria Athos α",
+      "icon": "data/images/palico_weapons/19.webp"
+    },
+    "pieces": [
+      {
+        "part": "chest",
+        "name": "Athos's Scar α",
+        "nameEs": "Cicatriz de Athos F α",
+        "icon": "data/images/palico_pieces/42.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Afi_Alpha_Set",
+    "name": "Felyne Afi Alpha Set",
+    "rarity": 5,
+    "defense": 52,
+    "resistances": {
+      "fire": 4,
+      "water": -6,
+      "thunder": 4,
+      "ice": 4,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Felyne_Afi_Alpha_Set.webp",
+    "pieces": [
+      {
+        "part": "chest",
+        "name": "Felyne Afi Firemane α",
+        "nameEs": "Crin ígnea afi F α",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Ajarakan_Alpha_Set",
+    "name": "Felyne Ajarakan Alpha Set",
+    "rarity": 6,
+    "defense": 76,
+    "resistances": {
+      "fire": 6,
+      "water": -6,
+      "thunder": 2,
+      "ice": -4,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Ajarakan_Alpha_Set.webp",
+    "weapon": {
+      "name": "F Ajarakan Staff α",
+      "nameEs": "Vara de Ajarakan F α",
+      "icon": "data/images/palico_weapons/61.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Ajarakan Helm α",
+        "nameEs": "Yelmo de Ajarakan F α",
+        "icon": "data/images/palico_pieces/76.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Ajarakan Mail α",
+        "nameEs": "Cota de Ajarakan F α",
+        "icon": "data/images/palico_pieces/77.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Ajarakan_Set",
+    "name": "Felyne Ajarakan Set",
+    "rarity": 3,
+    "defense": 28,
+    "resistances": {
+      "fire": 6,
+      "water": -6,
+      "thunder": 2,
+      "ice": -4,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Ajarakan_Set.webp",
+    "weapon": {
+      "name": "F Ajarakan Staff",
+      "nameEs": "Vara de Ajarakan F",
+      "icon": "data/images/palico_weapons/26.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Ajarakan Helm",
+        "nameEs": "Yelmo de Ajarakan F",
+        "icon": "data/images/palico_pieces/28.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Ajarakan Mail",
+        "nameEs": "Cota de Ajarakan F",
+        "icon": "data/images/palico_pieces/29.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Alloy_Alpha_Set",
+    "name": "Felyne Alloy Alpha Set",
+    "rarity": 5,
+    "defense": 52,
+    "resistances": {
+      "fire": -4,
+      "water": 2,
+      "thunder": -4,
+      "ice": -4,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Alloy_Alpha_Set.webp",
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Alloy Helm α",
+        "nameEs": "Yelmo de aleación F α",
+        "icon": "data/images/palico_pieces/48.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Alloy Mail α",
+        "nameEs": "Cota de aleación F α",
+        "icon": "data/images/palico_pieces/49.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Alloy_Set",
+    "name": "Felyne Alloy Set",
+    "rarity": 1,
+    "defense": 12,
+    "resistances": {
+      "fire": -4,
+      "water": 2,
+      "thunder": -4,
+      "ice": -4,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Alloy_Set.webp",
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Alloy Helm",
+        "nameEs": "Yelmo de aleación F",
+        "icon": "data/images/palico_pieces/8.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Alloy Mail",
+        "nameEs": "Cota de aleación F",
+        "icon": "data/images/palico_pieces/9.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Aloha_Alpha_Set",
+    "name": "Felyne Aloha Alpha Set",
+    "rarity": 5,
+    "defense": 52,
+    "resistances": {
+      "fire": 2,
+      "water": 8,
+      "thunder": 2,
+      "ice": 2,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Aloha_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Aloha Ukulele α",
+      "nameEs": "Ukelele hawaiano F α",
+      "icon": null
+    },
+    "pieces": [
+      {
+        "part": "chest",
+        "name": "Felyne Aloha Straw Hat α",
+        "nameEs": "Sombrero hawaiano F α",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Arkveld_Alpha_Set",
+    "name": "Felyne Arkveld Alpha Set",
+    "rarity": 8,
+    "defense": 108,
+    "resistances": {
+      "fire": 4,
+      "water": 0,
+      "thunder": -2,
+      "ice": 0,
+      "dragon": -6
+    },
+    "image": "data/images/palico_armor/Felyne_Arkveld_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Arkveld Sword α",
+      "nameEs": "Espada de Arkveld F α",
+      "icon": "data/images/palico_weapons/43.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Arkveld Helm α",
+        "nameEs": "Yelmo de Arkveld F α",
+        "icon": "data/images/palico_pieces/104.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Arkveld Mail α",
+        "nameEs": "Cota de Arkveld F α",
+        "icon": "data/images/palico_pieces/105.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Arkveld_Gamma_Set",
+    "name": "Felyne Arkveld Gamma Set",
+    "rarity": 8,
+    "defense": 132,
+    "resistances": {
+      "fire": 4,
+      "water": 0,
+      "thunder": -2,
+      "ice": 0,
+      "dragon": -6
+    },
+    "image": "data/images/palico_armor/Felyne_Arkveld_Gamma_Set.webp"
+  },
+  {
+    "slug": "Felyne_Artian_Alpha_Set",
+    "name": "Felyne Artian Alpha Set",
+    "rarity": 6,
+    "defense": 68,
+    "resistances": {
+      "fire": 2,
+      "water": -4,
+      "thunder": -4,
+      "ice": 4,
+      "dragon": 6
+    },
+    "image": "data/images/palico_armor/Felyne_Artian_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Artian Disc α",
+      "nameEs": "Disco artiano F α",
+      "icon": "data/images/palico_weapons/54.webp"
+    },
+    "pieces": [
+      {
+        "part": "chest",
+        "name": "Felyne Artian Core α",
+        "nameEs": "Núcleo artiano F α",
+        "icon": "data/images/palico_pieces/120.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Azure_Era_Alpha_Set",
+    "name": "Felyne Azure Era Alpha Set",
+    "rarity": 8,
+    "defense": 120,
+    "resistances": {
+      "fire": 4,
+      "water": 8,
+      "thunder": 0,
+      "ice": 0,
+      "dragon": 6
+    },
+    "image": "data/images/palico_armor/Felyne_Azure_Era_Alpha_Set.webp"
+  },
+  {
+    "slug": "Felyne_Azuz_Alpha_Set",
+    "name": "Felyne Azuz Alpha Set",
+    "rarity": 6,
+    "defense": 68,
+    "resistances": {
+      "fire": 8,
+      "water": 2,
+      "thunder": 2,
+      "ice": 2,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Azuz_Alpha_Set.webp",
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Azuz Head α",
+        "nameEs": "Cabeza de Azuz F α",
+        "icon": "data/images/palico_pieces/114.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Azuz Body α",
+        "nameEs": "Cuerpo de Azuz F α",
+        "icon": "data/images/palico_pieces/115.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Balahara_Alpha_Set",
+    "name": "Felyne Balahara Alpha Set",
+    "rarity": 5,
+    "defense": 60,
+    "resistances": {
+      "fire": -2,
+      "water": 4,
+      "thunder": -6,
+      "ice": 2,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Balahara_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Balahara Drill α",
+      "nameEs": "Taladro de Balahara F α",
+      "icon": "data/images/palico_weapons/9.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Balahara Helm α",
+        "nameEs": "Yelmo de Balahara F α",
+        "icon": "data/images/palico_pieces/64.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Balahara Mech α",
+        "nameEs": "Robot Balahara F α",
+        "icon": "data/images/palico_pieces/65.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Balahara_Set",
+    "name": "Felyne Balahara Set",
+    "rarity": 2,
+    "defense": 20,
+    "resistances": {
+      "fire": -2,
+      "water": 4,
+      "thunder": -6,
+      "ice": 2,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Balahara_Set.webp",
+    "weapon": {
+      "name": "Felyne Balahara Drill",
+      "nameEs": "Taladro de Balahara F",
+      "icon": "data/images/palico_weapons/47.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Balahara Helm",
+        "nameEs": "Yelmo de Balahara F",
+        "icon": "data/images/palico_pieces/14.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Balahara Mech",
+        "nameEs": "Robot Balahara F",
+        "icon": "data/images/palico_pieces/15.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Blango_Alpha_Set",
+    "name": "Felyne Blango Alpha Set",
+    "rarity": 6,
+    "defense": 76,
+    "resistances": {
+      "fire": -8,
+      "water": 2,
+      "thunder": 0,
+      "ice": 8,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Blango_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Blango Banana α",
+      "nameEs": "Plátano de Blango F α",
+      "icon": "data/images/palico_weapons/51.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Blango Head α",
+        "nameEs": "Cabeza de Blango F α",
+        "icon": "data/images/palico_pieces/86.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Blango Body α",
+        "nameEs": "Cuerpo de Blango F α",
+        "icon": "data/images/palico_pieces/87.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Bone_Alpha_Set",
+    "name": "Felyne Bone Alpha Set",
+    "rarity": 5,
+    "defense": 44,
+    "resistances": {
+      "fire": 4,
+      "water": 0,
+      "thunder": 4,
+      "ice": 0,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Felyne_Bone_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Bone Hammer α",
+      "nameEs": "Martillo de hueso F α",
+      "icon": "data/images/palico_weapons/49.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Bone Helm α",
+        "nameEs": "Yelmo de hueso F α",
+        "icon": "data/images/palico_pieces/46.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Bone Mail α",
+        "nameEs": "Cota de hueso F α",
+        "icon": "data/images/palico_pieces/47.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Bone_Set",
+    "name": "Felyne Bone Set",
+    "rarity": 1,
+    "defense": 4,
+    "resistances": {
+      "fire": 4,
+      "water": 0,
+      "thunder": 4,
+      "ice": 0,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Felyne_Bone_Set.webp",
+    "weapon": {
+      "name": "Felyne Bone Hammer",
+      "nameEs": "Martillo de hueso F",
+      "icon": "data/images/palico_weapons/70.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Bone Helm",
+        "nameEs": "Yelmo de hueso F",
+        "icon": "data/images/palico_pieces/2.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Bone Mail",
+        "nameEs": "Cota de hueso F",
+        "icon": "data/images/palico_pieces/3.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Butterfly_Alpha_Set",
+    "name": "Felyne Butterfly Alpha Set",
+    "rarity": 5,
+    "defense": 52,
+    "resistances": {
+      "fire": 2,
+      "water": 2,
+      "thunder": 8,
+      "ice": 2,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Butterfly_Alpha_Set.webp",
+    "weapon": {
+      "name": "Twinflight Butterflies α",
+      "nameEs": "Mariposas gemelas α",
+      "icon": null
+    },
+    "pieces": [
+      {
+        "part": "chest",
+        "name": "F Butterfly Hat α",
+        "nameEs": "Sombrero de mariposa F α",
+        "icon": "data/images/palico_pieces/146.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Chatacabra_Alpha_Set",
+    "name": "Felyne Chatacabra Alpha Set",
+    "rarity": 5,
+    "defense": 52,
+    "resistances": {
+      "fire": 2,
+      "water": 4,
+      "thunder": -6,
+      "ice": -2,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Chatacabra_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Chata Clobberer α",
+      "nameEs": "Mazo Chata F α",
+      "icon": "data/images/palico_weapons/2.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Cabra Hood α",
+        "nameEs": "Capucha Chatacabra F α",
+        "icon": "data/images/palico_pieces/50.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Cabra Jumpsuit α",
+        "nameEs": "Mono Chatacabra F α",
+        "icon": "data/images/palico_pieces/51.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Chatacabra_Set",
+    "name": "Felyne Chatacabra Set",
+    "rarity": 1,
+    "defense": 12,
+    "resistances": {
+      "fire": 2,
+      "water": 4,
+      "thunder": -6,
+      "ice": -2,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Chatacabra_Set.webp",
+    "weapon": {
+      "name": "Felyne Chata Clobberer",
+      "nameEs": "Mazo Chata F",
+      "icon": "data/images/palico_weapons/3.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Cabra Hood",
+        "nameEs": "Capucha Chatacabra F",
+        "icon": "data/images/palico_pieces/4.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Cabra Jumpsuit",
+        "nameEs": "Mono Chatacabra F",
+        "icon": "data/images/palico_pieces/5.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Conga_Alpha_Set",
+    "name": "Felyne Conga Alpha Set",
+    "rarity": 5,
+    "defense": 52,
+    "resistances": {
+      "fire": -6,
+      "water": 2,
+      "thunder": 2,
+      "ice": -2,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Felyne_Conga_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Conga Tambourine α",
+      "nameEs": "Pandereta de Conga F α",
+      "icon": "data/images/palico_weapons/18.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Conga Head α",
+        "nameEs": "Cabeza de Conga F α",
+        "icon": "data/images/palico_pieces/56.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Conga Fete α",
+        "nameEs": "Fiesta de Conga F α",
+        "icon": "data/images/palico_pieces/57.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Conga_Set",
+    "name": "Felyne Conga Set",
+    "rarity": 2,
+    "defense": 16,
+    "resistances": {
+      "fire": -6,
+      "water": 2,
+      "thunder": 2,
+      "ice": -2,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Felyne_Conga_Set.webp",
+    "weapon": {
+      "name": "Felyne Conga Tambourine",
+      "nameEs": "Pandereta de Conga F",
+      "icon": "data/images/palico_weapons/44.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Conga Head",
+        "nameEs": "Cabeza de Conga F",
+        "icon": "data/images/palico_pieces/12.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Conga Fete",
+        "nameEs": "Fiesta de Conga F",
+        "icon": "data/images/palico_pieces/13.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Dahaad_Alpha_Set",
+    "name": "Felyne Dahaad Alpha Set",
+    "rarity": 7,
+    "defense": 100,
+    "resistances": {
+      "fire": -8,
+      "water": 4,
+      "thunder": -2,
+      "ice": 10,
+      "dragon": -2
+    },
+    "image": "data/images/palico_armor/Felyne_Dahaad_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Dahaad Mace α",
+      "nameEs": "Maza Dahaad F α",
+      "icon": "data/images/palico_weapons/45.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Dahaad Corona α",
+        "nameEs": "Corona Dahaad F α",
+        "icon": "data/images/palico_pieces/92.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Dahaad Gown α",
+        "nameEs": "Atuendo Dahaad F α",
+        "icon": "data/images/palico_pieces/93.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Dahaad_Gamma_Set",
+    "name": "Felyne Dahaad Gamma Set",
+    "rarity": 8,
+    "defense": 132,
+    "resistances": {
+      "fire": -6,
+      "water": 4,
+      "thunder": -2,
+      "ice": 4,
+      "dragon": -2
+    },
+    "image": "data/images/palico_armor/Felyne_Dahaad_Gamma_Set.webp",
+    "weapon": {
+      "name": "Felyne Dahaad Mace γ",
+      "nameEs": "Maza Dahaad F γ",
+      "icon": null
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Dahaad Corona γ",
+        "nameEs": "Corona Dahaad F γ",
+        "icon": null
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Dahaad Gown γ",
+        "nameEs": "Atuendo Dahaad F γ",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Death_Stench_Alpha_Set",
+    "name": "Felyne Death Stench Alpha Set",
+    "rarity": 6,
+    "defense": 68,
+    "resistances": {
+      "fire": 6,
+      "water": 4,
+      "thunder": -4,
+      "ice": 6,
+      "dragon": 8
+    },
+    "image": "data/images/palico_armor/Felyne_Death_Stench_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Deathgear Scythe α",
+      "nameEs": "Guadaña letal F α",
+      "icon": "data/images/palico_weapons/66.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Deathgear Hood α",
+        "nameEs": "Capucha de muerte F α",
+        "icon": "data/images/palico_pieces/106.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Deathgear Cowl α",
+        "nameEs": "Túnica de muerte F α",
+        "icon": "data/images/palico_pieces/107.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Doshaguma_Alpha_Set",
+    "name": "Felyne Doshaguma Alpha Set",
+    "rarity": 6,
+    "defense": 76,
+    "resistances": {
+      "fire": -6,
+      "water": 4,
+      "thunder": -2,
+      "ice": -2,
+      "dragon": 8
+    },
+    "image": "data/images/palico_armor/Felyne_Doshaguma_Alpha_Set.webp",
+    "weapon": {
+      "name": "F Doshaguma Knuckle α",
+      "nameEs": "Nudillos Doshaguma F α",
+      "icon": "data/images/palico_weapons/68.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Doshaguma Helm α",
+        "nameEs": "Yelmo Doshaguma F α",
+        "icon": "data/images/palico_pieces/74.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Doshaguma Mail α",
+        "nameEs": "Cota Doshaguma F α",
+        "icon": "data/images/palico_pieces/75.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Doshaguma_Set",
+    "name": "Felyne Doshaguma Set",
+    "rarity": 2,
+    "defense": 20,
+    "resistances": {
+      "fire": -6,
+      "water": 4,
+      "thunder": -2,
+      "ice": -2,
+      "dragon": 8
+    },
+    "image": "data/images/palico_armor/Felyne_Doshaguma_Set.webp",
+    "weapon": {
+      "name": "F Doshaguma Knuckle",
+      "nameEs": "Nudillos Doshaguma F",
+      "icon": "data/images/palico_weapons/6.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Doshaguma Helm",
+        "nameEs": "Yelmo Doshaguma F",
+        "icon": "data/images/palico_pieces/16.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Doshaguma Mail",
+        "nameEs": "Cota Doshaguma F",
+        "icon": "data/images/palico_pieces/17.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Duffel_Set",
+    "name": "Felyne Duffel Set",
+    "rarity": 1,
+    "defense": 4,
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "thunder": 4,
+      "ice": 4,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Duffel_Set.webp",
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Duffel Hood",
+        "nameEs": "Capucha lanuda F",
+        "icon": "data/images/palico_pieces/124.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Duffel Coat",
+        "nameEs": "Abrigo lanudo F",
+        "icon": "data/images/palico_pieces/125.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_G_Ark_Alpha_Set",
+    "name": "Felyne G Ark Alpha Set",
+    "rarity": 8,
+    "defense": 112,
+    "resistances": {
+      "fire": 4,
+      "water": 0,
+      "thunder": -2,
+      "ice": 0,
+      "dragon": -8
+    },
+    "image": "data/images/palico_armor/Felyne_G_Ark_Alpha_Set.webp",
+    "weapon": {
+      "name": "F Guardian Ark Sword α",
+      "nameEs": "Espada de Arkveld G. F α",
+      "icon": "data/images/palico_weapons/62.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Guardian Ark Helm α",
+        "nameEs": "Yelmo de Arkveld G. F α",
+        "icon": "data/images/palico_pieces/102.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Guardian Ark Mail α",
+        "nameEs": "Cota de Arkveld G. F α",
+        "icon": "data/images/palico_pieces/103.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_G_Ark_Set",
+    "name": "Felyne G Ark Set",
+    "rarity": 4,
+    "defense": 44,
+    "resistances": {
+      "fire": 4,
+      "water": 0,
+      "thunder": -2,
+      "ice": 0,
+      "dragon": -8
+    },
+    "image": "data/images/palico_armor/Felyne_G_Ark_Set.webp",
+    "weapon": {
+      "name": "F Guardian Ark Sword",
+      "nameEs": "Espada de Arkveld G. F",
+      "icon": "data/images/palico_weapons/12.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Guardian Ark Helm",
+        "nameEs": "Yelmo de Arkveld G. F",
+        "icon": "data/images/palico_pieces/40.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Guardian Ark Mail",
+        "nameEs": "Cota de Arkveld G. F",
+        "icon": "data/images/palico_pieces/41.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_G_Doshaguma_Alpha_Set",
+    "name": "Felyne G Doshaguma Alpha Set",
+    "rarity": 6,
+    "defense": 76,
+    "resistances": {
+      "fire": -6,
+      "water": 4,
+      "thunder": -2,
+      "ice": -4,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Felyne_G_Doshaguma_Alpha_Set.webp",
+    "weapon": {
+      "name": "F Guardian Dosha Knuckle α",
+      "nameEs": "Nudillos Doshaguma G. F α",
+      "icon": "data/images/palico_weapons/4.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Guardian Dosha Helm α",
+        "nameEs": "Yelmo Doshaguma G. F α",
+        "icon": "data/images/palico_pieces/78.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Guardian Dosha Mail α",
+        "nameEs": "Cota Doshaguma G. F α",
+        "icon": "data/images/palico_pieces/79.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_G_Doshaguma_Set",
+    "name": "Felyne G Doshaguma Set",
+    "rarity": 4,
+    "defense": 36,
+    "resistances": {
+      "fire": -6,
+      "water": 4,
+      "thunder": -2,
+      "ice": -4,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Felyne_G_Doshaguma_Set.webp",
+    "weapon": {
+      "name": "F Guardian Dosha Knuckle",
+      "nameEs": "Nudillos Doshaguma G. F",
+      "icon": "data/images/palico_weapons/63.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Guardian Dosha Helm",
+        "nameEs": "Yelmo Doshaguma G. F",
+        "icon": "data/images/palico_pieces/32.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Guardian Dosha Mail",
+        "nameEs": "Cota Doshaguma G. F",
+        "icon": "data/images/palico_pieces/33.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_G_Ebony_Alpha_Set",
+    "name": "Felyne G Ebony Alpha Set",
+    "rarity": 6,
+    "defense": 76,
+    "resistances": {
+      "fire": -4,
+      "water": -6,
+      "thunder": -4,
+      "ice": -4,
+      "dragon": 8
+    },
+    "image": "data/images/palico_armor/Felyne_G_Ebony_Alpha_Set.webp",
+    "weapon": {
+      "name": "F Guardian Ebony Sickle α",
+      "nameEs": "Hoz de Ébano G. F α",
+      "icon": "data/images/palico_weapons/69.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Guardian Ebony Helm α",
+        "nameEs": "Yelmo de Ébano G. F α",
+        "icon": "data/images/palico_pieces/82.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Guardian Ebony Mail α",
+        "nameEs": "Cota de Ébano G. F α",
+        "icon": "data/images/palico_pieces/83.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_G_Ebony_Set",
+    "name": "Felyne G Ebony Set",
+    "rarity": 4,
+    "defense": 36,
+    "resistances": {
+      "fire": -4,
+      "water": -6,
+      "thunder": -4,
+      "ice": -4,
+      "dragon": 8
+    },
+    "image": "data/images/palico_armor/Felyne_G_Ebony_Set.webp",
+    "weapon": {
+      "name": "F Guardian Ebony Sickle",
+      "nameEs": "Hoz de Ébano G. F",
+      "icon": "data/images/palico_weapons/14.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Guardian Ebony Helm",
+        "nameEs": "Yelmo de Ébano G. F",
+        "icon": "data/images/palico_pieces/36.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Guardian Ebony Mail",
+        "nameEs": "Cota de Ébano G. F",
+        "icon": "data/images/palico_pieces/37.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_G_Fulgur_Alpha_Set",
+    "name": "Felyne G Fulgur Alpha Set",
+    "rarity": 6,
+    "defense": 76,
+    "resistances": {
+      "fire": -2,
+      "water": -2,
+      "thunder": 4,
+      "ice": -6,
+      "dragon": -4
+    },
+    "image": "data/images/palico_armor/Felyne_G_Fulgur_Alpha_Set.webp",
+    "weapon": {
+      "name": "F Guardian Fulgur Maul α",
+      "nameEs": "Mazo Fulgúreo G. F α",
+      "icon": "data/images/palico_weapons/50.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Guardian Fulgur Helm α",
+        "nameEs": "Yelmo Fulgúreo G. F α",
+        "icon": "data/images/palico_pieces/72.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Guardian Fulgur Mail α",
+        "nameEs": "Cota Fulgúrea G. F α",
+        "icon": "data/images/palico_pieces/73.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_G_Rathalos_Alpha_Set",
+    "name": "Felyne G Rathalos Alpha Set",
+    "rarity": 6,
+    "defense": 76,
+    "resistances": {
+      "fire": 6,
+      "water": 2,
+      "thunder": -4,
+      "ice": 2,
+      "dragon": -10
+    },
+    "image": "data/images/palico_armor/Felyne_G_Rathalos_Alpha_Set.webp",
+    "weapon": {
+      "name": "F Guardian Rath Blade α",
+      "nameEs": "Filo de Rath G. F α",
+      "icon": "data/images/palico_weapons/55.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Guardian Rath Helm α",
+        "nameEs": "Yelmo de Rath G. F α",
+        "icon": "data/images/palico_pieces/80.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Guardian Rath Mail α",
+        "nameEs": "Cota de Rath G. F α",
+        "icon": "data/images/palico_pieces/81.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_G_Rathalos_Set",
+    "name": "Felyne G Rathalos Set",
+    "rarity": 4,
+    "defense": 36,
+    "resistances": {
+      "fire": 6,
+      "water": 2,
+      "thunder": -4,
+      "ice": 2,
+      "dragon": -10
+    },
+    "image": "data/images/palico_armor/Felyne_G_Rathalos_Set.webp",
+    "weapon": {
+      "name": "F Guardian Rath Blade",
+      "nameEs": "Filo de Rath G. F",
+      "icon": "data/images/palico_weapons/58.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Guardian Rath Helm",
+        "nameEs": "Yelmo de Rath G. F",
+        "icon": "data/images/palico_pieces/34.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Guardian Rath Mail",
+        "nameEs": "Cota de Rath G. F",
+        "icon": "data/images/palico_pieces/35.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Ghost_Alpha_Set",
+    "name": "Felyne Ghost Alpha Set",
+    "rarity": 5,
+    "defense": 52,
+    "resistances": {
+      "fire": 8,
+      "water": 2,
+      "thunder": 2,
+      "ice": 2,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Ghost_Alpha_Set.webp",
+    "pieces": [
+      {
+        "part": "chest",
+        "name": "Felyne Ghost Garb α",
+        "nameEs": "Atuendo fantasmal F α",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Gog_Alpha_Set",
+    "name": "Felyne Gog Alpha Set",
+    "rarity": 8,
+    "defense": 132,
+    "resistances": {
+      "fire": -8,
+      "water": 6,
+      "thunder": 0,
+      "ice": 6,
+      "dragon": -10
+    },
+    "image": "data/images/palico_armor/Felyne_Gog_Alpha_Set.webp",
+    "pieces": [
+      {
+        "part": "chest",
+        "name": "Felyne Gog Burden α",
+        "nameEs": "Carga Gog F α",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Gore_Alpha_Set",
+    "name": "Felyne Gore Alpha Set",
+    "rarity": 7,
+    "defense": 100,
+    "resistances": {
+      "fire": -4,
+      "water": 6,
+      "thunder": -2,
+      "ice": 4,
+      "dragon": -2
+    },
+    "image": "data/images/palico_armor/Felyne_Gore_Alpha_Set.webp",
+    "pieces": [
+      {
+        "part": "chest",
+        "name": "Felyne Gore Horror α",
+        "nameEs": "Terror Gore F α",
+        "icon": "data/images/palico_pieces/100.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Gravios_Alpha_Set",
+    "name": "Felyne Gravios Alpha Set",
+    "rarity": 6,
+    "defense": 84,
+    "resistances": {
+      "fire": 8,
+      "water": -6,
+      "thunder": 2,
+      "ice": 0,
+      "dragon": -4
+    },
+    "image": "data/images/palico_armor/Felyne_Gravios_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Grav Bazooka α",
+      "nameEs": "Bazuca de Gravios F α",
+      "icon": "data/images/palico_weapons/67.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Grav Mask α",
+        "nameEs": "Máscara de Grav F α",
+        "icon": "data/images/palico_pieces/90.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Grav Armor α",
+        "nameEs": "Armadura de Grav F α",
+        "icon": "data/images/palico_pieces/91.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Gypceros_Alpha_Set",
+    "name": "Felyne Gypceros Alpha Set",
+    "rarity": 5,
+    "defense": 52,
+    "resistances": {
+      "fire": -8,
+      "water": 6,
+      "thunder": 8,
+      "ice": -2,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Gypceros_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Gypceros Glare α",
+      "nameEs": "Mirada de Gypceros F α",
+      "icon": "data/images/palico_weapons/23.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Gypceros Crest α",
+        "nameEs": "Cresta de Gypceros F α",
+        "icon": "data/images/palico_pieces/60.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Gypceros Tunic α",
+        "nameEs": "Túnica de Gypceros F α",
+        "icon": "data/images/palico_pieces/61.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Hirabami_Alpha_Set",
+    "name": "Felyne Hirabami Alpha Set",
+    "rarity": 5,
+    "defense": 60,
+    "resistances": {
+      "fire": -6,
+      "water": 4,
+      "thunder": -4,
+      "ice": 6,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Hirabami_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Hirabami Fan α",
+      "nameEs": "Abanico de Hirabami F α",
+      "icon": "data/images/palico_weapons/11.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Hirabami Cap α",
+        "nameEs": "Gorro de Hirabami F α",
+        "icon": "data/images/palico_pieces/68.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Hirabami Robe α",
+        "nameEs": "Túnica de Hirabami F α",
+        "icon": "data/images/palico_pieces/69.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Hirabami_Set",
+    "name": "Felyne Hirabami Set",
+    "rarity": 3,
+    "defense": 28,
+    "resistances": {
+      "fire": -6,
+      "water": 4,
+      "thunder": -4,
+      "ice": 6,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Hirabami_Set.webp",
+    "weapon": {
+      "name": "Felyne Hirabami Fan",
+      "nameEs": "Abanico de Hirabami F",
+      "icon": "data/images/palico_weapons/17.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Hirabami Cap",
+        "nameEs": "Gorro de Hirabami F",
+        "icon": "data/images/palico_pieces/26.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Hirabami Robe",
+        "nameEs": "Túnica de Hirabami F",
+        "icon": "data/images/palico_pieces/27.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Hope_Alpha_Set",
+    "name": "Felyne Hope Alpha Set",
+    "rarity": 5,
+    "defense": 44,
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "thunder": 2,
+      "ice": 0,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Hope_Alpha_Set.webp",
+    "weapon": {
+      "name": "F Hope Hammer α",
+      "nameEs": "Mazo de esperanza F α",
+      "icon": "data/images/palico_weapons/57.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Hope Helm α",
+        "nameEs": "Yelmo de esperanza F α",
+        "icon": "data/images/palico_pieces/44.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Hope Suit α",
+        "nameEs": "Traje de esperanza F α",
+        "icon": "data/images/palico_pieces/45.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Hope_Set",
+    "name": "Felyne Hope Set",
+    "rarity": 1,
+    "defense": 4,
+    "resistances": {
+      "fire": 2,
+      "water": 0,
+      "thunder": 2,
+      "ice": 0,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Hope_Set.webp",
+    "weapon": {
+      "name": "Felyne Hope Hammer",
+      "nameEs": "Mazo de esperanza F",
+      "icon": "data/images/palico_weapons/1.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Hope Helm",
+        "nameEs": "Yelmo de esperanza F",
+        "icon": "data/images/palico_pieces/0.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Hope Suit",
+        "nameEs": "Traje de esperanza F",
+        "icon": "data/images/palico_pieces/1.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Hymstrigian_Set",
+    "name": "Felyne Hymstrigian Set",
+    "rarity": 6,
+    "defense": 76,
+    "resistances": {
+      "fire": -4,
+      "water": 4,
+      "thunder": 2,
+      "ice": -4,
+      "dragon": 6
+    },
+    "image": "data/images/palico_armor/Felyne_Hymstrigian_Set.webp"
+  },
+  {
+    "slug": "Felyne_Kunafa_Alpha_Set",
+    "name": "Felyne Kunafa Alpha Set",
+    "rarity": 6,
+    "defense": 68,
+    "resistances": {
+      "fire": 2,
+      "water": 2,
+      "thunder": 8,
+      "ice": 2,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Kunafa_Alpha_Set.webp",
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Kunafa Hood α",
+        "nameEs": "Capucha de Kunafa F α",
+        "icon": "data/images/palico_pieces/110.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Kunafa Suit α",
+        "nameEs": "Traje de Kunafa F α",
+        "icon": "data/images/palico_pieces/111.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Lagiacrus_Alpha_Set",
+    "name": "Felyne Lagiacrus Alpha Set",
+    "rarity": 7,
+    "defense": 375,
+    "resistances": {
+      "fire": -6,
+      "water": 4,
+      "thunder": 8,
+      "ice": -2,
+      "dragon": -4
+    },
+    "image": "data/images/palico_armor/Felyne_Lagiacrus_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Lagia Anchor α",
+      "nameEs": "Ancla Lagia F α",
+      "icon": null
+    },
+    "pieces": [
+      {
+        "part": "chest",
+        "name": "Felyne Lagia Tricorne α",
+        "nameEs": "Tricornio de Lagia F α",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Lala_Barina_Alpha_Set",
+    "name": "Felyne Lala Barina Alpha Set",
+    "rarity": 5,
+    "defense": 52,
+    "resistances": {
+      "fire": -6,
+      "water": 6,
+      "thunder": 0,
+      "ice": 0,
+      "dragon": 6
+    },
+    "image": "data/images/palico_armor/Felyne_Lala_Barina_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Barina Needle α",
+      "nameEs": "Púa de Lala Barina F α",
+      "icon": "data/images/palico_weapons/7.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Barina Wig α",
+        "nameEs": "Peluca de Barina F α",
+        "icon": "data/images/palico_pieces/54.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Barina Dress α",
+        "nameEs": "Vestido de Barina F α",
+        "icon": "data/images/palico_pieces/55.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Lala_Barina_Set",
+    "name": "Felyne Lala Barina Set",
+    "rarity": 1,
+    "defense": 16,
+    "resistances": {
+      "fire": -6,
+      "water": 6,
+      "thunder": 0,
+      "ice": 0,
+      "dragon": 6
+    },
+    "image": "data/images/palico_armor/Felyne_Lala_Barina_Set.webp",
+    "weapon": {
+      "name": "Felyne Barina Needle",
+      "nameEs": "Púa de Lala Barina F",
+      "icon": "data/images/palico_weapons/5.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Barina Wig",
+        "nameEs": "Peluca de Barina F",
+        "icon": "data/images/palico_pieces/10.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Barina Dress",
+        "nameEs": "Vestido de Barina F",
+        "icon": "data/images/palico_pieces/11.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Leather_Set",
+    "name": "Felyne Leather Set",
+    "rarity": 1,
+    "defense": 4,
+    "resistances": {
+      "fire": 4,
+      "water": 0,
+      "thunder": 0,
+      "ice": 0,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Leather_Set.webp",
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Leather Cap",
+        "nameEs": "Cubrecabeza cuero F",
+        "icon": "data/images/palico_pieces/122.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Leather Vest",
+        "nameEs": "Chaleco de cuero F",
+        "icon": "data/images/palico_pieces/123.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Mizutsune_Alpha_Set",
+    "name": "Felyne Mizutsune Alpha Set",
+    "rarity": 6,
+    "defense": 351,
+    "resistances": {
+      "fire": 0,
+      "water": 4,
+      "thunder": -6,
+      "ice": 2,
+      "dragon": -2
+    },
+    "image": "data/images/palico_armor/Felyne_Mizutsune_Alpha_Set.webp",
+    "weapon": {
+      "name": "F Mizutsune Parasol α",
+      "nameEs": "Paraguas Mizutsune F α",
+      "icon": "data/images/palico_weapons/41.webp"
+    },
+    "pieces": [
+      {
+        "part": "chest",
+        "name": "F Mizutsune Kasa α",
+        "nameEs": "Kasa Mizutsune F α",
+        "icon": "data/images/palico_pieces/126.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Nerscylla_Alpha_Set",
+    "name": "Felyne Nerscylla Alpha Set",
+    "rarity": 5,
+    "defense": 60,
+    "resistances": {
+      "fire": -4,
+      "water": 4,
+      "thunder": -4,
+      "ice": 2,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Felyne_Nerscylla_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Nerscylla Wedge α",
+      "nameEs": "Cuña de Nerscylla F α",
+      "icon": "data/images/palico_weapons/52.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Scylla Mask α",
+        "nameEs": "Máscara de Scylla F α",
+        "icon": "data/images/palico_pieces/66.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Scylla Mail α",
+        "nameEs": "Cota de Scylla F α",
+        "icon": "data/images/palico_pieces/67.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Nerscylla_Set",
+    "name": "Felyne Nerscylla Set",
+    "rarity": 3,
+    "defense": 28,
+    "resistances": {
+      "fire": -4,
+      "water": 4,
+      "thunder": -4,
+      "ice": 2,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Felyne_Nerscylla_Set.webp",
+    "weapon": {
+      "name": "Felyne Nerscylla Wedge",
+      "nameEs": "Cuña de Nerscylla F",
+      "icon": "data/images/palico_weapons/8.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Scylla Mask",
+        "nameEs": "Máscara de Scylla F",
+        "icon": "data/images/palico_pieces/24.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Scylla Mail",
+        "nameEs": "Cota de Scylla F",
+        "icon": "data/images/palico_pieces/25.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Nu_Udra_Alpha_Set",
+    "name": "Felyne Nu Udra Alpha Set",
+    "rarity": 7,
+    "defense": 100,
+    "resistances": {
+      "fire": 10,
+      "water": -8,
+      "thunder": 0,
+      "ice": 2,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Nu_Udra_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Udra Vessel α",
+      "nameEs": "Recipiente de Udra F α",
+      "icon": "data/images/palico_weapons/46.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Udra Head α",
+        "nameEs": "Cabeza de Udra F α",
+        "icon": "data/images/palico_pieces/98.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Udra Tentacles α",
+        "nameEs": "Tentáculos de Udra F α",
+        "icon": "data/images/palico_pieces/99.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Nu_Udra_Set",
+    "name": "Felyne Nu Udra Set",
+    "rarity": 4,
+    "defense": 36,
+    "resistances": {
+      "fire": 10,
+      "water": -8,
+      "thunder": 0,
+      "ice": 2,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Nu_Udra_Set.webp",
+    "weapon": {
+      "name": "Felyne Udra Vessel",
+      "nameEs": "Recipiente de Udra F",
+      "icon": "data/images/palico_weapons/48.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Udra Head",
+        "nameEs": "Cabeza de Udra F",
+        "icon": "data/images/palico_pieces/30.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Udra Tentacles",
+        "nameEs": "Tentáculos de Udra F",
+        "icon": "data/images/palico_pieces/31.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Numinous_Alpha_Set",
+    "name": "Felyne Numinous Alpha Set",
+    "rarity": 8,
+    "defense": 395,
+    "resistances": {
+      "fire": -4,
+      "water": 4,
+      "thunder": 4,
+      "ice": 0,
+      "dragon": -8
+    },
+    "image": "data/images/palico_armor/Felyne_Numinous_Alpha_Set.webp",
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Numinous Crown α",
+        "nameEs": "Corona espiritual F α",
+        "icon": "data/images/palico_pieces/128.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Numinous Robe α",
+        "nameEs": "Túnica espiritual F α",
+        "icon": "data/images/palico_pieces/129.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Quematrice_Alpha_Set",
+    "name": "Felyne Quematrice Alpha Set",
+    "rarity": 5,
+    "defense": 52,
+    "resistances": {
+      "fire": 4,
+      "water": -6,
+      "thunder": 0,
+      "ice": -2,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Quematrice_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Matrice Spear α",
+      "nameEs": "Pica Matrice F α",
+      "icon": "data/images/palico_weapons/22.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Quema Helm α",
+        "nameEs": "Yelmo Quema F α",
+        "icon": "data/images/palico_pieces/52.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Quema Mail α",
+        "nameEs": "Cota Quema F α",
+        "icon": "data/images/palico_pieces/53.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Quematrice_Set",
+    "name": "Felyne Quematrice Set",
+    "rarity": 1,
+    "defense": 12,
+    "resistances": {
+      "fire": 4,
+      "water": -6,
+      "thunder": 0,
+      "ice": -2,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Quematrice_Set.webp",
+    "weapon": {
+      "name": "Felyne Matrice Spear",
+      "nameEs": "Pica Matrice F",
+      "icon": "data/images/palico_weapons/15.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Quema Helm",
+        "nameEs": "Yelmo Quema F",
+        "icon": "data/images/palico_pieces/6.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Quema Mail",
+        "nameEs": "Cota Quema F",
+        "icon": "data/images/palico_pieces/7.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Rathalos_Alpha_Set",
+    "name": "Felyne Rathalos Alpha Set",
+    "rarity": 6,
+    "defense": 76,
+    "resistances": {
+      "fire": 6,
+      "water": 2,
+      "thunder": -4,
+      "ice": 2,
+      "dragon": -6
+    },
+    "image": "data/images/palico_armor/Felyne_Rathalos_Alpha_Set.webp"
+  },
+  {
+    "slug": "Felyne_Rathian_Alpha_Set",
+    "name": "Felyne Rathian Alpha Set",
+    "rarity": 5,
+    "defense": 60,
+    "resistances": {
+      "fire": 4,
+      "water": 0,
+      "thunder": -4,
+      "ice": 0,
+      "dragon": -6
+    },
+    "image": "data/images/palico_armor/Felyne_Rathian_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Rathian Rapier α",
+      "nameEs": "Estoque Rathian F α",
+      "icon": "data/images/palico_weapons/72.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Rathian Tiara α",
+        "nameEs": "Tiara de Rathian F α",
+        "icon": "data/images/palico_pieces/70.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Rathian Mail α",
+        "nameEs": "Cota de Rathian F α",
+        "icon": "data/images/palico_pieces/71.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Rey_Dau_Alpha_Set",
+    "name": "Felyne Rey Dau Alpha Set",
+    "rarity": 7,
+    "defense": 100,
+    "resistances": {
+      "fire": 0,
+      "water": -4,
+      "thunder": 8,
+      "ice": -6,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Rey_Dau_Alpha_Set.webp",
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Dau Helm α",
+        "nameEs": "Yelmo Dau F α",
+        "icon": "data/images/palico_pieces/94.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Dau Armor α",
+        "nameEs": "Armadura Dau F α",
+        "icon": "data/images/palico_pieces/95.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Rey_Dau_Gamma_Set",
+    "name": "Felyne Rey Dau Gamma Set",
+    "rarity": 8,
+    "defense": 120,
+    "resistances": {
+      "fire": 0,
+      "water": -4,
+      "thunder": 8,
+      "ice": -6,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Rey_Dau_Gamma_Set.webp",
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Dau Helm γ",
+        "nameEs": "Yelmo Dau F γ",
+        "icon": "data/images/palico_pieces/136.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Dau Armor γ",
+        "nameEs": "Armadura Dau F γ",
+        "icon": "data/images/palico_pieces/137.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Rey_Dau_Set",
+    "name": "Felyne Rey Dau Set",
+    "rarity": 4,
+    "defense": 36,
+    "resistances": {
+      "fire": 0,
+      "water": -4,
+      "thunder": 8,
+      "ice": -6,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Rey_Dau_Set.webp",
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Dau Helm",
+        "nameEs": "Yelmo Dau F",
+        "icon": "data/images/palico_pieces/22.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Dau Armor",
+        "nameEs": "Armadura Dau F",
+        "icon": "data/images/palico_pieces/23.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Rompopolo_Alpha_Set",
+    "name": "Felyne Rompopolo Alpha Set",
+    "rarity": 5,
+    "defense": 52,
+    "resistances": {
+      "fire": 0,
+      "water": -6,
+      "thunder": 0,
+      "ice": 0,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Rompopolo_Alpha_Set.webp",
+    "weapon": {
+      "name": "F Rompopolo Blaster α",
+      "nameEs": "Ráfaga de Rompopolo F α",
+      "icon": "data/images/palico_weapons/13.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Rompopolo Brain α",
+        "nameEs": "Cerebro de Rompopolo F α",
+        "icon": "data/images/palico_pieces/62.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Rompopolo Suit α",
+        "nameEs": "Traje de Rompopolo F α",
+        "icon": "data/images/palico_pieces/63.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Rompopolo_Set",
+    "name": "Felyne Rompopolo Set",
+    "rarity": 3,
+    "defense": 28,
+    "resistances": {
+      "fire": 0,
+      "water": -6,
+      "thunder": 0,
+      "ice": 0,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Rompopolo_Set.webp",
+    "weapon": {
+      "name": "F Rompopolo Blaster",
+      "nameEs": "Ráfaga de Rompopolo F",
+      "icon": "data/images/palico_weapons/65.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "F Rompopolo Brain",
+        "nameEs": "Cerebro de Rompopolo F",
+        "icon": "data/images/palico_pieces/20.webp"
+      },
+      {
+        "part": "chest",
+        "name": "F Rompopolo Suit",
+        "nameEs": "Traje de Rompopolo F",
+        "icon": "data/images/palico_pieces/21.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Seregios_Alpha_Set",
+    "name": "Felyne Seregios Alpha Set",
+    "rarity": 7,
+    "defense": 375,
+    "resistances": {
+      "fire": 8,
+      "water": 0,
+      "thunder": -6,
+      "ice": -4,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Seregios_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Seregios Edge α",
+      "nameEs": "Hoja de Seregios F α",
+      "icon": null
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Seregios Helm α",
+        "nameEs": "Casco de Seregios F α",
+        "icon": null
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Seregios Mail α",
+        "nameEs": "Cota de Seregios F α",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Sild_Alpha_Set",
+    "name": "Felyne Sild Alpha Set",
+    "rarity": 6,
+    "defense": 68,
+    "resistances": {
+      "fire": 2,
+      "water": 2,
+      "thunder": 2,
+      "ice": 2,
+      "dragon": 8
+    },
+    "image": "data/images/palico_armor/Felyne_Sild_Alpha_Set.webp",
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Sild Hood α",
+        "nameEs": "Capucha de Sild F α",
+        "icon": "data/images/palico_pieces/118.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Sild Suit α",
+        "nameEs": "Traje de Sild F α",
+        "icon": "data/images/palico_pieces/119.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Snowcat_Alpha_Set",
+    "name": "Felyne Snowcat Alpha Set",
+    "rarity": 8,
+    "defense": 120,
+    "resistances": {
+      "fire": 2,
+      "water": 2,
+      "thunder": 2,
+      "ice": 8,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Snowcat_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Snowcat Bell α",
+      "nameEs": "Campana gato nival F α",
+      "icon": null
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Snowcat Head α",
+        "nameEs": "Cabeza gato nival F α",
+        "icon": null
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Snowcat Suit α",
+        "nameEs": "Traje gato nival F α",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Star_Alpha_Set",
+    "name": "Felyne Star Alpha Set",
+    "rarity": 8,
+    "defense": 120,
+    "resistances": {
+      "fire": 2,
+      "water": 2,
+      "thunder": 2,
+      "ice": 2,
+      "dragon": 8
+    },
+    "image": "data/images/palico_armor/Felyne_Star_Alpha_Set.webp"
+  },
+  {
+    "slug": "Felyne_Suja_Alpha_Set",
+    "name": "Felyne Suja Alpha Set",
+    "rarity": 6,
+    "defense": 68,
+    "resistances": {
+      "fire": 2,
+      "water": 2,
+      "thunder": 2,
+      "ice": 8,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Felyne_Suja_Alpha_Set.webp",
+    "pieces": [
+      {
+        "part": "chest",
+        "name": "Felyne Suja Frog α",
+        "nameEs": "Rana de Suja F α",
+        "icon": "data/images/palico_pieces/116.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Nu_Udra_Gamma_Set",
+    "name": "Felyne Udra Gamma Set",
+    "rarity": 8,
+    "defense": 132,
+    "resistances": {
+      "fire": 10,
+      "water": -8,
+      "thunder": 0,
+      "ice": 2,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Nu_Udra_Gamma_Set.webp",
+    "weapon": {
+      "name": "Felyne Udra Vessel γ",
+      "nameEs": "Recipiente de Udra F γ",
+      "icon": null
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Udra Head γ",
+        "nameEs": "Cabeza de Udra F γ",
+        "icon": null
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Udra Tentacles γ",
+        "nameEs": "Tentáculos de Udra F γ",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Udra_Gamma_Set",
+    "name": "Felyne Udra Gamma Set",
+    "rarity": 8,
+    "defense": 132,
+    "resistances": {
+      "fire": 10,
+      "water": -8,
+      "thunder": 0,
+      "ice": 2,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Udra_Gamma_Set.webp"
+  },
+  {
+    "slug": "Felyne_Uth_Duna_Alpha_Set",
+    "name": "Felyne Uth Duna Alpha Set",
+    "rarity": 7,
+    "defense": 100,
+    "resistances": {
+      "fire": -2,
+      "water": 8,
+      "thunder": -6,
+      "ice": 0,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Uth_Duna_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Duna Spear α",
+      "nameEs": "Lanza de Duna F α",
+      "icon": "data/images/palico_weapons/59.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Duna Mask α",
+        "nameEs": "Máscara de Duna F α",
+        "icon": "data/images/palico_pieces/96.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Duna Cape α",
+        "nameEs": "Capa de Duna F α",
+        "icon": "data/images/palico_pieces/97.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Uth_Duna_Gamma_Set",
+    "name": "Felyne Uth Duna Gamma Set",
+    "rarity": 8,
+    "defense": 120,
+    "resistances": {
+      "fire": -2,
+      "water": 8,
+      "thunder": -6,
+      "ice": 0,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Uth_Duna_Gamma_Set.webp",
+    "weapon": {
+      "name": "Felyne Duna Spear γ",
+      "nameEs": "Lanza de Duna F γ",
+      "icon": null
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Duna Mask γ",
+        "nameEs": "Máscara de Duna F γ",
+        "icon": null
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Duna Cape γ",
+        "nameEs": "Capa de Duna F γ",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Uth_Duna_Set",
+    "name": "Felyne Uth Duna Set",
+    "rarity": 4,
+    "defense": 36,
+    "resistances": {
+      "fire": -2,
+      "water": 8,
+      "thunder": -6,
+      "ice": 0,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Felyne_Uth_Duna_Set.webp",
+    "weapon": {
+      "name": "Felyne Duna Spear",
+      "nameEs": "Lanza de Duna F",
+      "icon": "data/images/palico_weapons/0.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Duna Mask",
+        "nameEs": "Máscara de Duna F",
+        "icon": "data/images/palico_pieces/18.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Duna Cape",
+        "nameEs": "Capa de Duna F",
+        "icon": "data/images/palico_pieces/19.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Xu_Wu_Alpha_Set",
+    "name": "Felyne Xu Wu Alpha Set",
+    "rarity": 6,
+    "defense": 76,
+    "resistances": {
+      "fire": 2,
+      "water": 2,
+      "thunder": 2,
+      "ice": -6,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Felyne_Xu_Wu_Alpha_Set.webp",
+    "weapon": {
+      "name": "Felyne Xu Wu Orb α",
+      "nameEs": "Orbe de Xu Wu F α",
+      "icon": "data/images/palico_weapons/60.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Xu Wu Veil α",
+        "nameEs": "Velo de Xu Wu F α",
+        "icon": "data/images/palico_pieces/84.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Xu Wu Suit α",
+        "nameEs": "Traje de Xu Wu F α",
+        "icon": "data/images/palico_pieces/85.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Felyne_Xu_Wu_Set",
+    "name": "Felyne Xu Wu Set",
+    "rarity": 4,
+    "defense": 36,
+    "resistances": {
+      "fire": 2,
+      "water": 2,
+      "thunder": 2,
+      "ice": -6,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Felyne_Xu_Wu_Set.webp",
+    "weapon": {
+      "name": "Felyne Xu Wu Orb",
+      "nameEs": "Orbe de Xu Wu F",
+      "icon": "data/images/palico_weapons/71.webp"
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Felyne Xu Wu Veil",
+        "nameEs": "Velo de Xu Wu F",
+        "icon": "data/images/palico_pieces/38.webp"
+      },
+      {
+        "part": "chest",
+        "name": "Felyne Xu Wu Suit",
+        "nameEs": "Traje de Xu Wu F",
+        "icon": "data/images/palico_pieces/39.webp"
+      }
+    ]
+  },
+  {
+    "slug": "Meowrionette_Alpha_Set",
+    "name": "Meowrionette Alpha Set",
+    "rarity": 5,
+    "defense": 52,
+    "resistances": {
+      "fire": -6,
+      "water": 4,
+      "thunder": 4,
+      "ice": 4,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Meowrionette_Alpha_Set.webp",
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Meowrionette Head α",
+        "nameEs": "Cabeza de miaurioneta α",
+        "icon": null
+      },
+      {
+        "part": "chest",
+        "name": "Meowrionette Body α",
+        "nameEs": "Cuerpo de miaurioneta α",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "slug": "Morbol_Seedling_Alpha_Set",
+    "name": "Morbol Seedling Alpha Set",
+    "rarity": 8,
+    "defense": 60,
+    "resistances": {
+      "fire": 0,
+      "water": 0,
+      "thunder": 0,
+      "ice": 0,
+      "dragon": 0
+    },
+    "image": "data/images/palico_armor/Morbol_Seedling_Alpha_Set.webp",
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Morbol Seedling Head α",
+        "nameEs": "Cabeza de cría de molbol α",
+        "icon": null
+      },
+      {
+        "part": "chest",
+        "name": "Morbol Seedling Body α",
+        "nameEs": "Cuerpo de cría de molbol α",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "slug": "Rudy_Costume_Alpha_Set",
+    "name": "Rudy Costume Alpha Set",
+    "rarity": 5,
+    "defense": 52,
+    "resistances": {
+      "fire": 2,
+      "water": 2,
+      "thunder": 2,
+      "ice": 2,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Rudy_Costume_Alpha_Set.webp"
+  },
+  {
+    "slug": "Thief_Alpha_Set",
+    "name": "Thief Alpha Set",
+    "rarity": 8,
+    "defense": 120,
+    "resistances": {
+      "fire": 4,
+      "water": 4,
+      "thunder": 4,
+      "ice": 4,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Thief_Alpha_Set.webp",
+    "pieces": [
+      {
+        "part": "chest",
+        "name": "Thief's Thievin' Scarf α",
+        "nameEs": "Bandana hurtador huraño α",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "slug": "Wacky_Wudwud_Alpha_Set",
+    "name": "Wacky Wudwud Alpha Set",
+    "rarity": 6,
+    "defense": 64,
+    "resistances": {
+      "fire": 4,
+      "water": 4,
+      "thunder": 4,
+      "ice": 4,
+      "dragon": 4
+    },
+    "image": "data/images/palico_armor/Wacky_Wudwud_Alpha_Set.webp",
+    "weapon": {
+      "name": "Wudwud Spiky-Pokey α",
+      "nameEs": "Pinchito Wudwud α",
+      "icon": null
+    },
+    "pieces": [
+      {
+        "part": "head",
+        "name": "Wudwud Mask α",
+        "nameEs": "Máscara de Wudwud α",
+        "icon": null
+      },
+      {
+        "part": "chest",
+        "name": "Wudwud Body α",
+        "nameEs": "Cuerpo de Wudwud α",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "slug": "Wudwud_Guise_Alpha_Set",
+    "name": "Wudwud Guise Alpha Set",
+    "rarity": 6,
+    "defense": 68,
+    "resistances": {
+      "fire": 2,
+      "water": 8,
+      "thunder": 2,
+      "ice": 2,
+      "dragon": 2
+    },
+    "image": "data/images/palico_armor/Wudwud_Guise_Alpha_Set.webp"
+  }
 ]

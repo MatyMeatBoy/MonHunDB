@@ -551,7 +551,7 @@ function bootPage() {
 
 let iconManifest = {};
 function iconPath(name) {
-  return iconManifest[name] || `data/images/icons/${slugify(name)}.png`;
+  return iconManifest[name] || `data/images/icons/${slugify(name)}.webp`;
 }
 function slugify(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
@@ -926,8 +926,8 @@ const ARMOR_SET_IMG_OVERRIDES = {
   "Pukei-Pukei X Set": "pukei-pukei-x", "Pukei-Pukei Set": "pukei", "Pukei-Pukei S Set": "pukei-s",
   "Tobi-Kadachi Set": "tobi-kadachi-x", "Tobi-Kadachi S Set": "tobi-kadachi-x", "Tobi-Kadachi X Set": "tobi-kadachi-x",
   // The implicit piece prefixes differ from the downloaded full-set files.
-  "Duna Set": "data/images/armor_sets_full/uth-duna-set.png",
-  "Barina Set": "data/images/armor_sets_full/lala-barina-set.png",
+  "Duna Set": "data/images/armor_sets_full/uth-duna-set.webp",
+  "Barina Set": "data/images/armor_sets_full/lala-barina-set.webp",
 };
 const ARMOR_SET_DISPLAY_MAP = { "S. Studded": "Shell Studded", "Squire's": "Knight Squire", "Scholar's": "Scholar", "Golm": "Garangolm", "Rakna": "Rakna-Kadaki", "Artillery Corps": "Royal Artillery Corps", "Chaotic": "Chaotic Gore Magala", "Gore": "Gore Magala", "Hoplite's": "Heavy Knight", "Professor's": "Professor", "Regios": "Seregios", "Outpost HQ": "Base Commander", "Ibushi's": "Ibushi", "Ibushi's Pure": "Ibushi - Pure", "Narwa's": "Narwa", "Narwa's Pure": "Narwa - Pure", "Lecturer": "Lecture", "Lecturer's": "Lecture", "Divine Ire": "Grand Divine Ire", "Channeler's": "Channeler", "Channeler's (Spring)": "Channeler (Spring)", "Medium's": "Medium", "Medium's (Light)": "Medium (Light)", "Charité": "Charite" };
 function armorSetDisplayName(prefix) {
@@ -1572,7 +1572,7 @@ const WEAPON_TYPE_ICON = {
 const WEAPON_TYPE_ORDER = Object.keys(WEAPON_TYPE_ICON);
 function weaponTypeIconTag(type) {
   const slug = WEAPON_TYPE_ICON[type];
-  return slug ? `<img class="weapon-type-icon" src="data/images/weapon_types/${slug}.png" alt="${escapeAttr(trWeaponType(type))}" loading="lazy">` : "";
+  return slug ? `<img class="weapon-type-icon" src="data/images/weapon_types/${slug}.webp" alt="${escapeAttr(trWeaponType(type))}" loading="lazy">` : "";
 }
 let weaponsTypeFilter = "all";
 function renderWeaponsTypeFilter() {
@@ -1745,7 +1745,7 @@ function isWeaponTrueFinal(w) {
 }
 function decoSlotsTag(levels) {
   if (!levels || !levels.length) return "";
-  return `<span class="deco-slots">${levels.map(l => `<img class="deco-slot-icon" src="data/images/icons/deco${l}.png" alt="Lv${l}" title="Lv${l}">`).join("")}</span>`;
+  return `<span class="deco-slots">${levels.map(l => `<img class="deco-slot-icon" src="data/images/icons/deco${l}.webp" alt="Lv${l}" title="Lv${l}">`).join("")}</span>`;
 }
 function getWeaponChain(w) {
   if (weaponParentOf && weaponsByNameNorm) {
@@ -2045,7 +2045,7 @@ function trArmorPart(part) {
 }
 function armorIconTag(p) {
   const src = p.iconM ? `data/images/armor/${p.id}_m.webp` : (p.iconF ? `data/images/armor/${p.id}_f.webp` : null);
-  const fallbackSrc = armorFextraIcons[p.id] ? `data/images/armor_fextra/${p.id}.png` : null;
+  const fallbackSrc = armorFextraIcons[p.id] ? `data/images/armor_fextra/${p.id}.webp` : null;
   if (!src) {
     if (fallbackSrc) return `<img class="material-icon" src="${fallbackSrc}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`;
     return `<span class="material-icon material-icon--placeholder"></span>`;
@@ -3530,9 +3530,9 @@ let hzSilhouetteStat = "sever";
 // stun already have icons via elementIconTag()/statusIconTag(), only these
 // 3 needed their own local files
 const HZ_PHYS_ICONS = {
-  sever: "data/images/icons/dmg-sever.png",
-  blunt: "data/images/icons/dmg-blunt.png",
-  projectile: "data/images/icons/dmg-projectile.png",
+  sever: "data/images/icons/dmg-sever.webp",
+  blunt: "data/images/icons/dmg-blunt.webp",
+  projectile: "data/images/icons/dmg-projectile.webp",
 };
 function hzStatIconTag(key) {
   if (HZ_PHYS_ICONS[key]) return `<img class="status-icon" src="${HZ_PHYS_ICONS[key]}" alt="" loading="lazy">`;

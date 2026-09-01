@@ -458,7 +458,7 @@ function bootPage() {
 
 let iconManifest = {};
 function iconPath(name) {
-  return iconManifest[name] || `data/images/icons/${slugify(name)}.png`;
+  return iconManifest[name] || `data/images/icons/${slugify(name)}.webp`;
 }
 function slugify(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
@@ -858,16 +858,16 @@ function armorSetDisplayName(prefix) {
 }
 function armorSetImg(name) {
   const override = ARMOR_SET_IMG_OVERRIDES[name];
-  if (override) return `data/images/armor_sets/${override}.png`;
+  if (override) return `data/images/armor_sets/${override}.webp`;
   // S and X variants reuse the base (vanilla) image: "X Set" -> try x file,
   // else fall back to the base file
   const m = name.match(/^(.+?)\s+([SX]) Set$/);
   if (m) {
     const base = m[1].toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
-    return `data/images/armor_sets/${base}.png`;
+    return `data/images/armor_sets/${base}.webp`;
   }
   const s = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").replace(/-set$/, "");
-  return `data/images/armor_sets/${s}.png`;
+  return `data/images/armor_sets/${s}.webp`;
 }
 
 let impliedArmorGroupsCache = null;
@@ -1502,7 +1502,7 @@ const WEAPON_TYPE_ICON = {
 const WEAPON_TYPE_ORDER = Object.keys(WEAPON_TYPE_ICON);
 function weaponTypeIconTag(type) {
   const slug = WEAPON_TYPE_ICON[type];
-  return slug ? `<img class="weapon-type-icon" src="data/images/weapon_types/${slug}.png" alt="${escapeAttr(trWeaponType(type))}" loading="lazy">` : "";
+  return slug ? `<img class="weapon-type-icon" src="data/images/weapon_types/${slug}.webp" alt="${escapeAttr(trWeaponType(type))}" loading="lazy">` : "";
 }
 let weaponsTypeFilter = "all";
 function renderWeaponsTypeFilter() {
@@ -1535,7 +1535,7 @@ function renderWeaponsTypeFilter() {
   });
 }
 function weaponIconTag(w) {
-  const fallbackSrc = weaponGame8Icons[w.id] ? `data/images/weapons_game8/${w.id}.png` : null;
+  const fallbackSrc = weaponGame8Icons[w.id] ? `data/images/weapons_game8/${w.id}.webp` : null;
   const onerror = fallbackSrc
     ? `if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${fallbackSrc}';}else{this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}));}`
     : `this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))`;
@@ -1992,7 +1992,7 @@ function trArmorPart(part) {
 }
 function armorIconTag(p) {
   const src = p.iconM ? `data/images/armor/${p.id}_m.webp` : (p.iconF ? `data/images/armor/${p.id}_f.webp` : null);
-  const fallbackSrc = armorFextraIcons[p.id] ? `data/images/armor_fextra/${p.id}.png` : null;
+  const fallbackSrc = armorFextraIcons[p.id] ? `data/images/armor_fextra/${p.id}.webp` : null;
   if (!src) {
     if (fallbackSrc) return `<img class="material-icon" src="${fallbackSrc}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'material-icon material-icon--placeholder'}))">`;
     return `<span class="material-icon material-icon--placeholder"></span>`;
@@ -3157,7 +3157,7 @@ const HITZONE_SHAPES = {
   // only rendered when this field is set.
   "Daimyo Hermitaur": {
     viewBox: "0 0 1169 1029",
-    bgImage: "data/images/hitzone_bg/daimyo-hermitaur.png",
+    bgImage: "data/images/hitzone_bg/daimyo-hermitaur.webp",
     parts: {
       "Left Leg": [
         "748,852 817,888 847,851 888,881 931,874 1017,1028 1009,941 969,874 1006,869 1119,1011 1109,944 1033,816 959,828 927,766 865,787 843,757 864,761 845,729 779,692 725,681 703,740 693,854",
@@ -3238,9 +3238,9 @@ let hzSilhouetteStat = "sever";
 // stun already have icons via elementIconTag()/statusIconTag(), only these
 // 3 needed their own local files
 const HZ_PHYS_ICONS = {
-  sever: "data/images/icons/dmg-sever.png",
-  blunt: "data/images/icons/dmg-blunt.png",
-  projectile: "data/images/icons/dmg-projectile.png",
+  sever: "data/images/icons/dmg-sever.webp",
+  blunt: "data/images/icons/dmg-blunt.webp",
+  projectile: "data/images/icons/dmg-projectile.webp",
 };
 function hzStatIconTag(key) {
   if (HZ_PHYS_ICONS[key]) return `<img class="status-icon" src="${HZ_PHYS_ICONS[key]}" alt="" loading="lazy">`;
@@ -3432,8 +3432,8 @@ const NEWS = [
     textKey: "newsV06Text",
     bulletsKey: "newsV06Bullets",
     imageHtml: () => `
-      <img src="data/images/gaismagorm.png" alt="" loading="lazy">
-      <img src="data/images/malzeno.png" alt="" loading="lazy">
+      <img src="data/images/gaismagorm.webp" alt="" loading="lazy">
+      <img src="data/images/malzeno.webp" alt="" loading="lazy">
     `,
   },
   {
@@ -3454,8 +3454,8 @@ const NEWS = [
     textKey: "newsV04Text",
     bulletsKey: "newsV04Bullets",
     imageHtml: () => `
-      <img src="data/images/armor_sets/kamura-legacy-set.png" alt="" loading="lazy">
-      <img src="data/images/armor_sets/bone-x-set.png" alt="" loading="lazy">
+      <img src="data/images/armor_sets/kamura-legacy-set.webp" alt="" loading="lazy">
+      <img src="data/images/armor_sets/bone-x-set.webp" alt="" loading="lazy">
     `,
   },
   {
@@ -3478,7 +3478,7 @@ const NEWS = [
     bulletsKey: "newsV02Bullets",
     imageHtml: () => `
       <img src="data/images/weapons/1953968039.webp" alt="" loading="lazy">
-      <img src="data/images/armor_sets/rathalos-x-set.png" alt="" loading="lazy">
+      <img src="data/images/armor_sets/rathalos-x-set.webp" alt="" loading="lazy">
     `,
   },
   {

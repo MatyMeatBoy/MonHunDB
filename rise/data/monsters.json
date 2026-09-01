@@ -765,7 +765,7 @@
         ]
       }
     ],
-    "image": "data/images/aknosom.png",
+    "image": "data/images/aknosom.webp",
     "attackElements": [
       "Fire"
     ]
@@ -1556,7 +1556,7 @@
         ]
       }
     ],
-    "image": "data/images/almudron.png",
+    "image": "data/images/almudron.webp",
     "attackElements": [
       "Water"
     ],
@@ -2107,7 +2107,7 @@
         ]
       }
     ],
-    "image": "data/images/amatsu.png",
+    "image": "data/images/amatsu.webp",
     "attackElements": [
       "Thunder",
       "Water"
@@ -2880,7 +2880,7 @@
         ]
       }
     ],
-    "image": "data/images/anjanath.png",
+    "image": "data/images/anjanath.webp",
     "attackElements": [
       "Fire"
     ]
@@ -3484,7 +3484,7 @@
         ]
       }
     ],
-    "image": "data/images/apex-arzuros.png",
+    "image": "data/images/apex-arzuros.webp",
     "attackElements": []
   },
   {
@@ -4069,7 +4069,7 @@
         ]
       }
     ],
-    "image": "data/images/apex-diablos.png",
+    "image": "data/images/apex-diablos.webp",
     "attackElements": []
   },
   {
@@ -4757,7 +4757,7 @@
         ]
       }
     ],
-    "image": "data/images/apex-mizutsune.png",
+    "image": "data/images/apex-mizutsune.webp",
     "attackElements": [
       "Water"
     ]
@@ -5324,7 +5324,7 @@
         ]
       }
     ],
-    "image": "data/images/apex-rathalos.png",
+    "image": "data/images/apex-rathalos.webp",
     "attackElements": [
       "Fire"
     ]
@@ -5985,7 +5985,7 @@
         ]
       }
     ],
-    "image": "data/images/apex-rathian.png",
+    "image": "data/images/apex-rathian.webp",
     "attackElements": [
       "Fire"
     ]
@@ -6567,7 +6567,7 @@
         ]
       }
     ],
-    "image": "data/images/apex-zinogre.png",
+    "image": "data/images/apex-zinogre.webp",
     "attackElements": [
       "Thunder"
     ]
@@ -7311,7 +7311,7 @@
         ]
       }
     ],
-    "image": "data/images/arzuros.png",
+    "image": "data/images/arzuros.webp",
     "attackElements": []
   },
   {
@@ -7924,7 +7924,7 @@
         ]
       }
     ],
-    "image": "data/images/astalos.png",
+    "image": "data/images/astalos.webp",
     "attackElements": [
       "Thunder"
     ]
@@ -8537,7 +8537,7 @@
         ]
       }
     ],
-    "image": "data/images/aurora-somnacanth.png",
+    "image": "data/images/aurora-somnacanth.webp",
     "attackElements": [
       "Ice"
     ]
@@ -9337,7 +9337,7 @@
         ]
       }
     ],
-    "image": "data/images/barioth.png",
+    "image": "data/images/barioth.webp",
     "attackElements": [
       "Ice"
     ]
@@ -10056,7 +10056,7 @@
         ]
       }
     ],
-    "image": "data/images/barroth.png",
+    "image": "data/images/barroth.webp",
     "attackElements": [
       "Water"
     ],
@@ -10870,7 +10870,7 @@
         ]
       }
     ],
-    "image": "data/images/basarios.png",
+    "image": "data/images/basarios.webp",
     "attackElements": [
       "Fire"
     ]
@@ -11512,7 +11512,7 @@
         ]
       }
     ],
-    "image": "data/images/bazelgeuse.png",
+    "image": "data/images/bazelgeuse.webp",
     "attackElements": [
       "Fire"
     ]
@@ -12359,7 +12359,7 @@
         ]
       }
     ],
-    "image": "data/images/bishaten.png",
+    "image": "data/images/bishaten.webp",
     "attackElements": []
   },
   {
@@ -12957,7 +12957,7 @@
         ]
       }
     ],
-    "image": "data/images/blood-orange-bishaten.png",
+    "image": "data/images/blood-orange-bishaten.webp",
     "attackElements": [
       "Fire"
     ]
@@ -13615,7 +13615,7 @@
         ]
       }
     ],
-    "image": "data/images/chameleos.png",
+    "image": "data/images/chameleos.webp",
     "attackElements": [
       "Dragon"
     ]
@@ -14261,7 +14261,7 @@
         ]
       }
     ],
-    "image": "data/images/chaotic-gore-magala.png",
+    "image": "data/images/chaotic-gore-magala.webp",
     "attackElements": []
   },
   {
@@ -14851,7 +14851,7 @@
         ]
       }
     ],
-    "image": "data/images/crimson-glow-valstrax.png",
+    "image": "data/images/crimson-glow-valstrax.webp",
     "attackElements": [
       "Dragon"
     ]
@@ -15415,7 +15415,7 @@
         ]
       }
     ],
-    "image": "data/images/daimyo-hermitaur.png",
+    "image": "data/images/daimyo-hermitaur.webp",
     "attackElements": [
       "Water"
     ]
@@ -16201,7 +16201,7 @@
         ]
       }
     ],
-    "image": "data/images/diablos.png",
+    "image": "data/images/diablos.webp",
     "attackElements": []
   },
   {
@@ -16773,7 +16773,7 @@
         ]
       }
     ],
-    "image": "data/images/espinas.png",
+    "image": "data/images/espinas.webp",
     "attackElements": [
       "Fire"
     ]
@@ -17355,7 +17355,7 @@
         ]
       }
     ],
-    "image": "data/images/flaming-espinas.png",
+    "image": "data/images/flaming-espinas.webp",
     "attackElements": [
       "Fire"
     ]
@@ -17883,7 +17883,7 @@
         ]
       }
     ],
-    "image": "data/images/furious-rajang.png",
+    "image": "data/images/furious-rajang.webp",
     "attackElements": [
       "Thunder"
     ]
@@ -18459,7 +18459,7 @@
         ]
       }
     ],
-    "image": "data/images/gaismagorm.png",
+    "image": "data/images/gaismagorm.webp",
     "attackElements": [
       "Fire"
     ]
@@ -19020,7 +19020,7 @@
         ]
       }
     ],
-    "image": "data/images/garangolm.png",
+    "image": "data/images/garangolm.webp",
     "attackElements": [
       "Fire",
       "Water"
@@ -19621,7 +19621,7 @@
         ]
       }
     ],
-    "image": "data/images/gold-rathian.png",
+    "image": "data/images/gold-rathian.webp",
     "attackElements": [
       "Fire"
     ]
@@ -20235,7 +20235,7 @@
         ]
       }
     ],
-    "image": "data/images/gore-magala.png",
+    "image": "data/images/gore-magala.webp",
     "attackElements": []
   },
   {
@@ -21016,7 +21016,7 @@
         ]
       }
     ],
-    "image": "data/images/goss-harag.png",
+    "image": "data/images/goss-harag.webp",
     "attackElements": [
       "Ice"
     ]
@@ -21662,7 +21662,7 @@
         ]
       }
     ],
-    "image": "data/images/great-baggi.png",
+    "image": "data/images/great-baggi.webp",
     "attackElements": []
   },
   {
@@ -22357,7 +22357,7 @@
         ]
       }
     ],
-    "image": "data/images/great-izuchi.png",
+    "image": "data/images/great-izuchi.webp",
     "attackElements": []
   },
   {
@@ -23008,7 +23008,7 @@
         ]
       }
     ],
-    "image": "data/images/great-wroggi.png",
+    "image": "data/images/great-wroggi.webp",
     "attackElements": []
   },
   {
@@ -23661,7 +23661,7 @@
         ]
       }
     ],
-    "image": "data/images/jyuratodus.png",
+    "image": "data/images/jyuratodus.webp",
     "attackElements": [
       "Water"
     ],
@@ -24452,7 +24452,7 @@
         ]
       }
     ],
-    "image": "data/images/khezu.png",
+    "image": "data/images/khezu.webp",
     "attackElements": [
       "Thunder"
     ]
@@ -25146,7 +25146,7 @@
         ]
       }
     ],
-    "image": "data/images/kulu-ya-ku.png",
+    "image": "data/images/kulu-ya-ku.webp",
     "attackElements": []
   },
   {
@@ -25798,7 +25798,7 @@
         ]
       }
     ],
-    "image": "data/images/kushala-daora.png",
+    "image": "data/images/kushala-daora.webp",
     "attackElements": [
       "Dragon",
       "Ice"
@@ -26502,7 +26502,7 @@
         ]
       }
     ],
-    "image": "data/images/lagombi.png",
+    "image": "data/images/lagombi.webp",
     "attackElements": [
       "Ice"
     ]
@@ -27052,7 +27052,7 @@
         ]
       }
     ],
-    "image": "data/images/lucent-nargacuga.png",
+    "image": "data/images/lucent-nargacuga.webp",
     "attackElements": []
   },
   {
@@ -27628,7 +27628,7 @@
         ]
       }
     ],
-    "image": "data/images/lunagaron.png",
+    "image": "data/images/lunagaron.webp",
     "attackElements": [
       "Ice"
     ]
@@ -28218,7 +28218,7 @@
         ]
       }
     ],
-    "image": "data/images/magma-almudron.png",
+    "image": "data/images/magma-almudron.webp",
     "attackElements": [
       "Fire",
       "Water"
@@ -29045,7 +29045,7 @@
         ]
       }
     ],
-    "image": "data/images/magnamalo.png",
+    "image": "data/images/magnamalo.webp",
     "attackElements": []
   },
   {
@@ -29595,7 +29595,7 @@
         ]
       }
     ],
-    "image": "data/images/malzeno.png",
+    "image": "data/images/malzeno.webp",
     "attackElements": [
       "Dragon"
     ]
@@ -30398,7 +30398,7 @@
         ]
       }
     ],
-    "image": "data/images/mizutsune.png",
+    "image": "data/images/mizutsune.webp",
     "attackElements": [
       "Water"
     ]
@@ -31178,7 +31178,7 @@
         ]
       }
     ],
-    "image": "data/images/nargacuga.png",
+    "image": "data/images/nargacuga.webp",
     "attackElements": []
   },
   {
@@ -31925,7 +31925,7 @@
         ]
       }
     ],
-    "image": "data/images/narwa-the-allmother.png",
+    "image": "data/images/narwa-the-allmother.webp",
     "attackElements": [
       "Thunder"
     ]
@@ -32499,7 +32499,7 @@
         ]
       }
     ],
-    "image": "data/images/primordial-malzeno.png",
+    "image": "data/images/primordial-malzeno.webp",
     "attackElements": [
       "Dragon"
     ]
@@ -33281,7 +33281,7 @@
         ]
       }
     ],
-    "image": "data/images/pukei-pukei.png",
+    "image": "data/images/pukei-pukei.webp",
     "attackElements": []
   },
   {
@@ -33811,7 +33811,7 @@
         ]
       }
     ],
-    "image": "data/images/pyre-rakna-kadaki.png",
+    "image": "data/images/pyre-rakna-kadaki.webp",
     "attackElements": [
       "Fire"
     ]
@@ -34454,7 +34454,7 @@
         ]
       }
     ],
-    "image": "data/images/rajang.png",
+    "image": "data/images/rajang.webp",
     "attackElements": [
       "Thunder"
     ]
@@ -35068,7 +35068,7 @@
         ]
       }
     ],
-    "image": "data/images/rakna-kadaki.png",
+    "image": "data/images/rakna-kadaki.webp",
     "attackElements": [
       "Fire"
     ]
@@ -35881,7 +35881,7 @@
         ]
       }
     ],
-    "image": "data/images/rathalos.png",
+    "image": "data/images/rathalos.webp",
     "attackElements": [
       "Fire"
     ]
@@ -36716,7 +36716,7 @@
         ]
       }
     ],
-    "image": "data/images/rathian.png",
+    "image": "data/images/rathian.webp",
     "attackElements": [
       "Fire"
     ]
@@ -37266,7 +37266,7 @@
         ]
       }
     ],
-    "image": "data/images/risen-chameleos.png",
+    "image": "data/images/risen-chameleos.webp",
     "attackElements": [
       "Dragon"
     ]
@@ -37836,7 +37836,7 @@
         ]
       }
     ],
-    "image": "data/images/risen-crimson-glow-valstrax.png",
+    "image": "data/images/risen-crimson-glow-valstrax.webp",
     "attackElements": [
       "Dragon"
     ]
@@ -38432,7 +38432,7 @@
         ]
       }
     ],
-    "image": "data/images/risen-kushala-daora.png",
+    "image": "data/images/risen-kushala-daora.webp",
     "attackElements": [
       "Dragon",
       "Ice"
@@ -39005,7 +39005,7 @@
         ]
       }
     ],
-    "image": "data/images/risen-shagaru-magala.png",
+    "image": "data/images/risen-shagaru-magala.webp",
     "attackElements": []
   },
   {
@@ -39598,7 +39598,7 @@
         ]
       }
     ],
-    "image": "data/images/risen-teostra.png",
+    "image": "data/images/risen-teostra.webp",
     "attackElements": [
       "Dragon",
       "Fire"
@@ -40368,7 +40368,7 @@
         ]
       }
     ],
-    "image": "data/images/royal-ludroth.png",
+    "image": "data/images/royal-ludroth.webp",
     "attackElements": [
       "Water"
     ]
@@ -40971,7 +40971,7 @@
         ]
       }
     ],
-    "image": "data/images/scorned-magnamalo.png",
+    "image": "data/images/scorned-magnamalo.webp",
     "attackElements": []
   },
   {
@@ -41536,7 +41536,7 @@
         ]
       }
     ],
-    "image": "data/images/seething-bazelgeuse.png",
+    "image": "data/images/seething-bazelgeuse.webp",
     "attackElements": [
       "Fire"
     ]
@@ -42137,7 +42137,7 @@
         ]
       }
     ],
-    "image": "data/images/seregios.png",
+    "image": "data/images/seregios.webp",
     "attackElements": []
   },
   {
@@ -42688,7 +42688,7 @@
         ]
       }
     ],
-    "image": "data/images/shagaru-magala.png",
+    "image": "data/images/shagaru-magala.webp",
     "attackElements": []
   },
   {
@@ -43286,7 +43286,7 @@
         ]
       }
     ],
-    "image": "data/images/shogun-ceanataur.png",
+    "image": "data/images/shogun-ceanataur.webp",
     "attackElements": []
   },
   {
@@ -43887,7 +43887,7 @@
         ]
       }
     ],
-    "image": "data/images/silver-rathalos.png",
+    "image": "data/images/silver-rathalos.webp",
     "attackElements": [
       "Fire"
     ]
@@ -44651,7 +44651,7 @@
         ]
       }
     ],
-    "image": "data/images/somnacanth.png",
+    "image": "data/images/somnacanth.webp",
     "attackElements": [
       "Water"
     ]
@@ -45347,7 +45347,7 @@
         ]
       }
     ],
-    "image": "data/images/teostra.png",
+    "image": "data/images/teostra.webp",
     "attackElements": [
       "Dragon",
       "Fire"
@@ -46072,7 +46072,7 @@
         ]
       }
     ],
-    "image": "data/images/tetranadon.png",
+    "image": "data/images/tetranadon.webp",
     "attackElements": [
       "Water"
     ]
@@ -46658,7 +46658,7 @@
         ]
       }
     ],
-    "image": "data/images/thunder-serpent-narwa.png",
+    "image": "data/images/thunder-serpent-narwa.webp",
     "attackElements": [
       "Dragon",
       "Thunder"
@@ -47415,7 +47415,7 @@
         ]
       }
     ],
-    "image": "data/images/tigrex.png",
+    "image": "data/images/tigrex.webp",
     "attackElements": []
   },
   {
@@ -48163,7 +48163,7 @@
         ]
       }
     ],
-    "image": "data/images/tobi-kadachi.png",
+    "image": "data/images/tobi-kadachi.webp",
     "attackElements": [
       "Thunder"
     ]
@@ -48717,7 +48717,7 @@
         ]
       }
     ],
-    "image": "data/images/velkhana.png",
+    "image": "data/images/velkhana.webp",
     "attackElements": [
       "Ice"
     ]
@@ -49286,7 +49286,7 @@
         ]
       }
     ],
-    "image": "data/images/violet-mizutsune.png",
+    "image": "data/images/violet-mizutsune.webp",
     "attackElements": [
       "Fire",
       "Water"
@@ -50032,7 +50032,7 @@
         ]
       }
     ],
-    "image": "data/images/volvidon.png",
+    "image": "data/images/volvidon.webp",
     "attackElements": []
   },
   {
@@ -50693,7 +50693,7 @@
         ]
       }
     ],
-    "image": "data/images/wind-serpent-ibushi.png",
+    "image": "data/images/wind-serpent-ibushi.webp",
     "attackElements": [
       "Dragon"
     ]
@@ -51494,7 +51494,7 @@
         ]
       }
     ],
-    "image": "data/images/zinogre.png",
+    "image": "data/images/zinogre.webp",
     "attackElements": [
       "Thunder"
     ]
