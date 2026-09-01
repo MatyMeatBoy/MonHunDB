@@ -14110,5 +14110,11 @@
   "category": "material",
   "iconId": "035",
   "color": 2
+ },
+ {
+  "id": "2086334655",
+  "name": "Conqueror's Seal",
+  "nameEs": "Sello conquistador",
+  "category": "material"
  }
 ]

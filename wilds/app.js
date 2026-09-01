@@ -2506,7 +2506,7 @@ function renderMaterialsIndex(query) {
   // side (unlike Rise's MHRice dump), so one flat "Items" group.
   const itemNames = Object.keys(itemIconManifest)
     .filter(n => !materialIndex.has(normalizeMaterialKey(n)))
-    .filter(n => !q || normalizeSearch(n).includes(q))
+    .filter(n => !q || normalizeSearch(n).includes(q) || normalizeSearch(trMaterial(n)).includes(q))
     .sort((a, b) => trMaterial(a).localeCompare(trMaterial(b)));
 
   if (!filtered.length && !itemNames.length) {

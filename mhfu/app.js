@@ -1629,13 +1629,16 @@ function runGlobalSearch(query) {
   // A set matches either by its own name, or because one of its pieces does
   // (e.g. searching a piece name like "Archfiend Armor Epine" should surface
   // the set it belongs to, not just literal set-name matches).
-  const armorSetMatches = (armorSets || []).filter(s =>
-    normalizeSearch(s.name).includes(q) ||
-    s.pieces.some(ref => {
+  const armorSetMatches = (armorSets || []).filter(s => {
+    const resolvedPieces = s.pieces.filter(ref => armorPieces.some(x => x.id === ref.id));
+    // Do not advertise an inherited image-only set that cannot open to any
+    // usable armor data. Partial sets with at least one valid piece remain.
+    if (!resolvedPieces.length) return false;
+    return normalizeSearch(s.name).includes(q) || resolvedPieces.some(ref => {
       const p = armorPieces.find(x => x.id === ref.id);
       return p && (normalizeSearch(p.name).includes(q) || normalizeSearch(p.nameEs || "").includes(q));
-    })
-  ).slice(0, 4);
+    });
+  }).slice(0, 4);
   // Pieces that aren't in any explicit set (loose pieces) wouldn't be found
   // by the set search above at all, so they need their own direct match.
   const setPieceIds = getArmorSetPieceIds();
