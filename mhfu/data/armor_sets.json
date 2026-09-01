@@ -17502,15 +17502,15 @@
   "image": "data/images/armor_sets_fandom/famitsu-x.png",
   "pieces": [
    {
-    "id": "mhfuaX37",
-    "name": "Famitsu Pants",
+    "id": "mhfua1822",
+    "name": "Famitsu Shorts",
     "part": "legs",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX38",
-    "name": "Famitsu Pants S",
+    "id": "mhfua1994",
+    "name": "Famitsu Shorts S",
     "part": "legs",
     "variant": "S",
     "rank": 1
@@ -17677,15 +17677,15 @@
     "rank": 1
    },
    {
-    "id": "mhfuaX79",
-    "name": "Hunter Soul T-Shirt",
+    "id": "mhfua708",
+    "name": "Hunter T-Shirt",
     "part": "chest",
     "variant": "-",
     "rank": 0
    },
    {
-    "id": "mhfuaX80",
-    "name": "Hunter Soul T-Shirt X",
+    "id": "mhfua840",
+    "name": "Hunter T-Shirt X",
     "part": "chest",
     "variant": "X",
     "rank": 2
@@ -18681,15 +18681,15 @@
     "rank": 2
    },
    {
-    "id": "mhfuaX244",
-    "name": "Wht Fatalis Scale Z",
+    "id": "mhfua1631",
+    "name": "White Fatalis Scale",
     "part": "waist",
     "variant": "Z",
     "rank": 2
    },
    {
-    "id": "mhfuaX245",
-    "name": "Wht Fatalis Spine Z",
+    "id": "mhfua1630",
+    "name": "White Fatalis Spine",
     "part": "waist",
     "variant": "Z",
     "rank": 2

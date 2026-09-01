@@ -18,7 +18,12 @@
       <a class="header-icon-btn header-icon-btn--label" href="skills.html">Habilidades</a>
       <a class="header-icon-btn header-icon-btn--label" href="quests.html">Misiones</a>
     </div>
-    <div class="header-right"><a class="header-icon-btn header-icon-btn--label" href="index.html">← Inicio Rise</a></div>
+    <div class="header-right">
+      <a class="header-icon-btn header-icon-btn--label" href="index.html">← Inicio Rise</a>
+      <button type="button" id="lang-toggle" class="lang-toggle" title="Idioma / Language">
+        <span class="lang-opt" data-lang="es">ES</span>/<span class="lang-opt" data-lang="en">EN</span>
+      </button>
+    </div>
   </header>
   <main class="decorations-view rise-quests-view">
     <div class="decorations-toolbar">
@@ -34,5 +39,19 @@
   </main>
   <script src="data/i18n.js"></script>
   <script src="quests.js"></script>
+  <script>
+    const langToggle = document.getElementById("lang-toggle");
+    let currentLang = localStorage.getItem("mh-lang") || "es";
+    function syncLanguageToggle() {
+      langToggle.dataset.lang = currentLang;
+      langToggle.querySelectorAll(".lang-opt").forEach(option => option.classList.toggle("active", option.dataset.lang === currentLang));
+    }
+    syncLanguageToggle();
+    langToggle.addEventListener("click", () => {
+      currentLang = currentLang === "es" ? "en" : "es";
+      localStorage.setItem("mh-lang", currentLang);
+      syncLanguageToggle();
+    });
+  </script>
 </body>
 </html>
