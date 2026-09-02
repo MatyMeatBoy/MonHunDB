@@ -137,6 +137,16 @@ let weapons = [];
 let armorPieces = [];
 let armorSets = [];
 let weaponsById = new Map();
+// Weapon 3D models: keyed by weapon "type" then by *family* name (a tier-
+// stripped name, e.g. "Kamura Cleaver" for "Kamura Cleaver I".."V") -- one
+// catalog mesh covers every upgrade tier of a family, see weaponFamilyName().
+// Filled in incrementally per weapon type as extraction batches ship; a
+// missing type/family here just means no 3D model yet, same graceful
+// fallback as MONSTER_3D_MODELS.
+let weaponModels = {};
+function weaponFamilyName(name) {
+  return name.replace(/\s+(I{1,3}|IV|V|VI)$/i, "").trim();
+}
 const ARMOR_PART_ORDER = ["head", "chest", "arms", "waist", "legs"];
 
 function hideViews(...els) {
@@ -368,7 +378,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, combinationsRes, rampageSkillsRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, combinationsRes, rampageSkillsRes, weaponModelsRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
@@ -381,6 +391,7 @@ async function init() {
       fetch("data/items.json"),
       fetch("data/combinations.json"),
       fetch("data/rampage_skills.json"),
+      fetch("data/weapon_models.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
@@ -403,6 +414,7 @@ async function init() {
     items = itemsRes.ok ? await itemsRes.json() : [];
     combinations = combinationsRes.ok ? await combinationsRes.json() : [];
     rampageSkills = rampageSkillsRes.ok ? await rampageSkillsRes.json() : [];
+    weaponModels = weaponModelsRes.ok ? await weaponModelsRes.json() : {};
     // Keep both the source spelling and the normalized material spelling.
     // Some sources encode apostrophes as HTML entities while quest/recipe data
     // uses a normal apostrophe; without this second key those entries cannot
@@ -1946,6 +1958,30 @@ function showWeaponDetail(id) {
 
   const elementsHtml = (w.elements || []).map(e => `<span class="mh-info-value">${elementIconTag(e.type)}${trElement(e.type)} ${e.value}</span>`).join(" ");
   const sharpnessHtml = sharpnessBarHtml(w);
+  const modelPath = (weaponModels[w.type] || {})[weaponFamilyName(w.name)];
+  const model3dHtml = modelPath ? `
+    <section class="block model3d-block">
+      <h3>${ui("weaponsModel3dHeading")} <span class="beta-badge">BETA</span></h3>
+      <div class="model3d-stage">
+        <model-viewer
+          class="weapon-model3d"
+          src="${modelPath}"
+          alt="${escapeAttr(`Modelo 3D de ${trWeaponName(w)}`)}"
+          camera-controls
+          disable-pan
+          interaction-policy="allow-when-focused"
+          tabindex="0"
+          camera-orbit="0deg 75deg 105%"
+          touch-action="pan-y"
+          auto-rotate
+          rotation-per-second="18deg"
+          shadow-intensity="0.6"
+          exposure="1.1"
+          field-of-view="25deg"
+        ></model-viewer>
+      </div>
+    </section>
+  ` : "";
 
   weaponDetailEl.innerHTML = `
     <a class="decorations-back" href="weapons">${ui("weaponsBack")}</a>
@@ -1963,6 +1999,7 @@ function showWeaponDetail(id) {
         ${w.decoSlots && w.decoSlots.length ? `<li class="stat-list-item"><span class="stat-name">${ui("weaponsDecoSlots")}</span>${decoSlotsTag(w.decoSlots)}</li>` : ""}
       </ul>
     </section>
+    ${model3dHtml}
     ${ammoTableHtml(w)}
     ${projectileReferenceHtml(w)}
     ${hornSongsHtml(w)}
@@ -1973,6 +2010,16 @@ function showWeaponDetail(id) {
       <div class="decoration-materials-blocks">${materialsHtml}</div>
     </section>
   `;
+  const weaponMv = weaponDetailEl.querySelector(".weapon-model3d");
+  if (weaponMv) {
+    const model3dBlock = weaponMv.closest(".model3d-block");
+    // Same fix as the monster page: don't let a merely-hovered model-viewer
+    // steal page-scroll wheel events unless it's been explicitly focused.
+    model3dBlock.addEventListener("wheel", event => {
+      if (document.activeElement !== weaponMv) event.stopImmediatePropagation();
+    }, { capture: true });
+    weaponMv.addEventListener("pointerdown", () => weaponMv.focus());
+  }
   weaponDetailEl.querySelectorAll(".decoration-card").forEach(btn => {
     btn.addEventListener("click", () => navWeapon(btn.dataset.id));
   });

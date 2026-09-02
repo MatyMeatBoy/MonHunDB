@@ -840,6 +840,13 @@ body[data-page="quests"] .header-icon-btn[href^="quests"] {
 .model3d-variant-btn:hover { border-color: var(--accent); }
 .model3d-variant-btn.active { background: var(--accent); border-color: var(--accent); color: #1a1714; font-weight: 600; }
 .model3d-note { font-size: 0.78rem; color: var(--text-dim); margin: 0.5rem 0 0; }
+.weapon-model3d {
+  width: 100%;
+  height: 320px;
+  background: var(--bg-panel-alt);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
 
 .monster-name {
   margin: 0;
