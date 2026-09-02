@@ -3676,8 +3676,8 @@ const NEWS = [
     textKey: "newsWildsV03Text",
     bulletsKey: "newsWildsV03Bullets",
     imageHtml: () => `
-      <img src="data/images/icon-gore-magala.webp" alt="" loading="lazy">
-      <img src="data/images/icon-guardian-arkveld.webp" alt="" loading="lazy">
+      <img src="data/images/icons/gore-magala.webp" alt="" loading="lazy">
+      <img src="data/images/icons/guardian-arkveld.webp" alt="" loading="lazy">
     `,
   },
   {

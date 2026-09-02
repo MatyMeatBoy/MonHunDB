@@ -21,6 +21,20 @@ rise/data/weapon_icon_fallback_cache/
 # Fextralife individual Wilds armor pages (rebuildable scraper cache)
 wilds/data/armor_piece_pages_raw/
 
+# Wilds raw HTML/JSON scrape cache -- resumable inputs for the various
+# wilds/data/scrape_*.js / *_raw.js build scripts, not served by the app
+# (~111MB tracked before this was added; see rise/data/weapon_tree_raw/
+# above for the same pattern on Rise).
+wilds/data/*_raw.html
+wilds/data/*_raw.json
+wilds/data/armor_set_pages_raw/
+wilds/data/armor_sets_raw/
+wilds/data/mhwikiorg_armor_pages_raw/
+wilds/data/monster_wiki_raw/
+wilds/data/monsters_raw/
+wilds/data/skills_raw/
+wilds/data/weapon_type_pages/
+
 # scratch screenshots
 weapon_tree_kamura.png
 
