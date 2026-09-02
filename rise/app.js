@@ -2693,6 +2693,7 @@ function starString(stars, max = 3) {
 const MONSTER_3D_MODELS = {
   "Aknosom": "data/models/aknosom.glb",
   "Almudron": "data/models/almudron.glb",
+  "Magma Almudron": "data/models/magma-almudron.glb",
 };
 
 function renderMonster(name) {
