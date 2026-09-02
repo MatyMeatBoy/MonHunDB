@@ -2755,6 +2755,11 @@ const MONSTER_3D_MODELS = {
   "Velkhana": "data/models/velkhana.glb",
   "Volvidon": "data/models/volvidon.glb",
   "Wind Serpent Ibushi": "data/models/wind-serpent-ibushi.glb",
+  "Crimson Glow Valstrax": "data/models/crimson-glow-valstrax.glb",
+  "Risen Crimson Glow Valstrax": "data/models/risen-crimson-glow-valstrax.glb",
+  // Narwa the Allmother has no separate mesh in the catalog -- it's the same
+  // em099 rig as Thunder Serpent Narwa, just scaled up with VFX in-engine.
+  "Narwa the Allmother": "data/models/thunder-serpent-narwa.glb",
   "Kelbi": "data/models/kelbi.glb",
   "Hornetaur": "data/models/hornetaur.glb",
   "Vespoid": "data/models/vespoid.glb",
