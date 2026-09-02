@@ -1598,7 +1598,7 @@ function isWeaponTrueFinal(w) {
 }
 function decoSlotsTag(levels) {
   if (!levels || !levels.length) return "";
-  return `<span class="deco-slots">${levels.map(l => `<img class="deco-slot-icon" src="data/images/icons/deco${l}.png" alt="Lv${l}" title="Lv${l}">`).join("")}</span>`;
+  return `<span class="deco-slots">${levels.map(l => `<img class="deco-slot-icon" src="data/images/icons/deco${l}.webp" alt="Lv${l}" title="Lv${l}">`).join("")}</span>`;
 }
 // Sharpness bar, ported from mhrice (github.com/wwylele/mhrice): each weapon's
 // sharpness is 7 raw values (Red/Orange/Yellow/Green/Blue/White/Purple) that

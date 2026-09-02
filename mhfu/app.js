@@ -2314,7 +2314,7 @@ function isWeaponTrueFinal(w) {
 }
 function decoSlotsTag(levels) {
   if (!levels || !levels.length) return "";
-  return `<span class="deco-slots">${levels.map(l => `<img class="deco-slot-icon" src="data/images/icons/deco${l}.png" alt="Lv${l}" title="Lv${l}">`).join("")}</span>`;
+  return `<span class="deco-slots">${levels.map(l => `<img class="deco-slot-icon" src="data/images/icons/deco${l}.webp" alt="Lv${l}" title="Lv${l}">`).join("")}</span>`;
 }
 function getWeaponChain(w) {
   if (weaponParentOf && weaponsByNameNorm) {
