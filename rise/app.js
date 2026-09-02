@@ -1687,6 +1687,15 @@ function ammoTableHtml(w) {
 }
 const BOW_SHOT_REFERENCE = ["Rapid", "Spread", "Pierce"];
 const BOW_COATING_REFERENCE = ["Close-range", "Power", "Poison", "Paralysis", "Sleep", "Blast", "Exhaust"];
+// Hunting Horn only: the melodies/buffs this specific horn can play, scraped
+// from mhrice.info (data/weapons.json's per-weapon "songs" field, [{name,
+// nameEs}]) -- not the exact note-input combinations, just which effects
+// are available on this weapon, matching what most bestiary sites show.
+function hornSongsHtml(w) {
+  if (w.type !== "Hunting Horn" || !w.songs || !w.songs.length) return "";
+  const chips = w.songs.map(s => `<div class="ammo-chip"><span class="ammo-chip-name">${escapeAttr(lang === "es" ? s.nameEs : s.name)}</span></div>`).join("");
+  return `<section class="block"><h3>${ui("weaponsSongsHeading")}</h3><div class="ammo-grid">${chips}</div></section>`;
+}
 function projectileReferenceHtml(w) {
   if (w.type !== "Bow") return "";
   const title = lang === "es" ? "Tipos de disparo y viales del arco" : "Bow shot types and coatings";
@@ -1956,6 +1965,7 @@ function showWeaponDetail(id) {
     </section>
     ${ammoTableHtml(w)}
     ${projectileReferenceHtml(w)}
+    ${hornSongsHtml(w)}
     ${treeHtml}
     ${chainHtml}
     <section class="block">
