@@ -1,11 +1,11 @@
 {
   "Blast": "data/images/status/blast.webp",
-  "Blastblight": "data/images/status/blastblight.webp",
+  "Blastblight": "data/images/status/blast.webp",
   "Bubble": "data/images/status/bubble.webp",
   "Defense Down": "data/images/status/defense-down.webp",
   "Dragonblight": "data/images/status/dragonblight.webp",
   "Fireblight": "data/images/status/fireblight.webp",
-  "Hellfireblight": "data/images/status/hellfireblight.webp",
+  "Hellfireblight": "data/images/status/fireblight.webp",
   "Iceblight": "data/images/status/iceblight.webp",
   "Paralysis": "data/images/status/paralysis.webp",
   "Poison": "data/images/status/poison.webp",

@@ -64,20 +64,20 @@
     "weapon": {
       "name": "F Ajarakan Staff α",
       "nameEs": "Vara de Ajarakan F α",
-      "icon": "data/images/palico_weapons/61.webp"
+      "icon": "data/images/palico_weapons/26.webp"
     },
     "pieces": [
       {
         "part": "head",
         "name": "F Ajarakan Helm α",
         "nameEs": "Yelmo de Ajarakan F α",
-        "icon": "data/images/palico_pieces/76.webp"
+        "icon": "data/images/palico_pieces/28.webp"
       },
       {
         "part": "chest",
         "name": "F Ajarakan Mail α",
         "nameEs": "Cota de Ajarakan F α",
-        "icon": "data/images/palico_pieces/77.webp"
+        "icon": "data/images/palico_pieces/29.webp"
       }
     ]
   },
@@ -132,13 +132,13 @@
         "part": "head",
         "name": "Felyne Alloy Helm α",
         "nameEs": "Yelmo de aleación F α",
-        "icon": "data/images/palico_pieces/48.webp"
+        "icon": "data/images/palico_pieces/8.webp"
       },
       {
         "part": "chest",
         "name": "Felyne Alloy Mail α",
         "nameEs": "Cota de aleación F α",
-        "icon": "data/images/palico_pieces/49.webp"
+        "icon": "data/images/palico_pieces/9.webp"
       }
     ]
   },
@@ -336,13 +336,13 @@
         "part": "head",
         "name": "Felyne Balahara Helm α",
         "nameEs": "Yelmo de Balahara F α",
-        "icon": "data/images/palico_pieces/64.webp"
+        "icon": "data/images/palico_pieces/14.webp"
       },
       {
         "part": "chest",
         "name": "Felyne Balahara Mech α",
         "nameEs": "Robot Balahara F α",
-        "icon": "data/images/palico_pieces/65.webp"
+        "icon": "data/images/palico_pieces/15.webp"
       }
     ]
   },
@@ -362,7 +362,7 @@
     "weapon": {
       "name": "Felyne Balahara Drill",
       "nameEs": "Taladro de Balahara F",
-      "icon": "data/images/palico_weapons/47.webp"
+      "icon": "data/images/palico_weapons/9.webp"
     },
     "pieces": [
       {
@@ -435,13 +435,13 @@
         "part": "head",
         "name": "Felyne Bone Helm α",
         "nameEs": "Yelmo de hueso F α",
-        "icon": "data/images/palico_pieces/46.webp"
+        "icon": "data/images/palico_pieces/2.webp"
       },
       {
         "part": "chest",
         "name": "Felyne Bone Mail α",
         "nameEs": "Cota de hueso F α",
-        "icon": "data/images/palico_pieces/47.webp"
+        "icon": "data/images/palico_pieces/3.webp"
       }
     ]
   },
@@ -461,7 +461,7 @@
     "weapon": {
       "name": "Felyne Bone Hammer",
       "nameEs": "Martillo de hueso F",
-      "icon": "data/images/palico_weapons/70.webp"
+      "icon": "data/images/palico_weapons/49.webp"
     },
     "pieces": [
       {
@@ -528,13 +528,13 @@
         "part": "head",
         "name": "F Cabra Hood α",
         "nameEs": "Capucha Chatacabra F α",
-        "icon": "data/images/palico_pieces/50.webp"
+        "icon": "data/images/palico_pieces/4.webp"
       },
       {
         "part": "chest",
         "name": "F Cabra Jumpsuit α",
         "nameEs": "Mono Chatacabra F α",
-        "icon": "data/images/palico_pieces/51.webp"
+        "icon": "data/images/palico_pieces/5.webp"
       }
     ]
   },
@@ -554,7 +554,7 @@
     "weapon": {
       "name": "Felyne Chata Clobberer",
       "nameEs": "Mazo Chata F",
-      "icon": "data/images/palico_weapons/3.webp"
+      "icon": "data/images/palico_weapons/2.webp"
     },
     "pieces": [
       {
@@ -594,13 +594,13 @@
         "part": "head",
         "name": "Felyne Conga Head α",
         "nameEs": "Cabeza de Conga F α",
-        "icon": "data/images/palico_pieces/56.webp"
+        "icon": "data/images/palico_pieces/12.webp"
       },
       {
         "part": "chest",
         "name": "Felyne Conga Fete α",
         "nameEs": "Fiesta de Conga F α",
-        "icon": "data/images/palico_pieces/57.webp"
+        "icon": "data/images/palico_pieces/13.webp"
       }
     ]
   },
@@ -620,7 +620,7 @@
     "weapon": {
       "name": "Felyne Conga Tambourine",
       "nameEs": "Pandereta de Conga F",
-      "icon": "data/images/palico_weapons/44.webp"
+      "icon": "data/images/palico_weapons/18.webp"
     },
     "pieces": [
       {
@@ -752,20 +752,20 @@
     "weapon": {
       "name": "F Doshaguma Knuckle α",
       "nameEs": "Nudillos Doshaguma F α",
-      "icon": "data/images/palico_weapons/68.webp"
+      "icon": "data/images/palico_weapons/6.webp"
     },
     "pieces": [
       {
         "part": "head",
         "name": "F Doshaguma Helm α",
         "nameEs": "Yelmo Doshaguma F α",
-        "icon": "data/images/palico_pieces/74.webp"
+        "icon": "data/images/palico_pieces/16.webp"
       },
       {
         "part": "chest",
         "name": "F Doshaguma Mail α",
         "nameEs": "Cota Doshaguma F α",
-        "icon": "data/images/palico_pieces/75.webp"
+        "icon": "data/images/palico_pieces/17.webp"
       }
     ]
   },
@@ -846,20 +846,20 @@
     "weapon": {
       "name": "F Guardian Ark Sword α",
       "nameEs": "Espada de Arkveld G. F α",
-      "icon": "data/images/palico_weapons/62.webp"
+      "icon": "data/images/palico_weapons/12.webp"
     },
     "pieces": [
       {
         "part": "head",
         "name": "F Guardian Ark Helm α",
         "nameEs": "Yelmo de Arkveld G. F α",
-        "icon": "data/images/palico_pieces/102.webp"
+        "icon": "data/images/palico_pieces/40.webp"
       },
       {
         "part": "chest",
         "name": "F Guardian Ark Mail α",
         "nameEs": "Cota de Arkveld G. F α",
-        "icon": "data/images/palico_pieces/103.webp"
+        "icon": "data/images/palico_pieces/41.webp"
       }
     ]
   },
@@ -919,13 +919,13 @@
         "part": "head",
         "name": "F Guardian Dosha Helm α",
         "nameEs": "Yelmo Doshaguma G. F α",
-        "icon": "data/images/palico_pieces/78.webp"
+        "icon": "data/images/palico_pieces/32.webp"
       },
       {
         "part": "chest",
         "name": "F Guardian Dosha Mail α",
         "nameEs": "Cota Doshaguma G. F α",
-        "icon": "data/images/palico_pieces/79.webp"
+        "icon": "data/images/palico_pieces/33.webp"
       }
     ]
   },
@@ -945,7 +945,7 @@
     "weapon": {
       "name": "F Guardian Dosha Knuckle",
       "nameEs": "Nudillos Doshaguma G. F",
-      "icon": "data/images/palico_weapons/63.webp"
+      "icon": "data/images/palico_weapons/4.webp"
     },
     "pieces": [
       {
@@ -978,20 +978,20 @@
     "weapon": {
       "name": "F Guardian Ebony Sickle α",
       "nameEs": "Hoz de Ébano G. F α",
-      "icon": "data/images/palico_weapons/69.webp"
+      "icon": "data/images/palico_weapons/14.webp"
     },
     "pieces": [
       {
         "part": "head",
         "name": "F Guardian Ebony Helm α",
         "nameEs": "Yelmo de Ébano G. F α",
-        "icon": "data/images/palico_pieces/82.webp"
+        "icon": "data/images/palico_pieces/36.webp"
       },
       {
         "part": "chest",
         "name": "F Guardian Ebony Mail α",
         "nameEs": "Cota de Ébano G. F α",
-        "icon": "data/images/palico_pieces/83.webp"
+        "icon": "data/images/palico_pieces/37.webp"
       }
     ]
   },
@@ -1084,13 +1084,13 @@
         "part": "head",
         "name": "F Guardian Rath Helm α",
         "nameEs": "Yelmo de Rath G. F α",
-        "icon": "data/images/palico_pieces/80.webp"
+        "icon": "data/images/palico_pieces/34.webp"
       },
       {
         "part": "chest",
         "name": "F Guardian Rath Mail α",
         "nameEs": "Cota de Rath G. F α",
-        "icon": "data/images/palico_pieces/81.webp"
+        "icon": "data/images/palico_pieces/35.webp"
       }
     ]
   },
@@ -1110,7 +1110,7 @@
     "weapon": {
       "name": "F Guardian Rath Blade",
       "nameEs": "Filo de Rath G. F",
-      "icon": "data/images/palico_weapons/58.webp"
+      "icon": "data/images/palico_weapons/55.webp"
     },
     "pieces": [
       {
@@ -1282,13 +1282,13 @@
         "part": "head",
         "name": "Felyne Hirabami Cap α",
         "nameEs": "Gorro de Hirabami F α",
-        "icon": "data/images/palico_pieces/68.webp"
+        "icon": "data/images/palico_pieces/26.webp"
       },
       {
         "part": "chest",
         "name": "Felyne Hirabami Robe α",
         "nameEs": "Túnica de Hirabami F α",
-        "icon": "data/images/palico_pieces/69.webp"
+        "icon": "data/images/palico_pieces/27.webp"
       }
     ]
   },
@@ -1308,7 +1308,7 @@
     "weapon": {
       "name": "Felyne Hirabami Fan",
       "nameEs": "Abanico de Hirabami F",
-      "icon": "data/images/palico_weapons/17.webp"
+      "icon": "data/images/palico_weapons/11.webp"
     },
     "pieces": [
       {
@@ -1341,20 +1341,20 @@
     "weapon": {
       "name": "F Hope Hammer α",
       "nameEs": "Mazo de esperanza F α",
-      "icon": "data/images/palico_weapons/57.webp"
+      "icon": "data/images/palico_weapons/1.webp"
     },
     "pieces": [
       {
         "part": "head",
         "name": "Felyne Hope Helm α",
         "nameEs": "Yelmo de esperanza F α",
-        "icon": "data/images/palico_pieces/44.webp"
+        "icon": "data/images/palico_pieces/0.webp"
       },
       {
         "part": "chest",
         "name": "Felyne Hope Suit α",
         "nameEs": "Traje de esperanza F α",
-        "icon": "data/images/palico_pieces/45.webp"
+        "icon": "data/images/palico_pieces/1.webp"
       }
     ]
   },
@@ -1476,20 +1476,20 @@
     "weapon": {
       "name": "Felyne Barina Needle α",
       "nameEs": "Púa de Lala Barina F α",
-      "icon": "data/images/palico_weapons/7.webp"
+      "icon": "data/images/palico_weapons/5.webp"
     },
     "pieces": [
       {
         "part": "head",
         "name": "Felyne Barina Wig α",
         "nameEs": "Peluca de Barina F α",
-        "icon": "data/images/palico_pieces/54.webp"
+        "icon": "data/images/palico_pieces/10.webp"
       },
       {
         "part": "chest",
         "name": "Felyne Barina Dress α",
         "nameEs": "Vestido de Barina F α",
-        "icon": "data/images/palico_pieces/55.webp"
+        "icon": "data/images/palico_pieces/11.webp"
       }
     ]
   },
@@ -1597,20 +1597,20 @@
     "weapon": {
       "name": "Felyne Nerscylla Wedge α",
       "nameEs": "Cuña de Nerscylla F α",
-      "icon": "data/images/palico_weapons/52.webp"
+      "icon": "data/images/palico_weapons/8.webp"
     },
     "pieces": [
       {
         "part": "head",
         "name": "Felyne Scylla Mask α",
         "nameEs": "Máscara de Scylla F α",
-        "icon": "data/images/palico_pieces/66.webp"
+        "icon": "data/images/palico_pieces/24.webp"
       },
       {
         "part": "chest",
         "name": "Felyne Scylla Mail α",
         "nameEs": "Cota de Scylla F α",
-        "icon": "data/images/palico_pieces/67.webp"
+        "icon": "data/images/palico_pieces/25.webp"
       }
     ]
   },
@@ -1670,13 +1670,13 @@
         "part": "head",
         "name": "Felyne Udra Head α",
         "nameEs": "Cabeza de Udra F α",
-        "icon": "data/images/palico_pieces/98.webp"
+        "icon": "data/images/palico_pieces/30.webp"
       },
       {
         "part": "chest",
         "name": "Felyne Udra Tentacles α",
         "nameEs": "Tentáculos de Udra F α",
-        "icon": "data/images/palico_pieces/99.webp"
+        "icon": "data/images/palico_pieces/31.webp"
       }
     ]
   },
@@ -1696,7 +1696,7 @@
     "weapon": {
       "name": "Felyne Udra Vessel",
       "nameEs": "Recipiente de Udra F",
-      "icon": "data/images/palico_weapons/48.webp"
+      "icon": "data/images/palico_weapons/46.webp"
     },
     "pieces": [
       {
@@ -1757,20 +1757,20 @@
     "weapon": {
       "name": "Felyne Matrice Spear α",
       "nameEs": "Pica Matrice F α",
-      "icon": "data/images/palico_weapons/22.webp"
+      "icon": "data/images/palico_weapons/15.webp"
     },
     "pieces": [
       {
         "part": "head",
         "name": "Felyne Quema Helm α",
         "nameEs": "Yelmo Quema F α",
-        "icon": "data/images/palico_pieces/52.webp"
+        "icon": "data/images/palico_pieces/6.webp"
       },
       {
         "part": "chest",
         "name": "Felyne Quema Mail α",
         "nameEs": "Cota Quema F α",
-        "icon": "data/images/palico_pieces/53.webp"
+        "icon": "data/images/palico_pieces/7.webp"
       }
     ]
   },
@@ -1872,13 +1872,13 @@
         "part": "head",
         "name": "Felyne Dau Helm α",
         "nameEs": "Yelmo Dau F α",
-        "icon": "data/images/palico_pieces/94.webp"
+        "icon": "data/images/palico_pieces/22.webp"
       },
       {
         "part": "chest",
         "name": "Felyne Dau Armor α",
         "nameEs": "Armadura Dau F α",
-        "icon": "data/images/palico_pieces/95.webp"
+        "icon": "data/images/palico_pieces/23.webp"
       }
     ]
   },
@@ -1961,13 +1961,13 @@
         "part": "head",
         "name": "F Rompopolo Brain α",
         "nameEs": "Cerebro de Rompopolo F α",
-        "icon": "data/images/palico_pieces/62.webp"
+        "icon": "data/images/palico_pieces/20.webp"
       },
       {
         "part": "chest",
         "name": "F Rompopolo Suit α",
         "nameEs": "Traje de Rompopolo F α",
-        "icon": "data/images/palico_pieces/63.webp"
+        "icon": "data/images/palico_pieces/21.webp"
       }
     ]
   },
@@ -1987,7 +1987,7 @@
     "weapon": {
       "name": "F Rompopolo Blaster",
       "nameEs": "Ráfaga de Rompopolo F",
-      "icon": "data/images/palico_weapons/65.webp"
+      "icon": "data/images/palico_weapons/13.webp"
     },
     "pieces": [
       {
@@ -2146,7 +2146,7 @@
       "ice": 2,
       "dragon": 0
     },
-    "image": "data/images/palico_armor/Felyne_Nu_Udra_Gamma_Set.webp",
+    "image": "data/images/palico_armor/Felyne_Udra_Gamma_Set.webp",
     "weapon": {
       "name": "Felyne Udra Vessel γ",
       "nameEs": "Recipiente de Udra F γ",
@@ -2197,20 +2197,20 @@
     "weapon": {
       "name": "Felyne Duna Spear α",
       "nameEs": "Lanza de Duna F α",
-      "icon": "data/images/palico_weapons/59.webp"
+      "icon": "data/images/palico_weapons/0.webp"
     },
     "pieces": [
       {
         "part": "head",
         "name": "Felyne Duna Mask α",
         "nameEs": "Máscara de Duna F α",
-        "icon": "data/images/palico_pieces/96.webp"
+        "icon": "data/images/palico_pieces/18.webp"
       },
       {
         "part": "chest",
         "name": "Felyne Duna Cape α",
         "nameEs": "Capa de Duna F α",
-        "icon": "data/images/palico_pieces/97.webp"
+        "icon": "data/images/palico_pieces/19.webp"
       }
     ]
   },
@@ -2303,13 +2303,13 @@
         "part": "head",
         "name": "Felyne Xu Wu Veil α",
         "nameEs": "Velo de Xu Wu F α",
-        "icon": "data/images/palico_pieces/84.webp"
+        "icon": "data/images/palico_pieces/38.webp"
       },
       {
         "part": "chest",
         "name": "Felyne Xu Wu Suit α",
         "nameEs": "Traje de Xu Wu F α",
-        "icon": "data/images/palico_pieces/85.webp"
+        "icon": "data/images/palico_pieces/39.webp"
       }
     ]
   },
@@ -2329,7 +2329,7 @@
     "weapon": {
       "name": "Felyne Xu Wu Orb",
       "nameEs": "Orbe de Xu Wu F",
-      "icon": "data/images/palico_weapons/71.webp"
+      "icon": "data/images/palico_weapons/60.webp"
     },
     "pieces": [
       {

@@ -3655,7 +3655,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/lagiacrus-alpha-set.webp",
+    "localImage": "data/images/armor_sets_full/lagiacrus-beta-set.webp",
     "materials": [
       {
         "material": "Lightcrystal",
@@ -4092,7 +4092,7 @@
       2,
       1
     ],
-    "localImage": "data/images/armor_sets_full/seregios-alpha-set.webp",
+    "localImage": "data/images/armor_sets_full/seregios-beta-set.webp",
     "materials": [
       {
         "material": "Dragonbone Relic",
@@ -4908,7 +4908,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/ajarakan-alpha-set.webp",
+    "localImage": "data/images/armor_sets_full/ajarakan-set.webp",
     "materials": [
       {
         "material": "Ajarakan Scale",
@@ -10769,7 +10769,7 @@
       1,
       1
     ],
-    "localImage": "data/images/armor_sets_full/gajau-alpha-set.webp",
+    "localImage": "data/images/armor_sets_full/gajau-set.webp",
     "materials": [
       {
         "material": "Gajau Hide",

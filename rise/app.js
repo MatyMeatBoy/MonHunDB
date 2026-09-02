@@ -3157,7 +3157,7 @@ const HITZONE_SHAPES = {
   // only rendered when this field is set.
   "Daimyo Hermitaur": {
     viewBox: "0 0 1169 1029",
-    bgImage: "data/images/hitzone_bg/daimyo-hermitaur.webp",
+    bgImage: "data/images/daimyo-hermitaur.webp",
     parts: {
       "Left Leg": [
         "748,852 817,888 847,851 888,881 931,874 1017,1028 1009,941 969,874 1006,869 1119,1011 1109,944 1033,816 959,828 927,766 865,787 843,757 864,761 845,729 779,692 725,681 703,740 693,854",
