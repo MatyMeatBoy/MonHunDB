@@ -38,6 +38,11 @@ wilds/data/weapon_type_pages/
 # scratch screenshots
 weapon_tree_kamura.png
 
+# 3D model extraction/conversion toolchain (monsterrip + Blender staging) --
+# local tooling, not site content. Deliverables get copied out to
+# <game>/data/models/*.glb (tracked) per ReAssets/README.md's own workflow.
+ReAssets/
+
 # stray files from a merged external project (bestiario-nemo) â€” not part of the app
 node_modules/
 develop/

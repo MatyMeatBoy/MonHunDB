@@ -2692,6 +2692,7 @@ function starString(stars, max = 3) {
 // { variants: [...] } same as MHFU's Rajang/Ceanataur, but none here yet.
 const MONSTER_3D_MODELS = {
   "Aknosom": "data/models/aknosom.glb",
+  "Almudron": "data/models/almudron.glb",
 };
 
 function renderMonster(name) {
