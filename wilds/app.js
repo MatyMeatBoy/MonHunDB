@@ -1967,6 +1967,13 @@ function showWeaponDetail(id) {
   }).join("") || `<p class="no-data">${ui("noMaterialsYet")}</p>`;
 
   const chain = getWeaponChain(w);
+  const treeSvg = renderWeaponTreeSVG(w);
+  const treeHtml = treeSvg ? `
+    <section class="block">
+      <h3>${ui("weaponsTreeHeading")}</h3>
+      ${treeSvg}
+    </section>
+  ` : "";
   const chainHtml = chain.length > 1 ? `
     <section class="block">
       <h3>${ui("weaponsEarlierVersions")}</h3>
@@ -2002,6 +2009,7 @@ function showWeaponDetail(id) {
     </section>
     ${ammoTableHtml(w)}
     ${projectileReferenceHtml(w)}
+    ${treeHtml}
     ${chainHtml}
     <section class="block">
       <h3>${ui("weaponsMaterialsHeading")}</h3>

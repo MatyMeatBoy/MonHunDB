@@ -990,7 +990,7 @@
         "name": "Artillery",
         "nameEs": "Artillería",
         "level": 1,
-        "effect": "Increases power of each attack by 10% and reduces Wyvern&#039;s Fire cooldown by 15%.",
+        "effect": "Increases power of each attack by 10% and reduces Wyvern's Fire cooldown by 15%.",
         "effectEs": "Potencia el poder de cada ataque un 10 % y acelera el enfriamiento del fuego de wyvern un 15 %."
       }
     ],
@@ -5496,7 +5496,7 @@
         "name": "Artillery",
         "nameEs": "Artillería",
         "level": 2,
-        "effect": "Increases power of each attack by 20% and reduces Wyvern&#039;s Fire cooldown by 30%.",
+        "effect": "Increases power of each attack by 20% and reduces Wyvern's Fire cooldown by 30%.",
         "effectEs": "Potencia el poder de cada ataque un 20 % y acelera el enfriamiento del fuego de wyvern un 30 %."
       }
     ],

@@ -1913,6 +1913,13 @@ function showWeaponDetail(id) {
   }).join("") || `<p class="no-data">${ui("noMaterialsYet")}</p>`;
 
   const chain = getWeaponChain(w);
+  const treeSvg = renderWeaponTreeSVG(w);
+  const treeHtml = treeSvg ? `
+    <section class="block">
+      <h3>${ui("weaponsTreeHeading")}</h3>
+      ${treeSvg}
+    </section>
+  ` : "";
   const chainHtml = chain.length > 1 ? `
     <section class="block">
       <h3>${ui("weaponsEarlierVersions")}</h3>
@@ -1947,9 +1954,10 @@ function showWeaponDetail(id) {
         ${w.decoSlots && w.decoSlots.length ? `<li class="stat-list-item"><span class="stat-name">${ui("weaponsDecoSlots")}</span>${decoSlotsTag(w.decoSlots)}</li>` : ""}
       </ul>
     </section>
-    ${chainHtml}
     ${ammoTableHtml(w)}
     ${projectileReferenceHtml(w)}
+    ${treeHtml}
+    ${chainHtml}
     <section class="block">
       <h3>${ui("weaponsMaterialsHeading")}</h3>
       <div class="decoration-materials-blocks">${materialsHtml}</div>

@@ -143,7 +143,7 @@
   },
   {
     "id": "Bookwilthe%27s_Punisher",
-    "name": "Bookwilthe&#39;s Punisher",
+    "name": "Bookwilthe's Punisher",
     "type": "Bow",
     "icon": "data/images/weapons_fextra/Bookwilthe%27s_Punisher.webp",
     "rarity": 8,
@@ -800,7 +800,7 @@
   },
   {
     "id": "Queen%27s_Melody",
-    "name": "Queen&#39;s Melody",
+    "name": "Queen's Melody",
     "type": "Bow",
     "icon": "data/images/weapons_fextra/Queen%27s_Melody.webp",
     "rarity": 8,
@@ -1083,7 +1083,7 @@
   },
   {
     "id": "Hunter%27s_Bow_I",
-    "name": "Hunter&#39;s Bow I",
+    "name": "Hunter's Bow I",
     "type": "Bow",
     "icon": "data/images/weapons_fextra/Hunter%27s_Bow_I.webp",
     "rarity": 1,
@@ -1100,7 +1100,7 @@
   },
   {
     "id": "Hunter%27s_Bow_II",
-    "name": "Hunter&#39;s Bow II",
+    "name": "Hunter's Bow II",
     "type": "Bow",
     "icon": "data/images/weapons_fextra/Hunter%27s_Bow_II.webp",
     "rarity": 2,
@@ -1121,7 +1121,7 @@
   },
   {
     "id": "Hunter%27s_Bow_III",
-    "name": "Hunter&#39;s Bow III",
+    "name": "Hunter's Bow III",
     "type": "Bow",
     "icon": "data/images/weapons_fextra/Hunter%27s_Bow_III.webp",
     "rarity": 4,
@@ -1138,7 +1138,7 @@
   },
   {
     "id": "Hunter%27s_Bow_IV",
-    "name": "Hunter&#39;s Bow IV",
+    "name": "Hunter's Bow IV",
     "type": "Bow",
     "icon": "data/images/weapons_fextra/Hunter%27s_Bow_IV.webp",
     "rarity": 6,
@@ -1159,7 +1159,7 @@
   },
   {
     "id": "Hunter%27s_Stoutbow",
-    "name": "Hunter&#39;s Stoutbow",
+    "name": "Hunter's Stoutbow",
     "type": "Bow",
     "icon": "data/images/weapons_fextra/Hunter%27s_Stoutbow.webp",
     "rarity": 8,
@@ -1888,7 +1888,7 @@
   },
   {
     "id": "Heaven%27s_Manna",
-    "name": "Heaven&#39;s Manna",
+    "name": "Heaven's Manna",
     "type": "Bow",
     "icon": "data/images/weapons_fextra/Blessed_Rain_I.webp",
     "rarity": 8,
@@ -4279,7 +4279,7 @@
   },
   {
     "id": "Venom%27s_Kiss",
-    "name": "Venom&#39;s Kiss",
+    "name": "Venom's Kiss",
     "type": "Charge Blade",
     "icon": "data/images/weapons_fextra/Venom%27s_Kiss.webp",
     "rarity": 8,
@@ -9225,7 +9225,7 @@
   },
   {
     "id": "Prinvrilo%27s_Dissolution",
-    "name": "Prinvrilo&#39;s Dissolution",
+    "name": "Prinvrilo's Dissolution",
     "type": "Great Sword",
     "icon": "data/images/weapons_fextra/Prinvrilo%27s_Dissolution.webp",
     "rarity": 8,
@@ -16892,7 +16892,7 @@
   },
   {
     "id": "Zaccio%27s_Execution",
-    "name": "Zaccio&#39;s Execution",
+    "name": "Zaccio's Execution",
     "type": "Hammer",
     "icon": "data/images/weapons_fextra/Zaccio%27s_Execution.webp",
     "rarity": 8,
@@ -21341,7 +21341,7 @@
   },
   {
     "id": "Queen%27s_Longfire_I",
-    "name": "Queen&#39;s Longfire I",
+    "name": "Queen's Longfire I",
     "type": "Heavy Bowgun",
     "icon": "data/images/weapons_fextra/Queen%27s_Longfire_I.webp",
     "rarity": 5,
@@ -21370,7 +21370,7 @@
   },
   {
     "id": "Queen%27s_Longfire_II",
-    "name": "Queen&#39;s Longfire II",
+    "name": "Queen's Longfire II",
     "type": "Heavy Bowgun",
     "icon": "data/images/weapons_fextra/Queen%27s_Longfire_II.webp",
     "rarity": 7,
@@ -21399,7 +21399,7 @@
   },
   {
     "id": "Queen%27s_Farflier",
-    "name": "Queen&#39;s Farflier",
+    "name": "Queen's Farflier",
     "type": "Heavy Bowgun",
     "icon": "data/images/weapons_fextra/Queen%27s_Farflier.webp",
     "rarity": 8,
@@ -24656,7 +24656,7 @@
   },
   {
     "id": "Kae-Jin%27s_Lament",
-    "name": "Kae-Jin&#39;s Lament",
+    "name": "Kae-Jin's Lament",
     "type": "Hunting Horn",
     "icon": "data/images/weapons_fextra/Kae-Jin%27s_Lament.webp",
     "rarity": 8,
@@ -24772,7 +24772,7 @@
   },
   {
     "id": "Kut-Ku%27s_Song_I",
-    "name": "Kut-Ku&#39;s Song I",
+    "name": "Kut-Ku's Song I",
     "type": "Hunting Horn",
     "icon": "data/images/weapons_fextra/Kut-Ku%27s_Song_I.webp",
     "rarity": 5,
@@ -24801,7 +24801,7 @@
   },
   {
     "id": "Kut-Ku%27s_Song_II",
-    "name": "Kut-Ku&#39;s Song II",
+    "name": "Kut-Ku's Song II",
     "type": "Hunting Horn",
     "icon": "data/images/weapons_fextra/Kut-Ku%27s_Song_II.webp",
     "rarity": 7,
@@ -29467,7 +29467,7 @@
   },
   {
     "id": "Vanguard%27s_Glaive",
-    "name": "Vanguard&#39;s Glaive",
+    "name": "Vanguard's Glaive",
     "type": "Insect Glaive",
     "icon": "data/images/weapons_fextra/Vanguard%27s_Pride.webp",
     "rarity": 7,
@@ -29496,7 +29496,7 @@
   },
   {
     "id": "Vanguard%27s_Pride",
-    "name": "Vanguard&#39;s Pride",
+    "name": "Vanguard's Pride",
     "type": "Insect Glaive",
     "icon": "data/images/weapons_fextra/Vanguard%27s_Pride.webp",
     "rarity": 8,
@@ -29521,7 +29521,7 @@
   },
   {
     "id": "Omega%27s_Rod",
-    "name": "Omega&#39;s Rod",
+    "name": "Omega's Rod",
     "type": "Insect Glaive",
     "icon": "data/images/weapons_fextra/Omega%27s_Rod.webp",
     "rarity": 7,
@@ -29533,7 +29533,7 @@
   },
   {
     "id": "True_Omega%27s_Rod",
-    "name": "True Omega&#39;s Rod",
+    "name": "True Omega's Rod",
     "type": "Insect Glaive",
     "icon": "data/images/weapons_fextra/Omega%27s_Rod.webp",
     "rarity": 8,
@@ -35136,7 +35136,7 @@
   },
   {
     "id": "Hunter%27s_Rifle_I",
-    "name": "Hunter&#39;s Rifle I",
+    "name": "Hunter's Rifle I",
     "type": "Light Bowgun",
     "icon": "data/images/weapons_fextra/Hunter%27s_Rifle_I.webp",
     "rarity": 1,
@@ -35153,7 +35153,7 @@
   },
   {
     "id": "Hunter%27s_Rifle_II",
-    "name": "Hunter&#39;s Rifle II",
+    "name": "Hunter's Rifle II",
     "type": "Light Bowgun",
     "icon": "data/images/weapons_fextra/Hunter%27s_Rifle_II.webp",
     "rarity": 2,
@@ -35174,7 +35174,7 @@
   },
   {
     "id": "Hunter%27s_Rifle_III",
-    "name": "Hunter&#39;s Rifle III",
+    "name": "Hunter's Rifle III",
     "type": "Light Bowgun",
     "icon": "data/images/weapons_fextra/Hunter%27s_Rifle_III.webp",
     "rarity": 4,
@@ -35191,7 +35191,7 @@
   },
   {
     "id": "Hunter%27s_Rifle_IV",
-    "name": "Hunter&#39;s Rifle IV",
+    "name": "Hunter's Rifle IV",
     "type": "Light Bowgun",
     "icon": "data/images/weapons_fextra/Hunter%27s_Rifle_IV.webp",
     "rarity": 6,
@@ -40441,7 +40441,7 @@
   },
   {
     "id": "Heaven%27s_Thunder",
-    "name": "Heaven&#39;s Thunder",
+    "name": "Heaven's Thunder",
     "type": "Long Sword",
     "icon": "data/images/weapons_fextra/Thunderclap_I.webp",
     "rarity": 8,
@@ -42386,7 +42386,7 @@
   },
   {
     "id": "Brutus%27s_Abolishment",
-    "name": "Brutus&#39;s Abolishment",
+    "name": "Brutus's Abolishment",
     "type": "Switch Axe",
     "icon": "data/images/weapons_fextra/Brutus%27s_Abolishment.webp",
     "rarity": 8,
@@ -42711,7 +42711,7 @@
   },
   {
     "id": "Grithor%27s_Landmaker",
-    "name": "Grithor&#39;s Landmaker",
+    "name": "Grithor's Landmaker",
     "type": "Switch Axe",
     "icon": "data/images/weapons_fextra/Grithor%27s_Landmaker.webp",
     "rarity": 8,
@@ -44473,7 +44473,7 @@
   },
   {
     "id": "Titan%27s_Armament",
-    "name": "Titan&#39;s Armament",
+    "name": "Titan's Armament",
     "type": "Sword and Shield",
     "icon": "data/images/weapons_fextra/Titan%27s_Armament.webp",
     "rarity": 8,
@@ -44609,7 +44609,7 @@
   },
   {
     "id": "Smithy%27s_Pride",
-    "name": "Smithy&#39;s Pride",
+    "name": "Smithy's Pride",
     "type": "Sword and Shield",
     "icon": "data/images/weapons_fextra/Smithy%27s_Pride.webp",
     "rarity": 8,
@@ -45689,7 +45689,7 @@
   },
   {
     "id": "Venom%27s_Pain_I",
-    "name": "Venom&#39;s Pain I",
+    "name": "Venom's Pain I",
     "type": "Sword and Shield",
     "icon": "data/images/weapons_fextra/Venom%27s_Pain_I.webp",
     "rarity": 5,
@@ -45718,7 +45718,7 @@
   },
   {
     "id": "Venom%27s_Pain_II",
-    "name": "Venom&#39;s Pain II",
+    "name": "Venom's Pain II",
     "type": "Sword and Shield",
     "icon": "data/images/weapons_fextra/Venom%27s_Pain_II.webp",
     "rarity": 6,
@@ -46234,7 +46234,7 @@
   },
   {
     "id": "Cordayle%27s_Revocation",
-    "name": "Cordayle&#39;s Revocation",
+    "name": "Cordayle's Revocation",
     "type": "Sword and Shield",
     "icon": "data/images/weapons_fextra/Cordayle%27s_Revocation.webp",
     "rarity": 8,
@@ -47130,7 +47130,7 @@
   },
   {
     "id": "Omega%27s_Sword",
-    "name": "Omega&#39;s Sword",
+    "name": "Omega's Sword",
     "type": "Sword and Shield",
     "icon": "data/images/weapons_fextra/Omega%27s_Sword.webp",
     "rarity": 7,
@@ -47142,7 +47142,7 @@
   },
   {
     "id": "True_Omega%27s_Sword",
-    "name": "True Omega&#39;s Sword",
+    "name": "True Omega's Sword",
     "type": "Sword and Shield",
     "icon": "data/images/weapons_fextra/Omega%27s_Sword.webp",
     "rarity": 8,
