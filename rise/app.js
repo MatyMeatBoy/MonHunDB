@@ -2693,6 +2693,9 @@ function starString(stars, max = 3) {
 const MONSTER_3D_MODELS = {
   "Aknosom": "data/models/aknosom.glb",
   "Almudron": "data/models/almudron.glb",
+  "Apex Arzuros": "data/models/apex-arzuros.glb",
+  "Apex Diablos": "data/models/apex-diablos.glb",
+  "Apex Mizutsune": "data/models/apex-mizutsune.glb",
   "Magma Almudron": "data/models/magma-almudron.glb",
   "Amatsu": "data/models/amatsu.glb",
   "Anjanath": "data/models/anjanath.glb",
