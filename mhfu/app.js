@@ -202,6 +202,13 @@ function armorSetHunterTypeSummary(resolvedPieces) {
   return `<p class="gs-material-intro armor-set-htype-summary">${badges.join(" ")}</p>`;
 }
 let weaponsById = new Map();
+// Cross-game appearances (monster?m=X page): keyed by lowercased monster
+// name -> { rise: {name, icon, render}, wilds: {...}, mhfu: {...} } -- built
+// by a one-off Node script at the site root (shared_monster_links.json),
+// since each game's data is otherwise fully isolated. Only covers monsters
+// we have on both sides already, grows as more are added.
+let crossGameLinks = {};
+const CROSS_GAME_LABEL = { rise: "MH Rise", wilds: "MH Wilds", mhfu: "MHFU" };
 const ARMOR_PART_ORDER = ["head", "chest", "arms", "waist", "legs"];
 
 function hideViews(...els) {
@@ -706,7 +713,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes, eventQuestsRes, combinationsRes, gatheringSourcesRes, farmGuideRes, bowStatsRes, keyQuestsRes, weaponTranslationsRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, questsRes, eventQuestsRes, combinationsRes, gatheringSourcesRes, farmGuideRes, bowStatsRes, keyQuestsRes, weaponTranslationsRes, crossGameRes] = await Promise.all([
       fetch("data/monsters.json"),
       // MHFU keeps all of its monsters in monsters.json; unlike Rise/Wilds
       // there is no separate small_monsters.json to request.
@@ -727,6 +734,7 @@ async function init() {
       fetch("data/bow_stats.json"),
       fetch("data/key_quests.json"),
       fetch("data/elotrolado_weapon_translations.json"),
+      fetch("../shared_monster_links.json"),
       loadMaterialTranslations(),
       loadStatusIconManifest(),
       loadMaterialIconManifest(),
@@ -739,6 +747,7 @@ async function init() {
     weapons = weaponsRes.ok ? await weaponsRes.json() : [];
     bowStats = bowStatsRes.ok ? (await bowStatsRes.json()).bows || {} : {};
     elotroladoWeaponTranslations = weaponTranslationsRes.ok ? (await weaponTranslationsRes.json()).translations || {} : {};
+    crossGameLinks = crossGameRes.ok ? await crossGameRes.json() : {};
     // Empty cells from the legacy armor table were serialized as a fake
     // "None" armor record. It is neither an equippable piece nor a set.
     armorPieces = armorPiecesRes.ok ? (await armorPiecesRes.json()).filter(piece => piece.name && piece.name !== "None") : [];
@@ -3979,6 +3988,27 @@ function renderMonster(name) {
     model3dBlock.hidden = true;
     variantToggle.hidden = true;
     variantToggle.innerHTML = "";
+  }
+
+  const crossGameBlock = node.querySelector('[data-block="cross-game"]');
+  const otherGames = Object.entries(crossGameLinks[monster.name.toLowerCase()] || {})
+    .filter(([g]) => g !== "mhfu");
+  if (otherGames.length) {
+    crossGameBlock.hidden = false;
+    crossGameBlock.querySelector(".cross-game-selector").innerHTML = otherGames.map(([g, info]) => `
+      <button type="button" class="cross-game-card" data-game="${g}" data-name="${escapeAttr(info.name)}">
+        <img class="cross-game-render" src="../${escapeAttr(info.render)}" alt="" loading="lazy">
+        <span class="cross-game-card-game">${CROSS_GAME_LABEL[g] || g}</span>
+        <span class="cross-game-card-name">${escapeAttr(info.name)}</span>
+      </button>
+    `).join("");
+    crossGameBlock.querySelectorAll(".cross-game-card").forEach(btn => {
+      btn.addEventListener("click", () => {
+        location.href = `../${btn.dataset.game}/monster?m=${encodeURIComponent(btn.dataset.name)}`;
+      });
+    });
+  } else {
+    crossGameBlock.hidden = true;
   }
 
   const mhElementEl = node.querySelector('[data-mh="element"] .mh-info-value');

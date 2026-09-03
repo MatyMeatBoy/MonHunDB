@@ -1,0 +1,473 @@
+{
+  "basarios": {
+    "rise": {
+      "name": "Basarios",
+      "icon": "rise/data/images/icons/basarios.webp",
+      "render": "rise/data/images/basarios.webp"
+    },
+    "mhfu": {
+      "name": "Basarios",
+      "icon": "mhfu/data/images/icons/basarios.webp",
+      "render": "mhfu/data/images/monsters/MH1-Basarios_Render_001.webp"
+    }
+  },
+  "chameleos": {
+    "rise": {
+      "name": "Chameleos",
+      "icon": "rise/data/images/icons/chameleos.webp",
+      "render": "rise/data/images/chameleos.webp"
+    },
+    "mhfu": {
+      "name": "Chameleos",
+      "icon": "mhfu/data/images/icons/chameleos.webp",
+      "render": "mhfu/data/images/monsters/Chameleos.webp"
+    }
+  },
+  "daimyo hermitaur": {
+    "rise": {
+      "name": "Daimyo Hermitaur",
+      "icon": "rise/data/images/icons/daimyo-hermitaur.webp",
+      "render": "rise/data/images/daimyo-hermitaur.webp"
+    },
+    "mhfu": {
+      "name": "Daimyo Hermitaur",
+      "icon": "mhfu/data/images/icons/daimyo-hermitaur.webp",
+      "render": "mhfu/data/images/monsters/Daimyo_Hermitaur.webp"
+    }
+  },
+  "diablos": {
+    "rise": {
+      "name": "Diablos",
+      "icon": "rise/data/images/icons/diablos.webp",
+      "render": "rise/data/images/diablos.webp"
+    },
+    "mhfu": {
+      "name": "Diablos",
+      "icon": "mhfu/data/images/icons/diablos.webp",
+      "render": "mhfu/data/images/monsters/Diablos.webp"
+    }
+  },
+  "furious rajang": {
+    "rise": {
+      "name": "Furious Rajang",
+      "icon": "rise/data/images/icons/furious-rajang.webp",
+      "render": "rise/data/images/furious-rajang.webp"
+    },
+    "mhfu": {
+      "name": "Furious Rajang",
+      "icon": "mhfu/data/images/icons/furious-rajang.webp",
+      "render": "mhfu/data/images/monsters/Furious_Rajang.webp"
+    }
+  },
+  "gold rathian": {
+    "rise": {
+      "name": "Gold Rathian",
+      "icon": "rise/data/images/icons/gold-rathian.webp",
+      "render": "rise/data/images/gold-rathian.webp"
+    },
+    "mhfu": {
+      "name": "Gold Rathian",
+      "icon": "mhfu/data/images/icons/gold-rathian.webp",
+      "render": "mhfu/data/images/monsters/MHF1-Gold_Rathian.webp"
+    }
+  },
+  "gore magala": {
+    "rise": {
+      "name": "Gore Magala",
+      "icon": "rise/data/images/icons/gore-magala.webp",
+      "render": "rise/data/images/gore-magala.webp"
+    },
+    "wilds": {
+      "name": "Gore Magala",
+      "icon": "wilds/data/images/icons/gore-magala.webp",
+      "render": "wilds/data/images/gore-magala.webp"
+    }
+  },
+  "khezu": {
+    "rise": {
+      "name": "Khezu",
+      "icon": "rise/data/images/icons/khezu.webp",
+      "render": "rise/data/images/khezu.webp"
+    },
+    "mhfu": {
+      "name": "Khezu",
+      "icon": "mhfu/data/images/icons/khezu.webp",
+      "render": "mhfu/data/images/monsters/MH1-Khezu_Render_001.webp"
+    }
+  },
+  "kushala daora": {
+    "rise": {
+      "name": "Kushala Daora",
+      "icon": "rise/data/images/icons/kushala-daora.webp",
+      "render": "rise/data/images/kushala-daora.webp"
+    },
+    "mhfu": {
+      "name": "Kushala Daora",
+      "icon": "mhfu/data/images/icons/kushala-daora.webp",
+      "render": "mhfu/data/images/monsters/Kushala_Daora.webp"
+    }
+  },
+  "mizutsune": {
+    "rise": {
+      "name": "Mizutsune",
+      "icon": "rise/data/images/icons/mizutsune.webp",
+      "render": "rise/data/images/mizutsune.webp"
+    },
+    "wilds": {
+      "name": "Mizutsune",
+      "icon": "wilds/data/images/icons/mizutsune.webp",
+      "render": "wilds/data/images/mizutsune.webp"
+    }
+  },
+  "nargacuga": {
+    "rise": {
+      "name": "Nargacuga",
+      "icon": "rise/data/images/icons/nargacuga.webp",
+      "render": "rise/data/images/nargacuga.webp"
+    },
+    "mhfu": {
+      "name": "Nargacuga",
+      "icon": "mhfu/data/images/icons/nargacuga.webp",
+      "render": "mhfu/data/images/monsters/Nargacuga.webp"
+    }
+  },
+  "rajang": {
+    "rise": {
+      "name": "Rajang",
+      "icon": "rise/data/images/icons/rajang.webp",
+      "render": "rise/data/images/rajang.webp"
+    },
+    "mhfu": {
+      "name": "Rajang",
+      "icon": "mhfu/data/images/icons/rajang.webp",
+      "render": "mhfu/data/images/monsters/Rajang.webp"
+    }
+  },
+  "rathalos": {
+    "rise": {
+      "name": "Rathalos",
+      "icon": "rise/data/images/icons/rathalos.webp",
+      "render": "rise/data/images/rathalos.webp"
+    },
+    "wilds": {
+      "name": "Rathalos",
+      "icon": "wilds/data/images/icons/rathalos.webp",
+      "render": "wilds/data/images/rathalos.webp"
+    },
+    "mhfu": {
+      "name": "Rathalos",
+      "icon": "mhfu/data/images/icons/rathalos.webp",
+      "render": "mhfu/data/images/monsters/MH1-Rathalos.webp"
+    }
+  },
+  "rathian": {
+    "rise": {
+      "name": "Rathian",
+      "icon": "rise/data/images/icons/rathian.webp",
+      "render": "rise/data/images/rathian.webp"
+    },
+    "wilds": {
+      "name": "Rathian",
+      "icon": "wilds/data/images/icons/rathian.webp",
+      "render": "wilds/data/images/rathian.webp"
+    },
+    "mhfu": {
+      "name": "Rathian",
+      "icon": "mhfu/data/images/icons/rathian.webp",
+      "render": "mhfu/data/images/monsters/1stGen-Rathian_Render_001.webp"
+    }
+  },
+  "seregios": {
+    "rise": {
+      "name": "Seregios",
+      "icon": "rise/data/images/icons/seregios.webp",
+      "render": "rise/data/images/seregios.webp"
+    },
+    "wilds": {
+      "name": "Seregios",
+      "icon": "wilds/data/images/icons/seregios.webp",
+      "render": "wilds/data/images/seregios.webp"
+    }
+  },
+  "shogun ceanataur": {
+    "rise": {
+      "name": "Shogun Ceanataur",
+      "icon": "rise/data/images/icons/shogun-ceanataur.webp",
+      "render": "rise/data/images/shogun-ceanataur.webp"
+    },
+    "mhfu": {
+      "name": "Shogun Ceanataur",
+      "icon": "mhfu/data/images/icons/shogun-ceanataur.webp",
+      "render": "mhfu/data/images/monsters/Shogun_Ceanataur.webp"
+    }
+  },
+  "silver rathalos": {
+    "rise": {
+      "name": "Silver Rathalos",
+      "icon": "rise/data/images/icons/silver-rathalos.webp",
+      "render": "rise/data/images/silver-rathalos.webp"
+    },
+    "mhfu": {
+      "name": "Silver Rathalos",
+      "icon": "mhfu/data/images/icons/silver-rathalos.webp",
+      "render": "mhfu/data/images/monsters/MHF1-Silver_Rathalos.webp"
+    }
+  },
+  "teostra": {
+    "rise": {
+      "name": "Teostra",
+      "icon": "rise/data/images/icons/teostra.webp",
+      "render": "rise/data/images/teostra.webp"
+    },
+    "mhfu": {
+      "name": "Teostra",
+      "icon": "mhfu/data/images/icons/teostra.webp",
+      "render": "mhfu/data/images/monsters/Teostra.webp"
+    }
+  },
+  "tigrex": {
+    "rise": {
+      "name": "Tigrex",
+      "icon": "rise/data/images/icons/tigrex.webp",
+      "render": "rise/data/images/tigrex.webp"
+    },
+    "mhfu": {
+      "name": "Tigrex",
+      "icon": "mhfu/data/images/icons/tigrex.webp",
+      "render": "mhfu/data/images/monsters/Tigrex.webp"
+    }
+  },
+  "anteka": {
+    "rise": {
+      "name": "Anteka",
+      "icon": "rise/data/images/icons/anteka.webp",
+      "render": "rise/data/images/anteka.webp"
+    },
+    "mhfu": {
+      "name": "Anteka",
+      "icon": "mhfu/data/images/icons/anteka.webp",
+      "render": "mhfu/data/images/monsters/Anteka.webp"
+    }
+  },
+  "bullfango": {
+    "rise": {
+      "name": "Bullfango",
+      "icon": "rise/data/images/icons/bullfango.webp",
+      "render": "rise/data/images/bullfango.webp"
+    },
+    "mhfu": {
+      "name": "Bullfango",
+      "icon": "mhfu/data/images/icons/bullfango.webp",
+      "render": "mhfu/data/images/monsters/MH1-Bullfango_Render_001.webp"
+    }
+  },
+  "ceanataur": {
+    "rise": {
+      "name": "Ceanataur",
+      "icon": "rise/data/images/icons/ceanataur.webp",
+      "render": "rise/data/images/ceanataur.webp"
+    },
+    "mhfu": {
+      "name": "Ceanataur",
+      "icon": "mhfu/data/images/icons/ceanataur.webp",
+      "render": "mhfu/data/images/monsters/MHF2-Ceanataur.webp"
+    }
+  },
+  "felyne": {
+    "rise": {
+      "name": "Felyne",
+      "icon": "rise/data/images/icons/felyne.webp",
+      "render": "rise/data/images/felyne.webp"
+    },
+    "mhfu": {
+      "name": "Felyne",
+      "icon": "mhfu/data/images/icons/felyne.webp",
+      "render": "mhfu/data/images/monsters/MH1-Felyne_Render_001.webp"
+    }
+  },
+  "hermitaur": {
+    "rise": {
+      "name": "Hermitaur",
+      "icon": "rise/data/images/icons/hermitaur.webp",
+      "render": "rise/data/images/hermitaur.webp"
+    },
+    "mhfu": {
+      "name": "Hermitaur",
+      "icon": "mhfu/data/images/icons/hermitaur.webp",
+      "render": "mhfu/data/images/monsters/Hermitaur.webp"
+    }
+  },
+  "hornetaur": {
+    "rise": {
+      "name": "Hornetaur",
+      "icon": "rise/data/images/icons/hornetaur.webp",
+      "render": "rise/data/images/hornetaur.webp"
+    },
+    "mhfu": {
+      "name": "Hornetaur",
+      "icon": "mhfu/data/images/icons/hornetaur.webp",
+      "render": "mhfu/data/images/monsters/MH1-Hornetaur_Render_001.webp"
+    }
+  },
+  "kelbi": {
+    "rise": {
+      "name": "Kelbi",
+      "icon": "rise/data/images/icons/kelbi.webp",
+      "render": "rise/data/images/kelbi.webp"
+    },
+    "mhfu": {
+      "name": "Kelbi",
+      "icon": "mhfu/data/images/icons/kelbi.webp",
+      "render": "mhfu/data/images/monsters/1stGen_and_2ndGen-Kelbi.webp"
+    }
+  },
+  "melynx": {
+    "rise": {
+      "name": "Melynx",
+      "icon": "rise/data/images/icons/melynx.webp",
+      "render": "rise/data/images/melynx.webp"
+    },
+    "mhfu": {
+      "name": "Melynx",
+      "icon": "mhfu/data/images/icons/melynx.webp",
+      "render": "mhfu/data/images/monsters/MH1-Melynx_Render_001.webp"
+    }
+  },
+  "popo": {
+    "rise": {
+      "name": "Popo",
+      "icon": "rise/data/images/icons/popo.webp",
+      "render": "rise/data/images/popo.webp"
+    },
+    "mhfu": {
+      "name": "Popo",
+      "icon": "mhfu/data/images/icons/popo.webp",
+      "render": "mhfu/data/images/monsters/Popo.webp"
+    }
+  },
+  "remobra": {
+    "rise": {
+      "name": "Remobra",
+      "icon": "rise/data/images/icons/remobra.webp",
+      "render": "rise/data/images/remobra.webp"
+    },
+    "mhfu": {
+      "name": "Remobra",
+      "icon": "mhfu/data/images/icons/remobra.webp",
+      "render": "mhfu/data/images/monsters/Remobra.webp"
+    }
+  },
+  "velociprey": {
+    "rise": {
+      "name": "Velociprey",
+      "icon": "rise/data/images/icons/velociprey.webp",
+      "render": "rise/data/images/velociprey.webp"
+    },
+    "mhfu": {
+      "name": "Velociprey",
+      "icon": "mhfu/data/images/icons/velociprey.webp",
+      "render": "mhfu/data/images/monsters/MH1-Velociprey_Render_001.webp"
+    }
+  },
+  "vespoid": {
+    "rise": {
+      "name": "Vespoid",
+      "icon": "rise/data/images/icons/vespoid.webp",
+      "render": "rise/data/images/vespoid.webp"
+    },
+    "wilds": {
+      "name": "Vespoid",
+      "icon": "wilds/data/images/icons/vespoid.webp",
+      "render": "wilds/data/images/vespoid.webp"
+    },
+    "mhfu": {
+      "name": "Vespoid",
+      "icon": "mhfu/data/images/icons/vespoid.webp",
+      "render": "mhfu/data/images/monsters/MH1-Vespoid_Render_001.webp"
+    }
+  },
+  "gravios": {
+    "wilds": {
+      "name": "Gravios",
+      "icon": "wilds/data/images/icons/gravios.webp",
+      "render": "wilds/data/images/gravios.webp"
+    },
+    "mhfu": {
+      "name": "Gravios",
+      "icon": "mhfu/data/images/icons/gravios.webp",
+      "render": "mhfu/data/images/monsters/1stGen-Gravios_Render_001.webp"
+    }
+  },
+  "yian kut-ku": {
+    "wilds": {
+      "name": "Yian Kut-Ku",
+      "icon": "wilds/data/images/icons/yian-kut-ku.webp",
+      "render": "wilds/data/images/yian-kut-ku.webp"
+    },
+    "mhfu": {
+      "name": "Yian Kut-Ku",
+      "icon": "mhfu/data/images/icons/yian-kut-ku.webp",
+      "render": "mhfu/data/images/monsters/Yian_Kut-Ku.webp"
+    }
+  },
+  "gypceros": {
+    "wilds": {
+      "name": "Gypceros",
+      "icon": "wilds/data/images/icons/gypceros.webp",
+      "render": "wilds/data/images/gypceros.webp"
+    },
+    "mhfu": {
+      "name": "Gypceros",
+      "icon": "mhfu/data/images/icons/gypceros.webp",
+      "render": "mhfu/data/images/monsters/1stGen-Gypceros_Render_001.webp"
+    }
+  },
+  "congalala": {
+    "wilds": {
+      "name": "Congalala",
+      "icon": "wilds/data/images/icons/congalala.webp",
+      "render": "wilds/data/images/congalala.webp"
+    },
+    "mhfu": {
+      "name": "Congalala",
+      "icon": "mhfu/data/images/icons/congalala.webp",
+      "render": "mhfu/data/images/monsters/Congalala.webp"
+    }
+  },
+  "blangonga": {
+    "wilds": {
+      "name": "Blangonga",
+      "icon": "wilds/data/images/icons/blangonga.webp",
+      "render": "wilds/data/images/blangonga.webp"
+    },
+    "mhfu": {
+      "name": "Blangonga",
+      "icon": "mhfu/data/images/icons/blangonga.webp",
+      "render": "mhfu/data/images/monsters/Blangonga_and_Blango.webp"
+    }
+  },
+  "conga": {
+    "wilds": {
+      "name": "Conga",
+      "icon": "wilds/data/images/icons/conga.webp",
+      "render": "wilds/data/images/conga.webp"
+    },
+    "mhfu": {
+      "name": "Conga",
+      "icon": "mhfu/data/images/icons/conga.webp",
+      "render": "mhfu/data/images/monsters/Conga.webp"
+    }
+  },
+  "blango": {
+    "wilds": {
+      "name": "Blango",
+      "icon": "wilds/data/images/icons/blango.webp",
+      "render": "wilds/data/images/blango.webp"
+    },
+    "mhfu": {
+      "name": "Blango",
+      "icon": "mhfu/data/images/icons/blango.webp",
+      "render": "mhfu/data/images/monsters/Blango.webp"
+    }
+  }
+}

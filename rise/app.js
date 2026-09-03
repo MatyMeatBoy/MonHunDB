@@ -185,6 +185,14 @@ let weaponsById = new Map();
 // missing type/family here just means no 3D model yet, same graceful
 // fallback as MONSTER_3D_MODELS.
 let weaponModels = {};
+// Cross-game appearances (monster?m=X page): keyed by lowercased monster
+// name -> { rise: {name, icon, render}, wilds: {...}, mhfu: {...} } -- built
+// by a one-off Node script at the site root (shared_monster_links.json),
+// not scraped live, since each game's data is otherwise fully isolated (see
+// CLAUDE.md "they share NOTHING"). Only covers monsters we have on both
+// sides already, grows as more games/monsters get added -- see PROGRESS.md.
+let crossGameLinks = {};
+const CROSS_GAME_LABEL = { rise: "MH Rise", wilds: "MH Wilds", mhfu: "MHFU" };
 function weaponFamilyName(name) {
   return name.replace(/\s+(I{1,3}|IV|V|VI)$/i, "").trim();
 }
@@ -444,7 +452,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, combinationsRes, rampageSkillsRes, weaponModelsRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, skillsRes, weaponTreeRes, itemsRes, combinationsRes, rampageSkillsRes, weaponModelsRes, crossGameRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
@@ -458,6 +466,7 @@ async function init() {
       fetch("data/combinations.json"),
       fetch("data/rampage_skills.json"),
       fetch("data/weapon_models.json"),
+      fetch("../shared_monster_links.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
@@ -481,6 +490,7 @@ async function init() {
     combinations = combinationsRes.ok ? await combinationsRes.json() : [];
     rampageSkills = rampageSkillsRes.ok ? await rampageSkillsRes.json() : [];
     weaponModels = weaponModelsRes.ok ? await weaponModelsRes.json() : {};
+    crossGameLinks = crossGameRes.ok ? await crossGameRes.json() : {};
     // Keep both the source spelling and the normalized material spelling.
     // Some sources encode apostrophes as HTML entities while quest/recipe data
     // uses a normal apostrophe; without this second key those entries cannot
@@ -3003,6 +3013,27 @@ function renderMonster(name) {
     model3dBlock.hidden = true;
     variantToggle.hidden = true;
     variantToggle.innerHTML = "";
+  }
+
+  const crossGameBlock = node.querySelector('[data-block="cross-game"]');
+  const otherGames = Object.entries(crossGameLinks[monster.name.toLowerCase()] || {})
+    .filter(([g]) => g !== "rise");
+  if (otherGames.length) {
+    crossGameBlock.hidden = false;
+    crossGameBlock.querySelector(".cross-game-selector").innerHTML = otherGames.map(([g, info]) => `
+      <button type="button" class="cross-game-card" data-game="${g}" data-name="${escapeAttr(info.name)}">
+        <img class="cross-game-render" src="../${escapeAttr(info.render)}" alt="" loading="lazy">
+        <span class="cross-game-card-game">${CROSS_GAME_LABEL[g] || g}</span>
+        <span class="cross-game-card-name">${escapeAttr(info.name)}</span>
+      </button>
+    `).join("");
+    crossGameBlock.querySelectorAll(".cross-game-card").forEach(btn => {
+      btn.addEventListener("click", () => {
+        location.href = `../${btn.dataset.game}/monster?m=${encodeURIComponent(btn.dataset.name)}`;
+      });
+    });
+  } else {
+    crossGameBlock.hidden = true;
   }
 
   const mhElementEl = node.querySelector('[data-mh="element"] .mh-info-value');

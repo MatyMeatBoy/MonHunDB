@@ -828,6 +828,29 @@ body[data-page="missions"] .header-icon-btn[href^="missions"] {
 .model3d-variant-btn.active { background: var(--accent); border-color: var(--accent); color: #1a1714; font-weight: 600; }
 .model3d-note { font-size: 0.78rem; color: var(--text-dim); margin: 0.5rem 0 0; }
 
+.cross-game-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+.cross-game-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  width: 108px;
+  padding: 0.6rem 0.5rem;
+  background: var(--bg-panel-alt);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+.cross-game-card:hover { border-color: var(--accent); }
+.cross-game-card img.cross-game-render { width: 72px; height: 72px; object-fit: contain; }
+.cross-game-card-game { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--accent); }
+.cross-game-card-name { font-size: 0.78rem; font-weight: 600; }
+
 .monster-name {
   margin: 0;
   font-size: 1.8rem;

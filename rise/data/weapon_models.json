@@ -142,7 +142,11 @@
     "Antique Machina SS": "data/models/weapons/sword-shield/antique-machina-ss.glb",
     "Rampage Sword": "data/models/weapons/sword-shield/rampage-sword.glb",
     "Lost Code: Carnhan": "data/models/weapons/sword-shield/lost-code-carnhan.glb",
-    "Stuffed Zinogre": "data/models/weapons/sword-shield/stuffed-zinogre.glb"
+    "Stuffed Zinogre": "data/models/weapons/sword-shield/stuffed-zinogre.glb",
+    "Secta Nulo Red": "data/models/weapons/sword-shield/secta-nulo.glb",
+    "Secta Unu Red": "data/models/weapons/sword-shield/secta-nulo.glb",
+    "Secta Du Red": "data/models/weapons/sword-shield/secta-nulo.glb",
+    "Secta Tre Red": "data/models/weapons/sword-shield/secta-nulo.glb"
   },
   "Dual Blades": {
     "Kamura Glintblades": "data/models/weapons/dual-blades/kamura-glintblades.glb",
@@ -294,7 +298,8 @@
     "Rampage Blade": "data/models/weapons/long-sword/rampage-blade.glb",
     "Azure Star Blade": "data/models/weapons/long-sword/azure-star-blade.glb",
     "Lost Code: Kiri": "data/models/weapons/long-sword/lost-code-kiri.glb",
-    "Stuffed Nargacuga": "data/models/weapons/long-sword/stuffed-nargacuga.glb"
+    "Stuffed Nargacuga": "data/models/weapons/long-sword/stuffed-nargacuga.glb",
+    "Guardian Long Sword": "data/models/weapons/long-sword/guardian-sword.glb"
   },
   "Hammer": {
     "Kamura Hammer": "data/models/weapons/hammer/kamura-hammer.glb",
@@ -733,7 +738,8 @@
     "Antique Machina CB": "data/models/weapons/charge-blade/antique-machina-cb.glb",
     "Rampage C. Blade": "data/models/weapons/charge-blade/rampage-c-blade.glb",
     "Lost Code: Sara": "data/models/weapons/charge-blade/lost-code-sara.glb",
-    "Stuffed Garangolm": "data/models/weapons/charge-blade/stuffed-garangolm.glb"
+    "Stuffed Garangolm": "data/models/weapons/charge-blade/stuffed-garangolm.glb",
+    "Guardian Charge Blade": "data/models/weapons/charge-blade/guardian-blade.glb"
   },
   "Insect Glaive": {
     "Kamura Glaive": "data/models/weapons/insect-glaive/kamura-glaive.glb",
@@ -799,7 +805,10 @@
     "Antique Machina IG": "data/models/weapons/insect-glaive/antique-machina-ig.glb",
     "Rampage Glaive": "data/models/weapons/insect-glaive/rampage-glaive.glb",
     "Lost Code: Telth": "data/models/weapons/insect-glaive/lost-code-telth.glb",
-    "Stuffed Rakna-Kadaki": "data/models/weapons/insect-glaive/stuffed-rakna-kadaki.glb"
+    "Stuffed Rakna-Kadaki": "data/models/weapons/insect-glaive/stuffed-rakna-kadaki.glb",
+    "Rielle Unu Green": "data/models/weapons/insect-glaive/rielle-nulo.glb",
+    "Rielle Du Green": "data/models/weapons/insect-glaive/rielle-nulo.glb",
+    "Rielle Tre Green": "data/models/weapons/insect-glaive/rielle-nulo.glb"
   },
   "Bow": {
     "Kamura Iron Bow": "data/models/weapons/bow/kamura-iron-bow.glb",
@@ -876,7 +885,11 @@
     "Rampage Bow": "data/models/weapons/bow/rampage-bow.glb",
     "Azure Era Wyrmbow": "data/models/weapons/bow/azure-era-wyrmbow.glb",
     "Lost Code: Iru": "data/models/weapons/bow/lost-code-iru.glb",
-    "Stuffed Rajang": "data/models/weapons/bow/stuffed-rajang.glb"
+    "Stuffed Rajang": "data/models/weapons/bow/stuffed-rajang.glb",
+    "Arko Unu White": "data/models/weapons/bow/arko-nulo.glb",
+    "Arko Du White": "data/models/weapons/bow/arko-nulo.glb",
+    "Arko Tre White": "data/models/weapons/bow/arko-nulo.glb",
+    "Arko Kvar White": "data/models/weapons/bow/arko-nulo.glb"
   },
   "Heavy Bowgun": {
     "Kamura H. Bowgun": "data/models/weapons/heavy-bowgun/kamura-h-bowgun.glb",

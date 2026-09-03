@@ -132,6 +132,13 @@ let armorSets = [];
 let palicoArmorSets = [];
 let armorMode = "hunter";
 let weaponsById = new Map();
+// Cross-game appearances (monster?m=X page): keyed by lowercased monster
+// name -> { rise: {name, icon, render}, wilds: {...}, mhfu: {...} } -- built
+// by a one-off Node script at the site root (shared_monster_links.json),
+// since each game's data is otherwise fully isolated. Only covers monsters
+// we have on both sides already, grows as more are added.
+let crossGameLinks = {};
+const CROSS_GAME_LABEL = { rise: "MH Rise", wilds: "MH Wilds", mhfu: "MHFU" };
 const ARMOR_PART_ORDER = ["head", "chest", "arms", "waist", "legs"];
 
 // --- Wilds-only: Charms (talismanes) -- Rise no tiene esta seccion, no
@@ -460,7 +467,7 @@ async function init() {
   applyUiStrings();
 
   try {
-    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, palicoArmorRes, skillsRes, weaponTreeRes, charmsRes, combinationsRes] = await Promise.all([
+    const [monstersRes, smallRes, decorationsRes, obtainNotesRes, weaponsRes, armorPiecesRes, armorSetsRes, palicoArmorRes, skillsRes, weaponTreeRes, charmsRes, combinationsRes, crossGameRes] = await Promise.all([
       fetch("data/monsters.json"),
       fetch("data/small_monsters.json"),
       fetch("data/decorations.json"),
@@ -473,6 +480,7 @@ async function init() {
       fetch("data/weapon_tree.json"),
       fetch("data/charms.json"),
       fetch("data/combinations.json"),
+      fetch("../shared_monster_links.json"),
       loadMaterialTranslations(),
       loadIconManifest(),
       loadStatusIconManifest(),
@@ -497,6 +505,7 @@ async function init() {
     skills = skillsRes.ok ? await skillsRes.json() : [];
     charms = charmsRes.ok ? await charmsRes.json() : [];
     combinations = combinationsRes.ok ? await combinationsRes.json() : [];
+    crossGameLinks = crossGameRes.ok ? await crossGameRes.json() : {};
     weaponsById = new Map(weapons.map(w => [w.id, w]));
     skillsByName = new Map(skills.filter(s => s.name).map(s => [s.name, s]));
     if (weaponTreeRes.ok) initWeaponTree(await weaponTreeRes.json());
@@ -3063,6 +3072,27 @@ function renderMonster(name) {
     model3dBlock.hidden = true;
     variantToggle.hidden = true;
     variantToggle.innerHTML = "";
+  }
+
+  const crossGameBlock = node.querySelector('[data-block="cross-game"]');
+  const otherGames = Object.entries(crossGameLinks[monster.name.toLowerCase()] || {})
+    .filter(([g]) => g !== "wilds");
+  if (otherGames.length) {
+    crossGameBlock.hidden = false;
+    crossGameBlock.querySelector(".cross-game-selector").innerHTML = otherGames.map(([g, info]) => `
+      <button type="button" class="cross-game-card" data-game="${g}" data-name="${escapeAttr(info.name)}">
+        <img class="cross-game-render" src="../${escapeAttr(info.render)}" alt="" loading="lazy">
+        <span class="cross-game-card-game">${CROSS_GAME_LABEL[g] || g}</span>
+        <span class="cross-game-card-name">${escapeAttr(info.name)}</span>
+      </button>
+    `).join("");
+    crossGameBlock.querySelectorAll(".cross-game-card").forEach(btn => {
+      btn.addEventListener("click", () => {
+        location.href = `../${btn.dataset.game}/monster?m=${encodeURIComponent(btn.dataset.name)}`;
+      });
+    });
+  } else {
+    crossGameBlock.hidden = true;
   }
 
   const mhElementEl = node.querySelector('[data-mh="element"] .mh-info-value');
