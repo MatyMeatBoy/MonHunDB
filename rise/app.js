@@ -3033,7 +3033,9 @@ function renderMonster(name) {
       // explicitly chooses a motlist clip.
       animationSelect.value = "__base__";
       mv.pause();
-      mv.animationName = "";
+      // model-viewer treats an empty animation name as a real (invalid)
+      // selection and hides the scene. Leave it unset for the neutral pose.
+      mv.animationName = undefined;
       animationPlay.textContent = lang === "es" ? "▶ Reproducir" : "▶ Play";
       animationPlay.onclick = () => {
         if (animationSelect.value === "__base__") return;
@@ -3048,7 +3050,7 @@ function renderMonster(name) {
       animationSelect.onchange = () => {
         mv.pause();
         if (animationSelect.value === "__base__") {
-          mv.animationName = "";
+          mv.animationName = undefined;
           mv.currentTime = 0;
           animationPlay.textContent = lang === "es" ? "▶ Reproducir" : "▶ Play";
           return;
