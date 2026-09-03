@@ -2851,6 +2851,7 @@ const MONSTER_3D_MODELS = {
   "Rachnoid": "data/models/rachnoid.glb",
   "Gowngoat": "data/models/gowngoat.glb",
   "Boggi": "data/models/boggi.glb",
+  "Pyrantula": "data/models/pyrantula.glb",
 };
 
 function renderMonster(name) {
