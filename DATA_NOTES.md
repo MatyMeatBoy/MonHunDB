@@ -1,3 +1,11 @@
+## Rise — MONSTER_GEN (generación de debut por especie) — NO verificado (2026-09-03)
+
+La tabla `MONSTER_GEN` en `app.js` (usada para agrupar `monster?species=X` por
+generación) está escrita de memoria de la saga, igual que `data/MONSTER_ANATOMY.md`
+— no es un dato scrapeado ni cruzado contra una fuente. Cubre las 85 líneas de
+criatura actuales del roster. Si algo está mal, es un error de memoria, corregirlo
+directo en la tabla (está comentada en el código, con la salvedad explicada ahí).
+
 ## Rise — sharpness faltante en armas + nombres de variantes confirmados por 3D (2026-09-02)
 
 - **451/3118 armas cuerpo a cuerpo de Rise sin `sharpness`/`sharpnessTakumi`**: encontrado al
