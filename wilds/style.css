@@ -845,6 +845,10 @@ body[data-page="missions"] .header-icon-btn[href^="missions"] {
   border-radius: 10px;
   cursor: pointer;
   text-align: center;
+  /* <button> doesn't inherit page text color by default (UA stylesheet
+     sets its own), so the name showed up browser-default black instead
+     of the site's cream text. */
+  color: var(--text);
 }
 .cross-game-card:hover { border-color: var(--accent); }
 .cross-game-card img.cross-game-render { width: 72px; height: 72px; object-fit: contain; }
