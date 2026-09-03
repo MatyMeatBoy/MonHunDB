@@ -1146,6 +1146,12 @@ function renderRelatedEquipment(monsterName, container, sectionEl) {
 function escapeAttr(str) {
   return String(str).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
 }
+function formatAnimationLabel(name) {
+  // Keep the original motlist identifier recognizable while making it easier
+  // to scan in the compact selector. The identifier itself remains the value.
+  return String(name).replace(/^Aknosom_/i, "").replace(/_/g, " · ");
+}
+
 function wrapXn(str) {
   if (!str) return str;
   // Normalize: remove redundant x1, convert bare xN to [xN]
@@ -2851,7 +2857,7 @@ function starString(stars, max = 3) {
 // extracted. A monster with multiple real distinct model states would use
 // { variants: [...] } same as MHFU's Rajang/Ceanataur, but none here yet.
 const MONSTER_3D_MODELS = {
-  "Aknosom": "data/models/aknosom.glb",
+  "Aknosom": "data/models/aknosom-animated.glb",
   "Almudron": "data/models/almudron.glb",
   "Apex Arzuros": "data/models/apex-arzuros.glb",
   "Apex Diablos": "data/models/apex-diablos.glb",
@@ -2987,6 +2993,7 @@ function renderMonster(name) {
   const model3dBlock = node.querySelector('[data-block="model3d"]');
   const modelEntry = MONSTER_3D_MODELS[monster.name];
   const variantToggle = model3dBlock.querySelector(".model3d-variant-toggle");
+  const animationToggle = model3dBlock.querySelector(".model3d-animation-toggle");
   if (modelEntry) {
     model3dBlock.hidden = false;
     const mv = model3dBlock.querySelector(".monster-model3d");
@@ -2999,6 +3006,51 @@ function renderMonster(name) {
       if (document.activeElement !== mv) event.stopImmediatePropagation();
     }, { capture: true });
     mv.addEventListener("pointerdown", () => mv.focus());
+
+    // Animated Rise GLBs expose every imported motlist clip through
+    // model-viewer's availableAnimations. Keep this control data-driven so
+    // adding another monster animation set does not require a hard-coded
+    // list in the page. A select is intentionally used here: Aknosom has
+    // hundreds of clips and rendering a button for each would overwhelm the
+    // single-screen viewer.
+    const animationSelect = animationToggle.querySelector(".model3d-animation-select");
+    const animationTitle = animationToggle.querySelector(".model3d-animation-title");
+    const animationPlay = animationToggle.querySelector(".model3d-animation-play");
+    const setupAnimations = () => {
+      const animations = Array.from(mv.availableAnimations || []);
+      if (!animations.length) {
+        animationToggle.hidden = true;
+        animationSelect.innerHTML = "";
+        return;
+      }
+      animationToggle.hidden = false;
+      animationTitle.textContent = lang === "es" ? `Animaciones (${animations.length})` : `Animations (${animations.length})`;
+      animationSelect.setAttribute("aria-label", lang === "es" ? "Seleccionar animación" : "Select animation");
+      animationSelect.innerHTML = animations.map(animation =>
+        `<option value="${escapeAttr(animation)}">${escapeAttr(formatAnimationLabel(animation))}</option>`
+      ).join("");
+      const first = animations[0];
+      animationSelect.value = first;
+      mv.animationName = first;
+      animationPlay.textContent = lang === "es" ? "▶ Reproducir" : "▶ Play";
+      animationPlay.onclick = () => {
+        if (mv.paused) {
+          mv.play();
+          animationPlay.textContent = lang === "es" ? "Ⅱ Pausar" : "Ⅱ Pause";
+        } else {
+          mv.pause();
+          animationPlay.textContent = lang === "es" ? "▶ Reproducir" : "▶ Play";
+        }
+      };
+      animationSelect.onchange = () => {
+        mv.pause();
+        mv.animationName = animationSelect.value;
+        mv.currentTime = 0;
+        mv.play();
+        animationPlay.textContent = lang === "es" ? "Ⅱ Pausar" : "Ⅱ Pause";
+      };
+    };
+    mv.addEventListener("load", setupAnimations);
 
     if (modelEntry.variants) {
       variantToggle.hidden = false;
@@ -3021,6 +3073,8 @@ function renderMonster(name) {
     model3dBlock.hidden = true;
     variantToggle.hidden = true;
     variantToggle.innerHTML = "";
+    animationToggle.hidden = true;
+    animationToggle.querySelector(".model3d-animation-select").innerHTML = "";
   }
 
   const crossGameBlock = node.querySelector('[data-block="cross-game"]');

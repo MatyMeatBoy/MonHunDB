@@ -6,7 +6,13 @@
 <title data-i18n="titleMonster">Bestiario — Monster Hunter Rise: Sunbreak</title>
 <link rel="icon" type="image/webp" href="../favicon.webp" />
 <link rel="stylesheet" href="style.css" />
-<script type="module" src="https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
+<script type="module">
+  import { ModelViewerElement } from "https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js";
+  // Rise animation clips use EXT_meshopt_compression. model-viewer does not
+  // fetch its decoder automatically, so configure it before the GLB loads.
+  ModelViewerElement.meshoptDecoderLocation =
+    "https://unpkg.com/meshoptimizer@0.20.0/meshopt_decoder.js";
+</script>
 </head>
 <body data-page="monster">
   <header class="topbar">
@@ -84,6 +90,13 @@
       <section class="block model3d-block" data-block="model3d" hidden>
         <h3>Modelo 3D <span class="beta-badge">BETA</span></h3>
         <div class="model3d-variant-toggle" hidden></div>
+        <div class="model3d-animation-toggle" hidden>
+          <label class="model3d-animation-label">
+            <span class="model3d-animation-title">Animación</span>
+            <select class="model3d-animation-select" aria-label="Seleccionar animación"></select>
+          </label>
+          <button type="button" class="model3d-animation-play">▶ Reproducir</button>
+        </div>
         <div class="model3d-stage">
           <model-viewer
             class="monster-model3d"

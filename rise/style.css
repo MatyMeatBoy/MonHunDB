@@ -839,6 +839,54 @@ body[data-page="quests"] .header-icon-btn[href^="quests"] {
 }
 .model3d-variant-btn:hover { border-color: var(--accent); }
 .model3d-variant-btn.active { background: var(--accent); border-color: var(--accent); color: #1a1714; font-weight: 600; }
+.model3d-animation-toggle {
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 0 0.6rem;
+}
+.model3d-animation-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.22rem;
+  min-width: min(100%, 360px);
+  flex: 1 1 300px;
+}
+.model3d-animation-title {
+  color: var(--text-dim);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.model3d-animation-select {
+  width: 100%;
+  min-height: 2.15rem;
+  padding: 0.35rem 0.6rem;
+  color: var(--text);
+  background: var(--bg-panel-alt);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  font: inherit;
+  font-size: 0.8rem;
+}
+.model3d-animation-select:focus,
+.model3d-animation-play:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+.model3d-animation-play {
+  min-height: 2.15rem;
+  padding: 0.35rem 0.75rem;
+  color: #1a1714;
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 7px;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 650;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.model3d-animation-play:hover { filter: brightness(1.08); }
 .model3d-note { font-size: 0.78rem; color: var(--text-dim); margin: 0.5rem 0 0; }
 
 .cross-game-selector {
