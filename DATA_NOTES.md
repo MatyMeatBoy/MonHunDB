@@ -1,3 +1,15 @@
+## Rise — sharpness faltante en armas + nombres de variantes confirmados por 3D (2026-09-02)
+
+- **451/3118 armas cuerpo a cuerpo de Rise sin `sharpness`/`sharpnessTakumi`**: encontrado al
+  revisar "Cuerno nativo" (reporte del usuario), se generalizó el chequeo a las 3118 y se
+  re-scrapearon las 451 faltantes. **Confirmado, no inferido** — mismo scrape que las demás.
+- **Nombres de variante de monstruo confirmados por el usuario** (surgieron al mapear
+  modelos 3D de mallas "duplicadas" a monstruos con nombre propio en `monsters.json`):
+  Mizutsune (Rare) = **Violet Mizutsune**; Nargacuga (Rare) = **Lucent Nargacuga**; mismo
+  patrón de nomenclatura confirma Rathalos (Rare) = **Silver Rathalos**, Rathian (Rare) =
+  **Gold Rathian** (por analogía de patrón, no confirmado uno por uno por el usuario, pero
+  es la convención estándar de la saga para estas dos especies específicas).
+
 ## Wilds — casos de datos de la sesión grande de scraping (2026-08-10)
 
 Ver `wilds/HANDOFF.md` para el detalle completo de fuentes/cobertura. Notas de calidad específicas:

@@ -1,6 +1,72 @@
 # Progreso del proyecto
 
-Última actualización: 2026-08-15
+Última actualización: 2026-09-02
+
+## Feature grande: Modelos 3D de monstruos + infra de armas (2026-09-02, EN CURSO)
+
+**Herramienta nueva, hecha por el usuario de forma independiente**: `ReAssets/monsterrip`
+(Python + Blender headless, gitignored — es tooling local, no contenido del sitio) extrae
+mallas `.mesh`/texturas de los `.pak` de MH Rise/Wilds vía los addons de NSACloud (RE Mesh
+Editor / RE Asset Library) y las convierte a `.glb` web (Draco + AVIF) reusando el pipeline
+de compresión que ya existía. Integrado a la página: `rise/app.js` → `MONSTER_3D_MODELS`
+(monstruo → ruta `.glb`), renderizado en un `<model-viewer>` dentro de la ficha de cada
+monstruo (sección "Modelo 3D", con badge BETA).
+
+- **111/112 monstruos grandes+pequeños de Rise con modelo 3D** (faltan solo Narwa la
+  Todopoderosa como modelo aparte — reusa el de Thunder Serpent Narwa, mismo rig em099
+  escalado en el juego — y Pyrantula, ver abajo). MHFU: los 93 modelos existentes se
+  recomprimieron con Draco+AVIF (23.3MB → 3.4MB total, mismo pipeline que Rise/Wilds, que
+  ya lo usaban desde siempre).
+- **Bug grande encontrado y arreglado: contaminación de mallas variante.** `resolve_monster()`
+  en `catalog.py` traía sin querer `Mizutsune (Rare)` y `(Apex)` al pedir solo `"Mizutsune"`,
+  las 3 mallas se exportaban juntas en el mismo origen → parpadeo tipo "negativo" en el
+  viewer (reportado por el usuario) y bug relacionado de "le faltan los ojos" en varios
+  monstruos (Rajang, Lunagaron, Malzeno). Arreglado restringiendo qué tags pueden viajar con
+  el nombre base; las 15 variantes que antes contaminaban se re-extrajeron como monstruos
+  propios (**confirmado por el usuario**: Mizutsune Rare = Violet Mizutsune, Nargacuga Lucent
+  = el Rare de Nargacuga, mismo patrón para Rathalos Rare = Silver Rathalos, Rathian Rare =
+  Gold Rathian).
+- **Bug grande encontrado y arreglado: textura base ausente.** 11 monstruos grandes
+  (Rathalos/Rathian/Zinogre + sus variantes, Pukei-Pukei, Gaismagorm, Shogun Ceanataur) y 2
+  pequeños (Popo, Jagras) salían con la textura de color principal totalmente ausente — no
+  era un bug del fix de materiales, el archivo `.tex` nunca se extraía del pak vía el
+  dependency-walk normal (confirmado: el catálogo SÍ tiene esos archivos, solo que
+  `extractFilesFromPakCache` no los encontraba desde la malla). Arreglado pidiendo las
+  filas `.tex` del catálogo explícitamente por carpeta, como entradas de extracción propias
+  — mismo mecanismo que malla/chain. Los 13 monstruos ya se re-extrajeron y están en
+  producción.
+- **Feature nueva: extracción de armas** (recién arrancada, sin modelos todavía). El
+  catálogo tiene 1 malla por *familia* de arma pero `weapons.json` tiene una fila por
+  *tier* de mejora (Kamura Cleaver I..V comparten un solo modelo) — `resolve_weapon()`/
+  `weapon_families()` en `catalog.py` resuelven esto, más las piezas emparejadas por tipo
+  (escudo/aljaba/funda/segunda hoja según el arma). CLI nuevo: `list-weapons`/`rip-weapons`.
+  Cobertura calculada: ~40% de las 3953 entradas individuales (~990 mallas a extraer en
+  total), matcheando por nombre de familia contra el catálogo. Sitio ya tiene el viewer 3D
+  listo en la página de armas (`weapons.html`, `weapon_models.json` vacío por ahora,
+  `weaponFamilyName()` en `app.js`) — probado en navegador, no rompe nada aunque no haya
+  modelos aún.
+- **Pyrantula** (único monstruo pequeño sin mapear): id encontrado (`ems092_01`, comparte
+  carpeta con Rachnoid pero slot `01` — confirmado en la wiki de modding de MHRise, no está
+  en el índice de mhrice.info por ser contenido de Sunbreak). Alias agregado, pero la
+  extracción nunca corrió.
+- **BLOQUEADOR ACTIVO al cortar esta sesión**: Blender headless dejó de arrancar a mitad de
+  sesión (cuelgue total, hasta con un smoke test sin addons) — no es bug del código nuevo,
+  se reprodujo 5+ veces. El usuario reinició la máquina para arreglarlo; **falta confirmar
+  que ya funciona y retomar `rip-weapons` por tipo de arma** (empezar por Gran Espada, ya
+  tiene la lista de 72 familias calculada). Detalle completo del diagnóstico en
+  `ReAssets/docs/04_GOTCHAS.md` (no versionado en git).
+- Documentación nueva en `ReAssets/docs/02_EXTRACTION.md` (sección "Weapons") y
+  `04_GOTCHAS.md` (3 secciones: texturas ausentes/arregladas, Pyrantula, cuelgue de
+  Blender).
+
+## Feature: sharpness (filo) + canciones de Cuernos de Caza en Rise (2026-09-02)
+
+- **Bug de datos encontrado y arreglado**: 451/3118 armas cuerpo a cuerpo de Rise no tenían
+  `sharpness`/`sharpnessTakumi` (reportado por el usuario en "Cuerno nativo"). Re-scrapeado
+  y completado — 451/451 recuperadas.
+- **Feature nueva**: los 281 Cuernos de Caza ahora muestran qué melodías pueden tocar
+  (campo `songs: [{name, nameEs}]` en `weapons.json`, sección "Melodías" en la ficha del
+  arma, reusa el estilo visual de la tabla de munición).
 
 ## Cierre MHFU: puntos de habilidades y ramas de armas (2026-08-15)
 
@@ -100,7 +166,25 @@ Fuente nueva: **MHRice** (`mhrise.mhrice.info`, código en `github.com/wwylele/m
 
 ## Resumen rápido para retomar (si se corta el contexto)
 
-Proyecto: `mhrise-bestiario/` — bestiario web ES/EN de MH Rise/Sunbreak, 78 monstruos, 100% funcional. Todo lo scrapeado está en `data/` (JSONs + scripts `.js` reutilizables), documentado abajo y en `DATA_NOTES.md`. **Nada se perdió, todo commiteado a disco** (más `backups/selector01/` y `mhrise-bestiario_savepoint01/02` como snapshots).
+Proyecto: `mhrise-bestiario/` — bestiario web ES/EN de MH Rise/Sunbreak (+ Wilds y MHFU en
+carpetas propias), 78 monstruos grandes de Rise, 100% funcional. Todo lo scrapeado está en
+`data/` (JSONs + scripts `.js` reutilizables), documentado abajo y en `DATA_NOTES.md`.
+**Nada se perdió, todo commiteado a disco y pusheado.**
+
+**LO MÁS URGENTE PARA RETOMAR** (ver sección "Feature grande: Modelos 3D..." arriba para el
+detalle completo): el usuario reinició la máquina para arreglar un cuelgue de Blender
+headless que bloqueaba toda extracción 3D. Antes de nada:
+1. Confirmar que `py -3 -m monsterrip rip rise "Aknosom"` (desde `ReAssets/`) corre sin
+   colgarse — si un smoke test de Blender solo (`blender --background --python-expr
+   "print('hi')"`) también se cuelga, el problema sigue siendo del sistema, no del código.
+2. Extraer Pyrantula (`py -3 -m monsterrip rip rise "Pyrantula"` — el alias ya está en
+   `SMALL_MONSTER_ALIASES`, nunca llegó a correr).
+3. Retomar armas por tipo, uno a la vez (**nunca dos jobs de monsterrip en simultáneo**,
+   se traban entre sí): `py -3 -m monsterrip rip-weapons rise "Great Sword" <72 familias>`
+   — la lista completa de familias por tipo ya está calculada, correr
+   `node ReAssets/build_weapon_families.js "<Tipo>"` la regenera. Después de cada tipo:
+   `node ReAssets/integrate_weapon_batch.js "<Tipo>"` copia los `.glb` y actualiza
+   `rise/data/weapon_models.json` automáticamente.
 
 **Feature de silueta de hitzones (Rathalos + Corte, ver sección propia abajo): CERRADA.** El bug del hueco/tooltip se resolvió identificando que la asignación región→parte estaba mal (no era un problema de trazado/dilatación) — ver sección "Silueta de hitzones" más abajo para el detalle y la lección aprendida (documentada también en `data/SILHOUETTE_GUIDE.md`).
 
@@ -108,6 +192,7 @@ Proyecto: `mhrise-bestiario/` — bestiario web ES/EN de MH Rise/Sunbreak, 78 mo
 
 - El skill `/checkpoint` que se creó en `.claude/skills/checkpoint/` **no se puede invocar con la herramienta Skill** porque colisiona con un comando nativo del mismo nombre — para sincronizar este archivo hay que seguir sus instrucciones a mano (leerlas del SKILL.md) en vez de invocarlo.
 - **Skill nuevo `.claude/skills/monster-vector-anatomy/`** (este SÍ se puede invocar, no colisiona con nada): se dispara automáticamente antes de trazar/mapear la silueta de un monstruo nuevo. Apunta a `data/MONSTER_ANATOMY.md` (guía de anatomía de los 78 monstruos, escrita de memoria de la saga — no es un dato scrapeado/verificado, es orientación visual) y repite la lección de Rathalos: nunca asignar región→parte por posición/forma sin confirmar con el usuario.
+- **Pendiente, explícitamente pausado por el usuario**: navegación entre versiones de un mismo monstruo compartido entre juegos (ej. Khezu en Rise y MHFU) — mostrar al final de la ficha un selector con el render/ícono de cada juego donde aparece, clickeable. Pedido a mitad de la sesión de modelos 3D, nunca arrancado.
 
 ## Funcionalidades completas (además de lo ya listado abajo)
 
