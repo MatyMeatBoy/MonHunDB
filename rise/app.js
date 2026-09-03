@@ -1889,7 +1889,15 @@ function renderWeaponTreeSVG(w) {
   function depthOfTree(n) { const c = children(n); return c.length ? 1 + Math.max(...c.map(depthOfTree)) : 0; }
   const cx = (n) => M + xPos[n] * COL - NW / 2;
   const cy = (n) => M + yPos[n] * ROW;
-  let svg = `<div class="weapon-tree-svg"><svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin meet" style="max-width:100%;height:auto;">`;
+  const compactClass = W <= 700 ? " weapon-tree-svg--compact" : "";
+  // Explicit pixel width/height (not just viewBox) keeps every tree at the
+  // same fixed node scale regardless of branch count -- without them the
+  // SVG's intrinsic size defaults to 100% of the container, so a 2-node
+  // tree stretched to fill it (huge nodes) while a 20-node tree got
+  // squeezed to fit (tiny nodes). Wide trees now scroll horizontally
+  // instead (container has overflow-x: auto), same fix already applied to
+  // MHFU's version of this function.
+  let svg = `<div class="weapon-tree-svg${compactClass}"><svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">`;
   // connecting lines (elbow from parent bottom to child top)
   const lines = [];
   for (const p of Object.keys(xPos)) {
