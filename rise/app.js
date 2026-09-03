@@ -2039,6 +2039,32 @@ function showWeaponDetail(id) {
       if (document.activeElement !== weaponMv) event.stopImmediatePropagation();
     }, { capture: true });
     weaponMv.addEventListener("pointerdown", () => weaponMv.focus());
+    // These meshes come straight out of the game's equip-space export, not
+    // reoriented for display -- the default camera-orbit (mostly horizontal,
+    // 75deg polar) shows a flat blade edge-on from every azimuthal angle,
+    // because the blade's face-normal sits along the model's own "up" (Y)
+    // axis, which auto-rotate spins AROUND, never past. No amount of
+    // horizontal dragging ever reveals the face (reported by the user: "por
+    // más que giro nunca veo el frente, debe estar bugeado" -- it wasn't a
+    // rotation bug, just a bad fixed starting angle for flat weapons).
+    // Fix: once the real geometry is loaded, check whether it actually IS a
+    // thin flat blade (Y much smaller than the other cross-section axis,
+    // and Y isn't itself the weapon's long axis -- e.g. a Bow, held
+    // vertically, is fine as-is) and only then pitch the camera up toward
+    // top-down so the face is what auto-rotate sweeps across.
+    weaponMv.addEventListener("load", () => {
+      const dims = weaponMv.getDimensions();
+      if (!dims) return;
+      const { x, y, z } = dims;
+      const longest = Math.max(x, y, z);
+      if (y === longest) return; // e.g. Bow -- length already runs along the orbit axis, default view is fine
+      const otherCrossSection = longest === z ? x : z;
+      if (y < otherCrossSection * 0.6) {
+        // Thin flat blade: pitch toward top-down so its face -- not its
+        // edge -- faces the camera, still tilted a little for depth.
+        weaponMv.cameraOrbit = weaponMv.cameraOrbit.replace(/^\S+\s+\S+/, "0deg 22deg");
+      }
+    });
   }
   weaponDetailEl.querySelectorAll(".decoration-card").forEach(btn => {
     btn.addEventListener("click", () => navWeapon(btn.dataset.id));
