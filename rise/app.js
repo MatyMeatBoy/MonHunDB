@@ -3026,14 +3026,17 @@ function renderMonster(name) {
       animationToggle.hidden = false;
       animationTitle.textContent = lang === "es" ? `Animaciones (${animations.length})` : `Animations (${animations.length})`;
       animationSelect.setAttribute("aria-label", lang === "es" ? "Seleccionar animación" : "Select animation");
-      animationSelect.innerHTML = animations.map(animation =>
+      animationSelect.innerHTML = `<option value="__base__">${lang === "es" ? "Pose base (sin animación)" : "Base pose (no animation)"}</option>` + animations.map(animation =>
         `<option value="${escapeAttr(animation)}">${escapeAttr(formatAnimationLabel(animation))}</option>`
       ).join("");
-      const first = animations[0];
-      animationSelect.value = first;
-      mv.animationName = first;
+      // Keep the imported model visible in its neutral pose until the user
+      // explicitly chooses a motlist clip.
+      animationSelect.value = "__base__";
+      mv.pause();
+      mv.animationName = "";
       animationPlay.textContent = lang === "es" ? "▶ Reproducir" : "▶ Play";
       animationPlay.onclick = () => {
+        if (animationSelect.value === "__base__") return;
         if (mv.paused) {
           mv.play();
           animationPlay.textContent = lang === "es" ? "Ⅱ Pausar" : "Ⅱ Pause";
@@ -3044,6 +3047,12 @@ function renderMonster(name) {
       };
       animationSelect.onchange = () => {
         mv.pause();
+        if (animationSelect.value === "__base__") {
+          mv.animationName = "";
+          mv.currentTime = 0;
+          animationPlay.textContent = lang === "es" ? "▶ Reproducir" : "▶ Play";
+          return;
+        }
         mv.animationName = animationSelect.value;
         mv.currentTime = 0;
         mv.play();
