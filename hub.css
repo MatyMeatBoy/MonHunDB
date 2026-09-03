@@ -154,3 +154,51 @@ body {
 
 .hub-chromakey-link { margin-left: .45rem; color: var(--cyan, #69d3d0); text-decoration: none; font-size: 1.15rem; align-items: center; justify-content: center; }
 .hub-chromakey-link:hover { color: var(--accent); }
+
+/* Cross-game search lives on the hub so the three databases remain separate
+   while still being discoverable from one place. */
+.hub-global-search-wrap { position: relative; flex: 0 0 auto; }
+.hub-global-search-toggle {
+  width: 2.25rem; height: 2.25rem; padding: 0; display: inline-flex;
+  align-items: center; justify-content: center; cursor: pointer;
+  color: var(--text); background: var(--bg-panel); border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.hub-global-search-toggle:hover, .hub-global-search-toggle[aria-expanded="true"] {
+  color: var(--accent); border-color: var(--accent);
+}
+.hub-global-search-panel {
+  position: absolute; top: calc(100% + .45rem); right: 0; z-index: 20;
+  width: min(31rem, calc(100vw - 1.5rem)); max-height: min(72vh, 38rem);
+  padding: .55rem; overflow: hidden; background: var(--bg-panel);
+  border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: 0 .8rem 2rem rgba(0,0,0,.42);
+}
+.hub-global-search-panel[hidden] { display: none; }
+.hub-global-search-panel input {
+  width: 100%; padding: .58rem .7rem; color: var(--text); background: #151912;
+  border: 1px solid var(--border); border-radius: 7px; font: inherit; outline: none;
+}
+.hub-global-search-panel input:focus { border-color: var(--accent); }
+.hub-global-search-status { padding: .35rem .35rem 0; min-height: 1.2rem; color: var(--text-dim); font-size: .74rem; }
+.hub-global-search-results { max-height: min(58vh, 31rem); overflow-y: auto; padding-top: .2rem; }
+.hub-gs-section { margin-top: .55rem; }
+.hub-gs-section:first-child { margin-top: .1rem; }
+.hub-gs-section-title { padding: .3rem .4rem; color: var(--text-dim); font-size: .72rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.hub-gs-row {
+  width: 100%; display: flex; align-items: center; gap: .55rem; padding: .42rem .45rem;
+  color: var(--text); background: transparent; border: 0; border-radius: 7px;
+  text-align: left; cursor: pointer; font: inherit;
+}
+.hub-gs-row:hover, .hub-gs-row:focus-visible { background: #2a3023; outline: none; }
+.hub-gs-thumb { width: 2rem; height: 2rem; flex: 0 0 auto; object-fit: contain; border-radius: 6px; background: #151912; }
+.hub-gs-main { min-width: 0; display: flex; flex-direction: column; gap: .08rem; }
+.hub-gs-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 650; }
+.hub-gs-meta { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text-dim); font-size: .73rem; }
+.hub-gs-game { margin-left: auto; flex: 0 0 auto; color: var(--accent); font-size: .68rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+.hub-gs-empty { margin: .7rem .4rem; color: var(--text-dim); font-size: .82rem; }
+@media (max-width: 560px) {
+  .hub-global-search-panel { position: fixed; top: 4.55rem; left: .75rem; right: .75rem; width: auto; }
+  .hub-topbar { padding-left: .65rem; padding-right: .65rem; }
+  .hub-brand-wordmark { max-width: 31vw; }
+}
