@@ -15,8 +15,8 @@
     "semantic_hash": ""
   },
   "PROGRESS.md": {
-    "mtime": 1788408531.9214919,
-    "ast_hash": "8fb129138bcc739534114cfe8b9356f9",
+    "mtime": 1788398673.5915108,
+    "ast_hash": "eac31b1108e06851db183839a6c8e3a3",
     "semantic_hash": ""
   },
   "README.md": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "rise/app.js": {
-    "mtime": 1788400410.425186,
-    "ast_hash": "9c47351b405fef82a073c34cd940ef1b",
+    "mtime": 1788398906.6867373,
+    "ast_hash": "d1f4a7bba75e1175bd08c41a3ca2404a",
     "semantic_hash": ""
   },
   "rise/data/_mhrice_decoration_icons.json": {
@@ -35515,8 +35515,8 @@
     "semantic_hash": ""
   },
   "rise/data/weapon_models.json": {
-    "mtime": 1788408314.0463715,
-    "ast_hash": "0141a7268f658fcd5d430be5e0ed249d",
+    "mtime": 1788387518.0542655,
+    "ast_hash": "8a80554c91d9fca8acb82f023de02f11",
     "semantic_hash": ""
   },
   "rise/quests.js": {

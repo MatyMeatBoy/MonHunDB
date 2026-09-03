@@ -1,16 +1,16 @@
-# Graph Report - mhrise-bestiario  (2026-09-03)
+# Graph Report - mhrise-bestiario  (2026-09-02)
 
 ## Corpus Check
-- 271 files · ~10,016,942 words
+- 271 files · ~10,013,347 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2147 nodes · 3572 edges · 162 communities (157 shown, 5 thin omitted)
+- 2146 nodes · 3570 edges · 160 communities (155 shown, 5 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 32 edges (avg confidence: 0.65)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4d0532e3`
+- Built from commit: `317b8a75`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -170,8 +170,6 @@
 - enrich_arkveld_gamma_game8.js
 - vecmon-bridge.js
 - repair_charms_metadata.js
-- showSkillDetail
-- selectMonster
 
 ## God Nodes (most connected - your core abstractions)
 1. `ui()` - 46 edges
@@ -200,23 +198,23 @@
 ## Import Cycles
 - None detected.
 
-## Communities (162 total, 5 thin omitted)
+## Communities (160 total, 5 thin omitted)
 
 ### Community 0 - "rise/app.js"
 Cohesion: 0.02
-Nodes (103): ANOMALY_LEVEL_RANGE, ARMOR_PART_ORDER, ARMOR_SET_DISPLAY_MAP, ARMOR_SET_HIDDEN, ARMOR_SET_IMG_OVERRIDES, armorBackEl, armorFextraIcons, armorIndexEl (+95 more)
+Nodes (101): ANOMALY_LEVEL_RANGE, ARMOR_PART_ORDER, ARMOR_SET_DISPLAY_MAP, ARMOR_SET_HIDDEN, ARMOR_SET_IMG_OVERRIDES, armorBackEl, armorFextraIcons, armorIndexEl (+93 more)
 
 ### Community 1 - "ui"
-Cohesion: 0.19
-Nodes (33): ammoTableHtml(), annotateAnomalyLevel(), armorPieceMaterialsHtml(), buildMaterialIndex(), buildSelector(), escapeAttr(), getMaterialSources(), groupFor() (+25 more)
+Cohesion: 0.16
+Nodes (38): ammoTableHtml(), annotateAnomalyLevel(), applyUiStrings(), armorPieceMaterialsHtml(), bootMaterials(), buildMaterialIndex(), escapeAttr(), getMaterialSources() (+30 more)
 
 ### Community 2 - "renderMonster"
-Cohesion: 0.15
-Nodes (20): alignInflictsDivider(), capitalize(), elementIconTag(), hzStatIconTag(), hzStatLabel(), hzStatLabelFull(), rankElementColumns(), rankPhysicalCellsByColumn() (+12 more)
+Cohesion: 0.14
+Nodes (21): alignInflictsDivider(), applyI18nText(), capitalize(), elementIconTag(), hzStatIconTag(), hzStatLabel(), hzStatLabelFull(), rankElementColumns() (+13 more)
 
 ### Community 3 - "renderWeaponsIndex"
-Cohesion: 0.16
-Nodes (19): bootWeapons(), escapeXml(), getWeaponChain(), getWeaponCrossLinks(), initWeaponTree(), isWeaponTrueFinal(), navWeapon(), normalizeWeaponName() (+11 more)
+Cohesion: 0.19
+Nodes (17): bootWeapons(), escapeXml(), getWeaponChain(), getWeaponCrossLinks(), initWeaponTree(), isWeaponTrueFinal(), normalizeWeaponName(), renderWeaponsIndex() (+9 more)
 
 ### Community 4 - "Progreso del proyecto"
 Cohesion: 0.06
@@ -235,8 +233,8 @@ Cohesion: 0.23
 Nodes (12): curlBinary(), curlText(), downloadImage(), { execFileSync }, fetchPage(), fileSlug(), fs, IMG_DIR (+4 more)
 
 ### Community 8 - "init"
-Cohesion: 0.14
-Nodes (14): applyI18nText(), applyUiStrings(), closeGlobalSearch(), init(), initGlobalSearch(), loadArmorFextraIcons(), loadIconManifest(), loadMaterialIconManifest() (+6 more)
+Cohesion: 0.10
+Nodes (28): bootDecorations(), bootPage(), bootSkills(), buildSelector(), closeGlobalSearch(), closePanel(), filterOptions(), groupFor() (+20 more)
 
 ### Community 9 - "build_small_monsters.js"
 Cohesion: 0.18
@@ -359,8 +357,8 @@ Cohesion: 0.47
 Nodes (5): download(), fs, main(), path, slugify()
 
 ### Community 39 - "renderArmorIndex"
-Cohesion: 0.18
-Nodes (22): armorIconTag(), armorPieceSkillsHtml(), armorSetDisplayName(), armorSetImg(), armorSetPrefix(), bootArmor(), buildImpliedArmorGroups(), buildMonsterEquipmentIndex() (+14 more)
+Cohesion: 0.12
+Nodes (31): armorIconTag(), armorPieceSkillsHtml(), armorSetDisplayName(), armorSetImg(), armorSetPrefix(), bootArmor(), buildImpliedArmorGroups(), buildMonsterEquipmentIndex() (+23 more)
 
 ### Community 40 - "wilds/app.js"
 Cohesion: 0.02
@@ -802,14 +800,6 @@ Nodes (3): ALIASES, fs, path
 Cohesion: 0.67
 Nodes (3): decode(), fs, main()
 
-### Community 160 - "showSkillDetail"
-Cohesion: 0.16
-Nodes (20): bootDecorations(), bootMaterials(), bootPage(), bootSkills(), buildSkillGrantIndex(), decorationIconTag(), hideViews(), navDecoration() (+12 more)
-
-### Community 161 - "selectMonster"
-Cohesion: 0.53
-Nodes (6): closePanel(), filterOptions(), initCombobox(), openPanel(), selectFirstVisibleOption(), selectMonster()
-
 ## Knowledge Gaps
 - **1073 isolated node(s):** `fs`, `path`, `games`, `fs`, `path` (+1068 more)
   These have ≤1 connection - possible missing edges or undocumented components.
@@ -827,8 +817,8 @@ _Questions this graph is uniquely positioned to answer:_
 - **What connects `fs`, `path`, `games` to the rest of the system?**
   _1073 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `rise/app.js` be split into smaller, more focused modules?**
-  _Cohesion score 0.019220596014812203 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.019413919413919414 - nodes in this community are weakly interconnected._
 - **Should `renderMonster` be split into smaller, more focused modules?**
-  _Cohesion score 0.14736842105263157 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1380952380952381 - nodes in this community are weakly interconnected._
 - **Should `Progreso del proyecto` be split into smaller, more focused modules?**
   _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
