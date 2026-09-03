@@ -3029,12 +3029,44 @@ function starString(stars, max = 3) {
 
 // Real in-game 3D model per monster, same technique as MHFU's viewer
 // (extracted via RE-Mesh-Editor + Blender, exported to glTF, compressed
-// with gltf-transform -- Draco geometry + WebP textures capped at 1024px).
-// Ajarakan is the first one here; add more the same way as they're
-// extracted. A monster with multiple real distinct model states would use
-// { variants: [...] } same as MHFU's Rajang/Ceanataur, but none here yet.
+// with gltf-transform -- Draco geometry + AVIF textures capped at 1024px).
+// A monster with multiple real distinct model states would use
+// { variants: [...] } same as MHFU's Rajang/Ceanataur.
 const MONSTER_3D_MODELS = {
   "Ajarakan": "data/models/ajarakan.glb",
+  "Arkveld": "data/models/arkveld.glb",
+  "Balahara": "data/models/balahara.glb",
+  "Blangonga": "data/models/blangonga.glb",
+  "Chatacabra": "data/models/chatacabra.glb",
+  "Congalala": "data/models/congalala.glb",
+  "Doshaguma": "data/models/doshaguma.glb",
+  "Gogmazios": "data/models/gogmazios.glb",
+  "Gore Magala": "data/models/gore-magala.glb",
+  "Gravios": "data/models/gravios.glb",
+  "Guardian Arkveld": "data/models/guardian-arkveld.glb",
+  "Guardian Doshaguma": "data/models/guardian-doshaguma.glb",
+  "Guardian Ebony Odogaron": "data/models/guardian-ebony-odogaron.glb",
+  "Guardian Fulgur Anjanath": "data/models/guardian-fulgur-anjanath.glb",
+  "Guardian Rathalos": "data/models/guardian-rathalos.glb",
+  "Zoh Shia": "data/models/guardian-zoh-shia.glb",
+  "Gypceros": "data/models/gypceros.glb",
+  "Hirabami": "data/models/hirabami.glb",
+  "Jin Dahaad": "data/models/jin-dahaad.glb",
+  "Lagiacrus": "data/models/lagiacrus.glb",
+  "Lala Barina": "data/models/lala-barina.glb",
+  "Mizutsune": "data/models/mizutsune.glb",
+  "Nerscylla": "data/models/nerscylla.glb",
+  "Nu Udra": "data/models/nu-udra.glb",
+  "Omega Planetes": "data/models/omega-planetes.glb",
+  "Quematrice": "data/models/quematrice.glb",
+  "Rathalos": "data/models/rathalos.glb",
+  "Rathian": "data/models/rathian.glb",
+  "Rey Dau": "data/models/rey-dau.glb",
+  "Rompopolo": "data/models/rompopolo.glb",
+  "Seregios": "data/models/seregios.glb",
+  "Uth Duna": "data/models/uth-duna.glb",
+  "Xu Wu": "data/models/xu-wu.glb",
+  "Yian Kut-Ku": "data/models/yian-kut-ku.glb",
 };
 
 function renderMonster(name) {
