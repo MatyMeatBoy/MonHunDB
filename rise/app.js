@@ -147,6 +147,26 @@ let weaponModels = {};
 function weaponFamilyName(name) {
   return name.replace(/\s+(I{1,3}|IV|V|VI)$/i, "").trim();
 }
+// Most weapon-tree branches past the first few tiers don't get their own 3D
+// model -- confirmed on Great Sword's "Cat's Soul I/II" -> "Cat's Curse" ->
+// "Cat's Curse+" -> "Cat's King": the catalog has exactly one mesh for that
+// whole line ("Cat's Soul"), the other three tiers reuse it in-game, there's
+// no separate model for them anywhere in the game files. So if a weapon's
+// own family has no model, walk its prevId chain (also family-stripped at
+// each step, since "Kamura Warrior Cleaver+" itself won't match but its
+// prevId "Kamura Warrior Cleaver" will) until an ancestor's does.
+function resolveWeaponModel(w) {
+  const models = weaponModels[w.type];
+  if (!models) return null;
+  let cur = w, depth = 0;
+  while (cur && depth < 20) {
+    const path = models[weaponFamilyName(cur.name)];
+    if (path) return path;
+    cur = cur.prevId ? weaponsById.get(cur.prevId) : null;
+    depth++;
+  }
+  return null;
+}
 const ARMOR_PART_ORDER = ["head", "chest", "arms", "waist", "legs"];
 
 function hideViews(...els) {
@@ -1958,7 +1978,7 @@ function showWeaponDetail(id) {
 
   const elementsHtml = (w.elements || []).map(e => `<span class="mh-info-value">${elementIconTag(e.type)}${trElement(e.type)} ${e.value}</span>`).join(" ");
   const sharpnessHtml = sharpnessBarHtml(w);
-  const modelPath = (weaponModels[w.type] || {})[weaponFamilyName(w.name)];
+  const modelPath = resolveWeaponModel(w);
   const model3dHtml = modelPath ? `
     <section class="block model3d-block">
       <h3>${ui("weaponsModel3dHeading")} <span class="beta-badge">BETA</span></h3>
