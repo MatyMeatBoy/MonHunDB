@@ -857,6 +857,18 @@ body[data-page="quests"] .header-icon-btn[href^="quests"] {
 .monster-species {
   margin: 0.2rem 0 0;
   color: var(--text-dim);
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.15s, color 0.15s;
+}
+.monster-species:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
 }
 
 .block {

@@ -29,6 +29,47 @@ const GROUP_OVERRIDES = {
   "Wind Serpent Ibushi": "Narwa / Ibushi",
 };
 
+// Which mainline-game "generation" each creature line debuted in, keyed by
+// its GROUP_OVERRIDES base name (so "Apex Rathalos" etc share Rathalos'
+// entry) -- used to order the species-catalog page (monster?species=X).
+// Written from general Monster Hunter series knowledge, NOT scraped or
+// verified against a source -- same caveat as data/MONSTER_ANATOMY.md. If
+// something here is wrong, it's a memory slip, not a data decision; correct
+// it directly.
+const MONSTER_GEN = {
+  Aknosom: 5, Almudron: 5, Altaroth: 1, Amatsu: 2, Anjanath: 4, Anteka: 2,
+  Arzuros: 2, Astalos: 3, Baggi: 2, Barioth: 1, Barroth: 2, Basarios: 1,
+  Bazelgeuse: 4, Bishaten: 5, Bnahabra: 3, Boggi: 5, Bombadgy: 5, Bullfango: 1,
+  Ceanataur: 1, Chameleos: 1, "Crimson Glow Valstrax": 3, "Daimyo Hermitaur": 2,
+  Delex: 1, Diablos: 1, Espinas: 1, Felyne: 1, Gaismagorm: 5, Gajau: 1,
+  Garangolm: 5, Gargwa: 1, "Gore Magala": 3, "Goss Harag": 5, Gowngoat: 5,
+  "Great Baggi": 2, "Great Izuchi": 5, "Great Wroggi": 3, Hermitaur: 1,
+  Hornetaur: 1, Izuchi: 5, Jaggi: 2, Jaggia: 2, Jagras: 4, Jyuratodus: 4,
+  Kelbi: 1, Kestodon: 4, Khezu: 1, "Kulu-Ya-Ku": 4, "Kushala Daora": 1,
+  Lagombi: 2, Ludroth: 2, Lunagaron: 5, Magnamalo: 5, Malzeno: 5, Melynx: 1,
+  Mizutsune: 3, Nargacuga: 1, "Narwa / Ibushi": 5, Popo: 2, "Pukei-Pukei": 4,
+  Pyrantula: 5, Rachnoid: 5, Rajang: 1, "Rakna-Kadaki": 5, Rathalos: 1,
+  Rathian: 1, Remobra: 1, Rhenoplos: 1, "Royal Ludroth": 2, Seregios: 3,
+  "Shagaru Magala": 3, "Shogun Ceanataur": 2, Slagtoth: 1, Somnacanth: 5,
+  Teostra: 1, Tetranadon: 5, Tigrex: 2, "Tobi-Kadachi": 4, Uroktor: 4,
+  Velkhana: 4, Velociprey: 1, Vespoid: 1, Volvidon: 3, Wroggi: 3, Zamite: 2,
+  Zinogre: 2,
+};
+const MONSTER_GEN_LABEL = {
+  1: "1ª generación (MH1 · G · Freedom Unite)",
+  2: "2ª generación (MH2 Dos · MH3 · Portable 3rd)",
+  3: "3ª generación (MH4 · Generations)",
+  4: "4ª generación (Monster Hunter World)",
+  5: "5ª generación (Monster Hunter Rise · Sunbreak)",
+};
+const MONSTER_GEN_LABEL_EN = {
+  1: "1st gen. (MH1 · G · Freedom Unite)",
+  2: "2nd gen. (MH2 Dos · MH3 · Portable 3rd)",
+  3: "3rd gen. (MH4 · Generations)",
+  4: "4th gen. (Monster Hunter World)",
+  5: "5th gen. (Monster Hunter Rise · Sunbreak)",
+};
+
 const ELEMENT_ORDER = ["fire", "water", "thunder", "ice", "dragon", "blast", "poison", "paralysis", "sleep", "stun", "exhaust"];
 const RANK_ORDER = ["Low Rank", "High Rank", "Master Rank"];
 
@@ -177,6 +218,11 @@ function navMonster(name, rank) {
   const u = new URL("monster", location.href);
   u.searchParams.set("m", name);
   if (rank) u.searchParams.set("rank", rank);
+  location.href = u.href;
+}
+function navSpecies(species) {
+  const u = new URL("monster", location.href);
+  u.searchParams.set("species", species);
   location.href = u.href;
 }
 function navMaterial(key) {
@@ -466,10 +512,13 @@ function bootPage() {
   if (PAGE === "monster") {
     const params = new URLSearchParams(location.search);
     const m = params.get("m");
+    const species = params.get("species");
     const rank = params.get("rank");
     if (rank) currentRank = rank;
     if (m && monsters.some(x => x.name === m)) {
       selectMonster(m, { render: true });
+    } else if (species) {
+      renderSpeciesCatalog(species);
     } else if (detailEl) {
       detailEl.innerHTML = `<p class="empty-state">${I18N.ui[lang].emptyState}</p>`;
     }
@@ -2908,7 +2957,14 @@ function renderMonster(name) {
   applyI18nText(node);
 
   node.querySelector(".monster-name").textContent = trMonsterName(monster.name);
-  node.querySelector(".monster-species").textContent = trSpecies(monster.species || "");
+  const speciesBtn = node.querySelector(".monster-species");
+  if (monster.species) {
+    speciesBtn.hidden = false;
+    speciesBtn.textContent = trSpecies(monster.species);
+    speciesBtn.addEventListener("click", () => navSpecies(monster.species));
+  } else {
+    speciesBtn.hidden = true;
+  }
 
   const model3dBlock = node.querySelector('[data-block="model3d"]');
   const modelEntry = MONSTER_3D_MODELS[monster.name];
@@ -3086,6 +3142,55 @@ function renderMonster(name) {
   if (renderImg.complete === false) {
     renderImg.addEventListener("load", alignInflictsDivider, { once: true });
   }
+}
+
+function renderSpeciesCatalog(species) {
+  hideViews(homeViewEl, decorationsViewEl, weaponsViewEl, armorViewEl, materialsViewEl, skillsViewEl);
+  detailEl.hidden = false;
+
+  const members = monsters.filter(m => m.species === species);
+  if (!members.length) {
+    detailEl.innerHTML = `<p class="empty-state">${I18N.ui[lang].emptyState}</p>`;
+    return;
+  }
+  const genLabels = lang === "es" ? MONSTER_GEN_LABEL : MONSTER_GEN_LABEL_EN;
+  const sorted = members.slice().sort((a, b) => {
+    const ga = MONSTER_GEN[groupFor(a.name)] ?? 99;
+    const gb = MONSTER_GEN[groupFor(b.name)] ?? 99;
+    return ga - gb || a.name.localeCompare(b.name);
+  });
+  const byGen = new Map();
+  for (const m of sorted) {
+    const g = MONSTER_GEN[groupFor(m.name)] ?? 0;
+    if (!byGen.has(g)) byGen.set(g, []);
+    byGen.get(g).push(m);
+  }
+
+  const sectionsHtml = [...byGen.entries()].map(([gen, list]) => `
+    <section class="block">
+      <h3>${genLabels[gen] || ui("speciesGenUnknown")}</h3>
+      <div class="decorations-grid">
+        ${list.map(m => `
+          <button type="button" class="decoration-card" data-name="${escapeAttr(m.name)}">
+            <img src="${iconPath(m.name)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+            <span class="decoration-card-name">${trMonsterName(m.name)}</span>
+          </button>
+        `).join("")}
+      </div>
+    </section>
+  `).join("");
+
+  detailEl.innerHTML = `
+    <a class="decorations-back" href="index.html">${ui("speciesBack")}</a>
+    <div class="decoration-detail-header">
+      <h2>${trSpecies(species)}</h2>
+      <span class="decoration-detail-slot">${ui("speciesCountLabel")(members.length)}</span>
+    </div>
+    ${sectionsHtml}
+  `;
+  detailEl.querySelectorAll(".decoration-card[data-name]").forEach(btn => {
+    btn.addEventListener("click", () => navMonster(btn.dataset.name));
+  });
 }
 
 function alignInflictsDivider() {
