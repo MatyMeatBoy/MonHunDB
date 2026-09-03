@@ -1,8 +1,8 @@
 # Progreso del proyecto
 
-Última actualización: 2026-09-02
+Última actualización: 2026-09-03
 
-## Feature grande: Modelos 3D de monstruos + infra de armas (2026-09-02, EN CURSO)
+## Feature grande: Modelos 3D de monstruos + armas (2026-09-02/03, CERRADA)
 
 **Herramienta nueva, hecha por el usuario de forma independiente**: `ReAssets/monsterrip`
 (Python + Blender headless, gitignored — es tooling local, no contenido del sitio) extrae
@@ -12,11 +12,11 @@ de compresión que ya existía. Integrado a la página: `rise/app.js` → `MONST
 (monstruo → ruta `.glb`), renderizado en un `<model-viewer>` dentro de la ficha de cada
 monstruo (sección "Modelo 3D", con badge BETA).
 
-- **111/112 monstruos grandes+pequeños de Rise con modelo 3D** (faltan solo Narwa la
-  Todopoderosa como modelo aparte — reusa el de Thunder Serpent Narwa, mismo rig em099
-  escalado en el juego — y Pyrantula, ver abajo). MHFU: los 93 modelos existentes se
-  recomprimieron con Draco+AVIF (23.3MB → 3.4MB total, mismo pipeline que Rise/Wilds, que
-  ya lo usaban desde siempre).
+- **112/112 monstruos grandes+pequeños de Rise con modelo 3D** (100% — Narwa la Todopoderosa
+  reusa el de Thunder Serpent Narwa, mismo rig em099 escalado en el juego; Pyrantula se
+  resolvió el 03/09 una vez arreglado el cuelgue de Blender, ver más abajo). MHFU: los 93
+  modelos existentes se recomprimieron con Draco+AVIF (23.3MB → 3.4MB total, mismo pipeline
+  que Rise/Wilds, que ya lo usaban desde siempre).
 - **Bug grande encontrado y arreglado: contaminación de mallas variante.** `resolve_monster()`
   en `catalog.py` traía sin querer `Mizutsune (Rare)` y `(Apex)` al pedir solo `"Mizutsune"`,
   las 3 mallas se exportaban juntas en el mismo origen → parpadeo tipo "negativo" en el
@@ -35,29 +35,58 @@ monstruo (sección "Modelo 3D", con badge BETA).
   filas `.tex` del catálogo explícitamente por carpeta, como entradas de extracción propias
   — mismo mecanismo que malla/chain. Los 13 monstruos ya se re-extrajeron y están en
   producción.
-- **Feature nueva: extracción de armas** (recién arrancada, sin modelos todavía). El
-  catálogo tiene 1 malla por *familia* de arma pero `weapons.json` tiene una fila por
-  *tier* de mejora (Kamura Cleaver I..V comparten un solo modelo) — `resolve_weapon()`/
+- **Pyrantula**: id encontrado (`ems092_01`, comparte carpeta con Rachnoid pero slot `01` —
+  confirmado en la wiki de modding de MHRise, no está en el índice de mhrice.info por ser
+  contenido de Sunbreak). Extraído sin problemas una vez resuelto el cuelgue de Blender
+  (ver abajo) — el mesh en sí nunca fue el problema.
+- **Bloqueador de sesión resuelto**: Blender headless dejó de arrancar a mitad de la sesión
+  del 02/09 (cuelgue total, hasta con un smoke test sin addons) — no era bug del código,
+  se reprodujo 5+ veces. **Se arregló con un reinicio completo de la máquina** — al volver,
+  hasta un `--background --python-expr "print('hi')"` desnudo corrió instantáneo. Detalle
+  del diagnóstico (por si vuelve a pasar) en `ReAssets/docs/04_GOTCHAS.md`.
+- **Feature grande: extracción de armas — LOS 14 TIPOS COMPLETOS (2026-09-03).** El catálogo
+  tiene 1 malla por *familia* de arma pero `weapons.json` tiene una fila por *tier* de
+  mejora (Kamura Cleaver I..V comparten un solo modelo) — `resolve_weapon()`/
   `weapon_families()` en `catalog.py` resuelven esto, más las piezas emparejadas por tipo
-  (escudo/aljaba/funda/segunda hoja según el arma). CLI nuevo: `list-weapons`/`rip-weapons`.
-  Cobertura calculada: ~40% de las 3953 entradas individuales (~990 mallas a extraer en
-  total), matcheando por nombre de familia contra el catálogo. Sitio ya tiene el viewer 3D
-  listo en la página de armas (`weapons.html`, `weapon_models.json` vacío por ahora,
-  `weaponFamilyName()` en `app.js`) — probado en navegador, no rompe nada aunque no haya
-  modelos aún.
-- **Pyrantula** (único monstruo pequeño sin mapear): id encontrado (`ems092_01`, comparte
-  carpeta con Rachnoid pero slot `01` — confirmado en la wiki de modding de MHRise, no está
-  en el índice de mhrice.info por ser contenido de Sunbreak). Alias agregado, pero la
-  extracción nunca corrió.
-- **BLOQUEADOR ACTIVO al cortar esta sesión**: Blender headless dejó de arrancar a mitad de
-  sesión (cuelgue total, hasta con un smoke test sin addons) — no es bug del código nuevo,
-  se reprodujo 5+ veces. El usuario reinició la máquina para arreglarlo; **falta confirmar
-  que ya funciona y retomar `rip-weapons` por tipo de arma** (empezar por Gran Espada, ya
-  tiene la lista de 72 familias calculada). Detalle completo del diagnóstico en
-  `ReAssets/docs/04_GOTCHAS.md` (no versionado en git).
+  (escudo: Espada y Escudo/Lanza/Lanzagranadas/Hacha Espada; aljaba: Arco; funda: Espada
+  Larga; segunda hoja L/R: Espadas Dobles). CLI nuevo: `list-weapons`/`rip-weapons`.
+  **991 mallas extraídas en total** (72-75 por tipo), ~98% de éxito limpio por tipo (algún
+  ítem suelto con una textura alpha/emisiva secundaria faltante, nunca la principal — no
+  bloquea el modelo).
+  - **Bug real encontrado y arreglado durante Gran Espada**: nombres de familia con `:` o
+    `/` (`"Lost Code: Asca"`, `"Anfang/Fin"`) rompían `save_as_mainfile` en Windows (el
+    `:` se lee como separador de alternate-data-stream) y **tumbaban el batch entero sin
+    guardar el resultado de nada**, ni de los ítems ya extraídos con éxito — `_extract_job.py`
+    no aísla fallos por ítem. Arreglado sanitizando el nombre de archivo en disco
+    (`_safe_filename()` en `runner.py`), sin tocar el nombre real usado para resolver
+    contra el catálogo. Herramienta de recuperación nueva:
+    `ReAssets/convert_existing_blends.py` (convierte los `.blend` que ya se guardaron bien
+    sin tener que re-extraer todo el batch).
+  - **Fix grande de cobertura, reportado por el usuario** ("hay muchas Great Sword que no
+    veo, ej. Cat's Curse/Cat's Curse+/Cat's King"): la mayoría de los tiers de un árbol de
+    mejora, pasados los primeros, **no tienen malla propia en el catálogo** — reusan el
+    modelo de un tier anterior en el juego mismo (confirmado: Cat's Soul I/II → Cat's Curse
+    → Cat's Curse+ → Cat's King es una sola cadena y el catálogo solo tiene la malla de
+    Cat's Soul). `resolveWeaponModel()` en `app.js` camina la cadena `prevId` de cada arma
+    hasta encontrar un ancestro con modelo, en vez de solo mirar el nombre propio del arma.
+    Sin extraer una sola malla más, esto subió la cobertura de ~40% a **98.1% de las 3953
+    entradas individuales de `weapons.json`** (3877/3953). Los ~76 casos sin resolver son
+    líneas "Defender/Champion/Guardian" que no cuelgan de ningún árbol con malla real.
+  - Peso: **~377 KB promedio por arma** (mediana ~369 KB, rango 133-754 KB) con Draco+AVIF.
+- **Limpieza de disco post-extracción (2026-09-03)**: a pedido del usuario ("mi disco duro
+  va llenándose"), se borró todo lo que ya no hace falta ahora que los `.glb` finales están
+  copiados y commiteados en `rise/data/models/` — confirmado con `md5sum` que son idénticos
+  antes de borrar el origen. **~28 GB liberados**: `ReAssets/REAssetLibrary/` (13GB → 81MB,
+  eran los `.blend`/thumbnails del Asset Browser GUI de NSACloud, nunca usados por
+  `monsterrip` — quedan solo catálogo/pakcache/gameinfo, lo único que hace falta),
+  `ReAssets/REExtract/` (9GB, cache crudo del pak, se regenera solo si se vuelve a
+  extraer), `ReAssets/MHRise/*.blend` + `.glb` duplicados (778MB, ya están en
+  `rise/data/models/`), y `TextureCache` de RE Mesh Editor en AppData (5.4GB, fuera del
+  proyecto pero igual en el disco del usuario). Los huesos/skin ya viven adentro del `.glb`
+  final comprimido, así que nada de esto hacía falta guardar.
 - Documentación nueva en `ReAssets/docs/02_EXTRACTION.md` (sección "Weapons") y
-  `04_GOTCHAS.md` (3 secciones: texturas ausentes/arregladas, Pyrantula, cuelgue de
-  Blender).
+  `04_GOTCHAS.md` (secciones: texturas ausentes/arregladas, cuelgue de Blender/reinicio,
+  filenames ilegales en Windows).
 
 ## Feature: sharpness (filo) + canciones de Cuernos de Caza en Rise (2026-09-02)
 
@@ -171,20 +200,17 @@ carpetas propias), 78 monstruos grandes de Rise, 100% funcional. Todo lo scrapea
 `data/` (JSONs + scripts `.js` reutilizables), documentado abajo y en `DATA_NOTES.md`.
 **Nada se perdió, todo commiteado a disco y pusheado.**
 
-**LO MÁS URGENTE PARA RETOMAR** (ver sección "Feature grande: Modelos 3D..." arriba para el
-detalle completo): el usuario reinició la máquina para arreglar un cuelgue de Blender
-headless que bloqueaba toda extracción 3D. Antes de nada:
-1. Confirmar que `py -3 -m monsterrip rip rise "Aknosom"` (desde `ReAssets/`) corre sin
-   colgarse — si un smoke test de Blender solo (`blender --background --python-expr
-   "print('hi')"`) también se cuelga, el problema sigue siendo del sistema, no del código.
-2. Extraer Pyrantula (`py -3 -m monsterrip rip rise "Pyrantula"` — el alias ya está en
-   `SMALL_MONSTER_ALIASES`, nunca llegó a correr).
-3. Retomar armas por tipo, uno a la vez (**nunca dos jobs de monsterrip en simultáneo**,
-   se traban entre sí): `py -3 -m monsterrip rip-weapons rise "Great Sword" <72 familias>`
-   — la lista completa de familias por tipo ya está calculada, correr
-   `node ReAssets/build_weapon_families.js "<Tipo>"` la regenera. Después de cada tipo:
-   `node ReAssets/integrate_weapon_batch.js "<Tipo>"` copia los `.glb` y actualiza
-   `rise/data/weapon_models.json` automáticamente.
+**Modelos 3D: CERRADO** (ver sección "Feature grande: Modelos 3D..." arriba para el detalle
+completo). 112/112 monstruos de Rise + 14/14 tipos de arma (98.1% de las 3953 entradas
+individuales) tienen modelo 3D, todo commiteado y pusheado. Si algún día hace falta
+extraer algo más (un monstruo/arma nueva de un futuro DLC, por ejemplo): **nunca correr
+dos jobs de `monsterrip` en simultáneo**, se traban entre sí sin dar error (cuelgue
+silencioso). `py -3 -m monsterrip rip rise "<nombre>"` para un monstruo,
+`node ReAssets/build_weapon_families.js "<Tipo>"` + `py -3 -m monsterrip rip-weapons rise
+"<Tipo>" <familias>` + `node ReAssets/integrate_weapon_batch.js "<Tipo>"` para armas.
+`ReAssets/REExtract/` y los `.blend`/TextureCache intermedios se borran automáticamente
+del flujo normal — no hace falta conservarlos, el `.glb` final ya tiene todo (huesos
+incluidos).
 
 **Feature de silueta de hitzones (Rathalos + Corte, ver sección propia abajo): CERRADA.** El bug del hueco/tooltip se resolvió identificando que la asignación región→parte estaba mal (no era un problema de trazado/dilatación) — ver sección "Silueta de hitzones" más abajo para el detalle y la lección aprendida (documentada también en `data/SILHOUETTE_GUIDE.md`).
 
